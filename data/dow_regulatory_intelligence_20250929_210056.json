@@ -1,0 +1,71 @@
+{
+  "critical_alerts": [],
+  "competitor_intelligence": [
+    {
+      "company": "Phillips 66",
+      "company_relationship": "chemicals",
+      "priority_level": "high",
+      "cik": "1534701",
+      "ticker": "EMN",
+      "form_type": "8-K",
+      "filing_date": "2025-09-18",
+      "document": "d25054d8k.htm",
+      "access_number": "0001193125-25-207435",
+      "file_size": 1147464,
+      "compliance_category": "Material Events & Corporate Changes",
+      "dow_relevance_score": 8.5,
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/1534701/0001193125-25-207435/d25054d8k.htm",
+      "sec_backup_urls": {
+        "sec_search": "https://www.sec.gov/edgar/search/#/dateRange=all&entityName=Eastman Chemical Company&forms=8-K",
+        "company_page": "https://www.sec.gov/edgar/browse/?CIK=1534701",
+        "accession_search": "https://www.sec.gov/edgar/search/#/q=000119312525207435"
+      },
+      "fetched_timestamp": "2025-09-29T21:00:35.119232"
+    }
+  ],
+  "customer_updates": [
+    {
+      "company": "Tesla, Inc.",
+      "company_relationship": "automotive",
+      "priority_level": "high",
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "form_type": "DEF 14A",
+      "filing_date": "2025-09-17",
+      "document": "tm252289-12_def14a.htm",
+      "access_number": "0001104659-25-090866",
+      "file_size": 12897855,
+      "compliance_category": "Shareholder Governance",
+      "dow_relevance_score": 7.5,
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/1318605/0001104659-25-090866/tm252289-12_def14a.htm",
+      "sec_backup_urls": {
+        "sec_search": "https://www.sec.gov/edgar/search/#/dateRange=all&entityName=Tesla, Inc.&forms=DEF 14A",
+        "company_page": "https://www.sec.gov/edgar/browse/?CIK=1318605",
+        "accession_search": "https://www.sec.gov/edgar/search/#/q=000110465925090866"
+      },
+      "fetched_timestamp": "2025-09-29T21:00:39.342697"
+    }
+  ],
+  "supplier_alerts": [],
+  "regulatory_trends": [],
+  "metadata": {
+    "fetch_timestamp": "2025-09-29T21:00:27.417367",
+    "monitoring_period_days": 14,
+    "companies_processed": 9,
+    "total_filings_found": 2
+  },
+  "dow_metadata": {
+    "generated_for": "Dow Chemical Company",
+    "compliance_focus": "Multi-jurisdictional chemical industry compliance",
+    "alert_categories": [
+      "financial_compliance",
+      "environmental_disclosure",
+      "governance",
+      "acquisitions",
+      "risk_factors"
+    ],
+    "monitoring_scope": "9 industry-relevant companies",
+    "next_fetch_recommended": "2025-09-30T21:00:56.771889",
+    "url_access_methods": "Primary URLs with enterprise backup methods included"
+  }
+}
