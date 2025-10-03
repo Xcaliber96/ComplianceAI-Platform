@@ -55,9 +55,6 @@ REGULATION_LIBRARY = [
     }
 ]
 
-
-# --- 2. Document Processing Functions ---
-
 def extract_text_from_pdf(pdf_path):
     """Extracts all text from a local PDF file using PyPDF2."""
     text = ""
