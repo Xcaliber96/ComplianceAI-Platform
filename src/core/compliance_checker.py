@@ -6,14 +6,22 @@ import requests
 from PyPDF2 import PdfReader
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
+import os
+from huggingface_hub import InferenceClient
+
+
 
 # --- 1. Configuration and Setup ---
 SBERT_MODEL_NAME = 'all-mpnet-base-v2' 
 COMPLIANCE_THRESHOLD = 60.0 # Adjusted threshold for semantic scoring
 
-LLM_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2" 
-HF_API_TOKEN = os.environ.get("HF_TOKEN")
+HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
 HEADERS = {"Authorization": f"Bearer {HF_API_TOKEN}"} if HF_API_TOKEN else {}
+
+client = InferenceClient(
+    provider="featherless-ai",
+    api_key=os.environ["HF_API_TOKEN"],
+)
 
 try:
     MODEL = SentenceTransformer(SBERT_MODEL_NAME)
@@ -46,9 +54,6 @@ REGULATION_LIBRARY = [
         "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
     }
 ]
-
-
-# --- 2. Document Processing Functions ---
 
 def extract_text_from_pdf(pdf_path):
     """Extracts all text from a local PDF file using PyPDF2."""
@@ -103,50 +108,35 @@ def calculate_cosine_similarity(emb1, emb2):
     if emb1 is None or emb2 is None:
         return 0.0
     return cosine_similarity(emb1, emb2)[0][0]
-
 def generate_llm_narrative(reg_text, evidence_chunk):
     """
-    Generates a narrative explanation for a compliance gap using the Hugging Face API (free tier).
-    (This addresses Dow's need for "Human Judgment" and "Training").
+    Generates a narrative explanation for a compliance gap using the Hugging Face InferenceClient.
+    Uses mistralai/Mistral-7B-Instruct-v0.2 (through Featherless provider).
     """
     if not HF_API_TOKEN:
         return "Narrative generation skipped: HF_TOKEN not set."
 
-    # Prompt the LLM to act as a compliance analyst
     prompt = f"""
-    You are a brief compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE and state the compliance GAP in one clear sentence.
-    
+    You are a compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE
+    and state the compliance GAP in one clear sentence.
+
     REGULATION: "{reg_text}"
-    
+
     POLICY EVIDENCE: "{evidence_chunk[:500]}"
-    
+
     GAP SUMMARY:
     """
-    
-    payload = {
-        "inputs": prompt,
-        "parameters": {
-            "max_new_tokens": 100,
-            "temperature": 0.2,
-            "return_full_text": False
-        }
-    }
 
     try:
-        response = requests.post(LLM_API_URL, headers=HEADERS, json=payload, timeout=30)
-        response.raise_for_status()
-        
-        # Extract the generated text from the response
-        data = response.json()
-        if data and data[0].get('generated_text'):
-            # Clean up the output to ensure it's a single, clear sentence
-            narrative = data[0]['generated_text'].strip()
-            return narrative.split('\n')[0].replace("GAP SUMMARY:", "").strip()
-        return "LLM could not generate a coherent response."
-
-    except requests.exceptions.RequestException as e:
-        # Catch API errors (rate limits, cold starts)
-        return f"LLM API Error (Check HF_TOKEN/Rate Limits): {e}"
+        completion = client.chat.completions.create(
+            model="mistralai/Mistral-7B-Instruct-v0.2",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=200,
+            temperature=0.3
+        )
+        return completion.choices[0].message.content.strip()
+    except Exception as e:
+        return f"LLM API Error: {e}"
 
 
 # --- 4. Main Pipeline Execution ---
