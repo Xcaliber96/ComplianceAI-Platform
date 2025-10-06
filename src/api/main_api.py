@@ -1,27 +1,18 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import JSONResponse
 from typing import List
-from core.Connectors import fetch_sharepoint_files, fetch_gdrive_files
-from core.compliance_checker import ComplianceChecker
-from core.work import DowComplianceDataFetcher
-from core.RAG import ComplianceChecker as RAGComplianceChecker
+from src.core.backend import fetch_files, fetch_files_from_source
+# from src.core.compliance_checker import ComplianceChecker
+from src.core.work import DowComplianceDataFetcher
+from src.core.RAG import ComplianceChecker as RAGComplianceChecker
 
 app = FastAPI()
 
-# ===== File Connectors (Example Endpoints) =====
-
 @app.post("/api/fetch_files")
 async def fetch_files(source: str = Form(...)):
-    # Route request to appropriate connector.
-    if source.lower() == "sharepoint":
-        # files = fetch_sharepoint_files(request data)
-        files = ["Mock_SharePoint_File_A", "Mock_SharePoint_File_B"]
-    elif source.lower() == "gdrive":
-        # files = fetch_gdrive_files(request data)
-        files = ["Mock_GDrive_File_1", "Mock_GDrive_File_2"]
-    else:
-        files = []
-    return {"files": files}
+    """Call the unified backend fetch function."""
+    result = fetch_files_from_source(source)
+    return result
 
 # ===== Compliance Analysis (Internal) =====
 

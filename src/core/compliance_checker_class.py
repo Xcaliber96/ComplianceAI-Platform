@@ -4,8 +4,6 @@ import re
 import chromadb
 from PyPDF2 import PdfReader
 from huggingface_hub import InferenceClient
-
-
 class ComplianceChecker:
     def __init__(self, pdf_path, regulations, collection_name="policies",
                  compliance_threshold=0.60, top_k=1):
@@ -158,36 +156,3 @@ class ComplianceChecker:
         print("✅ COMPLIANT AREAS")
         for ok in [r for r in compliance_results if r['Is_Compliant']]:
             print(f"- {ok['Reg_ID']} | Score: {ok['Compliance_Score']:.2f}%")
-
-
-# -------------------------------
-# Example usage:
-# -------------------------------
-if __name__ == "__main__":
-    REGULATION_LIBRARY = [
-        {
-            "Reg_ID": "HIPAA-164.312(b)",
-            "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
-            "Risk_Rating": "High (Data Security)",
-            "Target_Area": "Technical Control, Audit/Logging",
-            "Dow_Focus": "Eliminating Issues, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "HIPAA-164.306(a)",
-            "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
-            "Risk_Rating": "High (Data Integrity)",
-            "Target_Area": "Administrative Policy, Data Security",
-            "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "SEC-R404.1",
-            "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
-            "Risk_Rating": "Critical (Financial/Legal)",
-            "Target_Area": "Employee Conduct, Conflict of Interest",
-            "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
-        }
-    ]
-
-    checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
-    results = checker.run_check()
-    checker.summary(results)
