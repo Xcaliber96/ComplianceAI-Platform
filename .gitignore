@@ -1,2 +1,60 @@
+.env
+client_secret.json
+token.json
+src/core/client_secret.json
+src/core/token.json
+src/core/files_metadata.json
+src/core/compliance-473813-77510ba23840.json
+src/core/stored_drive_files.json
+src/core/*.pem
+src/core/*.p12
+src/core/*.key
+client_secret.json
+token.json
 client_secret.json
 files_metadata.json
+compliance-473813-77510ba23840.json
+
+
+# ===============================
+# 🧠 Local data / cache directories
+# ===============================
+src/core/chroma_data/
+downloads/
+temp/
+__pycache__/
+*.tmp
+*.log
+
+# ===============================
+# 🧰 Backup / copies / generated files
+# ===============================
+src/core/backend - Copy.py
+* - Copy.py
+*.bak
+*.old
+
+# ===============================
+# ⚙️ Environment & virtual envs
+# ===============================
+.venv/
+venv/
+lib/
+.idea/
+.vscode/
+
+# ===============================
+# 🗃️ OS junk
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# 📄 Example / sample data (optional)
+# ===============================
+sample_regulations.json
+
+src/core/files_metadata.json
+src/core/stored_drive_files.json
+src/core/network.html

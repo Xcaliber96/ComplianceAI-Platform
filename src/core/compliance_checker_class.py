@@ -16,7 +16,7 @@ class ComplianceChecker:
         # HuggingFace LLM client
         hf_token = os.environ.get("HF_API_TOKEN")
         if not hf_token:
-            raise ValueError("❌ HF_API_TOKEN is not set in environment!")
+            raise ValueError("HF_API_TOKEN is not set in environment!")
         self.llm_client = InferenceClient(api_key=hf_token, provider="featherless-ai")
 
         # ChromaDB setup
@@ -95,7 +95,7 @@ class ComplianceChecker:
             metas = result.get("metadatas", [[]])[0] if result.get("metadatas") else [{} for _ in docs]
 
             print("\n" + "=" * 90)
-            print(f"📜 REGULATION: {reg_id}")
+            print(f"REGULATION: {reg_id}")
             print(f"TEXT: {query_text}")
             print("-" * 90)
 
@@ -108,7 +108,7 @@ class ComplianceChecker:
                 score_percent = similarity * 100
                 is_compliant = similarity >= self.compliance_threshold
 
-                status = "✅ COMPLIANT" if is_compliant else "❌ GAP DETECTED"
+                status = "COMPLIANT" if is_compliant else "GAP DETECTED"
                 line_info = f" (chunk {meta.get('chunk')})" if isinstance(meta, dict) and 'chunk' in meta else ""
 
                 print(f"[{rank}] {status} | Compliance Score: {score_percent:.2f}%{line_info}")
@@ -118,7 +118,7 @@ class ComplianceChecker:
                 if not is_compliant:
                     print(f"   [🤖 Generating Narrative for {reg_id}...]")
                     narrative = self.generate_llm_narrative(query_text, doc)
-                    print(f"   📌 Narrative Gap: {narrative}")
+                    print(f"Narrative Gap: {narrative}")
 
                 compliance_results.append({
                     "Reg_ID": reg_id,
