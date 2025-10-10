@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Box>
       <Box sx={{ p: 2, borderBottom: '1px solid #eee' }}>
-        <Typography variant="h5">TreuAI</Typography>
+        <Typography variant="h5">NomiAI</Typography>
       </Box>
 
 

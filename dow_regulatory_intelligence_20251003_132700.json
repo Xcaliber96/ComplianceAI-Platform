@@ -1,0 +1,92 @@
+{
+  "critical_alerts": [],
+  "competitor_intelligence": [
+    {
+      "company": "Phillips 66",
+      "company_relationship": "chemicals",
+      "priority_level": "high",
+      "cik": "1534701",
+      "ticker": "EMN",
+      "form_type": "8-K",
+      "filing_date": "2025-09-30",
+      "document": "d65689d8k.htm",
+      "access_number": "0001193125-25-225107",
+      "file_size": 299480,
+      "compliance_category": "Material Events & Corporate Changes",
+      "dow_relevance_score": 8.5,
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/1534701/0001193125-25-225107/d65689d8k.htm",
+      "sec_backup_urls": {
+        "sec_search": "https://www.sec.gov/edgar/search/#/dateRange=all&entityName=Eastman Chemical Company&forms=8-K",
+        "company_page": "https://www.sec.gov/edgar/browse/?CIK=1534701",
+        "accession_search": "https://www.sec.gov/edgar/search/#/q=000119312525225107"
+      },
+      "fetched_timestamp": "2025-10-03T13:26:52.819296"
+    }
+  ],
+  "customer_updates": [
+    {
+      "company": "MICROSOFT CORP",
+      "company_relationship": "technology",
+      "priority_level": "medium",
+      "cik": "789019",
+      "ticker": "MSFT",
+      "form_type": "8-K",
+      "filing_date": "2025-09-30",
+      "document": "d863209d8k.htm",
+      "access_number": "0001193125-25-225125",
+      "file_size": 180117,
+      "compliance_category": "Material Events & Corporate Changes",
+      "dow_relevance_score": 6.0,
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/789019/0001193125-25-225125/d863209d8k.htm",
+      "sec_backup_urls": {
+        "sec_search": "https://www.sec.gov/edgar/search/#/dateRange=all&entityName=Microsoft Corporation&forms=8-K",
+        "company_page": "https://www.sec.gov/edgar/browse/?CIK=789019",
+        "accession_search": "https://www.sec.gov/edgar/search/#/q=000119312525225125"
+      },
+      "fetched_timestamp": "2025-10-03T13:26:56.738641"
+    },
+    {
+      "company": "Tesla, Inc.",
+      "company_relationship": "automotive",
+      "priority_level": "high",
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "form_type": "8-K",
+      "filing_date": "2025-10-02",
+      "document": "tsla-20251002.htm",
+      "access_number": "0001628280-25-043530",
+      "file_size": 157635,
+      "compliance_category": "Material Events & Corporate Changes",
+      "dow_relevance_score": 8.5,
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/1318605/0001628280-25-043530/tsla-20251002.htm",
+      "sec_backup_urls": {
+        "sec_search": "https://www.sec.gov/edgar/search/#/dateRange=all&entityName=Tesla, Inc.&forms=8-K",
+        "company_page": "https://www.sec.gov/edgar/browse/?CIK=1318605",
+        "accession_search": "https://www.sec.gov/edgar/search/#/q=000162828025043530"
+      },
+      "fetched_timestamp": "2025-10-03T13:26:57.715146"
+    }
+  ],
+  "supplier_alerts": [],
+  "regulatory_trends": [],
+  "metadata": {
+    "fetch_timestamp": "2025-10-03T13:26:45.129551",
+    "monitoring_period_days": 14,
+    "companies_processed": 9,
+    "total_filings_found": 3
+  },
+  "dow_metadata": {
+    "generated_for": "Dow Chemical Company",
+    "compliance_focus": "Multi-jurisdictional chemical industry compliance",
+    "alert_categories": [
+      "financial_compliance",
+      "environmental_disclosure",
+      "governance",
+      "acquisitions",
+      "risk_factors"
+    ],
+    "monitoring_scope": "9 industry-relevant companies",
+    "next_fetch_recommended": "2025-10-04T13:27:00.853535",
+    "url_access_methods": "Primary URLs with enterprise backup methods included"
+  }
+}
