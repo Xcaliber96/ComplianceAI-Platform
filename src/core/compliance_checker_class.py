@@ -4,8 +4,6 @@ import re
 import chromadb
 from PyPDF2 import PdfReader
 from huggingface_hub import InferenceClient
-
-
 class ComplianceChecker:
     def __init__(self, pdf_path, regulations, collection_name="policies",
                  compliance_threshold=0.60, top_k=1):
@@ -18,7 +16,7 @@ class ComplianceChecker:
         # HuggingFace LLM client
         hf_token = os.environ.get("HF_API_TOKEN")
         if not hf_token:
-            raise ValueError("❌ HF_API_TOKEN is not set in environment!")
+            raise ValueError("HF_API_TOKEN is not set in environment!")
         self.llm_client = InferenceClient(api_key=hf_token, provider="featherless-ai")
 
         # ChromaDB setup
@@ -97,7 +95,7 @@ class ComplianceChecker:
             metas = result.get("metadatas", [[]])[0] if result.get("metadatas") else [{} for _ in docs]
 
             print("\n" + "=" * 90)
-            print(f"📜 REGULATION: {reg_id}")
+            print(f"REGULATION: {reg_id}")
             print(f"TEXT: {query_text}")
             print("-" * 90)
 
@@ -110,7 +108,7 @@ class ComplianceChecker:
                 score_percent = similarity * 100
                 is_compliant = similarity >= self.compliance_threshold
 
-                status = "✅ COMPLIANT" if is_compliant else "❌ GAP DETECTED"
+                status = "COMPLIANT" if is_compliant else "GAP DETECTED"
                 line_info = f" (chunk {meta.get('chunk')})" if isinstance(meta, dict) and 'chunk' in meta else ""
 
                 print(f"[{rank}] {status} | Compliance Score: {score_percent:.2f}%{line_info}")
@@ -120,7 +118,7 @@ class ComplianceChecker:
                 if not is_compliant:
                     print(f"   [🤖 Generating Narrative for {reg_id}...]")
                     narrative = self.generate_llm_narrative(query_text, doc)
-                    print(f"   📌 Narrative Gap: {narrative}")
+                    print(f"Narrative Gap: {narrative}")
 
                 compliance_results.append({
                     "Reg_ID": reg_id,
@@ -158,36 +156,3 @@ class ComplianceChecker:
         print("✅ COMPLIANT AREAS")
         for ok in [r for r in compliance_results if r['Is_Compliant']]:
             print(f"- {ok['Reg_ID']} | Score: {ok['Compliance_Score']:.2f}%")
-
-
-# -------------------------------
-# Example usage:
-# -------------------------------
-if __name__ == "__main__":
-    REGULATION_LIBRARY = [
-        {
-            "Reg_ID": "HIPAA-164.312(b)",
-            "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
-            "Risk_Rating": "High (Data Security)",
-            "Target_Area": "Technical Control, Audit/Logging",
-            "Dow_Focus": "Eliminating Issues, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "HIPAA-164.306(a)",
-            "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
-            "Risk_Rating": "High (Data Integrity)",
-            "Target_Area": "Administrative Policy, Data Security",
-            "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "SEC-R404.1",
-            "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
-            "Risk_Rating": "Critical (Financial/Legal)",
-            "Target_Area": "Employee Conduct, Conflict of Interest",
-            "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
-        }
-    ]
-
-    checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
-    results = checker.run_check()
-    checker.summary(results)
