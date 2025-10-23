@@ -1,78 +1,65 @@
-import { Box, FormControl, InputLabel, MenuItem, Select, Stack, Typography, Button } from '@mui/material'
+import { Box, FormControl, InputLabel, MenuItem, Select, Button } from '@mui/material'
 import { useFilters } from '../store/filters'
-import { useEffect, useMemo, useState } from 'react'
-
-const departments = ['Legal', 'HR', 'Finance', 'IT', 'Operations']
 
 export default function GlobalFilters() {
-  const { department, country, state, setDepartment, setCountry, setState, reset } = useFilters()
-  const [countries, setCountries] = useState<{ name: string; isoCode: string }[]>([])
-  const [states, setStates] = useState<{ name: string; isoCode: string }[]>([])
-
-  useEffect(() => {
-    // Dynamically import the package
-    import('react-country-state-city').then((module: any) => {
-      module.Country.getAllCountries().then((list: any[]) => {
-        setCountries(list.map((c: any) => ({ name: c.name, isoCode: c.isoCode })))
-      })
-    })
-  }, [])
-  useEffect(() => {
-    import('react-country-state-city').then((module: any) => {
-      console.log(module);
-    });
-  }, []);
-  
-
-  useEffect(() => {
-    if (country) {
-      import('react-country-state-city').then((module: any) => {
-        module.State.getStatesOfCountry(country).then((list: any[]) => {
-          setStates(list.map((s: any) => ({ name: s.name, isoCode: s.isoCode })))
-        })
-      })
-    } else {
-      setStates([])
-    }
-  }, [country])
-
-  const countryLabel = useMemo(() => countries.find((c) => c.isoCode === country)?.name ?? '', [country, countries])
-  const stateLabel = useMemo(() => states.find((s) => s.isoCode === state)?.name ?? '', [state, states])
+  const filters = useFilters()
 
   return (
-    <Box sx={{ p: 2, borderBottom: '1px solid #eee', background: '#fafafa' }}>
-      <Stack direction="row" spacing={2} alignItems="center">
-        <Typography variant="subtitle1">Filters</Typography>
+    <Box sx={{ p: 2, display: 'flex', gap: 2, borderBottom: '1px solid #eee' }}>
+      <FormControl size="small" sx={{ minWidth: 150 }}>
+        <InputLabel>Department</InputLabel>
+        <Select
+          value={filters.department ?? ''}
+          onChange={(e) => filters.setDepartment(e.target.value || null)}
+          label="Department"
+        >
+          <MenuItem value="">All</MenuItem>
+          <MenuItem value="IT">IT</MenuItem>
+          <MenuItem value="Finance">Finance</MenuItem>
+          <MenuItem value="Legal">Legal</MenuItem>
+          <MenuItem value="HR">HR</MenuItem>
+        </Select>
+      </FormControl>
 
-        <FormControl size="small" sx={{ minWidth: 160 }}>
-          <InputLabel>Department</InputLabel>
-          <Select value={department ?? ''} label="Department" onChange={(e) => setDepartment(e.target.value || null)}>
-            <MenuItem value=""><em>All</em></MenuItem>
-            {departments.map((d) => <MenuItem key={d} value={d}>{d}</MenuItem>)}
-          </Select>
-        </FormControl>
+      <FormControl size="small" sx={{ minWidth: 150 }}>
+        <InputLabel>Country</InputLabel>
+        <Select
+          value={filters.country ?? ''}
+          onChange={(e) => filters.setCountry(e.target.value || null)}
+          label="Country"
+        >
+          <MenuItem value="">All</MenuItem>
+          <MenuItem value="US">US</MenuItem>
+          <MenuItem value="IN">India</MenuItem>
+          <MenuItem value="UK">UK</MenuItem>
+        </Select>
+      </FormControl>
 
-        <FormControl size="small" sx={{ minWidth: 160 }}>
-          <InputLabel>Country</InputLabel>
-          <Select value={country ?? ''} label="Country" onChange={(e) => setCountry(e.target.value || null)}>
-            <MenuItem value=""><em>All</em></MenuItem>
-            {countries.map((c) => <MenuItem key={c.isoCode} value={c.isoCode}>{c.name}</MenuItem>)}
-          </Select>
-        </FormControl>
+      <FormControl size="small" sx={{ minWidth: 150 }}>
+        <InputLabel>State</InputLabel>
+        <Select
+          value={filters.state ?? ''}
+          onChange={(e) => filters.setState(e.target.value || null)}
+          label="State"
+        >
+          <MenuItem value="">All</MenuItem>
+          <MenuItem value="CA">California</MenuItem>
+          <MenuItem value="NY">New York</MenuItem>
+          <MenuItem value="DL">Delhi</MenuItem>
+        </Select>
+      </FormControl>
 
-        <FormControl size="small" sx={{ minWidth: 160 }} disabled={!country}>
-          <InputLabel>State</InputLabel>
-          <Select value={state ?? ''} label="State" onChange={(e) => setState(e.target.value || null)}>
-            <MenuItem value=""><em>All</em></MenuItem>
-            {states.map((s) => <MenuItem key={s.isoCode} value={s.isoCode}>{s.name}</MenuItem>)}
-          </Select>
-        </FormControl>
-
-        <Button onClick={reset} variant="outlined">Clear</Button>
-        <Typography variant="caption" color="text.secondary">
-          Dept: {department ?? 'All'} | Country: {countryLabel || 'All'} | State: {stateLabel || 'All'}
-        </Typography>
-      </Stack>
+      <Button
+        variant="outlined"
+        size="small"
+        onClick={() => {
+          filters.setDepartment(null)
+          filters.setCountry(null)
+          filters.setState(null)
+        }}
+      >
+        Clear
+      </Button>
     </Box>
   )
 }
