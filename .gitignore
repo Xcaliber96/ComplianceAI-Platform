@@ -14,6 +14,46 @@ token.json
 client_secret.json
 files_metadata.json
 compliance-473813-77510ba23840.json
+# 🔐 Environment & credentials
+.env
+token.json
+client_secret.json
+admin-key.json
+added_users.json
+competitors.json
+sample_regulations.json
+stored_drive_files.json
+files_metadata.json
+compliance-*.json
+complianceai.db
+dow_regulatory_intelligence_*.json
+
+# 🧠 Internal API data
+*.db
+*.sqlite
+*.json
+!package.json  # keep only your frontend package.json visible
+
+.env
+*.env
+admin-key.json*
+client_secret.json
+competitors.json
+files_metadata.json
+compliance*.json
+*.backup
+
+# 🧰 Local system / log artifacts
+__pycache__/
+*.pyc
+*.log
+*.bak
+
+# ⚙️ Local tools
+uvicorn
+.git/
+.vscode/
+.idea/
 
 
 # ===============================
@@ -54,7 +94,8 @@ desktop.ini
 # 📄 Example / sample data (optional)
 # ===============================
 sample_regulations.json
-
+admin-key.json
 src/core/files_metadata.json
 src/core/stored_drive_files.json
-src/core/network.html
+src/core/network.html"src/core/admin-key.json" 
+"src/core/admin-key.json" 

@@ -15,6 +15,8 @@
     "@mui/lab": "^6.0.0-beta.24",
     "@mui/material": "^6.0.2",
     "axios": "^1.7.2",
+    "firebase": "^12.4.0",
+    "lucide-react": "^0.548.0",
     "react": "^18.3.1",
     "react-country-state-city": "^1.1.12",
     "react-dom": "^18.3.1",
@@ -27,6 +29,9 @@
     "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
     "typescript": "^5.6.2",
     "vite": "^7.1.9"
   }

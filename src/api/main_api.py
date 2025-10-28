@@ -1,3 +1,6 @@
+from fastapi import FastAPI, UploadFile, File, Form, Depends
+from fastapi.responses import JSONResponse
+from typing import List
 from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,11 +9,7 @@ from typing import List, Optional
 import logging, sys, io, json, os, tempfile, hashlib, requests
 from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
-
-# Core imports
-from core.backend import fetch_files_from_source
-from core.work import DowComplianceDataFetcher
-from core.RAG import ComplianceChecker as RAGComplianceChecker
+from src.core.LLM import generate_market_insight
 
 # Google API imports
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -20,8 +19,93 @@ from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 
 # Local imports for DB
-from api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
-from api.db import get_db, engine, SessionLocal
+from src.api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
+from src.api.db import get_db, engine, SessionLocal
+from apscheduler.schedulers.background import BackgroundScheduler
+import logging, sys,io,json, os
+from src.core.backend import fetch_files_from_source
+from src.core.work import DowComplianceDataFetcher
+from src.core.RAG import ComplianceChecker as RAGComplianceChecker
+from fastapi import FastAPI, Form
+import os, json, requests, logging, sys, traceback,tempfile
+import msal
+
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaIoBaseDownload
+from google.oauth2.credentials import Credentials
+from fastapi.responses import JSONResponse
+from google.oauth2 import service_account
+from pydantic import BaseModel
+DOWNLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "shared_downloads"))
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+from fastapi.middleware.cors import CORSMiddleware
+import firebase_admin
+from fastapi import FastAPI, Request, UploadFile, File, Form, Depends, HTTPException
+from google.auth.transport.requests import Request as GoogleAuthRequest
+from firebase_admin import auth as firebase_auth, credentials
+from fastapi import HTTPException
+
+from google.auth.exceptions import RefreshError
+from fastapi.middleware.cors import CORSMiddleware
+from src.core.extract_keywords import read_policy_text, extract_keywords
+from fastapi import FastAPI, Depends
+from sqlalchemy.orm import Session
+from src.core.find_competitors import find_competitors, clean_names, get_company_filings
+from fastapi import APIRouter
+
+router = APIRouter()
+
+TOKEN_FILE = "token.json"
+G_SCOPES = [
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/drive.metadata.readonly",
+]
+
+
+def get_gdrive_credentials():
+    """Safely load Google Drive credentials, auto-delete invalid token.json"""
+    creds = None
+    if os.path.exists(TOKEN_FILE):
+        try:
+            creds = Credentials.from_authorized_user_file(TOKEN_FILE, G_SCOPES)
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(GoogleAuthRequest())
+        except (ValueError, RefreshError) as e:
+            print(f"Invalid or expired token.json: {e}")
+            try:
+                os.remove(TOKEN_FILE)
+                print("Removed corrupted token.json; will re-auth next time.")
+            except Exception:
+                pass
+            creds = None
+
+    if not creds:
+        flow = InstalledAppFlow.from_client_secrets_file("client_secret.json", G_SCOPES)
+        creds = flow.run_local_server(
+            port=8080,
+            access_type="offline",
+            prompt="consent",
+            include_granted_scopes="true",
+        )
+        with open(TOKEN_FILE, "w") as token:
+            token.write(creds.to_json())
+
+    return creds
+
+# Load GCP settings
+PROJECT_ID = "compliance-473813"
+ROLE = "roles/storage.objectAdmin"
+
+# Load service account credentials
+SERVICE_ACCOUNT_FILE = "admin-key.json"
+
+class UserAccessRequest(BaseModel):
+    email: str
+
+# Local imports for DB
+from src.api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
+from src.api.db import get_db, engine, SessionLocal
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -49,8 +133,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# ============== REGULATORY MONITORING ==============
 
 # Processed regulations cache
 processed_regulations = set()
@@ -141,6 +223,32 @@ ROLE_ASSIGNMENTS = {
     "Audit": "audit@company.com",
     "Compliance": "compliance@company.com"
 }
+
+@app.post("/api/competitors")
+async def get_competitors(company_name: str = Form(...)):
+    """
+    Given a company name, return its competitors and their recent filings.
+    """
+    try:
+        competitors = find_competitors(company_name)
+        cleaned = clean_names(competitors)
+        filings = get_company_filings(cleaned)
+        return {"company": company_name, "competitors": cleaned, "filings": filings}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.post("/api/analyze")
+async def analyze_company(company_name: str = Form(...)):
+    """
+    Generate AI-based insights for a company using GPT-4o.
+    """
+    try:
+        competitors = clean_names(find_competitors(company_name))
+        filings = get_company_filings(competitors)
+        insight = generate_market_insight(company_name, competitors, filings)
+        return {"company": company_name, "insight": insight}
+    except Exception as e:
+        return {"error": str(e)}
 
 def check_federal_register():
     """Monitor Federal Register for new rules"""
@@ -253,35 +361,96 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-# ============== API ENDPOINTS ==============
-
 @app.post("/api/fetch_files")
 async def fetch_files(source: str = Form(...)):
-    logging.info(f"Fetching files from source: {source}")
-    result = fetch_files_from_source(source)
-    return result
+    try:
+        result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
+        return result
+    except Exception as e:
+        traceback.print_exc()
+        return {"error": str(e)}
+    finally:
+        cleanup_temp_files()
+async def extract_keywords_api(file: UploadFile = File(...)):
+    """Automatically extract compliance-related keywords from uploaded file."""
+    # Save uploaded file temporarily
+    file_path = os.path.join(SHARED_DIR, file.filename)
+    with open(file_path, "wb") as f:
+        f.write(await file.read())
 
-def load_stored_files():
+    try:
+        text = read_policy_text(file_path)
+        keywords = extract_keywords(text)
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+    return {"filename": file.filename, "keywords": keywords}
+
+@app.post("/api/fetch_files")
+async def fetch_files(
+    source: str = Form(...),
+    folder_id: str = Form(default="root")
+):
+
+    logging.info(f"Fetching files from source: {source}, folder_id: {folder_id}")
+
+    creds = get_gdrive_credentials()
+    service = build("drive", "v3", credentials=creds)
+    result = fetch_files_from_source(source, folder_id, service)
+
+    try:
+        upload_for_audit(result)
+    except Exception as e:
+        logging.warning(f"Upload for audit failed: {e}")
+
+    if not os.path.exists(DOWNLOAD_DIR):
+        os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+
+    downloaded_files = [os.path.join(DOWNLOAD_DIR, f) for f in os.listdir(DOWNLOAD_DIR) if os.path.isfile(os.path.join(DOWNLOAD_DIR, f))]
+    if not downloaded_files:
+        logging.warning("No downloaded files found in shared_downloads.")
+        return {"files": result, "keywords": [], "message": "No files found to analyze."}
+
+    latest_file = max(downloaded_files, key=os.path.getmtime)
+    logging.info(f"Latest downloaded file detected: {latest_file}")
+
+    # Extract text + keywords
+    try:
+        text = read_policy_text(latest_file)
+        keywords = extract_keywords(text)
+        logging.info(f"Extracted {len(keywords)} keywords from {os.path.basename(latest_file)}")
+    except Exception as e:
+        logging.error(f"Keyword extraction failed: {e}")
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+    # Return clean response
+    return {
+        "files": result,
+        "keywords": keywords,
+        "analyzed_file": os.path.basename(latest_file),
+        "download_path": latest_file
+    }
+def load_stored_files(response_model=None):
     if os.path.exists(STORED_FILES):
         with open(STORED_FILES, "r", encoding="utf-8") as f:
             return json.load(f)
     return []
 
-@app.post("/api/download_file")
+@app.post("/api/download_file", response_model=None)
 async def download_gdrive_file(file_id: str = Form(...)):
     try:
         creds = None
         if os.path.exists("token.json"):
-            creds = Credentials.from_authorized_user_file("token.json", G_SCOPES)
+            creds = get_gdrive_credentials()
         else:
             return {"error": "Not authenticated with Google Drive."}
 
         service = build("drive", "v3", credentials=creds)
         file = service.files().get(fileId=file_id, fields="name").execute()
         file_name = file["name"]
+
         request = service.files().get_media(fileId=file_id)
-        file_path = os.path.join("downloads", file_name)
-        os.makedirs("downloads", exist_ok=True)
+        file_path = os.path.join(DOWNLOAD_DIR, file_name)
 
         fh = io.FileIO(file_path, "wb")
         downloader = MediaIoBaseDownload(fh, request)
@@ -293,35 +462,55 @@ async def download_gdrive_file(file_id: str = Form(...)):
     except Exception as e:
         return {"error": str(e)}
 
-def save_stored_files(data):
+def save_stored_files(data, response_model=None):
     with open(STORED_FILES, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
-@app.post("/api/internal_compliance_audit")
-async def internal_compliance_audit(file: UploadFile = File(...)):
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-        tmp.write(await file.read())
-        tmp_path = tmp.name
+async def internal_compliance_audit(file: UploadFile = File(...), response_model=None):
+    try:
+        # Step 1: Save the uploaded file temporarily
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+            tmp.write(await file.read())
+            tmp_path = tmp.name
 
-    with open("sample_regulations.json", "r", encoding="utf-8") as f:
-        regulations = json.load(f)
+        # Step 2: Load the regulations file
+        if not os.path.exists("sample_regulations.json"):
+            raise FileNotFoundError("sample_regulations.json not found in backend directory")
 
-    checker = RAGComplianceChecker(pdf_path=tmp_path, regulations=regulations)
-    results = checker.run_check()
-    summary = checker.summary(results)
+        with open("sample_regulations.json", "r", encoding="utf-8") as f:
+            regulations = json.load(f)
 
-    return JSONResponse(content={
-        "status": "success",
-        "total_requirements": len(results),
-        "results": results
-    })
+        # Step 3: Run the compliance checker
+        from src.core.RAG import ComplianceChecker 
+        checker = ComplianceChecker(pdf_path=tmp_path, regulations=regulations)
+        results = checker.run_check()
 
-@app.get("/api/external_intelligence")
+        # Step 4: Summarize results
+        summary = checker.summary(results)
+
+        # Step 5: Return structured response
+        return JSONResponse(content={
+            "status": "success",
+            "total_requirements": len(results),
+            "results": results
+        })
+
+    except Exception as e:
+        # Print full traceback to console for debugging
+        print("INTERNAL ERROR in /internal_compliance_audit:\n", traceback.format_exc())
+
+        # Return structured JSON error for the frontend
+        return JSONResponse(
+            content={"status": "error", "message": str(e)},
+            status_code=500
+        )
+
+@app.get("/api/external_intelligence", response_model=None)
 async def external_intelligence(industry: str):
     result = {"status": "success", "details": f"Fetched data for {industry}"}
     return JSONResponse(content=result)
 
-@app.post("/api/rag_compliance_analysis")
+@app.post("/api/rag_compliance_analysis", response_model=None)
 async def rag_analysis(file: UploadFile = File(...), regulations: str = Form(...)):
     pdf_bytes = await file.read()
     findings = {"status": "success", "details": "RAG policy-compliance mock result"}
@@ -582,4 +771,56 @@ def log_audit(db: Session, entity_type: str, entity_id: int, action: str, user: 
 
 @app.get("/")
 async def root():
-    return {"status": "online", "service": "ComplianceAI Platform API", "monitoring": "active"}
+    # return {"status": "online", "service": "ComplianceAI Platform API", "monitoring": "active"}
+
+
+    findings = {"status": "success", "details": "RAG policy-compliance mock result"}
+    return JSONResponse(content=findings)
+
+@app.post("/add_user_to_gcs")
+async def add_user_to_gcs(request: Request):
+    try:
+        data = await request.json()
+        email = data.get("email")
+        if not email:
+            raise HTTPException(status_code=400, detail="Email missing")
+
+        print(f"✅ Received user email: {email}")
+
+        # Get current IAM policy
+        policy = service.projects().getIamPolicy(
+            resource=PROJECT_ID, body={}
+        ).execute()
+
+        new_member = f"user:{email}"
+        binding_found = False
+
+        # Search if role exists
+        for binding in policy.get("bindings", []):
+            if binding["role"] == ROLE:
+                if new_member not in binding["members"]:
+                    binding["members"].append(new_member)
+                    print(f"✅ Added {new_member} to existing {ROLE}")
+                binding_found = True
+                break
+
+        # If role not found, create new binding
+        if not binding_found:
+            policy["bindings"].append({"role": ROLE, "members": [new_member]})
+            print(f"✅ Created new binding for {ROLE}")
+
+        # Update IAM policy
+        service.projects().setIamPolicy(
+            resource=PROJECT_ID,
+            body={"policy": policy}
+        ).execute()
+
+        print(f"🎯 Successfully granted {ROLE} to {email}")
+        return JSONResponse(content={
+            "status": "success",
+            "message": f"✅ {email} added to project {PROJECT_ID} as {ROLE}"
+        })
+
+    except Exception as e:
+        print(f"❌ Error adding user: {e}")
+        raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
