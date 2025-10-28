@@ -11,30 +11,30 @@ import {
 
 // Create refined, elegant theme
 let theme = createTheme({
-  palette: {
-    mode: 'light',
-    primary: {
-      main: '#4A90E2', // refined blue
-      light: '#81b4f7',
-      dark: '#2767b2',
-      contrastText: '#fff'
-    },
-    secondary: {
-      main: '#FFC15E', // warm amber accent
-      light: '#ffd280',
-      dark: '#e6a53a',
-      contrastText: '#333'
-    },
-    background: {
-      default: '#f4f7fb', // soft gray-blue background
-      paper: '#ffffff'
-    },
-    text: {
-      primary: '#1f2d3d',
-      secondary: '#607181'
-    },
-    divider: 'rgba(0,0,0,0.08)'
+palette: {
+  mode: 'light',
+  primary: {
+    main: '#3E2723', // deep brown (Bistre)
+    light: '#5D4037',
+    dark: '#1B1211',
+    contrastText: '#FAF8F5' // off-white text
   },
+  secondary: {
+    main: '#FBC02D', // warm golden yellow
+    light: '#FFEB3B',
+    dark: '#C49000',
+    contrastText: '#1B1211'
+  },
+  background: {
+    default: '#FAF8F5', // soft off-white background
+    paper: '#FFFFFF'
+  },
+  text: {
+    primary: '#2C1A18',
+    secondary: '#5E503F'
+  },
+  divider: 'rgba(0,0,0,0.1)'
+},
 
   shape: {
     borderRadius: 10
