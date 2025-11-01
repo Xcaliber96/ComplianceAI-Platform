@@ -1,7 +1,6 @@
 import { Box, Container, Tab, Tabs, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
-
 import GlobalFilters from "./components/GlobalFilters";
 import UploadFetchTab from "./tabs/UploadFetchTab";
 import RunAuditTab from "./tabs/RunAuditTab";
@@ -12,6 +11,9 @@ import SignIn from "./forms/SignIn";
 import SignUp from "./forms/SignUp";
 import Employees from "./employees";
 import AICompliance from "./LLM";
+import ComplianceDashboard from "./compliance_dashboard";
+import HeroSection from "./components/HeroSection";
+
 export default function App() {
   const [tab, setTab] = useState(0);
   const navigate = useNavigate();
@@ -92,6 +94,10 @@ export default function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/LLM" element={<AICompliance />} /> 
         <Route path="/employees" element={<Employees />} />
+        <Route path="/compliance_dashboard" element={<ComplianceDashboard />} />
+        <Route path="/HeroSection" element={<HeroSection />} />
+
+        
       </Routes>
     </Box>
   );
