@@ -73,7 +73,7 @@ export default function RunAuditTab() {
       return
     }
     // Pass supplierId to backend
-    const res = await runRagCompliance(file, regulations, supplierId)
+    const res = await runRagCompliance(file, regulations)
     setLog(prev => prev + `\n[RAG Analysis] ${JSON.stringify(res)}`)
   }
 
