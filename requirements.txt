@@ -7,4 +7,5 @@ scikit-learn
 # --- AI, NLP, and Document Processing ---
 sentence-transformers
 PyPDF2
-#use pip install -r requirements.txt for intsallation
+#use pip install -r requirements.txt for installation
+uvicorn
