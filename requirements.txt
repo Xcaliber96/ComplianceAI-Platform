@@ -31,6 +31,8 @@ numpy
 PyPDF2
 beautifulsoup4
 sec-edgar-api
+
+python-docx 
 requests
 python-dateutil
 typing-extensions
