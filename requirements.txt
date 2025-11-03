@@ -1,11 +1,36 @@
-# --- Core Data Fetching and Analysis ---
-sec_edgar_api
-requests
-numpy
-scikit-learn
+# --- Core Frameworks ---
+fastapi
+uvicorn[standard]
+starlette
+sqlalchemy
+pydantic
+python-multipart
+python-dotenv
+apscheduler
 
-# --- AI, NLP, and Document Processing ---
+# --- Authentication & Cloud ---
+firebase-admin
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+google-cloud-storage
+msal
+
+# --- AI, NLP, and ML ---
+openai
+torch
+transformers
 sentence-transformers
+huggingface-hub
+chromadb
+scikit-learn
+numpy
+
+# --- Data & Document Processing ---
 PyPDF2
-#use pip install -r requirements.txt for installation
-uvicorn
+beautifulsoup4
+sec-edgar-api
+requests
+python-dateutil
+typing-extensions
