@@ -12,7 +12,7 @@ interface CustomButtonProps {
     | "outlineGradient"
     | "danger"
     | "flat"
-    | "outlinedText"; // ✅ new variant
+    | "outlinedText"; // ✅ includes outlined
   sx?: object;
   target?: "_blank" | "_self";
 }
@@ -39,6 +39,24 @@ export default function CustomButton({
       boxShadow: "0 4px 12px rgba(0,0,0,0.25)",
       "&:hover": {
         backgroundColor: "#9C7FFF",
+      },
+    },
+
+    // ✅ Added outlined variant
+    outlined: {
+      backgroundColor: "transparent",
+      color: "#7B61FF",
+      border: "2px solid #7B61FF",
+      px: 5,
+      py: 1.5,
+      fontSize: "1rem",
+      fontWeight: 600,
+      borderRadius: "50px",
+      textTransform: "uppercase",
+      transition: "0.3s ease",
+      "&:hover": {
+        backgroundColor: "#7B61FF",
+        color: "#fff",
       },
     },
 
@@ -101,7 +119,6 @@ export default function CustomButton({
       },
     },
 
-    // ✅ New variant — transparent background, bordered text-only
     outlinedText: {
       backgroundColor: "transparent",
       color: "#fff",
