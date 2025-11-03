@@ -6,17 +6,17 @@ import { useNavigate } from "react-router-dom";
 export default function TopBar() {
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
-  const controls = useAnimation(); // 🔹 motion controller
+  const controls = useAnimation();
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       if (scrollY > 100) {
         setScrolled(true);
-        controls.start({ y: -100, opacity: 0 }); // 🔹 slide up + fade out
+        controls.start({ y: -100, opacity: 0 });
       } else {
         setScrolled(false);
-        controls.start({ y: 0, opacity: 1 }); // 🔹 reappear at top
+        controls.start({ y: 0, opacity: 1 });
       }
     };
 
@@ -63,20 +63,39 @@ export default function TopBar() {
 
       {/* Navigation Buttons */}
       <Box sx={{ display: "flex", gap: 2 }}>
-        {["Features", "Pricing", "About"].map((label) => (
-          <Button
-            key={label}
-            sx={{
-              color: scrolled ? "#0a192f" : "#fff",
-              fontWeight: 500,
-              textTransform: "none",
-              "&:hover": { opacity: 0.8 },
-            }}
-          >
-            {label}
-          </Button>
-        ))}
-
+        <Button
+          sx={{
+            color: scrolled ? "#0a192f" : "#fff",
+            fontWeight: 500,
+            textTransform: "none",
+            "&:hover": { opacity: 0.8 },
+          }}
+          onClick={() => navigate("/features")}
+        >
+          Features
+        </Button>
+        <Button
+          sx={{
+            color: scrolled ? "#0a192f" : "#fff",
+            fontWeight: 500,
+            textTransform: "none",
+            "&:hover": { opacity: 0.8 },
+          }}
+          onClick={() => navigate("/pricing")}
+        >
+          Pricing
+        </Button>
+        <Button
+          sx={{
+            color: scrolled ? "#0a192f" : "#fff",
+            fontWeight: 500,
+            textTransform: "none",
+            "&:hover": { opacity: 0.8 },
+          }}
+          onClick={() => navigate("/about")}
+        >
+          About
+        </Button>
         {/* ✅ Sign In Button */}
         <Button
           variant="contained"

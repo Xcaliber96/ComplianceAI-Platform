@@ -4,18 +4,19 @@ import time
 from datetime import datetime, timedelta
 from typing import List, Dict
 
-
 class ComplianceDataFetcher:
     """
-    Generic regulatory data fetcher for any company or sector,
-    fully featured as per original Dow-specific code but configurable.
+    Generic regulatory data fetcher for any company/tenant.
+    Accepts dynamic config for company, relevant companies, forms, and keywords.
     """
-    def __init__(self,
-                 user_agent: str,
-                 relevant_companies: List[Dict],
-                 compliance_forms: Dict,
-                 regulatory_keywords: Dict,
-                 company_name: str = "Company"):
+    def __init__(
+        self,
+        user_agent: str,
+        relevant_companies: List[Dict],
+        compliance_forms: Dict,
+        regulatory_keywords: Dict,
+        company_name: str = "Company"
+    ):
         self.user_agent = user_agent
         self.company_name = company_name
         try:
@@ -25,15 +26,11 @@ class ComplianceDataFetcher:
         except Exception as e:
             print(f"Failed to initialize SEC client: {e}")
             raise
-        
         self.relevant_companies = relevant_companies
         self.compliance_forms = compliance_forms
         self.regulatory_keywords = regulatory_keywords
 
     def fetch_regulatory_intelligence(self, days_back=30) -> Dict:
-        """
-        Fetch regulatory intelligence relevant for configured companies.
-        """
         print(f"\nSTARTING REGULATORY INTELLIGENCE FETCH FOR {self.company_name}")
         print(f"Monitoring period: Last {days_back} days")
         print(f"Companies monitored: {len(self.relevant_companies)}")
@@ -50,25 +47,21 @@ class ComplianceDataFetcher:
                 'fetch_timestamp': datetime.now().isoformat(),
                 'monitoring_period_days': days_back,
                 'companies_processed': 0,
-                'total_filings_found': 0
+                'total_filings_found': 0,
+                'generated_for': self.company_name
             }
         }
 
         for i, company in enumerate(self.relevant_companies):
             print(f"\n--- Processing {i+1}/{len(self.relevant_companies)}: {company['name']} ({company.get('priority', '').upper()}) ---")
-
             try:
                 if i > 0:
                     time.sleep(0.15)
-
                 print(f"Fetching SEC submissions for CIK: {company['cik']}")
                 submissions = self.edgar_client.get_submissions(cik=company['cik'])
-
                 if submissions:
                     print(f"Connected to {submissions['name']}")
-                    
                     relevant_filings = self._analyze_compliance_relevance(submissions, company, days_back)
-
                     rel = company.get('relationship', '')
                     sector = company.get('sector', '').lower()
                     if rel == 'self' or company['ticker'] == self.company_name:
@@ -83,13 +76,11 @@ class ComplianceDataFetcher:
                     else:
                         all_intelligence['supplier_alerts'].extend(relevant_filings)
                         print(f"SUPPLIER: {len(relevant_filings)} supplier filings")
-
                     all_intelligence['metadata']['total_filings_found'] += len(relevant_filings)
                     all_intelligence['metadata']['companies_processed'] += 1
 
                 else:
                     print(f"No data received for {company['name']}")
-
             except Exception as e:
                 print(f"Error processing {company['name']}: {e}")
                 continue
@@ -111,21 +102,16 @@ class ComplianceDataFetcher:
         cutoff_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
         relevant_filings = []
         recent = submissions['filings']['recent']
-
         print(f"Scanning {len(recent.get('form', []))} total filings since {cutoff_date}")
-        
         all_relevant_forms = []
         for form_list in self.compliance_forms.values():
             all_relevant_forms.extend(form_list)
-
         relevant_count = 0
         for i, form in enumerate(recent.get('form', [])):
             filing_date = recent.get('filingDate', [])[i] if i < len(recent.get('filingDate', [])) else None
-
             if (filing_date and filing_date >= cutoff_date and 
                 form in all_relevant_forms and 
                 relevant_count < 8):  # Limit per company for efficiency
-                
                 filing_data = {
                     'company': submissions.get('name'),
                     'company_relationship': company.get('sector', 'unknown'),
@@ -143,11 +129,9 @@ class ComplianceDataFetcher:
                     'sec_backup_urls': self._generate_backup_access_methods(company, recent.get('accessionNumber', [])[i], form),
                     'fetched_timestamp': datetime.now().isoformat()
                 }
-
                 relevant_filings.append(filing_data)
                 relevant_count += 1
                 print(f"   {form} on {filing_date} - {filing_data['compliance_category']} (Score: {filing_data['relevance_score']})")
-
         return sorted(relevant_filings, key=lambda x: x['relevance_score'], reverse=True)
 
     def _categorize_compliance_area(self, form_type: str) -> str:
@@ -214,9 +198,6 @@ class ComplianceDataFetcher:
         if not custom_filename:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             custom_filename = f"{self.company_name.lower().replace(' ', '_')}_regulatory_intelligence_{timestamp}.json"
-        
-        intelligence_data['metadata']['generated_for'] = self.company_name
-        
         try:
             with open(custom_filename, 'w') as f:
                 json.dump(intelligence_data, f, indent=2, default=str)
@@ -226,58 +207,36 @@ class ComplianceDataFetcher:
             print(f"Export failed: {e}")
             return None
 
-
-def main():
-    print("MULTI-COMPANY REGULATORY INTELLIGENCE SYSTEM")
-    print("Adapted for industry-specific monitoring")
-    print("=" * 70)
-
-    expanded_companies = [
-        {"cik": "1067983", "name": "DuPont de Nemours Inc.", "ticker": "DD", "sector": "chemicals", "priority": "high", "relationship": "competitor"},
-        {"cik": "1440507", "name": "Dow Inc.", "ticker": "DOW", "sector": "chemicals", "priority": "critical", "relationship": "self"},
-        {"cik": "1912536", "name": "LyondellBasell Industries", "ticker": "LYB", "sector": "chemicals", "priority": "high", "relationship": "competitor"},
-        {"cik": "1534701", "name": "Eastman Chemical Company", "ticker": "EMN", "sector": "chemicals", "priority": "high", "relationship": "competitor"},
-        {"cik": "320193", "name": "Apple Inc.", "ticker": "AAPL", "sector": "technology", "priority": "medium", "relationship": "customer"},
-        {"cik": "789019", "name": "Microsoft Corporation", "ticker": "MSFT", "sector": "technology", "priority": "medium", "relationship": "customer"},
-        {"cik": "1318605", "name": "Tesla, Inc.", "ticker": "TSLA", "sector": "automotive", "priority": "high", "relationship": "customer"},
-        {"cik": "66740", "name": "3M Company", "ticker": "MMM", "sector": "materials", "priority": "medium", "relationship": "supplier"},
-        {"cik": "1467858", "name": "BASF SE", "ticker": "BASFY", "sector": "chemicals", "priority": "high", "relationship": "competitor"}
-    ]
-
-    compliance_forms = {
-        'financial_compliance': ['10-K', '10-Q', '8-K'],
-        'environmental_disclosure': ['8-K'],
-        'governance': ['DEF 14A'],
-        'acquisitions': ['8-K', '10-K'],
-        'risk_factors': ['10-K', '10-Q']
-    }
-
-    regulatory_keywords = {
-        'environmental': ['environmental compliance', 'epa', 'clean air act', 'clean water act', 'rcra', 'superfund', 'emissions', 'discharge', 'remediation'],
-        'chemical_safety': ['chemical safety', 'toxic substances', 'tsca', 'reach', 'osha', 'safety data sheet', 'hazardous materials', 'chemical registration'],
-        'international_trade': ['export control', 'sanctions', 'ofac', 'trade compliance', 'dual use', 'embargo', 'restricted party screening'],
-        'product_liability': ['product liability', 'recall', 'consumer protection', 'product safety', 'class action', 'litigation', 'settlement']
-    }
-
+def run_external_monitoring_for_org(org_config: dict, days_back: int = 30):
+    """
+    Helper function for backend usage: any org/tenant can call this
+    with its config for fully dynamic, multi-company monitoring.
+    """
     fetcher = ComplianceDataFetcher(
-        user_agent="ComplianceAI-Platform compliance@yourcompany.com",
-        relevant_companies=expanded_companies,
-        compliance_forms=compliance_forms,
-        regulatory_keywords=regulatory_keywords,
-        company_name="Your Company"
+        user_agent=org_config["user_agent"],
+        relevant_companies=org_config["relevant_companies"],
+        compliance_forms=org_config["compliance_forms"],
+        regulatory_keywords=org_config["regulatory_keywords"],
+        company_name=org_config["company_name"]
     )
+    return fetcher.fetch_regulatory_intelligence(days_back=days_back)
 
-    intelligence = fetcher.fetch_regulatory_intelligence(days_back=14)
+# Usage: call run_external_monitoring_for_org(config_for_current_org), returns all monitoring results ready for dashboards/APIs
+app = FastAPI()
 
-    if intelligence and intelligence['metadata']['total_filings_found'] > 0:
-        fetcher.export_intelligence(intelligence)
-        print("\nRECOMMENDED ACTIONS:")
-        print("1. Review critical alerts for immediate compliance impact")
-        print("2. Analyze competitor filings for industry trend insights")
-        print("3. Schedule daily monitoring for real-time regulatory awareness")
-        print("4. Integrate with internal compliance & training systems")
-    else:
-        print("No regulatory intelligence collected - check connections and try again")
-
-if __name__ == "__main__":
-    main()
+@app.get("/api/external_intelligence")
+async def external_intelligence(industry: str):
+    # Simulate fetching
+    fetcher = ComplianceDataFetcher(...)
+    intelligence = fetcher.fetch_regulatory_intelligence()
+    message = {
+        "status": "success",
+        "action": "External Intelligence Fetch",
+        "timestamp": datetime.now().isoformat(),
+        "industry": industry,
+        "companies_processed": intelligence["metadata"]["companies_processed"],
+        "filings_found": intelligence["metadata"]["total_filings_found"],
+        "alerts": len(intelligence["critical_alerts"]),
+        "details": f"Fetched regulatory intelligence for {industry}. Companies processed: {intelligence['metadata']['companies_processed']}, filings found: {intelligence['metadata']['total_filings_found']}, alerts: {len(intelligence['critical_alerts'])}."
+    }
+    return JSONResponse(content=message)

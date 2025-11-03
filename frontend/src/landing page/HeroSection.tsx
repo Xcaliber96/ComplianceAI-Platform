@@ -67,7 +67,7 @@ export default function HeroSection() {
               lineHeight: 1.8,
             }}
           >
-            Don’t just “check the box” — gain real-time visibility into your
+            Don’t just “check the box”  gain real-time visibility into your
             compliance posture and make smarter, faster, data-driven decisions
             powered by AI.
           </Typography>

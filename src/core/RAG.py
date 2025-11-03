@@ -2,6 +2,7 @@ import os
 import uuid
 import re
 import chromadb
+from datetime import datetime
 from PyPDF2 import PdfReader
 from huggingface_hub import InferenceClient
 
@@ -89,19 +90,12 @@ class ComplianceChecker:
         for reg in self.regulations:
             reg_id = reg["Reg_ID"]
             query_text = reg["Requirement_Text"]
-
             result = self.collection.query(query_texts=[query_text], n_results=self.top_k)
             docs = result["documents"][0] if result["documents"] else []
             dists = result["distances"][0] if result["distances"] else []
             metas = result.get("metadatas", [[]])[0] if result.get("metadatas") else [{} for _ in docs]
 
-            print("\n" + "="*90)
-            print(f"📜 REGULATION: {reg_id}")
-            print(f"TEXT: {query_text}")
-            print("-"*90)
-
             if not docs:
-                print("⚠️ No results returned.")
                 continue
 
             for rank, (doc, dist, meta) in enumerate(zip(docs, dists, metas), start=1):
@@ -109,17 +103,9 @@ class ComplianceChecker:
                 score_percent = similarity * 100
                 is_compliant = similarity >= self.compliance_threshold
 
-                status = "✅ COMPLIANT" if is_compliant else "❌ GAP DETECTED"
-                line_info = f" (chunk {meta.get('chunk')})" if isinstance(meta, dict) and 'chunk' in meta else ""
-
-                print(f"[{rank}] {status} | Compliance Score: {score_percent:.2f}%{line_info}")
-                print(f"    Evidence: {doc[:200]}{'...' if len(doc) > 200 else ''}")
-
                 narrative = ""
                 if not is_compliant:
-                    print(f"   [🤖 Generating Narrative for {reg_id}...]")
                     narrative = self.generate_llm_narrative(query_text, doc)
-                    print(f"   📌 Narrative Gap: {narrative}")
 
                 compliance_results.append({
                     "Reg_ID": reg_id,
@@ -131,33 +117,37 @@ class ComplianceChecker:
                     "Is_Compliant": is_compliant,
                     "Narrative_Gap": narrative
                 })
-
         return compliance_results
 
-    def summary(self, compliance_results):
+    def dashboard_summary(self, compliance_results, industry=None):
         total_requirements = len(compliance_results)
         gaps = [r for r in compliance_results if not r['Is_Compliant']]
-        overall_compliance = (total_requirements - len(gaps)) / total_requirements * 100
+        gap_details = [
+            {
+                "Reg_ID": g['Reg_ID'],
+                "Risk_Rating": g["Risk_Rating"],
+                "Score": g["Compliance_Score"],
+                "Narrative": g["Narrative_Gap"]
+            }
+            for g in gaps
+        ]
+        overall_compliance = ((total_requirements - len(gaps)) / total_requirements * 100) if total_requirements else 0
 
-        print("\n" + "="*80)
-        print("📊 DOW COMPLIANCE & RISK MANAGEMENT REPORT (MVP) - FULL AI CHECK")
-        print("="*80)
-        print(f"COMPLIANCE THRESHOLD: {self.compliance_threshold*100:.0f}%")
-        print(f"OVERALL COMPLIANCE SCORE: {overall_compliance:.2f}%")
-        print(f"TOTAL REQUIREMENTS CHECKED: {total_requirements}")
-        print(f"HIGH-RISK GAPS FOUND: {len(gaps)}")
-        print("="*80)
-
-        print("\n🔎 GAP DETAILS (Requires Action)")
-        for gap in gaps:
-            print(f"- {gap['Reg_ID']} | Score: {gap['Compliance_Score']:.2f}% | Risk: {gap['Risk_Rating']}")
-            print(f"  Narrative: {gap['Narrative_Gap']}")
-            print(f"  Evidence: {gap['Evidence_Chunk'][:150]}...\n")
-
-        print("✅ COMPLIANT AREAS")
-        for ok in [r for r in compliance_results if r['Is_Compliant']]:
-            print(f"- {ok['Reg_ID']} | Score: {ok['Compliance_Score']:.2f}%")
-
+        return {
+            "status": "success",
+            "action": "RAG Compliance Check",
+            "timestamp": datetime.now().isoformat(),
+            "industry": industry,
+            "regulations_checked": total_requirements,
+            "compliance_score": round(overall_compliance, 2),
+            "high_risk_gaps": len([g for g in gaps if "Critical" in g["Risk_Rating"] or "High" in g["Risk_Rating"]]),
+            "gap_details": gap_details[:3],  # only top 3 for quick viewing
+            "details": (
+                f"RAG check complete. Score: {overall_compliance:.2f}%. "
+                f"Gaps found: {len(gaps)}. "
+                f"High risk gaps: {len([g for g in gaps if 'Critical' in g['Risk_Rating'] or 'High' in g['Risk_Rating']])}."
+            )
+        }
 
 # -------------------------------
 # Example usage:
@@ -189,4 +179,5 @@ if __name__ == "__main__":
 
     checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
     results = checker.run_check()
-    checker.summary(results)
+    summary = checker.dashboard_summary(results, industry="Finance")
+    print(summary)

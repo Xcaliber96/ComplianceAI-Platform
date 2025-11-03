@@ -1,4 +1,7 @@
-import { Box, Card, CardContent, Chip, Divider, FormControlLabel, Switch, Typography, Table, TableBody, TableCell, TableHead, TableRow, Button, Alert, Stack } from '@mui/material'
+import {
+  Box, Card, CardContent, Chip, Divider, FormControlLabel, Switch, Typography,
+  Table, TableBody, TableCell, TableHead, TableRow, Button, Alert, Stack, FormControl, Select, MenuItem, InputLabel
+} from '@mui/material'
 import { useEffect, useMemo, useState } from 'react'
 import { useFilters } from '../store/filters'
 import FeedbackDialog from '../components/FeedbackDialog'
@@ -14,6 +17,8 @@ type ResultItem = {
   risk: 'Low' | 'Medium' | 'High'
   gapNarrative: string
   evidenceRefs?: string[]
+  supplierId?: string
+  supplierName?: string
 }
 
 export default function AuditResultsTab() {
@@ -22,19 +27,21 @@ export default function AuditResultsTab() {
   const [feedbackOpen, setFeedbackOpen] = useState(false)
   const [activeItem, setActiveItem] = useState<ResultItem | null>(null)
   const [items, setItems] = useState<ResultItem[]>([])
-  
   const [dashboard, setDashboard] = useState<any>(null)
   const [auditLogs, setAuditLogs] = useState<any[]>([])
   const [tasks, setTasks] = useState<any[]>([])
-  
-  // Regulatory monitoring
   const [detectedRegulations, setDetectedRegulations] = useState<any[]>([])
   const [scanMessage, setScanMessage] = useState('')
+
+  // Supplier state
+  const [supplierId, setSupplierId] = useState<string | null>(null)
+  const [suppliers, setSuppliers] = useState<Array<{ id: string, name: string }>>([])
 
   useEffect(() => {
     loadDashboardData()
     loadMockData()
     loadDetectedRegulations()
+    fetchSuppliers()
   }, [])
 
   const loadDashboardData = async () => {
@@ -70,7 +77,6 @@ export default function AuditResultsTab() {
       })
       const result = await response.json()
       setScanMessage('Scan completed successfully')
-      
       setTimeout(() => {
         loadDetectedRegulations()
         loadDashboardData()
@@ -83,19 +89,32 @@ export default function AuditResultsTab() {
 
   const loadMockData = () => {
     setItems([
-      { id: 'R1', requirement: 'Access controls policy', department: 'IT', country: 'US', state: 'CA', compliant: true, risk: 'Low', gapNarrative: 'Controls documented and reviewed quarterly', evidenceRefs: ['policy_v3.pdf'] },
-      { id: 'R2', requirement: 'Vendor risk assessment', department: 'Finance', country: 'US', state: 'NY', compliant: false, risk: 'High', gapNarrative: 'No annual assessment for top vendors', evidenceRefs: ['vendors_2024.xlsx'] },
-      { id: 'R3', requirement: 'Data retention schedule', department: 'Legal', country: 'IN', state: 'DL', compliant: false, risk: 'Medium', gapNarrative: 'Retention SOP missing for HR records', evidenceRefs: ['retention_sop.docx'] }
+      { id: 'R1', requirement: 'Access controls policy', department: 'IT', country: 'US', state: 'CA', compliant: true, risk: 'Low', gapNarrative: 'Controls documented and reviewed quarterly', evidenceRefs: ['policy_v3.pdf'], supplierId: 'S1', supplierName: 'Acme Holdings' },
+      { id: 'R2', requirement: 'Vendor risk assessment', department: 'Finance', country: 'US', state: 'NY', compliant: false, risk: 'High', gapNarrative: 'No annual assessment for top vendors', evidenceRefs: ['vendors_2024.xlsx'], supplierId: 'S2', supplierName: 'Globex India' },
+      { id: 'R3', requirement: 'Data retention schedule', department: 'Legal', country: 'IN', state: 'DL', compliant: false, risk: 'Medium', gapNarrative: 'Retention SOP missing for HR records', evidenceRefs: ['retention_sop.docx'], supplierId: 'S1', supplierName: 'Acme Holdings' }
     ])
   }
 
+  // Supplier fetcher
+  const fetchSuppliers = async () => {
+    try {
+      const resp = await fetch('http://127.0.0.1:8000/api/suppliers')
+      const json = await resp.json()
+      setSuppliers(json)
+    } catch (err) {
+      setSuppliers([])
+    }
+  }
+
+  // Filter items including supplier filter
   const filtered = useMemo(() => {
     return items.filter(i =>
       (!filters.department || i.department === filters.department) &&
       (!filters.country || i.country === filters.country) &&
-      (!filters.state || i.state === filters.state)
+      (!filters.state || i.state === filters.state) &&
+      (!supplierId || i.supplierId === supplierId)
     )
-  }, [items, filters.department, filters.country, filters.state])
+  }, [items, filters.department, filters.country, filters.state, supplierId])
 
   const compliancePct = useMemo(() => {
     if (!filtered.length) return 0
@@ -150,23 +169,19 @@ export default function AuditResultsTab() {
               Automatically detected regulations from Federal Register and other sources
             </Typography>
             <Divider sx={{ my: 2 }} />
-            
-            <Button 
-              variant="contained" 
+            <Button
+              variant="contained"
               onClick={handleTriggerScan}
               sx={{ mb: 2 }}
             >
               Trigger Manual Scan
             </Button>
-
             {scanMessage && (
               <Alert severity="info" sx={{ mb: 2 }}>{scanMessage}</Alert>
             )}
-
             <Typography variant="subtitle2" sx={{ mb: 1 }}>
               Auto-Detected Regulations (Last 30 Days): {detectedRegulations.length}
             </Typography>
-
             <Table size="small">
               <TableHead>
                 <TableRow>
@@ -211,9 +226,16 @@ export default function AuditResultsTab() {
               Current Filters — Dept: {filters.department ?? 'All'}, Country: {filters.country ?? 'All'}, State: {filters.state ?? 'All'}
             </Typography>
             <Divider sx={{ my: 2 }} />
-
+            <FormControl fullWidth size="small" sx={{ mb: 2 }}>
+              <InputLabel>Filter by Supplier</InputLabel>
+              <Select value={supplierId ?? ""} onChange={e => setSupplierId(e.target.value)}>
+                <MenuItem value="">All Suppliers</MenuItem>
+                {suppliers.map(s => (
+                  <MenuItem key={s.id} value={s.id}>{s.name}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
             <FormControlLabel control={<Switch checked={showCharts} onChange={(_, v) => setShowCharts(v)} />} label="Show quick charts" />
-
             {showCharts && (
               <Box sx={{ display: 'flex', gap: 2, my: 2 }}>
                 <Card sx={{ flex: 1 }} variant="outlined">
@@ -226,7 +248,7 @@ export default function AuditResultsTab() {
                   <CardContent>
                     <Typography variant="subtitle2">Risk distribution</Typography>
                     <Typography variant="body2">
-                      {['Low','Medium','High'].map(r => {
+                      {['Low', 'Medium', 'High'].map(r => {
                         const c = filtered.filter(i => i.risk === r).length
                         return `${r}: ${c} `
                       }).join(' | ')}
@@ -235,11 +257,11 @@ export default function AuditResultsTab() {
                 </Card>
               </Box>
             )}
-
             <Table size="small">
               <TableHead>
                 <TableRow>
                   <TableCell>ID</TableCell>
+                  <TableCell>Supplier</TableCell>
                   <TableCell>Requirement</TableCell>
                   <TableCell>Dept</TableCell>
                   <TableCell>Country</TableCell>
@@ -255,6 +277,7 @@ export default function AuditResultsTab() {
                 {filtered.map(item => (
                   <TableRow key={item.id}>
                     <TableCell>{item.id}</TableCell>
+                    <TableCell>{item.supplierName ?? '-'}</TableCell>
                     <TableCell>{item.requirement}</TableCell>
                     <TableCell>{item.department}</TableCell>
                     <TableCell>{item.country}</TableCell>
@@ -306,7 +329,6 @@ export default function AuditResultsTab() {
             </Table>
           </CardContent>
         </Card>
-
         <FeedbackDialog
           open={feedbackOpen}
           onClose={() => setFeedbackOpen(false)}

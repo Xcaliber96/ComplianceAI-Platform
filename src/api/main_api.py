@@ -63,6 +63,7 @@ G_SCOPES = [
 ]
 
 
+
 def get_gdrive_credentials():
     """Safely load Google Drive credentials, auto-delete invalid token.json"""
     creds = None
@@ -223,6 +224,45 @@ ROLE_ASSIGNMENTS = {
     "Audit": "audit@company.com",
     "Compliance": "compliance@company.com"
 }
+
+from src.api.models import Supplier  
+
+@app.post("/api/suppliers")
+def create_supplier(
+    name: str = Form(...),
+    email: str = Form(...),
+    industry: str = Form(...),
+    region: str = Form(...),
+    db: Session = Depends(get_db)
+):
+    supplier = Supplier(
+        name=name,
+        email=email,
+        industry=industry,
+        region=region
+    )
+    db.add(supplier)
+    db.commit()
+    db.refresh(supplier)
+    return supplier
+
+@app.get("/api/suppliers")
+def list_suppliers(db: Session = Depends(get_db)):
+    return db.query(Supplier).all()
+
+@app.post("/api/suppliers/{supplier_id}/upload")
+def upload_supplier_file(
+    supplier_id: int,
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db)
+):
+
+    file_location = f"uploads/supplier_{supplier_id}_{file.filename}"
+    with open(file_location, "wb") as f:
+        f.write(file.file.read())
+   
+    return {"supplier_id": supplier_id, "filename": file.filename, "message": "File uploaded"}
+
 
 @app.post("/api/competitors")
 async def get_competitors(company_name: str = Form(...)):
@@ -663,6 +703,8 @@ async def attest_evidence(
     return artifact
 
 # Dashboard
+
+
 @app.get("/api/dashboard/summary")
 async def get_dashboard_summary(db: Session = Depends(get_db)):
     total_tasks = db.query(RemediationTask).count()

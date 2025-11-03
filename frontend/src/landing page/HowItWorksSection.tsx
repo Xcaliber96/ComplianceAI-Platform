@@ -147,7 +147,6 @@ export default function HowItWorksSection() {
                     background:
                       "linear-gradient(135deg, #4A90E2, #3B70C9, #3260B2)",
                     color: "#fff",
-                    mb: 3,
                   }}
                 >
                   {f.icon}

@@ -7,7 +7,8 @@ import {
   Paper,
   CircularProgress,
 } from "@mui/material";
-import { analyzeCompany } from "./api/client"; // your existing API function
+import { analyzeCompany } from "../api/client";
+// your existing API function
 
 export default function AIComplianceChat() {
   const [messages, setMessages] = useState([

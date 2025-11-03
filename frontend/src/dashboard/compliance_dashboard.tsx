@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   Typography,
@@ -5,6 +6,13 @@ import {
   Grid,
   LinearProgress,
   Divider,
+  Table,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableBody,
+  Button,
+  Modal,
 } from "@mui/material";
 import {
   ComposableMap,
@@ -25,7 +33,6 @@ export default function ComplianceDashboard() {
   const geoUrl =
     "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
-  // 🌍 Example compliance coverage data
   const complianceRegions = {
     USA: 92,
     FRA: 87,
@@ -36,7 +43,6 @@ export default function ComplianceDashboard() {
     BRA: 72,
   };
 
-  // 📊 Example monthly compliance data
   const complianceTrends = [
     { month: "Jan", risk: 18 },
     { month: "Feb", risk: 15 },
@@ -52,14 +58,19 @@ export default function ComplianceDashboard() {
     { month: "Dec", risk: 7 },
   ];
 
+  const supplierRisks = [
+    { name: "ABC Chemicals", region: "IND", industry: "Chemicals", compliance: 81, evidence: 60 },
+    { name: "Acme Materials", region: "USA", industry: "Materials", compliance: 72, evidence: 88 },
+    { name: "EuroPlast AG", region: "DEU", industry: "Automotive", compliance: 64, evidence: 95 },
+  ];
+  const [openSupplier, setOpenSupplier] = React.useState(null);
+
   return (
     <Box sx={{ p: 4, bgcolor: "#f8f9fa", minHeight: "100vh" }}>
-      {/* Header */}
       <Typography variant="h4" fontWeight={700} mb={3}>
         Compliance Overview Dashboard
       </Typography>
 
-      {/* Top Summary Cards */}
       <Grid container spacing={3}>
         {[
           { label: "Total Compliance Checks", value: "1,240", change: "+8%" },
@@ -88,29 +99,19 @@ export default function ComplianceDashboard() {
 
       <Divider sx={{ my: 4 }} />
 
-      {/* Middle Section */}
       <Grid container spacing={3}>
-        {/* Left: Trend Chart */}
         <Grid item xs={12} md={8}>
           <Card sx={{ p: 3, borderRadius: 3 }}>
             <Typography variant="h6" mb={2} fontWeight={600}>
               Monthly Compliance Risk Trends
             </Typography>
-
-            {/* 📈 Line Chart */}
             <Box sx={{ width: "100%", height: 260 }}>
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={complianceTrends} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#ddd" />
                   <XAxis dataKey="month" stroke="#555" />
                   <YAxis stroke="#555" />
-                  <Tooltip
-                    contentStyle={{
-                      backgroundColor: "#fff",
-                      borderRadius: "8px",
-                      border: "1px solid #ccc",
-                    }}
-                  />
+                  <Tooltip contentStyle={{ backgroundColor: "#fff", borderRadius: "8px", border: "1px solid #ccc" }} />
                   <Line
                     type="monotone"
                     dataKey="risk"
@@ -125,7 +126,6 @@ export default function ComplianceDashboard() {
           </Card>
         </Grid>
 
-        {/* Right: Audit Progress */}
         <Grid item xs={12} md={4}>
           <Card sx={{ p: 3, borderRadius: 3 }}>
             <Typography variant="h6" mb={2} fontWeight={600}>
@@ -155,7 +155,6 @@ export default function ComplianceDashboard() {
         </Grid>
       </Grid>
 
-      {/* Footer Section */}
       <Box mt={4}>
         <Card sx={{ p: 3, borderRadius: 3 }}>
           <Typography variant="h6" fontWeight={600} mb={2}>
@@ -198,7 +197,6 @@ export default function ComplianceDashboard() {
               </Geographies>
             </ComposableMap>
           </Box>
-
           <Typography
             variant="body2"
             color="text.secondary"
@@ -209,6 +207,70 @@ export default function ComplianceDashboard() {
           </Typography>
         </Card>
       </Box>
+
+      <Box mt={6}>
+        <Card sx={{ p: 3, borderRadius: 3 }}>
+          <Typography variant="h6" fontWeight={600} mb={2}>
+            Supplier Compliance & Evidence Completion
+          </Typography>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Supplier</TableCell>
+                <TableCell>Industry</TableCell>
+                <TableCell>Region</TableCell>
+                <TableCell align="center">Compliance Score</TableCell>
+                <TableCell align="center">Evidence Completion</TableCell>
+                <TableCell align="center">Risk Detail</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {supplierRisks.map((s, idx) => (
+                <TableRow key={idx}>
+                  <TableCell>{s.name}</TableCell>
+                  <TableCell>{s.industry}</TableCell>
+                  <TableCell>{s.region}</TableCell>
+                  <TableCell>
+                    <LinearProgress value={s.compliance} variant="determinate" sx={{ height: 8, borderRadius: 5 }} />
+                    <Typography variant="body2">{s.compliance}%</Typography>
+                  </TableCell>
+                  <TableCell>
+                    <LinearProgress value={s.evidence} color="success" variant="determinate" sx={{ height: 8, borderRadius: 5 }} />
+                    <Typography variant="body2">{s.evidence}%</Typography>
+                  </TableCell>
+                  <TableCell align="center">
+                    <Button size="small" variant="outlined" onClick={() => setOpenSupplier(s)}>View</Button>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </Card>
+      </Box>
+
+      <Modal open={!!openSupplier} onClose={() => setOpenSupplier(null)}>
+        <Box sx={{
+          position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
+          bgcolor: "#fff", minWidth: 340, maxWidth: 420, p: 4, borderRadius: 3, boxShadow: 8
+        }}>
+          {openSupplier &&
+            <>
+              <Typography fontWeight={700} mb={1}>{openSupplier.name}</Typography>
+              <Typography variant="subtitle2" color="text.secondary">{openSupplier.industry} – {openSupplier.region}</Typography>
+              <Box mt={1}>
+                <Typography>Compliance Score</Typography>
+                <LinearProgress value={openSupplier.compliance} variant="determinate" sx={{ height: 8, borderRadius: 5, mb: 1 }} />
+                <Typography mb={2}>{openSupplier.compliance}%</Typography>
+                <Typography>Evidence Completion</Typography>
+                <LinearProgress value={openSupplier.evidence} color="success" variant="determinate" sx={{ height: 8, borderRadius: 5, mb: 1 }} />
+                <Typography mb={2}>{openSupplier.evidence}%</Typography>
+                <Typography color="error.main">Risk: {openSupplier.compliance < 70 ? "Elevated" : "Normal"}</Typography>
+              </Box>
+              <Button onClick={() => setOpenSupplier(null)} sx={{ mt: 2 }} variant="contained">Close</Button>
+            </>
+          }
+        </Box>
+      </Modal>
     </Box>
   );
 }

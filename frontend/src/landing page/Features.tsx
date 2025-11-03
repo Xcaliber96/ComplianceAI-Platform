@@ -1,6 +1,5 @@
 import { Box, Typography, Button } from "@mui/material";
-import CustomButton from "./Button/CustomButton";
-
+import CustomButton from "../components/CustomButton";
 export default function FeatureSection() {
   return (
     <Box
