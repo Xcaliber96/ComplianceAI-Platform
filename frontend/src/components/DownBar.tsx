@@ -47,23 +47,7 @@ export default function DownBar() {
             before they happen.
           </Typography>
 
-          <Button
-            variant="contained"
-            sx={{
-              mt: 3,
-              background: "linear-gradient(90deg, #4A90E2, #3B70C9)",
-              fontWeight: 600,
-              textTransform: "none",
-              borderRadius: 1,
-              boxShadow: "0 4px 10px rgba(74,144,226,0.3)",
-              ":hover": {
-                background: "linear-gradient(90deg, #3B70C9, #3260B2)",
-              },
-            }}
-            onClick={() => navigate("/compliance_dashboard")}
-          >
-            Explore Dashboard
-          </Button>
+
         </Box>
 
         {/* 📚 COLUMN 2 — Quick Links */}

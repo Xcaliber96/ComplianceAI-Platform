@@ -866,3 +866,8 @@ async def add_user_to_gcs(request: Request):
     except Exception as e:
         print(f"❌ Error adding user: {e}")
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
