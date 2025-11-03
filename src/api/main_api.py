@@ -108,8 +108,6 @@ class UserAccessRequest(BaseModel):
 from src.api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
 from src.api.db import get_db, engine, SessionLocal
 
-# Create tables
-Base.metadata.create_all(bind=engine)
 
 # Constants
 G_SCOPES = [
