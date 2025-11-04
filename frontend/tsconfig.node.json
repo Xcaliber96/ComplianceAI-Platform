@@ -9,15 +9,12 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
 
-    /* Required for Render build success */
+    /* Required for Render */
     "composite": true,
     "noEmit": false,
-
-    /* Optional output folder */
     "outDir": "dist",
 
     /* Linting */
