@@ -6,12 +6,20 @@ import {
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import BusinessIcon from '@mui/icons-material/Business';
 import axios from "axios";
+interface Supplier {
+  id: number;
+  name: string;
+  email: string;
+  industry: string;
+  region: string;
+}
 
 export default function SupplierOnboarding() {
   const [form, setForm] = useState({ name: "", email: "", industry: "", region: "" });
-  const [suppliers, setSuppliers] = useState([]);
-  const [file, setFile] = useState(null);
+ 
+  const [file, setFile] = useState<File | null>(null);
 
+const [suppliers, setSuppliers] = useState<Supplier[]>([])
   useEffect(() => { fetchSuppliers(); }, []);
 
   const fetchSuppliers = async () => {
@@ -19,9 +27,9 @@ export default function SupplierOnboarding() {
     setSuppliers(data);
   };
 
-  const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     const data = new FormData();
     data.append("name", form.name);
@@ -33,7 +41,7 @@ export default function SupplierOnboarding() {
     fetchSuppliers();
   };
 
-  const handleUpload = async (id) => {
+  const handleUpload = async (id:number) => {
     if (!file) return;
     const data = new FormData();
     data.append("file", file);
@@ -99,6 +107,7 @@ export default function SupplierOnboarding() {
                     sx={{ flex: 1, minWidth: 140 }}
                   />
                   <TextField
+                  
                     label="Region"
                     name="region"
                     value={form.region}
@@ -149,7 +158,10 @@ export default function SupplierOnboarding() {
                               type="file"
                               style={{ display: "none" }}
                               id={`file-upload-${s.id}`}
-                              onChange={e => setFile(e.target.files[0])}
+                              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                              const selectedFile = e.target.files?.[0] ?? null;
+                              setFile(selectedFile);
+                            }}
                             />
                             <label htmlFor={`file-upload-${s.id}`}>
                               <Button
