@@ -1,28 +1,52 @@
-import { Box, Button, Card, CardContent, Divider, Stack, TextField, Typography, Select, MenuItem, FormControl, InputLabel, List, ListItem, ListItemText, Chip, Alert } from '@mui/material'
+import { Box, Button, Card, CardContent, Divider, Stack, TextField, Typography, Select, MenuItem, FormControl, InputLabel, List, ListItem, ListItemText, Chip } from '@mui/material'
 import { useState, useEffect } from 'react'
 import { runExternalIntelligence, runRagCompliance, createTask, getTasks, getObligations, uploadEvidence, transitionTask } from '../api/client'
 import { useFilters } from '../store/filters'
 import { useSelectedFiles } from '../store/selectedFiles'
+
+function formatExternalIntelligenceLog(result) {
+  if (!result.details || !Array.isArray(result.details)) return JSON.stringify(result);
+  let logOut = `[External Intelligence]\n`;
+  result.details.forEach((finding) => {
+    logOut += `Source: ${finding.source}\n`;
+    if (finding.headline) logOut += `Headline: ${finding.headline}\n`;
+    if (finding.key_risks && finding.key_risks.length) {
+      logOut += `Key Risks:\n`;
+      finding.key_risks.forEach(risk => { logOut += `- ${risk}\n`; });
+    }
+    if (finding.regulation_news && finding.regulation_news.length) {
+      logOut += `Regulation News:\n`;
+      finding.regulation_news.forEach(news => {
+        logOut += `- ${news.regulation}: ${news.summary}\n  Read more: ${news.link}\n`;
+      });
+    }
+    logOut += `\n`;
+  });
+  return logOut;
+}
+
+function formatRagLog(result) {
+  if (!result.details || !Array.isArray(result.details)) return JSON.stringify(result);
+  let logOut = `[RAG Analysis]\nSupplier: ${result.supplier}\nFindings:\n`;
+  result.details.forEach((finding, idx) => {
+    logOut += `${idx + 1}. Requirement: ${finding.requirement}\n   Status: ${finding.status}\n   Details: ${finding.details}\n   Evidence: ${finding.evidence}\n\n`;
+  });
+  return logOut;
+}
 
 export default function RunAuditTab() {
   const [industry, setIndustry] = useState('Finance')
   const [regulations, setRegulations] = useState('SOX, GDPR, SOC2')
   const [file, setFile] = useState<File | null>(null)
   const [log, setLog] = useState<string>('')
-  // Task management
   const [tasks, setTasks] = useState<any[]>([])
   const [obligations, setObligations] = useState<any[]>([])
-  const [newTask, setNewTask] = useState({
-    obligation_id: '',
-    assigned_to: '',
-    sla_due: ''
-  })
+  const [newTask, setNewTask] = useState({ obligation_id: '', assigned_to: '', sla_due: '' })
   const [evidenceFile, setEvidenceFile] = useState<File | null>(null)
   const [selectedTaskId, setSelectedTaskId] = useState<number | null>(null)
   const filters = useFilters()
   const { selectedFiles } = useSelectedFiles()
   const [keywords, setKeywords] = useState<string[]>([])
-  // Supplier feature
   const [supplierId, setSupplierId] = useState<string | null>(null)
   const [suppliers, setSuppliers] = useState<Array<{ id: string, name: string }>>([])
 
@@ -31,20 +55,14 @@ export default function RunAuditTab() {
     fetchSuppliers()
     const saved = window.localStorage.getItem('keywords')
     if (saved) {
-      try {
-        setKeywords(JSON.parse(saved))
-      } catch {
-        console.warn('Failed to parse saved keywords')
-      }
+      try { setKeywords(JSON.parse(saved)) }
+      catch { console.warn('Failed to parse saved keywords') }
     }
   }, [])
 
   const loadData = async () => {
     try {
-      const [tasksData, obligationsData] = await Promise.all([
-        getTasks(),
-        getObligations()
-      ])
+      const [tasksData, obligationsData] = await Promise.all([getTasks(), getObligations()])
       setTasks(tasksData)
       setObligations(obligationsData)
     } catch (error) {
@@ -64,7 +82,7 @@ export default function RunAuditTab() {
 
   const handleExternal = async () => {
     const res = await runExternalIntelligence(industry)
-    setLog(prev => prev + `\n[External Intelligence] ${JSON.stringify(res)}`)
+    setLog(prev => prev + '\n' + formatExternalIntelligenceLog(res))
   }
 
   const handleRag = async () => {
@@ -72,39 +90,30 @@ export default function RunAuditTab() {
       setLog(prev => prev + '\n⚠️ Please choose a PDF file and supplier before running compliance.')
       return
     }
-    // Pass supplierId to backend
     const res = await runRagCompliance(file, regulations, supplierId)
-    setLog(prev => prev + `\n[RAG Analysis] ${JSON.stringify(res)}`)
+    setLog(prev => prev + '\n' + formatRagLog(res))
   }
 
-const handleCreateTask = async () => {
-  if (
-    !newTask.obligation_id ||
-    !newTask.assigned_to ||
-    !newTask.sla_due ||
-    !supplierId 
-  ) {
-    setLog(prev => prev + '\n[Error] Please fill all task fields and select a supplier.')
-    return
+  const handleCreateTask = async () => {
+    if (!newTask.obligation_id || !newTask.assigned_to || !newTask.sla_due || !supplierId) {
+      setLog(prev => prev + '\n[Error] Please fill all task fields and select a supplier.')
+      return
+    }
+    try {
+      await createTask({
+        obligation_id: parseInt(newTask.obligation_id),
+        assigned_to: newTask.assigned_to,
+        sla_due: newTask.sla_due,
+        supplier_id: supplierId
+      })
+      setLog(prev => prev + `\n[Success] Task created for supplier ${supplierId}!`)
+      setNewTask({ obligation_id: '', assigned_to: '', sla_due: '' })
+      loadData()
+    } catch (error) {
+      console.error(error)
+      setLog(prev => prev + `\n[Error] Failed to create task: ${error}`)
+    }
   }
-
-  try {
-    await createTask({
-      obligation_id: parseInt(newTask.obligation_id),
-      assigned_to: newTask.assigned_to,
-      sla_due: newTask.sla_due,
-      supplier_id: supplierId 
-    })
-
-    setLog(prev => prev + `\n[Success] Task created for supplier ${supplierId}!`)
-    setNewTask({ obligation_id: '', assigned_to: '', sla_due: '' })
-    loadData()
-  } catch (error) {
-    console.error(error)
-    setLog(prev => prev + `\n[Error] Failed to create task: ${error}`)
-  }
-}
-
 
   const handleUploadEvidence = async () => {
     if (!evidenceFile || !selectedTaskId) return
@@ -131,7 +140,6 @@ const handleCreateTask = async () => {
   return (
     <Box sx={{ p: 2 }}>
       <Stack spacing={3}>
-        {/* Supplier selection */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">Select Supplier for Audit</Typography>
@@ -152,7 +160,6 @@ const handleCreateTask = async () => {
           </CardContent>
         </Card>
 
-        {/* Create Task Section */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">Create Remediation Task</Typography>
@@ -200,7 +207,6 @@ const handleCreateTask = async () => {
           </CardContent>
         </Card>
 
-        {/* Task Management Section */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">Manage Tasks</Typography>
@@ -216,25 +222,19 @@ const handleCreateTask = async () => {
                         <Button
                           size="small"
                           onClick={() => handleTransition(task.id, 'IN_PROGRESS')}
-                        >
-                          Start
-                        </Button>
+                        >Start</Button>
                       )}
                       {task.state === 'IN_PROGRESS' && (
                         <Button
                           size="small"
                           onClick={() => handleTransition(task.id, 'REVIEW')}
-                        >
-                          Review
-                        </Button>
+                        >Review</Button>
                       )}
                       {task.state === 'REVIEW' && (
                         <Button
                           size="small"
                           onClick={() => handleTransition(task.id, 'DONE')}
-                        >
-                          Done
-                        </Button>
+                        >Done</Button>
                       )}
                     </Stack>
                   }
@@ -259,7 +259,6 @@ const handleCreateTask = async () => {
           </CardContent>
         </Card>
 
-        {/* Evidence Upload Section */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">Upload Evidence</Typography>
@@ -284,9 +283,7 @@ const handleCreateTask = async () => {
                 <input
                   type="file"
                   hidden
-                  onChange={(e) =>
-                    setEvidenceFile(e.target.files?.[0] ?? null)
-                  }
+                  onChange={(e) => setEvidenceFile(e.target.files?.[0] ?? null)}
                 />
               </Button>
               <Typography variant="body2">
@@ -303,7 +300,6 @@ const handleCreateTask = async () => {
           </CardContent>
         </Card>
 
-        {/* External Intelligence Section */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">External Intelligence & RAG</Typography>
@@ -346,7 +342,6 @@ const handleCreateTask = async () => {
           </CardContent>
         </Card>
 
-        {/* Activity Log Section */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="h6">Activity Log</Typography>

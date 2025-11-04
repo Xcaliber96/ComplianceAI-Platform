@@ -25,6 +25,10 @@ class RemediationTask(Base):
     __tablename__ = "remediation_tasks"
     id = Column(Integer, primary_key=True)
     obligation_id = Column(Integer, ForeignKey("obligations.id"))
+
+    # ADD THIS LINE:
+    supplier_id = Column(Integer, ForeignKey("suppliers.id"))  # <--- This links to Supplier
+
     assigned_to = Column(String)
     sla_due = Column(DateTime)
     state = Column(SQLEnum(TaskState), default=TaskState.TODO)
@@ -32,7 +36,11 @@ class RemediationTask(Base):
     breach_flag = Column(Boolean, default=False)
     evidence_artifacts = relationship("EvidenceArtifact", back_populates="task")
     obligation = relationship("ObligationInstance", back_populates="remediation_tasks")
-    supplier = relationship("Supplier", backref="remediation_tasks") 
+
+    # UPDATE THIS:
+    supplier = relationship("Supplier", backref="remediation_tasks")
+    supplier = relationship("Supplier", back_populates="remediation_tasks")
+
 
 class EvidenceArtifact(Base):
     __tablename__ = "evidence_artifacts"
@@ -65,3 +73,4 @@ class Supplier(Base):
     is_verified = Column(Boolean, default=False)
     created_at = Column(DateTime)
     last_updated = Column(DateTime)
+    remediation_tasks = relationship("RemediationTask", back_populates="supplier")
