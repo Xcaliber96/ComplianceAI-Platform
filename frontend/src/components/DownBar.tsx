@@ -1,4 +1,5 @@
-import { Box, Typography, Button, Link } from "@mui/material";
+// import {  Button, Link } from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import { LinkedIn, Twitter, Instagram } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 
@@ -8,7 +9,7 @@ export default function DownBar() {
   return (
     <Box
       sx={{
-        backgroundColor: "#0d1117", // deep dark tone
+        backgroundColor: "#0d1117", 
         color: "#f1f1f1",
         py: { xs: 8, md: 10 },
         px: { xs: 4, md: 12 },
