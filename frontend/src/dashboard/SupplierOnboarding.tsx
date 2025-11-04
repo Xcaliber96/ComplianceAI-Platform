@@ -129,7 +129,7 @@ export default function SupplierOnboarding() {
                 <Table>
                   <TableHead sx={{ background: "#f2f6fc" }}>
                     <TableRow>
-                      <TableCell fontWeight={700}>Name</TableCell>
+                      <TableCell sx={{ fontWeight: 700 }}>Name</TableCell>
                       <TableCell>Email</TableCell>
                       <TableCell>Industry</TableCell>
                       <TableCell>Region</TableCell>

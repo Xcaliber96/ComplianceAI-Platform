@@ -547,13 +547,19 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
 async def external_intelligence(industry: str):
     result = {"status": "success", "details": f"Fetched data for {industry}"}
     return JSONResponse(content=result)
-
 @app.post("/api/rag_compliance_analysis", response_model=None)
-async def rag_analysis(file: UploadFile = File(...), regulations: str = Form(...)):
+async def rag_analysis(
+    file: UploadFile = File(...),
+    regulations: str = Form(...),
+    supplierid: str = Form(...)
+):
     pdf_bytes = await file.read()
-    findings = {"status": "success", "details": "RAG policy-compliance mock result"}
+    findings = {
+        "status": "success",
+        "supplier": supplierid,
+        "details": f"RAG policy-compliance mock result for {regulations}"
+    }
     return JSONResponse(content=findings)
-
 @app.get("/api/source_graph")
 async def source_graph(platform: str):
     graph_data = {"nodes": ["A", "B"], "edges": [("A", "B")]}
@@ -583,27 +589,40 @@ async def get_obligations(db: Session = Depends(get_db)):
     obligations = db.query(ObligationInstance).all()
     return obligations
 
-# Task Management
 @app.post("/api/task")
 async def create_task(
-    obligation_id: int = Form(...), 
-    assigned_to: str = Form(...), 
+    obligation_id: int = Form(...),
+    assigned_to: str = Form(...),
     sla_due: str = Form(...),
+    supplier_id: str = Form(None),   # ✅ NEW FIELD
     checklist_template: str = Form("{}"),
     db: Session = Depends(get_db)
 ):
     template = json.loads(checklist_template) if checklist_template else {}
+
     task = RemediationTask(
-        obligation_id=obligation_id, 
-        assigned_to=assigned_to, 
+        obligation_id=obligation_id,
+        assigned_to=assigned_to,
         sla_due=datetime.fromisoformat(sla_due),
+        supplier_id=supplier_id,  # ✅ pass to model
         checklist_template=template
     )
+
     db.add(task)
     db.commit()
     db.refresh(task)
-    log_audit(db, "RemediationTask", task.id, "create", "system", f"Created task for obligation {obligation_id}")
+
+    log_audit(
+        db,
+        "RemediationTask",
+        task.id,
+        "create",
+        "system",
+        f"Created task for obligation {obligation_id} (supplier: {supplier_id})"
+    )
+
     return task
+
 
 @app.get("/api/tasks")
 async def get_tasks(db: Session = Depends(get_db)):

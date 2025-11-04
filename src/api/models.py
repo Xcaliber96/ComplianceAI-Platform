@@ -32,6 +32,7 @@ class RemediationTask(Base):
     breach_flag = Column(Boolean, default=False)
     evidence_artifacts = relationship("EvidenceArtifact", back_populates="task")
     obligation = relationship("ObligationInstance", back_populates="remediation_tasks")
+    supplier = relationship("Supplier", backref="remediation_tasks") 
 
 class EvidenceArtifact(Base):
     __tablename__ = "evidence_artifacts"

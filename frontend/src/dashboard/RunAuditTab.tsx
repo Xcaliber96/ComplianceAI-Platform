@@ -73,29 +73,38 @@ export default function RunAuditTab() {
       return
     }
     // Pass supplierId to backend
-    const res = await runRagCompliance(file, regulations)
+    const res = await runRagCompliance(file, regulations, supplierId)
     setLog(prev => prev + `\n[RAG Analysis] ${JSON.stringify(res)}`)
   }
 
-  const handleCreateTask = async () => {
-    if (!newTask.obligation_id || !newTask.assigned_to || !newTask.sla_due) {
-      setLog(prev => prev + '\n[Error] Please fill all task fields')
-      return
-    }
-    try {
-      await createTask({
-        obligation_id: parseInt(newTask.obligation_id),
-        assigned_to: newTask.assigned_to,
-        sla_due: newTask.sla_due,
-        supplier_id: supplierId // link tasks to suppliers!
-      })
-      setLog(prev => prev + '\n[Success] Task created!')
-      setNewTask({ obligation_id: '', assigned_to: '', sla_due: '' })
-      loadData()
-    } catch (error) {
-      setLog(prev => prev + `\n[Error] Failed to create task: ${error}`)
-    }
+const handleCreateTask = async () => {
+  if (
+    !newTask.obligation_id ||
+    !newTask.assigned_to ||
+    !newTask.sla_due ||
+    !supplierId 
+  ) {
+    setLog(prev => prev + '\n[Error] Please fill all task fields and select a supplier.')
+    return
   }
+
+  try {
+    await createTask({
+      obligation_id: parseInt(newTask.obligation_id),
+      assigned_to: newTask.assigned_to,
+      sla_due: newTask.sla_due,
+      supplier_id: supplierId 
+    })
+
+    setLog(prev => prev + `\n[Success] Task created for supplier ${supplierId}!`)
+    setNewTask({ obligation_id: '', assigned_to: '', sla_due: '' })
+    loadData()
+  } catch (error) {
+    console.error(error)
+    setLog(prev => prev + `\n[Error] Failed to create task: ${error}`)
+  }
+}
+
 
   const handleUploadEvidence = async () => {
     if (!evidenceFile || !selectedTaskId) return

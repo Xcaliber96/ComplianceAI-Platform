@@ -117,14 +117,21 @@ export const runExternalIntelligence = async (industry: string) => {
   return response.data
 }
 
-export const runRagCompliance = async (file: File, regulations: string) => {
+export const runRagCompliance = async (
+  file: File,
+  regulations: string,
+  supplierId: string
+) => {
   const formData = new FormData()
   formData.append('file', file)
   formData.append('regulations', regulations)
+  formData.append('supplierid', supplierId) 
+
   const response = await apiClient.post('/api/rag_compliance_analysis', formData, {
     headers: { 'Content-Type': 'multipart/form-data' },
   })
-  return response.data
+
+  return response.data 
 }
 
 export const getSourceGraph = async (platform: string) => {
@@ -166,18 +173,25 @@ export interface RemediationTask {
   checklist_template?: Record<string, any>
   breach_flag?: boolean
 }
+export const createTask = async (taskData: {
+    obligation_id: number
+    assigned_to: string
+    sla_due: string
+    supplier_id?: string | null
+  }) => {
+    const formData = new FormData()
+    formData.append("obligation_id", taskData.obligation_id.toString())
+    formData.append("assigned_to", taskData.assigned_to)
+    formData.append("sla_due", taskData.sla_due)
+    if (taskData.supplier_id) {
+      formData.append("supplier_id", taskData.supplier_id) // ✅ added
+    }
 
-export const createTask = async (task: RemediationTask) => {
-  const formData = new FormData()
-  formData.append('obligation_id', task.obligation_id.toString())
-  formData.append('assigned_to', task.assigned_to)
-  formData.append('sla_due', task.sla_due)
-  formData.append('checklist_template', JSON.stringify(task.checklist_template || {}))
-  const response = await apiClient.post('/api/task', formData, {
-    headers: { 'Content-Type': 'multipart/form-data' },
-  })
-  return response.data
-}
+    const response = await apiClient.post("/api/task", formData, {
+      headers: { "Content-Type": "multipart/form-data" },
+    })
+    return response.data
+  }
 
 export const getTasks = async () => {
   const response = await apiClient.get('/api/tasks')
