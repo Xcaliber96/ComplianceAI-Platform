@@ -4,10 +4,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 8501, 
+    host: true,
+    port: 8501,
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000',  
+        target: 'http://127.0.0.1:8000',
         changeOrigin: true,
       },
       '/add_user_to_gcs': {
@@ -15,5 +16,19 @@ export default defineConfig({
         changeOrigin: true,
       },
     },
+    allowedHosts: [
+      'complianceai-platform.onrender.com',
+      'complianceai-platform-1.onrender.com',
+    ],
+  },
+  preview: {
+    allowedHosts: [
+      'complianceai-platform.onrender.com',
+      'complianceai-platform-1.onrender.com',
+    ],
+    port: 8501,
+  },
+  build: {
+    outDir: 'dist',
   },
 })
