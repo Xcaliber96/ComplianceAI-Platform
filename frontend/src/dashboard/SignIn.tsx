@@ -14,7 +14,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import { auth } from "./firebaseConfig.ts";
+import { auth } from "./firebaseConfig";
 import { listenForUser } from "./userListener";
 
 export default function SignIn() {
