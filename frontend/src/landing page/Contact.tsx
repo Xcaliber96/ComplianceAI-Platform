@@ -22,12 +22,14 @@ export default function ContactSection() {
     consent: false,
   });
 
-  const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value, type, checked } = e.target;
-    setFormData({ ...formData, [name]: type === "checkbox" ? checked : value });
-  };
+const handleChange = (
+  e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+) => {
+  const target = e.target as HTMLInputElement;
+  const { name, value, type } = target;
+  const fieldValue = type === "checkbox" ? target.checked : value;
+  setFormData({ ...formData, [name]: fieldValue });
+};
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();

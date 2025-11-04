@@ -28,7 +28,13 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from "recharts";
-
+interface Company {
+  name: string;
+  region: string;
+  industry: string;
+  compliance: number;
+  evidence: number;
+}
 export default function ComplianceDashboard() {
   const geoUrl =
     "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -63,7 +69,7 @@ export default function ComplianceDashboard() {
     { name: "Acme Materials", region: "USA", industry: "Materials", compliance: 72, evidence: 88 },
     { name: "EuroPlast AG", region: "DEU", industry: "Automotive", compliance: 64, evidence: 95 },
   ];
-  const [openSupplier, setOpenSupplier] = React.useState(null);
+  const [openSupplier, setOpenSupplier] = React.useState<Company | null>(null);
 
   return (
     <Box sx={{ p: 4, bgcolor: "#f8f9fa", minHeight: "100vh" }}>
