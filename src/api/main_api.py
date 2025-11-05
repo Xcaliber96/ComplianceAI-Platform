@@ -53,6 +53,11 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 from fastapi import APIRouter
+from openai import OpenAI
+import os
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 
 router = APIRouter()
 
@@ -62,6 +67,14 @@ G_SCOPES = [
     "https://www.googleapis.com/auth/drive.metadata.readonly",
 ]
 
+def extract_text_from_pdf_bytes(pdf_bytes):
+    import io
+    from PyPDF2 import PdfReader
+    reader = PdfReader(io.BytesIO(pdf_bytes))
+    text = ""
+    for page in reader.pages:
+        text += page.extract_text() or ""
+    return text
 
 
 def get_gdrive_credentials():
@@ -543,23 +556,41 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             status_code=500
         )
 
+from openai import OpenAI
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 @app.get("/api/external_intelligence", response_model=None)
 async def external_intelligence(industry: str):
-    result = {"status": "success", "details": f"Fetched data for {industry}"}
-    return JSONResponse(content=result)
-@app.post("/api/rag_compliance_analysis", response_model=None)
-async def rag_analysis(
-    file: UploadFile = File(...),
-    regulations: str = Form(...),
-    supplierid: str = Form(...)
-):
-    pdf_bytes = await file.read()
-    findings = {
-        "status": "success",
-        "supplier": supplierid,
-        "details": f"RAG policy-compliance mock result for {regulations}"
-    }
-    return JSONResponse(content=findings)
+    prompt = (
+        f"Generate structured JSON on compliance, risk trends, and new regulations for the {industry} industry. "
+        "Format as: {"
+        '"source": "MarketReport",'
+        '"headline": "...",'
+        '"key_risks": ["...", "..."],'
+        '"regulation_news": ['
+            '{"regulation": "...", "summary": "...", "link": "..."}'
+        ']}'
+    )
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "You are an enterprise compliance assistant."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=600,
+        temperature=0.2,
+        response_format={"type": "json_object"},
+    )
+    import json
+    content = response.choices[0].message.content
+    try:
+        findings = [json.loads(content)]
+    except Exception:
+        findings = [{"headline": "Parsing error", "error": content}]
+    return JSONResponse(content={"status": "success", "details": findings})
+
+
+
 @app.get("/api/source_graph")
 async def source_graph(platform: str):
     graph_data = {"nodes": ["A", "B"], "edges": [("A", "B")]}
@@ -883,6 +914,56 @@ async def add_user_to_gcs(request: Request):
     except Exception as e:
         print(f"❌ Error adding user: {e}")
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
+    
+
+from openai import OpenAI
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+@app.post("/api/rag_compliance_analysis", response_model=None)
+async def rag_analysis(
+    file: UploadFile = File(...),
+    regulations: str = Form(...),
+    supplierid: str = Form(...)
+):
+    pdf_bytes = await file.read()
+    pdf_text = extract_text_from_pdf_bytes(pdf_bytes)
+
+    prompt = (
+        "Given this supplier evidence text:\n"
+        f"{pdf_text[:3000]}\n\n"
+        f"And these regulations: {regulations}.\n"
+        "For each regulation, return a JSON object with: requirement, status (Compliant/Risk/Violation), details, evidence (summarized as section/page). "
+        "Always return a JSON array, even for one regulation. Do not return a single object. Array of JSON objects, nothing else."
+    )
+
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "You are a compliance audit expert."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=800,
+        temperature=0.2,
+        response_format={"type": "json_object"},
+    )
+    import json
+    content = response.choices[0].message.content
+    try:
+        findings = json.loads(content)
+        # Normalize output to always be a list of findings
+        if isinstance(findings, dict) and "regulations" in findings:
+            findings = findings["regulations"]
+        elif isinstance(findings, dict):
+            findings = [findings]
+    except Exception:
+        findings = [{"error": "Parsing error", "output": content}]
+    return JSONResponse(content={
+        "status": "success",
+        "supplier": supplierid,
+        "details": findings
+    })
+
+
 
 if __name__ == "__main__":
     import uvicorn
