@@ -5,8 +5,9 @@ import DashboardApp from "./dashboard/DashboardApp";
 // These are now inside dashboard!
 import SignIn from "./dashboard/SignIn";
 import SignUp from "./dashboard/SignUp";
+import NomiPulsePage  from "./dashboard/NomiPulsePage";
 import CompetitorsPage from "./dashboard/CompetitorsPage";
-
+import SupplierOnboarding from "./dashboard/SupplierOnboarding";
 // New imports
 import FeaturesPage from "./pages/FeaturesPage";
 import PricingPage from "./pages/PricingPage";
@@ -21,7 +22,6 @@ export default function App() {
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/dashboard/*" element={<DashboardApp />} />
-        <Route path="/competitors" element={<CompetitorsPage />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<div>404: Page Not Found</div>} />
