@@ -25,6 +25,8 @@ export default defineConfig({
     allowedHosts: [
       'complianceai-platform.onrender.com',
       'complianceai-platform-1.onrender.com',
+      'nomioc.com',
+      'www.nomioc.com',
     ],
     port: 8501,
   },

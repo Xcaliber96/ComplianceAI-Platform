@@ -28,7 +28,6 @@
     "recharts": "^3.3.0",
     "zod": "^3.23.8",
     "zustand": "^4.5.2"
-    
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
@@ -42,9 +41,7 @@
     "tailwindcss": "^4.1.16",
     "typescript": "^5.6.2",
     "vite": "^7.1.9"
-    
   },
-
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -62,9 +59,10 @@
     "isolatedModules": true,
     "outDir": "dist"
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
-
-  
-  
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

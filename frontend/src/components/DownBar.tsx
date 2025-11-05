@@ -85,7 +85,7 @@ export default function DownBar() {
             Contact Us
           </Typography>
           <Typography variant="body2" sx={{ color: "#e6edf3", mb: 1 }}>
-            moust1am@cmich.edu
+            help@nomioc.com
           </Typography>
           <Typography variant="body2" sx={{ color: "#e6edf3", mb: 1 }}>
             (989) 444-4360
