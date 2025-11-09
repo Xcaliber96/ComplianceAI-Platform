@@ -64,7 +64,7 @@ export default function FrontPage() {
     <Box
       sx={{
         minHeight: "100vh",
-        backgroundColor: "#f9fafc",
+        backgroundColor: "#FFFFFF",
         px: { xs: 3, md: 8 },
         py: { xs: 6, md: 10 },
       }}

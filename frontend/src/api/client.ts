@@ -1,7 +1,10 @@
 import axios from 'axios'
 
-// Base URL - update if deploying to production
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000';
+const BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (window.location.hostname.includes("localhost")
+    ? "http://localhost:8000"
+    : "https://complianceai-platform.onrender.com");
 
 // Create axios instance with default config
 const apiClient = axios.create({
@@ -9,9 +12,39 @@ const apiClient = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  withCredentials: true, 
 })
 
 export type DriveFile = { id: string; name: string }
+export async function checkBackendReady() {
+  try {
+    const res = await fetch(`${BASE_URL}/`, { method: "GET" });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+export async function loginWithFirebaseToken(idToken: string) {
+  const { data } = await apiClient.post(
+    '/session/login',
+    { idToken },
+    { withCredentials: true }
+  )
+  return data
+}
+export async function getCurrentSession() {
+  const res = await fetch(`${BASE_URL}/session/me`, {
+    method: "GET",
+    credentials: "include",
+  });
+
+  if (!res.ok) throw new Error("Not authenticated");
+  return res.json();
+}
+export async function logoutSession() {
+  const { data } = await apiClient.post('/session/logout')
+  return data
+}
 
 export async function analyzeCompany(companyName: string) {
   try {
@@ -258,6 +291,7 @@ export interface DashboardSummary {
 export const getDashboardSummary = async (): Promise<DashboardSummary> => {
   const response = await apiClient.get('/api/dashboard/summary')
   return response.data
+  
 }
 
 export interface AuditLogEntry {

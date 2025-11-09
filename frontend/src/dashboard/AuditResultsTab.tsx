@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useFilters } from '../store/filters'
 import FeedbackDialog from '../components/FeedbackDialog'
 import { getDashboardSummary, getAuditLog, getTasks } from '../api/client'
-
+import '../index.css';
 type ResultItem = {
   id: string
   requirement: string

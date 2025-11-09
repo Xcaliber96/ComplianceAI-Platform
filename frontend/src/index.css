@@ -1,0 +1,20 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: #FFFFFF;
+}
+
+.MuiDrawer-paper {
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.MuiAppBar-root {
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

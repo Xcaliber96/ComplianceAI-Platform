@@ -19,8 +19,8 @@ class ComplianceChecker:
         hf_token = os.environ.get("HF_API_TOKEN")
         if not hf_token:
             raise ValueError("❌ HF_API_TOKEN is not set in environment!")
-        self.llm_client = InferenceClient(api_key=hf_token, provider="featherless-ai")
-
+        # self.llm_client = InferenceClient(api_key=hf_token, provider="featherless-ai")
+        self.llm_client = InferenceClient(api_key=hf_token)
         # ChromaDB setup
         self.chroma_client = chromadb.Client()
         self.collection = self.chroma_client.get_or_create_collection(

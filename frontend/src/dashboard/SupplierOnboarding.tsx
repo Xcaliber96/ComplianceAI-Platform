@@ -1,47 +1,59 @@
 import React, { useState, useEffect } from "react";
 import {
   Box, Button, TextField, Typography, Table, TableHead, TableRow,
-  TableCell, TableBody, Paper, Card, CardContent, Container, Divider, Avatar, Fade
+  TableCell, TableBody, Paper, Card, CardContent, Container, Divider,
+  Avatar, Fade, Chip, Tooltip, LinearProgress
 } from "@mui/material";
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
-import BusinessIcon from '@mui/icons-material/Business';
+import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import BusinessIcon from "@mui/icons-material/Business";
+import AddBusinessIcon from "@mui/icons-material/AddBusiness";
+import LanguageIcon from "@mui/icons-material/Language";
+import UploadFileIcon from "@mui/icons-material/UploadFile";
 import axios from "axios";
+
 interface Supplier {
   id: number;
   name: string;
   email: string;
   industry: string;
   region: string;
+  risk_score?: number;
 }
 
 export default function SupplierOnboarding() {
   const [form, setForm] = useState({ name: "", email: "", industry: "", region: "" });
- 
   const [file, setFile] = useState<File | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [suppliers, setSuppliers] = useState<Supplier[]>([]);
 
-const [suppliers, setSuppliers] = useState<Supplier[]>([])
+  // new fields for auto-detect
+  const [inputType, setInputType] = useState<"domain" | "name" | "document">("name");
+  const [domain, setDomain] = useState("");
+  const [businessName, setBusinessName] = useState("");
+  const [docFile, setDocFile] = useState<File | null>(null);
+
   useEffect(() => { fetchSuppliers(); }, []);
 
   const fetchSuppliers = async () => {
+    setLoading(true);
     const { data } = await axios.get("/api/suppliers");
     setSuppliers(data);
+    setLoading(false);
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => setForm({ ...form, [e.target.name]: e.target.value });
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
+    setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData();
-    data.append("name", form.name);
-    data.append("email", form.email);
-    data.append("industry", form.industry);
-    data.append("region", form.region);
+    Object.entries(form).forEach(([k, v]) => data.append(k, v));
     await axios.post("/api/suppliers", data);
     setForm({ name: "", email: "", industry: "", region: "" });
     fetchSuppliers();
   };
 
-  const handleUpload = async (id:number) => {
+  const handleUpload = async (id: number) => {
     if (!file) return;
     const data = new FormData();
     data.append("file", file);
@@ -49,45 +61,167 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
     setFile(null);
   };
 
+  // auto-detect handler
+  const handleAutoDetect = async () => {
+    const formData = new FormData();
+    if (inputType === "domain") formData.append("domain", domain);
+    if (inputType === "name") formData.append("name", businessName);
+    if (inputType === "document" && docFile) formData.append("file", docFile);
+
+    const { data } = await axios.post("/api/suppliers/auto-detect", formData);
+    setForm({
+      name: data.name || "",
+      email: data.email || "",
+      industry: data.industry || "",
+      region: data.region || "",
+    });
+  };
+
   return (
     <Fade in={true} timeout={700}>
       <Box
         sx={{
           minHeight: "100vh",
-          width: "100vw",
-          background: "linear-gradient(120deg, #e5f2ff 0%, #fff 100%)",
+          width: "100%",
+          background: "linear-gradient(135deg, #f5f9ff 0%, #e6ecfa 100%)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          py: 8,
         }}
       >
-        <Container maxWidth="md" sx={{ py: { xs: 6, md: 8 } }}>
-          <Card elevation={6} sx={{
-            borderRadius: 5,
-            background: "#fff",
-            boxShadow: "0 8px 28px rgba(0,60,200,0.10)",
-          }}>
+        <Container maxWidth="lg">
+          <Card
+            elevation={6}
+            sx={{
+              background: "#fff",
+              boxShadow: "0 10px 25px rgba(0, 80, 200, 0.1)",
+              p: { xs: 2, md: 4 },
+            }}
+          >
             <CardContent>
-              <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
-                <Avatar sx={{ bgcolor: "#1976d2", mr: 2 }}>
-                  <BusinessIcon />
-                </Avatar>
-                <Typography variant="h5" fontWeight={800} sx={{ color: "#1976d2" }}>
-                  Supplier Onboarding
-                </Typography>
+              {/* Header */}
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  flexWrap: "wrap",
+                  mb: 3,
+                }}
+              >
+                <Box sx={{ display: "flex", alignItems: "center" }}>
+                  <Avatar sx={{ bgcolor: "#1976d2", mr: 2 }}>
+                    <BusinessIcon />
+                  </Avatar>
+                  <Typography variant="h5" fontWeight={800} color="primary">
+                    Supplier Onboarding
+                  </Typography>
+                </Box>
+                <Tooltip title="Add New Supplier">
+                  <AddBusinessIcon color="primary" sx={{ fontSize: 30 }} />
+                </Tooltip>
               </Box>
-              <Typography variant="subtitle1" sx={{ color: "#555", mb: 3 }}>
-                Seamlessly onboard supply chain partners. Add and view supplier profiles, and manage compliance file uploads with ease.
+
+              <Typography
+                variant="subtitle1"
+                sx={{ color: "#555", mb: 4, maxWidth: 600 }}
+              >
+                Register and manage your supply chain partners. Upload compliance
+                files, track risk scores, and maintain transparency with ease.
               </Typography>
+
+              {/* Auto-detect Section */}
+              <Card sx={{ mb: 4, p: 2, borderRadius: 3, background: "#f8fbff" }}>
+                <Typography variant="h6" fontWeight={700} color="primary" mb={2}>
+                  🔍 Discover Supplier Automatically
+                </Typography>
+
+                <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
+                  <TextField
+                    select
+                    label="Input Type"
+                    value={inputType}
+                    onChange={(e) => setInputType(e.target.value as any)}
+                    SelectProps={{ native: true }}
+                    sx={{ minWidth: 180 }}
+                  >
+                    <option value="domain">Domain</option>
+                    <option value="name">Business Name</option>
+                    <option value="document">Upload Document</option>
+                  </TextField>
+
+                  {inputType === "domain" && (
+                    <TextField
+                      label="Company Domain"
+                      placeholder="e.g. panasonic.com"
+                      value={domain}
+                      onChange={(e) => setDomain(e.target.value)}
+                      sx={{ flex: 1, minWidth: 260 }}
+                      InputProps={{ startAdornment: <LanguageIcon sx={{ mr: 1 }} /> }}
+                    />
+                  )}
+
+                  {inputType === "name" && (
+                    <TextField
+                      label="Business Name"
+                      placeholder="e.g. Panasonic Holdings"
+                      value={businessName}
+                      onChange={(e) => setBusinessName(e.target.value)}
+                      sx={{ flex: 1, minWidth: 260 }}
+                      InputProps={{ startAdornment: <BusinessIcon sx={{ mr: 1 }} /> }}
+                    />
+                  )}
+
+                  {inputType === "document" && (
+                    <Button
+                      variant="outlined"
+                      component="label"
+                      startIcon={<UploadFileIcon />}
+                      sx={{ minWidth: 200 }}
+                    >
+                      {docFile ? docFile.name : "Choose Document"}
+                      <input
+                        hidden
+                        type="file"
+                        accept=".pdf,.docx,.txt"
+                        onChange={(e) => setDocFile(e.target.files?.[0] || null)}
+                      />
+                    </Button>
+                  )}
+
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    onClick={handleAutoDetect}
+                    sx={{ fontWeight: 700 }}
+                    disabled={
+                      (inputType === "domain" && !domain) ||
+                      (inputType === "name" && !businessName) ||
+                      (inputType === "document" && !docFile)
+                    }
+                  >
+                    Auto-Detect Supplier
+                  </Button>
+                </Box>
+              </Card>
+
+              {/* Form */}
               <form onSubmit={handleSubmit}>
-                <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2, mb: 2 }}>
+                <Box
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: { xs: "1fr", md: "repeat(4, 1fr)" },
+                    gap: 2,
+                    mb: 3,
+                  }}
+                >
                   <TextField
                     label="Name"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
                     required
-                    sx={{ flex: 1, minWidth: 180 }}
                   />
                   <TextField
                     label="Email"
@@ -96,7 +230,6 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
                     value={form.email}
                     onChange={handleChange}
                     required
-                    sx={{ flex: 1, minWidth: 180 }}
                   />
                   <TextField
                     label="Industry"
@@ -104,37 +237,51 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
                     value={form.industry}
                     onChange={handleChange}
                     required
-                    sx={{ flex: 1, minWidth: 140 }}
                   />
                   <TextField
-                  
                     label="Region"
                     name="region"
                     value={form.region}
                     onChange={handleChange}
                     required
-                    sx={{ flex: 1, minWidth: 120 }}
                   />
-                  <Button
-                    variant="contained"
-                    type="submit"
-                    sx={{
-                      px: 3,
-                      bgcolor: "#1976d2",
-                      fontWeight: 700,
-                      boxShadow: "0 4px 16px rgba(25, 118, 210, 0.11)",
-                      "&:hover": { bgcolor: "#1565c0" }
-                    }}
-                  >
-                    Add Supplier
-                  </Button>
                 </Box>
+                <Button
+                  variant="contained"
+                  type="submit"
+                  size="large"
+                  startIcon={<AddBusinessIcon />}
+                  sx={{
+                    fontWeight: 700,
+                    bgcolor: "#1976d2",
+                    px: 3,
+                    "&:hover": { bgcolor: "#1254a2" },
+                  }}
+                >
+                  Add Supplier
+                </Button>
               </form>
-              <Divider sx={{ my: 3 }} />
-              <Typography variant="subtitle1" fontWeight={700} sx={{ mb: 1, color: "#1976d2" }}>
+
+              <Divider sx={{ my: 4 }} />
+
+              {/* Table Section */}
+              <Typography
+                variant="h6"
+                fontWeight={700}
+                sx={{ color: "#1976d2", mb: 2 }}
+              >
                 Supplier Registry
               </Typography>
-              <Paper elevation={2} sx={{ borderRadius: 3, mb: 1, overflowX: "auto" }}>
+
+              {loading && <LinearProgress sx={{ mb: 2 }} />}
+
+              <Paper
+                elevation={2}
+                sx={{
+                  overflow: "hidden",
+                  boxShadow: "0 3px 10px rgba(0,0,0,0.05)",
+                }}
+              >
                 <Table>
                   <TableHead sx={{ background: "#f2f6fc" }}>
                     <TableRow>
@@ -142,26 +289,46 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
                       <TableCell>Email</TableCell>
                       <TableCell>Industry</TableCell>
                       <TableCell>Region</TableCell>
+                      <TableCell align="center">Risk</TableCell>
                       <TableCell align="center">Upload Compliance File</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
-                    {suppliers.map(s => (
-                      <TableRow key={s.id} sx={{ ":hover": { background: "#e5f2ff" } }}>
+                    {suppliers.map((s) => (
+                      <TableRow
+                        key={s.id}
+                        sx={{
+                          ":hover": { background: "#f0f6ff" },
+                          transition: "background 0.3s ease",
+                        }}
+                      >
                         <TableCell>{s.name}</TableCell>
                         <TableCell>{s.email}</TableCell>
                         <TableCell>{s.industry}</TableCell>
                         <TableCell>{s.region}</TableCell>
                         <TableCell align="center">
-                          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                          <Chip
+                            label={s.risk_score ? `${s.risk_score}%` : "Pending"}
+                            color={
+                              s.risk_score
+                                ? s.risk_score > 70
+                                  ? "error"
+                                  : "success"
+                                : "default"
+                            }
+                            size="small"
+                          />
+                        </TableCell>
+                        <TableCell align="center">
+                          <Box sx={{ display: "flex", alignItems: "center", gap: 1, justifyContent: "center" }}>
                             <input
                               type="file"
                               style={{ display: "none" }}
                               id={`file-upload-${s.id}`}
                               onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-                              const selectedFile = e.target.files?.[0] ?? null;
-                              setFile(selectedFile);
-                            }}
+                                const selectedFile = e.target.files?.[0] ?? null;
+                                setFile(selectedFile);
+                              }}
                             />
                             <label htmlFor={`file-upload-${s.id}`}>
                               <Button
@@ -169,9 +336,8 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
                                 variant="outlined"
                                 component="span"
                                 startIcon={<CloudUploadIcon />}
-                                sx={{ fontWeight: 500 }}
                               >
-                                Select File
+                                Select
                               </Button>
                             </label>
                             <Button
@@ -179,7 +345,12 @@ const [suppliers, setSuppliers] = useState<Supplier[]>([])
                               variant="contained"
                               disabled={!file}
                               onClick={() => handleUpload(s.id)}
-                              sx={{ bgcolor: "#1976d2", fontWeight: 700, boxShadow: "none" }}
+                              sx={{
+                                bgcolor: "#1976d2",
+                                fontWeight: 600,
+                                boxShadow: "none",
+                                "&:hover": { bgcolor: "#1254a2" },
+                              }}
                             >
                               Upload
                             </Button>

@@ -8,11 +8,12 @@ export default defineConfig({
     port: 8501,
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://localhost:8000',
         changeOrigin: true,
       },
       '/add_user_to_gcs': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://localhost:8000',
+        
         changeOrigin: true,
       },
     },

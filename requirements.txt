@@ -36,3 +36,5 @@ python-docx
 requests
 python-dateutil
 typing-extensions
+
+python-dotenv

@@ -1,12 +1,14 @@
-import React, { useCallback } from "react";
+import React, { useState } from "react";
 import {
   Box,
-  Button,
-  TextField,
-  Typography,
+  Grid,
   Paper,
-  Stack,
+  Typography,
+  TextField,
+  Button,
   Divider,
+  Stack,
+  Alert,
 } from "@mui/material";
 import { Google } from "@mui/icons-material";
 import {
@@ -14,191 +16,173 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebaseConfig";
-import { listenForUser } from "./userListener";
 
 export default function SignIn() {
-  const [email, setEmail] = React.useState("");
-  const [password, setPassword] = React.useState("");
-  const [error, setError] = React.useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const navigate = useNavigate();
 
   const handleEmailSignIn = async () => {
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
-      if (!user || !user.email) throw new Error("No user found after sign-in");
+      if (!user?.email) throw new Error("No user found after sign-in");
 
-      const userEmail = user.email;
-      const resp = await fetch("http://127.0.0.1:8000/add_user_to_gcs", {
+      // ✅ Get Firebase token and create backend session
+      const idToken = await user.getIdToken();
+      await fetch("http://localhost:8000/session/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: userEmail }),
+        credentials: "include", // allow cookies
+        body: JSON.stringify({ idToken }),
       });
 
-      if (!resp.ok) throw new Error(`Backend error: ${resp.status}`);
-      console.log("Synced user:", userEmail);
-      listenForUser();
-      alert("Signed in successfully & GCS access assigned!");
+      setSuccess("✅ Signed in successfully!");
+      setError("");
+
+      // Redirect to dashboard
+      setTimeout(() => navigate("/dashboard"), 1000);
     } catch (err: any) {
-      console.error("Sign-in error:", err);
       setError(err.message);
+      setSuccess("");
     }
   };
 
   const handleGoogleSignIn = async () => {
-    const provider = new GoogleAuthProvider();
     try {
+      const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
-      const userEmail = result.user.email;
-      await fetch("http://127.0.0.1:8000/add_user_to_gcs", {
+
+      const idToken = await result.user.getIdToken();
+      await fetch("http://localhost:8000/session/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: userEmail }),
+        credentials: "include", 
+        body: JSON.stringify({ idToken }),
       });
-      alert("✅ Signed in with Google & GCS access assigned!");
+
+      setSuccess("✅ Signed in with Google!");
+      setError("");
+
+      setTimeout(() => navigate("/dashboard"), 1000);
     } catch (err: any) {
-      console.error("❌ Google sign-in error:", err);
       setError(err.message);
+      setSuccess("");
     }
   };
 
   return (
-    <Box
-      sx={{
-        position: "relative",
-        minHeight: "100vh",
-        width: "100%",
-        overflow: "hidden",
-      }}
-    >
-      {/* 🖼️ Background Image */}
-      <Box
+    <Grid container sx={{ minHeight: "100vh" }}>
+      {}
+      <Grid
+        item
+        xs={12}
+        md={6}
         sx={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1670956007923-b78e45e011d8?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1632')",
+            "url('https://images.unsplash.com/photo-1670956007923-b78e45e011d8?auto=format&fit=crop&q=80&w=1600')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          filter: "brightness(0.6)", // darken for readability
-          zIndex: 0,
+          position: "relative",
         }}
-      />
-
-      {/* 🖤 Gradient Overlay */}
-      <Box
-        sx={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          background:
-            "linear-gradient(to bottom right, rgba(0,0,0,0.7), rgba(0,0,0,0.4))",
-          zIndex: 1,
-        }}
-      />
-
-      {/* 🔹 Sign-In Form */}
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        minHeight="100vh"
-        sx={{ position: "relative", zIndex: 2 }}
       >
-        <Paper
-          elevation={8}
+        <Box
           sx={{
-            p: 5,
-            width: 400,
-            borderRadius: 4,
-            backdropFilter: "blur(16px)",
-            backgroundColor: "rgba(255, 255, 255, 0.15)",
-            border: "1px solid rgba(255,255,255,0.2)",
-            color: "#fff",
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,0.3))",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
+          <Box textAlign="center" px={4}>
+            <Typography
+              variant="h3"
+              sx={{
+                color: "white",
+                fontFamily: "'Montserrat', sans-serif",
+                fontWeight: 800,
+              }}
+            >
+              Welcome to NomiAI
+            </Typography>
+            <Typography variant="h6" sx={{ color: "rgba(255,255,255,0.7)" }}>
+              Simplify your compliance. Empower your business.
+            </Typography>
+          </Box>
+        </Box>
+      </Grid>
+
+      {/* ✉️ Right Side – Sign-in Form */}
+      <Grid
+        item
+        xs={12}
+        md={6}
+        component={Paper}
+        elevation={6}
+        square
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          p: { xs: 4, md: 8 },
+          backgroundColor: "#ffffff",
+        }}
+      >
+        <Box sx={{ width: "100%", maxWidth: 400 }}>
           <Typography
             variant="h4"
             fontWeight={700}
-            mb={2}
             textAlign="center"
-            sx={{
-              fontFamily: "'Montserrat', sans-serif",
-              color: "#fff",
-            }}
+            sx={{ mb: 2, color: "#333", fontFamily: "'Montserrat', sans-serif" }}
           >
-            Welcome Back
+            Sign In
           </Typography>
-
           <Typography
             variant="body2"
-            color="rgba(255,255,255,0.7)"
             textAlign="center"
-            mb={4}
+            color="text.secondary"
+            sx={{ mb: 4 }}
           >
-            Sign in to your ComplianceAI account
+            Access your dashboard securely
           </Typography>
 
           <Stack spacing={2}>
             <TextField
               label="Email"
-              variant="outlined"
               fullWidth
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              sx={{
-                "& .MuiOutlinedInput-root": {
-                  color: "#fff",
-                  "& fieldset": { borderColor: "rgba(255,255,255,0.3)" },
-                  "&:hover fieldset": { borderColor: "#00D1FF" },
-                },
-                "& .MuiInputLabel-root": { color: "rgba(255,255,255,0.6)" },
-              }}
             />
             <TextField
               label="Password"
               type="password"
-              variant="outlined"
               fullWidth
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              sx={{
-                "& .MuiOutlinedInput-root": {
-                  color: "#fff",
-                  "& fieldset": { borderColor: "rgba(255,255,255,0.3)" },
-                  "&:hover fieldset": { borderColor: "#00D1FF" },
-                },
-                "& .MuiInputLabel-root": { color: "rgba(255,255,255,0.6)" },
-              }}
             />
 
-            {error && (
-              <Typography variant="body2" color="#ff6f61" textAlign="center">
-                {error}
-              </Typography>
-            )}
+            {success && <Alert severity="success">{success}</Alert>}
+            {error && <Alert severity="error">{error}</Alert>}
 
             <Button
               variant="contained"
               fullWidth
-              size="large"
               sx={{
-                mt: 2,
-                py: 1.2,
-                background:
-                  "linear-gradient(90deg, #00D1FF 0%, #F15BB5 100%)",
-                color: "#fff",
+                py: 1.4,
+                mt: 1,
+                background: "linear-gradient(90deg, #7F2458, #F15BB5)",
                 fontWeight: 600,
-                borderRadius: "50px",
+                borderRadius: "8px",
                 "&:hover": {
-                  background:
-                    "linear-gradient(90deg, #F15BB5 0%, #00D1FF 100%)",
+                  background: "linear-gradient(90deg, #F15BB5, #7F2458)",
                 },
               }}
               onClick={handleEmailSignIn}
@@ -206,35 +190,42 @@ export default function SignIn() {
               Sign In
             </Button>
 
-            <Divider
-              sx={{
-                my: 3,
-                color: "rgba(255,255,255,0.5)",
-                "&::before, &::after": { borderColor: "rgba(255,255,255,0.3)" },
-              }}
-            >
-              or
-            </Divider>
+            <Divider sx={{ my: 3 }}>or</Divider>
 
             <Button
               variant="outlined"
-              fullWidth
               startIcon={<Google />}
-              onClick={handleGoogleSignIn}
+              fullWidth
               sx={{
-                color: "#fff",
-                borderColor: "rgba(255,255,255,0.4)",
-                "&:hover": {
-                  borderColor: "#00D1FF",
-                  backgroundColor: "rgba(255,255,255,0.1)",
-                },
+                py: 1.2,
+                borderRadius: "8px",
+                textTransform: "none",
               }}
+              onClick={handleGoogleSignIn}
             >
               Sign in with Google
             </Button>
+
+            <Typography
+              variant="body2"
+              textAlign="center"
+              sx={{ mt: 3, color: "text.secondary" }}
+            >
+              Don’t have an account?{" "}
+              <Link
+                to="/signup"
+                style={{
+                  textDecoration: "none",
+                  color: "#7F2458",
+                  fontWeight: 600,
+                }}
+              >
+                Sign up
+              </Link>
+            </Typography>
           </Stack>
-        </Paper>
-      </Box>
-    </Box>
+        </Box>
+      </Grid>
+    </Grid>
   );
 }

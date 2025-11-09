@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 from typing import List
 from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
-from fastapi.middleware.cors import CORSMiddleware
+
 from sqlalchemy.orm import Session
 from typing import List, Optional
 import logging, sys, io, json, os, tempfile, hashlib, requests
@@ -41,13 +41,11 @@ DOWNLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "shared_downloads"))
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 from fastapi.middleware.cors import CORSMiddleware
 import firebase_admin
-from fastapi import FastAPI, Request, UploadFile, File, Form, Depends, HTTPException
 from google.auth.transport.requests import Request as GoogleAuthRequest
 from firebase_admin import auth as firebase_auth, credentials
 from fastapi import HTTPException
 
 from google.auth.exceptions import RefreshError
-from fastapi.middleware.cors import CORSMiddleware
 from src.core.extract_keywords import read_policy_text, extract_keywords
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
@@ -55,9 +53,26 @@ from src.core.find_competitors import find_competitors, clean_names, get_company
 from fastapi import APIRouter
 from openai import OpenAI
 import os
+from uuid import uuid4
+from fastapi import Request, Response
+from dotenv import load_dotenv
+
+app = FastAPI(title="ComplianceAI Platform API", version="2.0")
+load_dotenv()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:8501",   # Vite dev server
+        "http://localhost:8501",
+        "http://localhost:8000",   # if same origin dev
+        "https://complianceai-platform.onrender.com",  # your deployed frontend
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 
 router = APIRouter()
 
@@ -66,6 +81,54 @@ G_SCOPES = [
     "https://www.googleapis.com/auth/drive.readonly",
     "https://www.googleapis.com/auth/drive.metadata.readonly",
 ]
+if not firebase_admin._apps:
+    cred = credentials.Certificate("firebase-adminsdk.json")
+    firebase_admin.initialize_app(cred)
+
+SESSIONS = {}
+
+@app.post("/session/login")
+async def session_login(request: Request, response: Response):
+    data = await request.json()
+    id_token = data.get("idToken")
+ 
+    if not id_token:
+        raise HTTPException(status_code=400, detail="Missing idToken")
+
+    decoded = firebase_auth.verify_id_token(id_token)
+    email = decoded.get("email")
+    print("lejlkb elbmlemblmkb",email)
+    session_id = str(uuid4())
+    SESSIONS[session_id] = {"email": email, "timestamp": datetime.utcnow().isoformat()}
+
+    response.set_cookie(
+        key="session_id",
+        value=session_id,
+        httponly=True,
+        secure=True,
+        samesite="Lax",
+        path="/",
+    )
+
+    # ✅ return same response, not a new JSONResponse
+    return {"status": "success", "email": email}
+@app.get("/session/me")
+async def get_current_user(request: Request):
+    session_id = request.cookies.get("session_id")
+    print("🧠 Cookies received:", request.cookies)
+    if not session_id or session_id not in SESSIONS:
+        print("❌ Missing or invalid session_id:", session_id)
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    print("✅ Authenticated session:", SESSIONS[session_id])
+    return {"status": "authenticated", "user": SESSIONS[session_id]}
+
+@app.post("/session/logout")
+async def logout(request: Request, response: Response):
+    session_id = request.cookies.get("session_id")
+    if session_id in SESSIONS:
+        del SESSIONS[session_id]
+    response.delete_cookie("session_id")
+    return {"status": "logged_out"}
 
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
@@ -133,18 +196,6 @@ STORED_FILES = "stored_drive_files.json"
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-
-# Initialize FastAPI app
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 # Processed regulations cache
 processed_regulations = set()
@@ -516,7 +567,7 @@ async def download_gdrive_file(file_id: str = Form(...)):
 def save_stored_files(data, response_model=None):
     with open(STORED_FILES, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
-
+@app.post("/api/internal_compliance_audit")
 async def internal_compliance_audit(file: UploadFile = File(...), response_model=None):
     try:
         # Step 1: Save the uploaded file temporarily
@@ -537,8 +588,8 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
         results = checker.run_check()
 
         # Step 4: Summarize results
-        summary = checker.summary(results)
-
+        summary = checker.dashboard_summary(results)
+        
         # Step 5: Return structured response
         return JSONResponse(content={
             "status": "success",
@@ -965,7 +1016,20 @@ async def rag_analysis(
 
 
 
-if __name__ == "__main__":
-    import uvicorn
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
+
+# Path to the built frontend (adjust if different)
+frontend_dir = os.path.join(os.path.dirname(__file__), "../../frontend/dist")
+
+# Serve all static files (JS, CSS, etc.)
+app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dir, "assets")), name="assets")
+
+# Serve index.html for everything else (React Router fallback)
+@app.get("/{full_path:path}")
+async def serve_react_app(full_path: str):
+    index_path = os.path.join(frontend_dir, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return JSONResponse(status_code=404, content={"message": "index.html not found"})

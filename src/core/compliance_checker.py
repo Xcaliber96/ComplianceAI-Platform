@@ -9,11 +9,8 @@ from sentence_transformers import SentenceTransformer
 import os
 from huggingface_hub import InferenceClient
 
-
-
-# --- 1. Configuration and Setup ---
 SBERT_MODEL_NAME = 'all-mpnet-base-v2' 
-COMPLIANCE_THRESHOLD = 60.0 # Adjusted threshold for semantic scoring
+COMPLIANCE_THRESHOLD = 60.0 
 
 HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
 HEADERS = {"Authorization": f"Bearer {HF_API_TOKEN}"} if HF_API_TOKEN else {}

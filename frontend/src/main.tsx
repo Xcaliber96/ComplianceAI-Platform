@@ -17,7 +17,7 @@ palette: {
     main: '#3E2723', // deep brown (Bistre)
     light: '#5D4037',
     dark: '#1B1211',
-    contrastText: '#FAF8F5' // off-white text
+    contrastText: '#FFFFFF' // off-white text
   },
   secondary: {
     main: '#FBC02D', // warm golden yellow
@@ -26,7 +26,7 @@ palette: {
     contrastText: '#1B1211'
   },
   background: {
-    default: '#FAF8F5', // soft off-white background
+    default: '#FFFFFF', 
     paper: '#FFFFFF'
   },
   text: {
@@ -63,9 +63,7 @@ palette: {
           padding: '10px 20px',
           transition: 'all 0.2s ease',
           boxShadow: 'none',
-          '&:hover': {
-            boxShadow: '0 4px 14px rgba(74,144,226,0.25)'
-          }
+
         }
       }
     },
@@ -73,12 +71,9 @@ palette: {
       styleOverrides: {
         root: {
           borderRadius: 12,
-          boxShadow: '0 2px 10px rgba(0,0,0,0.05)',
+   
           transition: 'transform 0.2s ease, box-shadow 0.2s ease',
-          '&:hover': {
-            transform: 'translateY(-4px)',
-            boxShadow: '0 6px 16px rgba(0,0,0,0.08)'
-          }
+
         }
       }
     },
@@ -87,7 +82,7 @@ palette: {
         colorPrimary: {
           backgroundColor: '#ffffff',
           color: '#1f2d3d',
-          boxShadow: '0 1px 6px rgba(0,0,0,0.08)'
+      
         }
       }
     },
