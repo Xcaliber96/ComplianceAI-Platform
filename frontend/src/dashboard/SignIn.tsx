@@ -9,8 +9,10 @@ import {
   Divider,
   Stack,
   Alert,
+  IconButton,
+  InputAdornment,
 } from "@mui/material";
-import { Google } from "@mui/icons-material";
+import { Google, Visibility, VisibilityOff } from "@mui/icons-material";
 import {
   signInWithEmailAndPassword,
   GoogleAuthProvider,
@@ -22,9 +24,12 @@ import { auth } from "./firebaseConfig";
 export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
+
+  const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
 
   const handleEmailSignIn = async () => {
     try {
@@ -61,7 +66,7 @@ export default function SignIn() {
       await fetch("http://localhost:8000/session/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        credentials: "include", 
+        credentials: "include",
         body: JSON.stringify({ idToken }),
       });
 
@@ -77,7 +82,7 @@ export default function SignIn() {
 
   return (
     <Grid container sx={{ minHeight: "100vh" }}>
-      {}
+      {/* 🌄 Left Side Image */}
       <Grid
         item
         xs={12}
@@ -161,12 +166,22 @@ export default function SignIn() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
+
             <TextField
               label="Password"
-              type="password"
+              type={showPassword ? "text" : "password"}
               fullWidth
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton onClick={togglePasswordVisibility} edge="end">
+                      {showPassword ? <VisibilityOff /> : <Visibility />}
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
             />
 
             {success && <Alert severity="success">{success}</Alert>}

@@ -110,7 +110,6 @@ async def session_login(request: Request, response: Response):
         path="/",
     )
 
-    # ✅ return same response, not a new JSONResponse
     return {"status": "success", "email": email}
 @app.get("/session/me")
 async def get_current_user(request: Request):
@@ -1016,20 +1015,7 @@ async def rag_analysis(
 
 
 
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
-import os
-
-# Path to the built frontend (adjust if different)
-frontend_dir = os.path.join(os.path.dirname(__file__), "../../frontend/dist")
-
-# Serve all static files (JS, CSS, etc.)
-app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dir, "assets")), name="assets")
-
-# Serve index.html for everything else (React Router fallback)
-@app.get("/{full_path:path}")
-async def serve_react_app(full_path: str):
-    index_path = os.path.join(frontend_dir, "index.html")
-    if os.path.exists(index_path):
-        return FileResponse(index_path)
-    return JSONResponse(status_code=404, content={"message": "index.html not found"})
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
