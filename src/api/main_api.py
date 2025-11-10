@@ -62,10 +62,12 @@ load_dotenv()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:8501",   
-        "http://localhost:8501",
-        "http://localhost:8000",   # if same origin dev
-        "https://complianceai-platform-1.onrender.com",
+        "https://nomioc.com",                        
+        "https://www.nomioc.com",                      
+        "https://complianceai-platform-1.onrender.com",  
+        "http://localhost:5173",                         
+        "http://localhost:8000",                        
+        
     ],
     allow_credentials=True,
     allow_methods=["*"],
