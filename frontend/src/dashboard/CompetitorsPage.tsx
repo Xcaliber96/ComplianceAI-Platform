@@ -22,6 +22,10 @@ import {
 import { getCompetitors } from '../api/client'
 import { Sparkles } from 'lucide-react'
 
+const CARD_BORDER = "#232323";
+const HEADING_BLACK = "#151515";
+const CARD_BG = "#fff";
+
 export default function CompetitorsPage() {
   const [companyName, setCompanyName] = useState('')
   const [results, setResults] = useState<any>(null)
@@ -68,13 +72,13 @@ export default function CompetitorsPage() {
     <Container maxWidth="lg" sx={{ py: 6 }}>
       {/* HEADER */}
       <Stack spacing={1} mb={5}>
-        <Typography variant="h3" fontWeight={700} color="primary">
+        <Typography variant="h3" fontWeight={700} sx={{ color: HEADING_BLACK }}>
           NomiAI
         </Typography>
-        <Typography variant="h5" fontWeight={600}>
+        <Typography variant="h5" fontWeight={600} sx={{ color: "#232323" }}>
           Competitor Intelligence
         </Typography>
-        <Typography variant="subtitle1" color="text.secondary">
+        <Typography variant="subtitle1" sx={{ color: "#666" }}>
           Discover your competitors, explore SEC filings, and generate instant AI insights.
         </Typography>
       </Stack>
@@ -87,13 +91,29 @@ export default function CompetitorsPage() {
             variant="outlined"
             value={companyName}
             onChange={(e) => setCompanyName(e.target.value)}
-            sx={{ flexGrow: 1 }}
+            sx={{
+              flexGrow: 1,
+              "& label": { color: "#232323" },
+              "& .MuiOutlinedInput-root": {
+                borderRadius: 3,
+                bgcolor: "#fff",
+                borderColor: CARD_BORDER,
+              }
+            }}
           />
           <Button
             type="submit"
             variant="contained"
-            color="primary"
-            sx={{ minWidth: 140, height: 56, borderRadius: 2 }}
+            sx={{
+              minWidth: 140,
+              height: 56,
+              borderRadius: 3,
+              fontWeight: 700,
+              bgcolor: HEADING_BLACK,
+              color: "#fff",
+              boxShadow: "none",
+              "&:hover": { bgcolor: "#232323" }
+            }}
           >
             {loading ? <CircularProgress size={24} color="inherit" /> : 'Search'}
           </Button>
@@ -101,7 +121,7 @@ export default function CompetitorsPage() {
       </form>
 
       {error && (
-        <Typography color="error" mt={2}>
+        <Typography sx={{ color: "#c31813", mt: 2 }}>
           {error}
         </Typography>
       )}
@@ -109,14 +129,14 @@ export default function CompetitorsPage() {
       {/* LOADING */}
       {loading && !results && (
         <Box display="flex" justifyContent="center" alignItems="center" mt={5}>
-          <CircularProgress />
+          <CircularProgress sx={{ color: HEADING_BLACK }} />
         </Box>
       )}
 
       {/* RESULTS */}
       {results && (
         <Box mt={6}>
-          <Typography variant="h6" fontWeight={600} gutterBottom>
+          <Typography variant="h6" fontWeight={600} sx={{ color: "#232323" }} gutterBottom>
             Competitors for <strong>{results.company}</strong>
           </Typography>
 
@@ -133,14 +153,17 @@ export default function CompetitorsPage() {
                     justifyContent: 'center',
                     textAlign: 'center',
                     transition: '0.3s',
+                    border: `1px solid ${CARD_BORDER}`,
+                    background: "#fff",
                     '&:hover': {
-                      boxShadow: 4,
+                      boxShadow: 5,
                       transform: 'translateY(-4px)',
+                      background: "#f4f4f4"
                     },
                   }}
                 >
                   <CardContent>
-                    <Typography fontWeight={600} variant="subtitle1">
+                    <Typography fontWeight={600} variant="subtitle1" sx={{ color: HEADING_BLACK }}>
                       {name}
                     </Typography>
                   </CardContent>
@@ -154,11 +177,17 @@ export default function CompetitorsPage() {
             <Button
               onClick={handleGenerateInsights}
               variant="outlined"
-              startIcon={<Sparkles size={18} />}
+              startIcon={<Sparkles size={18} color="#232323" />}
               sx={{
                 borderRadius: 3,
                 textTransform: 'none',
                 fontWeight: 600,
+                color: HEADING_BLACK,
+                borderColor: CARD_BORDER,
+                "&:hover": {
+                  bgcolor: "#ececec",
+                  borderColor: "#191919"
+                }
               }}
             >
               Generate AI Insights
@@ -172,28 +201,29 @@ export default function CompetitorsPage() {
                 mt: 3,
                 p: 3,
                 borderRadius: 3,
-                background: theme.palette.mode === 'light' ? '#f9fafb' : '#1e1e1e',
+                background: "#f7f7f7",
+                border: `1px solid ${CARD_BORDER}`
               }}
               elevation={0}
             >
-              <Typography variant="body1" sx={{ whiteSpace: 'pre-line' }}>
+              <Typography variant="body1" sx={{ whiteSpace: 'pre-line', color: "#232323" }}>
                 {insight}
               </Typography>
             </Paper>
           )}
 
           {/* FILINGS TABLE */}
-          <Divider sx={{ my: 4 }} />
-          <Typography variant="h6" fontWeight={600} mb={2}>
+          <Divider sx={{ my: 4, borderColor: CARD_BORDER }} />
+          <Typography variant="h6" fontWeight={600} mb={2} sx={{ color: HEADING_BLACK }}>
             Latest SEC Filings
           </Typography>
-          <Paper sx={{ borderRadius: 3, overflow: 'hidden' }} elevation={1}>
+          <Paper sx={{ borderRadius: 3, overflow: 'hidden', border: `1px solid ${CARD_BORDER}` }} elevation={1}>
             <Table>
-              <TableHead sx={{ backgroundColor: 'rgba(0,0,0,0.05)' }}>
+              <TableHead sx={{ backgroundColor: "#f3f3f3" }}>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 600 }}>Company</TableCell>
-                  <TableCell sx={{ fontWeight: 600 }}>Form</TableCell>
-                  <TableCell sx={{ fontWeight: 600 }}>Filing Date</TableCell>
+                  <TableCell sx={{ fontWeight: 600, color: "#232323" }}>Company</TableCell>
+                  <TableCell sx={{ fontWeight: 600, color: "#232323" }}>Form</TableCell>
+                  <TableCell sx={{ fontWeight: 600, color: "#232323" }}>Filing Date</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>

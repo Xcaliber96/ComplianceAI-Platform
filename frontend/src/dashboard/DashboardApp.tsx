@@ -35,6 +35,8 @@ import SupplierOnboarding from "./SupplierOnboarding";
 import LLM from "./LLM";
 import AuditResultsTab from "./AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
+import CompetitorsPage from "./CompetitorsPage";
+
 
 const drawerWidth = 240;
 const collapsedWidth = 72;
@@ -54,14 +56,9 @@ export default function DashboardApp() {
     { text: "Suppliers", icon: <Group />, path: "/dashboard/suppliers" },
     { text: "AI Assistant", icon: <Chat />, path: "/dashboard/llm" },
     { text: "Settings", icon: <Settings />, path: "/dashboard/settings" },
+    { text: "Competitors", icon: <BarChart />, path: "/dashboard/competitors" },
       { text: "Manage your files", icon: <Settings />, path: "/dashboard/FileManager" },
-  
 
-    {
-      text: "CompliancePlanner",
-      icon: <Settings />,
-      path: "/dashboard/CompliancePlanner",
-    },
     {
       text: "AuditResultsTab",
       icon: <Settings />,
@@ -209,6 +206,7 @@ export default function DashboardApp() {
           <Route path="CompliancePlanner" element={<CompliancePlanner />} />
           <Route path="AuditResultsTab" element={<AuditResultsTab />} />
           <Route path="FileManager" element={<FileManager />} />
+          <Route path="competitors" element={<CompetitorsPage />} />
    
           <Route
             path="settings"

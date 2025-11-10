@@ -1,12 +1,17 @@
 import {
   Box, Card, CardContent, Chip, Divider, FormControlLabel, Switch, Typography,
-  Table, TableBody, TableCell, TableHead, TableRow, Button, Alert, Stack, FormControl, Select, MenuItem, InputLabel
+  Table, TableBody, TableCell, TableHead, TableRow, Button, Alert, Stack, FormControl, Select, MenuItem, InputLabel, Tabs, Tab
 } from '@mui/material'
 import { useEffect, useMemo, useState } from 'react'
 import { useFilters } from '../store/filters'
 import FeedbackDialog from '../components/FeedbackDialog'
 import { getDashboardSummary, getAuditLog, getTasks } from '../api/client'
 import '../index.css';
+
+const CARD_BORDER = "#232323";
+const HEADING_BLACK = "#151515";
+const CARD_BG = "#fff";
+
 type ResultItem = {
   id: string
   requirement: string
@@ -23,6 +28,7 @@ type ResultItem = {
 
 export default function AuditResultsTab() {
   const filters = useFilters()
+  const [tabIndex, setTabIndex] = useState(0)
   const [showCharts, setShowCharts] = useState(true)
   const [feedbackOpen, setFeedbackOpen] = useState(false)
   const [activeItem, setActiveItem] = useState<ResultItem | null>(null)
@@ -123,212 +129,207 @@ export default function AuditResultsTab() {
   }, [filtered])
 
   return (
-    <Box sx={{ p: 2 }}>
+    <Box sx={{ p: 2, bgcolor: "#fcfcfc", minHeight: "100vh" }}>
+      {/* ---- Tabs ---- */}
+      <Tabs
+        value={tabIndex}
+        onChange={(e, v) => setTabIndex(v)}
+        indicatorColor="primary"
+        textColor="inherit"
+        centered
+        sx={{
+          mb: 3,
+          ".MuiTabs-indicator": { bgcolor: HEADING_BLACK, height: 4, borderRadius: 2 },
+          ".MuiTab-root": {
+            fontWeight: 600,
+            fontSize: "1.14rem",
+            minWidth: 164,
+            textTransform: "none",
+            color: "#767676",
+            "&.Mui-selected": { color: HEADING_BLACK }
+          }
+        }}
+      >
+        <Tab label="Summary" />
+        <Tab label="Audit Results" />
+        <Tab label="Audit Log" />
+      </Tabs>
       <Stack spacing={3}>
-        {/* Dashboard Summary */}
-        <Card variant="outlined">
-          <CardContent>
-            <Typography variant="h6">Dashboard Summary</Typography>
-            <Divider sx={{ my: 2 }} />
-            {dashboard && (
-              <Box sx={{ display: 'flex', gap: 2 }}>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Total Tasks</Typography>
-                    <Typography variant="h4">{dashboard.total_tasks}</Typography>
-                  </CardContent>
-                </Card>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Completed</Typography>
-                    <Typography variant="h4" color="success.main">{dashboard.done}</Typography>
-                  </CardContent>
-                </Card>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Overdue</Typography>
-                    <Typography variant="h4" color="warning.main">{dashboard.overdue}</Typography>
-                  </CardContent>
-                </Card>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Breached</Typography>
-                    <Typography variant="h4" color="error.main">{dashboard.breached}</Typography>
-                  </CardContent>
-                </Card>
-              </Box>
-            )}
-          </CardContent>
-        </Card>
+        {/* Dashboard Summary Tab */}
+        {tabIndex === 0 && (
+          <Card variant="outlined" sx={{ border: `1px solid ${CARD_BORDER}`, borderRadius: 4, background: CARD_BG }}>
+            <CardContent>
+              <Typography variant="h6" sx={{ fontWeight: 700, color: HEADING_BLACK }}>Dashboard Summary</Typography>
+              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
+              {dashboard && (
+                <Box sx={{ display: 'flex', gap: 2 }}>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Total Tasks</Typography>
+                      <Typography variant="h4" sx={{ color: HEADING_BLACK }}>{dashboard.total_tasks}</Typography>
+                    </CardContent>
+                  </Card>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Completed</Typography>
+                      <Typography variant="h4" sx={{ color: "#3fa796" }}>{dashboard.done}</Typography>
+                    </CardContent>
+                  </Card>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Overdue</Typography>
+                      <Typography variant="h4" sx={{ color: "#bfa100" }}>{dashboard.overdue}</Typography>
+                    </CardContent>
+                  </Card>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Breached</Typography>
+                      <Typography variant="h4" sx={{ color: "#c31813" }}>{dashboard.breached}</Typography>
+                    </CardContent>
+                  </Card>
+                </Box>
+              )}
+            </CardContent>
+          </Card>
+        )}
 
-        {/* Regulatory Monitor */}
-        <Card variant="outlined">
-          <CardContent>
-            <Typography variant="h6">Regulatory Monitor</Typography>
-            <Typography variant="body2" color="text.secondary">
-              Automatically detected regulations from Federal Register and other sources
-            </Typography>
-            <Divider sx={{ my: 2 }} />
-            <Button
-              variant="contained"
-              onClick={handleTriggerScan}
-              sx={{ mb: 2 }}
-            >
-              Trigger Manual Scan
-            </Button>
-            {scanMessage && (
-              <Alert severity="info" sx={{ mb: 2 }}>{scanMessage}</Alert>
-            )}
-            <Typography variant="subtitle2" sx={{ mb: 1 }}>
-              Auto-Detected Regulations (Last 30 Days): {detectedRegulations.length}
-            </Typography>
-            <Table size="small">
-              <TableHead>
-                <TableRow>
-                  <TableCell>Date</TableCell>
-                  <TableCell>Source</TableCell>
-                  <TableCell>Details</TableCell>
-                  <TableCell>Action</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {detectedRegulations.map((reg: any) => (
-                  <TableRow key={reg.id}>
-                    <TableCell>{new Date(reg.timestamp).toLocaleDateString()}</TableCell>
-                    <TableCell>
-                      <Chip label={reg.entity_type} size="small" color="primary" />
-                    </TableCell>
-                    <TableCell>{reg.detail}</TableCell>
-                    <TableCell>
-                      <Chip label={reg.action} size="small" />
-                    </TableCell>
-                  </TableRow>
-                ))}
-                {detectedRegulations.length === 0 && (
-                  <TableRow>
-                    <TableCell colSpan={4} align="center">
-                      <Typography variant="body2" color="text.secondary">
-                        No regulations detected yet. Automatic scans run every 12 hours.
+        {/* Audit Results Tab */}
+        {tabIndex === 1 && (
+          <Card variant="outlined" sx={{ border: `1px solid ${CARD_BORDER}`, borderRadius: 4, background: CARD_BG }}>
+            <CardContent>
+              <Typography variant="h6" sx={{ fontWeight: 700, color: HEADING_BLACK }}>Audit Results</Typography>
+              <Typography variant="body2" color="text.secondary">
+                Current Filters — Dept: {filters.department ?? 'All'}, Country: {filters.country ?? 'All'}, State: {filters.state ?? 'All'}
+              </Typography>
+              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
+              <FormControl fullWidth size="small" sx={{ mb: 2 }}>
+                <InputLabel>Filter by Supplier</InputLabel>
+                <Select value={supplierId ?? ""} onChange={e => setSupplierId(e.target.value)}>
+                  <MenuItem value="">All Suppliers</MenuItem>
+                  {suppliers.map(s => (
+                    <MenuItem key={s.id} value={s.id}>{s.name}</MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+              <FormControlLabel control={<Switch checked={showCharts} onChange={(_, v) => setShowCharts(v)} />} label="Show quick charts" />
+              {showCharts && (
+                <Box sx={{ display: 'flex', gap: 2, my: 2 }}>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Compliance %</Typography>
+                      <Typography variant="h4" sx={{ color: HEADING_BLACK }}>{compliancePct}%</Typography>
+                    </CardContent>
+                  </Card>
+                  <Card sx={{ flex: 1, border: `1px solid ${CARD_BORDER}`, borderRadius: 3 }} variant="outlined">
+                    <CardContent>
+                      <Typography variant="subtitle2">Risk distribution</Typography>
+                      <Typography variant="body2">
+                        {['Low', 'Medium', 'High'].map(r => {
+                          const c = filtered.filter(i => i.risk === r).length
+                          return `${r}: ${c} `
+                        }).join(' | ')}
                       </Typography>
-                    </TableCell>
+                    </CardContent>
+                  </Card>
+                </Box>
+              )}
+              <Table size="small">
+                <TableHead>
+                  <TableRow>
+                    <TableCell>ID</TableCell>
+                    <TableCell>Supplier</TableCell>
+                    <TableCell>Requirement</TableCell>
+                    <TableCell>Dept</TableCell>
+                    <TableCell>Country</TableCell>
+                    <TableCell>State</TableCell>
+                    <TableCell>Compliance</TableCell>
+                    <TableCell>Risk</TableCell>
+                    <TableCell>Gap Narrative</TableCell>
+                    <TableCell>Evidence</TableCell>
+                    <TableCell>Feedback</TableCell>
                   </TableRow>
-                )}
-              </TableBody>
-            </Table>
-          </CardContent>
-        </Card>
+                </TableHead>
+                <TableBody>
+                  {filtered.map(item => (
+                    <TableRow key={item.id} sx={{ ":hover": { background: "#f1f1f1" }, transition: "background 0.3s" }}>
+                      <TableCell>{item.id}</TableCell>
+                      <TableCell>{item.supplierName ?? '-'}</TableCell>
+                      <TableCell>{item.requirement}</TableCell>
+                      <TableCell>{item.department}</TableCell>
+                      <TableCell>{item.country}</TableCell>
+                      <TableCell>{item.state}</TableCell>
+                      <TableCell>
+                        <Chip label={item.compliant ? 'Compliant' : 'Gap'} sx={{
+                          bgcolor: item.compliant ? "#3fa796" : "#bfa100",
+                          color: "#fff",
+                          fontWeight: 600
+                        }} size="small" />
+                      </TableCell>
+                      <TableCell>
+                        <Chip label={item.risk}
+                          sx={{
+                            bgcolor: item.risk === 'High' ? "#c31813" : item.risk === 'Medium' ? "#bfa100" : "#3fa796",
+                            color: "#fff",
+                            fontWeight: 600
+                          }}
+                          size="small" />
+                      </TableCell>
+                      <TableCell>{item.gapNarrative}</TableCell>
+                      <TableCell>{item.evidenceRefs?.join(', ')}</TableCell>
+                      <TableCell>
+                        <Button
+                          size="small"
+                          sx={{
+                            bgcolor: CARD_BORDER,
+                            color: "#fff",
+                            fontWeight: 700,
+                            textTransform: "none",
+                            borderRadius: 3,
+                            "&:hover": { bgcolor: "#151515" }
+                          }}
+                          onClick={() => { setActiveItem(item); setFeedbackOpen(true) }}>Give Feedback</Button>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </CardContent>
+          </Card>
+        )}
 
-        {/* Audit Results */}
-        <Card variant="outlined">
-          <CardContent>
-            <Typography variant="h6">Audit Results</Typography>
-            <Typography variant="body2" color="text.secondary">
-              Current Filters — Dept: {filters.department ?? 'All'}, Country: {filters.country ?? 'All'}, State: {filters.state ?? 'All'}
-            </Typography>
-            <Divider sx={{ my: 2 }} />
-            <FormControl fullWidth size="small" sx={{ mb: 2 }}>
-              <InputLabel>Filter by Supplier</InputLabel>
-              <Select value={supplierId ?? ""} onChange={e => setSupplierId(e.target.value)}>
-                <MenuItem value="">All Suppliers</MenuItem>
-                {suppliers.map(s => (
-                  <MenuItem key={s.id} value={s.id}>{s.name}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-            <FormControlLabel control={<Switch checked={showCharts} onChange={(_, v) => setShowCharts(v)} />} label="Show quick charts" />
-            {showCharts && (
-              <Box sx={{ display: 'flex', gap: 2, my: 2 }}>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Compliance %</Typography>
-                    <Typography variant="h4">{compliancePct}%</Typography>
-                  </CardContent>
-                </Card>
-                <Card sx={{ flex: 1 }} variant="outlined">
-                  <CardContent>
-                    <Typography variant="subtitle2">Risk distribution</Typography>
-                    <Typography variant="body2">
-                      {['Low', 'Medium', 'High'].map(r => {
-                        const c = filtered.filter(i => i.risk === r).length
-                        return `${r}: ${c} `
-                      }).join(' | ')}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Box>
-            )}
-            <Table size="small">
-              <TableHead>
-                <TableRow>
-                  <TableCell>ID</TableCell>
-                  <TableCell>Supplier</TableCell>
-                  <TableCell>Requirement</TableCell>
-                  <TableCell>Dept</TableCell>
-                  <TableCell>Country</TableCell>
-                  <TableCell>State</TableCell>
-                  <TableCell>Compliance</TableCell>
-                  <TableCell>Risk</TableCell>
-                  <TableCell>Gap Narrative</TableCell>
-                  <TableCell>Evidence</TableCell>
-                  <TableCell>Feedback</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {filtered.map(item => (
-                  <TableRow key={item.id}>
-                    <TableCell>{item.id}</TableCell>
-                    <TableCell>{item.supplierName ?? '-'}</TableCell>
-                    <TableCell>{item.requirement}</TableCell>
-                    <TableCell>{item.department}</TableCell>
-                    <TableCell>{item.country}</TableCell>
-                    <TableCell>{item.state}</TableCell>
-                    <TableCell>
-                      <Chip label={item.compliant ? 'Compliant' : 'Gap'} color={item.compliant ? 'success' : 'warning'} size="small" />
-                    </TableCell>
-                    <TableCell>
-                      <Chip label={item.risk} color={item.risk === 'High' ? 'error' : item.risk === 'Medium' ? 'warning' : 'success'} size="small" />
-                    </TableCell>
-                    <TableCell>{item.gapNarrative}</TableCell>
-                    <TableCell>{item.evidenceRefs?.join(', ')}</TableCell>
-                    <TableCell>
-                      <Button size="small" onClick={() => { setActiveItem(item); setFeedbackOpen(true) }}>Give Feedback</Button>
-                    </TableCell>
+        {/* Audit Log Tab */}
+        {tabIndex === 2 && (
+          <Card variant="outlined" sx={{ border: `1px solid ${CARD_BORDER}`, borderRadius: 4, background: CARD_BG }}>
+            <CardContent>
+              <Typography variant="h6" sx={{ fontWeight: 700, color: HEADING_BLACK }}>Audit Log</Typography>
+              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
+              <Table size="small">
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Time</TableCell>
+                    <TableCell>Entity</TableCell>
+                    <TableCell>Action</TableCell>
+                    <TableCell>User</TableCell>
+                    <TableCell>Detail</TableCell>
                   </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </CardContent>
-        </Card>
-
-        {/* Audit Log */}
-        <Card variant="outlined">
-          <CardContent>
-            <Typography variant="h6">Audit Log</Typography>
-            <Divider sx={{ my: 2 }} />
-            <Table size="small">
-              <TableHead>
-                <TableRow>
-                  <TableCell>Time</TableCell>
-                  <TableCell>Entity</TableCell>
-                  <TableCell>Action</TableCell>
-                  <TableCell>User</TableCell>
-                  <TableCell>Detail</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {auditLogs.map((log: any) => (
-                  <TableRow key={log.id}>
-                    <TableCell>{new Date(log.timestamp).toLocaleString()}</TableCell>
-                    <TableCell>{log.entity_type} #{log.entity_id}</TableCell>
-                    <TableCell><Chip label={log.action} size="small" /></TableCell>
-                    <TableCell>{log.user}</TableCell>
-                    <TableCell>{log.detail}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </CardContent>
-        </Card>
+                </TableHead>
+                <TableBody>
+                  {auditLogs.map((log: any) => (
+                    <TableRow key={log.id} sx={{ ":hover": { background: "#f1f1f1" }, transition: "background 0.3s" }}>
+                      <TableCell>{new Date(log.timestamp).toLocaleString()}</TableCell>
+                      <TableCell>{log.entity_type} #{log.entity_id}</TableCell>
+                      <TableCell>
+                        <Chip label={log.action} size="small" sx={{ bgcolor: "#bbb", color: "#232323", fontWeight: 600 }} />
+                      </TableCell>
+                      <TableCell>{log.user}</TableCell>
+                      <TableCell>{log.detail}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </CardContent>
+          </Card>
+        )}
         <FeedbackDialog
           open={feedbackOpen}
           onClose={() => setFeedbackOpen(false)}

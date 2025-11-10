@@ -11,6 +11,10 @@ import LanguageIcon from "@mui/icons-material/Language";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import axios from "axios";
 
+const CARD_BORDER = "#232323";
+const CARD_BG = "#fff";
+const HEADING_BLACK = "#151515";
+
 interface Supplier {
   id: number;
   name: string;
@@ -83,7 +87,7 @@ export default function SupplierOnboarding() {
         sx={{
           minHeight: "100vh",
           width: "100%",
-          background: "linear-gradient(135deg, #f5f9ff 0%, #e6ecfa 100%)",
+          bgcolor: "#fcfcfc",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -94,32 +98,25 @@ export default function SupplierOnboarding() {
           <Card
             elevation={6}
             sx={{
-              background: "#fff",
-              boxShadow: "0 10px 25px rgba(0, 80, 200, 0.1)",
-              p: { xs: 2, md: 4 },
+              background: CARD_BG,
+              borderRadius: 4,
+              border: `1px solid ${CARD_BORDER}`,
+              boxShadow: "0 10px 25px rgba(35,35,35,0.09)",
+              p: { xs: 2, md: 4 }
             }}
           >
             <CardContent>
-              {/* Header */}
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  flexWrap: "wrap",
-                  mb: 3,
-                }}
-              >
+              <Box sx={{
+                display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", mb: 3
+              }}>
                 <Box sx={{ display: "flex", alignItems: "center" }}>
-                  <Avatar sx={{ bgcolor: "#1976d2", mr: 2 }}>
-                    <BusinessIcon />
-                  </Avatar>
-                  <Typography variant="h5" fontWeight={800} color="primary">
+                  <Avatar sx={{ bgcolor: HEADING_BLACK, mr: 2 }}><BusinessIcon style={{ color: "#fff" }} /></Avatar>
+                  <Typography variant="h5" fontWeight={800} sx={{ color: HEADING_BLACK }}>
                     Supplier Onboarding
                   </Typography>
                 </Box>
                 <Tooltip title="Add New Supplier">
-                  <AddBusinessIcon color="primary" sx={{ fontSize: 30 }} />
+                  <AddBusinessIcon sx={{ fontSize: 30, color: HEADING_BLACK }} />
                 </Tooltip>
               </Box>
 
@@ -132,11 +129,10 @@ export default function SupplierOnboarding() {
               </Typography>
 
               {/* Auto-detect Section */}
-              <Card sx={{ mb: 4, p: 2, borderRadius: 3, background: "#f8fbff" }}>
-                <Typography variant="h6" fontWeight={700} color="primary" mb={2}>
+              <Card sx={{ mb: 4, p: 2, borderRadius: 3, background: "#fbfbfb", border: `1px solid ${CARD_BORDER}` }}>
+                <Typography variant="h6" fontWeight={700} sx={{ color: HEADING_BLACK, mb: 2 }}>
                   🔍 Discover Supplier Automatically
                 </Typography>
-
                 <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2 }}>
                   <TextField
                     select
@@ -158,7 +154,7 @@ export default function SupplierOnboarding() {
                       value={domain}
                       onChange={(e) => setDomain(e.target.value)}
                       sx={{ flex: 1, minWidth: 260 }}
-                      InputProps={{ startAdornment: <LanguageIcon sx={{ mr: 1 }} /> }}
+                      InputProps={{ startAdornment: <LanguageIcon sx={{ mr: 1, color: CARD_BORDER }} /> }}
                     />
                   )}
 
@@ -169,7 +165,7 @@ export default function SupplierOnboarding() {
                       value={businessName}
                       onChange={(e) => setBusinessName(e.target.value)}
                       sx={{ flex: 1, minWidth: 260 }}
-                      InputProps={{ startAdornment: <BusinessIcon sx={{ mr: 1 }} /> }}
+                      InputProps={{ startAdornment: <BusinessIcon sx={{ mr: 1, color: CARD_BORDER }} /> }}
                     />
                   )}
 
@@ -177,8 +173,8 @@ export default function SupplierOnboarding() {
                     <Button
                       variant="outlined"
                       component="label"
-                      startIcon={<UploadFileIcon />}
-                      sx={{ minWidth: 200 }}
+                      startIcon={<UploadFileIcon sx={{ color: CARD_BORDER }} />}
+                      sx={{ minWidth: 200, borderColor: CARD_BORDER, color: CARD_BORDER }}
                     >
                       {docFile ? docFile.name : "Choose Document"}
                       <input
@@ -192,9 +188,13 @@ export default function SupplierOnboarding() {
 
                   <Button
                     variant="contained"
-                    color="primary"
+                    sx={{
+                      fontWeight: 700,
+                      bgcolor: HEADING_BLACK,
+                      color: "#fff",
+                      "&:hover": { bgcolor: "#232323" }
+                    }}
                     onClick={handleAutoDetect}
-                    sx={{ fontWeight: 700 }}
                     disabled={
                       (inputType === "domain" && !domain) ||
                       (inputType === "name" && !businessName) ||
@@ -253,22 +253,22 @@ export default function SupplierOnboarding() {
                   startIcon={<AddBusinessIcon />}
                   sx={{
                     fontWeight: 700,
-                    bgcolor: "#1976d2",
+                    bgcolor: HEADING_BLACK,
                     px: 3,
-                    "&:hover": { bgcolor: "#1254a2" },
+                    "&:hover": { bgcolor: "#232323" },
                   }}
                 >
                   Add Supplier
                 </Button>
               </form>
 
-              <Divider sx={{ my: 4 }} />
+              <Divider sx={{ my: 4, borderColor: CARD_BORDER }} />
 
               {/* Table Section */}
               <Typography
                 variant="h6"
                 fontWeight={700}
-                sx={{ color: "#1976d2", mb: 2 }}
+                sx={{ color: HEADING_BLACK, mb: 2 }}
               >
                 Supplier Registry
               </Typography>
@@ -279,11 +279,13 @@ export default function SupplierOnboarding() {
                 elevation={2}
                 sx={{
                   overflow: "hidden",
-                  boxShadow: "0 3px 10px rgba(0,0,0,0.05)",
+                  boxShadow: "0 3px 10px rgba(35,35,35,0.06)",
+                  border: `1px solid ${CARD_BORDER}`,
+                  borderRadius: 3,
                 }}
               >
                 <Table>
-                  <TableHead sx={{ background: "#f2f6fc" }}>
+                  <TableHead sx={{ background: "#f7f7f7" }}>
                     <TableRow>
                       <TableCell sx={{ fontWeight: 700 }}>Name</TableCell>
                       <TableCell>Email</TableCell>
@@ -298,7 +300,7 @@ export default function SupplierOnboarding() {
                       <TableRow
                         key={s.id}
                         sx={{
-                          ":hover": { background: "#f0f6ff" },
+                          ":hover": { background: "#f1f1f1" },
                           transition: "background 0.3s ease",
                         }}
                       >
@@ -313,9 +315,16 @@ export default function SupplierOnboarding() {
                               s.risk_score
                                 ? s.risk_score > 70
                                   ? "error"
-                                  : "success"
+                                  : "default"
                                 : "default"
                             }
+                            sx={{
+                              "&.MuiChip-root": {
+                                background: s.risk_score && s.risk_score > 70 ? "#d32f2f" : "#232323",
+                                color: "#fff",
+                                fontWeight: 600
+                              }
+                            }}
                             size="small"
                           />
                         </TableCell>
@@ -335,7 +344,8 @@ export default function SupplierOnboarding() {
                                 size="small"
                                 variant="outlined"
                                 component="span"
-                                startIcon={<CloudUploadIcon />}
+                                startIcon={<CloudUploadIcon sx={{ color: CARD_BORDER }} />}
+                                sx={{ borderColor: CARD_BORDER, color: CARD_BORDER }}
                               >
                                 Select
                               </Button>
@@ -346,10 +356,11 @@ export default function SupplierOnboarding() {
                               disabled={!file}
                               onClick={() => handleUpload(s.id)}
                               sx={{
-                                bgcolor: "#1976d2",
+                                bgcolor: HEADING_BLACK,
                                 fontWeight: 600,
+                                color: "#fff",
                                 boxShadow: "none",
-                                "&:hover": { bgcolor: "#1254a2" },
+                                "&:hover": { bgcolor: "#232323" },
                               }}
                             >
                               Upload
