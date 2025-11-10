@@ -62,10 +62,10 @@ load_dotenv()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:8501",   # Vite dev server
+        "http://localhost:8501",   
         "http://localhost:8501",
         "http://localhost:8000",   # if same origin dev
-        "https://complianceai-platform.onrender.com",  # your deployed frontend
+        "https://complianceai-platform-1.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -100,16 +100,28 @@ async def session_login(request: Request, response: Response):
     print("lejlkb elbmlemblmkb",email)
     session_id = str(uuid4())
     SESSIONS[session_id] = {"email": email, "timestamp": datetime.utcnow().isoformat()}
-
+    ############################################
+    # Uncomment the following cell for Production
+    ############################################
     response.set_cookie(
         key="session_id",
         value=session_id,
         httponly=True,
         secure=True,
-        samesite="Lax",
+        samesite="None",
         path="/",
     )
-
+    ############################################
+    # Uncomment the following cell for development
+    ############################################
+    # response.set_cookie(
+    #     key="session_id",
+    #     value=session_id,
+    #     httponly=True,
+    #     secure=False,
+    #     samesite="Lax",
+    #     path="/",
+    # )
     return {"status": "success", "email": email}
 @app.get("/session/me")
 async def get_current_user(request: Request):
