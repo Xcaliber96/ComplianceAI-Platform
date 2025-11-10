@@ -5,8 +5,8 @@ const BASE_URL =
   (window.location.hostname.includes("localhost")
     ? "http://localhost:8000"
     : "https://complianceai-platform.onrender.com");
-
-// Create axios instance with default config
+console.log("VITE_API_BASE_URL:", import.meta.env.VITE_API_BASE_URL);
+  // Create axios instance with default config
 const apiClient = axios.create({
   baseURL: BASE_URL,
   headers: {

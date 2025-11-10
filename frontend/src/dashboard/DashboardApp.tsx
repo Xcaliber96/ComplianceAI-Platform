@@ -28,7 +28,7 @@ import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 // 🧩 Import pages
 import FrontPage from "./FrontPage";
 import FileManager from "./FileManager";
-
+import TestHubLayout from "./TestHubLayout";
 import DocumentAudit from "./UploadFetchTab";
 import RunAuditTab from "./RunAuditTab";
 import SupplierOnboarding from "./SupplierOnboarding";
@@ -48,6 +48,7 @@ export default function DashboardApp() {
 
   const hideLayout =
     location.pathname === "/dashboard" || location.pathname === "/dashboard/";
+     location.pathname === "/TestHubLayout" || location.pathname === "/TestHubLayout/";
 
   const menuItems = [
     { text: "Dashboard", icon: <Dashboard />, path: "/dashboard" },
@@ -58,6 +59,9 @@ export default function DashboardApp() {
     { text: "Settings", icon: <Settings />, path: "/dashboard/settings" },
     { text: "Competitors", icon: <BarChart />, path: "/dashboard/competitors" },
       { text: "Manage your files", icon: <Settings />, path: "/dashboard/FileManager" },
+      { text: "Manage your files", icon: <Settings />, path: "/dashboard/page" },
+        { text: "Manage your files", icon: <Settings />, path: "/dashboard/TestHubLayout" },
+
 
     {
       text: "AuditResultsTab",
@@ -74,8 +78,9 @@ export default function DashboardApp() {
           <AppBar
             position="fixed"
             sx={{
-              backgroundColor: "#7F2458",
+              backgroundColor: "#000000ff",
               color: "#FFFFFF",
+              borderRadius: "50px",
               boxShadow: "none",
               border: "none",
               transition: "all 0.3s ease",
@@ -111,7 +116,7 @@ export default function DashboardApp() {
             </Toolbar>
           </AppBar>
 
-          {/* 🔹 Sidebar Drawer */}
+          {}
           <Drawer
             variant="permanent"
             sx={{
@@ -120,10 +125,10 @@ export default function DashboardApp() {
               whiteSpace: "nowrap",
               [`& .MuiDrawer-paper`]: {
                 width: open ? drawerWidth : collapsedWidth,
-                backgroundColor: "#7F2458",
+                backgroundColor: "#a8a8a8ff",
                 color: "#FFFFFF",
                 boxSizing: "border-box",
-                borderRight: "none",
+                borderRight: "99",
                 borderRadius: 0,
                 transition: "width 0.3s ease",
                 overflowX: "hidden",
@@ -132,7 +137,7 @@ export default function DashboardApp() {
               },
             }}
           >
-            <Toolbar sx={{ minHeight: 64 }} /> {/* spacing for topbar */}
+            <Toolbar sx={{ minHeight: 64, borderRadius: "20px", }} />
             <List>
               {menuItems.map((item) => (
                 <Tooltip
@@ -148,7 +153,9 @@ export default function DashboardApp() {
                         minHeight: 48,
                         justifyContent: open ? "initial" : "center",
                         px: 2.5,
+                        
                         "&:hover": { backgroundColor: "rgba(255,255,255,0.1)" },
+                        
                       }}
                     >
                       <ListItemIcon
@@ -207,7 +214,8 @@ export default function DashboardApp() {
           <Route path="AuditResultsTab" element={<AuditResultsTab />} />
           <Route path="FileManager" element={<FileManager />} />
           <Route path="competitors" element={<CompetitorsPage />} />
-   
+<Route path="TestHubLayout" element={<TestHubLayout />} />
+
           <Route
             path="settings"
             element={
