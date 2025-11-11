@@ -63,11 +63,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://nomioc.com",                        
-        "https://www.nomioc.com",                      
-        "https://complianceai-platform-1.onrender.com",  
-        "http://localhost:5173",                         
-        "http://localhost:8000",                        
-        
+        "https://www.nomioc.com",                       
+        "http://localhost:8000",
+        "http://localhost:8501", 
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -105,25 +103,26 @@ async def session_login(request: Request, response: Response):
     ############################################
     # Uncomment the following cell for Production
     ############################################
-    response.set_cookie(
-        key="session_id",
-        value=session_id,
-        httponly=True,
-        secure=True,
-        samesite="None",
-        path="/",
-    )
-    ############################################
-    # Uncomment the following cell for development
-    ############################################
     # response.set_cookie(
     #     key="session_id",
     #     value=session_id,
     #     httponly=True,
     #     secure=False,
-    #     samesite="Lax",
+    #     samesite="None",
     #     path="/",
     # )
+    ############################################
+    # Uncomment the following cell for development
+    ############################################
+    response.set_cookie(
+        key="session_id",
+        value=session_id,
+        httponly=True,
+        secure=True,
+        samesite="Lax",
+        path="/",
+        domain=".nomioc.com",
+    )
     return {"status": "success", "email": email}
 @app.get("/session/me")
 async def get_current_user(request: Request):
