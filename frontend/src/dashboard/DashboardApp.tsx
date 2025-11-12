@@ -36,12 +36,9 @@ import AuditResultsTab from "./AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
 
-// ✅ Import logo
-import NomiLogo from "../assets/logo.png";
-
 const drawerWidth = 240;
 const collapsedWidth = 72;
-const appBarHeight = 64;
+const appBarHeight = 50;
 
 export default function DashboardApp() {
   const navigate = useNavigate();
@@ -74,73 +71,56 @@ export default function DashboardApp() {
               width: open ? drawerWidth : collapsedWidth,
               flexShrink: 0,
               whiteSpace: "nowrap",
+              overflow: "visible",
               "& .MuiDrawer-paper": {
                 width: open ? drawerWidth : collapsedWidth,
                 background: "#190E4F",
                 color: "#FFFFFF",
-                boxSizing: "border-box",
                 border: "none",
-                transition: "width 0.3s ease, background 0.3s ease",
+                transition: "width 0.3s ease",
                 overflowX: "hidden",
-                height: "100vh",
-             
-                borderTopRightRadius: "36px",
-                boxShadow: "6px 0 20px rgba(0,0,0,0.2)",
                 display: "flex",
                 flexDirection: "column",
-                paddingTop: `${appBarHeight}px`,
-                zIndex: 1202, 
-      
+                alignItems: "center",
+                height: "100vh",
+                borderTopRightRadius: "36px",
+                zIndex: 1202,
               },
-     
-
             }}
           >
-            {/* 🔹 Logo + Brand */}
-            <Toolbar
-              sx={{
-                justifyContent: open ? "flex-start" : "center",
-                alignItems: "center",
-                py: 2,
-                px: open ? 3 : 0,
-                borderBottom: "1px solid rgba(255,255,255,0.15)",
-                transition: "all 0.3s ease",
-                gap: 1,
-              }}
-            >
-              <Box
-                component="img"
-                src={NomiLogo}
-                alt="NomiAI Logo"
-                sx={{
-                  width: open ? 36 : 42,
-                  height: open ? 36 : 42,
-                  transition: "all 0.3s ease",
-                  filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.3))",
-                  cursor: "pointer",
-                }}
-                onClick={() => navigate("/dashboard")}
-              />
-
-              <Typography
-                variant="h6"
-                sx={{
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontWeight: 700,
-                  fontSize: "1.1rem",
-                  color: "#fff",
-                  transition: "opacity 0.3s ease, transform 0.3s ease",
-                  opacity: open ? 1 : 0,
-                  transform: open ? "translateX(0)" : "translateX(-10px)",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                NomiAI
-              </Typography>
-            </Toolbar>
-
-            {/* ✅ Menu List */}
-            <List sx={{ flexGrow: 1, mt: 1 }}>
+            {/* 🔹 Brand Text Only */}
+{/* 🔹 Brand Text Only */}
+<Box
+  sx={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    py: 3,
+    cursor: "pointer",
+    overflow: "hidden",
+  }}
+  onClick={() => navigate("/dashboard")}
+>
+  <Typography
+    variant="h6"
+    sx={{
+      fontFamily: "'Montserrat', sans-serif",
+      fontWeight: 700,
+      fontSize: "1.25rem",
+      color: "#FFFFFF",
+      letterSpacing: "0.5px",
+      textAlign: "center",
+      transition: "all 0.3s ease",
+      opacity: open ? 1 : 0,          // 👈 fade out text
+      width: open ? "auto" : 0,       // 👈 shrink smoothly
+    }}
+  >
+    NomiAI
+  </Typography>
+</Box>
+            {/* 🔹 Menu Items */}
+            <List sx={{ flexGrow: 1, mt: 1, width: "100%" }}>
               {menuItems.map((item) => {
                 const isActive = location.pathname === item.path;
                 return (
@@ -156,45 +136,47 @@ export default function DashboardApp() {
                         sx={{
                           minHeight: 48,
                           justifyContent: open ? "initial" : "center",
-                          px: 2.5,
+                          px: open ? 2.5 : 0,
                           mx: 1,
                           my: 0.5,
                           borderRadius: "12px",
-                          color: isActive ? "#fff" : "rgba(255,255,255,0.8)",
-                          backgroundColor: isActive
-                            ? "rgba(255,255,255,0.15)"
-                            : "transparent",
-                          backdropFilter: isActive ? "blur(6px)" : "none",
-                          "&:hover": {
-                            backgroundColor: "rgba(255,255,255,0.2)",
-                            boxShadow: "0 0 6px rgba(255,255,255,0.15)",
-                          },
+                          backgroundColor: isActive ? "rgba(255,255,255,0.15)" : "transparent",
+                          color: isActive ? "#E8EAF6" : "rgba(255,255,255,0.6)",
+                          overflow: "hidden",
                           transition: "all 0.3s ease",
+                          "&:hover": {
+                            backgroundColor: "rgba(255,255,255,0.1)",
+                            color: "#FFFFFF",
+                          },
                         }}
                       >
                         <ListItemIcon
                           sx={{
-                            color: "#fff",
+                            color: isActive ? "#8AB4F8" : "#FFFFFFCC",
                             minWidth: 0,
-                            mr: open ? 2 : "auto",
                             justifyContent: "center",
-                            opacity: isActive ? 1 : 0.8,
+                            mr: open ? 2 : 0,
                             transform: isActive ? "scale(1.1)" : "scale(1)",
                             transition: "all 0.25s ease",
                           }}
                         >
-                          {item.icon}
+                          {React.cloneElement(item.icon, { fontSize: "medium" })}
                         </ListItemIcon>
+
                         <ListItemText
                           primary={item.text}
                           primaryTypographyProps={{
                             fontFamily: "'Montserrat', sans-serif",
-                            fontWeight: 500,
+                            fontWeight: isActive ? 600 : 500,
+                            color: "#FFFFFF",
                           }}
                           sx={{
                             opacity: open ? 1 : 0,
+                            minWidth: open ? 120 : 0,
+                            ml: open ? 0 : -4,
                             whiteSpace: "nowrap",
-                            transition: "opacity 0.3s ease",
+                            overflow: "hidden",
+                            transition: "opacity 0.3s ease, min-width 0.3s ease, margin 0.3s ease",
                           }}
                         />
                       </ListItemButton>
@@ -240,10 +222,9 @@ export default function DashboardApp() {
                   edge="start"
                   color="inherit"
                   sx={{
-                    backgroundColor: "rgba(255,255,255,0.1)",
+                 
                     borderRadius: "8px",
-                    "&:hover": { backgroundColor: "rgba(255,255,255,0.25)" },
-                    transition: "all 0.3s ease",
+
                   }}
                 >
                   {open ? <CloseIcon /> : <MenuIcon />}
