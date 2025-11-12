@@ -1,9 +1,9 @@
 from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, JSON, Enum as SQLEnum
-from sqlalchemy.orm import relationship, declarative_base
+from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
 
-Base = declarative_base()
+from src.api.db import Base
 
 class TaskState(str, enum.Enum):
     TODO = "TODO"
@@ -74,3 +74,17 @@ class Supplier(Base):
     created_at = Column(DateTime)
     last_updated = Column(DateTime)
     remediation_tasks = relationship("RemediationTask", back_populates="supplier")
+class DemoRequest(Base):
+    __tablename__ = "demo_requests"
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    firstName = Column(String)
+    lastName = Column(String)
+    email = Column(String)
+    jobTitle = Column(String)
+    companyName = Column(String)
+    country = Column(String)
+    phone = Column(String)
+    solutionInterest = Column(String)
+    consent = Column(Boolean)
+    submittedAt = Column(DateTime, default=datetime.utcnow)
+print("Loaded models.py (end)")
