@@ -10,6 +10,8 @@ import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import LanguageIcon from "@mui/icons-material/Language";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import axios from "axios";
+import { auth } from "./firebaseConfig";
+import { onAuthStateChanged } from "firebase/auth";
 
 const CARD_BORDER = "#232323";
 const CARD_BG = "#fff";
@@ -25,6 +27,8 @@ interface Supplier {
 }
 
 export default function SupplierOnboarding() {
+  
+  const [currentUser, setCurrentUser] = useState<any>(null);
   const [form, setForm] = useState({ name: "", email: "", industry: "", region: "" });
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
@@ -37,10 +41,18 @@ export default function SupplierOnboarding() {
   const [docFile, setDocFile] = useState<File | null>(null);
 
   useEffect(() => { fetchSuppliers(); }, []);
-
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+      if (user) fetchSuppliers(); 
+    });
+    return () => unsubscribe();
+  }, []);
   const fetchSuppliers = async () => {
     setLoading(true);
-    const { data } = await axios.get("/api/suppliers");
+    const { data } = await axios.get("/api/suppliers", {
+      params: { user_uid: currentUser.uid },
+    });
     setSuppliers(data);
     setLoading(false);
   };
@@ -52,10 +64,13 @@ export default function SupplierOnboarding() {
     e.preventDefault();
     const data = new FormData();
     Object.entries(form).forEach(([k, v]) => data.append(k, v));
+
+    data.append("user_uid", currentUser.uid);
     await axios.post("/api/suppliers", data);
     setForm({ name: "", email: "", industry: "", region: "" });
     fetchSuppliers();
   };
+  
 
   const handleUpload = async (id: number) => {
     if (!file) return;

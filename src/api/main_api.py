@@ -105,32 +105,34 @@ if not firebase_admin._apps:
     
 SESSIONS = {}
 
-# def load_env_forced():
-
-#     DOTENV_PATH = Path(__file__).resolve().parents[2] / ".env"
-
-#     # Only reload locally
-#     if os.getenv("RENDER") is None: 
-#         for key in ["ENV", "FRONTEND_URL"]:
-#             if key in os.environ:
-#                 print(f"removing system {key}={os.environ[key]}")
-#                 del os.environ[key]
-
-#         load_dotenv(dotenv_path=DOTENV_PATH, override=True)
-#         env_values = dotenv_values(DOTENV_PATH)
-#         print(".env reloaded locally:", DOTENV_PATH)
-#         print("ENV:", os.getenv("ENV"))
-#         print("FRONTEND_URL:", os.getenv("FRONTEND_URL"))
-
-#     return (
-#         os.getenv("ENV", "dev") == "dev"
-#         or "localhost" in os.getenv("FRONTEND_URL", "")
-#     )
+def store_user_if_new(uid, email):
+    """Store a new Firebase user in the database if not already present."""
+    from src.api.models import User  # local import avoids circular import
+    db = SessionLocal()
+    try:
+        existing = db.query(User).filter(User.uid == uid).first()
+        if not existing:
+            user = User(
+                uid=uid,
+                email=email,
+                created_at=datetime.utcnow()
+            )
+            db.add(user)
+            print("-------------------------------------------------------------I'm here")
+            db.commit()
+            print(f"[DB] Created new user: {email}")
+        else:
+            print(f"[DB] User already exists: {email}")
+    except Exception as e:
+        print(f"[DB ERROR] store_user_if_new failed: {e}")
+    finally:
+        db.close()
 
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
     id_token = data.get("idToken")
+    uid = data.get("uid")
 
     if not id_token:
         raise HTTPException(status_code=400, detail="Missing idToken")
@@ -141,14 +143,18 @@ async def session_login(request: Request, response: Response):
         raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
 
     email = decoded.get("email")
+
+    try:
+        store_user_if_new(uid, email)
+    except Exception as e:
+        print(f"[Warning] Could not store user info: {e}")
+
     session_id = str(uuid4())
     SESSIONS[session_id] = {"email": email, "timestamp": datetime.utcnow().isoformat()}
 
-    # ✅ Fix: force local detection if running from localhost or ENV=dev
     ENV = os.getenv("ENV", "dev").strip().lower()
     FRONTEND_URL = os.getenv("FRONTEND_URL", "").strip().lower()
 
-    # force localhost fallback if FRONTEND_URL is empty
     if not FRONTEND_URL:
         FRONTEND_URL = "http://localhost:8501"
 
@@ -160,7 +166,6 @@ async def session_login(request: Request, response: Response):
 
     print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
 
-    # 🍪 Cookie settings
     if IS_LOCAL:
         response.set_cookie(
             key="session_id",
@@ -181,7 +186,8 @@ async def session_login(request: Request, response: Response):
             path="/",
         )
 
-    return {"status": "success", "email": email}
+    return {"status": "success", "email": email, "uid": uid}
+
 @app.get("/session/me")
 async def get_current_user(request: Request):
     session_id = request.cookies.get("session_id")
@@ -365,22 +371,30 @@ def create_supplier(
     email: str = Form(...),
     industry: str = Form(...),
     region: str = Form(...),
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    user_uid: str = Form(...)
 ):
     supplier = Supplier(
         name=name,
         email=email,
         industry=industry,
-        region=region
+        region=region,
+        user_uid=user_uid 
     )
     db.add(supplier)
     db.commit()
     db.refresh(supplier)
     return supplier
 
+from fastapi import Query
+
 @app.get("/api/suppliers")
-def list_suppliers(db: Session = Depends(get_db)):
-    return db.query(Supplier).all()
+def list_suppliers(
+       
+    user_uid: str = Query(...),             
+    db: Session = Depends(get_db)
+):
+    return db.query(Supplier).filter(Supplier.user_uid == user_uid).all()
 
 @app.post("/api/suppliers/{supplier_id}/upload")
 def upload_supplier_file(
@@ -710,8 +724,6 @@ async def external_intelligence(industry: str):
         findings = [{"headline": "Parsing error", "error": content}]
     return JSONResponse(content={"status": "success", "details": findings})
 
-
-
 @app.get("/api/source_graph")
 async def source_graph(platform: str):
     graph_data = {"nodes": ["A", "B"], "edges": [("A", "B")]}
@@ -746,8 +758,9 @@ async def create_task(
     obligation_id: int = Form(...),
     assigned_to: str = Form(...),
     sla_due: str = Form(...),
-    supplier_id: str = Form(None),   # ✅ NEW FIELD
+    supplier_id: str = Form(None),
     checklist_template: str = Form("{}"),
+    user_uid: str = Form(...), 
     db: Session = Depends(get_db)
 ):
     template = json.loads(checklist_template) if checklist_template else {}
@@ -756,31 +769,31 @@ async def create_task(
         obligation_id=obligation_id,
         assigned_to=assigned_to,
         sla_due=datetime.fromisoformat(sla_due),
-        supplier_id=supplier_id,  # ✅ pass to model
-        checklist_template=template
+        supplier_id=supplier_id, 
+        checklist_template=template,
+        user_uid=user_uid, 
     )
-
+    
     db.add(task)
     db.commit()
     db.refresh(task)
-
     log_audit(
         db,
         "RemediationTask",
         task.id,
         "create",
-        "system",
+         user_uid,  
         f"Created task for obligation {obligation_id} (supplier: {supplier_id})"
     )
-
     return task
 
-
 @app.get("/api/tasks")
-async def get_tasks(db: Session = Depends(get_db)):
-    tasks = db.query(RemediationTask).all()
-    return tasks
-
+async def get_tasks(
+    user_uid: str = Query(...),      
+    db: Session = Depends(get_db)
+):
+    return db.query(RemediationTask).filter(RemediationTask.user_uid == user_uid).all()
+  
 @app.get("/api/task/{task_id}")
 async def get_task(task_id: int, db: Session = Depends(get_db)):
     task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
@@ -821,7 +834,8 @@ async def add_evidence(
     task_id: int, 
     evidence_file: UploadFile = File(...),
     user: str = Form("system"),
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    user_uid: str = Form(...), 
 ):
     task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
     if not task:
@@ -835,7 +849,8 @@ async def add_evidence(
         task_id=task_id,
         chromadb_id=chromadb_id,
         valid=True,
-        validation_errors=[]
+        validation_errors=[],
+        user_uid=user_uid
     )
     db.add(artifact)
     db.commit()
@@ -870,9 +885,6 @@ async def attest_evidence(
     db.commit()
     log_audit(db, "EvidenceArtifact", artifact.id, "attest", user, "Evidence approved and attested")
     return artifact
-
-# Dashboard
-
 
 @app.get("/api/dashboard/summary")
 async def get_dashboard_summary(db: Session = Depends(get_db)):
@@ -1083,40 +1095,6 @@ async def rag_analysis(
         "supplier": supplierid,
         "details": findings
     })
-
-from src.api.models import DemoRequest
-from src.api.db import get_db
-from sqlalchemy.orm import Session
-from fastapi import Form, Depends
-
-@app.post("/api/demo-request")
-def create_demo_request(
-    firstName: str = Form(...),
-    lastName: str = Form(...),
-    email: str = Form(...),
-    jobTitle: str = Form(...),
-    companyName: str = Form(...),
-    country: str = Form(...),
-    phone: str = Form(...),
-    solutionInterest: str = Form(...),
-    consent: bool = Form(...),
-    db: Session = Depends(get_db)
-):
-    entry = DemoRequest(
-        firstName=firstName,
-        lastName=lastName,
-        email=email,
-        jobTitle=jobTitle,
-        companyName=companyName,
-        country=country,
-        phone=phone,
-        solutionInterest=solutionInterest,
-        consent=consent
-    )
-    db.add(entry)
-    db.commit()
-    db.refresh(entry)
-    return {"status": "success", "id": entry.id}
 
 
 

@@ -15,6 +15,17 @@ const apiClient = axios.create({
   withCredentials: true, 
 })
 
+apiClient.interceptors.response.use(
+  (res) => res,
+  (err) => {
+    if (err.response?.status === 401) {
+      console.warn("⚠️ Session expired or unauthorized. Please log in again.");
+      // Optional:  redirect to login or clear local session here
+    }
+    return Promise.reject(err);
+  }
+);
+
 export type DriveFile = { id: string; name: string }
 export async function checkBackendReady() {
   try {
@@ -24,13 +35,24 @@ export async function checkBackendReady() {
     return false;
   }
 }
-export async function loginWithFirebaseToken(idToken: string) {
+export async function loginWithFirebaseToken(user: any) {
+
+  const idToken = await user.getIdToken();
   const { data } = await apiClient.post(
-    '/session/login',
-    { idToken },
-    { withCredentials: true }
-  )
-  return data
+    "/session/login",
+    {
+      idToken,
+      uid: user.uid,
+      email: user.email,
+    },
+    {
+      withCredentials: true,  // ensures session cookie is stored
+      headers: { "Content-Type": "application/json" }, // explicit for clarity
+    }
+  );
+
+  // 3️⃣ Return backend response
+  return data;
 }
 export async function getCurrentSession() {
   const res = await fetch(`${BASE_URL}/session/me`, {
@@ -51,12 +73,9 @@ export async function analyzeCompany(companyName: string) {
     const formData = new FormData()
     formData.append('company_name', companyName)
 
-    const response = await axios.post(`${BASE_URL}/api/analyze`, formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      },
-    })
-
+const response = await apiClient.post(`/api/analyze`, formData, {
+  headers: { 'Content-Type': 'multipart/form-data' },
+})
     return response.data
   } catch (error: any) {
     console.error('Error analyzing company:', error)
@@ -120,11 +139,9 @@ export async function getCompetitors(companyName: string) {
     const formData = new FormData();
     formData.append("company_name", companyName);
 
-    const response = await axios.post(`${BASE_URL}/api/competitors`, formData, {
-      headers: {
-        "Content-Type": "multipart/form-data",
-      },
-    });
+const response = await apiClient.post(`/api/competitors`, formData, {
+  headers: { 'Content-Type': 'multipart/form-data' },
+})
 
     return response.data;
   } catch (error: any) {
@@ -211,11 +228,14 @@ export const createTask = async (taskData: {
     assigned_to: string
     sla_due: string
     supplier_id?: string | null
+    user_uid: string         
   }) => {
     const formData = new FormData()
     formData.append("obligation_id", taskData.obligation_id.toString())
     formData.append("assigned_to", taskData.assigned_to)
     formData.append("sla_due", taskData.sla_due)
+    formData.append("user_uid", taskData.user_uid) 
+
     if (taskData.supplier_id) {
       formData.append("supplier_id", taskData.supplier_id) // ✅ added
     }

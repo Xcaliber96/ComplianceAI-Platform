@@ -5,8 +5,17 @@ import enum
 
 from src.api.db import Base
 
+class User(Base):
+    __tablename__ = "users"
+    uid = Column(String, primary_key=True, index=True)
+    email = Column(String, unique=True, index=True)
+    display_name = Column(String, nullable=True)
+    photo_url = Column(String, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+        
 class TaskState(str, enum.Enum):
     TODO = "TODO"
+    # user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     IN_PROGRESS = "IN_PROGRESS"
     REVIEW = "REVIEW"
     DONE = "DONE"
@@ -16,6 +25,7 @@ class TaskState(str, enum.Enum):
 class ObligationInstance(Base):
     __tablename__ = "obligations"
     id = Column(Integer, primary_key=True)
+    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     description = Column(String)
     regulation = Column(String)
     due_date = Column(DateTime)
@@ -25,7 +35,7 @@ class RemediationTask(Base):
     __tablename__ = "remediation_tasks"
     id = Column(Integer, primary_key=True)
     obligation_id = Column(Integer, ForeignKey("obligations.id"))
-
+    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     # ADD THIS LINE:
     supplier_id = Column(Integer, ForeignKey("suppliers.id"))  # <--- This links to Supplier
 
@@ -45,6 +55,7 @@ class RemediationTask(Base):
 class EvidenceArtifact(Base):
     __tablename__ = "evidence_artifacts"
     id = Column(Integer, primary_key=True)
+    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     task_id = Column(Integer, ForeignKey("remediation_tasks.id"))
     chromadb_id = Column(String)
     valid = Column(Boolean, default=False)
@@ -61,6 +72,7 @@ class AuditLog(Base):
     entity_id = Column(Integer)
     action = Column(String)
     user = Column(String)
+    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     timestamp = Column(DateTime, default=datetime.utcnow)
     detail = Column(String)
 class Supplier(Base):
@@ -70,6 +82,7 @@ class Supplier(Base):
     email = Column(String, unique=True)
     industry = Column(String)
     region = Column(String)
+    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
     is_verified = Column(Boolean, default=False)
     created_at = Column(DateTime)
     last_updated = Column(DateTime)

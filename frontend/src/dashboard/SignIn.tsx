@@ -69,12 +69,16 @@ const handleForgotPassword = async () => {
 
       // Get Firebase token and create backend session
       const idToken = await user.getIdToken();
-
+      const payload = {
+        idToken,
+        uid: user.uid,
+        email: user.email,
+      };
       const response = await fetch(`${BASE_URL}/session/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",
-        body: JSON.stringify({ idToken }),
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {
