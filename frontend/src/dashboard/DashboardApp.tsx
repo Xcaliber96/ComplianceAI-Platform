@@ -22,6 +22,7 @@ import {
   Settings,
   Menu as MenuIcon,
   Close as CloseIcon,
+  EmojiEvents as Goal, // Ensure you use the right icon for goal (here EmojiEvents)
 } from "@mui/icons-material";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
@@ -58,6 +59,7 @@ export default function DashboardApp() {
     { text: "Competitors", icon: <BarChart />, path: "/dashboard/competitors" },
     { text: "Files", icon: <Settings />, path: "/dashboard/FileManager" },
     { text: "Settings", icon: <Settings />, path: "/dashboard/settings" },
+    { text: "Audit Results", icon: <Goal />, path: "/dashboard/AuditResultsTab" }
   ];
 
   return (
@@ -89,36 +91,35 @@ export default function DashboardApp() {
             }}
           >
             {/* 🔹 Brand Text Only */}
-{/* 🔹 Brand Text Only */}
-<Box
-  sx={{
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "100%",
-    py: 3,
-    cursor: "pointer",
-    overflow: "hidden",
-  }}
-  onClick={() => navigate("/dashboard")}
->
-  <Typography
-    variant="h6"
-    sx={{
-      fontFamily: "'Montserrat', sans-serif",
-      fontWeight: 700,
-      fontSize: "1.25rem",
-      color: "#FFFFFF",
-      letterSpacing: "0.5px",
-      textAlign: "center",
-      transition: "all 0.3s ease",
-      opacity: open ? 1 : 0,          // 👈 fade out text
-      width: open ? "auto" : 0,       // 👈 shrink smoothly
-    }}
-  >
-    NomiAI
-  </Typography>
-</Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "100%",
+                py: 3,
+                cursor: "pointer",
+                overflow: "hidden",
+              }}
+              onClick={() => navigate("/dashboard")}
+            >
+              <Typography
+                variant="h6"
+                sx={{
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontWeight: 700,
+                  fontSize: "1.25rem",
+                  color: "#FFFFFF",
+                  letterSpacing: "0.5px",
+                  textAlign: "center",
+                  transition: "all 0.3s ease",
+                  opacity: open ? 1 : 0,
+                  width: open ? "auto" : 0,
+                }}
+              >
+                NomiAI
+              </Typography>
+            </Box>
             {/* 🔹 Menu Items */}
             <List sx={{ flexGrow: 1, mt: 1, width: "100%" }}>
               {menuItems.map((item) => {
@@ -162,7 +163,6 @@ export default function DashboardApp() {
                         >
                           {React.cloneElement(item.icon, { fontSize: "medium" })}
                         </ListItemIcon>
-
                         <ListItemText
                           primary={item.text}
                           primaryTypographyProps={{
@@ -185,7 +185,6 @@ export default function DashboardApp() {
                 );
               })}
             </List>
-
             {/* ✅ Footer */}
             <Box
               sx={{
@@ -200,7 +199,6 @@ export default function DashboardApp() {
               © {new Date().getFullYear()} NomiAI
             </Box>
           </Drawer>
-
           {/* 🔹 Top Bar */}
           <AppBar
             position="fixed"
@@ -222,15 +220,12 @@ export default function DashboardApp() {
                   edge="start"
                   color="inherit"
                   sx={{
-                 
                     borderRadius: "8px",
-
                   }}
                 >
                   {open ? <CloseIcon /> : <MenuIcon />}
                 </IconButton>
               </Box>
-
               <Typography
                 sx={{
                   fontFamily: "'Montserrat', sans-serif",
@@ -245,7 +240,6 @@ export default function DashboardApp() {
           </AppBar>
         </>
       )}
-
       {/* 🔹 Main Content */}
       <Box
         component="main"
@@ -271,6 +265,7 @@ export default function DashboardApp() {
           <Route path="llm" element={<LLM />} />
           <Route path="results" element={<AuditResultsTab />} />
           <Route path="CompliancePlanner" element={<CompliancePlanner />} />
+          <Route path="AuditResults" element={<AuditResultsTab />} />
           <Route path="AuditResultsTab" element={<AuditResultsTab />} />
           <Route path="FileManager" element={<FileManager />} />
           <Route path="competitors" element={<CompetitorsPage />} />
