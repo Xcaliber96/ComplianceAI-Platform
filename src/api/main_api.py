@@ -3,6 +3,12 @@ from fastapi.responses import JSONResponse
 from typing import List
 from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
+from pathlib import Path
+from dotenv import load_dotenv, dotenv_values
+import os
+from uuid import uuid4
+from datetime import datetime
+from fastapi import Request, Response, HTTPException
 
 from sqlalchemy.orm import Session
 from typing import List, Optional
@@ -55,7 +61,14 @@ from openai import OpenAI
 import os
 from uuid import uuid4
 from fastapi import Request, Response
-from dotenv import load_dotenv
+
+# Check if Render secret file exists, else fallback to local
+if os.path.exists("/etc/secrets/.env"):
+    load_dotenv("/etc/secrets/.env", override=True)
+    print("Loaded environment from /etc/secrets/.env (Render)")
+else:
+    load_dotenv(".env", override=True)
+    print("Loaded environment from local .env")
 
 app = FastAPI(title="ComplianceAI Platform API", version="2.0")
 load_dotenv()
@@ -81,57 +94,102 @@ G_SCOPES = [
     "https://www.googleapis.com/auth/drive.readonly",
     "https://www.googleapis.com/auth/drive.metadata.readonly",
 ]
+firebase_key_path = (
+    "/etc/secrets/firebase-adminsdk.json"
+    if os.path.exists("/etc/secrets/firebase-adminsdk.json")
+    else "firebase-adminsdk.json"
+)
 if not firebase_admin._apps:
-    cred = credentials.Certificate("firebase-adminsdk.json")
+    cred = credentials.Certificate(firebase_key_path)
     firebase_admin.initialize_app(cred)
-
+    
 SESSIONS = {}
+
+# def load_env_forced():
+
+#     DOTENV_PATH = Path(__file__).resolve().parents[2] / ".env"
+
+#     # Only reload locally
+#     if os.getenv("RENDER") is None: 
+#         for key in ["ENV", "FRONTEND_URL"]:
+#             if key in os.environ:
+#                 print(f"removing system {key}={os.environ[key]}")
+#                 del os.environ[key]
+
+#         load_dotenv(dotenv_path=DOTENV_PATH, override=True)
+#         env_values = dotenv_values(DOTENV_PATH)
+#         print(".env reloaded locally:", DOTENV_PATH)
+#         print("ENV:", os.getenv("ENV"))
+#         print("FRONTEND_URL:", os.getenv("FRONTEND_URL"))
+
+#     return (
+#         os.getenv("ENV", "dev") == "dev"
+#         or "localhost" in os.getenv("FRONTEND_URL", "")
+#     )
 
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
     id_token = data.get("idToken")
- 
+
     if not id_token:
         raise HTTPException(status_code=400, detail="Missing idToken")
 
-    decoded = firebase_auth.verify_id_token(id_token)
+    try:
+        decoded = firebase_auth.verify_id_token(id_token)
+    except Exception as e:
+        raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
+
     email = decoded.get("email")
-    print("lejlkb elbmlemblmkb",email)
     session_id = str(uuid4())
     SESSIONS[session_id] = {"email": email, "timestamp": datetime.utcnow().isoformat()}
-    ############################################
-    # Uncomment the following cell for Production
-    ############################################
-    # response.set_cookie(
-    #     key="session_id",
-    #     value=session_id,
-    #     httponly=True,
-    #     secure=False,
-    #     samesite="None",
-    #     path="/",
-    # )
-    ############################################
-    # Uncomment the following cell for development
-    ############################################
-    response.set_cookie(
-        key="session_id",
-        value=session_id,
-        httponly=True,
-        secure=True,
-        samesite="Lax",
-        path="/",
-        domain=".nomioc.com",
+
+    # ✅ Fix: force local detection if running from localhost or ENV=dev
+    ENV = os.getenv("ENV", "dev").strip().lower()
+    FRONTEND_URL = os.getenv("FRONTEND_URL", "").strip().lower()
+
+    # force localhost fallback if FRONTEND_URL is empty
+    if not FRONTEND_URL:
+        FRONTEND_URL = "http://localhost:8501"
+
+    IS_LOCAL = (
+        ENV == "dev"
+        or "localhost" in FRONTEND_URL
+        or FRONTEND_URL.startswith("http://127.0.0.1")
     )
+
+    print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
+
+    # 🍪 Cookie settings
+    if IS_LOCAL:
+        response.set_cookie(
+            key="session_id",
+            value=session_id,
+            httponly=True,
+            secure=False,
+            samesite="Lax",
+            path="/",
+        )
+    else:
+        response.set_cookie(
+            key="session_id",
+            value=session_id,
+            httponly=True,
+            secure=True,
+            samesite="None",
+            domain=".nomioc.com",
+            path="/",
+        )
+
     return {"status": "success", "email": email}
 @app.get("/session/me")
 async def get_current_user(request: Request):
     session_id = request.cookies.get("session_id")
-    print("🧠 Cookies received:", request.cookies)
+    print(" Cookies received:", request.cookies)
     if not session_id or session_id not in SESSIONS:
-        print("❌ Missing or invalid session_id:", session_id)
+        print(" Missing or invalid session_id:", session_id)
         raise HTTPException(status_code=401, detail="Not authenticated")
-    print("✅ Authenticated session:", SESSIONS[session_id])
+    print(" Authenticated session:", SESSIONS[session_id])
     return {"status": "authenticated", "user": SESSIONS[session_id]}
 
 @app.post("/session/logout")
@@ -1025,6 +1083,40 @@ async def rag_analysis(
         "supplier": supplierid,
         "details": findings
     })
+
+from src.api.models import DemoRequest
+from src.api.db import get_db
+from sqlalchemy.orm import Session
+from fastapi import Form, Depends
+
+@app.post("/api/demo-request")
+def create_demo_request(
+    firstName: str = Form(...),
+    lastName: str = Form(...),
+    email: str = Form(...),
+    jobTitle: str = Form(...),
+    companyName: str = Form(...),
+    country: str = Form(...),
+    phone: str = Form(...),
+    solutionInterest: str = Form(...),
+    consent: bool = Form(...),
+    db: Session = Depends(get_db)
+):
+    entry = DemoRequest(
+        firstName=firstName,
+        lastName=lastName,
+        email=email,
+        jobTitle=jobTitle,
+        companyName=companyName,
+        country=country,
+        phone=phone,
+        solutionInterest=solutionInterest,
+        consent=consent
+    )
+    db.add(entry)
+    db.commit()
+    db.refresh(entry)
+    return {"status": "success", "id": entry.id}
 
 
 
