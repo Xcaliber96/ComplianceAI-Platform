@@ -61,6 +61,7 @@ from openai import OpenAI
 import os
 from uuid import uuid4
 from fastapi import Request, Response
+from fastapi import Query
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -173,7 +174,7 @@ async def session_login(request: Request, response: Response):
             httponly=True,
             secure=False,
             samesite="Lax",
-            path="/",
+            path="/"
         )
     else:
         response.set_cookie(
@@ -183,7 +184,7 @@ async def session_login(request: Request, response: Response):
             secure=True,
             samesite="None",
             domain=".nomioc.com",
-            path="/",
+            path="/"
         )
 
     return {"status": "success", "email": email, "uid": uid}
@@ -390,11 +391,15 @@ from fastapi import Query
 
 @app.get("/api/suppliers")
 def list_suppliers(
-       
-    user_uid: str = Query(...),             
+    user_uid: Optional[str] = Query(None),  # Now optional
     db: Session = Depends(get_db)
 ):
-    return db.query(Supplier).filter(Supplier.user_uid == user_uid).all()
+    if user_uid:
+        return db.query(Supplier).filter(Supplier.user_uid == user_uid).all()
+    else:
+        # Defensive: Return empty list if user_uid not provided
+        return []
+
 
 @app.post("/api/suppliers/{supplier_id}/upload")
 def upload_supplier_file(
@@ -789,10 +794,15 @@ async def create_task(
 
 @app.get("/api/tasks")
 async def get_tasks(
-    user_uid: str = Query(...),      
+    user_uid: Optional[str] = Query(None),  # Now optional
     db: Session = Depends(get_db)
 ):
-    return db.query(RemediationTask).filter(RemediationTask.user_uid == user_uid).all()
+    if user_uid:
+        return db.query(RemediationTask).filter(RemediationTask.user_uid == user_uid).all()
+    else:
+        # Defensive: Return empty list if user_uid not provided
+        return []
+
   
 @app.get("/api/task/{task_id}")
 async def get_task(task_id: int, db: Session = Depends(get_db)):

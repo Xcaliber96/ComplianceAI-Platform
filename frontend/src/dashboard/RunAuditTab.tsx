@@ -102,16 +102,30 @@ export default function RunAuditTab() {
       console.error('Failed to load data:', error)
     }
   }
+  async function fetchCurrentUserUid() {
+    const resp = await fetch('http://127.0.0.1:8000/session/me', {
+      credentials: 'include'
+    });
+    if (!resp.ok) throw new Error('Not authenticated');
+    const data = await resp.json();
+    // It's either data.user.uid or data.user.user_uid based on your backend structure
+    return data.user.uid;
+  }
+  
 
   const fetchSuppliers = async () => {
     try {
-      const resp = await fetch('http://127.0.0.1:8000/api/suppliers')
-      const json = await resp.json()
-      setSuppliers(json)
+      const user_uid = await fetchCurrentUserUid();
+      const resp = await fetch(`http://127.0.0.1:8000/api/suppliers?user_uid=${user_uid}`, {
+        credentials: 'include'
+      });
+      const json = await resp.json();
+      setSuppliers(json);
     } catch (err) {
-      setSuppliers([])
+      setSuppliers([]);
     }
-  }
+  };
+  
 
   const handleExternal = async () => {
     const res = await runExternalIntelligence(industry)
