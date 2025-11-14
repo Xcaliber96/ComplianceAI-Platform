@@ -19,7 +19,7 @@ import {
   Tab,
 } from "@mui/material";
 import { useState, useEffect } from "react";
-import {
+import apiClient, {
   downloadDriveFile,
   fetchFiles,
   uploadForInternalAudit,
@@ -35,6 +35,10 @@ const CARD_BG = "#fff";
 const HEADING_BLACK = "#151515";
 
 export default function UploadFetchTab() {
+  // -- department/owner state must be inside the component (hooks cannot be top-level)
+  const [department, setDepartment] = useState<string>("");
+  const [owner, setOwner] = useState<string>(localStorage.getItem("email") || "");
+
   const [tabIndex, setTabIndex] = useState(0);
   const [source, setSource] = useState("Google");
   const [driveFiles, setDriveFiles] = useState<any[]>([]);
@@ -54,7 +58,12 @@ export default function UploadFetchTab() {
 
   const filters = useFilters();
 
-  useEffect(() => { loadObligations(); }, []);
+  useEffect(() => {
+    loadObligations();
+    // TODO: replace localStorage owner with session/me API call for canonical user
+    const sessEmail = localStorage.getItem("email");
+    if (sessEmail) setOwner(sessEmail);
+  }, []);
 
   const loadObligations = async () => {
     try {
@@ -66,26 +75,56 @@ export default function UploadFetchTab() {
   };
 
   const handleFetch = async () => {
-    const res = await fetchFiles(source);
-    setDriveFiles(res?.files ?? []);
+    try {
+      const res = await fetchFiles(source);
+      setDriveFiles(res?.files ?? []);
+    } catch (err) {
+      console.error("Fetch files failed:", err);
+      setMessage("Failed to fetch files from cloud.");
+      setDriveFiles([]);
+    }
   };
 
   const handleDownload = async (id: string) => {
-    const res = await downloadDriveFile(id);
-    setMessage(`Downloaded: ${res?.path ?? "unknown path"}`);
+    try {
+      const res = await downloadDriveFile(id);
+      setMessage(`Downloaded: ${res?.path ?? "unknown path"}`);
+    } catch (err) {
+      console.error("Download failed:", err);
+      setMessage("Download failed.");
+    }
   };
 
   const handleUpload = async () => {
-    if (!selectedFile) return;
+    if (!selectedFile) {
+      setMessage("Please select a file to upload.");
+      return;
+    }
+    if (!department) {
+      setMessage("Please select a department");
+      return;
+    }
+
     setUploading(true);
+    setMessage("");
     try {
-      const res = await uploadForInternalAudit(selectedFile);
+      const formData = new FormData();
+      formData.append("file", selectedFile);
+      formData.append("department", department);
+      formData.append("owner", owner);
+
+      const res = await uploadForInternalAudit(formData);
       setMessage(
         `Audit started: ${res?.status ?? "ok"} (items: ${res?.total_requirements ?? 0})`
       );
-    } catch (err) {
-      console.error(err);
-      setMessage("Upload failed.");
+
+      // Optionally clear selected file after upload
+      setSelectedFile(null);
+    } catch (err: any) {
+      console.error("Upload failed:", err?.response ?? err);
+      const errMsg =
+        err?.response?.data?.error || err?.message || "Upload failed due to server error.";
+      setMessage(errMsg);
     } finally {
       setUploading(false);
     }
@@ -116,14 +155,12 @@ export default function UploadFetchTab() {
       const formData = new FormData();
       formData.append("regulation", selectedRegulation);
       formData.append("due_date_offset_days", daysOffset.toString());
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/auto_generate_compliance",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
-      const result = await response.json();
+
+      const resp = await apiClient.post("/api/auto_generate_compliance", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+
+      const result = resp.data;
       if (result.status === "success") {
         setMessage(
           `Auto-generated ${result.obligations_created} obligations and ${result.tasks_created} tasks for ${selectedRegulation}`
@@ -133,8 +170,8 @@ export default function UploadFetchTab() {
         setMessage(result.error || "Auto-generation failed");
       }
     } catch (error) {
+      console.error("Auto-generate failed:", error);
       setMessage("Auto-generation failed");
-      console.error(error);
     }
   };
 
@@ -299,6 +336,7 @@ export default function UploadFetchTab() {
                     }}
                   />
                 </FormControl>
+
                 <Button
                   variant="contained"
                   onClick={handleAutoGenerate}
@@ -642,7 +680,7 @@ export default function UploadFetchTab() {
           </Card>
         )}
 
-        {/* Audit Tab remains unchanged */}
+        {/* Audit Tab (moved department + owner input here) */}
         {tabIndex === 3 && (
           <Card
             elevation={0}
@@ -712,6 +750,40 @@ export default function UploadFetchTab() {
                     {selectedFile?.name ?? "No file selected"}
                   </Typography>
                 </Box>
+
+                {/* Department Selector */}
+                <FormControl fullWidth size="small">
+                  <InputLabel id="dept-select-label">Department</InputLabel>
+                  <Select
+                    labelId="dept-select-label"
+                    value={department}
+                    label="Department"
+                    onChange={(e) => setDepartment(e.target.value)}
+                    sx={{ borderRadius: 4, bgcolor: "#fff" }}
+                  >
+                    <MenuItem value="Procurement">Procurement</MenuItem>
+                    <MenuItem value="Manufacturing">Manufacturing</MenuItem>
+                    <MenuItem value="Logistics">Logistics</MenuItem>
+                    <MenuItem value="Warehouse">Warehouse</MenuItem>
+                    <MenuItem value="Finance">Finance</MenuItem>
+                    <MenuItem value="Legal">Legal</MenuItem>
+                  </Select>
+                </FormControl>
+
+                {/* Owner (Auto-filled Email) */}
+                <TextField
+                  label="Owner"
+                  size="small"
+                  value={owner}
+                  disabled
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: 4,
+                      bgcolor: "#fff"
+                    }
+                  }}
+                />
+
                 <Button
                   variant="contained"
                   disabled={!selectedFile || uploading}
