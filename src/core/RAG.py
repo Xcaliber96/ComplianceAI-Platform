@@ -1,183 +1,306 @@
+
+"""
+RAG.py - Compliance Retrieval & Gap-checking using OpenAI embeddings.
+
+Replaces HF embedding usage with OpenAI embeddings (text-embedding-3-large).
+Provides:
+ - batching for embeddings
+ - optional Chromadb upsert (if chromadb client available)
+ - local in-memory nearest-neighbor via cosine similarity fallback
+"""
+
 import os
-import uuid
-import re
-import chromadb
-from datetime import datetime
-from PyPDF2 import PdfReader
-from huggingface_hub import InferenceClient
+import json
+import math
+import logging
+from typing import List, Dict, Optional, Tuple
+from dataclasses import dataclass
+import numpy as np
+from uuid import uuid4
+
+# OpenAI client - official package (openai.OpenAI). Use same style as other files.
+try:
+    from openai import OpenAI
+except Exception:
+    # Provide helpful message; will be checked at runtime
+    OpenAI = None
+
+# Optional: chromadb (if you want a persistent vector DB)
+try:
+    import chromadb
+    from chromadb.utils import embedding_functions
+    CHROMADB_AVAILABLE = True
+except Exception:
+    CHROMADB_AVAILABLE = False
+
+# Logging
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+
+# Default embedding model (OpenAI)
+OPENAI_EMBED_MODEL = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-large")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", None)
+
+if OpenAI is not None and OPENAI_API_KEY:
+    openai_client = OpenAI(api_key=OPENAI_API_KEY)
+else:
+    openai_client = None
+
+# Helper dataclass for chunked document pieces
+@dataclass
+class DocChunk:
+    id: str
+    doc_id: str
+    text: str
+    metadata: Dict
+
+# Utility functions
+def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
+    if np.linalg.norm(a) == 0 or np.linalg.norm(b) == 0:
+        return 0.0
+    return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b)))
+
+def chunk_text(text: str, max_chars: int = 2000, overlap: int = 200) -> List[str]:
+    """Simple char-based chunker with overlap."""
+    if not text:
+        return []
+    chunks = []
+    start = 0
+    L = len(text)
+    while start < L:
+        end = min(start + max_chars, L)
+        chunk = text[start:end]
+        chunks.append(chunk)
+        if end == L:
+            break
+        start = max(end - overlap, end)  # ensure some overlap; prevents infinite loop
+    return chunks
+
+def batch_iterable(iterable, batch_size):
+    it = iter(iterable)
+    while True:
+        batch = []
+        for _ in range(batch_size):
+            try:
+                batch.append(next(it))
+            except StopIteration:
+                break
+        if not batch:
+            break
+        yield batch
 
 class ComplianceChecker:
-    def __init__(self, pdf_path, regulations, collection_name="policies",
-                 compliance_threshold=0.60, top_k=1):
+    """
+    ComplianceChecker: loads PDF/text, chunks content, computes embeddings using OpenAI,
+    and performs semantic retrieval against supplied regulations or other docs.
+    """
+
+    def __init__(
+        self,
+        pdf_path: Optional[str] = None,
+        text: Optional[str] = None,
+        regulations: Optional[List[Dict]] = None,
+        embed_model: str = OPENAI_EMBED_MODEL,
+        use_chroma: bool = False,
+        chroma_collection_name: str = None,
+        batch_size: int = 64,
+    ):
+        if not openai_client:
+            logger.warning("OpenAI client not initialized - OPENAI_API_KEY missing.")
         self.pdf_path = pdf_path
-        self.regulations = regulations
-        self.collection_name = collection_name
-        self.compliance_threshold = compliance_threshold
-        self.top_k = top_k
+        self.text = text
+        self.regulations = regulations or []
+        self.embed_model = embed_model
+        self.batch_size = batch_size
+        self.use_chroma = use_chroma and CHROMADB_AVAILABLE
+        self.chroma_collection_name = chroma_collection_name or f"compliance_{uuid4().hex[:8]}"
+        self.chunks: List[DocChunk] = []
+        self.embeddings: List[np.ndarray] = []
+        self.doc_ids: List[str] = []
+        # chroma client & collection optional
+        self.chroma_client = None
+        self.chroma_collection = None
+        if self.use_chroma and CHROMADB_AVAILABLE:
+            try:
+                self.chroma_client = chromadb.Client()
+                # create or get collection
+                self.chroma_collection = self.chroma_client.get_or_create_collection(self.chroma_collection_name)
+            except Exception as e:
+                logger.warning("Failed to init ChromaDB - falling back to in-memory search: %s", e)
+                self.use_chroma = False
 
-        # HuggingFace LLM client
-        hf_token = os.environ.get("HF_API_TOKEN")
-        if not hf_token:
-            raise ValueError("❌ HF_API_TOKEN is not set in environment!")
-        # self.llm_client = InferenceClient(api_key=hf_token, provider="featherless-ai")
-        self.llm_client = InferenceClient(api_key=hf_token)
-        # ChromaDB setup
-        self.chroma_client = chromadb.Client()
-        self.collection = self.chroma_client.get_or_create_collection(
-            name=self.collection_name,
-            metadata={"hnsw:space": "cosine"}
-        )
+        # load text from pdf if path provided
+        if pdf_path and not text:
+            self.text = self._extract_text_from_pdf(pdf_path)
 
-        # Load and insert policy text
-        self.policies = self.read_pdf_and_chunk()
-        if self.collection.count() == 0:
-            self.collection.add(
-                ids=[str(uuid.uuid4()) for _ in self.policies],
-                documents=self.policies,
-                metadatas=[{"chunk": i} for i in range(len(self.policies))]
-            )
-            print(f"Inserted {len(self.policies)} chunks into Chroma collection '{self.collection_name}'.")
+        # chunk text into small pieces
+        if self.text:
+            self._prepare_chunks(self.text)
 
-    def read_pdf_and_chunk(self, max_sentences=3):
-        """Read PDF and return list of ~3-sentence chunks."""
-        if not os.path.exists(self.pdf_path):
-            raise FileNotFoundError(f"PDF not found at: {self.pdf_path}")
+        # prepare regulation texts as mini-docs (so we can embed them too)
+        self.reg_chunks: List[DocChunk] = []
+        if self.regulations:
+            self._prepare_regulation_chunks(self.regulations)
 
-        reader = PdfReader(self.pdf_path)
-        text = ""
-        for page in reader.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text + " "
-
-        # Split into sentences and group into chunks
-        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
-        chunks, current_chunk = [], []
-        for sentence in sentences:
-            if len(current_chunk) >= max_sentences:
-                chunks.append(" ".join(current_chunk))
-                current_chunk = []
-            current_chunk.append(sentence.strip())
-        if current_chunk:
-            chunks.append(" ".join(current_chunk))
-        return chunks
-
-    def generate_llm_narrative(self, reg_text, evidence_chunk):
-        """Generate compliance gap narrative with LLM."""
-        prompt = f"""
-        You are a compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE
-        and state the compliance GAP in one clear sentence.
-
-        REGULATION: "{reg_text}"
-
-        POLICY EVIDENCE: "{evidence_chunk[:500]}"
-
-        GAP SUMMARY:
-        """
+    def _extract_text_from_pdf(self, path: str) -> str:
         try:
-            completion = self.llm_client.chat.completions.create(
-                model="mistralai/Mistral-7B-Instruct-v0.2",
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=150,
-                temperature=0.3
-            )
-            return completion.choices[0].message.content.strip()
+            from PyPDF2 import PdfReader
+        except Exception:
+            raise RuntimeError("PyPDF2 required to read PDF files. pip install PyPDF2")
+        txt = []
+        try:
+            reader = PdfReader(path)
+            for p in reader.pages:
+                txt.append(p.extract_text() or "")
         except Exception as e:
-            return f"LLM API Error: {e}"
+            logger.error("Failed to extract text from PDF %s: %s", path, e)
+            raise
+        return "\n".join(txt)
 
-    def run_check(self):
-        compliance_results = []
-        for reg in self.regulations:
-            reg_id = reg["Reg_ID"]
-            query_text = reg["Requirement_Text"]
-            result = self.collection.query(query_texts=[query_text], n_results=self.top_k)
-            docs = result["documents"][0] if result["documents"] else []
-            dists = result["distances"][0] if result["distances"] else []
-            metas = result.get("metadatas", [[]])[0] if result.get("metadatas") else [{} for _ in docs]
+    def _prepare_chunks(self, text: str):
+        chunk_texts = chunk_text(text)
+        doc_id = f"doc_{uuid4().hex[:8]}"
+        for i, c in enumerate(chunk_texts):
+            chunk = DocChunk(id=f"{doc_id}_c{i}", doc_id=doc_id, text=c, metadata={"chunk_index": i})
+            self.chunks.append(chunk)
 
-            if not docs:
-                continue
+    def _prepare_regulation_chunks(self, regulations: List[Dict]):
+        for r in regulations:
+            rid = r.get("id") or f"reg_{uuid4().hex[:8]}"
+            text = r.get("text") or r.get("title", "")
+            # keep regulation as a single chunk
+            chunk = DocChunk(id=f"{rid}_reg", doc_id=rid, text=text, metadata={"regulation": r.get("title")})
+            self.reg_chunks.append(chunk)
 
-            for rank, (doc, dist, meta) in enumerate(zip(docs, dists, metas), start=1):
-                similarity = 1 - dist
-                score_percent = similarity * 100
-                is_compliant = similarity >= self.compliance_threshold
+    def _get_openai_embeddings(self, texts: List[str]) -> List[List[float]]:
+        """Call OpenAI embeddings endpoint in batches. Returns list of embedding vectors (floats)."""
+        if openai_client is None:
+            raise RuntimeError("OPENAI_API_KEY not configured; cannot generate embeddings.")
+        all_embs = []
+        for batch in batch_iterable(texts, self.batch_size):
+            try:
+                resp = openai_client.embeddings.create(model=self.embed_model, input=batch)
+                # resp['data'] is list of dicts with 'embedding'
+                batch_embs = [item.embedding for item in resp.data]
+                all_embs.extend(batch_embs)
+            except Exception as e:
+                logger.exception("OpenAI embeddings call failed: %s", e)
+                # Raise after logging to make failure explicit
+                raise
+        return all_embs
 
-                narrative = ""
-                if not is_compliant:
-                    narrative = self.generate_llm_narrative(query_text, doc)
+    def build_embeddings(self, include_regulations: bool = True):
+        """Compute embeddings for chunks (and optionally regulations). Stores self.embeddings as numpy arrays."""
+        texts = [c.text for c in self.chunks]
+        reg_texts = [c.text for c in self.reg_chunks] if include_regulations else []
+        if texts:
+            logger.info("Computing embeddings for %d document chunks...", len(texts))
+            embs = self._get_openai_embeddings(texts)
+            self.embeddings = [np.array(e, dtype=np.float32) for e in embs]
+            self.doc_ids = [c.doc_id for c in self.chunks]
+            # optionally upsert into chroma
+            if self.use_chroma and self.chroma_collection:
+                try:
+                    self.chroma_collection.add(
+                        documents=[c.text for c in self.chunks],
+                        metadatas=[c.metadata for c in self.chunks],
+                        ids=[c.id for c in self.chunks],
+                        embeddings=[e.tolist() for e in self.embeddings]
+                    )
+                except Exception as e:
+                    logger.warning("Chroma upsert failed: %s", e)
+        else:
+            logger.info("No document chunks to embed.")
 
-                compliance_results.append({
-                    "Reg_ID": reg_id,
-                    "Risk_Rating": reg['Risk_Rating'],
-                    "Target_Area": reg['Target_Area'],
-                    "Dow_Focus": reg['Dow_Focus'],
-                    "Compliance_Score": score_percent,
-                    "Evidence_Chunk": doc,
-                    "Is_Compliant": is_compliant,
-                    "Narrative_Gap": narrative
-                })
-        return compliance_results
+        if reg_texts:
+            logger.info("Computing embeddings for %d regulations...", len(reg_texts))
+            reg_embs = self._get_openai_embeddings(reg_texts)
+            self.reg_embeddings = [np.array(e, dtype=np.float32) for e in reg_embs]
+        else:
+            self.reg_embeddings = []
 
-    def dashboard_summary(self, compliance_results, industry=None):
-        total_requirements = len(compliance_results)
-        gaps = [r for r in compliance_results if not r['Is_Compliant']]
-        gap_details = [
-            {
-                "Reg_ID": g['Reg_ID'],
-                "Risk_Rating": g["Risk_Rating"],
-                "Score": g["Compliance_Score"],
-                "Narrative": g["Narrative_Gap"]
-            }
-            for g in gaps
-        ]
-        overall_compliance = ((total_requirements - len(gaps)) / total_requirements * 100) if total_requirements else 0
+    def _semantic_search(self, query: str, top_k: int = 5) -> List[Tuple[DocChunk, float]]:
+        """Return top_k matching chunks with similarity scores"""
+        if not (self.embeddings and self.chunks):
+            raise RuntimeError("Embeddings not built; call build_embeddings() first.")
+        # embed query
+        q_emb = np.array(self._get_openai_embeddings([query])[0], dtype=np.float32)
+        sims = [cosine_similarity(q_emb, e) for e in self.embeddings]
+        # get top k indices
+        idxs = sorted(range(len(sims)), key=lambda i: sims[i], reverse=True)[:top_k]
+        results = [(self.chunks[i], sims[i]) for i in idxs]
+        return results
 
-        return {
-            "status": "success",
-            "action": "RAG Compliance Check",
-            "timestamp": datetime.now().isoformat(),
-            "industry": industry,
-            "regulations_checked": total_requirements,
-            "compliance_score": round(overall_compliance, 2),
-            "high_risk_gaps": len([g for g in gaps if "Critical" in g["Risk_Rating"] or "High" in g["Risk_Rating"]]),
-            "gap_details": gap_details[:3],  # only top 3 for quick viewing
-            "details": (
-                f"RAG check complete. Score: {overall_compliance:.2f}%. "
-                f"Gaps found: {len(gaps)}. "
-                f"High risk gaps: {len([g for g in gaps if 'Critical' in g['Risk_Rating'] or 'High' in g['Risk_Rating']])}."
-            )
-        }
+    def _regulation_match_scores(self) -> List[Dict]:
+        """Compute a simple match score between each regulation and the document by cosine between regulation embedding and document embeddings."""
+        if not hasattr(self, "reg_embeddings") or not self.reg_embeddings:
+            return []
+        results = []
+        for ridx, r_emb in enumerate(self.reg_embeddings):
+            # compute max similarity between regulation and any doc chunk (simple heuristic)
+            best_score = max(cosine_similarity(r_emb, d_emb) for d_emb in (self.embeddings or [np.zeros_like(r_emb)]))
+            results.append({
+                "regulation_id": self.reg_chunks[ridx].doc_id,
+                "regulation_title": self.reg_chunks[ridx].metadata.get("regulation"),
+                "score": float(best_score)
+            })
+        return results
 
-# -------------------------------
-# Example usage:
-# -------------------------------
-if __name__ == "__main__":
-    REGULATION_LIBRARY = [
-        {
-            "Reg_ID": "HIPAA-164.312(b)",
-            "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
-            "Risk_Rating": "High (Data Security)",
-            "Target_Area": "Technical Control, Audit/Logging",
-            "Dow_Focus": "Eliminating Issues, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "HIPAA-164.306(a)",
-            "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
-            "Risk_Rating": "High (Data Integrity)",
-            "Target_Area": "Administrative Policy, Data Security",
-            "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "SEC-R404.1",
-            "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
-            "Risk_Rating": "Critical (Financial/Legal)",
-            "Target_Area": "Employee Conduct, Conflict of Interest",
-            "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
-        }
-    ]
+    def run_check(self, top_k: int = 5, threshold: float = 0.45):
+        """
+        Main entry: run compliance check and return findings.
+        - Builds embeddings (if not present)
+        - For each regulation, computes regulation match scores and returns matches above threshold
+        """
+        if openai_client is None:
+            raise RuntimeError("OPENAI_API_KEY not configured. Please set OPENAI_API_KEY to use the compliance checker.")
 
-    checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
-    results = checker.run_check()
-    summary = checker.dashboard_summary(results, industry="Finance")
-    print(summary)
+        # Build embeddings if not precomputed
+        if not getattr(self, "embeddings", None):
+            self.build_embeddings(include_regulations=True)
+
+        # Compute regulation match scores
+        reg_scores = self._regulation_match_scores()
+
+        # Convert scores into findings -> classify as Compliant / Risk / Violation using thresholds
+        findings = []
+        for rs in reg_scores:
+            score = rs["score"]
+            if score >= 0.75:
+                status = "Compliant"
+            elif score >= 0.5:
+                status = "Risk"
+            else:
+                status = "Violation"
+            findings.append({
+                "regulation_id": rs["regulation_id"],
+                "regulation_title": rs["regulation_title"],
+                "score": score,
+                "status": status
+            })
+
+        # Sort by score descending
+        findings = sorted(findings, key=lambda x: x["score"], reverse=True)
+
+        # Optionally attach supporting context: top_k chunks for each top regulation
+        enriched = []
+        for f in findings[:top_k]:
+            top_chunks = self._semantic_search(f["regulation_title"], top_k=3)
+            enriched.append({
+                "regulation_id": f["regulation_id"],
+                "regulation_title": f["regulation_title"],
+                "score": f["score"],
+                "status": f["status"],
+                "supporting_evidence": [{"text": c.text[:800], "similarity": s} for c, s in top_chunks]
+            })
+
+        return enriched
+
+    def dashboard_summary(self, results):
+        """Simple aggregated stats for UI"""
+        counts = {"Compliant": 0, "Risk": 0, "Violation": 0}
+        for r in results:
+            counts[r.get("status", "Violation")] = counts.get(r.get("status", "Violation"), 0) + 1
+        return {"total": len(results), "by_status": counts}
+
+

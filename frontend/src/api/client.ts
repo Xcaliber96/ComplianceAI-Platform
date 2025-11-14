@@ -150,14 +150,21 @@ const response = await apiClient.post(`/api/competitors`, formData, {
   }
 }
 
-export const uploadForInternalAudit = async (file: File) => {
-  const formData = new FormData()
-  formData.append('file', file)
-  const response = await apiClient.post('/api/internal_compliance_audit', formData, {
-    headers: { 'Content-Type': 'multipart/form-data' },
-  })
-  return response.data
+export async function uploadForInternalAudit(formData: FormData) {
+  try {
+    // Use the axios apiClient so interceptors, baseURL and cookies are used
+    const response = await apiClient.post("/api/upload_for_audit", formData, {
+      headers: { "Content-Type": "multipart/form-data" },
+      withCredentials: true,
+    });
+    return response.data;
+  } catch (err: any) {
+    console.error("uploadForInternalAudit failed:", err?.response ?? err);
+    // Re-throw so UI can show error
+    throw err;
+  }
 }
+
 
 
 export const runExternalIntelligence = async (industry: string) => {
