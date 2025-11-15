@@ -62,6 +62,11 @@ import os
 from uuid import uuid4
 from fastapi import Request, Response
 from fastapi import Query
+from fastapi import FastAPI
+from .graph_api import router as graph_router   # plain import works when cwd is the folder
+
+app = FastAPI()
+app.include_router(graph_router)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -85,7 +90,34 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+if os.path.exists("/etc/secrets/.env"):
+    load_dotenv("/etc/secrets/.env", override=True)
+    print("Loaded environment from /etc/secrets/.env (Render)")
+else:
+    load_dotenv(".env", override=True)
+    print("Loaded environment from local .env")
 
+# relative import of graph router (same package)
+from .graph_api import router as graph_router
+
+app = FastAPI(title="ComplianceAI Platform API", version="2.0")
+
+# CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://nomioc.com",
+        "https://www.nomioc.com",
+        "http://localhost:8000",
+        "http://localhost:8501",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# include routers (do this AFTER app is created)
+app.include_router(graph_router)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 router = APIRouter()
