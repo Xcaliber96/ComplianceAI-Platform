@@ -274,8 +274,16 @@ STORED_FILES = "stored_drive_files.json"
 # Setup logging
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
+# Module logger
+logger = logging.getLogger(__name__)
+
 # Processed regulations cache
 processed_regulations = set()
+
+# New: thresholds configurable via env
+VIOLATION_THRESHOLD = float(os.getenv("VIOLATION_THRESHOLD", "0.5"))
+RISK_THRESHOLD = float(os.getenv("RISK_THRESHOLD", "0.6"))
+AUTO_CREATE_MIN_SCORE = float(os.getenv("AUTO_CREATE_MIN_SCORE", "0.45"))
 
 REGULATORY_SOURCES = {
     "FEDERAL_REGISTER": "https://www.federalregister.gov/api/v1/documents.json?fields[]=title&fields[]=publication_date&per_page=10"
@@ -365,6 +373,102 @@ ROLE_ASSIGNMENTS = {
 }
 
 from src.api.models import Supplier  
+
+# ---- NEW constants for uploads & metadata ----
+SHARED_DIR = DOWNLOAD_DIR  # backward-compatibility name used in older helpers
+UPLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "uploads"))
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+FILES_METADATA = "files_metadata.json"
+# ensure directory exists (if path contains directory)
+os.makedirs(os.path.dirname(FILES_METADATA) or ".", exist_ok=True)
+
+# Allowed departments for validation
+ALLOWED_DEPARTMENTS = {"Procurement", "Manufacturing", "Logistics", "Warehouse", "Finance", "Legal", "Compliance"}
+
+# Utility helper: atomic metadata append
+def save_metadata_atomic(metadata: dict, path: str = FILES_METADATA):
+    """Atomically append metadata to a JSON array file (creates file if missing)."""
+    tmp = path + ".tmp"
+    try:
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if not isinstance(data, list):
+                    data = []
+        else:
+            data = []
+
+        data.append(metadata)
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        os.replace(tmp, path)
+    finally:
+        if os.path.exists(tmp):
+            try:
+                os.remove(tmp)
+            except Exception:
+                pass
+
+# Lightweight session dependency
+def get_current_user_from_session(request: Request):
+    session_id = request.cookies.get("session_id")
+    if not session_id or session_id not in SESSIONS:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    return SESSIONS[session_id]
+
+# Helper to auto-create obligations/tasks from findings
+def create_obligations_from_findings(findings: List[dict], source_file: str, db: Session):
+    """
+    Create ObligationInstance rows for high-scoring findings and attach tasks.
+    returns list of created obligation ids
+    """
+    created_ids = []
+    if not findings:
+        return created_ids
+
+    try:
+        for f in findings:
+            score = f.get("score", 0.0) or 0.0
+            title = f.get("regulation_title") or f.get("regulation_id") or "Finding"
+            status = f.get("status", "Violation")
+
+            # only auto-create for findings above threshold
+            if score < AUTO_CREATE_MIN_SCORE:
+                continue
+
+            description = f"{title} — auto-detected (score={float(score):.2f}). Status: {status}."
+            obligation = ObligationInstance(
+                description=description,
+                regulation=title,
+                due_date=datetime.utcnow() + timedelta(days=30)
+            )
+            db.add(obligation)
+            db.commit()
+            db.refresh(obligation)
+            created_ids.append(obligation.id)
+
+            # create a default remediation task
+            evidence_snippets = f.get("supporting_evidence", [])[:3]
+            task = RemediationTask(
+                obligation_id=obligation.id,
+                assigned_to="compliance@company.com",
+                sla_due=datetime.utcnow() + timedelta(days=14),
+                checklist_template={"evidence": evidence_snippets},
+                user_uid="system"
+            )
+            db.add(task)
+            db.commit()
+            db.refresh(task)
+
+            # audit log
+            try:
+                log_audit(db, "ObligationInstance", obligation.id, "auto_create_from_rag", "system", f"Auto-created from {source_file}")
+            except Exception:
+                logger.exception("Failed to log audit for created obligation")
+    except Exception:
+        logger.exception("create_obligations_from_findings failed")
+    return created_ids
 
 @app.post("/api/suppliers")
 def create_supplier(
@@ -552,16 +656,8 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-@app.post("/api/fetch_files")
-async def fetch_files(source: str = Form(...)):
-    try:
-        result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
-        return result
-    except Exception as e:
-        traceback.print_exc()
-        return {"error": str(e)}
-    finally:
-        cleanup_temp_files()
+# NOTE: removed a small duplicate placeholder /api/fetch_files function here that previously caused errors.
+
 async def extract_keywords_api(file: UploadFile = File(...)):
     """Automatically extract compliance-related keywords from uploaded file."""
     # Save uploaded file temporarily
@@ -590,7 +686,9 @@ async def fetch_files(
     result = fetch_files_from_source(source, folder_id, service)
 
     try:
-        upload_for_audit(result)
+        # previous code called upload_for_audit(result) here, but upload_for_audit expects multipart/form-data.
+        # To avoid calling a non-existent helper we simply log and proceed. Background ingestion can be scheduled by frontend.
+        logging.info("fetch_files completed; files fetched from drive.")
     except Exception as e:
         logging.warning(f"Upload for audit failed: {e}")
 
@@ -621,6 +719,7 @@ async def fetch_files(
         "analyzed_file": os.path.basename(latest_file),
         "download_path": latest_file
     }
+
 def load_stored_files(response_model=None):
     if os.path.exists(STORED_FILES):
         with open(STORED_FILES, "r", encoding="utf-8") as f:
@@ -656,6 +755,7 @@ async def download_gdrive_file(file_id: str = Form(...)):
 def save_stored_files(data, response_model=None):
     with open(STORED_FILES, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
+
 @app.post("/api/internal_compliance_audit")
 async def internal_compliance_audit(file: UploadFile = File(...), response_model=None):
     try:
@@ -675,11 +775,35 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
         from src.core.RAG import ComplianceChecker 
         checker = ComplianceChecker(pdf_path=tmp_path, regulations=regulations)
         results = checker.run_check()
+        audit_out = {
+        "status": "success",
+        "total_requirements": len(results),
+        "results": results,
+        "generated_at": datetime.utcnow().isoformat()
+        }
+        audit_filename = f"{tmp_path}.audit.json"
+        with open(audit_filename, "w", encoding="utf-8") as out_f:
+            json.dump(audit_out, out_f, indent=2)
 
-        # Step 4: Summarize results
+
+        # Step 4: Persist created obligations (auto-create from high scoring findings)
+        try:
+            db = SessionLocal()
+            created = create_obligations_from_findings(results, os.path.basename(tmp_path), db)
+            if created:
+                logger.info(f"Auto-created obligations from audit: {created}")
+        except Exception:
+            logger.exception("Failed to create obligations from findings")
+        finally:
+            try:
+                db.close()
+            except Exception:
+                pass
+
+        # Step 5: Summarize results
         summary = checker.dashboard_summary(results)
         
-        # Step 5: Return structured response
+        # Step 6: Return structured response
         return JSONResponse(content={
             "status": "success",
             "total_requirements": len(results),
@@ -695,6 +819,106 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             content={"status": "error", "message": str(e)},
             status_code=500
         )
+
+# ---- NEW endpoint: upload_for_audit ----
+@app.post("/api/upload_for_audit")
+async def upload_for_audit(
+    request: Request,
+    background_tasks: BackgroundTasks,
+    file: UploadFile = File(...),
+    department: str = Form(...),
+    owner: str = Form(...),
+    db: Session = Depends(get_db),
+    current_user: dict = Depends(get_current_user_from_session)
+):
+    # Validate department
+    if department not in ALLOWED_DEPARTMENTS:
+        return JSONResponse(content={"error": f"Invalid department: {department}"}, status_code=400)
+
+    try:
+        # Save file to disk with UUID to avoid collisions
+        orig_name = file.filename
+        file_ext = os.path.splitext(orig_name)[1] or ".pdf"
+        saved_name = f"{uuid4().hex}{file_ext}"
+        file_path = os.path.join(UPLOAD_DIR, saved_name)
+
+        # write file
+        contents = await file.read()
+        with open(file_path, "wb") as f:
+            f.write(contents)
+
+        # create metadata
+        metadata = {
+            "id": uuid4().hex,
+            "original_filename": orig_name,
+            "saved_filename": saved_name,
+            "path": file_path,
+            "department": department,
+            "owner": owner,
+            "uploaded_by": current_user.get("email") if current_user else owner,
+            "uploaded_at": datetime.utcnow().isoformat(),
+            "source": "web_upload"
+        }
+
+        # persist metadata atomically
+        save_metadata_atomic(metadata)
+
+        # schedule background audit job — run in background without passing request-scoped db
+        background_tasks.add_task(run_internal_audit_background, file_path, metadata)
+
+        return JSONResponse(content={
+            "status": "accepted",
+            "message": "File uploaded and audit scheduled",
+            "metadata_id": metadata["id"],
+            "original_filename": orig_name
+        }, status_code=202)
+
+    except Exception as e:
+        logging.exception("upload_for_audit failed")
+        return JSONResponse(content={"error": str(e)}, status_code=500)
+
+# Background worker that runs the compliance checker and stores results
+def run_internal_audit_background(file_path: str, metadata: dict):
+    db = SessionLocal()
+    try:
+        # load regulations (reuse your internal_compliance_audit logic)
+        if not os.path.exists("sample_regulations.json"):
+            logging.error("sample_regulations.json missing for background audit")
+            return
+
+        with open("sample_regulations.json", "r", encoding="utf-8") as f:
+            regulations = json.load(f)
+
+        # instantiate RAG checker (same usage as internal_compliance_audit)
+        checker = RAGComplianceChecker(pdf_path=file_path, regulations=regulations)
+        results = checker.run_check()
+        summary = checker.dashboard_summary(results)
+
+        # log result in DB as AuditLog (create an entry)
+        try:
+            log_audit(db, "UploadAudit", metadata.get("id"), "auto_audit", metadata.get("uploaded_by") or "system",
+                      f"Auto-audit completed: {len(results)} findings")
+        except Exception:
+            logging.exception("Failed to write audit log to DB")
+
+        # write results to a JSON file next to uploaded file for reference
+        out_path = f"{file_path}.audit.json"
+        with open(out_path, "w", encoding="utf-8") as fo:
+            json.dump({"metadata": metadata, "results": results, "summary": summary}, fo, indent=2, default=str)
+
+        # Auto-create obligations/tasks from background results
+        try:
+            created = create_obligations_from_findings(results, metadata.get("original_filename", os.path.basename(file_path)), db)
+            if created:
+                logger.info(f"Auto-created obligations from background audit: {created}")
+        except Exception:
+            logger.exception("Failed to create obligations from background findings")
+
+        logging.info(f"Background audit completed for {metadata.get('original_filename')}")
+    except Exception as e:
+        logging.exception("Background audit failed")
+    finally:
+        db.close()
 
 from openai import OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -803,7 +1027,7 @@ async def get_tasks(
         # Defensive: Return empty list if user_uid not provided
         return []
 
-  
+
 @app.get("/api/task/{task_id}")
 async def get_task(task_id: int, db: Session = Depends(get_db)):
     task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
@@ -1105,8 +1329,6 @@ async def rag_analysis(
         "supplier": supplierid,
         "details": findings
     })
-
-
 
 if __name__ == "__main__":
     import uvicorn
