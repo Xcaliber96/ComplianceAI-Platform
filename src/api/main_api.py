@@ -64,6 +64,9 @@ from fastapi import Request, Response
 from fastapi import Query
 from fastapi import FastAPI
 from .graph_api import router as graph_router   # plain import works when cwd is the folder
+import sys, subprocess, os
+from typing import Dict, Any
+
 
 app = FastAPI()
 app.include_router(graph_router)
@@ -247,6 +250,26 @@ def extract_text_from_pdf_bytes(pdf_bytes):
     for page in reader.pages:
         text += page.extract_text() or ""
     return text
+def run_ingest_script(audit_path: str) -> Dict[str, Any]:
+    project_root = ROOT
+    script_path = project_root / "scripts" / "ingest_audit_to_neo4j.py"
+    if not script_path.exists():    
+        raise FileNotFoundError(f"Ingest script not found at {script_path}")
+
+    python_bin = os.environ.get("PYTHON_BIN", sys.executable)
+    cmd = [python_bin, str(script_path), str(audit_path)]
+    # run and capture
+    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(project_root))
+    # log to server console for debugging
+    print(f"[INGEST] cmd: {cmd}")
+    print(f"[INGEST] returncode: {proc.returncode}")
+    print(f"[INGEST] stdout:\n{proc.stdout}")
+    print(f"[INGEST] stderr:\n{proc.stderr}")
+    return {
+        "returncode": proc.returncode,
+        "stdout": proc.stdout,
+        "stderr": proc.stderr
+    }
 
 
 def get_gdrive_credentials():
