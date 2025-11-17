@@ -1,3 +1,4 @@
+# Force-load .env at runtime every time this script runs
 from pathlib import Path
 from dotenv import load_dotenv
 
