@@ -103,7 +103,9 @@ def get_user_file_path(user_uid: str, file_id: str):
 
     folder = get_user_folder(user_uid)
     file_path = os.path.join(folder, entry["stored_name"])
-
+    print("INDEX ENTRY:", entry)
+    print("LOOKING FOR FILE:", file_path)
+    print("EXISTS?", os.path.exists(file_path))
     return file_path, entry
 
 def delete_user_file(user_uid: str, file_id: str):
@@ -125,3 +127,20 @@ def delete_user_file(user_uid: str, file_id: str):
     save_index(user_uid, new_index)
 
     return True
+
+def get_direct_file_url(user_uid: str, file_id: str):
+    """
+    Returns the full OS path for the file, OR None if missing.
+    Used when frontend wants to preview a file without a separate API.
+    """
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        return None
+    
+    file_path, entry = result
+    return {
+        "path": file_path,
+        "original_name": entry["original_name"],
+        "mime": entry["original_name"].split(".")[-1].lower(),
+    }

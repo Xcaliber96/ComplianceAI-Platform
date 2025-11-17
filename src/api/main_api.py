@@ -10,7 +10,7 @@ from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
-
+from src.core.nomi_file_hub import get_direct_file_url
 from fastapi.responses import FileResponse
 import mimetypes
 from src.core.nomi_file_hub import (save_user_file,list_user_files, get_user_file_path, delete_user_file)
@@ -82,9 +82,6 @@ if os.path.exists("/etc/secrets/.env"):
 else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
-
-
-
 
 app = FastAPI(title="ComplianceAI Platform API", version="2.0")
 load_dotenv()
@@ -260,7 +257,21 @@ async def logout(request: Request, response: Response):
     response.delete_cookie("session_id")
     return {"status": "logged_out"}
 
+@app.get("/api/filehub/{file_id}/direct")
+async def filehub_direct(file_id: str, user_uid: str):
+    result = get_user_file_path(user_uid, file_id)
 
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result   # <-- HERE is your path and metadata
+
+    return FileResponse(
+        file_path,
+        media_type="application/pdf",
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
     from PyPDF2 import PdfReader
@@ -269,6 +280,32 @@ def extract_text_from_pdf_bytes(pdf_bytes):
     for page in reader.pages:
         text += page.extract_text() or ""
     return text
+@app.get("/api/filehub/{file_id}")
+async def filehub_get(file_id: str, user_uid: str):
+    """
+    Returns the actual file (PDF, OUT file, etc.)
+    Used by the frontend preview system.
+    """
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    mime_type, _ = mimetypes.guess_type(entry["original_name"])
+    if not mime_type:
+        mime_type = "application/octet-stream"
+
+    return FileResponse(
+        file_path,
+        media_type=mime_type,
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
+
 def run_ingest_script(audit_path: str) -> Dict[str, Any]:
     project_root = ROOT
     script_path = project_root / "scripts" / "ingest_audit_to_neo4j.py"
