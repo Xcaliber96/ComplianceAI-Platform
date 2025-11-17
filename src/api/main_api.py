@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File, Form, Depends
 from fastapi.responses import JSONResponse
 from typing import List
 from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from pathlib import Path
 from dotenv import load_dotenv, dotenv_values
 import os
@@ -10,6 +10,10 @@ from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
+from src.core.nomi_file_hub import get_direct_file_url
+from fastapi.responses import FileResponse
+import mimetypes
+from src.core.nomi_file_hub import (save_user_file,list_user_files, get_user_file_path, delete_user_file)
 from sqlalchemy.orm import Session
 from typing import List, Optional
 import logging, sys, io, json, os, tempfile, hashlib, requests
@@ -62,6 +66,14 @@ import os
 from uuid import uuid4
 from fastapi import Request, Response
 from fastapi import Query
+from fastapi import FastAPI
+from .graph_api import router as graph_router   # plain import works when cwd is the folder
+import sys, subprocess, os
+from typing import Dict, Any
+
+
+app = FastAPI()
+app.include_router(graph_router)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -85,7 +97,34 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+if os.path.exists("/etc/secrets/.env"):
+    load_dotenv("/etc/secrets/.env", override=True)
+    print("Loaded environment from /etc/secrets/.env (Render)")
+else:
+    load_dotenv(".env", override=True)
+    print("Loaded environment from local .env")
 
+# relative import of graph router (same package)
+from .graph_api import router as graph_router
+
+app = FastAPI(title="ComplianceAI Platform API", version="2.0")
+
+# CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://nomioc.com",
+        "https://www.nomioc.com",
+        "http://localhost:8000",
+        "http://localhost:8501",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# include routers (do this AFTER app is created)
+app.include_router(graph_router)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 router = APIRouter()
@@ -106,6 +145,10 @@ if not firebase_admin._apps:
     
 SESSIONS = {}
 
+# Folder where files will be stored
+FILEHUB_DIR = os.path.abspath("filehub_storage")
+os.makedirs(FILEHUB_DIR, exist_ok=True)
+
 def store_user_if_new(uid, email):
     """Store a new Firebase user in the database if not already present."""
     from src.api.models import User  # local import avoids circular import
@@ -119,7 +162,6 @@ def store_user_if_new(uid, email):
                 created_at=datetime.utcnow()
             )
             db.add(user)
-            print("-------------------------------------------------------------I'm here")
             db.commit()
             print(f"[DB] Created new user: {email}")
         else:
@@ -144,6 +186,14 @@ async def session_login(request: Request, response: Response):
         raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
 
     email = decoded.get("email")
+
+    print("\n==============================")
+    print("🔥 /session/login CALLED")
+    print("==============================")
+
+    print("🔑 ID Token (first 50 chars):", id_token[:50] + "..." if id_token else None)
+    print("👤 UID:", uid)
+    print("📧 Email from token:", email)
 
     try:
         store_user_if_new(uid, email)
@@ -207,6 +257,21 @@ async def logout(request: Request, response: Response):
     response.delete_cookie("session_id")
     return {"status": "logged_out"}
 
+@app.get("/api/filehub/{file_id}/direct")
+async def filehub_direct(file_id: str, user_uid: str):
+    result = get_user_file_path(user_uid, file_id)
+
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result   # <-- HERE is your path and metadata
+
+    return FileResponse(
+        file_path,
+        media_type="application/pdf",
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
     from PyPDF2 import PdfReader
@@ -215,7 +280,120 @@ def extract_text_from_pdf_bytes(pdf_bytes):
     for page in reader.pages:
         text += page.extract_text() or ""
     return text
+@app.get("/api/filehub/{file_id}")
+async def filehub_get(file_id: str, user_uid: str):
+    """
+    Returns the actual file (PDF, OUT file, etc.)
+    Used by the frontend preview system.
+    """
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
 
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    mime_type, _ = mimetypes.guess_type(entry["original_name"])
+    if not mime_type:
+        mime_type = "application/octet-stream"
+
+    return FileResponse(
+        file_path,
+        media_type=mime_type,
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
+
+def run_ingest_script(audit_path: str) -> Dict[str, Any]:
+    project_root = ROOT
+    script_path = project_root / "scripts" / "ingest_audit_to_neo4j.py"
+    if not script_path.exists():    
+        raise FileNotFoundError(f"Ingest script not found at {script_path}")
+
+    python_bin = os.environ.get("PYTHON_BIN", sys.executable)
+    cmd = [python_bin, str(script_path), str(audit_path)]
+    # run and capture
+    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(project_root))
+    # log to server console for debugging
+    print(f"[INGEST] cmd: {cmd}")
+    print(f"[INGEST] returncode: {proc.returncode}")
+    print(f"[INGEST] stdout:\n{proc.stdout}")
+    print(f"[INGEST] stderr:\n{proc.stderr}")
+    return {
+        "returncode": proc.returncode,
+        "stdout": proc.stdout,
+        "stderr": proc.stderr
+    }
+
+@app.post("/api/filehub/upload")
+async def filehub_upload(
+    file: UploadFile = File(...),
+    user_uid: str = Form(...),
+    file_type: str = Form(...),  
+    used_for: str = Form(...),   
+):
+
+    print("Saving file for user:", user_uid)
+    print("Received filename:", file.filename)
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    contents = await file.read()
+    entry = save_user_file(contents, file.filename, user_uid,  file_type, used_for)
+
+    return {"status": "success", "file": entry}
+
+@app.get("/api/filehub")
+async def filehub_list(user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    files = list_user_files(user_uid)
+    return {"files": files}
+@app.get("/api/filehub/{file_id}/view")
+async def filehub_view(file_id: str, user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    # Detect MIME type
+    import mimetypes
+    mime_type, _ = mimetypes.guess_type(entry["original_name"])
+    if not mime_type:
+        mime_type = "application/octet-stream"
+
+    from fastapi.responses import StreamingResponse
+
+    def iterfile():
+        with open(file_path, "rb") as f:
+            yield from f
+
+    return StreamingResponse(
+        iterfile(),
+        media_type=mime_type,
+        headers={
+            "Content-Disposition": f'inline; filename="{entry["original_name"]}"',
+            "X-Content-Type-Options": "nosniff"
+        }
+    )
+
+@app.delete("/api/filehub/{file_id}")
+async def filehub_delete(file_id: str, user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    ok = delete_user_file(user_uid, file_id)
+    if not ok:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    return {"status": "deleted", "file_id": file_id}
 
 def get_gdrive_credentials():
     """Safely load Google Drive credentials, auto-delete invalid token.json"""
@@ -552,16 +730,16 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-@app.post("/api/fetch_files")
-async def fetch_files(source: str = Form(...)):
-    try:
-        result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
-        return result
-    except Exception as e:
-        traceback.print_exc()
-        return {"error": str(e)}
-    finally:
-        cleanup_temp_files()
+# @app.post("/api/fetch_files")
+# async def fetch_files(source: str = Form(...)):
+#     try:
+#         result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
+#         return result
+#     except Exception as e:
+#         traceback.print_exc()
+#         return {"error": str(e)}
+#     finally:
+#         cleanup_temp_files()
 async def extract_keywords_api(file: UploadFile = File(...)):
     """Automatically extract compliance-related keywords from uploaded file."""
     # Save uploaded file temporarily
