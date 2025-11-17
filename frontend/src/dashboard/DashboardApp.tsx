@@ -5,6 +5,7 @@ import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 import Sidebar from "./styling/sidebar";
 
+import Filelist from "./File Manager/Filelist"
 // Pages
 import FrontPage from "./FrontPage";
 import FileManager from "./FileManager";
@@ -16,7 +17,6 @@ import AuditResultsTab from "./AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
 import NomiFileHub from "./NomiFileHub"
-import FileList from "./File Manager/FileList"
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer"
 export default function DashboardApp() {
@@ -40,7 +40,7 @@ const handleCollapseChange = (value: boolean) => {
       <Box
         className="nomi-sidebar"
         sx={{
-          width: collapsed ? "72px" : "240px",
+
           transition: "width 0.25s ease",
         }}
       >
@@ -68,10 +68,9 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="results" element={<AuditResultsTab />} />
         <Route path="CompliancePlanner" element={<CompliancePlanner />} />
         <Route path="AuditResultsTab" element={<AuditResultsTab />} />
-        <Route path="FileManager" element={<FileManager />} />
         <Route path="competitors" element={<CompetitorsPage />} />
-        <Route path="FileList" element={<FileList />} />
         <Route path="AddFile" element={<AddFile />} />
+        <Route path="Filelist" element={<Filelist />} />
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
       </Routes>

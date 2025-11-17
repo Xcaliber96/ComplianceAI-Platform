@@ -14,27 +14,31 @@ export default function FileViewer() {
     async function fetchData() {
       if (!user_uid) return;
       const list = await getFileHubFiles(user_uid);
-      const found = list.find((f: any) => f.id.toString() === id);
+
+      const found = list.find((f: any) => f.id === id);
       setFile(found || null);
     }
     fetchData();
-  }, [id]);
+  }, [id, user_uid]);
 
+  // 🔥 IMPORTANT FIX: Don't go further when file is null
   if (!file) {
     return <Typography sx={{ mt: 5, textAlign: "center" }}>Loading...</Typography>;
   }
 
-  // 🔥 ALWAYS use full absolute backend URL
+
+
   const BASE =
     import.meta.env.VITE_API_BASE_URL ||
     (window.location.hostname.includes("localhost")
       ? "http://localhost:8000"
       : "https://api.nomioc.com");
 
-  const fileUrl = `${BASE}/api/filehub/${file.id}/download?user_uid=${user_uid}`;
+  const fileUrl = `${BASE}/api/filehub/${file.id}/direct?user_uid=${user_uid}`;
 
   const isPDF = file.original_name.toLowerCase().endsWith(".pdf");
   const isImage = /\.(png|jpg|jpeg|gif)$/i.test(file.original_name);
+
 
   return (
     <Box sx={{ padding: "2rem" }}>

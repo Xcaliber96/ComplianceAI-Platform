@@ -1,16 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Box, Typography, Button, TextField, MenuItem } from "@mui/material";
 import { uploadToFileHub } from "../../api/client";
 import "./AddFile.css";
 import { useNavigate } from "react-router-dom";
+import CloseIcon from "@mui/icons-material/Close";
 
 export default function AddFile({ onClose }: { onClose: () => void }) {
+  const navigate = useNavigate();
   const [fileType, setFileType] = useState("");
   const [file, setFile] = useState<File | null>(null);
   const user_uid = localStorage.getItem("user_uid");
+useEffect(() => {
+  const handleEsc = (e: KeyboardEvent) => {
+    if (e.key === "Escape") {
+      onClose();      // closes modal
+      navigate("/dashboard/FileList");
+    }
+  };
 
+  window.addEventListener("keydown", handleEsc);
+
+  return () => {
+    window.removeEventListener("keydown", handleEsc);
+  };
+}, []);
   const [step, setStep] = useState(1);
-  const navigate = useNavigate();
+
 
   const handleUpload = async () => {
     if (!file || !fileType) {
@@ -43,14 +58,16 @@ navigate("/dashboard/FileList");
   };
 
   return (
-    <div className="addfile-modal-overlay">
-      <Box className="addfile-modal">
+<div
+  className="addfile-modal-overlay"
+  onClick={leave}
+>
+      <Box className="addfile-modal" onClick={(e) => e.stopPropagation()}>
 
         {/* Exit Button */}
-        <button className="addfile-exit" onClick={leave}>
-          
-        </button>
-
+<button className="addfile-exit" onClick={leave}>
+  ✕
+</button>
         {/* STEP 1 */}
         {step === 1 && (
           <>

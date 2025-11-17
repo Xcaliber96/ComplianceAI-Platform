@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL =
+export const BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
   (window.location.hostname.includes("localhost")
     ? "http://localhost:8000"
@@ -42,12 +42,23 @@ export const uploadToFileHub = async (
 
   return data
 }
+export const getDirectFileUrl = (file_id: string, user_uid: string) => {
+  return `${BASE_URL}/api/filehub/${file_id}/direct?user_uid=${user_uid}`;
+};
 
 export const getFileHubFiles = async (user_uid: string) => {
   const { data } = await apiClient.get(`/api/filehub`, {
     params: { user_uid },
   })
   return data.files
+}
+
+export const viewFileHubFile = async (file_id: string, user_uid: string) => {
+  const response = await apiClient.get(`/api/filehub/${file_id}`, {
+    params: { user_uid },
+    responseType: "blob", 
+  })
+  return response
 }
 
 export const deleteFileHubFile = async (file_id: string, user_uid: string) => {

@@ -26,7 +26,7 @@ palette: {
     contrastText: '#1B1211'
   },
   background: {
-    default: '#FFFFFF', 
+    default: '#f4f4f430', 
     paper: '#FFFFFF'
   },
   text: {

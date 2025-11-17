@@ -1,6 +1,7 @@
 import "./sidebar_fixed.css";
 import React, { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
+import { FiFilePlus } from "react-icons/fi";
 
 import { useNavigate, useLocation } from "react-router-dom";
 import {
@@ -39,9 +40,17 @@ export default function Sidebar({ onCollapseChange }) {
         </div>
 
         <Menu iconShape="circle">
+
           <MenuItem  active={location.pathname === "/dashboard"} icon={<FiHome />} onClick={() => navigate("/dashboard")}>
             Dashboard
           </MenuItem>
+          <MenuItem
+  active={location.pathname.startsWith("/dashboard/FileList")}
+  icon={<FiFilePlus />}
+  onClick={() => navigate("/dashboard/FileList")}
+>
+  File Management
+</MenuItem>
 
           <MenuItem  active={location.pathname === "/dashboard"} icon={<FiCpu />} onClick={() => navigate("/dashboard/llm")}>
             AI Assistant
@@ -65,16 +74,6 @@ export default function Sidebar({ onCollapseChange }) {
           </MenuItem>
 
 
-          <MenuItem active={location.pathname.startsWith("/dashboard/NomiFileHub")} icon={<FiSettings />} onClick={() => navigate("/dashboard/NomiFileHub")}>
-            NomiFileHub
-          </MenuItem>
-          
-          <MenuItem active={location.pathname.startsWith("/dashboard/FileList")} icon={<FiSettings />} onClick={() => navigate("/dashboard/FileList")}>
-            Files list
-          </MenuItem>
-                    <MenuItem active={location.pathname.startsWith("/dashboard/AddFile")} icon={<FiSettings />} onClick={() => navigate("/dashboard/AddFile")}>
-            Files list
-          </MenuItem>
 
           <MenuItem
             className="collapse-button"

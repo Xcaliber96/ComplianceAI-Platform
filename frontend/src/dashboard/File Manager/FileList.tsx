@@ -1,22 +1,27 @@
 import React, { useEffect, useState } from "react";
-import { Box, Typography, IconButton, Button, TextField, MenuItem } from "@mui/material";
+import { Box, Typography, IconButton, Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../../api/client";
+import { getDirectFileUrl } from "../../api/client";
 
+import HubspotFilterBar from "./HubspotFilterBar";
 import { getFileHubFiles, deleteFileHubFile } from "../../api/client";
 import "./FileList.css";
 
 export default function FileList() {
-  const [selectedFile, setSelectedFile] = useState<any | null>(null);
-  const [files, setFiles] = useState([]);
+  const [files, setFiles] = useState<any[]>([]);
   const [filter, setFilter] = useState("all");
+  const [search, setSearch] = useState("");
+  const [sort, setSort] = useState("newest");
+
   const user_uid = localStorage.getItem("user_uid");
-const [openUploadModal, setOpenUploadModal] = useState(false);
-const navigate = useNavigate();
+  const navigate = useNavigate();
+
+  // FETCH FILES
   const fetchFiles = async () => {
     if (!user_uid) return;
-
     try {
       const fileList = await getFileHubFiles(user_uid);
       setFiles(fileList || []);
@@ -29,119 +34,136 @@ const navigate = useNavigate();
     fetchFiles();
   }, []);
 
-  // FILTERED FILES
-  const filteredFiles =
-    filter === "all"
-      ? files
-      : files.filter((f: any) => f.file_type === filter);
-
-const handleUploadClick = () => {
-  
-  setOpenUploadModal(true);
-  navigate("/dashboard/AddFile");
-};
+  // FILTER & SORT
+  const filteredFiles = files
+    .filter((f: any) =>
+      filter === "all" ? true : f.file_type === filter
+    )
+    .filter((f: any) =>
+      f.original_name.toLowerCase().includes(search.toLowerCase())
+    )
+    .sort((a, b) => {
+      if (sort === "newest")
+        return new Date(b.uploaded_at).getTime() - new Date(a.uploaded_at).getTime();
+      if (sort === "oldest")
+        return new Date(a.uploaded_at).getTime() - new Date(b.uploaded_at).getTime();
+      if (sort === "az") return a.original_name.localeCompare(b.original_name);
+      if (sort === "za") return b.original_name.localeCompare(a.original_name);
+      return 0;
+    });
 
   return (
-   <Box className="nomi-filelist-wrapper">
+    <Box
+      className="nomi-filelist-wrapper"
+      sx={{ display: "flex", flexDirection: "column", gap: 3 }}
+    >
       <Typography className="nomi-filehub-title">Your Files</Typography>
-{files.length === 0 && (
-  <Box className="nomi-empty-wrapper">
-    <Box className="nomi-empty-card">
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/748/748113.png"
-        width="90"
-        style={{ opacity: 0.4 }}
+
+      {/* HUBSPOT FILTER BAR */}
+      <HubspotFilterBar
+        onSearch={(val: string) => setSearch(val)}
+        onFilterType={(val: string) => setFilter(val)}
+        onSort={(val: string) => setSort(val)}
+        onOpenAdvancedFilters={() => console.log("Advanced filters opened")}
+        onAddFile={() => navigate("/dashboard/AddFile")}
       />
 
-      <Typography className="nomi-empty-title">
-        You currently have no uploaded files right here start uploading
-      </Typography>
+      {/* EMPTY STATE */}
+      {files.length === 0 && (
+        <Box className="nomi-empty-wrapper">
+          <Box className="nomi-empty-card">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/748/748113.png"
+              width="90"
+              style={{ opacity: 0.4 }}
+            />
 
-      <Typography className="nomi-empty-sub">
-        Upload policies, regulations, evidence, or other materials to begin.
-      </Typography>
+            <Typography className="nomi-empty-title">
+              You currently have no uploaded files.
+            </Typography>
 
-      <Button
-        variant="contained"
-        className="nomi-upload-btn"
-        sx={{ mt: 2, px: 4, py: 1.2, borderRadius: 2 }}
-        onClick={handleUploadClick}
-      >
-        Start Uploading
-      </Button>
-    </Box>
-  </Box>
-)}
-
-      {files.length > 0 && (
-        <>
-          {/* FILTER AREA */}
-          <Box className="nomi-filter-bar">
-            <TextField
-              select
-              label="Filter by Type"
-              value={filter}
-              onChange={(e) => setFilter(e.target.value)}
-              sx={{ minWidth: 180 }}
-            >
-              <MenuItem value="all">All</MenuItem>
-              <MenuItem value="policy">Policy</MenuItem>
-              <MenuItem value="regulation">Regulation</MenuItem>
-              <MenuItem value="evidence">Evidence</MenuItem>
-              <MenuItem value="other">Other</MenuItem>
-            </TextField>
+            <Typography className="nomi-empty-sub">
+              Upload policies, regulations, evidence, or other documents to begin.
+            </Typography>
 
             <Button
               variant="contained"
               className="nomi-upload-btn"
-              onClick={handleUploadClick}
+              sx={{ mt: 2 }}
+              onClick={() => navigate("/dashboard/AddFile")}
             >
-              Add File
+              Start Uploading
             </Button>
           </Box>
+        </Box>
+      )}
 
-          {/* FILE LIST */}
+      {/* GRID VIEW */}
+      {files.length > 0 && (
+        <div className="nomi-grid">
           {filteredFiles.map((file: any) => (
-          <Box
-  key={file.id}
-  className="nomi-file-row"
-  onClick={() => navigate(`/dashboard/file/${file.id}`)}
->
-              <Box>
-                <Typography className="nomi-file-name">
-                  {file.original_name}
-                </Typography>
+            <div
+              key={file.id}
+              className="nomi-file-card"
+              onClick={() => navigate(`/dashboard/file/${file.id}`)}
+            >
+<div className="pdf-modern-wrapper">
 
-                <Typography className="nomi-file-meta">
-                  {file.file_type} • {new Date(file.uploaded_at).toLocaleString()}
-                </Typography>
-              </Box>
+  {/* Blurred BACKGROUND */}
+  <div className="pdf-modern-bg">
+    <embed
+      src={getDirectFileUrl(file.id, user_uid!)}
+      type="application/pdf"
+      className="pdf-modern-embed-blur"
+    />
+  </div>
 
-              <Box className="nomi-file-actions">
+  {/* Sharp FOREGROUND PREVIEW */}
+  <embed
+    src={getDirectFileUrl(file.id, user_uid!)}
+    type="application/pdf"
+    className="pdf-modern-embed-sharp"
+  />
+
+  {/* Overlay label */}
+  <div className="pdf-modern-overlay">
+    <div className="pdf-modern-title">{file.original_name}</div>
+    <div className="pdf-modern-meta">
+      {file.file_type} • {new Date(file.uploaded_at).toLocaleString()}
+    </div>
+  </div>
+</div>
+
+              {/* Meta */}
+              <Typography className="nomi-card-meta">
+                {file.file_type} •{" "}
+                {new Date(file.uploaded_at).toLocaleString()}
+              </Typography>
+
+              {/* Actions */}
+              <div className="nomi-card-actions">
                 <IconButton
-                  className="nomi-icon-btn"
-                  onClick={() =>
-                    (window.location.href = `/api/filehub/${file.id}/download?user_uid=${user_uid}`)
-                  }
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    window.location.href = `/api/filehub/${file.id}/download?user_uid=${user_uid}`;
+                  }}
                 >
                   <DownloadIcon />
                 </IconButton>
 
                 <IconButton
-                  className="nomi-icon-btn"
-                  onClick={async () => {
+                  onClick={async (e) => {
+                    e.stopPropagation();
                     await deleteFileHubFile(file.id, user_uid!);
                     fetchFiles();
-
                   }}
                 >
                   <DeleteIcon />
                 </IconButton>
-                
-              </Box>
-            </Box>
+              </div>
+            </div>
           ))}
-        </>
+        </div>
       )}
     </Box>
   );
