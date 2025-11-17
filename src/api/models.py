@@ -72,7 +72,7 @@ class AuditLog(Base):
     entity_id = Column(Integer)
     action = Column(String)
     user = Column(String)
-    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
+    user_uid = Column(String, ForeignKey("users.uid"))  
     timestamp = Column(DateTime, default=datetime.utcnow)
     detail = Column(String)
 class Supplier(Base):
@@ -82,7 +82,7 @@ class Supplier(Base):
     email = Column(String, unique=True)
     industry = Column(String)
     region = Column(String)
-    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
+    user_uid = Column(String, ForeignKey("users.uid"))  
     is_verified = Column(Boolean, default=False)
     created_at = Column(DateTime)
     last_updated = Column(DateTime)
@@ -101,3 +101,15 @@ class DemoRequest(Base):
     consent = Column(Boolean)
     submittedAt = Column(DateTime, default=datetime.utcnow)
 print("Loaded models.py (end)")
+class FileHubFile(Base):
+    __tablename__ = "filehub_files"
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_uid = Column(String, ForeignKey("users.uid"), nullable=False, index=True)
+    file_id = Column(String, unique=True, index=True) 
+    original_name = Column(String)
+    stored_name = Column(String)
+    size = Column(Integer)
+    file_type = Column(String)  
+    used_for = Column(String)    
+    uploaded_at = Column(DateTime, default=datetime.utcnow)
+    user = relationship("User")

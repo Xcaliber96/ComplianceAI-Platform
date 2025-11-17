@@ -1,0 +1,177 @@
+/* ---------- MODERN PDF PREVIEW ---------- */
+/* Base wrapper */
+.pdf-modern-wrapper {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Background section (blur only this) */
+.pdf-modern-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.pdf-modern-embed-blur {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(8px) brightness(0.55);
+  pointer-events: none;
+}
+
+/* Clear sharp foreground viewer */
+.pdf-modern-embed-sharp {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.35; /* soft fade for elegance */
+}
+
+/* Overlay content */
+.pdf-modern-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 16px;
+  
+  z-index: 3;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(22px);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.3);
+
+  color: white;
+}
+
+.pdf-modern-embed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  filter: blur(6px) brightness(0.65);
+  pointer-events: none;
+}
+
+.pdf-modern-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.pdf-modern-meta {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+/* ---------- MAIN WRAPPER ---------- */
+.nomi-filelist-wrapper {
+  width: 100%;
+  padding: 2rem;
+}
+
+/* ---------- TITLE ---------- */
+.nomi-filehub-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+/* ---------- FILTER BAR ---------- */
+.nomi-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  background: #fff;
+}
+
+/* ---------- UPLOAD BUTTON ---------- */
+.nomi-upload-btn {
+  background: #294936 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.8rem 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+.nomi-upload-btn:hover {
+  background: #335c47 !important;
+}
+
+/* ---------- GRID VIEW ---------- */
+.nomi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 2rem;
+}
+
+/* ---------- FILE CARD ---------- */
+.nomi-file-card {
+  background: #ffffff;
+  padding: 1.4rem;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.nomi-file-card:hover {
+  box-shadow: 0 6px 22px rgba(0,0,0,0.11);
+  transform: translateY(-3px);
+}
+
+/* ---------- ACTIONS ---------- */
+.nomi-card-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.nomi-icon-btn {
+  color: #555 !important;
+  transition: 0.2s ease;
+}
+
+.nomi-icon-btn:hover {
+  color: #000 !important;
+  transform: scale(1.1);
+}
+
+/* ---------- EMPTY STATE ---------- */
+.nomi-empty-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.nomi-empty-card {
+  text-align: center;
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  width: 480px;
+}
+
+.nomi-empty-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.nomi-empty-sub {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.4rem;
+}

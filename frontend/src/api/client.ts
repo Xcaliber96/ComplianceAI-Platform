@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL =
+export const BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
   (window.location.hostname.includes("localhost")
     ? "http://localhost:8000"
@@ -13,8 +13,7 @@ const apiClient = axios.create({
     'Content-Type': 'application/json',
   },
   withCredentials: true, 
-})
-
+})  
 apiClient.interceptors.response.use(
   (res) => res,
   (err) => {
@@ -25,6 +24,59 @@ apiClient.interceptors.response.use(
     return Promise.reject(err);
   }
 );
+export const uploadToFileHub = async (
+  file: File,
+  user_uid: string,
+  file_type: string,
+  used_for: string
+) => {
+  const form = new FormData()
+  form.append("file", file)
+  form.append("user_uid", user_uid)
+  form.append("file_type", file_type)
+  form.append("used_for", used_for)
+
+  const { data } = await apiClient.post("/api/filehub/upload", form, {
+    headers: { "Content-Type": "multipart/form-data" },
+  })
+
+  return data
+}
+export const getDirectFileUrl = (file_id: string, user_uid: string) => {
+  return `${BASE_URL}/api/filehub/${file_id}/direct?user_uid=${user_uid}`;
+};
+
+export const getFileHubFiles = async (user_uid: string) => {
+  const { data } = await apiClient.get(`/api/filehub`, {
+    params: { user_uid },
+  })
+  return data.files
+}
+
+export const viewFileHubFile = async (file_id: string, user_uid: string) => {
+  const response = await apiClient.get(`/api/filehub/${file_id}`, {
+    params: { user_uid },
+    responseType: "blob", 
+  })
+  return response
+}
+
+export const deleteFileHubFile = async (file_id: string, user_uid: string) => {
+  const { data } = await apiClient.delete(`/api/filehub/${file_id}`, {
+    params: { user_uid },
+  })
+  return data
+}
+
+export const downloadFileHubFile = async (file_id: string, user_uid: string) => {
+  // This will return a real file download stream
+  const url = `${BASE_URL}/api/filehub/${file_id}/download?user_uid=${user_uid}`
+
+  const link = document.createElement("a")
+  link.href = url
+  link.download = ""
+  link.click()
+}
 
 export type DriveFile = { id: string; name: string }
 export async function checkBackendReady() {
@@ -35,6 +87,18 @@ export async function checkBackendReady() {
     return false;
   }
 }
+
+export const getAllFiles = async () => {
+  const response = await apiClient.get("/api/files");
+  return response.data;
+};
+
+// Delete a file
+export const deleteFileHubItem = async (fileId: string) => {
+  const response = await apiClient.delete(`/api/files/${fileId}`);
+  return response.data;
+};
+
 export async function loginWithFirebaseToken(user: any) {
 
   const idToken = await user.getIdToken();
@@ -50,6 +114,12 @@ export async function loginWithFirebaseToken(user: any) {
       headers: { "Content-Type": "application/json" }, // explicit for clarity
     }
   );
+  console.log("LOGIN DEBUG — FRONTEND SENDING:");
+  console.log("→ idToken (first 50 chars):", idToken.substring(0, 50) + "...");
+  console.log("→ uid:", user.uid);
+  console.log("→ email:", user.email);
+  console.log("→ BASE_URL:", BASE_URL);
+
 
   // 3️⃣ Return backend response
   return data;

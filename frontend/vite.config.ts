@@ -27,7 +27,6 @@ export default defineConfig(({ mode }) => ({
     // 👇 Allow Render and localhost domains to access during dev
     allowedHosts: [
       'localhost',
-      '127.0.0.1',
       'complianceai-platform.onrender.com',
       'complianceai-platform-1.onrender.com',
       'nomioc.com',
