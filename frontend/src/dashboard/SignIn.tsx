@@ -44,6 +44,7 @@ const handleForgotPassword = async () => {
     return;
   }
 
+
   try {
     await sendPasswordResetEmail(auth, email);
     setSuccess("Password reset email sent! Check your inbox.");
@@ -68,12 +69,14 @@ const handleForgotPassword = async () => {
       if (!user?.email) throw new Error("No user found after sign-in");
 
       // Get Firebase token and create backend session
-      const idToken = await user.getIdToken();
+      const idToken = await user.getIdToken(true);
       const payload = {
         idToken,
         uid: user.uid,
         email: user.email,
       };
+      localStorage.setItem("user_uid", user.uid);
+      localStorage.setItem("user_email", user.email);
       const response = await fetch(`${BASE_URL}/session/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

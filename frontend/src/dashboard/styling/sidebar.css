@@ -1,0 +1,79 @@
+/* -------------------------
+   SIDEBAR CONTAINER
+-------------------------- */
+.pro-sidebar {
+  background: #1e293b !important; /* navy slate */
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid rgba(255,255,255,0.06);
+  z-index: 9999;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.15);
+}
+
+/* Let content fill height so bottom stays at bottom */
+.pro-sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* -------------------------
+   MENU ITEMS (TEXT)
+-------------------------- */
+.pro-sidebar .pro-menu-item > .pro-inner-item {
+  color: #cbd5e1 !important; /* soft gray-blue */
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+/* ACTIVE ITEM */
+.pro-sidebar .pro-menu-item.active > .pro-inner-item {
+  background: rgba(59, 130, 246, 0.25) !important; 
+  color: #ffffff !important;
+}
+
+/* -------------------------
+   ICONS
+-------------------------- */
+.pro-sidebar .pro-icon-wrapper {
+  color: #ffffff !important;  /* white icons */
+  font-size: 18px !important;
+}
+
+
+.pro-sidebar .pro-menu-item:hover > .pro-inner-item {
+  color: #ffffff !important;
+  background: rgba(59, 130, 246, 0.15) !important; /* soft hover blue */
+  transform: translateX(2px);
+}
+
+.menu-bottom {
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+/* collapse button styling */
+.collapse-button .pro-inner-item {
+  color: #cbd5e1 !important;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 12px 20px !important;
+  transition: 0.2s ease;
+}
+
+/* collapse icon */
+.collapse-button .pro-icon-wrapper {
+  color: #ffffff !important;
+}
+
+/* collapse hover */
+.collapse-button .pro-inner-item:hover {
+  background: rgba(59, 130, 246, 0.25) !important;
+  color: #ffffff !important;
+  transform: translateX(3px);
+}

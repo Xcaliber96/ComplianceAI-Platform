@@ -1,0 +1,37 @@
+.nomi-dashboard {
+  background: #f4f4f4;
+  min-height: 100vh;
+  width: 100%;
+  }
+
+/* SIDEBAR CONTAINER */
+.nomi-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #e5e5e5;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Topbar */
+.nomi-topbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  height: 64px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Main content */
+.nomi-content {
+  flex-grow: 1;
+  margin-left: 240px;
+  padding: 2rem;
+}
+
