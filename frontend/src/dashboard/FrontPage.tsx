@@ -1,13 +1,21 @@
 import React from "react";
-import { Box, Typography, Grid, Card, CardContent, Button, Stack } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  Button,
+  Stack,
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
+
 import {
   CloudUpload,
   Assessment,
   Assignment,
   Group,
   BarChart,
-  TrendingUp,
   Shield,
   CompareArrows,
 } from "@mui/icons-material";
@@ -17,46 +25,46 @@ export default function FrontPage() {
 
   const features = [
     {
-      title: "Upload & Fetch Files",
-      desc: "Start your compliance journey by uploading internal policies or fetching documents from Google Drive or SharePoint.",
-      icon: <CloudUpload sx={{ fontSize: 40, color: "#1976d2" }} />,
+      title: "Upload & Retrieve Files",
+      desc: "Import internal policies and compliance documents from your device, Google Drive, or SharePoint.",
+      icon: <CloudUpload sx={{ fontSize: 34 }} />,
       path: "/dashboard/upload",
-      action: "Go to Uploads",
+      action: "Open Tools",
     },
     {
-      title: "Run Audit & Generate Obligations",
-      desc: "Use AI-powered RAG analysis to detect compliance gaps and automatically generate new obligations.",
-      icon: <Assessment sx={{ fontSize: 40, color: "#0288d1" }} />,
+      title: "Run AI Audit",
+      desc: "Analyze policies using AI to detect compliance gaps and automatically generate obligations.",
+      icon: <Assessment sx={{ fontSize: 34 }} />,
       path: "/dashboard/audit",
-      action: "Run Audit",
+      action: "Start Audit",
     },
     {
       title: "Manage Tasks",
-      desc: "Create remediation tasks, assign them to employees or suppliers, and track their progress through completion.",
-      icon: <Assignment sx={{ fontSize: 40, color: "#2e7d32" }} />,
-      path: "/dashboard/audit",
-      action: "Manage Tasks",
+      desc: "Assign obligations, track progress, and coordinate remediation workflows across teams.",
+      icon: <Assignment sx={{ fontSize: 34 }} />,
+      path: "/dashboard/tasks",
+      action: "View Tasks",
     },
     {
-      title: "Add Suppliers",
-      desc: "Onboard and manage your third-party vendors. Link them to obligations and request evidence for compliance verification.",
-      icon: <Group sx={{ fontSize: 40, color: "#8e24aa" }} />,
+      title: "Manage Suppliers",
+      desc: "Onboard and verify third-party vendors. Link suppliers to compliance evidence and obligations.",
+      icon: <Group sx={{ fontSize: 34 }} />,
       path: "/dashboard/suppliers",
-      action: "Add Supplier",
+      action: "Manage Suppliers",
     },
     {
-      title: "Add Competitors",
-      desc: "Analyze your competitors’ SEC filings and generate AI-based market insights for benchmarking and strategy.",
-      icon: <CompareArrows sx={{ fontSize: 40, color: "#f57c00" }} />,
-      path: "/competitors",
-      action: "Add Competitors",
+      title: "Analyze Competitors",
+      desc: "Review competitors’ regulatory filings and generate AI-powered market insights.",
+      icon: <CompareArrows sx={{ fontSize: 34 }} />,
+      path: "/dashboard/competitors",
+      action: "Analyze",
     },
     {
-      title: "View Results & Reports",
-      desc: "Review audit results, compliance metrics, and regional coverage analytics all in one place.",
-      icon: <BarChart sx={{ fontSize: 40, color: "#c2185b" }} />,
+      title: "View Reports",
+      desc: "Access audit summaries, compliance metrics, and organizational analytics.",
+      icon: <BarChart sx={{ fontSize: 34 }} />,
       path: "/dashboard/results",
-      action: "View Results",
+      action: "Open Reports",
     },
   ];
 
@@ -64,26 +72,37 @@ export default function FrontPage() {
     <Box
       sx={{
         minHeight: "100vh",
-        backgroundColor: "#FFFFFF",
+      
         px: { xs: 3, md: 8 },
         py: { xs: 6, md: 10 },
+        fontFamily: "'Montserrat', sans-serif",
+        animation: "fadeIn 0.6s ease",
       }}
     >
-      {/* 🔹 Header */}
-      <Box textAlign="center" mb={6}>
+      {/* 🔹 Header Section */}
+      <Box textAlign="center" mb={8}>
         <Typography
           variant="h4"
           sx={{
-            fontWeight: 800,
-            fontFamily: "'Montserrat', sans-serif",
+            fontWeight: 900,
             mb: 1,
-            color: "#111",
+            color: "#1A2D22",
+            letterSpacing: "0.5px",
           }}
         >
-          Welcome to Your Compliance Hub
+          NomiAI Compliance Dashboard
         </Typography>
-        <Typography variant="subtitle1" color="text.secondary">
-          Automate compliance — from document upload to audit results — all in one place.
+
+        <Typography
+          variant="subtitle1"
+          sx={{
+            color: "#4A4A4A",
+            fontSize: "15px",
+            maxWidth: "620px",
+            margin: "0 auto",
+          }}
+        >
+          AI-powered compliance automation built for modern, audit-ready organizations.
         </Typography>
       </Box>
 
@@ -92,42 +111,74 @@ export default function FrontPage() {
         {features.map((item, idx) => (
           <Grid item xs={12} sm={6} md={4} key={idx}>
             <Card
-              variant="outlined"
               sx={{
                 height: "100%",
-                borderRadius: 3,
-                transition: "all 0.3s ease",
+                borderRadius: "16px",
+                background: "rgba(255, 255, 255, 0.75)",
+                border: "1px solid rgba(200, 200, 200, 0.2)",
+                backdropFilter: "blur(10px)",
+                transition: "all 0.35s ease",
+                boxShadow: "0px 4px 20px rgba(0,0,0,0.05)",
+                cursor: "pointer",
                 "&:hover": {
-                  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
-                  transform: "translateY(-4px)",
+                  transform: "translateY(-6px) scale(1.015)",
+                  boxShadow: "0px 10px 30px rgba(0,0,0,0.08)",
                 },
               }}
+              onClick={() => navigate(item.path)}
             >
               <CardContent>
-                <Stack spacing={2} alignItems="center" textAlign="center">
-                  {item.icon}
+                <Stack spacing={2.5} alignItems="center" textAlign="center">
+                  
+                  {/* Icon bubble */}
+                  <Box
+                    sx={{
+                      width: 64,
+                      height: 64,
+                      borderRadius: "50%",
+                      backgroundColor: "#EFF3EF",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "#294936",
+                      mb: 1,
+                    }}
+                  >
+                    {item.icon}
+                  </Box>
+
                   <Typography
                     variant="h6"
-                    sx={{ fontWeight: 700, color: "#111", mt: 1 }}
+                    sx={{
+                      fontWeight: 700,
+                      color: "#1A2D22",
+                    }}
                   >
                     {item.title}
                   </Typography>
+
                   <Typography
                     variant="body2"
-                    color="text.secondary"
-                    sx={{ minHeight: 60 }}
+                    sx={{
+                      color: "#5D5D5D",
+                      lineHeight: 1.5,
+                      minHeight: 55,
+                    }}
                   >
                     {item.desc}
                   </Typography>
+
                   <Button
                     variant="contained"
-                    onClick={() => navigate(item.path)}
                     sx={{
                       mt: 1,
-                      borderRadius: 2,
+                      borderRadius: "8px",
                       textTransform: "none",
-                      backgroundColor: "#1976d2",
-                      "&:hover": { backgroundColor: "#125ea5" },
+                      backgroundColor: "#294936",
+                      px: 3,
+                      py: 1,
+                      fontWeight: 600,
+                      "&:hover": { backgroundColor: "#223D2D" },
                     }}
                   >
                     {item.action}
@@ -139,13 +190,21 @@ export default function FrontPage() {
         ))}
       </Grid>
 
-      {/* 🔹 Bottom Section */}
-      <Box textAlign="center" mt={8}>
-        <Typography variant="body2" color="text.secondary">
+      {/* 🔹 Footer */}
+      <Box textAlign="center" mt={10}>
+        <Typography variant="body2" sx={{ color: "#666" }}>
           <Shield sx={{ fontSize: 18, verticalAlign: "middle", mr: 1 }} />
-          Built with trust. Powered by NomiAI.
+          Built for trust. Powered by NomiAI.
         </Typography>
       </Box>
+
+      {/* 🔹 Fade In Animation */}
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0px); }
+        }
+      `}</style>
     </Box>
   );
 }
