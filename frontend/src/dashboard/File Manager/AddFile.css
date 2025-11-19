@@ -15,7 +15,15 @@
   align-items: center;
   animation: fadeIn 0.25s ease;
 }
+.addfile-drawer-paper {
+  width: 480px; /* drawer width */
+  padding: 24px;
+}
 
+.addfile-drawer-content {
+  position: relative;
+  height: 100%;
+}
 /* Main modal panel */
 .addfile-modal {
   position: relative;          /* IMPORTANT for exit button */

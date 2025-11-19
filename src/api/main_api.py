@@ -10,6 +10,7 @@ from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
+from src.core.LLM import extract_document_metadata
 from src.core.nomi_file_hub import get_direct_file_url
 from fastapi.responses import FileResponse
 import mimetypes
@@ -1150,6 +1151,37 @@ async def auto_generate_compliance(
         "tasks_created": len(created_tasks),
         "obligations": [{"id": o.id, "description": o.description} for o in created_obligations]
     })
+@app.get("/api/audit/run/{file_id}")
+async def run_audit_on_file(file_id: str, user_uid: str):
+    """
+    Runs full compliance audit on a stored FileHub file.
+    """
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    with open(file_path, "rb") as f:
+        pdf_bytes = f.read()
+
+    text = extract_text_from_pdf_bytes(pdf_bytes)
+
+    if not os.path.exists("sample_regulations.json"):
+        raise HTTPException(status_code=500, detail="sample_regulations.json missing")
+
+    with open("sample_regulations.json", "r") as f:
+        regulations = json.load(f)
+    from src.core.RAG import ComplianceChecker
+    checker = ComplianceChecker(pdf_path=file_path, regulations=regulations)
+
+    results = checker.run_check()
+    return {
+        "status": "success",
+        "file": entry["original_name"],
+        "results": results,
+        "total": len(results)
+    }
 
 @app.post("/api/trigger_regulatory_scan")
 async def trigger_regulatory_scan(background_tasks: BackgroundTasks):
@@ -1284,7 +1316,25 @@ async def rag_analysis(
         "details": findings
     })
 
+@app.get("/api/filehub/{file_id}/extract")
+async def extract_file(file_id: str, user_uid: str):
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+    file_path, entry = result
+    with open(file_path, "rb") as f:
+        file_bytes = f.read()
 
+    # 3. Convert PDF → text
+    text = extract_text_from_pdf_bytes(file_bytes)
+    metadata = extract_document_metadata(text)
+
+    return {
+        "status": "success",
+        "file_id": file_id,
+        "file_name": entry["original_name"],
+        "extraction": metadata
+    }
 
 if __name__ == "__main__":
     import uvicorn

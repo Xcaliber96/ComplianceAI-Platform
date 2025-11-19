@@ -370,6 +370,24 @@ export const attestEvidence = async (evidenceId: number, user: string) => {
   })
   return response.data
 }
+export const runAuditOnFile = async (fileId: string, user_uid: string) => {
+  const { data } = await apiClient.get(`/api/audit/run/${fileId}`, {
+    params: { user_uid },
+  });
+  return data;
+};
+
+export async function extractFile(fileId: string, user_uid: string) {
+  const res = await fetch(
+    `${BASE_URL}/api/filehub/${fileId}/extract?user_uid=${user_uid}`
+  );
+
+  if (!res.ok) {
+    throw new Error("Extraction failed");
+  }
+
+  return res.json();
+}
 
 export interface DashboardSummary {
   total_tasks: number

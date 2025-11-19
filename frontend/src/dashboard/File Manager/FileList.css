@@ -106,14 +106,12 @@
   background: #335c47 !important;
 }
 
-/* ---------- GRID VIEW ---------- */
 .nomi-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 2rem;
 }
 
-/* ---------- FILE CARD ---------- */
 .nomi-file-card {
   background: #ffffff;
   padding: 1.4rem;

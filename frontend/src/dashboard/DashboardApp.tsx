@@ -4,11 +4,9 @@ import { Menu as MenuIcon } from "@mui/icons-material";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 import Sidebar from "./styling/sidebar";
-
-import Filelist from "./File Manager/Filelist"
+import Filelist from "./File Manager/FileList"
 // Pages
 import FrontPage from "./FrontPage";
-import FileManager from "./FileManager";
 import DocumentAudit from "./UploadFetchTab";
 import RunAuditTab from "./RunAuditTab";
 import SupplierOnboarding from "./SupplierOnboarding";
@@ -19,6 +17,8 @@ import CompetitorsPage from "./CompetitorsPage";
 import NomiFileHub from "./NomiFileHub"
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer"
+import AuditRunner from "./Auditing/AuditRunner"
+import FileExtractPage from "./Extraction/FileExtractPage"
 export default function DashboardApp() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -73,6 +73,11 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="Filelist" element={<Filelist />} />
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
+        <Route path="FileCard" element={<Typography>FileCard</Typography>} />
+        <Route path="extract/:id" element={<FileExtractPage />} />
+
+ <Route path="audit/:id" element={<AuditRunner />} />
+
       </Routes>
     </Box>
 
