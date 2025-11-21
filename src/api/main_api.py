@@ -19,7 +19,8 @@ from typing import List, Optional
 import logging, sys, io, json, os, tempfile, hashlib, requests
 from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
-from src.core.LLM import generate_market_insight
+# LLM shim imports (updated)
+from src.core.LLM import generate_market_insight, extract_document_metadata, generate_gap_summary
 
 # Google API imports
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -61,7 +62,8 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 from fastapi import APIRouter
-from openai import OpenAI
+# Replace direct OpenAI usage with safe wrapper
+from src.core.client import safe_chat_completion
 import os
 from uuid import uuid4
 from fastapi import Request, Response
@@ -125,8 +127,7 @@ app.add_middleware(
 
 # include routers (do this AFTER app is created)
 app.include_router(graph_router)
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# client removed (use safe_chat_completion)
 router = APIRouter()
 
 TOKEN_FILE = "token.json"
@@ -874,9 +875,7 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             status_code=500
         )
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)
 async def external_intelligence(industry: str):
     prompt = (
@@ -889,18 +888,22 @@ async def external_intelligence(industry: str):
             '{"regulation": "...", "summary": "...", "link": "..."}'
         ']}'
     )
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are an enterprise compliance assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=600,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are an enterprise compliance assistant."},
+        {"role": "user", "content": prompt}
+    ]
+    # call safe wrapper
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=600, temperature=0.2)
+    # handle wrapper response format (robust)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = [json.loads(content)]
     except Exception:
@@ -1237,9 +1240,7 @@ async def add_user_to_gcs(request: Request):
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
     
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# rag_analysis: replaced direct OpenAI call with safe_chat_completion
 @app.post("/api/rag_compliance_analysis", response_model=None)
 async def rag_analysis(
     file: UploadFile = File(...),
@@ -1257,18 +1258,21 @@ async def rag_analysis(
         "Always return a JSON array, even for one regulation. Do not return a single object. Array of JSON objects, nothing else."
     )
 
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a compliance audit expert."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=800,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are a compliance audit expert."},
+        {"role": "user", "content": prompt}
+    ]
+
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=800, temperature=0.2)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = json.loads(content)
         # Normalize output to always be a list of findings
