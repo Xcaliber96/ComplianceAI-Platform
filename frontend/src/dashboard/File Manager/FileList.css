@@ -1,15 +1,46 @@
-/* ---------- MODERN PDF PREVIEW ---------- */
-/* Base wrapper */
+
 .pdf-modern-wrapper {
   position: relative;
   width: 100%;
-  height: 260px;
+ 
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.08);
 }
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
 
-/* Background section (blur only this) */
+.file-table th {
+  background: #f4f4f4;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.file-table td {
+  padding: 14px;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.file-row:hover {
+  background: #fafafa;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
 .pdf-modern-bg {
   position: absolute;
   inset: 0;
@@ -24,7 +55,6 @@
   pointer-events: none;
 }
 
-/* Clear sharp foreground viewer */
 .pdf-modern-embed-sharp {
   position: absolute;
   inset: 0;
@@ -36,7 +66,6 @@
   opacity: 0.35; /* soft fade for elegance */
 }
 
-/* Overlay content */
 .pdf-modern-overlay {
   position: absolute;
   bottom: 15px;
@@ -71,13 +100,16 @@
   font-size: 14px;
   opacity: 0.85;
 }
-/* ---------- MAIN WRAPPER ---------- */
+
 .nomi-filelist-wrapper {
   width: 100%;
   padding: 2rem;
+  background-color: #FFFFFF;
+  border: 1px solid #dcdcdc;   /* light grey border */
+  border-radius: 12px;         /* optional rounded corners */
 }
 
-/* ---------- TITLE ---------- */
+
 .nomi-filehub-title {
   font-size: 1.8rem;
   font-weight: 700;
@@ -105,13 +137,11 @@
 .nomi-upload-btn:hover {
   background: #335c47 !important;
 }
-
 .nomi-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
-
 .nomi-file-card {
   background: #ffffff;
   padding: 1.4rem;
@@ -126,7 +156,6 @@
   transform: translateY(-3px);
 }
 
-/* ---------- ACTIONS ---------- */
 .nomi-card-actions {
   display: flex;
   justify-content: flex-start;

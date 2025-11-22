@@ -24,24 +24,71 @@ apiClient.interceptors.response.use(
     return Promise.reject(err);
   }
 );
+
+export async function getUserProfile(uid: string): Promise<UserProfile> {
+  const res = await apiClient.get(`/api/users/profile/${uid}`);
+  return res.data;
+}
+export const updateUserProfile = async (profile: {
+  uid: string;
+  display_name: string;   // used for full_name too
+  company_name: string;
+  full_name: string;
+  department: string;
+  job_title?: string;
+  industry?: string;
+}) => {
+  const form = new FormData();
+
+  form.append("uid", profile.uid);
+
+  // Send BOTH fields
+  form.append("display_name", profile.display_name);
+  form.append("full_name", profile.display_name);  // ⭐ important
+
+  form.append("company_name", profile.company_name);
+  form.append("department", profile.department);
+
+  if (profile.job_title) form.append("job_title", profile.job_title);
+  if (profile.industry) form.append("industry", profile.industry);
+
+  const { data } = await apiClient.post(`/api/users/setup_profile`, form, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+
+  return data;
+};
+
+export interface UserProfile {
+  uid: string;
+  display_name: string;
+  full_name?: string;
+  company_name: string;
+  job_title?: string;
+  department: string;
+  industry?: string;
+}
 export const uploadToFileHub = async (
   file: File,
   user_uid: string,
   file_type: string,
-  used_for: string
+  used_for: string,
+  department: string      
 ) => {
-  const form = new FormData()
-  form.append("file", file)
-  form.append("user_uid", user_uid)
-  form.append("file_type", file_type)
-  form.append("used_for", used_for)
+  const form = new FormData();
+  form.append("file", file);
+  form.append("user_uid", user_uid);
+  form.append("file_type", file_type);
+  form.append("used_for", used_for);
+  form.append("department", department);   
 
   const { data } = await apiClient.post("/api/filehub/upload", form, {
     headers: { "Content-Type": "multipart/form-data" },
-  })
+  });
 
-  return data
-}
+  return data;
+};
+
 export const getDirectFileUrl = (file_id: string, user_uid: string) => {
   return `${BASE_URL}/api/filehub/${file_id}/direct?user_uid=${user_uid}`;
 };
@@ -52,6 +99,13 @@ export const getFileHubFiles = async (user_uid: string) => {
   })
   return data.files
 }
+
+export const getBasicUserInfo = async (uid: string) => {
+  if (!uid) return { display_name: "Unknown" };
+
+  const { data } = await apiClient.get(`/api/users/basic_info/${uid}`);
+  return data;
+};
 
 export const viewFileHubFile = async (file_id: string, user_uid: string) => {
   const response = await apiClient.get(`/api/filehub/${file_id}`, {

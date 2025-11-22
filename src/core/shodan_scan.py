@@ -47,12 +47,6 @@ def shodan_scan(domain: str):
     except shodan.APIError as e:
         return {"error": str(e)}
 
-
-
-# ---------------------------------------------------
-# ⭐ MAIN FUNCTION — You can call it directly
-# ---------------------------------------------------
-
 def main():
     print("=== Shodan Company Scanner ===")
     domain = input("Enter company domain (example: tesla.com): ").strip()

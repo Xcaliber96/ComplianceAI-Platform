@@ -1,79 +1,87 @@
-from fastapi import FastAPI, UploadFile, File, Form, Depends
-from fastapi.responses import JSONResponse
-from typing import List
-from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
+from fastapi import (
+    FastAPI,
+    UploadFile,
+    File,
+    Form,
+    Depends,
+    HTTPException,
+    BackgroundTasks,
+    Request,
+    Response,
+    APIRouter,
+    Query,
+)
 from fastapi.responses import JSONResponse, FileResponse
-from pathlib import Path
-from dotenv import load_dotenv, dotenv_values
+from fastapi.middleware.cors import CORSMiddleware
+
 import os
-from uuid import uuid4
-from datetime import datetime
-from fastapi import Request, Response, HTTPException
-
-from src.core.LLM import extract_document_metadata
-from src.core.nomi_file_hub import get_direct_file_url
-from fastapi.responses import FileResponse
+import sys
+import io
+import json
+import tempfile
+import hashlib
+import logging
+import traceback
+import subprocess
 import mimetypes
-from src.core.nomi_file_hub import (save_user_file,list_user_files, get_user_file_path, delete_user_file)
-from sqlalchemy.orm import Session
-from typing import List, Optional
-import logging, sys, io, json, os, tempfile, hashlib, requests
+from typing import List, Optional, Dict, Any
+from uuid import uuid4
+from pathlib import Path
 from datetime import datetime, timedelta
-from apscheduler.schedulers.background import BackgroundScheduler
-from src.core.LLM import generate_market_insight
+from src.api.models import User
+from dotenv import load_dotenv, dotenv_values
 
-# Google API imports
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
-from google.oauth2.credentials import Credentials
-from google.auth.transport.requests import Request
+from sqlalchemy.orm import Session
+from src.api.models import (
+    User,                        # ⭐ ADD THIS
+    ObligationInstance,
+    RemediationTask,
+    EvidenceArtifact,
+    AuditLog,
+    TaskState,
+    Base,
+)
 
-# Local imports for DB
-from src.api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
 from src.api.db import get_db, engine, SessionLocal
-from apscheduler.schedulers.background import BackgroundScheduler
-import logging, sys,io,json, os
+
+from src.core.LLM import extract_document_metadata, generate_market_insight
+from src.core.nomi_file_hub import (
+    save_user_file,
+    list_user_files,
+    get_user_file_path,
+    delete_user_file,
+    get_direct_file_url,
+)
 from src.core.backend import fetch_files_from_source
 from src.core.work import DowComplianceDataFetcher
 from src.core.RAG import ComplianceChecker as RAGComplianceChecker
-from fastapi import FastAPI, Form
-import os, json, requests, logging, sys, traceback,tempfile
-import msal
+from src.core.extract_keywords import read_policy_text, extract_keywords
+from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from google.oauth2.credentials import Credentials
-from fastapi.responses import JSONResponse
 from google.oauth2 import service_account
+from google.auth.transport.requests import Request as GoogleAuthRequest
+from google.auth.exceptions import RefreshError
+
+import firebase_admin
+from firebase_admin import auth as firebase_auth, credentials
+
+from openai import OpenAI
+import msal
+
+from apscheduler.schedulers.background import BackgroundScheduler
+
 from pydantic import BaseModel
+
+from .graph_api import router as graph_router
+
 DOWNLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "shared_downloads"))
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
-from fastapi.middleware.cors import CORSMiddleware
-import firebase_admin
-from google.auth.transport.requests import Request as GoogleAuthRequest
-from firebase_admin import auth as firebase_auth, credentials
-from fastapi import HTTPException
 
-from google.auth.exceptions import RefreshError
-from src.core.extract_keywords import read_policy_text, extract_keywords
-from fastapi import FastAPI, Depends
-from sqlalchemy.orm import Session
-from src.core.find_competitors import find_competitors, clean_names, get_company_filings
-from fastapi import APIRouter
-from openai import OpenAI
-import os
-from uuid import uuid4
-from fastapi import Request, Response
-from fastapi import Query
-from fastapi import FastAPI
-from .graph_api import router as graph_router   # plain import works when cwd is the folder
-import sys, subprocess, os
-from typing import Dict, Any
-
-
-app = FastAPI()
+app = FastAPI(title="ComplianceAI Platform API", version="2.0")
 app.include_router(graph_router)
 
 # Check if Render secret file exists, else fallback to local
@@ -84,8 +92,6 @@ else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
 
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-load_dotenv()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -98,34 +104,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-if os.path.exists("/etc/secrets/.env"):
-    load_dotenv("/etc/secrets/.env", override=True)
-    print("Loaded environment from /etc/secrets/.env (Render)")
-else:
-    load_dotenv(".env", override=True)
-    print("Loaded environment from local .env")
 
-# relative import of graph router (same package)
-from .graph_api import router as graph_router
 
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-
-# CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "https://nomioc.com",
-        "https://www.nomioc.com",
-        "http://localhost:8000",
-        "http://localhost:8501",
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# include routers (do this AFTER app is created)
-app.include_router(graph_router)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 router = APIRouter()
@@ -171,7 +151,25 @@ def store_user_if_new(uid, email):
         print(f"[DB ERROR] store_user_if_new failed: {e}")
     finally:
         db.close()
+@app.get("/api/users/profile/{uid}")
+def get_user_profile(uid: str, db: Session = Depends(get_db)):
+    """
+    Returns a user's profile for use in the onboarding screen.
+    """
+    user = db.query(User).filter(User.uid == uid).first()
 
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    return {
+        "uid": user.uid,
+        "display_name": user.display_name or "",
+        "full_name": user.full_name or "",
+        "company_name": user.company_name or "",
+        "job_title": user.job_title or "",
+        "department": user.department or "",
+        "industry": user.industry or "",
+    }
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
@@ -239,6 +237,20 @@ async def session_login(request: Request, response: Response):
         )
 
     return {"status": "success", "email": email, "uid": uid}
+@app.get("/api/users/basic_info/{uid}")
+def get_basic_user_info(uid: str):
+    db = SessionLocal()
+    user = db.query(User).filter(User.uid == uid).first()
+
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    return {
+        "uid": user.uid,
+        "display_name": user.display_name,
+        "department": user.department,
+        "email": user.email
+    }
 
 @app.get("/session/me")
 async def get_current_user(request: Request):
@@ -332,17 +344,17 @@ def run_ingest_script(audit_path: str) -> Dict[str, Any]:
 async def filehub_upload(
     file: UploadFile = File(...),
     user_uid: str = Form(...),
-    file_type: str = Form(...),  
-    used_for: str = Form(...),   
+    file_type: str = Form(...),
+    used_for: str = Form(...),
+    department: str = Form(...) 
 ):
-
     print("Saving file for user:", user_uid)
     print("Received filename:", file.filename)
     if not user_uid:
         raise HTTPException(status_code=400, detail="Missing user_uid")
 
     contents = await file.read()
-    entry = save_user_file(contents, file.filename, user_uid,  file_type, used_for)
+    entry = save_user_file(contents, file.filename, user_uid,  file_type, used_for, department)
 
     return {"status": "success", "file": entry}
 
@@ -369,8 +381,6 @@ async def filehub_view(file_id: str, user_uid: str):
     mime_type, _ = mimetypes.guess_type(entry["original_name"])
     if not mime_type:
         mime_type = "application/octet-stream"
-
-    from fastapi.responses import StreamingResponse
 
     def iterfile():
         with open(file_path, "rb") as f:
@@ -580,6 +590,41 @@ def list_suppliers(
         return []
 
 
+
+@app.post("/api/users/setup_profile")
+def setup_profile(
+    uid: str = Form(...),
+    display_name: str = Form(None),
+    full_name: str = Form(None),
+    company_name: str = Form(None),
+    job_title: str = Form(None),
+    department: str = Form(None),
+    industry: str = Form(None),
+    db: Session = Depends(get_db)
+):
+    user = db.query(User).filter(User.uid == uid).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    # Update fields (only if provided)
+    if full_name: 
+        user.full_name = full_name
+    if display_name:
+        user.display_name = display_name
+    if company_name:
+        user.company_name = company_name
+    if job_title:
+        user.job_title = job_title
+    if department:
+        user.department = department
+    if industry:
+        user.industry = industry
+
+    db.commit()
+
+    return {"status": "success", "user_uid": uid}
+
+
 @app.post("/api/suppliers/{supplier_id}/upload")
 def upload_supplier_file(
     supplier_id: int,
@@ -731,16 +776,6 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-# @app.post("/api/fetch_files")
-# async def fetch_files(source: str = Form(...)):
-#     try:
-#         result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
-#         return result
-#     except Exception as e:
-#         traceback.print_exc()
-#         return {"error": str(e)}
-#     finally:
-#         cleanup_temp_files()
 async def extract_keywords_api(file: UploadFile = File(...)):
     """Automatically extract compliance-related keywords from uploaded file."""
     # Save uploaded file temporarily
