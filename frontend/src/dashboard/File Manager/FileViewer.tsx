@@ -7,7 +7,7 @@ export default function FileViewer() {
   const { id } = useParams();
   const navigate = useNavigate();
   const user_uid = localStorage.getItem("user_uid");
-
+console.log("Extracting for user:", user_uid);
   const [file, setFile] = useState<any>(null);
 
   useEffect(() => {
@@ -25,8 +25,6 @@ export default function FileViewer() {
   if (!file) {
     return <Typography sx={{ mt: 5, textAlign: "center" }}>Loading...</Typography>;
   }
-
-
 
   const BASE =
     import.meta.env.VITE_API_BASE_URL ||
@@ -62,7 +60,17 @@ export default function FileViewer() {
           Download
         </Button>
       </Box>
+<Button variant="contained" onClick={() => (window.location.href = fileUrl)}>
+  Download
+</Button>
 
+<Button
+  variant="outlined"
+  sx={{ ml: 2 }}
+  onClick={() => navigate(`/dashboard/extract/${file.id}`)}
+>
+  Extract Data
+</Button>
       {/* FILE METADATA */}
       <Typography sx={{ mb: 1 }}>Type: {file.file_type}</Typography>
       <Typography sx={{ mb: 3 }}>

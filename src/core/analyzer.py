@@ -6,10 +6,7 @@ import re
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse, urljoin
-
-# ===========================================================
-#  SHODAN SCANNER
-# ===========================================================
+import os
 SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
 
 def shodan_scan(domain: str):

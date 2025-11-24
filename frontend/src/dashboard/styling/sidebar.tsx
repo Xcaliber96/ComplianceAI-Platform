@@ -1,10 +1,7 @@
-import "./sidebar_fixed.css";
 import React, { useState } from "react";
-import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
-import { FiFilePlus } from "react-icons/fi";
-
-import { useNavigate, useLocation } from "react-router-dom";
+import { Drawer, Box, List, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import {
+  FiFilePlus,
   FiChevronLeft,
   FiChevronRight,
   FiHome,
@@ -14,7 +11,9 @@ import {
   FiBarChart2,
   FiSettings,
 } from "react-icons/fi";
-import "react-pro-sidebar/dist/css/styles.css";
+import { useNavigate, useLocation } from "react-router-dom";
+import "./sidebar.css";
+
 export default function Sidebar({ onCollapseChange }) {
   const [collapsed, setCollapsed] = useState(false);
   const navigate = useNavigate();
@@ -24,66 +23,54 @@ export default function Sidebar({ onCollapseChange }) {
     const newValue = !collapsed;
     setCollapsed(newValue);
     onCollapseChange?.(newValue);
-    
   };
 
+  const items = [
+    { label: "Dashboard", path: "/dashboard", icon: <FiHome /> },
+    { label: "File Management", path: "/dashboard/FileList", icon: <FiFilePlus /> },
+    { label: "AI Assistant", path: "/dashboard/llm", icon: <FiCpu /> },
+    { label: "File Manager", path: "/dashboard/filemanager", icon: <FiFolder /> },
+    { label: "Competitors", path: "/dashboard/competitors", icon: <FiBriefcase /> },
+    { label: "Audit", path: "/dashboard/audit", icon: <FiBarChart2 /> },
+    { label: "Settings", path: "/dashboard/settings", icon: <FiSettings /> },
+  ];
+
   return (
-    <div style={{ position: "fixed", top: 0, left: 0, height: "100vh", zIndex: 9999 }}>
-      <ProSidebar
-        collapsed={collapsed}
-        breakPoint="md"
-        width="240px"
-        collapsedWidth="72px"
-      >
-        <div className="sidebar-brand">
-          {!collapsed ? "NomiAI" : "N"}
-        </div>
+    <Drawer
+      variant="permanent"
+      className={`nomi-sidebar ${collapsed ? "collapsed" : ""}`}
+    >
+      <Box className="nomi-sidebar-brand">
+        {!collapsed ? "NomiAI" : "N"}
+      </Box>
 
-        <Menu iconShape="circle">
-
-          <MenuItem  active={location.pathname === "/dashboard"} icon={<FiHome />} onClick={() => navigate("/dashboard")}>
-            Dashboard
-          </MenuItem>
-          <MenuItem
-  active={location.pathname.startsWith("/dashboard/FileList")}
-  icon={<FiFilePlus />}
-  onClick={() => navigate("/dashboard/FileList")}
->
-  File Management
-</MenuItem>
-
-          <MenuItem  active={location.pathname === "/dashboard"} icon={<FiCpu />} onClick={() => navigate("/dashboard/llm")}>
-            AI Assistant
-          </MenuItem>
-
-          <MenuItem active={location.pathname.startsWith("/dashboard/filemanager")} icon={<FiFolder />} onClick={() => navigate("/dashboard/filemanager")}>
-            File Manager
-          </MenuItem>
-
-          <MenuItem  active={location.pathname.startsWith("/dashboard/competitors")} icon={<FiBriefcase />} onClick={() => navigate("/dashboard/competitors")}>
-            Competitors
-          </MenuItem>
-
-          <MenuItem active={location.pathname.startsWith("/dashboard/audit")} icon={<FiBarChart2 />} onClick={() => navigate("/dashboard/audit")}>
-            Audit
-            
-          </MenuItem>
-
-          <MenuItem active={location.pathname.startsWith("/dashboard/settings")} icon={<FiSettings />} onClick={() => navigate("/dashboard/settings")}>
-            Settings
-          </MenuItem>
-
-
-
-          <MenuItem
-            className="collapse-button"
-            onClick={toggle}
-            icon={collapsed ? <FiChevronRight /> : <FiChevronLeft />}
+      <List>
+        {items.map((item) => (
+          <ListItemButton
+            key={item.path}
+            selected={location.pathname.startsWith(item.path)}
+            className="nomi-nav-item"
+            onClick={() => navigate(item.path)}
           >
-            {!collapsed && "Collapse"}
-          </MenuItem>
-        </Menu>
-      </ProSidebar>
-    </div>
+            <ListItemIcon className="nomi-icon">
+              {item.icon}
+            </ListItemIcon>
+
+            {!collapsed && <ListItemText primary={item.label} />}
+          </ListItemButton>
+        ))}
+
+        <ListItemButton
+          onClick={toggle}
+          className="nomi-collapse-btn"
+        >
+          <ListItemIcon className="nomi-icon">
+            {collapsed ? <FiChevronRight /> : <FiChevronLeft />}
+          </ListItemIcon>
+
+          {!collapsed && <ListItemText primary="Collapse" />}
+        </ListItemButton>
+      </List>
+    </Drawer>
   );
 }

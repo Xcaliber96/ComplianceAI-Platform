@@ -4,11 +4,9 @@ import { Menu as MenuIcon } from "@mui/icons-material";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 import Sidebar from "./styling/sidebar";
-
-import Filelist from "./File Manager/Filelist"
+import Filelist from "./File Manager/FileList"
 // Pages
 import FrontPage from "./FrontPage";
-import FileManager from "./FileManager";
 import DocumentAudit from "./UploadFetchTab";
 import RunAuditTab from "./RunAuditTab";
 import SupplierOnboarding from "./SupplierOnboarding";
@@ -16,18 +14,23 @@ import LLM from "./LLM";
 import AuditResultsTab from "./AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
-import NomiFileHub from "./NomiFileHub"
+
 import AddFile from "./File Manager/AddFile"
-import FileViewer from "./File Manager/FileViewer"
+import FileViewer from "./File Manager/FileViewer";
+import Onboarding from "./Onboarding/Onboarding";
+import AuditRunner from "./Auditing/AuditRunner"
+import ShowList from "./File Manager/ShowList"
+import FileExtractPage from "./Extraction/FileExtractPage"
 export default function DashboardApp() {
   const navigate = useNavigate();
   const location = useLocation();
   const [open, setOpen] = useState(true);
 const [collapsed, setCollapsed] = useState(false);
-  const hideLayout =
-    location.pathname === "/dashboard" ||
-    location.pathname === "/dashboard/";
 
+const hideLayout =
+  location.pathname.toLowerCase().startsWith("/dashboard/onboarding") ||
+  location.pathname === "/dashboard" ||
+  location.pathname === "/dashboard/";
 
 const handleCollapseChange = (value: boolean) => {
   setCollapsed(value);
@@ -73,6 +76,17 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="Filelist" element={<Filelist />} />
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
+        <Route path="FileCard" element={<Typography>FileCard</Typography>} />
+
+         <Route path="Onboarding" element={<Onboarding />} />
+      
+        <Route path="extract/:id" element={<FileExtractPage />} />
+         <Route path="ShowList" element={<ShowList />} />
+
+
+
+ <Route path="audit/:id" element={<AuditRunner />} />
+
       </Routes>
     </Box>
 
