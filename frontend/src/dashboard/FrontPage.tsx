@@ -7,6 +7,7 @@ import {
   CardContent,
   Button,
   Stack,
+  useTheme,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
@@ -22,6 +23,7 @@ import {
 
 export default function FrontPage() {
   const navigate = useNavigate();
+  const theme = useTheme();
 
   const features = [
     {
@@ -72,21 +74,19 @@ export default function FrontPage() {
     <Box
       sx={{
         minHeight: "100vh",
-      
         px: { xs: 3, md: 8 },
         py: { xs: 6, md: 10 },
-        fontFamily: "'Montserrat', sans-serif",
         animation: "fadeIn 0.6s ease",
       }}
     >
-      {/* 🔹 Header Section */}
+      {/* Header Section */}
       <Box textAlign="center" mb={8}>
         <Typography
           variant="h4"
           sx={{
             fontWeight: 900,
             mb: 1,
-            color: "#1A2D22",
+            color: theme.palette.text.primary,
             letterSpacing: "0.5px",
           }}
         >
@@ -96,17 +96,18 @@ export default function FrontPage() {
         <Typography
           variant="subtitle1"
           sx={{
-            color: "#4A4A4A",
+            color: theme.palette.text.secondary,
             fontSize: "15px",
             maxWidth: "620px",
             margin: "0 auto",
           }}
         >
-          AI-powered compliance automation built for modern, audit-ready organizations.
+          AI-powered compliance automation built for modern, audit-ready
+          organizations.
         </Typography>
       </Box>
 
-      {/* 🔹 Feature Cards */}
+      {/* Feature Cards */}
       <Grid container spacing={4} justifyContent="center">
         {features.map((item, idx) => (
           <Grid item xs={12} sm={6} md={4} key={idx}>
@@ -114,12 +115,11 @@ export default function FrontPage() {
               sx={{
                 height: "100%",
                 borderRadius: "16px",
-                background: "rgba(255, 255, 255, 0.75)",
-                border: "1px solid rgba(200, 200, 200, 0.2)",
-                backdropFilter: "blur(10px)",
-                transition: "all 0.35s ease",
+                background: theme.palette.background.paper,
+                border: `1px solid ${theme.palette.grey[300]}`,
                 boxShadow: "0px 4px 20px rgba(0,0,0,0.05)",
                 cursor: "pointer",
+                transition: "all 0.35s ease",
                 "&:hover": {
                   transform: "translateY(-6px) scale(1.015)",
                   boxShadow: "0px 10px 30px rgba(0,0,0,0.08)",
@@ -129,18 +129,17 @@ export default function FrontPage() {
             >
               <CardContent>
                 <Stack spacing={2.5} alignItems="center" textAlign="center">
-                  
                   {/* Icon bubble */}
                   <Box
                     sx={{
                       width: 64,
                       height: 64,
                       borderRadius: "50%",
-                      backgroundColor: "#EFF3EF",
+                      backgroundColor: theme.palette.primary.light,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      color: "#294936",
+                      color: theme.palette.primary.main,
                       mb: 1,
                     }}
                   >
@@ -151,7 +150,7 @@ export default function FrontPage() {
                     variant="h6"
                     sx={{
                       fontWeight: 700,
-                      color: "#1A2D22",
+                      color: theme.palette.text.primary,
                     }}
                   >
                     {item.title}
@@ -160,7 +159,7 @@ export default function FrontPage() {
                   <Typography
                     variant="body2"
                     sx={{
-                      color: "#5D5D5D",
+                      color: theme.palette.text.secondary,
                       lineHeight: 1.5,
                       minHeight: 55,
                     }}
@@ -174,11 +173,13 @@ export default function FrontPage() {
                       mt: 1,
                       borderRadius: "8px",
                       textTransform: "none",
-                      backgroundColor: "#294936",
+                      backgroundColor: theme.palette.primary.main,
                       px: 3,
                       py: 1,
                       fontWeight: 600,
-                      "&:hover": { backgroundColor: "#223D2D" },
+                      "&:hover": {
+                        backgroundColor: theme.palette.primary.dark,
+                      },
                     }}
                   >
                     {item.action}
@@ -190,15 +191,15 @@ export default function FrontPage() {
         ))}
       </Grid>
 
-      {/* 🔹 Footer */}
+      {/* Footer */}
       <Box textAlign="center" mt={10}>
-        <Typography variant="body2" sx={{ color: "#666" }}>
+        <Typography variant="body2" sx={{ color: theme.palette.text.secondary }}>
           <Shield sx={{ fontSize: 18, verticalAlign: "middle", mr: 1 }} />
           Built for trust. Powered by NomiAI.
         </Typography>
       </Box>
 
-      {/* 🔹 Fade In Animation */}
+      {/* Fade In Animation */}
       <style>{`
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(10px); }
