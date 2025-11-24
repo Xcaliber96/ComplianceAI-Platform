@@ -13,6 +13,9 @@ from fastapi import (
 )
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
+from apscheduler.schedulers.background import BackgroundScheduler
 
 import os
 import sys
@@ -28,12 +31,13 @@ from typing import List, Optional, Dict, Any
 from uuid import uuid4
 from pathlib import Path
 from datetime import datetime, timedelta
+from src.core.nomi_file_hub import get_direct_file_url
 from src.api.models import User
 from dotenv import load_dotenv, dotenv_values
 
 from sqlalchemy.orm import Session
 from src.api.models import (
-    User,                        # ⭐ ADD THIS
+    User,                       
     ObligationInstance,
     RemediationTask,
     EvidenceArtifact,
@@ -68,18 +72,38 @@ from google.auth.exceptions import RefreshError
 
 import firebase_admin
 from firebase_admin import auth as firebase_auth, credentials
+from fastapi import HTTPException
 
+from google.auth.exceptions import RefreshError
+from src.core.extract_keywords import read_policy_text, extract_keywords
+from fastapi import FastAPI, Depends
+from sqlalchemy.orm import Session
+from src.core.find_competitors import find_competitors, clean_names, get_company_filings
+from fastapi import APIRouter
 from openai import OpenAI
-import msal
+import os
+from uuid import uuid4
+from fastapi import Request, Response
+from fastapi import Query
+from fastapi import FastAPI
+from .graph_api import router as graph_router   # plain import works when cwd is the folder
+import sys, subprocess, os
+from typing import Dict, Any
 
-from apscheduler.schedulers.background import BackgroundScheduler
 
-from pydantic import BaseModel
+app = FastAPI()
+app.include_router(graph_router)
 
-from .graph_api import router as graph_router
+# Check if Render secret file exists, else fallback to local
+if os.path.exists("/etc/secrets/.env"):
+    load_dotenv("/etc/secrets/.env", override=True)
+    print("Loaded environment from /etc/secrets/.env (Render)")
+else:
+    load_dotenv(".env", override=True)
+    print("Loaded environment from local .env")
 
-DOWNLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "shared_downloads"))
-os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+
+
 
 app = FastAPI(title="ComplianceAI Platform API", version="2.0")
 app.include_router(graph_router)
@@ -105,7 +129,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+# include routers (do this AFTER app is created)
+app.include_router(graph_router)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 router = APIRouter()
@@ -915,9 +940,7 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             status_code=500
         )
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)
 async def external_intelligence(industry: str):
     prompt = (
@@ -930,18 +953,22 @@ async def external_intelligence(industry: str):
             '{"regulation": "...", "summary": "...", "link": "..."}'
         ']}'
     )
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are an enterprise compliance assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=600,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are an enterprise compliance assistant."},
+        {"role": "user", "content": prompt}
+    ]
+    # call safe wrapper
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=600, temperature=0.2)
+    # handle wrapper response format (robust)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = [json.loads(content)]
     except Exception:
@@ -1309,9 +1336,7 @@ async def add_user_to_gcs(request: Request):
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
     
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# rag_analysis: replaced direct OpenAI call with safe_chat_completion
 @app.post("/api/rag_compliance_analysis", response_model=None)
 async def rag_analysis(
     file: UploadFile = File(...),
@@ -1329,18 +1354,21 @@ async def rag_analysis(
         "Always return a JSON array, even for one regulation. Do not return a single object. Array of JSON objects, nothing else."
     )
 
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a compliance audit expert."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=800,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are a compliance audit expert."},
+        {"role": "user", "content": prompt}
+    ]
+
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=800, temperature=0.2)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = json.loads(content)
         # Normalize output to always be a list of findings
