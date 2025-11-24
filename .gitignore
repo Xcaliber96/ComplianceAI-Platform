@@ -109,3 +109,4 @@ node_modules
 
 filehub_uploads/
 
+SHODAN_API_KEY=your_real_key_here
