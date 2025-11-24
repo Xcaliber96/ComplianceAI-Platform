@@ -123,6 +123,9 @@ firebase_key_path = (
 if not firebase_admin._apps:
     cred = credentials.Certificate(firebase_key_path)
     firebase_admin.initialize_app(cred)
+    print("\n🔥 BACKEND FIREBASE PROJECT:", cred.project_id)
+    print("📄 Using Firebase key file:", firebase_key_path)
+
     
 SESSIONS = {}
 
@@ -180,9 +183,11 @@ async def session_login(request: Request, response: Response):
         raise HTTPException(status_code=400, detail="Missing idToken")
 
     try:
-        decoded = firebase_auth.verify_id_token(id_token)
+      decoded = firebase_auth.verify_id_token(id_token, clock_skew_seconds=10)
     except Exception as e:
+        print("FIREBASE TOKEN ERROR:", repr(e))
         raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
+
 
     email = decoded.get("email")
 
@@ -214,8 +219,8 @@ async def session_login(request: Request, response: Response):
         or FRONTEND_URL.startswith("http://127.0.0.1")
     )
 
-    print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
-
+    # print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
+    # print("BACKEND FIREBASE PROJECT:", cred.project_id)
     if IS_LOCAL:
         response.set_cookie(
             key="session_id",

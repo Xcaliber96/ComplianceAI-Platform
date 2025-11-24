@@ -27,6 +27,7 @@ const BASE_URL =
     : "https://api.nomioc.com");
 
 export default function SignIn() {
+  console.log("🔥 FRONTEND FIREBASE PROJECT:", auth.app.options.projectId);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -109,7 +110,9 @@ export default function SignIn() {
       } catch (e) {
         console.warn("Profile check failed", e);
       }
-
+      
+      console.log("FRONTEND FIREBASE PROJECT:", auth.app.options.projectId);
+      
       return navigate("/dashboard");
     } catch (err: any) {
       let message = "Something went wrong. Please try again.";
