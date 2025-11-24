@@ -26,14 +26,27 @@ import hashlib
 import logging
 import traceback
 import subprocess
+
+from uuid import uuid4
+from datetime import datetime
+from fastapi import Request, Response, HTTPException
+
+from src.core.nomi_file_hub import get_direct_file_url
+from fastapi.responses import FileResponse
+
 import mimetypes
 from typing import List, Optional, Dict, Any
 from uuid import uuid4
 from pathlib import Path
 from datetime import datetime, timedelta
+
 from src.core.nomi_file_hub import get_direct_file_url
 from src.api.models import User
 from dotenv import load_dotenv, dotenv_values
+
+from apscheduler.schedulers.background import BackgroundScheduler
+# LLM shim imports (updated)
+from src.core.LLM import generate_market_insight, extract_document_metadata, generate_gap_summary
 
 from sqlalchemy.orm import Session
 from src.api.models import (
@@ -80,7 +93,8 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 from fastapi import APIRouter
-from openai import OpenAI
+# Replace direct OpenAI usage with safe wrapper
+from src.core.client import safe_chat_completion
 import os
 from uuid import uuid4
 from fastapi import Request, Response
@@ -101,9 +115,6 @@ if os.path.exists("/etc/secrets/.env"):
 else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
-
-
-
 
 app = FastAPI(title="ComplianceAI Platform API", version="2.0")
 app.include_router(graph_router)
@@ -131,8 +142,7 @@ app.add_middleware(
 
 # include routers (do this AFTER app is created)
 app.include_router(graph_router)
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# client removed (use safe_chat_completion)
 router = APIRouter()
 
 TOKEN_FILE = "token.json"

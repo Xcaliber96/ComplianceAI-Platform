@@ -6,7 +6,7 @@ import re
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse, urljoin
-
+import os
 SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
 
 def shodan_scan(domain: str):
@@ -43,6 +43,10 @@ def shodan_scan(domain: str):
     except Exception as e:
         return {"error": f"Shodan scan failed: {e}"}
 
+
+# ===========================================================
+#  SSL LABS SCANNER
+# ===========================================================
 def ssllabs_scan(domain: str):
     api = "https://api.ssllabs.com/api/v3/analyze"
 
@@ -60,6 +64,10 @@ def ssllabs_scan(domain: str):
     except Exception as e:
         return {"error": f"SSL Labs scan failed: {e}"}
 
+
+# ===========================================================
+#  TECHNOLOGY DETECTOR (WINDOWS SAFE)
+# ===========================================================
 def detect_technologies(domain: str):
     try:
         url = f"https://{domain}"
@@ -118,6 +126,9 @@ def detect_technologies(domain: str):
         return {"error": f"Technology detection failed: {e}"}
 
 
+# ===========================================================
+#  POLICY SCRAPER
+# ===========================================================
 POSSIBLE_POLICY_PATHS = [
     "privacy", "privacy-policy", "legal/privacy", "legal",
     "policy", "policies", "security", "terms", "terms-of-service"
@@ -158,6 +169,10 @@ def get_company_policy(domain: str):
         "policy_text": text
     }
 
+
+# ===========================================================
+#  VENDOR / THIRD-PARTY DISCOVERY SCANNER
+# ===========================================================
 def categorize_domain(host: str):
     """Very simple categorizer for known third-party domains."""
     host = host.lower()
@@ -292,6 +307,9 @@ def discover_third_parties(domain: str):
         return {"error": f"Third-party discovery failed: {e}"}
 
 
+# ===========================================================
+#  FULL COMPANY SCAN (CAN BE PARALLELIZED)
+# ===========================================================
 def full_company_scan(domain: str):
     print(f"\n=== Running Full Scan for {domain} ===")
 
@@ -314,7 +332,9 @@ def full_company_scan(domain: str):
                 results[key] = {"error": str(e)}
 
     return results
-
+# ===========================================================
+#  MAIN
+# ===========================================================
 def main():
     print("=== Full Company Scanner ===")
     domain = input("Enter domain: ").strip()
