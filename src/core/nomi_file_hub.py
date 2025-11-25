@@ -44,9 +44,12 @@ def save_user_file(
     file_bytes: bytes,
     filename: str,
     user_uid: str,
+    
     file_type: str,
-    used_for: str
+    used_for: str,
+    department: str
 ):
+
     """
     Saves a file AND stores metadata.
 
@@ -63,7 +66,6 @@ def save_user_file(
     file_id = str(uuid.uuid4())
     stored_name = f"{file_id}_{filename}"
     stored_path = os.path.join(folder, stored_name)
-
     # Save file to disk
     with open(stored_path, "wb") as f:
         f.write(file_bytes)
@@ -71,12 +73,14 @@ def save_user_file(
     # Build metadata
     entry = {
         "id": file_id,
+        "user_uid": user_uid,   
         "original_name": filename,
         "stored_name": stored_name,
         "size": len(file_bytes),
         "uploaded_at": datetime.utcnow().isoformat(),
         "file_type": file_type,
         "used_for": used_for,
+      "department": department 
     }
 
     # Update index

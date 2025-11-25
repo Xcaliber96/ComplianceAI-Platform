@@ -3,7 +3,7 @@ import { Box, Typography, IconButton, Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "../../api/client";
+import { BASE_URL, getBasicUserInfo } from "../../api/client";
 import { getDirectFileUrl } from "../../api/client";
 
 import HubspotFilterBar from "./HubspotFilterBar";
@@ -21,20 +21,28 @@ export default function FileList() {
 
   // FETCH FILES
   const fetchFiles = async () => {
-    if (!user_uid) return;
-    try {
-      const fileList = await getFileHubFiles(user_uid);
-      setFiles(fileList || []);
-    } catch (err) {
-      console.error("File fetch error:", err);
-    }
-  };
+  if (!user_uid) return;
+
+  const fileList = await getFileHubFiles(user_uid);
+
+  // Fetch uploader info for each file
+  const filesWithUser = await Promise.all(
+    fileList.map(async (f: any) => {
+      const userInfo = await getBasicUserInfo(f.user_uid);
+      return {
+        ...f,
+        uploader: userInfo.display_name || "Unknown"
+      };
+    })
+  );
+
+  setFiles(filesWithUser);
+};
 
   useEffect(() => {
     fetchFiles();
   }, []);
 
-  // FILTER & SORT
   const filteredFiles = files
     .filter((f: any) =>
       filter === "all" ? true : f.file_type === filter
@@ -59,7 +67,6 @@ export default function FileList() {
     >
       <Typography className="nomi-filehub-title">Your Files</Typography>
 
-      {/* HUBSPOT FILTER BAR */}
       <HubspotFilterBar
         onSearch={(val: string) => setSearch(val)}
         onFilterType={(val: string) => setFilter(val)}
@@ -98,73 +105,59 @@ export default function FileList() {
         </Box>
       )}
 
-      {/* GRID VIEW */}
-      {files.length > 0 && (
-        <div className="nomi-grid">
-          {filteredFiles.map((file: any) => (
-            <div
-              key={file.id}
-              className="nomi-file-card"
-              onClick={() => navigate(`/dashboard/file/${file.id}`)}
+  {/* TABLE VIEW */}
+{files.length > 0 && (
+  <table className="file-table">
+<thead>
+  <tr>
+    <th>File Name</th>
+    <th>Type</th>
+    <th>Uploader</th>
+    <th>Department</th>  {/* 👈 NEW */}
+    <th>Uploaded</th>
+    <th style={{ textAlign: "center" }}>Actions</th>
+  </tr>
+</thead>
+
+    <tbody>
+      {filteredFiles.map((file: any) => (
+        <tr
+          key={file.id}
+          className="file-row"
+          onClick={() => navigate(`/dashboard/file/${file.id}`)}
+        >
+          <td>{file.original_name}</td>
+          <td>{file.file_type}</td>
+          <td>{file.uploader}</td>
+          <td>{file.department || "—"}</td>
+          <td>{new Date(file.uploaded_at).toLocaleDateString()}</td>
+
+          <td className="actions">
+            <IconButton
+              onClick={(e) => {
+                e.stopPropagation();
+                window.location.href = `/api/filehub/${file.id}/download?user_uid=${user_uid}`;
+              }}
             >
-<div className="pdf-modern-wrapper">
+              <DownloadIcon />
+            </IconButton>
 
-  {/* Blurred BACKGROUND */}
-  <div className="pdf-modern-bg">
-    <embed
-      src={getDirectFileUrl(file.id, user_uid!)}
-      type="application/pdf"
-      className="pdf-modern-embed-blur"
-    />
-  </div>
-
-  {/* Sharp FOREGROUND PREVIEW */}
-  <embed
-    src={getDirectFileUrl(file.id, user_uid!)}
-    type="application/pdf"
-    className="pdf-modern-embed-sharp"
-  />
-
-  {/* Overlay label */}
-  <div className="pdf-modern-overlay">
-    <div className="pdf-modern-title">{file.original_name}</div>
-    <div className="pdf-modern-meta">
-      {file.file_type} • {new Date(file.uploaded_at).toLocaleString()}
-    </div>
-  </div>
-</div>
-
-              {/* Meta */}
-              <Typography className="nomi-card-meta">
-                {file.file_type} •{" "}
-                {new Date(file.uploaded_at).toLocaleString()}
-              </Typography>
-
-              {/* Actions */}
-              <div className="nomi-card-actions">
-                <IconButton
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    window.location.href = `/api/filehub/${file.id}/download?user_uid=${user_uid}`;
-                  }}
-                >
-                  <DownloadIcon />
-                </IconButton>
-
-                <IconButton
-                  onClick={async (e) => {
-                    e.stopPropagation();
-                    await deleteFileHubFile(file.id, user_uid!);
-                    fetchFiles();
-                  }}
-                >
-                  <DeleteIcon />
-                </IconButton>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
+            <IconButton
+              onClick={async (e) => {
+                e.stopPropagation();
+                await deleteFileHubFile(file.id, user_uid!);
+                fetchFiles();
+              }}
+            >
+              <DeleteIcon />
+            </IconButton>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+   
     </Box>
   );
 }

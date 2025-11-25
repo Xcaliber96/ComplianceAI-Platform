@@ -7,12 +7,22 @@ from src.api.db import Base
 
 class User(Base):
     __tablename__ = "users"
+
     uid = Column(String, primary_key=True, index=True)
     email = Column(String, unique=True, index=True)
-    display_name = Column(String, nullable=True)
+
+    # NEW — aligned with your onboarding page
+    full_name = Column(String, nullable=True)        # Full legal name
+    display_name = Column(String, nullable=True)     # Preferred/short display name
+    job_title = Column(String, nullable=True)
+    department = Column(String, nullable=True)
+    company_name = Column(String, nullable=True)
+    industry = Column(String, nullable=True)
+
     photo_url = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
-        
+
+
 class TaskState(str, enum.Enum):
     TODO = "TODO"
     # user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
