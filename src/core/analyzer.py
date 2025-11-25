@@ -3,11 +3,16 @@ import shodan
 import requests
 import time
 import re
+import os
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse, urljoin
-import os
+
+# ===========================================================
+#  SHODAN SCANNER
+# ===========================================================
 SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
+
 
 def shodan_scan(domain: str):
     try:
@@ -294,13 +299,13 @@ def discover_third_parties(domain: str):
             third_party_summary.append({
                 "host": host,
                 "categories": sorted(info["categories"]),
-                "sample_urls": sorted(info["sample_urls"])[:5],  # cap a few examples
+                "sample_urls": sorted(info["sample_urls"])[:5],
             })
 
         return {
             "third_party_domains": sorted(domain_map.keys()),
             "third_party_summary": third_party_summary,
-            "raw_references": resources,  # can be removed if too noisy
+            "raw_references": resources,
         }
 
     except Exception as e:
@@ -332,6 +337,8 @@ def full_company_scan(domain: str):
                 results[key] = {"error": str(e)}
 
     return results
+
+
 # ===========================================================
 #  MAIN
 # ===========================================================
