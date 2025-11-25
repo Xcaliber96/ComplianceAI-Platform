@@ -106,7 +106,6 @@ src/core/network.html"src/core/admin-key.json"
 "src/core/admin-key.json" 
 node_modules
 *.db
-
 filehub_uploads/
+.env
 
-SHODAN_API_KEY=your_real_key_here
