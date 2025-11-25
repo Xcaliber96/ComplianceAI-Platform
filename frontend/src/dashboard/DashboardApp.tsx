@@ -14,6 +14,7 @@ import LLM from "./LLM";
 import AuditResultsTab from "./AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
+import DashboardPage from "./Extraction/Extraction";
 
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer";
@@ -82,11 +83,9 @@ const handleCollapseChange = (value: boolean) => {
       
         <Route path="extract/:id" element={<FileExtractPage />} />
          <Route path="ShowList" element={<ShowList />} />
+  <Route path="DashboardPage" element={<DashboardPage />} />
 
-
-
- <Route path="audit/:id" element={<AuditRunner />} />
-
+<Route path="audit/:id" element={<AuditRunner />} />
       </Routes>
     </Box>
 

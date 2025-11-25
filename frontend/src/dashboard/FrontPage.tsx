@@ -139,7 +139,7 @@ export default function FrontPage() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      color: theme.palette.primary.main,
+                      color: "#0f172a",
                       mb: 1,
                     }}
                   >
@@ -150,7 +150,7 @@ export default function FrontPage() {
                     variant="h6"
                     sx={{
                       fontWeight: 700,
-                      color: theme.palette.text.primary,
+                      color:"#0f172a",
                     }}
                   >
                     {item.title}
@@ -173,7 +173,7 @@ export default function FrontPage() {
                       mt: 1,
                       borderRadius: "8px",
                       textTransform: "none",
-                      backgroundColor: theme.palette.primary.main,
+                      backgroundColor: "#0f172a",
                       px: 3,
                       py: 1,
                       fontWeight: 600,

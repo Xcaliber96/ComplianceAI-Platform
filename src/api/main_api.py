@@ -14,6 +14,7 @@ from fastapi import (
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from src.core.store_file_data import save_extraction
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -26,6 +27,9 @@ import hashlib
 import logging
 import traceback
 import subprocess
+
+import fitz 
+import io
 
 from uuid import uuid4
 from datetime import datetime
@@ -277,6 +281,8 @@ async def session_login(request: Request, response: Response):
         )
 
     return {"status": "success", "email": email, "uid": uid}
+
+
 @app.get("/api/users/basic_info/{uid}")
 def get_basic_user_info(uid: str):
     db = SessionLocal()
@@ -327,12 +333,39 @@ async def filehub_direct(file_id: str, user_uid: str):
     )
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
-    from PyPDF2 import PdfReader
-    reader = PdfReader(io.BytesIO(pdf_bytes))
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text() or ""
-    return text
+
+    # 1. Try PyMuPDF
+    try:
+        import fitz
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        text = "".join([page.get_text("text") for page in doc])
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PyMuPDF failed:", e)
+
+    # 2. Try PDFMiner
+    try:
+        from pdfminer.high_level import extract_text as pdfminer_extract
+        text = pdfminer_extract(io.BytesIO(pdf_bytes))
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PDFMiner failed:", e)
+
+    # 3. Fallback: PyPDF2
+    try:
+        from PyPDF2 import PdfReader
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() or ""
+        return text
+    except Exception as e:
+        print("PyPDF2 failed:", e)
+
+    return ""
+
 @app.get("/api/filehub/{file_id}")
 async def filehub_get(file_id: str, user_uid: str):
     """
@@ -1394,25 +1427,55 @@ async def rag_analysis(
         "details": findings
     })
 
+# @app.get("/api/filehub/{file_id}/extract")
+# async def extract_file(file_id: str, user_uid: str):
+#     result = get_user_file_path(user_uid, file_id)
+#     if not result:
+#         raise HTTPException(status_code=404, detail="File not found")
+#     file_path, entry = result
+#     with open(file_path, "rb") as f:
+#         file_bytes = f.read()
+
+#     # 3. Convert PDF → text
+#     text = extract_text_from_pdf_bytes(file_bytes)
+#     metadata = extract_document_metadata(text)
+
+#     return {
+#         "status": "success",
+#         "file_id": file_id,
+#         "file_name": entry["original_name"],
+#         "extraction": metadata
+#     }
+
 @app.get("/api/filehub/{file_id}/extract")
-async def extract_file(file_id: str, user_uid: str):
+async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db)):
+
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
+
     file_path, entry = result
+
     with open(file_path, "rb") as f:
         file_bytes = f.read()
 
-    # 3. Convert PDF → text
     text = extract_text_from_pdf_bytes(file_bytes)
     metadata = extract_document_metadata(text)
 
+    saved = save_extraction(db, file_id, user_uid, metadata)
+    if not metadata.get("ok"):
+        raise HTTPException(status_code=500, detail="Metadata extraction failed")
+
+    raw = metadata["metadata"]
+
+    saved = save_extraction(db, file_id, user_uid, raw)
     return {
         "status": "success",
         "file_id": file_id,
         "file_name": entry["original_name"],
-        "extraction": metadata
+        "extraction": saved.extraction
     }
+
 
 if __name__ == "__main__":
     import uvicorn

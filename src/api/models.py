@@ -22,6 +22,15 @@ class User(Base):
     photo_url = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
+class FileExtraction(Base):
+    __tablename__ = "file_extractions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    file_id = Column(String, index=True)
+    user_uid = Column(String, index=True)
+    extraction = Column(JSON)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
 class TaskState(str, enum.Enum):
     TODO = "TODO"
