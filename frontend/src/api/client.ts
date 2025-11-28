@@ -1,29 +1,56 @@
-import axios from 'axios'
+import axios from "axios";
+
+const rawEnvBase = import.meta.env.VITE_API_BASE_URL;
+
+// 🔍 startup debug
+console.log("[client.ts] raw VITE_API_BASE_URL:", rawEnvBase);
+console.log("[client.ts] window.location.hostname:", window.location.hostname);
 
 export const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  (window.location.hostname.includes("localhost")
+  rawEnvBase && rawEnvBase.trim() !== ""
+    ? rawEnvBase.trim()
+    : window.location.hostname === "localhost"
     ? "http://localhost:8000"
-    : "https://api.nomioc.com"); 
-console.log("VITE_API_BASE_URL:", import.meta.env.VITE_API_BASE_URL);
-  // Create axios instance with default config
+    : "https://api.nomioc.com";
+
+console.log("[client.ts] RESOLVED BASE_URL:", BASE_URL);
+
+// Create axios instance with default config
 const apiClient = axios.create({
   baseURL: BASE_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
-  withCredentials: true, 
-})  
+  withCredentials: true,
+});
+
 apiClient.interceptors.response.use(
   (res) => res,
   (err) => {
     if (err.response?.status === 401) {
-      console.warn("⚠️ Session expired or unauthorized. Please log in again.");
+      console.warn("Session expired or unauthorized. Please log in again.");
       // Optional:  redirect to login or clear local session here
     }
     return Promise.reject(err);
   }
 );
+export async function fetchWorkspace(user_id: string) {
+  const res = await apiClient.get(`/api/workspace/${user_id}/regulations`);
+  return res.data;
+}
+
+// ⭐ Toggle (add/remove) a regulation for a user
+export async function toggleRegulation(user_id: string, reg_id: string) {
+  const res = await apiClient.post(`/api/workspace/${user_id}/toggle/${reg_id}`);
+  return res.data;
+}
+export async function fetchStateRegulations(state: string, query: string) {
+  const res = await apiClient.get("/api/regulations/state", {
+    params: { state, q: query },
+  });
+
+  return res.data.results; // backend returns { results: [...] }
+}
 
 export async function getUserProfile(uid: string): Promise<UserProfile> {
   const res = await apiClient.get(`/api/users/profile/${uid}`);
@@ -54,6 +81,16 @@ export const updateUserProfile = async (profile: {
 
   const { data } = await apiClient.post(`/api/users/setup_profile`, form, {
     headers: { "Content-Type": "multipart/form-data" },
+  });
+
+  return data;
+};
+
+export const getRegulation = async (packageId: string) => {
+  if (!packageId) throw new Error("Package ID is required");
+
+  const { data } = await apiClient.get("/regulations", {
+    params: { q: packageId },
   });
 
   return data;
@@ -290,6 +327,10 @@ export const runExternalIntelligence = async (industry: string) => {
   })
   return response.data
 }
+export const getSampleRegulations = async () => {
+  const { data } = await apiClient.get("/api/regulations/library");
+  return data.library; // returns array of {name, region, description}
+};
 
 export const runRagCompliance = async (
   file: File,
@@ -425,12 +466,12 @@ export const attestEvidence = async (evidenceId: number, user: string) => {
   return response.data
 }
 export const runAuditOnFile = async (fileId: string, user_uid: string) => {
-  const { data } = await apiClient.get(`/api/audit/run/${fileId}`, {
-    params: { user_uid },
-  });
-  return data;
+  return apiClient
+    .get(`/api/audit/run/${fileId}`, {
+      params: { user_uid },
+    })
+    .then((res) => res.data);
 };
-
 export async function extractFile(fileId: string, user_uid: string) {
   const res = await fetch(
     `${BASE_URL}/api/filehub/${fileId}/extract?user_uid=${user_uid}`

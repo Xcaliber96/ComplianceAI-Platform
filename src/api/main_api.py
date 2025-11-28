@@ -15,7 +15,8 @@ from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.core.store_file_data import save_extraction
-
+from src.core.regulations.state_regulations.state_engine import search_state_regulations
+from src.api.models import FileExtraction
 from apscheduler.schedulers.background import BackgroundScheduler
 
 import os
@@ -31,13 +32,14 @@ import subprocess
 import fitz 
 import io
 
+
 from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
 from src.core.nomi_file_hub import get_direct_file_url
 from fastapi.responses import FileResponse
-
+from src.core.regulations.gov_reg.main_router import route
 import mimetypes
 from typing import List, Optional, Dict, Any
 from uuid import uuid4
@@ -49,9 +51,6 @@ from src.api.models import User
 from dotenv import load_dotenv, dotenv_values
 
 from apscheduler.schedulers.background import BackgroundScheduler
-# LLM shim imports (updated)
-from src.core.LLM import generate_market_insight, extract_document_metadata, generate_gap_summary
-
 from sqlalchemy.orm import Session
 from src.api.models import (
     User,                       
@@ -62,10 +61,17 @@ from src.api.models import (
     TaskState,
     Base,
 )
-
+from PyPDF2 import PdfReader
 from src.api.db import get_db, engine, SessionLocal
 
-from src.core.LLM import extract_document_metadata, generate_market_insight
+from src.core.LLM import (
+    generate_market_insight,
+    extract_document_metadata,
+    extract_regulation,
+    run_full_extraction,
+    generate_gap_summary,
+)
+
 from src.core.nomi_file_hub import (
     save_user_file,
     list_user_files,
@@ -108,7 +114,6 @@ from .graph_api import router as graph_router   # plain import works when cwd is
 import sys, subprocess, os
 from typing import Dict, Any
 
-
 app = FastAPI()
 app.include_router(graph_router)
 
@@ -119,9 +124,6 @@ if os.path.exists("/etc/secrets/.env"):
 else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
-
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-app.include_router(graph_router)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -212,6 +214,22 @@ def get_user_profile(uid: str, db: Session = Depends(get_db)):
         "department": user.department or "",
         "industry": user.industry or "",
     }
+
+@app.post("/api/workspace/{user_id}/toggle/{reg_id}")
+def toggle(user_id: str, reg_id: str):
+    item = db.find_one({"id": reg_id, "user_id": user_id})
+
+    if not item:
+        raise HTTPException(404, "Regulation not found for this user")
+
+    if item["workspace_status"] == "added":
+        item["workspace_status"] = "removed"
+    else:
+        item["workspace_status"] = "added"
+
+    db.update(item)
+    return item
+    
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
@@ -282,6 +300,16 @@ async def session_login(request: Request, response: Response):
 
     return {"status": "success", "email": email, "uid": uid}
 
+@app.get("/api/regulations/state")
+def api_state_regulations(
+    state: str = Query(...),
+    q: str = Query(...)
+):
+    try:
+        results = search_state_regulations(state, q)
+        return JSONResponse({"state": state, "query": q, "results": results})
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=400)
 
 @app.get("/api/users/basic_info/{uid}")
 def get_basic_user_info(uid: str):
@@ -297,6 +325,20 @@ def get_basic_user_info(uid: str):
         "department": user.department,
         "email": user.email
     }
+
+@app.get("/regulations")
+async def regulations_query(q: str = ""):
+    """
+    Example: /regulations?q=FR-2025-09-16
+    """
+    try:
+        result = route(q)  
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
 
 @app.get("/session/me")
 async def get_current_user(request: Request):
@@ -355,7 +397,7 @@ def extract_text_from_pdf_bytes(pdf_bytes):
 
     # 3. Fallback: PyPDF2
     try:
-        from PyPDF2 import PdfReader
+
         reader = PdfReader(io.BytesIO(pdf_bytes))
         text = ""
         for page in reader.pages:
@@ -412,25 +454,73 @@ def run_ingest_script(audit_path: str) -> Dict[str, Any]:
         "stdout": proc.stdout,
         "stderr": proc.stderr
     }
-
 @app.post("/api/filehub/upload")
 async def filehub_upload(
     file: UploadFile = File(...),
     user_uid: str = Form(...),
     file_type: str = Form(...),
     used_for: str = Form(...),
-    department: str = Form(...) 
+    department: str = Form(...)
 ):
     print("Saving file for user:", user_uid)
     print("Received filename:", file.filename)
+
     if not user_uid:
         raise HTTPException(status_code=400, detail="Missing user_uid")
 
+    # Read file
     contents = await file.read()
-    entry = save_user_file(contents, file.filename, user_uid,  file_type, used_for, department)
 
-    return {"status": "success", "file": entry}
+    # Save metadata + file
+    entry = save_user_file(
+        contents,
+        file.filename,
+        user_uid,
+        file_type,
+        used_for,
+        department
+    )
 
+    # ✅ Correct key name
+    file_id = entry["id"]
+
+    # Get actual saved file path
+    file_path, _ = get_user_file_path(user_uid, file_id)
+    pdf_path = file_path
+
+    # Extract text
+    try:
+        reader = PdfReader(pdf_path)
+        text = "\n".join([(p.extract_text() or "") for p in reader.pages])
+    except Exception as e:
+        print(" PDF extraction failed:", e)
+        text = ""
+
+    # LLM extraction
+    from src.core.metadata_extractor import run_full_extraction
+    extracted = run_full_extraction(text)
+
+    # Save to DB
+    db = SessionLocal()
+    row = db.query(FileExtraction).filter_by(file_id=file_id).first()
+
+    if row:
+        row.extraction = extracted
+    else:
+        db.add(FileExtraction(
+            file_id=file_id,
+            user_uid=user_uid,
+            extraction=extracted
+        ))
+
+    db.commit()
+    db.close()
+
+    return {
+        "status": "success",
+        "file": entry,
+        "extraction": extracted
+    }
 @app.get("/api/filehub")
 async def filehub_list(user_uid: str):
     if not user_uid:
@@ -737,30 +827,6 @@ async def analyze_company(company_name: str = Form(...)):
         return {"company": company_name, "insight": insight}
     except Exception as e:
         return {"error": str(e)}
-
-def check_federal_register():
-    """Monitor Federal Register for new rules"""
-    try:
-        response = requests.get(REGULATORY_SOURCES["FEDERAL_REGISTER"], timeout=10)
-        data = response.json()
-        new_regulations = []
-        
-        for doc in data.get('results', [])[:5]:
-            reg_id = hashlib.md5(doc['title'].encode()).hexdigest()
-            if reg_id not in processed_regulations:
-                processed_regulations.add(reg_id)
-                new_regulations.append({
-                    "source": "Federal Register",
-                    "title": doc['title'],
-                    "date": doc.get('publication_date'),
-                    "url": f"https://www.federalregister.gov/documents/{doc.get('document_number', '')}",
-                    "impact_areas": ["Legal", "Compliance"],
-                    "regulation_type": "Federal"
-                })
-        return new_regulations
-    except Exception as e:
-        logging.error(f"Federal Register monitoring failed: {e}")
-        return []
 
 def analyze_regulation_impact(regulation: dict):
     """Analyze regulation impact"""
@@ -1321,7 +1387,53 @@ def log_audit(db: Session, entity_type: str, entity_id: int, action: str, user: 
     )
     db.add(entry)
     db.commit()
+@app.get("/api/regulations/library")
+def get_regulation_library():
+    """
+    Loads and returns a flat list of regulations from sample_regulations.json.
+    Works whether JSON is a list OR a dict of categories.
+    """
+    json_path = "sample_regulations.json"
 
+    if not os.path.exists(json_path):
+        raise HTTPException(status_code=500, detail="sample_regulations.json not found")
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+
+        # If file is LIST → return directly
+        if isinstance(raw, list):
+            library = []
+            for r in raw:
+                library.append({
+                    "id": r.get("id"),
+                    "name": r.get("title"),
+                    "region": r.get("regulation_type", "N/A"),
+                    "description": r.get("text", "No description provided."),
+                })
+
+            return {"library": library}
+
+        # If file is DICT with categories → flatten structure
+        if isinstance(raw, dict):
+            library = []
+            for region, regs in raw.items():
+                for r in regs:
+                    library.append({
+                        "id": r.get("id"),
+                        "name": r.get("title"),
+                        "region": region,
+                        "description": r.get("text", "No description provided."),
+                    })
+            return {"library": library}
+
+        # Unknown format
+        raise HTTPException(status_code=500, detail="Invalid regulations JSON format")
+
+    except Exception as e:
+        print("REGULATIONS ERROR:", e)
+        raise HTTPException(status_code=500, detail="Failed to load regulations")
 @app.get("/")
 async def root():
     # return {"status": "online", "service": "ComplianceAI Platform API", "monitoring": "active"}
@@ -1427,28 +1539,20 @@ async def rag_analysis(
         "details": findings
     })
 
-# @app.get("/api/filehub/{file_id}/extract")
-# async def extract_file(file_id: str, user_uid: str):
-#     result = get_user_file_path(user_uid, file_id)
-#     if not result:
-#         raise HTTPException(status_code=404, detail="File not found")
-#     file_path, entry = result
-#     with open(file_path, "rb") as f:
-#         file_bytes = f.read()
-
-#     # 3. Convert PDF → text
-#     text = extract_text_from_pdf_bytes(file_bytes)
-#     metadata = extract_document_metadata(text)
-
-#     return {
-#         "status": "success",
-#         "file_id": file_id,
-#         "file_name": entry["original_name"],
-#         "extraction": metadata
-#     }
-
 @app.get("/api/filehub/{file_id}/extract")
 async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db)):
+    saved = db.query(FileExtraction).filter(
+        FileExtraction.file_id == file_id,
+        FileExtraction.user_uid == user_uid
+    ).first()
+
+    if saved:
+        return {
+            "status": "success",
+            "file_id": file_id,
+            "file_name": saved.file_name,
+            "extraction": saved.extraction,
+        }
 
     result = get_user_file_path(user_uid, file_id)
     if not result:
@@ -1462,20 +1566,18 @@ async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db
     text = extract_text_from_pdf_bytes(file_bytes)
     metadata = extract_document_metadata(text)
 
-    saved = save_extraction(db, file_id, user_uid, metadata)
     if not metadata.get("ok"):
         raise HTTPException(status_code=500, detail="Metadata extraction failed")
 
-    raw = metadata["metadata"]
+    # Save extraction
+    inserted = save_extraction(db, file_id, user_uid, metadata["metadata"])
 
-    saved = save_extraction(db, file_id, user_uid, raw)
     return {
         "status": "success",
         "file_id": file_id,
         "file_name": entry["original_name"],
-        "extraction": saved.extraction
+        "extraction": inserted.extraction
     }
-
 
 if __name__ == "__main__":
     import uvicorn

@@ -2,6 +2,8 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, J
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
+from pydantic import BaseModel
+from typing import Optional, Literal
 
 from src.api.db import Base
 
@@ -29,6 +31,7 @@ class FileExtraction(Base):
     file_id = Column(String, index=True)
     user_uid = Column(String, index=True)
     extraction = Column(JSON)
+    file_name = Column(String)  
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -132,3 +135,17 @@ class FileHubFile(Base):
     used_for = Column(String)    
     uploaded_at = Column(DateTime, default=datetime.utcnow)
     user = relationship("User")
+
+class Regulation(BaseModel):
+    id: str
+    user_id: str
+    name: str
+    code: Optional[str]
+    region_type: Literal["federal", "state", "city", "global"]
+    region: str
+    category: str
+    risk: str
+    description: str
+    recommended: Optional[bool] = False
+    workspace_status: Literal["default", "added", "removed", "custom"] = "default"
+    source: Optional[str]

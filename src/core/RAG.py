@@ -1,38 +1,262 @@
+# import os
+# import uuid
+# import re
+# from PyPDF2 import PdfReader
+# from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
+
+# try:
+#     from src.core.client import get_llm
+# except Exception:
+#     get_llm = None
+
+# def split_into_sentences(text: str):
+#     if not text:
+#         return []
+#     sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
+#     return [s.strip() for s in sentences if s and s.strip()]
+
+# def chunk_sentences(sentences, max_sentences=3):
+#     chunks = []
+#     current = []
+#     for s in sentences:
+#         if len(current) >= max_sentences:
+#             chunks.append(" ".join(current))
+#             current = []
+#         current.append(s)
+#     if current:
+#         chunks.append(" ".join(current))
+#     return chunks
+
+# # LLM fallback
+# USE_CENTRALIZED_LLM = False
+# try:
+#     from src.core.compliance_narratives import generate_gap_summary
+#     USE_CENTRALIZED_LLM = True
+# except Exception:
+#     try:
+#         from llm.compliance_narratives import generate_gap_summary
+#         USE_CENTRALIZED_LLM = True
+#     except Exception:
+#         USE_CENTRALIZED_LLM = False
+
+# OpenAI = None
+# if not USE_CENTRALIZED_LLM:
+#     try:
+#         from openai import OpenAI
+#     except:
+#         OpenAI = None
+
+
+# class ComplianceChecker:
+#     def __init__(self, pdf_path, regulations, collection_name="policies",
+#                  compliance_threshold=0.60, top_k=1):
+
+#         self.pdf_path = pdf_path
+#         self.regulations = regulations
+#         self.collection_name = collection_name
+#         self.compliance_threshold = compliance_threshold
+#         self.top_k = top_k
+
+#         # Fallback LLM
+#         if not USE_CENTRALIZED_LLM:
+#             key = os.environ.get("OPENAI_API_KEY")
+#             if not key:
+#                 raise ValueError("❌ Missing OPENAI_API_KEY")
+#             self.llm_client = OpenAI(api_key=key)
+
+#         # ---- Chroma 0.4.x client (Windows-safe) ----
+#         from chromadb import Client
+#         from chromadb.config import Settings
+
+#         self.chroma_client = Client(
+#             Settings(
+#                 chroma_api_impl="rest",
+#                 chroma_server_host="localhost",
+#                 chroma_server_http_port=8001,
+#             )
+#         )
+
+#         embedding_fn = OpenAIEmbeddingFunction(
+#             api_key=os.environ["OPENAI_API_KEY"],
+#             model_name="text-embedding-3-small"
+#         )
+
+#         # Create or load the collection
+#         self.collection = self.chroma_client.get_or_create_collection(
+#             name=self.collection_name,
+#             embedding_function=embedding_fn,
+#             metadata={"hnsw:space": "cosine"},
+#         )
+
+#         # Load and store PDF chunks
+#         self.policies = self.read_pdf_and_chunk()
+#         if self.collection.count() == 0:
+#             self.collection.add(
+#                 ids=[str(uuid.uuid4()) for _ in self.policies],
+#                 documents=self.policies,
+#                 metadatas=[{"chunk": i} for i in range(len(self.policies))]
+#             )
+#             print(f"Inserted {len(self.policies)} chunks into `{self.collection_name}`")
+
+#     def read_pdf_and_chunk(self, max_sentences=3):
+#         if not os.path.exists(self.pdf_path):
+#             raise FileNotFoundError(f"PDF not found: {self.pdf_path}")
+
+#         reader = PdfReader(self.pdf_path)
+#         text = ""
+
+#         for page in reader.pages:
+#             page_text = page.extract_text()
+#             if page_text:
+#                 text += page_text + " "
+
+#         sentences = split_into_sentences(text)
+#         chunks = chunk_sentences(sentences, max_sentences)
+#         return chunks
+
+#     def _extract_content_from_completion(self, completion):
+#         try:
+#             if hasattr(completion, "choices"):
+#                 msg = completion.choices[0].message
+#                 if hasattr(msg, "content"):
+#                     return msg.content.strip()
+#         except:
+#             pass
+#         return None
+
+#     def generate_llm_narrative(self, reg_text, evidence_chunk):
+#         if USE_CENTRALIZED_LLM:
+#             try:
+#                 resp = generate_gap_summary(regulation_text=reg_text,
+#                                             evidence_chunks=[evidence_chunk])
+#                 if resp and resp.get("ok"):
+#                     result = resp["result"]
+#                     summary = result.get("summary", "")
+#                     missing = result.get("missing_items", [])
+#                     confidence = result.get("confidence")
+
+#                     parts = []
+#                     if summary:
+#                         parts.append("GAP SUMMARY: " + summary)
+#                     if missing:
+#                         parts.append("MISSING: " + "; ".join(missing[:5]))
+#                     if confidence is not None:
+#                         parts.append(f"CONFIDENCE: {confidence}")
+
+#                     return " | ".join(parts)
+#             except:
+#                 pass
+
+#         # fallback
+#         prompt = f"""
+# You are a compliance analyst. Compare:
+
+# REGULATION: {reg_text}
+
+# EVIDENCE: {evidence_chunk[:400]}
+
+# Return ONE sentence describing the compliance gap.
+# """
+
+#         try:
+#             completion = self.llm_client.chat.completions.create(
+#                 model="gpt-4.1-mini",
+#                 messages=[{"role": "user", "content": prompt}],
+#                 max_tokens=150,
+#                 temperature=0.3
+#             )
+#             content = self._extract_content_from_completion(completion)
+#             return "GAP SUMMARY: " + (content or "No summary available.")
+#         except Exception as e:
+#             return f"LLM ERROR: {e}"
+
+#     def run_check(self):
+#         results = []
+
+#         for reg in self.regulations:
+#             reg_id = reg["Reg_ID"]
+#             text = reg["Requirement_Text"]
+
+#             query = self.collection.query(
+#                 query_texts=[text],
+#                 n_results=self.top_k
+#             )
+
+#             docs = query["documents"][0]
+#             dists = query["distances"][0]
+
+#             if not docs:
+#                 results.append({
+#                     "Reg_ID": reg_id,
+#                     "Compliance_Score": 0,
+#                     "Is_Compliant": False,
+#                     "Narrative_Gap": "No matching evidence."
+#                 })
+#                 continue
+
+#             doc = docs[0]
+#             similarity = 1 - dists[0]
+#             is_compliant = similarity >= self.compliance_threshold
+
+#             narrative = ""
+#             if not is_compliant:
+#                 narrative = self.generate_llm_narrative(text, doc)
+
+#             results.append({
+#                 "Reg_ID": reg_id,
+#                 "Compliance_Score": similarity * 100,
+#                 "Evidence_Chunk": doc,
+#                 "Is_Compliant": is_compliant,
+#                 "Narrative_Gap": narrative
+#             })
+
+#         return results
+
+#     def dashboard_summary(self, compliance_results, industry=None):
+#         total = len(compliance_results)
+#         gaps = [r for r in compliance_results if not r["Is_Compliant"]]
+
+#         score = ((total - len(gaps)) / total * 100) if total else 0
+
+#         return {
+#             "status": "success",
+#             "industry": industry,
+#             "regulations_checked": total,
+#             "compliance_score": round(score, 2),
+#             "gaps": gaps[:3]
+#         }
+
+
+# if __name__ == "__main__":
+#     REGULATION_LIBRARY = [
+#         {
+#             "Reg_ID": "HIPAA-164.312(b)",
+#             "Requirement_Text": "Audit controls protecting ePHI must be implemented.",
+#             "Risk_Rating": "High"
+#         }
+#     ]
+
+#     checker = ComplianceChecker("test_policy.pdf", REGULATION_LIBRARY)
+#     results = checker.run_check()
+#     print(results)
+
 import os
 import uuid
 import re
-import chromadb
-import math
-from datetime import datetime, timezone
 from PyPDF2 import PdfReader
 
-# --- Helpers required by scripts/reindex_chroma.py and others ---
-
-try:
-    from src.core.client import get_llm
-except Exception:
-    try:
-        from src.core.client import get_llm
-    except Exception:
-        get_llm = None
-
+from qdrant_client import QdrantClient
+from qdrant_client.http import models as qmodels
+from openai import OpenAI
 
 def split_into_sentences(text: str):
-    """
-    Return list of sentences using the same pattern used in the class.
-    Re-usable by scripts that want to chunk the PDF text.
-    """
     if not text:
         return []
     sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
-    return [s.strip() for s in sentences if s and s.strip()]
+    return [s.strip() for s in sentences if s.strip()]
 
 
 def chunk_sentences(sentences, max_sentences=3):
-    """
-    Group a list of sentences into ~max_sentences-per-chunk strings.
-    Returns list of chunk strings.
-    """
     chunks = []
     current = []
     for s in sentences:
@@ -44,402 +268,190 @@ def chunk_sentences(sentences, max_sentences=3):
         chunks.append(" ".join(current))
     return chunks
 
-
-def is_informative_chunk(chunk: str, min_chars: int = 30):
-    """
-    Heuristic filter to drop empty/boilerplate chunks.
-    You can adjust min_chars if you want stricter filtering.
-    """
-    if not chunk:
-        return False
-    c = chunk.strip()
-    if len(c) < min_chars:
-        return False
-    # drop chunks that look like page numbers or copyright lines
-    low = c.lower()
-    if low.isdigit() or low.startswith("page ") or "copyright" in low:
-        return False
-    return True
-
-
-def create_embeddings_batch(text_batch, model_name="text-embedding-3-small"):
-    """
-    Create embeddings for a batch (list) of strings.
-    Strategy:
-      1. If src.core.client.get_llm() exists and returns a client, call client.embeddings.create(...)
-      2. Else, if sentence-transformers is installed, use it as fallback (local embeddings)
-      3. Otherwise raise a clear error.
-    Returns: list of embeddings (list of lists/floats) in same order as text_batch.
-    """
-    if not isinstance(text_batch, (list, tuple)):
-        raise ValueError("text_batch must be a list of strings")
-
-    # Try OpenAI via centralized client
-    if get_llm is not None:
-        client = get_llm()
-        if client is not None:
-            try:
-                resp = client.embeddings.create(model=model_name, input=text_batch)
-                # resp may be an object with .data list of {embedding: [...]}
-                data = getattr(resp, "data", None) or (resp.get("data", None) if isinstance(resp, dict) else None)
-                if data:
-                    embs = []
-                    for item in data:
-                        if hasattr(item, "embedding"):
-                            embs.append(list(item.embedding))
-                        elif isinstance(item, dict) and "embedding" in item:
-                            embs.append(item["embedding"])
-                        else:
-                            raise RuntimeError("Could not parse embedding item from OpenAI response")
-                    return embs
-            except Exception as e:
-                try:
-                    import logging
-                    logging.getLogger(__name__).exception("OpenAI embeddings call failed: %s", e)
-                except Exception:
-                    pass
-
-    # Fallback: sentence-transformers if available
-    try:
-        from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer("all-mpnet-base-v2")
-        embs = model.encode(text_batch, convert_to_numpy=False, show_progress_bar=False)
-        return [list(e) for e in embs]
-    except Exception:
-        pass
-
-    # Last resort: helpful error
-    raise RuntimeError(
-        "No embeddings backend available. Install 'sentence-transformers' or set OPENAI_API_KEY and ensure src.core.client.get_llm() is available."
-    )
-# --- end helpers ---
-
-
-# Try to import centralized LLM helper. If available use it; otherwise fall back to inline OpenAI client.
-USE_CENTRALIZED_LLM = False
-try:
-    # preferred centralized helper (adjust depending on package layout)
-    from src.core.compliance_narratives import generate_gap_summary
-    USE_CENTRALIZED_LLM = True
-except Exception:
-    try:
-        # fallback to direct llm package path (if you used llm/ earlier)
-        from llm.compliance_narratives import generate_gap_summary
-        USE_CENTRALIZED_LLM = True
-    except Exception:
-        USE_CENTRALIZED_LLM = False
-
-# Import OpenAI only if needed for fallback behavior.
-OpenAI = None
-if not USE_CENTRALIZED_LLM:
-    try:
-        from openai import OpenAI
-    except Exception:
-        OpenAI = None  # will raise later if needed
-
-
 class ComplianceChecker:
-    def __init__(self, pdf_path, regulations, collection_name="policies",
-                 compliance_threshold=0.60, top_k=1):
+    
+    print(">>> USING THIS ComplianceChecker FILE <<<")
+    def __init__(
+        self,
+        pdf_path,
+        regulations,
+        base_collection_name="policies",
+        compliance_threshold=0.60,
+        top_k=1,
+    ):
         self.pdf_path = pdf_path
         self.regulations = regulations
-        self.collection_name = collection_name
         self.compliance_threshold = compliance_threshold
         self.top_k = top_k
 
-        
-        self.llm_client = None
-        if not USE_CENTRALIZED_LLM:
-            openai_key = os.environ.get("OPENAI_API_KEY")
-            if not openai_key:
-                raise ValueError("❌ OPENAI_API_KEY is not set in environment!")
-            if OpenAI is None:
-                raise ImportError("openai package not installed but OPENAI_API_KEY is required for inline LLM fallback.")
-            self.llm_client = OpenAI(api_key=openai_key)
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("Missing OPENAI_API_KEY")
+        self.openai = OpenAI(api_key=api_key)
 
-        # ChromaDB setup
-        self.chroma_client = chromadb.Client()
-        self.collection = self.chroma_client.get_or_create_collection(
-            name=self.collection_name,
-            metadata={"hnsw:space": "cosine"}
-        )
+        qdrant_url = os.getenv("QDRANT_URL")
+        qdrant_api = os.getenv("QDRANT_API_KEY")
 
-        # Load and insert policy text
-        self.policies = self.read_pdf_and_chunk()
-        if self.collection.count() == 0:
-            self.collection.add(
-                ids=[str(uuid.uuid4()) for _ in self.policies],
-                documents=self.policies,
-                metadatas=[{"chunk": i} for i in range(len(self.policies))]
-            )
-            print(f"Inserted {len(self.policies)} chunks into Chroma collection '{self.collection_name}'.")
+        if not qdrant_url:
+            raise ValueError("Missing QDRANT_URL")
+        if not qdrant_api:
+            raise ValueError("Missing QDRANT_API_KEY")
+
+        self.qdrant = QdrantClient(url=qdrant_url, api_key=qdrant_api)
+
+        self.collection_name = f"{base_collection_name}_{uuid.uuid4()}"
+        print(f"📌 Creating temp Qdrant collection: {self.collection_name}")
+
+        self.policy_chunks = self.read_pdf_and_chunk()
+
+
+        self._create_and_index_collection()
+
+        self.regulation_cache = {}
+        self._cache_regulation_embeddings()
 
     def read_pdf_and_chunk(self, max_sentences=3):
-        """Read PDF and return list of ~3-sentence chunks."""
         if not os.path.exists(self.pdf_path):
-            raise FileNotFoundError(f"PDF not found at: {self.pdf_path}")
+            raise FileNotFoundError(self.pdf_path)
 
         reader = PdfReader(self.pdf_path)
         text = ""
+
         for page in reader.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text + " "
+            txt = page.extract_text()
+            if txt:
+                text += txt + " "
 
-        # Split into sentences and group into chunks
-        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
-        chunks, current_chunk = [], []
-        for sentence in sentences:
-            sentence = sentence.strip()
-            if not sentence:
-                continue
-            if len(current_chunk) >= max_sentences:
-                chunks.append(" ".join(current_chunk))
-                current_chunk = []
-            current_chunk.append(sentence)
-        if current_chunk:
-            chunks.append(" ".join(current_chunk))
-        return chunks
+        sentences = split_into_sentences(text)
+        return chunk_sentences(sentences, max_sentences)
+    def embed(self, texts):
+        res = self.openai.embeddings.create(
+            model="text-embedding-3-small",
+            input=texts
+        )
+        return [d.embedding for d in res.data]
 
-    def _extract_content_from_completion(self, completion):
-        """
-        Robustly extract the text content from various OpenAI SDK response shapes.
-        Returns string content or None.
-        """
-        try:
-            # New SDK object pattern: completion.choices[0].message.content
-            if hasattr(completion, "choices") and len(completion.choices) > 0:
-                choice = completion.choices[0]
-                # Try attribute `message` (object) first
-                msg = getattr(choice, "message", None)
-                if msg is not None:
-                    content = getattr(msg, "content", None) or getattr(msg, "text", None)
-                    if content:
-                        return str(content).strip()
-                # Try `text` attribute on choice
-                text_attr = getattr(choice, "text", None)
-                if text_attr:
-                    return str(text_attr).strip()
-                # Try to_dict on choice
-                if hasattr(choice, "to_dict"):
-                    d = choice.to_dict()
-                    msg = d.get("message") or {}
-                    if isinstance(msg, dict) and msg.get("content"):
-                        return str(msg.get("content")).strip()
-                    if d.get("text"):
-                        return str(d.get("text")).strip()
 
-            # If completion is a dict-like structure
-            if isinstance(completion, dict):
-                ch = completion.get("choices", [{}])[0]
-                # message might be nested
-                msg = ch.get("message") or ch.get("text") or {}
-                if isinstance(msg, dict) and msg.get("content"):
-                    return str(msg.get("content")).strip()
-                if isinstance(ch, dict) and ch.get("text"):
-                    return str(ch.get("text")).strip()
+    def _create_and_index_collection(self):
+        print("📌 Embedding & indexing PDF chunks...")
 
-            # Fallback: try to stringify
-            return None
-        except Exception:
-            return None
+        # Embed PDF chunks ONCE
+        embeddings = self.embed(self.policy_chunks)
+        dim = len(embeddings[0])
 
-    def generate_llm_narrative(self, reg_text, evidence_chunk):
-        """
-        Generate compliance gap narrative with LLM.
-        Behavior:
-          - If centralized helper `generate_gap_summary` is available, call it and format result.
-          - Otherwise fall back to original inline OpenAI call (preserves current prompts and behavior).
-        """
-        # If we have centralized helper available, use it first
-        if USE_CENTRALIZED_LLM:
-            try:
-                resp = generate_gap_summary(regulation_text=reg_text, evidence_chunks=[evidence_chunk])
-                if resp and resp.get("ok"):
-                    result = resp.get("result") or {}
-                    summary = result.get("summary") or ""
-                    missing = result.get("missing_items", [])
-                    confidence = result.get("confidence", None)
-                    parts = []
-                    if summary:
-                        parts.append("GAP SUMMARY: " + summary.strip())
-                    if missing:
-                        parts.append("MISSING: " + "; ".join(missing[:5]))
-                    if confidence is not None:
-                        parts.append(f"CONFIDENCE: {confidence}")
-                    return " | ".join([p for p in parts if p])
-                else:
-                    # If helper returned an error, include that info but fall through to inline fallback if available
-                    helper_err = resp.get("error") if isinstance(resp, dict) else "LLM helper returned falsey response"
-                    # Fall back to inline OpenAI only if configured
-                    if self.llm_client is None:
-                        return f"LLM helper error: {helper_err}"
-                    # else fall through to inline call below
-            except Exception as e:
-                # If helper fails unexpectedly, fall back to inline call if present; otherwise return error.
-                if self.llm_client is None:
-                    return f"LLM helper exception: {e}"
-                # else proceed to inline fallback
-
-        # Inline fallback (preserve original behavior)
-        prompt = f"""
-You are a compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE
-and state the compliance GAP in one clear sentence.
-
-REGULATION: "{reg_text}"
-
-POLICY EVIDENCE: "{evidence_chunk[:500]}"
-
-GAP SUMMARY:
-"""
-        try:
-            # Ensure llm_client exists for fallback (it was created in __init__ when centralized helper absent)
-            if not getattr(self, "llm_client", None):
-                return "LLM Error: no LLM helper available and OpenAI client not initialized."
-            completion = self.llm_client.chat.completions.create(
-                model="gpt-4.1-mini",
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=150,
-                temperature=0.3
+        # Create collection
+        self.qdrant.create_collection(
+            collection_name=self.collection_name,
+            vectors_config=qmodels.VectorParams(
+                size=dim,
+                distance=qmodels.Distance.COSINE,
             )
-            content = self._extract_content_from_completion(completion)
-            if content:
-                # prepend label for clarity (keeps previous behavior)
-                if not content.lower().startswith("gap summary"):
-                    content = "GAP SUMMARY: " + content
-                return content
-            # fallback: return a compact debug repr
-            try:
-                # try to get a readable repr of the first choice
-                if hasattr(completion, "choices") and len(completion.choices) > 0:
-                    return f"LLM API Error: unexpected choice shape; repr: {repr(completion.choices[0])[:400]}"
-                return "LLM API Error: no content returned"
-            except Exception as e:
-                return f"LLM API Error: {e}"
-        except Exception as e:
-            return f"LLM API Error: {e}"
+        )
 
-    def run_check(self):
-        compliance_results = []
-        for reg in self.regulations:
-            reg_id = reg.get("Reg_ID")
-            query_text = reg.get("Requirement_Text", "")
-            result = self.collection.query(query_texts=[query_text], n_results=self.top_k)
-            docs = result["documents"][0] if result.get("documents") else []
-            dists = result["distances"][0] if result.get("distances") else []
-            metas = result.get("metadatas", [[]])[0] if result.get("metadatas") else [{} for _ in docs]
-
-            if not docs:
-                # still record the requirement with no matching evidence (optional)
-                compliance_results.append({
-                    "Reg_ID": reg_id,
-                    "Risk_Rating": reg.get("Risk_Rating"),
-                    "Target_Area": reg.get("Target_Area"),
-                    "Dow_Focus": reg.get("Dow_Focus"),
-                    "Compliance_Score": 0.0,
-                    "Evidence_Chunk": None,
-                    "Is_Compliant": False,
-                    "Narrative_Gap": "No evidence found in policy documents."
-                })
-                continue
-
-            for rank, (doc, dist, meta) in enumerate(zip(docs, dists, metas), start=1):
-                try:
-                    similarity = 1 - float(dist)
-                except Exception:
-                    # if dist is missing or not numeric, treat as low similarity
-                    similarity = 0.0
-                score_percent = similarity * 100
-                is_compliant = similarity >= float(self.compliance_threshold)
-
-                narrative = ""
-                if not is_compliant:
-                    narrative = self.generate_llm_narrative(query_text, doc)
-
-                compliance_results.append({
-                    "Reg_ID": reg_id,
-                    "Risk_Rating": reg.get('Risk_Rating'),
-                    "Target_Area": reg.get('Target_Area'),
-                    "Dow_Focus": reg.get('Dow_Focus'),
-                    "Compliance_Score": score_percent,
-                    "Evidence_Chunk": doc,
-                    "Is_Compliant": is_compliant,
-                    "Narrative_Gap": narrative
-                })
-        return compliance_results
-
-    def dashboard_summary(self, compliance_results, industry=None):
-        total_requirements = len(compliance_results)
-        gaps = [r for r in compliance_results if not r.get('Is_Compliant')]
-
-        # safe gap details
-        gap_details = [
-            {
-                "Reg_ID": g.get('Reg_ID'),
-                "Risk_Rating": g.get("Risk_Rating"),
-                "Score": g.get("Compliance_Score"),
-                "Narrative": g.get("Narrative_Gap")
-            }
-            for g in gaps
+        # Upsert chunks
+        points = [
+            qmodels.PointStruct(
+                id=str(uuid.uuid4()),
+                vector=embeddings[i],
+                payload={"text": self.policy_chunks[i], "chunk": i}
+            )
+            for i in range(len(self.policy_chunks))
         ]
 
-        overall_compliance = ((total_requirements - len(gaps)) / total_requirements * 100) if total_requirements else 0
+        self.qdrant.upsert(collection_name=self.collection_name, points=points)
+        print(f"✔ Indexed {len(points)} chunks")
 
-        # safe, case-insensitive count of high/critical risk gaps
-        def is_high_risk(risk_val):
-            if not risk_val:
-                return False
-            rv = str(risk_val).lower()
-            return ("critical" in rv) or ("high" in rv)
-
-        high_risk_count = sum(1 for g in gaps if is_high_risk(g.get("Risk_Rating")))
-
-        return {
-            "status": "success",
-            "action": "RAG Compliance Check",
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "industry": industry,
-            "regulations_checked": total_requirements,
-            "compliance_score": round(overall_compliance, 2),
-            "high_risk_gaps": high_risk_count,
-            "gap_details": gap_details[:3],  # only top 3 for quick viewing
-            "details": (
-                f"RAG check complete. Score: {overall_compliance:.2f}%. "
-                f"Gaps found: {len(gaps)}. "
-                f"High risk gaps: {high_risk_count}."
+    def _cache_regulation_embeddings(self):
+        for reg in self.regulations:
+            text = (
+                reg.get("Requirement_Text")
+                or reg.get("text")
+                or reg.get("description")
+                or reg.get("title")
             )
-        }
+            reg_id = reg.get("Reg_ID") or reg.get("id") or reg.get("name")
+
+            if not text:
+                self.regulation_cache[reg_id] = None
+                continue
+
+            emb = self.embed([text])[0]
+            self.regulation_cache[reg_id] = emb
+
+    def generate_gap_summary(self, regulation_text, evidence):
+        prompt = f"""
+You are a compliance analyst. Compare:
+
+Regulation: {regulation_text}
+Evidence: {evidence[:300]}
+
+Describe the compliance gap in ONE sentence.
+"""
+        completion = self.openai.chat.completions.create(
+            model="gpt-4.1-mini",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=120
+        )
+        return completion.choices[0].message.content.strip()
 
 
-# -------------------------------
-# Example usage:
-# -------------------------------
-if __name__ == "__main__":
-    REGULATION_LIBRARY = [
-        {
-            "Reg_ID": "HIPAA-164.312(b)",
-            "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
-            "Risk_Rating": "High (Data Security)",
-            "Target_Area": "Technical Control, Audit/Logging",
-            "Dow_Focus": "Eliminating Issues, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "HIPAA-164.306(a)",
-            "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
-            "Risk_Rating": "High (Data Integrity)",
-            "Target_Area": "Administrative Policy, Data Security",
-            "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "SEC-R404.1",
-            "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
-            "Risk_RATING": "Critical (Financial/Legal)",
-            "Target_Area": "Employee Conduct, Conflict of Interest",
-            "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
-        }
-    ]
+    def run_check(self):
+        results = []
 
-    checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
-    results = checker.run_check()
-    summary = checker.dashboard_summary(results, industry="Finance")
-    print(summary)
+        for reg in self.regulations:
+            reg_id = reg.get("Reg_ID") or reg.get("id") or reg.get("name")
+            text = (
+                reg.get("Requirement_Text")
+                or reg.get("text")
+                or reg.get("description")
+                or reg.get("title")
+            )
+
+            vector = self.regulation_cache.get(reg_id)
+
+            if not text or vector is None:
+                results.append({
+                    "Reg_ID": reg_id,
+                    "Compliance_Score": 0,
+                    "Is_Compliant": False,
+                    "Narrative_Gap": "No regulation text."
+                })
+                continue
+
+            # Qdrant query
+            result = self.qdrant.query_points(
+                collection_name=self.collection_name,
+                query=vector,
+                limit=self.top_k
+            )
+
+            hits = result.points
+            if not hits:
+                results.append({
+                    "Reg_ID": reg_id,
+                    "Compliance_Score": 0,
+                    "Is_Compliant": False,
+                    "Narrative_Gap": "No evidence found."
+                })
+                continue
+
+            best = hits[0]
+            evidence = best.payload["text"]
+
+            # Convert distance→similarity
+            similarity = 1 - best.score
+            compliant = similarity >= self.compliance_threshold
+
+            narrative = ""
+            if not compliant:
+                narrative = self.generate_gap_summary(text, evidence)
+
+            results.append({
+                "Reg_ID": reg_id,
+                "Evidence_Chunk": evidence,
+                "Compliance_Score": round(similarity * 100, 2),
+                "Is_Compliant": compliant,
+                "Narrative_Gap": narrative
+            })
+
+        return results
