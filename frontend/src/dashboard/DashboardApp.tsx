@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import { Box, AppBar, Toolbar, Typography, IconButton } from "@mui/material";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
-import RegulationProfileFormStatic from "./Regulations/RegulationProfileFormStatic";
+import AddRegulationsPage from "./Regulations/RegulationProfileFormStatic";
 import Sidebar from "./styling/sidebar";
 import Filelist from "./File Manager/FileList"
-// Pages
 import RegulationsLibraryPage from "./Regulations/ManageRegulations";
 import FrontPage from "./FrontPage";
 import DocumentAudit from "./UploadFetchTab";
@@ -81,10 +80,9 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="file/:id" element={<FileViewer />} />
         <Route path="FileCard" element={<Typography>FileCard</Typography>} />
 <Route 
-  path="RegulationProfileFormStatic" 
-  element={<RegulationProfileFormStatic />} 
+  path="regmanage" 
+  element={<AddRegulationsPage />} 
 />
-  {/* <Route path="regulations" element={<Typography>RegulationsPage</Typography>} /> */}
 
 
          <Route path="Onboarding" element={<Onboarding />} />

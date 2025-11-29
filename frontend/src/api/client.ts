@@ -39,10 +39,14 @@ export async function fetchWorkspace(user_id: string) {
   return res.data;
 }
 
-// ⭐ Toggle (add/remove) a regulation for a user
 export async function toggleRegulation(user_id: string, reg_id: string) {
-  const res = await apiClient.post(`/api/workspace/${user_id}/toggle/${reg_id}`);
-  return res.data;
+  try {
+    const res = await apiClient.post(`/api/workspace/${user_id}/toggle/${reg_id}`);
+    return res.data;
+  } catch (err: any) {
+    console.error("Toggle regulation failed:", err);
+    throw err;
+  }
 }
 export async function fetchStateRegulations(state: string, query: string) {
   const res = await apiClient.get("/api/regulations/state", {
@@ -50,6 +54,55 @@ export async function fetchStateRegulations(state: string, query: string) {
   });
 
   return res.data.results; // backend returns { results: [...] }
+}
+
+export async function wizardSearch(params: {
+  sourceType: "government" | "state";
+  mode: "topic" | "packageId" | "ruleNumber";
+  query: string;
+  state?: string;
+}) {
+  const res = await apiClient.post("/api/regulations/wizard_search", params);
+
+  if (Array.isArray(res.data)) {
+    return res.data;
+  }
+
+  if (res.data && res.data.results) {
+    return res.data.results;
+  }
+
+  return [];
+}
+
+export async function getLocalPackages() {
+  const res = await apiClient.get("/api/regulations/local/packages");
+  return res.data; // { count, packages }
+}
+export async function getGranulesForPackage(packageId: string) {
+  const res = await apiClient.get(`/api/regulations/local/granules/${packageId}`);
+  return res.data; // { package_id, count, granules }
+}
+export async function localGranuleSearch(query: string) {
+  const res = await apiClient.get("/api/regulations/local_search", {
+    params: { q: query }
+  });
+  return res.data; // { query, results_count, results }
+}
+export async function getAllLocalGranules() {
+  const res = await apiClient.get("/api/regulations/local/granules");
+  return res.data; // { count, granules }
+}
+export async function searchFederalRegulations(query: string) {
+  if (!query || query.trim() === "") {
+    return { error: "Empty query" };
+  }
+
+  const res = await apiClient.get("/api/regulations/search", {
+    params: { q: query },
+  });
+
+  return res.data;
 }
 
 export async function getUserProfile(uid: string): Promise<UserProfile> {
@@ -210,9 +263,6 @@ export async function loginWithFirebaseToken(user: any) {
   console.log("→ uid:", user.uid);
   console.log("→ email:", user.email);
   console.log("→ BASE_URL:", BASE_URL);
-
-
-  // 3️⃣ Return backend response
   return data;
 }
 export async function getCurrentSession() {
@@ -331,6 +381,14 @@ export const getSampleRegulations = async () => {
   const { data } = await apiClient.get("/api/regulations/library");
   return data.library; // returns array of {name, region, description}
 };
+export async function importRegulations(user_uid: string, regulations: any[]) {
+  const res = await apiClient.post("/api/regulations/import", {
+    user_uid,
+    regulations,
+  });
+
+  return res.data;
+}
 
 export const runRagCompliance = async (
   file: File,

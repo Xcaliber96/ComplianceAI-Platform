@@ -26,7 +26,7 @@ export default function AIComplianceChat() {
 
     const userMessage = { role: "user", content: input };
     setMessages((prev) => [...prev, userMessage]);
-    setInput("");
+    setInput("");``
     setLoading(true);
 
     try {

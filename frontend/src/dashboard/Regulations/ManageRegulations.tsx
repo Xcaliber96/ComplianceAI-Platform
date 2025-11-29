@@ -19,6 +19,7 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
+
 type RegulationCategory =
   | "Privacy"
   | "Security"
@@ -62,6 +63,7 @@ const categories: (RegulationCategory | "All categories")[] = [
   "Government",
 ];
 
+
 export default function RegulationsLibraryPage() {
   const [regulations, setRegulations] = useState<Regulation[]>([]);
   const [search, setSearch] = useState("");
@@ -72,33 +74,19 @@ export default function RegulationsLibraryPage() {
 const [showCustomModal, setShowCustomModal] = useState(false);
   const [activeId, setActiveId] = useState<string>("");
 
-useEffect(() => {
-  async function load() {
-    const userId = "test-user"; // TODO replace
+async function reload() {
+  const userId = "test-user";
+  const ws = await fetchWorkspace(userId);
 
-    // 1. Load user workspace
-    const ws = await fetchWorkspace(userId);
+  setRegulations(ws);
 
-    // 2. Load state results
-    const stateRegs = await fetchStateRegulations("michigan", "tax");
-
-    // 3. Merge workspace status
-    const merged = stateRegs.map((reg) => {
-      const match = ws.find((w) => w.id === reg.id);
-      return {
-        ...reg,
-        workspace_status: match ? match.workspace_status : "default",
-      };
-    });
-
-    setRegulations(merged);
-
-    if (merged.length > 0) setActiveId(merged[0].id);
+  if (ws.length > 0) {
+    setActiveId(ws[0].id);
   }
-
-  load();
-}, []);
-
+}
+  useEffect(() => {
+    reload();
+  }, []);
   const activeRegulation = useMemo(
     () => regulations.find((r) => r.id === activeId) ?? null,
     [regulations, activeId]
@@ -121,25 +109,22 @@ useEffect(() => {
   }, [search, regionFilter, categoryFilter, regulations]);
 
 const handleToggle = async (regId: string) => {
-  const userId = "test-user"; // TODO: replace with real user.uid
+  const userId = "test-user";
 
-  await toggleRegulation(userId, regId);
+  // backend returns {status: "added" | "removed"}
+  const res = await toggleRegulation(userId, regId);
 
-  // Reload workspace
-  const ws = await fetchWorkspace(userId);
+  const newStatus = res.status;
 
-  // Merge workspace data into state regulations
-  const merged = regulations.map((reg) => {
-    const match = ws.find((w) => w.id === reg.id);
-    return {
-      ...reg,
-      workspace_status: match ? match.workspace_status : "default",
-    };
-  });
+  // Update only the toggled regulation locally (fast)
+  const updated = regulations.map((reg) =>
+    reg.id === regId
+      ? { ...reg, workspace_status: newStatus }
+      : reg
+  );
 
-  setRegulations(merged);
+  setRegulations(updated);
 };
-
   return (
     <div className="flex h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-sans">
       <main className="flex-1 p-10 flex flex-col gap-8 max-w-6xl mx-auto w-full">
