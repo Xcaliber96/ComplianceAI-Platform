@@ -11,13 +11,30 @@ from fastapi import (
     APIRouter,
     Query,
 )
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.gov_reg.local_search import (
+    get_package_ids,
+    load_granules_for_package,
+    load_all_granules,
+    search_granules_in_package,
+    search_local_granules,
+)
+
+
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.state_regulations.state_engine  import normalize_regulation
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.core.store_file_data import save_extraction
-from src.core.regulations.state_regulations.state_engine import search_state_regulations
+from src.core.regulations.state_regulations.state_engine import search_state_regulations,normalize_regulation
 from src.api.models import FileExtraction
 from apscheduler.schedulers.background import BackgroundScheduler
+
+from src.core.regulations.gov_reg.package_cache import (
+    refresh_package_cache,
+    get_cached_packages,
+)
 
 import os
 import sys
@@ -195,6 +212,149 @@ def store_user_if_new(uid, email):
         print(f"[DB ERROR] store_user_if_new failed: {e}")
     finally:
         db.close()
+
+class RegulationImport(BaseModel):
+    id: str
+    name: str
+    code: str | None
+    region: str | None
+    category: str | None
+    description: str | None
+    source: str | None
+
+
+class ImportRequest(BaseModel):
+    regulations: list[RegulationImport]
+    
+@app.post("/api/regulations/import")
+def import_regulations(payload: dict, db: Session = Depends(get_db)):
+    user_uid = payload.get("user_uid", "test-user")
+    regulations = payload.get("regulations", [])
+    print("🚨 IMPORT PAYLOAD:", payload)
+
+    if not regulations:
+        return {"error": "No regulations provided"}
+
+    created_ids = []
+
+    for reg in regulations:
+
+        # check if it already exists for that user
+        existing = (
+            db.query(WorkspaceRegulation)
+              .filter(
+                  WorkspaceRegulation.user_uid == user_uid,
+                  WorkspaceRegulation.regulation_id == reg["id"]
+              )
+              .first()
+        )
+
+        if existing:
+            # skip duplicate entry
+            continue
+
+        # create new mapping entry
+        entry = WorkspaceRegulation(
+            regulation_id = reg["id"],
+            user_uid = user_uid,
+            workspace_status = "added",
+            name = reg.get("name"),
+            code = reg.get("code"),
+            region = reg.get("region"),
+            category = reg.get("category"),
+            risk = reg.get("risk"),
+            description = reg.get("description"),
+            recommended = reg.get("recommended", False),
+            source = reg.get("source"),
+        )
+
+        db.add(entry)
+        created_ids.append(reg["id"])
+
+    db.commit()
+
+    return {
+        "success": True,
+        "added": created_ids,
+        "count": len(created_ids)
+    }
+
+@app.get("/api/state/search")
+async def api_state_search(state: str, query: str):
+    try:
+        raw = search_state_regulations(state, query)
+        normalized = [normalize_regulation(r) for r in raw]
+        return {"results": normalized}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    
+    regs = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": r.regulation_id,      # IMPORTANT — frontend expects "id"
+            "workspace_status": r.workspace_status,
+            "name": r.name,
+            "code": r.code,
+            "region": r.region,
+            "category": r.category,
+            "risk": r.risk,
+            "description": r.description,
+            "recommended": r.recommended,
+            "source": r.source,
+        }
+        for r in regs
+    ]
+
+@app.post("/api/regulations/wizard_search")
+def wizard_search(payload: dict):
+    source_type = payload.get("sourceType")
+    query = payload.get("query", "")
+    mode = payload.get("mode", "")
+    state = payload.get("state", "michigan")
+
+    if not query:
+        return {"error": "Missing query"}
+
+    if source_type == "state":
+        raw = search_state_regulations(state, query)
+        return raw
+
+    source = payload.get("sourceType")
+    mode = payload.get("mode")
+    query = payload.get("query")
+
+    # Utility: convert a granule to frontend shape
+    def map_granule(g):
+        return {
+            "id": g.get("granuleId"),
+            "name": g.get("title"),
+            "code": g.get("cfrCitation"),
+            "region": "Federal",
+            "category": g.get("type"),
+            "risk": None,
+            "description": g.get("summary"),
+            "source": ", ".join(g.get("agencyNames", [])) if g.get("agencyNames") else "Federal Register",
+        }
+
+    if source == "government" and mode == "topic":
+        data = search_local_granules(query)
+        return [map_granule(x) for x in data]
+
+    # --- PACKAGE ID SEARCH ---
+    if source == "government" and mode == "packageId":
+        data = load_granules_for_package(query)
+        return [map_granule(x) for x in data]
+
+    return []
+
 @app.get("/api/users/profile/{uid}")
 def get_user_profile(uid: str, db: Session = Depends(get_db)):
     """
@@ -214,21 +374,129 @@ def get_user_profile(uid: str, db: Session = Depends(get_db)):
         "department": user.department or "",
         "industry": user.industry or "",
     }
+@app.get("/api/regulations/local/granules")
+def api_all_granules():
+    data = load_all_granules()
+    return {
+        "count": len(data),
+        "granules": data
+    } 
+@app.get("/api/regulations/local_search")
+def local_regulation_search(q: str = Query(..., description="Search topic across local granules")):
 
-@app.post("/api/workspace/{user_id}/toggle/{reg_id}")
-def toggle(user_id: str, reg_id: str):
-    item = db.find_one({"id": reg_id, "user_id": user_id})
+    try:
+        results = search_local_granules(q)
+        return {"query": q,"results_count": len(results), "results": results,}
+    except Exception as e:
+        return JSONResponse( content={"error": str(e)},status_code=500 )
+@app.on_event("startup")
+def startup_events():
+    print("[Startup] Building Federal Register cache…")
+    refresh_package_cache()
+    print("[Startup] Launching 24h refresher...")
+    threading.Thread(target=cache_refresher, daemon=True).start()
 
-    if not item:
-        raise HTTPException(404, "Regulation not found for this user")
 
-    if item["workspace_status"] == "added":
-        item["workspace_status"] = "removed"
+@app.get("/api/regulations/local/granules/{package_id}")
+def list_package_granules(package_id: str):
+    data = load_granules_for_package(package_id)
+
+    return {
+        "package_id": package_id,
+        "count": len(data),
+        "granules": data
+    }
+
+@app.get("/api/regulations/local/packages")
+def list_local_packages():
+    ids = get_package_ids()
+    return {
+        "count": len(ids),
+        "packages": ids
+    }
+
+
+@app.get("/api/regulations/search")
+def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, or doc number")):
+    """
+    Unified regulation search across:
+    - Federal Register topics
+    - GovInfo package IDs
+    - CFR citations
+    - Document numbers
+    """
+    try:
+        result = route(q)
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    items = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": item.regulation_id,
+            "workspace_status": item.workspace_status,
+            "name": item.name,
+            "code": item.code,
+            "region": item.region,
+            "category": item.category,
+            "risk": item.risk,
+            "description": item.description,
+            "recommended": item.recommended,
+            "source": item.source,
+        }
+        for item in items
+    ]
+
+import threading
+import time
+
+def cache_refresher():
+    while True:
+        time.sleep(60 * 60 * 24)  # 24 hours
+        print("[CacheRefresher] Refreshing Federal Register package cache...")
+        refresh_package_cache()
+
+
+@app.post("/api/workspace/{user_uid}/toggle/{regulation_id}")
+def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(get_db)):
+    item = (
+        db.query(WorkspaceRegulation)
+        .filter(
+            WorkspaceRegulation.regulation_id == regulation_id,
+            WorkspaceRegulation.user_uid == user_uid
+        )
+        .first()
+    )
+
+    if item:
+        item.workspace_status = (
+            "removed" if item.workspace_status == "added" else "added"
+        )
     else:
-        item["workspace_status"] = "added"
+        item = WorkspaceRegulation(
+            regulation_id=regulation_id,
+            user_uid=user_uid,
+            workspace_status="added"
+        )
+        db.add(item)
 
-    db.update(item)
-    return item
+    db.commit()
+    db.refresh(item)
+
+    # ⭐ ONLY RETURN WHAT FRONTEND NEEDS
+    return {"status": item.workspace_status}
+
     
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
@@ -301,13 +569,11 @@ async def session_login(request: Request, response: Response):
     return {"status": "success", "email": email, "uid": uid}
 
 @app.get("/api/regulations/state")
-def api_state_regulations(
-    state: str = Query(...),
-    q: str = Query(...)
-):
+def api_state_regulations(state: str, q: str):
     try:
-        results = search_state_regulations(state, q)
-        return JSONResponse({"state": state, "query": q, "results": results})
+        raw = search_state_regulations(state, q)
+        results = [normalize_regulation(r) for r in raw]
+        return {"state": state, "query": q, "results": results}
     except Exception as e:
         return JSONResponse({"error": str(e)}, status_code=400)
 
@@ -1428,12 +1694,12 @@ def get_regulation_library():
                     })
             return {"library": library}
 
-        # Unknown format
         raise HTTPException(status_code=500, detail="Invalid regulations JSON format")
 
     except Exception as e:
         print("REGULATIONS ERROR:", e)
         raise HTTPException(status_code=500, detail="Failed to load regulations")
+
 @app.get("/")
 async def root():
     # return {"status": "online", "service": "ComplianceAI Platform API", "monitoring": "active"}

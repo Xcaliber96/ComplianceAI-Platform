@@ -5,6 +5,7 @@ from src.core.regulations.state_regulations.state_michigan import (
     is_michigan_rule_number,
     format_michigan_rule,
 )
+from uuid import uuid4
 
 def main():
     query = input("Enter Michigan rule number or topic: ").strip()

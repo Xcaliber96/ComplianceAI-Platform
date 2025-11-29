@@ -136,16 +136,28 @@ class FileHubFile(Base):
     uploaded_at = Column(DateTime, default=datetime.utcnow)
     user = relationship("User")
 
-class Regulation(BaseModel):
-    id: str
-    user_id: str
-    name: str
-    code: Optional[str]
-    region_type: Literal["federal", "state", "city", "global"]
-    region: str
-    category: str
-    risk: str
-    description: str
-    recommended: Optional[bool] = False
-    workspace_status: Literal["default", "added", "removed", "custom"] = "default"
-    source: Optional[str]
+class WorkspaceRegulation(Base):
+    __tablename__ = "workspace_regulations"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+
+    # ID of the regulation (string from frontend)
+    regulation_id = Column(String, index=True)
+
+    # Owner (user)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+
+    # "added", "removed", "custom"
+    workspace_status = Column(String, default="added")
+
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    # Optional: store metadata for custom regulations
+    name = Column(String, nullable=True)
+    code = Column(String, nullable=True)
+    region = Column(String, nullable=True)
+    category = Column(String, nullable=True)
+    risk = Column(String, nullable=True)
+    description = Column(String, nullable=True)
+    recommended = Column(Boolean, default=False)
+    source = Column(String, nullable=True)

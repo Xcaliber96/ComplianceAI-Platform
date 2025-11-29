@@ -77,6 +77,42 @@ def route(user_input: str):
         }
         return {"error": "Unknown input", "detected": input_type}
 
+def search_packages_by_topic(topic: str):
+    """
+    Given a topic (e.g., 'cybersecurity', 'environment'),
+    return a list of unique GovInfo package IDs with summaries.
+    """
+    fr_docs = search_federal_register(topic)
+    packages = []
+    seen = set()
+
+    for doc in fr_docs:
+        doc_number = doc.get("document_number")
+        if not doc_number:
+            continue
+
+        # extract full text + package id from FR doc
+        full_text, package_id = get_full_text(doc_number)
+
+        if not package_id or package_id in seen:
+            continue
+
+        seen.add(package_id)
+
+        # get summary for that package
+        summary = get_package_summary(package_id)
+
+        packages.append({
+            "package_id": package_id,
+            "title": summary.get("title", doc.get("title")),
+            "publication_date": summary.get("publicationDate", doc.get("publication_date")),
+            "summary": summary,
+            "document_number": doc_number
+        })
+
+    return packages
+
+
 if __name__ == "__main__":
     user_input = input("Enter something: ")
     result = route(user_input)
