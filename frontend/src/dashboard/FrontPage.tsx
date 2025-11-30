@@ -1,16 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Typography,
-  Grid,
-  Card,
-  CardContent,
-  Button,
-  Stack,
-  useTheme,
-} from "@mui/material";
 import { useNavigate } from "react-router-dom";
-
 import {
   CloudUpload,
   Assessment,
@@ -23,189 +12,126 @@ import {
 
 export default function FrontPage() {
   const navigate = useNavigate();
-  const theme = useTheme();
 
   const features = [
     {
       title: "Upload & Retrieve Files",
-      desc: "Import internal policies and compliance documents from your device, Google Drive, or SharePoint.",
-      icon: <CloudUpload sx={{ fontSize: 34 }} />,
+      desc: "Import policies and compliance documents instantly.",
+      icon: <CloudUpload className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/upload",
       action: "Open Tools",
     },
     {
       title: "Run AI Audit",
-      desc: "Analyze policies using AI to detect compliance gaps and automatically generate obligations.",
-      icon: <Assessment sx={{ fontSize: 34 }} />,
+      desc: "AI finds gaps, obligations, and compliance risks.",
+      icon: <Assessment className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/audit",
       action: "Start Audit",
     },
     {
       title: "Manage Tasks",
-      desc: "Assign obligations, track progress, and coordinate remediation workflows across teams.",
-      icon: <Assignment sx={{ fontSize: 34 }} />,
+      desc: "Track obligations, assign owners, and resolve gaps.",
+      icon: <Assignment className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/tasks",
       action: "View Tasks",
     },
     {
       title: "Manage Suppliers",
-      desc: "Onboard and verify third-party vendors. Link suppliers to compliance evidence and obligations.",
-      icon: <Group sx={{ fontSize: 34 }} />,
+      desc: "Onboard, score, and monitor vendors continuously.",
+      icon: <Group className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/suppliers",
       action: "Manage Suppliers",
     },
     {
       title: "Analyze Competitors",
-      desc: "Review competitors’ regulatory filings and generate AI-powered market insights.",
-      icon: <CompareArrows sx={{ fontSize: 34 }} />,
+      desc: "Review filings and generate AI-powered insights.",
+      icon: <CompareArrows className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/competitors",
       action: "Analyze",
     },
     {
       title: "View Reports",
-      desc: "Access audit summaries, compliance metrics, and organizational analytics.",
-      icon: <BarChart sx={{ fontSize: 34 }} />,
+      desc: "Access analytics, metrics, and compliance summaries.",
+      icon: <BarChart className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/results",
       action: "Open Reports",
     },
   ];
 
   return (
-    <Box
-      sx={{
-        minHeight: "100vh",
-        px: { xs: 3, md: 8 },
-        py: { xs: 6, md: 10 },
-        animation: "fadeIn 0.6s ease",
-      }}
-    >
-      {/* Header Section */}
-      <Box textAlign="center" mb={8}>
-        <Typography
-          variant="h4"
-          sx={{
-            fontWeight: 900,
-            mb: 1,
-            color: theme.palette.text.primary,
-            letterSpacing: "0.5px",
-          }}
-        >
+    <div className="min-h-screen bg-[#F5F7FB] px-6 md:px-14 py-12 animate-fadeIn">
+      {/* HEADER */}
+      <header className="text-center mb-14">
+        <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">
           NomiAI Compliance Dashboard
-        </Typography>
+        </h1>
+        <p className="text-slate-600 max-w-xl mx-auto mt-3 text-[15px]">
+          AI-powered compliance automation for fast, audit-ready organizations.
+        </p>
+      </header>
 
-        <Typography
-          variant="subtitle1"
-          sx={{
-            color: theme.palette.text.secondary,
-            fontSize: "15px",
-            maxWidth: "620px",
-            margin: "0 auto",
-          }}
-        >
-          AI-powered compliance automation built for modern, audit-ready
-          organizations.
-        </Typography>
-      </Box>
+      {/* FEATURE GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 max-w-7xl mx-auto">
+        {features.map((f, i) => (
+          <div
+            key={i}
+            onClick={() => navigate(f.path)}
+            className="
+              rounded-3xl 
+              bg-white/70 
+              backdrop-blur-sm
+              border border-slate-50 
+              shadow-[0_1px_4px_rgba(0,0,0,0.02)]
+              p-6 cursor-pointer 
+              transition-all duration-300
+              hover:-translate-y-1 
+              hover:shadow-[0_4px_14px_rgba(0,0,0,0.04)]
+            "
+          >
+            <div className="flex flex-col items-center text-center space-y-4">
+              {/* ICON BUBBLE */}
+              <div className="w-14 h-14 rounded-2xl bg-emerald-50/80 flex items-center justify-center shadow-sm">
+                {f.icon}
+              </div>
 
-      {/* Feature Cards */}
-      <Grid container spacing={4} justifyContent="center">
-        {features.map((item, idx) => (
-          <Grid item xs={12} sm={6} md={4} key={idx}>
-            <Card
-              sx={{
-                height: "100%",
-                borderRadius: "16px",
-                background: theme.palette.background.paper,
-                border: `1px solid ${theme.palette.grey[300]}`,
-                boxShadow: "0px 4px 20px rgba(0,0,0,0.05)",
-                cursor: "pointer",
-                transition: "all 0.35s ease",
-                "&:hover": {
-                  transform: "translateY(-6px) scale(1.015)",
-                  boxShadow: "0px 10px 30px rgba(0,0,0,0.08)",
-                },
-              }}
-              onClick={() => navigate(item.path)}
-            >
-              <CardContent>
-                <Stack spacing={2.5} alignItems="center" textAlign="center">
-                  {/* Icon bubble */}
-                  <Box
-                    sx={{
-                      width: 64,
-                      height: 64,
-                      borderRadius: "50%",
-                      backgroundColor: theme.palette.primary.light,
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      color: "#0f172a",
-                      mb: 1,
-                    }}
-                  >
-                    {item.icon}
-                  </Box>
+              <h3 className="text-lg font-semibold text-slate-900">
+                {f.title}
+              </h3>
 
-                  <Typography
-                    variant="h6"
-                    sx={{
-                      fontWeight: 700,
-                      color:"#0f172a",
-                    }}
-                  >
-                    {item.title}
-                  </Typography>
+              <p className="text-sm text-slate-500 leading-relaxed min-h-[55px]">
+                {f.desc}
+              </p>
 
-                  <Typography
-                    variant="body2"
-                    sx={{
-                      color: theme.palette.text.secondary,
-                      lineHeight: 1.5,
-                      minHeight: 55,
-                    }}
-                  >
-                    {item.desc}
-                  </Typography>
-
-                  <Button
-                    variant="contained"
-                    sx={{
-                      mt: 1,
-                      borderRadius: "8px",
-                      textTransform: "none",
-                      backgroundColor: "#0f172a",
-                      px: 3,
-                      py: 1,
-                      fontWeight: 600,
-                      "&:hover": {
-                        backgroundColor: theme.palette.primary.dark,
-                      },
-                    }}
-                  >
-                    {item.action}
-                  </Button>
-                </Stack>
-              </CardContent>
-            </Card>
-          </Grid>
+              <button
+                className="
+                  mt-2 px-4 py-2 rounded-lg 
+                  bg-emerald-600 text-white 
+                  text-sm font-medium 
+                  transition 
+                  hover:bg-emerald-700
+                "
+              >
+                {f.action}
+              </button>
+            </div>
+          </div>
         ))}
-      </Grid>
+      </div>
 
-      {/* Footer */}
-      <Box textAlign="center" mt={10}>
-        <Typography variant="body2" sx={{ color: theme.palette.text.secondary }}>
-          <Shield sx={{ fontSize: 18, verticalAlign: "middle", mr: 1 }} />
-          Built for trust. Powered by NomiAI.
-        </Typography>
-      </Box>
+      {/* FOOTER */}
+      <footer className="text-center mt-16 text-slate-600 text-sm flex items-center justify-center gap-1">
+        <Shield className="text-emerald-600" style={{ fontSize: 18 }} />
+        Built for trust. Powered by NomiAI.
+      </footer>
 
-      {/* Fade In Animation */}
+      {/* Animations */}
       <style>{`
         @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(10px); }
-          to { opacity: 1; transform: translateY(0px); }
+          from { opacity: 0; transform: translateY(6px); }
+          to { opacity: 1; transform: translateY(0); }
         }
+        .animate-fadeIn { animation: fadeIn 0.5s ease-out; }
       `}</style>
-    </Box>
+    </div>
   );
 }

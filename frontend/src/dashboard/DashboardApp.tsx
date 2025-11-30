@@ -8,10 +8,9 @@ import Filelist from "./File Manager/FileList"
 import RegulationsLibraryPage from "./Regulations/ManageRegulations";
 import FrontPage from "./FrontPage";
 import DocumentAudit from "./UploadFetchTab";
-// import RunAuditTab from "./Audit/RunAuditTab";
 import SupplierOnboarding from "./SupplierOnboarding";
 import LLM from "./LLM";
-import AuditResultsTab from "./AuditResultsTab";
+import AuditResultsTab from "./Audit/AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
 import DashboardPage from "./Extraction/Extraction";
@@ -19,10 +18,12 @@ import AuditRunner from "./Audit/RunAudit";
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer";
 import Onboarding from "./Onboarding/Onboarding";
-
+import DocumentViewer from "./Audit/DocumentViewer"
 import RegulationsPage from "./Audit/RegulationsManger"
 import ShowList from "./File Manager/ShowList"
 import FileExtractPage from "./Extraction/FileExtractPage"
+import AuditResultsPage from "./Audit/Results/AuditResults";
+import AuditLogPage from "./Audit/Results/AuditLogPage"
 export default function DashboardApp() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -67,7 +68,6 @@ const handleCollapseChange = (value: boolean) => {
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="upload" element={<DocumentAudit />} />
-        {/* <Route path="auditfiles" element={<RunAuditTab />} /> */}
         <Route path="suppliers" element={<SupplierOnboarding />} />
         <Route path="llm" element={<LLM />} />
         <Route path="results" element={<AuditResultsTab />} />
@@ -79,21 +79,20 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
         <Route path="FileCard" element={<Typography>FileCard</Typography>} />
-<Route 
-  path="regmanage" 
-  element={<AddRegulationsPage />} 
-/>
-
-
-         <Route path="Onboarding" element={<Onboarding />} />
-      
+        <Route path="regmanage" element={<AddRegulationsPage />} /> <Route path="Onboarding" element={<Onboarding />} />
         <Route path="extract/:id" element={<FileExtractPage />} />
-         <Route path="ShowList" element={<ShowList />} />
-  <Route path="DashboardPage" element={<DashboardPage />} />
-  
-    <Route path="regulations" element={<RegulationsLibraryPage />} />
-
-<Route path="audit/:id" element={<AuditRunner />} />
+        <Route path="ShowList" element={<ShowList />} />
+        <Route path="DashboardPage" element={<DashboardPage />} />
+        <Route path="regulations" element={<RegulationsLibraryPage />} />
+        <Route path="audit/:id" element={<AuditRunner />} />
+        <Route path="auditresults" element={<AuditResultsPage />} />
+        <Route path="AuditLogPage" element={<AuditLogPage />} />
+     
+     
+     
+        
+        
+        
       </Routes>
     </Box>
 

@@ -141,7 +141,7 @@ useEffect(() => {
       const selected = results.filter((r) => selectedIds.includes(r.id));
    const user_uid = localStorage.getItem("uid") || "test-user";
 
-      // 🔌 Hook to your backend: e.g. /api/regulations/import
+      // Hook to your backend: e.g. /api/regulations/import
       const response = await fetch("/api/regulations/import", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

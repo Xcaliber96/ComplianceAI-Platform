@@ -64,6 +64,7 @@ export default function FileViewer() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          background: "#F5F7FB",
         }}
       >
         <CircularProgress />
@@ -73,8 +74,8 @@ export default function FileViewer() {
 
   if (!file) {
     return (
-      <Box sx={{ p: 4, textAlign: "center" }}>
-        <Typography variant="h6" sx={{ mb: 2 }}>
+      <Box sx={{ p: 4, textAlign: "center", background: "#F5F7FB" }}>
+        <Typography variant="h6" sx={{ mb: 2, fontWeight: 600 }}>
           File not found
         </Typography>
         <Button
@@ -99,16 +100,14 @@ export default function FileViewer() {
   const isPDF = file.original_name.toLowerCase().endsWith(".pdf");
   const isImage = /\.(png|jpg|jpeg|gif)$/i.test(file.original_name);
 
-  // --- AI handlers (stubbed, ready for backend integration) ---
+  // AI handlers
   const handleAskAI = () => {
     if (!aiInput.trim()) return;
 
     const userMessage = { role: "user" as const, content: aiInput.trim() };
 
-    // Optimistically update UI
     setAiMessages((prev) => [...prev, userMessage]);
 
-    // TODO: Replace this with a real API call to your AI backend.
     const fakeAssistantMessage = {
       role: "assistant" as const,
       content:
@@ -126,7 +125,6 @@ export default function FileViewer() {
     }
   };
 
-  // Basic “auto-summary” placeholder (for UI)
   const simpleSummary = [
     `File name: ${file.original_name}`,
     `Type: ${file.file_type || "Unknown"}`,
@@ -134,8 +132,15 @@ export default function FileViewer() {
   ];
 
   return (
-    <Box sx={{ p: 3, height: "100%", boxSizing: "border-box" }}>
-      {/* HEADER BAR */}
+    <Box
+      sx={{
+        p: 3,
+        minHeight: "100vh",
+        background: "#F5F7FB",
+        boxSizing: "border-box",
+      }}
+    >
+      {/* HEADER */}
       <Card
         sx={{
           display: "flex",
@@ -143,28 +148,42 @@ export default function FileViewer() {
           justifyContent: "space-between",
           p: 2,
           mb: 3,
-          borderRadius: 3,
-          boxShadow: "0 6px 24px rgba(15,23,42,0.08)",
+          borderRadius: "20px",
+          boxShadow: "0 4px 20px rgba(0,0,0,0.06)",
+          background: "white",
         }}
       >
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <IconButton onClick={() => navigate("/dashboard/FileList")}>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
+          <IconButton
+            onClick={() => navigate("/dashboard/FileList")}
+            sx={{
+              background: "#F1F5F9",
+              "&:hover": { background: "#E2E8F0" },
+              borderRadius: "12px",
+            }}
+          >
             <ArrowBackIcon />
           </IconButton>
+
           <Box>
-            <Typography variant="subtitle2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               File Viewer
             </Typography>
-            <Typography variant="h6" sx={{ fontWeight: 600 }}>
+            <Typography variant="h6" sx={{ fontWeight: 700 }}>
               {file.original_name}
             </Typography>
           </Box>
         </Box>
 
-        <Stack direction="row" spacing={1}>
+        <Stack direction="row" spacing={1.5}>
           <Button
             variant="outlined"
             startIcon={<TableChartIcon />}
+            sx={{
+              borderRadius: "12px",
+              textTransform: "none",
+              fontWeight: 600,
+            }}
             onClick={() => navigate(`/dashboard/extract/${file.id}`)}
           >
             Extract Data
@@ -172,6 +191,11 @@ export default function FileViewer() {
           <Button
             variant="contained"
             startIcon={<DownloadIcon />}
+            sx={{
+              borderRadius: "12px",
+              textTransform: "none",
+              fontWeight: 600,
+            }}
             onClick={() => (window.location.href = fileUrl)}
           >
             Download
@@ -179,107 +203,115 @@ export default function FileViewer() {
         </Stack>
       </Card>
 
-      {/* MAIN LAYOUT: viewer + AI side panel */}
+      {/* MAIN GRID */}
       <Box
         sx={{
           display: "flex",
-          gap: 2,
-          height: "calc(100vh - 160px)",
-          minHeight: 400,
+          gap: 3,
+          height: "calc(100vh - 180px)",
           flexDirection: { xs: "column", md: "row" },
         }}
       >
-        {/* LEFT: FILE VIEWER + METADATA */}
-        <Box sx={{ flex: { xs: "0 0 auto", md: 2 }, minHeight: 300 }}>
-          {/* Metadata / quick info */}
-          <Card sx={{ mb: 2, borderRadius: 3 }}>
-            <CardContent
-              sx={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: { xs: "flex-start", sm: "center" },
-                flexDirection: { xs: "column", sm: "row" },
-                gap: 1.5,
-              }}
-            >
-              <Box>
-                <Typography variant="subtitle2" color="text.secondary">
-                  Document details
-                </Typography>
-                <Typography sx={{ mt: 0.5 }}>
-                  <strong>Type:</strong> {file.file_type || "Unknown"}
-                </Typography>
-                <Typography>
-                  <strong>Uploaded:</strong>{" "}
-                  {new Date(file.uploaded_at).toLocaleString()}
-                </Typography>
-              </Box>
-              <Stack direction="row" spacing={1} flexWrap="wrap">
+        {/* LEFT SIDE */}
+        <Box sx={{ flex: 2, overflow: "hidden" }}>
+          {/* Document Details */}
+          <Card
+            sx={{
+              mb: 2,
+              borderRadius: "20px",
+              p: 2,
+              boxShadow: "0 3px 14px rgba(0,0,0,0.05)",
+            }}
+          >
+            <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
+              Document details
+            </Typography>
+
+            <Box sx={{ mt: 1.5 }}>
+              <Typography>
+                <strong>Type:</strong> {file.file_type || "Unknown"}
+              </Typography>
+              <Typography>
+                <strong>Uploaded:</strong>{" "}
+                {new Date(file.uploaded_at).toLocaleString()}
+              </Typography>
+            </Box>
+
+            <Stack direction="row" spacing={1} sx={{ mt: 1.5 }}>
+              <Chip
+                label={isPDF ? "PDF" : isImage ? "Image" : "Other"}
+                size="small"
+              />
+              {file.file_size && (
                 <Chip
+                  label={`${(file.file_size / 1024 / 1024).toFixed(2)} MB`}
                   size="small"
-                  label={isPDF ? "PDF" : isImage ? "Image" : "Other"}
                 />
-                {file.file_size && (
-                  <Chip
-                    size="small"
-                    label={`${(file.file_size / 1024 / 1024).toFixed(2)} MB`}
-                  />
-                )}
-              </Stack>
-            </CardContent>
+              )}
+            </Stack>
           </Card>
 
-          {/* File preview */}
-          <Card sx={{ height: "100%", borderRadius: 3 }}>
+          {/* File Preview */}
+          <Card
+            sx={{
+              height: "100%",
+              borderRadius: "20px",
+              overflow: "hidden",
+              boxShadow: "0 4px 18px rgba(0,0,0,0.06)",
+            }}
+          >
             <Box
               sx={{
                 width: "100%",
-                height: { xs: "60vh", md: "100%" },
-                borderRadius: 3,
-                overflow: "hidden",
-                backgroundColor: "#fafafa",
-                border: "1px solid rgba(148,163,184,0.4)",
+                height: "100%",
+                background: "#F8FAFC",
               }}
             >
               {isPDF && (
                 <iframe
                   src={`${fileUrl}#toolbar=0&navpanes=0&scrollbar=0`}
-                  style={{ width: "100%", height: "100%", border: "none" }}
-                  title="PDF Preview"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    border: "none",
+                  }}
                 />
               )}
 
               {isImage && (
                 <img
                   src={fileUrl}
-                  style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                  alt="preview"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
                 />
               )}
 
               {!isPDF && !isImage && (
                 <Box
                   sx={{
-                    height: "100%",
+                    p: 3,
                     display: "flex",
+                    height: "100%",
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    px: 4,
                   }}
                 >
                   <Box>
                     <Typography variant="h6" sx={{ mb: 1 }}>
-                      No live preview available
+                      No preview available
                     </Typography>
                     <Typography color="text.secondary" sx={{ mb: 2 }}>
-                      This file type cannot be rendered in the browser, but you
-                      can still download it or use AI tools on it.
+                      This file cannot be rendered in the browser.
                     </Typography>
                     <Button
                       variant="contained"
                       startIcon={<DownloadIcon />}
                       onClick={() => (window.location.href = fileUrl)}
+                      sx={{ borderRadius: "12px" }}
                     >
                       Download file
                     </Button>
@@ -290,48 +322,48 @@ export default function FileViewer() {
           </Card>
         </Box>
 
-        {/* RIGHT: AI PANEL */}
-        <Box
-          sx={{
-            flex: { xs: "0 0 auto", md: 1.2 },
-            minWidth: { md: 340 },
-            minHeight: 280,
-          }}
-        >
-          <Card sx={{ height: "100%", borderRadius: 3, display: "flex", flexDirection: "column" }}>
+        {/* RIGHT SIDE — AI ASSISTANT */}
+        <Box sx={{ flex: 1.2, minWidth: 340 }}>
+          <Card
+            sx={{
+              height: "100%",
+              borderRadius: "20px",
+              display: "flex",
+              flexDirection: "column",
+              boxShadow: "0 4px 18px rgba(0,0,0,0.05)",
+            }}
+          >
             <CardContent sx={{ pb: 1 }}>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  mb: 1,
-                }}
-              >
-                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
                   <ChatBubbleOutlineIcon fontSize="small" />
-                  <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
+                  <Typography sx={{ fontWeight: 600 }}>
                     AI Document Assistant
                   </Typography>
                 </Box>
-                <Chip
-                  size="small"
-                  color="primary"
-                  label="Beta"
-                  sx={{ fontSize: "0.7rem" }}
-                />
+                <Chip label="Beta" size="small" color="primary" />
               </Box>
 
-              <Typography variant="body2" color="text.secondary">
-                Ask questions, get summaries, and extract key data from this file.
+              <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+                Ask questions, summarize, and extract key insights.
               </Typography>
             </CardContent>
 
+            {/* Tabs */}
             <Tabs
               value={aiTab}
               onChange={(_, v) => setAiTab(v)}
               variant="fullWidth"
-              sx={{ borderBottom: "1px solid rgba(148,163,184,0.4)" }}
+              sx={{
+                borderBottom: "1px solid #E2E8F0",
+                "& .MuiTab-root": {
+                  textTransform: "none",
+                  fontWeight: 600,
+                },
+                "& .Mui-selected": {
+                  color: "#0F172A",
+                },
+              }}
             >
               <Tab
                 icon={<SummarizeIcon fontSize="small" />}
@@ -350,102 +382,45 @@ export default function FileViewer() {
               />
             </Tabs>
 
-            {/* Tab content */}
-            <Box sx={{ flex: 1, overflow: "hidden", display: "flex", flexDirection: "column" }}>
-              {/* SUMMARY TAB */}
+            {/* Tab Bodies */}
+            <Box sx={{ flex: 1, overflowY: "auto", p: 2 }}>
               {aiTab === 0 && (
-                <Box sx={{ p: 2, overflowY: "auto" }}>
-                  <Typography variant="subtitle2" sx={{ mb: 1 }}>
-                    Smart overview
+                <>
+                  <Typography sx={{ fontWeight: 600 }}>Smart overview</Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                    This is a placeholder summary.
                   </Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
-                    This is a simple placeholder summary. You can replace it with a real
-                    AI-generated summary from your backend.
-                  </Typography>
-                  <ul style={{ paddingLeft: "1.2rem", margin: 0 }}>
-                    {simpleSummary.map((item, idx) => (
-                      <li key={idx} style={{ marginBottom: "0.4rem" }}>
-                        <Typography variant="body2">{item}</Typography>
-                      </li>
-                    ))}
-                  </ul>
-                  <Divider sx={{ my: 2 }} />
-                  <Typography variant="subtitle2" sx={{ mb: 1 }}>
-                    Quick AI actions
-                  </Typography>
-                  <Stack direction="row" spacing={1} flexWrap="wrap">
-                    <Chip
-                      icon={<SummarizeIcon fontSize="small" />}
-                      label="Summarize document"
-                      variant="outlined"
-                      onClick={() =>
-                        setAiInput("Give me a concise summary of this document.")
-                      }
-                    />
-                    <Chip
-                      icon={<SearchIcon fontSize="small" />}
-                      label="Find key numbers"
-                      variant="outlined"
-                      onClick={() =>
-                        setAiInput(
-                          "List the important numbers, dates, and amounts in this document."
-                        )
-                      }
-                    />
-                    <Chip
-                      icon={<TableChartIcon fontSize="small" />}
-                      label="Extract tables"
-                      variant="outlined"
-                      onClick={() =>
-                        setAiInput(
-                          "Extract all tables and present them as structured data."
-                        )
-                      }
-                    />
-                  </Stack>
-                </Box>
+                  {simpleSummary.map((s, i) => (
+                    <Typography key={i} sx={{ mb: 1 }}>
+                      • {s}
+                    </Typography>
+                  ))}
+                </>
               )}
 
-              {/* CHAT TAB */}
               {aiTab === 1 && (
-                <Box
-                  sx={{
-                    flex: 1,
-                    display: "flex",
-                    flexDirection: "column",
-                    p: 2,
-                    gap: 1,
-                    overflow: "hidden",
-                  }}
-                >
+                <>
                   <Box
                     sx={{
                       flex: 1,
                       overflowY: "auto",
-                      mb: 1,
-                      pr: 1,
-                      borderRadius: 2,
-                      border: "1px solid rgba(148,163,184,0.4)",
-                      p: 1,
-                      backgroundColor: "#f8fafc",
+                      mb: 2,
+                      borderRadius: "12px",
+                      p: 2,
+                      background: "#F1F5F9",
+                      border: "1px solid #E2E8F0",
+                      maxHeight: "45vh",
                     }}
                   >
                     {aiMessages.length === 0 && (
-                      <Typography
-                        variant="body2"
-                        color="text.secondary"
-                        sx={{ p: 1.5 }}
-                      >
-                        Ask anything about this file. For example:
-                        <br />• “What is this document about?”
-                        <br />• “What are the main obligations or dates?”
-                        <br />• “Extract all totals and due dates.”
+                      <Typography color="text.secondary">
+                        Ask anything about this file.
                       </Typography>
                     )}
 
-                    {aiMessages.map((m, idx) => (
+                    {aiMessages.map((m, i) => (
                       <Box
-                        key={idx}
+                        key={i}
                         sx={{
                           display: "flex",
                           justifyContent:
@@ -455,18 +430,17 @@ export default function FileViewer() {
                       >
                         <Box
                           sx={{
-                            maxWidth: "85%",
-                            px: 1.5,
-                            py: 1,
-                            borderRadius: 2,
-                            backgroundColor:
-                              m.role === "user" ? "#2563eb" : "white",
-                            color: m.role === "user" ? "white" : "inherit",
+                            p: 1.2,
+                            px: 1.8,
+                            borderRadius: "12px",
+                            maxWidth: "75%",
+                            background:
+                              m.role === "user" ? "#2563EB" : "white",
+                            color: m.role === "user" ? "white" : "#0F172A",
                             boxShadow:
                               m.role === "assistant"
-                                ? "0 2px 10px rgba(15,23,42,0.08)"
+                                ? "0 2px 10px rgba(0,0,0,0.08)"
                                 : "none",
-                            fontSize: "0.875rem",
                           }}
                         >
                           {m.content}
@@ -475,117 +449,62 @@ export default function FileViewer() {
                     ))}
                   </Box>
 
-                  <Box
+                  <TextField
+                    fullWidth
+                    multiline
+                    placeholder="Ask something…"
+                    minRows={2}
+                    value={aiInput}
+                    onChange={(e) => setAiInput(e.target.value)}
+                    onKeyDown={handleKeyDown}
                     sx={{
-                      borderTop: "1px solid rgba(148,163,184,0.4)",
-                      pt: 1,
+                      background: "white",
+                      borderRadius: "12px",
                     }}
+                  />
+                  <Button
+                    variant="contained"
+                    fullWidth
+                    sx={{ mt: 1, borderRadius: "12px" }}
+                    onClick={handleAskAI}
                   >
-                    <TextField
-                      fullWidth
-                      multiline
-                      minRows={2}
-                      maxRows={4}
-                      placeholder="Ask a question about this document..."
-                      value={aiInput}
-                      onChange={(e) => setAiInput(e.target.value)}
-                      onKeyDown={handleKeyDown}
-                    />
-                    <Box
-                      sx={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        mt: 1,
-                      }}
-                    >
-                      <Typography
-                        variant="caption"
-                        color="text.secondary"
-                      >{`AI is using this file's content (once you hook up your backend).`}</Typography>
-                      <Button
-                        size="small"
-                        variant="contained"
-                        onClick={handleAskAI}
-                        startIcon={<ChatBubbleOutlineIcon />}
-                      >
-                        Ask
-                      </Button>
-                    </Box>
-                  </Box>
-                </Box>
+                    Ask
+                  </Button>
+                </>
               )}
 
-              {/* DATA TAB */}
               {aiTab === 2 && (
-                <Box sx={{ p: 2, overflowY: "auto" }}>
-                  <Typography variant="subtitle2" sx={{ mb: 1 }}>
-                    Structured data & context
-                  </Typography>
+                <>
+                  <Typography sx={{ fontWeight: 600 }}>Structured Data</Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                    Show key-value pairs and data you care about. You can populate this
-                    from your extraction pipeline.
+                    Key metadata from this file.
                   </Typography>
 
-                  <Stack spacing={1.2}>
+                  <Stack spacing={1}>
                     <Box>
-                      <Typography variant="caption" color="text.secondary">
-                        File name
-                      </Typography>
-                      <Typography variant="body2">{file.original_name}</Typography>
+                      <Typography variant="caption">File name</Typography>
+                      <Typography>{file.original_name}</Typography>
                     </Box>
                     <Box>
-                      <Typography variant="caption" color="text.secondary">
-                        Type
-                      </Typography>
-                      <Typography variant="body2">
-                        {file.file_type || "Unknown"}
-                      </Typography>
+                      <Typography variant="caption">Type</Typography>
+                      <Typography>{file.file_type || "Unknown"}</Typography>
                     </Box>
                     <Box>
-                      <Typography variant="caption" color="text.secondary">
-                        Uploaded at
-                      </Typography>
-                      <Typography variant="body2">
+                      <Typography variant="caption">Uploaded</Typography>
+                      <Typography>
                         {new Date(file.uploaded_at).toLocaleString()}
                       </Typography>
                     </Box>
                     {file.file_size && (
                       <Box>
-                        <Typography variant="caption" color="text.secondary">
-                          File size
-                        </Typography>
-                        <Typography variant="body2">
+                        <Typography variant="caption">Size</Typography>
+                        <Typography>
                           {(file.file_size / 1024 / 1024).toFixed(2)} MB
                         </Typography>
                       </Box>
                     )}
                   </Stack>
-
-                  <Divider sx={{ my: 2 }} />
-
-                  <Typography variant="subtitle2" sx={{ mb: 1 }}>
-                    Next steps
-                  </Typography>
-                  <Stack direction="row" spacing={1} flexWrap="wrap">
-                    <Button
-                      size="small"
-                      variant="outlined"
-                      startIcon={<TableChartIcon />}
-                      onClick={() => navigate(`/dashboard/extract/${file.id}`)}
-                    >
-                      Open extraction view
-                    </Button>
-                    <Button
-                      size="small"
-                      variant="text"
-                      startIcon={<DownloadIcon />}
-                      onClick={() => (window.location.href = fileUrl)}
-                    >
-                      Download as original
-                    </Button>
-                  </Stack>
-                </Box>
+                </>
               )}
             </Box>
           </Card>
