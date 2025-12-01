@@ -11,11 +11,30 @@ from fastapi import (
     APIRouter,
     Query,
 )
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.gov_reg.local_search import (
+    get_package_ids,
+    load_granules_for_package,
+    load_all_granules,
+    search_granules_in_package,
+    search_local_granules,
+)
+
+
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.state_regulations.state_engine  import normalize_regulation
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
+from src.core.store_file_data import save_extraction
+from src.core.regulations.state_regulations.state_engine import search_state_regulations,normalize_regulation
+from src.api.models import FileExtraction
 from apscheduler.schedulers.background import BackgroundScheduler
+
+from src.core.regulations.gov_reg.package_cache import (
+    refresh_package_cache,
+    get_cached_packages,
+)
 
 import os
 import sys
@@ -27,13 +46,17 @@ import logging
 import traceback
 import subprocess
 
+import fitz 
+import io
+
+
 from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
 from src.core.nomi_file_hub import get_direct_file_url
 from fastapi.responses import FileResponse
-
+from src.core.regulations.gov_reg.main_router import route
 import mimetypes
 from typing import List, Optional, Dict, Any
 from uuid import uuid4
@@ -45,9 +68,6 @@ from src.api.models import User
 from dotenv import load_dotenv, dotenv_values
 
 from apscheduler.schedulers.background import BackgroundScheduler
-# LLM shim imports (updated)
-from src.core.LLM import generate_market_insight, extract_document_metadata, generate_gap_summary
-
 from sqlalchemy.orm import Session
 from src.api.models import (
     User,                       
@@ -58,10 +78,17 @@ from src.api.models import (
     TaskState,
     Base,
 )
-
+from PyPDF2 import PdfReader
 from src.api.db import get_db, engine, SessionLocal
 
-from src.core.LLM import extract_document_metadata, generate_market_insight
+from src.core.LLM import (
+    generate_market_insight,
+    extract_document_metadata,
+    extract_regulation,
+    run_full_extraction,
+    generate_gap_summary,
+)
+
 from src.core.nomi_file_hub import (
     save_user_file,
     list_user_files,
@@ -104,7 +131,6 @@ from .graph_api import router as graph_router   # plain import works when cwd is
 import sys, subprocess, os
 from typing import Dict, Any
 
-
 app = FastAPI()
 app.include_router(graph_router)
 
@@ -115,9 +141,6 @@ if os.path.exists("/etc/secrets/.env"):
 else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
-
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-app.include_router(graph_router)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -189,6 +212,149 @@ def store_user_if_new(uid, email):
         print(f"[DB ERROR] store_user_if_new failed: {e}")
     finally:
         db.close()
+
+class RegulationImport(BaseModel):
+    id: str
+    name: str
+    code: str | None
+    region: str | None
+    category: str | None
+    description: str | None
+    source: str | None
+
+
+class ImportRequest(BaseModel):
+    regulations: list[RegulationImport]
+    
+@app.post("/api/regulations/import")
+def import_regulations(payload: dict, db: Session = Depends(get_db)):
+    user_uid = payload.get("user_uid", "test-user")
+    regulations = payload.get("regulations", [])
+    print("🚨 IMPORT PAYLOAD:", payload)
+
+    if not regulations:
+        return {"error": "No regulations provided"}
+
+    created_ids = []
+
+    for reg in regulations:
+
+        # check if it already exists for that user
+        existing = (
+            db.query(WorkspaceRegulation)
+              .filter(
+                  WorkspaceRegulation.user_uid == user_uid,
+                  WorkspaceRegulation.regulation_id == reg["id"]
+              )
+              .first()
+        )
+
+        if existing:
+            # skip duplicate entry
+            continue
+
+        # create new mapping entry
+        entry = WorkspaceRegulation(
+            regulation_id = reg["id"],
+            user_uid = user_uid,
+            workspace_status = "added",
+            name = reg.get("name"),
+            code = reg.get("code"),
+            region = reg.get("region"),
+            category = reg.get("category"),
+            risk = reg.get("risk"),
+            description = reg.get("description"),
+            recommended = reg.get("recommended", False),
+            source = reg.get("source"),
+        )
+
+        db.add(entry)
+        created_ids.append(reg["id"])
+
+    db.commit()
+
+    return {
+        "success": True,
+        "added": created_ids,
+        "count": len(created_ids)
+    }
+
+@app.get("/api/state/search")
+async def api_state_search(state: str, query: str):
+    try:
+        raw = search_state_regulations(state, query)
+        normalized = [normalize_regulation(r) for r in raw]
+        return {"results": normalized}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    
+    regs = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": r.regulation_id,      # IMPORTANT — frontend expects "id"
+            "workspace_status": r.workspace_status,
+            "name": r.name,
+            "code": r.code,
+            "region": r.region,
+            "category": r.category,
+            "risk": r.risk,
+            "description": r.description,
+            "recommended": r.recommended,
+            "source": r.source,
+        }
+        for r in regs
+    ]
+
+@app.post("/api/regulations/wizard_search")
+def wizard_search(payload: dict):
+    source_type = payload.get("sourceType")
+    query = payload.get("query", "")
+    mode = payload.get("mode", "")
+    state = payload.get("state", "michigan")
+
+    if not query:
+        return {"error": "Missing query"}
+
+    if source_type == "state":
+        raw = search_state_regulations(state, query)
+        return raw
+
+    source = payload.get("sourceType")
+    mode = payload.get("mode")
+    query = payload.get("query")
+
+    # Utility: convert a granule to frontend shape
+    def map_granule(g):
+        return {
+            "id": g.get("granuleId"),
+            "name": g.get("title"),
+            "code": g.get("cfrCitation"),
+            "region": "Federal",
+            "category": g.get("type"),
+            "risk": None,
+            "description": g.get("summary"),
+            "source": ", ".join(g.get("agencyNames", [])) if g.get("agencyNames") else "Federal Register",
+        }
+
+    if source == "government" and mode == "topic":
+        data = search_local_granules(query)
+        return [map_granule(x) for x in data]
+
+    # --- PACKAGE ID SEARCH ---
+    if source == "government" and mode == "packageId":
+        data = load_granules_for_package(query)
+        return [map_granule(x) for x in data]
+
+    return []
+
 @app.get("/api/users/profile/{uid}")
 def get_user_profile(uid: str, db: Session = Depends(get_db)):
     """
@@ -208,6 +374,130 @@ def get_user_profile(uid: str, db: Session = Depends(get_db)):
         "department": user.department or "",
         "industry": user.industry or "",
     }
+@app.get("/api/regulations/local/granules")
+def api_all_granules():
+    data = load_all_granules()
+    return {
+        "count": len(data),
+        "granules": data
+    } 
+@app.get("/api/regulations/local_search")
+def local_regulation_search(q: str = Query(..., description="Search topic across local granules")):
+
+    try:
+        results = search_local_granules(q)
+        return {"query": q,"results_count": len(results), "results": results,}
+    except Exception as e:
+        return JSONResponse( content={"error": str(e)},status_code=500 )
+@app.on_event("startup")
+def startup_events():
+    print("[Startup] Building Federal Register cache…")
+    refresh_package_cache()
+    print("[Startup] Launching 24h refresher...")
+    threading.Thread(target=cache_refresher, daemon=True).start()
+
+
+@app.get("/api/regulations/local/granules/{package_id}")
+def list_package_granules(package_id: str):
+    data = load_granules_for_package(package_id)
+
+    return {
+        "package_id": package_id,
+        "count": len(data),
+        "granules": data
+    }
+
+@app.get("/api/regulations/local/packages")
+def list_local_packages():
+    ids = get_package_ids()
+    return {
+        "count": len(ids),
+        "packages": ids
+    }
+
+
+@app.get("/api/regulations/search")
+def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, or doc number")):
+    """
+    Unified regulation search across:
+    - Federal Register topics
+    - GovInfo package IDs
+    - CFR citations
+    - Document numbers
+    """
+    try:
+        result = route(q)
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    items = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": item.regulation_id,
+            "workspace_status": item.workspace_status,
+            "name": item.name,
+            "code": item.code,
+            "region": item.region,
+            "category": item.category,
+            "risk": item.risk,
+            "description": item.description,
+            "recommended": item.recommended,
+            "source": item.source,
+        }
+        for item in items
+    ]
+
+import threading
+import time
+
+def cache_refresher():
+    while True:
+        time.sleep(60 * 60 * 24)  # 24 hours
+        print("[CacheRefresher] Refreshing Federal Register package cache...")
+        refresh_package_cache()
+
+
+@app.post("/api/workspace/{user_uid}/toggle/{regulation_id}")
+def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(get_db)):
+    item = (
+        db.query(WorkspaceRegulation)
+        .filter(
+            WorkspaceRegulation.regulation_id == regulation_id,
+            WorkspaceRegulation.user_uid == user_uid
+        )
+        .first()
+    )
+
+    if item:
+        item.workspace_status = (
+            "removed" if item.workspace_status == "added" else "added"
+        )
+    else:
+        item = WorkspaceRegulation(
+            regulation_id=regulation_id,
+            user_uid=user_uid,
+            workspace_status="added"
+        )
+        db.add(item)
+
+    db.commit()
+    db.refresh(item)
+
+    # ⭐ ONLY RETURN WHAT FRONTEND NEEDS
+    return {"status": item.workspace_status}
+
+    
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
@@ -277,6 +567,16 @@ async def session_login(request: Request, response: Response):
         )
 
     return {"status": "success", "email": email, "uid": uid}
+
+@app.get("/api/regulations/state")
+def api_state_regulations(state: str, q: str):
+    try:
+        raw = search_state_regulations(state, q)
+        results = [normalize_regulation(r) for r in raw]
+        return {"state": state, "query": q, "results": results}
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=400)
+
 @app.get("/api/users/basic_info/{uid}")
 def get_basic_user_info(uid: str):
     db = SessionLocal()
@@ -291,6 +591,20 @@ def get_basic_user_info(uid: str):
         "department": user.department,
         "email": user.email
     }
+
+@app.get("/regulations")
+async def regulations_query(q: str = ""):
+    """
+    Example: /regulations?q=FR-2025-09-16
+    """
+    try:
+        result = route(q)  
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
 
 @app.get("/session/me")
 async def get_current_user(request: Request):
@@ -327,12 +641,39 @@ async def filehub_direct(file_id: str, user_uid: str):
     )
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
-    from PyPDF2 import PdfReader
-    reader = PdfReader(io.BytesIO(pdf_bytes))
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text() or ""
-    return text
+
+    # 1. Try PyMuPDF
+    try:
+        import fitz
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        text = "".join([page.get_text("text") for page in doc])
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PyMuPDF failed:", e)
+
+    # 2. Try PDFMiner
+    try:
+        from pdfminer.high_level import extract_text as pdfminer_extract
+        text = pdfminer_extract(io.BytesIO(pdf_bytes))
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PDFMiner failed:", e)
+
+    # 3. Fallback: PyPDF2
+    try:
+
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() or ""
+        return text
+    except Exception as e:
+        print("PyPDF2 failed:", e)
+
+    return ""
+
 @app.get("/api/filehub/{file_id}")
 async def filehub_get(file_id: str, user_uid: str):
     """
@@ -379,25 +720,73 @@ def run_ingest_script(audit_path: str) -> Dict[str, Any]:
         "stdout": proc.stdout,
         "stderr": proc.stderr
     }
-
 @app.post("/api/filehub/upload")
 async def filehub_upload(
     file: UploadFile = File(...),
     user_uid: str = Form(...),
     file_type: str = Form(...),
     used_for: str = Form(...),
-    department: str = Form(...) 
+    department: str = Form(...)
 ):
     print("Saving file for user:", user_uid)
     print("Received filename:", file.filename)
+
     if not user_uid:
         raise HTTPException(status_code=400, detail="Missing user_uid")
 
+    # Read file
     contents = await file.read()
-    entry = save_user_file(contents, file.filename, user_uid,  file_type, used_for, department)
 
-    return {"status": "success", "file": entry}
+    # Save metadata + file
+    entry = save_user_file(
+        contents,
+        file.filename,
+        user_uid,
+        file_type,
+        used_for,
+        department
+    )
 
+    # ✅ Correct key name
+    file_id = entry["id"]
+
+    # Get actual saved file path
+    file_path, _ = get_user_file_path(user_uid, file_id)
+    pdf_path = file_path
+
+    # Extract text
+    try:
+        reader = PdfReader(pdf_path)
+        text = "\n".join([(p.extract_text() or "") for p in reader.pages])
+    except Exception as e:
+        print(" PDF extraction failed:", e)
+        text = ""
+
+    # LLM extraction
+    from src.core.metadata_extractor import run_full_extraction
+    extracted = run_full_extraction(text)
+
+    # Save to DB
+    db = SessionLocal()
+    row = db.query(FileExtraction).filter_by(file_id=file_id).first()
+
+    if row:
+        row.extraction = extracted
+    else:
+        db.add(FileExtraction(
+            file_id=file_id,
+            user_uid=user_uid,
+            extraction=extracted
+        ))
+
+    db.commit()
+    db.close()
+
+    return {
+        "status": "success",
+        "file": entry,
+        "extraction": extracted
+    }
 @app.get("/api/filehub")
 async def filehub_list(user_uid: str):
     if not user_uid:
@@ -704,30 +1093,6 @@ async def analyze_company(company_name: str = Form(...)):
         return {"company": company_name, "insight": insight}
     except Exception as e:
         return {"error": str(e)}
-
-def check_federal_register():
-    """Monitor Federal Register for new rules"""
-    try:
-        response = requests.get(REGULATORY_SOURCES["FEDERAL_REGISTER"], timeout=10)
-        data = response.json()
-        new_regulations = []
-        
-        for doc in data.get('results', [])[:5]:
-            reg_id = hashlib.md5(doc['title'].encode()).hexdigest()
-            if reg_id not in processed_regulations:
-                processed_regulations.add(reg_id)
-                new_regulations.append({
-                    "source": "Federal Register",
-                    "title": doc['title'],
-                    "date": doc.get('publication_date'),
-                    "url": f"https://www.federalregister.gov/documents/{doc.get('document_number', '')}",
-                    "impact_areas": ["Legal", "Compliance"],
-                    "regulation_type": "Federal"
-                })
-        return new_regulations
-    except Exception as e:
-        logging.error(f"Federal Register monitoring failed: {e}")
-        return []
 
 def analyze_regulation_impact(regulation: dict):
     """Analyze regulation impact"""
@@ -1288,6 +1653,52 @@ def log_audit(db: Session, entity_type: str, entity_id: int, action: str, user: 
     )
     db.add(entry)
     db.commit()
+@app.get("/api/regulations/library")
+def get_regulation_library():
+    """
+    Loads and returns a flat list of regulations from sample_regulations.json.
+    Works whether JSON is a list OR a dict of categories.
+    """
+    json_path = "sample_regulations.json"
+
+    if not os.path.exists(json_path):
+        raise HTTPException(status_code=500, detail="sample_regulations.json not found")
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+
+        # If file is LIST → return directly
+        if isinstance(raw, list):
+            library = []
+            for r in raw:
+                library.append({
+                    "id": r.get("id"),
+                    "name": r.get("title"),
+                    "region": r.get("regulation_type", "N/A"),
+                    "description": r.get("text", "No description provided."),
+                })
+
+            return {"library": library}
+
+        # If file is DICT with categories → flatten structure
+        if isinstance(raw, dict):
+            library = []
+            for region, regs in raw.items():
+                for r in regs:
+                    library.append({
+                        "id": r.get("id"),
+                        "name": r.get("title"),
+                        "region": region,
+                        "description": r.get("text", "No description provided."),
+                    })
+            return {"library": library}
+
+        raise HTTPException(status_code=500, detail="Invalid regulations JSON format")
+
+    except Exception as e:
+        print("REGULATIONS ERROR:", e)
+        raise HTTPException(status_code=500, detail="Failed to load regulations")
 
 @app.get("/")
 async def root():
@@ -1395,23 +1806,43 @@ async def rag_analysis(
     })
 
 @app.get("/api/filehub/{file_id}/extract")
-async def extract_file(file_id: str, user_uid: str):
+async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db)):
+    saved = db.query(FileExtraction).filter(
+        FileExtraction.file_id == file_id,
+        FileExtraction.user_uid == user_uid
+    ).first()
+
+    if saved:
+        return {
+            "status": "success",
+            "file_id": file_id,
+            "file_name": saved.file_name,
+            "extraction": saved.extraction,
+        }
+
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
+
     file_path, entry = result
+
     with open(file_path, "rb") as f:
         file_bytes = f.read()
 
-    # 3. Convert PDF → text
     text = extract_text_from_pdf_bytes(file_bytes)
     metadata = extract_document_metadata(text)
+
+    if not metadata.get("ok"):
+        raise HTTPException(status_code=500, detail="Metadata extraction failed")
+
+    # Save extraction
+    inserted = save_extraction(db, file_id, user_uid, metadata["metadata"])
 
     return {
         "status": "success",
         "file_id": file_id,
         "file_name": entry["original_name"],
-        "extraction": metadata
+        "extraction": inserted.extraction
     }
 
 if __name__ == "__main__":

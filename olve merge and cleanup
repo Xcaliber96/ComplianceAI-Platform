@@ -1,58 +1,0 @@
-.gitignore:112: trailing whitespace.
-[32m+[m[32mSHODAN_API_KEY=your_real_key_here[m[41m[m
-src/api/main_api.py:16: trailing whitespace.
-[32m+[m[32mfrom pydantic import BaseModel[m[41m[m
-src/api/main_api.py:17: trailing whitespace.
-[32m+[m[41m[m
-src/api/main_api.py:18: trailing whitespace.
-[32m+[m[32mfrom apscheduler.schedulers.background import BackgroundScheduler[m[41m[m
-src/api/main_api.py:33: trailing whitespace.
-[32m+[m[32mfrom datetime import datetime, timedelta[m[41m[m
-src/api/main_api.py:34: trailing whitespace.
-[32m+[m[32mfrom src.core.nomi_file_hub import get_direct_file_url[m[41m[m
-src/api/main_api.py:40: trailing whitespace.
-[32m+[m[32m    User,[m[41m                       [m
-src/core/LLM.py:1: trailing whitespace.
-[32m+[m[32m# LLM.py (compat shim)[m[41m[m
-src/core/LLM.py:2: trailing whitespace.
-[32m+[m[32mfrom src.core.market_insights import generate_market_insight[m[41m[m
-src/core/LLM.py:3: trailing whitespace.
-[32m+[m[32mfrom src.core.metadata_extractor import extract_document_metadata[m[41m[m
-src/core/LLM.py:4: trailing whitespace.
-[32m+[m[32mfrom src.core.compliance_narratives import generate_gap_summary[m[41m[m
-src/core/LLM.py:6: trailing whitespace.
-[32m+[m[32m__all__ = ["generate_market_insight", "extract_document_metadata", "generate_gap_summary"][m[41m[m
-src/core/analyzer.py:10: trailing whitespace.
-[32m+[m[32mSHODAN_API_KEY = os.getenv("SHODAN_API_KEY")[m[41m[m
-src/core/analyzer.py:317: trailing whitespace.
-[32m+[m[41m[m
-src/core/shodan_scan.py:1: trailing whitespace.
-[32m+[m[32mimport os[m[41m[m
-src/core/shodan_scan.py:8: trailing whitespace.
-[32m+[m[41m[m
-src/core/shodan_scan.py:9: trailing whitespace.
-[32m+[m[41m  [m
-src/core/shodan_scan.py:10: trailing whitespace.
-[32m+[m[32m    SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")[m[41m[m
-src/core/shodan_scan.py:11: trailing whitespace.
-[32m+[m[32m    if not SHODAN_API_KEY:[m[41m[m
-src/core/shodan_scan.py:12: trailing whitespace.
-[32m+[m[32m        return {"error": "SHODAN_API_KEY not found in environment variables"}[m[41m[m
-src/core/shodan_scan.py:13: trailing whitespace.
-[32m+[m[41m[m
-src/core/shodan_scan.py:14: trailing whitespace.
-[32m+[m[41m   [m
-src/core/shodan_scan.py:37: trailing whitespace.
-[32m+[m[32m        # Per-port metadata[m[41m[m
-src/core/shodan_scan.py:44: trailing whitespace.
-[32m+[m[32m                "transport": service.get("transport")[m[41m[m
-src/core/shodan_scan.py:50: trailing whitespace.
-[32m+[m[32m        return {"error": f"Shodan API error: {e}"}[m[41m[m
-src/core/shodan_scan.py:51: trailing whitespace.
-[32m+[m[41m[m
-src/core/shodan_scan.py:53: trailing whitespace.
-[32m+[m[32m# ---------------------------------------------------[m[41m[m
-src/core/shodan_scan.py:54: trailing whitespace.
-[32m+[m[32m# ⭐ RUN DIRECTLY[m[41m[m
-src/core/shodan_scan.py:55: trailing whitespace.
-[32m+[m[32m# ---------------------------------------------------[m[41m[m

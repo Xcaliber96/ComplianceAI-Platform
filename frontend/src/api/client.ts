@@ -1,29 +1,109 @@
-import axios from 'axios'
+import axios from "axios";
+
+const rawEnvBase = import.meta.env.VITE_API_BASE_URL;
+
+// 🔍 startup debug
+console.log("[client.ts] raw VITE_API_BASE_URL:", rawEnvBase);
+console.log("[client.ts] window.location.hostname:", window.location.hostname);
 
 export const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  (window.location.hostname.includes("localhost")
+  rawEnvBase && rawEnvBase.trim() !== ""
+    ? rawEnvBase.trim()
+    : window.location.hostname === "localhost"
     ? "http://localhost:8000"
-    : "https://api.nomioc.com"); 
-console.log("VITE_API_BASE_URL:", import.meta.env.VITE_API_BASE_URL);
-  // Create axios instance with default config
+    : "https://api.nomioc.com";
+
+console.log("[client.ts] RESOLVED BASE_URL:", BASE_URL);
+
+// Create axios instance with default config
 const apiClient = axios.create({
   baseURL: BASE_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
-  withCredentials: true, 
-})  
+  withCredentials: true,
+});
+
 apiClient.interceptors.response.use(
   (res) => res,
   (err) => {
     if (err.response?.status === 401) {
-      console.warn("⚠️ Session expired or unauthorized. Please log in again.");
+      console.warn("Session expired or unauthorized. Please log in again.");
       // Optional:  redirect to login or clear local session here
     }
     return Promise.reject(err);
   }
 );
+export async function fetchWorkspace(user_id: string) {
+  const res = await apiClient.get(`/api/workspace/${user_id}/regulations`);
+  return res.data;
+}
+
+export async function toggleRegulation(user_id: string, reg_id: string) {
+  try {
+    const res = await apiClient.post(`/api/workspace/${user_id}/toggle/${reg_id}`);
+    return res.data;
+  } catch (err: any) {
+    console.error("Toggle regulation failed:", err);
+    throw err;
+  }
+}
+export async function fetchStateRegulations(state: string, query: string) {
+  const res = await apiClient.get("/api/regulations/state", {
+    params: { state, q: query },
+  });
+
+  return res.data.results; // backend returns { results: [...] }
+}
+
+export async function wizardSearch(params: {
+  sourceType: "government" | "state";
+  mode: "topic" | "packageId" | "ruleNumber";
+  query: string;
+  state?: string;
+}) {
+  const res = await apiClient.post("/api/regulations/wizard_search", params);
+
+  if (Array.isArray(res.data)) {
+    return res.data;
+  }
+
+  if (res.data && res.data.results) {
+    return res.data.results;
+  }
+
+  return [];
+}
+
+export async function getLocalPackages() {
+  const res = await apiClient.get("/api/regulations/local/packages");
+  return res.data; // { count, packages }
+}
+export async function getGranulesForPackage(packageId: string) {
+  const res = await apiClient.get(`/api/regulations/local/granules/${packageId}`);
+  return res.data; // { package_id, count, granules }
+}
+export async function localGranuleSearch(query: string) {
+  const res = await apiClient.get("/api/regulations/local_search", {
+    params: { q: query }
+  });
+  return res.data; // { query, results_count, results }
+}
+export async function getAllLocalGranules() {
+  const res = await apiClient.get("/api/regulations/local/granules");
+  return res.data; // { count, granules }
+}
+export async function searchFederalRegulations(query: string) {
+  if (!query || query.trim() === "") {
+    return { error: "Empty query" };
+  }
+
+  const res = await apiClient.get("/api/regulations/search", {
+    params: { q: query },
+  });
+
+  return res.data;
+}
 
 export async function getUserProfile(uid: string): Promise<UserProfile> {
   const res = await apiClient.get(`/api/users/profile/${uid}`);
@@ -54,6 +134,16 @@ export const updateUserProfile = async (profile: {
 
   const { data } = await apiClient.post(`/api/users/setup_profile`, form, {
     headers: { "Content-Type": "multipart/form-data" },
+  });
+
+  return data;
+};
+
+export const getRegulation = async (packageId: string) => {
+  if (!packageId) throw new Error("Package ID is required");
+
+  const { data } = await apiClient.get("/regulations", {
+    params: { q: packageId },
   });
 
   return data;
@@ -173,9 +263,6 @@ export async function loginWithFirebaseToken(user: any) {
   console.log("→ uid:", user.uid);
   console.log("→ email:", user.email);
   console.log("→ BASE_URL:", BASE_URL);
-
-
-  // 3️⃣ Return backend response
   return data;
 }
 export async function getCurrentSession() {
@@ -289,6 +376,18 @@ export const runExternalIntelligence = async (industry: string) => {
     params: { industry },
   })
   return response.data
+}
+export const getSampleRegulations = async () => {
+  const { data } = await apiClient.get("/api/regulations/library");
+  return data.library; // returns array of {name, region, description}
+};
+export async function importRegulations(user_uid: string, regulations: any[]) {
+  const res = await apiClient.post("/api/regulations/import", {
+    user_uid,
+    regulations,
+  });
+
+  return res.data;
 }
 
 export const runRagCompliance = async (
@@ -425,12 +524,12 @@ export const attestEvidence = async (evidenceId: number, user: string) => {
   return response.data
 }
 export const runAuditOnFile = async (fileId: string, user_uid: string) => {
-  const { data } = await apiClient.get(`/api/audit/run/${fileId}`, {
-    params: { user_uid },
-  });
-  return data;
+  return apiClient
+    .get(`/api/audit/run/${fileId}`, {
+      params: { user_uid },
+    })
+    .then((res) => res.data);
 };
-
 export async function extractFile(fileId: string, user_uid: string) {
   const res = await fetch(
     `${BASE_URL}/api/filehub/${fileId}/extract?user_uid=${user_uid}`

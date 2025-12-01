@@ -28,6 +28,7 @@ export default function Sidebar({ onCollapseChange }) {
   const items = [
     { label: "Dashboard", path: "/dashboard", icon: <FiHome /> },
     { label: "File Management", path: "/dashboard/FileList", icon: <FiFilePlus /> },
+    { label: "Regulations", path: "/dashboard/regulations", icon: <FiFilePlus /> },
     { label: "AI Assistant", path: "/dashboard/llm", icon: <FiCpu /> },
     { label: "File Manager", path: "/dashboard/filemanager", icon: <FiFolder /> },
     { label: "Competitors", path: "/dashboard/competitors", icon: <FiBriefcase /> },

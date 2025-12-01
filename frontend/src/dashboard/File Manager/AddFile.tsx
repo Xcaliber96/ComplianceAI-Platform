@@ -42,26 +42,33 @@ export default function AddFile({ onClose }: { onClose: () => void }) {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
-  const handleUpload = async () => {
-    if (!file || !fileType || !department) {
-      alert("Please select file type, department, and a file.");
-      return;
-    }
+const handleUpload = async () => {
+  if (!file || !fileType || !department) {
+    alert("Please select file type, department, and a file.");
+    return;
+  }
 
-    try {
-      await uploadToFileHub(
-        file,
-        user_uid!,
-        fileType,
-        "general_upload",
-        department
-      );
-      navigate("/dashboard/FileList");
-      onClose();
-    } catch (err) {
-      console.error("Upload failed:", err);
-    }
-  };
+  
+    navigate("/dashboard/FileList");
+    onClose();
+  try {
+    const result = await uploadToFileHub(
+      file,
+      user_uid!,
+      fileType,
+      "general_upload",
+      department
+    );
+
+    console.log("📄 Full extraction result:", result.extraction);
+
+    // Optional: Save extraction locally for next page
+    localStorage.setItem("latest_extraction", JSON.stringify(result.extraction));
+
+  } catch (err) {
+    console.error("Upload failed:", err);
+  }
+};
 
   const leave = () => {
     onClose();

@@ -2,6 +2,8 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, J
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
+from pydantic import BaseModel
+from typing import Optional, Literal
 
 from src.api.db import Base
 
@@ -22,6 +24,16 @@ class User(Base):
     photo_url = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
+class FileExtraction(Base):
+    __tablename__ = "file_extractions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    file_id = Column(String, index=True)
+    user_uid = Column(String, index=True)
+    extraction = Column(JSON)
+    file_name = Column(String)  
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
 class TaskState(str, enum.Enum):
     TODO = "TODO"
@@ -123,3 +135,29 @@ class FileHubFile(Base):
     used_for = Column(String)    
     uploaded_at = Column(DateTime, default=datetime.utcnow)
     user = relationship("User")
+
+class WorkspaceRegulation(Base):
+    __tablename__ = "workspace_regulations"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+
+    # ID of the regulation (string from frontend)
+    regulation_id = Column(String, index=True)
+
+    # Owner (user)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+
+    # "added", "removed", "custom"
+    workspace_status = Column(String, default="added")
+
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    # Optional: store metadata for custom regulations
+    name = Column(String, nullable=True)
+    code = Column(String, nullable=True)
+    region = Column(String, nullable=True)
+    category = Column(String, nullable=True)
+    risk = Column(String, nullable=True)
+    description = Column(String, nullable=True)
+    recommended = Column(Boolean, default=False)
+    source = Column(String, nullable=True)

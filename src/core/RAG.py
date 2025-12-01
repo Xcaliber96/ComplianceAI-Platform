@@ -410,10 +410,6 @@ GAP SUMMARY:
             )
         }
 
-
-# -------------------------------
-# Example usage:
-# -------------------------------
 if __name__ == "__main__":
     REGULATION_LIBRARY = [
         {
