@@ -1,19 +1,16 @@
-version: '3.8'
 services:
   neo4j:
-    image: neo4j:5.13
-    container_name: nomioc_neo4j
+    image: neo4j:5.14.0
+    container_name: nomi-neo4j
+    restart: unless-stopped
     ports:
-      - "7474:7474"   # HTTP browser
-      - "7687:7687"   # bolt
+      - "7474:7474"
+      - "7687:7687"
     environment:
-      NEO4J_AUTH: "neo4j/neo4jdev"   # change for prod
-      NEO4J_ACCEPT_LICENSE_AGREEMENT: "yes"
+      NEO4J_AUTH: "neo4j/neo4jdev"
+      NEO4JLABS_PLUGINS: '["apoc"]'
     volumes:
       - neo4j_data:/data
-      - neo4j_logs:/logs
-      - neo4j_import:/var/lib/neo4j/import
+
 volumes:
   neo4j_data:
-  neo4j_logs:
-  neo4j_import:
