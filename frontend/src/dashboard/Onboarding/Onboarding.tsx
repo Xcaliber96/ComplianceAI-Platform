@@ -1,402 +1,259 @@
 import React, { useState, useEffect } from "react";
- import {Box,Typography,TextField,Button,MenuItem,Stack,Paper,IconButton,Divider,Chip,
- } from "@mui/material";
- import ArrowBackIcon from "@mui/icons-material/ArrowBack";
- import { useNavigate } from "react-router-dom";
- import { updateUserProfile, getUserProfile } from "../../api/client";
- 
- export default function Onboarding() {
- const navigate = useNavigate();
- const [fullName, setFullName] = useState("");
- const [displayName, setDisplayName] = useState("");
- const [jobTitle, setJobTitle] = useState("");
- const [companyName, setCompanyName] = useState("");
- const [department, setDepartment] = useState("");
- const [industry, setIndustry] = useState("");
- 
- // Edit mode
- const [isEditing, setIsEditing] = useState(false);
- const [isSaving, setIsSaving] = useState(false);
- 
- const departments = [
- "Compliance",
- "Information Security",
- "Legal",
- "Finance",
- "HR",
- "Operations",
- "IT",
- "Procurement",
- "Other",
- ];
- 
- const industries = [
- "Technology",
- "Healthcare",
- "Finance",
- "Manufacturing",
- "Retail",
- "Education",
- "Government",
- "Other",
- ];
- 
- const handleSave = async () => {
- if (!displayName || !companyName || !department) {
- alert("Please fill all required fields");
- return;
- }
- 
- const uid = localStorage.getItem("user_uid");
- if (!uid) {
- alert("User session not found");
- return;
- }
- 
- try {
- setIsSaving(true);
- await updateUserProfile({
- uid,
-  display_name: displayName,
-  full_name: fullName,     
-  company_name: companyName,
-  department,
-  job_title: jobTitle,
-  industry,
- });
- 
- setIsEditing(false);
- 
- // ⭐ Redirect now
- navigate("/dashboard");
- 
- } catch (err) {
- console.error(err);
- alert("Saving failed");
- } finally {
- setIsSaving(false);
- }
- };
- 
- useEffect(() => {
- const uid = localStorage.getItem("user_uid");
- if (!uid) return;
- 
- (async () => {
- try {
- const profile = await getUserProfile(uid);
+import { useNavigate } from "react-router-dom";
 
- setFullName(profile.full_name || "")
- setDisplayName(profile.display_name || "");
- setJobTitle(profile.job_title || "");
- setCompanyName(profile.company_name || "");
- setDepartment(profile.department || "");
- setIndustry(profile.industry || "");
- 
- } catch (err) {
- console.error("Failed to load profile:", err);
- }
- })();
- }, []);
- return (
- <Box
- sx={{
- width: "100vw",
- height: "100vh",
- display: "flex",
- overflow: "hidden",
- background: "linear-gradient(135deg, #f8fafc 0%, #e5e7eb 100%)",
- }}
- >
- {/* Back Button */}
- <IconButton
- onClick={() => navigate(-1)}
- sx={{
- position: "absolute",
- top: 32,
- left: 32,
- background: "rgba(15,23,42,0.05)",
- color: "#0f172a",
- "&:hover": { background: "rgba(15,23,42,0.12)" },
- }}
- >
- <ArrowBackIcon />
- </IconButton>
- 
- {}
- <Box
- sx={{
- width: "45%",
- height: "100%",
- display: "flex",
- flexDirection: "column",
- justifyContent: "center",
- px: 10,
- borderRight: "1px solid rgba(148,163,184,0.4)",
- }}
- >
- <Box maxWidth={480}>
- <Typography
- variant="overline"
- sx={{
- letterSpacing: 2,
- fontWeight: 600,
- color: "#6b7280",
- }}
- >
- WORKSPACE SETUP
- </Typography>
- 
- <Typography
- variant="h3"
- sx={{
- fontWeight: 800,
- mb: 2,
- color: "#020617",
- lineHeight: 1.1,
- }}
- >
- Organization profile
- </Typography>
- 
- <Typography
- variant="h6"
- sx={{
- color: "#4b5563",
- lineHeight: 1.6,
- mb: 3,
- }}
- >
- Define who you are and how your organization operates so NomiAI
- can generate audit-ready views of your controls, teams, and risk
- exposure.
- </Typography>
- 
- <Stack direction="row" spacing={2} sx={{ mt: 1 }}>
- <Chip
- label="Single source of truth"
- variant="outlined"
- sx={{ borderRadius: "999px", borderColor: "#0f172a", color: "#0f172a" }}
- />
- <Chip
- label="Aligned with compliance teams"
- variant="outlined"
- sx={{
- borderRadius: "999px",
- borderColor: "#6b7280",
- color: "#6b7280",
- }}
- />
- </Stack>
- </Box>
- </Box>
- 
- {/* RIGHT FORM SIDE */}
- <Box
- sx={{
- width: "55%",
- height: "100%",
- display: "flex",
- p: 6,
- justifyContent: "center",
- alignItems: "flex-start",
- overflowY: "auto",
- }}
- >
- <Box sx={{ width: "100%", maxWidth: 720 }}>
- <Paper
- sx={{
- width: "100%",
- p: 4,
- background: "#ffffff",
- border: "1px solid #e2e8f0",
- borderRadius: "18px",
- 
- position: "relative",
- }}
- >
- {/* Top bar inside card */}
- <Box
- sx={{
- display: "flex",
- alignItems: "center",
- justifyContent: "space-between",
- mb: 3,
- }}
- >
- <Box>
- <Typography
- variant="subtitle2"
- sx={{ textTransform: "uppercase", color: "#6b7280", mb: 0.5 }}
- >
- Profile ownership
- </Typography>
- <Typography variant="h5" sx={{ fontWeight: 700, color: "#020617" }}>
- Workspace & role information
- </Typography>
- </Box>
- 
- <Button
- variant="outlined"
- size="small"
- onClick={() => setIsEditing((prev) => !prev)}
- sx={{
- borderRadius: "999px",
- textTransform: "none",
- fontWeight: 600,
- px: 2.5,
- py: 0.75,
- borderColor: isEditing ? "#0f766e" : "#cbd5e1",
- color: isEditing ? "#0f766e" : "#0f172a",
- backgroundColor: isEditing ? "rgba(15,118,110,0.06)" : "#ffffff",
- "&:hover": {
- borderColor: "#0f766e",
- backgroundColor: "rgba(15,118,110,0.12)",
- },
- }}
- >
- {isEditing ? "Done editing" : "Edit profile"}
- </Button>
- </Box>
- 
- <Divider sx={{ mb: 3 }} />
- 
- {!isEditing && (
- <Typography
- variant="body2"
- sx={{
- mb: 3,
- color: "#6b7280",
- backgroundColor: "#f9fafb",
- borderRadius: "10px",
- p: 1.5,
- border: "1px dashed #e5e7eb",
- }}
- >
- This profile is currently <strong>locked</strong>. Click{" "}
- <strong>“Edit profile”</strong> to make changes. These details are
- used across audits, supplier reviews, and evidence tracking.
- </Typography>
- )}
- 
- <Stack spacing={3}>
-<TextField
-  label="Full name *"
-  fullWidth
-  value={fullName}
-  disabled={!isEditing}
-  onChange={(e) => setFullName(e.target.value)}
-/>
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from "@/components/ui/select";
+import { Separator } from "@/components/ui/separator";
 
-<TextField
-  label="Display name"
-  fullWidth
-  value={displayName}
+import { ArrowLeft } from "lucide-react"; 
+import { updateUserProfile, getUserProfile } from "../../api/client";
+
+export default function OnboardingPage() {
+  const navigate = useNavigate();
+
+  const [fullName, setFullName] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const [jobTitle, setJobTitle] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [department, setDepartment] = useState("");
+  const [industry, setIndustry] = useState("");
+
+  const [isEditing, setIsEditing] = useState(true);
+  const [saving, setSaving] = useState(false);
+
+  const departments = [
+    "Compliance", "Information Security", "Legal", "Finance",
+    "HR", "Operations", "IT", "Procurement", "Other",
+  ];
+
+  const industries = [
+    "Technology", "Healthcare", "Finance", "Manufacturing",
+    "Retail", "Education", "Government", "Other",
+  ];
+
+  async function handleSave() {
+    if (!displayName || !companyName || !department) return alert("Fill all required fields");
+
+    const uid = localStorage.getItem("user_uid");
+    if (!uid) return alert("User session missing");
+
+    try {
+      setSaving(true);
+
+      await updateUserProfile({
+        uid,
+        full_name: fullName,
+        display_name: displayName,
+        job_title: jobTitle,
+        company_name: companyName,
+        department,
+        industry,
+      });
+
+      navigate("/dashboard/results");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  useEffect(() => {
+    const uid = localStorage.getItem("user_uid");
+    if (!uid) return;
+
+    (async () => {
+      const p = await getUserProfile(uid);
+
+      setFullName(p.full_name || "");
+      setDisplayName(p.display_name || "");
+      setJobTitle(p.job_title || "");
+      setCompanyName(p.company_name || "");
+      setDepartment(p.department || "");
+      setIndustry(p.industry || "");
+    })();
+  }, []);
+
+  return (
+    <div className="flex h-screen bg-gradient-to-br from-white via-green-50/40 to-gray-100">
+      {/* Back Button */}
+      <button
+        onClick={() => navigate(-1)}
+         className="absolute top-6 left-6 z-50 p-2 bg-white rounded-xl shadow hover:bg-green-50 transition"
+      >
+        <ArrowLeft className="w-5 h-5 text-green-700"  />
+      </button>
+
+      {/* LEFT PANEL */}
+      <div className="w-[45%] border-r border-gray-200 flex items-center px-14 bg-white/60 backdrop-blur-sm">
+        <div className="max-w-lg">
+          <p className="uppercase tracking-[0.2em] text-green-700 font-semibold">
+            Workspace Setup
+          </p>
+
+          <h1 className="text-4xl font-bold mt-3 text-gray-900">
+            Organization profile
+          </h1>
+
+          <p className="text-gray-600 text-lg mt-3 leading-relaxed">
+            Define who you are and how your organization operates so NomiAI
+            can generate audit-ready views of your controls, teams, and risk exposure.
+          </p>
+
+          <div className="flex gap-3 mt-6">
+            <span className="px-3 py-1 text-xs rounded-full border border-green-700 text-green-700 bg-green-50">
+              Single source of truth
+            </span>
+            <span className="px-3 py-1 text-xs rounded-full border border-green-300 text-green-800 bg-green-50/60">
+              Compliance aligned
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* RIGHT PANEL */}
+      <div className="w-[55%] p-10 overflow-y-auto flex justify-center">
+        <div className="w-full max-w-3xl">
+          <Card className="border border-green-100 shadow-md rounded-2xl">
+            <CardHeader className="pb-2">
+              <CardTitle className="text-xl font-semibold text-green-800">
+                Workspace & role information
+              </CardTitle>
+              <CardDescription className="text-gray-600">
+                These details help tailor your workspace, audit mapping, and compliance workflows.
+              </CardDescription>
+            </CardHeader>
+
+            <Separator />
+
+            <CardContent className="pt-6 space-y-6">
+              {/* FULL NAME */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Full name *</Label>
+                <Input
+                  disabled={!isEditing}
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  className="focus-visible:ring-green-600"
+                />
+              </div>
+
+              {/* DISPLAY NAME */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Display name</Label>
+                <Input
+                  disabled={!isEditing}
+                  value={displayName}
+                  onChange={(e) => setDisplayName(e.target.value)}
+                  className="focus-visible:ring-green-600"
+                />
+              </div>
+
+              {/* JOB TITLE */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Job title</Label>
+                <Input
+                  disabled={!isEditing}
+                  placeholder="e.g. Chief Compliance Officer"
+                  value={jobTitle}
+                  onChange={(e) => setJobTitle(e.target.value)}
+                  className="focus-visible:ring-green-600"
+                />
+              </div>
+
+              {/* COMPANY NAME */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Company name *</Label>
+                <Input
+                  disabled={!isEditing}
+                  value={companyName}
+                  onChange={(e) => setCompanyName(e.target.value)}
+                  className="focus-visible:ring-green-600"
+                />
+              </div>
+
+              {/* DEPARTMENT */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Primary department *</Label>
+
+<Select
   disabled={!isEditing}
-  onChange={(e) => setDisplayName(e.target.value)}
-/>
-  
- <TextField
- label="Job title"
- fullWidth
- value={jobTitle}
- disabled={!isEditing}
- onChange={(e) => setJobTitle(e.target.value)}
- placeholder="e.g., Chief Compliance Officer, Security Lead"
- />
- 
- <TextField
- label="Company name *"
- fullWidth
- value={companyName}
- disabled={!isEditing}
- onChange={(e) => setCompanyName(e.target.value)}
- />
- 
- <TextField
- select
- label="Primary department *"
- fullWidth
- value={department}
- disabled={!isEditing}
- onChange={(e) => setDepartment(e.target.value)}
- helperText="This is the function primarily responsible for compliance in your organization."
- >
- {departments.map((d) => (
- <MenuItem key={d} value={d}>
- {d}
- </MenuItem>
- ))}
- </TextField>
- 
- <TextField
- select
- label="Industry"
- fullWidth
- value={industry}
- disabled={!isEditing}
- onChange={(e) => setIndustry(e.target.value)}
- >
- {industries.map((i) => (
- <MenuItem key={i} value={i}>
- {i}
- </MenuItem>
- ))}
- </TextField>
- </Stack>
- 
- {/* BUTTONS */}
- <Box sx={{ display: "flex", gap: 2, mt: 4 }}>
- <Button
- variant="contained"
- disabled={!isEditing || isSaving}
- onClick={handleSave}
- sx={{
- flex: 1,
- py: 1.4,
- borderRadius: "10px",
- fontWeight: 700,
- textTransform: "none",
- backgroundColor: "#0f172a",
- "&:hover": { backgroundColor: "#020617" },
- }}
- >
- {isSaving ? "Saving..." : "Save changes"}
- </Button>
- 
- <Button
- variant="outlined"
- onClick={() => navigate("/dashboard")}
- sx={{
- flex: 1,
- py: 1.4,
- borderRadius: "10px",
- fontWeight: 600,
- textTransform: "none",
- borderColor: "#cbd5e1",
- color: "#0f172a",
- backgroundColor: "#ffffff",
- "&:hover": {
- borderColor: "#0f172a",
- backgroundColor: "#f9fafb",
- },
- }}
- >
- Skip for now
- </Button>
- </Box>
- </Paper>
- 
- {/* Bottom hint */}
- <Typography
- variant="caption"
- sx={{ display: "block", mt: 2, color: "#6b7280" }}
- >
- Changes to this profile may be reflected in audit logs, supplier
- assessments, and remediation workflows initiated by NomiAI.
- </Typography>
- </Box>
- </Box>
- </Box>
- );
- }
+  value={department}
+  onValueChange={setDepartment}
+>
+  <SelectTrigger className="rounded-xl">
+    <SelectValue placeholder="Select department" />
+  </SelectTrigger>
+
+  <SelectContent>
+    {departments.map((d) => (
+      <SelectItem key={d} value={d}>
+        {d}
+      </SelectItem>
+    ))}
+  </SelectContent>
+</Select>
+
+                <p className="text-xs text-gray-500">
+                  This is the department primarily responsible for compliance.
+                </p>
+              </div>
+
+              {/* INDUSTRY */}
+              <div className="space-y-2">
+                <Label className="text-green-900">Industry</Label>
+<Select
+  disabled={!isEditing}
+  value={industry}
+  onValueChange={setIndustry}
+>
+  <SelectTrigger className="rounded-xl">
+    <SelectValue placeholder="Select industry" />
+  </SelectTrigger>
+
+  <SelectContent>
+    {industries.map((i) => (
+      <SelectItem key={i} value={i}>
+        {i}
+      </SelectItem>
+    ))}
+  </SelectContent>
+</Select>
+              </div>
+
+              {/* BUTTONS */}
+              <div className="flex gap-3 pt-4">
+                <Button
+                  disabled={!isEditing || saving}
+                  onClick={handleSave}
+                  className="flex-1 rounded-xl bg-green-700 text-white hover:bg-green-800"
+                >
+                  {saving ? "Saving..." : "Save changes"}
+                </Button>
+
+                <Button
+                  variant="outline"
+                  onClick={() => navigate("/dashboard/results")}
+                  className="flex-1 rounded-xl border-green-300 text-green-800 hover:bg-green-50"
+                >
+                  Skip for now
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <p className="text-xs text-gray-500 mt-4">
+            Profile updates may appear in audit logs, supplier assessments, and remediation workflows.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}

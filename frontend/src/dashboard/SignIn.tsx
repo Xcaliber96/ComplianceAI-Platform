@@ -113,7 +113,7 @@ export default function SignIn() {
       
       console.log("FRONTEND FIREBASE PROJECT:", auth.app.options.projectId);
       
-      return navigate("/dashboard");
+      return navigate("/dashboard/results");
     } catch (err: any) {
       let message = "Something went wrong. Please try again.";
       if (err.code === "auth/invalid-email") message = "Invalid email.";

@@ -6,6 +6,7 @@ import {
   toggleRegulation,
   
 } from "../../api/client";
+import { useNavigate } from "react-router-dom";
 
 import {
   Card,
@@ -73,7 +74,7 @@ export default function RegulationsLibraryPage() {
     useState<(typeof categories)[number]>("All categories");
 const [showCustomModal, setShowCustomModal] = useState(false);
   const [activeId, setActiveId] = useState<string>("");
-
+const navigate = useNavigate();
 async function reload() {
   const userId = "test-user";
   const ws = await fetchWorkspace(userId);
@@ -84,6 +85,7 @@ async function reload() {
     setActiveId(ws[0].id);
   }
 }
+
   useEffect(() => {
     reload();
   }, []);
@@ -144,12 +146,13 @@ const handleToggle = async (regId: string) => {
             <Button variant="outline" className="rounded-xl">
               Export overview
             </Button>
-            <Button
-              onClick={() => setShowCustomModal(true)}
-              className="bg-green-700 hover:bg-green-800 text-white px-5 rounded-xl shadow-md"
-            >
-              Add custom regulation
-            </Button>
+<Button
+  onClick={() => navigate("/dashboard/regmanage")}
+  className="bg-green-700 hover:bg-green-800 text-white px-5 rounded-xl shadow-md"
+>
+  Add regulation
+</Button>
+
           </div>
         </div>
 

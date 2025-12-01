@@ -10,7 +10,7 @@ import FrontPage from "./FrontPage";
 import DocumentAudit from "./UploadFetchTab";
 import SupplierOnboarding from "./SupplierOnboarding";
 import LLM from "./LLM";
-import AuditResultsTab from "./Audit/AuditResultsTab";
+import AuditResultsTab from "./Audit/Results/AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
 import CompetitorsPage from "./CompetitorsPage";
 import DashboardPage from "./Extraction/Extraction";
@@ -18,8 +18,7 @@ import AuditRunner from "./Audit/RunAudit";
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer";
 import Onboarding from "./Onboarding/Onboarding";
-import DocumentViewer from "./Audit/DocumentViewer"
-import RegulationsPage from "./Audit/RegulationsManger"
+
 import ShowList from "./File Manager/ShowList"
 import FileExtractPage from "./Extraction/FileExtractPage"
 import AuditResultsPage from "./Audit/Results/AuditResults";
@@ -70,11 +69,10 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="upload" element={<DocumentAudit />} />
         <Route path="suppliers" element={<SupplierOnboarding />} />
         <Route path="llm" element={<LLM />} />
-        <Route path="results" element={<AuditResultsTab />} />
+       
         <Route path="CompliancePlanner" element={<CompliancePlanner />} />
-        <Route path="AuditResultsTab" element={<AuditResultsTab />} />
         <Route path="competitors" element={<CompetitorsPage />} />
-        <Route path="AddFile" element={<AddFile />} />
+       <Route path="AddFile" element={<AddFile onClose={() => {}} />} />
         <Route path="Filelist" element={<Filelist />} />
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
@@ -87,12 +85,7 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="audit/:id" element={<AuditRunner />} />
         <Route path="auditresults" element={<AuditResultsPage />} />
         <Route path="AuditLogPage" element={<AuditLogPage />} />
-     
-     
-     
-        
-        
-        
+        <Route path="results" element={<AuditResultsTab />} />
       </Routes>
     </Box>
 

@@ -8,22 +8,39 @@ const metrics = [
     highlight: true,
   },
   {
-    label: "Completed",
+    label: "Completed Tasks",
     value: 0,
     description: "Tasks finished and verified as complete.",
-    highlight: false,
   },
   {
-    label: "Overdue",
+    label: "Overdue Tasks",
     value: 0,
     description: "Tasks that passed their due date.",
-    highlight: false,
   },
   {
-    label: "Breached",
+    label: "Breached Tasks",
     value: 0,
     description: "Tasks that breached a critical SLA or control.",
-    highlight: false,
+  },
+  {
+    label: "Compliance Score",
+    value: "82%",
+    description: "Overall compliance posture across all regulations.",
+  },
+  {
+    label: "Regulations Audited",
+    value: 5,
+    description: "Total regulations analyzed by the AI audit engine.",
+  },
+  {
+    label: "Total Gaps Found",
+    value: 13,
+    description: "Outstanding missing controls, evidence, or policy issues.",
+  },
+  {
+    label: "Files Added",
+    value: 14,
+    description: "Documents uploaded recently into your workspace.",
   },
 ];
 
@@ -41,8 +58,8 @@ const AuditResultsTab: React.FC = () => {
               Dashboard Summary
             </h1>
             <p className="mt-2 max-w-xl text-sm text-slate-500">
-              Get a quick view of total tasks, completion progress, overdue
-              risk, and breached items across your workspace.
+              View total tasks, compliance progress, regulations audited, gaps found,
+              and document activity in your workspace.
             </p>
           </div>
 
@@ -57,7 +74,7 @@ const AuditResultsTab: React.FC = () => {
                   Overview
                 </p>
                 <p className="text-sm text-slate-500">
-                  Review key metrics for your audit tasks.
+                  Review key metrics for your workspace.
                 </p>
               </div>
             </div>
@@ -77,16 +94,16 @@ const AuditResultsTab: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.12em] text-sky-600">
-                  Activity
+                  Recent Activity
                 </p>
                 <p className="text-sm text-slate-500">
-                  Visualize task trends and status distribution.
+                  Latest audits, gaps updates, and file uploads.
                 </p>
               </div>
             </div>
 
             <div className="h-48 rounded-2xl border border-dashed border-slate-200 bg-slate-50/70 flex items-center justify-center text-sm text-slate-400">
-              Task trend / chart placeholder
+              Activity timeline placeholder
             </div>
           </section>
 
@@ -98,16 +115,16 @@ const AuditResultsTab: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.12em] text-indigo-600">
-                  Review tasks
+                  Review Tasks
                 </p>
                 <p className="text-sm text-slate-500">
-                  Prioritize overdue and breached tasks for follow-up.
+                  Prioritize overdue or breached items.
                 </p>
               </div>
             </div>
 
             <div className="h-40 rounded-2xl border border-dashed border-slate-200 bg-slate-50/70 flex items-center justify-center text-sm text-slate-400">
-              Task list / table placeholder
+              Task list preview placeholder
             </div>
           </section>
         </div>
@@ -121,14 +138,14 @@ const AuditResultsTab: React.FC = () => {
               HOW THIS WORKS
             </h2>
             <p className="mb-4 text-sm text-slate-200">
-              This dashboard aggregates task data from your audit workspace and
-              surfaces the signals that need your attention.
+              This dashboard aggregates insights from audits, tasks, regulations,
+              and workspace documents to show your compliance health.
             </p>
 
             <ul className="space-y-2 text-sm text-slate-200">
-              <li>• Use the metrics section to assess workload and risk.</li>
-              <li>• Investigate overdue and breached tasks first.</li>
-              <li>• Use the activity and review sections to plan follow-ups.</li>
+              <li>• Monitor compliance score and gaps.</li>
+              <li>• Review overdue and breached tasks first.</li>
+              <li>• Use activity insights to plan follow-up actions.</li>
             </ul>
           </div>
 
@@ -138,12 +155,11 @@ const AuditResultsTab: React.FC = () => {
               Next step
             </h3>
             <p className="mt-2 text-sm text-slate-600">
-              Once you're comfortable with the overview, open the detailed task
-              list to assign owners, update statuses, or export reports.
+              Explore detailed data in regulations, gaps, tasks, and files.
             </p>
 
             <button className="mt-4 inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-xs font-medium text-white hover:bg-slate-800">
-              Go to task list
+              Go to tasks
             </button>
           </div>
 
@@ -155,7 +171,7 @@ const AuditResultsTab: React.FC = () => {
 
 type MetricCardProps = {
   label: string;
-  value: number;
+  value: number | string;
   description: string;
   highlight?: boolean;
 };
