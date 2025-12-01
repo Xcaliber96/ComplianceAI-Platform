@@ -130,9 +130,54 @@ from fastapi import FastAPI
 from .graph_api import router as graph_router   # plain import works when cwd is the folder
 import sys, subprocess, os
 from typing import Dict, Any
+# ---------- Application + CORS (add after imports) ----------
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import PlainTextResponse
+
+
+
+
+app = FastAPI()
+from src.api.obligations_ingest import router as obligations_router
+app.include_router(obligations_router)
+# dev origins — include the exact origin your frontend uses (update if different)
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,   # required for cookies
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# universal preflight handler: ensures OPTIONS returns early and CORS headers are attached
+@app.options("/{rest_of_path:path}")
+async def cors_preflight_handler(rest_of_path: str):
+    return PlainTextResponse("", status_code=200)
+# ------------------------------------------------------------
+
 
 app = FastAPI()
 app.include_router(graph_router)
+from src.api.obligations_ingest import router as obligations_router
+app.include_router(obligations_router)
+
+# src/api/main_api.py (add this near the top, after app and CORSMiddleware)
+from fastapi import Response
+from fastapi.responses import PlainTextResponse
+
+# handle preflight OPTIONS for any path to avoid custom middleware/validation firing
+@app.options("/{rest_of_path:path}")
+async def cors_preflight_handler(rest_of_path: str):
+    # Return an empty 200/204 — CORSMiddleware will attach required CORS headers.
+    return PlainTextResponse("", status_code=200)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -156,7 +201,7 @@ app.add_middleware(
         "https://nomioc.com",                        
         "https://www.nomioc.com",                       
         "http://localhost:8000",
-        "http://localhost:8501", 
+        "http://localhost:8501",        "http://localhost:5173",       "http://127.0.0.1:5173", 
     ],
     allow_credentials=True,
     allow_methods=["*"],
