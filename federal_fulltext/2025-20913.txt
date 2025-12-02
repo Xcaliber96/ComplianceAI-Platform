@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Page 53289]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20913]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+[Docket No. RM01-5-000]
+
+
+Electronic Tariff Filings; Corrections to Etariff Tables
+
+    Take notice that the .CSV files for the eTariff Validation Error 
+Codes, Attachment Reference Code, and Attachment Content Type Code have 
+been reposted on <a href="http://ferc.gov">ferc.gov</a> (<a href="https://www.ferc.gov/ferc-online/etariff">https://www.ferc.gov/ferc-online/etariff</a>) to 
+correct posting errors.
+    <bullet> The eTariff Validation Error Codes table is revised to 
+include error code 190 that had been inadvertently omitted. On March 
+27, 2025, a notice was posted advising filing parties that Validation 
+Error code 190 was being deployed on April 28, 2025, notifying filers 
+that their filing has been rejected because tariff records contain 
+track change markings in documents submitted as Microsoft Word 
+files.\1\ That revision inadvertently was not incorporated into the 
+Validation Error Codes table. The table has now been updated to include 
+code 190. To avoid triggering a rejection for including track changes, 
+make sure to click on the ``Accept All Changes and Stop Tracking'' 
+option to ensure track changes have been removed before submission.
+---------------------------------------------------------------------------
+
+    \1\ Notice of Changes to eTariff Validation Error Codes, Docket 
+No. RM01-5-000 (March 27. 2025), <a href="https://elibrary.ferc.gov/eLibrary/filedownload?fileid=543A1FFA-6FAF-C59A-95F8-95D81AD00000">https://elibrary.ferc.gov/eLibrary/filedownload?fileid=543A1FFA-6FAF-C59A-95F8-95D81AD00000</a>.
+---------------------------------------------------------------------------
+
+    <bullet> The Attachment Content Type Code is revised to include two 
+missing file types: GAMS result file, GDX, and Gesture and Motion 
+Signal File, GMS.
+    <bullet> The Attachment Reference Code removes duplicate entries 
+for codes 395 and 405.
+    For more information, contact <a href="/cdn-cgi/l/email-protection#87caeee4efe6e2eba9c0e8ebe3e2e9e5e2f5e0c7bbe6a7eff5e2e1ba" http: ferc.gov">ferc.gov</a>">Michael.Goldenberg@<a href="http://ferc.gov">ferc.gov</a></a>, 
+<a href="/cdn-cgi/l/email-protection#5a103b373f2974093b2833313b291a663b7a32283f3c67" http: ferc.gov">ferc.gov</a>">James.Sarikas@<a href="http://ferc.gov">ferc.gov</a></a>, or the eTariff Advisory Staff at 202-502-6501 
+or at <a href="/cdn-cgi/l/email-protection#dfbaabbeadb6b9b9adbaacafb0b1acba9fe3beffb7adbab9e2" http: ferc.gov">ferc.gov</a>">etariffresponse@<a href="http://ferc.gov">ferc.gov</a></a>.
+
+    Dated: November 3, 2025.
+Debbie-Anne A. Reese,
+Secretary.
+[FR Doc. 2025-20913 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

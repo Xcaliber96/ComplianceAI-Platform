@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54764-54765]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21575]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF JUSTICE
+
+[OMB Number 1121-0381]
+
+
+Agency Information Collection Activities; Proposed eCollection 
+eComments Requested; Revision of a Previously Approved Collection; 
+Juvenile Facility Census Program (JFCP)
+
+AGENCY: Office of Justice Programs, Department of Justice.
+
+ACTION: 30-Day notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The National Institute of Justice, Office of Justice Programs, 
+Department of Justice (DOJ), will be submitting the following 
+information collection request to the Office of Management and Budget 
+(OMB) for review and approval in accordance with the Paperwork 
+Reduction Act of 1995.
+
+DATES: Comments are encouraged and will be accepted for 30 days until 
+December 29, 2025.
+
+FOR FURTHER INFORMATION CONTACT: If you have comments especially on the 
+estimated public burden or associated response time, suggestions, or 
+need a copy of the proposed information collection instrument with 
+instructions or additional information, please contact: Benjamin Adams, 
+Supervisory Social Science Analyst, National Institute of Justice, 999 
+North Capitol Street NE, Washington, DC 20531 (email: 
+<a href="/cdn-cgi/l/email-protection#3456515a5e55595d5a1a5550555947744147505b5e1a535b42"><span class="__cf_email__" data-cfemail="197b7c77737874707737787d78746a596c6a7d7673377e766f">[email&#160;protected]</span></a>; telephone: 202-598-6493).
+
+SUPPLEMENTARY INFORMATION: The proposed information collection was 
+previously published in the Federal Register on May 21, 2024, 89 FR 
+44709, allowing a 60-day comment period. Written comments and 
+suggestions from the public and affected agencies concerning the 
+proposed collection of information are encouraged. Your comments should 
+address one or more of the following four points:
+
+--Evaluate whether the proposed collection of information is necessary 
+for the proper performance of the functions of the agency, including 
+whether the information will have practical utility;
+--Evaluate the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used;
+--Enhance the quality, utility, and clarity of the information to be 
+collected; and/or
+
+[[Page 54765]]
+
+--Minimize the burden of the collection of information on those who are 
+to respond, including through the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques or 
+other forms of information technology, e.g., permitting electronic 
+submission of responses.
+
+    Written comments and recommendations for this information 
+collection should be submitted within 30 days of the publication of 
+this notice on the following website <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. 
+Find this particular information collection by selecting ``Currently 
+under 30-day Review--Open for Public Comments'' or by using the search 
+function and entering either the title of the information collection or 
+the OMB Control Number [1121-0381]. This information collection request 
+may be viewed at <a href="http://www.reginfo.gov">www.reginfo.gov</a>. Follow the instructions to view 
+Department of Justice, information collections currently under review 
+by OMB.
+    DOJ seeks PRA authorization for this information collection for two 
+(2) years. OMB authorization for an ICR cannot be for more than three 
+(3) years without renewal. The DOJ notes that information collection 
+requirements submitted to the OMB for existing ICRs receive a month-to-
+month extension while they undergo review.
+
+Overview of This Information Collection
+
+    1. Type of Information Collection: Revision to currently approved 
+collection.
+    2. Title of the Form/Collection: Juvenile Facility Census Program 
+(JFCP).
+    3. Agency form number, if any, and the applicable component of the 
+Department of Justice sponsoring the collection: The form numbers are 
+CJ-14 (Youth Characteristics Module) and CJ-15 (Facility Operations 
+Module). The applicable components within the Department of Justice are 
+the National Institute of Justice and the Office of Juvenile Justice 
+and Delinquency Prevention, in the Office of Justice Programs.
+    4. Affected public who will be asked or required to respond, as 
+well as a brief abstract: State, local and tribal governments, 
+individuals or households, and Private Sector-for or not for profit 
+institutions.
+    Abstract: This request for clearance of the Juvenile Facility 
+Census Program (JFCP) will combine two previously, separately cleared 
+data collections: the Census of Juveniles in Residential Placement 
+(CJRP, OMB # 1121-0218) and the Juvenile Residential Facility Census 
+(JRFC, OMB # 1121-0219). The JFCP collects information from all secure 
+and nonsecure residential placement facilities that house persons 
+younger than age 21 who are being held as a result of some contact with 
+the juvenile justice system for a law violation. This encompasses both 
+status offenses and delinquency offenses and includes youth who are 
+either temporarily detained by the court or committed after 
+adjudication for an offense. The JFCP consolidates the content of the 
+CJRP and JRFC into a single, unified program. It collects general 
+information on facility characteristics and the number of youth housed, 
+and includes two rotating content modules that are administered 
+separately during a two-year collection cycle: the Youth Population 
+module and the Facility Operations module. The Youth Population module 
+collects detailed information on individual youth housed in facilities, 
+including demographic details, placement characteristics, and length of 
+stay. The Facility Operations module collects information on resident 
+services, facility features, and operations. The information gathered 
+in these national collections will be used in published reports and 
+statistics. The reports will be made available to the U.S. Congress, 
+Executive Office of the President, practitioners, researchers, 
+students, the media, others interested in juvenile residential 
+facilities, and the general public via the OJP agency websites. The two 
+data collections are being consolidated the attain cost savings and 
+reduce respondent burden.
+    5. Obligation to Respond: Voluntary.
+    6. Total Estimated Number of Respondents: The total estimated 
+respondents is 1,636 for each module for each year.
+    7. Estimated Time per Respondent: It takes an average of 6 hours to 
+complete the JFCP. The total burden is 9,816, including the two 
+rotating content modules that are administered separately during a two-
+year collection cycle. The Youth Characteristics module takes an 
+average of 4 hours to complete. The total burden for the Youth 
+Characteristics module is 6,544 hours. The Facility Operations module 
+takes an average of 2 hours to complete. The total burden for the 
+Facility Operations module is 3,272 hours.
+    8. Frequency: The JFCP is a biennial data collection with two 
+content modules administered separately during a two-year collection 
+cycle.
+    9. Total Estimated Annual Time Burden: The average annual burden is 
+4,908 or 9,816 total hours for the two-year collection cycle.
+    10. Total Estimated Annual Other Costs Burden: The estimated annual 
+cost for JFCP is $1,142,115. The estimated cost for one collection 
+cycle is $2,284,230.
+    If additional information is required, contact: Darwin Arceo, 
+Department Clearance Officer, Enterprise Portfolio Management, Justice 
+Management Division, United States Department of Justice, Two 
+Constitution Square, 145 N Street NE, 4W-218 Washington, DC 20530.
+
+    Dated: November 25, 2025.
+Darwin Arceo,
+Department Clearance Officer for PRA, U.S. Department of Justice.
+[FR Doc. 2025-21575 Filed 11-26-25; 8:45 am]
+BILLING CODE 4410-18-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54311]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21171]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-HA-0213]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: The Office of the Assistant Secretary of Defense for Health 
+Affairs (OASD(HA)), Department of Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#46312e35682b256b272a233e68233522682b243e6822226b2229226b2f282029342b27322f29286b25292a2a2325322f292835062b272f2a682b2f2a"><span class="__cf_email__" data-cfemail="2b5c4358054648064a474e53054e584f05464953054f4f064f444f0642454d4459464a5f42444506484447474e485f424445586b464a424705464247">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: MHS GENESIS Patient 
+Registration Module and Patient Portal; OMB Control Number 0720-0064.
+    Type of Request: Extension.
+    Number of Respondents: 3,000,000.
+    Responses per Respondent: 1.
+    Annual Responses: 3,000,000.
+    Average Burden per Response: 7 minutes.
+    Annual Burden Hours: 351,000.
+    Needs and Uses: The information collection requirement is necessary 
+to provide and document medical care; determine eligibility for 
+benefits and entitlements; adjudicate claims; determine whether a third 
+party is responsible for the cost of Military Health System provided 
+healthcare and recover that cost; and evaluate fitness for duty and 
+medical concerns which may have resulted from an occupational or 
+environmental hazard. Obtaining this information is essential for the 
+DoD to provide medical care and recover costs.
+    Affected Public: Individuals or households.
+    Frequency: As required.
+    Respondent's Obligation: Voluntary.
+    DoD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21171 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

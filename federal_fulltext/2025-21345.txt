@@ -1,0 +1,410 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54680-54683]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21345]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+[FRL-12987-01-OLEM]
+
+
+Forty-Eighth Update of the Federal Agency Hazardous Waste 
+Compliance Docket
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Since 1988, the Environmental Protection Agency (EPA) has 
+maintained a Federal Agency Hazardous Waste Compliance Docket 
+(``Docket'') under the Comprehensive Environmental Response, 
+Compensation, and Liability Act (CERCLA). CERCLA requires EPA to 
+establish a Docket that contains certain information reported to EPA by 
+Federal facilities that manage hazardous waste or from which a 
+reportable quantity of hazardous substances has been released. This 
+document identifies the Federal facilities not previously listed on the 
+Docket and identifies Federal facilities reported to EPA since the last 
+update on April 21, 2025. In addition to the list of additions to the 
+Docket, this document includes a section with revisions of the previous 
+Docket list and a section of Federal facilities that are to be deleted 
+from the Docket. Thus, the revisions in this update include two 
+additions, zero deletions, and zero corrections to the Docket since the 
+previous update.
+
+DATES: This list is current as of October 3, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Electronic versions of the Docket and 
+more information on its implementation can be obtained at <a href="https://www.epa.gov/fedfac/federal-agency-hazardous-waste-compliance-docket">https://www.epa.gov/fedfac/federal-agency-hazardous-waste-compliance-docket</a> by 
+clicking on the link for Cleanups at Federal Facilities or by 
+contacting Jonathan Tso, telephone number: (202) 564-0410; email 
+address: <a href="/cdn-cgi/l/email-protection#f98d8a96d7939697988d919897b99c8998d79e968f"><span class="__cf_email__" data-cfemail="c0b4b3afeeaaafaea1b4a8a1ae80a5b0a1eea7afb6">[email&#160;protected]</span></a>, Federal Agency Hazardous Waste 
+Compliance Docket Coordinator, Office of Superfund and Emergency 
+Management. Additional information on the Docket and a complete list of 
+Docket sites can be obtained at: <a href="https://www.epa.gov/fedfac/federal-agency-hazardous-waste-compliance-docket">https://www.epa.gov/fedfac/federal-agency-hazardous-waste-compliance-docket</a>-1.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+1.0 Introduction
+2.0 Regional Docket Coordinators
+3.0 Revisions of the Previous Docket
+4.0 Process for Compiling the Updated Docket
+5.0 Facilities Not Included
+6.0 Facility NPL Status Reporting, Including NFRAP Status
+7.0 Information Contained on Docket Listing
+
+1.0 Introduction
+
+    Section 120(c) of CERCLA, 42 U.S.C. 9620(c), as amended by the 
+Superfund Amendments and Reauthorization Act of 1986 (SARA), requires 
+EPA to establish the Federal Agency Hazardous Waste Compliance Docket. 
+The Docket contains information on Federal facilities that manage 
+hazardous waste and such information is submitted by Federal agencies 
+to EPA under sections 3005, 3010, and 3016 of the Resource Conservation 
+and Recovery Act (RCRA), 42 U.S.C. 6925, 6930, and 6937. Additionally, 
+the Docket contains information on Federal facilities with a reportable 
+quantity of hazardous substances that has been released and such 
+information is submitted by Federal agencies to EPA under section 103 
+of CERCLA, 42 U.S.C. 9603. Specifically, RCRA section 3005 establishes 
+a permitting system for certain hazardous waste treatment, storage, and 
+disposal (TSD) facilities; RCRA section 3010 requires waste generators, 
+transporters and TSD facilities to notify EPA of their hazardous waste 
+activities; and RCRA section 3016 requires Federal agencies to submit 
+biennially to EPA an inventory of their Federal hazardous waste 
+facilities. CERCLA section 103(a) requires the owner or operator of a 
+vessel or onshore or offshore facility to notify the National Response 
+Center (NRC) of any spill or other release of a hazardous substance 
+that equals or exceeds a reportable quantity (RQ), as defined by CERCLA 
+section 101. Additionally, CERCLA section 103(c) requires facilities 
+that have ``stored, treated, or disposed of'' hazardous wastes and 
+where there is ``known, suspected, or likely releases'' of hazardous 
+substances to report their activities to EPA.
+    CERCLA section 120(d) requires EPA to take steps to assure that a 
+Preliminary Assessment (PA) be completed for those sites identified in 
+the Docket and that the evaluation and listing of sites with a PA be 
+completed within a reasonable time frame. The PA is designed to provide 
+information for EPA to consider when evaluating the site for potential 
+response action or inclusion on the National Priorities List (NPL).
+    The Docket serves three major purposes: (1) to identify all Federal 
+facilities that must be evaluated to determine whether they pose a 
+threat to human health and the environment sufficient to warrant 
+inclusion on the National Priorities List (NPL); (2) to compile and 
+maintain the information submitted to EPA on such facilities under the 
+provisions listed in section 120(c) of CERCLA; and (3) to provide a 
+mechanism to make the information available to the public. Previous 
+Docket updates are available at <a href="https://www.epa.gov/fedfac/previous-federal-agency-hazardous-waste-compliance-docket-updates">https://www.epa.gov/fedfac/previous-federal-agency-hazardous-waste-compliance-docket-updates</a>.
+    This document provides some background information on the Docket. 
+Additional information on the Docket requirements and implementation 
+are found in the Docket Reference Manual, Federal Agency Hazardous 
+Waste Compliance Docket found at <a href="https://www.epa.gov/fedfac/docket-reference-manual-federal-agency-hazardous-waste-compliance-docket-interim-final">https://www.epa.gov/fedfac/docket-reference-manual-federal-agency-hazardous-waste-compliance-docket-interim-final</a> or obtained by calling the Regional Docket Coordinators 
+listed below. This document also provides changes to the list of sites 
+included on the Docket in three areas: (1) Additions, (2) Deletions, 
+and (3) Corrections. Specifically, additions are newly identified 
+Federal facilities that have been reported to EPA since the last update 
+and now are included on the Docket; the deletions section lists Federal 
+facilities that EPA is deleting from the Docket.\1\ The information 
+submitted to EPA on each Federal facility is maintained in the Docket 
+repository located in the EPA Regional office of the Region in which 
+the Federal facility is located; for a description of the information 
+required under those provisions, see 53 FR 4280 (February 12, 1988). 
+Each repository contains the documents submitted to EPA under the 
+reporting provisions and correspondence relevant to the reporting 
+provisions for each Federal facility.
+---------------------------------------------------------------------------
+
+    \1\ See section 3.2 for the criteria for being deleted from the 
+Docket.
+---------------------------------------------------------------------------
+
+    In prior updates, information was also provided regarding No 
+Further Remedial Action Planned (NFRAP) status changes. However, 
+information on NFRAP and NPL status is no longer being provided 
+separately in the Docket update as it is now available at: <a href="https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list">https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list</a> or 
+by contacting the EPA HQ Docket Coordinator at the address provided in 
+the FOR FURTHER INFORMATION CONTACT section of this document.
+
+[[Page 54681]]
+
+2.0 Regional Docket Coordinators
+
+    Contact the following Docket Coordinators for information on 
+Regional Docket repositories:
+    <bullet> US EPA Region 1. Mya Winslow (HBS), 5 Post Office Square, 
+Suite 100, Mail Code: 01-5, Boston MA 02109-3912, (617) 918-1594.
+    <bullet> US EPA Region 2. James Desir, 290 Broadway, New York, NY 
+10007-1866, (212) 637-4342.
+    <bullet> US EPA Region 3. Connor O'Loughlin (3HS12), 1650 Arch 
+Street, Philadelphia, PA 19107, (215) 814-3304.
+    <bullet> US EPA Region 4. Emily Jones (9T25), 61 Forsyth St., SW, 
+Atlanta, GA 30303, (404) 562-8334.
+    <bullet> US EPA Region 5. David Brauner (SR-6J), 77 W. Jackson 
+Blvd., Chicago, IL 60604, (312) 886-1526.
+    <bullet> US EPA Region 6. Philip Ofosu (6SF-RA), 1445 Ross Avenue, 
+Dallas, TX 75202-2733, (214) 665-3178.
+    <bullet> US EPA Region 7. Matthew Smith (SUPRERSB), 11201 Renner 
+Blvd., Lenexa, KS 66219, (913) 551-7527.
+    <bullet> US EPA Region 8. Ryan Dunham (EPR-F), 1595 Wynkoop Street, 
+Denver, CO 80202, (303) 312-6627.
+    <bullet> US EPA Region 9. Ashley Mrzljak (SFD-6-1), 600 Wilshire 
+Boulevard, Suite 940, Los Angeles, CA 90017, (213) 244-1839.
+    <bullet> US EPA Region 10. Jeffree Fetters, 1200 Sixth Avenue, 
+Seattle, WA 98101, (206) 553-1583.
+
+3.0 Revisions of the Previous Docket
+
+    This section includes a discussion of the additions, deletions and 
+corrections to the list of Docket facilities since the previous Docket 
+update.
+
+3.1 Additions
+
+    These Federal facilities are being added primarily because of new 
+information obtained by EPA (for example, recent reporting of a 
+facility pursuant to RCRA sections 3005, 3010, or 3016 or CERCLA 
+section 103). CERCLA section 120, as amended by the Defense 
+Authorization Act of 1997, specifies that EPA take steps to assure that 
+a Preliminary Assessment (PA) be completed within a reasonable time 
+frame for those Federal facilities that are included on the Docket. 
+Among other things, the PA is designed to provide information for EPA 
+to consider when evaluating the site for potential response action or 
+listing on the NPL. This document includes two additions.
+
+3.2 Deletions
+
+    There are no statutory or regulatory provisions that address 
+deletion of a facility from the Docket. However, if a facility is 
+incorrectly included on the Docket, it may be deleted from the Docket. 
+The criteria EPA uses in deleting sites from the Docket include: a 
+facility for which there was an incorrect report submitted for 
+hazardous waste activity under RCRA (e.g., 40 CFR 262.44); a facility 
+that was not Federally-owned or operated at the time of the listing; a 
+facility included more than once (i.e., redundant listings); or when 
+multiple facilities are combined under one listing. (See Docket Codes 
+(Reasons for Deletion of Facilities)) for a more refined list of the 
+criteria EPA uses for deleting sites from the Docket.) Facilities being 
+deleted no longer will be subject to the requirements of CERCLA section 
+120(d). This document includes zero deletions.
+
+3.3 Corrections
+
+    Changes necessary to correct the previous Docket are identified by 
+both EPA and Federal agencies. The corrections section may include 
+changes in addresses or spelling, and corrections of the recorded name 
+and ownership of a Federal facility. In addition, changes in the names 
+of Federal facilities may be made to establish consistency in the 
+Docket or between the Superfund Enterprise Management System (SEMS) and 
+the Docket. For the Federal facility for which a correction is entered, 
+the original entry is as it appeared in previous Docket updates. The 
+corrected update is shown directly below, for easy comparison. This 
+document includes zero corrections.
+
+4.0 Process for Compiling the Updated Docket
+
+    In compiling the newly reported Federal facilities for the update 
+being published in this document, EPA extracted the names, addresses, 
+and identification numbers of facilities from four EPA databases--the 
+WebEOC, the Biennial Inventory of Federal Agency Hazardous Waste 
+Activities, the Resource Conservation and Recovery Act Information 
+System (RCRAInfo), and SEMS--that contain information about Federal 
+facilities submitted under the four provisions listed in CERCLA section 
+120(c).
+    EPA assures the quality of the information on the Docket by 
+conducting extensive evaluation of the current Docket list and contacts 
+the other Federal Agency (OFA) with the information obtained from the 
+databases identified above to determine which Federal facilities were, 
+in fact, newly reported and qualified for inclusion on the update. EPA 
+is also striving to correct errors for Federal facilities that were 
+previously reported. For example, state-owned or privately-owned 
+facilities that are not operated by the Federal government may have 
+been included. Such problems are sometimes caused by procedures 
+historically used to report and track Federal facilities data. 
+Representatives of Federal agencies are asked to contact the EPA HQ 
+Docket Coordinator at the address provided in the FOR FURTHER 
+INFORMATION CONTACT section of this document if revisions of this 
+update information are necessary.
+
+5.0 Facilities Not Included
+
+    Certain categories of facilities may not be included on the Docket, 
+such as: (1) Federal facilities formerly owned by a Federal agency that 
+at the time of consideration was not Federally-owned or operated; (2) 
+Federal facilities that are small quantity generators (SQGs) that have 
+not, more than once per calendar year, generated more than 1,000 kg of 
+hazardous waste in any single month; (3) Federal facilities that are 
+very small quantity generators (VSQGs) that have never generated more 
+than 100 kg of hazardous waste in any month; (4) Federal facilities 
+that are solely hazardous waste transportation facilities, as reported 
+under RCRA section 3010; and (5) Federal facilities that have mixed 
+mine or mill site ownership.
+    An EPA policy issued in June 2003 provided guidance for a site-by-
+site evaluation as to whether ``mixed ownership'' mine or mill sites, 
+typically created as a result of activities conducted pursuant to the 
+General Mining Law of 1872 and never reported under section 103(a) of 
+CERCLA, should be included on the Docket. For purposes of that policy, 
+mixed ownership mine or mill sites are those located partially on 
+private land and partially on public land. This policy is found at 
+<a href="https://www.epa.gov/fedfac/policy-listing-mixed-ownership-mine-or-mill-sites-created-result-general-mining-law-1872">https://www.epa.gov/fedfac/policy-listing-mixed-ownership-mine-or-mill-sites-created-result-general-mining-law-1872</a>. The policy of not 
+including these facilities may change; facilities now omitted may be 
+added at some point if EPA determines that they should be included.
+
+6.0 Facility NPL Status Reporting, Including NFRAP Status
+
+    EPA tracks the NPL status of Federal facilities listed on the 
+Docket. An updated list of the NPL status of all Docket facilities, as 
+well as their NFRAP status, is available at <a href="https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list">https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list</a> or by 
+contacting the EPA HQ Docket Coordinator at the address provided in the 
+FOR FURTHER INFORMATION CONTACT section of this document. In prior
+
+[[Page 54682]]
+
+updates, information regarding NFRAP status changes was provided 
+separately.
+
+7.0 Information Contained on Docket Listing
+
+    The information is provided in three tables. The first table is a 
+list of additional Federal facilities that are being added to the 
+Docket. The second table is a list of Federal facilities that are being 
+deleted from the Docket. The third table is for corrections.
+    The Federal facilities listed in each table are organized by the 
+date reported. Under each heading is listed the name and address of the 
+facility, the Federal agency responsible for the facility, the 
+statutory provision(s) under which the facility was reported to EPA, 
+and a code.\2\
+---------------------------------------------------------------------------
+
+    \2\ Each Federal facility listed in the update has been assigned 
+a code that indicates a specific reason for the addition or 
+deletion. The code precedes this list.
+---------------------------------------------------------------------------
+
+    The statutory provisions under which a Federal facility is reported 
+are listed in a column titled ``Reporting Mechanism.'' Applicable 
+mechanisms are listed for each Federal facility: for example, sections 
+3005, 3010, 3016 of RCRA, 103(c) of CERCLA, or Other. ``Other'' has 
+been added as a reporting mechanism to indicate those Federal 
+facilities that otherwise have been identified to have releases or 
+threat of releases of hazardous substances. The National Contingency 
+Plan at 40 CFR 300.405 addresses discovery or notification, outlines 
+what constitutes discovery of a hazardous substance release, and states 
+that a release may be discovered in several ways, including: (1) a 
+report submitted in accordance with section 103(a) of CERCLA, i.e., 
+reportable quantities codified at 40 CFR part 302; (2) a report 
+submitted to EPA in accordance with section 103(c) of CERCLA; (3) 
+investigation by government authorities conducted in accordance with 
+section 104(e) of CERCLA or other statutory authority; (4) notification 
+of a release by a Federal or state permit holder when required by its 
+permit; (5) inventory or survey efforts or random or incidental 
+observation reported by government agencies or the public; (6) 
+submission of a citizen petition to EPA or the appropriate Federal 
+facility requesting a preliminary assessment, in accordance with 
+section 105(d) of CERCLA; (7) a report submitted in accordance with 
+section 311(b)(5) of the Clean Water Act; and (8) other sources. As a 
+policy matter, EPA generally believes it is appropriate for Federal 
+facilities identified through the CERCLA discovery and notification 
+process to be included on the Docket.
+    The complete list of Federal facilities that now make up the Docket 
+and the NPL and NFRAP status are available to interested parties and 
+can be obtained at <a href="https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list">https://www.epa.gov/fedfacts/federal-facility-cleanup-sites-searchable-list</a> or by contacting the EPA HQ Docket 
+Coordinator at the address provided in the FOR FURTHER INFORMATION 
+CONTACT section of this document. As of the date of this document, the 
+total number of Federal facilities that appear on the Docket is 2,399.
+
+7.1 Docket Codes/Reasons for Deletion of Facilities
+
+    <bullet> Code 1. Small-Quantity Generator and Very Small Quantity 
+Generator. Show citation box.
+    <bullet> Code 2. Never Federally Owned and/or Operated.
+    <bullet> Code 3. Formerly Federally Owned and/or Operated but not 
+at time of listing.
+    <bullet> Code 4. No Hazardous Waste Generated.
+    <bullet> Code 5. This code is no longer used.
+    <bullet> Code 6. Redundant Listing/Site on Facility.
+    <bullet> Code 7. Combining Sites Into One Facility/Entries 
+Combined.
+    <bullet> Code 8. Does Not Fit Facility Definition.
+
+7.2 Docket Codes/Reasons for Addition of Facilities
+
+    <bullet> Code 15. Small-Quantity Generator with either a RCRA 3016 
+or CERCLA 103 Reporting Mechanism.
+    <bullet> Code 16. One Entry Being Split Into Two (or more)/Federal 
+Agency Responsibility Being Split.
+    <bullet> Code 16A. NPL site that is part of a Facility already 
+listed on the Docket.
+    <bullet> Code 17. New Information Obtained Showing That Facility 
+Should Be Included.
+    <bullet> Code 18. Facility Was a Site on a Facility That Was 
+Disbanded; Now a Separate Facility.
+    <bullet> Code 19. Sites Were Combined Into One Facility.
+    <bullet> Code 19A. New Currently Federally Owned and/or Operated 
+Facility Site.
+
+7.3 Docket Codes/Types of Corrections of Information About Facilities
+
+    <bullet> Code 20. Reporting Provisions Change.
+    <bullet> Code 20A. Typo Correction/Name Change/Address Change.
+    <bullet> Code 21. Changing Responsible Federal Agency. (If 
+applicable, new responsible Federal agency submits proof of previously 
+performed PA, which is subject to approval by EPA.)
+    <bullet> Code 22. Changing Responsible Federal Agency and Facility 
+Name. (If applicable, new responsible Federal Agency submits proof of 
+previously performed PA, which is subject to approval by EPA.)
+    <bullet> Code 24. Reporting Mechanism Determined To Be Not 
+Applicable After Review of Regional Files.
+
+                                         Federal Agency Hazardous Waste Compliance Docket Update #48--Additions
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      Zip                          Reporting
+         Facility name                 Address              City           State     Code         Agency           mechanism      Code        Date
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Pacific Northwest National       1529 West Sequim    Sequim............  WA          98382  Energy............  RCRA 3010......     17  Update #48
+ Laboratory Sequim Campus.        Bay Road.
+US DOC NOAA NW Fisheries         2725 Montlake       Seattle...........  WA          98112  Commerce..........  RCRA 3010......     17  Update #48
+ Science Center.                  Boulevard East.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                         Federal Agency Hazardous Waste Compliance Docket Update #48--Deletions
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      Zip                          Reporting
+         Facility name                 Address              City           State     code         Agency           mechanism      Code        Date
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[[Page 54683]]
+
+
+                                        Federal Agency Hazardous Waste Compliance Docket Update #48--Corrections
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                      Zip                          Reporting
+         Facility name                 Address              City           State     code         Agency           mechanism      Code        Date
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Mark Barolo,
+Director, Office of Superfund and Emergency Management, Office of Land 
+and Emergency Management.
+[FR Doc. 2025-21345 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

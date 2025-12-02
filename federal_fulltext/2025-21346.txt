@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54605-54607]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21346]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Parts 52 and 70
+
+[EPA-R07-OAR-2025-2830; FRL-13059-01-R7]
+
+
+Air Plan Approval; Missouri; Reporting Emission Data, Emission 
+Fees, and Process Information
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is proposing 
+approval of revisions to the Missouri State Implementation Plan (SIP), 
+and Operating Permits Program related to Reporting Emission Data, 
+Emission Fees, and Process Information. The revisions set emission fees 
+and a base fee for calendar years 2025-2028 and beyond, add 1-
+Bromopropane to the category 1 Hazardous Air Pollutant list in table 1, 
+update two publication dates for material that is incorporated by 
+reference and make minor administrative changes to the rule. These 
+revisions do not impact the stringency of the SIP or have an adverse 
+effect on air quality. The EPA's proposed approval of this rule 
+revision is being done in accordance with the requirements of the Clean 
+Air Act (CAA).
+
+DATES: Comments must be received on or before December 29, 2025.
+
+ADDRESSES: You may send comments, identified by Docket ID No. EPA-R07-
+OAR-2025-2830 to <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Follow the online 
+instructions for submitting comments.
+    Instructions: All submissions received must include the Docket ID 
+No. for this rulemaking. Comments received will be posted without 
+change to <a href="https://www.regulations.gov">https://www.regulations.gov</a>, including any personal 
+information provided. For detailed instructions on sending comments and 
+additional information on the rulemaking process, see the ``Written 
+Comments'' heading of the SUPPLEMENTARY INFORMATION section of this 
+document.
+
+FOR FURTHER INFORMATION CONTACT: Steven Brown, Environmental Protection 
+Agency, Region 7 Office, Air Quality Planning Branch, 11201 Renner 
+Boulevard, Lenexa, Kansas 66219; telephone number: (913) 551-7718; 
+email address: <a href="/cdn-cgi/l/email-protection#3e5c4c514950104d4a5b485b507e5b4e5f10595148"><span class="__cf_email__" data-cfemail="a0c2d2cfd7ce8ed3d4c5d6c5cee0c5d0c18ec7cfd6">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Throughout this document ``we,'' ``us,'' and 
+``our'' refer to the EPA.
+
+Table of Contents
+
+I. Written Comments
+II. What is being addressed in this document?
+III. Have the requirements for approval of a SIP revision been met?
+IV. What action is the EPA taking?
+V. Incorporation by Reference
+VI. Statutory and Executive Order Reviews
+
+I. Written Comments
+
+    Submit your comments, identified by Docket ID No. EPA-R07-OAR-2025-
+2830, at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Once submitted, comments cannot 
+be edited or removed from <a href="http://Regulations.gov">Regulations.gov</a>. The EPA may publish any 
+comment received to its public docket. Do not submit electronically any 
+information you consider to be Confidential Business Information (CBI) 
+or other information whose disclosure is restricted by statute. 
+Multimedia submissions (audio, video, etc.) must be accompanied by a 
+written comment. The written comment is considered the official comment 
+and should include discussion of all points you wish to make. The EPA 
+will generally not consider comments or comment contents located 
+outside of the primary submission (i.e., on the web, cloud, or other 
+file sharing system). For additional submission methods, the full EPA 
+public comment policy, information about CBI or multimedia submissions, 
+and general guidance on making effective comments, please visit <a href="https://www.epa.gov/dockets/commenting-epa-dockets">https://www.epa.gov/dockets/commenting-epa-dockets</a>.
+
+II. What is being addressed in this document?
+
+    The EPA is proposing to approve revisions to the Missouri SIP and 
+title V Operating Permits Program, 10-6.110 ``Reporting Emission Data, 
+Emission Fees, and Process Information,'' submitted to the EPA on March 
+19, 2025. The amendments to this rule set emission fees and a base fee 
+for calendar years 2025-2028 and beyond, add 1-Bromopropane to the 
+category 1 Hazardous Air Pollutant list in table 1, update two 
+publication dates for material that is incorporated by reference, and 
+make minor administrative changes to the rule. The EPA proposes to find 
+that these revisions meet the requirements of the CAA, do not impact 
+the stringency of the SIP, and do not adversely impact air quality. The 
+full text of the rule revisions can be found in the State submittal 
+included in this docket.
+
+III. Have the requirements for approval of a SIP revision been met?
+
+    The State submission has met the public notice requirements for SIP 
+submissions in accordance with 40 CFR 51.102. The submission also 
+satisfied the completeness criteria of 40 CFR part 51, appendix V. The 
+State provided public notice on this SIP revision and related 
+amendments to their Title V Operating Permits Program, from July 15, 
+2024, to September 5, 2024, and held a public hearing on August 29, 
+2024. The state of Missouri received one supporting comment during the 
+public comment period on 10 CSR 10-6.110. The revision meets the 
+substantive SIP requirements of the CAA, including section 110 and 
+implementing regulations and is consistent with applicable EPA 
+requirements in title V of the CAA and 40 CFR part 70.
+
+IV. What action is the EPA taking?
+
+    The EPA is proposing to amend the Missouri SIP by approving the 
+State's request to revise 10 CSR 10-6.110 ``Reporting Emission Data, 
+Emission Fees, and Process Information.'' The EPA's proposed action 
+approves these amendments as part of the SIP, except for subsection 
+(3)(A), which is not included in the SIP. However, the entire rule 
+revision is being submitted for inclusion in the Missouri Title V 
+program. These revisions update the emissions fee for permitted sources 
+in subsection (3)(A) and the emission reporting years in table 4 of 
+section (4)(B), as set by Missouri statute. Specifically, section 
+(3)(A) revises the emission fees section, which is approved under the 
+Operating Permits
+
+[[Page 54606]]
+
+Program only and is not being proposed to be approved in the Missouri 
+SIP. The revised emission fees section updates the emissions fee for 
+permitted sources as set by Missouri statute per ton of air pollution 
+emitted annually for calendar years 2025-2028 and beyond and is 
+effective January 1, 2026.
+    We are processing this as a proposed action because we are 
+soliciting comments on this proposed action. Final rulemaking will 
+occur after consideration of any comments.
+
+V. Incorporation by Reference
+
+    In this document, the EPA is proposing to include regulatory text 
+in an EPA final rule that includes incorporation by reference. In 
+accordance with requirements of 1 CFR 51.5, the EPA is proposing to 
+finalize the incorporation by reference of the Missouri rule 10 CSR 10-
+6.110 discussed in section II. of this preamble and as set forth below 
+in the proposed amendments to 40 CFR part 52. The purpose of this state 
+regulation is to provide procedures for reporting emission related 
+information and establishing emission fees for the purpose of state air 
+resource planning. The EPA has made, and will continue to make, these 
+materials generally available through <a href="https://www.regulations.gov">https://www.regulations.gov</a> and 
+at the EPA Region 7 Office (please contact the person identified in the 
+FOR FURTHER INFORMATION CONTACT section of this preamble for more 
+information).
+
+VI. Statutory and Executive Order Reviews
+
+    Under the CAA, the Administrator is required to approve a SIP 
+submission that complies with the provisions of the CAA and applicable 
+Federal regulations. 42 U.S.C. 7410(k); 40 CFR 52.02(a). Thus, in 
+reviewing SIP submissions, EPA's role is to approve state choices, 
+provided that they meet the criteria of the CAA. Accordingly, this 
+action merely approves state law as meeting Federal requirements and 
+does not impose additional requirements beyond those imposed by state 
+law. For that reason, this action:
+    <bullet> Is not a significant regulatory action subject to review 
+by the Office of Management and Budget under Executive Orders 12866 (58 
+FR 51735, October 4, 1993);
+    <bullet> Is not subject to Executive Order 14192 (90 FR 9065, 
+February 6, 2025) because State Implementation Plan actions are exempt 
+from review under Executive Order 12866;
+    <bullet> Does not impose an information collection burden under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501 et seq.);
+    <bullet> Is certified as not having a significant economic impact 
+on a substantial number of small entities under the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.);
+    <bullet> Does not contain any unfunded mandate or significantly or 
+uniquely affect small governments, as described in the Unfunded 
+Mandates Reform Act of 1995 (Pub. L. 104-4);
+    <bullet> Does not have federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999);
+    <bullet> Is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because it approves a state program;
+    <bullet> Is not a significant regulatory action subject to 
+Executive Order 13211 (66 FR 28355, May 22, 2001); and
+    <bullet> Is not subject to requirements of section 12(d) of the 
+National Technology Transfer and Advancement Act of 1995 (15 U.S.C. 272 
+note) because application of those requirements would be inconsistent 
+with the CAA.
+    In addition, the SIP is not approved to apply on any Indian 
+reservation land or in any other area where EPA or an Indian Tribe has 
+demonstrated that a Tribe has jurisdiction. In those areas of Indian 
+country, the rule does not have Tribal implications and will not impose 
+substantial direct costs on Tribal governments or preempt Tribal law as 
+specified by Executive Order 13175 (65 FR 67249, November 9, 2000).
+
+List of Subjects
+
+40 CFR Part 52
+
+    Environmental protection, Air pollution control, Carbon monoxide, 
+Incorporation by reference, Intergovernmental relations, Lead, Nitrogen 
+dioxide, Ozone, Particulate matter, Reporting and recordkeeping 
+requirements, Sulfur oxides, Volatile organic compounds.
+
+40 CFR Part 70
+
+    Environmental protection, Administrative practice and procedure, 
+Air pollution control, Intergovernmental relations, Operating permits, 
+Reporting and recordkeeping requirements.
+
+    Dated: November 17, 2025.
+James Macy,
+Regional Administrator, Region 7.
+
+    For the reasons stated in the preamble, the EPA proposes to amend 
+40 CFR parts 52 and 70 as set forth below:
+
+PART 52--APPROVAL AND PROMULGATION OF IMPLEMENTATION PLANS
+
+0
+1. The authority citation for part 52 continues to read as follows:
+
+    Authority:  42 U.S.C. 7401 et seq.
+
+Subpart AA--Missouri
+
+0
+2. In Sec.  52.1320, the table in paragraph (c) is amended by revising 
+the entry ``10-6.110'' to read as follows:
+
+
+Sec.  52.1320   Identification of plan.
+
+* * * * *
+    (c) * * *
+
+                                        EPA-Approved Missouri Regulations
+----------------------------------------------------------------------------------------------------------------
+                                                         State
+     Missouri citation               Title          effective date    EPA approval date         Explanation
+----------------------------------------------------------------------------------------------------------------
+                                    Missouri Department of Natural Resources
+----------------------------------------------------------------------------------------------------------------
+ 
+                                                  * * * * * * *
+----------------------------------------------------------------------------------------------------------------
+    Chapter 6--Air Quality Standards, Definitions, Sampling and Reference Methods, and Air Pollution Control
+                                      Regulations for the State of Missouri
+----------------------------------------------------------------------------------------------------------------
+ 
+                                                  * * * * * * *
+ 
+
+[[Page 54607]]
+
+ 
+10-6.110...................  Reporting Emission           1/1/2026  [Date of publication   Subsection (3)(A) is
+                              Data, Emission Fees,                   of the final rule in   not being approved
+                              and Process                            the Federal            in the SIP.
+                              Information.                           Register], 90 FR
+                                                                     [Federal Register
+                                                                     page where the
+                                                                     document begins of
+                                                                     the final rule].
+ 
+                                                  * * * * * * *
+----------------------------------------------------------------------------------------------------------------
+
+* * * * *
+
+PART 70--STATE OPERATING PERMIT PROGRAMS
+
+0
+3. The authority citation for part 70 continues to read as follows:
+
+    Authority:  42 U.S.C. 7401, et seq.
+
+0
+4. Appendix A to part 70 is amended by adding paragraph (kk) under 
+``Missouri'' to read as follows:
+
+Appendix A to Part 70--Approval Status of State and Local Operating 
+Permits Programs
+
+* * * * *
+
+Missouri
+
+* * * * *
+    (kk) The Missouri Department of Natural Resources submitted 
+revisions to Missouri rule 10 CSR 10-6.110, ``Reporting Emission 
+Data, Emission Fees, and Process Information'' on March 19, 2025. 
+The state effective date is January 1, 2026. This revision is 
+effective [date 60 days after date of publication of the final rule 
+in the Federal Register].
+* * * * *
+[FR Doc. 2025-21346 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

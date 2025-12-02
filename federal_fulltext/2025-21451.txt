@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Page 54643]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21451]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+CONSUMER FINANCIAL PROTECTION BUREAU
+
+[Docket No. CFPB-2025-0042]
+
+
+Agency Information Collection Activities: Comment Request
+
+AGENCY: Consumer Financial Protection Bureau.
+
+ACTION: Notice and request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995 (PRA), 
+the Consumer Financial Protection Bureau (CFPB or Bureau) is requesting 
+to extend the Office of Management and Budget's (OMB's) approval for an 
+existing information collection titled ``Consumer Response Intake 
+Form'' approved under OMB Control Number 3170-0011.
+
+DATES: Written comments are encouraged and must be received on or 
+before January 27, 2026 to be assured of consideration.
+
+ADDRESSES: You may submit comments, identified by the title of the 
+information collection, OMB Control Number (see below), and docket 
+number (see above), by any of the following methods:
+    <bullet> Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. 
+Follow the instructions for submitting comments.
+    <bullet> Email: <a href="/cdn-cgi/l/email-protection#22616472607d72706362414452400c454d54"><span class="__cf_email__" data-cfemail="d1929781938e81839091b2b7a1b3ffb6bea7">[email&#160;protected]</span></a>. Include Docket No. CFPB-2025-
+0042 in the subject line of the email.
+    <bullet> Mail/Hand Delivery/Courier: Comment Intake, Consumer 
+Financial Protection Bureau (Attention: PRA Office), 1700 G Street NW, 
+Washington, DC 20552. Because paper mail in the Washington, DC area and 
+at the CFPB is subject to delay, commenters are encouraged to submit 
+comments electronically.
+    Please note that comments submitted after the comment period will 
+not be accepted. In general, all comments received will become public 
+records, including any personal information provided. Sensitive 
+personal information, such as account numbers or Social Security 
+numbers, should not be included.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information 
+should be directed to Anthony May, PRA Officer, at (202) 435-7278, or 
+email: <a href="/cdn-cgi/l/email-protection#a6e5e0f6e4f9f6f4e7e6c5c0d6c488c1c9d0"><span class="__cf_email__" data-cfemail="2e6d687e6c717e7c6f6e4d485e4c00494158">[email&#160;protected]</span></a>. If you require this document in an 
+alternative electronic format, please contact 
+<a href="/cdn-cgi/l/email-protection#a0e3e6f0e2ffe1c3c3c5d3d3c9c2c9ccc9d4d9e0c3c6d0c28ec7cfd6"><span class="__cf_email__" data-cfemail="11525741534e5072727462627873787d78656851727761733f767e67">[email&#160;protected]</span></a>. Please do not submit comments to these 
+email boxes.
+
+SUPPLEMENTARY INFORMATION: 
+    Title of Collection: Consumer Response Intake Form.
+    OMB Control Number: 3170-0011.
+    Type of Review: Extension of a currently approved information 
+collection.
+    Affected Public: Individuals or households.
+    Estimated Number of Respondents: 6,000,000.
+    Estimated Total Annual Burden Hours: 1,123,334.
+    Abstract: The Consumer Response Intake Form is designed to aid 
+consumers in the submission of complaints, inquiries, and feedback and 
+to help the Bureau fulfill its statutory requirements. Consumers (also 
+referred to as respondents) will be able to complete and submit 
+information through the Intake Form electronically on the Bureau's 
+website. Alternatively, respondents may request that the Bureau mail a 
+paper copy of the Intake Form and then mail it back to the Bureau or 
+call to submit a complaint by telephone. The questions within the 
+Intake Form prompt respondents for a description of, and key facts 
+about, the complaint at issue, the desired resolution, contact and 
+account information, information about the company they are submitting 
+a complaint about, and previous action taken to attempt to resolve the 
+complaint.
+    Request for Comments: Comments are invited on: (a) Whether the 
+collection of information is necessary for the proper performance of 
+the functions of the CFPB, including whether the information will have 
+practical utility; (b) The accuracy of the CFPB's estimate of the 
+burden of the collection of information, including the validity of the 
+methods and the assumptions used; (c) Ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (d) Ways 
+to minimize the burden of the collection of information on respondents, 
+including through the use of automated collection techniques or other 
+forms of information technology. Comments submitted in response to this 
+notice will be summarized and/or included in the request for OMB's 
+approval. All comments will become a matter of public record.
+
+Anthony May,
+Paperwork Reduction Act Officer, Consumer Financial Protection Bureau.
+[FR Doc. 2025-21451 Filed 11-26-25; 8:45 am]
+BILLING CODE 4810-AM-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

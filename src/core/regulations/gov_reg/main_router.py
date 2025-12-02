@@ -93,7 +93,7 @@ def search_packages_by_topic(topic: str):
 
         # extract full text + package id from FR doc
         full_text, package_id = get_full_text(doc_number)
-
+            
         if not package_id or package_id in seen:
             continue
 

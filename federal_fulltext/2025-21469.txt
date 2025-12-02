@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54723-54724]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21469]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Coast Guard
+
+[Docket No. USCG-2025-0244]
+
+
+Collection of Information Under Review by Office of Management 
+and Budget; OMB Control Number: 1625-0105
+
+AGENCY: Coast Guard, DHS.
+
+ACTION: Thirty-day notice requesting comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995 the 
+U.S. Coast Guard is forwarding an Information Collection Request (ICR), 
+abstracted below, to the Office of Management and Budget (OMB), Office 
+of Information and Regulatory Affairs (OIRA), requesting an extension 
+of its approval for the following collection of information: 1625-0105, 
+Regulated Navigation Area; Reporting Requirements for Barges Loaded 
+with Certain Dangerous Cargoes, Inland Rivers, Coast Guard Heartland 
+District and the Illinois Waterway, Coast Guard Great Lakes District; 
+without change. Our ICR describes the information we seek to collect 
+from the public. Review and comments by OIRA ensure we only impose 
+paperwork burdens commensurate with our performance of duties.
+
+DATES: You may submit comments to the Coast Guard and OIRA on or before 
+December 29, 2025.
+
+ADDRESSES: Comments to the Coast Guard should be submitted using the 
+Federal eRulemaking Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Search for 
+docket number [USCG-2025-0244]. Written comments and recommendations to 
+OIRA for the proposed information collection should be sent within 30 
+days of publication of this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>.
+    Find this particular information collection by selecting 
+``Currently Under 30-day Review--Open for Public Comments'' or by using 
+the search function.
+    A copy of the ICR is available through the docket on the internet 
+at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Additionally, copies are available 
+from: Commandant (CG-C5I-P), Attn: Paperwork Reduction Act Manager, 
+U.S. Coast Guard, 2703 Martin Luther King Jr. Ave SE, STOP 7710, 
+Washington, DC 20593-7710.
+
+FOR FURTHER INFORMATION CONTACT: A.L. Craig, Office of Privacy 
+Management, telephone (571) 607-4058, or email <a href="/cdn-cgi/l/email-protection#ed859c9ec0898ac080c08e8ac0dbdcc09d8484ad989e8e8ac3808481"><span class="__cf_email__" data-cfemail="355d4446185152185818565218030418455c5c75404656521b585c59">[email&#160;protected]</span></a> for questions on these documents.
+
+[[Page 54724]]
+
+
+SUPPLEMENTARY INFORMATION:
+
+Public Participation and Request for Comments
+
+    This notice relies on the authority of the Paperwork Reduction Act 
+of 1995; 44 U.S.C., chapter 35, as amended. An ICR is an application to 
+OIRA seeking the approval, extension, or renewal of a Coast Guard 
+collection of information (Collection). The ICR contains information 
+describing the Collection's purpose, the Collection's likely burden on 
+the affected public, an explanation of the necessity of the Collection, 
+and other important information describing the Collection. There is one 
+ICR for each Collection.
+    The Coast Guard invites comments on whether this ICR should be 
+granted based on the Collection being necessary for the proper 
+performance of Departmental functions. In particular, the Coast Guard 
+would appreciate comments addressing: (1) the practical utility of the 
+Collection; (2) the accuracy of the estimated burden of the Collection; 
+(3) ways to enhance the quality, utility, and clarity of information 
+subject to the Collection; and (4) ways to minimize the burden of the 
+Collection on respondents, including the use of automated collection 
+techniques or other forms of information technology. These comments 
+will help OIRA determine whether to approve the ICR referred to in this 
+Notice.
+    We encourage you to respond to this request by submitting comments 
+and related materials. Comments to Coast Guard or OIRA must contain the 
+OMB Control Number of the ICR. They must also contain the docket number 
+of this request, USCG-2025-0244, and must be received by December 29, 
+2025.
+
+Submitting Comments
+
+    We encourage you to submit comments through the Federal eRulemaking 
+Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. If your material cannot be 
+submitted using <a href="https://www.regulations.gov">https://www.regulations.gov</a>, contact the person in the 
+FOR FURTHER INFORMATION CONTACT section of this document for alternate 
+instructions. Documents mentioned in this notice, and all public 
+comments, are in our online docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and 
+can be viewed by following that website's instructions. If you go to 
+the online docket and sign up for email alerts, you will be notified 
+when comments are posted.
+    We accept anonymous comments. Comments we post to <a href="https://www.regulations.gov">https://www.regulations.gov</a> will include any personal information you have 
+provided. For more about privacy and submissions to the Coast Guard in 
+response to this document, see DHS's eRulemaking System of Records 
+notice (85 FR 14226, March 11, 2020). For more about privacy and 
+submissions to OIRA in response to this document, see the <a href="https://www.reginfo.gov">https://www.reginfo.gov</a>, comment-submission web page. OIRA posts its decisions 
+on ICRs online at <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a> after the 
+comment period for each ICR. An OMB Notice of Action on each ICR will 
+become available via a hyperlink in the OMB Control Number: 1625-0105.
+
+Previous Request for Comments
+
+    This request provides a 30-day comment period required by OIRA. The 
+Coast Guard published the 60-day notice (90 FR 40612, August 20, 2025) 
+required by 44 U.S.C. 3506(c)(2). That notice elicited no comments. 
+Accordingly, no changes have been made to the Collection.
+
+Information Collection Request
+
+    Title: Regulated Navigation Area; Reporting Requirements for Barges 
+Loaded with Certain Dangerous Cargoes, Inland Rivers, Coast Guard 
+Heartland District and the Illinois Waterway, Coast Guard Great Lakes 
+District.
+    OMB Control Number: 1625-0105.
+    Summary: The Coast Guard requires position and intended movement 
+reporting, and fleeting operations reporting, from barges carrying 
+certain dangerous cargoes (CDCs) in the inland rivers within the 
+Heartland and Great Lakes Coast Guard Districts. The reporting 
+requirements are found in 33 CFR 165.830 and 165.921.
+    Need: This information is used to ensure port safety and security 
+and to ensure the uninterrupted flow of commerce.
+    Forms: None.
+    Respondents: Owners, agents, masters, towing vessel operators, or 
+persons in charge of barges loaded with CDCs or having CDC residue 
+operating on the inland rivers located within the Heartland and Great 
+Lakes Coast Guard Districts.
+    Frequency: On occasion.
+    Hour Burden Estimate: The estimated burden remains 4 hours a year.
+    Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. chapter 
+35, as amended.
+
+     Dated: October 31, 2025.
+Bradley E. White,
+(Acting) Chief, Office of Privacy Management, U.S. Coast Guard.
+[FR Doc. 2025-21469 Filed 11-26-25; 8:45 am]
+BILLING CODE 9110-04-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

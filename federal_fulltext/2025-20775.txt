@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52927-52928]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20775]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Energy Information Administration
+
+
+Agency Information Collection Extension
+
+AGENCY: U.S. Energy Information Administration (EIA), Department of 
+Energy (DOE).
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: EIA invites public comment on the proposed three-year 
+extension, without changes, to the Coal Markets Reporting System 
+(CMRS), as required under the Paperwork Reduction Act of 1995. The CMRS 
+consists of five surveys including, Form EIA-3 Quarterly Survey of Non-
+Electric Sector Coal Data, Form EIA-7A Annual Survey of Coal Production 
+and Preparation, Form EIA-8A Annual Survey of Coal Stocks and Coal 
+Exports, Form EIA-6 Emergency Coal Supply Survey (Standby), and Form 
+EIA-20 Emergency Weekly Coal Monitoring Survey for Coal Burning Power 
+Producers (Standby.) The CMRS collects data on U.S. coal production, 
+quality, consumption, receipts, stocks, and prices. EIA requests the 
+extension to Forms EIA-3, EIA-6, EIA-7A, EIA-8A, and EIA-20 without 
+change.
+
+DATES: EIA must receive all comments on this proposed information 
+collection no later than January 23, 2026. If you anticipate any 
+difficulties in submitting your comments by the deadline, contact the 
+person listed in the ADDRESSES section of this notice as soon as 
+possible.
+
+ADDRESSES: You may submit comments, identified by OMB control number 
+1905-0167, by email at <a href="/cdn-cgi/l/email-protection#d5909c94f893879bb6bab8b8b0bba1a695b0bcb4fbb2baa3"><span class="__cf_email__" data-cfemail="24616d650962766a474b4949414a505764414d450a434b52">[email&#160;protected]</span></a>. Include the OMB control 
+number listed in the subject line of the message. The forms and 
+instructions are available on EIA's website:
+FORM EIA-3: <a href="https://www.eia.gov/survey/#eia-3">https://www.eia.gov/survey/#eia-3</a>
+FORM EIA-6: <a href="https://www.eia.gov/survey/#eia-6">https://www.eia.gov/survey/#eia-6</a>
+FORM EIA-7A: <a href="https://www.eia.gov/survey/#eia-7a">https://www.eia.gov/survey/#eia-7a</a>
+FORM EIA-8A: <a href="https://www.eia.gov/survey/#eia-8a">https://www.eia.gov/survey/#eia-8a</a>
+FORM EIA-20: <a href="https://www.eia.gov/survey/#eia-20">https://www.eia.gov/survey/#eia-20</a>
+
+FOR FURTHER INFORMATION CONTACT: Samson Adeshiyan, EIA Clearance 
+Officer, at (202) 586-7777 or by email at <a href="/cdn-cgi/l/email-protection#fabfb3bbd7bca8b4999597979f948e89ba9f939bd49d958c"><span class="__cf_email__" data-cfemail="4d08040c600b1f032e2220202823393e0d28242c632a223b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: This information collection request 
+contains:
+    (1) OMB Control Number: 1905-0167;
+    (2) Information Collection Request Title: Coal Markets Reporting 
+System;
+    (3) Type of Request: Three-year extension without change;
+    (4) Purpose: The Coal Markets Reporting System (CMRS) program 
+collects, evaluates, assembles, analyzes, and disseminates information 
+on coal production, sales, technology, reserves, and related economic 
+and statistical information. This information is used to assess the 
+adequacy of coal and other energy resources to meet near and longer-
+term domestic demands and to promote sound policymaking, efficient 
+markets, and public understanding of energy and its interaction with 
+the economy and the environment. Form EIA-3 collects quarterly data on 
+the use of coal at U.S. manufacturing plants, coal transformation/
+processing plants, coke plants, and commercial and institutional users 
+of coal.
+    Form EIA-7A collects coal production operations, characteristics of 
+coalbeds mined, recoverable reserves, production capacity, coal sales 
+and revenue, stocks held at mines, and the disposition of the coal 
+mined. For coal preparation, information collected includes operations, 
+locations, production capacity, disposition, and volume of coal 
+prepared.
+    Form EIA-8A collects data on coal stocks by state location, 
+exported coal by origin state, and export revenue of coal sold during 
+the reporting year.
+    Form EIA-6 Emergency Coal Supply Survey and Form EIA-20 Emergency 
+Weekly Coal Monitoring Survey for Coal Burning Power Producers are 
+standby surveys used during periods of coal supply and transportation 
+disruptions. In the event of a supply or transportation disruption, 
+these two standby surveys activate and operate weekly over a ten-week 
+period. Once activated, Form EIA-6 collects weekly coal production and 
+stocks data from U.S. coal mining companies. Data are aggregated and 
+reported at the state level. During disruptive events, Form EIA-20 
+collects available coal-fired capacity, generation, consumption, and 
+stocks from coal-fired electric power generators.
+    The CMRS also collects coal market data. The data elements include 
+production, consumption, receipts, stocks, sales, and prices. 
+Information pertaining to the quality of the coal is
+
+[[Page 52928]]
+
+also collected, including heat content, ash content, sulfur content and 
+contents of mercury. Aggregates of this collection are used to support 
+analysis on the effects of public policy on the coal industry, economic 
+modeling, forecasting, coal supply and demand studies, and in guiding 
+research and development programs. The data are included in EIA 
+publications, such as the Monthly Energy Review, Quarterly Coal Report, 
+Quarterly Coal Distribution Report, Annual Coal Report, and Annual Coal 
+Distribution Report.
+    EIA also uses the data in short-term and long-term forecast models 
+such as the Short-Term Integrated Forecasting System (STIFS) and the 
+National Energy Modeling System (NEMS) Coal Market Module. The forecast 
+data also appear in the Short-Term Energy Outlook and the Annual Energy 
+Outlook publications.
+    (5) Annual Estimated Number of Respondents: 833.
+    <bullet> Form EIA-3 will consist of 290 respondents;
+    <bullet> Form EIA-7A will consist of 480 respondents;
+    <bullet> Form EIA-8A will consist of 44 respondents;
+    <bullet> Form EIA-6 (standby) will consist of 10 respondents;
+    <bullet> Form EIA-20 (standby) will consist of 9 respondents.
+    (6) Annual Estimated Number of Total Responses: 1,874
+    (7) Annual Estimated Number of Burden Hours: 3,149
+    (8) Annual Estimated Reporting and Recordkeeping Cost Burden: 
+$299,123 (3,149 burden hours times $94.99 per hour). EIA estimates that 
+there are no additional costs to respondents associated with the 
+surveys other than the costs associated with the burden hours since the 
+information is maintained during normal course of business.
+    Comments are invited on whether or not: (a) The proposed collection 
+of information is necessary for the proper performance of agency 
+functions, including whether the information will have a practical 
+utility; (b) EIA's estimate of the burden of the proposed collection of 
+information, including the validity of the methodology and assumptions 
+used, is accurate; (c) EIA can improve the quality, utility, and 
+clarity of the information it will collect; and (d) EIA can minimize 
+the burden of the collection of information on respondents, such as 
+automated collection techniques or other forms of information 
+technology.
+    Statutory Authority: 15 U.S.C. 772(b) and 42 U.S.C. 7101 et seq.
+
+    Signed in Washington, DC, on November 20, 2025.
+Samson A. Adeshiyan,
+Director, Office of Statistical Methods and Research, U. S. Energy 
+Information Administration.
+[FR Doc. 2025-20775 Filed 11-21-25; 8:45 am]
+BILLING CODE 6450-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

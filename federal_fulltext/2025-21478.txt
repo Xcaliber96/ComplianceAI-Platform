@@ -1,0 +1,469 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54552-54555]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21478]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2025-0739; Project Identifier AD-2025-00196-T; 
+Amendment 39-23177; AD 2025-21-05]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is adopting a new airworthiness directive (AD) for all 
+The Boeing Company Model 717-200 airplanes. This AD was prompted by a 
+report of a nose landing gear-up landing caused by the failure of the 
+upper lock link assembly. This AD requires repetitive inspections for 
+cracking of the upper lock link assembly and applicable on-condition 
+actions. The FAA is issuing this AD to address the unsafe condition on 
+these products.
+
+DATES: This AD is effective January 2, 2026.
+    The Director of the Federal Register approved the incorporation by 
+reference of a certain publication listed in this AD as of January 2, 
+2026.
+
+ADDRESSES: 
+    AD Docket: You may examine the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-0739; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this final rule, any comments received, and other 
+information. The address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+    Material Incorporated by Reference:
+    <bullet> For the Boeing material identified in this AD, contact 
+Boeing Commercial Airplanes, Attention: Contractual & Data Services 
+(C&DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; 
+telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    <bullet> You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., Des 
+Moines, WA. For information on the availability of this material at the 
+FAA, call 206-231-3195. It is also available at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-0739.
+
+FOR FURTHER INFORMATION CONTACT: Wayne Ha, Aviation Safety Engineer, 
+FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 562-627-5238; 
+email: <a href="/cdn-cgi/l/email-protection#83f4e2faede6adebe2c3e5e2e2ade4ecf5"><span class="__cf_email__" data-cfemail="a8dfc9d1c6cd86c0c9e8cec9c986cfc7de">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued a notice of proposed rulemaking (NPRM) to amend 14 
+CFR part 39 by adding an AD that would apply to all The Boeing Company 
+Model 717-200 airplanes. The NPRM was published in the Federal Register 
+on April 29, 2025 (90 FR 17746). The NPRM was prompted by a report of a 
+nose landing gear-up landing caused by the failure of the upper lock 
+link assembly. In the NPRM, the FAA proposed to require repetitive 
+inspections for cracking of the upper lock link assembly and applicable 
+on-condition actions. The FAA is issuing this AD to address a failure 
+of the upper lock link assembly caused by non-conforming surface 
+roughness, due to tool marks on the surface. The unsafe condition, if 
+not addressed, could result in a failure of the nose landing gear (NLG) 
+to fully extend during landing or cause the nose gear to remain 
+retracted while the main gear deploys. Additionally, it could restrict 
+ground
+
+[[Page 54553]]
+
+maneuverability, increasing the risk of a runway excursion.
+
+Discussion of Final Airworthiness Directive
+
+Comments
+
+    The FAA received comments from the Air Line Pilots Association, 
+International (ALPA) and Boeing who supported the NPRM without change.
+    The FAA received additional comments from Delta Air Lines (Delta) 
+and an anonymous commenter. The following presents those comments and 
+the FAA's response.
+
+Request To Exclude Newly Manufactured Parts
+
+    Delta requested that the FAA add an exception to paragraph (h) of 
+the proposed AD to exclude from the overhaul requirement upper lock 
+link assemblies manufactured after a specific date. Delta stated that 
+Boeing Alert Requirements Bulletin 717-32A0043 RB, dated February 12, 
+2025, specifies overhauling all upper lock link assemblies, including 
+newly manufactured parts. Delta claimed that overhaul of new parts 
+places a significant burden on operators, particularly those relying on 
+third-party vendors for overhaul services. Delta also expressed concern 
+that this action implies newly manufactured parts are still being 
+manufactured and delivered with the known defect. However, if the part 
+defect has been addressed in production, Delta stated new parts 
+produced after a specific date determined by the manufacturer should be 
+exempted from the overhaul requirement.
+    The FAA acknowledges the request. After consultation with the parts 
+manufacturer, the FAA has determined that upper lock link assemblies 
+manufactured after December 31, 2001, are serviceable upper lock link 
+assemblies and therefore should be exempt from the overhaul 
+requirement. Accordingly, the FAA has added paragraphs (h)(2) and (3) 
+of this AD to exclude airplanes with an upper lock link assembly 
+manufactured after December 31, 2001, from the requirements of this AD.
+
+Request To Expand the Definition of Serviceable Upper Lock Link 
+Assembly
+
+    Delta requested that the FAA add an exception to paragraph (h) of 
+the proposed AD to expand the definition of a serviceable upper lock 
+link assembly to include parts that were manufactured after a specific 
+date determined by the manufacturer. As discussed in the previous 
+comment, Delta stated that the part defect may have been addressed in 
+production, and these new parts should be included in the definition of 
+a serviceable upper lock link assembly. Delta stated that note (a) of 
+table 1 defines a serviceable part solely as one that has been 
+overhauled in accordance with a certain overhaul manual.
+    The FAA agrees with the request for the reasons provided in the 
+previous comment. Accordingly, the FAA has added paragraph (h)(4) to 
+include upper lock link assemblies manufactured after December 31, 
+2001, in the definition of a serviceable upper lock link assembly.
+
+Request To Allow Installation of a Non-Overhauled Part
+
+    Delta noted that table 1, condition 1 of Boeing Alert Requirements 
+Bulletin 717-32A0043 RB, dated February 12, 2025, specifies installing 
+a serviceable upper lock link assembly (i.e., one that has been 
+overhauled in accordance with a certain overhaul manual) before further 
+flight if any crack is found as a result of the eddy current high 
+frequency (ETHF) inspection. Delta requested the FAA add an exception 
+to paragraph (h) of the proposed AD to provide an option to table 1, 
+condition 1 (in case a crack is found) that instead allows installation 
+of an upper lock link assembly that has not been overhauled in 
+accordance with a certain overhaul manual but has complied with the 
+initial ETHF inspection. Delta suggested that an upper lock link 
+assembly that has been inspected by the ETHF inspection should be 
+considered acceptable for installation because it is being tracked to 
+comply with the repetitive inspection interval every 4,800 flight 
+cycles. Delta asserted that this approach would maintain an equivalent 
+level of safety while offering operators greater flexibility.
+    The FAA infers that Delta is requesting that the FAA revise the AD 
+to allow installation of an upper lock link assembly that has not been 
+overhauled in accordance with the overhaul manual referenced in the 
+requirements bulletin but on which the ETHF inspection has been 
+accomplished with no crack found. The FAA agrees with this request. The 
+FAA has determined that, in this case, the affected upper lock link 
+assembly is being tracked and maintained in accordance with the 
+required repetitive ETHF inspection interval, and that this approach 
+maintains an equivalent level of safety. The FAA has not changed the AD 
+in this regard because installation of a non-overhauled part is already 
+acceptable under table 1, condition 2, option 1 of the requirements 
+bulletin.
+
+Request To Reduce the Repetitive Inspection Interval
+
+    An anonymous commenter requested that the FAA revise the proposed 
+AD to require more frequent inspections, especially for aircraft with 
+high cycle counts. The commenter asserted that the proposed inspection 
+requirements do not address the serious safety risk of the nose gear-up 
+landing incident that prompted the proposed AD.
+    The FAA disagrees with reducing the repetitive inspection interval. 
+The safety concern of this AD is not related to the number of airplane 
+cycles. The root cause of the upper lock link assembly failure was non-
+conforming surface roughness from tool marks. The referenced service 
+information in this AD outlines procedures for repetitive ETHF 
+inspections of both the top and bottom surfaces of the upper lock link 
+assembly to detect any cracks and specifies replacement of any cracked 
+assemblies with serviceable ones. The repetitive inspection interval of 
+4,800 cycles was calculated by crack growth analysis and was correlated 
+to the striation count data in the National Transportation Safety Board 
+(NTSB) lab report. The required inspection interval allows for two 
+inspection opportunities between crack detectability and instability. 
+The FAA did not change this AD in response to this comment.
+
+Request To Require Immediate Replacement of the Affected Parts
+
+    An anonymous commenter requested that the FAA revise the proposed 
+AD to require immediate replacement of all upper lock link assemblies 
+manufactured during the same production period as the failed part 
+identified in the related NTSB report, rather than waiting for cracks 
+to become visible during routine inspections.
+    The FAA disagrees with the request. As discussed in its response to 
+the previous comment, the FAA has determined that accomplishing the 
+repetitive inspections within the required inspection interval provides 
+an acceptable level of safety. Replacement of the upper lock link 
+assemblies with a serviceable upper lock link assembly terminates the 
+repetitive inspections. The FAA notes that a serviceable upper lock 
+link assembly is defined in Boeing Alert Requirements Bulletin 717-
+32A0043 RB, dated February 12, 2025, except as specified in paragraph 
+(h)(4) of this AD. The FAA has not changed the AD in this regard.
+
+Conclusion
+
+    The FAA reviewed the relevant data, considered the comments 
+received, and
+
+[[Page 54554]]
+
+determined that air safety requires adopting this AD as proposed. 
+Accordingly, the FAA is issuing this AD to address the unsafe condition 
+on these products. Except for minor editorial changes, and any other 
+changes described previously, this AD is adopted as proposed in the 
+NPRM. None of the changes will increase the economic burden on any 
+operator.
+
+Material Incorporated by Reference Under 1 CFR Part 51
+
+    The FAA reviewed Boeing Alert Requirements Bulletin 717-32A0043 RB, 
+dated February 12, 2025. This material specifies procedures for 
+repetitive ETHF inspections of the top and bottom surfaces of the upper 
+lock link assembly for any crack, and replacement of any cracked upper 
+lock link assembly with a serviceable upper lock link assembly. This 
+material also specifies that replacement of the upper lock link 
+assembly terminates the repetitive inspections.
+    This material is reasonably available because the interested 
+parties have access to it through their normal course of business or by 
+the means identified in the ADDRESSES section.
+
+Costs of Compliance
+
+    The FAA estimates that this AD affects 117 airplanes of U.S. 
+registry. The FAA estimates the following costs to comply with this AD:
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                                                Cost on U.S.
+           Action                  Labor cost         Parts cost       Cost per product          operators
+----------------------------------------------------------------------------------------------------------------
+ETHF inspection............  5 work-hours x $85                 $0  $425 per inspection    $49,725 per
+                              per hour = $425 per                    cycle.                 inspection cycle.
+                              inspection cycle.
+----------------------------------------------------------------------------------------------------------------
+
+    The FAA estimates the following costs to do any necessary 
+replacement that would be required based on the results of the 
+inspection. The agency has no way of determining the number of aircraft 
+that might need these replacements:
+
+                                               On-Condition Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                                                     Cost per
+                   Action                                 Labor cost                Parts cost        product
+----------------------------------------------------------------------------------------------------------------
+Replacement................................  9 work-hours x $85 per hour = $765.         $17,819         $18,584
+----------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII: Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    The FAA is issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701: General requirements. 
+Under that section, Congress charges the FAA with promoting safe flight 
+of civil aircraft in air commerce by prescribing regulations for 
+practices, methods, and procedures the Administrator finds necessary 
+for safety in air commerce. This regulation is within the scope of that 
+authority because it addresses an unsafe condition that is likely to 
+exist or develop on products identified in this rulemaking action.
+
+Regulatory Findings
+
+    This AD will not have federalism implications under Executive Order 
+13132. This AD will not have a substantial direct effect on the States, 
+on the relationship between the national government and the States, or 
+on the distribution of power and responsibilities among the various 
+levels of government.
+    For the reasons discussed above, I certify that this AD:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866,
+    (2) Will not affect intrastate aviation in Alaska, and
+    (3) Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA amends 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by adding the following new airworthiness 
+directive:
+
+2025-21-05 The Boeing Company: Amendment 39-23177; Docket No. FAA-
+2025-0739; Project Identifier AD-2025-00196-T.
+
+(a) Effective Date
+
+    This airworthiness directive (AD) is effective January 2, 2026.
+
+ (b) Affected ADs
+
+    None.
+
+ (c) Applicability
+
+    This AD applies to all The Boeing Company Model 717-200 
+airplanes, certificated in any category, as identified in Boeing 
+Alert Requirements Bulletin 717-32A0043 RB, dated February 12, 2025.
+
+ (d) Subject
+
+    Air Transport Association (ATA) of America Code 32, Landing 
+Gear.
+
+ (e) Unsafe Condition
+
+    This AD was prompted by a report of a Boeing Model 717-200 
+operator that experienced a nose landing gear-up landing caused by 
+the failure of the upper lock link assembly. The unsafe condition, 
+if not addressed, could result in a failure of the nose landing gear 
+(NLG) to fully extend during landing or cause the nose gear to 
+remain retracted while the main gear
+
+[[Page 54555]]
+
+deploys. Additionally, it could restrict ground maneuverability, 
+increasing the risk of a runway excursion.
+
+ (f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+ (g) Required Actions
+
+    Except as specified by paragraph (h) of this AD: At the 
+applicable times specified in the ``Compliance'' paragraph of Boeing 
+Alert Requirements Bulletin 717-32A0043 RB, dated February 12, 2025, 
+do all applicable actions identified in, and in accordance with, the 
+Accomplishment Instructions of Boeing Alert Requirements Bulletin 
+717-32A0043 RB, dated February 12, 2025.
+    Note 1 to paragraph (g): Guidance for accomplishing the actions 
+required by this AD can be found in Boeing Alert Service Bulletin 
+717-32A0043, dated February 12, 2025, which is referred to in Boeing 
+Alert Requirements Bulletin 717-32A0043 RB, dated February 12, 2025.
+
+ (h) Exceptions to Requirements Bulletin Specifications
+
+    (1) Where the Condition and Compliance Time columns of the 
+tables in the ``Compliance'' paragraph of Boeing Alert Requirements 
+Bulletin 717-32A0043 RB, dated February 12, 2025, refer to the 
+original issue date of Requirements Bulletin 717-32A0043 RB, this AD 
+requires using the effective date of this AD.
+    (2) Where the Condition column of table 1 in the ``Compliance'' 
+and ``Accomplishment Instructions'' paragraphs of Boeing Alert 
+Requirements Bulletin 717-32A0043 RB, dated February 12, 2025, 
+specifies all airplanes with an Upper Lock Link assembly that has 
+not been overhauled, as of the Original Issue date of Requirements 
+Bulletin 717-32A0043 RB, in accordance with OHM 32-21-2, Revision 
+No. 63 dated July 01, 2024, or later Boeing approved revisions 
+published on New Maintenance Performance Toolbox (nMPT), that 
+condition does not apply to an Upper Lock Link assembly that was 
+manufactured after December 31, 2001.
+    (3) Where the Condition column of table 1 in the ``Compliance'' 
+and ``Accomplishment Instructions'' paragraphs of Boeing Alert 
+Requirements Bulletin 717-32A0043 RB, dated February 12, 2025, 
+specifies ``All airplanes with an Upper Lock Link assembly that has 
+been overhauled'', this AD requires replacing that text with ``All 
+airplanes with an Upper Lock Link assembly that was manufactured 
+after December 31, 2001, or has been overhauled''.
+    (4) Where note (a) of table 1 in the ``Compliance'' and 
+``Accomplishment Instructions'' paragraphs of Boeing Alert 
+Requirements Bulletin 717-32A0043 RB, dated February 12, 2025, 
+defines a serviceable Upper Lock Link assembly as ``one that has 
+been overhauled'', this AD requires replacing that text with ``one 
+that was manufactured after December 31, 2001, or that has been 
+overhauled''.
+
+ (i) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, AIR-520, Continued Operational Safety Branch, 
+FAA, has the authority to approve AMOCs for this AD, if requested 
+using the procedures found in 14 CFR 39.19. In accordance with 14 
+CFR 39.19, send your request to your principal inspector or 
+responsible Flight Standards Office, as appropriate. If sending 
+information directly to the manager of the certification office, 
+send it to the attention of the person identified in paragraph 
+(j)(1) of this AD. Information may be emailed to: <a href="/cdn-cgi/l/email-protection#4a0b0705090a2c2b2b642d253c"><span class="__cf_email__" data-cfemail="5e1f13111d1e383f3f70393128">[email&#160;protected]</span></a>. 
+Before using any approved AMOC, notify your appropriate principal 
+inspector, or lacking a principal inspector, the manager of the 
+responsible Flight Standards Office.
+    (2) An AMOC that provides an acceptable level of safety may be 
+used for any repair, modification, or alteration required by this AD 
+if it is approved by The Boeing Company Organization Designation 
+Authorization (ODA) that has been authorized by the Manager, AIR-
+520, Continued Operational Safety Branch, FAA, to make those 
+findings. To be approved, the repair method, modification deviation, 
+or alteration deviation must meet the certification basis of the 
+airplane, and the approval must specifically refer to this AD.
+
+ (j) Related Information
+
+    (1) For more information about this AD, contact Wayne Ha, 
+Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 
+98198; phone: 562-627-5238; email: <a href="/cdn-cgi/l/email-protection#710610081f145f1910311710105f161e07"><span class="__cf_email__" data-cfemail="7c0b1d05121952141d3c1a1d1d521b130a">[email&#160;protected]</span></a>.
+    (2) Material identified in this AD that is not incorporated by 
+reference is available at the address specified in paragraph (k)(3) 
+this AD.
+
+ (k) Material Incorporated by Reference
+
+    (1) The Director of the Federal Register approved the 
+incorporation by reference of the material listed in this paragraph 
+under 5 U.S.C. 552(a) and 1 CFR part 51.
+    (2) You must use this material as applicable to do the actions 
+required by this AD, unless the AD specifies otherwise.
+    (i) Boeing Alert Requirements Bulletin 717-32A0043 RB, dated 
+February 12, 2025.
+    (ii) [Reserved]
+    (3) For the Boeing material identified in this AD, contact 
+Boeing Commercial Airplanes, Attention: Contractual & Data Services 
+(C&DS), 2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-
+5600; telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    (4) You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., 
+Des Moines, WA. For information on the availability of this material 
+at the FAA, call 206-231-3195.
+    (5) You may view this material at the National Archives and 
+Records Administration (NARA). For information on the availability 
+of this material at NARA, visit <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a>, or email <a href="/cdn-cgi/l/email-protection#5432267a3d3a27243137203d3b3a143a3526357a333b22"><span class="__cf_email__" data-cfemail="7016025e191e0300151304191f1e301e1102115e171f06">[email&#160;protected]</span></a>.
+
+    Issued on October 17, 2025.
+Lona C. Saccomando,
+Acting Deputy Director, Integrated Certificate Management Division, 
+Aircraft Certification Service.
+[FR Doc. 2025-21478 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

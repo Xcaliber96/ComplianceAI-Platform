@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54589-54590]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21458]
+
+
+
+[[Page 54589]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+42 CFR Parts 405, 410, 414, 424, 425, 427, 428, 495, and 512
+
+[CMS-1832-CN2]
+RIN 0938-AV50
+
+
+Medicare and Medicaid Programs; CY 2026 Payment Policies Under 
+the Physician Fee Schedule and Other Changes to Part B Payment and 
+Coverage Policies; Medicare Shared Savings Program Requirements; and 
+Medicare Prescription Drug Inflation Rebate Program; Correction
+
+AGENCY: Centers for Medicare & Medicaid Services (CMS), Department of 
+Health and Human Services (HHS).
+
+ACTION: Final rule; correction.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document corrects technical errors in the final rule that 
+appeared in the November 5, 2025 Federal Register (90 FR 49266) titled 
+``Medicare and Medicaid Programs; CY 2026 Payment Policies Under the 
+Physician Fee Schedule and Other Changes to Part B Payment and Coverage 
+Policies; Medicare Shared Savings Program Requirements; and Medicare 
+Prescription Drug Inflation Rebate Program'' (hereinafter referred to 
+as the CY 2026 PFS final rule), specifying finalized changes to the 
+Medicare physician fee schedule (PFS) that is applicable for calendar 
+year (CY) 2026, and other changes to Medicare Part B payment policies, 
+as well as proposals regarding other Medicare payment policies.
+
+DATES: Effective date: This correcting document is effective November 
+28, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Emily Yoder (410) 786-104 or 
+<a href="/cdn-cgi/l/email-protection#fbb69e9f92989a899eab9382889298929a95bd9e9ea898939e9f8e979ebb989688d5939388d59c948d"><span class="__cf_email__" data-cfemail="f5b890919c96948790a59d8c869c969c949bb39090a6969d9091809990b5969886db9d9d86db929a83">[email&#160;protected]</span></a>, for issues related to skin 
+substitutes.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    In FR Doc. 2025-19787 of November 5, 2025, the CY 2026 PFS final 
+rule (90 FR 49266), there were technical errors that are identified in 
+this correcting document.
+
+II. Summary of Errors
+
+    On pages 49493, 49496, 49501, 49504, and 49506 through 49509, we 
+inadvertently made typographical and technical errors in our discussion 
+of the payment for skin substitutes.
+
+III. Waiver of Proposed Rulemaking and Delay in Effective Date
+
+    Section 1871(b)(1) of the Social Security Act (the Act) requires 
+the Secretary to provide for notice of a proposed rule in the Federal 
+Register and provide a period of not less than 60 days for public 
+comment. In addition, section 1871(e)(1)(B)(i) of the Act mandates a 
+30-day delay in effective date after issuance or publication of a rule. 
+Section 1871(b)(2)(C) of the Act provides an exception from the notice 
+and 60-day comment period and delay in effective date requirements of 
+the Act, under the good cause standard set forth in 5 U.S.C. 553(b)(B). 
+Section 1871(e)(1)(B)(ii) of the Act provides an exception from the 
+delay in effective date requirements of the Act as well. Section 
+553(b)(B) authorizes an agency to dispense with normal notice and 
+comment rulemaking procedures for good cause if the agency makes a 
+finding that the notice and comment process is impracticable, 
+unnecessary, or contrary to the public interest, and includes a 
+statement of the finding and the reasons for it in the rule. In 
+addition, section 1871(e)(1)(B)(ii) of the Act allows the agency to 
+avoid the 30-day delay in effective date where the waiver is necessary 
+to comply with statutory requirements or such delay is contrary to the 
+public interest and the agency includes in the rule a statement of the 
+finding and the reasons for it.
+    In our view, this correcting document does not constitute a 
+rulemaking that would be subject to these requirements. This document 
+merely corrects technical and typographical errors in the payment for 
+skin substitutes provisions of the CY 2026 PFS final rule. The 
+corrections contained in this document are consistent with, and do not 
+make substantive changes to, the policies and payment methodologies 
+that were proposed, subject to notice and comment procedures, and 
+adopted in the CY 2026 PFS final rule. As a result, the corrections 
+made through this document are intended to resolve inadvertent errors 
+in the discussion of the skin substitutes policies so that the CY 2026 
+PFS final rule accurately reflects the policies adopted therein.
+    In addition, even if this were a rulemaking to which the notice and 
+comment and delayed effective date requirements applied, we find that 
+there is good cause to waive such requirements. Undertaking further 
+notice and comment procedures to incorporate the corrections in this 
+document into the CY 2026 PFS final rule or delaying the effective date 
+of the corrections are unnecessary because we are not making any 
+substantive revisions to the CY 2026 PFS final rule, but rather, we are 
+simply correcting the Federal Register documents to reflect the skin 
+substitutes policies that we previously proposed, received public 
+comment on, and subsequently finalized in the CY 2026 PFS final rule. 
+Further comment is not needed to inform our decision to rectify the 
+ministerial errors noted in this final rule and correction. For these 
+reasons, we believe there is good cause to waive notice and comment and 
+delay in effective date, even if they were required.
+
+IV. Correction of Errors
+
+    In FR Doc. 2025-19787 of November 5, 2025 (90 FR 49266), make the 
+following corrections:
+    1. On page 49493,
+    a. Second column, second full paragraph, line 33 and 34, the phrase 
+``as a drug or as a biological product'' is corrected to read ``as a 
+biological product''; and
+    b. Third column, first partial paragraph, line 10, the phrase ``as 
+a drug or as a biological product'' is corrected to read ``as a 
+biological product''.
+    2. On page 49496, first column, fourth full paragraph, line 5, ``as 
+a drug or as a biological product'' is corrected to read ``as a 
+biological product''.
+    3. On page 49501, second column, first partial paragraph, lines 21 
+through 25, the phrase ``the file titled `Skin Substitute Products by 
+FDA Regulatory Category' on the CMS website under downloads for the CY 
+2026 PFS final rule at'' is corrected to read ``Addendum B of the PFS 
+proposed rule' on the CMS website under downloads for the CY 2026 PFS 
+proposed rule at''.
+    4. On page 49504,
+    a. First column,
+    (1) First full paragraph, line 2, the phrase ``an initial payment 
+rate'' is corrected to read ``an initial proposed payment rate''.
+    (2) Second full paragraph, line 6, the phrase ``quarter of data.'' 
+is corrected to read ``quarter of data at the time of the proposed 
+rule.''.
+    b. Second column, second full paragraph, line 3, the phrase ``$125 
+per square centimeter'' is corrected to read ``$125/cm\2\''.
+    5. On page 49506, third column, first full paragraph, line 8, the 
+phrase ``$125.38 rate'' is corrected to read ``$125.38/cm\2\ rate''.
+    6. On page 49507, second column,
+    a. First partial paragraph, line 9, the phrase ``$127.28/cm\2\.'' 
+is corrected to read ``$127.14/cm\2\''.
+    b. Second full paragraph, lines 8 through 17 the phrase ``the 
+exception of updates to several code classifications
+
+[[Page 54590]]
+
+and updated with the most recent data available as of the time of 
+drafting this final rule, which resulted in a final payment rate for CY 
+2026 of $127.19/cm2. Specifically, we used 2026 MUC data (based on 2024 
+claims data) for the fourth quarter 2024 ASP data, weight by hospital 
+outpatient claims volume.'' is corrected to read ``the exception of 
+updating the calculation with more recent utilization data available as 
+of the time of drafting this final rule, which resulted in a final 
+payment rate for CY 2026 of $127.14/cm\2\. Specifically, we also used 
+fourth quarter 2024 ASP data and 2026 MUC data (based on 2024 claims 
+data), when ASP data was not available, weighted by more up to date 
+hospital outpatient claims volume.''.
+    7. On page 49508, second column, first partial paragraph, lines 4 
+and 5, the phrase ``a skin substitute is approved as a drug or as a 
+biological product'' is corrected to read ``a skin substitute is 
+approved as a biological product''.
+    8. On page 49509, third column, first partial paragraph,
+    a. Line 8, the figure ``$127.28/cm\2\'' is corrected to read 
+``$127.14/cm\2\''.
+    b. Lines 11 and 12, the phrase ``This rate reflects updates to 
+several code classifications and uses'' is corrected to read ``This 
+rate uses''.
+
+Wilma M. Robinson,
+Deputy Executive Secretary to the Department, Department of Health and 
+Human Services.
+[FR Doc. 2025-21458 Filed 11-26-25; 8:45 am]
+BILLING CODE 4120-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

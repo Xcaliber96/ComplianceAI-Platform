@@ -1,0 +1,476 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Rules and Regulations]
+[Pages 53215-53218]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20951]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2025-5025; Project Identifier AD-2025-01595-T; 
+Amendment 39-23197; AD 2025-24-02]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is adopting a new airworthiness directive (AD) for 
+certain The Boeing Company Model 737-700, -800, -900, and -900ER series 
+airplanes. This AD was prompted by a report of a runway excursion 
+caused by loss of braking. An inspection found that the right main 
+landing gear (MLG) hydraulic hoses for the brakes were incorrectly 
+installed at the flow limiters, and the left MLG wheel speed transducer 
+wires were also interchanged. This AD requires a general visual 
+inspection (GVI) of the left and right MLG brake hydraulic hoses for 
+any crossed installation, antiskid valve and transducer operational 
+tests, and applicable on-condition actions. The FAA is issuing this AD 
+to address the unsafe condition on these products.
+
+DATES: This AD is effective December 10, 2025.
+    The Director of the Federal Register approved the incorporation by 
+reference of a certain publication listed in this AD as of December 10, 
+2025.
+    The FAA must receive comments on this AD by January 9, 2026.
+
+ADDRESSES: You may send comments, using the procedures found in 14 CFR 
+11.43 and 11.45, by any of the following methods:
+    <bullet> Federal eRulemaking Portal: Go to <a href="http://regulations.gov">regulations.gov</a>. Follow 
+the instructions for submitting comments.
+    <bullet> Fax: 202-493-2251.
+    <bullet> Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE, Washington, DC 20590.
+    <bullet> Hand Delivery: Deliver to Mail address above between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    AD Docket: You may examine the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-5025; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this final rule, any comments received, and other 
+information. The street address for Docket Operations is listed above.
+    Material Incorporated by Reference:
+    <bullet> For Boeing material identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Contractual & Data Services (C&DS), 
+2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; 
+telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    <bullet> You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., Des 
+Moines, WA. For information on the availability of this material at the 
+FAA, call 206-231-3195. It is also available at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-5025.
+
+FOR FURTHER INFORMATION CONTACT: Katherine Venegas, Aviation Safety 
+Engineer, FAA, 3960 Paramount Boulevard, Lakewood, CA 90712; phone: 
+562-627-5353; email: <a href="/cdn-cgi/l/email-protection#056e64716d60776c6b602b73606b60626476456364642b626a73"><span class="__cf_email__" data-cfemail="6b000a1f030e1902050e451d0e050e0c0a182b0d0a0a450c041d">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    The FAA invites you to send any written data, views, or arguments 
+about this final rule. Send your comments using a method listed under 
+the ADDRESSES section. Include Docket No. FAA-2025-5025 and Project 
+Identifier AD-2025-01595-T at the beginning of your comments. The most 
+helpful comments reference a specific portion of the final rule, 
+explain the reason for any recommended change, and include supporting 
+data. The FAA will consider all comments received by the closing date 
+and may amend this final rule because of those comments.
+    Except for Confidential Business Information (CBI) as described in 
+the following paragraph, and other information as described in 14 CFR 
+11.35, the FAA will post all comments received, without change, to 
+<a href="http://regulations.gov">regulations.gov</a>, including any personal information you provide. The 
+agency will also post a report summarizing each
+
+[[Page 53216]]
+
+substantive verbal contact received about this final rule.
+
+Confidential Business Information
+
+    CBI is commercial or financial information that is both customarily 
+and actually treated as private by its owner. Under the Freedom of 
+Information Act (FOIA) (5 U.S.C. 552), CBI is exempt from public 
+disclosure. If your comments responsive to this AD contain commercial 
+or financial information that is customarily treated as private, that 
+you actually treat as private, and that is relevant or responsive to 
+this AD, it is important that you clearly designate the submitted 
+comments as CBI. Please mark each page of your submission containing 
+CBI as ``PROPIN.'' The FAA will treat such marked submissions as 
+confidential under the FOIA, and they will not be placed in the public 
+docket of this AD. Submissions containing CBI should be sent to 
+Katherine Venegas, Aviation Safety Engineer, FAA, 3960 Paramount 
+Boulevard, Lakewood, CA 90712; phone: 562-627-5353; email: 
+<a href="/cdn-cgi/l/email-protection#fd969c8995988f949398d38b9893989a9c8ebd9b9c9cd39a928b"><span class="__cf_email__" data-cfemail="660d07120e03140f080348100308030107152600070748010910">[email&#160;protected]</span></a>. Any commentary that the FAA receives that is 
+not specifically designated as CBI will be placed in the public docket 
+for this rulemaking.
+
+Background
+
+    The FAA has received a report of a runway excursion caused by loss 
+of braking. An inspection found that the right MLG hydraulic hoses for 
+the brakes were incorrectly installed (crossed) at the flow limiters, 
+and the left MLG wheel speed transducer wires were interchanged. This 
+condition could result in incorrect antiskid system operation, which 
+could result in loss of braking and potential for a runway excursion 
+with serious or fatal injuries. The FAA is issuing this AD to address 
+the unsafe condition on these products.
+
+FAA's Determination
+
+    The FAA is issuing this AD because the agency has determined the 
+unsafe condition described previously is likely to exist or develop in 
+other products of the same type design.
+
+Material Incorporated by Reference Under 1 CFR Part 51
+
+    The FAA reviewed Boeing Alert Requirements Bulletin 737-32A1599 RB, 
+dated October 14, 2025. This material specifies procedures for a GVI of 
+the left and right MLG brake hydraulic hoses for any incorrect 
+(crossed) installation, antiskid valve and transducer operational 
+tests, and applicable on-condition actions.
+    On-condition actions include installing the brake hydraulic hoses 
+to the correct flow limiter or union, and doing applicable corrective 
+actions until the operational tests are passed. This material is 
+reasonably available because the interested parties have access to it 
+through their normal course of business or by the means identified in 
+the ADDRESSES section.
+
+AD Requirements
+
+    This AD requires accomplishing the actions identified in Boeing 
+Alert Requirements Bulletin 737-32A1599 RB, dated October 14, 2025, 
+already described, except as discussed under ``Differences Between this 
+AD and the Referenced Material.''
+
+Differences Between This AD and the Referenced Material
+
+    Although Boeing Alert Requirements Bulletin 737-32A1599 RB, dated 
+October 14, 2025, does not specify reporting inspection and test 
+results, reporting is included in Boeing Alert Service Bulletin 737-
+32A1599, dated October 14, 2025. The FAA has determined that reporting 
+is necessary. The number of findings in such reports, and the number of 
+flight cycles since accomplishing any service bulletin identified in 
+Appendix A of Boeing Alert Requirements Bulletin 737-32A1599 RB, dated 
+October 14, 2025, will help inform the FAA as to whether additional 
+rulemaking may be necessary.
+
+Justification for Immediate Adoption and Determination of the Effective 
+Date
+
+    Section 553(b) of the Administrative Procedure Act (APA) (5 U.S.C. 
+551 et seq.) authorizes agencies to forego notice and comment 
+procedures for rules when the agency, for ``good cause,'' finds that 
+those procedures are ``impracticable, unnecessary, or contrary to the 
+public interest.'' Under this section, an agency, upon finding good 
+cause, may issue a final rule without providing notice and seeking 
+comment prior to issuance. Further, section 553(d) of the APA 
+authorizes agencies to make rules effective in less than thirty days, 
+upon a finding of good cause.
+    An unsafe condition exists that requires the immediate adoption of 
+this AD without providing an opportunity for public comments prior to 
+adoption. The FAA has found that the risk to the flying public 
+justifies forgoing notice and comment prior to adoption of this rule, 
+because incorrectly installed (crossed) brake hydraulic hoses for the 
+MLG and interchanged left MLG wheel speed transducer wires could cause 
+incorrect antiskid system operation and result in loss of braking and a 
+runway excursion with serious or fatal injuries. Further, the effects 
+of crossed brake hoses may not be noticed until there is a skidding 
+condition. Additionally, the compliance time in this AD is shorter than 
+the time necessary for the public to comment and for publication of the 
+final rule. Accordingly, notice and opportunity for prior public 
+comment are impracticable.
+    In addition, the FAA finds that good cause exists pursuant to 5 
+U.S.C. 553(d) for making this amendment effective in less than 30 days, 
+for the same reasons the FAA found good cause to forgo notice and 
+comment.
+
+Regulatory Flexibility Act
+
+    The requirements of the Regulatory Flexibility Act (RFA) do not 
+apply when an agency finds good cause pursuant to 5 U.S.C. 553 to adopt 
+a rule without prior notice and comment. Because the FAA has determined 
+that it has good cause to adopt this rule without notice and comment, 
+RFA analysis is not required.
+
+Costs of Compliance
+
+    While 6,816 airplanes are included in the Effectivity of Boeing 
+Alert Requirements Bulletin 737-32A1599, dated October 14, 2025, and 
+thus the applicability of this AD, the FAA expects that only 
+approximately 100 airplanes of U.S. registry are currently in a 
+configuration that necessitates immediate action and therefore will 
+incur the following estimated costs.
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                                    Cost per       Cost on U.S.
+               Action                        Labor cost           Parts cost        product         operators
+----------------------------------------------------------------------------------------------------------------
+Inspection and tests................  7 work-hours x $85 per               $0             $595          $59,500
+                                       hour = $595.
+----------------------------------------------------------------------------------------------------------------
+
+
+[[Page 53217]]
+
+    The FAA estimates the following costs to do any necessary 
+installations and reporting that would be required based on the results 
+of the inspection. The FAA has no way of determining the number of 
+aircraft that might need reporting:
+
+                                                On-Condition Cost
+----------------------------------------------------------------------------------------------------------------
+                                                                                                     Cost per
+                    Action                                 Labor cost               Parts cost        product
+----------------------------------------------------------------------------------------------------------------
+Installation..................................  2 work-hours x $85 per hour =                 $0            $170
+                                                 $170.
+Reporting.....................................  1 work-hour x $85 per hour = $85               0              85
+----------------------------------------------------------------------------------------------------------------
+
+    The FAA has received no definitive data on which to base the cost 
+estimates for on-condition corrective actions to address failed 
+operational tests specified in this AD.
+
+Paperwork Reduction Act
+
+    A federal agency may not conduct or sponsor, and a person is not 
+required to respond to, nor shall a person be subject to a penalty for 
+failure to comply with a collection of information subject to the 
+requirements of the Paperwork Reduction Act unless that collection of 
+information displays a currently valid OMB Control Number. The OMB 
+Control Number for this information collection is 2120-0056. Public 
+reporting for this collection of information is estimated to take 
+approximately 1 hour per response, including the time for reviewing 
+instructions, searching existing data sources, gathering and 
+maintaining the data needed, and completing and reviewing the 
+collection of information. All responses to this collection of 
+information are mandatory. Send comments regarding this burden estimate 
+or any other aspect of this collection of information, including 
+suggestions for reducing this burden, to: Information Collection 
+Clearance Officer, Federal Aviation Administration, 10101 Hillwood 
+Parkway, Fort Worth, TX 76177-1524.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII: Aviation Programs 
+describes in more detail the scope of the Agency's authority.
+    The FAA is issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701: General requirements. 
+Under that section, Congress charges the FAA with promoting safe flight 
+of civil aircraft in air commerce by prescribing regulations for 
+practices, methods, and procedures the Administrator finds necessary 
+for safety in air commerce. This regulation is within the scope of that 
+authority because it addresses an unsafe condition that is likely to 
+exist or develop on products identified in this rulemaking action.
+
+Regulatory Findings
+
+    This AD will not have federalism implications under Executive Order 
+13132. This AD will not have a substantial direct effect on the States, 
+on the relationship between the national government and the States, or 
+on the distribution of power and responsibilities among the various 
+levels of government.
+    For the reasons discussed above, I certify that this AD:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866, and
+    (2) Will not affect intrastate aviation in Alaska.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA amends 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by adding the following new airworthiness 
+directive:
+
+2025-24-02 The Boeing Company: Amendment 39-23197; Docket No. FAA-
+2025-5025; Project Identifier AD-2025-01595-T.
+
+(a) Effective Date
+
+    This airworthiness directive (AD) is effective December 10, 
+2025.
+
+(b) Affected ADs
+
+    None.
+
+(c) Applicability
+
+    This AD applies to The Boeing Company Model 737-700, -800, -900, 
+and -900ER series airplanes, certificated in any category, as 
+identified in Boeing Alert Requirements Bulletin 737-32A1599 RB, 
+dated October 14, 2025.
+
+(d) Subject
+
+    Air Transport Association (ATA) of America Code 32, Landing 
+gear.
+
+(e) Unsafe Condition
+
+    This AD was prompted by a report of a runway excursion caused by 
+loss of braking. An inspection found that the right main landing 
+gear (MLG) hydraulic hoses for the brakes were incorrectly installed 
+(crossed) at the flow limiters, and the left MLG wheel speed 
+transducer wires were also interchanged. The FAA is issuing this AD 
+to address incorrectly installed brake hydraulic hoses for the MLG 
+and wheel speed transducer wires for the MLG, which could cause 
+incorrect antiskid system operation. The unsafe condition could 
+result in loss of braking and a runway excursion with serious or 
+fatal injuries.
+
+(f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+(g) Required Actions
+
+    Except as specified by paragraph (h) of this AD: At the 
+applicable times specified in the ``Compliance'' paragraph of Boeing 
+Alert Requirements Bulletin 737-32A1599 RB, dated October 14, 2025, 
+do all applicable actions identified in, and in accordance with, the 
+Accomplishment Instructions of Boeing Alert Requirements Bulletin 
+737-32A1599 RB, dated October 14, 2025.
+    Note 1 to paragraph (g):Guidance for accomplishing the actions 
+required by this AD can be found in Boeing Alert Service Bulletin 
+737-32A1599, dated October 14, 2025, which is referred to in Boeing 
+Alert Requirements Bulletin 737-32A1599 RB, dated October 14, 2025.
+
+(h) Exception to Requirements Bulletin Specifications
+
+    Where the ``Effectivity'' paragraph and Compliance Time columns 
+of the tables in the ``Compliance'' paragraph of Boeing Alert 
+Requirements Bulletin 737-32A1599 RB, dated October 14, 2025, refer 
+to the original issue date of Requirements Bulletin 737-32A1599 RB, 
+this AD requires using the effective date of this AD.
+
+[[Page 53218]]
+
+(i) Reporting
+
+    For airplanes identified as Group 1, Configuration 3 through 5, 
+in Boeing Alert Requirements Bulletin 737-32A1599 RB, dated October 
+14, 2025, on which any of the findings specified in paragraphs 
+(i)(4) through (6) of this AD were found during any inspection or 
+test required by paragraph (g) of this AD: Submit a report within 30 
+days after the inspection or test, or within 30 days after the 
+effective date of this AD, whichever occurs later. The report must 
+include the items specified in paragraphs (i)(1) through (6) of this 
+AD. Submit the report to Boeing Service Engineering by sending a 
+service request using the Boeing Communication System (BCS).
+    (1) Airplane line number.
+    (2) Date of most recent accomplishment of any service bulletin 
+listed in Appendix A of Boeing Alert Requirements Bulletin 737-
+32A1599 RB, dated October 14, 2025.
+    (3) The number of flight cycles between the most recent 
+accomplishment of any service bulletin listed in Appendix A of 
+Boeing Alert Requirements Bulletin 737-32A1599 RB, dated October 14, 
+2025, and the date that the inspection or test was completed.
+    (4) All crossed brake hydraulic hoses found during the general 
+visual inspection for crossed brake hydraulic hoses.
+    (5) Operational test failures of the antiskid valve operational 
+tests.
+    (6) Operational test failures of the transducer operational 
+tests.
+
+(j) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, AIR-520, Continued Operational Safety Branch, 
+FAA, has the authority to approve AMOCs for this AD, if requested 
+using the procedures found in 14 CFR 39.19. In accordance with 14 
+CFR 39.19, send your request to your principal inspector or 
+responsible Flight Standards Office, as appropriate. If sending 
+information directly to the manager of the Continued Operational 
+Safety Branch, send it to the attention of the person identified in 
+paragraph (k)(1) of this AD. Information may be emailed to: 
+<a href="/cdn-cgi/l/email-protection#73323e3c30331512125d141c05"><span class="__cf_email__" data-cfemail="4504080a06052324246b222a33">[email&#160;protected]</span></a>. Before using any approved AMOC, notify your 
+appropriate principal inspector, or lacking a principal inspector, 
+the manager of the responsible Flight Standards Office.
+    (2) An AMOC that provides an acceptable level of safety may be 
+used for any repair, modification, or alteration required by this AD 
+if it is approved by The Boeing Company Organization Designation 
+Authorization (ODA) that has been authorized by the Manager, AIR-
+520, Continued Operational Safety Branch, FAA, to make those 
+findings. To be approved, the repair method, modification deviation, 
+or alteration deviation must meet the certification basis of the 
+airplane, and the approval must specifically refer to this AD.
+
+(k) Additional Information
+
+    (1) For more information about this AD, contact Katherine 
+Venegas, Aviation Safety Engineer, FAA, 3960 Paramount Boulevard, 
+Lakewood, CA 90712; phone: 562-627-5353; email: 
+<a href="/cdn-cgi/l/email-protection#046f65706c61766d6a612a72616a61636577446265652a636b72"><span class="__cf_email__" data-cfemail="5d363c2935382f343338732b3833383a3c2e1d3b3c3c733a322b">[email&#160;protected]</span></a>.
+    (2) Material identified in this AD that is not incorporated by 
+reference is available at the address specified in paragraph (l)(3) 
+of this AD.
+
+(l) Material Incorporated by Reference
+
+    (1) The Director of the Federal Register approved the 
+incorporation by reference of the material listed in this paragraph 
+under 5 U.S.C. 552(a) and 1 CFR part 51.
+    (2) You must use this material as applicable to do the actions 
+required by this AD, unless the AD specifies otherwise.
+    (i) Boeing Alert Requirements Bulletin 737-32A1599 RB, dated 
+October 14, 2025.
+    (ii) [Reserved]
+    (3) For Boeing material identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Contractual & Data Services (C&DS), 
+2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; 
+telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    (4) You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., 
+Des Moines, WA. For information on the availability of this material 
+at the FAA, call 206-231-3195.
+    (5) You may view this material at the National Archives and 
+Records Administration (NARA). For information on the availability 
+of this material at NARA, visit <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a> or email <a href="/cdn-cgi/l/email-protection#187e6a3671766b687d7b6c7177765876796a79367f776e"><span class="__cf_email__" data-cfemail="4c2a3e6225223f3c292f382523220c222d3e2d622b233a">[email&#160;protected]</span></a>.
+
+    Issued on November 19, 2025.
+Peter A. White,
+Deputy Director, Integrated Certificate Management Division, Aircraft 
+Certification Service.
+[FR Doc. 2025-20951 Filed 11-21-25; 11:15 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

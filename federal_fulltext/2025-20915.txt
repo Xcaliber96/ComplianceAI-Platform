@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53302-53303]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20915]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+[Project No. 77-318]
+
+
+Pacific Gas & Electric Company; Notice of Application for Non-
+Capacity Amendment of License Accepted for Filing, Soliciting Comments, 
+Motions To Intervene, and Protests
+
+    Take notice that the following hydroelectric application has been 
+filed with the Commission and is available for public inspection:
+    a. Application Type: Non-Capacity License Amendment to Article 52.
+    b. Project No: 77-318.
+    c. Date Filed: July 23, 2023; supplemented January 30, 2025, and 
+September 26, 2025.
+    d. Applicant: Pacific Gas & Electric Company.
+    e. Name of Project: Potter Valley Hydroelectric Project.
+    f. Location: The project is located on the Eel River and East Fork 
+of the Russian River in Lake and Mendocino counties, California. The 
+project occupies federal lands managed by the U.S. Forest Service.
+    g. Filed Pursuant to: Federal Power Act, 16 U.S.C. 791a-825r.
+    h. Applicant Contact: Chadwick McCready, Pacific Gas and Electric 
+Company, 300 Lakeside Drive, Oakland, CA 94612, (530) 685-5710.
+    i. FERC Contact: Katherine Schmidt, <a href="/cdn-cgi/l/email-protection#95fef4e1fdf0e7fcfbf0bbe6f6fdf8fcf1e1d5f3f0e7f6bbf2fae3"><span class="__cf_email__" data-cfemail="caa1abbea2afb8a3a4afe4b9a9a2a7a3aebe8aacafb8a9e4ada5bc">[email&#160;protected]</span></a>, 
+(415) 369-3348.
+    j. Cooperating agencies: With this notice, the Commission is 
+inviting federal, state, local, and Tribal agencies with jurisdiction 
+and/or special expertise with respect to environmental issues affected 
+by the proposal, that wish to cooperate in the preparation of any 
+environmental document, if applicable, to follow the instructions for 
+filing such requests described in item k below. Cooperating agencies 
+should note the Commission's policy that agencies that cooperate in the 
+preparation of any environmental document cannot also intervene. See 94 
+FERC ] 61,076 (2001).
+    k. Deadline for filing comments, motions to intervene, and 
+protests: December 1, 2025, 5:00 p.m. Eastern Time.
+    The Commission strongly encourages electronic filing. Please file 
+comments, motions to intervene, and protests using the Commission's 
+eFiling system at <a href="http://www.ferc.gov/docs-filing/efiling.asp">http://www.ferc.gov/docs-filing/efiling.asp</a>. 
+Commenters can submit brief comments up to 6,000 characters, without 
+prior registration, using the eComment system at <a href="http://www.ferc.gov/docs-filing/ecomment.asp">http://www.ferc.gov/docs-filing/ecomment.asp</a>. For assistance, please contact FERC Online 
+Support at <a href="/cdn-cgi/l/email-protection#61272433222e0f0d080f04321411110e131521070413024f060e17"><span class="__cf_email__" data-cfemail="470102150408292b2e292214323737283533072122352469202831">[email&#160;protected]</span></a>, (866) 208-3676 (toll free), or 
+(202) 502-8659 (TTY). In lieu of electronic filing, you may submit a 
+paper copy. Submissions sent via the U.S. Postal Service must be 
+addressed to: Debbie-Anne A. Reese, Secretary, Federal Energy 
+Regulatory Commission, 888 First Street NE, Room 1A, Washington, DC 
+20426. Submissions sent via any other carrier must be addressed to: 
+Debbie-Anne A. Reese, Secretary, Federal Energy Regulatory Commission, 
+12225 Wilkins Avenue, Rockville, MD 20852. The first page of any filing 
+should include the docket number P-77-318. Comments emailed to 
+Commission staff are not considered part of the Commission record.
+    The Commission's Rules of Practice and Procedure require all 
+intervenors filing documents with the Commission to serve a copy of 
+that document on each person whose name appears on the official service 
+list for the project. Further, if an intervenor files comments or 
+documents with the Commission relating to the merits of an issue that 
+may affect the responsibilities of a particular resource agency, they 
+must also serve a copy of the document on that resource agency.
+    l. Description of Request: The licensee requests a non-capacity 
+license amendment regarding its minimum flow requirements under Article 
+52. The licensee states that this amendment is necessary to 
+appropriately manage the water storage of Lake Pillsbury and remain in 
+compliance with the requirements of Article 52, given current interim 
+risk reduction measures due to seismic concerns, storage limitations, 
+and the various water demands on the system.
+    First, the proposed changes to East Branch Russian River minimum 
+flows, as measured by compliance gage E-16 in cubic feet per second 
+(cfs), are as follows:
+
+[[Page 53303]]
+
+
+
+----------------------------------------------------------------------------------------------------------------
+                       Period                                          Water year classification
+----------------------------------------------------------------------------------------------------------------
+              From                      Through             Normal                Dry              Critical
+----------------------------------------------------------------------------------------------------------------
+October 1.......................  April 14..........  35 cfs............  35 cfs............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+                                          Scott Dam in Spill Condition
+----------------------------------------------------------------------------------------------------------------
+April 15........................  May 14............  35 cfs............  25 cfs............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+                                      -or- Scott Dam not in Spill Condition
+----------------------------------------------------------------------------------------------------------------
+April 15........................  May 14............  5 cfs.............  5 cfs.............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+                                          Scott Dam in Spill Condition
+----------------------------------------------------------------------------------------------------------------
+May 15..........................  June 30...........  75 cfs............  25 cfs............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+                                      -or- Scott Dam not in Spill Condition
+----------------------------------------------------------------------------------------------------------------
+May 15..........................  June 30...........  5 cfs.............  5 cfs.............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+July 1..........................  September 30......  5 cfs.............  5 cfs.............  5 cfs.
+----------------------------------------------------------------------------------------------------------------
+
+    Second, the minimum flow requirement below Scott Dam, as measured 
+by compliance gage E-2, would be modified to 20 cfs at all times, 
+regardless of calendar date or water year classification. In addition, 
+the definition of compliance with minimum flows would be established as 
+the mean daily flow, defined as the `calculated 24-hour average of the 
+flow'. Further, the block water allocation of 2,500 acre-feet reserved 
+for the release at the discretion of resource agencies would be changed 
+from each `water' year to each `calendar' year. The licensee is 
+proposing this modified mode of operation until the Commission acts on 
+the pending surrender application, filed with the Commission on July 
+25, 2025, or other Commission proceeding.
+    m. Locations of the Application: This filing may be viewed on the 
+Commission's website at <a href="http://www.ferc.gov">http://www.ferc.gov</a> using the ``eLibrary'' 
+link. Enter the docket number excluding the last three digits in the 
+docket number field to access the document. You may also register 
+online at <a href="http://www.ferc.gov/docs-filing/esubscription.asp">http://www.ferc.gov/docs-filing/esubscription.asp</a> to be 
+notified via email of new filings and issuances related to this or 
+other pending projects. For assistance, call 1-866-208-3676 or email 
+<a href="/cdn-cgi/l/email-protection#f0b6b5a2b3bf9e9c999e95a38580809f8284b096958293de979f86"><span class="__cf_email__" data-cfemail="73353621303c1d1f1a1d16200603031c010733151601105d141c05">[email&#160;protected]</span></a>, for TTY, call (202) 502-8659. Agencies may 
+obtain copies of the application directly from the applicant.
+    n. Individuals desiring to be included on the Commission's mailing 
+list should so indicate by writing to the Secretary of the Commission.
+    o. Comments, Protests, or Motions to Intervene: Anyone may submit 
+comments, a protest, or a motion to intervene in accordance with the 
+requirements of Rules of Practice and Procedure, 18 CFR 385.210, .211, 
+.214, respectively. In determining the appropriate action to take, the 
+Commission will consider all protests or other comments filed, but only 
+those who file a motion to intervene in accordance with the 
+Commission's Rules may become a party to the proceeding. Any comments, 
+protests, or motions to intervene must be received on or before the 
+specified comment date for the particular application.
+    p. Filing and Service of Documents: Any filing must (1) bear in all 
+capital letters the title ``COMMENTS'', ``PROTEST'', or ``MOTION TO 
+INTERVENE'' as applicable; (2) set forth in the heading the name of the 
+applicant and the project number of the application to which the filing 
+responds; (3) furnish the name, address, and telephone number of the 
+person commenting, protesting or intervening; and (4) otherwise comply 
+with the requirements of 18 CFR 385.2001 through 385.2005. All 
+comments, motions to intervene, or protests must set forth their 
+evidentiary basis. Any filing made by an intervenor must be accompanied 
+by proof of service on all persons listed in the service list prepared 
+by the Commission in this proceeding, in accordance with 18 CFR 
+385.2010.
+    q. The Commission's Office of Public Participation (OPP) supports 
+meaningful public engagement and participation in Commission 
+proceedings. OPP can help members of the public, including landowners, 
+community organizations, Tribal members, and others access publicly 
+available information and navigate Commission processes. For public 
+inquiries and assistance with making filings such as interventions, 
+comments, or requests for rehearing, the public is encouraged to 
+contact OPP at (202) 502-6595 or <a href="/cdn-cgi/l/email-protection#28677878684e4d5a4b064f475e"><span class="__cf_email__" data-cfemail="37786767775152455419505841">[email&#160;protected]</span></a>.
+
+    Dated: October 31, 2025.
+Debbie-Anne A. Reese,
+Secretary.
+[FR Doc. 2025-20915 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

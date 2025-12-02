@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54361-54362]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21111]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Transportation Security Administration
+
+
+Revision of Agency Information Collection Activity Under OMB 
+Review: Department of Homeland Security Traveler Redress Inquiry 
+Program (DHS TRIP)
+
+AGENCY: Transportation Security Administration, DHS.
+
+ACTION: 30-Day notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice announces that the Transportation Security 
+Administration (TSA) has forwarded the Information Collection Request 
+(ICR), Office of Management and Budget (OMB) control number 1652-0044, 
+abstracted below, to OMB for review and approval of a revision of the 
+currently approved collection under the Paperwork Reduction Act (PRA). 
+The ICR describes the nature of the information collection and its 
+expected burden. The collection involves the submission of identifying 
+and travel experience information by individuals requesting redress 
+through the Department of Homeland Security Traveler Redress Inquiry 
+Program (DHS TRIP). The collection also involves two voluntary customer 
+satisfaction surveys for program improvement.
+
+DATES: Send your comments by December 26, 2025. A comment to OMB is 
+most effective if OMB receives it within 30 days of publication.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection by selecting ``Currently under 
+Review--Open for Public Comments'' and by using the find function.
+
+FOR FURTHER INFORMATION CONTACT: Christina A. Walsh, TSA PRA Officer, 
+Information Technology, TSA-11, Transportation Security Administration,
+
+[[Page 54362]]
+
+6595 Springfield Center Drive, Springfield, VA 20598-6011; telephone 
+(571) 227-2062; email <a href="/cdn-cgi/l/email-protection#c490978594968584a0acb7eaa3abb2"><span class="__cf_email__" data-cfemail="287c7b69787a69684c405b064f475e">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: TSA published a Federal Register notice, 
+with a 60-day comment period soliciting comments, of the following 
+collection of information on July 24, 2025, 90 FR 34875. TSA received 
+no comments on the notice.
+
+Comments Invited
+
+    In accordance with the Paperwork Reduction Act of 1995 (44 U.S.C. 
+3501 et seq.), an agency may not conduct or sponsor, and a person is 
+not required to respond to, a collection of information unless it 
+displays a valid OMB control number. The ICR documentation will be 
+available at <a href="https://www.reginfo.gov">https://www.reginfo.gov</a> upon its submission to OMB. 
+Therefore, in preparation for OMB review and approval of the following 
+information collection, TSA is soliciting comments to--
+    (1) Evaluate whether the proposed information requirement is 
+necessary for the proper performance of the functions of the agency, 
+including whether the information will have practical utility;
+    (2) Evaluate the accuracy of the agency's estimate of the burden;
+    (3) Enhance the quality, utility, and clarity of the information to 
+be collected; and
+    (4) Minimize the burden of the collection of information on those 
+who are to respond, including using appropriate automated, electronic, 
+mechanical, or other technological collection techniques.
+
+Information Collection Requirement
+
+    Title: DHS TRIP.
+    Type of Request: Revision of a currently approved collection.
+    OMB Control Number: 1652-0044.
+    Forms(s): Traveler Inquiry and Survey Forms.
+    Affected Public: Traveling Public.
+    Abstract: DHS TRIP is a single point of contact for individuals who 
+have inquiries or seek resolution regarding difficulties they have 
+experienced during their travel screening. TSA manages the DHS TRIP 
+office on behalf of DHS. The collection of information includes: (1) a 
+Traveler Inquiry Form, which includes the individual's identifying and 
+travel experience information; and (2) two optional, anonymous customer 
+satisfaction surveys to allow the public to provide DHS feedback on its 
+experience using DHS TRIP.
+    TSA is revising the collection to comply with a Government 
+Accountability Office recommendation to update the surveys to include 
+opportunities for suggestions and feedback on the application 
+process.\1\ The revisions add additional questions and provide open 
+text for respondents to offer suggestions and feedback on the 
+application and the redress processes. TSA also has made non-
+substantive changes to the application, correcting a typo and changing 
+the phrase ``Name of Entry into the U.S.'' to ``Name at Entry into the 
+U.S.''
+---------------------------------------------------------------------------
+
+    \1\ GAO-25-106333 Terrorist Watchlist: Actions Needed to Improve 
+Nomination and Redress for U.S. Persons.
+---------------------------------------------------------------------------
+
+    Estimated Annual Number of Respondents: 26,000.
+    Estimated Annual Burden Hours: 13,303.
+    Estimated Annual Cost Burden: $1,261.
+
+    Dated: November 21, 2025.
+Christina A. Walsh,
+Paperwork Reduction Act Officer, Information Technology, Transportation 
+Security Administration.
+[FR Doc. 2025-21111 Filed 11-25-25; 8:45 am]
+BILLING CODE 9110-05-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54453]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21147]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Railroad Administration
+
+[Docket No. FRA-2025-0008]
+
+
+Proposed Agency Information Collection Activities; Comment 
+Request
+
+AGENCY: Federal Railroad Administration (FRA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of information collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Under the Paperwork Reduction Act of 1995 (PRA) and its 
+implementing regulations, this notice announces that FRA is forwarding 
+the Information Collection Request (ICR) summarized below to the Office 
+of Management and Budget (OMB) for review and comment. The ICR 
+describes the information collection and its expected burden. On August 
+8, 2025, FRA published a notice providing a 60-day period for public 
+comment on the ICR. FRA received no comments in response to the notice.
+
+DATES: Interested persons are invited to submit comments on or before 
+December 26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed ICR 
+should be sent within 30 days of publication of this notice to 
+<a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find the particular ICR by selecting 
+``Currently under Review--Open for Public Comments'' or by using the 
+search function.
+
+FOR FURTHER INFORMATION CONTACT: Ms. Arlette Mussington, Information 
+Collection Clearance Officer, at email: <a href="/cdn-cgi/l/email-protection#badbc8d6dfcecedf94d7cfc9c9d3d4ddced5d4faded5ce94ddd5cc"><span class="__cf_email__" data-cfemail="93f2e1fff6e7e7f6bdfee6e0e0fafdf4e7fcfdd3f7fce7bdf4fce5">[email&#160;protected]</span></a> or 
+telephone: (571) 609-1285 or Ms. Joanne Swafford, Information 
+Collection Clearance Officer, at email: <a href="/cdn-cgi/l/email-protection#b5dfdad4dbdbd09bc6c2d4d3d3dac7d1f5d1dac19bd2dac3"><span class="__cf_email__" data-cfemail="ddb7b2bcb3b3b8f3aeaabcbbbbb2afb99db9b2a9f3bab2ab">[email&#160;protected]</span></a> or 
+telephone: (757) 897-9908.
+
+SUPPLEMENTARY INFORMATION: The PRA, 44 U.S.C. 3501-3520, and its 
+implementing regulations, 5 CFR part 1320, require Federal agencies to 
+issue two notices seeking public comment on information collection 
+activities before OMB may approve paperwork packages. See 44 U.S.C. 
+3506, 3507; 5 CFR 1320.8 through 1320.12. On August 8, 2025, FRA 
+published a 60-day notice in the Federal Register soliciting public 
+comment on the ICR for which it is now seeking OMB approval. See 90 FR 
+38585. FRA has received no comments related to the proposed collection 
+of information.
+    Before OMB decides whether to approve this proposed collection of 
+information, it must provide 30 days' notice for public comment. 
+Federal law requires OMB to approve or disapprove paperwork packages 
+between 30 and 60 days after the 30-day notice is published. 44 U.S.C. 
+3507(b) and (c); 5 CFR 1320.12(d); see also 60 FR 44978, 44983 (Aug. 
+29, 1995). The 30-day notice informs the regulated community of their 
+opportunity to file relevant comments and affords the agency adequate 
+time to consider public comments before it renders a decision. 60 FR 
+44983 (Aug. 29, 1995). Therefore, respondents should submit their 
+respective comments to OMB within 30 days of publication to best ensure 
+having their full effect.
+    Comments are invited on the following ICR regarding: (1) whether 
+the information collection activities are necessary for FRA to properly 
+execute its functions, including whether the information will have 
+practical utility; (2) the accuracy of FRA's estimates of the burden of 
+the information collection activities, including the validity of the 
+methodology and assumptions used to determine the estimates; (3) ways 
+for FRA to enhance the quality, utility, and clarity of the information 
+being collected; and (4) ways to minimize the burden of information 
+collection activities on the public, including the use of automated 
+collection techniques or other forms of information technology.
+    The summary below describes the ICR that FRA will submit for OMB 
+clearance as the PRA requires:
+    Title: State Safety Participation Program and Reporting of Remedial 
+Actions.\1\
+---------------------------------------------------------------------------
+
+    \1\ In this 30-day notice, FRA has corrected the title of the 
+information collection document. In the published 60-day notice, 90 
+FR 38585, the title is shown as State Safety Participation 
+Regulations and Reporting of Remedial Actions. FRA has corrected the 
+title in this 30-day notice to reflect the current title in the OMB 
+inventory as State Safety Participation Program and Reporting of 
+Remedial Actions.
+---------------------------------------------------------------------------
+
+    OMB Control Number: 2130-0509.
+    Abstract: Title 49 CFR part 212 requires qualified State inspectors 
+to provide various reports to FRA for monitoring and enforcement 
+purposes concerning State investigative, inspection, and surveillance 
+activities related to railroad compliance with Federal railroad safety 
+laws and regulations. Additionally, under 49 CFR part 209, subpart E, 
+railroads are required to report to FRA actions taken to remedy certain 
+alleged violations of law.
+    Type of Request: Extension without change (with changes in 
+estimates) of a currently approved collection.
+    Affected Public: Businesses.
+    Form(s): FRA F 6180.33/61/67/96/96A/109/110/111/112.
+    Respondent Universe: States and railroads.
+    Frequency of Submission: On occasion.
+    Total Estimated Annual Responses: 23,225.
+    Total Estimated Annual Burden: 9,851 hours.
+    Total Estimated Annual Burden Hour Dollar Cost Equivalent: 
+$871,416.12.
+    FRA informs all interested parties that it may not conduct or 
+sponsor, and a respondent is not required to respond to, a collection 
+of information that does not display a currently valid OMB control 
+number.
+
+(Authority: 44 U.S.C. 3501-3520.)
+
+Christopher S. Van Nostrand,
+Deputy Chief Counsel.
+[FR Doc. 2025-21147 Filed 11-25-25; 8:45 am]
+BILLING CODE 4910-06-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

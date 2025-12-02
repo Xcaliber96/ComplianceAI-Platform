@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54314-54315]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21161]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-OS-0507]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: Cost Assessment and Program Evaluation (CAPE), Department of 
+Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#9fe8f7ecb1f2fcb2fef3fae7b1faecfbb1f2fde7b1fbfbb2fbf0fbb2f6f1f9f0edf2feebf6f0f1b2fcf0f3f3fafcebf6f0f1ecdff2fef6f3b1f2f6f3"><span class="__cf_email__" data-cfemail="52253a217c3f317f333e372a7c3721367c3f302a7c36367f363d367f3b3c343d203f33263b3d3c7f313d3e3e3731263b3d3c21123f333b3e7c3f3b3e">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Software Resource Data 
+Reports; DD Forms 3026-1, 3026-2, 3026-3; OMB Control Number 0704-0636.
+    Type of Request: Extension.
+
+Software Development Report (DD 3026-1)
+
+    Number of Respondents: 12.
+    Responses per Respondent: 12.
+    Annual Responses: 144.
+    Average Burden per Response: 16 hours.
+    Annual Burden Hours: 2,304.
+
+Software Maintenance Report (DD 3026-2)
+
+    Number of Respondents: 11.
+    Responses per Respondent: 14.
+    Annual Responses: 154.
+    Average Burden per Response: 16 hours.
+    Annual Burden Hours: 2,464.
+
+Enterprise Resource Planning (ERP) Report (DD 302603)
+
+    Number of Respondents: 12.
+    Responses per Respondent: 11.
+    Annual Responses: 132.
+    Average Burden per Response: 16 hours.
+    Annual Burden Hours: 2,112.
+
+Total
+
+    Number of Respondents: 35.
+    Annual Responses: 430.
+    Annual Burden Hours: 6,880.
+    Needs and Uses: The intent of the Software Resource Date Reports is 
+to capture software resource and effort data, at the Software Release 
+and Computer Software Configuration Item levels that are significant 
+either for a current program, or when a similar effort may be required 
+for a future program. The collected data is the primary data source 
+utilized when completing cost estimates. Respondents are any weapon 
+system contractor or government entity with contracts,
+
+[[Page 54315]]
+
+subcontracts, or agreements that are required to provide Cost and 
+Software Data Reports based on all anticipated costs that individually 
+or collectively surpass the corresponding dollar thresholds established 
+in DoDI 5000.73. CAPE is statutorily required by Title 10, United 
+Stated Code (U.S.C.) in Section 2334(g), to ``develop policies, 
+procedures, guidance and a collection method to ensure that quality 
+acquisition cost data are collected to facilitate cost estimation and 
+comparison across acquisition programs.'' Section 2334(g) also contains 
+a $100,000,000 threshold statutory requirement for providing cost data 
+from each acquisition program that exceeds this amount.
+    Affected Public: Individuals and households.
+    Frequency: Annually.
+    Respondent's Obligation: Voluntary.
+    DOD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Sephanie. J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21161 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

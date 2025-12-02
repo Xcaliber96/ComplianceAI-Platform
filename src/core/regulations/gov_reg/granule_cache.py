@@ -66,13 +66,13 @@ def refresh_granule_cache():
     for pkg in packages:
         package_id = pkg.get("packageId")
         granules_link = pkg.get("granulesLink")
-
+        FORCE_REFRESH = False
         if not package_id or not granules_link:
             continue
 
         # Avoid downloading duplicates
         existing = load_local_granules(package_id)
-        if existing:
+        if existing and FORCE_REFRESH:
             print(f"[Granules] {package_id}: Already cached ({len(existing)})")
             continue
 

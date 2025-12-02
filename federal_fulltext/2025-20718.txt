@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Page 53065]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20718]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+[OMB Control No. 2900-NEW]
+
+
+Agency Information Collection Activity: Priority Processing 
+Request
+
+AGENCY: Veterans Benefits Administration, Department of Veterans 
+Affairs.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Veterans Benefits Administration (VBA), Department of Veterans 
+Affairs (VA), is announcing an opportunity for public comment on the 
+proposed collection of certain information by the agency. Under the 
+Paperwork Reduction Act (PRA) of 1995, Federal agencies are required to 
+publish notice in the Federal Register concerning each proposed 
+collection of information, including each proposed new collection, and 
+allow 60 days for public comment in response to the notice. DATES: 
+Comments must be received on or before January 23, 2026.
+
+ADDRESSES: Comments must be submitted through <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Program-Specific information: Kendra Mccleave, 202-461-9760, 
+<a href="/cdn-cgi/l/email-protection#a5cec0cbc1d7c48bc8c6c6c9c0c4d3c0e5d3c48bc2cad3"><span class="__cf_email__" data-cfemail="87ece2e9e3f5e6a9eae4e4ebe2e6f1e2c7f1e6a9e0e8f1">[email&#160;protected]</span></a>.
+    VA PRA information: Dorothy Glasgow, 202-461-1084, <a href="/cdn-cgi/l/email-protection#3d6b7c6d6f7c7d4b5c135a524b"><span class="__cf_email__" data-cfemail="d6809786849796a0b7f8b1b9a0">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Under the PRA of 1995, Federal agencies must 
+obtain approval from the Office of Management and Budget (OMB) for each 
+collection of information they conduct or sponsor. This request for 
+comment is being made pursuant to Section 3506(c)(2)(A) of the PRA.
+    With respect to the following collection of information, VBA 
+invites comments on: (1) whether the proposed collection of information 
+is necessary for the proper performance of VBA's functions, including 
+whether the information will have practical utility; (2) the accuracy 
+of VBA's estimate of the burden of the proposed collection of 
+information; (3) ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (4) ways to minimize the burden of 
+the collection of information on respondents, including through the use 
+of automated collection techniques or the use of other forms of 
+information technology.
+    Title: Priority Processing Request (VA Form 20-10207).
+    OMB Control Number: 2900-NEW. <a href="https://www.reginfo.gov/public/do/PRASearch">https://www.reginfo.gov/public/do/PRASearch</a> (Once at this link, you can enter the OMB Control Number to 
+find the historical versions of this Information Collection).
+    Type of Review: New collection.
+    Abstract: VA Form 20-10207 is used by VA to gather the necessary 
+information to determine priority processing of a claim due to special 
+circumstances or status. Without this information, VA would not be able 
+to identify claims for priority processing for those claimants who are 
+in urgent or immediate need due to changed circumstances. VA would also 
+utilize this information collection for reporting purposes and for 
+outreach efforts for those claimants. VA Form 20-10207 was previously 
+under 2900-0877 and due to a program office change, a new control 
+number is requested to be assigned.
+    Affected Public: Individuals or Households.
+    Estimated Annual Burden: 6,380 hours.
+    Estimated Average Burden per Respondent: 7 minutes.
+    Frequency of Response: One time.
+    Estimated Number of Respondents: 54,685 per year.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Lanea Haynes,
+Acting, VA PRA Clearance Officer, (Alt) Office of Enterprise and 
+Integration/Data Governance Analytics, Department of Veterans Affairs.
+[FR Doc. 2025-20718 Filed 11-21-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

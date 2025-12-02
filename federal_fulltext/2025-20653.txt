@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53053-53057]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20653]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+National Highway Traffic Safety Administration
+
+[Docket No. NHTSA-2024-0056]
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget for Review and Approval; Request for 
+Comment; Occupant Anthropometry and Seating
+
+AGENCY: National Highway Traffic Safety Administration (NHTSA), 
+Department of Transportation (DOT).
+
+ACTION: Notice and request for comments on a request for approval of a 
+new information collection.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995 (PRA), 
+this notice announces that the Information Collection Request (ICR) 
+summarized below will be submitted to the Office of Management and 
+Budget (OMB) for review and approval. The ICR describes the nature of 
+the information collection and its expected burden. This document 
+describes a new collection of information for which NHTSA intends to 
+seek OMB approval titled ``Occupant
+    Anthropometry and Seating.'' A Federal Register Notice with a 60-
+day comment period soliciting comments on the following information 
+collection
+
+[[Page 53054]]
+
+was published on December 30, 2024. One comment was received during the 
+comment period. This 30-day notice includes a summary of the comment 
+and NHTSA's response to the comment (feedback has been incorporated 
+into the data collection in response to the comment).
+
+DATES: Comments must be submitted on or before December 24, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection, including suggestions for reducing burden, 
+should be submitted to the Office of Management and Budget at 
+<a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. To find this particular information 
+collection, select ``Currently under Review--Open for Public Comment'' 
+or use the search function.
+
+FOR FURTHER INFORMATION CONTACT: For additional information or access 
+to background documents, contact Elizabeth Lafferty, Office of Vehicle 
+Safety Research, Human Injury Research Division NSR-220, West Building, 
+W46-311, 1200 New Jersey Ave. SE, Washington DC 20590; Email: 
+<a href="/cdn-cgi/l/email-protection#4a0f2623302b282f3e2264262b2c2c2f383e330a2e253e642d253c"><span class="__cf_email__" data-cfemail="41042d283b20232435296f2d2027272433353801252e356f262e37">[email&#160;protected]</span></a>; Phone: 202-366-6222.
+
+SUPPLEMENTARY INFORMATION: Under the PRA (44 U.S.C. 3501 et seq.), a 
+Federal agency must receive approval from the Office of Management and 
+Budget (OMB) before it collects certain information from the public, 
+and a person is not required to respond to a collection of information 
+by a Federal agency unless the collection displays a valid OMB control 
+number. In compliance with these requirements, this notice announces 
+that the following information collection request will be submitted to 
+OMB.
+    Title: Occupant Anthropometry and Seating.
+    OMB Control Number: New.
+    Form Number(s): NHTSA Form 1824, NHTSA Form 1825, NHTSA Form 1826, 
+NHTSA Form 1827, NHTSA Form 1828, and NHTSA Form 1848.
+    Type of Request: New information collection.
+    Type of Review Requested: Regular.
+    Requested Expiration Date of Approval: 3 years from date of 
+approval.
+    Summary of the Collection of Information: NHTSA proposes to collect 
+information from the public as part of a study to update obsolete 
+information on body size and shape, posture, and motion of vehicle 
+occupants. This research will support NHTSA in the development of tools 
+used for occupant protection during crashes, add to the body of 
+knowledge, and inform future agency activities; however, it is not 
+associated with immediate regulatory activities.
+    The designs of anthropomorphic test devices (ATDs, commonly known 
+as crash test dummies) are based on measurements of volunteers sitting 
+in vehicle and laboratory seats. The current generation of ATDs is 
+based on data gathered at University of Michigan Transportation 
+Research Institute (UMTRI) in the 1980s. Since that time, the U.S. 
+population has changed substantially, most notably due to the large 
+increase in body mass. Measurement technologies have also improved 
+dramatically with the development of fast three-dimensional surface 
+measurement systems. Seating configurations have also expanded from the 
+traditional seat posture collected in the 1980s with increased recline 
+angles in modern vehicles. This combination of a population size shift 
+and more variable seat configurations presents a clear need for updated 
+seated anthropometry to be collected with new advanced anthropometry 
+measurement capabilities.
+    The individual data collections, approved by the Institutional 
+Review Board at the University of Michigan, will each be performed 
+once. Study participants will be male and female licensed adult drivers 
+from the general public, and participation will be voluntary with 
+compensation. For an in-lab study, the following information 
+collections include (1) an online screening questionnaire; (2) a phone 
+call to confirm eligibility, interest, and to schedule a time in the 
+lab; and (3) informed consent for the in-lab study and anthropometric 
+measurement. A subset of the in-lab participants will be asked to 
+participate in an in-vehicle study to include (4) a pre-drive 
+questionnaire for the in-vehicle study; (5) informed consent and 
+anthropometric measurements for the in-vehicle study; and (6) a post-
+drive questionnaire for the in-vehicle study.
+    This research study will gather a new database of information on 
+adult body size, shape, posture, and motion to support advancement in 
+these safety applications. This study will add to the body of the 
+knowledge on motor vehicle anthropometry and will support crash safety 
+and occupant protection through the development of human body models 
+(HBMs) and anthropomorphic test devices (ATDs).
+    Description of the Need for the Information and Proposed Use of the 
+Information: Early ATDs, including the Hybrid-III family that was 
+initially designed in the 1970s, were constructed using manually 
+gathered anthropometric data, such as segment lengths and 
+circumferences. Minimal 3D information was available, and seated 
+postures were approximated. In 1980, NHTSA funded a large-scale study 
+at UMTRI to develop anthropometric specifications for a new generation 
+of ATDs. The Anthropometry of Motor Vehicle Occupants (AMVO) study 
+gathered data and developed detailed 3D body shapes for small female, 
+midsize male, and large male occupants, using 5th percentile female, 
+50th percentile male, and 95th percentile male stature and body weight 
+as the target reference values. Drawing packages were developed 
+detailing landmark and joint locations, and physical 3D surface shells 
+were constructed using landmark data and minimal 3D contour 
+information. These data have formed the anthropometric basis for most 
+adult ATDs developed since that time.
+    AMVO had some limitations, however. Due to the limits of the 
+technology available at the time, a small number of participants were 
+measured (25 per size bin were used to create the final 
+specifications), and no 3D surface information was collected. Moreover, 
+the analysis was based on simple averaging per size bins, so no 
+information was provided for other occupant sizes. Additionally, the 
+midsize female was dropped for cost reasons, so the only female data 
+were gathered from very small individuals.
+    Over the past 20 years, HBMs have become an important addition to 
+the biomechanics toolkit. Using the same logic that was applied to 
+selecting body sizes for ATDs, the HBMs have typically been targeted to 
+the same stature and body weight reference values as were used in AMVO. 
+However, unlike the averaging process used in AMVO, most HBMs have been 
+developed using data primarily or entirely from a single individual. A 
+consequence of this approach is that HBM development has not provided 
+meaningful additions to the anthropometric data available to 
+characterize vehicle occupants.
+    In the decades since AMVO, UMTRI has conducted a large number of 
+studies of occupant posture and body shape and has developed 
+advancements in both measurement and analysis methodology. Of 
+particular importance, rather than averaging data to create a 
+representation of a single body size, UMTRI has developed continuous 
+statistical models that can generate accurate specifications for a wide 
+range of sizes and shapes (for examples, see <a href="http://HumanShape.org">http://HumanShape.org</a>). 
+Simultaneously analyzing both landmark locations and 3D body shapes has 
+enabled the development of
+
+[[Page 53055]]
+
+parametric human body modeling, in which HBMs are morphed to represent 
+people with widely varying size and shape.
+    Concurrent with the development of parametric HBMs, crash injury 
+data analyses have highlighted the potential benefits of these new 
+tools. In particular, the field data indicate that female occupants 
+experience higher risks of some injuries in certain types of crashes. 
+Notably, lower-extremity injury risks are markedly higher for female 
+drivers than for male drivers in frontal impacts. Detailed 
+anthropometric and posture data for female drivers could help to 
+elucidate the causes of this difference. Crash injury data also show 
+that individuals with high body mass are at higher risks of some 
+injuries, possibly due to differences in the interaction with the 
+restraint systems. Minimal data are available to describe the seated 
+postures and body shapes of this cohort, which is increasingly 
+important in the U.S.
+    60-Day Notice: A Federal Register notice with a 60-day comment 
+period soliciting public comments on the following information 
+collection was published on December 30, 2024 (89 FR 106741). During 
+the public comment period for the 60-day notice, NHTSA received one 
+comment from the Partnership for Dummy Technology and Biomechanics 
+(PDB).
+    NHTSA appreciates PDB's thoughtful and constructive engagement. PDB 
+``highly appreciates the intension [sic] of NHTSA to update fundamental 
+anthropometric data'' and provided detailed comments regarding (1) the 
+study design, (2) the in-lab study, and (3) the in-vehicle study. NHTSA 
+values the depth and thoroughness of PDB's input and has carefully 
+considered their recommendations.
+    Regarding the study design, PDB emphasized that participant body 
+sizes should represent the overall population and recommended ensuring 
+a sufficient number of participants at characteristic percentiles (5th, 
+50th, and 95th) for males and females. They also recommended 
+considering age alongside anthropometry because age influences seating 
+position. NHTSA agrees with these points and the sample design will 
+reflect selection criteria intended to ensure population representation 
+and inclusion of specific characteristics. In a currently funded 
+effort, UMTRI is reanalyzing data from over 400 seated subjects across 
+varied anthropometries, sexes, and ages. Identified gaps and low sample 
+sizes from these data were used to develop a participant recruitment 
+matrix within a task implementation plan for this ICR. Participants 
+will be 18 years of age and older, with ages distributed across three 
+bins (20-39, 40-59, and 60-80 years). This collection aims to obtain 
+about half the participants in the middle bin to address relatively 
+small numbers of subjects in that age range in earlier studies. Stature 
+will span from below the 5th percentile to above the 95th percentile 
+for adult women and men in the U.S. population (1498 to 1875 mm). 
+Recruitment will use three stature bins with approximately 2x 
+oversampling in the tails to ensure robust statistical power for 
+regression modeling. BMI will be sampled in three bins, with 50% of 
+participants having BMI >30 kg/m2 (roughly 40% of U.S. adults) and 
+about one-sixth with BMI >40. Age, stature, and BMI will be 
+approximately independent, though exact equivalence of age 
+distributions within bins may be constrained by sampling challenges.
+    PDB recommended including second-row seat position measurements 
+alongside driver and front passenger positions. NHTSA concurs that 
+second-row positioning data are important. Although second-row seats 
+are not included among the six mockup seats selected for in-lab data 
+collection in the task implementation plan, the test conditions will 
+incorporate fixed seat back angles typical of second- and third-row 
+seats, including highly reclined conditions. NHTSA believes these test 
+conditions address PDB's intent and satisfies their suggestion.
+    PDB also suggested the in-vehicle study be conducted at a 
+consistent time of day, preferably in the morning, to reduce spine 
+relaxation effects from daily activities. NHTSA appreciates and 
+understands the rationale behind this recommendation; however, due to 
+time constraints and the large sample size required, the study cannot 
+restrict data collection to a specific time of day. NHTSA does not 
+expect this variation to have a significant impact on the data, but 
+time of day can be considered as a covariate in analyses to clearly 
+shed light on effects, if any.
+    In discussion of the laboratory study, PDB highlighted the 
+importance of manual data collection in addition to 3D scans and 
+recommended collecting the same locations measured in the first AMVO 
+study. NHTSA thanks PDB for this practical and helpful guidance and 
+agrees with both recommendations. The study will incorporate 
+comprehensive manual data collection of all locations from the first 
+AMVO study alongside 3D scans. A complete list of measurement 
+requirements is outlined in the task implementation plan with UMTRI and 
+provided in Tables 1 and 2. These tables specify measurements to be 
+gathered from each participant using standard manual anthropometry. 
+Many additional dimensions can be extracted from the 3D scans beyond 
+those listed. NHTSA intends to compare all new measurements from this 
+study to prior AMVO measurements and will use both manual measures and 
+3D scans to obtain comparable data.
+    Table 2 lists the surface landmarks used to define posture and 
+estimate internal joint center locations. All landmarks are measured in 
+the laboratory hardseat, which provides access to both anterior and 
+posterior landmarks; these data are used to create a subject-specific 
+skeletal linkage that informs interpretation of vehicle seating 
+conditions, where posterior landmarks below C7 are generally not 
+accessible. Landmark locations, including points used to quantify belt 
+fit, will be measured in the mockup conditions using the FARO Arm in a 
+comparable manner. NHTSA is confident that the study design and 
+measurement plan will fulfill PDB's request for thorough manual data 
+collection.
+    PDB provided a list of landmarks desired for Human Body Model (HBM) 
+positioning. NHTSA appreciates these recommendations and will ensure 
+the data collected under this ICR to provide sufficient landmark data 
+for positioning and orienting both HBMs and ATDs. Body landmark data 
+from the mockups will be analyzed using methods similar to those in 
+prior UMTRI publications (e.g., Park et al., 2016). First, hardseat 
+data will be used to estimate internal joint center locations and 
+construct a skeletal linkage for each subject. Next, the skeletal 
+linkage and surface landmarks will be used to estimate joint center 
+locations in each mockup condition. Regression analysis will predict 
+landmark locations as functions of subject characteristics (stature, 
+BMI, etc.) and test condition variables (seat height, seat back angle, 
+etc.). The VITUS laser scanner 3D data will be processed following 
+established methods (e.g., Park et al., 2022): props (seats, handholds, 
+etc.) are manually removed from the scan, an automatic surfacing 
+process fills holes to obtain a watertight mesh, and texture data are 
+used to manually digitize landmark locations in Meshlab. A standardized 
+template is fitted to the mesh using UMTRI-developed methods. NHTSA is 
+confident this collection will capture the landmark data discussed by 
+PDB.
+
+[[Page 53056]]
+
+
+
+                Table 1--Manual Anthropometry Measures *
+------------------------------------------------------------------------
+ 
+------------------------------------------------------------------------
+1............  Weight                 12...........  Maximum Hip Breadth
+2............  Stature (without       13...........  Buttock Knee Length
+                shoes)
+2.5..........  Stature (with shoes)   14...........  Buttock-Popliteal
+                                                      Length
+3............  Erect Sitting Height   15...........  Biacromial Breadth
+4............  Eye Height (Sitting)   16...........  Shoulder Breadth
+5............  Acromial Height        17...........  Chest Depth (on
+                (Sitting)                             scapula)
+6............  Knee Height            18...........  Chest Depth (on
+                                                      spine)
+7............  Tragion to Top of      19...........  Bispinous (BiASIS)
+                Head                                  Breadth
+8............  Head Length            20...........  Chest Circumference
+                                                      at Axilla
+9............  Head Breadth           21...........  Waist Circumference
+10...........  Shoulder Elbow Length  22...........  Hip Circumference
+                                                      at Buttocks
+11...........  Elbow-Hand Length      23...........  Upper Thigh
+                                                      Circumference
+------------------------------------------------------------------------
+* See Hotzman et al. (2012) for definitions and measurement methods.
+
+
+                       Table 2--Surface Landmarks
+------------------------------------------------------------------------
+ 
+------------------------------------------------------------------------
+Glabella                              L4Surface
+Ectocanthus (corner eye)              L5Surface
+Center Eye (orbit under pupil)        Acromion
+Tragion                               HumeralEpiCon_Lat
+Vertex                                Wrist_Lat
+Back of Head                          FemoralEpiCon_Lat
+Suprasternale                         Suprapatella
+Substernale                           Infrapatella
+C7Surface                             Malleolus_Lat
+T4Surface                             ASIS_L
+T8Surface                             ASIS_R
+T12Surface                            PSIS_L
+L1Surface                             PSIS_R
+L2Surface                             Toe Tip
+L3Surface                             Heel
+------------------------------------------------------------------------
+
+    PDB recommended measuring belt routing in mockup configurations. 
+NHTSA will incorporate belt routing into the study design and 
+appreciates PDB's emphasis on this point. In the task implementation 
+plan, drivers will be measured in a core set of conditions (middle 
+steering wheel position at three seat heights). A subset of 
+participants will be assigned to a belt matrix in which belt fit is 
+measured across a variety of belt anchorage locations, and another 
+subset will be measured in the remaining package conditions.
+    PDB also recommended collecting reclined postures with seat back 
+angles up to around 45-50 degrees. NHTSA appreciates this 
+recommendation and have included reclined postures up to 45 degrees in 
+the task implementation plan. Posture will be measured using the FARO 
+Arm at three seat back angles in each seat (20, 25, and 30 degrees) and 
+at 35, 40, and 45 degrees for each participant in one randomly assigned 
+seat (so highly reclined postures will be captured for approximately 
+\1/6\ of participants in each seat). For postures reclined >30 degrees, 
+NHTSA will use methods from Reed et al. (2019) to identify each 
+participant's preferred supported head location. While PDB suggested 
+angles up to about 50 degrees, NHTSA believes capturing up to 45 
+degrees provides sufficient coverage for the intended analyses.
+    PDB suggested that landmarks measured during the in-vehicle portion 
+match in-lab landmarks whenever possible. NHTSA agrees and incorporated 
+landmark matching efforts into the implementation plan. Because the ICR 
+will recruit subjects from the in-lab study for the in-vehicle study, 
+UMTRI will have comprehensive anthropometry and an accurate three-
+dimensional, articulated avatar for each driver participant, enabling 
+fitting to vehicle 3D data and accurate whole-body posture estimation. 
+Seated posture, belt fit, and the position of selected vehicle 
+components will be recorded using a FARO Arm coordinate measurement 
+system and the vehicle DAS once participants are comfortably seated. 
+PDB also recommended using the FMVSS 208 procedure to establish a 
+consistent coordinate system. FMVSS 208 specifies the vehicle 
+centerline at the rear bumper as the coordinate system origin; in this 
+study, driver data will be defined in a package coordinate system 
+anchored to the pedals and steering wheel so results are generalizable 
+across vehicles. Seat back kinematics, including seat back angle 
+change, will also be measured. These methods align with SAE and FMVSS 
+practices. The collected seat H-point and vehicle interior dimensions 
+will be sufficient to reproduce the package configuration in simulation 
+or other physical mockups.
+    Finally, PDB asked NHTSA to consider pressure distribution on the 
+seat pan during static in-vehicle measurements. NHTSA appreciates the 
+technical rationale for this suggestion but has determined that adding 
+pressure distribution data collection would increase data collection 
+efforts substantially and would be difficult to generalize because 
+pressure maps depend heavily on seat design. Therefore, NHTSA will not 
+add pressure distribution to this ICR. NHTSA published a 60-day notice 
+on December 30, 2024, that stated NHTSA's intention to submit this ICR 
+to OMB for approval (89 FR 106741).
+    Affected Public: Respondents will be licensed drivers, ages 18+, in 
+the Ann Arbor, MI region, and willing to travel to UMTRI. Study 
+participants will be male and female licensed adult drivers from the 
+general public, and participation will be voluntary with compensation. 
+The screening questionnaire is provided as a Google Form through the 
+University of Michigan's Health Research portal and is completed online 
+by prospective participants. Eligible participants are those whose 
+answers to the Google Form questions are consistent with the inclusion 
+and exclusion criteria.
+    Eligibility requirements include the ability to read and speak 
+English, to drive for two hours continuously, hold a current and 
+unrestricted U.S. driver's license, have at least one year as a 
+licensed driver, drive a car daily for an average of at least 15 
+minutes, and be comfortable driving on the highway and local roads. 
+Exclusion criteria include individuals with musculoskeletal ailments, 
+impeding the ability to walk or sit comfortably, or musculoskeletal 
+deformities such as scoliosis or amputations.
+    Estimated Number of Respondents: 2,000. We estimate that 2,000 
+screening questionnaires will be filled out to obtain the needed number 
+of subjects. The form has 23 questions, including name, address, and 
+time slots available. We estimate that up to 600 individuals will need 
+to be contacted to obtain the needed number of 300 subjects for the lab 
+study. This considers that some people's schedules may not match up 
+with lab openings or they may not show up for their scheduled 
+appointment. A subset of the in-lab study participants will be asked to 
+participate in the in-vehicle study with the targeted 100 participants.
+    Frequency: Once. This is a one-time collection of information with 
+two studies: in-lab and in-vehicle. A subset
+
+[[Page 53057]]
+
+of the in-lab participants will be asked to participate in the in-
+vehicle study. The initial pre-screening time is roughly 5 minutes and 
+can be done at the respondents' convenience using a device of their 
+choosing. The only requirement is an internet connection to access the 
+online pre-screening. Not all who begin this pre-screening will 
+complete the form in its entirety, and not everyone will meet study 
+criteria. Those who meet study criteria could be contacted for an 
+eligibility phone call prior to study enrollment.
+    Number of Responses: 2,000. Estimated Total Annual Burden Hours: 
+The annual estimated time burden to complete the collection of 
+information is 341 hours and an annual opportunity cost of $11,329 over 
+the study period. Note that these figures are slightly less than those 
+posted in the 60-day notice for this information collection. The 60-day 
+notice overestimated the total time per response for the entirety of 
+the in-vehicle study, which is corrected herein. Further, the 60-day 
+notice included a private industry workers' wage adjustment, which has 
+since been deemed unnecessary for this information collection's burden 
+estimates, as participants are engaging on their own time as volunteers 
+for all aspects of this study. Therefore, this monetary adjustment to 
+the opportunity cost per hour has been omitted.
+    Using the University of Michigan's Health Research portal, the 
+research team expects to have 2,000 participants respond to the 
+screening questionnaire in total. Across the three years of the study 
+collection, NHTSA estimates 667 respondents for the screening 
+questionnaire. A complete questionnaire is estimated at 5 minutes. Of 
+the screened individuals, we anticipate that up to 600 total (200 
+annually) will need to be contacted for an eligibility phone call to 
+obtain the needed number of 300 total participants (100 annually) 
+scheduled for the in-lab study. Scheduled participants who do not show 
+up will be replaced from the remaining pool of screened participants to 
+ensure a total of 300 total participants (100 annually) arrive for in-
+lab measurements. After completion of the 2-hour process for informed 
+consented and in-lab data collection, some participants will be asked 
+if they are interested in the in-vehicle study. From the 300 total in-
+lab participants, a total of 100 (34 annually) will be scheduled to 
+return to the lab for the in-vehicle study. The in-vehicle pre-drive 
+and post-drive questionnaires will each take 5 minutes, the informed 
+consent and anthropometric measurements will take 10 minutes, and the 
+vehicle drive itself will take 100 minutes, totaling 2 hours for the 
+entirety of the in-vehicle study.
+    To calculate the opportunity cost associated with the forms and 
+other relevant activities necessary for this collection of new 
+information, NHTSA looked at average hourly earnings for employees 
+across all occupations in the Ann Arbor, MI area. The Bureau of Labor 
+Statistics (BLS) estimates that the average hourly wage for this group 
+is $33.43, thus serving as the opportunity cost per hour. NHTSA 
+therefore estimates the total opportunity cost associated with the 
+1,017 burden hours to be $33,989. Annual burden cost is estimated to be 
+$11,329, and annual burden hours are estimated to be 341. There may be 
+a slight variation in the comparison of total to annual burden over the 
+three years due to rounding. The annual burden figures will be those 
+represented in ROCIS.
+
+                                                                Table 3--Burden Estimates
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                           Number of                                                                       Burden cost
+       NHSTA form No.          Information collection     respondents      Time per        Cost per      Frequency of    Burden hours   (dollars) total/
+                                                         total/annual   response (min)     response        response      total/annual        annual
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1824........................  Online Screening               2,000/667               5           $2.79               1          167/56     $5,572/$1,857
+                               questionnaire.
+1825........................  Eligibility Phone Call..         600/200               5            2.79               1           50/17         1,672/557
+1826........................  Informed Consent, In-Lab         300/100              10            5.57               1           50/17         1,672/557
+2110........................  In-Lab Data Collection..         300/100             110           61.29               1         550/183      18,387/6,129
+1827........................  In-Vehicle Pre-Drive              100/34               5            2.79               1             8/3            279/93
+                               Questionnaire.
+1828........................  Informed Consent, In-             100/34              10            5.57               1            17/6           557/186
+                               Vehicle.
+2111........................  In-Vehicle Data                   100/34             100           55.72               1          167/56       5,572/1,857
+                               Collection.
+1848........................  In-Vehicle Post-Drive             100/34               5            2.79               1             8/3            279/93
+                               Questionnaire.
+                                                       -------------------------------------------------------------------------------------------------
+                              Total Burden/Annual       ..............  ..............  ..............  ..............       1,017/341     33,989/11,329
+                               Burden.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Estimated Total Annual Burden Cost: The total estimated cost to the 
+Government for this one-time information collection is $49,119.15, and 
+the annual estimated cost is $16,373.05.
+    Public Comments Invited: You are asked to comment on any aspects of 
+this information collection, including (a) whether the proposed 
+collection of information is necessary for the proper performance of 
+the functions of the agency, including whether the information will 
+have practical utility; (b) the accuracy of the agency's estimate of 
+the burden of the proposed collection of information, including the 
+validity of the methodology and assumptions used; (c) ways to enhance 
+the quality, utility and clarity of the information to be collected; 
+and (d) ways to minimize the burden of the collection of information on 
+respondents, including the use of appropriate automated, electronic, 
+mechanical, or other technological collection techniques or other forms 
+of information technology, e.g., permitting electronic submission of 
+responses.
+    Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. Chapter 
+35, as amended; 49 CFR 1.49; and DOT Order 1351.29A.
+
+Cem Hatipoglu,
+Associate Administrator, Vehicle Safety Research.
+[FR Doc. 2025-20653 Filed 11-21-25; 8:45 am]
+BILLING CODE 4910-59-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54695-54696]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21320]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-N-0348]
+
+
+Agency Information Collection Activities; Submission for Office 
+of Management and Budget Review; Comment Request; Center for Devices 
+and Radiological Health Appeals Processes
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is announcing that a 
+proposed collection of information has been submitted to the Office of 
+Management and Budget (OMB) for review and clearance under the 
+Paperwork Reduction Act of 1995.
+
+DATES: Submit written comments (including recommendations) on the 
+collection of information by December 29, 2025.
+
+ADDRESSES: To ensure that comments on the information collection are 
+received, OMB recommends that written comments be submitted to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under Review--Open for Public 
+Comments'' or by using the search function. The OMB control number for 
+this information collection is 0910-0738. Also include the FDA docket 
+number found in brackets in the heading of this document.
+
+FOR FURTHER INFORMATION CONTACT: Amber Sanford, Office of Operations, 
+Food and Drug Administration, Three White Flint North, 10A-12M, 11601 
+Landsdown St., North Bethesda, MD 20852, 301-796-8867, 
+<a href="/cdn-cgi/l/email-protection#9bcbc9dac8effafdfddbfdfffab5f3f3e8b5fcf4ed"><span class="__cf_email__" data-cfemail="124240534166737474527476733c7a7a613c757d64">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In compliance with 44 U.S.C. 3507, FDA has 
+submitted the following proposed collection of information to OMB for 
+review and clearance.
+
+Center for Devices and Radiological Health Appeals Processes
+
+OMB Control Number 0910-0738--Revision
+
+    This information collection supports implementation of 
+recommendations found in FDA guidance. As discussed in the document 
+entitled ``Guidance for Industry and Food and Drug Administration 
+Staff; Center for Devices and Radiological Health (CDRH) Appeals 
+Processes'' (March 2022), there
+
+[[Page 54696]]
+
+are various processes by which appeals requests regarding review of 
+decisions or actions by CDRH may be submitted to the Agency. The 
+guidance is available for download from our website at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/center-devices-and-radiological-health-cdrh-appeals-processes">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/center-devices-and-radiological-health-cdrh-appeals-processes</a>. The 
+guidance document provides general format and content recommendations 
+in this regard, discusses applicable regulations with regard to the 
+timing of such submissions, and describes the collection of information 
+not expressly specified under existing regulations such as the 
+submission of the request for review, minor clarifications as part of 
+the request, and supporting information. While CDRH already possesses 
+in the administrative file the information that would form the basis of 
+a decision on a matter under appeal, the submission of information as 
+recommended in the guidance regarding the appeal request itself, as 
+well as data and information relied on by the requestor in the appeal, 
+will help facilitate timely resolution of the decision under review. We 
+are accounting for burden respondents may incur as a result of these 
+Agency recommendations in this collection request. Additional 
+information about the CDRH appeals process is described in the 
+companion guidance entitled ``Center for Devices and Radiological 
+Health (CDRH) Appeals Processes: Questions and Answers About 517A--
+Guidance for Industry and Food and Drug Administration Staff'' (March 
+2020), also available for download from our website at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/center-devices-and-radiological-health-cdrh-appeals-processes">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/center-devices-and-radiological-health-cdrh-appeals-processes</a>-
+questions-and-answers-about-517a.
+    In the Federal Register of July 3, 2025 (90 FR 29563), FDA 
+published a 60-day notice requesting public comment on the proposed 
+collection of information. No comments were received.
+    FDA estimates the burden of this collection of information as 
+follows:
+
+                                                     Table 1--Estimated Annual Reporting Burden \1\
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                         Number of
+                              Activity                                  Number of      responses per     Total annual    Average burden    Total hours
+                                                                       respondents       respondent       responses       per response
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CDRH Appeals Processes.............................................              75                1               75                8              600
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of information.
+
+    Our estimated burden for the information collection reflects an 
+overall increase of 320 hours and a corresponding increase of 40 
+responses. We attribute this adjustment to an increase in the number of 
+submissions we received over the last few years. A review of prior 
+renewals revealed that additional information about the CDRH appeals 
+process is described in the companion guidance entitled ``Center for 
+Devices and Radiological Health (CDRH) Appeals Processes: Questions and 
+Answers About 517A--Guidance for Industry and Food and Drug 
+Administration Staff'' (March 2020) was omitted in the last approval 
+cycle. This current revision adds this missing guidance to provide 
+clarity and ensure completeness. No other changes affect the scope or 
+burden of this information collection.
+
+Brian Fahey,
+Associate Commissioner for Legislation.
+[FR Doc. 2025-21320 Filed 11-26-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

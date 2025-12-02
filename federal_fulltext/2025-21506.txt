@@ -1,0 +1,1914 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54619-54633]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21506]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+National Highway Traffic Safety Administration
+
+49 CFR Parts 563 and 585
+
+[Docket No. NHTSA-2025-0050]
+RIN 2127-AM78
+
+
+Event Data Recorders
+
+AGENCY: National Highway Traffic Safety Administration (NHTSA), 
+Department of Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM); response to petitions for 
+reconsideration.
+
+-----------------------------------------------------------------------
+
+SUMMARY: NHTSA published a final rule on December 18, 2024, in response 
+to a mandate of the Fixing America's Surface Transportation Act (FAST 
+Act) to establish the appropriate recording period in NHTSA's Event 
+Data Recorder (EDR) regulation (49 CFR part 563). The final rule 
+amended the pre-crash data capture requirements of EDRs by increasing 
+the recording duration and sample rate from 5 seconds at 2 Hz to 20 
+seconds at 10 Hz. The agency received three petitions for 
+reconsideration from the Alliance of Automotive Innovation, the EDR 
+Committee of SAE International, and FCA US LLC (a subsidiary of 
+Stellantis N.V.) in response to the final rule. NHTSA is proposing to 
+delay the compliance date from September 1, 2027, to September 1, 2028, 
+and implement a phase-in period for EDRs to meet the new requirements.
+
+DATES: Comments must be received by December 29, 2025. In compliance 
+with the Paperwork Reduction Act, NHTSA is also seeking comment on a 
+reinstatement with modification to a previously approved information 
+collection. For additional information, see the Paperwork Reduction Act 
+section under the Rulemaking Analyses and Notices section below. All 
+comments relating to the information collection requirements should be 
+submitted to NHTSA and to the Office of Management and Budget (OMB) at 
+the address listed in the ADDRESSES section on or before December 29, 
+2025.
+    Proposed Compliance Dates: NHTSA proposes delaying the compliance 
+date and adopting a 4-year phase-in period to comply with the 
+requirements in 49 CFR part 563 as amended by the final rule published 
+on December 18, 2024, final rule, ``Event Data Recorders.'' The 
+proposal would require that 25 percent of a manufacturer's applicable 
+vehicles produced from September 1, 2028, to August 31, 2029, comply 
+with Part 563, followed by 50 percent from September 1, 2029, to August 
+31, 2030, 75 percent from September 1, 2030, to August 31, 2031, and 
+100 percent on and after September 1, 2031. NHTSA also proposes that 
+vehicles manufactured in two or more stages or that are altered are not 
+required to comply with the rule until on or after September 1, 2031. 
+Small-volume and limited-line manufacturers would be required to comply 
+beginning on September 1, 2032. The proposal would permit voluntary 
+early compliance.
+
+ADDRESSES: You may submit comments to the docket number identified in 
+the heading of this document by any of the following methods:
+    <bullet> Federal eRulemaking Portal: Go to <a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the online instructions for submitting 
+comments.
+    <bullet> Mail: Docket Management Facility, M-30, U.S. Department of 
+Transportation, West Building, Ground Floor, Rm. W12-140, 1200 New 
+Jersey Avenue SE, Washington, DC 20590.
+    <bullet> Hand Delivery or Courier: West Building, Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590 between 9 
+a.m. and 5 p.m. Eastern Time, Monday through Friday, except Federal 
+holidays. To be sure someone is there to help you, please call 202-366-
+9332 before coming.
+    <bullet> Fax: 202-493-2251.
+    Regardless of how you submit your comments, please mention the 
+docket number of this document.
+    Comments on the proposed information collection requirements should 
+be submitted to: Office of Management and Budget at <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. To find this particular information collection, 
+select ``Currently under Review--Open for Public Comment'' or use the 
+search function. It is requested that comments sent to the OMB also be 
+sent to the NHTSA rulemaking docket identified in the heading of this 
+document.
+    Instructions: For detailed instructions on submitting comments and 
+additional information on the rulemaking process, see the Public 
+Participation heading of the Supplementary Information section of this 
+document. Note that all comments received will be posted without change 
+to <a href="http://www.regulations.gov">http://www.regulations.gov</a>, including any personal information 
+provided.
+    Docket: For access to the docket to read background documents or 
+comments received, go to <a href="http://www.regulations.gov">www.regulations.gov</a>, or the street address 
+listed above. Follow the online instructions for accessing the dockets.
+    Confidential Business Information: If you claim that any of the 
+information in your comment (including any additional documents or 
+attachments) constitutes confidential business information within the 
+meaning of 5 U.S.C. 552(b)(4) or is protected from disclosure pursuant 
+to 18 U.S.C. 1905, please see the detailed instructions given under the 
+Public Participation heading of the Supplementary Information section 
+of this document.
+    Privacy Act: Please see the Privacy Act heading under the 
+Regulatory Analyses section of this document.
+
+FOR FURTHER INFORMATION CONTACT: For technical issues, you may contact 
+Joshua McNeil, Office of Crashworthiness Standards 
+(<a href="/cdn-cgi/l/email-protection#dcb6b3afb4a9bdf2b1bfb2b9b5b09cb8b3a8f2bbb3aa"><span class="__cf_email__" data-cfemail="1a707569726f7b347779747f73765a7e756e347d756c">[email&#160;protected]</span></a>). For legal issues, you may contact Eli Wachtel, 
+Office of the Chief Counsel (<a href="/cdn-cgi/l/email-protection#d0b5bcb9fea7b1b3b8a4b5bc90b4bfa4feb7bfa6"><span class="__cf_email__" data-cfemail="ea8f8683c49d8b89829e8f86aa8e859ec48d859c">[email&#160;protected]</span></a>). You can reach these 
+officials by phone at 202-366-1810. Address: National Highway Traffic 
+Safety Administration, U.S. Department of Transportation, 1200 New 
+Jersey Avenue SE, Washington, DC 20590.
+
+SUPPLEMENTARY INFORMATION: 
+
+Table of Contents
+
+I. Executive Summary
+II. Background
+    A. Event Data Recorders and Part 563
+    B. Rulemaking Actions
+III. Summary of Petitions for Reconsideration
+IV. Discussion and Analysis
+    A. Lead Time and Phase-In Schedule
+    B. Cost Estimates
+    C. Basis for December 2024 Final Rule and Benefits
+    D. Industry Standards
+    E. CDR Development
+V. Rulemaking Analyses and Notices
+
+I. Executive Summary
+
+    In this notice of proposed rulemaking (NPRM), NHTSA responds to 
+petitions for reconsideration of a final rule published December 18, 
+2024, that amended the data capture requirements
+
+[[Page 54620]]
+
+of event data recorders (EDRs) to specify a 20-second recording 
+duration and a 10 Hz sample rate.\1\ The primary purpose of an EDR is 
+to record technical information for a brief period before, during, and 
+after a collision, aiding in post-crash analysis and reconstruction. 
+The data recorded by the EDR provides a snapshot of the vehicle 
+dynamics that can aid crash investigators in assessing the performance 
+of specific safety equipment, including air bag deployment strategies, 
+air bag operation, and event severity. This information can also help 
+NHTSA and others identify potential opportunities for safety 
+improvements in current and future vehicles and implement more 
+effective safety regulations. Manufacturers are not required to install 
+EDRs in their vehicles. However, EDRs that are voluntarily installed 
+must meet the requirements NHTSA has established in 49 CFR part 563 
+(Part 563).
+---------------------------------------------------------------------------
+
+    \1\ 89 FR 102810 (December 18, 2024).
+---------------------------------------------------------------------------
+
+    NHTSA received three petitions for reconsideration of the December 
+2024 final rule from the Alliance of Automotive Innovation (Auto 
+Innovators),\2\ the EDR Committee of SAE International (SAE),\3\ and 
+FCA U.S. LLC (FCA), a subsidiary of Stellantis N.V.\4\ NHTSA is 
+granting the petitions for reconsideration in part and proposing to 
+adopt the compliance timeline requested by both SAE and Auto Innovators 
+in their respective petitions. This modified timeline would provide 
+manufacturers with an extended lead time and a phase-in to allow them 
+to integrate the necessary EDR and Airbag Control Module (ACM) \5\ 
+architecture changes within their current model development cycles 
+without disrupting existing product plans. The agency's proposal 
+balances the need for enhanced crash data, as mandated by the FAST Act, 
+with practical industry constraints to ensure these safety advancements 
+can be implemented effectively across the entire vehicle fleet. 
+However, NHTSA is not proposing to adjust the recording duration and 
+sample rate requirements for EDRs as finalized in the December 2024 
+final rule. These technical specifications represent enhancements to 
+vehicle crash data collection capabilities that will support more 
+comprehensive crash investigations. NHTSA is deferring a final decision 
+on reconsideration until after review of comments received in response 
+to this NPRM.
+---------------------------------------------------------------------------
+
+    \2\ NHTSA-2024-0084-0005.
+    \3\ NHTSA-2024-0084-0004.
+    \4\ NHTSA-2024-0084-0003.
+    \5\ Manufacturers have different names for this module including 
+the Airbag Control Unit (ACU), Sensing Diagnostic Module (SDM), 
+Restraints Control Module (RCM), Powertrain Control Module (PCM), 
+Supplemental Restraint System (SRS), and the like. In this document, 
+ACU and ACM may be used interchangeably as both terms were presented 
+in the petitions for reconsideration.
+---------------------------------------------------------------------------
+
+    NHTSA is proposing to extend the lead time for initial compliance 
+with the requirements of the December 18, 2024, rule by one year from 
+September 1, 2027, to September 1, 2028. In addition, NHTSA proposes 
+adding a phase-in period that would require 25 percent of a 
+manufacturer's fleet equipped with EDRs to be compliant with the 
+requirements of the final rule beginning in the first year of 
+compliance, and an additional 25 percent each year after that, until 
+the fleet is fully compliant in the fourth year. This matches the lead 
+time and phase-in period suggested in the petitions received from Auto 
+Innovators and SAE. We seek comment on all aspects of this proposal.
+
+II. Background
+
+A. Event Data Recorders and Part 563
+
+    NHTSA established Part 563 on August 28, 2006, setting forth 
+requirements for the accuracy, collection, storage, survivability, and 
+retrievability of data in vehicles equipped with EDRs. NHTSA does not 
+mandate EDRs on vehicles, but, if vehicles are equipped with EDRs, the 
+EDRs must meet specific data capture requirements as outlined in Tables 
+I-III of Part 563. Table I lists 15 data elements all EDRs subject to 
+Part 563 are required to record, along with the recording interval 
+(duration) and data sample rate. Table II lists optional data elements 
+that EDRs are not required to capture, but if recorded, are subject to 
+the recording interval (duration) and sample rate for each listed data 
+element in Table II.\6\ All data elements in Tables I and II must be 
+reported according to the range, accuracy, and resolution in Table III 
+of Part 563. Since Part 563 became fully effective on September 1, 
+2012, the adoption of EDRs has been nearly universal. NHTSA's internal 
+analysis estimates 99.5 percent of model year 2021 passenger cars and 
+other vehicles with a gross vehicle weight rating (GVWR) of 3,855 
+kilograms (kg) (8,500 pounds) or less are equipped with EDRs that 
+comply with Part 563.
+---------------------------------------------------------------------------
+
+    \6\ Two data elements in Table II are listed as ``if equipped,'' 
+meaning if a vehicle has the specified equipment, the specified 
+information must be recorded.
+---------------------------------------------------------------------------
+
+    EDRs are often integrated into a vehicle's ACM, the electronic 
+system used to determine the deployment timing for air bags. EDRs 
+record data related to restraints and deployment internal to the ACM, 
+often at or just after a triggering event, referred to as crash data. 
+EDRs also record data from other existing vehicle sensors such as wheel 
+speed or accelerator pedal position that is transferred from the 
+vehicle's other onboard computers (electronic control units or ECUs) to 
+the ACM via controller area network (CAN) or similar communication. The 
+EDR temporarily stores this pre-crash data in a buffer. When a 
+triggering event occurs, pre-crash and crash data are stored in non-
+volatile memory, so it survives even if the vehicle battery is damaged 
+or disconnected in the crash. This data can include vehicle speed, 
+throttle position, brake application, steering angle, seatbelt use, and 
+air bag deployment timing. If a vehicle is equipped with an EDR, it 
+must contain at a minimum the data outlined in Table I of Part 563, but 
+manufacturers can add additional data elements at their discretion. The 
+required pre-crash data elements in Table I include: (1) speed, vehicle 
+indicated; (2) engine throttle, percent full (or accelerator pedal, 
+percent full); and (3) service brake, on/off. The storage size of this 
+data is considered small, often just kilobytes, because the EDR only 
+stores a short interval of data around the time of a triggering event.
+
+B. Rulemaking Actions
+
+    On June 22, 2022, pursuant to section 24303 of the Fixing America's 
+Surface Transportation Act (FAST Act), Public Law 114-94 (December 4, 
+2015), NHTSA issued an NPRM to amend Part 563.\7\ The NPRM relied on 
+the findings of an EDR Duration Study \8\ required by the FAST Act and 
+information gathered from NHTSA's defects investigation experience 
+which indicated that EDR data can be used to assess whether a vehicle 
+operated properly at the time of an event, or to help detect 
+undesirable operations. The June 2022 NPRM proposed extending the 
+recording interval and data sample rate of pre-crash data elements 
+under Part 563 from 5 seconds at 2 Hz to 20 seconds at 10 Hz (i.e., an 
+increase from 2 samples per second to 10 samples per second).
+---------------------------------------------------------------------------
+
+    \7\ 87 FR 37289 (June 22, 2022).
+    \8\ Event Data Recorder Duration Study [Appendix to a Report to 
+Congress. Report No. DOT HS 813 082B], 2022, <a href="https://doi.org/10.21949/1530244">https://doi.org/10.21949/1530244</a>.
+---------------------------------------------------------------------------
+
+    NHTSA explained in the June 2022 NPRM that extending the recording 
+duration from 5 to 20 seconds would help capture critical data on the 
+initiation of pre-crash actions and maneuvers for most crashes. The 
+June 2022 NPRM acknowledged the proposed changes could result in 
+additional costs, as more memory would be required to store the 
+increased amount of pre-crash data. However, the agency explained the
+
+[[Page 54621]]
+
+additional memory could be incorporated into the existing or planned 
+memory design in vehicles, based on the relatively small amount of 
+memory necessary to record the pre-crash data for 20 seconds at 10 
+Hz.\9\ NHTSA proposed an effective date of the first September 1 one 
+year after the publication of the final rule, noting that a one-year 
+lead time was appropriate because increasing the required pre-crash 
+data would not require any additional hardware or a substantial 
+redesign of either the EDR or the vehicle and would likely require only 
+minimal software changes.
+---------------------------------------------------------------------------
+
+    \9\ NHTSA estimated that an increase in pre-crash recording 
+duration from 5 seconds to 20 seconds with an increase in recording 
+frequency from 2 Hz to 10 Hz would require 1.33 Kb of additional 
+memory for one event.
+---------------------------------------------------------------------------
+
+    After reviewing comments submitted in response to the June 2022 
+NPRM, NHTSA published a final rule on December 18, 2024, that increased 
+the pre-crash recording duration and sample rate requirements of the 
+seven pre-crash data elements in Part 563 from 5 seconds to 20 seconds, 
+as proposed.\10\ Per the statutory mandate of the FAST Act, the 
+December 2024 final rule aimed to establish the appropriate period for 
+EDRs to capture and record vehicle-related data to provide sufficient 
+information to investigate the cause of motor vehicle crashes.
+---------------------------------------------------------------------------
+
+    \10\ Three data elements are included in Table I of part 563 as 
+mandatory elements to be recorded if an EDR is equipped. Four data 
+elements are included in Table II of part 563 as having to meet 
+certain requirements if they are recorded by the EDR.
+---------------------------------------------------------------------------
+
+    NHTSA explained in the December 2024 final rule that the increased 
+recording duration will provide more details on actions taken prior to 
+crashes. Specifically, vehicle actions such as running a stop sign or 
+red light could be captured in full and included in crash 
+reconstruction when supplemented with roadway and traffic control 
+information. The increased recording duration could also help capture 
+any corrective maneuvers taken by a vehicle prior to an initial road 
+departure or braking and acceleration actions taken in the approach 
+stage before traversing large intersections. NHTSA explained that the 
+increased sample rate will help clarify the interpretation of pre-crash 
+data, including braking and steering actions taken by the vehicle, 
+especially in situations where an action occurs just prior to impact 
+(between 0.5 seconds prior to impact and the time of impact). The 
+agency also noted that this could both help reduce potential 
+uncertainty related to the relative timing of recorded data elements 
+and assist with the identification of potential pedal misapplication. 
+The compliance date set by NHTSA for the December 2024 final rule was 
+September 1, 2027, for vehicles equipped with an EDR. Small-volume or 
+limited-line manufacturers were given until September 1, 2029, to 
+comply, and altered or multi-stage manufacturers were given until 
+September 1, 2030, to comply.
+
+III. Summary of Petitions for Reconsideration
+
+    NHTSA regulations allow any interested person to petition the 
+Administrator for reconsideration of a rule. Under NHTSA's regulations, 
+petitions for reconsideration must provide an explanation why 
+compliance with the rule is not practicable, is unreasonable, or is not 
+in the public interest. In addition, petitions must be received within 
+45 days of the publication of the final rule. The Administrator may 
+consolidate petitions relating to the same rule. The Administrator may 
+issue a final decision on reconsideration without further proceedings 
+or may provide opportunity for comment.\11\
+---------------------------------------------------------------------------
+
+    \11\ 49 CFR 553.35, 553.37.
+---------------------------------------------------------------------------
+
+    The agency received three petitions for reconsideration in response 
+to the December 2024 final rule from Auto Innovators, SAE, and FCA.\12\ 
+In its petition, Auto Innovators stated that the changes to the pre-
+crash recording period and sample rate lack sufficient evidence of 
+safety benefits and impose significant implementation burdens. The 
+petition from Auto Innovators raised three main concerns. First, the 
+petition stated that NHTSA's reliance on the EDR Duration Study in the 
+December 2024 final rule without fully addressing comments to the June 
+2022 NPRM was inadequate.\13\ Second, the petition claimed that the 
+two-year lead time in the final rule (compliance date of September 1, 
+2027) underestimated the complexity of changing the hardware and 
+software for EDRs. The petition disputed NHTSA's claim that many EDRs 
+can meet the new requirements with minor changes, citing needs for 
+increased memory, energy, and redesigned components, which could strain 
+supply chains and vehicle production cycles. Third, Auto Innovators 
+stated that NHTSA's analysis in the December 2024 final rule 
+oversimplified the costs of compliance by focusing on component-level 
+upgrades (e.g., capacitors, memory) and did not adequately consider 
+broader redesign, validation, and recertification expenses for existing 
+and late-stage development vehicles. The petition stated that capacitor 
+size estimates differed by a factor of approximately 1,000 and that any 
+changes to the number of capacitors could impact the vehicle 
+architecture or onboard computers. Regarding crash data retrieval (CDR) 
+tools, Part 563 mandates that manufacturers ensure commercially 
+available tools for EDR data access and retrieval within 90 days of a 
+vehicle's first sale if the vehicle is equipped with an EDR. 49 CFR 
+563.12. Auto Innovators highlighted the unaddressed cost, complexity, 
+and lead time for updating CDR tools for all manufacturers within the 
+90-day window, especially without a phase-in period.
+---------------------------------------------------------------------------
+
+    \12\ NHTSA-2024-0084-0005 (Auto Innovators), NHTSA-2024-0084-
+0004 (SAE), and NHTSA-2024-0084-0003 (FCA).
+    \13\ Auto Innovators and SAE in response to the June 2022 NPRM 
+critiqued aspects of the EDR Duration Study, including the model 
+year of the vehicles, the small set of data elements, and the basis 
+for concluding that 20 seconds of pre-crash data enhances crash 
+analysis beyond the previous requirement of 5 seconds.
+---------------------------------------------------------------------------
+
+    Auto Innovators sought a revised rule that balances safety goals 
+with practical implementation to maintain the current level of EDR 
+implementation. The petitioner suggested a three-year lead time with a 
+four-year phase-in (25/50/75/100 percent). NHTSA understands this 
+suggestion to mean the first September 1 that is three years from the 
+publication of the December 2024 final rule. Auto Innovators requested 
+that NHTSA reassess the feasibility and benefits of the December 2024 
+final rule and conduct a more thorough cost-benefit analysis with 
+industry input. It also urged alignment with international 
+standards.\14\
+---------------------------------------------------------------------------
+
+    \14\ UN ECE No. 160 maintains the 5 seconds/2 Hz minimum 
+requirements for pre-crash recorded data elements.
+---------------------------------------------------------------------------
+
+    SAE stated that the December 2024 final rule is impractical, 
+unreasonable, and not in the public interest. SAE noted that it 
+advocates for the use of EDRs as tools for crash reconstruction, not 
+driver behavior monitoring devices, and stated that the prior 
+requirements (5 seconds at 2 Hz) are sufficient. SAE stated that 20 
+seconds of pre-crash data captures speculative actions unrelated to 
+crash causation, posing risks of privacy violations and misleading 
+reconstructions without crash-site evidence. SAE disputed NHTSA's 
+reliance on the EDR Duration Study, asserting that no evidence supports 
+the benefit of longer data capture durations. Regarding CDR tools, 
+while most manufacturers use Bosch CDR products,\15\ SAE stated that 
+due to the
+
+[[Page 54622]]
+
+complicated connection and interface requirements for each 
+manufacturer, Bosch would have to develop new software and possibly all 
+new interfaces and software to read EDR data. SAE asserted this 
+development process will be further complicated by longer imaging times 
+for each device due to the increased amount of EDR data.\16\
+---------------------------------------------------------------------------
+
+    \15\ In comments on the June 2022 NPRM, Bosch suggested 
+exempting older, soon-to-be discontinued models from the amendments, 
+arguing that capturing new vehicle technologies is more beneficial 
+than extending recording duration. While supporting a sample rate 
+increase to 10 Hz for better capture events such as braking, 
+steering, and lane change maneuvers, Bosch noted that even this 
+change alone would require software and hardware modifications.
+    \16\ SAE notes there are currently 22 manufacturers and 55 
+brands supported worldwide by the tool, and these changes would 
+require a substantial workload. SAE mentions that other EDR data 
+collection tool suppliers (e.g., GIT) would be negatively impacted.
+---------------------------------------------------------------------------
+
+    SAE also stated that a two-year timeline is inadequate and would 
+require manufacturers to implement extensive hardware and software 
+updates and perform rigorous testing and validation, and could prompt 
+manufacturers to disable EDRs, thus undermining safety goals. SAE 
+recommended retaining the previous recording requirements or adopting a 
+phase-in and hosting a workshop to assess manufacturer needs if the new 
+recording requirements are maintained. SAE also questioned NHTSA's cost 
+justification process under the Office of Management and Budget (OMB) 
+guidelines, requesting related documentation and cited the cost 
+estimates provided by Auto Innovators in response to the June 2022 
+NPRM.\17\ SAE recommended that NHTSA reconsider the final rule, citing 
+minimal societal benefit, privacy risks, and industry burdens. SAE also 
+requested a three-year lead time with a four-year phase-in (25/50/75/
+100 percent).
+---------------------------------------------------------------------------
+
+    \17\ Auto Innovators estimated the cost burden for the initial 
+year would be $231.36 million. That estimate is $8.4 million per 
+manufacturer (for 17 manufacturers) for development and testing plus 
+the incremental EDR module cost ($5.40) times the number of vehicles 
+fitted in that year.
+---------------------------------------------------------------------------
+
+    FCA's petition stated that it supports the goal of extending the 
+EDR capture and recording period but that the two-year lead time is 
+impractical to implement. FCA explained that the design changes 
+necessary to update their EDRs do not align with existing product 
+plans, necessitating costly, expedited investments. FCA asserted that a 
+more gradual timeline would reduce costs significantly, potentially to 
+zero, by aligning with standard industry product lifecycles. FCA 
+suggested a 4-year phase-in as follows: September 1, 2027: 25 percent 
+compliance; September 1, 2028: 50 percent compliance; September 1, 
+2029: 75 percent compliance; September 1, 2030: 100 percent compliance. 
+FCA stated that this timeline would allow current vehicle models to be 
+phased out under existing rules while new models adopt the updated 
+standards, enabling cost-effective validation through crash tests. FCA 
+stated that removing EDR functionality due to timeline pressures would 
+not align with its safety and transparency goals as it remains 
+committed to maintaining EDR technology. FCA emphasized that EDRs aid 
+post-crash analysis rather than directly saving lives.
+
+IV. Discussion and Analysis
+
+    NHTSA is proposing to grant the petitions in part by extending the 
+lead time and implementing a phase-in schedule to align the changes 
+made to EDRs more closely with the production life cycles of vehicles. 
+The added lead time and phase-in period aims to ease the financial 
+burden associated with the testing and development stages necessary to 
+validate the EDR functions as intended and not compromise performance 
+of the air bag deployment systems. The three petitions expressed 
+concerns with the following general areas of the final rule: lead time, 
+costs and benefits, estimate of hardware and software changes, basis 
+for recording duration, industry standards, and CDR development. The 
+sections below examine each topic in turn, discussing the petitions and 
+explaining the agency's response.
+
+A. Lead Time and Phase-In Schedule
+
+Lead Time
+    Auto Innovators, SAE, and FCA stated that the final rule's 
+compliance date (September 1, 2027) is impractical, forcing a redesign 
+of current EDRs and electrical systems across all vehicle models. They 
+recommended a phase-in schedule: Auto Innovators and SAE suggested an 
+additional year of lead time (a total of three years of lead time) 
+followed by a four-year phase-in (25/50/75/100 percent), while FCA 
+suggested a four-year phase-in (25/50/75/100 percent) starting from the 
+rule's compliance date (a total of two years of lead time).\18\
+---------------------------------------------------------------------------
+
+    \18\ The final rule required all vehicles equipped with an EDR 
+to meet the new requirements beginning two years following the first 
+September 1 after publication. Because the final rule was published 
+in December 2024 the compliance date was set as September 1, 2027.
+---------------------------------------------------------------------------
+
+    NHTSA has tentatively determined that the implementation timeline 
+for the December 2024 final rule may create unnecessary redesign and 
+validation costs, especially with regards to late-stage design and in-
+market vehicles, and may risk some such vehicles no longer being 
+equipped with EDRs. Therefore, the agency is proposing to amend Part 
+563 by extending the lead time by one year and adding the phase-in 
+period suggested by Auto Innovators and SAE in their petitions for 
+reconsideration. This option is being proposed in part because, based 
+on the cost estimates below, the extra year of lead time compared to 
+the schedule suggested by FCA would reduce costs further. This option 
+is also being proposed to lower the risk that NHTSA and a wide range of 
+stakeholders could lose access to valuable EDR data. Since Part 563 is 
+an ``if equipped'' standard, manufacturers retain discretion over 
+whether to install EDRs in vehicles, provided any EDRs that are 
+installed on light vehicles required to have frontal air bags comply 
+with the regulation's requirements. If some manufacturers determine 
+that costs or technical issues involved in bringing certain models into 
+compliance with the requirements in the December 2024 final rule 
+outweigh the benefits of including EDRs, they may discontinue EDR 
+installation.
+    NHTSA's December 2024 final rule set an effective date of September 
+1, 2027. The approximately two years and eight months provided more 
+implementation flexibility than the June 2022 NPRM's proposed one-year 
+lead time. This decision was partially based on manufacturer feedback 
+suggesting some EDRs already had the memory, energy, and processing 
+power for capturing 20 seconds of pre-crash data at 10 Hz. NHTSA did 
+acknowledge that even EDRs with the capability to record 20 seconds of 
+pre-crash data would require testing and validation to ensure 
+compliance and to prevent interference with air bag timing. However, 
+NHTSA admitted that it lacked the data to estimate how many EDRs in the 
+current vehicle fleet possess the necessary hardware for the new 
+requirements, given adequate time for software changes and system 
+validation.
+    The agency acknowledges that manufacturers may have insufficient 
+time to adopt in full the new requirements which could force limiting 
+some of their EDR functionality. As highlighted in the petitions, the 
+development cycle and installation of EDRs can span three to four 
+years, and manufacturers may have already finalized EDRs for model 
+years 2026 through 2030, making immediate changes costly.
+    Therefore, to lower the risk that NHTSA and a wide range of 
+stakeholders could lose access to valuable EDR data due to burdensome 
+cost and redesign constraints imposed
+
+[[Page 54623]]
+
+by the December 2024 final rule's original timeline, NHTSA proposes to 
+extend the lead time and add a phase-in schedule for vehicles equipped 
+with EDRs to meet the pre-crash recording requirements. The agency did 
+not intend for manufacturers to remove EDR functionality and did not 
+suggest manufacturers remove EDRs to meet the requirements in the 
+December 2024 final rule. NHTSA anticipates that a phase-in schedule 
+would allow manufacturers to implement the necessary EDR and ACM 
+architecture changes in existing model development cycles. This 
+approach also ensures the agency's continued collection of valuable 
+data from vehicles with EDRs that do not yet meet the new requirements.
+    The phase-in schedule, excluding small volume and multi-stage 
+manufacturers, would be as follows for vehicles equipped with EDRs:
+    <bullet> 25 percent of the vehicles manufactured on or after 
+September 1, 2028, and before September 1, 2029.
+    <bullet> 50 percent of the vehicles manufactured on or after 
+September 1, 2029, and before September 1, 2030.
+    <bullet> 75 percent of the vehicles manufactured on or after 
+September 1, 2030, and before September 1, 2031.
+    <bullet> 100 percent of the vehicles manufactured on or after 
+September 1, 2031.
+    Small-volume manufacturers and multi-stage manufacturers would not 
+be subject to the phase-in. Small-volume manufacturers would have an 
+additional year to comply, and multi-stage manufacturers and alterers 
+would have two additional years. As proposed, the requirements would 
+apply beginning September 1, 2032, to small-volume manufacturers or 
+limited-line manufacturers and September 1, 2033, for vehicles 
+manufactured by manufacturers producing altered vehicles or vehicles in 
+two or more stages.
+Cost Savings Associated With This Proposed Rule
+    In developing this response to the petitions, NHTSA analyzed 
+potential cost savings from different lead time extensions and phase-in 
+schedules. Table 1 summarizes societal cost saving based on a three-
+year phase-in with a one-year lead time extension. The proposed lead 
+time and phase-in (one-year extension followed by 25/50/75/100 percent 
+phase-in) means the first model year (MY) impacted by the final rule 
+would apply to consumers purchasing new MY2029 vehicles. The phase-in 
+would begin on September 1, 2028, with 25 percent compliance of 
+vehicles between September 1, 2028, and August 31, 2029, increasing to 
+50 percent and 75 percent in the following years, and 100 percent after 
+August 31, 2031. This phase-in is projected to save $9.95 to $25.14 
+million in 2028, $6.63 to $16.76 million in 2029, and $3.32 to $8.38 
+million in 2030. The lead time extension itself is projected to save an 
+additional $13.26 to $33.52 million in 2027, resulting in total 
+quantified savings of $33.15 to $83.80 million from 2027 to 2030. When 
+discounting at three percent, the cost savings is approximately $29.77 
+million to $75.23 million. When discounting at seven percent, the cost 
+savings is approximately $25.95 million to $65.57 million.
+    In comments to the June 2022 NPRM and the petitions addressed in 
+this document, manufacturers documented significant implementation 
+costs associated with the mandatory updates to EDRs across their 
+vehicle fleets. The estimates from Auto Innovators indicated that mid-
+cycle engineering modifications would require an estimated $231.36 
+million in redesign expenditures in the first year followed by $88.56 
+in subsequent years. The additional lead time and phase-in schedule 
+would enable manufacturers to integrate compliant EDRs into their 
+standard development timelines, eliminating the need for costly 
+expedited engineering solutions. NHTSA's conservative estimate of 
+$33.15 million to $83.80 million in quantified savings represents only 
+the direct costs avoided through this approach to extend the lead time 
+and offer a phase-in. The agency does not have the information to 
+estimate the additional cost savings from manufacturers not having to 
+make substantial design changes to vehicle models in the middle of 
+their production cycle. Manufacturers may find further unquantifiable 
+savings through flexibility and technological advancements, allowing 
+them to phase out older EDRs lacking the necessary capabilities to 
+record for 20 seconds at 10 Hz without requiring extensive 
+modifications. For example, NHTSA anticipates that emerging storage 
+technologies could replace Electrically Erasable Programmable Read-Only 
+Memory (EEPROM), currently a common method for recording EDR data. 
+These newer technologies would allow data to be written to non-volatile 
+memory more quickly than EEPROM, potentially reducing the reserve power 
+needed if the vehicle battery fails during the data recording process. 
+If manufacturers determine that alternatives like flash memory or 
+ferroelectric random-access memory (FRAM) are suitable for EDRs and 
+cost-effective solutions, the implementation costs may decrease. In 
+addition, as technology advances, manufacturers can expect either 
+reduced prices for existing memory components or increased storage 
+capacity at comparable price points, without significantly increasing 
+the physical size of EDR modules.
+
+               Table 1--Summary of Cost Savings by Model Year 3-Year Phase-In and 1-Year Extension
+                                                   [Millions]
+----------------------------------------------------------------------------------------------------------------
+                                                     Incremental cost          Estimated cost savings to society
+                                  Phase in  --------------------------------------------------------------------
+          Model year              schedule                      Supplemental
+                                    (%)            FRE            analysis        Quantified      Unquantified
+----------------------------------------------------------------------------------------------------------------
+2028..........................            0    $13.26-$33.52               $0    $13.26-$33.52  Potential
+                                                                                                 reduction in
+                                                                                                 cost due to
+                                                                                                 increased
+                                                                                                 flexibility,
+                                                                                                 developments in
+                                                                                                 technology, and
+                                                                                                 learning.
+2029..........................           25      13.26-33.52        3.32-8.38       9.95-25.14
+2030..........................           50      13.26-33.52       6.63-16.76       6.63-16.76
+2031..........................           75      13.26-33.52       9.95-25.14        3.32-8.38
+2032+.........................          100      13.26-33.52      13.26-33.52                0  ................
+                               ----------------------------------------------------------------
+    Total Cost Savings........  ...........  ...............  ...............      33.15-83.80
+----------------------------------------------------------------------------------------------------------------
+Note: Values may not sum due to rounding.
+
+
+[[Page 54624]]
+
+B. Cost Estimates
+
+    The petitioners raised several issues with the cost analysis in the 
+December 2024 final rule. Broadly, petitioners raised issues with the 
+component hardware and software cost estimates NHTSA used, such as an 
+inadequate estimate of the changes to the amount of memory and reserve 
+power that would be needed, the costs associated with additional 
+validation and testing needed to meet the new requirements, and the 
+component estimates in the final regulatory evaluation (FRE) \19\ 
+supplementing the December 2024 final rule.
+---------------------------------------------------------------------------
+
+    \19\ NHTSA-2024-0084-0002.
+---------------------------------------------------------------------------
+
+    NHTSA is not adjusting its cost estimates with regard to hardware 
+and software changes in response to the petitions. It is not clear from 
+the Auto Innovators' petition what aspect of the December 2024 final 
+rule petitioners are requesting be amended if such a change in cost 
+estimates is made. Nonetheless, the agency previously underestimated 
+the amount of time some manufacturers would need to design, test, and 
+validate EDRs after implementing hardware and software changes. The 
+proposed additional lead time and phase-in period should alleviate the 
+financial burden associated with manufacturers having to upgrade EDRs 
+across their models. It may also allow manufacturers to increase the 
+amount of non-volatile memory and RAM, if needed, and validate the 
+correct transfer rates and frequencies of the required data (Table I 
+elements). It would also allow manufacturers to assess whether more 
+reserve energy is necessary to write the increased amount of data 
+within the EDR or additional reserve energy sources for maintaining 
+power for other vehicle systems after a triggering event. Furthermore, 
+this proposed extended period may facilitate the testing and 
+development of newer, faster data processing and writing technologies, 
+potentially reducing the reserve energy needed for reliable data 
+capture.
+    Regarding the component hardware itself, NHTSA estimated in the 
+June 2022 NPRM and December 2024 final rule that the amount of memory 
+required to meet the new requirements would increase from 0.90 kB to 
+2.26 kB per event, not accounting for necessary memory buffers. While 
+the June 2022 NPRM initially anticipated near-zero costs based solely 
+on memory upgrades, the December 2024 final rule's analysis was updated 
+to account for EDRs lacking sufficient hardware to accommodate the 
+increased data. This revised cost analysis included incremental 
+expenses for upgrading all hardware components necessary for buffering 
+and writing the data to non-volatile memory. Feedback indicated many 
+manufacturers use flash memory (standalone or in microcontrollers) with 
+capacities up to 96 kB to capture EDR data. A few manufacturers are 
+recording pre-crash data at 10 Hz (but not for 20 seconds) while many 
+already capture pre-crash data elements not listed as required data 
+elements to capture in Table I of Part 563. Based on the estimated data 
+increase of 1.33 kB per event, NHTSA continues to believe manufacturers 
+either have sufficient memory in a subset of their EDRs or can develop 
+EDRs with more memory, if needed, to capture 20 seconds of data given 
+enough time to test and develop EDRs.
+    Based on the amount of data to be recorded with the extended 
+duration and the current amount of memory available in EDRs (32 Kb to 
+96 Kb), NHTSA did not anticipate a need for more reserve power in the 
+December 2024 final rule and has not received information to change 
+this assumption in the NPRM. Another study on EDRs published by NHTSA 
+(referred to as the EDR Technologies Study in the NPRM and 2024 Final 
+Rule) \20\ showed a decade-long trend of manufacturers moving from 
+EEPROM to flash memory, which should reduce the amount of time 
+necessary to write the data and consequently the reserve energy needed 
+to complete the writing process. Manufacturers had indicated to NHTSA 
+that some EDR modules already possess the hardware capabilities (in 
+terms of memory, power, and controller specifications) to meet the new 
+requirements. Therefore, NHTSA is not adjusting its cost estimates for 
+hardware and software changes.
+---------------------------------------------------------------------------
+
+    \20\ DOT HS 812 929.
+---------------------------------------------------------------------------
+
+    NHTSA is not altering the component-level costs presented in the 
+FRE supplementing the December 2024 final rule. The agency provided a 
+cost range ($13.26 million to $33.52 million annually) based on the 
+hardware specification of two EDR platforms to meet the new Part 563 
+requirements, which were components selected to meet the AEC-Q200 
+standard. NHTSA is addressing an error in the analysis, however, that 
+the FRE should have used ``mF'' (millifarad) instead of ``[mu]F'' 
+(microfarad) as the standard unit of capacitors. The agency's cost 
+estimates have therefore been revised to include upgrading from a 3.3-
+mF capacitor to a 6.8-mF capacitor. The average unit prices, after a 70 
+percent discount, were $0.24 for 3.3-mF capacitors (based on 24 quotes) 
+and $0.26 for 6.8-mF capacitors (based on 13 quotes), resulting in a 
+$0.02 difference, consistent with the component-level upgrade cost 
+presented in the FRE.
+
+C. Basis for December 2024 Final Rule and Benefits
+
+    The petitions from Auto Innovators and SAE critiqued the EDR 
+Duration Study that NHTSA used to justify extending the recording 
+duration and criticized NHTSA discussion in the June 2022 NPRM and 
+December 2024 final rule of the benefits of the increased amount of EDR 
+pre-crash data.\21\ Auto Innovators requested that NHTSA reconsider the 
+EDR duration and frequency specifications and examine the possibility 
+that similar safety benefits can be attained through less burdensome 
+requirements. SAE requested that NHTSA retain the prior 5-second 
+duration and 2-Hz recording frequency for pre-crash data elements or 
+adopt a phase-in schedule for manufacturers to meet the new EDR 
+requirements.
+---------------------------------------------------------------------------
+
+    \21\ Auto Innovators and SAE offered similar comments in 
+response to the June 2022 NPRM (87 FR 37289).
+---------------------------------------------------------------------------
+
+    NHTSA is not proposing to amend these aspects of Part 563. Auto 
+Innovators claims NHTSA has not demonstrated the potential safety 
+benefits of the extended recording duration. However, Congress mandated 
+NHTSA conduct a study to determine an appropriate recording duration 
+for providing sufficient information to investigate the cause of motor 
+vehicle crashes. Following the submission of this study's findings, the 
+FAST Act required NHTSA to issue a final rule. The June 2022 NPRM and 
+December 2024 Final Rule extensively detail the benefits of increasing 
+the recording duration.
+    The fundamental purpose of Part 563 is to ensure EDRs record data 
+``valuable for effective crash investigations and for analysis of 
+safety equipment performance.'' The EDR Duration Study's findings 
+clearly indicate that the current 5-second pre-crash recording duration 
+under Part 563 fails to capture the initiation of pre-crash braking and 
+steering maneuvers in a significant number of cases. The study showed 
+that extending the pre-crash recording duration would capture a greater 
+amount of information regarding a vehicle's actions leading up to a 
+triggering event, thereby increasing the value of EDR data for crash 
+investigations. Based on these findings, a 20-second recording duration 
+is necessary to ensure that the initiation of
+
+[[Page 54625]]
+
+pre-crash actions and crash avoidance maneuvers are captured for the 
+majority of crashes. This recording duration will increase the utility 
+of the recorded information, potentially leading to further 
+advancements in the safety of both current and future vehicles. 
+Furthermore, the study concluded that a more comprehensive 
+understanding of pre-crash actions will aid in the evaluation of crash 
+avoidance systems (such as lane departure warning, lane keeping assist, 
+forward collision avoidance, automatic emergency braking, and 
+intersection safety assistance systems), even if specific data from 
+these systems is not directly reported by the EDR.
+    The EDR Duration Study aimed to identify the necessary recording 
+duration for investigating crash causation. The study was not directed 
+to prove that increasing the recording duration of EDR data would 
+increase safety or to estimate the cost of design changes associated 
+with extending the recording duration. NHTSA believes the study 
+provides a robust basis for increasing the recording duration to 20 
+seconds based on the study's finding that a 5-second window often 
+misses significant pre-crash actions, particularly for road departure 
+and intersection crashes. The study showed that 5 seconds is 
+insufficient to capture crucial information, such as the initiation of 
+crash avoidance maneuvers like braking and steering, in a considerable 
+percentage of crashes where EDRs are triggered. For example, the study 
+demonstrated that approximately 35 percent of drivers that applied 
+brakes did so outside of the 5-second window prior to impact. The 
+actions of the vehicles captured beyond 5 seconds would assist 
+investigators with crash reconstruction. Moreover, the study indicated 
+that 20 seconds would encompass the 90th percentile of recording 
+duration needed for lane departure, intersection, and rear-end crashes.
+    NHTSA acknowledges the vehicles used in the study lacked modern 
+safety features that could have intervened within five seconds of the 
+crash event. However, current regulations do not mandate that EDRs 
+capture the status of active safety systems. While manufacturers may 
+voluntarily record data on modern safety features in their EDRs, it 
+could not be consistently included in the study. Consequently, the 
+current five-second recording duration of most EDRs inherently 
+restricts the ability to analyze crash causation beyond that timeframe. 
+The study used the 100-Car Naturalistic Driving Study (NDS) and 
+Strategic Highway Research Program (SHRP 2) NDS because they contained 
+data extending beyond five seconds, enabling researchers to analyze 
+vehicle actions in rear-end crashes, lane departures, and the approach 
+and traversal stages when passing through an intersection.
+    The EDR Duration Study was conducted in two phases. Phase one used 
+existing crash data from NHTSA's database to analyze how often the 
+five-second EDR recording duration failed to capture the start of 
+driver actions before crashes. This phase established that the five-
+second requirement was inadequate and proved the need for longer 
+recording durations. Phase two used naturalistic driving study data to 
+examine the complete timeline of driver pre-crash actions (beyond five 
+seconds pre-crash). Researchers used this real-world driving behavior 
+data to determine what EDR recording duration would be needed to 
+capture when drivers first began taking pre-crash actions. Phase two of 
+the EDR Duration Study examined newer vehicles than the vehicles 
+examined in Phase one. Though active safety features are not required 
+to be recorded in EDRs, Phase two found that increased recording time 
+could allow for more voluntary recording of active safety systems. The 
+activation times for ABS in that data ranged from two to nine seconds 
+before a crash, further demonstrating the inadequacy of a five-second 
+recording duration to capture all relevant pre-crash vehicle dynamics. 
+Moreover, understanding vehicle dynamics and driver behavior that occur 
+before ABS activation is crucial for comprehensive crash causation 
+analysis. These earlier timeframes can contain the initial decision 
+points and driving patterns that precipitate the conditions leading to 
+ABS engagement. Without this extended timeline data, investigators 
+could miss critical information about steering and braking inputs, 
+early avoidance maneuvers, and progressive system interventions that 
+form the complete causal chain of events.
+    The EDR Duration Study referred to driver ``behavior'' and 
+``actions'' interchangeably. Literature has shown that crash causation 
+is often related to driver error, so understanding a driver's actions 
+pre-crash is crucial. Therefore, the study focused on the duration 
+needed to capture a driver's actions pre-crash in full, which is within 
+the scope of EDR data collection for effective crash investigation 
+purposes. Consequently, the Phase two objective was precisely to 
+determine a recording duration that enhances the certainty of capturing 
+the complete timeline of pre-crash actions.
+    NHTSA underscores that achieving the most accurate reconstruction 
+of events triggering EDR recording necessitates the continued 
+integration of all pertinent information alongside EDR data. When 
+analyzing data more likely to represent normal driving behavior and 
+less directly related to crash causation, the EDR Duration Study 
+specifically examined actions preceding the event, such as changes in 
+steady-state vehicle velocity and the earliest instances of braking. A 
+finding from Phase two of the study was that a 20-second pre-crash data 
+window would encompass the 90th percentile of the required recording 
+duration for the analyzed crash modes (lane departure, intersection, 
+and rear-end) and associated crash avoidance maneuvers.
+    NHTSA emphasizes that the 20-second extended recording duration 
+will be particularly beneficial in analyzing intersection crashes. 
+These crashes typically involve an approach stage as the vehicle nears 
+the intersection and a traversal stage in which the vehicle is exposed 
+in the intersection. Based on the EDR Duration Study, extending the 
+pre-crash recording duration to 20 seconds would capture approximately 
+90 percent of all intersection events and nearly all braking scenarios, 
+compared to less than one percent with the five-second recording 
+duration. The extended duration, combined with the increased sample 
+rate, would document the complete sequence of driver actions from 
+initial accelerator release (occurring up to 12 seconds pre-crash) 
+through brake application (up to 10 seconds pre-crash) to any evasive 
+maneuvers. With typical intersection events lasting 10-19 seconds 
+depending on the configuration, the longer duration would capture the 
+entire approach and traversal phases. This EDR data would reveal the 
+critical decision points across various intersection sizes and approach 
+types (e.g., complete stops, low-speed rolling stops, high-speed 
+rolling stops). Similarly, in road departure crashes, longer durations 
+could capture more complete information on gradual lane departures and 
+corrective steering or braking maneuvers initiated by the driver before 
+the initial departure from the roadway. This extended duration could 
+also prove valuable in analyzing events occurring on larger highways, 
+potentially capturing the actions of a vehicle as it approaches a stop 
+sign or a signaled intersection, even across multiple lanes.
+    Regarding privacy concerns, NHTSA reaffirms that EDRs do not record 
+personally identifiable information. The
+
+[[Page 54626]]
+
+data captured is routinely overwritten, preserving data only when 
+specific crash events meet the defined trigger threshold in Part 563. 
+Extending the pre-crash recording duration to 20 seconds is not 
+anticipated to heighten privacy concerns, as it involves no new or 
+significantly altered technology for collecting, storing, or 
+disseminating personally identifiable information. Moreover, the Driver 
+Privacy Act of 2015, enacted under the FAST Act after Part 563's 
+establishment, legally designates the vehicle owner or lessee as the 
+owner of EDR data. Retrieval of this recorded data is strictly limited 
+to purposes of enhancing motor vehicle safety and safety research 
+(provided the data remain non-personally identifiable), or with the 
+explicit consent of the vehicle owner or through a lawful court or 
+administrative order. These privacy protections should effectively 
+address expressed concerns while enabling the agency to fulfill the 
+FAST Act's mandate of establishing an appropriate recording period 
+within NHTSA's EDR regulation.
+    Auto Innovators and SAE stated that there will remain an ongoing 
+need to collect supplementary data like police reports and ADAS event 
+data for a more complete understanding of crash causation. NHTSA agrees 
+that supplemental information (e.g., police reports) remains crucial 
+for researchers, law enforcement, and reconstructionists to analyze 
+vehicle and crash dynamics. However, NHTSA clarifies that the FAST 
+Act's mandate specifically addressed pre-crash recording duration, not 
+the addition of ADAS event data to be captured by EDRs. In response to 
+SAE's caution against solely relying on EDR data, NHTSA emphasizes that 
+the December 2024 final rule did not suggest abandoning the 
+consideration of other critical factors in crash investigations. 
+Instead, the increased data, coupled with a higher sample rate, aims to 
+offer a more complete understanding of the pre-crash actions of the 
+vehicle and their interplay. NHTSA is not mandating the inclusion of 
+additional data elements beyond those listed in Part 563 at this time. 
+However, the extended lead time and phase-in period proposed in this 
+notice could present an opportunity for manufacturers to modernize the 
+EDRs being equipped in their vehicles if they so choose. This timeframe 
+may allow manufacturers the flexibility to develop and rigorously test 
+EDR systems capable of capturing crucial information related to crash 
+avoidance technologies and other ADAS like SAE Level 2 systems.\22\ 
+This includes data that is already available within other existing ECUs 
+onboard the vehicle, but that may not currently be recorded by the EDR. 
+Notably, some manufacturers already equip vehicles with EDRs that 
+capture status for systems like adaptive cruise control, automatic 
+emergency braking, forward collision warning, and lane departure 
+warning, which are all data elements beyond the current Part 563 
+requirements. Manufacturers may voluntarily add data elements to be 
+recorded by their EDRs, provided these additions do not compromise the 
+EDR's ability to meet the minimum data capture requirements outlined in 
+Part 563. This modernization could significantly enhance the richness 
+and utility of EDR data for future safety research and analysis.
+---------------------------------------------------------------------------
+
+    \22\ SAE Level 2 refers to features that provide steering and 
+brake/acceleration support to the driver. An example would be lane 
+centering and adaptive cruise control features functioning at the 
+same time while the driver constantly supervises the support 
+features to maintain safety.
+---------------------------------------------------------------------------
+
+    Therefore, NHTSA is not proposing to amend the 20-second recording 
+duration and 10 Hz sample rate requirements for EDRs as finalized in 
+the December 2024 final rule.
+
+D. Industry Standards
+
+    In its petition, SAE asked for more information on the process 
+associated with the Office of Management and Budget (OMB) Circular No. 
+A-119 (Federal Participation in the Development and Use of Voluntary 
+Consensus Standards and in Conformity Assessment Activities). SAE asked 
+whether NHTSA sent any documentation to OMB in justification of the 
+costs and the rationale per OMB's conformity assessment activities (per 
+OMB A-119).\23\ SAE requested the agency to identify and share such 
+documentation. Auto Innovators stated that NHTSA should have exercised 
+discretion when implementing the FAST Act requirement and instead 
+should have sought to align with established industry standards and 
+international regulatory requirements more closely.
+---------------------------------------------------------------------------
+
+    \23\ In relevant part, OMB A-119 states, ``In those 
+circumstances where an agency elects to use or develop a government 
+unique standard in lieu of using a voluntary consensus standard, 
+Section 12(d) of the NTTAA requires the agency to submit a report 
+describing the reason(s) to OMB. Under the Circular, this report is 
+submitted to OMB through the National Institute of Standards and 
+Technology (NIST). For more information on reporting, see Sections 
+9-11 of this Circular.'' Section 9 of OMB A-119 states, ``At 
+minimum, your agency must have the ability to provide to OMB, 
+through NIST, (1) a report on the agency's use of government-unique 
+standards in lieu of voluntary consensus standards, along with an 
+explanation of the reasons for such 33 usages, as required by 
+Section 12(d) of the NTTAA and as described in Section 5c of this 
+Circular; and (2) a summary of your agency's activities undertaken 
+to carry out the provisions of this Circular.''
+---------------------------------------------------------------------------
+
+    NHTSA carefully considered the consensus standards applicable to 
+EDR data elements in establishing Part 563 and in amending Part 563 in 
+the December 2024 final rule.\24\ NHTSA declined to adopt the voluntary 
+consensus standards for the pre-crash recording because such a decision 
+would be inconsistent with the best available information to the agency 
+and conflict with the outcome of a study required by the FAST Act. The 
+factors the agency considered when implementing a conformity assessment 
+program are discussed in the preamble to the December 2024 final rule 
+with regards to the requirements of the National Technology Transfer 
+and Advancement Act of 1995 (NTTAA) (Pub. L. 104-113). These factors 
+have not changed, and NHTSA declines to propose amending Part 563 
+pursuant to align with industry consensus standards.
+---------------------------------------------------------------------------
+
+    \24\ There are consensus standards related to EDRs, most notably 
+standards published by SAE (J1698--Event Data Recorder), Institute 
+of Electrical and Electronics Engineers (IEEE) (Standard 1616, IEEE 
+Standard for Motor Vehicle Event Data Recorder) and UN Regulation 
+No. 160 (which was followed by UN Regulation No. 160 Revision 1).
+---------------------------------------------------------------------------
+
+    With regards to material submitted pursuant to Circular A-119, the 
+Circular A-119 annual report does not typically include rulemaking and 
+decision information, such as costs. It identifies where NHTSA 
+regulations incorporate a government-unique standard in lieu of an 
+industry-developed voluntary consensus standard and explains the 
+reasons for such usage.
+
+E. CDR Development
+
+    Part 563 mandates that manufacturers ensure commercially available 
+tools for EDR data access and retrieval within 90 days of a vehicle's 
+first sale if the vehicle is equipped with an EDR. 49 CFR 563.12. NHTSA 
+acknowledges the concerns raised by Auto Innovators, SAE, and Bosch 
+regarding EDR data accessibility. The additional lead time and phase-in 
+proposed here should enable producers of EDR data retrieval tools to 
+update, test, and validate their new products, including direct-to-
+module cables, ensuring their capability to retrieve the EDR data 
+effectively.
+
+V. Rulemaking Analyses and Notices
+
+Executive Orders 12866 and 14192
+
+    This proposed rule does not meet the criteria of a ``significant 
+regulatory action'' under Executive Order (E.O.) 12866. Therefore, the 
+Office of
+
+[[Page 54627]]
+
+Management and Budget (OMB) has not reviewed this proposed rule under 
+that Executive Order.
+    Under E.O. 14192, a deregulatory action is an action that has been 
+finalized and has total costs less than zero. The rulemaking, if 
+finalized as proposed, would be an E.O. 14192 deregulatory action.
+    The requirements specified in the final rule provide benefits 
+through the use of EDR data in crash defects investigations. However, 
+the FRE was not able to quantify those benefits. The FRE accounted for 
+the incremental costs associated with the final rule. Incremental costs 
+reflect the increase in total lifetime cost for end users as a result 
+of meeting the requirements specified in the final rule relative to 
+costs incurred under the baseline. Therefore, the incremental costs 
+reflected in the analysis are associated with upgrading currently 
+compliant EDRs to meet the requirements specified in the final rule. 
+Those incremental costs reflect hardware and software costs, as well as 
+costs for redesign, validation, and labor. The FRE estimated that the 
+incremental cost associated with the final rule ranged from 
+approximately $13.26 million to $33.52 million in 2022 dollars.
+    This rulemaking is a deregulatory action under E.O. 14192 because 
+it would reduce the implementation burden associated with the December 
+2024 final rule, which increased the pre-crash data recording duration 
+and sample rate required under 49 CFR part 563. While the substantive 
+requirements adopted in the December 2024 final rule remain unchanged, 
+the agency is proposing to modify the compliance schedule in response 
+to petitions for reconsideration that identified implementation 
+challenges and risk of unintended consequences.
+    Petitioners explained that the original compliance date imposed a 
+rigid and accelerated timeline that did not align with typical vehicle 
+development cycles. These conditions would have imposed high compliance 
+costs, disrupted product planning, and could have resulted in the 
+removal or disabling of EDR functionality in some vehicle models--
+undermining the very safety objectives the rule was designed to 
+advance. Quantified cost savings are discussed in more detail above, in 
+Section IV.A. Also, as noted, the safety benefits of the December 2024 
+final rule were unquantified. This was similar when NHTSA established 
+Part 563. This was due to the difficulties in estimating both the exact 
+portion of benefits creditable to an increased amount of EDR data after 
+a standard is implemented or a safety countermeasure is developed and 
+of quantifying how the benefits to safety research and emergency 
+response translate to improved vehicle safety. Nonetheless, the agency 
+acknowledges that it is likely the implementation timeline created a 
+regulatory failure by imposing a disproportionate burden relative to 
+those benefits, particularly for vehicle platforms in late-stage design 
+or production. The agency seeks comment with information which may aid 
+this determination. This proposed rule would correct that failure.
+
+Regulatory Flexibility Act
+
+    Under the Regulatory Flexibility Act (RFA) (5 U.S.C. 601-612) (as 
+amended by the Small Business Regulatory Enforcement Fairness Act 
+(SBREFA) of 1996; 5 U.S.C. 601 et seq.), agencies must prepare and make 
+available for public comment a regulatory flexibility analysis that 
+describes the effect of the rule on small entities (i.e., small 
+businesses, small organizations, and small government jurisdictions). 
+No regulatory flexibility analysis is required, however, if the head of 
+an agency or an appropriate designee certifies that the rule does not 
+have a significant economic impact on a substantial number of small 
+entities. I certify that this rulemaking action would not have a 
+significant economic impact on a substantial number of small entities. 
+The factual basis for this certification is provided below.
+    The proposed delay in the compliance date and creation of a phase-
+in period would reduce the burden on small entities by providing more 
+time to comply with the new requirements. In addition, limited line 
+\25\ and small-volume manufacturers \26\ would only need to produce 
+vehicles with EDRs that meet the requirements, if the vehicle is 
+equipped with an EDR, on or after September 1, 2032. Manufacturers 
+producing altered vehicles or vehicles in two or more stages would have 
+one additional year, until September 1, 2033, for compliance.
+---------------------------------------------------------------------------
+
+    \25\ Limited line manufacturer means a manufacturer that sells 
+three or fewer carlines, as that term is defined in 49 CFR 583.4, in 
+the United States during a production year.
+    \26\ Small-volume manufacturer as defined in Sec.  571.127, 
+``Automatic emergency braking systems for light vehicles,'' is an 
+original vehicle manufacturer that produces or assembles fewer than 
+5,000 vehicles annually for sale in the United States.
+---------------------------------------------------------------------------
+
+    NHTSA has concluded that this proposed rule would not have a 
+significant economic impact on a substantial number of small entities; 
+therefore, an analysis is not included.
+
+Executive Order 13132 (Federalism)
+
+    NHTSA has examined this rule pursuant to E.O. 13132 (64 FR 43255, 
+August 10, 1999) and concluded that no additional consultation with 
+States, local governments, or their representatives is mandated beyond 
+the rulemaking process. The agency has concluded that this rule does 
+not have sufficient federalism implications to warrant consultation 
+with State and local officials or the preparation of a federalism 
+summary impact statement. The rule does not have ``substantial direct 
+effects on the States, on the relationship between the national 
+government and the States, or on the distribution of power and 
+responsibilities among the various levels of government.''
+    This proposed rule would amend an existing regulation. When 49 CFR 
+part 563 was promulgated in 2006, NHTSA explained its view that any 
+State laws or regulations that prohibit the types of EDRs addressed by 
+Part 563 would create a conflict and therefore be preempted.\27\ As a 
+result, regarding this proposed rule, NHTSA does not believe there are 
+current State laws or regulations for EDRs that conflict with Part 563.
+---------------------------------------------------------------------------
+
+    \27\ The 2006 final rule promulgating 49 CFR part 563 discussed 
+preemption at length. See 71 FR 50907, 51029 (August 28, 2006).
+---------------------------------------------------------------------------
+
+Executive Order 12988 (Civil Justice Reform)
+
+    With respect to the review of the promulgation of a new regulation, 
+section 3(b) of E.O. 12988, ``Civil Justice Reform'' (61 FR 4729, 
+February 7, 1996), requires that Executive agencies make every 
+reasonable effort to ensure that the regulation: (1) clearly specifies 
+the preemptive effect; (2) clearly specifies the effect on existing 
+Federal law or regulation; (3) provides a clear legal standard for 
+affected conduct, while promoting simplification and burden reduction; 
+(4) clearly specifies the retroactive effect, if any; (5) adequately 
+defines key terms; and (6) addresses other important issues affecting 
+clarity and general draftsmanship under any guidelines issued by the 
+Attorney General. This document is consistent with that requirement.
+    Pursuant to this E.O., NHTSA notes as follows. The issue of 
+preemption is discussed above, in the section discussing E.O. 13132 
+(Federalism). NHTSA notes further that there is no requirement that 
+individuals submit a petition for reconsideration or pursue other 
+administrative proceedings before they may file suit in court.
+
+[[Page 54628]]
+
+Executive Order 13609 (Promoting International Regulatory Cooperation)
+
+    E.O. 13609, ``Promoting International Regulatory Cooperation'' (77 
+FR 26413, May 1, 2012), promotes international regulatory cooperation 
+to meet shared challenges involving health, safety, labor, security, 
+environmental, and other issues and to reduce, eliminate, or prevent 
+unnecessary differences in regulatory requirements.
+    The agency is currently participating in the negotiation and 
+development of technical standards for Event Data Recorders in the 
+United Nations Economic Commission for Europe (UNECE) World Forum for 
+Harmonization of Vehicle Regulations (WP.29). As a signatory member, 
+NHTSA is obligated to initiate rulemaking to incorporate safety 
+requirements and options specified in Global Technical Regulations 
+(GTRs) if the U.S. votes in the affirmative to establish the GTR. No 
+GTR for EDRs has been developed at this time. NHTSA has analyzed this 
+proposed rule under the policies and agency responsibilities of E.O. 
+13609 and has determined this rulemaking would have no effect on 
+international regulatory cooperation.
+
+National Environmental Policy Act
+
+    The Department has analyzed the environmental impacts of this 
+notice of proposed rulemaking pursuant to the National Environmental 
+Policy Act of 1969 (NEPA) (42 U.S.C. 4321 et seq.). Pursuant to 49 CFR 
+1.81, the Secretary has delegated the ``functions'' under NEPA to the 
+Administrators ``as they relate to the matters within the primary 
+responsibility of each Operating Administration.'' NHTSA has determined 
+that this proposed rule is categorically excluded pursuant to 23 CFR 
+771.118(c)(4). Categorical exclusions are actions identified in an 
+agency's NEPA procedures that do not normally have a significant impact 
+on the environment and therefore do not require either an environmental 
+assessment (EA) or environmental impact statement (EIS). This 
+rulemaking, which proposes to amend the regulations regarding Event 
+Data Recorders to extend the lead time and establish a four-year phase-
+in, is categorically excluded pursuant to 23 CFR 771.118(c)(4) 
+(Planning and administrative activities not involving or leading 
+directly to construction, such as: Training, technical assistance and 
+research; promulgation of rules, regulations, directives, or program 
+guidance; approval of project concepts; engineering; and operating 
+assistance to transit authorities to continue existing service or 
+increase service to meet routine demand). NHTSA does not anticipate any 
+environmental impacts, and there are no extraordinary circumstances 
+present in connection with this rulemaking.
+
+Paperwork Reduction Act
+
+    Under the procedures established by the Paperwork Reduction Act of 
+1995 (PRA) (44 U.S.C. 3501 et seq.), a Federal agency must request and 
+receive approval from OMB before it collects certain information from 
+the public and a person is not required to respond to a collection of 
+information by a Federal agency unless the collection displays a valid 
+OMB control number. On May 28, 2025, and November 18, 2025, NHTSA 
+published notices and requests for comment on a reinstatement with 
+modification of a previously approved information collection to collect 
+information regarding a reporting and recordkeeping requirement to 
+facilitate enforcement of updates to FMVSS No. 208, ``Occupant crash 
+protection.'' Those documents also requested to rename the Information 
+Collection Request (ICR) associated with OMB Control No. 2127-0535 as 
+``49 CFR part 585; Phase-In Reporting Requirements'' and to consolidate 
+all phase-in reporting requirements including in 49 CFR part 585 in 
+that ICR. This proposed rule would establish new information collection 
+requirements for phase-in reporting and record retention requirements 
+related to EDRs. The ICR for a reinstatement with modification of a 
+previously approved information collection described below has been 
+forwarded to the Office of Management and Budget (OMB) for review and 
+comment. The ICR describes the nature of the information collection and 
+the expected burden.
+    Agency: National Highway Traffic Safety Administration (NHTSA).
+    Title: Phase-In Reporting Requirements.
+    OMB Control Number: 2127-0535.
+    Form Number: N/A.
+    Type of Request: Reinstatement with modification of a previously 
+approved information collection.
+    Type of Review Requested: Regular.
+    Requested Expiration Date of Approval: 3 years from date of 
+approval.
+    Summary of the Collection of Information: This collection would 
+require manufacturers of passenger cars, multipurpose passenger 
+vehicles, trucks, and buses with a gross vehicle weight rating of 3,855 
+kg (8,500 pounds) or less that are equipped with EDRs to provide motor 
+vehicle production data for the following four years: September 1, 
+2028, to August 31, 2029; September 1, 2029, to August 31, 2030; 
+September 1, 2030, to August 31, 2031; and September 1, 2031, to August 
+31, 2032. Manufacturers would annually submit a report, and maintain 
+records related to the report, concerning the number of such vehicles 
+that meet the EDR requirements of Part 563 during the phase-in of those 
+requirements.
+    Description of the Need for the Information and Proposed Use of the 
+Information: The purpose of the reporting requirements would be to aid 
+the agency in determining whether a manufacturer of passenger cars, 
+multipurpose passenger vehicles, trucks, and buses with a GVWR of 3,855 
+kg (8,500 pounds) or less and an unloaded vehicle weight of 2,495 kg 
+(5,500 pounds) or less, has complied with the event data recorder 
+requirements during the phase-in of those requirements.
+    Affected Public: The respondents are manufacturers of passenger 
+cars, multipurpose passenger vehicles, trucks, and buses having a gross 
+vehicle weight rating of 3,855 kg (8,500 pounds) or less that are 
+equipped with EDRs.
+    Estimated Number of Respondents: Approximately 22 vehicle 
+manufacturers.
+    Estimated Total Annual Burden Hours: NHTSA estimates that the total 
+annual hour burden is 22 hours.
+    The annual burden involves the tasks of collection of the 
+information required by the annual report as well as placing the 
+information in a form suitable for record keeping and data retrieval. 
+Because almost all the information required is already recorded by the 
+manufacturers as part of their production control and tracking systems, 
+a nominal assessment of half a burden hour per respondent is estimated 
+for data retrieval and report preparation and half a burden hour per 
+respondent for the record keeping of the data. Therefore, NHTSA 
+estimates that the average total burden for submitting data will be 11 
+hours per year (22 manufacturers x .5 hours = 11 hours) and estimates 
+that the average total burden for record retention will be 11 hours per 
+year (22 manufacturers x .5 hours = 11 hours). NHTSA estimates the 
+labor costs associated with these labor hours using hourly labor rates 
+published by the Bureau of Labor Statistics (BLS). BLS estimates that 
+hourly wages represent approximately 70.2 percent of total compensation 
+for private industry workers.\28\ For the labor costs associated
+
+[[Page 54629]]
+
+with this ICR, NHTSA uses the mean hourly wage of $40.64 per hour for 
+``Technical Writers'' (occupational code 27-3042) for the Motor Vehicle 
+Manufacturing Industry (Sectors 31, 32, and 33) \29\ and applies the 
+70.2 percent factor to find the total compensation rate of $57.89 per 
+hour ($40.64 per hour divided by 0.705). The total annual labor cost 
+associated with the burden hours is estimated to be $1,273.58 (time 
+burden of 22 hours x $57.89 cost per hour).
+---------------------------------------------------------------------------
+
+    \28\ See Table 1. Employer Costs for Employee Compensation by 
+ownership (June 2025), available at <a href="https://www.bls.gov/news.release/pdf/ecec.pdf">https://www.bls.gov/news.release/pdf/ecec.pdf</a> (accessed September 12, 2025).
+    \29\ See May 2023 National Industry-Specific Occupational 
+Employment and Wage Estimates, NAICS 336100--Motor Vehicle 
+Manufacturing, available at <a href="https://www.bls.gov/oes/2023/may/naics4_336100.htm#27-0000">https://www.bls.gov/oes/2023/may/naics4_336100.htm#27-0000</a> (accessed September 12, 2025).
+
+                                                  Table 1--Estimated Annual Burden Hours and Labor Cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                           Total annual                    Total annual
+                 Information collection                      Number of     burden hours    Hourly labor   labor cost per   Total annual    Total annual
+                                                            respondents   per respondent       cost         respondent     burden hours     labor cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Phase-In Reporting......................................              22              .5          $57.89          $28.95              11         $636.79
+Phase-In Recordkeeping..................................              22              .5           57.89           28.95              11          636.79
+                                                         -----------------------------------------------------------------------------------------------
+    Total...............................................              22               1           57.89           57.89              22        1,273.58
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Estimated Total Annual Burden Cost: $0
+    NHTSA estimates that there are no costs associated with the 
+proposed information collection other than labor costs associated with 
+the burden hours.
+    Public Comments Invited: You are asked to comment on any aspects of 
+this information collection, including (a) whether the proposed 
+collection of information is necessary for the proper performance of 
+the functions of the Department, including whether the information will 
+have practical utility; (b) the accuracy of the Department's estimate 
+of the burden of the proposed information collection; (c) ways to 
+enhance the quality, utility and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including the use of automated collection 
+techniques or other forms of information technology.
+
+National Technology Transfer and Advancement Act
+
+    Under the National Technology Transfer and Advancement Act of 1995 
+(NTTAA) (Pub. L. 104-113), ``all Federal agencies and departments shall 
+use technical standards that are developed or adopted by voluntary 
+consensus standards bodies, using such technical standards as a means 
+to carry out policy objectives or activities determined by the agencies 
+and departments.'' Voluntary consensus standards are technical 
+standards (e.g., materials specifications, test methods, sampling 
+procedures, and business practices) that are developed or adopted by 
+voluntary consensus standards bodies, such as SAE. The NTTAA directs 
+agencies to provide Congress, through OMB, explanations when the agency 
+decides not to use available and applicable voluntary consensus 
+standards. The NTTAA requires agencies to use voluntary consensus 
+standards in lieu of government-unique standards except where 
+inconsistent with law or otherwise impractical. In the December 2024 
+final rule, NHTSA provided a discussion of why that final rule declined 
+to use voluntary consensus standards. This discussion remains 
+applicable to this proposed rule which would not change aspects of Part 
+563 for which there are voluntary consensus standards. Please refer to 
+Section IV.D for discussion of voluntary consensus standards in regard 
+to OMB Circular A-119.
+
+Unfunded Mandates Reform Act
+
+    The Unfunded Mandates Reform Act of 1995 (Pub. L. 104-4) requires 
+agencies to prepare a written assessment of the costs, benefits, and 
+other effects of proposed or final rules that include a Federal mandate 
+likely to result in the expenditures by States, local or Tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more (adjusted annually for inflation with base year of 
+1995) in any one year. This proposed rule does not contain Federal 
+mandates (under the regulatory provisions of Title II of the UMRA) for 
+State, local and Tribal governments, or the private sector of $100 
+million or more in any one year (as adjusted for inflation). Thus, the 
+rulemaking is not subject to the requirements of sections 202 and 205 
+of the UMRA.
+
+Executive Order 13175 (Consultation and Coordination With Indian Tribal 
+Governments)
+
+    E.O. 13175, ``Consultation and Coordination With Indian Tribal 
+Governments'' (65 FR 67249, November 6, 2000) requires Federal agencies 
+to consult and coordinate with Tribes on a government-to-government 
+basis on policies that have Tribal implications, including regulations, 
+legislative comments or proposed legislation, and other policy 
+statements or actions that have substantial direct effects on one or 
+more Indian Tribes, on the relationship between the Federal Government 
+and Indian Tribes, or on the distribution of power and responsibilities 
+between the Federal Government and Indian Tribes. NHTSA has assessed 
+the impact of this proposed rule on Indian tribes and determined that 
+this proposed rule would not have tribal implications that require 
+consultation under E.O. 13175.
+
+Privacy Act
+
+    In accordance with 5 U.S.C. 553(c), DOT solicits comments from the 
+public to inform its rulemaking process. DOT posts these comments, 
+without edit, to <a href="http://www.regulations.gov">www.regulations.gov</a>, as described in the system of 
+records notice, DOT/ALL-14 FDMS, accessible through <a href="http://www.dot.gov/privacy">www.dot.gov/privacy</a>. To facilitate comment tracking and response, we encourage 
+commenters to provide their name, or the name of their organization; 
+however, submission of names is completely optional. Anyone is able to 
+search the electronic form of all comments received into any of our 
+dockets by the name of the individual submitting the comment (or 
+signing the comment, if submitted on behalf of an association, 
+business, or labor union.). You may review DOT's complete Privacy Act 
+Statement in the Federal Register published on April 11, 2000, (Volume 
+65, Number 70; Pages 19477-78).
+
+Plain Language Requirement
+
+    E.O. 12866 and E.O. 13563 requires each agency to write all rules 
+in plain language. Application of the principles of plain language 
+includes consideration of the following questions:
+
+[[Page 54630]]
+
+    <bullet> Have we organized the material to suit the public's needs?
+    <bullet> Are the requirements in the rule clearly stated?
+    <bullet> Does the rule contain technical language or jargon that is 
+not clear?
+    <bullet> Would a different format (grouping and order of sections, 
+use of headings, paragraphing) make the rule easier to understand?
+    <bullet> Would more (but shorter) sections be better?
+    <bullet> Could we improve clarity by adding tables, lists, or 
+diagrams?
+    <bullet> What else could we do to make the rule easier to 
+understand?
+    If you have any responses to these questions, please include them 
+in your comments on this proposal.
+
+Regulation Identifier Number (RIN)
+
+    The Department of Transportation assigns a regulation identifier 
+number (RIN) to each regulatory action listed in the Unified Agenda of 
+Federal Regulations. The Regulatory Information Service Center 
+publishes the Unified Agenda twice a year. You may use the RIN 
+contained in the heading at the beginning of this document to find this 
+action in the Unified Agenda.
+
+Public Participation
+
+How do I prepare and submit comments?
+    Your comments must be written and in English. To ensure that your 
+comments are correctly filed in the Docket, please include the docket 
+number indicated in this document in your comments.
+    Your comments must not be more than 15 pages long. (49 CFR 553.21) 
+NHTSA established this limit to encourage you to write your primary 
+comments in a concise fashion. However, you may attach necessary 
+additional documents to your comments. There is no limit on the length 
+of the attachments.
+    If you are submitting comments electronically as a PDF (Adobe) 
+file, NHTSA asks that the documents be submitted using the Optical 
+Character Recognition (OCR) process, thus allowing NHTSA to search and 
+copy certain portions of your submissions.
+    Please note that pursuant to the Data Quality Act, in order for 
+substantive data to be relied upon and used by the agency, it must meet 
+the information quality standards set forth in the OMB and DOT Data 
+Quality Act guidelines. Accordingly, we encourage you to consult the 
+guidelines in preparing your comments. OMB's guidelines may be accessed 
+at <a href="https://www.transportation.gov/regulations/dot-information-dissemination-quality-guidelines">https://www.transportation.gov/regulations/dot-information-dissemination-quality-guidelines</a>.
+How can I be sure that my comments were received?
+    If you wish the Docket to notify you upon its receipt of your 
+comments, enclose a self-addressed, stamped postcard in the envelope 
+containing your comments. Upon receiving your comments, the Docket will 
+return the postcard by mail.
+How do I submit confidential business information?
+    You should submit a redacted ``public version'' of your comment 
+(including redacted versions of any additional documents or 
+attachments) to the docket using any of the methods identified under 
+ADDRESSES. This ``public version'' of your comment should contain only 
+the portions for which no claim of confidential treatment is made and 
+from which those portions for which confidential treatment is claimed 
+has been redacted. See below for further instructions on how to do 
+this.
+    You also need to submit a request for confidential treatment 
+directly to the Office of Chief Counsel. Requests for confidential 
+treatment are governed by 49 CFR part 512. Your request must set forth 
+the information specified in Part 512. This includes the materials for 
+which confidentiality is being requested (as explained in more detail 
+below); supporting information, pursuant to Sec.  512.8; and a 
+certificate, pursuant to Sec.  512.4(b) and part 512, Appendix A.
+    You are required to submit to the Office of Chief Counsel one 
+unredacted ``confidential version'' of the information for which you 
+are seeking confidential treatment. Pursuant to Sec.  512.6, the words 
+``ENTIRE PAGE CONFIDENTIAL BUSINESS INFORMATION'' or ``CONFIDENTIAL 
+BUSINESS INFORMATION CONTAINED WITHIN BRACKETS'' (as applicable) must 
+appear at the top of each page containing information claimed to be 
+confidential. In the latter situation, where not all information on the 
+page is claimed to be confidential, identify each item of information 
+for which confidentiality is requested within brackets: ``[ ].''
+    You are also required to submit to the Office of Chief Counsel one 
+redacted ``public version'' of the information for which you are 
+seeking confidential treatment. Pursuant to Sec.  512.5(a)(2), the 
+redacted ``public version'' should include redactions of any 
+information for which you are seeking confidential treatment (i.e., the 
+only information that should be unredacted is information for which you 
+are not seeking confidential treatment). NHTSA is currently treating 
+electronic submission as an acceptable method for submitting 
+confidential business information to the agency under Part 512. Please 
+do not send a hardcopy of a request for confidential treatment to 
+NHTSA's headquarters. The request should be sent to Dan Rabinovitz in 
+the Office of the Chief Counsel at <a href="/cdn-cgi/l/email-protection#5014313e39353c7e023132393e3f2639242a10343f247e373f26"><span class="__cf_email__" data-cfemail="fbbf9a95929e97d5a99a999295948d928f81bb9f948fd59c948d">[email&#160;protected]</span></a>. You may 
+either submit your request via email or request a secure file transfer 
+link. If you are submitting the request via email, please also email a 
+courtesy copy of the request to Eli Wachtel at <a href="/cdn-cgi/l/email-protection#7f1a131651081e1c170b1a133f1b100b51181009"><span class="__cf_email__" data-cfemail="f0959c99de8791939884959cb0949f84de979f86">[email&#160;protected]</span></a>.
+Will the Agency consider late comments?
+    We will consider all comments received before the close of business 
+on the comment closing date indicated above under DATES. To the extent 
+possible, we will also consider comments that the docket receives after 
+that date. If the docket receives a comment too late for us to consider 
+in developing a final rule (assuming that one is issued), we will 
+consider that comment as an informal suggestion for future rulemaking 
+action.
+How can I read the comments submitted by other people?
+    You may read the comments received by the docket at the address 
+given above under ADDRESSES. The hours of the docket are indicated 
+above in the same location. You may also see the comments on the 
+internet. To read the comments on the internet, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Follow the online instructions for accessing the 
+dockets.
+    Please note that even after the comment closing date, we will 
+continue to file relevant information in the docket as it becomes 
+available. Further, some people may submit late comments. Accordingly, 
+we recommend that you periodically check the Docket for new material. 
+You can arrange with the docket to be notified when others file 
+comments in the docket. See <a href="http://www.regulations.gov">www.regulations.gov</a> for more information.
+
+Rulemaking Summary, 5 U.S.C. 553(b)(4)
+
+    For NHTSA's December 2024 EDR final rule, this NPRM proposes to 
+delay the compliance date from September 1, 2027, to September 1, 2028. 
+This NPRM also proposes to implement a phase-in period for EDRs to meet 
+the new requirements. As required by 5 U.S.C. 553(b)(4), a summary of 
+this rule can be found at <a href="http://www.regulations.gov">www.regulations.gov</a>, Docket No. NHTSA-2025-
+0050, in the SUMMARY section of this proposed rule.
+
+[[Page 54631]]
+
+List of Subjects
+
+49 CFR Part 563
+
+    Motor vehicle safety, Motor vehicles, Reporting and recordkeeping 
+requirements.
+
+49 CFR Part 585
+
+    Reporting and recordkeeping requirements.
+
+    In consideration of the foregoing, NHTSA proposes to amend 49 CFR 
+chapter V as follows:
+
+PART 563--EVENT DATA RECORDERS
+
+0
+1. The authority citation for Part 563 continues to read as follows:
+
+    Authority:  49 U.S.C. 322, 30101, 30111, 30115, 30117, 30166, 
+30168; delegation of authority at 49 CFR 1.95.
+
+0
+2. Add Sec.  563.4 to read as follows:
+
+
+Sec.  563.4  Certification for Phase-in.
+
+    (a) Vehicle certification information. At any time during the 
+production years ending August 31, 2029, August 31, 2030, August 31, 
+2031, and August 31, 2032, each manufacturer shall, upon request from 
+the Office of Vehicle Safety Compliance, provide information 
+identifying the vehicles (by make, model and vehicle identification 
+number) that have been equipped with EDRs meeting the requirements of 
+Sec.  563.7(a) and (b). The manufacturer's designation of a vehicle as 
+equipped with an EDR meeting these requirements is irrevocable.
+    (b) Vehicles produced by more than one manufacturer. For the 
+purpose of calculating average annual production of vehicles for each 
+manufacturer and the number of vehicles manufactured by each 
+manufacturer under Sec.  563.4(a), a vehicle produced by more than one 
+manufacturer shall be attributed to a single manufacturer as follows:
+    (1) A vehicle which is imported shall be attributed to the 
+importer.
+    (2) A vehicle manufactured in the United States by more than one 
+manufacturer, one of which also markets the vehicle, shall be 
+attributed to the manufacturer which markets the vehicle.
+    (c) A vehicle produced by more than one manufacturer shall be 
+attributed to any one of the vehicle's manufacturers specified by an 
+express written contract, reported to the National Highway Traffic 
+Safety Administration under 49 CFR part 585, between the manufacturer 
+so specified and the manufacturer to which the vehicle would otherwise 
+be attributed under Sec.  563.4(b).
+    (d) For the purposes of calculating average annual production of 
+vehicles for each manufacturer and the number of vehicles manufactured 
+by each manufacturer under Sec.  563.4(a), only count vehicles to which 
+this regulation is applicable as specified Sec.  563.3 and are equipped 
+with an EDR.
+0
+2. Revise Sec.  563.7 to read as follows:
+
+
+Sec.  563.7  Data elements.
+
+    (a) * * *
+
+            Table I to Sec.   563.7(a)--Data Elements Required for All Vehicles Equipped With an EDR
+----------------------------------------------------------------------------------------------------------------
+                                                                                                    Data sample
+                       Data element                        Recording interval/time \1\ (relative   rate (samples
+                                                                       to time zero)                per second)
+----------------------------------------------------------------------------------------------------------------
+Delta-V, longitudinal....................................  0 to 250 ms or 0 to End of Event Time             100
+                                                            plus 30 ms, whichever is shorter.
+Maximum delta-V, longitudinal............................  0-300 ms or 0 to End of Event Time                N/A
+                                                            plus 30 ms, whichever is shorter.
+Time, maximum delta-V....................................  0-300 ms or 0 to End of Event Time                N/A
+                                                            plus 30 ms, whichever is shorter.
+Speed, vehicle indicated.................................  -20 to 0 sec \4\.....................          \4\ 10
+Engine throttle, % full (or accelerator pedal, % full)...  -20 to 0 sec \4\.....................          \4\ 10
+Service brake, on/off....................................  -20 to 0 sec \4\.....................          \4\ 10
+Ignition cycle, crash....................................  -1.0 sec.............................             N/A
+Ignition cycle, download.................................  At time of download \3\..............             N/A
+Safety belt status, driver...............................  -1.0 sec.............................             N/A
+Frontal air bag warning lamp, on/off \2\.................  -1.0 sec.............................             N/A
+Frontal air bag deployment, time to deploy, in the case    Event................................             N/A
+ of a single stage air bag, or time to first stage
+ deployment, in the case of a multi-stage air bag, driver.
+Frontal air bag deployment, time to deploy, in the case    Event................................             N/A
+ of a single stage air bag, or time to first stage
+ deployment, in the case of a multi-stage air bag, right
+ front passenger.
+Multi-event, number of event.............................  Event................................             N/A
+Time from event 1 to 2...................................  As needed............................             N/A
+Complete file recorded (yes, no).........................  Following other data.................             N/A
+----------------------------------------------------------------------------------------------------------------
+\1\ Pre-crash data and crash data are asynchronous. The sample time accuracy requirement for pre-crash time is -
+  0.1 to 1.0 sec (e.g., T = -1 would need to occur between -1.1 and 0 seconds.)
+\2\ The frontal air bag warning lamp is the readiness indicator specified in S4.5.2 of FMVSS No. 208, and may
+  also illuminate to indicate a malfunction in another part of the deployable restraint system.
+\3\ The ignition cycle at the time of download is not required to be recorded at the time of the crash, but
+  shall be reported during the download process.
+\4\ Except as provided in the following phase-in, for vehicles manufactured before September 1, 2031, the
+  required recording interval is -5.0 to 0 sec relative to time zero and the required data sample rate is two
+  samples per second. For vehicles manufactured on or after September 1, 2028 but before August 31, 2029, 25
+  percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured on or after September 1, 2029 but before August 31, 2030,
+  50 percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured on or after September 1, 2030 but before August 31, 2031,
+  75 percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured before September 1, 2032 by a small-volume manufacturer or
+  limited-line manufacturer, the required recording interval is -5.0 to 0 sec relative to time zero and the
+  required data sample rate is two samples per second. For vehicles manufactured before September 1, 2033 by
+  manufacturers producing altered vehicles or vehicles in two or more stages, the required recording interval is
+  -5.0 to 0 sec relative to time zero and the required data sample rate is two samples per second.
+
+    (b) * * *
+
+[[Page 54632]]
+
+
+
+       Table II to Sec.   563.7(b)--Data Elements Required for Vehicles Under Specified Minimum Conditions
+----------------------------------------------------------------------------------------------------------------
+                                                                        Recording interval/time     Data sample
+            Data element name              Condition for requirement     \1\ (relative to time       rate (per
+                                                                                 zero)                second)
+----------------------------------------------------------------------------------------------------------------
+Lateral acceleration....................  If recorded \2\...........  N/A.......................             N/A
+Longitudinal acceleration...............  If recorded...............  N/A.......................             N/A
+Normal acceleration.....................  If recorded...............  N/A.......................             N/A
+Delta-V, lateral........................  If recorded...............  0-250 ms or 0 to End of                100
+                                                                       Event Time plus 30 ms,
+                                                                       whichever is shorter.
+Maximum delta-V, lateral................  If recorded...............  0-300 ms or 0 to End of                N/A
+                                                                       Event Time plus 30 ms,
+                                                                       whichever is shorter.
+Time maximum delta-V, lateral...........  If recorded...............  0-300 ms or 0 to End of                N/A
+                                                                       Event Time plus 30 ms,
+                                                                       whichever is shorter.
+Time for maximum delta-V, resultant.....  If recorded...............  0-300 ms or 0 to End of                N/A
+                                                                       Event Time plus 30 ms,
+                                                                       whichever is shorter.
+Engine rpm..............................  If recorded...............  -20 to 0 sec \5\..........          \5\ 10
+Vehicle roll angle......................  If recorded...............  -1.0 up to 5.0 sec \3\....              10
+ABS activity (engaged, non-engaged).....  If recorded...............  -20 to 0 sec \5\..........          \5\ 10
+Stability control (on, off, or engaged).  If recorded...............  -20 to 0 sec \5\..........          \5\ 10
+Steering input..........................  If recorded...............  -20 to 0 sec \5\..........          \5\ 10
+Safety belt status, right front           If recorded...............  -1.0 sec..................             N/A
+ passenger (buckled, not buckled).
+Frontal air bag suppression switch        If recorded...............  -1.0 sec..................             N/A
+ status, right front passenger (on, off,
+ or auto).
+Frontal air bag deployment, time to nth   If equipped with a          Event.....................             N/A
+ stage, driver \4\.                        driver's frontal air bag
+                                           with a multi-stage
+                                           inflator.
+Frontal air bag deployment, time to nth   If equipped with a right    Event.....................             N/A
+ stage, right front passenger \4\.         front passenger's frontal
+                                           air bag with a multi-
+                                           stage inflator.
+Frontal air bag deployment, nth stage     If recorded...............  Event.....................             N/A
+ disposal, driver, Y/N (whether the nth
+ stage deployment was for occupant
+ restraint or propellant disposal
+ purposes).
+Frontal air bag deployment, nth stage     If recorded...............  Event.....................             N/A
+ disposal, right front passenger, Y/N
+ (whether the nth stage deployment was
+ for occupant restraint or propellant
+ disposal purposes).
+Side air bag deployment, time to deploy,  If recorded...............  Event.....................             N/A
+ driver.
+Side air bag deployment, time to deploy,  If recorded...............  Event.....................             N/A
+ right front passenger.
+Side curtain/tube air bag deployment,     If recorded...............  Event.....................             N/A
+ time to deploy, driver side.
+Side curtain/tube air bag deployment,     If recorded...............  Event.....................             N/A
+ time to deploy, right side.
+Pretensioner deployment, time to fire,    If recorded...............  Event.....................             N/A
+ driver.
+Pretensioner deployment, time to fire,    If recorded...............  Event.....................             N/A
+ right front passenger.
+Seat track position switch, foremost,     If recorded...............  -1.0 sec..................             N/A
+ status, driver.
+Seat track position switch, foremost,     If recorded...............  -1.0 sec..................             N/A
+ status, right front passenger.
+Occupant size classification, driver....  If recorded...............  -1.0 sec..................             N/A
+Occupant size classification, right       If recorded...............  -1.0 sec..................             N/A
+ front passenger.
+Occupant position classification, driver  If recorded...............  -1.0 sec..................             N/A
+Occupant position classification, right   If recorded...............  -1.0 sec..................             N/A
+ front passenger.
+----------------------------------------------------------------------------------------------------------------
+\1\ Pre-crash data and crash data are asynchronous. The sample time accuracy requirement for pre-crash time is -
+  0.1 to 1.0 sec (e.g., T = -1 would need to occur between -1.1 and 0 seconds.).
+\2\ ``If recorded'' means if the data is recorded in non-volatile memory for the purpose of subsequent
+  downloading.
+\3\ ``vehicle roll angle'' may be recorded in any time duration; -1.0 sec to 5.0 sec is suggested.
+\4\ List this element n -1 times, once for each stage of a multi-stage air bag system.
+\5\ Except as provided in the following phase-in, for vehicles manufactured before September 1, 2031, the
+  required recording interval is -5.0 to 0 sec relative to time zero and the required data sample rate is two
+  samples per second. For vehicles manufactured on or after September 1, 2028 but before August 31, 2029, 25
+  percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured on or after September 1, 2029 but before August 31, 2030,
+  50 percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured on or after September 1, 2030 but before August 31, 2031,
+  75 percent of each manufacturer's vehicle production must have the recording interval and data sample rate
+  displayed in this table. For vehicles manufactured before September 1, 2032 by a small-volume manufacturer or
+  limited-line manufacturer, the required recording interval is -5.0 to 0 sec relative to time zero and the
+  required data sample rate is two samples per second. For vehicles manufactured before September 1, 2033 by
+  manufacturers producing altered vehicles or vehicles in two or more stages, the required recording interval is
+  -5.0 to 0 sec relative to time zero and the required data sample rate is two samples per second.
+
+
+[[Page 54633]]
+
+PART 585--PHASE-IN REPORTING REQUIREMENTS
+
+0
+3. The authority citation for part 585 continues to read as follows:
+
+    Authority: 49 U.S.C. 322, 30111, 30115, 30117, and 30166; 
+delegation of authority at 49 CFR 1.95.
+
+0
+4. Add Subpart P, consisting of Sec.  Sec.  585.142 through 585.148, to 
+read as follows:
+Subpart P--Event Data Recorders Phase-In Reporting Requirements
+Sec.
+585.142 Scope
+585.143 Purpose
+585.144 Applicability
+585.145 Definitions
+585.146 Response to inquiries
+585.147 Reporting requirements
+585.148 Records
+
+Subpart P--Event Data Recorders Phase-In Reporting Requirements
+
+
+Sec.  585.142  Scope
+
+    This subpart establishes requirements for manufacturers of 
+passenger cars, multipurpose passenger vehicles, trucks, and buses with 
+a GVWR of 3,855 kg (8,500 pounds) or less and an unloaded vehicle 
+weight of 2,495 kg (5,500 pounds) or less, except for walk-in van-type 
+trucks or vehicles designed to be sold exclusively to the U.S. Postal 
+Service, to submit a report per Sec.  585.147, and maintain records 
+related to the report according to Sec.  585.148, concerning the number 
+of such vehicles that meet the requirements of part 563, Event data 
+recorders (49 CFR 563).
+
+
+Sec.  585.143  Purpose
+
+    The purpose of these reporting requirements is to assist the 
+National Highway Traffic Safety Administration in determining whether a 
+manufacturer has complied with Part 563 (49 CFR 563).
+
+
+Sec.  585.144  Applicability
+
+    This subpart applies to manufacturers of passenger cars, 
+multipurpose passenger vehicles, trucks, and buses with a GVWR of 3,855 
+kg (8,500 pounds) or less and an unloaded vehicle weight of 2,495 kg 
+(5,500 pounds) or less, except for walk-in van-type trucks or vehicles 
+designed to be sold exclusively to the U.S. Postal Service, for which 
+Part 563 applies. However, this subpart does not apply to vehicles 
+excluded by Sec.  563.3 from the requirements of that standard.
+
+
+Sec.  585.145  Definitions
+
+    (a) Event data recorder (EDR) is used as defined in 49 CFR 563.5.
+
+
+Sec.  585.146  Response to inquiries
+
+    At any time during the production years ending August 31, 2029, 
+August 31, 2030, August 31, 2031, and August 31, 2032, each 
+manufacturer shall, upon request from the Office of Vehicle Safety 
+Compliance, provide information identifying the vehicles (by make, 
+model and vehicle identification number) that have been certified as 
+complying with part 563 (49 CFR 563). The manufacturer's designation of 
+a vehicle as a certified vehicle is irrevocable.
+
+
+Sec.  585.147  Reporting requirements
+
+    (a) General reporting requirements. Within 60 days after the end of 
+the production years ending August 31, 2029, August 31, 2030, August 
+31, 2031, and August 31, 2032, each manufacturer shall submit a report 
+to the National Highway Traffic Safety Administration concerning its 
+compliance with the event data recorder requirements of part 563 (49 
+CFR 563) for applicable vehicles produced in that year. Each report 
+shall:
+    (1) Identify the manufacturer;
+    (2) State the full name, title, and address of the official 
+responsible for preparing the report;
+    (3) Identify the production year being reported on;
+    (4) Contain a statement regarding whether or not the manufacturer 
+complied with the event data recorder data element capture requirements 
+of part 563 (49 CFR 563) for the period covered by the report and the 
+basis for that statement;
+    (5) Provide the information specified in paragraph (b) of this 
+section;
+    (6) Be written in the English language; and
+    (7) Be submitted to: Administrator, National Highway Traffic Safety 
+Administration, 1200 New Jersey Ave. SE, West Building, Washington, DC 
+20590.
+    (b) Report content--(1) Basis for phase-in production goals. Each 
+manufacturer must provide the number of passenger cars, multipurpose 
+passenger vehicles, trucks, and buses with a GVWR of 3,855 kg (8,500 
+pounds) or less and an unloaded vehicle weight of 2,495 kg (5,500 
+pounds) or less, except for walk-in van-type trucks or vehicles 
+designed to be sold exclusively to the U.S. Postal Service, 
+manufactured for sale in the United States for each of the most recent 
+three previous production years, or, at the manufacturer's option, for 
+the most recently ended production year that are equipped with an EDR 
+that meets the requirements in part 563. A new manufacturer that has 
+not previously manufactured these vehicles for sale in the United 
+States must submit a report at the end of the initial production year 
+for the number of such vehicles manufactured during the initial 
+production year.
+    (2) Production. Each manufacturer must report for the production 
+year for which the report is filed: the number of passenger cars, 
+multipurpose passenger vehicles, trucks, and buses with a GVWR of 3,855 
+kg (8,500 pounds) or less and an unloaded vehicle weight of 2,495 kg 
+(5,500 pounds) or less, except for walk-in van-type trucks or vehicles 
+designed to be sold exclusively to the U.S. Postal Service, that are 
+equipped with an EDR and that do and do not meet Sec.  563.7 (49 CFR 
+563.7).
+    (3) Vehicles produced by more than one manufacturer. Each 
+manufacturer whose reporting of information is affected by one or more 
+of the express written contracts permitted by Sec.  563.7(b)(5) must:
+    (i) Report the existence of each contract, including the names of 
+all parties to the contract, and explain how the contract affects the 
+report being submitted.
+    (ii) Report the actual number of vehicles covered by each contract.
+
+
+Sec.  585.148  Records
+
+    Each manufacturer must maintain records of the Vehicle 
+Identification Number for each vehicle for which information is 
+reported under Sec.  585.147 until December 31, 2033.
+
+    Issued under authority delegated in 49 CFR 1.95. The Paperwork 
+Reduction Act of 1995; 44 U.S.C. Chapter 35, as amended; 49 CFR 
+1.49; and DOT Order 1351.29A.
+Jonathan Morrison,
+Administrator.
+[FR Doc. 2025-21506 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-59-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54403-54404]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21311]
+
+
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[NRC-2024-0072]
+
+
+Information Collection: NRC Form 176, Security Acknowledgement 
+and Termination
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Notice of submission to the Office of Management and Budget; 
+request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) has recently 
+submitted a request for renewal of an existing collection of 
+information to the Office of Management and Budget (OMB) for review. 
+The information collection is entitled, NRC Form 176, ``Security 
+Acknowledgement and Termination.''
+
+DATES: Submit comments by December 26, 2025. Comments received after 
+this date will be considered if it is practical to do so, but the 
+Commission is able to ensure consideration only for comments received 
+on or before this date.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection by selecting ``Currently under 
+Review--Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Heather Dempsey, Acting NRC Clearance 
+Officer, U.S. Nuclear Regulatory Commission, Washington, DC 20555-0001; 
+telephone: 301-415-0856; email: <a href="/cdn-cgi/l/email-protection#256c4b434a464a4949404651560b7740564a50574640654b57460b424a53"><span class="__cf_email__" data-cfemail="7b32151d14181417171e180f0855291e08140e09181e3b150918551c140d">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+[[Page 54404]]
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+    Please refer to Docket ID NRC-2024-0072 when contacting the NRC 
+about the availability of information for this action. You may obtain 
+publicly available information related to this action by any of the 
+following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2024-0072.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select ``Begin ADAMS Public Search.'' 
+For problems with ADAMS, please contact the NRC's Public Document Room 
+(PDR) reference staff at 1-800-397-4209, at 301-415-4737, or by email 
+to <a href="/cdn-cgi/l/email-protection#0d5d495f235f687e62787f6e684d637f6e236a627b"><span class="__cf_email__" data-cfemail="673723354935021408121504022709150449000811">[email&#160;protected]</span></a>. A copy of the collection of information and 
+related instructions may be obtained without charge by accessing ADAMS 
+Accession No. ML25261A182. The supporting statement is available in 
+ADAMS under Accession No. ML25261A180.
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#366672641864534559434455537658445518515940"><span class="__cf_email__" data-cfemail="d9899d8bf78bbcaab6acabbabc99b7abbaf7beb6af">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 8 
+a.m. and 4 p.m. eastern time (ET), Monday through Friday, except 
+Federal holidays.
+    <bullet> NRC's Clearance Officer: A copy of the collection of 
+information and related instructions may be obtained without charge by 
+contacting the NRC's Acting Clearance Officer, Heather Dempsey, Office 
+of the Chief Information Officer, U.S. Nuclear Regulatory Commission, 
+Washington, DC 20555-0001; telephone: 301-415-0856; email: 
+<a href="/cdn-cgi/l/email-protection#da93b4bcb5b9b5b6b6bfb9aea9f488bfa9b5afa8b9bf9ab4a8b9f4bdb5ac"><span class="__cf_email__" data-cfemail="aee7c0c8c1cdc1c2c2cbcddadd80fccbddc1dbdccdcbeec0dccd80c9c1d8">[email&#160;protected]</span></a>.
+
+B. Submitting Comments
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under Review--Open for 
+Public Comments'' or by using the search function.
+    The NRC cautions you not to include identifying or contact 
+information in comment submissions that you do not want to be publicly 
+disclosed in your comment submission. All comment submissions are 
+posted at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and entered into ADAMS. Comment 
+submissions are not routinely edited to remove identifying or contact 
+information.
+    If you are requesting or aggregating comments from other persons 
+for submission to the OMB, then you should inform those persons not to 
+include identifying or contact information that they do not want to be 
+publicly disclosed in their comment submission. Your request should 
+state that comment submissions are not routinely edited to remove such 
+information before making the comment submissions available to the 
+public or entering the comment into ADAMS.
+
+II. Background
+
+    Under the provisions of the Paperwork Reduction Act of 1995 (44 
+U.S.C. Chapter 35), the NRC recently submitted a request for renewal of 
+an existing collection of information to OMB for review entitled, NRC 
+Form 176, ``Security Acknowledgement and Termination.'' The NRC hereby 
+informs potential respondents that an agency may not conduct or 
+sponsor, and that a person is not required to respond to, a collection 
+of information unless it displays a currently valid OMB control number.
+    The NRC published a Federal Register notice with a 60-day comment 
+period on this information collection on June 6, 2025, 90 FR 24165.
+    1. The title of the information collection: NRC Form 176, Security 
+Acknowledgement and Termination.
+    2. OMB approval number: 3150-0239.
+    3. Type of submission: Revision.
+    4. The form number, if applicable: NRC Form 176.
+    5. How often the collection is required or requested: On occasion.
+    6. Who will be required or asked to respond: NRC employees, 
+licensees, and contractors.
+    7. The estimated number of annual responses: 1,000.
+    8. The estimated number of annual respondents: 1,000.
+    9. The estimated number of hours needed annually to comply with the 
+information collection requirement or request: 200.
+    10. Abstract: The NRC Form 176, ``Security Acknowledgment and 
+Termination Statement,'' is completed by employees, licensees, and 
+contractors in connection with the termination of their access 
+authorization/security clearance granted by the NRC and to 
+acknowledgment and accept their continuing security responsibility.
+
+    Dated: November 24, 2025.
+
+    For the Nuclear Regulatory Commission.
+Heather Dempsey,
+Acting NRC Clearance Officer, Office of the Chief Information Officer.
+[FR Doc. 2025-21311 Filed 11-25-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54791-54792]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21389]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0211]
+
+
+Agency Information Collection Activities; Comment Request; 
+Extension: Rule 18f-1 and Form N-18f-1
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 350l-3520), the Securities and Exchange 
+Commission (``Commission'') has submitted to the Office of Management 
+and Budget a request for extension of the previously approved 
+collection of information discussed below.
+
+[[Page 54792]]
+
+    Rule 18f-1 (17 CFR 270.18f-1) enables a registered open-end 
+management investment company (``fund'') that may redeem its securities 
+in-kind, by making a one-time election, to commit to make cash 
+redemptions pursuant to certain requirements without violating section 
+18(f) of the Investment Company Act of 1940 (15 U.S.C. 80a-18(f)). A 
+fund relying on the rule must file Form N-18F-1 (17 CFR 274.51) to 
+notify the Commission of this election. The Commission staff estimates 
+that 8 funds file Form N-18F-1 annually, and that each response takes 
+one hour. Based on these estimates, the total annual burden hours 
+associated with the rule is estimated to be 8 hours. The estimated 
+burden hours associated with rule 18f-1 and Form 18F-1 have decreased 
+by 4 hours from the current allocation of 12 hours. This decrease is 
+due to a decrease in the estimated number of investment companies 
+filing Form N-18F-1 annually. There is no external cost associated with 
+this collection of information.
+    The estimate of average burden hours is made solely for the 
+purposes of the Paperwork Reduction Act, and is not derived from a 
+comprehensive or even a representative survey or study of the costs of 
+Commission rules. The collection of information required by rule 18f-1 
+is necessary to obtain the benefits of the rule. Responses to the 
+collection of information will not be kept confidential.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-006">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-006</a> or send an email comment to 
+<a href="/cdn-cgi/l/email-protection#d499968cfa9b9996fa9b9d8695fa8791978bb0b1a7bf8bbbb2b2bdb7b1a694bbb9b6fab1bba4fab3bba2"><span class="__cf_email__" data-cfemail="1d505f453352505f3352544f5c334e585e4279786e7642727b7b747e786f5d72707f3378726d337a726b">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice by December 29, 2025.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21389 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

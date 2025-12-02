@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55152-55154]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21607]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+U.S. Customs and Border Protection
+
+[OMB Control Number 1651-0022]
+
+
+Agency Information Collection Activities; Revision; Entry Summary
+
+AGENCY: U.S. Customs and Border Protection (CBP), Department of 
+Homeland Security.
+
+ACTION: 30-Day notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Homeland Security, U.S. Customs and Border 
+Protection (CBP) will be submitting the following information 
+collection request to the Office of Management and Budget (OMB) for 
+review and approval in accordance with the Paperwork Reduction Act of 
+1995 (PRA). The information collection is published in the Federal 
+Register to obtain comments from the public and affected agencies.
+
+DATES: Comments are encouraged and must be submitted (no later than 
+December 31, 2025) to be assured of consideration.
+
+ADDRESSES: Written comments and/or suggestions regarding the item(s) 
+contained in this notice should be sent within 30 days of publication 
+of this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Please submit 
+written comments and/or suggestions in English. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional PRA 
+information should be directed to Seth Renkema, Chief, Economic Impact 
+Analysis Branch, U.S. Customs and Border Protection, Office of Trade, 
+Regulations and Rulings, 90 K Street NE, 10th Floor, Washington, DC 
+20229-1177, Telephone number 202-325-0056 or via email 
+<a href="/cdn-cgi/l/email-protection#91d2d3c1cec1c3d0d1f2f3e1bff5f9e2bff6fee7"><span class="__cf_email__" data-cfemail="723130222d222033321110025c161a015c151d04">[email&#160;protected]</span></a>. Please note that the contact information provided 
+here is solely for questions regarding this notice. Individuals seeking 
+information about other CBP programs should contact the CBP National 
+Customer Service Center at 877-227-5511, (TTY) 1-800-877-8339, or CBP 
+website at <a href="https://www.cbp.gov/">https://www.cbp.gov/</a> gov/.
+
+SUPPLEMENTARY INFORMATION: CBP invites the general public and other 
+Federal agencies to comment on the proposed and/or continuing 
+information collections pursuant to the Paperwork Reduction Act of 1995 
+(44 U.S.C. 3501 et seq.). This proposed information collection was 
+previously published in the Federal Register (90 FR 46624) on September 
+29, 2025, allowing for a 60-day comment period. This notice allows for 
+an additional 30 days for public comments. This process is conducted in 
+accordance with 5 CFR 1320.8. Written comments and suggestions from the 
+public and affected agencies should address one or more of the 
+following four points: (1) whether the proposed collection of 
+information is necessary for the proper performance of the functions of 
+the agency, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3)
+
+[[Page 55153]]
+
+suggestions to enhance the quality, utility, and clarity of the 
+information to be collected; and (4) suggestions to minimize the burden 
+of the collection of information on those who are to respond, including 
+through the use of appropriate automated, electronic, mechanical, or 
+other technological collection techniques or other forms of information 
+technology, e.g., permitting electronic submission of responses. The 
+comments that are submitted will be summarized and included in the 
+request for approval. All comments will become a matter of public 
+record.
+
+Overview of This Information Collection
+
+    Title: Entry Summary.
+    OMB Number: 1651-0022.
+    Form Number: 7501.
+    Current Actions: Revision.
+    Type of Review: Revision.
+    Affected Public: Importer, importer's agent for each import 
+transaction.
+    Abstract: CBP Form 7501, Entry Summary, is used to identify 
+merchandise entering the commerce of the United States, and to document 
+the amount of duty and/or tax paid. CBP Form 7501 is submitted by the 
+importer, or the importer's agent, for each import transaction. The 
+data on this form is used by CBP as a record of the import transaction; 
+to collect the proper duty, taxes, certifications, and enforcement 
+information; and to provide data to the U.S. Census Bureau for 
+statistical purposes. CBP Form 7501 must be filed within 10 working 
+days from the time of entry of merchandise into the United States. 
+Collection of the data on this form is authorized by 19 U.S.C. 1484 and 
+provided for by 19 CFR 141.61 and 19 CFR 142.11. CBP Form 7501 and 
+accompanying instructions can be found at: <a href="https://www.cbp.gov/newsroom/publications/forms?title_1=7501">https://www.cbp.gov/newsroom/publications/forms?title_1=7501</a>.
+    Previously approved revision to Form 7501:
+    For certain Harmonized Tariff Schedule (HTS) classifications of 
+steel imports, the country where the steel used in the manufacture of 
+the product was melted and poured; the country where the steel used in 
+the manufacture of the product was melted and poured applies to the 
+original location where the raw steel is first produced in a steel-
+making furnace in a liquid state; and then poured into its first solid 
+shape.
+    For certain HTS classifications of aluminum imports, the countries 
+where the largest and second largest volume of primary aluminum used in 
+the manufacture of the imported aluminum product was smelted; and the 
+country where the aluminum used in the imported aluminum product was 
+most recently cast. The fields requiring identification of the 
+countries where the largest volume of primary aluminum used in the 
+manufacture of the product was smelted applies to the country where the 
+largest volume of new aluminum metal is produced from alumina (or 
+aluminum oxide) by the electrolytic Hall-H[eacute]roult process. 
+Importers may be required to report if primary aluminum from specific 
+countries is used in the imported aluminum product, if required by law 
+and/or Presidential Proclamation.\1\
+---------------------------------------------------------------------------
+
+    \1\ The February 24, 2023 Presidential Proclamation on Adjusting 
+Imports of Aluminum Into the United States requires importers to 
+provide to CBP information necessary to identify the countries where 
+the primary aluminum used in the manufacture of certain imports of 
+aluminum articles are smelted and information necessary to identify 
+the countries where such aluminum articles imports are cast. This 
+notice proposes to add the aluminum smelt and cast data fields to 
+Form 7501 independently from the February 24, 2023 Proclamation.
+---------------------------------------------------------------------------
+
+    Importers will be required to report on Form 7501 the steel country 
+of melt and pour and aluminum countries of smelt and cast for imports 
+under those steel and aluminum HTS classifications subject to the 
+Commerce Department's steel and aluminum import license applications, 
+and where applicable, the Section 232 steel and aluminum measures.
+    The data elements align the Form 7501 reporting requirements with 
+the Commerce Department's existing reporting requirements for steel 
+melt and pour and aluminum smelt and cast countries for steel and 
+aluminum import license applications under 19 CFR 360.103(c)(1) and 19 
+CFR 361.103(c)(1). The aluminum and steel license application 
+information is used by the Commerce Department for monitoring of 
+anticipated imports of certain aluminum and steel products into the 
+United States. The Form 7501 data is used by CBP to determine, when 
+imports are entered for consumption, the proper number of duties, 
+applicable fees, taxes, and imports subject to quota.
+    These data fields are also required to enforce the tariff rate 
+quotas for imported steel and aluminum established by the following 
+Presidential Proclamations under section 232 of the Trade Expansion Act 
+of 1962, as amended: for products of the European Union, Proclamation 
+10327 of December 27, 2021 (87 FR 1, January 3, 2022) and Proclamation 
+10328 of December 27, 2021 (87 FR 11, January 3, 2022); for products of 
+Japan (steel-only), Proclamation 10356 of March 31, 2022 (87 FR 19351, 
+April 1, 2022); and for products of the United Kingdom, Proclamation 
+10405 of May 31, 2022 (87 FR 33583, June 3, 2022) and Proclamation 
+10406 of May 31, 2022 (87 FR 33591, June 3, 2022); and any amendments 
+to these Proclamations.
+    New Changes: Updates to Form 7501 instructions; changes listed 
+specifically in the supporting statement document.
+    Type of Information Collection: 7501 Formal Entry (Electronic 
+submission).
+    Estimated Number of Respondents: 2,336.
+    Estimated Number of Annual Responses per Respondent: 9,903.
+    Estimated Number of Total Annual Responses: 23,133,408.
+    Estimated Time per Response: 5 minutes.
+    Estimated Total Annual Burden Hours: 1,920,073.
+    Type of Information Collection: 7501 Formal Entry (Paper 
+Submission).
+    Estimated Number of Respondents: 28.
+    Estimated Number of Annual Responses per Respondent: 9,903.
+    Estimated Number of Total Annual Responses: 277,284.
+    Estimated Time per Response: 20 minutes.
+    Estimated Total Annual Burden Hours: 92,336.
+    Type of Information Collection: 7501 Formal Entry w/Softwood Lumber 
+Act of 2008 (Paper Only).
+    Estimated Number of Respondents: 210.
+    Estimated Number of Annual Responses per Respondent: 1,905.
+    Estimated Number of Total Annual Responses: 400,050.
+    Estimated Time per Response: 40 minutes.
+    Estimated Total Annual Burden Hours: 266,433.
+    Type of Information Collection: 7501 Informal Entry (Electronic 
+Submission).
+    Estimated Number of Respondents: 1,883.
+    Estimated Number of Annual Responses per Respondent: 2,582.
+    Estimated Number of Total Annual Responses: 4,861,906.
+    Estimated Time per Response: 5 minutes.
+    Estimated Total Annual Burden Hours: 403,538.
+    Type of Information Collection: 7501 Informal Entry (Paper 
+Submission).
+    Estimated Number of Respondents: 19.
+    Estimated Number of Annual Responses per Respondent: 2,582.
+    Estimated Number of Total Annual Responses: 49,058.
+    Estimated Time per Response: 15 minutes.
+    Estimated Total Annual Burden Hours: 12,265.
+    Type of Information Collection: 7501A Document/Payment Transmittal 
+(Paper Only).
+
+[[Page 55154]]
+
+    Estimated Number of Respondents: 20.
+    Estimated Number of Annual Responses per Respondent: 60.
+    Estimated Number of Total Annual Responses: 1,200.
+    Estimated Time per Response: 15 minutes.
+    Estimated Total Annual Burden Hours: 300.
+    Type of Information Collection: Exclusion Approval Information 
+Letter.
+    Estimated Number of Respondents: 5,000.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 5,000.
+    Estimated Time per Response: 3 minutes.
+    Estimated Total Annual Burden Hours: 250.
+
+Seth D. Renkema,
+Branch Chief, Economic Impact Analysis Branch, U.S. Customs and Border 
+Protection.
+[FR Doc. 2025-21607 Filed 11-28-25; 8:45 am]
+BILLING CODE 9111-14-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Page 53412]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20944]
+
+
+
+[[Page 53412]]
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0764]
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Extension: Rule 6c-11
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736.
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (the ``Commission'') has submitted to the Office of 
+Management and Budget a request for extension of the previously 
+approved collection of information discussed below.
+    Rule 6c-11 under the Investment Company Act of 1940 (the ``Act'') 
+permits exchange-traded funds (``ETFs'') that satisfy certain 
+conditions to operate without first obtaining an exemptive order from 
+the Commission. The rule was designed to create a consistent, 
+transparent, and efficient regulatory framework for ETFs and facilitate 
+greater competition and innovation among ETFs. Rule 6c-11 requires an 
+ETF to disclose certain information on its website, to maintain certain 
+records, and to adopt and implement written policies and procedures 
+governing its constructions of baskets, as well as written policies and 
+procedures that set forth detailed parameters for the construction and 
+acceptance of custom baskets that are in the best interests of the ETF 
+and its shareholders.
+    We estimate that the total hour burdens and time costs associated 
+with rule 6c-11, including the burden associated with reviewing and 
+updating website disclosures, recordkeeping, and reviewing and updating 
+policies and procedures, will result in an average aggregate annual 
+burden of 74,580.75 hours and an average aggregate time cost of 
+$1,964,817.
+    The requirements of this collection of information are mandatory. 
+If information collected pursuant to rule 6c-11 is reviewed by the 
+Commission's examination staff, it will be accorded the same level of 
+confidentiality accorded to other responses provided to the Commission 
+in the context of its examination and oversight program.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will have 
+practical utility; (b) the accuracy of the SEC's estimate of the burden 
+imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-001">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-001</a> or email comment to 
+<a href="/cdn-cgi/l/email-protection#6e232c364021232c4021273c2f403d2b2d310a0b1d0531010808070d0b1c2e01030c400b011e40090118"><span class="__cf_email__" data-cfemail="377a756f19787a7519787e657619647274685352445c685851515e54524577585a551952584719505841">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice, by December 26, 2025.
+
+    Dated: November 21, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-20944 Filed 11-24-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

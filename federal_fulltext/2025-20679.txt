@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53012-53013]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20679]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0728]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Extension: Rule 17ab2-2
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (SEC or ``Commission'') is soliciting comments on the 
+proposed collection of information provided for in Rule 17ab2-2 (17 CFR 
+240.17ab2-2) under the Securities Exchange Act of 1934 (15 U.S.C. 78a 
+et seq.). The Commission plans to submit this existing collection of 
+information to the Office of Management and Budget (``OMB'') for 
+extension and approval.
+    Exchange Act Rule 17ab2-2 establishes procedures for making 
+determinations affecting covered clearing agencies in certain defined 
+circumstances. Exchange Act Rule 17ab2-2(a) establishes procedures for 
+the Commission to make a determination, either of its own initiative or 
+upon application by any clearing agency or member of a clearing agency, 
+whether a covered clearing agency is systemically important in multiple 
+jurisdictions. Exchange Act
+
+[[Page 53013]]
+
+Rule 17ab2-2(b) establishes procedures to determine, if the Commission 
+deems appropriate, whether any of the activities of a clearing agency 
+providing central counterparty services, in addition to clearing 
+agencies registered with the Commission for the purpose of clearing 
+security-based swaps, have a more complex risk profile. Exchange Act 
+Rule 17ab2-2(c) provides a procedure for the Commission to determine, 
+either of its own initiative or upon application by any clearing agency 
+or member of a clearing agency, whether to rescind any such 
+determinations previously made by the Commission.
+    A clearing agency or one of its members that seeks a determination 
+from the Commission under Rule 17ab2- or rescission of any 
+determination previously made by the Commission under Rule 17ab2-2 must 
+submit an application to the Commission. A respondent would have the 
+burden of preparing such application for submission to the Commission. 
+The Commission would use the information in the collection to 
+facilitate its determination regarding systemic importance in multiple 
+jurisdictions or a recission of a determination. It is unlikely that 
+confidential information would be included in the collection of 
+information, but such information received would be kept confidential 
+subject to provisions of the Freedom of Information Act.
+    Commission staff believes that Rule 17ab2-2 would impose a PRA 
+burden on a clearing agency that applies for a determination from the 
+Commission under the rule. Commission staff estimate that two 
+respondent clearing agencies (or a member of a clearing agency) could 
+submit an application for such a determination.
+    Commission staff estimates that each respondent clearing agency 
+incurs a one-time burden of 10 hours and a one-time cost of $2,190 to 
+draft and review a determination request submitted to the Commission, 
+for a total of 20 hours and $4,380 for all respondents. The total 
+annualized burden and cost for all respondents are 6.66 hours and 
+$1,460.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will have 
+practical utility; (b) the accuracy of the SEC's estimate of the burden 
+imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    Please direct your written comments on this 60-Day Collection 
+Notice to Austin Gerig, Director/Chief Data Officer, Securities and 
+Exchange Commission, c/o Tanya Ruttenberg via email to 
+<a href="/cdn-cgi/l/email-protection#1646776673646179647d4473726375627f79785775625665737538717960"><span class="__cf_email__" data-cfemail="9eceffeefbece9f1ecf5ccfbfaebfdeaf7f1f0dffdeadeedfbfdb0f9f1e8">[email&#160;protected]</span></a> by January 23, 2026. There will be a 
+second opportunity to comment on this SEC request following the Federal 
+Register publishing a 30-Day Submission Notice.
+
+    Dated: November 19, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-20679 Filed 11-21-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

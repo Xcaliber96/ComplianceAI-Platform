@@ -1,0 +1,1080 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54611-54619]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21597]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 257
+
+[EPA-HQ-OLEM-2025-2864; FRL-12968-01-OLEM]
+RIN 2050-AH42
+
+
+Hazardous and Solid Waste Management System: Disposal of Coal 
+Combustion Residuals From Electric Utilities; Extension of an 
+Alternative Closure Requirement Deadline
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Proposed rule; notice of public hearing.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA or the Agency) is 
+proposing to extend, by three years, one compliance deadline applicable 
+to certain coal combustion residuals (CCR) surface impoundments 
+operating pursuant to the alternative closure requirements. 
+Specifically, EPA is extending the deadline for owners and operators to 
+complete closure of their unlined CCR surface impoundments larger than 
+40 acres from October 17, 2028, to October 17, 2031. This deadline 
+extension will promote electric grid reliability by allowing a subset 
+of coal-fired power producers to continue to operate beyond their 
+currently scheduled retirement date.
+
+DATES: Comments must be received on or before January 7, 2026. Public 
+Hearing. EPA will hold a virtual public hearing on January 6, 2026. 
+Please refer to the SUPPLEMENTARY INFORMATION section for additional 
+information on the public hearing.
+
+ADDRESSES: You may send comments, identified by Docket ID No. EPA-HQ-
+OLEM-2025-2864, by any of the following methods:
+    <bullet> Federal eRulemaking Portal: <a href="https://www.regulations.gov/">https://www.regulations.gov/</a> 
+(our preferred method). Follow the online instructions for submitting 
+comments.
+    <bullet> Mail: U.S. Environmental Protection Agency, EPA Docket 
+Center, Office of Land and Emergency Management (OLEM) Docket, Mail 
+Code 28221T, 1200 Pennsylvania Avenue NW, Washington, DC 20460.
+    <bullet> Hand Delivery or Courier: EPA Docket Center, WJC West 
+Building, Room 3334, 1301 Constitution Avenue NW, Washington, DC 20004. 
+The Docket Center's hours of operations are 8:30 a.m. to 4:30 p.m., 
+Monday-Friday (except Federal Holidays).
+    Instructions: All submissions received must include the Docket ID 
+No. for this rulemaking (i.e., EPA-HQ-OLEM-2025-2864). Comments 
+received may be posted without change to <a href="https://www.regulations.gov">https://www.regulations.gov</a>, 
+including personal information provided. For detailed instructions on 
+sending comments and additional information on the rulemaking process, 
+see the ``Public Participation'' heading of the SUPPLEMENTARY 
+INFORMATION section of this document.
+    In accordance with 5 U.S.C. 553(b)(4), a summary of this rule may 
+be found at <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Patrick Wise, Office of Resource 
+Conservation and Recovery, Materials Recovery and Waste Management 
+Division, Environmental Protection Agency, 1200 Pennsylvania Avenue NW, 
+MC: 5304T, Washington, DC 20460; telephone number: (202) 566-0520; 
+email address: <a href="/cdn-cgi/l/email-protection#03546a70662d536277716a6068436673622d646c75"><span class="__cf_email__" data-cfemail="eeb9879d8bc0be8f9a9c878d85ae8b9e8fc0898198">[email&#160;protected]</span></a>; or Frank Behan, Office of Resource 
+Conservation and Recovery, Materials Recovery and Waste Management 
+Division, Environmental Protection Agency, 1200 Pennsylvania Avenue NW, 
+MC: 5304T, Washington, DC 20460; telephone number: (202) 566-0531; 
+email address: <a href="/cdn-cgi/l/email-protection#c486a1aca5aaea82b6a5aaaf84a1b4a5eaa3abb2"><span class="__cf_email__" data-cfemail="a3e1c6cbc2cd8de5d1c2cdc8e3c6d3c28dc4ccd5">[email&#160;protected]</span></a>. For more information on this 
+rulemaking please visit <a href="https://www.epa.gov/coal-combustion-residuals">https://www.epa.gov/coal-combustion-residuals</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Public Participation
+II. General Information
+III. Background
+IV. Revised Deadline for Cessation of Operations and Unit Closure
+V. The Projected Economic Impact of This Action
+VI. Statutory and Executive Order Reviews
+
+I. Public Participation
+
+A. Written Comments
+
+    Submit your comments, identified by Docket ID No. EPA-HQ-OLEM-2025-
+2864, at <a href="https://www.regulations.gov">https://www.regulations.gov</a> (our preferred method), or the 
+other methods identified in the ADDRESSES section. Once submitted, 
+comments cannot be edited or removed from the docket. EPA may publish 
+any comment received to its public docket. Do not submit to EPA's 
+docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a> any information you consider to 
+be Confidential Business Information (CBI), Proprietary Business 
+Information (PBI), or other information whose disclosure is restricted 
+by statute. Multimedia submissions (audio, video, etc.) must be 
+accompanied by a written comment. The written comment is considered the 
+official comment and should include
+
+[[Page 54612]]
+
+discussion of all points you wish to make. EPA will generally not 
+consider comments or comment contents located outside of the primary 
+submission (i.e., on the web, cloud, or other file sharing system). 
+Please visit <a href="https://www.epa.gov/dockets/commenting-epa-dockets">https://www.epa.gov/dockets/commenting-epa-dockets</a> for 
+additional submission methods; the full EPA public comment policy; 
+information about CBI, PBI, or multimedia submissions; and general 
+guidance on making effective comments.
+
+B. Notice of Public Hearing
+
+    EPA is providing the minimum required 30-days' notice of this 
+public hearing. EPA evaluated the complexity and technical nature of 
+this proposed rule. The scope of this action is limited to extending 
+one compliance deadline applicable to certain CCR surface impoundments 
+operating pursuant to the alternative closure requirements. EPA 
+determined this issue is not complex or highly technical and therefore 
+30 days' notice of the public hearing for this proposed rule was 
+adequate to provide the public with meaningful opportunity to comment 
+on the regulatory change.
+
+C. Public Hearing
+
+    EPA will hold a virtual public hearing on January 6, 2026. The 
+hearing will convene at 9:00 a.m. Eastern Time (ET) and conclude at 
+1:00 p.m. (ET).
+    EPA will begin pre-registering speakers for the virtual public 
+hearing upon publication of this document in the Federal Register. To 
+register to speak at the hearing, please use the online registration 
+form available on EPA's CCR website <a href="https://www.epa.gov/coal-combustion-residuals">https://www.epa.gov/coal-combustion-residuals</a> or contact the person listed in the FOR FURTHER 
+INFORMATION CONTACT section to register to speak at the hearing. Both 
+virtual hearing speakers and attendees are requested to pre-register at 
+the link provided above. The last day to pre-register to speak at the 
+hearing will be January 2, 2026.
+    EPA will make every effort to follow the schedule as closely as 
+possible on the day of the hearing; however, please plan for the 
+hearings to run either ahead of schedule or behind schedule. 
+Additionally, requests to speak will be taken the day of the hearing 
+via the Q&A functionality of the online platform. EPA will make every 
+effort to accommodate all speakers who wish to provide oral testimony, 
+although preferences on speaking times may not be able to be fulfilled.
+    Each commenter will have five (5) minutes to provide oral 
+testimony. EPA encourages commenters to provide EPA with a copy of 
+their oral testimony electronically by emailing it to the person listed 
+in the FOR FURTHER INFORMATION CONTACT section. EPA also recommends 
+submitting the text of your oral comments as written comments to the 
+rulemaking docket. If EPA is anticipating a high attendance, the time 
+allotment per testimony may be shortened to no shorter than three (3) 
+minutes per person to accommodate all those wishing to provide 
+testimony and who have pre-registered. While EPA will make every effort 
+to accommodate all speakers who do not preregister, opportunities to 
+speak may be limited based upon the number of pre-registered speakers. 
+Therefore, EPA strongly encourages anyone wishing to speak to 
+preregister. Participation in the public hearing does not preclude any 
+entity or individual from submitting a written comment.
+    EPA may ask clarifying questions during the oral presentations but 
+will not respond to the presentations at that time. Written statements 
+and supporting information submitted during the comment period will be 
+considered with the same weight as oral comments and supporting 
+information presented at the public hearing.
+    Please note that any updates made to any aspect of the hearing are 
+posted online at EPA's CCR website at <a href="https://www.epa.gov/coal-combustion-residuals">https://www.epa.gov/coal-combustion-residuals</a>. While EPA expects the hearing to go forward as 
+set forth above, please monitor our website or contact the person 
+listed in the FOR FURTHER INFORMATION CONTACT section to determine if 
+there are any updates. EPA does not intend to publish a document in the 
+Federal Register announcing updates.
+    If you require the services of an interpreter or special 
+accommodations such as audio transcription or closed captioning, please 
+pre-register for the hearing and describe your needs on the 
+registration form by December 17, 2025. Alternatively, registrants may 
+notify the person listed in the FOR FURTHER INFORMATION CONTACT section 
+of any special needs. EPA may not be able to arrange accommodations 
+without advance notice.
+
+II. General Information
+
+A. Does this action apply to me?
+
+    This proposed rule may be of interest to electric utilities and 
+independent power producers that fall within the North American 
+Industry Classification System (NAICS) code 221112 and that submitted a 
+complete demonstration pursuant to section 257.103(f)(2). The following 
+eleven power plants are currently operating unlined CCR surface 
+impoundments larger than 40 acres under a pending demonstration: 
+Baldwin Power Station (IL), Big Cajun II Power Plant (LA), Brame Energy 
+Center (LA), Coleto Creek Power Plant (TX), Intermountain Generating 
+Facility (UT), Kincaid Power Station (IL), Miami Fort Power Station 
+(OH), Naughton Power Plant (WY), Newton Power Station (IL), R.M. 
+Schahfer Generating Station (IN), and Welsh Power Plant (TX). To 
+determine whether your entity is regulated by this action, you should 
+carefully examine the applicability criteria found in section 257.50 of 
+title 40 of the Code of Federal Regulations (CFR).\1\ If you have 
+questions regarding the applicability of this action to a particular 
+entity, consult the persons listed in the FOR FURTHER INFORMATION 
+CONTACT section.
+---------------------------------------------------------------------------
+
+    \1\ Unless otherwise stated, all citations specified in this 
+action are found in title 40 of the CFR.
+---------------------------------------------------------------------------
+
+B. What action is the Agency taking?
+
+    This proposed rule extends one compliance deadline applicable to 
+certain impoundments currently operating pursuant to the alternative 
+closure requirements under section 257.103(f)(2). Specifically, EPA is 
+extending the existing deadline for owners and operators to complete 
+closure of their unlined CCR surface impoundments larger than 40 acres 
+from October 17, 2028, to October 17, 2031. See section 
+257.103(f)(2)(iv)(B). This deadline extension will promote electric 
+grid reliability by allowing the coal-fired steam generating units at 
+these facilities to continue to operate beyond their currently 
+scheduled retirement dates.
+
+C. What is the Agency's authority for taking this action?
+
+    EPA is publishing this rulemaking under the authority of sections 
+1008(a)(3), 2002(a), 4004, and 4005(a), (d) of the Solid Waste Disposal 
+Act of 1965, as amended by the Resource Conservation and Recovery Act 
+of 1976 (RCRA), as amended by the Hazardous and Solid Waste Amendments 
+of 1984 and the Water Infrastructure Improvements for the Nation (WIIN) 
+Act of 2016, 42 U.S.C. 6907(a), 6912(a), 6944, 6945(a) and (d).
+
+D. What are the incremental costs and benefits of this proposed rule?
+
+    EPA establishes the requirements under RCRA sections 1008(a)(3) and 
+4004(a) without taking cost into account. See Utility Solid Waste 
+Activities Group, et al. v. EPA (USWAG) 901 F.3d 414, 448-49 (D.C. Cir. 
+2018). The following cost estimates are
+
+[[Page 54613]]
+
+presented in the Regulatory Impact Analysis (RIA) and summarized in 
+this preamble for compliance with E.O. 12866 and consistent with OMB 
+Circular A-4.
+    The RIA estimates that the annualized cost savings of this proposed 
+rule will be approximately $7-12 million per year when discounting at 
+3%. The RIA estimates that the annualized cost savings of this action 
+will be approximately $17-27 million per year when discounting at 7%. 
+Further information on the economic effects of this action can be found 
+in Unit V of this preamble. EPA also qualitatively considered the grid 
+reliability and air emissions impacts of this proposed rule. Further 
+details can be found in section V of the preamble.
+
+III. Background
+
+A. Summary of the Alternative Closure Requirements Under Section 
+257.103(f)
+
+    In April 2015, EPA issued its first set of regulations establishing 
+requirements for CCR surface impoundments and landfills. ``Hazardous 
+and Solid Waste Management System; Disposal of Coal Combustion 
+Residuals From Electric Utilities,'' (2015 CCR Rule) 80 FR 21302 (Apr. 
+17, 2015). These requirements included criteria consisting of location 
+restrictions, design and operating criteria, groundwater monitoring and 
+corrective action requirements, closure and post-closure care 
+requirements, recordkeeping, notification, and internet posting 
+requirements. The closure criteria included alternative closure 
+provisions under section 257.103. See 80 FR 21423-24.
+    In August 2020, EPA issued revisions to that rule, including 
+revisions to the alternative closure requirements. ``Hazardous and 
+Solid Waste Management System: Disposal of Coal Combustion Residuals 
+From Electric Utilities; A Holistic Approach to Closure Part A: 
+Deadline to Initiate Closure rule,'' 85 FR 53516 (Aug. 28, 2020) (the 
+``Part A Rule''). The Part A Rule established April 11, 2021, as the 
+date that electric utilities must cease placing waste into all unlined 
+CCR surface impoundments. The Part A Rule also revised the alternative 
+closure provisions of the CCR regulations (section 257.103) by allowing 
+owners or operators to request an extension to continue to receive CCR 
+and/or non-CCR waste streams in unlined CCR surface impoundments after 
+April 11, 2021, provided that certain criteria are met. EPA established 
+two site-specific alternatives to initiate closure of unlined CCR 
+surface impoundments (section 257.103(f)), commonly known as extensions 
+of the date to cease receipt of waste.
+    The first alternative is for a facility that must continue to use 
+an unlined CCR surface impoundment after April 11, 2021, because no 
+alternative disposal capacity is available either on-site or off-site, 
+and it was technically infeasible to develop alternative capacity by 
+that date. Section 257.103(f)(1) (titled Development of Alternative 
+Capacity is Technically Infeasible). The second alternative is for 
+coal-fired boiler(s) that are going to permanently shut down by a date 
+certain after April 11, 2021, but there is no alternative capacity 
+either on- or off-site that is available to accept the CCR and non-CCR 
+waste streams between April 11, 2021, and the permanent closure date of 
+the coal-fired boiler. Section 257.103(f)(2) (titled Permanent 
+Cessation of Coal-Fired Boiler(s) by a Date Certain). This proposed 
+rule only pertains to the second alternative because facilities 
+operating under the first alternative have all already obtained 
+alternative disposal capacity, thus allowing continued use of 
+associated coal-fired boilers. Section 257.103(f)(2) establishes 
+deadlines for when the facility must both cease operation of its coal-
+fired boiler and complete closure of the unlined surface impoundment. 
+The existing deadlines are based on the size of the impoundment, using 
+surface area as a surrogate for impoundment size. For impoundments that 
+are 40 acres or smaller, owners and operators were required to cease 
+operation of the coal-fired boiler and complete closure of the 
+impoundment no later than October 17, 2023. For impoundments that are 
+larger than 40 acres, the deadline is October 17, 2028. See section 
+257.103(f)(2)(iv).
+    As provided in section 257.103(f)(3)(i), November 30, 2020, was the 
+deadline for facilities to submit requests to EPA to operate an unlined 
+impoundment beyond April 11, 2021, pursuant to section 257.103(f)(2). 
+As discussed in Unit IV of this preamble, this action is not revising 
+the November 30, 2020, deadline to allow additional owners and 
+operators to submit new time extension requests. EPA received 23 
+complete extension requests under section 257.103(f)(2) before the 
+November 30, 2020, deadline, including seven facility requests with 
+impoundments that are 40 acres or smaller and 16 facility requests with 
+impoundments larger than 40 acres.\2\ Of the 16 extension requests with 
+impoundments larger than 40 acres, 11 facilities are currently 
+operating these impoundments pursuant to section 257.103(f)(2). EPA has 
+not yet taken action to determine whether to grant these 11 extension 
+requests.
+---------------------------------------------------------------------------
+
+    \2\ EPA issued letters of completeness on January 11, 2022.
+---------------------------------------------------------------------------
+
+B. Facilities Currently Operating Impoundments Under Section 
+257.103(f)(2)
+
+    Eleven power plants are currently operating at least one unlined 
+CCR surface impoundment under a pending extension request submitted 
+pursuant to section 257.103(f)(2). EPA below summarizes information 
+about these impoundments and the coal-fired steam generating units that 
+rely on the continued operation of the unlined impoundments (i.e., CCR 
+or non-CCR waste streams from the boilers units are being routed to the 
+impoundment). The summaries are based on information presented in the 
+November 2020 demonstrations prepared to support the extension request 
+(2020 Demonstration) \3\ and the most recent annual progress report 
+required by section 257.103(f)(2)(x), if the progress report provides 
+new relevant information.\4\ The summaries below are organized by the 
+electric power market in which the facility falls. Five of these 
+facilities fall within the electric power market operated by the 
+Midcontinent Independent System Operator, two within PJM 
+Interconnection, and one facility each in Electric Reliability Council 
+of Texas, Northwest, Southwest, and Southwest Power Pool.
+---------------------------------------------------------------------------
+
+    \3\ Demonstrations supporting the extension requests can be 
+accessed on each facility's publicly accessible CCR website. EPA's 
+website includes a list of publicly accessible internet sites at 
+<a href="https://www.epa.gov/coal-combustion-residuals">https://www.epa.gov/coal-combustion-residuals</a>.
+    \4\ The annual progress report documents the continued lack of 
+alternative disposal capacity and the progress towards the closure 
+of the CCR surface impoundment(s) covered by the extension request.
+---------------------------------------------------------------------------
+
+1. Midcontinent Independent System Operator (MISO)
+    <bullet> Baldwin Power Station (Baldwin) located in Illinois. 
+According to the 2020 Demonstration submitted by Dynegy Midwest 
+Generation LLC (Dynegy), Baldwin is a 1,185 megawatt (MW) coal-fired 
+electric generating station located near Baldwin, Illinois. The unlined 
+CCR surface impoundment operating pursuant to the extension request is 
+the Bottom Ash Pond. The time frames discussed in the 2020 
+Demonstration stated that the two coal-fired boilers (Units 1 and 2) 
+would cease operations no later than December 31, 2025. Furthermore, 
+Baldwin anticipated that all CCR and non-CCR waste streams going to the 
+Bottom Ash Pond would cease by July 17, 2027, and closure of
+
+[[Page 54614]]
+
+the impoundment would be completed by October 17, 2028. On April 2, 
+2025, Dynegy submitted an update to the closure schedule and closure 
+plan (Baldwin Update) associated with its 2020 Demonstration. In the 
+Baldwin Update, Dynegy stated that Units 1 and 2 will continue to 
+operate for up to an additional two years to no later than December 31, 
+2027, due to ``recent reliability and market conditions in MISO.'' \5\ 
+Dynegy further stated in this update that closure of the Bottom Ash 
+Pond would still be completed by October 17, 2028 (same as stated in 
+2020 Demonstration) because closure has already begun and is being 
+conducted in two phases starting in 2025.
+---------------------------------------------------------------------------
+
+    \5\ Dynegy Midwest Generation LLC, ``Baldwin Power Station 
+Alternative Closure Demonstration--Update to Schedule and Closure 
+Plan,'' April 2, 2025. See also Attachment 2 that includes 
+``Comments from the Midcontinent Independent System Operator, Inc. 
+regarding the Baldwin Energy Station adjusted retirement date and 
+the need to maintain existing generation for reliability'' dated 
+December 18, 2024.
+---------------------------------------------------------------------------
+
+    <bullet> Big Cajun II Power Plant (Big Cajun II) located in 
+Louisiana. In November 2020, Cleco Cajun LLC (Cleco) submitted an 
+extension request for the unlined Bottom Ash Basin located near New 
+Roads, Louisiana. According to the 2020 Demonstration, the Bottom Ash 
+Basin receives CCR (bottom ash) from Unit 1, which is a 580 MW coal-
+fired steam generating unit. The Bottom Ash Basin also receives other 
+non-CCR waste streams (i.e., clarifier/softener underflow) from Unit 1, 
+as well as from Unit 2 (a natural gas unit) and Unit 3 (a coal-fueled 
+unit).\6\ Cleco stated in its 2020 Demonstration that the Unit 1 boiler 
+is subject to a 2013 consent decree requiring that Unit 1 ``cease 
+generation of coal-fired energy by no later than April 1, 2025.'' 
+Furthermore, Big Cajun II anticipated that all waste streams going to 
+the Bottom Ash Basin would cease by approximately March or April 2027, 
+and closure of the impoundment will be completed by October 17, 2028. 
+Given the existence of the consent decree, EPA believes that this rule 
+would not allow Unit 1 to generate electricity beyond April 1, 2025; 
+however, this action would allow the Bottom Ash Basin to be closed over 
+a longer period should Big Cajun II need additional time.
+---------------------------------------------------------------------------
+
+    \6\ CCR waste streams (bottom ash) from Unit 3 is dry handled 
+and taken off-site.
+---------------------------------------------------------------------------
+
+    <bullet> Brame Energy Center (Brame) located in Louisiana. 
+According to the 2020 Demonstration submitted by Cleco Power LLC, Brame 
+operates a 523 MW coal-fired steam generating unit called Rodemacher 
+Unit 2. Brame is located in Lena, Louisiana. The unlined CCR surface 
+impoundment operating pursuant to the extension request is the Bottom 
+Ash Pond, which receives CCR waste streams related to Rodemacher Unit 
+2. The time frames discussed in the 2020 Demonstration stated that 
+closure of the Bottom Ash Pond will be completed by no later than 
+October 17, 2028. To meet this deadline, Cleco Power stated it plans to 
+cease operation of Rodemacher Unit 2 by no later than August or 
+September 2027. Brame also operates steam generating units fueled by 
+natural gas (Unit 1) and petroleum coke (Unit 3); however, waste 
+streams from those generating units are not disposed in the Bottom Ash 
+Pond and therefore are not impacted by this rulemaking.
+    <bullet> Newton Power Station (Newton) located in Illinois. In 
+November 2020, Illinois Power Generating Company (IPGC) submitted an 
+extension request for the unlined Primary Ash Pond located near Newton, 
+Illinois. According to the 2020 Demonstration, Newton is a 615 MW steam 
+electric generating facility with one coal-fired boiler. The Primary 
+Ash Pond receives various CCR and non-CCR waste streams. IPGC further 
+stated that it is scheduled to cease coal-fired boiler operation no 
+later than July 17, 2027. On October 22, 2025, IPGC submitted an update 
+to the closure schedule and closure plan (Newton Update) associated 
+with its 2020 Demonstration. In the Newton Update, IPGC stated that 
+Unit 1 will continue to operate for an additional six weeks to no later 
+than September 1, 2027, due to ``recent reliability and market 
+conditions in MISO.'' \7\ Furthermore, the schedule shows placement of 
+all waste streams into Primary Ash Pond will cease by December, 2027, 
+so that closure of the Primary Ash Pond will be completed by October 
+17, 2028.
+---------------------------------------------------------------------------
+
+    \7\ Illinois Power Generating Company, ``Newton Power Plant 
+Alternative Closure Demonstration--Update to Schedule and Closure 
+Plan,'' October 22, 2025.
+---------------------------------------------------------------------------
+
+    <bullet> R.M. Schahfer Generating Station (RM Schahfer) located in 
+Indiana. At the time Northern Indiana Public Service Company (NIPSCO) 
+submitted the 2020 Demonstration for the Waste Disposal Area, RM 
+Schahfer operated four coal-fired boilers. The Waste Disposal Area is 
+an unlined CCR surface impoundment that receives CCR and non-CCR waste 
+streams associated with these boilers. By October 2021, NIPSCO 
+permanently retired two of the four coal-fired boilers and planned to 
+retire the remaining two coal-fired boilers in 2023.\8\ As further 
+explained in the 2025 Annual Update,\9\ following communications with 
+MISO in 2022, ``NIPSCO identified the need to extend coal-fired 
+generation at [RM Schahfer] beyond the originally planned 2023 
+retirement date.'' Currently, these two coal-fired boilers are 
+scheduled to cease coal-fired generation by December 31, 2025. 
+Furthermore, the current schedule shows placement of all waste streams 
+into the Waste Disposal Area by no later than September 2026, so that 
+closure of the impoundment will be completed by October 17, 2028. The 
+two operating coal-fired boilers have a combined generating capacity of 
+847 MW. NIPSCO has stated that RM Schahfer would operate its coal-fired 
+boilers until 2028 if the proposed rule change was finalized.
+---------------------------------------------------------------------------
+
+    \8\ WSP USW Inc. ``Northern Indiana Public Service Company LLC, 
+R.M. Schahfer Generating Station Wheatfield, Indiana, CCR Surface 
+Impoundment No Alternative Disposal Capacity Documentation--2025 
+Annual Update Pursuant to Indiana Administrative Code 329 IAC 10-9-
+1.'' Feb. 5, 2025.
+    \9\ Id. at 2.
+---------------------------------------------------------------------------
+
+2. PJM Interconnection (PJM)
+    <bullet> Kincaid Power Station (Kincaid) located in Illinois. In 
+November 2020, Kincaid Generation, LLC submitted an extension request 
+for the unlined Ash Pond located near Kincaid, Illinois. According to 
+the 2020 Demonstration, Kincaid is a 1,108 MW steam electric generating 
+facility with two coal-fired boilers. The Ash Pond receives various CCR 
+and non-CCR waste streams associated with the two generating units. 
+Kincaid Generation stated that the two coal-fired boilers will be 
+retired no later than July 17, 2027. Furthermore, the schedule shows 
+placement of all waste streams into Ash Pond will cease by September 
+17, 2027, so that closure of the Ash Pond can be completed by October 
+17, 2028.
+    <bullet> Miami Fort Power Station (Miami Fort) located in Ohio. 
+Dynegy Miami Fort, LLC (Dynegy) stated in its 2020 Demonstration that 
+Miami Fort is a 1,100 MW two unit (Units 7 and 8), coal-fired steam 
+electric generating station located near North Bend, Ohio. The Miami 
+Fort Pond System is the unlined impoundment operating pursuant to the 
+extension request and receives CCR waste streams (bottom ash and fly 
+ash), as well as other non-CCR waste streams. The time frames discussed 
+in the 2020 Demonstration stated that closure of the Miami Fort Pond 
+System will be completed by no later than October 17, 2028. To meet 
+this deadline, Dynegy plans to cease operation of boiler Units 7 and 8 
+by no later than June 17, 2027, and cease placement of wastes into the 
+impoundment by August 17, 2027.
+
+[[Page 54615]]
+
+3. Electric Reliability Council of Texas (ERCOT)
+    <bullet> Coleto Creek Power Plant (Coleto Creek) located in Texas. 
+In November 2020, Coleto Creek Power, LLC submitted an extension 
+request for the unlined Coleto Creek Primary Ash Pond located near 
+Fannin, Texas. According to the 2020 Demonstration, the Primary Ash 
+Pond receives CCR (bottom ash, economizer ash and mill rejects) and 
+various non-CCR waste streams associated with the 650 MW coal-fired 
+steam generating unit. Coleto Creek Power stated that the boiler will 
+cease coal-fired operations no later than July 17, 2027. Furthermore, 
+Coleto Creek anticipates that it will cease placing all waste streams 
+into Primary Ash Pond by September 17, 2027, so that closure of the 
+Primary Ash Pond can be completed by October 17, 2028. In its most 
+recent annual progress report, Coleto Creek Power noted plans to 
+convert the plant to operate on natural gas after coal-firing 
+operations cease in 2027.\10\
+---------------------------------------------------------------------------
+
+    \10\ Coleto Creek Power, ``Annual Progress Report (Sec.  
+257.103(f)(2)(x)) for the Coleto Creek Power Plant Primary Ash 
+Pond.'' November 30, 2024.
+---------------------------------------------------------------------------
+
+4. Southwest Power Pool (SPP)
+    <bullet> J. Robert Welsh Power Plant (Welsh Plant) located in 
+Texas. In November 2020, Southwestern Electric Power Company (SWEPCO) 
+submitted an extension request for the Primary Bottom Ash Pond at the 
+Welsh Plant to allow the unlined impoundment to continue to receive CCR 
+and non-CCR waste streams. The Welsh Plant is a 1,056 MW coal-fired 
+steam electric generating station located in Pittsburgh, Texas. The 
+time frames discussed in the 2020 Demonstration stated that closure of 
+the Primary Bottom Ash Pond will be completed in two phases with the 
+first phase of closure construction beginning in February 2027. The 
+second phase of closure construction is planned to commence in March 
+2028 and to coincide with the cessation of coal-fired boiler 
+operations. Closure of the Primary Bottom Ash Pond would be completed 
+by no later than October 17, 2028.
+5. Southwest
+    <bullet> Intermountain Generating Facility (Intermountain) located 
+in Utah. Intermountain Power Service Corporation (IPSC) stated in its 
+2020 Demonstration that Intermountain is a 1,900 MW coal-fired steam 
+electric generating station located near Delta, Utah. The unlined CCR 
+surface impoundments operating pursuant to the extension request are 
+the Bottom Ash Basin and Waste Water Basin, both of which receive CCR 
+waste streams related to the coal-fired boiler units. The time frames 
+presented in the 2020 Demonstration state that closure of both unlined 
+impoundments will be completed by no later than October 17, 2028. IPSC 
+plans to cease operation of both coal-fired boilers by July 1, 2025, 
+explaining that such plans were first announced in May 2017. IPSC 
+further explains it is already ``moving forward with plans to develop 
+new natural gas and hydrogen-fueled electricity generation'' at 
+Intermountain. These plans were confirmed in the most recent annual 
+progress report.\11\
+---------------------------------------------------------------------------
+
+    \11\ Intermountain Power Service Corporation, ``October 2024 
+Annual Progress Report, Documenting the Continued Lack of 
+Alternative Capacity and the Progress Towards the Closure of the 
+Coal-Fired Boiles.'' Oct. 4, 2024.
+---------------------------------------------------------------------------
+
+6. Northwest
+    <bullet> Naughton Power Plant located in Wyoming. In November 2020, 
+PacifiCorp submitted an extension request for the South Ash Pond at 
+Naughton to receive bottom ash and fly ash. Non-CCR waste streams are 
+no longer routed to the South Ash Pond. Two coal-fired boilers at 
+Naughton provide approximately 380 MW of generating capacity. 
+PacifiCorp states that the two coal-fired boilers will cease operation 
+on December 31, 2025. The time frames discussed in the 2020 
+Demonstration show that placement of CCR waste streams will permanently 
+cease by September 30, 2026, in order to complete closure by the 
+regulatory deadline. PacifiCorp states in its most recent annual 
+progress report that Naughton is on schedule to cease operating the 
+coal-fired boilers by the end of 2025.
+
+C. Resource Adequacy Reports Issued by NERC and U.S. DOE
+
+1. North American Electric Reliability Corporation (NERC)
+    The NERC mission is to ensure the reliability, resiliency, and 
+security of the North American bulk power system (BPS). The BPS is made 
+up of six regional entities \12\ that provide the NERC with data, 
+narratives, and assessments to independently evaluate long-term 
+reliability, recognize trends, and identify emerging issues and 
+potential risks for the upcoming 10-year period. The NERC develops a 
+long-term reliability assessment (LTRA) annually based on known system 
+changes as of July of the current year. The NERC is subject to 
+oversight by the Federal Energy Regulatory Commission (FERC).
+---------------------------------------------------------------------------
+
+    \12\ The six regional entities overseen by NERC that monitor and 
+enforce reliability standards for the BPS are: Midwest Reliability 
+Organization (MRO), Northeast Power Coordinating Council (NPCC), 
+ReliabilityFirst (RF), SERC Reliability Corporation (SERC), Texas 
+Reliability Entity (Texas RE), and Western Electricity Coordinating 
+Council (WECC).
+---------------------------------------------------------------------------
+
+    Resource adequacy refers to the ability of an electricity system to 
+meet the power demand of customers at all times, even during peak usage 
+and potential outages. In the most recent LTRA released in December 
+2024 (2024 LTRA), the NERC identified increasing resource adequacy 
+challenges for the upcoming 10 years as demand growth surges and power 
+generators announce retirement plans.\13\ The NERC also identified a 
+substantial number of the replacement generation resources as weather 
+dependent and, thus, more variable and less reliable than the resources 
+they would replace.
+---------------------------------------------------------------------------
+
+    \13\ NERC, ``2024 Long-Term Reliability Assessment, December 
+2024, Updated July 15, 2025.''
+---------------------------------------------------------------------------
+
+    As part of its capacity and energy risk assessment, the 2024 LTRA 
+identifies areas subject to potential future electricity supply 
+shortfalls under normal and extreme weather conditions. The shortfall 
+risks are categorized as ``high risk,'' ``elevated-risk'' and ``normal-
+risk.'' The 11 electric utilities covered by this interim final rule 
+fall in areas categorized as either elevated-risk or normal-risk. As 
+stated in the 2024 LTRA, elevated-risk areas meet resource adequacy 
+criteria, but analysis indicates that extreme weather conditions are 
+likely to cause a shortfall in area reserves. Eight of the 11 
+facilities fall within an elevated-risk area. Normal-risk areas are 
+expected to have sufficient resources under a broad range of assessed 
+conditions. The remaining three facilities fall within a normal-risk 
+area.
+    The 2024 LTRA provides a risk summary for the areas categorized 
+with an elevated risk.\14\ The risks for the MISO area (5 of the 11 
+facilities) were summarized as ``Uncertainty around new resource 
+additions and existing generator retirements results in resource 
+adequacy risks. Above-normal generator outages during extreme weather 
+can result in unserved energy or load loss.'' Additionally, NERC 
+determined that MISO's ``elevated risk'' classification may shift to 
+``high risk'' in the 2028-2031 timeframe, depending on new resource 
+additions/retirements.\15\ For the PJM area (2 of the 11 facilities), 
+the risks were summarized as ``Resource additions are not keeping up 
+with generator retirements and demand growth. Winter seasons replace 
+summer
+
+[[Page 54616]]
+
+as the higher-risk periods due to generator performance and fuel supply 
+issues.'' Finally, for the SPP area (1 of the 11 facilities), the risks 
+were summarized as ``Potential energy shortfalls during peak summer and 
+winter conditions arise from low wind conditions and natural gas fuel 
+risk.''
+---------------------------------------------------------------------------
+
+    \14\ NERC, 2024 LTRA, Table 1.
+    \15\ NERC, ``Statement on NERC's 2024 Long-Term Reliability 
+Assessment,'' June 17, 2025, <a href="https://www.nerc.com/news/Pages/Statement-on-NERC%E2%80%99s-2024-Long-Term-Reliability-Assessment.aspx">https://www.nerc.com/news/Pages/Statement-on-NERC%E2%80%99s-2024-Long-Term-Reliability-Assessment.aspx</a>.
+---------------------------------------------------------------------------
+
+2. U.S. Department of Energy (DOE)
+    In July 2025, the DOE published a report titled ``Evaluating the 
+Reliability and Security of the United States Electric Grid'' to 
+evaluate U.S. electric grid reliability and security (``2025 DOE 
+Report'').\16\ The report highlights significant reliability risks 
+facing the nation's electrical grid due to current retirement schedules 
+and insufficient incremental additions. The report concludes that, if 
+current retirement schedules and incremental additions proceed as 
+anticipated, most regions will face unacceptable reliability risks 
+within five years and the Nation's electric power grid will be unable 
+to meet expected demand for artificial intelligence, data centers, 
+manufacturing, and industrialization while maintaining affordable and 
+reliable access to energy. The report identifies the retirement of 
+power-generating assets, particularly coal and natural gas sources, as 
+exacerbating resource adequacy issues, with 104 Gigawatts of firm 
+capacity slated for retirement by 2030. This capacity is not being 
+replaced equivalently, posing risks of outages during unfavorable 
+weather conditions for wind and solar generation. Even in the absence 
+of retirements, the DOE's model predicts a significant increase in 
+outage risks by 2030.
+---------------------------------------------------------------------------
+
+    \16\ U.S. Department of Energy, ``Evaluating the Reliability and 
+Security of the United States Electric Grid,'' July 2025. This 
+report is available in the rulemaking docket for this action.
+---------------------------------------------------------------------------
+
+IV. Revised Deadline for Cessation of Operations and Unit Closure
+
+A. Revision to Section 257.103(f)(2)(iv)(B)
+
+    This rule proposes to extend the regulatory deadline for owners and 
+operators that intend to cease coal-fired generation to complete the 
+closure of their unlined CCR surface impoundments larger than 40 acres. 
+Specifically, this deadline would be extended by three years, from 
+October 17, 2028, to October 17, 2031. See revised section 
+257.103(f)(2)(iv)(B). This rule change would provide regulatory 
+flexibility to allow placement of CCR in the affected impoundments, and 
+therefore coal-fired electricity generation, to continue at these 
+facilities for up to three additional years.
+    EPA is proposing this rule change in response to concerns that 
+retirement of coal-fired power generating assets is exacerbating the 
+resource adequacy problem. Given NERC's assessment that resource 
+adequacy risk may increase in the MISO area from ``elevated'' to 
+``high'' in the 2028-2031 period, the Agency is proposing a 3-year 
+extension to the deadline to cease placing waste in the relevant 
+impoundments. This extension would allow coal-fired generation to 
+continue for up to three additional years, specifically between 2028 
+and 2031 at these power plants. Furthermore, an extension of less than 
+three years (e.g., one year) would not address resource adequacy 
+concerns in the MISO area between 2028-2031. Currently EPA also lacks a 
+basis to extend the deadline for more than three years. The Agency 
+requests comment on the selected length of deadline extension and 
+whether it should be shorter or longer than the proposed three years.
+    This rule's proposed deadline extension is anticipated to impact 
+eleven Part A Rule facilities with unlined CCR surface impoundments 
+that are still operating pursuant to the alternative closure 
+requirements under section 257.103(f)(2). Five of these facilities fall 
+within the electric power market operated by MISO, two within PJM, and 
+one facility each in ERCOT, Northwest, Southwest, and SPP. As noted in 
+Section III.C., the majority (i.e., eight) of these facilities are 
+located in elevated-risk regions according to the 2024 LTRA.
+    This rule does not propose to revise the deadline for boiler 
+cessation and unit closure applicable to CCR surface impoundments 40 
+acres or smaller. Section 257.103(f)(2)(iv)(A) required the owners and 
+operators of these smaller impoundments both to cease operation of the 
+coal-fired boiler and complete closure of the CCR surface impoundment 
+no later than October 17, 2023. All of these CCR surface impoundments 
+have ceased receiving CCR and non-CCR waste streams and those 
+impoundments are no longer operating pursuant to the alternative 
+closure provisions under section 257.103(f)(2). Therefore, a similar 3-
+year extension of the October 17, 2023, deadline would provide no 
+relief.
+    Based on the information presented in Unit III of this preamble, 
+EPA expects that most of the facilities with a pending Part A 
+demonstration would choose to continue operating their coal-fired 
+boiler(s) past their current anticipated closure date. The Agency 
+realizes that some facilities are unlikely to change their current 
+closure timelines because they are on schedule to cease operating coal-
+fired boilers in the near future (e.g., Naughton), are required to 
+cease coal-fired generation by a specific date (e.g., Big Cajun II), or 
+have plans to transition to generating electricity from a different 
+fuel source (e.g., Intermountain, Coleto Creek). However, most 
+facilities operating under a pending Part A demonstration have the 
+capability of adjusting their unit closure timeframes, and EPA 
+anticipates that these facilities would continue to operate during the 
+proposed extended timeframe, thereby helping to mitigate potential 
+resource adequacy concerns.
+    Additionally, EPA notes that a separate Agency action issued under 
+the Clean Water Act proposes to extend the deadline for certain coal-
+fired electric generating units planning to close in the future (90 FR 
+47693, October 2, 2025).\17\ If finalized as proposed this extension 
+would prevent premature closure due to other forcing mechanisms like 
+CWA regulatory requirements taking effect. In other words, the 11 
+facilities impacted by today's proposal should be able to avail 
+themselves of the 3-year extension proposed here without that timeframe 
+being cut short by other retirement deadlines. EPA is not aware of 
+other such broadly-applicable retirement deadlines that could 
+effectively cut short the extension being proposed today, but the 
+Agency requests public comment on any such complicating factors. Thus, 
+EPA expects that the proposed deadline extension would directly promote 
+resource adequacy by allowing most of the 11 facilities affected by 
+this proposal to continue to operate for up to three additional years.
+---------------------------------------------------------------------------
+
+    \17\ This rulemaking, proposed under the CWA, would (among other 
+things) extend the date for existing steam electric power plants 
+that would seek to achieve permanent cessation of coal combustion by 
+December 31, 2034, to submit a notice of planned participation 
+(NOPP), allowing utilities additional time to assess evolving power 
+demand needed to inform operational planning and decision making.
+---------------------------------------------------------------------------
+
+    In particular, EPA expects that extended coal-fired boiler 
+operation would address resource adequacy in the electric power markets 
+of MISO, SPP, and PJM. EPA estimates that continued operation of 
+boilers currently slated to close would result in approximately 3,200 
+MW of capacity remaining online for up to three additional years in 
+MISO. This additional capacity would address nearly 10% of the 
+generation capacity retirements anticipated for MISO by 2030.\18\ In 
+SPP, extended operation of
+
+[[Page 54617]]
+
+coal-fired facilities would maintain 1,056 MW of generating capacity 
+for up to three additional years, addressing about 14% of the 
+anticipated capacity retirements expected by 2030.\19\ Likewise, EPA 
+estimates that continued operation of the affected units in PJM would 
+preserve approximately 2,200 MW of capacity for up to three additional 
+years, which would offset about 13% of the anticipated retirements in 
+PJM by 2030.\20\
+---------------------------------------------------------------------------
+
+    \18\ According to the 2025 DOE Report, MISO is anticipated to 
+experience retirement of 32,345 MW of generation capacity by 2030.
+    \19\ According to the 2025 DOE Report, MISO is anticipated to 
+experience retirement of 7,318 MW of generation capacity by 2030.
+    \20\ According to the 2025 DOE Report, PJM is anticipated to 
+experience retirement of 16,706 MW of generation capacity by 2030.
+---------------------------------------------------------------------------
+
+    EPA requests public comment on the potential benefits and benefits 
+reductions of extending the alternative closure deadline as described 
+in this action. In particular, the Agency is soliciting feedback on the 
+potential for this action, if finalized, to address projected energy 
+supply shortages discussed in Unit III.C of this preamble, especially 
+for baseload and peak load reliability regionally. The Agency 
+anticipates that the additional flexibility created by allowing 
+operators subject to the provisions of section 257.103(f)(2)(iv)(B) 
+will result in extended operation of the associated coal-fired boilers 
+and delay the capacity reductions described in the DOE Report. However, 
+EPA requests public comment on the likelihood of this outcome, and 
+specifically requests further information regarding which operators are 
+likely to avail themselves of the additional three years to complete 
+closure of their unlined surface impoundment(s).
+    EPA also requests public input on the accuracy and recency of 
+information presented in Unit III of this preamble regarding the 
+facilities potentially impacted by this action. The facility-specific 
+summaries reflect the information presented in the 2020 Demonstrations 
+submitted by these facilities and information in their most recent 
+annual progress reports, most of which were prepared in around November 
+2024, but EPA realizes that plans may have changed since these files 
+were submitted and updated last.
+
+B. Implementation Considerations of the Deadline Extension
+
+    The existing regulations require facilities operating pursuant to a 
+Part A Rule extension request to prepare an annual progress report. 
+Section 257.103(f)(2)(x). The purpose of the annual progress report is 
+to document the continued lack of alternative disposal capacity and the 
+progress towards the closure of the CCR surface impoundment. As stated 
+in the Part A Rule preamble, the annual progress report ``must include 
+any delays in the anticipated cease receipt of waste date and closure 
+completion date that was submitted in the demonstration materials.'' 85 
+FR 53550 (Aug. 28, 2020). Because the extended deadline will not 
+automatically be applied to all current extension requests, owners and 
+operators that will operate pursuant to the new extended deadline 
+should document that fact in their next annual progress report. Owners 
+and operators are not required to resubmit to EPA an updated 
+demonstration documenting the new extended deadline.
+    Facilities operating CCR surface impoundments pursuant to Section 
+257.103(f)(2) are currently subject to comprehensive regulations 
+requiring groundwater monitoring and, where necessary, remediation of 
+contaminated groundwater. These regulations detail the types of 
+groundwater monitoring systems required, sampling and analysis 
+requirements, detection monitoring programs, assessment monitoring 
+programs, assessment of corrective measures, selection of remedies, and 
+implementation of groundwater corrective action programs. See Sections 
+257.90-257.98. Any facility that will operate pursuant to the new 
+extended deadline in section 257.103(f)(2)(iv)(B) will continue to be 
+subject to these requirements to detect releases of CCR constituents of 
+concern and take action to remedy contamination when it exceeds 
+established health thresholds.
+    Furthermore, the regulations also required facilities to submit a 
+risk mitigation plan as part of their Part A demonstration. Section 
+257.103(f)(2)(v)(B). As stated in the Part A Rule, the risk mitigation 
+plan describes the measures that will be taken to expedite any required 
+corrective action to address any increased risk from continued 
+operation of the CCR surface impoundment, which EPA will review as part 
+of determining whether to grant the extension. If additional measures 
+to mitigate the risk are necessary to ensure that the statutory 
+standard is met, EPA will require those as a condition of granting the 
+extension. 85 FR 53548.
+
+V. The Projected Economic Impact of This Action
+
+A. Introduction
+
+    EPA estimated the costs and benefits of this action in a Regulatory 
+Impact Analysis (RIA), which is available in the docket for this 
+action.
+
+B. Affected Universe
+
+    The universe of facilities units and facilities affected by this 
+proposed rule consists of CCR surface impoundments at coal fired 
+electric utility plants that currently qualify for an extension under 
+section 257.103(f)(2) based on their submission of a complete 
+demonstration to EPA in compliance with the provisions of the 2020 CCR 
+Part A Rule. EPA has identified 13 units at 11 facilities that may be 
+affected by this proposed rule.
+
+C. Baseline Costs
+
+    The baseline costs of this action consist of costs related to the 
+closure of CCR surface impoundments in accordance with the requirements 
+of the 2015 CCR final rule by October 17, 2028, the deadline for 
+closure specified in the 2020 CCR Part A Rule.
+
+D. Costs and Benefits of This Proposed Rule
+
+    This proposed rule is expected to result in cost savings from time 
+value of money impacts (i.e., the value of delaying expenses) from 
+conducting closure activities later than those activities would have 
+otherwise occurred. Affected units will now be able to complete closure 
+by October 17, 2031, an extension of 3 years. The estimated annualized 
+cost savings attributable to this proposed rule are approximately $7-12 
+million per year when discounting at 3% and $17-27 million per year 
+when discounting at 7%.
+    EPA also considered, but did not quantify, the potential effects of 
+this proposed rule on grid reliability and air emissions. This action 
+would enhance grid reliability by allowing a subset of coal-fired 
+boilers to continue to operate beyond their currently scheduled 
+retirement date. For a discussion of the potentially affected 
+facilities and electric power markets see section III.B of the 
+preamble. EPA expects the impact of this proposed rule on air emissions 
+to be marginal because the number of potentially affected facilities 
+who would be eligible for the extension and able to burn coal for an 
+additional three years represents a small subset of the overall fleet 
+of coal-fired generating units in the United States. Additional details 
+can be found in the RIA for this action.
+
+VI. Statutory and Executive Order Reviews
+
+    Additional information about these statutes and Executive Orders 
+can be found at <a href="https://www.epa.gov/laws-regulations/laws-and-executive-orders">https://www.epa.gov/laws-regulations/laws-and-executive-orders</a>.
+
+[[Page 54618]]
+
+A. Executive Order 12866: Regulatory Planning and Review and Executive 
+Order 13563: Improving Regulation and Regulatory Review
+
+    This action is a significant regulatory action as defined under 
+section 3(f)(1) of Executive Order 12866. Accordingly, it was submitted 
+to the Office of Management and Budget (OMB) for review. Any changes 
+made in response to E.O. 12866 review have been documented in the 
+docket. The EPA prepared an analysis of the potential costs and 
+benefits associated with this action. This analysis, ``Regulatory 
+Impact Analysis: Hazardous and Solid Waste Management System: Disposal 
+of Coal Combustion Residuals from Electric Utilities; Extension of an 
+Alternative Closure Requirement Deadline,'' is available in the docket 
+and is briefly summarized in Unit V of this preamble.
+
+B. Executive Order 14192: Unleashing Prosperity Through Deregulation
+
+    This action is expected to be an Executive Order 14192 deregulatory 
+action. Details on the estimated cost savings of this proposed rule can 
+be found in EPA's analysis of the potential costs and benefits 
+associated with this action.
+
+C. Paperwork Reduction Act (PRA)
+
+    This action does not impose any new information collection burden 
+under the PRA. An Information Collection Request covering the 
+information collection activities contained in the existing Disposal of 
+Coal Combustion Residuals From Electric Utilities ICR has been 
+submitted for OMB's approval under the temporary OMB control number 
+2050-0223.
+
+D. Regulatory Flexibility Act (RFA)
+
+    I certify that this action will not have a significant economic 
+impact on a substantial number of small entities under the RFA. In 
+making this determination, EPA concludes that the impact of concern for 
+this rule is any significant adverse economic impact on small entities 
+and that the Agency is certifying that this rule will not have a 
+significant economic impact on a substantial number of small entities 
+because the rule relieves regulatory burden on the small entities 
+subject to the rule. The proposed rule does not change current 
+regulatory burdens, but rather just extends the timeline necessary to 
+meet them, which should reduce impacts on all affected facilities. The 
+rule relieves burden by extending the deadline for owners and operators 
+of coal boilers operating under a Part A demonstration to cease 
+operation and close their unlined CCR surface impoundment. This delay 
+affords all entities, including small entities, more time to comply, 
+and reduces compliance costs by pushing them into the future. We have 
+therefore concluded that this action will relieve regulatory burden for 
+all directly regulated small entities.
+
+E. Unfunded Mandates Reform Act (UMRA)
+
+    This action does not contain an unfunded mandate of $100 million 
+(adjusted annually for inflation) or more (in 1995 dollars) as 
+described in UMRA, 2 U.S.C. 1531-1538, and does not significantly or 
+uniquely affect small governments. The action imposes no enforceable 
+duty on any state, local or Tribal governments or the private sector.
+
+F. Executive Order 13132: Federalism
+
+    This action does not have federalism implications. It will not have 
+substantial direct effects on the States, on the relationship between 
+the national government and the States, or on the distribution of power 
+and responsibilities among the various levels of government.
+
+G. Executive Order 13175: Consultation and Coordination With Indian 
+Tribal Governments
+
+    This action does not have Tribal implications as specified in 
+Executive Order 13175. The rule relieves burden by extending the 
+deadline for owners and operators of coal boilers operating under a 
+Part A demonstration to cease operation and close their unlined CCR 
+surface impoundment. This rule does not impose any additional 
+requirements. Thus, Executive Order 13175 does not apply to this 
+action.
+
+H. Executive Order 13045: Protection of Children From Environmental 
+Health Risks and Safety Risks
+
+    Executive Order 13045 directs federal agencies to include an 
+evaluation of the health and safety effects of the planned regulation 
+on children in federal health and safety standards and explain why the 
+regulation is preferable to potentially effective and reasonably 
+feasible alternatives. This action is not subject to Executive Order 
+13045 because the EPA does not believe the environmental health or 
+safety risks addressed by this action present a disproportionate risk 
+to children. The 2020 Part A final rule required all units applying for 
+extensions to demonstrate full compliance with the applicable 
+provisions of the 2015 final CCR rule at 40 CFR 257 subpart D, 
+including all structural integrity, corrective action and other 
+requirements needed to safeguard human health and the environment. 
+Because all units potentially affected by this proposed rule are 
+subject to a Part A extension, it is unlikely that changes in closure 
+schedule under this proposed rule will have any specific impacts to 
+children's health. However, EPA's Policy on Children's Health applies 
+to this action. Information on how the Policy was applied is available 
+under ``Children's Environmental Health'' in the Supplementary 
+Information section of this preamble.
+
+I. Executive Order 13211: Actions Concerning Regulations That 
+Significantly Affect Energy Supply, Distribution or Use
+
+    This action is not a ``significant energy action'' because it is 
+not likely to have a significant adverse effect on the supply, 
+distribution or use of energy. This proposed rule affords certain 
+facilities additional flexibility in the timing of the closure of their 
+coal-fired boilers and CCR disposal unit. Assuming that these 
+facilities are economically optimizing their operations, this 
+additional flexibility is not expected to result in any adverse impacts 
+or outcomes with regard to fuel supply or production, or energy costs. 
+The proposed rule, which reduces costs on a time value of money basis, 
+will not result in any adverse electricity price or energy market 
+impacts.
+
+J. National Technology Transfer and Advancement Act (NTTAA)
+
+    This rulemaking does not involve technical standards.
+
+List of Subjects in 40 CFR Part 257
+
+    Environmental protection, Beneficial use, Coal combustion products, 
+Coal combustion residuals, Coal combustion waste, Disposal, Hazardous 
+waste, Landfill, Surface impoundment.
+
+Lee Zeldin,
+Administrator.
+
+    For the reasons set out in the preamble, title 40, chapter I, of 
+the Code of Federal Regulations is proposed to be amended as follows:
+
+PART 257--CRITERIA FOR CLASSIFICATION OF SOLID WASTE DISPOSAL 
+FACILITIES AND PRACTICES
+
+0
+1. The authority citation for part 257 continues to read as follows:
+
+    Authority:  42 U.S.C. 6907(a)(3), 6912(a)(1), 6927, 6944, 
+6945(a) and (d); 33 U.S.C. 1345(d) and (e).
+
+0
+2. Amend Sec.  257.103 by revising paragraph (f)(2)(iv)(B) to read as 
+follows:
+
+[[Page 54619]]
+
+Sec.  257.103  Alternative closure requirements.
+
+* * * * *
+    (f) * * *
+    (2) * * *
+    (iv) * * *
+    (B) For a CCR surface impoundment that is larger than 40 acres, the 
+coal-fired boiler(s) must cease operation, and the CCR surface 
+impoundment must complete closure no later than October 17, 2031.
+* * * * *
+[FR Doc. 2025-21597 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

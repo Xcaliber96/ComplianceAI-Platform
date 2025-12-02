@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54402-54403]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21312]
+
+
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[NRC-2024-0193]
+
+
+Information Collection: Disposal of High-Level Radioactive Waste 
+in Geologic Repositories
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Notice of submission to the Office of Management and Budget; 
+request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) has recently 
+submitted a request for renewal of an existing collection of 
+information to the Office of Management and Budget (OMB) for review. 
+The information collection is entitled, ``Disposal of High-Level 
+Radioactive Waste in Geologic Repositories.''
+
+DATES: Submit comments by December 26, 2025. Comments received after 
+this date will be considered if it is practical to do so, but the 
+Commission is able to ensure consideration only for comments received 
+on or before this date.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection by selecting ``Currently under 
+Review--Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Heather Dempsey, Acting NRC Clearance 
+Officer, U.S. Nuclear Regulatory Commission, Washington, DC 20555-0001; 
+telephone: 301-415-0856; email: <a href="/cdn-cgi/l/email-protection#440d2a222b272b2828212730376a1621372b31362721042a36276a232b32"><span class="__cf_email__" data-cfemail="a8e1c6cec7cbc7c4c4cdcbdcdb86facddbc7dddacbcde8c6dacb86cfc7de">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+    Please refer to Docket ID NRC-2024-0193 when contacting the NRC 
+about the availability of information for this action. You may obtain 
+publicly available information related to this action by any of the 
+following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2024-0193.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select
+
+[[Page 54403]]
+
+``Begin ADAMS Public Search.'' For problems with ADAMS, please contact 
+the NRC's Public Document Room (PDR) reference staff at 1-800-397-4209, 
+at 301-415-4737, or by email to <a href="/cdn-cgi/l/email-protection#c0908492ee92a5b3afb5b2a3a580aeb2a3eea7afb6"><span class="__cf_email__" data-cfemail="a3f3e7f18df1c6d0ccd6d1c0c6e3cdd1c08dc4ccd5">[email&#160;protected]</span></a>. The supporting 
+statement is available in ADAMS under Accession No. ML25321A749.
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#83d3c7d1add1e6f0ecf6f1e0e6c3edf1e0ade4ecf5"><span class="__cf_email__" data-cfemail="7e2e3a2c502c1b0d110b0c1d1b3e100c1d50191108">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 8 
+a.m. and 4 p.m. eastern time (ET), Monday through Friday, except 
+Federal holidays.
+    <bullet> NRC's Clearance Officer: A copy of the collection of 
+information and related instructions may be obtained without charge by 
+contacting the NRC's Acting Clearance Officer, Heather Dempsey, Office 
+of the Chief Information Officer, U.S. Nuclear Regulatory Commission, 
+Washington, DC 20555-0001; telephone: 301-415-0856; email: 
+<a href="/cdn-cgi/l/email-protection#cc85a2aaa3afa3a0a0a9afb8bfe29ea9bfa3b9beafa98ca2beafe2aba3ba"><span class="__cf_email__" data-cfemail="f5bc9b939a969a999990968186dba790869a80879690b59b8796db929a83">[email&#160;protected]</span></a>.
+
+B. Submitting Comments
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under Review--Open for 
+Public Comments'' or by using the search function.
+    The NRC cautions you not to include identifying or contact 
+information in comment submissions that you do not want to be publicly 
+disclosed in your comment submission. All comment submissions are 
+posted at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and entered into ADAMS. Comment 
+submissions are not routinely edited to remove identifying or contact 
+information.
+    If you are requesting or aggregating comments from other persons 
+for submission to the OMB, then you should inform those persons not to 
+include identifying or contact information that they do not want to be 
+publicly disclosed in their comment submission. Your request should 
+state that comment submissions are not routinely edited to remove such 
+information before making the comment submissions available to the 
+public or entering the comment into ADAMS.
+
+II. Background
+
+    Under the provisions of the Paperwork Reduction Act of 1995 (44 
+U.S.C. Chapter 35), the NRC recently submitted a request for renewal of 
+an existing collection of information to OMB for review entitled, 
+``Disposal of High-Level Radioactive Waste in Geologic Repositories.'' 
+The NRC hereby informs potential respondents that an agency may not 
+conduct or sponsor, and that a person is not required to respond to, a 
+collection of information unless it displays a currently valid OMB 
+control number.
+    The NRC published a Federal Register notice with a 60-day comment 
+period on this information collection on September 3, 2025, 90 FR 
+42621.
+    1. The title of the information collection: Disposal of High-Level 
+Radioactive Waste in Geologic Repositories.
+    2. OMB approval number: 3150-0127.
+    3. Type of submission: Extension.
+    4. The form number, if applicable: Not applicable.
+    5. How often the collection is required or requested: Once.
+    6. Who will be required or asked to respond: State or Indian 
+Tribes, or their representatives, requesting consultation with the NRC 
+staff regarding review of a potential high-level radioactive waste 
+geologic repository site, or wishing to participate in a license 
+application review for a potential geologic repository (other than a 
+potential geologic repository site at Yucca Mountain, Nevada, which is 
+regulated under part 63 of title 10 of the Code of Federal Regulations 
+(10 CFR), ``Disposal of High-Level Radioactive Wastes In a Geologic 
+Repository at Yucca Mountain, Nevada.''
+    7. The estimated number of annual responses: 3.
+    8. The estimated number of annual respondents: 1.
+    9. The estimated number of hours needed annually to comply with the 
+information collection requirement or request: 121.
+    10. Abstract: 10 CFR part 60 requires States and Indian Tribes to 
+submit certain information to the NRC if they request consultation with 
+the NRC staff concerning the review of a potential repository site or 
+wish to participate in a license application review for a potential 
+repository (other than the Yucca Mountain, Nevada site, which is 
+regulated under 10 CFR part 63). States and Indian Tribes are required 
+to submit information regarding requests for consultation with the NRC 
+and participation in the review of a site characterization plan and/or 
+license application, but only if they wish to obtain NRC consultation 
+services and/or participate in the reviews. The information submitted 
+by the States and Indian Tribes is used by the Director of the Office 
+of Nuclear Material Safety and Safeguards as a basis for decisions 
+about the commitment of NRC staff resources to the consultation and 
+participation efforts. All of the information collection requirements 
+pertaining to Yucca Mountain are included in 10 CFR part 63 and 
+approved by OMB under control number 3150-0199.
+
+    Dated: November 24, 2025.
+
+    For the Nuclear Regulatory Commission.
+Heather Dempsey,
+Acting NRC Clearance Officer, Office of the Chief Information Officer.
+[FR Doc. 2025-21312 Filed 11-25-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

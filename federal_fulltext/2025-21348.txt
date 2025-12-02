@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54690-54692]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21348]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Agency for Healthcare Research and Quality
+
+
+Agency Information Collection Activities: Proposed Collection; 
+Comment Request
+
+AGENCY: Agency for Healthcare Research and Quality, HHS.
+
+ACTION: Information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice announces the intention of the Agency for 
+Healthcare Research and Quality (AHRQ) to request that the Office of 
+Management and Budget (OMB) approve an extension, without change, of 
+the currently approved ``AHRQ Consumer Assessment of Healthcare 
+Providers and Systems (CAHPS) Home and Community-Based Services Survey 
+(HCBS) Database'' (OMB Control number 0935-0245, last approved on 
+January 3, 2023, for three years).
+
+DATES: Comments on this notice must be received by January 27, 2026.
+
+ADDRESSES: Written comments should be submitted to: Margie Shofer, 
+Reports Clearance Officer, AHRQ, by email at 
+<a href="/cdn-cgi/l/email-protection#3a687f6a75686e6979767f7b687b74797f757c7c73797f687a5b52484b14525249145d554c"><span class="__cf_email__" data-cfemail="1e4c5b4e514c4a4d5d525b5f4c5f505d5b515858575d5b4c5e7f766c6f3076766d30797168">[email&#160;protected]</span></a>.
+    Copies of the proposed collection plans, data collection 
+instruments, and specific details on the estimated burden can be 
+obtained from the AHRQ Reports Clearance Officer.
+
+FOR FURTHER INFORMATION CONTACT: Margie Shofer, AHRQ Reports Clearance 
+Officer, (301) 427-1696, or by email at 
+<a href="/cdn-cgi/l/email-protection#ffadbaafb0adabacbcb3babeadbeb1bcbab0b9b9b6bcbaadbf9e978d8ed197978cd1989089"><span class="__cf_email__" data-cfemail="dd8f988d928f898e9e91989c8f9c939e98929b9b949e988f9dbcb5afacf3b5b5aef3bab2ab">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Proposed Project
+
+    The CAHPS Home and Community-Based Services Survey (HCBS-CAHPS 
+Survey) is the first cross-disability survey of home and community-
+based service beneficiaries' experience receiving long-term services 
+and supports. It is designed to facilitate comparisons across state 
+Medicaid HCBS programs throughout the country that target adults with 
+disabilities, e.g., including older adults, individuals with physical 
+disabilities, persons with developmental or intellectual disabilities, 
+those with acquired brain injury and persons with severe mental 
+illness.
+    The HCBS-CAHPS Database serves as a primary source of data 
+available to states, agency programs and researchers to help answer 
+important questions related to beneficiary experiences. AHRQ, through 
+its contractor, collects and make available de-identified survey data, 
+enabling HCBS programs to identify areas where quality can be improved.
+    The HCBS-CAHPS Database supports AHRQ's goals of promoting 
+improvements in the quality and patient-centeredness of health care in 
+home or community-based care settings.
+    The HCBS-CAHPS Survey was developed by the Centers for Medicare & 
+Medicaid Services (CMS) for voluntary use by state Medicaid programs, 
+including both fee-for-service HCBS programs as well as managed long-
+term services and supports (MLTSS) programs. States with adequate 
+sample sizes may consider using survey metrics in value-based 
+purchasing initiatives.
+    This research seeks to answer the following questions:
+    1. What are the key drivers of patient experience in HCBS programs?
+    2. How do beneficiary experiences with HCBS vary across states and 
+program types?
+
+[[Page 54691]]
+
+    3. What are the highest and lowest scoring measures in specific 
+domains of HCBS delivery of care?
+    This research has the following goals:
+    1. Produce aggregated results from HCBS-CAHPS survey users that 
+voluntarily submit their data; and
+    2. Provide feedback reports to HCBS-CAHPS survey users that 
+voluntarily submit their data to help them identify their strengths and 
+areas for improvement in patient care.
+    This study is being conducted by AHRQ through its contractor, 
+Westat, pursuant to AHRQ's statutory authority to conduct and support 
+research on health care and on systems for the delivery of such care, 
+including activities with respect to the quality, effectiveness, 
+efficiency, appropriateness and vale of healthcare services and with 
+respect to quality measurement and improvement [42 U.S.C 299a(a)(1), 
+(2) and (8)].
+    The development and operation of the HCBS-CAHPS Database will 
+include the following major components undertaken by AHRQ through its 
+contractor.
+    1. Program Recruitment. Outreach will be conducted with the HCBS-
+CAHPS user community (including state agencies, managed long-term 
+services and supports (MLTSS) programs, centers for independent living, 
+improvement collaborative organizations, survey vendors, etc.) to 
+promote the database and its benefits and encourage voluntary 
+contributions of survey data. A variety of communications will be used 
+(e.g., GovDelivery announcements, personal email messages, conference 
+and meeting presentations, etc.) to present the value case for the 
+database and key dates and details about submitting data.
+    2. Data Submission Platform. AHRQ's contractor currently provides a 
+web-based user-friendly submission platform for both the CAHPS Health 
+Plan and CAHPS Child Hospital survey data. This platform was used as a 
+model to develop the HCBS-CAHPS Database submission system, including 
+data submission specifications; technical assistance and step-by-step 
+instructions for participation; analysis programs for data cleaning and 
+reporting; and data use agreements to protect the confidentiality of 
+the participating organizations and their data.
+    3. Submission Notifications and Instructions. Clear instructions 
+and notifications are of paramount importance for successful submission 
+of valid data, seamless report dissemination, and streamlined 
+communication with survey vendors, state programs, or other submitters.
+
+Method of Collection
+
+    The development and operation of the HCBS-CAHPS Database will 
+include the following data collection activities:
+    <bullet> Registration with the site to obtain an account with a 
+secure username and password;
+    <bullet> Submission of DUAs and survey questionnaires;
+    <bullet> Submission of program information form;
+    <bullet> Submission of de-identified survey data files,
+    <bullet> Generation of status reports indicating that submitted 
+files are either accepted or rejected; and
+    <bullet> Follow-up with submitters in the event of a rejected file, 
+to assist in making corrections and resubmitting the file.
+
+Estimated Annual Respondent Burden
+
+    Exhibit 1 shows the estimated burden hours for the respondents to 
+participate in the database. The 51 POCs in Exhibit 1 represent the 51 
+states or agencies that will administer the Adult HCBS survey. An 
+estimated thirteen survey vendors will assist them.
+    Each POC will:
+    1. Register online for submission. The online registration form 
+will require about five minutes to complete.
+    2. Complete a program information form of information about each 
+program such as the name of the program, program size, state, etc. The 
+online program information form takes on average 5 minutes to complete.
+    3. Complete a DUA. The DUA requires about 3 minutes to sign and 
+return by fax or mail.
+    Each submitter, which in most cases will be the survey vendor 
+performing the data collection, will provide a copy of their 
+questionnaire and the survey data file in the required file format. 
+Survey data files must conform to the data file layout specifications 
+provided by the HCBS-CAHPS Database. Since the unit of analysis is at 
+the program level, submitters will upload one data file per program. 
+Once a data file is uploaded the file will be automatically checked to 
+ensure it conforms to the specifications and a data file status report 
+will be produced and made available to the submitter. Submitters will 
+review each report and will be expected to correct any errors in their 
+data file and resubmit if necessary. It will take about one hour to 
+submit the data for each program.
+    The total burden is estimated to be 63 hours annually.
+
+                                  Exhibit 1--Estimated Annualized Burden Hours
+----------------------------------------------------------------------------------------------------------------
+                                                     Number of       Number of
+                    Form name                      respondents/   responses  per     Hours per     Total  burden
+                                                      POCs *            POC          response          hours
+----------------------------------------------------------------------------------------------------------------
+Registration Form...............................              51               1            5/60            4.25
+Program Information Form........................              51               1            5/60            4.25
+Data Use Agreement..............................              51               1            3/60             2.5
+Data Files Submission...........................              13               4               1              52
+                                                 ---------------------------------------------------------------
+    Total.......................................              NA              NA              NA              63
+----------------------------------------------------------------------------------------------------------------
+* The 51 POC's for the registration form, program information form and the DUA are the estimated POC's from the
+  estimated participating programs.
+
+    Exhibit 2 shows the estimated annualized cost burden based on the 
+respondents' time to complete one submission process. The cost burden 
+is estimated to be $6,940 annually.
+
+[[Page 54692]]
+
+
+
+                                   Exhibit 2--Estimated Annualized Cost Burden
+----------------------------------------------------------------------------------------------------------------
+                                                                      Average        Adjusted
+                    Form name                      Total  burden   hourly  wage    hourly  wage     Total  cost
+                                                       hours          rate *          rate **         burden
+----------------------------------------------------------------------------------------------------------------
+Registration Form...............................            4.25       \a\ 66.22          132.44            $563
+Program Information Form........................            4.25       \a\ 66.22          132.44             563
+Data Use Agreement..............................             2.5      \b\ 126.41          252.82             632
+Data Files Submission...........................              52       \c\ 49.83           99.66           5,182
+                                                 ---------------------------------------------------------------
+    Total.......................................              63              NA              NA           6,940
+----------------------------------------------------------------------------------------------------------------
+* National Compensation Survey: Occupational wages in the United States May 2024, ``U.S. Department of Labor,
+  Bureau of Labor Statistics.''
+** The Adjusted Hourly Rate was estimated at 200% of the hourly wage.
+\a\ Based on the mean hourly wage for Medical and Health Services Managers (11-9111).
+\b\ Based on the mean hourly wage for Chief Executives (11-1011).
+\c\ Based on the mean hourly wages for Computer Programmers (15-1251).
+
+Request for Comments
+
+    In accordance with the Paperwork Reduction Act, 44 U.S.C. 3501-
+3520, comments on AHRQ's information collection are requested with 
+regard to any of the following: (a) whether the proposed collection of 
+information is necessary for the proper performance of AHRQ's health 
+care research and health care information dissemination functions, 
+including whether the information will have practical utility; (b) the 
+accuracy of AHRQ's estimate of burden (including hours and costs) of 
+the proposed collection(s) of information; (c) ways to enhance the 
+quality, utility and clarity of the information to be collected; and 
+(d) ways to minimize the burden of the collection of information upon 
+the respondents, including the use of automated collection techniques 
+or other forms of information technology.
+    Comments submitted in response to this notice will be summarized 
+and included in the Agency's subsequent request for OMB approval of the 
+proposed information collection. All comments will become a matter of 
+public record.
+
+    Dated: November 24, 2025.
+Mamatha Pancholi,
+Deputy Director.
+[FR Doc. 2025-21348 Filed 11-26-25; 8:45 am]
+BILLING CODE 4160-90-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

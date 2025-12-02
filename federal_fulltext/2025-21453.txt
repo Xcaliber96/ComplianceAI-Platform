@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54643-54644]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21453]
+
+
+-----------------------------------------------------------------------
+
+CONSUMER FINANCIAL PROTECTION BUREAU
+
+[Docket No. CFPB-2025-0041]
+
+
+Agency Information Collection Activities: Comment Request
+
+AGENCY: Consumer Financial Protection Bureau.
+
+ACTION: Notice and request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995 (PRA), 
+the Consumer Financial Protection Bureau (CFPB or Bureau) requests the 
+Office of Management and Budget's (OMB's) extension of the existing 
+information collection titled ``Consumer Complaint Intake System 
+Company Portal Boarding Form'' approved under OMB Number 3170-0054.
+
+DATES: Written comments are encouraged and must be received on or 
+before December 29, 2025 to be assured of consideration.
+
+[[Page 54644]]
+
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function. In general, 
+all comments received will become public records, including any 
+personal information provided. Sensitive personal information, such as 
+account numbers or Social Security numbers, should not be included.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information 
+should be directed to Anthony May, Paperwork Reduction Act Officer, at 
+(304) 481-5511, or email: <a href="/cdn-cgi/l/email-protection#30737660726f60627170535640521e575f46"><span class="__cf_email__" data-cfemail="87c4c1d7c5d8d7d5c6c7e4e1f7e5a9e0e8f1">[email&#160;protected]</span></a>. If you require this 
+document in an alternative electronic format, please contact 
+<a href="/cdn-cgi/l/email-protection#d89b9e889a8799bbbbbdababb1bab1b4b1aca198bbbea8baf6bfb7ae"><span class="__cf_email__" data-cfemail="14575244564b5577777167677d767d787d606d54777264763a737b62">[email&#160;protected]</span></a>. Please do not submit comments to these 
+email boxes.
+
+SUPPLEMENTARY INFORMATION: 
+    Title of Collection: Consumer Complaint Intake System Company 
+Portal Boarding Form.
+    OMB Control Number: 3170-0054.
+    Type of Review: Extension of a currently approved information 
+collection.
+    Affected Public: Private sector.
+    Estimated Number of Respondents: 400.
+    Estimated Total Annual Burden Hours: 85.
+    Abstract: Section 1013(b)(3)(A) of the Dodd-Frank Wall Street 
+Reform and Consumer Protection Act, Public Law 111-203, requires the 
+CFPB to ``facilitate the centralized collection of, monitoring of, and 
+response to consumer complaints regarding consumer financial products 
+or services.'' \1\ In furtherance of its statutory mandates related to 
+consumer complaints, the CFPB utilizes a Consumer Complaint Intake 
+System Company Portal Boarding Form (Boarding Form) to sign up 
+companies for access to the secure, web-based Company Portal (Company 
+Portal). The Company Portal allows companies to view and respond to 
+complaints submitted to the CFPB, supports the efficient routing of 
+consumer complaints to companies, and enables a timely and secure 
+response by companies to the CFPB and consumers.\2\
+---------------------------------------------------------------------------
+
+    \1\ Codified at 12 U.S.C. 5493(b)(3)(A). See also Dodd-Frank 
+Act, sec. 1034 (discussing responses to consumer complaints), 
+codified at 12 U.S.C. 5534; sec. 1021(c)(2) (noting that one of the 
+CFPB's primary functions is ``collecting, investigating, and 
+responding to consumer complaints''), codified at 12 U.S.C. 
+5511(c)(2).
+    \2\ In addition to the Boarding Form for companies, the Bureau 
+utilizes separate OMB-approved forms to board government agencies 
+and congressional offices onto their own distinct portals to access 
+certain complaint information through OMB Control Number 3170-0057 
+(Consumer Response Government and Congressional Boarding Forms; 
+expires 12/31/2027).
+---------------------------------------------------------------------------
+
+    Request for Comments: The CFPB published a 60-day Federal Register 
+notice on May 22, 2025 (90 FR 21905) under Docket Number: CFPB-2025-
+0027. The CFPB is publishing this notice and soliciting comments on: 
+(a) Whether the collection of information is necessary for the proper 
+performance of the functions of the CFPB, including whether the 
+information will have practical utility; (b) The accuracy of the CFPB's 
+estimate of the burden of the collection of information, including the 
+validity of the methods and the assumptions used; (c) Ways to enhance 
+the quality, utility, and clarity of the information to be collected; 
+and (d) Ways to minimize the burden of the collection of information on 
+respondents, including through the use of automated collection 
+techniques or other forms of information technology. Comments submitted 
+in response to this notice will be reviewed by OMB as part of its 
+review of this request. All comments will become a matter of public 
+record.
+
+Anthony May,
+Paperwork Reduction Act Officer, Consumer Financial Protection Bureau.
+[FR Doc. 2025-21453 Filed 11-26-25; 8:45 am]
+BILLING CODE 4810-AM-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

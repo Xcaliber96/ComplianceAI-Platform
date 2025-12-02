@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55301-55302]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21741]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+International Trade Administration
+
+
+UChicago Argonne LLC et al.: Application(s) for Duty-Free Entry 
+of Scientific Instruments
+
+    Pursuant to Section 6(c) of the Educational, Scientific and 
+Cultural Materials Importation Act of 1966 (Pub. L. 89-651, as amended 
+by Pub. L. 106-36; 80 Stat. 897; 15 CFR part 301), we invite comments 
+on the question of whether instruments of equivalent scientific value, 
+for the purposes for which the instruments shown below are intended to 
+be used, are being manufactured in the United States.
+    Comments must comply with 15 CFR 301.5(a)(3) and (4) of the 
+regulations and be postmarked on or before December 22, 2025. Address 
+written comments to Statutory Import Programs Staff, Room 40005, U.S. 
+Department of Commerce, Washington, DC 20230. Please also email a copy 
+of those comments to <a href="/cdn-cgi/l/email-protection#410437206f0a282c0135332025246f262e37"><span class="__cf_email__" data-cfemail="206556410e6b494d6054524144450e474f56">[email&#160;protected]</span></a>.
+    Docket Number: 25-034. Applicant: UChicago Argonne LLC., 9700 South 
+Cass Avenue, Lemont, Illinois, 60439. Instrument: 352-MHz/160kW Solid 
+State Radio Frequency Amplifier Systems. Manufacturer: R & K Company 
+Limited, Japan. Intended Use: The instrument is intended to study grain 
+structure, grain boundary and interstitial defects and morphology. 
+Justification for Duty-Free Entry: According to the applicant, there 
+are no instruments of the same general category manufactured in the 
+United States. Application accepted by Commissioner of Customs: May 20, 
+2025.
+    Docket Number: 25-058. Applicant: Battelle Memorial Institute, 
+Pacific Northwest Division, 902 Battelle Blvd., Richland, Washington 
+99354. Instrument: Transmitter Tags. Manufacturer: Lotek Wireless, 
+Inc., Canada. Intended Use: The instrument is intended to be used to 
+estimate survival and other quantitative metrics of juvenile chinook 
+salmon and steelhead. Justification for Duty-Free Entry: According to 
+the applicant, there are no instruments of the same general category 
+manufactured in the United States. Application accepted by Commissioner 
+of Customs: June 17, 2025.
+    Docket Number: 25-059. Applicant: Fermi Forward Discovery Group 
+LLC, P.O. Box 500, Batavia, Illinois 60510. Instrument: Particle 
+Accelerator's Neutrino Receiving and Detecting Instrument. 
+Manufacturers: European Organization for Nuclear Research 
+(Switzerland); The Science and Technology Facilities Council of UK 
+(United Kingdom); Istituto Nazionale di Fisica Nucleare (Italy); 
+Institut National de Physique Nucleairie et de Physique des Particules 
+(France); Universidade Estadual de Campinas (Brazil); Ministerio de 
+Ciencia e Innovacion (Spain); The Czech Ministry of Education (Czech 
+Republic); The Canadian Foundation for Innovation: John R. Evans 
+Leaders Fund and Ontario Research Fund (Canada); Natural Sciences and 
+Engineering Research Council of Canada (Canada); University of Bern 
+(Switzerland). Intended Use: The instrument is intended to be used to 
+study (1) how neutrinos oscillate (change flavors) over long distances; 
+(2) whether neutrinos and antineutrinos behave differently; and (3) how 
+neutrinos interact with matter, by analyzing the types and frequency of 
+different reactions. Justification for Duty-Free Entry: According to 
+the applicant, there are no instruments of the same general category 
+manufactured in the United States. Application accepted by Commissioner 
+of Customs: June 11, 2025.
+    Docket Number: 25-060. Applicant: UChicago Argonne LLC, 9700 S Cass 
+Avenue, Lemont, Illinois 60439. Instrument: Circulator Switch. 
+Manufacturer: AFT Microwave GMBH, Germany. Intended Use: The instrument 
+is intended to be used for the transmission of rf energy to the 
+Advanced Photon Source storage ring to support a circulating electron 
+beam. Justification for Duty-Free Entry: According to the applicant, 
+there are no instruments of the same general category manufactured in 
+the United States. Application accepted by Commissioner of Customs: 
+June 17, 2025.
+    Docket Number: 25-061. Applicant: Columbia University, 538 W 120 
+St, New York 10027. Instrument: Narrow Linewidth Laser (1076.5 nm 
+wavelength and greater than 50 W of output power). Manufacturer: 
+Shanghai Precilasers Technology Co., Ltd., China. Intended Use: The 
+instrument is intended to be used to study quantum many-body physics 
+with ultracold sodium-cesium molecules. Justification for Duty-Free 
+Entry: According to the applicant, there are no instruments of the same 
+general category manufactured in the United States. Application 
+accepted by Commissioner of Customs: June 26, 2025.
+    Docket Number: 25-062. Applicant: California Institute of 
+Technology 1200 E California Blvd. Pasadena, CA 91125. Instrument: 
+Narrow Linewidth Laser (633 nm wavelength and 8W of output power). 
+Manufacturer: Shanghai Precilasers Technology Co., Ltd., China. 
+Intended Use: The instrument is intended to be used to conduct quantum 
+science experiments with strontium-88 atoms in optical tweezer arrays. 
+Justification for Duty-Free Entry: According to the applicant, there 
+are no instruments of the same general category manufactured in the 
+United States. Application accepted by Commissioner of Customs: June 
+26, 2025.
+    Docket Number: 25-063. Applicant: The Pennsylvania State University 
+180 Pollock Road, 308 Old Main University Park, Pennsylvania 16802. 
+Instrument: Narrow Linewidth Laser (845 nm wavelength and 15W of output 
+power). Manufacturer: Shanghai Precilasers Technology Co., Ltd., China. 
+Intended Use: The instrument is intended to be used to study Rydberg 
+atom arrays for quantum simulation experiments. Justification for Duty-
+Free Entry: According to the applicant, there are no instruments of the 
+same general category manufactured in the United States. Application 
+accepted by Commissioner of Customs: July 18, 2025.
+    Docket Number: 25-064. Applicant: University of Colorado JILA 
+Department, Campus Box 440 UCB, JILA Bldg. Room S/175 Boulder, Colorado 
+80309. Instrument: Closed-Sycle Cryostat Integrated with a 
+Superconducting Magnet and Nanopositioners. Manufacturer: Attocube 
+Systems AG, Germany. Intended Use: The instrument is intended to be 
+used to study solid-state quantum materials. Justification for Duty-
+Free Entry: According to the applicant, there are no instruments of the 
+same general category manufactured in the United States. Application 
+accepted by Commissioner of Customs: July 18, 2025.
+    Docket Number: 25-065. Applicant: Massachusetts Institute of 
+Technology, 77 Massachusetts Ave., Cambridge,
+
+[[Page 55302]]
+
+Massachusetts 02139. Instrument: Dilution Refrigerator (base 
+temperature below 10mK, cooling power at 20mK of more than 35[micro]W, 
+cooling power at 100mK or more than 1000[micro]W and cool down to base 
+temperature in less than 30 hours unloaded). Manufacturer: Bluefors 
+Inc., Finland. Intended Use: The instrument is intended to be used to 
+perform research in superconducting quantum computing. Justification 
+for Duty-Free Entry: According to the applicant, there are no 
+instruments of the same general category manufactured in the United 
+States. Application accepted by Commissioner of Customs: June 26, 2025.
+    Docket Number: 25-066. Applicant: UChicago Argonne LLC, 9700 S Cass 
+Avenue Lemont, Illinois 60439. Instrument: Stepper Motors. 
+Manufacturer: Daniel F. Crews LLC, Japan. Intended Use: The instrument 
+is intended to be used to assemble the new Bionanoprobe-Il instrument 
+at the Advanced Photon Source. Justification for Duty-Free Entry: 
+According to the applicant, there are no instruments of the same 
+general category manufactured in the United States. Application 
+accepted by Commissioner of Customs: June 24, 2025.
+    Docket Number: 25-068. Applicant: University of South Carolina, 
+Osborne Administration Building, Suite 202, 915 Bull Street, Columbia, 
+South Carolina 29208. Instrument: JEM-F200 (C-HR): Multi-Purpose 
+Electron Microscope and EM-20230CFEG: Cold Field Emission Gun with 
+Radiant Panels). Manufacturer: JEOL Ltd., Japan. Intended Use: The 
+instrument is intended to be used in projects such as the imaging of 
+nanomaterials to determine particle size distributions; evaluating the 
+size and shape distributions of ``magic size'' quantum dots; and 
+determining the structure and chemical composition of rare-earth and 
+transition metal materials. Justification for Duty-Free Entry: 
+According to the applicant, there are no instruments of the same 
+general category manufactured in the United States. Application 
+accepted by Commissioner of Customs: June 18, 2025.
+    Docket Number: 25-069. Applicant: UChicago Argonne LLC, 9700 South 
+Cass Avenue, Lemont, Illinois 60439. Instrument: Fluorescence Electron 
+Detector. Manufacturer: Quantum Detectors Unlimited, United Kingdom. 
+Intended Use: The instrument is intended to be used to study the 
+properties of semiconductors, metals and oxides. Justification for 
+Duty-Free Entry: According to the applicant, there are no instruments 
+of the same general category manufactured in the United States. 
+Application accepted by Commissioner of Customs: June 18, 2025.
+    Docket Number: 25-071. Applicant: University of California Santa 
+Barbara, 1210 Cheadle Hall, Santa Barbara, California 93106. 
+Instrument: FT-NMT04 Nanomechanical Testing System. Manufacturer: 
+Femtotools (part of Oxford Instruments), United Kingdom. Intended Use: 
+The instrument is intended to be used to test advanced metal alloys and 
+ceramic materials designed for high temperature environments. 
+Justification for Duty-Free Entry: According to the applicant, there 
+are no instruments of the same general category manufactured in the 
+United States. Application accepted by Commissioner of Customs: June 
+20, 2025.
+
+    Dated: November 26, 2025.
+Tyler J. O'Daniel,
+Acting Director, Subsidies Enforcement, Enforcement and Compliance.
+[FR Doc. 2025-21741 Filed 12-1-25; 8:45 am]
+BILLING CODE 3510-DS-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

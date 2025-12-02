@@ -1,0 +1,573 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53393-53396]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20841]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[Docket No. 50-255; NRC-2025-1666]
+
+
+Palisades Energy, LLC; Palisades Nuclear Plant; Exemption
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Notice; issuance.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) has issued an 
+exemption in response to a request dated August 12, 2025, as 
+supplemented by letter dated October 15, 2025, from Palisades Energy, 
+LLC for the Palisades Nuclear Plant. The exemption authorizes the one-
+time use of the less restrictive work hour limitations described in the 
+NRC's regulations for a 60-day period starting on November 3, 2025.
+
+DATES: The exemption was issued on October 24, 2025.
+
+ADDRESSES: Please refer to Docket ID NRC-2025-1666 when contacting the 
+NRC about the availability of information regarding this document. You 
+may obtain publicly available information related to this document 
+using any of the following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2025-1666. Address 
+questions about Docket IDs in <a href="http://Regulations.gov">Regulations.gov</a> to Bridget Curran; 
+telephone: 301-415-1003; email: <a href="/cdn-cgi/l/email-protection#aae8d8c3cecdcfde84e9dfd8d8cbc4eac4d8c984cdc5dc"><span class="__cf_email__" data-cfemail="40023229242725346e03353232212e002e32236e272f36">[email&#160;protected]</span></a>. For technical 
+questions, contact the individuals listed in the For Further 
+Information Contact section of this document.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select ``Begin ADAMS Public Search.'' 
+For problems with ADAMS, please contact the NRC's Public Document Room 
+(PDR) reference staff at 1-800-397-4209, at 301-415-4737, or by email 
+to <a href="/cdn-cgi/l/email-protection#a9f9edfb87fbccdac6dcdbcacce9c7dbca87cec6df"><span class="__cf_email__" data-cfemail="124256403c4077617d67607177527c60713c757d64">[email&#160;protected]</span></a>. The exemption request dated August 12, 2025, 
+is available in ADAMS under Accession No. ML25224A206, as supplemented 
+by letter dated October 15, 2025 (ADAMS Accession No. ML25288A074).
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#68382c3a463a0d1b071d1a0b0d28061a0b460f071e"><span class="__cf_email__" data-cfemail="702034225e2215031f05021315301e02135e171f06">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 8 
+a.m. and 4 p.m. eastern time (ET), Monday through Friday, except 
+Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: Marlayna V. Doell, Office of Nuclear 
+Reactor Regulation, U.S. Nuclear Regulatory Commission, Washington, DC 
+20555-0001; telephone: 301-415-3178; email: <a href="/cdn-cgi/l/email-protection#a5e8c4d7c9c4dccbc48be1cac0c9c9e5cbd7c68bc2cad3"><span class="__cf_email__" data-cfemail="400d21322c21392e216e042f252c2c002e32236e272f36">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The text of the exemption is attached.
+
+    Dated: November 20, 2025.
+
+    For the Nuclear Regulatory Commission.
+Marlayna Doell,
+Project Manager, Plant Licensing Branch III, Division of Operating 
+Reactor Licensing, Office of Nuclear Reactor Regulation.
+
+Attachment--Exemption
+
+NUCLEAR REGULATORY COMMISSION
+
+Docket No. 50-255; Palisades Energy, LLC; Palisades Nuclear Plant; 
+Exemption
+
+I. Background
+
+    Palisades Energy, LLC (Palisades, the licensee) is the holder of 
+Renewed Facility Operating License No. DPR-20, which authorizes 
+operation of the Palisades Nuclear Plant (Palisades). The license 
+provides, among other things, that the facility is subject to all 
+rules, regulations, and orders of the U.S. Nuclear Regulatory 
+Commission (NRC, the Commission) now or hereafter in effect. The 
+facility consists of one pressurized-water reactor located in Van 
+Buren County in Michigan.
+
+II. Request/Action
+
+    By letter dated August 12, 2025 (Agencywide Documents Access and 
+Management System (ADAMS) Accession No. ML25224A206), as 
+supplemented by letter dated October 15, 2025 (ML25288A074), and 
+pursuant to 10 CFR 26.9, ``Specific exemptions,'' the licensee 
+requested a one-time exemption from the work hour requirements in 
+Title 10 of the Code of Federal Regulations (10 CFR) part 26, 
+``Fitness for Duty Programs,'' paragraph 26.205(d), ``Work hour 
+controls'' Specifically, the licensee requested to use the work hour 
+requirements in 10 CFR 26.205(d)(4) and (d)(5) in lieu of the non-
+outage work hour controls described in 10 CFR 26.205(d)(3) and 
+(d)(7) for a period of no more than 60 days for individuals 
+specified in 10 CFR 26.4(a)(1) through (a)(5), starting on November 
+3, 2025, following the licensee's planned 60-day outage which 
+started on
+
+[[Page 53394]]
+
+August 25, 2025, and ends on October 23, 2025.
+    Section 26.205(d)(3) of 10 CFR, requires licensees to comply 
+with the requirements for individuals to have a minimum number of 
+days off per week depending on the duration of shift schedules, 
+averaged over the shift cycle, and the duties being performed. 
+Individuals working 8-hour shift schedules shall have at least 1 day 
+off per week, and individuals who are working 10-hour shift 
+schedules shall have at least 2 days off per week. Individuals 
+working 12-hour shift schedules while performing the duties 
+described in 10 CFR 26.4(a)(1) through (a)(3) shall have at least 
+2.5 days off per week; individuals working 12-hour shift schedules 
+while performing duties described in 10 CFR 26.4(a)(4) shall have at 
+least 2 days off per week; and individuals working 12-hour shift 
+schedules while performing duties described in 10 CFR 26.4(a)(5) 
+shall have at least 3 days off per week. Section 26.205(d)(7) of 10 
+CFR, requires licensees to comply with the requirements for maximum 
+average work hours wherein individuals may not work more than a 
+weekly average of 54 hours, calculated using an averaging period of 
+up to 6 weeks, which advances by 7 consecutive calendar days at the 
+finish of every averaging period. The licensee seeks a one-time 
+exemption from the requirements of 10 CFR 26.205(d)(3) and (d)(7).
+    The requirements in 10 CFR 26.205(d)(4) provide that during the 
+first 60 days of a unit outage, licensees need not meet the 
+requirements of 10 CFR 26.205(d)(3) or (d)(7) for individuals 
+specified in 10 CFR 26.4(a)(1) through (a)(4), while those 
+individuals are working on outage activities. However, 10 CFR 
+26.205(d)(4) does require the licensee to ensure individuals 
+specified in 10 CFR 26.4(a)(1) through (a)(3) have at least 3 days 
+off in each successive (i.e., non-rolling) 15-day period, and that 
+the individuals specified in 10 CFR 26.4(a)(4) have at least 1 day 
+off in any 7-day period. This is collectively known as the outage 
+minimum days off (MDO) requirement. The requirements in 10 CFR 
+26.205(d)(5) provide that during the first 60 days of a unit outage, 
+licensees need not meet the requirements of 10 CFR 26.205(d)(3) or 
+(d)(7) for individuals specified in 10 CFR 26.4(a)(5). Additionally, 
+licensees shall ensure that individuals specified in 10 CFR 
+26.4(a)(5) have at least 4 days off in each successive (i.e., non-
+rolling) 15-day period.
+    On July 24, 2025, the NRC issued a series of licensing and 
+regulatory actions approving the licensee's request to reauthorize 
+power operations at Palisades and return the plant to an operational 
+status, including the Power Operations Technical Specifications 
+(ML25157A127). In its August 12, 2025, submittal letter, the 
+licensee stated that it planned to implement the power operations 
+license, the final safety analysis report (FSAR), and the Power 
+Operations Technical Specifications on August 25, 2025. Further, the 
+licensee stated that on August 25, 2025, Palisades would transition 
+directly into an outage under the Power Operation Technical 
+Specifications to restore the plant for restart.
+    The licensee stated that the one-time exemption from the work 
+hour requirements in 10 CFR 26.205(d) is necessary for the flexible 
+management of personnel and work activities to ensure the full 
+restoration of safety-related equipment and completion of outage 
+activities in support of plant restart at Palisades. To support the 
+extended use of outage work hour controls for the initial 60-day 
+outage followed by the initially proposed 49-day exemption period, 
+the licensee proposed additional mitigating actions discussed in 
+Section V of the Enclosure to the August 12, 2025, submittal letter.
+    In the letter dated October 15, 2025, the licensee submitted a 
+supplement to the proposed request for exemption. In the supplement, 
+the licensee requested to increase the previously requested 49-day 
+exemption period for use of the less restrictive work hour 
+limitations to a 60-day exemption period to support the restart 
+activities for Palisades. The licensee stated that it plans to use 
+the additional time under the less restrictive work hour limitations 
+to allow more flexibility for scheduling of covered work tasks and 
+individual work hours to better manage cumulative fatigue. In 
+addition, the licensee stated that the start date of the proposed 
+exemption period of 60 days is being changed from October 24, 2025, 
+to November 3, 2025.
+
+III. Discussion
+
+    Pursuant to 10 CFR 26.9, the Commission may, upon application by 
+any interested person or upon its own initiative, grant exemptions 
+from the requirements of 10 CFR part 26 when the exemptions are 
+authorized by law and will not endanger life or property or the 
+common defense and security; and are otherwise in the public 
+interest.
+
+A. The Exemption Is Authorized by Law
+
+    The proposed exemption would authorize a one-time exemption from 
+the requirements of 10 CFR 26.205(d)(3) and (d)(7) to allow the use 
+of the less restrictive work hour controls in 10 CFR 26.205(d)(4) 
+and (d)(5) for up to an additional 60 days, starting on November 3, 
+2025, to allow the completion of the plant restart activities 
+without violating NRC regulations. As stated, 10 CFR 26.9 allows the 
+NRC to grant exemptions from the requirements of 10 CFR part 26. The 
+NRC staff has determined that granting the proposed exemption will 
+not result in a violation of the Atomic Energy Act of 1954, as 
+amended, other laws, or the Commission's regulations. Therefore, the 
+exemption is authorized by law.
+
+B. The Exemption Will Not Endanger Life or Property
+
+    The purpose of subpart I, ``Managing Fatigue,'' of 10 CFR part 
+26 is to ensure that worker fatigue does not compromise the 
+abilities of individuals to perform their duties safely and 
+competently. The purpose of 10 CFR 26.205(d)(4) and (d)(5) is to 
+provide licensees flexibility for a limited period in scheduling 
+required days off while accommodating more intense work schedules 
+associated with a unit outage.
+    During the proposed exemption period, personnel as described in 
+10 CFR 26.4(a)(1) through (a)(5) would be permitted to work in 
+accordance with the outage MDO requirements in 10 CFR 26.205(d)(4) 
+and (d)(5) for a 60-day period. In its August 12, 2025, submittal, 
+the licensee proposed two mitigating actions for the exemption 
+period. The first proposed mitigating action is an adequate rest 
+interval; the licensee states that during the exemption period, 
+individuals will have, at a minimum, the rest breaks specified in 10 
+CFR 26.205(d)(2). The second proposed mitigating action is 
+assessment for fatigue; the licensee states that the cognizant 
+supervisors will assess each assigned supervised employee for 
+fatigue and mental alertness during the period with less restrictive 
+work hour limitations.
+    The NRC staff evaluated the proposed mitigating actions and 
+concluded that they were not sufficient to prevent or mitigate 
+cumulative fatigue for those individuals specified in 10 CFR 
+26.4(a)(1) through (a)(5) during the exemption period for extended 
+use of outage work hour controls. By letter dated October 3, 2025 
+(ML25280A014), the NRC staff issued a request for confirmatory 
+information (RCI) and a request for additional information (RAI) to 
+request that the licensee provide an explanation of how the current 
+actions will mitigate cumulative fatigue and what other actions will 
+be taken to address fatigue during the 60-day outage period and the 
+exemption period combined for a total period exceeding 100 days of 
+less restrictive work hour limitations.
+    In its October 15, 2025, supplement, the licensee submitted 
+responses to the RCIs and RAIs confirming that the staff's 
+understanding was accurate in response to the RCIs. In response to 
+the RAI, the licensee stated that no waivers for hours in excess of 
+the outage work hour limits have been required for covered workers. 
+The licensee also completed an audit of the work hours for the 
+affected groups from the beginning of the initial 60-day outage to 
+the end of the outage period. The licensee found that personnel 
+completing duties that fall under Operations (a)(1) and Fire Brigade 
+(a)(3) maintained a schedule pursuant to the non-outage work hour 
+controls until the transition to outage work hour controls. 
+Individuals completing duties that fall under Health Physics (a)(2) 
+and Maintenance (a)(4) maintained a schedule pursuant to 10 CFR 
+26.205(d)(4) and average fewer than the maximum allowable 72 hours 
+per week. Furthermore, the licensee submitted a commitment in the 
+enclosure to the supplement that states that the licensee will 
+ensure individuals performing duties under 10 CFR 26.4(a)(2) and 
+(a)(4) work no more than 50 hours per week averaged over a 2-week 
+period, between October 20, 2025, and November 2, 2025, prior the 
+start date of the proposed exemption to ensure an adequate rest and 
+reset period between the end of the outage period and start of the 
+exemption period for the affected groups.
+    Palisades has been shutdown and in a decommissioning state since 
+2022. The NRC staff notes that there are no fatigue management 
+requirements for licensees in decommissioning. However, because the 
+licensee is planning to restart the plant, the NRC staff submitted 
+an RAI asking the licensee to describe the 30-day period prior to 
+the start of the outage in order to understand the state of work 
+hour controls in place for plant personnel before entering the
+
+[[Page 53395]]
+
+outage on August 25, 2025. In response to the RAI, the licensee 
+stated that the following work hour controls were applied at 
+Palisades for the 30-day period before August 25, 2025: controls 
+equivalent to 10 CFR 26.205(d)(1) and 10 CFR 26.205(d)(2)(i); and 
+not to exceed 13 consecutive days of work.
+    The NRC staff evaluated the work schedules in conjunction with 
+the information provided in the supplement and the RAI response. 
+Personnel performing duties identified by 10 CFR 26.4(a)(1) and 
+(a)(3) have complied with the non-outage work hour controls 
+specified in 10 CFR 26.205(d)(7) prior the outage and will continue 
+to comply until the start of the proposed exemption period. Because 
+these personnel have worked a normal schedule, in accordance with 10 
+CFR 26.205(d)(7), leading up to the proposed exemption period, the 
+NRC staff determined that administering the minimum days off during 
+the 60-day exemption period in conjunction with the rest breaks in 
+10 CFR 26.205(d)(2) will allow Palisades to adequately manage 
+cumulative fatigue for these personnel.
+    Personnel performing duties identified in 10 CFR 26.4(a)(5) have 
+worked 12-hour shifts over a 6-week rotational schedule. However, 
+these personnel have received at least 4 days off in each successive 
+(i.e., non-rolling) 15-day period. In addition, for the 30 days 
+prior to the initial 60-day outage, these personnel have worked a 
+schedule equivalent to the work hour requirements in 10 CFR 
+26.205(d)(1) and 10 CFR 26.205(d)(2)(i). Furthermore, the licensee 
+stated in the RAI response that this group averaged less than 54 
+hours per week for the 30 days prior the initial outage. Because 
+these personnel have worked a normal schedule prior to the outage 
+and have received 4 days off in each non-rolling period leading up 
+to the end of the outage, the NRC staff determined that 
+administering the minimum days off during the 60-day exemption 
+period in conjunction with the rest breaks in 10 CFR 26.205(d)(2) 
+will allow Palisades to adequately manage cumulative fatigue for 
+these personnel.
+    Based on the information provided by the licensee, individuals 
+performing duties under 10 CFR 26.4(a)(2) and (a)(4) have worked a 
+higher than average number of weekly work hours compared to other 
+personnel during the initial outage period from August 25, 2025, 
+through October 23, 2025. Under 10 CFR 26.4(a)(2), personnel perform 
+duties related to Chemistry and Health Physics. Personnel performing 
+duties related to Chemistry have worked 8 and 9-hour shifts for 5 
+days followed by 2 consecutive days off during the initial outage 
+period. Some individuals have worked 12-hour shifts for 4 
+consecutive days followed by 3 days off. Personnel performing duties 
+related to Health Physics have worked 12-hour shifts for 4 
+consecutive days followed by 1 day off. Management has also provided 
+additional days off where practicable to support fatigue management 
+for this group.
+    According to the licensee's RAI response, several different 
+positions perform duties under 10 CFR 26.4(a)(4). Seven of twelve 
+positions in the table, titled ``Fatigue Management--Group 10 CFR 
+26.4(a)(4)'' in response to RAI 1.d, have worked 10-hour shifts on 5 
+consecutive days followed by 2 consecutive days off during the 
+initial outage period. Three of the twelve positions have worked 12-
+hour shifts for 4 consecutive days followed by 3 consecutive days 
+off. Two of the positions have worked 12-hour shifts for 6 
+consecutive days followed by 1 day off. However, the licensee has 
+provided a commitment to provide additional mitigating actions to 
+personnel performing duties in both 10 CFR 26.4(a)(2) and (a)(4). 
+Per the Enclosure to the RAI response, these individuals will work a 
+maximum of 50 hours for the two weeks prior the proposed exemption 
+period commencing on November 3, 2025. Based on the work schedules 
+provided in the RAI response and the 50-hour limitation over a two 
+week period prior to the proposed exemption period, personnel 
+covered by 10 CFR 26.4(a)(2) and (a)(4) will receive an adequate 
+rest interval of 16.9 hours per day, which is greater than the 
+minimum 10-hour break between successive work periods and which 
+provides an ample opportunity for personnel to receive a 34-hour 
+break in every nine day period.
+    The NRC staff determined that the proposed mitigating actions, 
+including the MDO requirements and supervisory fatigue assessments, 
+in combination with a two-week rest period for individuals in those 
+groups who have a higher than the maximum average work hours 
+(personnel performing duties in both 10 CFR 26.4(a)(2) and (a)(4)), 
+will allow the licensee to adequately manage cumulative fatigue 
+during the requested 60-day exemption period. Acute fatigue will be 
+managed using the outage MDO requirements combined with fatigue 
+assessments by supervisors, which is consistent with common practice 
+during unit outages. The NRC staff determined that the proposed 
+mitigating actions will adequately manage acute and cumulative 
+fatigue. Therefore, the exemption will not endanger life or 
+property.
+
+C. The Exemption Will Not Endanger the Common Defense and Security
+
+    The proposed exemption would authorize a one-time exemption from 
+the requirements of 10 CFR 26.205(d)(3) and (d)(7) to allow the use 
+of the less restrictive work hour controls described in 10 CFR 
+26.205(d)(4) and (d)(5) for up to an additional 60-days. The 
+proposed exemption is applicable to security personnel who will 
+have, at minimum, 4 days off in each successive (i.e., non-rolling) 
+15-day period in combination with the minimum rest breaks in 10 CFR 
+26.205(d)(2) during the exemption period.
+    One additional factor that the licensee included in the October 
+15, 2025, supplement and response to the RCIs and RAIs is that 
+security personnel will undergo mandated Force-on-Force exercises as 
+required by 10 CFR part 73, Appendix B, ``General Criteria for 
+Security Personnel'', Section II, ``Training and Qualifications.'' 
+While the exercises are not NRC-evaluated, the licensee stated that 
+these exercises are mandated security training and will require 
+security personnel to work overtime shifts due to staffing 
+limitations. In the licensee's response to the RAI, it was stated 
+that the individuals performing security duties that fall under 10 
+CFR 26.4(a)(5) maintained a schedule pursuant to 10 CFR 26.205(d)(4) 
+and averaged under 54 hours per week during the 60 days leading up 
+to the proposed exemption period. During the two-week period between 
+the end of the initial outage and the start of the proposed 
+exemption period, the licensee stated that security personnel will 
+maintain an average of 49.26 hours per week. In addition, security 
+personnel will continue to receive the breaks described in 10 CFR 
+26.205(d)(2)(ii).
+    The NRC staff observed that meeting the break requirement in 10 
+CFR 26.205(d)(2)(ii) alone is not sufficient to effectively manage 
+cumulative fatigue, as this provision is meant to be applied in 
+conjunction with the other work hour control measures outlined in 10 
+CFR 26.205. However, the NRC staff considered the 34-hour break 
+period in conjunction with the fact that, leading up to the 60-day 
+exemption period, security personnel will have worked below the 
+maximum average of 54 hours per week. In addition, prior to the 
+initial 60-day outage period, security personnel will have worked at 
+or below 54 hours per week. Because security personnel will have 
+worked at or below the maximum average prior to the initial outage 
+and will work, on average, 4.74 hours less than the maximum average 
+prior to the proposed exemption period, there is added assurance 
+that the licensee can adequately manage cumulative fatigue by 
+ensuring personnel receive the minimum 34-hour break period prior to 
+the proposed 60-day exemption period. The NRC staff determined that 
+these mitigating actions in conjunction with the reduction in hours 
+worked will prevent cumulative fatigue during the period of the 
+exemption. Therefore, the exemption will not endanger the common 
+defense and security.
+
+D. The Exemption Is Otherwise in the Public Interest
+
+    The proposed exemption would authorize a one-time exemption from 
+the requirements of 10 CFR 26.205(d)(3) and (d)(7) to allow the use 
+of the less restrictive work hour controls described in 10 CFR 
+26.205(d)(4) and (d)(5) for up to an additional 60 days. In 
+considering whether the requested exemptions would be in the public 
+interest, the NRC staff considered several factors, including:
+    <bullet> the nature of the licensee's unique situation 
+transitioning from decommissioning back to a power operations 
+licensing basis, which requires restoration of safety-related 
+equipment, among other plant restart activities; and
+    <bullet> the public health and safety interests of the 
+communities that are impacted by the safe restart of the plant.
+    The NRC staff considered the fact that Palisades was in 
+decommissioning status, but the licensee has determined to restart 
+the plant. Palisades has been shut down since May 2022, after which, 
+in 2023, the owner at that time, Holtec Decommissioning 
+International, determined that they planned to pursue plans to 
+restart. This unique situation has required restart-related 
+inspections and repair activities during the outage to ensure the 
+plant will be safe prior to restarting. The NRC staff also 
+considered
+
+[[Page 53396]]
+
+the licensee's efforts to restart the plant utilizing both the 60-
+day outage period in combination with the proposed 60-day exemption 
+period to meet their proposed sync to grid date.
+    The NRC staff considered the balance of public interest 
+considerations, including the potential impacts of not granting the 
+exemption, which could result in the delay of restarting the 
+Palisades Nuclear Plant and could potentially delay the amount of 
+energy available to the surrounding area. The NRC staff also 
+considered the potential impacts resulting from an increase in 
+overall cumulative fatigue due to personnel working longer work 
+hours for an additional 60-day period directly following the 
+expiration of the initial 60-day outage. Furthermore, the licensee 
+has provided adequate mitigating actions through a combination of 
+the MDO requirements, supervisory fatigue assessments, and a two-
+week rest period for groups of personnel with the highest maximum 
+average work hours. The licensee will have adequately managed 
+fatigue for personnel identified in 10 CFR 26.4(a)(1) through (a)(5) 
+prior to and during the exemption period. Based on these 
+considerations, the NRC staff concluded that there are no 
+expectations for a significant impact on public health and safety as 
+a result of the increase in cumulative fatigue for the 60-day 
+exemption period. Therefore, the NRC staff finds that approval of 
+the requested exemptions is otherwise in the public interest.
+
+E. Environmental Considerations
+
+    The Commission has determined that granting the proposed one-
+time exemption from the requirements of 10 CFR 26.205(d)(3) and 
+(d)(7) involves (1) no significant hazards consideration, (2) no 
+significant change in the types or significant increase in the 
+amounts of any effluents that may be released offsite, (3) no 
+significant increase in individual or cumulative public or 
+occupational radiation exposure, (4) no significant construction 
+impact, and (5) no significant increase in the potential for or 
+consequences from radiological accidents.
+    (1) Under 10 CFR 50.92(c), there is no significant hazards 
+consideration if the action does not (1) involve a significant 
+increase in the probability or consequences of an accident 
+previously evaluated; or (2) create the possibility of a new of 
+different kind of accident from any accident previously evaluated; 
+or (3) involve a significant reduction in a margin of safety.
+    The proposed exemption is administrative in nature because it 
+provides an additional period when less restrictive hours can be 
+worked for personnel identified in 10 CFR 26.4(a)(1) through (a)(5). 
+The proposed exemption has no effect on systems, structures, and 
+components (SSCs) and no effect on the capability of the SSCs to 
+perform their design function. The proposed exemption does not make 
+any changes to the facility or operating procedures and does not 
+alter the design, function, or operation of any plant equipment. 
+Therefore, the exemption does not increase the probability or 
+consequences of an accident previously evaluated.
+    The proposed exemption does not make any changes to the facility 
+or operating procedures and does not alter the design, function, or 
+operation of any plant equipment. Similarly, the proposed exemption 
+does not authorize any physical changes to any SSCs involved in the 
+mitigation of any accidents. Therefore, the exemption does not 
+create the possibility of a new or different kind of accident from 
+any accident previously evaluated.
+    The proposed exemption does not authorize alteration of the 
+design basis or any safety limits for the plant. The exemption would 
+not impact station operation or any SSC that is relied upon for 
+accident mitigation. Therefore, the exemption does not involve a 
+significant reduction in a margin of safety.
+    For these reasons, the NRC has determined that approval of the 
+exemption requested involves no significant hazards consideration.
+    (2) The proposed exemption does not authorize any changes to the 
+design basis requirements for the SSCs at Palisades that function to 
+limit the release of non-radiological effluents, radiological liquid 
+effluents, or radiological gaseous effluents during and following 
+postulated accidents. Additionally, the exemption does not change 
+any requirements with respect to the conduct of radiation surveys 
+and monitoring. Therefore, there is no significant change in the 
+types or significant increase in the amounts of any effluents that 
+may be released offsite.
+    (3) The proposed exemption does not affect the limits on the 
+release of any radioactive material or the limits provided in 10 CFR 
+part 20, ``Standards for Protection Against Radiation,'' for 
+radiation exposure to workers or members of the public. 
+Additionally, the exemption will not increase or decrease the amount 
+of work activities that must be completed in order to connect the 
+reactor unit to the electrical grid. Therefore, there is no 
+significant increase in individual or cumulative public or 
+occupational radiation exposure.
+    (4) The proposed exemption does not involve any changes to a 
+construction permit; Therefore, there is no significant construction 
+impact.
+    (5) The proposed exemption does not alter any of the assumptions 
+or limits in the licensee's accident analyses. Therefore, there is 
+no significant increase in the potential for or consequences from 
+radiological accidents.
+    In addition, the requirements from which the exemption are 
+sought involve other requirements of an administrative, managerial, 
+or organizational nature. Accordingly, the exemption meets the 
+eligibility criteria for categorical exclusion set forth in 10 CFR 
+51.22(c)(25)(vi)(I). Therefore, in accordance with 10 CFR 51.22(b), 
+no environmental impact statement or environmental assessment need 
+be prepared in connection with the NRC's consideration of the 
+exemption request.
+
+IV. Conclusions
+
+    Accordingly, the Commission has determined that, pursuant to 10 
+CFR 26.9, the exemption is authorized by law, will not endanger life 
+or property or the common defense and security, and is otherwise in 
+the public interest. Therefore, the Commission hereby grants 
+Palisades Energy, LLC a one-time exemption from 10 CFR 26.205(d)(3) 
+and (d)(7) for personnel identified in 10 CFR 26.4(a)(1) through 
+(a)(5) to allow the use of the outage MDO requirements described in 
+10 CFR 26.205(d)(4) and (d)(5) for a 60-day period starting on 
+November 3, 2025. While the exemption is in effect, Palisades 
+Energy, LLC will ensure that individuals specified in 10 CFR 
+26.4(a)(1) through (a)(3) have at least 3 days off in each 
+successive (i.e., non-rolling) 15-day period; that individuals 
+specified in 10 CFR 26.4(a)(4) have at least 1 day off in any 7-day 
+period; and that individuals specified in 10 CFR 26.4(a)(5) have at 
+least 4 days off in each successive (i.e., non-rolling) 15-day 
+period. Additionally, Palisades Energy, LLC will use the outage MDO 
+requirements, proposed mitigating actions, and the two-week rest 
+period between the end of the initial outage and start of the 
+exemption period to adequately manage acute and cumulative fatigue 
+for covered personnel during the exemption period. If Palisades 
+Nuclear Plant is connected to the electrical grid prior to the end 
+of the approved 60-day exemption period, the supporting bases for 
+this exemption are no longer met. Accordingly, the exemption shall 
+end either at the end of the approved 60-day period or at the time 
+when the Palisades Nuclear Plant is connected to the electrical 
+grid, whichever occurs first.
+
+    Dated: October 24, 2025
+
+For the Nuclear Regulatory Commission.
+
+/RA/
+
+Aida Rivera-Varona,
+
+Acting Director, Division of Operating Reactor Licensing, Office of 
+Nuclear Reactor Regulation.
+
+[FR Doc. 2025-20841 Filed 11-24-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

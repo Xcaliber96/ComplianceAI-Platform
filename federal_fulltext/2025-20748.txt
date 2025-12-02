@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52955-52956]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20748]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+[Document Identifiers: CMS-10849]
+
+
+Agency Information Collection Activities: Submission for OMB 
+Review; Comment Request
+
+AGENCY: Centers for Medicare & Medicaid Services, Health and Human 
+Services (HHS).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Centers for Medicare & Medicaid Services (CMS) is 
+announcing an opportunity for the public to comment on CMS' intention 
+to collect information from the public. Under the Paperwork Reduction 
+Act of 1995 (PRA), federal agencies are required to publish notice in 
+the Federal Register concerning each proposed collection of 
+information, including each proposed extension or reinstatement of an 
+existing collection of information, and to allow a second opportunity 
+for public comment on the notice. Interested persons are invited to 
+send comments regarding the burden estimate or any other aspect of this 
+collection of information, including the necessity and utility of the 
+proposed information collection for the proper performance of the 
+agency's functions, the accuracy of the estimated burden, ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected, and the use of automated collection techniques or other 
+forms of information technology to minimize the information collection 
+burden.
+
+DATES: Comments on the collection(s) of information must be received by 
+the OMB desk officer by December 24, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+    To obtain copies of a supporting statement and any related forms 
+for the proposed collection(s) summarized in this notice, please access 
+the CMS PRA website by copying and pasting the following web address 
+into your web browser: <a href="https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing">https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing</a>.
+
+FOR FURTHER INFORMATION CONTACT: William Parham at (410) 786-4669.
+
+SUPPLEMENTARY INFORMATION: Under the Paperwork Reduction Act of 1995 
+(PRA) (44 U.S.C. 3501-3520), federal agencies must obtain approval from 
+the Office of Management and Budget (OMB) for each collection of 
+information they conduct or sponsor. The term ``collection of 
+information'' is defined in 44 U.S.C. 3502(3) and 5 CFR 1320.3(c) and 
+includes agency requests or requirements that members of the public 
+submit reports, keep records, or provide information to a third party. 
+Section 3506(c)(2)(A) of the PRA (44 U.S.C. 3506(c)(2)(A)) requires 
+federal agencies to publish a 30-day notice in the Federal Register 
+concerning each proposed collection of information, including each 
+proposed extension or reinstatement of an existing collection of 
+information, before submitting the collection to OMB for approval. To 
+comply with this requirement, CMS is publishing this notice that 
+summarizes the following proposed collection(s) of information for 
+public comment.
+    1. Type of Information Collection Request: Revision of a currently 
+approved collection; Title of Information Collection: Drug Price 
+Negotiation for Initial Price Applicability Year 2028 under Sections 
+11001 and 11002 of the Inflation Reduction Act; Use: Under the 
+authority in sections 11001 and 11002 of the Inflation Reduction Act of 
+2022 (Pub. L. 117-169), the Centers for Medicare & Medicaid Services 
+(CMS) is implementing the Medicare Drug Price Negotiation Program, 
+codified in sections 1191 through 1198 of the Social Security Act 
+(``the Act''). The Act establishes the Negotiation Program to negotiate 
+maximum fair prices (``MFPs''), defined at 1191(c)(3) of the Act, for 
+certain high expenditure, single source selected drugs covered under 
+Medicare Part B and Part D. For the third cycle of the Negotiation 
+Program, the Secretary of Health and Human Services (the ``Secretary'') 
+will select up to 15 high expenditure, single source drugs payable 
+under Part B and/or covered under Part D for negotiation. In accordance 
+with section 1194(f)(4) of the Act, CMS will also renegotiate MFPs for 
+drugs selected for renegotiation, if any, for initial price 
+applicability year 2028.
+    Negotiation Data Elements: The statute requires that CMS consider 
+certain data from Primary Manufacturers as part of the negotiation 
+process. To the extent that more than one entity meets the statutory 
+definition of manufacturer (specified in section
+
+[[Page 52956]]
+
+1193(a)(1) of the Act) for a selected drug for purposes of initial 
+price applicability year 2028, CMS will designate the entity that holds 
+the New Drug Application(s) (NDA(s))/Biologics License Application(s) 
+(BLA(s)) for the selected drug to be ``the manufacturer'' of the 
+selected drug (hereinafter the ``Primary Manufacturer''). The Primary 
+Manufacturer's data submissions include the non-Federal average 
+manufacturer price and related data for selected drugs for the purpose 
+of establishing a ceiling price, as outlined in section 1193(a)(4)(A) 
+of the Act, and information that the Secretary requires for negotiation 
+and renegotiation, pertaining to the negotiation factors outlined in 
+section 1194(e)(1) of the Act, for the purpose of formulating offers 
+and counteroffers pursuant to section 1193(a)(4)(B) of the Act. Some of 
+these data are held by the Primary Manufacturer and are not currently 
+available to CMS. Data described in sections 1194(e)(1) and 1193(a)(4) 
+of the Act must be submitted by the Primary Manufacturer.
+    Section 1194(e)(2) of the Act requires CMS to consider certain data 
+on selected drugs and their alternative treatments. Because the statute 
+does not specify where these data come from, CMS will allow for 
+optional submission from Primary Manufacturers and the public for drugs 
+selected for negotiation or renegotiation. CMS will additionally review 
+existing literature, conduct internal analyses, and consult subject 
+matter and clinical experts on the factors listed in section 1194(e)(2) 
+of the Act. Manufacturers may optionally submit this information as 
+part of their Negotiation Data Elements Information Collection Request 
+Form. The public may also optionally submit evidence about the selected 
+drugs and their alternative treatments.
+    Drug Price Negotiation and Renegotiation Process: Any MFPs that are 
+negotiated or renegotiated for these selected drugs will apply 
+beginning in initial price applicability year 2028. For initial price 
+applicability year 2028, the negotiation and renegotiation period 
+begins on the earlier of the date that the Primary Manufacturer enters 
+into a Medicare Drug Price Negotiation Program Agreement or February 
+28, 2026.
+    Section 1194(b)(2)(C) of the Act provides that if the Primary 
+Manufacturer does not accept CMS' written initial offer, the Primary 
+Manufacturer may submit an optional written counteroffer no later than 
+30 days after the date of receipt of CMS' written initial offer. If the 
+Primary Manufacturer chooses to develop and submit a written 
+counteroffer to CMS' written initial offer during the drug price 
+negotiation or renegotiation process for initial price applicability 
+year 2028, the Primary Manufacturer must submit the Counteroffer Form. 
+Form Number: CMS-10849 (OMB control number: 0938-1452); Frequency: 
+Once; Affected Public: Private sector, Business or other for-profit; 
+Number of Respondents: 405; Total Annual Responses: 405; Total Annual 
+Hours: 47,620. (For policy questions regarding this collection contact 
+Elisabeth Daniel at 667-290-8793).
+
+William N. Parham, III,
+Director, Division of Information Collections and Regulatory Impacts, 
+Office of Strategic Operations and Regulatory Affairs.
+[FR Doc. 2025-20748 Filed 11-21-25; 8:45 am]
+BILLING CODE 4120-01-P
+
+
+</pre></body>
+</html>

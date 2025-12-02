@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54549-54552]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21479]
+
+
+
+[[Page 54549]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2025-0912; Project Identifier MCAI-2024-00571-T; 
+Amendment 39-23178; AD 2025-22-01]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus SAS Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is adopting a new airworthiness directive (AD) for all 
+Airbus SAS Model A350-941 and -1041 airplanes. This AD was prompted by 
+reports of mechanical noises originating from the nose landing gear 
+(NLG) shock absorber during ground maneuvers. This AD requires 
+repetitive inspections (i.e., steering checks) of the NLG shock 
+absorber and applicable on-condition actions. This AD also limits the 
+installation of affected parts under certain conditions. The FAA is 
+issuing this AD to address the unsafe condition on these products.
+
+DATES: This AD is effective January 2, 2026.
+    The Director of the Federal Register approved the incorporation by 
+reference of a certain publication listed in this AD as of January 2, 
+2026.
+
+ADDRESSES: 
+    AD Docket: You may examine the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-0912; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this final rule, the mandatory continuing airworthiness 
+information (MCAI), any comments received, and other information. The 
+address for Docket Operations is U.S. Department of Transportation, 
+Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 
+New Jersey Avenue SE, Washington, DC 20590.
+    Material Incorporated by Reference:
+    <bullet> For European Union Aviation Safety Agency (EASA) material 
+identified in this AD, contact EASA, Konrad-Adenauer-Ufer 3, 50668 
+Cologne, Germany; telephone +49 221 8999 000; email <a href="/cdn-cgi/l/email-protection#9ddcd9eeddf8fceefcb3f8e8eff2edfcb3f8e8"><span class="__cf_email__" data-cfemail="c68782b586a3a7b5a7e8a3b3b4a9b6a7e8a3b3">[email&#160;protected]</span></a>. 
+You may find this material on the EASA website at ad.easa.europa.eu.
+    <bullet> You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., Des 
+Moines, WA. For information on the availability of this material at the 
+FAA, call 206-231-3195. It is also available at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-0912.
+
+FOR FURTHER INFORMATION CONTACT: Stefanie Roesli, Aviation Safety 
+Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-
+231-3964; email: <a href="/cdn-cgi/l/email-protection#d9aaadbcbfb8b7b0bcf7b7f7abb6bcaab5b099bfb8b8f7beb6af"><span class="__cf_email__" data-cfemail="f380879695929d9a96dd9ddd819c96809f9ab3959292dd949c85">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued a notice of proposed rulemaking (NPRM) to amend 14 
+CFR part 39 by adding an AD that would apply to all Airbus SAS Model 
+A350-941 and -1041 airplanes. The NPRM was published in the Federal 
+Register on May 21, 2025 (90 FR 21702). The NPRM was prompted by AD 
+2025-0093, dated April 24, 2025 (EASA AD 2025-0093) (also referred to 
+as the MCAI), issued by EASA, which is the Technical Agent for the 
+Member States of the European Union. The MCAI reports instances of 
+mechanical noises originating from the NLG shock absorber during ground 
+maneuvers. Further analysis traced these noises to higher than expected 
+friction between the lower bearing carrier (LBC) and the main fitting 
+of the sliding tube. This friction may cause deformation of the LBC's 
+anti-rotation tabs, leading to relative movement between the LBC and 
+the main fitting. As a result, wear on the corrosion protection coating 
+of the main fitting may occur due to subsequent movement of the 
+retainer ring positioned between these components, which could lead to 
+corrosion of the NLG main fitting.
+    In the NPRM, the FAA proposed to require repetitive inspections 
+(i.e., steering checks) of the NLG shock absorber and applicable on-
+condition actions and limit the installation of affected parts under 
+certain conditions, as specified in EASA AD 2025-0093. The FAA is 
+issuing this AD to address higher than expected friction on the NLG 
+shock absorber LBC, which could result in deformation of the LBC's 
+anti-rotation tabs and consequent corrosion of the NLG main fitting. 
+The unsafe condition, if not addressed, could lead to structural 
+failure of the NLG, which may result in damage to the airplane and 
+injury to occupants.
+    You may examine the MCAI in the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-0912.
+
+Discussion of Final Airworthiness Directive
+
+Comments
+
+    The FAA received a comment from the Air Line Pilots Association, 
+International (ALPA) who supported the NPRM without change.
+    The FAA received additional comments from Delta Air Lines (Delta). 
+The following presents those comments and the FAA's responses.
+
+Request To Clarify if a Certain Service Bulletin Provides Terminating 
+Action
+
+    Delta requested the FAA clarify whether modifications performed 
+using Liebherr Service Bulletin 6407A-32-01, dated May 27, 2025, and 
+any future service bulletin modifications may be used as terminating 
+action for the requirements of the proposed AD. Delta noted that the 
+Liebherr service bulletin provides instructions for modifying certain 
+affected parts to not affected parts, which effectively changes a Group 
+1 or 3 airplane to a Group 4 airplane. Delta noted that EASA AD 2025-
+0093 specifies Group 4 airplanes are only subject to the parts 
+prohibition requirement. Delta asserted that the intent of the affected 
+part, not affected part, and group definitions is to allow retrofit of 
+an airplane to become a Group 4 airplane once a modification is 
+developed, such as the one in the Liebherr service bulletin. Delta also 
+asked whether other methods, such as other Airbus service bulletins or 
+replacement of a NLG assembly with one that does not have affected 
+parts installed, could similarly be used to convert a Groups 1 through 
+3 airplane to a Group 4 airplane.
+    The FAA acknowledges that if an ``Affected part'' is replaced with 
+a ``Not affected part,'' then the airplane would become a Group 4 
+airplane per the definitions in EASA AD 2025-0093 and the repetitive 
+checks and reporting would no longer need to be accomplished for that 
+airplane. However, the FAA has not received or reviewed Liebherr 
+Service Bulletin 6407A-32-01 to determine if accomplishing the 
+modification in that service bulletin is acceptable as a terminating 
+action for the repetitive checks and reporting required by this AD. 
+Further, the FAA has not received, reviewed, or approved any other 
+service information that would potentially provide a terminating 
+action. Therefore, the FAA declines to revise this AD to allow the 
+Liebherr service bulletin as a terminating action. However, under the 
+provisions of paragraph (i)(1) of this AD, an operator may propose 
+terminating action as an alternative method of compliance (AMOC) for 
+the requirements of this AD. If sufficient substantiating data is 
+provided and an equivalent level of safety is demonstrated, the FAA may 
+approve such AMOC requests to allow for
+
+[[Page 54550]]
+
+termination of the required actions in this AD. The FAA has not changed 
+the AD in response to this comment.
+
+Request To Remove Reporting Requirement
+
+    Delta requested the FAA add a paragraph to the proposed AD stating 
+that the reporting requirement specified in paragraph (5) of EASA AD 
+2025-0093 is not adopted. Delta reasoned that reporting is not 
+necessary since Airbus does not need to collect additional data to 
+determine the root cause or final solution because EASA AD 2025-0093 
+already identifies a final solution in the ``Not affected part'' 
+definition; and that such parts can be installed in service using 
+Liebherr Service Bulletin 6407A-32-01, dated May 27, 2025. Delta also 
+reasoned reporting is not necessary because there is no list of bad 
+serial numbers, so Airbus does not need to maintain a bad parts pool. 
+Delta concluded that, while Airbus may want operators to continue 
+reporting to assist with tracking spare parts, the reporting 
+requirement does not appear to contribute to an enhanced level of 
+safety.
+    The FAA disagrees with removing the reporting requirement from this 
+AD. The FAA notes that reporting is required only if there is a 
+discrepancy as specified in paragraph (5) of EASA AD 2025-0093. 
+Although the EASA AD identifies ``not affected'' parts, the EASA AD 
+does not indicate that a final fix or permanent solution has been 
+developed. Further, the FAA has received no information indicating that 
+Airbus has established a terminating action at this time. Therefore, 
+the FAA considers the reporting requirement necessary to continue 
+gathering data relevant to the unsafe condition. However, the FAA has 
+added a new paragraph (h)(4) to this AD to provide a 30-day grace 
+period for operators who may have accomplished the steering check 
+before the effective date of the AD.
+
+Request To Clarify Which Instructions Are Required for Compliance
+
+    Delta requested the FAA clarify which portions of Airbus Alert 
+Operators Transmission (AOT) A32P031-24, Revision 04, dated March 11, 
+2025, are required for compliance with the proposed AD. Delta noted the 
+AOT indicates section 5.6, including the flowchart, is labeled as 
+required for compliance (RC). Delta also noted EASA AD 2025-0093 
+specifies accomplishing a steering check of the affected part and 
+applicable corrective actions in accordance with the instructions of 
+the AOT. Delta interprets this to mean that only the portions of the 
+AOT related to the steering check and corrective actions are required. 
+Delta expressed concern with the first question in the flowchart, which 
+asks whether the NLG secondary seal was activated before installation. 
+Delta stated this question cannot reliably be answered because the 
+mechanic inspecting the NLG will have no knowledge, and there might be 
+no maintenance record, of why the seal was changed. Delta asserted 
+that, if the flowchart is required, the AOT should include a procedure 
+for this question to determine why the seal was changed. Delta also 
+expressed concern with the instruction in the flowchart to replace the 
+NLG shock absorber dynamic seals per a certain maintenance plan task 
+within the compliance time of the AOT. Delta asserted that the AOT does 
+not specify the compliance time for this action. Delta stated that if 
+the flowchart is RC, then the proposed AD should be revised to include 
+a procedure to determine why the secondary seal was activated and a 
+compliance time for replacement of the NLG shock absorber dynamic 
+seals.
+    The FAA notes that the flowchart in section 5.6 of the AOT is RC. 
+Paragraph (g) of this AD mandates compliance with all required actions 
+and compliance times specified in, and in accordance with, the EASA AD, 
+which in turn references the AOT. Therefore, all sections of the AOT 
+that are labeled as RC, including the flowchart in section 5.6, are 
+required for compliance with this AD.
+    The FAA acknowledges the commenter's concern about assessing the 
+cause of secondary seal activation but disagrees with revising this AD 
+to add a procedure to address it. The FAA considers it reasonable to 
+expect operators to determine, through maintenance record review, 
+whether the activation was due to primary seal leakage or another 
+reason. The FAA notes that operators are required to maintain adequate 
+records (per 14 CFR 91.417) to make such determinations and apply the 
+flowchart accordingly.
+    Regarding the compliance time in the flowchart related to 
+replacement of the NLG shock absorber dynamic seals, the compliance 
+times specified in this AD take precedence. Specifically, the dynamic 
+seal replacement must be completed within the compliance time 
+established for the initial steering check. The FAA has not changed the 
+AD in this regard.
+
+Conclusion
+
+    These products have been approved by the civil aviation authority 
+of another country and are approved for operation in the United States. 
+Pursuant to the FAA's bilateral agreement with this State of Design 
+Authority, that authority has notified the FAA of the unsafe condition 
+described in the MCAI referenced above. The FAA reviewed the relevant 
+data, considered any comments received, and determined that air safety 
+requires adopting this AD as proposed. Accordingly, the FAA is issuing 
+this AD to address the unsafe condition on these products. Except for 
+minor editorial changes, this AD is adopted as proposed in the NPRM. 
+None of the changes will increase the economic burden on any operator.
+
+Material Incorporated by Reference Under 1 CFR Part 51
+
+    The FAA reviewed EASA AD 2025-0093, which specifies procedures for 
+repetitive inspections (i.e., steering checks) for relative movement 
+between the LBC and the main fitting and applicable on-condition 
+actions. The on-condition actions include activating the secondary 
+seal, inspecting and applying torque to the nose landing gear seal 
+changeover valve, inspecting the ring groove for corrosion, and 
+repairing any corrosion. EASA AD 2025-0093 also specifies reporting the 
+results of each check where a discrepancy was identified to the 
+manufacturer and limits the installation of affected parts, for 
+airplanes with an affected part installed, unless the steering check 
+has been completed. For airplanes that do not have an affected part 
+installed, EASA AD 2025-0093 prohibits installing an affected part.
+    This material is reasonably available because the interested 
+parties have access to it through their normal course of business or by 
+the means identified in the ADDRESSES section.
+
+Interim Action
+
+    The FAA considers this AD an interim action. If final action is 
+later identified, the FAA might consider further rulemaking then.
+
+Costs of Compliance
+
+    The FAA estimates that this AD affects 33 airplanes of U.S. 
+registry. The FAA estimates the following costs to comply with this AD:
+
+[[Page 54551]]
+
+
+
+                                      Estimated Costs for Required Actions
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 Cost on U.S.
+             Action                     Labor cost          Parts cost     Cost per product        operators
+----------------------------------------------------------------------------------------------------------------
+Inspection.....................  Up to 4 work-hours x                 $0  Up to $340 per      Up to $11,220 per
+                                  $85 per hour = $340                      inspection cycle.   inspection cycle.
+                                  per inspection cycle.
+----------------------------------------------------------------------------------------------------------------
+
+    The FAA estimates the following costs to do any on-condition 
+actions that would be required based on the results of the inspections. 
+The FAA has no way of determining the number of aircraft that might 
+need these actions:
+
+                                     Estimated Costs of On-Condition Actions
+----------------------------------------------------------------------------------------------------------------
+               Action                         Labor cost                Parts cost           Cost per product
+----------------------------------------------------------------------------------------------------------------
+Corrective actions.................  Up to 11 work-hours x $85    Up to $2,000..........  Up to $2,935.
+                                      per hour = $935.
+Reporting..........................  1 work-hour x $85 per hour   $0....................  $85.
+                                      = $85.
+----------------------------------------------------------------------------------------------------------------
+
+Paperwork Reduction Act
+
+    A federal agency may not conduct or sponsor, and a person is not 
+required to respond to, nor shall a person be subject to a penalty for 
+failure to comply with a collection of information subject to the 
+requirements of the Paperwork Reduction Act unless that collection of 
+information displays a currently valid OMB Control Number. The OMB 
+Control Number for this information collection is 2120-0056. Public 
+reporting for this collection of information is estimated to take 
+approximately 1 hour per response, including the time for reviewing 
+instructions, searching existing data sources, gathering and 
+maintaining the data needed, and completing and reviewing the 
+collection of information. All responses to this collection of 
+information are mandatory. Send comments regarding this burden estimate 
+or any other aspect of this collection of information, including 
+suggestions for reducing this burden, to: Information Collection 
+Clearance Officer, Federal Aviation Administration, 10101 Hillwood 
+Parkway, Fort Worth, TX 76177-1524.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII: Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    The FAA is issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701: General requirements. 
+Under that section, Congress charges the FAA with promoting safe flight 
+of civil aircraft in air commerce by prescribing regulations for 
+practices, methods, and procedures the Administrator finds necessary 
+for safety in air commerce. This regulation is within the scope of that 
+authority because it addresses an unsafe condition that is likely to 
+exist or develop on products identified in this rulemaking action.
+
+Regulatory Findings
+
+    This AD will not have federalism implications under Executive Order 
+13132. This AD will not have a substantial direct effect on the States, 
+on the relationship between the national government and the States, or 
+on the distribution of power and responsibilities among the various 
+levels of government.
+    For the reasons discussed above, I certify that this AD:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866,
+    (2) Will not affect intrastate aviation in Alaska, and
+    (3) Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA amends 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13   [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by adding the following new airworthiness 
+directive:
+
+2025-22-01 Airbus SAS: Amendment 39-23178; Docket No. FAA-2025-0912; 
+Project Identifier MCAI-2024-00571-T.
+
+(a) Effective Date
+
+    This airworthiness directive (AD) is effective January 2, 2026.
+
+ (b) Affected ADs
+
+    None.
+
+ (c) Applicability
+
+    This AD applies to all Airbus SAS Model A350-941 and -1041 
+airplanes, certificated in any category.
+
+ (d) Subject
+
+    Air Transport Association (ATA) of America Code 32, Landing 
+Gear.
+
+ (e) Unsafe Condition
+
+    This AD was prompted by reports of higher than expected friction 
+on the nose landing gear (NLG) shock absorber lower bearing carrier 
+(LBC), which could result in deformation of the LBC's anti-rotation 
+tabs and consequent corrosion of the NLG main fitting. The unsafe 
+condition, if not addressed, could lead to structural failure of the 
+NLG, which could result in damage to the airplane and injury to 
+occupants.
+
+ (f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+ (g) Requirements
+
+    Except as specified in paragraph (h) of this AD: Comply with all 
+required actions and compliance times specified in, and in 
+accordance with, European Union Aviation Safety Agency (EASA) AD 
+2025-0093, dated April 24, 2025 (EASA AD 2025-0093).
+
+ (h) Exceptions to EASA AD 2025-0093
+
+    (1) Where EASA AD 2025-0093 refers to its effective date, this 
+AD requires using the effective date of this AD.
+    (2) Where EASA AD 2025-0093 refers to October 4, 2024 (the 
+effective date of EASA AD 2024-0188), this AD requires using the 
+effective date of this AD.
+    (3) Where paragraph (2) of EASA AD 2025-0093 specifies ``within 
+the compliance time(s) specified therein'', this AD requires
+
+[[Page 54552]]
+
+replacing that text with ``before further flight''.
+    (4) Paragraph (5) of EASA AD 2025-0093 specifies to report 
+inspection results to Airbus within a certain compliance time. For 
+this AD, report inspection results at the applicable time specified 
+in paragraph (4)(i) or (ii) of this AD.
+    (i) If the steering check was done on or after the effective 
+date of this AD: Submit the report within 30 days after the steering 
+check.
+    (ii) If the inspection was done before the effective date of 
+this AD: Submit the report within 30 days after the effective date 
+of this AD.
+    (5) This AD does not adopt the ``Remarks'' section of EASA AD 
+2025-0093.
+
+ (i) Additional AD Provisions
+
+    The following provisions also apply to this AD:
+    (1) Alternative Methods of Compliance (AMOCs): The Manager, AIR-
+520, Continued Operational Safety Branch, FAA, has the authority to 
+approve AMOCs for this AD, if requested using the procedures found 
+in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request 
+to your principal inspector or responsible Flight Standards Office, 
+as appropriate. If sending information directly to the manager of 
+the Continued Operational Safety Branch, send it to the attention of 
+the person identified in paragraph (j) of this AD and email to: 
+<a href="/cdn-cgi/l/email-protection#bafbf7f5f9fadcdbdb94ddd5cc"><span class="__cf_email__" data-cfemail="6524282a26250304044b020a13">[email&#160;protected]</span></a>. Before using any approved AMOC, notify your 
+appropriate principal inspector, or lacking a principal inspector, 
+the manager of the responsible Flight Standards Office.
+    (2) Contacting the Manufacturer: For any requirement in this AD 
+to obtain instructions from a manufacturer, the instructions must be 
+accomplished using a method approved by the Manager, Continued 
+Operational Safety Branch, FAA; or EASA; or Airbus SAS's EASA Design 
+Organization Approval (DOA). If approved by the DOA, the approval 
+must include the DOA-authorized signature.
+    (3) Required for Compliance (RC): Except as required by 
+paragraph (i)(2) of this AD, if any material referenced in EASA AD 
+2025-0093 contains paragraphs that are labeled as RC, the 
+instructions in RC paragraphs, including subparagraphs under an RC 
+paragraph, must be done to comply with this AD; any paragraphs, 
+including subparagraphs under those paragraphs, that are not 
+identified as RC are recommended. The instructions in paragraphs, 
+including subparagraphs under those paragraphs, not identified as RC 
+may be deviated from using accepted methods in accordance with the 
+operator's maintenance or inspection program without obtaining 
+approval of an AMOC, provided the instructions identified as RC can 
+be done and the airplane can be put back in an airworthy condition. 
+Any substitutions or changes to instructions identified as RC 
+require approval of an AMOC.
+
+ (j) Additional Information
+
+    For more information about this AD, contact Stefanie Roesli, 
+Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 
+98198; phone: 206-231-3964; email: <a href="/cdn-cgi/l/email-protection#c5b6b1a0a3a4abaca0ebabebb7aaa0b6a9ac85a3a4a4eba2aab3"><span class="__cf_email__" data-cfemail="5f2c2b3a393e31363a7131712d303a2c33361f393e3e71383029">[email&#160;protected]</span></a>.
+
+ (k) Material Incorporated by Reference
+
+    (1) The Director of the Federal Register approved the 
+incorporation by reference of the material listed in this paragraph 
+under 5 U.S.C. 552(a) and 1 CFR part 51.
+    (2) You must use this material as applicable to do the actions 
+required by this AD, unless this AD specifies otherwise.
+    (i) European Union Aviation Safety Agency (EASA) AD 2025-0093, 
+dated April 24, 2025.
+    (ii) [Reserved]
+    (3) For EASA material identified in this AD, contact EASA, 
+Konrad-Adenauer-Ufer 3, 50668 Cologne, Germany; telephone +49 221 
+8999 000; email <a href="/cdn-cgi/l/email-protection#d59491a695b0b4a6b4fbb0a0a7baa5b4fbb0a0"><span class="__cf_email__" data-cfemail="7b3a3f083b1e1a081a551e0e09140b1a551e0e">[email&#160;protected]</span></a>; website easa.europa.eu. You may 
+find this material on the EASA website at ad.easa.europa.eu.
+    (4) You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., 
+Des Moines, WA. For information on the availability of this material 
+at the FAA, call 206-231-3195.
+    (5) You may view this material at the National Archives and 
+Records Administration (NARA). For information on the availability 
+of this material at NARA, visit <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a>, or email <a href="/cdn-cgi/l/email-protection#2244500c4b4c51524741564b4d4c624c4350430c454d54"><span class="__cf_email__" data-cfemail="fe988cd097908d8e9b9d8a979190be909f8c9fd0999188">[email&#160;protected]</span></a>.
+
+    Issued on October 27, 2025.
+Lona C. Saccomando,
+Acting Deputy Director, Integrated Certificate Management Division, 
+Aircraft Certification Service.
+[FR Doc. 2025-21479 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

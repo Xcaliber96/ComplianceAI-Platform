@@ -83,9 +83,10 @@ def get_full_text(doc_number: str):
             text_resp = requests.get(raw_text_url, headers=HEADERS)
             text_resp.raise_for_status()
             full_text = text_resp.text
+            print(full_text)
         else:
             full_text = data.get("full_text_xml_url", "") or data.get("document", {}).get("full_text", "")
-
+            print(full_text)
         return full_text, package_id
 
     except Exception as e:

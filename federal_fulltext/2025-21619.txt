@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55236-55237]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21619]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Motor Carrier Safety Administration
+
+[Docket No. FMCSA-2025-0688]
+
+
+Parts and Accessories Necessary for Safe Operation; Application 
+for Exemption From Intelligent Motorist Alert Messaging Systems
+
+AGENCY: Federal Motor Carrier Safety Administration (FMCSA), DOT.
+
+ACTION: Notice of application for exemption; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: FMCSA requests public comment on an application for a 5-year 
+exemption submitted by Intelligent Motorist Alert Messaging Systems 
+(IMAMS). The applicant seeks an exemption for autonomous commercial 
+motor vehicles (CMVs) from the regulation that requires the use of 
+traditional warning devices to alert other vehicles when the CMV has 
+become disabled. The exemption would allow autonomous CMVs to use IMAMS 
+dynamic digital LED messaging platform as an alternative to traditional 
+warning devices. FMCSA requests public comment on IMAMS's application.
+
+DATES: Comments must be received on or before December 31, 2025.
+
+ADDRESSES: You may submit comments identified by Federal Docket 
+Management System (FDMS) Number FMCSA-2025-0688 by any of the following 
+methods:
+    <bullet> Federal eRulemaking Portal: <a href="http://www.regulations.gov">www.regulations.gov</a>. See the 
+Public Participation and Request for Comments section below for further 
+information.
+    <bullet> Mail: Dockets Operations, U.S. Department of 
+Transportation, 1200 New Jersey Avenue SE, West Building, Ground Floor, 
+Washington, DC 20590-0001.
+    <bullet> Hand Delivery or Courier: West Building, Ground Floor, 
+1200 New Jersey Avenue SE, between 9 a.m. and 5 p.m. E.T., Monday 
+through Friday, except Federal holidays.
+    <bullet> Fax: (202) 493-2251.
+    Each submission must include the Agency name and the docket number 
+(FMCSA-2025-0688) for this notice. Note that DOT posts all comments 
+received without change to <a href="http://www.regulations.gov">www.regulations.gov</a>, including any personal 
+information included in a comment. Please see the Privacy Act heading 
+below.
+    Docket: For access to the docket to read background documents or 
+comments, go to <a href="http://www.regulations.gov">www.regulations.gov</a> at any time or visit the ground 
+level of the West Building, 1200 New Jersey Avenue SE, Washington, DC, 
+between 9 a.m. and 5 p.m., ET, Monday through Friday, except Federal 
+holidays. To be sure someone is there to help you, please call (202) 
+366-9317 or (202) 366-9826 before visiting Dockets Operations.
+    Privacy Act: In accordance with 49 U.S.C. 31315(b), DOT solicits 
+comments from the public to better inform its regulatory process. DOT 
+posts these comments, including any personal information the commenter 
+provides, to <a href="http://www.regulations.gov">www.regulations.gov</a> as described in the system of records 
+notice DOT/ALL 14-FDMS, which can be reviewed at <a href="https://www.transportation.gov/individuals/privacy/privacy-act-system-records-notices">https://www.transportation.gov/individuals/privacy/privacy-act-system-records-notices</a>. The comments are posted without edit and are searchable by the 
+name of the submitter.
+
+FOR FURTHER INFORMATION CONTACT: Mr. David Sutula, Chief, Vehicle and 
+Roadside Operations Division, Office of Carrier, Driver, and Vehicle 
+Safety, FMCSA, at (202)-961-1373, or by email at <a href="/cdn-cgi/l/email-protection#276a647774716743485309404851"><span class="__cf_email__" data-cfemail="1d505e4d4e4b5d797269337a726b">[email&#160;protected]</span></a>.
+    If you have questions on viewing or submitting material to the 
+docket, contact Dockets Operations at (202) 366-9826.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Public Participation and Request for Comments
+
+    FMCSA encourages you to participate by submitting comments and 
+related materials.
+
+Submitting Comments
+
+    If you submit a comment, please include the docket number for this 
+notice (FMCSA-2025-0688), indicate the specific section of this 
+document to which the comment applies, and provide a reason for 
+suggestions or recommendations. You may submit your comments and 
+material online or by fax, mail, or hand delivery, but please use only 
+one of these means. FMCSA recommends that you include your name and a 
+mailing address, an email address, or a phone number in the body of 
+your document so the Agency can contact you if it has questions 
+regarding your submission.
+    To submit your comment online, go to <a href="http://www.regulations.gov">www.regulations.gov</a> and put 
+the docket number ``FMCSA-2025-0688'' in the keyword box, and click 
+``Search.'' Next, sort the results by ``Posted (Newer-Older),'' choose 
+the first notice listed, click the ``Comment'' button, and type your 
+comment into the text box on the following screen. Choose whether you 
+are submitting your comment as an individual or on behalf of a third 
+party and then submit. If you submit your comments by mail or hand 
+delivery, submit them in an unbound format, no larger than 8\1/2\ by 11 
+inches, suitable for copying and electronic filing. If you submit 
+comments by mail and would like to know that they reached the facility, 
+please enclose a stamped, self-addressed postcard or envelope. FMCSA 
+will consider all comments and material received during the comment 
+period.
+
+II. Legal Basis
+
+    FMCSA has authority under 49 U.S.C. 31136(e) and 31315(b) to grant 
+exemptions from Federal Motor Carrier Safety Regulations (FMCSRs). 
+FMCSA must publish a notice of each exemption request in the Federal 
+Register (49 CFR 381.315(a)). The Agency must provide the public an 
+opportunity to inspect the information relevant to the application, 
+including the applicant's safety analysis. The Agency must provide an 
+opportunity for public comment on the request.
+    The Agency reviews the application, safety analyses, and public 
+comments submitted and determines whether granting the exemption would 
+likely achieve a level of safety equivalent to, or greater than, the 
+level that would be achieved without the exemption, pursuant to the 
+standard set forth in 49 CFR 381.305(a)). The Agency must publish its 
+decision in the Federal Register (49 CFR 381.315(b)). If granted, the 
+notice will identify the regulatory provision from which the applicant 
+will be exempt, the effective period, and all terms and conditions of 
+the exemption (49 CFR 381.315(c)(1)). If the exemption is denied, the 
+notice will explain the reason for the denial (49 CFR 381.315(c)(2)). 
+The exemption may be renewed (49 CFR 381.300(b)).
+
+III. Applicant's Request
+
+Current Regulatory Requirements
+
+    The applicable FMCSRs in 49 CFR 392.22(b) require the driver of a 
+CMV stopped on the traveled portion or the shoulder of a highway for 
+any cause other than a necessary traffic stop to activate hazard 
+warning signal flashers and place required warning devices as soon as 
+possible, but within ten minutes, at specified locations behind and in 
+front of the stopped CMV. The regulations also prescribe placement of
+
+[[Page 55237]]
+
+warning devices in certain circumstances, such as during daylight 
+hours, or when the CMV is stopped within 500 feet of a curve, the crest 
+of a hill, or any other obstruction that prevents clear visibility. (49 
+CFR 392.22(b)(2)).
+    In addition, the FMCSRs specify the types and number of warning 
+devices that may be used. Specifically, each CMV must be equipped with 
+three bidirectional emergency reflective triangles, or at least six 
+fusees, or three liquid-burning flares. (49 CFR 393.95(f)(1) and (2)). 
+Other devices may be used in addition to the required ones, provided 
+they do not reduce the effectiveness of the required devices. (49 CFR 
+393.95(f)(3)).
+
+Applicant's Request
+
+    The application requests an exemption from the requirements of 49 
+CFR 392.22(b)(1) and (2) to allow the use of IMAMS dynamic digital LED 
+messaging platform as an alternative safety system for disabled, 
+autonomous CMVs on the road, which the applicant asserts will enhance 
+motorist awareness and roadway safety. The IMAMS platform is a dynamic 
+digital LED messaging sign that is securely mounted on the rear doors 
+and front dash of semi-trailers and large CMVs.
+    The application explains that when an autonomous vehicle activates 
+its emergency flashers, the IMAMS platform will automatically display a 
+series of high-visibility, LED-lit messages to oncoming traffic. These 
+messages cycle through ``ALERT-ALERT'' (in red), ``MOVE OVER'' (in 
+amber), ``SLOW DOWN'' (in amber), and ``DISABLED VEHICLE'' (in amber), 
+providing clear, immediate warnings.
+    The applicant emphasizes that IMAMS is an equivalent or superior 
+alternative to traditional warning devices, as it activates 
+automatically, which eliminates the delay and risks associated with 
+manual placement of triangles or flares.
+    Although the application did not specifically request an exemption 
+from 49 CFR 393.95(f)(1) and (2), FMCSA notes that the application 
+would require an exemption from this section as it specifies the types 
+and number of warning devices that are to be equipped on each power 
+unit. These options include 3 bidirectional emergency reflective 
+triangles that conform to the requirements of Federal Motor Vehicle 
+Safety Standard (FMVSS) No. 125, or at least 6 fusees or 3 liquid-
+burning flares as are necessary to satisfy the requirements of Sec.  
+392.22. Under the regulations, other warning devices may be used in 
+addition to, but not in lieu of, the required devices provided that 
+they do not reduce the effectiveness of the required devices. 
+Accordingly, if FMCSA were to allow the IMAMS platform as the sole 
+emergency warning device, an exemption from 49 CFR 393.95(f)(1) and (2) 
+would be necessary.
+    A copy of IMAMS's application for exemption, and all supporting 
+materials, are available for review in the docket for this notice.
+
+IV. Request for Comments
+
+    In accordance with 49 U.S.C. 31315(b), FMCSA requests public 
+comment from all interested persons on IMAMS's application for a five-
+year exemption from 49 CFR 392.22(b)(1) and(2) and 49 CFR 393.95(f)(1) 
+and (2).
+    All comments received before the close of business on the comment 
+closing date will be considered and will be available for examination 
+in the docket at the location listed under the Addresses section of 
+this notice. Comments received after the comment closing date will be 
+filed in the public docket and may be considered to the extent 
+practicable. In addition to late comments, FMCSA will also continue to 
+file, in the public docket, relevant information that becomes available 
+after the comment closing date. Interested persons should continue to 
+examine the public docket for new material.
+
+Larry W. Minor,
+Associate Administrator for Policy.
+[FR Doc. 2025-21619 Filed 11-28-25; 8:45 am]
+BILLING CODE 4910-EX-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

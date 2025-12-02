@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55131-55133]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21689]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2003-D-0431]
+
+
+Medical Gases--Current Good Manufacturing Practice; Draft 
+Guidance for Industry; Availability
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice of availability.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA, Agency, or we) is 
+announcing the availability of a draft guidance for industry entitled 
+``Medical Gases--Current Good Manufacturing Practice.'' This guidance 
+is intended to assist manufacturers of medical gases in complying with 
+regulations for current good manufacturing practice (CGMP) that become 
+effective on December 18, 2025 (note, the conforming amendments to the 
+CGMP requirements for combination products became effective February 2, 
+2026). These regulations are
+
+[[Page 55132]]
+
+specific to medical gases for human and animal use and, like all CGMP 
+requirements, contain the minimum requirements to ensure that 
+manufacturing processes operate under a state of control to meet 
+prespecified quality standards for identity, strength, quality, and 
+purity, but are tailored more narrowly to how medical gases are 
+manufactured, packaged, labeled, stored, and distributed. This draft 
+guidance is being issued to reflect new and revised regulations in 
+several areas to reduce the regulatory burden, as appropriate, for the 
+medical gas industry. This draft guidance revises and replaces the 
+draft guidance entitled ``Current Good Manufacturing Practice for 
+Medical Gases'' issued in June 2017.
+
+DATES: Submit either electronic or written comments on the draft 
+guidance by January 30, 2026 to ensure that the Agency considers your 
+comment on this draft guidance before it begins work on the final 
+version of the guidance.
+
+ADDRESSES: You may submit comments on any guidance at any time as 
+follows:
+
+Electronic Submissions
+
+    Submit electronic comments in the following way:
+    <bullet> Federal eRulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments. Comments submitted 
+electronically, including attachments, to <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+will be posted to the docket unchanged. Because your comment will be 
+made public, you are solely responsible for ensuring that your comment 
+does not include any confidential information that you or a third party 
+may not wish to be posted, such as medical information, your or anyone 
+else's Social Security number, or confidential business information, 
+such as a manufacturing process. Please note that if you include your 
+name, contact information, or other information that identifies you in 
+the body of your comments, that information will be posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    <bullet> If you want to submit a comment with confidential 
+information that you do not wish to be made available to the public, 
+submit the comment as a written/paper submission and in the manner 
+detailed (see ``Written/Paper Submissions'' and ``Instructions'').
+
+Written/Paper Submissions
+
+    Submit written/paper submissions as follows:
+    <bullet> Mail/Hand delivery/Courier (for written/paper 
+submissions): Dockets Management Staff (HFA-305), Food and Drug 
+Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852.
+    <bullet> For written/paper comments submitted to the Dockets 
+Management Staff, FDA will post your comment, as well as any 
+attachments, except for information submitted, marked and identified, 
+as confidential, if submitted as detailed in ``Instructions.''
+    Instructions: All submissions received must include the Docket No. 
+FDA-2003-D-0431 for ``Medical Gases--Current Good Manufacturing 
+Practice.'' Received comments will be placed in the docket and, except 
+for those submitted as ``Confidential Submissions,'' publicly viewable 
+at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or at the Dockets Management Staff 
+between 9 a.m. and 4 p.m., Monday through Friday, 240-402-7500.
+    <bullet> Confidential Submissions--To submit a comment with 
+confidential information that you do not wish to be made publicly 
+available, submit your comments only as a written/paper submission. You 
+should submit two copies total. One copy will include the information 
+you claim to be confidential with a heading or cover note that states 
+``THIS DOCUMENT CONTAINS CONFIDENTIAL INFORMATION.'' The Agency will 
+review this copy, including the claimed confidential information, in 
+its consideration of comments. The second copy, which will have the 
+claimed confidential information redacted/blacked out, will be 
+available for public viewing and posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Submit both copies to the Dockets Management Staff. If you do not wish 
+your name and contact information to be made publicly available, you 
+can provide this information on the cover sheet and not in the body of 
+your comments and you must identify this information as 
+``confidential.'' Any information marked as ``confidential'' will not 
+be disclosed except in accordance with 21 CFR 10.20 and other 
+applicable disclosure law. For more information about FDA's posting of 
+comments to public dockets, see 80 FR 56469, September 18, 2015, or 
+access the information at: <a href="https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf">https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf</a>.
+    Docket: For access to the docket to read background documents or 
+the electronic and written/paper comments received, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and insert the docket number, found in brackets in 
+the heading of this document, into the ``Search'' box and follow the 
+prompts and/or go to the Dockets Management Staff, 5630 Fishers Lane, 
+Rm. 1061, Rockville, MD 20852, 240-402-7500.
+    You may submit comments on any guidance at any time (see 21 CFR 
+10.115(g)(5)).
+    Submit written requests for single copies of the draft guidance to 
+the Division of Drug Information, Center for Drug Evaluation and 
+Research, Food and Drug Administration, 10001 New Hampshire Ave., 
+Hillandale Building, 4th Floor, Silver Spring, MD 20993-0002 or Policy 
+and Regulations Staff, Center for Veterinary Medicine, Food and Drug 
+Administration, 5001 Campus Drive, College Park, MD 20740. Send one 
+self-addressed adhesive label to assist that office in processing your 
+requests. See the SUPPLEMENTARY INFORMATION section for electronic 
+access to the draft guidance document.
+
+FOR FURTHER INFORMATION CONTACT: Ashley Boam, Center for Drug 
+Evaluation and Research, Food and Drug Administration, 10903 New 
+Hampshire Ave., Bldg. 51, Rm. 4192, Silver Spring, MD 20993-0002, 301-
+796-6341 or Scott Fontana, Center for Veterinary Medicine, Food and 
+Drug Administration, 5001 Campus Drive, College Park, MD 20740, 240-
+402-0656.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    FDA is announcing the availability of a draft guidance for industry 
+entitled ``Medical Gases--Current Good Manufacturing Practice.'' This 
+guidance revises and replaces the draft guidance issued on June 29, 
+2017, entitled ``Current Good Manufacturing Practice for Medical 
+Gases'' (82 FR 29565), which described how medical gas manufacturers 
+could comply with applicable requirements in the general drug CGMP 
+regulations under parts 210 and 211 (21 CFR parts 210 and 211).
+    ``Medical gas'' is defined in section 575(2) of the Federal Food, 
+Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 360ddd(2)) as a drug that 
+is manufactured or stored in a liquefied, nonliquefied, or cryogenic 
+state and administered as a gas. Medical gases include ``designated 
+medical gases'' (DMGs) as defined in section 575(1) of the FD&C Act; 
+medically appropriate combinations of DMGs; medical gases marketed 
+under applications submitted under sections 505 (21 U.S.C. 355) or 512 
+(21 U.S.C. 360b) of the FD&C Act; and any marketed unapproved drugs 
+that are medical gases.
+    On June 18, 2024, FDA issued a final rule (89 FR 51738) that 
+established requirements more specifically tailored to medical gases to 
+better address the unique characteristics of these drugs. The final 
+rule was intended to reduce the regulatory burden, as appropriate, for 
+the medical gas industry. This deregulatory effort addressed several 
+areas in which either new regulations
+
+[[Page 55133]]
+
+were needed, or existing regulations required revision because they 
+were not well-suited for medical gases. One area where new regulations 
+were established was CGMP.
+    Prior to implementation of the final rule, medical gas 
+manufacturers were subject to the general drug CGMP regulations for 
+finished pharmaceutical under parts 210 and 211, but these regulations 
+did not account for differences in how medical gases are manufactured 
+compared to other drugs. Notably, medical gases are generally 
+manufactured in a closed, sealed pressurized system; are not expected 
+to expire or degrade under ordinary storage conditions; and are 
+contained in cylinders that are reused many times. In addition, medical 
+gas manufacturing involves entities downstream of the original gas 
+manufacturer who further manufacture, process, pack, or hold medical 
+gases. Mix-ups or the accidental use of rejected or quarantined product 
+generally pose more of a risk to patient safety than does 
+contamination.
+    Because of these differences, certain requirements in the general 
+CGMP regulations under parts 210 and 211 were unnecessary to assure the 
+safety, identity, strength, quality, and purity of medical gases (e.g., 
+distributing oldest stock first, use of filters, and certain 
+requirements for controlling microbial contamination). FDA addressed 
+these differences in the June 2017 draft guidance for industry.
+    However, those recommendations will no longer be applicable with 
+the implementation of the final rule. As of December 18, 2025, medical 
+gas manufacturers are subject to medical gas-specific CGMP regulations 
+under part 213 (21 CFR part 213) rather than the general CGMP 
+regulations under parts 210 and 211 (note, conforming amendments to 
+CGMP regulations for combination products are effective February 2, 
+2026). The guidance announced in this notice explains how medical gas 
+manufacturers can comply with part 213, and includes among its 
+recommendations clarification on the following:
+
+<bullet> Ensuring the reliability of a supplier's capabilities
+<bullet> Protecting against container closure leaks
+<bullet> Appropriate cleaning and maintenance of buildings, facilities, 
+and equipment used in medical gas manufacture
+<bullet> Prevention of labeling and product mix-ups
+<bullet> Circumstances requiring stability testing, expiration testing, 
+or both
+<bullet> Handling of returned and salvaged medical gases
+
+    This draft guidance is being issued consistent with FDA's good 
+guidance practices regulation (21 CFR 10.115). The draft guidance, when 
+finalized, will represent the current thinking of FDA on ``Medical 
+Gases--Current Good Manufacturing Practice.'' It does not establish any 
+rights for any person and is not binding on FDA or the public. You can 
+use an alternative approach if it satisfies the requirements of the 
+applicable statutes and regulations.
+    As we develop final guidance on this topic, FDA will consider 
+comments on costs or cost savings the guidance may generate, relevant 
+for Executive Order 14192.
+
+II. Paperwork Reduction Act of 1995
+
+    While this guidance contains no collection of information, it does 
+refer to previously approved FDA collections of information. The 
+previously approved collections of information are subject to review by 
+the Office of Management and Budget (OMB) under the Paperwork Reduction 
+Act of 1995 (PRA) (44 U.S.C. 3501-3521). The collections of information 
+in 21 CFR part 11 relating to electronic records and electronic 
+signatures have been approved under OMB control number 0910-0303. The 
+collections of information in 21 CFR part 213 relating to current good 
+manufacturing practice requirements for medical gases, including 21 CFR 
+213.22(d), which states that quality unit activities (such as quality 
+agreements with suppliers) and procedures should be in writing, have 
+been approved under OMB control number 0910-0906.
+
+III. Electronic Access
+
+    Persons with access to the internet may obtain the draft guidance 
+at <a href="https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs">https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs</a>, <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents">https://www.fda.gov/regulatory-information/search-fda-guidance-documents</a>, or <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+
+Lowell M. Zeta,
+Acting Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21689 Filed 11-28-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre></body>
+</html>

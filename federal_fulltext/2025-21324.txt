@@ -1,0 +1,1795 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Proposed Rules]
+[Pages 54266-54281]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21324]
+
+
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+47 CFR Part 51
+
+[WC Docket Nos. 25-304, 25-208, 17-97; FCC 25-73; FR ID 319327]
+
+
+Advancing IP Interconnection
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In this document, the Federal Communications Commission 
+(Commission) adopted a Notice of Proposed Rulemaking that proposes to 
+eliminate burdensome legacy interconnection regulations that may 
+prevent providers of modern, internet Protocol (IP)-based networks from 
+interconnecting efficiently, and also seeks comment on ways the 
+Commission can facilitate a successful transition to all-IP 
+interconnection for voice services while retaining critical oversight 
+in areas of public safety and consumer protection, and ensuring 
+competition. The Notice of Proposed Rulemaking proposes to forbear from 
+incumbent local exchange carrier (LEC)-specific interconnection and 
+related obligations, and to eliminate the Commission's rules 
+implementing those provisions by December 31, 2028. The Commission also 
+seeks comment on whether and to what extent eliminating
+
+[[Page 54267]]
+
+the incumbent LEC-specific interconnection regulatory framework may 
+affect other statutory frameworks or Commission rules, and whether the 
+Commission should revisit any other provisions or rules that are 
+rendered redundant by the elimination of incumbent LECs' 
+interconnection obligations. Finally, the Commission seeks comment on 
+what, if any, regulatory framework for IP interconnection should 
+replace the current interconnection framework under section 251(c)(2), 
+and on the scope of the Commission's authority to regulate IP 
+interconnection under any such framework.
+
+DATES: Comments are due on or before December 26, 2025; reply comments 
+are due on or before January 26, 2026. Written comments on the 
+Paperwork Reduction Act proposed information collection requirements 
+must be submitted by the public, Office of Management and Budget (OMB), 
+and other interested parties on or before January 26, 2026.
+
+ADDRESSES: Pursuant to Sec. Sec.  1.415 and 1.419 of the Commission's 
+rules, 47 CFR 1.415, 1.419, interested parties may file comments and 
+reply comments. Comments may be filed using the Commission's Electronic 
+Comment Filing System (ECFS). You may submit comments, identified by WC 
+Docket Nos. 25-304, 25-208, and 17-97, by the following methods:
+    <bullet> Electronic Filers: Comments may be filed electronically 
+using the internet by accessing the ECFS: <a href="https://www.fcc.gov/ecfs">https://www.fcc.gov/ecfs</a>.
+    <bullet> Paper Filers: Parties who choose to file by paper must 
+file an original and one copy of each filing.
+    <bullet> Filings can be sent by hand or messenger delivery, by 
+commercial courier, or by the U.S. Postal Service. All filings must be 
+addressed to the Secretary, Federal Communications Commission.
+    <bullet> Hand-delivered or messenger-delivered paper filings for 
+the Commission's Secretary are accepted between 8:00 a.m. and 4:00 p.m. 
+by the FCC's mailing contractor at 9050 Junction Drive, Annapolis 
+Junction, MD 20701. All hand deliveries must be held together with 
+rubber bands or fasteners. Any envelopes and boxes must be disposed of 
+before entering the building.
+    <bullet> Commercial courier deliveries (any deliveries not by the 
+U.S. Postal Service) must be sent to 9050 Junction Drive, Annapolis 
+Junction, MD 20701. Filings sent by U.S. Postal Service First-Class 
+Mail, Priority Mail, and Priority Mail Express must be sent to 45 L 
+Street NE, Washington, DC 20554.
+    <bullet> People with Disabilities. To request materials in 
+accessible formats for people with disabilities (braille, large print, 
+electronic files, audio format), send an email to <a href="/cdn-cgi/l/email-protection#5b3d38386e6b6f1b3d3838753c342d"><span class="__cf_email__" data-cfemail="5a3c39396f6a6e1a3c3939743d352c">[email&#160;protected]</span></a> or 
+call the Consumer & Governmental Affairs Bureau at 202-418-0530.
+
+In addition to filing comments with the Secretary, a copy of any 
+comments on the Paperwork Reduction Act proposed information collection 
+requirements contained herein should be submitted to the Federal 
+Communications Commission via email to <a href="/cdn-cgi/l/email-protection#1d4d4f5c5d7b7e7e337a726b"><span class="__cf_email__" data-cfemail="3a6a687b7a5c5959145d554c">[email&#160;protected]</span></a> and to Nicole 
+Ongele, FCC, via email to <a href="/cdn-cgi/l/email-protection#cf81a6aca0a3aae180a1a8aaa3aa8fa9acace1a8a0b9"><span class="__cf_email__" data-cfemail="aee0c7cdc1c2cb80e1c0c9cbc2cbeec8cdcd80c9c1d8">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: For further information about this 
+proceeding, please contact Jesse Goodwin, Competition Policy Division, 
+Wireline Competition Bureau, at (202) 418-0958, or 
+<a href="/cdn-cgi/l/email-protection#1476717a7e75797d7a3a737b7b70637d7a547277773a737b62"><span class="__cf_email__" data-cfemail="690b0c070308040007470e06060d1e0007290f0a0a470e061f">[email&#160;protected]</span></a>, or Erik Beith, Competition Policy Division, 
+Wireline Competition Bureau, at <a href="/cdn-cgi/l/email-protection#f693849f9dd894939f829eb6909595d8919980"><span class="__cf_email__" data-cfemail="9efbecf7f5b0fcfbf7eaf6def8fdfdb0f9f1e8">[email&#160;protected]</span></a>, or (202) 418-0756. 
+For additional information concerning the Paperwork Reduction Act 
+proposed information collection requirements contained in this 
+document, send an email to <a href="/cdn-cgi/l/email-protection#3b6b697a7b5d5858155c544d"><span class="__cf_email__" data-cfemail="3e6e6c7f7e585d5d10595148">[email&#160;protected]</span></a> or contact Nicole Ongele at 
+(202) 418-2991.
+
+SUPPLEMENTARY INFORMATION: This is a summary of the Commission's Notice 
+of Proposed Rulemaking (NPRM) in WC Docket Nos. 25-304, 25-208, 17-97; 
+FCC 25-73, adopted on October 28, 2025, and released on October 29, 
+2025. The full text of this document is available for public inspection 
+at the following internet address: <a href="https://docs.fcc.gov/public/attachments/FCC-25-73A1.pdf">https://docs.fcc.gov/public/attachments/FCC-25-73A1.pdf</a>.
+    Paperwork Reduction Act: This document may contain proposed new or 
+revised information collection requirements. The Commission, as part of 
+its continuing effort to reduce paperwork burdens, invites the general 
+public and the Office of Management and Budget (OMB) to comment on the 
+information collection requirements contained in this document, as 
+required by the Paperwork Reduction Act of 1995, Public Law 104-13. In 
+addition, pursuant to the Small Business Paperwork Relief Act of 2002, 
+Public Law 107-198, see 44 U.S.C. 3506(c)(4), we seek specific comment 
+on how we might further reduce the information collection burden for 
+small business concerns with fewer than 25 employees.
+    Providing Accountability Through Transparency Act: Consistent with 
+the Providing Accountability Through Transparency Act, a summary of the 
+Notice of Proposed Rulemaking is available at <a href="https://www.fcc.gov/proposed-rulemakings">https://www.fcc.gov/proposed-rulemakings</a>. To request materials in accessible formats for 
+people with disabilities (e.g. Braille, large print, electronic files, 
+audio format), send an email to <a href="/cdn-cgi/l/email-protection#ddbbbebee8ede99dbbbebef3bab2ab"><span class="__cf_email__" data-cfemail="7f191c1c4a4f4b3f191c1c51181009">[email&#160;protected]</span></a> or call the Consumer & 
+Governmental Affairs Bureau at (202) 418-0530.
+    Ex Parte Rules: The proceeding this document initiates shall be 
+treated as a ``permit-but-disclose'' proceeding in accordance with the 
+Commission's ex parte rules. Persons making ex parte presentations must 
+file a copy of any written presentation or a memorandum summarizing any 
+oral presentation within two business days after the presentation 
+(unless a different deadline applicable to the Sunshine period 
+applies). Persons making oral ex parte presentations are reminded that 
+memoranda summarizing the presentation must (1) list all persons 
+attending or otherwise participating in the meeting at which the ex 
+parte presentation was made, and (2) summarize all data presented and 
+arguments made during the presentation. If the presentation consisted 
+in whole or in part of the presentation of data or arguments already 
+reflected in the presenter's written comments, memoranda or other 
+filings in the proceeding, the presenter may provide citations to such 
+data or arguments in his or her prior comments, memoranda, or other 
+filings (specifying the relevant page and/or paragraph numbers where 
+such data or arguments can be found) in lieu of summarizing them in the 
+memorandum. Documents shown or given to Commission staff during ex 
+parte meetings are deemed to be written ex parte presentations and must 
+be filed consistent with rule 1.1206(b). In proceedings governed by 
+rule 1.49(f) or for which the Commission has made available a method of 
+electronic filing, written ex parte presentations and memoranda 
+summarizing oral ex parte presentations, and all attachments thereto, 
+must be filed through the electronic comment filing system available 
+for that proceeding, and must be filed in their native format (e.g., 
+.doc, .xml, .ppt, searchable .pdf). Participants in this proceeding 
+should familiarize themselves with the Commission's ex parte rules.
+    Regulatory Flexibility Act. The Regulatory Flexibility Act of 1980, 
+as amended (RFA), requires that an agency prepare a regulatory 
+flexibility analysis for notice-and-comment rulemaking proceedings, 
+unless the agency certifies that ``the rule will not, if promulgated, 
+have a significant economic impact on a substantial number of small 
+entities.'' Accordingly, the Commission has
+
+[[Page 54268]]
+
+prepared an Initial Regulatory Flexibility Analysis (IRFA) concerning 
+potential rule and policy changes contained in this NPRM. The IRFA is 
+set forth below. The Commission invites the general public, in 
+particular small businesses, to comment on the IRFA. Comments must be 
+filed by the deadlines for comments on the NPRM indicated on the first 
+page of this document and must have a separate and distinct heading 
+designating them as responses to the IRFA.
+
+Synopsis
+
+I. Discussion
+
+A. Current State of Interconnection
+
+1. Current Arrangements for TDM Interconnection for Voice Services
+    We seek comment on the (time-division multiplexing) TDM-based 
+interconnection arrangements that remain in place today for all types 
+of providers. What types of carriers continue to require or employ TDM-
+based interconnection--for example, large incumbent LECs, small or 
+rural incumbent LECs, competitive LECs, or access tandem operators--and 
+for what services? To what extent are IP-based providers today required 
+to interconnect with incumbent LECs in TDM, even when traffic 
+originates and/or terminates in IP? Are calls still aggregated at TDM 
+access tandems or central offices for routing and transit? Are tandems 
+necessary for routing, or are they an artifact of existing routing 
+arrangements that rely on databases such as the Local Exchange Routing 
+Guide (LERG)? How do carriers exchange TDM traffic today, and do any 
+alternate (non-tandem) interconnection arrangements exist? We ask 
+commenters to describe the typical TDM network topology in use (e.g., 
+local switches, tandems, SS7 signaling points, 911 selective routers), 
+including any legacy functions that depend on TDM interconnection and 
+the classes of providers and categories of service recipients that rely 
+on those arrangements.
+    1. How do interconnection arrangements between LECs for local 
+traffic differ from arrangements between incumbent LECs and 
+interexchange carriers for long-distance traffic? How do 
+interconnection agreements between other types of providers work, and 
+how do they differ from those governed by section 251(c)? For example, 
+how do competitive LECs interconnect with other competitive LECs? How 
+do competitive LECs interconnect with mobile carriers? How do 
+competitive LECs interconnect with rural telephone companies? How do 
+mobile carriers interconnect with each other or with rural telephone 
+companies? How do interexchange carriers interconnect with mobile 
+carriers or rural telephone companies? Are there subgroups of carriers 
+that should be examined differently? For example, are there some 
+competitive LECs that function as interconnection points, similar to 
+the tandems of incumbent LECs, and are their interconnection 
+arrangements different from competitive LECs that serve a local market? 
+Recognizing that incumbent LEC switched access lines encompass only 
+3.1% of the voice telephony market, we seek further comment how often 
+interconnection arrangements are actually facilitating the origination 
+or termination of traffic on the legacy public switched telephone 
+network and how often section 251(c)(2) interconnection arrangements 
+are leveraged for the transit of calls to other networks.
+    We also seek comment on where TDM interconnection actually occurs. 
+Currently, under section 251(c)(2)(B), an incumbent LEC must allow a 
+requesting telecommunications carrier to interconnect at any 
+technically feasible point. The Commission has interpreted this 
+provision to mean that competitive LECs have the discretion to 
+interconnect at multiple points or just at a single point of 
+interconnection (POI) in a given local access and transport area 
+(LATA). We seek comment on where these TDM POIs are located within the 
+network, and how are they geographically distributed. How many TDM POIs 
+are still in use, and how concentrated are these POIs among networks? 
+Do different categories of providers tend to use different types of 
+POIs? For instance, do large incumbent LECs primarily interconnect at 
+their tandems, while smaller competitive and rural LECs rely on third-
+party tandem hubs or other arrangements? We invite commenters to detail 
+how many POIs exist in a given region and how they are used. For 
+example, how many TDM tandems are active, how many end offices 
+interconnect directly, and to what extent are carrier hotels and other 
+centralized POIs used? Finally, are most, if not all, TDM POIs resident 
+in facilities that do not have SIP POIs? And if so, does this place a 
+burden for providers in transitioning to an all-IP SIP interconnection 
+point with one or more providers?
+    What are the operational or financial impacts of TDM 
+interconnection arrangements on competitive carriers, particularly 
+rural and small LECs, and those that have already transitioned to all-
+IP networks? We note concerns that ending incumbent LECs' section 
+251(c)(2) interconnection obligations could shift new cost among 
+carriers. We therefore seek comment regarding current TDM 
+interconnection practices of small and rural carriers. Do rural 
+telephone companies currently avail themselves of section 251(c)(2)? 
+What interconnection costs do these providers face under existing 
+rules? Are there potential system-wide efficiencies and cost savings 
+from an all-IP network? Are any small and rural carriers now required 
+to interconnect at an IP POI, and if so, under what cost arrangements? 
+What interconnection arrangements do carriers subject to the rural 
+exemption under section 251(f)(1) or (f)(2) have for TDM or IP voice 
+services? Given that such carriers, despite being incumbent LECs, are 
+largely exempt from section 251(c)(2), how do those arrangements with 
+competitive LECs differ from other such interconnection arrangements?
+    We also seek comment on the architecture of hybrid connections 
+between IP networks and legacy TDM networks, and on the effect of such 
+network arrangements on interconnection agreements. In a typical 
+scenario, an IP-originated call is handed off to a TDM network, or vice 
+versa, requiring media and signaling gateways at the IP-TDM boundary to 
+handle protocol conversions. How often are calls that originate or 
+terminate on the PSTN converted to VoIP for transport and 
+interconnection, and vice versa? Where in the network is the IP-to-TDM 
+or TDM-to-IP conversion occurring? Which providers deploy VoIP-to-TDM 
+and TDM-to-VoIP gateways when calls are exchanged between networks, 
+which providers are responsible for the protocol conversions, and where 
+are these gateways located? What carriers own and operate those 
+gateways, including emergency services gateways that connect to 
+selective routers, and signaling links? How is traffic routed through 
+the TDM portion (e.g., via which tandem switches or trunks), and who 
+bears the costs of these conversions and transport? Do certain 
+incumbent LECs offer interconnection in both TDM and IP, and if so, at 
+what frequency?
+    We seek comment on the volume of voice traffic still transiting 
+legacy TDM networks. We ask commenters to quantify the remaining TDM 
+usage that providers carry or expect to carry in the near term. For 
+example, what percentage of calls or trunks in providers' networks 
+remain on TDM switches? What service categories (e.g., legacy telephone 
+lines, business T-1/PRI, alarm and elevator lines, 911 services) are 
+still provisioned via TDM,
+
+[[Page 54269]]
+
+and why have they not yet transitioned to modern alternatives? (``T-1'' 
+refers to a physical transmission line standard in North America for 
+digital voice and data services. ``PRI,'' or ``Primary Rate 
+Interface,'' refers to a high capacity digital voice and data service 
+delivered over a T-1 line.) To what extent do carriers still offer 
+stand-alone local exchange and/or long-distance service? How relevant 
+is the distinction between local exchange and long-distance service to 
+today's consumers? How often do voice service customers choose a long-
+distance carrier that is unaffiliated with their local exchange 
+carrier? We ask that commenters provide any data or studies on TDM 
+traffic volumes by category, if possible.
+    We seek comment on the technical, financial, and regulatory factors 
+that account for the persistence of TDM architectures in our nation's 
+networks. Are there statutory or public safety-related mandates that 
+have effectively required maintaining circuit-switched networks? To 
+what extent do state-level regulatory requirements compel certain 
+carriers to maintain legacy TDM infrastructure or continue offering 
+TDM-based service? To what extent do the costs associated with 
+upgrading networks to IP account for providers' continued reliance on 
+TDM interconnection arrangements? To what extent do certain providers 
+operate IP networks for their own services but rely on TDM solely for 
+interconnection? We seek comment on the contexts and services for which 
+carriers, utilities, and government agencies assert TDM must be 
+maintained alongside IP to prevent disruption to critical services. 
+Despite significant industry progress in transitioning to all-IP 
+networks, some observers have previously noted that certain critical 
+services still depended on existing TDM infrastructure to function, and 
+that complex issues related to these services must be addressed before 
+the IP transition can be completed. For example, the Department of 
+Transportation has emphasized that the Federal Aviation 
+Administration's Telecommunications Infrastructure (FTI) network ``is 
+heavily dependent on obsolete 1960s TDM technology across over 30,000 
+services at 4,600 sites.'' To what extent do infrastructure or 
+emergency services currently continue to rely on TDM circuits for 
+critical applications like aviation communications, railway operations, 
+industrial process control, infrastructure monitoring, rural call 
+completion, public safety radio backhaul, or selective routing for 
+legacy 911 networks? Are there other known over-the-top services, such 
+as medical monitors, security alarms, or point of sale terminals, that 
+still use and/or require TDM facilities? Are there commercially 
+available alternatives that could be used, should TDM interconnection 
+become unavailable? We ask that commenters provide detailed examples of 
+such TDM-reliant services, as well as traffic volume estimates, to the 
+extent possible. Are there technical, financial, security, or other 
+practical reasons to maintain certain technologies, in an all-IP world? 
+What specific portion(s) of the network must be TDM to accommodate TDM-
+reliant services?
+2. Current Arrangements for IP Interconnection for Voice Services
+    We seek comment on current carrier practices and arrangements for 
+IP-to-IP interconnection for voice services. Today's IP-based voice 
+networks often use managed IP cores and session border controllers 
+(SBCs) to carry VoIP calls end-to-end. When an IP-initiated call must 
+transit a TDM network, the VoIP call is handed off via a media gateway 
+to TDM at the network edge. We seek comment on the current network 
+architecture underlying IP interconnection for interconnected VoIP 
+services--how has it evolved since the Commission first took action to 
+promote IP-to-IP interconnection for voice services? In referring to 
+``interconnected VoIP service,'' we include those services elsewhere 
+deemed ``IP-enabled voice service.'' For example, do carriers exchange 
+traffic via Session Initiation Protocol (SIP) trunks, public internet 
+gateways, or private IP networks? How often do carriers use IP-to-IP 
+peering to interconnect directly in IP versus indirectly via IP 
+``tandems'' or intermediate providers? How are commercial arrangements 
+for direct IP voice interconnection structured? Do carriers need to 
+individually negotiate each direct connection agreement? What are the 
+costs associated with interconnecting directly over IP compared to 
+exchanging voice traffic over existing internet connections? What 
+protocols and quality-of-service (QoS) mechanisms ensure voice quality?
+    Some stakeholders have previously noted that voice traffic can be 
+routed and exchanged over the public internet--is the ``best efforts'' 
+QoS model sufficient to preserve existing voice quality? What 
+mechanisms, protocols, or redundancies are available or in place to 
+prevent voice service disruption when there are network outages or 
+unusual strain on a network's capacity, such as during a natural 
+disaster? How does call routing work when voice traffic is exchanged 
+over the public internet? How are IP addresses and routing handled at 
+IP POIs? Is the Domain Name Service (DNS) used within or between 
+providers in support of SIP? Or, are IP addresses manually set for 
+static routes between points set by a provider? Are there concerns 
+about hijacking of IP address prefixes used for border gateway protocol 
+(BGP) routing? We seek comment on any QoS, latency, or interoperability 
+issues that have arisen in current IP voice interconnection. Are there 
+technical barriers to IP interconnection that the Commission should 
+address and what types of providers are impacted? Commenters should 
+describe in detail the network layers and equipment used in VoIP 
+interconnection today.
+    We also seek comment on how interconnection practices vary by size, 
+type of provider, and network technology. For example, are small or 
+rural incumbent LECs offering direct IP interconnection at the same 
+frequency as larger incumbent LECs? What percentage of rural carriers 
+have deployed IP facilities and services in their networks, and are 
+they currently providing, or capable of providing, VoIP services? Have 
+competitive LECs and cable operators generally adopted IP-to-IP 
+interconnection, and if so, what models do they use? How do wireless 
+carriers interconnect for Voice over LTE (VoLTE) traffic, and do they 
+require special gateways? Do VoIP providers interconnect directly, or 
+do they rely on their carrier partners? Do large incumbent LECs and 
+rural incumbent LECs also currently offer IP interconnection? What 
+types of providers currently have direct IP interconnection agreements, 
+and how do these agreements account for different network architectures 
+and regulatory status? For cases involving intermediaries, such as 
+third-party IP tandems or transit providers, what role do these 
+intermediaries play, and how widely are such services used?
+    We also seek comment on the types and number of IP interconnection 
+agreements for interconnected VoIP service that exist today, and how 
+parties to those agreements treat technical and financial issues. For 
+example, in past proceedings, some parties have noted that carriers 
+historically have relied primarily on the LERG and local number 
+portability database (Number Portability Administration Center--NPAC) 
+to route calls, but these databases cannot identify SIP endpoints. 
+Additionally, other parties have previously noted that the preference 
+to route calls to the VoIP provider's competitive LEC partner via PSTN
+
+[[Page 54270]]
+
+trunks, rather than to the VoIP provider directly, has hampered the 
+implementation of VoIP interconnection. Are these issues still relevant 
+in the context of current IP interconnection arrangements, and if so, 
+how have parties responded to these challenges? How do providers 
+allocate the cost burdens of exchanging IP traffic? How do 
+interconnection arrangements accommodate features like number 
+portability, caller ID authentication, and emergency calling (911)? Are 
+there regulatory burdens or other transaction costs that have stymied 
+the growth of such arrangements in the voice market? We recognize that 
+IP interconnection implicates certain regulatory issues stemming 
+directly from the legacy TDM framework, including intercarrier 
+compensation, access charges, and universal service. While this item is 
+focused on the technological and regulatory frameworks for 
+interconnection the Commission will address other issues as appropriate 
+in separate items. Are carriers negotiating new IP interconnection 
+contracts, or modifying existing TDM agreements? How do state 
+requirements regarding TDM interconnection affect the negotiation and 
+implementation of IP interconnection agreements? Are there other 
+factors affecting negotiations that the Commission has not considered? 
+What lessons can be drawn from providers or states that have made 
+substantial progress toward IP-only infrastructure?
+    In a legacy TDM world, carriers tend to interconnect at many local 
+central offices and tandems. By contrast, IP networks can span larger 
+regions and aggregate traffic at fewer POIs, such as carrier hotels and 
+internet exchanges. We seek comment on where interconnection for 
+interconnected VoIP traffic is happening today and between which types 
+of carriers. One industry report notes that national carriers have 
+negotiated traffic exchange at a small number of POIs, such as carrier 
+hotels, rather than on a per-LATA basis. Is this the current trend, and 
+if so, why? How do parties negotiate the POIs? Do the location and use 
+of POIs vary with the size and type of provider or modality (e.g., 
+wireline or wireless)? At how many physical POIs do VoIP providers 
+currently exchange traffic with other voice providers and where are 
+these POIs located? Are IP voice POIs co-located with TDM POIs, or are 
+they separate? Are there regional interconnection hubs or multiple 
+local interconnects per area? To what extent are carriers exchanging 
+traffic over the public internet, and where are the POIs located in 
+such arrangements? We ask that comments provide data or estimates on 
+the number and location of current IP POIs.
+    We also seek comment, specifically, on the effect of recent 
+Commission efforts to facilitate the NG911 transition on current IP 
+interconnection arrangements and the role of TDM architecture during 
+the NG911 transition. In the 2024 NG911 Order, the Commission adopted 
+rules requiring originating service providers (OSPs) to take steps to 
+transition from legacy analog 911 technology to the IP-based NG911 
+system. Pursuant thereto, OSPs, upon a ``valid request'' for delivery 
+of 911 traffic in IP-based format by a 911 Authority, must follow a 
+two-phase process for transitioning to NG911. In jurisdictions that 
+have submitted valid requests under the Commission's NG911 transition 
+framework, would NG911 Delivery Points for the delivery of 911 traffic 
+in an IP format to ESInet or other NG911 network facilities play a role 
+in facilitating the IP transition? Has the ongoing transition to NG911 
+impacted providers' existing interconnection arrangements, and if so, 
+how? How do IP interconnection agreements for interconnected VoIP 
+account for providers' obligations to implement NG911? To what extent 
+does deployment of NG911 promote IP interconnection arrangements? Do 
+any providers rely on existing TDM interconnection to prevent 
+disruption to emergency communications pending completion of the NG911 
+transition, and what alternative arrangements can be used in these 
+situations? Commenters should address the interplay between any 
+continuing TDM needs for jurisdictions that have not begun or completed 
+the transition to NG911 and interconnection agreements. In what other 
+ways has the NG911 transition affected IP interconnection arrangements 
+for voice service? Commenters should explain in detail the interplay 
+between the NG911 transition and the current state of IP 
+interconnection for interconnected VoIP.
+
+B. Eliminating Interconnection Obligations Under Section 251(c)(2)
+
+1. Effects of Burdensome Interconnection Obligations on the Transition 
+to an All-IP Network
+    We invite comment on the costs to incumbent LECs of complying with 
+sections 251(c)(2) and (c)(6) of the Act and our rules implementing 
+those provisions, sections 51.305, 51.321, and 51.323, and their impact 
+on the IP transition. We observe that the additional interconnection 
+obligations imposed under section 251(c) of the Act can create heavy 
+burdens for incumbent LECs. These costs can in turn divert resources 
+away from investments in high-speed communications infrastructure, 
+slowing the transition to all-IP networks. Consequently, we seek 
+comment on these observations and on whether forbearance from these 
+additional requirements will speed the move away from TDM-based 
+technologies.
+    What kinds of expenses--capital, operating, or otherwise--do the 
+additional interconnection mandates found in section 251(c) of the Act 
+impose? On whom, and to what extent? Does the asymmetry in regulatory 
+duties between competing carriers and incumbent LECs encourage 
+investments in outmoded TDM technologies? For example, Digital Progress 
+Institute contends that section 251(c)'s requirements necessitate that 
+incumbent LECs design and maintain outdated TDM facilities, facilities 
+in which they claim competing carriers invest further to gain a 
+regulatory advantage. At the same time, CCA argues that smaller 
+carriers' dependency on incumbent LECs to route their calls stymies IP 
+network investments because smaller carriers must ``subtend[] 
+[incumbent LECs'] non-IP tandem facilities.'' We seek comment on what 
+burdens carriers, particularly small and rural carriers, face as a 
+result of section 251(c)'s requirements. For example, what costs must 
+carriers bear in converting IP voice traffic to TDM? From TDM to IP? 
+What costs must competing carriers bear in having to interconnect in 
+TDM? How should the Commission evaluate competing costs among different 
+categories of providers? Do these costs for carriers impede the IP 
+transition? How would carriers otherwise allocate resources associated 
+with section 251(c)'s additional interconnection obligations for 
+incumbent LECs? To the extent that resources would be otherwise 
+allocated towards speeding up a carrier's IP transition, how much more 
+quickly could a move to all-IP networks occur? Do these requirements 
+inhibit certain types of commercial agreements that could benefit 
+consumers? Would a determination that interconnection for the exchange 
+of VoIP traffic is not subject to the requirements of section 251(c) 
+facilitate the negotiation of VoIP interconnection agreements? Finally, 
+what kinds of state and local laws and regulations exist for 
+interconnection, and what kinds of costs do they impose?
+
+[[Page 54271]]
+
+2. Forbearance From Incumbent LECs' Additional Interconnection and 
+Related Obligations
+    We propose to forbear, as of the adopted sunset date, from section 
+251(c)(2) of the Act, forbear from section 251(c)(6) of the Act to the 
+extent it requires incumbent LECs to provide for physical collocation 
+of interconnection equipment, and eliminate our rules implementing 
+those statutory provisions (47 CFR 51.305 (interconnection); 47 CFR 
+51.321 (methods for obtaining interconnection and access to unbundled 
+elements); 47 CFR 51.323 (standards for physical collocation and 
+virtual collocation)). Below, we seek comment on whether the 
+forbearance criteria outlined in section 10 of the Act have been met. 
+Additionally, we seek comment on the extent to which we should forbear 
+from section 251(c) of the Act, how the Commission should potentially 
+modify its rules, and what steps could be taken to mitigate any 
+potential harm to critical infrastructure services and consumers that 
+may result from forbearance.
+    Section 10 of the Act requires the Commission to forbear from 
+applying any requirement of the Act or of our regulations to a 
+telecommunications carrier or telecommunications service, or class of 
+telecommunications carriers or telecommunications services, if the 
+Commission determines that: (1) enforcement of the requirement ``is not 
+necessary to ensure that the charges, practices, classifications, or 
+regulations by, for, or in connection with that telecommunications 
+carrier or telecommunications service are just and reasonable and are 
+not unjustly or unreasonably discriminatory''; (2) enforcement of that 
+requirement ``is not necessary for the protection of consumers''; and 
+(3) ``forbearance from applying such provision or regulation is 
+consistent with the public interest.'' Satisfaction of all three 
+criteria mandates forbearance. With respect to the third prong, the 
+Commission must consider ``whether forbearance from enforcing the 
+provision or regulation will promote competitive market conditions.''
+    Ensuring practices are just and reasonable (section 10(a)(1)). Were 
+we to forbear from section 251(c)(2) and section 251(c)(6) (to the 
+extent it requires incumbent LECs to provide for physical collocation 
+of interconnection equipment) and eliminate the Commission's 
+implementing rules, incumbent LECs would no longer be subject to 
+additional interconnection requirements not imposed on other kinds of 
+carriers. We believe that these requirements are no longer necessary to 
+ensure that interconnection practices for voice services are just and 
+reasonable and not unreasonably discriminatory. We believe changes in 
+the marketplace since the passage of the 1996 Act's monopoly-ending 
+provisions have reduced competing providers' reliance on incumbent LECs 
+in provisioning service to their customers. In the span of a little 
+over 20 years, reliance on legacy networks has dropped precipitously: 
+the number of reported end-user switched access lines declined from 181 
+million to just 18 million, far fewer than the 64.5 million 
+interconnected VoIP subscriptions or 288.3 million mobile subscriptions 
+reported in June 2024. Consequently, we seek comment on whether 
+incumbent LECs continue to have the ability or the incentive to engage 
+in the kinds of harmful practices typically associated with a monopoly 
+power with respect to retail voice service, and whether it is still 
+necessary to differentiate incumbent LECs from other carriers with 
+regard to interconnection. We also seek comment on whether 
+interconnection needs could be met pursuant to sections 201 and 251(a).
+    To what extent, if any, are these additional requirements for 
+incumbent LECs still necessary to ensure providers' practices remain 
+just and reasonable? Assuming carriers cannot avoid interconnecting 
+with incumbent LECs, would incumbent LECs have incentive to take 
+advantage of that? Do incumbent LECs still exert sufficient control 
+over the marketplace to do so? How does the balance of negotiating 
+power differ among the providers today and would that negotiating power 
+change depending on whether the proposals herein are adopted? Absent 
+Commission regulations, would disputes arise between incumbent LECs and 
+competing carriers that could lead to access issues, such as for 
+terminating access or selective router access for 911? Do the 
+Commission's 911 service rules affect LECs' pricing power over 
+facilities used to route 911 calls? How does the Act's collocation 
+requirement ensure just and reasonable practices, if at all? How does 
+the transition of providers' networks to IP affect the necessity of the 
+Act's collocation mandate? Are there any cost savings for incumbent LEC 
+from not having to collocate equipment?
+    Ensuring protection of consumers (section 10(a)(2)). We seek 
+comment on whether enforcement of these statutes and regulations is 
+necessary for the continued protection of consumers. We believe that 
+the Act's additional interconnection requirements for incumbent LECs 
+are no longer necessary for consumers' protection given the explosive 
+growth in competition from competitive carriers and interconnected VoIP 
+service providers. We believe that such competition renders the kinds 
+of consumer protections afforded by sections 251(c)(2) and (c)(6) 
+unnecessary. We seek comment on this belief. With incumbent LECs' need 
+to compete on more even grounds as a result of their eroded market 
+dominance, we do not anticipate rate increases by incumbent LECs or 
+that other costs would otherwise be absorbed by consumers. Do 
+commenters agree? Does forbearance risk stranding consumers, as alleged 
+by NCTA? Would forbearance expose consumers to disruptions, 
+discontinuation of voice service, or otherwise affect carriers' ability 
+to provide service? Are there concerns specific to customers of small 
+and rural carriers? What role does our collocation requirement play, if 
+any, in continuing to protect consumers?
+    Consistent with the public interest (section 10(a)(3)). We believe 
+that forbearance from the Act's additional interconnection requirements 
+for incumbent LECs would be consistent with the public interest, in 
+part by improving market competition and ultimately encouraging the 
+transition to modernized networks and services. As outlined above, we 
+seek comment whether burdening incumbent LECs alone with direct 
+interconnection obligations for retail voice service continues to make 
+sense given their lack of dominance in the market. Rather, we seek 
+comment on whether incumbent LECs no longer possess especial leverage 
+in negotiating with competitive LECs or in competing for customers, and 
+whether competitive carriers' stronger market position today enables 
+them to negotiate agreements to interconnect and collocate their 
+equipment in the absence of rules requiring as much. We also seek 
+comment on whether the Act's current requirements distort the market 
+unnecessarily by shifting costs almost entirely to incumbent LECs 
+rather than allowing the parties to negotiate their distribution. By 
+forbearing, we would seek to remedy this distortion and in turn improve 
+market competition. Do commenters agree with our assessment? Is this 
+analysis of the market correct? Do competitive carriers today face 
+challenges in interconnecting with incumbent LECs, particularly in IP? 
+Should we consider whether large incumbents can leverage other services 
+to exact market concessions from smaller providers? Do incumbent LECs 
+ever refuse outright to interconnect in IP or otherwise resist 
+interconnecting
+
+[[Page 54272]]
+
+outside of TDM? If so, to what extent is this the result of incumbent 
+LECs' additional interconnection obligations under 251(c)? Would 
+forbearance encourage interconnection in IP? What incentives exist for 
+incumbent LECs to interconnect with competitive LECs and other 
+competing providers in TDM versus IP?
+    We also believe that forbearing from the Act's additional 
+interconnection requirements for incumbent LECs would free up resources 
+for use in development and deployment of next-generation networks, 
+promoting the public interest and counseling in favor of forbearance. 
+Do commenters agree? Do we need to forbear from any section to support 
+the transition to IP? Would forbearance assist in ending the digital 
+divide, whether through hastening the IP transition or otherwise? What 
+other benefits might inure to the public as a result of forbearance? 
+Would forbearance need to be tailored in any way to accommodate the 
+particular needs of small or rural carriers, and if so, how? What harms 
+to the public interest do commenters anticipate, if any, and are they 
+outweighed by the benefits resulting from increased competition, more 
+efficient networks, and availability of additional resources for next-
+generation high-speed networks?
+    Extent of forbearance. We further seek comment on whether the 
+Commission should forbear from section 251(c)(2) entirely or whether we 
+should only partially forbear to the extent that section 251(c)(2) 
+imposes obligations on incumbent LECs interconnecting in TDM, 
+specifically. That is, to the extent that section 251(c)(2) could be 
+read to authorize the FCC to newly impose additional requirements on 
+incumbent LECs when they interconnect with other carriers for the 
+exchange of IP voice traffic, we seek comment on whether the Commission 
+should preserve that possibility by tailoring the scope of its 
+forbearance. As outlined above, we seek comment whether incumbent LECs 
+hold a specially advantaged position in the market relative to their 
+competitors in the exchange of IP-based traffic. Is our analysis of the 
+competitiveness of the market correct? How do we account for the 
+continued existence of bottlenecks in voice markets? How does any of 
+the foregoing forbearance analysis differ if we were to only partially 
+forbear from section 251(c)(2)? Are there other reasons the Commission 
+should maintain the possibility of additional obligations for incumbent 
+LECs in the IP context? Do carriers rely on our rules implementing 
+section 251(c)(2) when they interconnect for the exchange of VoIP 
+traffic? Absent section 251(c)(2), what would happen to interconnection 
+arrangements reliant thereon? If the Commission were to only partially 
+forbear, how should the Commission approach making any changes to our 
+implementing rules?
+    Commission rules. We seek comment on how the Commission should 
+address its implementing rules in light of the proposed forbearance. 
+Could the Commission delete Sec. Sec.  51.305, 51.321, and 51.323 
+outright? Are there reasons to maintain those rules, whether in whole 
+or in part? If the Commission partially forbore from sections 251(c)(2) 
+and (6) of the Act, and did not eliminate its rules implementing those 
+sections, would any changes need to be made? Would other sections of 
+the Commission's rules require reevaluation or amendment in light of 
+their deletion or modification?
+    Interruptions to 911 service. We also seek comment whether 
+forbearing from the interconnection and collocation requirements in 
+section 251(c)(2) and (6) create any risk of interruptions to 911 
+service. As we noted recently, there are areas where 911 authorities 
+and OSPs have either not begun or have not yet completed the transition 
+to NG911 and continue to rely on legacy selective routers and other 
+TDM-based infrastructure for delivery of 911 calls to public safety 
+answering points (PSAPs). Some commenters have suggested that delivery 
+of 911 calls could be disrupted if carriers of 911 traffic lose access 
+to critical TDM circuits in the 911 call path and are not provided 
+sufficient opportunity to establish alternate IP connections to those 
+facilities. To what extent do carriers rely on the interconnection and 
+collocation rights in sections 251(c)(2) and (6) to obtain access to 
+selective routers and other critical 911 circuits? Is there a risk that 
+incumbent LECs may refuse access or charge unfair prices if we exercise 
+forbearance? If we sunset incumbent LEC interconnection and collocation 
+obligations under sections 251(c)(2) and (6) on December 31, 2028--as 
+we propose below--will that provide carriers sufficient time to secure 
+long-term access to alternative facilities that support routing and 
+delivery of 911 calls? We seek comment on whether any additional 
+safeguards are needed to ensure the continuity of 911 service. For 
+example, should we carve out an exception to our forbearance for 
+interconnections and collocations at a selective router? Should the 
+Commission, on a case-by-case basis, direct incumbent LECs to 
+interconnect or allow collocation when necessary to preserve 911 
+service? On what basis would the Commission have the authority to do 
+so?
+    Mitigating harm to critical infrastructure services. We seek 
+comment on how the Commission can avoid any harm to critical 
+infrastructure services in forbearing from interconnection and 
+collocation obligations specific to incumbent LECs. Would forbearance 
+affect the ability of critical infrastructure industries, government 
+agencies, or public safety entities to maintain operations and 
+services? If so, how and to what extent? Can the Commission take steps 
+to mitigate any potential harms? For example, should forbearance from 
+these obligations be conditional, or include a carveout for 
+interconnection and collocation arrangements that are used to provide 
+services to public safety entities or critical infrastructure purposes?
+    Full implementation of section 251(c) of the Act (section 10(d)). 
+Section 10(d) of the Act requires the Commission to determine whether 
+the requirements in section 251(c) of the Act ``have been fully 
+implemented'' before forbearing from its provisions. We believe that 
+section 251(c) of the Act has been fully implemented, and seek comment 
+on this view. The Commission has previously concluded that full 
+implementation occurred when its implementing rules went into effect. 
+The D.C. Circuit upheld this conclusion in Qwest Corp. v. FCC. We seek 
+comment on any current and relevant aspects of the fully implemented 
+requirement. We further seek comment on whether the Commission's 
+determination in the Qwest Forbearance Order that section 251(c) has 
+been fully implemented constitutes the best reading of the statute, 
+consistent with the Supreme Court's decision in Loper Bright.
+3. Establishing a Date Certain
+    We propose to forbear from the interconnection obligations specific 
+to incumbent LECs under sections 251(c)(2) and (6) of the Act, as well 
+as our rules implementing those provisions, as of December 31, 2028. We 
+seek comment on our proposal. We believe that this date provides 
+sufficient time for affected parties to make any necessary alternative 
+arrangements. Importantly, we note that sunsetting incumbent LEC-
+specific interconnection obligations is not tantamount to a prohibition 
+on TDM interconnection. Incumbent LECs, like other providers, could 
+continue interconnecting in TDM, and all telecommunications carriers 
+would still bear the duty to interconnect pursuant to sections 201 and 
+251(a) of the Act.
+
+[[Page 54273]]
+
+    Do commenters agree with our proposal? We seek comment on the costs 
+and benefits of establishing December 31, 2028 as the sunset date. If 
+commenters believe that a different date would be more appropriate, 
+what criteria should the Commission use in evaluating the feasibility 
+of a given date? Should there be a single date by which all incumbent 
+LECs' additional interconnection obligations under section 251(c)(2) 
+and (6) are sunset, or should the Commission stagger its sunsetting of 
+these requirements? Do the particular challenges of small and rural 
+carriers necessitate a different or tailored approach? What other dates 
+do commenters propose, and what are the costs and benefits associated 
+with those dates? What other factors or issues should the Commission 
+take into account when determining a sunset date's feasibility? Is this 
+timeframe feasible for seamless accessibility-related transitions?
+    We seek comment on what changes carriers will need to make to their 
+networks prior to our proposed date of December 31, 2028, for 
+forbearance. What steps must be taken, both by incumbent LECs and the 
+providers with which they interconnect? What steps do small and rural 
+carriers, specifically, need to take, and what are the associated 
+costs? What steps would other relevant parties, such as those that 
+provide critical infrastructure services, need to take? Should the 
+Commission establish intermediate deadlines by which certain benchmarks 
+must be met, e.g., if we imposed requirements on establishing new or 
+modified agreements? Are there any kinds of benchmarks we should 
+establish after the sunset date?
+    We also seek comment on how existing agreements might be affected. 
+For example, change-in-law provisions of a contract might allow for 
+renegotiation of terms or establish the means by which to resolve 
+disputes. Do providers anticipate modifying existing interconnection 
+agreements or entering into new agreements? What opportunities or 
+challenges might arise? How does the balance of negotiating power 
+differ among the providers today and would that negotiating power 
+change depending on whether the proposals herein are adopted? Would 
+forbearance from certain requirements be likely to necessitate 
+renegotiation of existing agreements, or are those agreements likely to 
+remain unaffected by forbearance? Do small and rural carriers 
+anticipate particular challenges with making arrangements following the 
+elimination of our additional interconnection requirements for 
+incumbent LECs, such as by needing to lease third-party networks or 
+services or purchase equipment and other technology for network 
+upgrades? Are there any steps the Commission should take to prevent 
+unnecessary disruption and costs to providers while they make 
+preparations to transition their networks and agreements?
+    Other Commission timelines. Additionally, we seek comment on 
+whether and how setting December 31, 2028 as the date certain for 
+ending incumbent LEC-specific interconnection obligations will affect 
+other related and adjacent timeframes adopted or being considered by 
+the Commission. As discussed below, the Commission has previously 
+established or proposed timelines for matters that may affect 
+providers' transitions of their networks to IP. Simultaneously, we 
+recognize that the additional interconnection obligations imposed on 
+incumbent LECs under sections 251(c)(2) and (6) may affect the parties' 
+willingness or ability to interconnect in IP. How should the timeframe 
+for forbearance account for our other timeframes? We specifically seek 
+comment in the context of NG911, caller ID authentication, and 
+technology transitions.
+    First, we seek comment on the effect of our NG911 requirements on 
+any proposed date certain for ending incumbent LEC-specific 
+interconnection obligations. We note that although the Commission 
+declined to ``reference any specific standard or set of standards as 
+part of the codified definition of NG911,'' at least one of the 
+commonly accepted standards envisions an end-state NG911 as contingent 
+on ubiquitous IP networks. Would forbearing from sections 251(c)(2) and 
+(6) to the extent described above impact changes being made to upgrade 
+networks to IP and deploy NG911 systems? How else might deployment of 
+NG911 affect the feasibility of our proposed sunset date for additional 
+interconnection obligations for incumbent LECs, or vice versa?
+    Second, we seek comment on extending the two-year timeframe 
+proposed in the Non-IP Caller ID Authentication NPRM, which would give 
+providers two years to either upgrade their networks to IP or to 
+implement a non-IP caller ID authentication solution, to December 31, 
+2028, or whatever sunset date we ultimately adopt. We believe that 
+aligning the dates of our proposals in this manner best facilitates the 
+goals of each item and avoids any inconsistencies or redundancies that 
+might otherwise arise. Do commenters agree? What other considerations 
+should we take into account in light of the Non-IP Caller ID 
+Authentication NPRM's proposals?
+    Third, we seek comment on the effect our proposals in the 
+Technology Transitions NPRM would have on sunsetting additional 
+interconnection obligations for incumbent LECs. Do these proposals bear 
+on our proposed date of December 31, 2028? Or vice versa? Specifically, 
+how does the timing of our streamlining or forbearance proposals in the 
+Technology Transitions NPRM affect setting a date for ending incumbent 
+LECs' additional interconnection obligations? What are the implications 
+of forbearing from section 251(c)(5) before, concurrently, or after 
+forbearing from sections 251(c)(2) and (6)? Are there other 
+considerations about which the Commission should be mindful?
+4. Other Regulatory Frameworks and Rules Affected by Eliminating the 
+Incumbent LEC-Specific Interconnection Obligations
+    We seek comment on whether forbearing from section 251(c)(2) and 
+from section 251(c)(6) (to the extent it requires incumbent LECs to 
+provide for physical collocation of interconnection equipment) and 
+eliminating the Commission rules implementing those provisions would 
+require updating other Commission rules or bear on other statutory 
+frameworks. For example, our numbering rules require an interconnected 
+VoIP provider that has obtained an authorization for direct access to 
+numbering resources from the Commission to demonstrate that the 
+applicant is or will be capable of providing service to the area within 
+sixty (60) days of the numbering resources activation date--often 
+referred to as ``facilities readiness''--before obtaining North 
+American Numbering Plan (NANP) numbers. The Commission has explained 
+that an interconnected VoIP provider can satisfy that requirement by 
+providing (1) a combination of an agreement between the interconnected 
+VoIP provider and its carrier partner and an interconnection agreement 
+between that carrier and the relevant LEC, or (2) proof that the 
+interconnected VoIP provider obtains interconnection with the PSTN 
+pursuant to a tariffed offering or a commercial arrangement (such as a 
+TDM-to-IP or VoIP interconnection agreement) providing access to the 
+PSTN. We seek comment on whether an IP-to-IP interconnection agreement 
+for local call exchange should be sufficient under section 52.15(g)(2), 
+if the Commission were to adopt its proposal to forbear from 
+interconnection and
+
+[[Page 54274]]
+
+related obligations under sections 251(c)(2) and (6) of the Act. We 
+note that in 2023 the Commission declined to revise section 52.15(g)(2) 
+to specify additional documentation, instead retaining flexibility to 
+consider each application. Is that approach still appropriate now, or 
+should our rules explicitly recognize IP-based interconnection as 
+fulfilling the requirement? Would interconnection to the PSTN still be 
+necessary? Are there other numbering administration matters that 
+providers would need to address before and after a transition to IP 
+interconnection, such as call routing, number assignments, and toll-
+free routing? In the event that we grant relief from incumbent LEC-
+specific interconnection obligations, are there any changes necessary 
+to the definition of interconnected VoIP?
+    Do LECs leasing remaining UNEs pursuant to section 251(c)(3) 
+require interconnection pursuant to section 251(c)(2) and Sec.  51.323 
+of our rules? To what extent would ending such interconnection 
+obligations have the practical effect of eliminating remaining 
+incumbent LEC UNE obligations? If they do, is this a desirable result? 
+We invite comment on whether our rules governing UNE loops, subloops, 
+network interface devices, or other legacy elements would need to be 
+revised or forborne from.
+    While the NPRM we adopt today focuses on interconnection 
+obligations for incumbent LECs and immediately related issues, we note 
+that the Commission's rules related to tariffing and access charge 
+requirements stem directly from the legacy TDM framework; we intend to 
+address any such related issues as needed in separate future items. In 
+this item, however, we welcome commenters' views on any other rules or 
+sections of the Act that might be rendered obsolete or redundant by the 
+elimination of incumbent LEC-specific interconnection obligations. We 
+also ask commenters to identify any provisions (for example, in 
+sections 251(b)(1)-(4) or 252 of the Act, Parts 51 or 52 of our rules, 
+or elsewhere) that should be updated or clarified, or from which we 
+should forbear. For example, should we eliminate any requirement that 
+local exchange carriers offer presubscribed interexchange providers and 
+the information-sharing requirements associated with that requirement? 
+Does the strict distinction between local and long-distance service, 
+and associated concepts like presubscribed interexchange carriers and 
+LATAs continue to make sense in an all-IP world?
+
+C. Appropriate Regulatory Framework for Interconnection for IP Voice 
+Services
+
+    We seek comment on whether and how the Commission should modify its 
+regulatory framework for interconnection to account for IP voice 
+services. As the Commission has previously stated, ``[i]t is important 
+that any IP-to-IP interconnection policy framework adopted by the 
+Commission be narrowly tailored to avoid intervention in areas where 
+the marketplace will operate.'' Today, carriers can freely negotiate 
+how IP-to-IP interconnection occurs absent heavy-handed Commission 
+regulation. We seek comment on whether there has been any demonstrated 
+need for Commission intervention. Have market incentives proved 
+sufficient to meet the needs contemplated by Congress and the Act? Do 
+any carriers possess sufficient market power to pressure other carriers 
+into accepting unfavorable interconnection terms?
+    Does the regulatory framework established for traffic exchange 
+under section 251(a) continue to make sense for IP-to-IP 
+interconnection for voice services, or should it more closely resemble 
+the light-touch regulatory approach taken in other areas, including 
+internet traffic exchange? How does the network architecture for 
+interconnected VoIP differ from that of best-efforts internet? Do any 
+particular technical characteristics counsel toward or away from the 
+need for Commission oversight of interconnection for VoIP service? To 
+what extent might the current dynamics of the IP-to-IP voice 
+interconnection marketplace change if we forbore from the TDM 
+interconnection obligations for incumbent LECs under sections 251(c)(2) 
+and (6)? Are there aspects of section 251(c)(2)'s framework that are 
+needed in an IP interconnection environment, and if so, who should 
+those aspects apply to? For example, is the incumbent LECs' 
+responsibility to exchange TDM traffic within existing LATA boundaries 
+appropriate for VoIP traffic today? If so, given that incumbent LECs 
+serve approximately one fourth of all wireline subscriptions, should 
+that burden fall exclusively on one part of the market (such as today's 
+incumbent LECs or comparable carriers) or on all VoIP operators? What 
+protections are needed to ensure secure and efficient delivery of VoIP 
+calls? How should any IP interconnection framework for general voice 
+traffic account for the existing NG911 framework and its requirement 
+for carriers to hand off 911 traffic in IP at designated points of 
+connection within each state? To what extent would a transition to an 
+all-IP infrastructure affect accessibility for people with 
+disabilities? Are there still devices or services, such as TTY or 
+speech-to-speech, that require TDM technology? We invite detailed 
+comment on how the Commission should account for these issues and those 
+raised below.
+    Scope of traffic and services. We seek comment on the scope of 
+traffic and services that a framework specific to IP-to-IP 
+interconnection for voice traffic should encompass. Should the 
+Commission distinguish between managed or facilities-based VoIP and 
+over-the-top VoIP? Should the Commission's framework encompass all U.S. 
+domestic voice providers that use NANP resources? Are there any 
+definitional or other challenges that exist in attempting to categorize 
+the different types of VoIP traffic? How can we avoid any regulatory 
+asymmetries that could distort the market or otherwise harm consumers? 
+Would adopting an IP interconnection framework for interconnected VoIP 
+traffic compel providers to exchange VoIP traffic under different 
+technological or legal arrangements from those that providers use to 
+exchange other IP traffic? Could the interconnection framework be 
+structured to provide certain interconnection rights with respect to 
+the exchange of VoIP traffic, or certain types of VoIP traffic, while 
+giving providers the freedom to exchange other IP traffic as they are 
+doing now? What impact, if any, would such an approach have on any 
+preexisting arrangements for the exchange of voice or non-voice IP 
+traffic?
+    We also seek comment on whether any such regulatory framework 
+should distinguish between different types of carriers. For example, 
+should our rules differentiate between incumbent LECs, rural LECs, 
+competitive LECs, or interconnected VoIP providers, particularly if 
+providers interconnect through the internet and not through individual 
+incumbent LEC switches in multiple LATAs? Do other classes of 
+providers, such as originating versus terminating, require specific 
+rule subsets? Does the type of VoIP service provided--e.g., facilities-
+based versus over-the-top--warrant or necessitate different regulatory 
+schemes?
+    Duty to interconnect. We seek comment on whether the Commission 
+should adopt rules to require carriers to interconnect in IP, 
+specifically, for voice traffic. Should the Commission mandate that 
+carriers provide direct IP-to-IP interconnection? Alternatively, should 
+the Commission require IP-to-IP interconnection but permit carriers to
+
+[[Page 54275]]
+
+do so indirectly? Should the Commission require carriers to make an IP 
+address available on public internet at which it will receive voice 
+traffic, and should such a requirement be instead of or in addition to 
+a direct interconnection requirement? Should the Commission prohibit 
+incumbent LECs from requesting that other carriers or VoIP providers 
+exchange traffic in TDM, or alternatively, require the provider 
+requesting TDM interconnection to bear the costs of conversion of IP 
+traffic? Should the Commission prohibit carriers from distinguishing 
+between different types of traffic or providers in its receipt of voice 
+traffic? What requirements would the Commission need to specify if it 
+undertook any such approach? What are the benefits and drawbacks of 
+these various alternatives?
+    We seek comment whether the Commission should impose certain 
+baseline requirements, such as particular terms and conditions, on IP-
+to-IP interconnection agreements. Does the application of terms like 
+``just and reasonable'' under section 201 and ``not unjust or 
+unreasonably discriminatory'' under section 202 of the Act differ in an 
+all-IP context? If so, how? How otherwise might any VoIP 
+interconnection obligation differ from that currently imposed on 
+incumbent LECs and other telecommunications carriers in the TDM 
+context? Would incumbent LECs and interconnecting carriers need to 
+specify a date by which there could no longer be changes to existing 
+TDM interconnection arrangements, or to certain terms in those 
+agreements, in preparation of a proposed sunset date? Would a numbering 
+directory similar to that required for telecommunications relay 
+services (TRS) under Sec.  64.613 of our rules allow IP-to-IP traffic 
+to be easily routed in the absence of direct interconnection 
+agreements? What would the costs and benefits of any of the approaches 
+outlined above be? For small and rural carriers, specifically?
+    Duty to negotiate in good faith. We also seek comment on whether 
+the Commission should impose additional or specific requirements for 
+IP-to-IP interconnection for voice service related to a carrier's duty 
+to negotiate in good faith. The Commission has previously recognized 
+that the ``duty to negotiate in good faith has been a longstanding 
+element of interconnection requirements under the Communications Act,'' 
+irrespective of the ``network technology underlying the 
+interconnection, whether TDM, IP, or otherwise.'' The Commission in 
+2011 espoused its expectation that all carriers negotiate in good faith 
+in response to requests for IP-to-IP interconnection for the exchange 
+of voice traffic and that such good faith negotiations will result in 
+interconnection arrangements between IP networks. We seek comment on 
+whether the Commission's expectation has been realized in the past 
+decade and a half. Was the Commission's stated expectation sufficient 
+to ensure that IP interconnection arrangements for the exchange of 
+voice traffic came to fruition in a timely manner? If not, how can the 
+Commission ensure that all providers of voice services negotiate in 
+good faith in response to requests for IP-to-IP interconnection for the 
+exchange of voice traffic?
+    IP voice traffic POIs. We seek comment on whether the Commission 
+should determine POIs for VoIP in an all-IP world. If so, how would the 
+Commission do so? Could or should the Commission require POIs in each 
+state, region, or tandem, or at certain ``technically feasible'' 
+points? How does the concept of technical feasibility apply in end-to-
+end IP networks? Does the concept of LATAs continue to make sense in an 
+all-IP world? By comparison, how many interconnection points do 
+providers use to interconnect with the internet? Should the Commission 
+limit the number of required POIs? We seek comment on what role, if 
+any, the Commission should play in developing a POI framework for IP 
+interconnection for voice services, and on approaches that do not 
+impose overly prescriptive regimes that detract from the efficiencies 
+of IP networks. Could or should the Commission require interconnection 
+at existing NG911 Delivery Points where they exist? Would doing so 
+interfere with a state's ability to determine the configuration of 
+their emergency services networks? What call routing requirements are 
+needed, if any, to ensure continued functionality of services such as 
+E911 or 988? Should the Commission require certain categories of voice 
+traffic be managed? What should be the role of technical standards-
+setting bodies in developing a framework for IP interconnection?
+    Exchanging VoIP traffic over the public internet. We seek comment 
+on whether the Commission can and should encourage the exchange of IP 
+voice traffic over the public internet. What efficiencies could be 
+derived through exchanging IP-based voice traffic over the internet? 
+Would individually-negotiated contracts be needed? Are there voice 
+carriers today that do not have existing connections to the internet 
+for the provision of consumer internet connectivity to their customers? 
+We seek comment on what tools would need to be developed to efficiently 
+implement such a solution. For example, how would call routing work? 
+Would a database connecting phone numbers to a carrier gateway's IP 
+address need to be developed? Would such a database require technical 
+standards work, and are there any efforts on this front already 
+underway?
+    Role of states. Finally, we seek comment on what role states should 
+play, if any, in VoIP interconnection and on the landscape of state 
+regulation of IP-to-IP interconnection today. Has any state role been 
+necessary for the establishment of IP interconnection agreements for 
+voice traffic to date? What equities do the states have in ensuring 
+efficient interconnection of intrastate and interstate voice traffic? 
+What role should the Commission play in overseeing any state regulation 
+of VoIP interconnection? Have state actions with respect to VoIP 
+interconnection been consistent with federal policy? Have they been 
+helpful, or a hindrance, to promoting the IP transition? We seek 
+comment whether the Commission should exercise preemption authority 
+over matters related to interconnected VoIP interconnection. If the 
+Commission adopts rules for a framework for IP-to-IP interconnection, 
+should those rules limit the states' role in IP-to-IP interconnection, 
+or prohibit states from attaching certain conditions to IP 
+interconnection negotiations and agreements?
+
+D. Commission Authority Over VoIP Interconnection
+
+    To the extent that a regulatory framework governing interconnection 
+for IP voice services is necessary, we seek comment on the best 
+authority under which the Commission could or should adopt rules or 
+requirements to govern IP interconnection for voice services. We also 
+seek comment on which authority is most consistent with our statute as 
+a whole. Specifically, we seek comment on the particular statutory 
+authority that would provide the strongest basis for any interconnected 
+VoIP interconnection framework we might adopt. We also seek comment on 
+how to carefully circumscribe the scope of traffic or services subject 
+to any such framework to leave issues to the marketplace that 
+appropriately can be resolved there.
+    However, the Commission has not broadly determined whether Voice 
+over internet Protocol (VoIP) providers are ``telecommunications 
+carriers,'' whether
+
+[[Page 54276]]
+
+VoIP services, including interconnected VoIP, are ``telecommunications 
+services'' or ``information services,'' or whether VoIP services 
+constitute ``telephone exchange service'' or ``exchange access'' for 
+the purposes of interconnection rights under sections 201 and 251. 
+Under Commission rules and precedent, providers of interconnected VoIP 
+service may in certain circumstances be treated as telecommunications 
+carriers. For example, the Commission and states have recognized that 
+interconnected VoIP providers may seek designation as Eligible 
+Telecommunications Carriers (ETCs) to participate in universal service 
+programs, so long as they voluntarily hold themselves out as common 
+carriers and meet the applicable requirements. Commission precedent 
+suggests that the statutory terms defining section 251's scope are not 
+confined to legacy TDM-based offerings, but rather turn on the 
+functional nature of the service regardless of protocol. The 
+Commission's technology-neutral reading of these definitions is also 
+consistent with how the Commission has approached interconnection 
+rights under section 251 in the context of IP-based voice services. In 
+the USF/ICC Transformation Order, the Commission observed that 
+``interconnection requirements [under section 251] are technology 
+neutral--they do not vary based on whether one or both of the 
+interconnecting providers is using TDM, IP, or another technology in 
+their underlying networks.'' Although the Commission refrained from 
+explicitly ruling that IP-to-IP interconnection is mandated under 
+section 251, it found that the statutory language was neutral on its 
+face as to the underlying network technology, and encouraged parties to 
+negotiate such arrangements in good faith.
+    Section 251(a)(1). Section 251(a)(1) requires all 
+telecommunications carriers to interconnect either directly or 
+indirectly. The requirements of this provision extend broadly to all 
+telecommunications carriers, and are technology neutral on their face 
+with respect to the transmission protocol used for purposes of 
+interconnection. Can the Commission require providers of voice service 
+to interconnect in IP under section 251(a)? Could the Commission rely 
+on section 251(a)(1) to require IP interconnection between facilities-
+based interconnected VoIP providers that have not been classified as 
+either a telecommunications service or an information service under the 
+Act?
+    We seek comment whether section 251(a) provides the Commission 
+authority to adopt rules, if necessary, requiring providers of voice 
+service to make interconnection arrangements for the exchange of voice 
+traffic in IP, and to negotiate good faith arrangements for the same.
+    To that end, we seek comment on whether providers of interconnected 
+VoIP service are or could be telecommunications carriers (or common 
+carriers). As the D.C. Circuit Court of Appeals explained in NARUC II, 
+``the primary sine qua non of common carrier status is a quasi-public 
+character, which arises out of the undertaking `to carry for all people 
+indifferently.' '' The court went on to explain that the second 
+prerequisite to common carrier status, ``formulated by the FCC with 
+peculiar applicability to the communications field,'' is that the 
+system be such that customers transmit intelligence of their own design 
+and choosing. We seek comment on whether providers of interconnected 
+VoIP service are common carriers under this test.
+    While the Commission has not affirmatively classified all VoIP 
+offerings as either a telecommunications service or information 
+service, it has nonetheless recognized that providers may elect to 
+offer interconnected VoIP as a telecommunications service. We thus seek 
+comment on whether the Commission must classify all interconnected VoIP 
+as a telecommunications service in order to regulate interconnected 
+VoIP providers as telecommunications carriers, given that the Act 
+states that a ``telecommunications carrier shall be treated as a common 
+carrier under this chapter only to the extent that it is engaged in 
+providing telecommunications services.'' Can providers of 
+interconnected VoIP service avail themselves of section 251(a) by 
+offering interconnected VoIP service on a common carrier basis? If so, 
+do both sides of IP-to-IP interconnection need to be offering VoIP on a 
+common carrier basis for the section 251(a) interconnection obligations 
+to apply? Do both sides need to agree that the VoIP service is being 
+offered as a common carrier service? To ensure that any carrier seeking 
+the benefits of such a classification also accepts the accompanying 
+burdens (such as the section 251(a) duty to accept interconnections 
+from others), should we require a carrier seeking to offer VoIP on a 
+common carrier basis to do so throughout their territory or throughout 
+an entire state? We also seek comment whether, if a carrier elects to 
+offer such VoIP services as telecommunications services, and does so 
+without changing the rates, terms, or conditions of service for the 
+customer, it should be viewed ``as a transition of underlying network 
+technology, analogous to a provider undertaking a switch migration.''
+    Section 201. The Commission has historically imposed 
+interconnection obligations pursuant to section 201 of the Act. We seek 
+comment on whether section 201 provides the Commission authority to 
+mandate IP interconnection obligations for voice traffic, including for 
+intrastate traffic--either alone, or in conjunction with, other 
+provisions of the Act--under the interconnection frameworks we explore 
+today. Section 201(a) imposes a duty on ``common carrier[s]'' engaged 
+in ``interstate or foreign communication by wire or radio'' to 
+``establish physical connections with other carriers'' in cases where 
+the Commission finds it necessary or desirable in the public interest. 
+(We observe that the Commission found interconnected VoIP to a be a 
+jurisdictionally mixed use service in the Vonage Order, and determined 
+that it was not possible to separate out the purely intrastate uses 
+from the interstate uses.) Section 201(b) further requires that all 
+``charges, practices, classifications, and regulations for or in 
+connection with common carrier service'' be just and reasonable and not 
+unjust or unreasonable. Section 201(b) also permits the Commission to 
+``prescribe such rules and regulations as may be necessary in the 
+public interest to carry out the provisions of'' the Communications 
+Act. We seek comment whether these provisions provide the Commission 
+authority to adopt rules, if necessary, requiring providers of voice 
+service to make interconnection arrangements for the exchange of voice 
+traffic in IP, and to negotiate good faith arrangements for the same. 
+Is this approach most consistent with the best reading of the statute? 
+Does the fact that section 251 specifically governs interconnection 
+bear on whether section 201 can authorize regulations governing IP 
+interconnection? We observe that section 251 includes a savings 
+provision specifying that nothing in section 251 ``shall be construed 
+to limit or otherwise affect the Commission's authority under section 
+201.'' What is the import of this provision in evaluating our authority 
+of section 201(a) with respect to IP interconnection? Could regulations 
+addressing VoIP interconnection be grounded in our authority that 
+``[a]ll charges, practices, classifications, and regulations for or in 
+connection with [common carrier] service shall be just
+
+[[Page 54277]]
+
+and reasonable''? Would a section 201 approach be limited only to 
+interstate and foreign communications?
+    Section 251(c)(2). Were the Commission to forbear from 251(c)(2) 
+with respect to TDM services, we seek comment whether section 251(c)(2) 
+could provide the Commission the authority to address IP-to-IP 
+interconnection. First, we observe that section 251(c)(2)'s direct 
+interconnection obligations only extend to some incumbent LECs (not 
+rural telephone companies nor mobile carriers nor competitive LECs) and 
+requesting telecommunications carriers (other than interexchange 
+carriers) seeking interconnection with them. Given this framework, 
+would it be appropriate to ground any IP-to-IP interconnection 
+obligations for voice services in the Commission's authority under 
+section 251(c)(2)? If so, would the Commission need to classify VoIP 
+services as telecommunications services for section 251(c)(2) to govern 
+interconnection for IP voice services under this provision? Or would it 
+be sufficient that a VoIP provider held itself out as providing its 
+service on a common carrier basis? Relatedly, we also seek comment 
+whether interconnection for the exchange of VoIP traffic would be ``for 
+the transmission and routing of telephone exchange service and exchange 
+access.'' Or to put it differently, if the Commission did classify VoIP 
+as a telecommunications service, would section 251(c)(2) apply, if so, 
+to whom and in what respect? And assuming it did apply, should the 
+Commission nonetheless forbear from applying section 251(c)(2) to VoIP?
+    Section 256. We also seek comment on whether section 256 of the Act 
+provides the Commission authority to regulate IP interconnection for 
+voice service. Section 256(a) states that the purpose of the section is 
+``to ensure the ability of users and information providers to 
+seamlessly and transparently transmit and receive information between 
+and across telecommunications networks.'' The Commission ``shall 
+establish procedures for Commission oversight of coordinated network 
+planning by telecommunications carriers and other providers of 
+telecommunications service for the effective and efficient 
+interconnection of public telecommunications networks used to provide 
+telecommunications service.'' To what extent does this section provide 
+a source of authority for regulation of IP interconnection given the 
+statement in section 256(c) that ``[n]othing in this section shall be 
+construed as expanding or limiting any authority that the Commission 
+may have under law in effect before February 8, 1996''?
+    Section 227b. We seek comment on whether section 227b provides 
+authority for rules governing IP interconnection for voice services. 
+Pursuant to section 227b(b)(1), all voice service providers are 
+required to implement the STIR/SHAKEN caller ID authentication 
+framework in their IP networks, and the Commission has extended that 
+obligation to intermediate providers. Providers must also take 
+reasonable measures to implement an effective caller ID authentication 
+framework in their non-IP networks, but are not required to do so until 
+a non-IP caller ID authentication framework has been developed and is 
+reasonably available. In applying these provisions, the Commission 
+requires voice service providers to either upgrade their entire 
+networks to IP and fully implement STIR/SHAKEN or participate in 
+efforts to develop a non-IP caller ID authentication framework. Section 
+227b(b)(5)(D) requires the Commission to ``take reasonable measures to 
+address any'' burdens or barriers to the implementation of STIR/SHAKEN 
+or a non-IP caller ID authentication framework, and to ``enable as 
+promptly as reasonable full participation of all classes of providers 
+of voice service and types of voice calls'' in these frameworks. We 
+seek comment on whether regulating IP interconnection would be a 
+reasonable measure to address the burdens and barriers of STIR/SHAKEN 
+implementation as necessary to enable full participation in the 
+framework as promptly as reasonable.
+    Ancillary Authority. We seek comment whether the Commission can 
+rely upon ancillary authority as a basis for an IP interconnection 
+regulatory framework. The Commission may exercise ancillary 
+jurisdiction only when two conditions are satisfied: (1) the 
+Commission's general jurisdictional grant under Title I of the Act 
+covers the regulated subject and (2) the regulations are reasonably 
+ancillary to the Commission's effective performance of its statutorily 
+mandated responsibilities. Regarding the first prong, because 
+interconnected VoIP services are ``communications by wire or radio,'' 
+the Commission has subject matter jurisdiction over IP traffic such as 
+packetized voice traffic. With regard to the second prong, the D.C. 
+Circuit in Comcast held that the Commission's use of ancillary 
+authority must be linked to express delegations of regulatory 
+authority. The Commission has previously relied in part--though not 
+exclusively--on ancillary authority to apply certain of Title II's 
+obligations to interconnected VoIP service--including obligations 
+pertaining to section 222 customer proprietary network information 
+(CPNI), local number portability, USF contribution, Form 499 regulatory 
+fees, section 255 disability access and TRS, section 214 
+discontinuance, outage reporting, truth-in-billing, and Form 477 
+reporting.
+    We seek comment whether any requirements the Commission might adopt 
+to regulate interconnected VoIP interconnection would be reasonably 
+ancillary to the Commission's exercise of its authority under a 
+statutory provision, such as sections 201, 251(a), (e), 254, 615a-1(b), 
+617(d), or other authority. For example, would the failure to make 
+arrangements to interconnect, directly or indirectly, for the exchange 
+of voice traffic in IP be reasonably ancillary to the Commission's 
+authority to ensure that all practices in connection with common 
+carrier services be just and reasonable under section 201? Would 
+adopting an IP interconnection regulatory framework be ancillary to the 
+Commission's obligation to enforce telecommunications carriers' duty to 
+``interconnect directly or indirectly with the facilities and equipment 
+of other telecommunications carriers?'' Is maintaining Commission 
+oversight over interconnection for exchange of voice traffic ancillary 
+to the Commission's authority over 911 emergency access? Similarly, 
+under the New and Emerging Technologies 911 Improvement Act of 2008 
+(NET911 Act), IP-enabled voice service providers are required to 
+provide 911 service and enhanced 911 (E911) service in accordance with 
+Commission requirements, and have a right to interconnect with entities 
+that provide such capabilities on the same rates, terms, and conditions 
+as that provided to CMRS providers. Further, the Twenty-First Century 
+Communications and Video Accessibility Act of 2010 (CVAA) authorizes 
+the Commission to implement regulations necessary to achieve reliable 
+and interoperable communication that ensures access to an IP-enabled 
+emergency network by individuals with disabilities, where achievable 
+and technically feasible. We seek comment on whether oversight over IP 
+interconnection arrangements for voice service would be ancillary to 
+the Commission's authorities for 911, including its obligation under 
+the CVAA and its obligations to modify regulations implementing the 
+NET911 Act ``from time to time, as necessitated by changes
+
+[[Page 54278]]
+
+in the market or technology, to ensure the ability of an IP-enabled 
+voice service provider to comply with its obligations'' under the 
+statute, observing that ``[n]othing in this section shall be construed 
+to permit the Commission to issue regulations that require or impose a 
+specific technology or technological standard.''
+    Alternatively, or in addition, we seek comment on whether the 
+Commission should adopt regulations pertaining to interconnection for 
+VoIP services by relying on ancillary authority in conjunction with its 
+authority under section 254. Section 254 provides that ``[a]ccess to 
+advanced telecommunications and information services should be provided 
+in all regions of the Nation,'' and that the Commission's universal 
+service programs ``shall'' be based on this and other enumerated 
+principles. Section 254(c)(1) states that ``[u]niversal service is an 
+evolving level of telecommunications services that the Commission shall 
+establish periodically under this section.'' Section 254(b) requires 
+the Commission to base policies for the preservation and advancement of 
+universal service on access to ``advanced telecommunications and 
+information services.'' We seek comment whether rules to ensure 
+interconnection of networks for the exchange of IP voice traffic would 
+be ancillary to the Commission's obligation to enable advanced 
+telecommunications services to be provided in all regions of the 
+nation. Are there other sources of statutory authority to which 
+interconnected VoIP interconnection obligations are ancillary? Finally, 
+if the Commission were to rely on ancillary authority to impose 
+requirements, would it also need to adopt associated complaint 
+procedures, or could the existing informal and formal complaint 
+processes, which derive from section 208, be interpreted to extend more 
+broadly than alleged violations of Title II duties?
+    Classification of Interconnected VoIP Service. For any proposed IP 
+interconnection framework, we also seek comment on whether it is 
+necessary, or appropriate, to address classification issues associated 
+with facilities-based or over-the-top interconnected VoIP service. In 
+particular, to the extent that an entity that historically was 
+classified as an incumbent LEC or other telecommunications carrier 
+ceased offering circuit-switched voice telephone service, and instead 
+offered only interconnected VoIP service, we seek comment on whether 
+that entity would remain a ``local exchange carrier'' or 
+``telecommunications carrier.'' The Act defines a ``local exchange 
+carrier'' as ``any person that is engaged in the provision of telephone 
+exchange service or exchange access.'' The Act defines the term 
+``telephone exchange service'' as ``(A) service within a telephone 
+exchange, or within a connected system of telephone exchanges within 
+the same exchange area operated to furnish to subscribers 
+intercommunicating service of the character ordinarily furnished by a 
+single exchange, and which is covered by the exchange service charge, 
+or (B) comparable service provided through a system of switches, 
+transmission equipment, or other facilities (or combination thereof) by 
+which a subscriber can originate and terminate a telecommunications 
+service.'' The term ``exchange access'' means the offering of access to 
+telephone exchange services or facilities for the purpose of the 
+origination or termination of telephone toll services. In the universal 
+service context, the Commission has found that, insofar as a carrier 
+elected to offer VoIP on a common carrier basis, it ``did not see a 
+reason why such service would not also be classified as telephone 
+exchange service and exchange access to the same extent as traditional 
+voice telephone service.'' Would this same reasoning apply in the 
+context of interconnection for VoIP services?
+    As mentioned above, the Commission has not determined whether 
+interconnected VoIP services are ``telecommunications services'' or 
+``information services.'' To what extent would the Commission need to 
+classify interconnected VoIP service as a ``telecommunications 
+service'' under the Act to require voice providers to negotiate IP 
+interconnection agreements for interconnected VoIP services or set 
+other rules or requirements for IP-to-IP interconnection for VoIP 
+services? The Act defines ``telecommunications service'' as the 
+``offering of telecommunications for a fee directly to the public, or 
+to such classes of users as to be effectively available directly to the 
+public, regardless of the facilities used,'' and defines 
+``telecommunications'' as ``the transmission, between or among points 
+specified by the user, of information of the user's choosing, without 
+any change in the form or content of the information as sent and 
+received.'' We seek comment whether interconnected VoIP service is most 
+appropriately classified as a ``telecommunications service'' under the 
+best reading of the Act. Should all VoIP services be subject to Title 
+II classification, or should we limit our actions to interconnected 
+VoIP services? If so, why? Alternatively, are some offerings of VoIP 
+(or interconnected VoIP) provided on a common carrier basis and others 
+provided on a private carriage basis? If so, how should we distinguish 
+them, both as a matter of law and as to what legal obligations should 
+be imposed on each?
+    Were the Commission to classify interconnected VoIP service as a 
+telecommunications service, from what provisions of Title II should the 
+Commission forbear with respect to interconnected VoIP service? Should 
+the Commission forbear from provisions of Title II that it has thus far 
+not found necessary to impose on interconnected VoIP service? We seek 
+comment on whether there is any evidence of market failure in the 
+provision of such VoIP services, or whether broader Title II regulation 
+of VoIP services is otherwise necessary to protect consumers or ensure 
+that rates, terms, and conditions are just and reasonable. If there is 
+no evidence of market failure, we seek comment whether it would be in 
+the public interest to forbear from all Title II requirements other 
+than those the Commission currently applies to VoIP service. 
+Alternatively, we seek comment on whether the Commission should align 
+any forbearance for VoIP services with the forbearance granted to 
+commercial mobile radio services.
+    Other Sources of Authority. Finally, we seek comment on any other 
+sources of Commission authority for adopting a policy framework for IP 
+interconnection for interconnected voice services. What would be the 
+scope and substance of the Commission's authority to address IP 
+interconnection under that authority?
+
+E. Cost Benefit Analysis
+
+    Benefits. We seek comment on the benefits of forbearing from our 
+specific interconnection obligations for incumbent LECs and on any 
+potential regulatory framework for IP interconnection. As outlined 
+above, the Commission believes that its current regulatory scheme 
+imposes various costs on providers, whether on incumbent LECs or 
+otherwise. We also anticipate that elimination of these burdens will, 
+among other things, speed deployment of next-generation networks and 
+services. We seek comment on the likely benefits of eliminating these 
+costs, as well as any other benefits resulting from sunsetting our 
+additional interconnection obligations for incumbent LECs.
+    What regulatory costs will incumbent LECs avoid as a result of such 
+deregulation? Carriers in general? What effect would the absence of 
+Commission
+
+[[Page 54279]]
+
+intervention have on market competition? What impact could the other 
+proposals herein have on competition? Does our current interconnection 
+regime promote anticompetitive conduct, and would its elimination 
+promote affordability of voice services or improved service offerings? 
+How might small and rural carriers and their customers, in particular, 
+benefit? What other benefits will inure to the public as a consequence? 
+Do commenters believe, as the Commission anticipates, that eliminating 
+incumbent LECs' additional interconnection obligations will hasten the 
+IP transition? How should the Commission account for increased 
+investment in next-generation networks in evaluating the benefits of 
+forbearance? How will providers and the public benefit from ending 
+carriers' reliance on expensive (and frequently stolen) copper, as well 
+as TDM equipment that may be difficult to source? How does the cost of 
+maintaining copper, TDM, and legacy facilities generally compare with 
+the cost of maintaining a modern all-IP network, and does that analysis 
+have implications for high-cost universal service programs? Are there 
+national security implications from ongoing sourcing of second-hand TDM 
+equipment from potentially unsecure supply chains, and how should the 
+Commission evaluate the benefits of transitioning toward an all-IP 
+world? Are there other security benefits to an all-IP world, or ending 
+legacy protocols such as SS7, that would benefit consumers? 
+Specifically, how should the Commission account for the potential 
+benefits of faster adoption of IP-based NG911 and improved 
+implementation of STIR/SHAKEN for the reduction robocalls? Would any 
+state and local laws and regulations undermine these benefits? What 
+kinds of new technologies or services might emerge, and how should the 
+Commission measure the resulting benefits? In addition to enhanced 
+services, do commenters expect carriers to pass along cost savings to 
+customers in the form of reduced prices? What other parties may benefit 
+from our forbearance from incumbent LEC's additional interconnection 
+obligations, and in what ways? We seek quantifications of any expected 
+benefits.
+    Costs. We recognize that there may be potential costs resulting 
+from forbearance from incumbent LECs' specific section 251(c) 
+interconnection obligations, including the potential to strand 
+customers where service may no longer be practicable for carriers. 
+Additionally, we acknowledge that forbearance from our collocation 
+requirements for incumbent LECs may impose costs on competitive LECs 
+that previously were borne by the former. These costs may include 
+incurring both capital and operating expenditures. We seek comment on 
+the extent of these costs and any others that may result from the 
+elimination of our additional interconnection rules for incumbent LECs, 
+including for competitive and rural providers and their customers. 
+Could forbearance have a negative impact on competition? We also seek 
+comment on whether there any technical or policy issues the Commission 
+should be aware of that could arise as carriers transition from TDM to 
+IP as a result of our proposals. For example, for carriers that have 
+not fully converted to IP calling, would there be a need to convert 
+their existing TDM traffic to IP? What would the burdens of such 
+conversion be? What are the costs and burdens imposed on other carriers 
+by those that have not converted their traffic to IP? What costs would 
+be associated with any potential regulatory framework for IP 
+interconnection? What costs might this order place on emergency 
+services that currently continue to rely on TDM circuits for critical 
+applications? In particular, we seek comment on the potential costs to 
+small and rural carriers and their customers. We also seek analysis 
+that includes quantification of these risks.
+
+II. Initial Regulatory Flexibility Analysis
+
+    As required by the Regulatory Flexibility Act of 1980, as amended 
+(RFA) the Federal Communications Commission (Commission) has prepared 
+this Initial Regulatory Flexibility Analysis (IRFA) of the policies and 
+rules proposed in the Notice of Proposed Rulemaking (NPRM) assessing 
+the possible significant economic impact on a substantial number of 
+small entities. The Commission requests written public comments on this 
+IRFA. Comments must be identified as responses to the IRFA and must be 
+filed by the deadlines for comments specified on the first page of the 
+NPRM. The Commission will send a copy of the NPRM, including this IRFA, 
+to the Chief Counsel for Advocacy of the Small Business Administration 
+(SBA). In addition, the NPRM and IRFA (or summaries thereof) will be 
+published in the Federal Register.
+
+A. Need for, and Objectives of, the Proposed Rules
+
+    The NPRM seeks to accelerate the transition of our Nation's 
+communications networks to all[hyphen]internet Protocol (IP) technology 
+by examining our incumbent local exchange carrier (LEC)-specific 
+interconnection requirements. Changes in the communications marketplace 
+have altered how providers deliver services to consumers. To reduce 
+regulatory burdens that hinder providers from investing in and 
+deploying next-generation networks, the NPRM seeks comment on the 
+current state of time division multiplexing (TDM) and IP 
+interconnection for voice services, and on the costs to 
+telecommunications carriers of complying with sections 251(c)(2) and 
+(c)(6) of the of the Communications Act of 1934, as amended (the Act), 
+and the Commission's rules implementing those provisions, and their 
+impact on the IP transition. The NPRM proposes to forbear from 
+incumbent LEC-specific interconnection and related obligations in 
+sections 251(c)(2) and (c)(6), and to eliminate the Commission's rules 
+implementing those provisions, by December 31, 2028. The NPRM also 
+seeks comment on whether forbearing from sections 251(c)(2) and (c)(6) 
+would require updating other Commission rules or statutory frameworks. 
+The NPRM seeks comment on whether and how the Commission should modify 
+its regulatory framework for interconnection to account for IP voice 
+services, and on the scope of the Commission's authority to regulate IP 
+interconnection under any such framework. The NPRM further seeks 
+comment on the benefits of forbearing from the Commission's specific 
+interconnection obligations for incumbent LECs and on any potential 
+regulatory framework for IP interconnection. Finally, the NPRM seeks 
+comment on the potential costs that may result from the elimination of 
+the Commission's additional interconnection rules for incumbent LECs, 
+including the costs to small and rural carriers and their customers.
+
+B. Legal Basis
+
+    The proposed action is authorized pursuant to sections 1-4, 201, 
+251(a), 251(c)(2), 251(c)(6) of the Communications Act of 1934, as 
+amended, 47 U.S.C. 151-54, 201, 251(a), 251(c)(2), 251(c)(6).
+
+C. Description and Estimate of the Number of Small Entities to Which 
+the Proposed Rules Will Apply
+
+    The RFA directs agencies to provide a description of and, where 
+feasible, an estimate of the number of small entities that may be 
+affected by the proposed rules, if adopted. The RFA generally
+
+[[Page 54280]]
+
+defines the term ``small entity'' as having the same meaning as the 
+terms ``small business,'' ``small organization,'' and ``small 
+governmental jurisdiction.'' In addition, the term ``small business'' 
+has the same meaning as the term ``small business concern'' under the 
+Small Business Act.'' A ``small business concern'' is one which: (1) is 
+independently owned and operated; (2) is not dominant in its field of 
+operation; and (3) satisfies any additional criteria established by the 
+SBA. The SBA establishes small business size standards that agencies 
+are required to use when promulgating regulations relating to small 
+businesses; agencies may establish alternative size standards for use 
+in such programs, but must consult and obtain approval from SBA before 
+doing so.
+    Our actions, over time, may affect small entities that are not 
+easily categorized at present. We therefore describe three broad groups 
+of small entities that could be directly affected by our actions. In 
+general, a small business is an independent business having fewer than 
+500 employees. These types of small businesses represent 99.9% of all 
+businesses in the United States, which translates to 34.75 million 
+businesses. Next, ``small organizations'' are not-for-profit 
+enterprises that are independently owned and operated and not dominant 
+their field. While we do not have data regarding the number of non-
+profits that meet that criteria, over 99 percent of nonprofits have 
+fewer than 500 employees. Finally, ``small governmental jurisdictions'' 
+are defined as cities, counties, towns, townships, villages, school 
+districts, or special districts with populations of less than fifty 
+thousand. Based on the 2022 U.S. Census of Governments data, we 
+estimate that at least 48,724 out of 90,835 local government 
+jurisdictions have a population of less than 50,000.
+    The rules proposed in the NPRM will apply to small entities in the 
+industries identified in the chart below by their six-digit North 
+American Industry Classification System (NAICS) codes and corresponding 
+SBA size standard.
+
+----------------------------------------------------------------------------------------------------------------
+  Regulated industry (NAICS                       SBA size                                      Percentage small
+       classification)          NAICS code        standard       Total firms     Small firms   firms in industry
+----------------------------------------------------------------------------------------------------------------
+Wired Telecommunications              517111  1,500 employees           3,054           2,964              97.05
+ Carriers.
+Wireless Telecommunications           517112  1,500 employees           2,893           2,837              98.06
+ Carriers (except Satellite).
+All Other Telecommunications          517810  $40 million....           1,079           1,039              96.29
+----------------------------------------------------------------------------------------------------------------
+
+    Based on currently available U.S. Census data regarding the 
+estimated number of small firms in each identified industry, we 
+conclude that the proposed rules will impact a substantial number of 
+small entities. Where available, we also provide additional information 
+regarding the number of potentially affected entities in the above 
+identified industries.
+
+----------------------------------------------------------------------------------------------------------------
+        2024 Universal service monitoring report                    SBA size standard (1500 employees)
+  telecommunications service provider data (data as of  --------------------------------------------------------
+                     December 2023)
+--------------------------------------------------------  Total number FCC     Small firms       Percent small
+                    Affected entity                       Form 499A filers                          entities
+----------------------------------------------------------------------------------------------------------------
+Competitive Local Exchange Carriers (CLECs)............              3,729              3,576              95.90
+Incumbent Local Exchange Carriers (Incumbent LECs).....              1,175                917              78.04
+Interexchange Carriers (IXCs)..........................                113                 95              84.07
+Local Exchange Carriers (LECs).........................              4,904              4,493              91.62
+Operator Service Providers (OSPs)......................                 22                 22                100
+Other Toll Carriers....................................                 74                 71              95.95
+Wired Telecommunications Carriers......................              4,682              4,276              91.33
+Wireless Telecommunications Carriers (except Satellite)                585                498              85.13
+----------------------------------------------------------------------------------------------------------------
+
+D. Description of Economic Impact and Projected Reporting, 
+Recordkeeping, and Other Compliance Requirements for Small Entities
+
+    The RFA directs agencies to describe the economic impact of 
+proposed rules on small entities, as well as projected reporting, 
+recordkeeping and other compliance requirements, including an estimate 
+of the classes of small entities which will be subject to the 
+requirements and the type of professional skills necessary for 
+preparation of the report or record.
+    The NPRM seeks comment on proposals that, if adopted, we expect 
+will reduce reporting, recordkeeping, and other compliance 
+requirements, as small and other carriers would then be subject to 
+fewer regulatory burdens. In the NPRM, we first propose to end 
+incumbent LECs' interconnection obligations under section 251(c)(2) and 
+(c)(6) of the Act, as well as our rules implementing those provisions 
+on December 31, 2028. We propose to forbear, as of the sunset date, 
+from section 251(c)(2) of the Act, partially forbear from section 
+251(c)(6) of the Act, and eliminate our rules implementing those 
+statutory provisions, by which incumbent LECs would no longer be 
+required to meet additional interconnection obligations or provide 
+collocation of interconnection equipment. The NPRM seeks comment on the 
+costs and benefits of these proposals, or of commercial or other 
+arrangements, needed for providers that may require additional time to 
+transition to IP technology, and whether small carriers face specific 
+challenges resulting from eliminating interconnection requirements, 
+such as needing to lease third-party networks or services to 
+interconnect in IP. For example, through comments received in response 
+to the NPRM, we seek to ascertain the potential cost of forbearance to 
+small and rural competitive LECs from our collocation requirements 
+previously borne by incumbent LECs. We then seek comment on whether 
+forbearing from sections 251(c)(2) and (c)(6) would require updating 
+other Commission rules that might be rendered obsolete or
+
+[[Page 54281]]
+
+redundant by the elimination of incumbent LECs' interconnection 
+obligations. The NPRM also seeks comment on whether the Commission 
+should establish a regulatory framework for IP-to-IP interconnection 
+for voice traffic and what such a framework would look like, and any 
+related costs and benefits for small carriers.
+    We expect that the proposals in the NPRM will decrease regulatory 
+burdens on small and other carriers, and also free up resources for use 
+in development and deployment of next-generation networks. This would 
+reduce costs and technical complexity associated with maintaining 
+parallel TDM and IP-based networks, and reduce reporting and 
+recordkeeping requirements associated with legacy networks, such as the 
+requirement to file notices of network change. While we do not 
+anticipate that these carriers will need to hire professionals to 
+comply with the proposals herein, we request comments specific to any 
+potential burdens or costs small entities may incur in connection with 
+these requirements.
+
+E. Discussion of Significant Alternatives Considered That Minimize the 
+Significant Economic Impact on Small Entities
+
+    The RFA directs agencies to provide a description of any 
+significant alternatives to the proposed rules that would accomplish 
+the stated objectives of applicable statutes, and minimize any 
+significant economic impact on small entities. The discussion is 
+required to include alternatives such as: ``(1) the establishment of 
+differing compliance or reporting requirements or timetables that take 
+into account the resources available to small entities; (2) the 
+clarification, consolidation, or simplification of compliance and 
+reporting requirements under the rule for such small entities; (3) the 
+use of performance rather than design standards; and (4) an exemption 
+from coverage of the rule, or any part thereof, for such small 
+entities.''
+    The NPRM seeks comment on proposals and alternatives that we expect 
+will positively impact small entities. We propose to eliminate the 
+obligation under section 251(c)(2) of the Act that incumbent LECs 
+provide direct interconnection upon request on December 31, 2028. This 
+proposal reflects the ongoing transition to IP-based network 
+architecture and the declining relevance of legacy TDM interconnection 
+in an environment increasingly dominated by packet-switched 
+technologies. In addition, the NPRM seeks comment on other factors that 
+may determine the feasibility of the December 31, 2028 sunset date and 
+any alternative benchmarks that should be met by small and other 
+carriers in the interim. We seek comment on whether removing this 
+requirement would eliminate unnecessary operational burdens and allow 
+carriers, including small entities, to redirect resources away from 
+maintaining outdated switching and signaling infrastructure and toward 
+investment in modern, efficient, all-IP networks. Small entities may 
+benefit if the Commission adopts proposed rules or other alternatives 
+that facilitate the retirement of legacy equipment and the streamlining 
+of interconnection arrangements through modern, IP-based alternatives. 
+We seek comment on whether any of the burdens associated with 
+alternatives that alter current filing, recordkeeping, and reporting 
+requirements described in the NPRM can be further minimized to lessen 
+economic impact on small entities.
+    The Commission will fully consider the economic impact on small 
+entities as it evaluates the comments filed in response to the NPRM, 
+including comments related to costs and benefits. Alternative proposals 
+and approaches from commenters will further develop the record and 
+could help the Commission further minimize the economic impact on small 
+entities. The Commission's evaluation of the comments filed in this 
+proceeding will shape the final conclusions it reaches, the final 
+alternatives it considers, and the actions it ultimately takes to 
+minimize any significant economic impact that may occur on small 
+entities from the final rules.
+
+F. Federal Rules That May Duplicate, Overlap, or Conflict With the 
+Proposed Rules
+
+    None.
+
+III. Ordering Clauses
+
+    Accordingly, it is ordered that pursuant to sections 1-4, 201, 
+251(a), 251(c)(2), 251(c)(6) of the Communications Act of 1934, as 
+amended, 47 U.S.C. 151-54, 201, 251(a), 251(c)(2), 251(c)(6) the Notice 
+of Proposed Rulemaking hereby is adopted.
+    It is further ordered that, pursuant to applicable procedures set 
+forth in Sec. Sec.  1.415 and 1.419 of the Commission's rules, 47 CFR 
+1.415, 1.419, interested parties may file comments on this Notice of 
+Proposed Rulemaking on or before 30 days after publication in the 
+Federal Register, and reply comments on or before 60 days after 
+publication in the Federal Register.
+    It is further ordered that, the Commission's Office of the 
+Secretary, shall send a copy of this Notice of Proposed Rulemaking, 
+including the Initial Regulatory Flexibility Analysis, to the Chief 
+Counsel for Advocacy of the Small Business Administration.
+
+List of Subjects in 47 CFR Part 51
+
+    Communications, Communications common carriers, Telecommunications, 
+Telephone, Federal Communications Commission.
+
+Marlene Dortch,
+Secretary.
+
+Proposed Rules
+
+    For the reasons discussed in the preamble, the Federal 
+Communications Commission proposes to amend 47 CFR part 51 as follows:
+
+PART 51--INTERCONNECTION
+
+0
+1. The authority for part 51 continues to read as follows:
+
+    Authority:  47 U.S.C. 151-55, 201-05, 207-09, 218, 225-27, 251-
+52, 271, 332 unless otherwise noted.
+
+
+Sec.  51.305  [Removed]
+
+0
+2. Remove Sec.  51.305.
+
+
+Sec.  51.321  [Removed]
+
+0
+3. Remove Sec.  51.321.
+
+
+Sec.  51.323  [Removed]
+
+0
+4. Remove Sec.  51.323.
+
+[FR Doc. 2025-21324 Filed 11-25-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

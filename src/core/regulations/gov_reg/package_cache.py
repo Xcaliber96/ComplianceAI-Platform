@@ -95,3 +95,6 @@ def get_cached_packages() -> List[Dict]:
     refresh_package_cache()
 
     return PACKAGE_CACHE
+
+if __name__ == "__main__":
+    refresh_package_cache()

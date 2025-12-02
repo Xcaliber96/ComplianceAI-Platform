@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54328-54329]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21124]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+[Document Identifier: CMS-10398 #43]
+
+
+Medicaid and Children's Health Insurance Program (CHIP) Generic 
+Information Collection Activities: Proposed Collection; Comment Request
+
+AGENCY: Centers for Medicare & Medicaid Services, Health and Human 
+Services (HHS).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: On May 28, 2010, the Office of Management and Budget (OMB) 
+issued Paperwork Reduction Act (PRA) guidance related to the 
+``generic'' clearance process. Generally, this is an expedited process 
+by which agencies may obtain OMB's approval of collection of 
+information requests that are ``usually voluntary, low-burden, and 
+uncontroversial collections,'' do not raise any substantive or policy 
+issues, and do not require policy or methodological review. The process 
+requires the submission of an overarching plan that defines the scope 
+of the individual collections that would fall under its umbrella. On 
+October 23, 2011, OMB approved our initial request to use the generic 
+clearance process under control number 0938-1148 (CMS-10398). It was 
+last approved on April 26, 2021, via the standard PRA process which 
+included the publication of 60- and 30-day Federal Register notices. 
+The scope of the April 2021 umbrella accounts for Medicaid and CHIP 
+State plan amendments, waivers, demonstrations, and reporting. This 
+Federal Register notice seeks public comment on one or more of our 
+collection of information requests that we believe are generic and fall 
+within the scope of the umbrella. Interested persons are invited to 
+submit comments regarding our burden estimates or any other aspect of 
+this collection of information, including: the necessity and utility of 
+the proposed information collection for the proper performance of the 
+agency's functions, the accuracy of the estimated burden, ways to 
+enhance the quality, utility and clarity of the information to be 
+collected, and the use of automated collection techniques or other 
+forms of information technology to minimize the information collection 
+burden.
+
+DATES: Comments must be received by December 10, 2025.
+
+ADDRESSES: When commenting, please reference the applicable form number 
+(CMS-10398 #43) and the OMB control number (0938-1148). To be assured 
+consideration, comments and recommendations must be submitted in any 
+one of the following ways:
+    1. Electronically. You may send your comments electronically to 
+<a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the instructions for ``Comment or 
+Submission'' or ``More Search Options'' to find the information 
+collection document(s) that are accepting comments.
+    2. By regular mail. You may mail written comments to the following 
+address: CMS, Office of Strategic Operations and Regulatory Affairs, 
+Division of Regulations Development, Attention: CMS-10398 #43/OMB 
+control number: 0938-1148, Room C4-26-05, 7500 Security Boulevard, 
+Baltimore, Maryland 21244-1850.
+    To obtain copies of a supporting statement and any related forms 
+for the proposed collection(s) summarized in this notice, please access 
+the CMS PRA website by copying and pasting the following web address 
+into your web browser: <a href="https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRAListing">https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRAListing</a>.
+
+[[Page 54329]]
+
+
+FOR FURTHER INFORMATION CONTACT: William N. Parham at (410) 786-4669.
+
+SUPPLEMENTARY INFORMATION: Following is a summary of the use and burden 
+associated with the subject information collection(s). More detailed 
+information can be found in the collection's supporting statement and 
+associated materials (see ADDRESSES).
+
+Generic Information Collections
+
+    1. Title of Information Collection: Certified Community Behavioral 
+Health Clinic (CCBHC) Cost Report; Type of Information Collection 
+Request: Revision of an active collection of information request; Use: 
+The CCBHC cost report allows clinics in the demonstration to calculate 
+PPS rates using clinic-specific cost and visit data associated with 
+delivery of the 9 statutory services as outlined under the authorizing 
+PAMA at section 223(D) Scope of Services. CCBHCs used the cost report 
+to calculate rates based on the existing CC PPS-1 daily, or CC PPS-2 
+monthly rate that did not include separate crisis rate options. 
+Calculation of the new daily and monthly special crisis services PPS 
+rates required CMS to revise the existing CCBHC cost report to include 
+the addition of worksheets to address the new crisis rate offerings 
+that were finalized in the February 2024 CCBHC Technical Guidance. 
+Special crisis services (SCS) rates were made effective January 1, 
+2024, for any existing states that are interested in implementing 
+either CC PPS-3 or CC PPS-4. New states entering the program beginning 
+in July 2024 have the option to choose from among the four PPS rate 
+options made available under the 2024 Technical Guidance and CCBHC cost 
+report.
+    CCBHCs in states that choose the CC PPS-2 rate methodology will 
+require additional time to gather data for special populations and 
+account for outlier thresholds. States and clinics selecting either the 
+CC PPS-3 or CC PPS-4 crisis rate methodology will require additional 
+time to separate costs and visit data for up to three special crisis 
+services rates.
+    Because use of the cost report involves participation in the CCBHC 
+demonstration program, the information is expected to be collected 
+annually, assuming rates are trended forward for the second year of the 
+program using the Medicare Economic Index (MEI), rebased in the third 
+year of the demonstration and trended forward for the fourth year of 
+the demonstration using the MEI. However, if the state requires CCBHCs 
+to rebase rates for other years of the demonstration using CCBHC cost 
+report data, the provider would be required to complete the cost report 
+each time the state rebases the rate. CMS does also require CCBHC 
+demonstration states to submit cost reports in trended years although 
+rates may only reflect changes based on MEI adjustment for inflationary 
+changes. The state should indicate if the current cost report is used 
+to rebase for the rate period or the rate that will be paid during the 
+rate period if the rate changes solely by an MEI adjustment.
+    Form Number: CMS-10398 #43 (OMB control number: 0938-1148); 
+Frequency: Annual; Affected Public: Private Sector and State, Local, or 
+Tribal Governments; Number of Respondents: 242; Total Annual Responses: 
+440; Total Annual Hours: 21,909. (For policy questions regarding this 
+collection contact: Beverly Boston at 410-786-4186.)
+
+William N. Parham, III,
+Director, Division of Information Collections and Regulatory Impacts, 
+Office of Strategic Operations and Regulatory Affairs.
+[FR Doc. 2025-21124 Filed 11-25-25; 8:45 am]
+BILLING CODE 4120-01-P
+
+
+</pre></body>
+</html>

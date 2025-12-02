@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Page 54806]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21388]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0067]
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Extension: Form S-11--Registration Statement
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``Commission'') has submitted to the Office of Management 
+and Budget this request for extension of the previously approved 
+collection of information discussed below.
+    Form S-11 (17 CFR 239.18) is the registration statement form used 
+to register securities issued by real estate investment trusts or by 
+issuers whose business is primarily that of acquiring and holding for 
+investment interests in real estate under the Securities Act of 1933 
+(15 U.S.C. 77a et seq.). The information collected is intended to 
+ensure the adequacy of information available to investors in connection 
+with securities offerings. The information required by Form S-11 is 
+mandatory, and Form S-11 is publicly available on the Commission's 
+Electronic Data Gathering, Analysis, and Retrieval (``EDGAR'') system. 
+We estimate that Form S-11 takes approximately 732.48 hours per 
+response and is filed once per year by approximately 14 issuers, for a 
+total of approximately 14 responses annually. We estimate that 25% of 
+the 732.48 hours per response is carried internally by the issuer for 
+annual reporting burden of 2,564 hours ((25% x 732.48 hours per 
+response) x 14 responses). We estimate that 75% of the 732.48 hours per 
+response is carried externally by outside professionals retained by the 
+issuer at an estimated rate of $600 per hour for a total annual cost 
+burden of $4,614,624 ((75% x 732.48 hours per response) x $600 per hour 
+x 14 responses).
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202508-3235-005">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202508-3235-005</a> or email comment to 
+<a href="/cdn-cgi/l/email-protection#2b66697305646669056462796a05786e68744f4e584074444d4d42484e596b444649054e445b054c445d"><span class="__cf_email__" data-cfemail="430e011b6d0c0e016d0c0a11026d1006001c272630281c2c25252a202631032c2e216d262c336d242c35">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice, by December 29, 2025.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21388 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54811-54812]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21494]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0066]
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Extension: Form S-8-Securities Act 
+Registration Statement
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``Commission'') has submitted to the Office of Management 
+and Budget this request for extension of the previously approved 
+collection of information discussed below.
+    Form S-8 (17 CFR 239.16b) under the Securities Act of 1933 (15 
+U.S.C. 77a et seq.) is the primary registration statement used by 
+eligible registrants to register securities to be issued in connection 
+with an employee benefit plan. The information collected is intended to 
+ensure the adequacy of information available to investors in connection 
+with securities offerings. The information required by Form S-8 is 
+mandatory, and Form S-8 is publicly available on the Commission's 
+Electronic Data Gathering, Analysis, and Retrieval (``EDGAR'') system. 
+We estimate that Form S-8 takes approximately 28.25 hours per response 
+to prepare and is filed once per year by approximately 2,541 
+respondents. We estimate that 50% of the burden (14.125 hours) is 
+carried internally by the issuer for a total annual reporting burden of 
+35,892 (14.125 hours per response x 2,541 responses). We estimate that 
+50% of the burden is carried externally by outside professionals at a 
+rate of $600 per hour for a total cost burden of $21,534,975 (14.125 
+hours per response x $600 per hour x 2,541 responses).
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+
+[[Page 54812]]
+
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202508-3235-004">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202508-3235-004</a> or email comment to 
+<a href="/cdn-cgi/l/email-protection#5419160c7a1b19167a1b1d06157a0711170b3031273f0b3b32323d373126143b39367a313b247a333b22"><span class="__cf_email__" data-cfemail="327f706a1c7d7f701c7d7b60731c6177716d565741596d5d54545b515740725d5f501c575d421c555d44">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice, by December 29, 2025.
+
+    Dated: November 25, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21494 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,607 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53310-53314]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20902]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+[Docket No. RM26-3-000]
+
+
+Authorizations for Certain Post-Licensing Activities at 
+Hydroelectric Projects
+
+AGENCY: Federal Energy Regulatory Commission.
+
+ACTION: Notice of inquiry.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Energy Regulatory Commission (Commission) is 
+inviting comments on whether certain activities can be implemented 
+without case-specific authorization from the Commission under Part I of 
+the Federal Power Act and on what changes, if any, the Commission 
+should make to its processes for reviewing and authorizing post-
+licensing activities at hydropower facilities, including maintenance, 
+repairs, and upgrades to hydropower project infrastructure.
+
+DATES: Comments are due January 26, 2026.
+
+ADDRESSES: Comments, identified by docket number, may be filed in the 
+following ways. Electronic filing through <a href="http://www.ferc.gov">http://www.ferc.gov</a>, is 
+preferred.
+    <bullet> Electronic Filing: Documents must be filed in acceptable 
+native applications and print-to-PDF, but not in scanned or picture 
+format.
+    <bullet> For those unable to file electronically, comments may be 
+filed by USPS mail or by hand (including courier) delivery.
+    [cir] Mail via U.S. Postal Service Only: Addressed to: Federal 
+Energy Regulatory Commission, Secretary of the Commission, 888 First 
+Street NE, Washington, DC 20426.
+    [cir] Hand (including courier) delivery: Deliver to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+    The Comment Procedures Section of this document contains more 
+detailed filing procedures.
+
+FOR FURTHER INFORMATION CONTACT: Rachael Warden (Legal Information), 
+Office of the General Counsel--Energy Projects, Federal Energy 
+Regulatory Commission, 888 First Street NE, Washington, DC 20426, 202) 
+502-8717.
+    CarLisa Linton (Technical Information), Office of Energy Projects, 
+Federal Energy Regulatory Commission, 888 First Street NE, Washington, 
+DC 20426, (202) 502-8416.
+
+SUPPLEMENTARY INFORMATION: 
+    1. In this Notice of Inquiry, the Federal Energy Regulatory 
+Commission (Commission) is inviting comments on whether certain 
+activities can be implemented without case-specific authorization from 
+the Commission under Part I of the Federal Power Act (FPA) and on what 
+changes, if any, the Commission should make to its processes for 
+reviewing and authorizing post-licensing activities at hydropower 
+facilities, including maintenance, repairs, and upgrades to hydropower 
+project infrastructure.
+
+I. Background
+
+A. Statutory Framework
+
+    2. Section 4(e) of the FPA authorizes the Commission to issue 
+licenses ``for the purpose of constructing, operating,
+
+[[Page 53311]]
+
+and maintaining dams, water conduits, reservoirs, power houses, 
+transmission lines, or other project works necessary or convenient . . 
+. for the development, transmission, and utilization of power.'' \1\ In 
+issuing these hydroelectric licenses, the Commission is required to 
+consider power and development purposes and ``give equal consideration 
+to the purposes of energy conservation, the protection, mitigation of 
+damage to, and enhancement of, fish and wildlife (including related 
+spawning grounds and habitat), the protection of recreational 
+opportunities, and the preservation of other aspects of environmental 
+quality.'' \2\ After considering power and environmental 
+considerations, the Commission will include in a license conditions 
+that ensure that the project is best adapted to a comprehensive plan 
+for improving or developing a waterway.\3\
+---------------------------------------------------------------------------
+
+    \1\ 16 U.S.C. 797(e).
+    \2\ Id.
+    \3\ 16 U.S.C. 803(a)(1). Section 10(a)(1) of the FPA requires 
+that any project, for which the Commission issues a license be best 
+adapted to a comprehensive plan for improving or developing a 
+waterway or waterways for the use or benefit of interstate or 
+foreign commerce; for the improvement and use of waterpower 
+development; for the adequate protection, mitigation, and 
+enhancement of fish and wildlife; and for other beneficial public 
+uses, including irrigation, flood control, water supply, recreation, 
+and other purposes.
+---------------------------------------------------------------------------
+
+    3. After issuance of a license, projects require ongoing 
+maintenance and often require modification during the term of the 
+license. With respect to post-licensing activities, section 10(b) of 
+the FPA states ``except when emergency shall require for the protection 
+of navigation, life, health, or property, no substantial alteration or 
+addition not in conformity with the approved plans shall be made to any 
+dam or other project works . . . without the prior approval of the 
+Commission'' (emphasis added).\4\ Similarly, pursuant to section 
+23(b)(1) of the FPA, a licensee may not ``commence any significant 
+modification of any [licensed] project . . . unless such modification 
+is authorized in accordance with terms and conditions of such license . 
+. . and the applicable requirements of [Part I of the FPA]'' (emphasis 
+added).\5\ The Commission understands these provisions to allow 
+licensees to make alterations that are not ``substantial'' or 
+``significant'' without further authorization. Post-licensing 
+activities that do not fit within these categories, including some 
+maintenance, repairs, and upgrades, require Commission approval before 
+implementation.
+---------------------------------------------------------------------------
+
+    \4\ 16 U.S.C. 803(b). For conditions affecting the safety of a 
+project or its works, should emergency modifications be necessary at 
+the project, licensees are required to report the incident and 
+details of the modification according to certain reporting 
+requirements. 18 CFR 12.11 and 18 CFR 12.10(a).
+    \5\ 16 U.S.C. 817(2). In order to ensure dam safety, the 
+Commission's dam safety regulations also require licensees to report 
+modifications of the project or project works to the applicable 
+Commission Regional Engineer in writing. 18 CFR 12.11.
+---------------------------------------------------------------------------
+
+    4. Applicants for post-licensing activities must also comply with 
+federal laws for the protection of environmental resources, such as the 
+National Environmental Policy Act (NEPA),\6\ Endangered Species Act of 
+1973, the National Historic Preservation Act, and the Clean Water 
+Act.\7\
+---------------------------------------------------------------------------
+
+    \6\ On July 23, 2025, the Commission adopted two categorical 
+exclusions from the United States Bureau of Reclamation, for 
+``[m]aintenance, rehabilitation, and replacement of existing 
+facilities which may involve a minor change in size, location, and/
+or operation'' and for ``[m]inor safety of dam construction 
+activities where the work is confined to the dam, abutment areas, or 
+appurtenant features, and where no major change in reservoir or 
+downstream operation is anticipated as a result of the construction 
+activities.'' See Adopting Categorical Exclusions under the Nat'l 
+Env't Pol'y Act, 192 FERC ] 61,019, at P 2 (2025) (first citing 
+Fiscal Responsibility Act of 2023, Pub. L. 118-5, 137 Stat. 10 (June 
+3, 2023), and then citing 42 U.S.C. 4336c); id. PP 4-5, 10-13, 
+ordering para. (A).
+    \7\ Other federal statutes, such as the Marine Mammal Protection 
+Act, may apply in particular cases.
+---------------------------------------------------------------------------
+
+B. Commission Regulations for Amendment Applications
+
+    5. Commission regulations require amendment applications when a 
+licensee seeks to: make a change in the physical features of the 
+project or its boundary, or make an addition, betterment, abandonment, 
+or conversion, of such character as to constitute an alteration of the 
+license; or make a change in the plans for the project under 
+license.\8\ Requirements regarding these applications vary depending on 
+whether the application is for a capacity or non-capacity amendment.\9\
+---------------------------------------------------------------------------
+
+    \8\ 18 CFR 4.200.
+    \9\ A ``capacity related amendment'' is one where the applicant 
+seeks ``to amend a license for a hydropower project that involves 
+additional capacity not previously authorized, and that would 
+increase the actual or proposed total installed capacity of the 
+project, would result in an increase in the maximum hydraulic 
+capacity of the project of 15 percent or more, and would result in 
+an increase in the installed name-plate capacity of 2 megawatts or 
+more.'' 18 CFR 4.201(b).
+---------------------------------------------------------------------------
+
+    6. Commission regulations require specific information to be 
+submitted as part of a capacity-related amendment application.\10\ For 
+non-capacity-related amendments, the Commission requires an applicant 
+to submit revised versions of any exhibits (such as project maps) that 
+require revision in light of the proposed amendment.\11\ Additionally, 
+to ensure that state and federal agencies and Indian Tribes have the 
+opportunity to discuss the proposal with the applicant, the applicant 
+must complete pre-filing consultation requirements for capacity-related 
+amendments as well as specified non-capacity-related amendments.\12\
+---------------------------------------------------------------------------
+
+    \10\ Id. (specifying required exhibits depending on the type of 
+project).
+    \11\ 18 CFR 4.201(c).
+    \12\ These include amendments that would involve the 
+construction of a new dam or diversion in a location where there is 
+no existing dam or diversion; any repair, modification, or 
+reconstruction of an existing dam that would result in a significant 
+change in the normal maximum surface area or elevation of an 
+existing impoundment; or the addition of new water power turbines 
+other than to replace existing turbines. 18 CFR 4.38(a)(6)(iv)-(v); 
+see also 18 CFR 4.38(a)(7).
+---------------------------------------------------------------------------
+
+    7. Ensuring the protection of human life, health, and property is a 
+key aspect of the Commission's regulation of hydropower projects.\13\ 
+Accordingly, the Commission's dam safety regulations set forth the 
+authority of Commission staff in inspecting, reviewing, and requiring 
+modifications to licensed projects for the purposes of ensuring the 
+safety, stability, security, and integrity of the project works.
+---------------------------------------------------------------------------
+
+    \13\ See 16 U.S.C. 803(c).
+---------------------------------------------------------------------------
+
+C. Minor Changes Authorized by License Articles
+
+    8. The Commission includes in every license two articles, Articles 
+2 and 3, which give licensees the ability to make minor changes without 
+the need to obtain approval from the Commission. Article 2 provides:
+
+    No substantial change shall be made in the maps, plans, 
+specifications, and statements described and designated as exhibits 
+and approved by the Commission in its order as a part of the license 
+until such change shall have been approved by the Commission: 
+Provided, however, [t]hat if the Licensee or the Commission deems it 
+necessary or desirable that said approved exhibits, or any of them, 
+be changed, there shall be submitted to the Commission for approval 
+a revised, or additional exhibit or exhibits covering the proposed 
+changes which, upon approval by the Commission, shall become a part 
+of the license and shall supersede, in whole or in part, such 
+exhibit or exhibits theretofore made a part of the license as may be 
+specified by the Commission.\14\
+---------------------------------------------------------------------------
+
+    \14\ See, e.g., Federal Energy Regulatory Commission, Form L-1, 
+Article 2 (October 1975).
+
+---------------------------------------------------------------------------
+    Article 3 provides:
+
+    The project works shall be constructed in substantial conformity 
+with the approved exhibits referred to in Article 2 herein or as 
+changed in accordance with the provisions of said article. Except 
+when emergency shall require for the protection of navigation, life, 
+health, or property, there shall not be made without prior approval 
+of the Commission any substantial alteration or addition not in 
+conformity with the approved plans to any dam or other project works 
+under the license or any substantial use of project lands and
+
+[[Page 53312]]
+
+waters not authorized herein; and any emergency alteration, 
+addition, or use so made shall thereafter be subject to such 
+modification and change as the Commission may direct. Minor changes 
+in project works, or in uses of project lands and waters, or 
+divergence from such approved exhibits may be made if such changes 
+will not result in a decrease in efficiency, in a material increase 
+in cost, in an adverse environmental impact, or in impairment of the 
+general scheme of development; but any of such minor changes made 
+without the prior approval of the Commission, which in its judgment 
+have produced or will produce any of such results, shall be subject 
+to such alteration as the Commission may direct.\15\
+---------------------------------------------------------------------------
+
+    \15\ See, e.g., Federal Energy Regulatory Commission, Form L-1, 
+Article 3 (October 1975).
+
+    The Commission has explained that, pursuant to Article 3, ``certain 
+minor changes in the specifications approved in the license can be 
+reflected in the as-built exhibit filings without prior Commission 
+approval.'' \16\ The Commission has emphasized that ``the determination 
+of whether a particular change is substantial must be made on a case-
+by-case basis.'' \17\
+---------------------------------------------------------------------------
+
+    \16\ Int'l Falls Power Co., 66 FERC ] 61,086, at 61,116 (1994).
+    \17\ Id.
+---------------------------------------------------------------------------
+
+D. Current Processes for Post-Licensing Activities
+
+    9. Some activities do not require an amendment but may require 
+review and authorization to start construction from Commission dam 
+safety staff.\18\ Commission approval of an amendment may be needed for 
+more complex activities. Other minor post-licensing activities may 
+require an amendment if they are inconsistent with the project license. 
+For example, if the proposed work would cause a temporary change to an 
+impoundment elevation or minimum flow requirement, an amendment may be 
+required.
+---------------------------------------------------------------------------
+
+    \18\ Examples include in-kind replacements of racks/rakes/gates, 
+flowlines, or turbines; generator rewinds; electrical equipment 
+upgrades within a powerhouse; substation upgrades or rewiring; 
+transmission line pole replacements; or minor repair of walls, 
+tailraces, or spillways.
+---------------------------------------------------------------------------
+
+    10. For substantial changes to the specifications approved in the 
+license, a licensee must file a license amendment. If a licensee is 
+unsure whether an activity is authorized by the license or would 
+require an amendment, the licensee may seek advice from Commission 
+staff.\19\
+---------------------------------------------------------------------------
+
+    \19\ See 18 CFR 4.201(d)(2).
+---------------------------------------------------------------------------
+
+E. Existing Commission Regulations Under the Natural Gas Act 
+Authorizing Routine Activities by Interstate Natural Gas Pipeline 
+Companies Without Case-Specific Authorization
+
+    11. Under Part 157, Subpart F of the Commission's regulations,\20\ 
+interstate pipelines that hold a certificate of public convenience and 
+necessity under section 7 of the Natural Gas Act (NGA) may apply for a 
+one-time blanket certificate to undertake, without a case-specific 
+authorization, certain activities automatically, subject only to annual 
+reporting requirements \21\ and certain other activities after prior 
+notice.\22\ The blanket certificate program ``provide[s] streamlined 
+procedures which increase flexibility and reduce regulatory burden'' 
+for a generic class of routine activities with particular conditions 
+and procedures for consistency with the Commission's statutory 
+obligations under the NGA and environmental statutes.\23\
+---------------------------------------------------------------------------
+
+    \20\ 18 CFR part 157, subpart F.
+    \21\ Id. 157.203(b), 157.208(a), (e).
+    \22\ Id. 157.203(c), 157.208(b).
+    \23\ Interstate Pipeline Certificates for Routine Transactions, 
+Order No. 234, 47 FR 24254, at 24256, 24263 (June 4, 1982), FERC 
+Stats. & Regs. ] 30,368, at 30,201 (1982) (cross-referenced at 19 
+FERC ] 61,216); see also Revisions to the Blanket Certificate 
+Reguls. & Clarification Regarding Rates, Order No. 686, 71 FR 63680 
+(Oct. 31, 2006), 117 FERC ] 61,074, at P 7 (2006) (``The blanket 
+certificate program was designed to provide an administratively 
+efficient means to authorize a generic class of routine activities, 
+without subjecting each minor project to a full, case-specific NGA 
+section 7 certificate proceeding.'').
+---------------------------------------------------------------------------
+
+    12. In 1982, in instituting the blanket certificate program, the 
+Commission explained that:
+
+    [T]he final regulations divide the various actions that the 
+Commission certificates into several categories. The first category 
+applies to certain activities performed by interstate pipelines that 
+. . . have relatively . . . little effect on pipeline operations. 
+This first category also includes minor investments in facilities 
+which are so well understood as an established industry practice 
+that little scrutiny is required to determine their compatibility 
+with the public convenience and necessity. The second category of 
+activities provides for a notice and protest procedure and comprises 
+certain activities in which various interested parties might have a 
+concern. In such cases there is a need to provide an opportunity for 
+a greater degree of review and to provide for possible adjudication 
+of controversial aspects. Activities not authorized under the 
+blanket certificate are those activities which . . . propose such 
+important considerations that close scrutiny and case-specific 
+deliberation by the Commission is warranted prior to the issuance of 
+a certificate.\24\
+---------------------------------------------------------------------------
+
+    \24\ Order No. 234, FERC Stats. & Regs. ] 30,368 at 30,200.
+
+    13. The notice and protest procedures for prior notice projects 
+allow anyone, including Commission staff, to protest a prior notice 
+project within 60 days and, if a protest is not withdrawn or dismissed, 
+the project is reviewed as an application for case-specific 
+authorization under NGA section 7(c).\25\
+---------------------------------------------------------------------------
+
+    \25\ 18 CFR 157.205(h).
+---------------------------------------------------------------------------
+
+    14. Blanket certificate activities are subject to the conditions in 
+the Commission's regulations implementing NEPA,\26\ as well as 
+requirements that all blanket certificate activities be consistent with 
+all applicable laws, including the Endangered Species Act, National 
+Historic Preservation Act, Clean Water Act, Clean Air Act, and other 
+applicable statutes relating to environmental concerns.\27\
+---------------------------------------------------------------------------
+
+    \26\ 18 CFR part 380. Certain activities undertaken pursuant to 
+the blanket certificate are categorically excluded from NEPA review. 
+18 CFR 380.4(a)(21).
+    \27\ 18 CFR 157.206.
+---------------------------------------------------------------------------
+
+II. Subject of the Notice of Inquiry
+
+    15. The Commission is inviting comments on (A) what opportunities, 
+if any, are there to streamline or improve the process for licensees 
+for using their authority under FPA section 10(a) and standard license 
+Articles 2 and 3 to undertake minor modifications at a hydropower 
+facility and whether the Commission should develop processes to address 
+these opportunities, and (B) what changes, consistent with the 
+requirements of the FPA and other applicable statutes, the Commission 
+could make to its processes for reviewing and authorizing through 
+amendment proceedings post-licensing activities, including whether 
+certain activities can be implemented without case-specific 
+authorization. The Commission seeks comment on the following questions:
+
+A. Minor Post-Licensing Activities
+
+    A1. What opportunities, if any, are there to streamline or improve 
+the process for licensees for using their authority under FPA section 
+10(a) and standard license Articles 2 and 3 to undertake minor 
+modifications at a hydropower facility that do not require an 
+amendment?
+    A2. Should the Commission create a process for identifying minor 
+post-licensing activities that can be undertaken pursuant to FPA 
+section 10 and Articles 2 and 3?
+    A3. Are there categories of minor post-licensing activities that 
+should not require prior Commission approval? If so, what specific 
+types of minor activities should qualify under each category?
+
+[[Page 53313]]
+
+    A4. What documentation should the Commission require to verify and 
+ensure that these activities do not result in potentially adverse 
+environmental or safety impacts?
+    A5. What activities that do not require amendments should still 
+require consultation or dam safety review? For those activities, what 
+standard information should licensees file to expedite review of the 
+proposed activity?
+    A6. What applicable federal laws, permits, and regulations could be 
+relied upon to verify minimal or no significant environmental and 
+safety impacts throughout construction and operation of minor post-
+licensing activities?
+    A7. Should the Commission allow stakeholder input for activities 
+not requiring an amendment? And if so, how should the comments be 
+addressed?
+    A8. Should specified maintenance activities be analyzed and 
+approved during the licensing process as part of a life cycle approach 
+to accepting, implementing, and maintaining a license for 30 to 50 
+years?
+
+B. Post-Licensing Activities Requiring Amendments
+
+Process-Related Questions
+    B1. If the Commission promulgates rules to allow for post-licensing 
+activities at hydropower facilities, including maintenance, repairs, 
+and upgrades to hydropower project infrastructure, without a case-
+specific authorization under Part I of the FPA, should the Commission 
+require each licensee to apply for a blanket FPA authorization as it 
+does for natural gas pipelines pursuant to Part 157, Subpart F (see 18 
+CFR 157.204(a)) or should all current and new licensees be 
+automatically granted a blanket authorization?
+    B2. Under the Commission's existing Part 157, Subpart F blanket 
+certificate regulations for activities under NGA section 7, there is a 
+two-tiered process whereby some activities are automatically authorized 
+while others require prior notice (see 18 CFR 157.203(a)-(c)). Should 
+the Commission adopt a similar tiered approach for post-licensing 
+activities at hydropower facilities, including maintenance, repairs, 
+and upgrades to hydropower project infrastructure? If so, should there 
+be additional or different tiers, and what specific types of activities 
+should correspond to each tier?
+    B3. If the Commission allows for post-licensing activities at 
+hydropower facilities, including maintenance, repairs, and upgrades to 
+hydropower project infrastructure, automatically under a blanket FPA 
+Part I authorization, should the Commission:
+    a. require licensees to notify Commission staff of certain types of 
+such activities prior to implementing them? And, if so, what amount of 
+time would be sufficient?; and/or
+    b. require a licensee to file a semi-annual or annual report 
+documenting the post-licensing maintenance, repairs, and/or upgrades to 
+hydropower project infrastructure undertaken during the previous 
+calendar year pursuant to the blanket authorization program? If so, 
+what information should be included in such reports? Should reporting 
+of blanket authorization activities be incorporated into any reporting 
+already required by the Commission in a licensee's license articles?
+    B4. If the Commission requires prior notice for some post-licensing 
+activities at hydropower facilities, including maintenance, repairs, 
+and upgrades to hydropower project infrastructure, under a blanket FPA 
+Part I authorization, should the Commission adopt the same notice 
+requirements as those detailed in the Commission's blanket certificate 
+regulations, including a 60-day notice period (see 18 CFR 157.205)?
+    B5. Should the Commission adopt the same process concerning 
+protests to prior notice post-licensing activities at hydropower 
+facilities, including maintenance, repairs, and upgrades to hydropower 
+project infrastructure, as is currently in place for prior notice 
+blanket certificate pipeline projects (see 18 CFR 157.205) or should 
+another process be required? If another process should be required, 
+what types of protests should be dismissed?
+    B6. What, if any, affected landowner notification requirements 
+should the Commission adopt for post-licensing activities at hydropower 
+facilities, including maintenance, repairs, and upgrades to hydropower 
+project infrastructure, undertaken pursuant to a blanket authorization 
+program?
+    B7. Should the Commission require post-licensing maintenance, 
+repairs, and/or upgrades to hydropower project infrastructure under a 
+blanket Part I FPA authorization be constructed and placed into service 
+within a specified timeframe? If so, what timeframe?
+    B8. Are there processes that other federal or state agencies use to 
+streamline review that the Commission could adapt?
+    B9. What are the historic and estimated range of costs for 
+preparation of an application for post-licensing amendments for 
+maintenance, repairs, and upgrades at existing hydropower facilities?
+Post-Licensing Activities That Could Fit a Blanket Program
+    B10. If the Commission adopts a tiered approach similar to that in 
+the natural gas blanket certificate regulations (18 CFR 157.203(b)-
+(c)), what categories of post-licensing activities should be eligible 
+for automatic authorization? What categories of post-licensing 
+activities should be eligible for prior notice authorization? How 
+should the Commission divide these categories, e.g., based on 
+anticipated environmental effects or based on safety or security 
+concerns?
+    B11. What categories of post-licensing activities would result in 
+no adverse impacts to the environment or safety at authorized and 
+existing licensed hydropower facilities? Specifically, what types of 
+facility modifications, systems, or components would have no adverse 
+environmental or safety impacts, or would provide beneficial impacts, 
+to the following resources:
+    <bullet> Water Quality;
+    <bullet> Water Resources;
+    <bullet> Wetlands;
+    <bullet> Fisheries and Wildlife, including Endangered Species;
+    <bullet> Vegetation;
+    <bullet> Cultural Resources;
+    <bullet> Socioeconomics;
+    <bullet> Geology and Soils;
+    <bullet> Land Use;
+    <bullet> Recreation;
+    <bullet> Visual Resources; and
+    <bullet> Safety.
+    B12. What categories of post-licensing activities would provide 
+equivalent or greater level of environmental protection and safety 
+compared to the status quo? Specifically, what types of hydropower 
+infrastructure modifications, systems, or components would result in 
+different impacts but nevertheless provide an equivalent or greater 
+level of protection to the resources listed in question B11?
+    B13. What categories of post-licensing activities would result in 
+less than significant impacts to the environment and safety at licensed 
+hydropower facilities such that the Commission could categorically 
+determine that such activities are in the public interest under the 
+section 10(a)(1) comprehensive development standard of the FPA? 
+Specifically, what types of facility modifications, systems, or 
+components would result in less than significant impacts to the 
+resources listed in question B11?
+    16. While the Commission will consider all comments filed, the
+
+[[Page 53314]]
+
+Commission may not, and is not required to, take further action.
+
+III. Comment Procedures
+
+    17. The Commission invites interested persons to submit comments on 
+the matters and issues identified in this notice. Comments are due 
+January 26, 2026. Comments must refer to Docket No. RM26-3-000, and 
+must include the commenter's name, the organization they represent, if 
+applicable, and their address in their comments. All comments will be 
+placed in the Commission's public files and may be viewed, printed, or 
+downloaded remotely as described in the Document Availability section 
+below. Commenters are not required to serve copies of their comments on 
+other commenters.
+    18. The Commission encourages comments to be filed electronically 
+via the eFiling link on the Commission's website at <a href="http://www.ferc.gov">http://www.ferc.gov</a>. The Commission accepts most standard word processing 
+formats. Documents created electronically using word processing 
+software must be filed in native applications or print-to-PDF format 
+and not in a scanned format. Commenters filing electronically do not 
+need to make a paper filing.
+    19. Commenters that are not able to file comments electronically 
+may file an original of their comment by USPS mail or by courier-or 
+other delivery services. For submission sent via USPS only, filings 
+should be mailed to: Federal Energy Regulatory Commission, Office of 
+the Secretary, 888 First Street NE, Washington, DC 20426. Submission of 
+filings other than by USPS should be delivered to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+
+IV. Document Availability
+
+    20. In addition to publishing the full text of this document in the 
+Federal Register, the Commission provides all interested persons an 
+opportunity to view and/or print the contents of this document via the 
+internet through the Commission's Home Page (<a href="http://www.ferc.gov">http://www.ferc.gov</a>).
+    21. From the Commission's Home Page on the internet, this 
+information is available on eLibrary. The full text of this document is 
+available on eLibrary in PDF and Microsoft Word format for viewing, 
+printing, and/or downloading. To access this document in eLibrary, type 
+the docket number excluding the last three digits of this document in 
+the docket number field.
+    22. User assistance is available for eLibrary and the Commission's 
+website during normal business hours from the Commission's Online 
+Support at (202) 502-6652 (toll free at 1-866-208-3676) or email at 
+<a href="/cdn-cgi/l/email-protection#88eeedfaebe7e6e4e1e6edfbfdf8f8e7fafcc8eeedfaeba6efe7fe"><span class="__cf_email__" data-cfemail="e5838097868a8b898c8b80969095958a9791a583809786cb828a93">[email&#160;protected]</span></a>.
+
+    By direction of the Commission.
+
+    Issued: November 20, 2025.
+Debbie-Anne A. Reese,
+Secretary.
+[FR Doc. 2025-20902 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

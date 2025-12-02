@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54324-54325]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21211]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+
+Agency Information Collection Extension
+
+AGENCY: U.S. Department of Energy.
+
+ACTION: Notice of request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Energy (DOE), pursuant to the Paperwork 
+Reduction Act of 1995, intends to extend for three years, an 
+information collection request with the Office of Management and Budget 
+(OMB). The collection of information relates to applications under 
+DOE's Advanced Technology Vehicles Manufacturing Incentive (ATVM) 
+Program, OMB Control No. 1910-5137.
+
+DATES: Comments regarding this information collection extension must be 
+received on or before January 26, 2026. If you anticipate any 
+difficulty in submitting comments within that period, contact the 
+person listed in the FOR FURTHER INFORMATION CONTACT section as soon as 
+possible.
+
+ADDRESSES: Written comments may be sent to Uchechukwu ``Emeka'' Eze, 
+1000 Independence Avenue SW, Ste 4B-122, Washington, DC 20585-0121, 
+telephone: (202) 586-1092, or by email at: <a href="/cdn-cgi/l/email-protection#064a5649284f4054466e772862696328616970"><span class="__cf_email__" data-cfemail="bbf7ebf495f2fde9fbd3ca95dfd4de95dcd4cd">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+copies of the information collection instrument and instructions should 
+be directed to Uchechukwu ``Emeka'' Eze, telephone: (202) 586-1092, or 
+by email at: <a href="/cdn-cgi/l/email-protection#4b071b0465020d190b233a652f242e652c243d"><span class="__cf_email__" data-cfemail="f9b5a9b6d7b0bfabb99188d79d969cd79e968f">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Comments are invited on: (a) Whether the extended collection of 
+information is necessary for the proper performance of the functions of 
+the agency, including whether the information shall have practical 
+utility; (b) the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (c) ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (d) ways 
+to minimize the burden of the collection of information on respondents, 
+including through the use of automated collection techniques or other 
+forms of information technology.
+    This information collection request contains:
+    (1) OMB No.: 1910-5137;
+    (2) Information Collection Request Title: Application for Loans 
+under the Advanced Technology Vehicles Manufacturing Incentive Program;
+    (3) Type of Review: Extension without change of a currently 
+approved collection;
+    (4) Purpose: The ATVM Program is implemented pursuant to Section 
+136 of the Energy Independence and Security Act of 2007, as amended. 42 
+U.S.C. 17013. The ATVM Program provides loans to eligible applicants 
+for projects that reequip, expand, or establish manufacturing 
+facilities in the United States to produce qualified advanced 
+technology vehicles, qualified components, or ultra efficient vehicles; 
+and for associated engineering integration costs. DOE set forth 
+regulations at 10 CFR part 611 to implement the ATVM Program, and 
+established application requirements. This information collection 
+request covers the information necessary to evaluate those 
+applications. The collected information will be used to analyze whether 
+an applicant and its project is eligible for a loan under the ATVM 
+Program. The collection of this information is critical to ensure that 
+the government has sufficient information to determine whether 
+applicants meet the eligibility requirements to qualify for an ATVM 
+loan and to provide DOE with sufficient information to evaluate an 
+applicant's project using the criteria specified in 10 CFR part 611;
+    (5) Annual Estimated Number of Respondents: 20;
+    (6) Annual Estimated Number of Total Responses: 20;
+    (7) Annual Estimated Number of Burden Hours: 132.5;
+    (8) Annual Estimated Reporting and Recordkeeping Cost Burden: 
+$33,711.
+    Statutory Authority: Section 136 of the Energy Independence and 
+Security Act of 2007 (Pub. L. 110-140), as amended (and codified at 42 
+U.S.C. 17013(d)(2)).
+
+Signing Authority
+
+    This document of the Department of Energy was signed on November 
+21, 2025, by Gregory Beard, Senior Advisor, Loan Programs Office, 
+pursuant to delegated authority from the Secretary of Energy. That 
+document with the original signature and date is maintained by DOE. For 
+administrative
+
+[[Page 54325]]
+
+purposes only, and in compliance with requirements of the Office of the 
+Federal Register, the undersigned DOE Federal Register Liaison Officer 
+has been authorized to sign and submit the document in electronic 
+format for publication, as an official document of the Department of 
+Energy. This administrative process in no way alters the legal effect 
+of this document upon publication in the Federal Register.
+
+    Signed in Washington, DC, on November 24, 2025.
+Jennifer Hartzell,
+Alternate Federal Register Liaison Officer, U.S. Department of Energy.
+[FR Doc. 2025-21211 Filed 11-25-25; 8:45 am]
+BILLING CODE 6450-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

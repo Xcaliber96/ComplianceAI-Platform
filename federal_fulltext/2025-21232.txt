@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54461-54462]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21232]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Multiple Internal Revenue Service (IRS) 
+Information Collection Requests
+
+AGENCY: Departmental Offices, U.S. Department of the Treasury.
+
+ACTION: Notice of information collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury will submit the following 
+information collection requests to the Office of Management and Budget 
+(OMB) for review and clearance in accordance with the Paperwork 
+Reduction Act of 1995, on or after the date of publication of this 
+notice. The public is invited to submit comments on these requests.
+
+DATES: Comments should be received on or before December 26, 2025 to be 
+assured of consideration.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Copies of the submissions may be 
+obtained from Spencer W. Clark by emailing <a href="/cdn-cgi/l/email-protection#4616140706323423273533343f68212930"><span class="__cf_email__" data-cfemail="1b4b495a5b6f697e7a686e6962357c746d">[email&#160;protected]</span></a>, calling 
+(202) 927-5331, or viewing the entire information collection request at 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a>.
+
+SUPPLEMENTARY INFORMATION: 
+
+Internal Revenue Service (IRS)
+
+    1. Title: Application for Approval of Prototype or Employer 
+Sponsored Individual Retirement Arrangement (IRA) Form 5306.
+    OMB Control Number: 1545-0390.
+    Type of Request: Extension without change of a currently approved 
+collection.
+    Description: This application is used by employers who want to 
+establish an individual retirement account trust to be used by their 
+employees. The application is also used by banks and insurance 
+companies that want to establish approved prototype individual 
+retirement accounts or annuities. The data collected is used to 
+determine if the individual retirement account trust or annuity 
+contract meets the requirements of Code section 408(a), 408(b), or 
+408(c) so that the IRS may issue an approval letter.
+    Form: 5306.
+    Affected Public: Business and other for-profit organizations.
+    Estimated Number of Respondents: 600.
+    Frequency of Response: On Occasion.
+    Estimated Total Number of Annual Responses: 600.
+    Estimated Time per Response: 13 hours, 44 minutes.
+    Estimated Total Annual Burden Hours: 8,244.
+    2. Title: Declarations and Authorizations for Electronic Filing.
+    OMB Control Number: 1545-0967.
+    Type of Request: Revision of a currently approved collection.
+    Description: The IRS is actively engaged in encouraging e-filing 
+and electronic documentation. The Form 8453 series is used to 
+authenticate the electronically filed tax return, authorize the 
+electronic return originator (ERO) or intermediate service provider 
+(ISP) to transmit the return, and provide the taxpayer's consent to 
+authorize electronic funds withdrawal for payment of taxes owed. Form 
+8453-WH is used to electronically file Form 1042. Form 8453-EG is used 
+to authenticate an electronic Form 709, 709-NA, 706, 706-A, 706-GS(D), 
+706-GS(T), 706-NA, and 706-QDT. The Form 8879 series is used authorize 
+the taxpayer and ERO to sign the return using a personal identification 
+number (PIN) and consent to an electronic funds' withdrawal. Form 8879-
+WH is used to electronically sign Form 1042. Form 8879-EG is used for 
+electronic signature authorizations for Forms 709, 709-NA, 706, 706-A, 
+706-GS(D), 706-GS(T), 706-NA, and 706-QDT.
+    Form: 8453-EG, 8453-WH, 8879-EG, and 8879-WH.
+    Affected Public: Individuals or households, and Business or other 
+for-profit organizations.
+    Estimated Number of Respondents: 634,800.
+    Frequency of Response: On occasion.
+    Estimated Total Number of Annual Responses: 634,800.
+    Estimated Time per Response: Varies from 1 hour, 30 minutes to 2 
+hours, 23 minutes.
+    Estimated Total Annual Burden Hours: 1,152,396.
+    3. Title: Voluntary Customer Surveys to Implement E.O. 12862 
+Coordinated by the Corporate Planning and Performance Division on 
+Behalf of All IRS Operations Functions.
+    OMB Control Number: 1545-1432.
+    Type of Request: Revision of a currently approved collection.
+    Description: This is a generic clearance for customer satisfaction 
+and opinion surveys to be conducted over the next three years. Surveys 
+conducted under the generic clearance are used by the Internal Revenue 
+Service to determine levels of customer satisfaction as well as issues 
+that contribute to customer burden. This information will be used to 
+make quality improvements to products and services. A variety of 
+questionnaires are expected to be used in IRS data gathering efforts. 
+The exact number of different forms, the length of each form, and the 
+number of respondents per form are unknown at the present time.
+    Form: Generic Customer Feedback Surveys.
+    Affected Public: Individuals or households, business or other for-
+profit organizations.
+    Estimated Number of Respondents: 450,000.
+    Frequency of Response: On Occasion.
+    Estimated Time per Response: 10 minutes.
+    Estimated Total Annual Burden Hours: 45,000.
+    4. Title: Testimony or Production of Records in a Court or Other 
+Proceeding.
+    OMB Control Number: 1545-1850.
+    Type of Request: Extension without change of a currently approved 
+collection.
+    Description: This document contains previously approved final 
+regulations replacing the existing regulation that establishes the 
+procedures to be followed by IRS officers and employees upon receipt of 
+a request or demand for disclosure of IRS records or information. The 
+purpose of the final regulations is to provide specific instructions 
+and to clarify the circumstances under which more specific procedures 
+take precedence. The final regulations extend the application of the 
+regulation to former IRS officers and employees as well as to persons 
+who are or were under contract to the IRS. The final regulations affect 
+current and former IRS officers, employees and contractors,
+
+[[Page 54462]]
+
+and persons who make requests or demands for disclosure.
+    Regulation Project Number: TD 9178.
+    Affected Public: Individuals or households.
+    Estimated Number of Respondents: 1,400.
+    Frequency of Response: On Occasion.
+    Estimated Total Number of Annual Responses: 1,400.
+    Estimated Time per Response: 1 hour.
+    Estimated Total Annual Burden Hours: 1,400.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Spencer W. Clark,
+Treasury PRA Clearance Officer.
+[FR Doc. 2025-21232 Filed 11-25-25; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

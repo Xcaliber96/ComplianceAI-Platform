@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55326-55328]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21748]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+SURFACE TRANSPORTATION BOARD
+
+[Docket No. FD 36878]
+
+
+Fortress Investment Group LLC--Control Exemption--Wheeling & Lake 
+Erie Railway Company and Akron Barberton Cluster Railway Company
+
+    On August 28, 2025, Fortress Investment Group LLC (Fortress), a 
+noncarrier, filed a petition under 49 U.S.C. 10502, seeking an 
+exemption from the prior approval requirements of 49 U.S.C. 11323 for 
+the benefit of FTAI Infrastructure, Inc. (FTAI Infrastructure), Percy 
+Acquisition LLC (PALLC), FIP RR Holding Company LLC
+
+[[Page 55327]]
+
+(FIP HoldCo), and FIP RR Holdings LLC (FIPRR), which are all managed by 
+an affiliate of Fortress, to acquire control of The Wheeling 
+Corporation, a noncarrier, and (indirectly) its wholly owned 
+subsidiaries, Wheeling & Lake Erie Railway Company (W&LE), a Class II 
+rail carrier, and Akron Barberton Cluster Railway Company (ABC), a 
+Class III rail carrier. The Board will grant Fortress's petition for 
+exemption, subject to standard labor protective conditions.
+
+Background
+
+    Fortress explains that its affiliate manages FTAI Infrastructure. 
+(Pet. 4.) FTAI Infrastructure owns 99% of PALLC, which in turn controls 
+Transtar, LLC (Transtar). (Pet. 4.) \1\ Transtar currently owns and 
+directly controls six non-connecting Class III rail carriers. (Id. at 
+2, 8.) \2\ W&LE operates over approximately 982 miles of track in Ohio, 
+Pennsylvania, West Virginia, and Maryland. (Id. at 7.) ABC operates 
+over approximately 84 miles of track in the vicinity of Akron, Ohio. 
+(Id. at 7-8.) \3\
+---------------------------------------------------------------------------
+
+    \1\ PALLC also owns 100% of FIP HoldCo, and that entity owns 
+100% of FIPRR. (Id.)
+    \2\ Those carriers are: Union Railroad Company, LLC (URR); Gary 
+Railway Company, LLC; Delray Connecting Railroad Company; Texas & 
+Northern Railway Company, LLC; The Lake Terminal Railroad Company, 
+LLC; and East Ohio Valley Railway, LLC. (Id. at 4.)
+    \3\ One of the Transtar railroads, URR, connects with W&LE at 
+Mifflin Junction, Pa., and Clairton, Pa. For that reason, Fortress 
+sought Board authority via petition for exemption rather than the 
+class exemption at 49 CFR 1180.2(d)(2), which applies only to 
+nonconnecting carriers. (Id. at 6.)
+---------------------------------------------------------------------------
+
+    Pursuant to a Stock Purchase Agreement dated August 6, 2025, FIPRR 
+acquired, on August 25, 2025, 100% of the equity interests in The 
+Wheeling Corporation, which holds 100% of the equity interests in W&LE 
+and ABC. Immediately upon closing, the shares of The Wheeling 
+Corporation were deposited into an independent voting trust pursuant to 
+49 CFR part 1013 pending the Board's consideration of the petition for 
+exemption. (Pet. 7.) \4\
+---------------------------------------------------------------------------
+
+    \4\ Fortress submitted the voting trust agreement to the Board 
+on August 25, 2025.
+---------------------------------------------------------------------------
+
+    If the transaction is approved and the voting trust is dissolved, 
+Fortress may be deemed to control (in addition to Transtar's six 
+existing rail carriers) W&LE and ABC upon their becoming indirect 
+subsidiaries of FTAI Infrastructure and PALLC. (Pet. 7.) FIPRR will 
+directly control, and FIP Holdco, PALLC, and FTAI Infrastructure will 
+indirectly control, The Wheeling Corporation, W&LE, and ABC. (Id.)
+    In support of its exemption request, Fortress asserts that granting 
+an exemption will further several goals of the Rail Transportation 
+Policy (RTP) under 49 U.S.C. 10101. (Pet. 14-15.) Fortress explains 
+that, among other things, the transaction will enable W&LE and ABC to 
+benefit from the financial strength of FTAI Infrastructure and PALLC. 
+(Id. at 15.) Fortress also asserts that the transaction will not lead 
+to higher rates or reduced service and that W&LE and ABC will continue 
+to provide freight rail service over their respective lines. (Id.)
+    Although W&LE and URR share a common customer in the vicinity of 
+Mifflin Junction, Fortress claims that they do not compete for the same 
+traffic from that customer and that the customer supports the 
+transaction. (Id. at 15-16.) That customer, TMS International, LLC 
+(TMS), filed a statement in support of the transaction on September 8, 
+2025.
+
+Discussion and Conclusions
+
+    The acquisition of control of a rail carrier by a person that is 
+not a rail carrier but that controls any number of rail carriers 
+requires prior approval from the Board under 49 U.S.C. 11323(a)(5). 
+Under 49 U.S.C. 10502(a), however, the Board shall, to the maximum 
+extent consistent with 49 U.S.C. subtitle IV, part A, exempt a 
+transaction or service from regulation when it finds that: (1) the 
+regulation is not necessary to carry out the RTP under 49 U.S.C. 10101; 
+and (2) either (a) the transaction or service is of limited scope, or 
+(b) regulation is not needed to protect shippers from the abuse of 
+market power.
+    An exemption from the prior approval requirements of 49 U.S.C. 
+11323-25 in this case is consistent with the standards of 49 U.S.C. 
+10502. Detailed scrutiny of the proposed transaction through an 
+application for review and approval under sections 49 U.S.C. 11323-25 
+is not necessary to carry out the RTP. Permitting Fortress's 
+acquisition without having to file an application would promote the RTP 
+by minimizing the need for federal regulatory control over the proposed 
+transaction, 49 U.S.C. 10101(2); reducing regulatory barriers to entry 
+into and exit from the industry, 49 U.S.C. 10101(7); and providing for 
+the expeditious resolution of this proceeding, 49 U.S.C. 10101(15). The 
+transaction would also enhance W&LE's and ABC's access to capital and 
+hence facilitate future strategic investment decisions and growth 
+opportunities. (Pet. 15.) As a result, granting an exemption would 
+promote a safe and efficient rail transportation system, 49 U.S.C. 
+10101(3); ensure the continuation of a sound rail transportation 
+system, 49 U.S.C. 10101(4); and foster sound economic conditions in 
+transportation, 49 U.S.C. 10101(5). Lastly, as discussed below, the 
+Board finds that there would be no significant impacts on competition 
+as a result of the transaction. Accordingly, other aspects of the RTP 
+would not be adversely affected.
+    Regulation of the proposed transaction is not necessary to protect 
+shippers from an abuse of market power.\5\ Although URR connects with 
+W&LE and they would come under common control through the transaction, 
+the record here does not suggest any reason for concern about reduced 
+competition. Fortress explains that the common shipper, TMS, would not 
+experience an actual reduction because W&LE and URR do not compete for 
+the same TMS traffic. (Pet. 17.) W&LE moves scrap metal to facilities 
+in Mingo Junction, Ohio, and Cleveland, Ohio via entirely W&LE local 
+movements, while URR handles scrap metal heading east to a steel works 
+in Braddock, Pa., an entirely local URR move, as well as for 
+interchange to carriers other than W&LE. (Id. at 16-17.) Given their 
+respective route structures, neither W&LE nor URR is capable of 
+handling the TMS local movements currently served by the other carrier. 
+(Id. at 17.) TMS also supports the transaction and asks the Board to 
+``promptly approve'' it so that the shipper ``can take full advantage 
+of benefits that will result.'' (See TMS Letter 1, Sept. 8, 2025.) 
+There were no filings in opposition to the transaction. Based on the 
+record, the Board finds that the transaction meets the requirements for 
+an exemption under 49 U.S.C. 10502.
+---------------------------------------------------------------------------
+
+    \5\ Given this finding, the Board need not determine whether the 
+transaction is limited in scope. See 49 U.S.C. 10502(a).
+---------------------------------------------------------------------------
+
+    Under 49 U.S.C. 10502(g), the Board may not use its exemption 
+authority to relieve a rail carrier of its statutory obligation to 
+protect the interests of its employees. Because the transaction 
+involves one Class II and one or more Class III rail carriers, the 
+exemption will be made subject to the labor protection requirements of 
+49 U.S.C. 11326(b) and Wisconsin Central Ltd.--Acquisition Exemption--
+Lines of Union Pacific Railroad, 2 S.T.B. 218 (1997).
+    The acquisition of control is exempt from environmental reporting 
+requirements under 49 CFR 1105.6(c)(1) because it will not result in 
+significant changes in carrier operations. Similarly, under 49 CFR 
+1105.8(b)(3), no historic reporting is required because the proposed 
+transaction will not substantially change the level of operations or 
+maintenance of railroad properties.
+
+[[Page 55328]]
+
+    It is ordered:
+    1. Under 49 U.S.C. 10502, the Board exempts the above transaction 
+from the prior approval requirements of 49 U.S.C. 11323-25, subject to 
+the employee protective conditions in Wisconsin Central Ltd.--
+Acquisition Exemption--Lines of Union Pacific Railroad, 2 S.T.B. 218 
+(1997).
+    2. Notice of this exemption will be published in the Federal 
+Register.
+    3. The exemption will become effective on December 26, 2025. 
+Petitions for stay must be filed by December 5, 2025. Petitions to 
+reopen must be filed by December 16, 2025.
+
+    Decided: November 26, 2025.
+
+    By the Board, Board Members, Fuchs, Hedlund, and Schultz.
+Zantori Dickerson,
+Clearance Clerk.
+[FR Doc. 2025-21748 Filed 12-1-25; 8:45 am]
+BILLING CODE 4915-01-P
+
+
+</pre></body>
+</html>

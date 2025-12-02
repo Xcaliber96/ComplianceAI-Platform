@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54762-54763]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21410]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF JUSTICE
+
+[OMB 1140-0055]
+
+
+Agency Information Collection Activities; Proposed eCollection 
+eComments Requested; Revision of a Previously Approved Collection; 
+Title--Identifying/Marking Explosive Materials
+
+AGENCY: Bureau of Alcohol, Tobacco, Firearms, and Explosives; 
+Department of Justice.
+
+ACTION: 60-Day notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Justice (DOJ), Bureau of Alcohol, Tobacco, 
+Firearms, and Explosives (ATF), will be submitting the following 
+information collection request (ICR) to the Office of Management and 
+Budget (OMB) for review and approval in accordance with the Paperwork 
+Reduction Act of 1995.
+
+DATES: ATF encourages comments on this information collection. You may 
+submit written comments until midnight on January 27, 2026.
+
+ADDRESSES: Submit written comments and recommendations for this 
+information collection to Andy Stephenson, Explosives Enforcement 
+Specialist, by email to <a href="/cdn-cgi/l/email-protection#8cede2e8fee9fba2fff8e9fce4e9e2ffe3e2ccedf8eaa2ebe3fa"><span class="__cf_email__" data-cfemail="1677787264736138656273667e73786579785677627038717960">[email&#160;protected]</span></a>, or by mail to 99 New 
+York Ave. NE; Room 6.N.518; Washington, DC 20226. Identify comments by 
+the OMB control number 1140-0055. You may view the proposed information 
+collection instrument online at <a href="https://www.atf.gov/rules-and-regulations/federal-register-actions/forms-and-information-collection">https://www.atf.gov/rules-and-regulations/federal-register-actions/forms-and-information-collection</a>.
+
+FOR FURTHER INFORMATION CONTACT: If you have additional comments, 
+especially on the estimated public burden or associated response time, 
+suggestions, or need a copy of the proposed information collection 
+instrument with instructions or additional information, contact: Andy 
+Stephenson, either by mail at EIPB, 99 New York Ave. NE; Room 6.N.518; 
+Washington, DC 20226, by email at <a href="/cdn-cgi/l/email-protection#51343821337c383f373e233c3025383e3f323e3d3d343225383e3f113025377f363e27"><span class="__cf_email__" data-cfemail="eb8e829b89c682858d8499868a9f828485888487878e889f828485ab8a9f8dc58c849d">[email&#160;protected]</span></a>, 
+or by telephone at 207-272-5355.
+
+SUPPLEMENTARY INFORMATION: We encourage written comments and 
+suggestions from the public and affected agencies concerning the 
+proposed information collection. Your comments should address one or 
+more of the following four points:
+
+--Evaluate whether the proposed information collection is necessary to 
+properly perform ATF's functions, including whether the information 
+will have practical utility;
+--Evaluate the agency's estimate of the proposed information 
+collection's burden for accuracy, including validity of the methodology 
+and assumptions used;
+--Evaluate whether, and if so, how, the quality, utility, and clarity 
+of the collected information can be enhanced; and
+--Minimize the information collection's burden on those who are to 
+respond, including using appropriate automated, electronic, mechanical, 
+or other technological collection techniques or other forms of 
+information technology, e.g., permitting people to submit electronic 
+responses.
+
+    Abstract: To protect the public from misuse of explosives, 
+implementing regulations at 27 CFR 555.109 require licensees/permittees 
+to mark certain explosives they manufacture or import, as well as mark 
+immediate containers and outside packaging. The markings must include 
+certain information and be clear and permanent, though they can be done 
+via sticky label, marker, etc. Some types of explosives are too small 
+or too fluid to be marked, or in a form that cannot be marked, and are 
+therefore excepted from the marking requirements.
+
+[[Page 54763]]
+
+Overview of This Information Collection
+
+    1. Type of information collection: revision of a previously 
+approved collection.
+    2. The title of the form/collection: Identifying/Marking Explosive 
+Materials.
+    3. The agency form number, if any, and the applicable component of 
+the Department sponsoring the collection: Form number: none.
+    Component: Bureau of Alcohol, Tobacco, Firearms, and Explosives; 
+U.S. Department of Justice.
+    4. Affected public who will be asked or required to respond, as 
+well as the obligation to respond: private sector for-profit 
+institutions. The obligation to respond is mandatory per 27 CFR part 
+555.109.
+    5. An estimate of the total number of respondents and the amount of 
+time estimated for an average respondent to respond: An estimated 103 
+respondents will respond to this collection 520 times annually, and it 
+will take each respondent approximately 0.000834 (3 seconds) to 
+complete their responses.
+    6. An estimate of the total annual burden (in hours) associated 
+with the collection: The estimated annual public burden associated with 
+this collection is 45 total hours, which is equal to 103 (total 
+respondents) * 520 (# of responses per respondent) * 0.000834 (3 
+seconds).
+    7. An estimate of the total annual cost burden associated with the 
+collection, if applicable: $0.
+
+                                                  Estimated Annualized Respondent Cost and Hour Burden
+                                                                        [Rounded]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                            Time per
+                              Activity                                  Number of        Frequency      Total  annual       response      Total  annual
+                                                                       respondents      (times/year)      responses         (hours)      burden  (hours)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Marking explosive materials........................................             103              520           53,560         0.000834               45
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Revisions to This Information Collection
+
+    This information collection, OMB control number 1140-0055, 
+previously covered only manufacturer markings, and another information 
+collection, 1140-0062, covered importer markings. However, to 
+streamline the two information collections and eliminate redundancies 
+that have evolved, ATF has decided to combine the two ICRs and has 
+slightly revised the title to no longer limit it to manufacturers. ICR 
+1140-0055 is now the resulting combined ICR. In addition, the number of 
+licensees/permittees in both groups has decreased a small amount since 
+the last renewal for each ICR, for a combined decrease in licensees/
+permittees from 2,066 to 2,054, or a decrease of 12. In addition, ATF 
+has updated the ICR to account for only the portion of these licensees/
+permittees that actually manufacture or import and distribute the kinds 
+of explosives they are required to mark, which is five percent of the 
+total licensees/permittees registered to manufacture or import, 
+resulting in a further decrease in respondents affected by this 
+information collection to 103 total. Consequently, the total responses 
+and burden hours have also decreased due to the reduced number of 
+respondents, from 895 hours to 45, or a reduction of 850 hours. In 
+addition, due to a new request by OMB, the agency is including in the 
+ICR a monetized value for the time, which it had not included in 
+previous ICRs.
+    If additional information is required, contact: Darwin Arceo, 
+Department Clearance Officer; United States Department of Justice; 
+Justice Management Division, Enterprise Portfolio Management; Two 
+Constitution Square, 145 N Street NE, 4W-218; Washington, DC.
+
+    Dated: November 25, 2025.
+Darwin Arceo,
+Department Clearance Officer for PRA, U.S. Department of Justice.
+[FR Doc. 2025-21410 Filed 11-26-25; 8:45 am]
+BILLING CODE 4410-FY-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

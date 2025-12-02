@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54407]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21207]
+
+
+
+[[Page 54407]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+ OFFICE OF PERSONNEL MANAGEMENT
+
+
+Submission for Review: Revision and Consolidation of Two Existing 
+Information Collections Related to Student Survey Forms
+
+AGENCY: U.S. Office of Personnel Management.
+
+ACTION: 30-Day notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Retirement Services, Office of Personnel Management (OPM) 
+offers the general public and other Federal agencies the opportunity to 
+comment on the combined information collection request (ICR) for two 
+forms: RI 25-15, Notice of Change in Student's Status and RI 25-14, 
+Self-Certification of Full-Time School Attendance for the School Year. 
+OPM is looking to combine the two forms into a single form under the 
+OMB control number 3206-0042 and to discontinue the OMB control number 
+3206-0032.
+
+DATES: Comments are encouraged and will be accepted until December 26, 
+2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">http://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection request by selecting ``Office of 
+Personnel Management'' under ``Currently under Review--Open for Public 
+Comments'' checkbox.
+
+FOR FURTHER INFORMATION CONTACT: For specific questions related to this 
+information collection activities, please contact: Retirement Services 
+Publications Team, Office of Personnel Management, 1900 E Street NW, 
+Room 3316-BD, Washington, DC 20415, Attention: Cyrus S. Benson, or sent 
+via electronic mail to <a href="/cdn-cgi/l/email-protection#550706052037393c3634213c3a3b2601303438153a25387b323a23"><span class="__cf_email__" data-cfemail="df8d8c8faabdb3b6bcbeabb6b0b1ac8bbabeb29fb0afb2f1b8b0a9">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Office of Personnel Management, in 
+accordance with the Paperwork Reduction Act of 1995 (PRA) (44 U.S.C. 
+3506(c)(2)(A)), provides the public with an opportunity to comment on 
+proposed, revised, and continuing collections of information. This 
+helps the Agency assess the impact of its information collection 
+requirements and minimize the public's reporting burden. It also helps 
+the public understand the Agency's information collection requirements 
+and provide the requested data in the desired format. The information 
+collections (OMB Control Nos. 3206-0042 and 3206-0032) were previously 
+published in the Federal Register on June 2, 2025, at 90 FR 23384 and 
+August 17, 2023, at 88 FR 56056, allowing for a 60-day public comment 
+period, respectively. No comments were received for either collection. 
+OPM is looking to combine the two forms into a single form. We are 
+renewing ICR 3206-0042, and 3206-0032 has expired. OPM is requesting to 
+discontinue 3206-0032 and to collect that information under the ICR 
+3206-0042.
+    The purpose of this notice is to notify the public that OPM is 
+submitting the information collection to the Office of Management and 
+Budget (OMB) for review and to allow an additional 30 days for public 
+comments. OPM is soliciting comments on the proposed information 
+collection request (ICR) that is described below. Please note that 
+written comments received in response to this notice will be considered 
+public records.
+    RI 25-14 and RI 25-15 forms are very similar in terms of the 
+information collected from students. Nonetheless, the forms were 
+historically managed under two different information collections. OPM 
+is currently planning to consolidate the forms into a single form. The 
+information collection for form RI 25-14 (OMB Control number 3206-0032) 
+is currently expired with an estimated public burden of 353 hours for 
+1,764 responses. The information collection for form RI 25-15 (OMB 
+Control number 3206-0042) is expiring at the end of November with an 
+estimated public burden of 835 hours for 2,500 responses. As OPM is 
+proposing to combine these information collections, the estimated 
+public burden for the revised information collection is 1,188 hours for 
+4,264 responses.
+    We invite comments that:
+    1. Evaluate the utility of the changes made to the forms;
+    2. Evaluate the accuracy of the agency's estimate of the burden of 
+the proposed collection of information, including the validity of the 
+methodology and assumptions used;
+    3. Suggest ways to enhance the quality, utility, and clarity of the 
+information to be collected; and
+    4. Suggest ways to minimize the burden of the collection of 
+information on those who are to respond, including using appropriate 
+automated, electronic, mechanical, or other technological collection 
+techniques or other forms of information technology, e.g., permitting 
+electronic submissions of responses.
+
+Analysis
+
+    Agency: Retirement Operations, Retirement Services, Office of 
+Personnel Management.
+    Title: Self-Certification of Full-Time School Attendance for the 
+School Year.
+    OMB Number: 3206-0042 (requested) and 3206-0032 (discontinued).
+    Frequency: On occasion.
+    Affected Public: Individuals or Households.
+    Number of Respondents: 4,264.
+    Estimated Time per Respondent: 20 minutes.
+    Total Burden Hours: 1,421 hours.
+
+U.S. Office of Personnel Management.
+Alexys Stanley,
+Federal Register Liaison.
+[FR Doc. 2025-21207 Filed 11-25-25; 8:45 am]
+BILLING CODE 6325-38-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

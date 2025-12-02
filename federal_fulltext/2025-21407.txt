@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54603-54604]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21407]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Part 730
+
+[Docket No. FDA-2023-N-4225]
+RIN 0910-AI82
+
+
+Testing Methods for Detecting and Identifying Asbestos in Talc-
+Containing Cosmetic Products; Withdrawal
+
+AGENCY: Food and Drug Administration, Department of Health and Human 
+Services.
+
+[[Page 54604]]
+
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA, Agency, or we) is 
+announcing the withdrawal of the proposed rule entitled ``Testing 
+Methods for Detecting and Identifying Asbestos in Talc-Containing 
+Cosmetic Products,'' which published in the Federal Register of 
+December 27, 2024. FDA is taking this action in response to comments 
+received during the comment period for the proposed rule that warrant 
+further consideration and assessment prior to issuing final regulations 
+to establish and require standardized testing methods for detecting and 
+identifying asbestos in talc-containing cosmetic products pursuant to 
+the Modernization of Cosmetics Regulation Act of 2022.
+
+DATES: The proposed rule published December 27, 2024 (89 FR 105490) is 
+withdrawn as of November 28, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Elizabeth Anderson, Senior Policy 
+Analyst, Food and Drug Administration, 240-402-4565, 
+<a href="/cdn-cgi/l/email-protection#0554706076716c6a6b7644676a7071486a465744456361642b6d6d762b626a73"><span class="__cf_email__" data-cfemail="0554706076716c6a6b7644676a7071486a465744456361642b6d6d762b626a73">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In the Federal Register of December 27, 2024 
+(89 FR 105490), FDA issued the proposed rule entitled ``Testing Methods 
+for Detecting and Identifying Asbestos in Talc-Containing Cosmetic 
+Products'' as part of its implementation of the Modernization of 
+Cosmetics Regulation Act of 2022 (MoCRA), which requires the 
+promulgation of proposed and final regulations to establish and require 
+standardized testing methods for detecting and identifying asbestos in 
+talc-containing cosmetic products.
+    The proposed rule, if finalized, would require manufacturers of 
+talc-containing cosmetic products to test their talc-containing 
+cosmetic products or the talc cosmetic ingredient prior to using the 
+talc to manufacture a talc-containing cosmetic for asbestos, and to 
+keep records to demonstrate compliance with the rule. Failure to comply 
+with the rule's testing or recordkeeping obligations would result in 
+FDA deeming a cosmetic product to be adulterated under the Federal 
+Food, Drug, and Cosmetic Act (FD&C Act), as would the presence of any 
+asbestos in a talc-containing cosmetic product, talc used in a cosmetic 
+product, or talc intended for use in a cosmetic. FDA received 49 
+comments on the proposed rule.
+    FDA proposed that the rule would apply to all manufacturers of 
+talc-containing cosmetic products, including cosmetic products that are 
+subject to the requirements of chapter V of the FD&C Act (Drugs and 
+Devices). Therefore, the proposed rule, if finalized, would apply to 
+cosmetic products that are also drugs. FDA received comments that 
+suggested the proposed rule would have unintended consequences for many 
+consumer products containing talc, including but not limited to talc-
+containing cosmetic products.
+    FDA proposed to define ``asbestos'' to include ``amosite, 
+chrysotile, crocidolite; asbestiform tremolite, actinolite, 
+anthophyllite, winchite, and richterite; and other asbestiform 
+amphibole minerals.'' FDA received comments that requested consistency 
+with the established definitions or approaches used by other Federal 
+agencies, including the Department of Labor (Occupational Safety and 
+Health Administration and Mine Safety and Health Administration) and 
+Environmental Protection Agency, to avoid unnecessary confusion.
+    MoCRA requires FDA to establish and require standardized testing 
+methods for detecting and identifying asbestos in talc-containing 
+cosmetic products. The proposed rule was issued pursuant to MoCRA and 
+sections 601 and 701 of the FD&C Act. FDA received comments regarding 
+the Agency's statutory authority under law to add a specific 
+adulteration provision relating to talc testing and regarding its 
+authority to consider a cosmetic containing any amount of asbestos to 
+be adulterated.
+    Good cause exists to withdraw the proposed rule at this time. On 
+the basis of the Make America Healthy Again (MAHA) priorities to ensure 
+safe additives in the American food and drug supply, the highly 
+scientific and technical issues addressed in public comments the Agency 
+has received, and the complexity of asbestos testing and legal 
+considerations under the Administrative Procedure Act, we are 
+withdrawing the proposed rule to reconsider best means of addressing 
+the issues covered by the proposed rule and broader principles to 
+reduce exposure to asbestos, and to ensure that any standardized 
+testing method requirements for detecting asbestos in talc-containing 
+cosmetic products help protect users of talc-containing cosmetic 
+products from harmful exposure to asbestos.
+    While the Agency is withdrawing the proposed rule, FDA will issue a 
+proposed rule to meet its statutory obligations under section 3505 of 
+MoCRA.
+
+Robert F. Kennedy, Jr.,
+Secretary, Department of Health and Human Services.
+[FR Doc. 2025-21407 Filed 11-25-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

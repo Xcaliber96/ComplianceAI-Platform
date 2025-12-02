@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Page 53323]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20905]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-0787; FR ID 318566]
+
+
+Information Collection Being Reviewed by the Federal 
+Communications Commission
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As part of its continuing effort to reduce paperwork burdens, 
+and as required by the Paperwork Reduction Act (PRA) of 1995, the 
+Federal Communications Commission (FCC or Commission) invites the 
+general public and other Federal agencies to take this opportunity to 
+comment on the following information collections. Comments are 
+requested concerning: whether the proposed collection of information is 
+necessary for the proper performance of the functions of the 
+Commission, including whether the information shall have practical 
+utility; the accuracy of the Commission's burden estimate; ways to 
+enhance the quality, utility, and clarity of the information collected; 
+ways to minimize the burden of the collection of information on the 
+respondents, including the use of automated collection burden on small 
+business concerns with fewer than 25 employees. The FCC may not conduct 
+or sponsor a collection of information unless it displays a currently 
+valid OMB control number. No person shall be subject to any penalty for 
+failing to comply with a collection of information subject to the PRA 
+that does not display a valid OMB control number.
+
+DATES: Written PRA comments should be submitted on or before January 
+26, 2026. If you anticipate that you will be submitting comments but 
+find it difficult to do so within the period of time allowed by this 
+notice, you should advise the contact listed below as soon as possible.
+
+ADDRESSES: Direct all PRA comments to Cathy Williams, FCC, via email 
+<a href="/cdn-cgi/l/email-protection#15454754557376763b727a63"><span class="__cf_email__" data-cfemail="164644575670757538717960">[email&#160;protected]</span></a> and to <a href="/cdn-cgi/l/email-protection#cb88aabfa3b2e59ca2a7a7a2aaa6b88bada8a8e5aca4bd"><span class="__cf_email__" data-cfemail="682b091c0011463f0104040109051b280e0b0b460f071e">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: For additional information about the 
+information collection, contact Cathy Williams at (202) 418-2918.
+
+SUPPLEMENTARY INFORMATION: 
+    OMB Control Number: 3060-0787.
+    Title: Implementation of the Subscriber Carrier Selection Changes 
+Provisions of the Telecommunications Act of 1996, Policies and Rules 
+Concerning Unauthorized Changes of Consumers' Long Distance Carriers, 
+CC Docket No. 94-129, CG Docket 17-169.
+    Form Number: N/A.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Individuals or household; Business or other for-
+profit; State, Local or Tribal Government.
+    Number of Respondents and Responses: 1,178 respondents; 3,817 
+responses.
+    Estimated Time per Response: 30 minutes (.50 hours) to 10 hours.
+    Frequency of Response: Recordkeeping requirement; Biennial, on 
+occasion and one-time reporting requirements; Third party disclosure 
+requirement.
+    Obligation to Respond: Required to obtain or retain benefits. The 
+statutory authority for the information collection requirements is 
+found at Sec. 258 [47 U.S.C. 258] Illegal Changes In Subscriber Carrier 
+Selections, Public Law 104-104, 110 Stat. 56.
+    Total Annual Burden: 8,692 hours.
+    Total Annual Cost: $2,630,000.
+    Needs and Uses: Section 258 of the Telecommunications Act of 1996 
+(1996 Act) directed the Commission to prescribe rules to prevent the 
+unauthorized change by telecommunications carriers of consumers' 
+selections of telecommunications service providers (slamming). On March 
+17, 2003, the FCC released the Third Order on Reconsideration and 
+Second Further Notice of Proposed Rulemaking, CC Docket No. 94-129, FCC 
+03-42 (Third Order on Reconsideration), in which the Commission revised 
+and clarified certain rules to implement section 258 of the 1996 Act. 
+On May 23, 2003, the Commission released an Order (CC Docket No. 94-
+129, FCC 03-116) clarifying certain aspects of the Third Order on 
+Reconsideration. On January 9, 2008, the Commission released the Fourth 
+Report and Order, CC Docket No. 94-129, FCC 07-223, revising its 
+requirements concerning verification of a consumer's intent to switch 
+carriers.
+    The Fourth Report and Order modified the information collection 
+requirements contained in Sec.  64.1120(c)(3)(iii) of the Commission's 
+rules to provide for verifications to elicit ``confirmation that the 
+person on the call understands that a carrier change, not an upgrade to 
+existing service, bill consolidation, or any other misleading 
+description of the transaction, is being authorized.''
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary.
+[FR Doc. 2025-20905 Filed 11-24-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

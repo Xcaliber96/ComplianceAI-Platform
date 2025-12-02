@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54684-54686]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21316]
+
+
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-0853; FR ID 319353]
+
+
+Information Collection Being Submitted for Review and Approval to 
+Office of Management and Budget
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As part of its continuing effort to reduce paperwork burdens, 
+as required by the Paperwork Reduction Act (PRA) of 1995, the Federal 
+Communications Commission (FCC or the Commission) invites the general 
+public and other Federal Agencies to take this opportunity to comment 
+on the following information collection. Pursuant to the Small Business 
+Paperwork Relief Act of 2002, the FCC seeks specific comment on how it 
+might further reduce the information collection burden for small 
+business concerns with fewer than 25 employees. The Commission may not 
+conduct or sponsor a collection of information unless it displays a 
+currently valid Office of Management and Budget (OMB) control number. 
+No person shall be subject to any penalty for failing to comply with a 
+collection of information subject to the PRA that does not display a 
+valid OMB control number.
+
+DATES: Written comments and recommendations for the proposed 
+information collection should be submitted on or before December 29, 
+2025.
+
+ADDRESSES: Comments should be sent to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular information collection by selecting 
+``Currently under 30-day Review--Open for Public Comments'' or by using 
+the search function. Your comment must be submitted into 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a> per the
+
+[[Page 54685]]
+
+above instructions for it to be considered. In addition to submitting 
+in <a href="http://www.reginfo.gov">www.reginfo.gov</a> also send a copy of your comment on the proposed 
+information collection to Nicole Ongele, FCC, via email to <a href="/cdn-cgi/l/email-protection#b0e0e2f1f0d6d3d39ed7dfc6"><span class="__cf_email__" data-cfemail="e9b9bba8a98f8a8ac78e869f">[email&#160;protected]</span></a> 
+and to <a href="/cdn-cgi/l/email-protection#ade3c4cec2c1c883e2c3cac8c1c8edcbcece83cac2db"><span class="__cf_email__" data-cfemail="c58baca6aaa9a0eb8aaba2a0a9a085a3a6a6eba2aab3">[email&#160;protected]</span></a>. Include in the comments the OMB control 
+number as shown in the SUPPLEMENTARY INFORMATION below.
+
+FOR FURTHER INFORMATION CONTACT: For additional information or copies 
+of the information collection, contact Nicole Ongele at (202) 418-2991. 
+To view a copy of this information collection request (ICR) submitted 
+to OMB: (1) go to the web page <a href="http://www.reginfo.gov/public/do/PRAMain">http://www.reginfo.gov/public/do/PRAMain</a>, (2) look for the section of the web page called ``Currently 
+Under Review,'' (3) click on the downward-pointing arrow in the 
+``Select Agency'' box below the ``Currently Under Review'' heading, (4) 
+select ``Federal Communications Commission'' from the list of agencies 
+presented in the ``Select Agency'' box, (5) click the ``Submit'' button 
+to the right of the ``Select Agency'' box, (6) when the list of FCC 
+ICRs currently under review appears, look for the Title of this ICR and 
+then click on the ICR Reference Number. A copy of the FCC submission to 
+OMB will be displayed.
+
+SUPPLEMENTARY INFORMATION: As part of its continuing effort to reduce 
+paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 
+1995 (44 U.S.C. 3501-3520), the FCC invited the general public and 
+other Federal Agencies to take this opportunity to comment on the 
+following information collection. Comments are requested concerning: 
+(a) Whether the proposed collection of information is necessary for the 
+proper performance of the functions of the Commission, including 
+whether the information shall have practical utility; (b) the accuracy 
+of the Commission's burden estimates; (c) ways to enhance the quality, 
+utility, and clarity of the information collected; and (d) ways to 
+minimize the burden of the collection of information on the 
+respondents, including the use of automated collection techniques or 
+other forms of information technology. Pursuant to the Small Business 
+Paperwork Relief Act of 2002, Public Law 107-198, see 44 U.S.C. 
+3506(c)(4), the FCC seeks specific comment on how it might further 
+reduce the information collection burden for small business concerns 
+with fewer than 25 employees.
+    OMB Control Number: 3060-0853.
+    Title: Certification by Administrative Authority to Billed Entity 
+Compliance with the Children's internet Protection Act Form, FCC Form 
+479; Receipt of Service Confirmation and Certification of Compliance 
+with the Children's internet Protection Act Form, FCC Form 486; and 
+Funding Commitment and Adjustment Request Form, FCC Form 500.
+    Form Numbers: FCC Forms 479, 486 and 500.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for-profit, not-for-profit 
+institutions, and state, local or tribal government.
+    Number of Respondents and Responses: 84,010 respondents, 94,203 
+responses.
+    Estimated Time per Response: 1 hour for FCC Form 479, 1 hour for 
+FCC Form 486, 1 hour for FCC Form 500, 0.75 hours for maintaining and 
+updating the internet Safety Policy, and 0.5 hours for recordkeeping 
+requirements.
+    Frequency of Response: On occasion and annual reporting 
+requirements and recordkeeping requirement.
+    Obligation to Respond: Required to obtain or retain benefits. 
+Statutory authority for this information collection is contained in 47 
+U.S.C. 151, 154(i), 155, 201, 205, 214, 219, 220, 254, 303(r), 403, and 
+1302.
+    Total Annual Burden: 78,319 hours.
+    Total Annual Cost: No cost.
+    Needs and Uses: The Commission will submit this information 
+collection to the Office of Management and Budget (OMB), which is an 
+extension of a currently approved collection, to obtain a full three-
+year clearance from OMB. The requirements contained herein are 
+necessary to implement the Congressional mandate for universal service. 
+It provides the Commission and USAC with the necessary information to 
+administer the E-Rate program, determine the amount of support entities 
+seeking funding are eligible to receive, to determine if entities are 
+complying with the Commission's rules, and to prevent waste, fraud, and 
+abuse. The information will also allow the Commission to evaluate the 
+extent to which the E-Rate program is meeting the statutory objectives 
+specified in section 254 of the 1996 Act, the Commission's performance 
+goals established in the 2014 First and Second E-Rate Orders, and to 
+evaluate the need and feasibility for any future revisions to program 
+rules.
+    FCC Form 486 was revised. On July 29, 2024 the Commission released 
+a Report and Order and Further Notice of Proposed Rulemaking (WC Docket 
+No. 21-31, FCC 24-76) (2024 Wi-Fi Hotspots Order); finding that the 
+off-premises use of wireless internet services and the Wi-Fi hotspot 
+devices needed to deliver the services; serves an educational purpose 
+and are eligible for E-Rate support. The 2024 Wi-Fi Hotspots Order, 89 
+FR 67303, August 20, 2024, would have added the following 
+certifications to the FCC Form 486: applicants that receive support for 
+Wi-Fi hotspots and service for off-premises use uses the FCC Form 486 
+to certify that they have updated and publicly posted their 
+``acceptable use policy (AUP)'' consistent with the requirements in 47 
+CFR 54.516(f); the Wi-Fi hotspots and/or services the school, library, 
+or consortium purchased using E-Rate support for off-premises use have 
+been activated and made available to students, school staff, and/or 
+library patrons; public notice of their availability has been provided; 
+and the authorized person is not requesting reimbursement for Wi-Fi 
+hotspots and/or services that have not been made available for 
+distribution. On September 30, 2025, the Commission adopted the 
+Hotspots Order on Reconsideration (WC Docket No. 21-31, FCC 25-62) 
+(Hotspots Order on Reconsideration), that rescinds the 2024 Wi-Fi 
+Hotspots Order, and removes the eligibility of E-Rate support for off-
+premises use of wireless mobile internet services and the Wi-Fi hotspot 
+devices needed to deliver the services. The Wi-Fi hotspots and service-
+related rules, including the certifications, are no longer applicable 
+and are removed from this information collection.
+    The hourly burden will increase by 10,044 hours for FCC Forms 479, 
+486, and 500. The public burden for the collection contained herein 
+will increase to 78,319 burden hours.
+    FCC Form 486 ``Receipt of Service Confirmation and Certification of 
+Compliance with the Children's internet Protection Act.'' After the 
+Administrator reviews the funding request and commits to fund the 
+eligible equipment and/or services requested, applicants use the FCC 
+Form 486 to notify USAC of their service start dates for their funding 
+requests. Universal service support will not be paid on an approved 
+funding commitment prior to receipt of the FCC Form 486.
+    Billed entities also use the FCC Form 486 to certify compliance 
+with the Children's internet Protection Act (CIPA), see 47 U.S.C. 254 
+(h)-(l), or qualification for a CIPA exemption when they seek discounts 
+for category one services (i.e., internet access) and category two 
+services (i.e., internal connections, managed internal broadband 
+services, or basic maintenance of internal connections). When the 
+billed entities are members of a larger consortia, they individually 
+certify CIPA compliance by submitting the FCC Form 479 ``Certification 
+by Administrative Authority to Billed
+
+[[Page 54686]]
+
+Entity of Compliance with Children's internet Protection Act'' to the 
+consortium leader. The consortium leader can then file the FCC Form 486 
+certifying CIPA compliance on behalf of the consortia. CIPA requires 
+schools and libraries that have computers with internet access to 
+certify that they have in place certain internet safety policies and 
+technology protection measures to be eligible to receive program 
+services under section 254(h) of the Act. See also 47 CFR 54.520. The 
+FCC Form 486 is also a necessary prerequisite for invoicing and 
+payment.
+    FCC Form 500 ``Funding Commitment Adjustment Request.'' The FCC 
+Form 500 is used by E-Rate participants to make adjustments to 
+previously filed forms, such as changing the contract expiration date 
+noted on the FCC Form 471, changing the funding year service start date 
+listed on the FCC Form 486, cancelling or reducing the amount of a 
+funding request, and extending the service delivery deadline for non-
+recurring services.
+    All of the requirements contained in this information collection 
+are necessary to implement the Congressional mandate for the E-Rate 
+program and reimbursement process.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary, Office of the Secretary.
+[FR Doc. 2025-21316 Filed 11-26-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

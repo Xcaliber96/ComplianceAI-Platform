@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53044-53045]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20652]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+SOCIAL SECURITY ADMINISTRATION
+
+[Docket No: SSA-2025-0651]
+
+
+Agency Information Collection Activities: Comment Request
+
+    The Social Security Administration (SSA) publishes a list of 
+information collection packages requiring clearance by the Office of 
+Management and Budget (OMB) in compliance with Public Law 104-13, the 
+Paperwork Reduction Act of 1995, effective October 1, 1995. This notice 
+includes a revision of OMB-approved information collection.
+    SSA is soliciting comments on the accuracy of the agency's burden 
+estimate; the need for the information; its practical utility; ways to 
+enhance its quality, utility, and clarity; and ways to minimize burden 
+on respondents, including the use of automated collection techniques or 
+other forms of information technology. Mail, email, or fax your 
+comments and recommendations on the information collection to the OMB 
+Desk Officer and SSA Reports Clearance Officer at the following 
+addresses or fax numbers.
+
+(OMB), Office of Management and Budget, Attn: Desk Officer for SSA
+
+(SSA), Social Security Administration, OLCA, Attn: Reports Clearance 
+Director, Mail Stop 3253 Altmeyer, 6401 Security Blvd., Baltimore, MD 
+21235, Fax: 833-410-1631, Email address: <a href="/cdn-cgi/l/email-protection#db9489f589beabb4a9afa8f598b7bebaa9bab5b8be9ba8a8baf5bcb4ad"><span class="__cf_email__" data-cfemail="b0ffe29ee2d5c0dfc2c4c39ef3dcd5d1c2d1ded3d5f0c3c3d19ed7dfc6">[email&#160;protected]</span></a>
+
+    Or you may submit your comments online through <a href="https://www.reginfo.gov/public/do/PRAmain">https://www.reginfo.gov/public/do/PRAmain</a> by clicking on Currently under 
+Review--Open for Public Comments and choosing to click on one of SSA's 
+published items. Please reference Docket ID Number [SSA-2025-0651] in 
+your submitted response.
+    SSA submitted the information collection below to OMB for 
+clearance. Your comments regarding this information collection would be 
+most useful if OMB and SSA receive them 30 days from the date of this 
+publication. To be sure we consider your comments, we must receive them 
+no later than December 24, 2025. Individuals can obtain copies of the 
+OMB clearance package by writing to the <a href="/cdn-cgi/l/email-protection#6d223f433f081d021f191e432e01080c1f0c030e082d1e1e0c430a021b"><span class="__cf_email__" data-cfemail="80cfd2aed2e5f0eff2f4f3aec3ece5e1f2e1eee3e5c0f3f3e1aee7eff6">[email&#160;protected]</span></a>.
+    Fee Agreement for Representation before the Social Security 
+Administration--0960-0810. The Social Security Act requires individuals 
+who represent a claimant before the agency and want to receive a fee 
+for their services to obtain SSA's authorization of the fee. One way to 
+obtain the authorization is to submit the fee agreement to the agency 
+either in writing or through using Form SSA-1693, Fee Agreement for 
+Representation before the Social Security Administration. Since 
+representatives currently use fee agreements which vary in length, 
+content, and complexity, submission of a free-form fee agreement may 
+cause delays in SSA's review time. SSA encourages respondents to use 
+Form SSA-1693 to submit the information either using the paper form or 
+the electronically submittable e1693 through SSA's website. SSA uses 
+the information from the SSA-1693 to review the request and authorize 
+any fee to representatives who seek to charge and collect a fee from a 
+claimant. The respondents are the representatives who help claimants 
+through the application process, and the claimants who they represent.
+
+    Note: We are revising the burden for this information 
+collection, and updating the Privacy Act Statement to comply with 
+current legal requirements.
+
+    Type of Request: Revision of an OMB-approved information 
+collection.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                              Average
+                                                                          Average burden     Estimated      theoretical    Average wait    Total annual
+         Modality of completion              Number of     Frequency of    per response    total annual     hourly cost    time in field    opportunity
+                                            respondents      response        (minutes)    burden (hours)      amount          office      cost (dollars)
+                                                                                                            (dollars) *    (minutes) **         ***
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+SSA-1693 (paper)........................           4,225               1              12             845        * $60.26           ** 16    *** $118,833
+e1693...................................           1,745               1              13             378         * 60.26  ..............      *** 22,778
+Written Agreements on Representative's         1,575,773               1              20         525,257         * 60.26  ..............  *** 31,651,987
+ Stationary.............................
+    Totals..............................       1,581,743  ..............  ..............         526,480  ..............  ..............  *** 31,793,598
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* We based this figure on the averaged total of the average Lawyer's Legal Services wages, as reported by Bureau of Labor Statistics data, and the
+  average U.S. worker's hourly wages, as reported by Bureau of Labor Statistics data (Occupational Employment and Wage Statistics).
+** We based this figure on the average FY 2026 wait times for field offices (16 minutes), based on SSA's current management information data. This
+  figure reflects the data posted on our public facing website (800 number performance <radical> SSA) on the date we drafted this notice. As the figures
+  fluctuate daily, the wait times may be different on the publication date of this notice. While we are including this theoretical cost, respondents
+  typically choose to mail or fax the paper form rather than deliver the form in person to a field office.
+** This figure does not represent actual costs that SSA is imposing on recipients of Social Security payments to complete this application; rather,
+  these are theoretical opportunity costs for the additional time respondents will spend to complete the application. There is no actual charge to
+  respondents to complete the application
+
+
+
+[[Page 53045]]
+
+Mark Steffensen,
+General Counsel, Deputy Commissioner for Law and Policy, Social 
+Security Administration.
+[FR Doc. 2025-20652 Filed 11-21-25; 8:45 am]
+BILLING CODE 4191-02-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54452-54453]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21243]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+[Docket No. FAA -2025-0601]
+
+
+Agency Information Collection Activities: Requests for Comments; 
+Clearance of Renewed Approval of Information Collection: Suspected 
+Unapproved Parts Report
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995, FAA 
+invites public comments about our intention to request the Office of 
+Management and Budget (OMB) approval to renew an information 
+collection. The Federal Register Notice with a 60-day comment period 
+soliciting comments on the following collection of information was 
+published on May 22, 2025. The information collected on the FAA Form 
+8120-11 is reported voluntarily by manufacturers, repair stations, 
+aircraft owner/operators, air carriers, and the general public who wish 
+to report the discovery of, and potential use or possession of aircraft 
+suspected unapproved parts to the FAA for review. The report 
+information is collected and evaluated by the FAA, Aviation Safety 
+Hotline Program Office, and used to determine if an unapproved part 
+investigation is warranted.
+
+DATES: Written comments should be submitted by December 26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: David Jeffery by email at: 
+<a href="/cdn-cgi/l/email-protection#3155504758551f5b545757544348715750501f565e47"><span class="__cf_email__" data-cfemail="177376617e73397d72717172656e5771767639707861">[email&#160;protected]</span></a>; phone: 937-898-3991 ext. 204.
+
+SUPPLEMENTARY INFORMATION: 
+    Public Comments Invited: You are asked to comment on any aspect of 
+this information collection, including (a) Whether the proposed 
+collection of information is necessary for FAA's performance; (b) the 
+accuracy of the estimated burden; (c) ways for FAA to enhance the 
+quality, utility and clarity of the information collection; and (d) 
+ways that the burden could be minimized without reducing the quality of 
+the collected information.
+    OMB Control Number: 2120-0552.
+    Title: Suspected Unapproved Parts Report.
+    Form Numbers: FAA Form 8120-11.
+    Type of Review: Renewal of an information collection.
+    Background: The Federal Register Notice with a 60-day comment 
+period soliciting comments on the following collection of information 
+was published on May 22, 2025 (90 FR 21983). The information collected 
+on the FAA Form 8120-11 is reported voluntarily by manufacturers, 
+repair stations, aircraft owner/operators, air carriers, and the 
+general public who wish to report suspected unapproved parts to the FAA 
+for review. The report information is collected and correlated by the 
+FAA, Aviation Safety Hotline Program Office, and used to determine if 
+an unapproved part investigation is warranted. When unapproved parts 
+are confirmed that are likely to exist on other products or aircraft of 
+the same or similar design or are being used in other facilities, the 
+information is used as a basis for an aviation industry alert or 
+notification. Alerts are used to inform industry of situations 
+essential to the prevention of accidents. If the information had not 
+been collected, the consequence to the aviation community would be the 
+inability to determine whether or not unapproved parts are being 
+offered for sale or use for installation on type-certificated products.
+    Procedures and processes relating to the SUP program and associated 
+reports are found in FAA Order 8120.16A,
+
+[[Page 54453]]
+
+Suspected Unapproved Parts Program, and AC 21-29, Detecting and 
+Reporting Suspected Unapproved Parts. When unapproved parts are 
+identified, the FAA notifies the public by published Field 
+Notifications (FN), disseminated using Unapproved Parts Notifications 
+(UPN), a Safety Alert for Operators (SAFO), Aviation Maintenance 
+Alerts, Airworthiness Directives (AD), entry into an issue of the 
+Service Difficulty Reporting Summary, a Special Airworthiness 
+Information Bulletin, a display on an internet site, or direct mailing. 
+Reporting of information is strictly voluntary. The information is 
+requested from any individual or facility suspecting an unapproved 
+part. Any burden is minimized by requesting only necessary information 
+to warrant an investigation.
+    Respondents: Anyone may fill out and send a Form 8120-11 into the 
+FAA.
+    Frequency: Whenever anyone discovers or suspects they have received 
+an unapproved part.
+    Estimated Average Burden per Response: About 12 minutes to read and 
+disposition each form.
+    Estimated Total Annual Burden: The FAA collects approximately 30 
+forms from the public per year.
+
+    Issued in Fort Worth, Texas.
+Rex A. Loveday,
+Directives and Forms Management Officer, Office of Aviation Safety, 
+Policy and Standards Division, AIR-600.
+[FR Doc. 2025-21243 Filed 11-25-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

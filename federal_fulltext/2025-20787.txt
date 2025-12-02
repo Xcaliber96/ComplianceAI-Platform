@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52956-52957]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20787]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+[Document Identifiers: CMS-10934, CMS-10906 and CMS-10164]
+
+
+Agency Information Collection Activities: Proposed Collection; 
+Comment Request
+
+AGENCY: Centers for Medicare & Medicaid Services, Health and Human 
+Services (HHS).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Centers for Medicare & Medicaid Services (CMS) is 
+announcing an opportunity for the public to comment on CMS' intention 
+to collect information from the public. Under the Paperwork Reduction 
+Act of 1995 (PRA), federal agencies are required to publish notice in 
+the Federal Register concerning each proposed collection of information 
+(including each proposed extension or reinstatement of an existing 
+collection of information) and to allow 60 days for public comment on 
+the proposed action. Interested persons are invited to send comments 
+regarding our burden estimates or any other aspect of this collection 
+of information, including the necessity and utility of the proposed 
+information collection for the proper performance of the agency's 
+functions, the accuracy of the estimated burden, ways to enhance the 
+quality, utility, and clarity of the information to be collected, and 
+the use of automated collection techniques or other forms of 
+information technology to minimize the information collection burden.
+
+DATES: Comments must be received by January 23, 2026.
+
+ADDRESSES: When commenting, please reference the document identifier or 
+OMB control number. To be assured consideration, comments and 
+recommendations must be submitted in any one of the following ways:
+    1. Electronically. You may send your comments electronically to 
+<a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the instructions for ``Comment or 
+Submission'' or ``More Search Options'' to find the information 
+collection document(s) that are accepting comments.
+    2. By regular mail. You may mail written comments to the following 
+address: CMS, Office of Strategic Operations and Regulatory Affairs, 
+Division of Regulations Development, Attention: Document Identifier: 
+__/OMB Control Number: __, Room C4-26-05, 7500 Security Boulevard, 
+Baltimore, Maryland 21244-1850.
+    To obtain copies of a supporting statement and any related forms 
+for the proposed collection(s) summarized in this notice, please access 
+the CMS PRA website by copying and pasting the following web address 
+into your web browser: <a href="https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing">https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing</a>.
+
+FOR FURTHER INFORMATION CONTACT: William N. Parham at (410) 786-4669.
+
+SUPPLEMENTARY INFORMATION:
+
+Contents
+
+    This notice sets out a summary of the use and burden associated 
+with the following information collections. More detailed information 
+can be found in each collection's supporting statement and associated 
+materials (see ADDRESSES).
+    Under the PRA (44 U.S.C. 3501-3520), federal agencies must obtain 
+approval from the Office of Management and Budget (OMB) for each 
+collection of information they conduct or sponsor. The term 
+``collection of information'' is defined in 44 U.S.C. 3502(3) and 5 CFR 
+1320.3(c) and includes agency requests or requirements that members of 
+the public submit reports, keep records, or provide information to a 
+third party. Section 3506(c)(2)(A) of the PRA requires federal agencies 
+to publish a 60-day notice in the Federal Register concerning each 
+proposed collection of information, including each proposed extension 
+or reinstatement of an existing collection of information, before 
+submitting the collection to OMB for approval. To comply with this 
+requirement, CMS is publishing this notice.
+
+[[Page 52957]]
+
+Information Collections
+
+    1. Type of Information Collection Request: New collection (Request 
+for a new OMB control number); Title of Information Collection: 13th 
+SOW Quality Innovation Network--Quality Improvement Organization (QIN-
+QIO) and American Indian Alaskan Native (AIAN) Measure Data Collection; 
+Use: The Quality Innovation Network--Quality Improvement Organization 
+(QIN-QIO) program and American Indian Alaskan Native (AIAN) program 
+assists providers/practices with high-quality, hands-on quality 
+improvement assistance toward meeting their needs, and the healthcare 
+quality and safety goals for beneficiaries. The purpose of this new 
+information collection within these programs is to quantify performance 
+and improvement in a broad set of quality measures that are not 
+currently available from other sources. Selected measures are derived 
+from the Merit Based Incentive Payment System (MIPS), the Hospital 
+Inpatient Quality Reporting Program (HIQR), the Hospital Outpatient 
+Quality Reporting Program (HOQR), and the CDC National Healthcare 
+Safety Network (NHSN).
+    Measure data collection is an integral part of the quality 
+improvement process. It is the primary source of knowledge about 
+quality of care, allowing Quality Improvement (QI) practitioners to 
+understand current state and quantitatively measure progress and 
+effectiveness. There are three primary user categories for this data 
+collection:
+    <bullet> Participants in the QIO program will use measure data from 
+their facilities/practices to implement their own quality improvement 
+efforts, and benefit from the collection and analysis of data from 
+other facilities and practices to contextualize progress towards QI 
+goals.
+    <bullet> QI contractors (both QIOs and the AIAN contractor) will 
+use measure data to direct their efforts and understand the 
+effectiveness of interventions, to measure progress towards their 
+contractual objectives, and to report on progress to CMS.
+    <bullet> CMS will use the collected measure data along with derived 
+analytic products to track the success of the program, to inform 
+strategic decisions and priorities, and to calculate return on 
+investment.
+    Form Number: CMS-10934 (OMB control number: 0938-NEW); Frequency: 
+Quarterly; Affected Public: Private Sector--Business or other for-
+profits and Not-for-profit institutions; Number of Respondents: 16,735; 
+Total Annual Responses: 66,940; Total Annual Hours: 1,471,284. (For 
+policy questions regarding this collection contact Geoffrey Berryman at 
+(410) 786-8766.)
+    2. Type of Information Collection Request: New collection (Request 
+for a new OMB control number); Title of Information Collection: 
+Provider Directory Data for Medicare Plan Finder; Use: Medicare Plan 
+Finder (MPF) is an online tool where current and prospective 
+beneficiaries can explore their Medicare coverage options. On MPF, 
+individuals can shop for Medicare coverage options and make choices 
+based on a variety of search criteria, such as plan benefits, premiums, 
+deductibles, and star ratings. Previously, MPF had not included search 
+capability or information on MA organizations' contracted provider 
+networks.
+    To simplify and streamline the Medicare beneficiary shopping 
+experience, CMS is expanding the existing requirements applicable to MA 
+organizations regarding their provider directories that requires MA 
+organizations to: (1) make the information described in 42 CFR 
+422.111(b)(3)(i) available to CMS/HHS for publication online in 
+accordance with guidance from CMS/HHS; (2) submit or otherwise make 
+available their plan provider directory data, that is the requirements 
+found under Sec.  422.111(b)(3)(i), available to CMS/HHS in a format, 
+manner, and timeframe determined by CMS/HHS; (3) update the information 
+subject to Sec.  422.111(m) within 30 days of the date an MA 
+organization becomes aware of a change; and (4) attest, in a format and 
+manner and at times determined by CMS/HHS, that all information 
+submitted or otherwise made available to CMS/HHS under paragraph (m) is 
+accurate. Form Number: CMS-10906 (OMB 0938-TBD); Frequency: Once and 
+yearly; Affected Public: Private sector; Number of Respondents: 700; 
+Total Annual Responses: 1,400; Total Annual Hours: 6,300. (For 
+questions regarding this collection contact Jim Canavan at 410-786-
+5223.)
+    3. Type of Information Collection Request: Revision; Title of 
+Information Collection: CMS Electronic Data Interchange (EDI) 
+Enrollment Registration, CMS EDI Enrollment Form, and CMS EDI 
+Enrollment Attestation Form; Use: The collection consists of three 
+forms used by Medicare providers and suppliers to register for EDI 
+services with Medicare contractors. The updated collection includes the 
+revised CMS EDI Registration Form (10164A) and CMS EDI Enrollment 
+Agreement Form (10164B), both serving as model forms. The collection 
+also introduces the CMS EDI Enrollment Attestation Form (10164C), a new 
+mandatory attestation form requiring formal compliance verification 
+from all participating entities.
+    The forms collect essential information necessary to identify 
+Medicare providers and suppliers during electronic transactions, 
+authorize requested EDI functions, and establish appropriate access 
+privileges for healthcare entities. These forms ensure compliance with 
+HIPAA transaction standards while implementing strengthened security 
+requirements for billing vendors and clearing houses that handle 
+Medicare data. The information collected by the forms will be uploaded 
+into Medicare contractor computer systems. Medicare contractors will 
+store this information in a database accessed at the time of provider 
+connection to the Medicare Data Contractor Network (MDCN). When 
+authentication is successful and connectivity is established, 
+transactions may be exchanged. Form Number: CMS-10164 (OMB 0938-0983); 
+Frequency: Yearly; Affected Public: Business or other-for-profits and 
+not-for-profits; Number of Respondents: 229,767; Total Annual 
+Responses: 229,767; Total Annual Hours: 153,178. (For questions 
+regarding this collection contact Charlene Parks at 410-786-8684.)
+
+William N. Parham, III
+Director, Division of Information Collections and Regulatory Impacts, 
+Office of Strategic Operations and Regulatory Affairs.
+[FR Doc. 2025-20787 Filed 11-21-25; 8:45 am]
+BILLING CODE 4120-01-P
+
+
+</pre></body>
+</html>

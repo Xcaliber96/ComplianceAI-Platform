@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52965-52967]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20773]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-N-4348]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Human Drug Compounding Under Sections 503A and 503B of 
+the Federal Food, Drug, and Cosmetic Act
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA or Agency) is announcing 
+an opportunity for public comment on the proposed collection of certain 
+information by the Agency. Under the Paperwork Reduction Act of 1995 
+(PRA), Federal Agencies are required to publish notice in the Federal 
+Register concerning each proposed collection of information, including 
+each proposed extension of an existing collection of information, and 
+to allow 60 days for public comment in response to the notice. This 
+notice solicits comments on information collection relating to human 
+drug compounding.
+
+DATES: Either electronic or written comments on the collection of 
+information must be submitted by January 23, 2026.
+
+ADDRESSES: You may submit comments as follows. Please note that late, 
+untimely filed comments will not be considered. The <a href="https://www.regulations.gov">https://www.regulations.gov</a> electronic filing system will accept comments until 
+11:59 p.m. Eastern Time at the end of January 23, 2026. Comments 
+received by mail/hand delivery/courier (for written/paper submissions) 
+will be considered timely if they are received on or before that date.
+
+Electronic Submissions
+
+    Submit electronic comments in the following way:
+    <bullet> Federal eRulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments. Comments submitted 
+electronically, including attachments, to <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+will be posted to the docket unchanged. Because your comment will be 
+made public, you are solely responsible for ensuring that your comment 
+does not include any
+
+[[Page 52966]]
+
+confidential information that you or a third party may not wish to be 
+posted, such as medical information, your or anyone else's Social 
+Security number, or confidential business information, such as a 
+manufacturing process. Please note that if you include your name, 
+contact information, or other information that identifies you in the 
+body of your comments, that information will be posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    <bullet> If you want to submit a comment with confidential 
+information that you do not wish to be made available to the public, 
+submit the comment as a written/paper submission and in the manner 
+detailed (see ``Written/Paper Submissions'' and ``Instructions'').
+
+Written/Paper Submissions
+
+    Submit written/paper submissions as follows:
+    <bullet> Mail/Hand Delivery/Courier (for written/paper 
+submissions): Dockets Management Staff (HFA-305), Food and Drug 
+Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852.
+    <bullet> For written/paper comments submitted to the Dockets 
+Management Staff, FDA will post your comment, as well as any 
+attachments, except for information submitted, marked and identified, 
+as confidential, if submitted as detailed in ``Instructions.''
+    Instructions: All submissions received must include the Docket No. 
+FDA-2025-N-4348 for ``Agency Information Collection Activities; 
+Proposed Collection; Comment Request; Human Drug Compounding Under 
+Sections 503A and 503B of the Federal Food, Drug, and Cosmetic Act.'' 
+Received comments, those filed in a timely manner (see ADDRESSES), will 
+be placed in the docket and, except for those submitted as 
+``Confidential Submissions,'' publicly viewable at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or at the Dockets Management Staff between 9 a.m. 
+and 4 p.m., Monday through Friday, 240-402-7500.
+    <bullet> Confidential Submissions--To submit a comment with 
+confidential information that you do not wish to be made publicly 
+available, submit your comments only as a written/paper submission. You 
+should submit two copies total. One copy will include the information 
+you claim to be confidential with a heading or cover note that states 
+``THIS DOCUMENT CONTAINS CONFIDENTIAL INFORMATION.'' The Agency will 
+review this copy, including the claimed confidential information, in 
+its consideration of comments. The second copy, which will have the 
+claimed confidential information redacted/blacked out, will be 
+available for public viewing and posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Submit both copies to the Dockets Management Staff. If you do not wish 
+your name and contact information to be made publicly available, you 
+can provide this information on the cover sheet and not in the body of 
+your comments and you must identify this information as 
+``confidential.'' Any information marked as ``confidential'' will not 
+be disclosed except in accordance with 21 CFR 10.20 and other 
+applicable disclosure law. For more information about FDA's posting of 
+comments to public dockets, see 80 FR 56469, September 18, 2015, or 
+access the information at: <a href="https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf">https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf</a>.
+    Docket: For access to the docket to read background documents or 
+the electronic and written/paper comments received, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and insert the docket number, found in brackets in 
+the heading of this document, into the ``Search'' box and follow the 
+prompts and/or go to the Dockets Management Staff, 5630 Fishers Lane, 
+Rm. 1061, Rockville, MD 20852, 240-402-7500.
+
+FOR FURTHER INFORMATION CONTACT: Domini Bean, Office of Operations, 
+Food and Drug Administration, Three White Flint North, 10A-12M, 11601 
+Landsdown St., North Bethesda, MD 20852, 301-796-5733, 
+<a href="/cdn-cgi/l/email-protection#b8e8eaf9ebccd9dedef8dedcd996d0d0cb96dfd7ce"><span class="__cf_email__" data-cfemail="beeeecffedcadfd8d8fed8dadf90d6d6cd90d9d1c8">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Under the PRA (44 U.S.C. 3501-3521), Federal 
+Agencies must obtain approval from the Office of Management and Budget 
+(OMB) for each collection of information they conduct or sponsor. 
+``Collection of information'' is defined in 44 U.S.C. 3502(3) and 5 CFR 
+1320.3(c) and includes Agency requests or requirements that members of 
+the public submit reports, keep records, or provide information to a 
+third party. Section 3506(c)(2)(A) of the PRA (44 U.S.C. 3506(c)(2)(A)) 
+requires Federal Agencies to provide a 60-day notice in the Federal 
+Register concerning each proposed collection of information, including 
+each proposed extension of an existing collection of information, 
+before submitting the collection to OMB for approval. To comply with 
+this requirement, FDA is publishing notice of the proposed collection 
+of information set forth in this document.
+    With respect to the following collection of information, FDA 
+invites comments on these topics: (1) whether the proposed collection 
+of information is necessary for the proper performance of FDA's 
+functions, including whether the information will have practical 
+utility; (2) the accuracy of FDA's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3) ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (4) ways 
+to minimize the burden of the collection of information on respondents, 
+including through the use of automated collection techniques, when 
+appropriate, and other forms of information technology.
+
+Human Drug Compounding Under Sections 503A and 503B of the Federal 
+Food, Drug, and Cosmetic Act
+
+OMB Control Number 0910-0800--Extension
+
+    This information collection helps support the implementation of 
+sections 503A and 503B of the Federal Food, Drug, and Cosmetic Act 
+(FD&C Act) (21 U.S.C. 353a and 353b); Pharmacy Compounding and 
+Outsourcing Facilities. Compounding is generally a practice in which a 
+licensed pharmacist, a licensed physician, or, in the case of an 
+outsourcing facility, a person under the supervision of a licensed 
+pharmacist, combines, mixes, or alters ingredients of a drug to create 
+a medication tailored to the needs of an individual patient. Although 
+compounded drugs can serve an important medical need for certain 
+patients, they also present risk. Our compounding program aims to 
+protect patients from unsafe, ineffective, and poor quality compounded 
+drugs, while preserving access to lawfully-marketed compounded drugs 
+for patients who have a medical need for them.
+    Respondents to the information collection are those engaged in the 
+practice of pharmacy compounding. The information collection is 
+intended to account for burden attributable to activities pertaining to 
+the registration of outsourcing facilities and reporting of drugs, as 
+established in sections 503B(b)(1) through 503B(b)(3) of the FD&C Act. 
+Additionally, the information collection is intended to account for 
+burden attributable to activities associated with the submission of 
+adverse event reports, as required under section 503B(b)(5) of the FD&C 
+Act. Finally, the information collection is intended to account for 
+burden attributable to activities associated with States entering into 
+memoranda of understanding with the Secretary, as described in section 
+503A(b)(3) of the FD&C Act.
+    To help respondents understand statutory requirements applicable to 
+compounding activities governed by the
+
+[[Page 52967]]
+
+FD&C Act, we have developed the following topical guidance documents:
+    <bullet> ``Electronic Drug Product Reporting for Human Drug 
+Compounding Outsourcing Facilities Under Section 503B of the Federal 
+Food, Drug, and Cosmetic Act'' (January 3, 2017), available on our 
+website at <a href="https://www.fda.gov/media/90173/download">https://www.fda.gov/media/90173/download</a>. The guidance is 
+intended for entities that compound human drugs and elect to register 
+as outsourcing facilities under section 503B of the FD&C Act. Once an 
+entity has elected to register as an outsourcing facility, it must 
+submit reports identifying the drugs compounded by the outsourcing 
+facility. The guidance describes who must report, the format of the 
+report, the content to include in each report, when to report, how 
+outsourcing facilities may submit reports to FDA, and the consequences 
+of outsourcing facilities' failure to submit reports.
+    <bullet> ``Adverse Event Reporting for Outsourcing Facilities Under 
+Section 503B of the Federal Food, Drug, and Cosmetic Act'' (October 8, 
+2015), available at <a href="https://www.fda.gov/media/90997/download">https://www.fda.gov/media/90997/download</a>.
+    The guidance documents were issued consistent with FDA's good 
+guidance practice regulations in 21 CFR 10.115, which provide for 
+public comment at any time.
+    We estimate the burden of this collection of information as 
+follows:
+
+                                 Table 1--Estimated Annual Reporting Burden \1\
+----------------------------------------------------------------------------------------------------------------
+                                                     Number of
+  Section 503B of the FD&C Act       Number of     responses per   Total annual   Average burden    Total hours
+                                    respondents     respondent       responses     per response
+----------------------------------------------------------------------------------------------------------------
+503B AERs.......................              55               1              55            1.10              61
+503B Recordkeeping AERs.........              55               1              55              16             880
+503A Reporting..................              45            ~197           8,879            0.87           7,968
+503A Recordkeeping..............              45               2              90               1              90
+503A Disclosure (MOU)...........               1               1               1               1               1
+Outsourcing facility              ..............  ..............           8,111  ..............             214
+ registration & reporting under
+ 503B(b)........................
+                                 -------------------------------------------------------------------------------
+    Total.......................  ..............  ..............          17,191  ..............           9,214
+----------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of
+  information.
+
+    Based upon our evaluation of the information collection, we have 
+retained our currently approved burden estimate.
+
+Lowell M. Zeta,
+Acting, Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-20773 Filed 11-21-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

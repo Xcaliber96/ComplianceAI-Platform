@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54351]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21135]
+
+
+
+[[Page 54351]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+U.S. Customs and Border Protection
+
+[OMB Control Number 1651-0013]
+
+
+Agency Information Collection Activities; Extension; Entry and 
+Manifest of Merchandise Free of Duty, Carrier's Certificate and Release
+
+AGENCY: U.S. Customs and Border Protection (CBP), Department of 
+Homeland Security.
+
+ACTION: 30-Day notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Homeland Security, U.S. Customs and Border 
+Protection (CBP) will be submitting the following information 
+collection request to the Office of Management and Budget (OMB) for 
+review and approval in accordance with the Paperwork Reduction Act of 
+1995 (PRA). The information collection is published in the Federal 
+Register to obtain comments from the public and affected agencies.
+
+DATES: Comments are encouraged and must be submitted (no later than 
+December 26, 2025) to be assured of consideration.
+
+ADDRESSES: Written comments and/or suggestions regarding the item(s) 
+contained in this notice should be sent within 30 days of publication 
+of this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Please submit 
+written comments and/or suggestions in English. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional PRA 
+information should be directed to Seth Renkema, Chief, Economic Impact 
+Analysis Branch, U.S. Customs and Border Protection, Office of Trade, 
+Regulations and Rulings, 90 K Street NE, 10th Floor, Washington, DC 
+20229-1177, Telephone number 202-325-0056 or via email 
+<a href="/cdn-cgi/l/email-protection#85c6c7d5dad5d7c4c5e6e7f5abe1edf6abe2eaf3"><span class="__cf_email__" data-cfemail="d59697858a85879495b6b7a5fbb1bda6fbb2baa3">[email&#160;protected]</span></a>. Please note that the contact information provided 
+here is solely for questions regarding this notice. Individuals seeking 
+information about other CBP programs should contact the CBP National 
+Customer Service Center at 877-227-5511, (TTY) 1-800-877-8339, or CBP 
+website at <a href="https://www.cbp.gov/">https://www.cbp.gov/</a>.
+
+SUPPLEMENTARY INFORMATION: CBP invites the general public and other 
+Federal agencies to comment on the proposed and/or continuing 
+information collections pursuant to the Paperwork Reduction Act of 1995 
+(44 U.S.C. 3501 et seq.). This proposed information collection was 
+previously published in the Federal Register (90 FR 35710) on July 29, 
+2025, allowing for a 60-day comment period. This notice allows for an 
+additional 30 days for public comments. This process is conducted in 
+accordance with 5 CFR 1320.8. Written comments and suggestions from the 
+public and affected agencies should address one or more of the 
+following four points: (1) whether the proposed collection of 
+information is necessary for the proper performance of the functions of 
+the agency, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3) suggestions to enhance the 
+quality, utility, and clarity of the information to be collected; and 
+(4) suggestions to minimize the burden of the collection of information 
+on those who are to respond, including through the use of appropriate 
+automated, electronic, mechanical, or other technological collection 
+techniques or other forms of information technology, e.g., permitting 
+electronic submission of responses. The comments that are submitted 
+will be summarized and included in the request for approval. All 
+comments will become a matter of public record.
+
+Overview of This Information Collection
+
+    Title: Entry and Manifest of Merchandise Free of Duty, Carrier's 
+Certificate and Release.
+    OMB Number: 1651-0013.
+    Form Number: 7523.
+    Current Actions: Extension.
+    Type of Review: Extension.
+    Affected Public: Businesses.
+    Abstract: CBP Form 7523, Entry and Manifest of Merchandise Free of 
+Duty, Carrier's Certificate and Release, is used by carriers and 
+importers as a manifest for the entry of merchandise free of duty under 
+certain conditions, such as when a shipment is valued at $2,500 or 
+less. CBP Form 7523 is also used by carriers to show that articles 
+being imported are to be released to the importer or consignee, and as 
+an inward foreign manifest for vehicles or vessels, weighing less than 
+five tons, arriving from Canada or Mexico, otherwise than by sea, with 
+merchandise conditionally free of duty. CBP uses this form to authorize 
+the entry of such merchandise. CBP Form 7523 is authorized by 19 U.S.C. 
+1433, 1484 and 1498. It is provided by 19 CFR 123.4 and 19 CFR 143.23. 
+This form is accessible at <a href="http://www.cbp.gov/newsroom/publications/forms?title=7523&=Apply">http://www.cbp.gov/newsroom/publications/forms?title=7523&=Apply</a>.
+    Type of Information Collection: 7523.
+    Estimated Number of Respondents: 4,950.
+    Estimated Number of Annual Responses per Respondent: 20.
+    Estimated Number of Total Annual Responses: 99,000.
+    Estimated Time per Response: 5 minutes.
+    Estimated Total Annual Burden Hours: 8,247.
+
+Seth D. Renkema,
+Branch Chief, Economic Impact Analysis Branch, U.S. Customs and Border 
+Protection.
+[FR Doc. 2025-21135 Filed 11-25-25; 8:45 am]
+BILLING CODE 9111-14-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

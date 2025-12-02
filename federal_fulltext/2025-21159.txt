@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54308]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21159]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of Secretary
+
+[Docket ID: DOD-2025-OS-0477]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: Office of the Under Secretary of Defense for Personnel and 
+Readiness (OUSD(P&R)), Department of Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#c5b2adb6eba8a6e8a4a9a0bdeba0b6a1eba8a7bdeba1a1e8a1aaa1e8acaba3aab7a8a4b1acaaabe8a6aaa9a9a0a6b1acaaabb685a8a4aca9eba8aca9"><span class="__cf_email__" data-cfemail="e89f809bc6858bc589848d90c68d9b8cc6858a90c68c8cc58c878cc581868e879a85899c818786c58b8784848d8b9c8187869ba885898184c6858184">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Spouse Education and Career 
+Opportunities (SECO) Program; OMB Control Number 0704-0556.
+    Type of Request: Revision.
+    Number of Respondents: 24,247.
+    Responses per Respondent: 1.
+    Annual Responses: 24,247.
+    Average Burden per Response: 30 minutes.
+    Annual Burden Hours: 12,124.
+    Needs and Uses: The DoD SECO Program is the primary source of 
+education, career and employment counseling for all military spouses 
+who are seeking post-secondary education, training, licenses and 
+credentials needed for portable career employment. The SECO system 
+delivers the resources and tools necessary to assist spouses of service 
+members with career exploration/discovery, career education and 
+training, employment readiness, and career connections at any point 
+within the spouse career lifecycle. It is imperative that the DoD 
+collect data to ensure that the SECO program is meeting its overarching 
+goal of increasing employment opportunities for military spouses. The 
+DoD requires the information in the proposed collection for program 
+planning and management purposes. Collected information will ensure 
+that the SECO program will be able to collect relevant metrics and make 
+determinations of program viability and improvement. Additionally, the 
+data collected is utilized to build a spouse profile that allows 
+information to be saved over time and to prepopulate information into 
+tools such as resume builders and career and education planning 
+resources.
+    Affected Public: Individuals or households.
+    Frequency: On Occasion.
+    Respondent's Obligation: Voluntary.
+    DOD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21159 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

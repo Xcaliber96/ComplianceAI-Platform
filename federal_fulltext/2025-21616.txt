@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55115-55116]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21616]
+
+
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-1303; FR ID 319749]
+
+
+Information Collection Being Submitted for Review and Approval to 
+Office of Management and Budget
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As part of its continuing effort to reduce paperwork burdens, 
+as required by the Paperwork Reduction Act (PRA) of 1995, the Federal 
+Communications Commission (FCC or the Commission) invites the general 
+public and other Federal Agencies to take this opportunity to comment 
+on the following information collection. Pursuant to the Small Business 
+Paperwork Relief Act of 2002, the FCC seeks specific comment on how it 
+might ``further reduce the information collection burden for small 
+business concerns with fewer than 25 employees.''
+    The Commission may not conduct or sponsor a collection of 
+information unless it displays a currently valid Office of Management 
+and Budget (OMB) control number. No person shall be subject to any 
+penalty for failing to comply with a collection of information subject 
+to the PRA that does not display a valid OMB control number.
+
+DATES: Written comments and recommendations for the proposed 
+information collection should be submitted on or before December 31, 
+2025.
+
+ADDRESSES: Comments should be sent to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular information collection by selecting 
+``Currently under 30-day Review--Open for Public Comments'' or by using 
+the search function. Your comment must be submitted into 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a> per the above instructions for it to be considered. In 
+addition to submitting in <a href="http://www.reginfo.gov">www.reginfo.gov</a> also send a copy of your 
+comment on the information collection to <a href="/cdn-cgi/l/email-protection#c083a1b4a8b9ee97a9acaca9a1adb380a6a3a3eea7afb6"><span class="__cf_email__" data-cfemail="c487a5b0acbdea93ada8a8ada5a9b784a2a7a7eaa3abb2">[email&#160;protected]</span></a>. 
+Include in the comments the OMB control number as shown in the 
+SUPPLEMENTARY INFORMATION below.
+
+FOR FURTHER INFORMATION CONTACT: For additional information or copies 
+of the information collection, contact Cathy Williams at (202) 418-
+2918. To view a copy of this information collection request (ICR) 
+submitted to OMB: (1) go to the web page <a href="http://www.reginfo.gov/public/do/PRAMain">http://www.reginfo.gov/public/do/PRAMain</a>, (2) look for the section of the web page called ``Currently 
+Under Review,'' (3) click on the downward-pointing arrow in the 
+``Select Agency'' box below the ``Currently Under Review'' heading, (4) 
+select ``Federal Communications Commission'' from the list of agencies 
+presented in the ``Select Agency'' box, (5) click the ``Submit'' button 
+to the right of the ``Select Agency'' box, (6) when the list of FCC 
+ICRs currently under review appears, look for the Title of this ICR and 
+then click on the ICR Reference Number. A copy of the FCC submission to 
+OMB will be displayed.
+
+SUPPLEMENTARY INFORMATION: As part of its continuing effort to reduce 
+paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 
+1995 (44 U.S.C. 3501-3520), the FCC invited the general public and 
+other Federal Agencies to take this opportunity to comment on the 
+following information collection. Comments are requested concerning: 
+(a) Whether the proposed collection of information is necessary for the 
+proper performance of the functions of the Commission, including 
+whether the information shall have practical utility; (b) the accuracy 
+of the Commission's burden estimates; (c) ways to enhance the quality, 
+utility, and clarity of the information collected; and (d) ways to 
+minimize the burden of the collection of information on the 
+respondents, including the use of automated collection techniques or 
+other forms of information technology. Pursuant to the Small Business 
+Paperwork Relief Act of 2002, Public Law 107-198, see 44 U.S.C. 
+3506(c)(4), the FCC seeks specific comment on how it might further 
+reduce the information collection burden for small business concerns 
+with fewer than 25 employees.
+    OMB Control Number: 3060-1303.
+    Title: Advanced Methods to Target and Eliminate Unlawful Robocalls, 
+Sixth Report and Order, CG Docket No. 17-59, Authentication Trust 
+Anchor, Fifth Report and Order, WC Docket No. 17-97, FCC 22-37.
+    Form Number: N/A.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for-profit entities.
+    Number of Respondents: 6,493 respondents; 311,664 responses.
+    Estimated Time per Response: .25 hours.
+    Frequency of Response: On-occasion reporting requirement.
+    Obligation to Respond: Required to obtain or retain benefits. 
+Statutory *45769 authority for these collections are contained in 
+sections 4(i), 4(j), 201, 202, 217, 227, 227b, 251(e), 303(r), and 403 
+of the Communications Act of 1934, as amended, 47 U.S.C. 154(i), 201, 
+202, 217, 227, 227b, 251(e), 303(r), 403.
+    Total Annual Burden: 77,916 hours.
+    Total Annual Cost: No cost.
+    Needs and Uses: This notice and request for comments seeks to 
+extend the information collection requirements as it pertains to the 
+Advanced Methods to Target and Eliminate Unlawful Robocalls Sixth 
+Report and Order and Call Authentication Trust Anchor Fifth Report and 
+Order (``Gateway Provider Report and Order''). Unwanted and illegal 
+robocalls have long been the Federal Communication Commission's 
+(``Commission'') top source of consumer complaints and one of the 
+Commission's top consumer protection priorities. Foreign-originated 
+robocalls represent a significant portion of illegal robocalls, and 
+gateway providers serve as a critical choke-point for reducing the 
+number of illegal robocalls received by American consumers. In the 
+Gateway Provider Report and Order, the Commission took steps to prevent 
+these foreign-originated illegal robocalls from reaching consumers and 
+to help track these calls
+
+[[Page 55116]]
+
+back to the source. Along with further extension of the Commission's 
+caller ID authentication requirements and Robocall Mitigation Database 
+filing requirements, the Commission adopted several robocall mitigation 
+requirements, including a requirement for gateway providers to respond 
+to traceback within 24 hours, mandatory blocking requirements, a ``know 
+your upstream provider'' requirement, and a general mitigation 
+requirement.
+
+Gateway Provider Report and Order, FCC 22-37, Paras. 65-71, 47 CFR 
+64.1200(n)(1)
+
+    A voice service provider must: . . . Upon receipt of a traceback 
+request from the Commission, civil law enforcement, criminal law 
+enforcement, or the industry traceback consortium:
+    (i) If the provider is an originating, terminating, or non-gateway 
+intermediate provider for all calls specified in the traceback request, 
+the provider must respond fully and in a timely manner;
+    (ii) If the provider receiving a traceback request is the gateway 
+provider for any calls specified in the traceback request, the provider 
+must fully respond to the traceback request within 24 hours of receipt 
+of the request. The 24-hour clock does not start outside of business 
+hours, and requests received during that time are deemed received at 
+8:00 a.m. on the next business day. If the 24-hour response period 
+would end on a non-business day, either a weekend or a federal legal 
+holiday, the 24-hour clock does not run for the weekend or holiday in 
+question, and restarts at 12:01 a.m. on the next business day following 
+when the request would otherwise be due. For example, a request 
+received at 3:00 p.m. on a Friday will be due at 3:00 p.m. on the 
+following Monday, assuming that Monday is not a federal legal holiday. 
+For purposes of this rule, ``business day'' is defined as Monday 
+through Friday, excluding federal legal holidays, and ``business 
+hours'' is defined as 8:00 a.m. to 5:30 p.m. on a business day. For 
+purposes of this rule, all times are local time for the office that is 
+required to respond to the request.
+    The first portion of the information collection for which OMB 
+approval is sought comes from the requirement adopted in the Gateway 
+Provider Report and Order that all voice service providers respond to 
+traceback ``fully and in in a timely manner'' and gateway providers 
+must respond within 24 hours. All voice service providers, including 
+gateway providers are required to respond to traceback requests from 
+the Commission, civil and criminal law enforcement, and the Industry 
+Traceback Consortium. Traceback is a key enforcement tool in the fight 
+against illegal calls, allowing the Commission or law enforcement to 
+identify the caller and bring enforcement actions or otherwise stop 
+future calls before they reach consumers. Any unnecessary delay in the 
+process can increase the risk that this essential information may 
+become impossible to obtain. While traceback is not a new process, some 
+providers have historically been reluctant to respond, or have simply 
+ignored requests. This requirement ensures that all providers are on 
+notice that a response is required, and allows real consequences for 
+refusal.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary, Office of the Secretary.
+[FR Doc. 2025-21616 Filed 11-28-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
