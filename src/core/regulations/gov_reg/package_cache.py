@@ -22,7 +22,7 @@ def save_cache_to_file():
     with open(CACHE_FILE, "w") as f:
         json.dump(payload, f, indent=2)
 
-    print(f"[PackageCache] Saved {len(PACKAGE_CACHE)} packages to disk.")
+    # print(f"[PackageCache] Saved {len(PACKAGE_CACHE)} packages to disk.")
 
 
 def load_cache_from_file() -> bool:
@@ -42,11 +42,11 @@ def load_cache_from_file() -> bool:
         if last:
             LAST_REFRESH = datetime.datetime.fromisoformat(last)
 
-        print(f"[PackageCache] Loaded {len(PACKAGE_CACHE)} packages from disk.")
+        # print(f"[PackageCache] Loaded {len(PACKAGE_CACHE)} packages from disk.")
         return True
 
     except Exception as e:
-        print("[PackageCache] Failed to load cache:", e)
+        # print("[PackageCache] Failed to load cache:", e)
         return False
 
 def build_last_7_days_packages() -> List[Dict]:
@@ -69,14 +69,14 @@ def build_last_7_days_packages() -> List[Dict]:
 def refresh_package_cache():
     global PACKAGE_CACHE, LAST_REFRESH
 
-    print("[PackageCache] Refreshing Federal Register packages (7-day window)...")
+    # print("[PackageCache] Refreshing Federal Register packages (7-day window)...")
 
     PACKAGE_CACHE = build_last_7_days_packages()
     LAST_REFRESH = datetime.datetime.now()
 
     save_cache_to_file()
 
-    print(f"[PackageCache] Refreshed {len(PACKAGE_CACHE)} packages at {LAST_REFRESH}")
+    # print(f"[PackageCache] Refreshed {len(PACKAGE_CACHE)} packages at {LAST_REFRESH}")
 
 def get_cached_packages() -> List[Dict]:
     global LAST_REFRESH

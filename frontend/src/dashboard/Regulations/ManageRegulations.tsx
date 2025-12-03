@@ -76,9 +76,13 @@ const [showCustomModal, setShowCustomModal] = useState(false);
   const [activeId, setActiveId] = useState<string>("");
 const navigate = useNavigate();
 async function reload() {
-  const userId = "test-user";
-  const ws = await fetchWorkspace(userId);
+  const userId = localStorage.getItem("user_uid");
+  if (!userId) {
+    console.error("❌ No user_uid in localStorage");
+    return;
+  }
 
+  const ws = await fetchWorkspace(userId);
   setRegulations(ws);
 
   if (ws.length > 0) {

@@ -38,11 +38,11 @@ def fetch_granules_for_package(package_id: str, granules_link: str) -> List[Dict
         with open(path, "w") as f:
             json.dump(granules, f, indent=2)
 
-        print(f"[Granules] Saved {len(granules)} granules → {path}")
+        # print(f"[Granules] Saved {len(granules)} granules → {path}")
         return granules
 
     except Exception as e:
-        print(f"[Granules ERROR] {package_id}: {e}")
+        # print(f"[Granules ERROR] {package_id}: {e}")
         return []
 
 
@@ -73,15 +73,15 @@ def refresh_granule_cache():
         # Avoid downloading duplicates
         existing = load_local_granules(package_id)
         if existing and FORCE_REFRESH:
-            print(f"[Granules] {package_id}: Already cached ({len(existing)})")
+            # print(f"[Granules] {package_id}: Already cached ({len(existing)})")
             continue
 
         fetch_granules_for_package(package_id, granules_link)
 
-    print("[Granules] Granule cache refresh complete.")
+    # print("[Granules] Granule cache refresh complete.")
 
 if __name__ == "__main__":
-    print("\n=== TESTING GRANULE CACHE EXTRACTION ===\n")
+    # print("\n=== TESTING GRANULE CACHE EXTRACTION ===\n")
     refresh_granule_cache()
-    print("\n=== DONE ===\n")
+    # print("\n=== DONE ===\n")
     

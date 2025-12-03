@@ -31,7 +31,7 @@ def route(user_input: str):
     
         # Clean and deduplicate citations
         unique_citations = clean_citations(all_citations)
-        print("PACKAGEIDDDD: ", package_id)
+        # print("PACKAGEIDDDD: ", package_id)
         # get_package_summary(unique_citations)
         return {
             "input_type": "topic",
@@ -67,7 +67,7 @@ def route(user_input: str):
         
         # Clean and deduplicate citations
         unique_citations = clean_citations(all_citations)
-        print("PACKAGEIDDDD: ", package_id)
+        # print("PACKAGEIDDDD: ", package_id)
         # get_package_summary(unique_citations)
         return {
             "input_type": "topic",
@@ -116,4 +116,4 @@ def search_packages_by_topic(topic: str):
 if __name__ == "__main__":
     user_input = input("Enter something: ")
     result = route(user_input)
-    print(result)
+    # print(result)

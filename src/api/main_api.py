@@ -19,7 +19,10 @@ from src.core.regulations.gov_reg.local_search import (
     search_granules_in_package,
     search_local_granules,
 )
-
+from src.api.obligations_ingest import (
+    extract_obligations_from_text,
+    upsert_obligations_neo4j,
+)
 
 from src.api.models import WorkspaceRegulation
 from src.core.regulations.state_regulations.state_engine  import normalize_regulation
@@ -48,8 +51,7 @@ import subprocess
 
 import fitz 
 import io
-
-
+from src.core.regulations.gov_reg.fulltext_cache import read_file
 from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
@@ -130,13 +132,9 @@ from fastapi import FastAPI
 from .graph_api import router as graph_router   # plain import works when cwd is the folder
 import sys, subprocess, os
 from typing import Dict, Any
-# ---------- Application + CORS (add after imports) ----------
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
-
-
-
 
 app = FastAPI()
 from src.api.obligations_ingest import router as obligations_router
@@ -157,14 +155,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# universal preflight handler: ensures OPTIONS returns early and CORS headers are attached
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
     return PlainTextResponse("", status_code=200)
-# ------------------------------------------------------------
 
-
-app = FastAPI()
 app.include_router(graph_router)
 from src.api.obligations_ingest import router as obligations_router
 app.include_router(obligations_router)
@@ -176,16 +170,8 @@ from fastapi.responses import PlainTextResponse
 # handle preflight OPTIONS for any path to avoid custom middleware/validation firing
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
-    # Return an empty 200/204 — CORSMiddleware will attach required CORS headers.
+    # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
     return PlainTextResponse("", status_code=200)
-
-# Check if Render secret file exists, else fallback to local
-if os.path.exists("/etc/secrets/.env"):
-    load_dotenv("/etc/secrets/.env", override=True)
-    print("Loaded environment from /etc/secrets/.env (Render)")
-else:
-    load_dotenv(".env", override=True)
-    print("Loaded environment from local .env")
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -275,7 +261,7 @@ class ImportRequest(BaseModel):
 def import_regulations(payload: dict, db: Session = Depends(get_db)):
     user_uid = payload.get("user_uid", "test-user")
     regulations = payload.get("regulations", [])
-    print("🚨 IMPORT PAYLOAD:", payload)
+    # print("🚨 IMPORT PAYLOAD:", payload)
 
     if not regulations:
         return {"error": "No regulations provided"}
@@ -506,6 +492,48 @@ def get_workspace(user_uid: str, db: Session = Depends(get_db)):
 import threading
 import time
 
+@app.get("/api/regulation/{granule_id}")
+async def get_regulation_text(granule_id: str):
+    """
+    Return the full text AND auto-ingest obligations
+    WITHOUT making internal HTTP requests.
+    """
+    filename = f"{granule_id}.txt"
+    text = read_file(filename)
+
+    if not text or text.startswith("Error"):
+        raise HTTPException(status_code=404, detail="Granule not found or unreadable")
+
+    meta = {
+        "fetch_date": datetime.utcnow().isoformat(),
+        "package_id": None,
+        "chunk_id": None,
+    }
+
+    obligations = extract_obligations_from_text(
+        doc_id=granule_id,
+        raw_text=text,
+        meta=meta
+    )
+    print(f"🔍 Extracted {len(obligations)} potential obligations.")
+    print(obligations)
+
+    try:
+        created_count = upsert_obligations_neo4j(obligations)
+    except Exception as e:
+        created_count = 0
+        print("❌ Neo4j error during ingest:", e)
+
+    return {
+        "granule_id": granule_id,
+        "text": text,
+        "ingested": {
+            "ok": True,
+            "created_count": created_count,
+            "obligations": obligations,
+        }
+    }
+
 def cache_refresher():
     while True:
         time.sleep(60 * 60 * 24)  # 24 hours
@@ -542,6 +570,19 @@ def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(g
     # ⭐ ONLY RETURN WHAT FRONTEND NEEDS
     return {"status": item.workspace_status}
 
+@app.get("/api/user/{user_uid}/granules")
+def get_user_granules(user_uid: str, db: Session = Depends(get_db)):
+    regs = (
+        db.query(Regulation)     # or RegulationModel depending on your name
+        .filter(Regulation.user_uid == user_uid)
+        .all()
+    )
+
+    return {
+        "user_uid": user_uid,
+        "granule_ids": [r.id for r in regs],  # r.id *is the granule_id*
+        "count": len(regs),
+    }
     
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):

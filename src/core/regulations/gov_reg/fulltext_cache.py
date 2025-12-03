@@ -13,6 +13,23 @@ os.makedirs(FULLTEXT_DIR, exist_ok=True)
 # Toggle to force re-download of full text files
 FORCE_REFRESH = False
 
+import re
+from pathlib import Path
+
+FOLDER = "federal_fulltext"  
+
+def read_file(filename):
+
+    import os
+
+    full_path = os.path.join(FOLDER, filename)
+
+    try:
+        with open(full_path, "r", errors="ignore") as f:
+            return f.read()
+    except Exception as e:
+        return f"Error reading file: {e}"
+    
 
 def load_all_granule_ids() -> List[str]:
     """
@@ -57,7 +74,7 @@ def fetch_full_text(doc_number: str) -> str:
 
         raw_url = data.get("raw_text_url")
         if not raw_url:
-            print(f"[FullText] No raw_text_url for {doc_number}")
+            # print(f"[FullText] No raw_text_url for {doc_number}")
             return ""
 
         text_resp = requests.get(raw_url)
@@ -66,7 +83,7 @@ def fetch_full_text(doc_number: str) -> str:
         return text_resp.text
 
     except Exception as e:
-        print(f"[FullText] ERROR fetching full text for {doc_number}: {e}")
+        # print(f"[FullText] ERROR fetching full text for {doc_number}: {e}")
         return ""
 
 
@@ -84,24 +101,24 @@ def refresh_full_text_cache():
     Loop through all granules, fetch full text for each, save locally.
     Respects caching unless FORCE_REFRESH=True.
     """
-    print("[FullText] Loading granule IDs...")
+    # print("[FullText] Loading granule IDs...")
     granule_ids = load_all_granule_ids()
-    print(f"[FullText] Found {len(granule_ids)} granule IDs.")
+    # print(f"[FullText] Found {len(granule_ids)} granule IDs.")
 
     for doc_number in granule_ids:
         out_path = os.path.join(FULLTEXT_DIR, f"{doc_number}.txt")
 
         # Skip already cached files
         if os.path.exists(out_path) and not FORCE_REFRESH:
-            print(f"[FullText] {doc_number}: Already cached.")
+            # print(f"[FullText] {doc_number}: Already cached.")
             continue
 
-        print(f"[FullText] Fetching {doc_number}...")
+        # print(f"[FullText] Fetching {doc_number}...")
         text = fetch_full_text(doc_number)
 
         if text:
             save_full_text(doc_number, text)
-            print(f"[FullText] Saved → {out_path}")
+            # print(f"[FullText] Saved → {out_path}")
         else:
             print(f"[FullText] Skipped {doc_number} (no text)")
 

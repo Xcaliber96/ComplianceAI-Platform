@@ -42,7 +42,7 @@ def get_granules(granules_link: str, api_key: str = API_KEY):
         data = resp.json()
         return data.get("granules", [])
     except Exception as e:
-        print(f"[ERROR] Could not fetch granules: {e}")
+        # print(f"[ERROR] Could not fetch granules: {e}")
         return []
 
 # if __name__ == "__main__":
