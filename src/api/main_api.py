@@ -1497,16 +1497,20 @@ class ComplianceRequest(BaseModel):
     regulation_ids: list[str]
 
 
-@router.post("/rag/run_compliance_payload")
+@app.post("/api/rag/run_compliance_payload")
 async def run_compliance_payload(payload: dict):
+    print(">>> LOADED main_api.py from HERE <<<")
+
     user_uid = payload.get("user_uid")
     file_id = payload.get("file_id")
-    regulation_ids = payload.get("regulation_ids", [])
+    regulation_ids = payload.get("regulation_ids", [])   # <-- KEEP AS STRINGS
+
+    print(user_uid, file_id, regulation_ids)
 
     if not user_uid or not file_id:
         raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
 
-    # --- Load file from JSON filehub ---
+    # Load file path
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Evidence file not found")
@@ -1516,16 +1520,16 @@ async def run_compliance_payload(payload: dict):
 
     db = next(get_db())
 
-    # --- Load regulations from DB ---
+    # IMPORTANT: filter by regulation_id (string), not id (int)
     regs = db.query(WorkspaceRegulation).filter(
         WorkspaceRegulation.user_uid == user_uid,
-        WorkspaceRegulation.id.in_(regulation_ids)
+        WorkspaceRegulation.regulation_id.in_(regulation_ids)
     ).all()
 
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
 
-    # Build regulation objects
+    # Build RAG regulation objects
     regulation_objs = []
     for r in regs:
         regulation_objs.append({
@@ -1533,10 +1537,9 @@ async def run_compliance_payload(payload: dict):
             "Requirement_Text": r.description or r.name or "",
             "Risk_Rating": r.risk or "",
             "Target_Area": r.category or "",
-            "Dow_Focus": r.region or ""
+            "Dow_Focus": "",
         })
 
-    # --- Run RAG compliance ---
     try:
         checker = RAGComplianceChecker(
             pdf_path=pdf_path,
@@ -1546,8 +1549,7 @@ async def run_compliance_payload(payload: dict):
         summary = checker.dashboard_summary(results)
 
     except Exception as e:
-        print("❌ RAG ERROR:", e)
-        traceback.print_exc()           # ←← PRINT FULL ERROR!
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
 
     return {
@@ -2090,4 +2092,7 @@ async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
+    # for route in app.routes:
+    #     methods = ", ".join(route.methods)
+    #     print(f"{methods:20s} -> {route.path}")
     uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
