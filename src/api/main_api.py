@@ -534,6 +534,96 @@ async def get_regulation_text(granule_id: str):
         }
     }
 
+@app.post("/api/rag/run_compliance")
+async def run_rag_compliance(
+    payload: dict,
+    db: Session = Depends(get_db)
+):
+    """
+    Runs RAG compliance check on a user's uploaded file
+    against selected workspace regulations.
+    """
+
+    user_uid = payload.get("user_uid")
+    file_id = payload.get("file_id")
+    regulation_ids = payload.get("regulation_ids", [])
+
+    if not user_uid or not file_id:
+        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+
+    if not regulation_ids:
+        raise HTTPException(status_code=400, detail="No regulations selected")
+    print("==========================================kjebnjovnovjkefjoeko===============================")
+    print(user_uid)
+  
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, file_entry = result  # <--- THIS is the correct path
+
+    # Load workspace regulations
+    regs = (
+        db.query(WorkspaceRegulation)
+        .filter(
+            WorkspaceRegulation.user_uid == user_uid,
+            WorkspaceRegulation.id.in_(regulation_ids)
+        )
+        .all()
+    )
+
+    if not regs:
+        raise HTTPException(status_code=404, detail="No matching regulations found")
+
+    # Build compliance regulation objects
+    regulation_objs = []
+    for reg in regs:
+        regulation_objs.append({
+            "Reg_ID": reg.regulation_id,
+            "Requirement_Text": reg.description or reg.name or "",
+            "Risk_Rating": reg.risk or "",
+            "Target_Area": reg.category or "",
+            "Dow_Focus": reg.region or ""
+        })
+
+    # Run compliance check
+    try:
+        checker = RAGComplianceChecker(
+            pdf_path=file_path,          # <--- Correct file path used here
+            regulations=regulation_objs  # <--- Your reg list
+        )
+        results = checker.run_check()
+        summary = checker.dashboard_summary(results)
+
+    except Exception as e:
+        print("RAG ERROR:", e)
+        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+
+    return {
+        "status": "success",
+        "file": file_entry["original_name"],
+        "results": results,
+        "summary": summary
+    }
+
+
+@router.get("/api/v1/obligations/all")
+def get_all_obligations():
+    driver = get_neo4j_driver()
+    with driver.session() as session:
+        result = session.run("""
+            MATCH (o:Obligation)
+            RETURN o ORDER BY o.created_at DESC
+        """)
+        obligations = [record["o"] for record in result]
+
+    driver.close()
+
+    return {
+        "count": len(obligations),
+        "obligations": obligations
+    }
+
 def cache_refresher():
     while True:
         time.sleep(60 * 60 * 24)  # 24 hours
@@ -1400,6 +1490,72 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             content={"status": "error", "message": str(e)},
             status_code=500
         )
+
+class ComplianceRequest(BaseModel):
+    user_uid: str
+    file_id: str
+    regulation_ids: list[str]
+
+
+@router.post("/rag/run_compliance_payload")
+async def run_compliance_payload(payload: dict):
+    user_uid = payload.get("user_uid")
+    file_id = payload.get("file_id")
+    regulation_ids = payload.get("regulation_ids", [])
+
+    if not user_uid or not file_id:
+        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+
+    # --- Load file from JSON filehub ---
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Evidence file not found")
+
+    pdf_path, entry = result
+    print("USING FILE:", pdf_path)
+
+    db = next(get_db())
+
+    # --- Load regulations from DB ---
+    regs = db.query(WorkspaceRegulation).filter(
+        WorkspaceRegulation.user_uid == user_uid,
+        WorkspaceRegulation.id.in_(regulation_ids)
+    ).all()
+
+    if not regs:
+        raise HTTPException(status_code=404, detail="No regulations found")
+
+    # Build regulation objects
+    regulation_objs = []
+    for r in regs:
+        regulation_objs.append({
+            "Reg_ID": r.regulation_id,
+            "Requirement_Text": r.description or r.name or "",
+            "Risk_Rating": r.risk or "",
+            "Target_Area": r.category or "",
+            "Dow_Focus": r.region or ""
+        })
+
+    # --- Run RAG compliance ---
+    try:
+        checker = RAGComplianceChecker(
+            pdf_path=pdf_path,
+            regulations=regulation_objs
+        )
+        results = checker.run_check()
+        summary = checker.dashboard_summary(results)
+
+    except Exception as e:
+        print("❌ RAG ERROR:", e)
+        traceback.print_exc()           # ←← PRINT FULL ERROR!
+        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+
+    return {
+        "status": "success",
+        "file": entry["original_name"],
+        "results": results,
+        "summary": summary
+    }
 
 # external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)

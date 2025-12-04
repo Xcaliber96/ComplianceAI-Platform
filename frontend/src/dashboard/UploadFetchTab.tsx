@@ -8,12 +8,15 @@ import {
   type Obligation,
   getFileHubFiles,
   BASE_URL,
-  fetchWorkspace 
+  fetchWorkspace ,
+  runCompliance
 } from "../api/client";
 import { useFilters } from "../store/filters";
 
 export default function UploadFetchWizard() {
   const filters = useFilters();
+const [selectedEvidenceFileId, setSelectedEvidenceFileId] = useState("");
+const [selectedRegulationIds, setSelectedRegulationIds] = useState([]);
 
   const user_uid = localStorage.getItem("user_uid");  
   const [message, setMessage] = useState("");
@@ -21,7 +24,8 @@ const [selectedBackendFile, setSelectedBackendFile] = useState<string>("");
   // Step states
   const [selectedRegulation, setSelectedRegulation] = useState("GDPR");
   const [daysOffset, setDaysOffset] = useState(90);
-const [openDropdown, setOpenDropdown] = useState(false);
+const [openRegDropdown, setOpenRegDropdown] = useState(false);
+const [openFileDropdown, setOpenFileDropdown] = useState(false);
 const [selectedGranuleText, setSelectedGranuleText] = useState("");
 const [selectedGranuleObligations, setSelectedGranuleObligations] = useState([]);
   const [newObligation, setNewObligation] = useState({
@@ -29,6 +33,7 @@ const [selectedGranuleObligations, setSelectedGranuleObligations] = useState([])
     regulation: "",
     due_date: "",
   });
+  
   const [obligations, setObligations] = useState<Obligation[]>([]);
 const [workspaceRegulations, setWorkspaceRegulations] = useState([]);
 const importRegulationAndExtract = async (reg) => {
@@ -45,6 +50,7 @@ const importRegulationAndExtract = async (reg) => {
     full_text: full.text,
   };
 
+  
   const response = await fetch(`${BASE_URL}/api/regulations/import`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -69,6 +75,46 @@ useEffect(() => {
 
   loadRegulations();
 }, [user_uid]);
+
+const handleRunCompliance = async () => {
+  console.log("Selected Evidence File ID:", selectedEvidenceFileId);
+  console.log("Selected Regulation IDs:", selectedRegulationIds);
+  console.log("Drive Files:", driveFiles);
+  if (!user_uid) {
+    setMessage("Missing user session.");
+    return;
+  }
+
+  if (!selectedEvidenceFileId) {
+    setMessage("Select an evidence file first.");
+    return;
+  }
+
+  if (selectedRegulationIds.length === 0) {
+    setMessage("Select at least one regulation.");
+    return;
+  }
+
+  try {
+    const data = await runCompliance(
+      user_uid,
+      selectedEvidenceFileId,
+      selectedRegulationIds
+    );
+
+    setMessage(
+      `RAG completed with ${data.summary.total_requirements} checks.`
+    );
+
+    console.log("RAG results:", data);
+
+  } catch (err) {
+    console.error(err);
+    setMessage("RAG compliance check failed.");
+  }
+};
+
+
   const [source, setSource] = useState("Google");
   const [driveFiles, setDriveFiles] = useState<any[]>([]);
 
@@ -271,41 +317,47 @@ useEffect(() => {
 
   {/* Regulation Picker */}
   <div className="relative mt-4">
-    <button
-      onClick={() => setOpenDropdown(prev => !prev)}
-      className="w-full flex justify-between items-center rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50"
-    >
-      {workspaceRegulations.find(r => r.id === selectedBackendFile)?.name || "Select a regulation…"}
-      <span className="text-slate-500 ml-2">▾</span>
-    </button>
+<button
+  onClick={() => setOpenRegDropdown(prev => !prev)}
+  className="w-full flex justify-between items-center rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50"
+>
+  {selectedRegulationIds.length > 0
+    ? `${selectedRegulationIds.length} regulation(s) selected`
+    : "Select regulation(s)…"}
+  <span className="text-slate-500 ml-2">▾</span>
+</button>
 
-    {openDropdown && (
-      <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-xl">
-        {workspaceRegulations.map(reg => (
-          <div
-            key={reg.id}
-            onClick={() => {
-              setSelectedBackendFile(reg.id);
-              setSelectedGranuleObligations([]);
-              setOpenDropdown(false);
-              setMessage("");
-            }}
-            className="cursor-pointer px-4 py-3 hover:bg-slate-100 transition"
-          >
-            <p className="text-sm font-medium text-slate-800">
-              {reg.name}
-            </p>
-            <p className="text-[11px] text-slate-400">
-              ID: {reg.id} {reg.code ? `(${reg.code})` : ""}
-            </p>
+{openRegDropdown  && (
+  <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-xl">
+    {workspaceRegulations.map(reg => (
+      <div
+        key={reg.id}
+        onClick={() => {
+          setSelectedRegulationIds(prev =>
+            prev.includes(reg.id)
+              ? prev.filter(id => id !== reg.id)   // unselect
+              : [...prev, reg.id]                  // select
+          );
+        }}
+        className="cursor-pointer px-4 py-3 hover:bg-slate-100 transition"
+      >
+        <div className="flex justify-between items-center">
+          <p className="text-sm font-medium text-slate-800">{reg.name}</p>
 
-            {selectedBackendFile === reg.id && (
-              <span className="text-emerald-600 text-xs font-semibold">Selected ✓</span>
-            )}
-          </div>
-        ))}
+          {/* Checkmark if selected */}
+          {selectedRegulationIds.includes(reg.id) && (
+            <span className="text-emerald-600 text-xs font-semibold">✓</span>
+          )}
+        </div>
+
+        <p className="text-[11px] text-slate-400">
+          ID: {reg.id} {reg.code ? `(${reg.code})` : ""}
+        </p>
       </div>
-    )}
+    ))}
+  </div>
+)}
+
   </div>
 
   {/* Extract Button */}
@@ -316,11 +368,7 @@ useEffect(() => {
         return;
       }
 
-      const reg = workspaceRegulations.find(r => r.id === selectedBackendFile);
-      if (!reg) {
-        setMessage("Could not find regulation.");
-        return;
-      }
+     const reg = workspaceRegulations.find(r => r.id === selectedRegulationIds[0]);
 
       setMessage("Extracting obligations…");
 
@@ -501,49 +549,118 @@ useEffect(() => {
   </section>
 )} */}
 
+{/* -------------------- STEP 3 — FILE SELECTOR -------------------- */}
+<section className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100">
+  <div className="flex items-start gap-3">
+    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-purple-100 text-xs font-semibold text-purple-700">
+      3
+    </span>
+    <div>
+      <h2 className="text-sm font-semibold text-slate-900">
+        Select Evidence File
+      </h2>
+      <p className="mt-1 text-xs text-slate-500">
+        Choose a file from your workspace file hub. You can download or
+        attach it for compliance mapping.
+      </p>
+    </div>
+  </div>
+
+  {/* FILE DROPDOWN */}
+  <div className="relative mt-4">
+    <button
+      onClick={() => setOpenFileDropdown(prev => !prev)}
+      className="w-full flex justify-between items-center rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50"
+    >
+      {selectedBackendFile
+        ? driveFiles.find(f => f.id === selectedBackendFile)?.name
+        : "Select a file from FileHub…"}
+      <span className="text-slate-500 ml-2">▾</span>
+    </button>
+
+    {openFileDropdown  && (
+      <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-xl">
+        {driveFiles.length === 0 && (
+          <p className="text-xs text-slate-500 p-4 text-center">
+            No files available.
+          </p>
+        )}
+
+        {driveFiles.map(f => (
+          <div
+            key={f.id}
+            onClick={() => {
+              setSelectedEvidenceFileId(f.id);
+              setOpenFileDropdown(false);
+              setMessage(`Selected file: ${f.name}`);
+            }}
+            className="cursor-pointer px-4 py-3 hover:bg-slate-100 transition"
+          >
+            <p className="text-sm font-medium text-slate-800">{f.name}</p>
+            <p className="text-[11px] text-slate-400">ID: {f.id}</p>
+
+            {selectedBackendFile === f.id && (
+              <span className="text-emerald-600 text-xs font-semibold">
+                Selected ✓
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+    )}
+  </div>
+
+  {/* ACTION BUTTONS */}
+  {selectedBackendFile && (
+    <div className="mt-4 flex gap-3">
 
 
-            {/* -------------------- STEP 4 -------------------- */}
-            <section className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100">
-              <div className="flex items-start gap-3">
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-200 text-xs font-semibold text-slate-700">
-                  4
-                </span>
-                <div>
-                  <h2 className="text-sm font-semibold text-slate-900">
-                    Upload evidence & run audit
-                  </h2>
-                  <p className="mt-1 text-xs text-slate-500">
-                    Upload a PDF to trigger internal AI-based auditing.
-                  </p>
-                </div>
-              </div>
+<button
+  onClick={() => {
+    // set the selected evidence file
+    setSelectedEvidenceFileId(selectedBackendFile);
 
-              <div className="mt-4 space-y-4">
-                <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 hover:bg-slate-100">
-                  <span className="rounded-full bg-white px-3 py-1 text-xs font-medium text-slate-700 border border-slate-300">
-                    Choose PDF
-                  </span>
-                  <span className="text-xs text-slate-600">
-                    {selectedFile?.name ?? "No file selected"}
-                  </span>
-                  <input
-                    type="file"
-                    accept="application/pdf"
-                    hidden
-                    onChange={(e) => setSelectedFile(e.target.files?.[0] ?? null)}
-                  />
-                </label>
+    setOpenFileDropdown(false);
 
-                <button
-                  onClick={handleUpload}
-                  disabled={!selectedFile || uploading}
-                  className="w-full rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-700 disabled:bg-slate-300 disabled:text-slate-500"
-                >
-                  {uploading ? "Uploading..." : "Upload & start audit"}
-                </button>
-              </div>
-            </section>
+    const file = driveFiles.find(f => f.id === selectedBackendFile);
+    setMessage(`File ready for auditing: ${file?.name}`);
+  }}
+  className="flex-1 rounded-lg bg-emerald-600 px-4 py-2 text-xs font-medium text-white hover:bg-emerald-700"
+>
+  Use as Evidence
+</button>
+    </div>
+  )}
+</section>
+
+            {}
+  <section className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100">
+  <div className="flex items-start gap-3">
+    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-200 text-xs font-semibold text-slate-700">
+      4
+    </span>
+    <div>
+      <h2 className="text-sm font-semibold text-slate-900">
+        Run Compliance Check
+      </h2>
+      <p className="mt-1 text-xs text-slate-500">
+        The selected FileHub PDF will be analyzed against your chosen regulations.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-4 space-y-4">
+    <button
+      
+      onClick={handleRunCompliance}
+      disabled={!selectedEvidenceFileId || selectedRegulationIds.length === 0}
+      className="w-full rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-emerald-700 disabled:bg-slate-300 disabled:text-slate-500"
+    >
+      Run Compliance Check
+    </button>
+  </div>
+</section>
+
           </main>
 
           {}

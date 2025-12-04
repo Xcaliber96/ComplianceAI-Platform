@@ -370,6 +370,7 @@ export const uploadForInternalAudit = async (file: File) => {
   return response.data
 }
 
+
 export const runExternalIntelligence = async (industry: string) => {
   const response = await apiClient.get('/api/external_intelligence', {
     params: { industry },
@@ -388,6 +389,21 @@ export async function importRegulations(user_uid: string, regulations: any[]) {
 
   return res.data;
 }
+export const runCompliance = async (
+  user_uid: string,
+  file_id: string,
+  regulation_ids: string[]
+) => {
+  const payload = {
+    user_uid,
+    file_id,
+    regulation_ids,
+  };
+
+  const { data } = await apiClient.post("/api/rag/run_compliance_payload", payload);
+  return data;
+};
+
 
 export const runRagCompliance = async (
   file: File,
