@@ -135,8 +135,30 @@ from typing import Dict, Any
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
+from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
 
-app = FastAPI()
+from contextlib import asynccontextmanager
+import threading
+import time
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("[Startup] Building Federal Register cache...")
+    refresh_package_cache()
+    print("[Startup] Launching 24h refresher...")
+    threading.Thread(target=cache_refresher, daemon=True).start()
+
+    print("[Startup] Ensuring Neo4j audit indexes...")
+    try:
+        ensure_audit_indexes()
+    except Exception as e:
+        print(f"Warning: Could not initialize audit indexes: {e}")
+
+    yield
+
+    print("[Shutdown] Application shutting down...")
+
+app = FastAPI(lifespan=lifespan)
 from src.api.obligations_ingest import router as obligations_router
 app.include_router(obligations_router)
 # dev origins — include the exact origin your frontend uses (update if different)
@@ -162,12 +184,9 @@ async def cors_preflight_handler(rest_of_path: str):
 app.include_router(graph_router)
 from src.api.obligations_ingest import router as obligations_router
 app.include_router(obligations_router)
+app.include_router(audit_router)
 
-# src/api/main_api.py (add this near the top, after app and CORSMiddleware)
-from fastapi import Response
-from fastapi.responses import PlainTextResponse
 
-# handle preflight OPTIONS for any path to avoid custom middleware/validation firing
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
     # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
@@ -420,13 +439,6 @@ def local_regulation_search(q: str = Query(..., description="Search topic across
         return {"query": q,"results_count": len(results), "results": results,}
     except Exception as e:
         return JSONResponse( content={"error": str(e)},status_code=500 )
-@app.on_event("startup")
-def startup_events():
-    print("[Startup] Building Federal Register cache…")
-    refresh_package_cache()
-    print("[Startup] Launching 24h refresher...")
-    threading.Thread(target=cache_refresher, daemon=True).start()
-
 
 @app.get("/api/regulations/local/granules/{package_id}")
 def list_package_granules(package_id: str):
@@ -543,38 +555,36 @@ async def run_rag_compliance(
     Runs RAG compliance check on a user's uploaded file
     against selected workspace regulations.
     """
-
     user_uid = payload.get("user_uid")
     file_id = payload.get("file_id")
     regulation_ids = payload.get("regulation_ids", [])
-
+    supplier_id = payload.get("supplier_id")  # Optional supplier ID
+    
     if not user_uid or not file_id:
         raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
-
+    
     if not regulation_ids:
         raise HTTPException(status_code=400, detail="No regulations selected")
-    print("==========================================kjebnjovnovjkefjoeko===============================")
-    print(user_uid)
-  
+    
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
-
-    file_path, file_entry = result  # <--- THIS is the correct path
-
+    
+    file_path, file_entry = result
+    
     # Load workspace regulations
     regs = (
         db.query(WorkspaceRegulation)
         .filter(
             WorkspaceRegulation.user_uid == user_uid,
-            WorkspaceRegulation.id.in_(regulation_ids)
+            WorkspaceRegulation.regulation_id.in_(regulation_ids)
         )
         .all()
     )
-
+    
     if not regs:
         raise HTTPException(status_code=404, detail="No matching regulations found")
-
+    
     # Build compliance regulation objects
     regulation_objs = []
     for reg in regs:
@@ -585,26 +595,51 @@ async def run_rag_compliance(
             "Target_Area": reg.category or "",
             "Dow_Focus": reg.region or ""
         })
-
+    
     # Run compliance check
     try:
         checker = RAGComplianceChecker(
-            pdf_path=file_path,          # <--- Correct file path used here
-            regulations=regulation_objs  # <--- Your reg list
+            pdf_path=file_path,
+            regulations=regulation_objs
         )
         results = checker.run_check()
         summary = checker.dashboard_summary(results)
-
     except Exception as e:
         print("RAG ERROR:", e)
         raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
-
+    
+    # 🆕 SAVE TO NEO4J
+    try:
+        audit_save_result = upsert_audit_to_neo4j(
+            user_uid=user_uid,
+            file_id=file_id,
+            supplier_id=supplier_id,
+            results=results,
+            summary=summary,
+            metadata={
+                "file_name": file_entry.get("original_name"),
+                "regulation_count": len(regulation_objs)
+            }
+        )
+        
+        if not audit_save_result.get("ok"):
+            print(f"⚠️ Failed to save audit to Neo4j: {audit_save_result.get('error')}")
+        else:
+            print(f"✅ Audit saved to Neo4j: {audit_save_result.get('audit_id')}")
+        
+    except Exception as e:
+        # Don't fail the whole request if Neo4j save fails
+        print(f" Neo4j save error (non-fatal): {e}")
+        traceback.print_exc()
+    
     return {
         "status": "success",
         "file": file_entry["original_name"],
         "results": results,
-        "summary": summary
+        "summary": summary,
+        "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None
     }
+
 
 
 @router.get("/api/v1/obligations/all")
@@ -657,7 +692,7 @@ def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(g
     db.commit()
     db.refresh(item)
 
-    # ⭐ ONLY RETURN WHAT FRONTEND NEEDS
+    #  ONLY RETURN WHAT FRONTEND NEEDS
     return {"status": item.workspace_status}
 
 @app.get("/api/user/{user_uid}/granules")
@@ -693,12 +728,12 @@ async def session_login(request: Request, response: Response):
     email = decoded.get("email")
 
     print("\n==============================")
-    print("🔥 /session/login CALLED")
+    print(" /session/login CALLED")
     print("==============================")
 
-    print("🔑 ID Token (first 50 chars):", id_token[:50] + "..." if id_token else None)
-    print("👤 UID:", uid)
-    print("📧 Email from token:", email)
+    print(" ID Token (first 50 chars):", id_token[:50] + "..." if id_token else None)
+    print(" UID:", uid)
+    print(" Email from token:", email)
 
     try:
         store_user_if_new(uid, email)
@@ -1497,20 +1532,16 @@ class ComplianceRequest(BaseModel):
     regulation_ids: list[str]
 
 
-@app.post("/api/rag/run_compliance_payload")
+@router.post("/rag/run_compliance_payload")
 async def run_compliance_payload(payload: dict):
-    print(">>> LOADED main_api.py from HERE <<<")
-
     user_uid = payload.get("user_uid")
     file_id = payload.get("file_id")
-    regulation_ids = payload.get("regulation_ids", [])   # <-- KEEP AS STRINGS
-
-    print(user_uid, file_id, regulation_ids)
+    regulation_ids = payload.get("regulation_ids", [])
 
     if not user_uid or not file_id:
         raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
 
-    # Load file path
+    # --- Load file from JSON filehub ---
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Evidence file not found")
@@ -1520,7 +1551,7 @@ async def run_compliance_payload(payload: dict):
 
     db = next(get_db())
 
-    # IMPORTANT: filter by regulation_id (string), not id (int)
+    # --- Load regulations from DB ---
     regs = db.query(WorkspaceRegulation).filter(
         WorkspaceRegulation.user_uid == user_uid,
         WorkspaceRegulation.regulation_id.in_(regulation_ids)
@@ -1529,7 +1560,7 @@ async def run_compliance_payload(payload: dict):
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
 
-    # Build RAG regulation objects
+    # Build regulation objects
     regulation_objs = []
     for r in regs:
         regulation_objs.append({
@@ -1537,9 +1568,10 @@ async def run_compliance_payload(payload: dict):
             "Requirement_Text": r.description or r.name or "",
             "Risk_Rating": r.risk or "",
             "Target_Area": r.category or "",
-            "Dow_Focus": "",
+            "Dow_Focus": r.region or ""
         })
 
+    # --- Run RAG compliance ---
     try:
         checker = RAGComplianceChecker(
             pdf_path=pdf_path,
@@ -1549,7 +1581,8 @@ async def run_compliance_payload(payload: dict):
         summary = checker.dashboard_summary(results)
 
     except Exception as e:
-        traceback.print_exc()
+        print("❌ RAG ERROR:", e)
+        traceback.print_exc()           # ←← PRINT FULL ERROR!
         raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
 
     return {
@@ -2092,7 +2125,4 @@ async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
-    # for route in app.routes:
-    #     methods = ", ".join(route.methods)
-    #     print(f"{methods:20s} -> {route.path}")
     uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
