@@ -401,10 +401,7 @@ async def get_obligations_for_user(user_uid: str, limit: int = Query(100, gt=0, 
         return JSONResponse(content={"ok": False, "error": str(e)}, status_code=500)
 
 
-# -------------------------------
-# Optional helper to create indexes for production scaling
-# run once manually or call at startup if you prefer
-# -------------------------------
+
 def ensure_neo4j_indexes():
     """
     Creates indexes used for lookups
@@ -431,8 +428,4 @@ def ensure_neo4j_indexes():
     driver.close()
 
 
-# note for operators
-# run ensure_neo4j_indexes() once after your neo4j is up or run these commands in the neo4j browser
-# CREATE INDEX IF NOT EXISTS FOR (o:Obligation) ON (o.obligation_id);
-# CREATE INDEX IF NOT EXISTS FOR (o:Obligation) ON (o.user_uid);
-# CREATE INDEX IF NOT EXISTS FOR (r:Regulation) ON (r.regulation_id);
+
