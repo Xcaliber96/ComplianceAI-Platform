@@ -116,4 +116,3 @@ def search_packages_by_topic(topic: str):
 if __name__ == "__main__":
     user_input = input("Enter something: ")
     result = route(user_input)
-    # print(result)

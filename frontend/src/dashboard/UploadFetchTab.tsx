@@ -13,6 +13,7 @@ import {
 } from "../api/client";
 import { useFilters } from "../store/filters";
 import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
 
 type StepCardProps = {
   step: number | string;
@@ -23,7 +24,7 @@ type StepCardProps = {
 
 function StepCard({ step, title, description, children }: StepCardProps) {
   return (
-    <section className="relative overflow-hidden rounded-2xl bg-white/90 p-5 shadow-sm ring-1 ring-slate-100">
+    <section className="relative overflow-visible rounded-2xl bg-white/90 p-5 shadow-sm ring-1 ring-slate-100">
       {/* soft emerald accent bar */}
       <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-200 via-emerald-300 to-emerald-100" />
 
@@ -44,6 +45,7 @@ function StepCard({ step, title, description, children }: StepCardProps) {
 
 export default function UploadFetchWizard() {
   const navigate = useNavigate();   
+  const [runningAudit, setRunningAudit] = useState(false);
   const filters = useFilters(); // still here so behavior/backends remain unchanged
 
   const [selectedEvidenceFileId, setSelectedEvidenceFileId] =
@@ -51,7 +53,7 @@ export default function UploadFetchWizard() {
   const [selectedRegulationIds, setSelectedRegulationIds] = useState<any[]>([]);
 
   const user_uid = localStorage.getItem("user_uid");
-
+const [extracting, setExtracting] = useState(false);
   const [message, setMessage] = useState("");
   const [selectedRegulation, setSelectedRegulation] = useState("GDPR");
   const [daysOffset, setDaysOffset] = useState(90);
@@ -109,8 +111,38 @@ export default function UploadFetchWizard() {
     const imported = await response.json();
     return imported;
   };
+const regDropdownRef = useRef<HTMLDivElement | null>(null);
+const fileDropdownRef = useRef<HTMLDivElement | null>(null);
 
-  // ---- API: load obligations (define before useEffect) ----
+useEffect(() => {
+  function handleClickOutside(event: MouseEvent) {
+    // Regulation dropdown
+    if (
+      openRegDropdown &&
+      regDropdownRef.current &&
+      !regDropdownRef.current.contains(event.target as Node)
+    ) {
+      setOpenRegDropdown(false);
+    }
+
+    // File dropdown
+    if (
+      openFileDropdown &&
+      fileDropdownRef.current &&
+      !fileDropdownRef.current.contains(event.target as Node)
+    ) {
+      setOpenFileDropdown(false);
+    }
+  }
+
+  document.addEventListener("mousedown", handleClickOutside);
+
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+  };
+}, [openRegDropdown, openFileDropdown]);
+
+
   const loadObligations = async () => {
     try {
       const res = await getObligations();
@@ -162,26 +194,27 @@ const handleRunCompliance = async () => {
     return;
   }
 
+  setRunningAudit(true);   
+
   try {
     const auditData = await runCompliance(
       user_uid,
       selectedEvidenceFileId,
       selectedRegulationIds
     );
+    
+await new Promise(res => setTimeout(res, 150));  
 
-    console.log("Audit saved:", auditData.audit_id);
+navigate("/dashboard/results", { state: auditData });
 
-    // Redirect to results page with audit data
-    navigate("/dashboard/results", {
-      state: auditData,   // 🔥 pass full audit results to the results page
-    });
-
+    navigate("/dashboard/results", { state: auditData });
   } catch (err) {
     console.error(err);
     setMessage("RAG compliance check failed.");
+  } finally {
+    setRunningAudit(false);  
   }
 };
-
   // API: auto-generate obligations
   const handleAutoGenerate = async () => {
     try {
@@ -275,8 +308,8 @@ const handleRunCompliance = async () => {
       setMessage("Could not find the selected regulation.");
       return;
     }
+  setExtracting(true);             
 
-    setMessage("Extracting obligations…");
 
     try {
       const full = await fetch(`${BASE_URL}/api/regulation/${reg.id}`).then(
@@ -405,7 +438,8 @@ const handleRunCompliance = async () => {
                 </button>
 
                 {openRegDropdown && (
-                  <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
+                  <div   ref={regDropdownRef} className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
+                   
                     {workspaceRegulations.length === 0 && (
                       <p className="p-4 text-center text-xs text-slate-500">
                         No regulations found for this workspace.
@@ -423,6 +457,7 @@ const handleRunCompliance = async () => {
                                 ? prev.filter((id) => id !== reg.id)
                                 : [...prev, reg.id]
                             );
+                              setOpenRegDropdown(false);
                           }}
                           className={`cursor-pointer px-4 py-3 text-sm transition ${
                             isSelected
@@ -457,9 +492,12 @@ const handleRunCompliance = async () => {
 
               <button
                 onClick={handleExtractObligations}
-                className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
+                disabled={extracting}
+                className={`w-full rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm transition
+                  ${extracting ? "bg-slate-300 cursor-not-allowed" : "bg-emerald-500 hover:bg-emerald-600"}
+                `}
               >
-                Extract obligations
+                {extracting ? "Extracting…" : "Extract obligations"}
               </button>
 
               {selectedGranuleObligations.length > 0 && (
@@ -565,13 +603,13 @@ const handleRunCompliance = async () => {
                   className="mt-1 flex w-full items-center justify-between rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                 >
                   {selectedEvidenceFile
-                    ? selectedEvidenceFile.name
+                    ? selectedEvidenceFile.original_name
                     : "Select a file from FileHub…"}
                   <span className="ml-2 text-slate-400">▾</span>
                 </button>
 
                 {openFileDropdown && (
-                  <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
+                  <div ref={fileDropdownRef} className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
                     {driveFiles.length === 0 && (
                       <p className="p-4 text-center text-xs text-slate-500">
                         No files available.
@@ -586,7 +624,7 @@ const handleRunCompliance = async () => {
                           onClick={() => {
                             setSelectedEvidenceFileId(f.id);
                             setOpenFileDropdown(false);
-                            setMessage(`Selected file: ${f.name}`);
+                            setMessage(`Selected file: ${f.original_name}`);
                           }}
                           className={`cursor-pointer px-4 py-3 text-sm transition ${
                             isSelected
@@ -594,10 +632,8 @@ const handleRunCompliance = async () => {
                               : "hover:bg-slate-50"
                           }`}
                         >
-                          <p className="font-medium">{f.name}</p>
-                          <p className="text-[11px] text-slate-400">
-                            ID: {f.id}
-                          </p>
+                          <p className="font-medium">{f.original_name}</p>
+       
                           {isSelected && (
                             <span className="mt-1 inline-flex rounded-full bg-emerald-100 px-2 py-[2px] text-[10px] font-semibold text-emerald-700">
                               Selected ✓
@@ -617,7 +653,7 @@ const handleRunCompliance = async () => {
                   </p>
                   <p className="mt-1 truncate">
                     <span className="font-medium">Name:</span>{" "}
-                    {selectedEvidenceFile.name}
+                    {selectedEvidenceFile.original_name}
                   </p>
                   <p className="truncate text-[11px]">
                     <span className="font-medium">ID:</span>{" "}
@@ -632,17 +668,24 @@ const handleRunCompliance = async () => {
               step={4}
               title="Run compliance check"
               description="We’ll analyze the selected evidence file against your chosen regulations using AI-based retrieval and reasoning."
-            >
-              <button
-                onClick={handleRunCompliance}
-                disabled={
-                  !selectedEvidenceFileId ||
-                  selectedRegulationIds.length === 0
-                }
-                className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
-              >
-                Run compliance check
-              </button>
+            ><button
+  onClick={handleRunCompliance}
+  disabled={
+    runningAudit ||
+    !selectedEvidenceFileId ||
+    selectedRegulationIds.length === 0
+  }
+  className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
+>
+  {runningAudit ? "Running audit…" : "Run compliance check"}
+</button>
+
+{runningAudit && (
+  <div className="flex items-center gap-2 mt-2 text-xs text-emerald-700">
+    <div className="h-3 w-3 animate-spin rounded-full border-2 border-emerald-500 border-t-transparent"></div>
+    Running compliance audit…
+  </div>
+)}
 
               {message && (
                 <p className="text-xs text-slate-600">{message}</p>
