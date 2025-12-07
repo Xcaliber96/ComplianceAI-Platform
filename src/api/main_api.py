@@ -607,8 +607,7 @@ async def run_rag_compliance(
     except Exception as e:
         print("RAG ERROR:", e)
         raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
-    
-    # 🆕 SAVE TO NEO4J
+
     try:
         audit_save_result = upsert_audit_to_neo4j(
             user_uid=user_uid,
@@ -1531,8 +1530,7 @@ class ComplianceRequest(BaseModel):
     file_id: str
     regulation_ids: list[str]
 
-
-@router.post("/rag/run_compliance_payload")
+@app.post("/api/rag/run_compliance_payload")
 async def run_compliance_payload(payload: dict):
     user_uid = payload.get("user_uid")
     file_id = payload.get("file_id")
@@ -1541,7 +1539,6 @@ async def run_compliance_payload(payload: dict):
     if not user_uid or not file_id:
         raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
 
-    # --- Load file from JSON filehub ---
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Evidence file not found")
@@ -1551,7 +1548,6 @@ async def run_compliance_payload(payload: dict):
 
     db = next(get_db())
 
-    # --- Load regulations from DB ---
     regs = db.query(WorkspaceRegulation).filter(
         WorkspaceRegulation.user_uid == user_uid,
         WorkspaceRegulation.regulation_id.in_(regulation_ids)
@@ -1560,7 +1556,6 @@ async def run_compliance_payload(payload: dict):
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
 
-    # Build regulation objects
     regulation_objs = []
     for r in regs:
         regulation_objs.append({
@@ -1571,7 +1566,6 @@ async def run_compliance_payload(payload: dict):
             "Dow_Focus": r.region or ""
         })
 
-    # --- Run RAG compliance ---
     try:
         checker = RAGComplianceChecker(
             pdf_path=pdf_path,
@@ -1579,17 +1573,45 @@ async def run_compliance_payload(payload: dict):
         )
         results = checker.run_check()
         summary = checker.dashboard_summary(results)
+        print("\n================= 🔍 DEBUG: RAW RESULTS =================")
+        print(results)
+        print("=========================================================\n")
 
+        print("================= 🔍 DEBUG: SUMMARY =====================")
+        print(summary)
+        print("=========================================================\n")
     except Exception as e:
         print("❌ RAG ERROR:", e)
-        traceback.print_exc()           # ←← PRINT FULL ERROR!
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+
+    audit_save = upsert_audit_to_neo4j(
+        user_uid=user_uid,
+        file_id=file_id,
+        supplier_id=None,
+        results=results,
+        summary=summary,
+        metadata={}
+    )
+
+    if not audit_save["ok"]:
+        raise HTTPException(status_code=500, detail=audit_save["error"])
+
+    audit_id = audit_save["audit_id"]
 
     return {
         "status": "success",
+        "audit_id": audit_id,                 
         "file": entry["original_name"],
+
         "results": results,
-        "summary": summary
+        "summary": summary,
+
+        "compliance_score": summary.get("compliance_score"),
+        "total_requirements": summary.get("total_requirements"),
+        "gap_count": summary.get("gap_count"),
+        "high_risk_count": summary.get("high_risk_gaps"),
+        "flagged_departments": summary.get("departments_flagged", []),
     }
 
 # external_intelligence endpoint updated to use safe_chat_completion
