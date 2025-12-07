@@ -1,210 +1,310 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
-const metrics = [
-  {
-    label: "Total Tasks",
-    value: 0,
-    description: "All tasks currently tracked in your workspace.",
-    highlight: true,
+// ------------------ TYPES ------------------
+
+type RiskRating = "Low" | "Medium" | "High" | string;
+
+interface AuditResultItem {
+  Reg_ID: string;
+  Requirement_Text: string;
+  Risk_Rating: RiskRating;
+  match_score: number;
+  gap_flag: boolean;
+  evidence?: string;
+  narrative?: string;
+  department?: string;
+}
+
+interface AuditSummary {
+  compliance_score: number;
+  total_requirements: number;
+  gap_count: number;
+  high_risk_gaps: number;
+  departments_flagged: string[];
+}
+
+export interface AuditOutput {
+  status: string;
+  audit_id: string;
+  file: string;
+  user_uid: string;
+  results: AuditResultItem[];
+  summary: AuditSummary;
+}
+
+// ------------------ MOCK DATA (fallback only) ------------------
+
+const mockAuditData: AuditOutput = {
+  status: "success",
+  audit_id: "AID-MOCK",
+  file: "mock.pdf",
+  user_uid: "mock_user",
+  summary: {
+    compliance_score: 0,
+    total_requirements: 0,
+    gap_count: 0,
+    high_risk_gaps: 0,
+    departments_flagged: [],
   },
-  {
-    label: "Completed Tasks",
-    value: 0,
-    description: "Tasks finished and verified as complete.",
-  },
-  {
-    label: "Overdue Tasks",
-    value: 0,
-    description: "Tasks that passed their due date.",
-  },
-  {
-    label: "Breached Tasks",
-    value: 0,
-    description: "Tasks that breached a critical SLA or control.",
-  },
-  {
-    label: "Compliance Score",
-    value: "82%",
-    description: "Overall compliance posture across all regulations.",
-  },
-  {
-    label: "Regulations Audited",
-    value: 5,
-    description: "Total regulations analyzed by the AI audit engine.",
-  },
-  {
-    label: "Total Gaps Found",
-    value: 13,
-    description: "Outstanding missing controls, evidence, or policy issues.",
-  },
-  {
-    label: "Files Added",
-    value: 14,
-    description: "Documents uploaded recently into your workspace.",
-  },
-];
+  results: [],
+};
+
+// ------------------ HELPERS ------------------
+
+function getScoreColor(score: number): string {
+  if (score >= 80) return "text-emerald-600 bg-emerald-50 border-emerald-200";
+  if (score >= 50) return "text-amber-600 bg-amber-50 border-amber-200";
+  return "text-rose-600 bg-rose-50 border-rose-200";
+}
+
+function getRowColor(item: AuditResultItem): string {
+  if (item.gap_flag && item.Risk_Rating.toLowerCase() === "high") {
+    return "bg-rose-50";
+  }
+  if (item.gap_flag) return "bg-amber-50";
+  if (item.match_score > 0.8) return "bg-emerald-50";
+  return "bg-white";
+}
+
+function riskToLevel(r: RiskRating): "LOW" | "MED" | "HIGH" {
+  const v = r.toString().toLowerCase();
+  if (v === "high") return "HIGH";
+  if (v === "medium" || v === "med") return "MED";
+  return "LOW";
+}
+
+function buildRiskHeatmap(results: AuditResultItem[]) {
+  const map: Record<string, { LOW: number; MED: number; HIGH: number }> = {};
+  for (const r of results) {
+    const dept = r.department || "Other";
+    const lvl = riskToLevel(r.Risk_Rating);
+    if (!map[dept]) map[dept] = { LOW: 0, MED: 0, HIGH: 0 };
+    if (r.gap_flag) map[dept][lvl] += 1;
+  }
+  return map;
+}
+
+// ------------------ COMPONENT ------------------
 
 const AuditResultsTab: React.FC = () => {
+  const location = useLocation();
+
+  // console.log("🎯 Received navigation state:", location.state);
+
+  // Use backend data if passed, otherwise fallback to mock
+  const data: AuditOutput = location.state || mockAuditData;
+
+  // console.log("📦 Final audit data being used:", data);
+
+  // SAFETY GUARDS — prevent undefined.length crash
+  if (!data || typeof data !== "object") {
+    console.warn("⚠️ No audit data at all. Rendering fallback.");
+    return <div className="p-6 text-red-600">No audit data available.</div>;
+  }
+
+  if (!Array.isArray(data.results)) {
+    console.warn("⚠️ data.results missing or invalid:", data.results);
+    return <div className="p-6 text-red-600">No results found for this audit.</div>;
+  }
+
+  // console.log("📊 Total results:", data.results.length);
+const summary: AuditSummary = data.summary || {
+  compliance_score: 0,
+  total_requirements: 0,
+  gap_count: 0,
+  high_risk_gaps: 0,
+  departments_flagged: [],
+};
+
+const results: AuditResultItem[] = Array.isArray(data.results)
+  ? data.results
+  : [];
+
+  const gaps = results.filter((r) => r.gap_flag);
+  const heatmap = buildRiskHeatmap(results);
+  const scoreColor = getScoreColor(summary.compliance_score);
+
   return (
-    <div className="min-h-screen text-slate-900">
-      <main className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 lg:flex-row">
-        
-        {/* LEFT SIDE – MAIN CONTENT */}
-        <div className="flex-1 space-y-8">
-          
-          {/* Header */}
-          <div>
-            <h1 className="text-3xl font-semibold tracking-tight">
-              Dashboard Summary
-            </h1>
-            <p className="mt-2 max-w-xl text-sm text-slate-500">
-              View total tasks, compliance progress, regulations audited, gaps found,
-              and document activity in your workspace.
-            </p>
-          </div>
+    <div className="min-h-screen bg-slate-50 text-slate-900">
 
-          {/* Step 1 – Metrics */}
-          <section className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-            <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-100 text-xs font-semibold text-emerald-700">
-                1
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.12em] text-emerald-600">
-                  Overview
-                </p>
-                <p className="text-sm text-slate-500">
-                  Review key metrics for your workspace.
-                </p>
-              </div>
-            </div>
+      {/* ---------------- HEADER ---------------- */}
+      <div className="mx-auto max-w-6xl px-4 py-8">
+        <header className="border-b pb-4 mb-6">
+          <h1 className="text-2xl font-semibold">Compliance Audit Results</h1>
+          <p className="text-sm text-slate-600">
+            File: <strong>{data.file}</strong>
+          </p>
+          <p className="text-xs text-slate-400">
+            Audit ID: <span className="font-mono">{data.audit_id}</span>
+          </p>
+        </header>
 
-            <div className="grid gap-4 md:grid-cols-2">
-              {metrics.map((metric) => (
-                <MetricCard key={metric.label} {...metric} />
-              ))}
-            </div>
-          </section>
+        {/*  SUMMARY  */}
+        <section className="grid gap-4 md:grid-cols-[2fr,1fr]">
 
-          {/* Step 2 – Activity */}
-          <section className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-            <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 text-xs font-semibold text-sky-700">
-                2
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.12em] text-sky-600">
-                  Recent Activity
-                </p>
-                <p className="text-sm text-slate-500">
-                  Latest audits, gaps updates, and file uploads.
-                </p>
-              </div>
-            </div>
-
-            <div className="h-48 rounded-2xl border border-dashed border-slate-200 bg-slate-50/70 flex items-center justify-center text-sm text-slate-400">
-              Activity timeline placeholder
-            </div>
-          </section>
-
-          {/* Step 3 – Review */}
-          <section className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100">
-            <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-indigo-100 text-xs font-semibold text-indigo-700">
-                3
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.12em] text-indigo-600">
-                  Review Tasks
-                </p>
-                <p className="text-sm text-slate-500">
-                  Prioritize overdue or breached items.
-                </p>
-              </div>
-            </div>
-
-            <div className="h-40 rounded-2xl border border-dashed border-slate-200 bg-slate-50/70 flex items-center justify-center text-sm text-slate-400">
-              Task list preview placeholder
-            </div>
-          </section>
-        </div>
-
-        {/* RIGHT SIDE – INFO PANEL */}
-        <aside className="w-full space-y-4 lg:w-80">
-          
-          {/* Dark info card */}
-          <div className="rounded-3xl bg-slate-900 p-6 text-slate-50 shadow-md">
-            <h2 className="mb-2 text-sm font-semibold tracking-[0.18em] text-emerald-300">
-              HOW THIS WORKS
+          {/* Summary Card */}
+          <div className="rounded-xl bg-white p-5 shadow">
+            <h2 className="text-sm font-semibold uppercase text-slate-500">
+              Compliance Score
             </h2>
-            <p className="mb-4 text-sm text-slate-200">
-              This dashboard aggregates insights from audits, tasks, regulations,
-              and workspace documents to show your compliance health.
-            </p>
 
-            <ul className="space-y-2 text-sm text-slate-200">
-              <li>• Monitor compliance score and gaps.</li>
-              <li>• Review overdue and breached tasks first.</li>
-              <li>• Use activity insights to plan follow-up actions.</li>
-            </ul>
+            <div className="flex justify-between items-center mt-4">
+              <div>
+                <p className="text-xs text-slate-400">
+                  Overall performance against selected regulations
+                </p>
+              </div>
+
+              <div className={`h-20 w-20 rounded-full flex items-center justify-center border-4 text-xl font-bold ${scoreColor}`}>
+                {summary.compliance_score}%
+              </div>
+            </div>
+
+            <div className="mt-5 grid grid-cols-2 gap-3 text-sm bg-slate-50 p-4 rounded-lg">
+              <div>
+                <p className="text-xs text-slate-500 uppercase">Requirements</p>
+                <p className="font-semibold">{summary.total_requirements}</p>
+              </div>
+              <div>
+                <p className="text-xs text-slate-500 uppercase">Gaps</p>
+                <p className="font-semibold text-amber-600">{summary.gap_count}</p>
+              </div>
+              <div>
+                <p className="text-xs text-slate-500 uppercase">High Risk</p>
+                <p className="font-semibold text-rose-600">{summary.high_risk_gaps}</p>
+              </div>
+              <div>
+                <p className="text-xs text-slate-500 uppercase">Departments</p>
+                <p className="font-semibold">{(summary.departments_flagged || []).length}</p>
+              </div>
+            </div>
           </div>
+          
 
-          {/* Light next-step card */}
-          <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-slate-100">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
-              Next step
-            </h3>
-            <p className="mt-2 text-sm text-slate-600">
-              Explore detailed data in regulations, gaps, tasks, and files.
+          {/* File Info */}
+          <div className="rounded-xl bg-white p-5 shadow">
+            <h2 className="text-sm font-semibold uppercase text-slate-500">
+              Evidence File
+            </h2>
+            <p className="mt-3 text-sm">
+              <strong>{data.file}</strong>
             </p>
-
-            <button className="mt-4 inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-xs font-medium text-white hover:bg-slate-800">
-              Go to tasks
-            </button>
+            <p className="text-xs text-slate-500 mt-1">Uploaded by {data.user_uid}</p>
           </div>
+        </section>
 
-        </aside>
-      </main>
-    </div>
-  );
-};
+        {/* ---------------- RESULTS TABLE ---------------- */}
+        <section className="mt-8 rounded-xl bg-white p-5 shadow">
+          <h2 className="text-sm font-semibold uppercase text-slate-500 mb-3">
+            Compliance Checks
+          </h2>
 
-type MetricCardProps = {
-  label: string;
-  value: number | string;
-  description: string;
-  highlight?: boolean;
-};
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-slate-100 text-xs text-slate-600">
+                <th className="px-3 py-2">Requirement</th>
+                <th className="px-3 py-2">Compliant?</th>
+                <th className="px-3 py-2">Risk</th>
+                <th className="px-3 py-2">Score</th>
+                <th className="px-3 py-2">Evidence</th>
+                <th className="px-3 py-2">Narrative</th>
+              </tr>
+            </thead>
 
-const MetricCard: React.FC<MetricCardProps> = ({
-  label,
-  value,
-  description,
-  highlight,
-}) => {
-  return (
-    <div
-      className={[
-        "flex flex-col justify-between rounded-2xl border p-4 transition",
-        highlight
-          ? "border-emerald-200 bg-emerald-50/70 shadow-[0_0_0_1px_rgba(16,185,129,0.25)]"
-          : "border-slate-200 bg-slate-50/60 hover:bg-slate-50",
-      ].join(" ")}
-    >
-      <div className="flex items-start justify-between gap-2">
-        <div>
-          <p className="text-xs font-medium text-slate-500">{label}</p>
-          <p className="mt-2 text-3xl font-semibold text-slate-900">{value}</p>
-        </div>
+            <tbody>
+              {results.map((item) => (
+                <tr key={item.Reg_ID} className={`${getRowColor(item)} border-b border-slate-200`}>
+                  <td className="px-3 py-3">
+                    <strong>{item.Reg_ID}</strong>
+                    <p>{item.Requirement_Text}</p>
+                  </td>
 
-        {highlight && (
-          <span className="rounded-full bg-emerald-100 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-emerald-700">
-            Selected
-          </span>
-        )}
+                  <td className="px-3 py-3">
+                    {item.gap_flag ? (
+                      <span className="bg-rose-100 text-rose-700 px-2 py-1 rounded text-[10px]">
+                        ❌ Gap
+                      </span>
+                    ) : item.match_score >= 0.8 ? (
+                      <span className="bg-emerald-100 text-emerald-700 px-2 py-1 rounded text-[10px]">
+                        ✔ Compliant
+                      </span>
+                    ) : (
+                      <span className="bg-amber-100 text-amber-700 px-2 py-1 rounded text-[10px]">
+                        ⚠ Partial
+                      </span>
+                    )}
+                  </td>
+
+                  <td className="px-3 py-3">
+                    <span className={`px-2 py-1 rounded text-[10px] ${
+                      riskToLevel(item.Risk_Rating) === "HIGH"
+                        ? "bg-rose-100 text-rose-700"
+                        : riskToLevel(item.Risk_Rating) === "MED"
+                        ? "bg-amber-100 text-amber-700"
+                        : "bg-emerald-100 text-emerald-700"
+                    }`}>
+                      {item.Risk_Rating}
+                    </span>
+                  </td>
+
+                  <td className="px-3 py-3">
+                    {(item.match_score * 100).toFixed(0)}%
+                  </td>
+
+                  <td className="px-3 py-3 text-xs">
+                    {item.evidence || "—"}
+                  </td>
+
+                  <td className="px-3 py-3 text-xs">
+                    {item.narrative || "—"}
+                  </td>
+                </tr>
+              ))}
+
+              {results.length === 0 && (
+                <tr>
+                  <td colSpan={6} className="text-center py-6 text-slate-400">
+                    No results available
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </section>
+
+        {/* ---------------- HEATMAP ---------------- */}
+        <section className="mt-8 rounded-xl bg-white p-5 shadow">
+          <h2 className="text-sm font-semibold uppercase text-slate-500 mb-3">
+            Risk Heatmap
+          </h2>
+
+          <table className="min-w-full text-xs">
+            <thead>
+              <tr className="bg-slate-100 text-slate-600">
+                <th className="px-3 py-2">Department</th>
+                <th className="px-3 py-2 text-center">Low</th>
+                <th className="px-3 py-2 text-center">Medium</th>
+                <th className="px-3 py-2 text-center">High</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {Object.entries(heatmap).map(([dept, lvl]) => (
+                <tr key={dept} className="border-b">
+                  <td className="px-3 py-2">{dept}</td>
+                  {(["LOW", "MED", "HIGH"] as const).map((cat) => (
+                    <td key={cat} className="px-3 py-2 text-center">
+                      {lvl[cat] || "—"}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+
       </div>
-
-      <p className="mt-3 text-xs text-slate-500">{description}</p>
     </div>
   );
 };

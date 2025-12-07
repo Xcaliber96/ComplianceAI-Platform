@@ -12,6 +12,7 @@ import {
   runCompliance,
 } from "../api/client";
 import { useFilters } from "../store/filters";
+import { useNavigate } from "react-router-dom";
 
 type StepCardProps = {
   step: number | string;
@@ -42,6 +43,7 @@ function StepCard({ step, title, description, children }: StepCardProps) {
 }
 
 export default function UploadFetchWizard() {
+  const navigate = useNavigate();   
   const filters = useFilters(); // still here so behavior/backends remain unchanged
 
   const [selectedEvidenceFileId, setSelectedEvidenceFileId] =
@@ -144,43 +146,41 @@ export default function UploadFetchWizard() {
     getFileHubFiles(user_uid).then(setDriveFiles);
   }, []);
 
-  const handleRunCompliance = async () => {
-    console.log("Selected Evidence File ID:", selectedEvidenceFileId);
-    console.log("Selected Regulation IDs:", selectedRegulationIds);
-    console.log("Drive Files:", driveFiles);
+const handleRunCompliance = async () => {
+  if (!user_uid) {
+    setMessage("Missing user session.");
+    return;
+  }
 
-    if (!user_uid) {
-      setMessage("Missing user session.");
-      return;
-    }
+  if (!selectedEvidenceFileId) {
+    setMessage("Select an evidence file first.");
+    return;
+  }
 
-    if (!selectedEvidenceFileId) {
-      setMessage("Select an evidence file first.");
-      return;
-    }
+  if (selectedRegulationIds.length === 0) {
+    setMessage("Select at least one regulation.");
+    return;
+  }
 
-    if (selectedRegulationIds.length === 0) {
-      setMessage("Select at least one regulation.");
-      return;
-    }
+  try {
+    const auditData = await runCompliance(
+      user_uid,
+      selectedEvidenceFileId,
+      selectedRegulationIds
+    );
 
-    try {
-      const data = await runCompliance(
-        user_uid,
-        selectedEvidenceFileId,
-        selectedRegulationIds
-      );
+    console.log("Audit saved:", auditData.audit_id);
 
-      setMessage(
-        `RAG completed with ${data.summary.total_requirements} checks.`
-      );
+    // Redirect to results page with audit data
+    navigate("/dashboard/results", {
+      state: auditData,   // 🔥 pass full audit results to the results page
+    });
 
-      console.log("RAG results:", data);
-    } catch (err) {
-      console.error(err);
-      setMessage("RAG compliance check failed.");
-    }
-  };
+  } catch (err) {
+    console.error(err);
+    setMessage("RAG compliance check failed.");
+  }
+};
 
   // API: auto-generate obligations
   const handleAutoGenerate = async () => {
