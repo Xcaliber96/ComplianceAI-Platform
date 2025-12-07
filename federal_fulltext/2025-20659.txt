@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53000-53001]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20659]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF JUSTICE
+
+[OMB Number 1117-1NEW]
+
+
+Agency Information Collection Activities; Proposed eCollection 
+eComments Requested; DEA Voluntary Wellness Program Healthcare Provider 
+Clearance
+
+AGENCY: Drug Enforcement Administration, Department of Justice.
+
+ACTION: 30-Day notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Drug Enforcement Administration, Department of Justice 
+(DOJ), will be submitting the following information collection request 
+to the Office of Management and Budget (OMB) for review and approval in 
+accordance with the Paperwork Reduction Act of 1995.
+
+DATES: Comments are encouraged and will be accepted for 30 days until 
+December 24, 2025.
+
+FOR FURTHER INFORMATION CONTACT: If you have comments especially on the 
+estimated public burden or associated response time, suggestions, or 
+need a copy of the proposed information collection instrument with 
+instructions or additional information, please contact: Benjamin Inks, 
+Writer/Editor, Office of Compliance, Policy Administration Section, 700 
+Army Navy Drive, Arlington, VA 22202, telephone: 571-672-4524, email: 
+<a href="/cdn-cgi/l/email-protection#95d7f0fbfff4f8fcfbbbd7bbdcfbfee6d5f1f0f4bbf2fae3"><span class="__cf_email__" data-cfemail="4507202b2f24282c2b6b076b0c2b2e36052120246b222a33">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The proposed information collection was 
+previously published in the Federal Register on August 4, 2025, 90 FR 
+36453, allowing a 30-day comment period. Written comments and 
+suggestions from the public and affected agencies concerning the 
+proposed collection of information are encouraged. Your comments should 
+address one or more of the following four points:
+
+--Evaluate whether the proposed collection of information is necessary 
+for the proper performance of the functions of the agency, including 
+whether the information will have practical utility;
+--Evaluate the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used;
+--Enhance the quality, utility, and clarity of the information to be 
+collected; and/or
+--Minimize the burden of the collection of information on those who are 
+to respond, including through the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques or 
+other forms of information technology, e.g., permitting electronic 
+submission of responses.
+
+    Written comments and recommendations for this information 
+collection should be submitted within 30 days of the publication of 
+this notice on the following website <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. 
+Find this particular information collection by selecting ``Currently 
+under 30-day Review--Open for Public Comments'' or by using the search 
+function and entering either the title of the information collection or 
+the OMB Control Number [1117-1NEW]. This information collection request 
+may be viewed at <a href="http://www.reginfo.gov">www.reginfo.gov</a>. Follow the instructions to view 
+Department of Justice, information collections currently under review 
+by OMB.
+    DOJ seeks PRA authorization for this information collection for 
+three (3) years. OMB authorization for an ICR cannot be for more than 
+three (3) years without renewal. The DOJ notes that information 
+collection requirements submitted to the OMB for existing ICRs receive 
+a month-to-month extension while they undergo review.
+
+Overview of This Information Collection
+
+    1. Type of Information Collection: New.
+
+[[Page 53001]]
+
+    2. Title of the Form/Collection: Voluntary Wellness Program (VWP) 
+Healthcare Provider Clearance.
+    3. Agency form number, if any, and the applicable component of the 
+Department of Justice sponsoring the collection: Form number: DEA-315c. 
+The sponsoring component is the Drug Enforcement Administration.
+    4. Affected public who will be asked or required to respond, as 
+well as a brief abstract:
+    Affected Public: a licensed medical professional must complete the 
+form prior to the DEA employee being allowed to participate in the VWP.
+    Abstract: The collection of information via the DEA-315c form is 
+necessary to determine whether DEA employees are medically cleared to 
+safely participate in physical fitness activities under the Voluntary 
+Wellness Program (VWP). This requirement is both a matter of workplace 
+safety and an essential component of the agency's broader health and 
+wellness initiatives.
+    5. Obligation to Respond: Voluntary.
+    6. Total Estimated Number of Respondents: 100.
+    7. Estimated Time per Respondent: 45 minutes.
+    8. Frequency: 1x per year.
+    9. Total Estimated Annual Time Burden: 75 hours.
+    10. Total Estimated Annual Other Costs Burden: 0 for DEA.
+    If additional information is required, contact: Darwin Arceo, 
+Department Clearance Officer, Enterprise Portfolio Management, Justice 
+Management Division, United States Department of Justice, Two 
+Constitution Square, 145 N Street NE, 4W-218, Washington, DC 20530.
+
+    Dated: November 19, 2025.
+Darwin Arceo,
+Department Clearance Officer for PRA, U.S. Department of Justice.
+[FR Doc. 2025-20659 Filed 11-21-25; 8:45 am]
+BILLING CODE 4410-09-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

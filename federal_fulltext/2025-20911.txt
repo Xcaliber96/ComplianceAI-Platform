@@ -1,0 +1,351 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53324-53326]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20911]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+[CMS-9163-N]
+
+
+Notice of Medicaid Information Sharing Between the Centers for 
+Medicare & Medicaid Services and the Department of Homeland Security
+
+AGENCY: Centers for Medicare & Medicaid Services (CMS), Department of 
+Health and Human Services (HHS).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice announces that the Department of Health and Human 
+Services (HHS), Centers for Medicare & Medicaid Services (CMS), will 
+share certain information with the U.S. Department of Homeland Security 
+(DHS), and its component agency, U.S. Immigration and Customs 
+Enforcement consistent with federal laws requiring the provision of 
+information to DHS.
+
+DATES: This notice is applicable immediately.
+
+FOR FURTHER INFORMATION CONTACT: The Center for Medicaid and CHIP 
+Services at <a href="/cdn-cgi/l/email-protection#efaca2acbcaf8c829cc187879cc1888099"><span class="__cf_email__" data-cfemail="6a292729392a09071944020219440d051c">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    This notice provides information regarding the provision of certain 
+information collected by the Department of Health and Human Services 
+(HHS), Centers for Medicare & Medicaid Services (CMS), with U.S. 
+Department of Homeland Security (DHS) and its component agency U.S. 
+Immigration and Customs Enforcement (ICE). CMS partners with states to 
+administer Medicaid. In doing so, CMS collects information regarding 
+individuals for a variety of purposes related to administration, 
+oversight, and program integrity. This notice applies to data collected 
+by CMS in connection with its role in the Medicaid program.
+    CMS receives information related to immigration status because it 
+is relevant to the Medicaid program. For example, under Medicaid, 
+states are prohibited from claiming federal financial participation 
+(FFP) for ``medical assistance furnished to an alien who is not 
+lawfully admitted for permanent residence or otherwise permanently 
+residing in the United States under color of law.'' Section 1903(v)(1) 
+of the Social Security Act (the Act) (42 U.S.C. 1396b(v)(1)). The 
+exception to this prohibition is that FFP can be paid if the care and 
+services are ``necessary for the treatment of an emergency medical 
+condition of the alien,'' the alien otherwise meets the eligibility 
+requirements for Medicaid, and the care and services are not related to 
+an organ transplant procedure. Section 1903(v)(2) of the Act (42 U.S.C. 
+1396b(v)(2)).
+    Federal laws govern the collection, use, and disclosure of CMS 
+information. Depending on the type of information, applicable laws may 
+include the Privacy Act of 1974 (5 U.S.C. 552a), section 1106(a) of the 
+Act (42 U.S.C. 1306(a)(1)) and CMS implementing regulations at 42 CFR 
+part 401, subpart B, and other federal laws. In addition, CMS has 
+established a robust privacy and security program (<a href="https://security.cms.gov/topic/privacy">https://security.cms.gov/topic/privacy</a>). CMS has previously stated on its 
+website that the information regarding individuals that it collects 
+will only be used for administration of its programs. See, e.g., CMS, 
+CMS Privacy Home Page, <a href="https://www.cms.gov/about-cms/information-systems/privacy">https://www.cms.gov/about-cms/information-systems/privacy</a> (``To protect your privacy, we'll tell you before we 
+collect any personal information we need to run our health care 
+programs, and only use it for that purpose.''). CMS also has stated on 
+its website that it will not use immigration status for immigration 
+enforcement purposes. See CMS, More information for immigrant 
+households, <a href="https://www.healthcare.gov/immigrants/immigrant-families/">https://www.healthcare.gov/immigrants/immigrant-families/</a> 
+(``We won't use any immigration status you share with us for 
+immigration enforcement purposes.''). This policy statement was made in 
+the context of and in reliance on a 2013 ICE policy that stated that 
+ICE would not use CMS data or information provided by individuals to 
+obtain coverage for certain benefits under CMS programs as the basis 
+for pursuing a civil immigration enforcement action. ICE has rescinded 
+this policy.\1\ See ICE Policy Memorandum 11066.2, Use of HHS 
+Information and Rescission of ICE Policy Memorandum 11066.1, 
+Clarification of Existing Practices Related to Certain Health Care 
+Information (October 25, 2013, 2013 Policy Memorandum), (Oct. 27, 2025, 
+ICE Policy Memorandum 11066.2).
+---------------------------------------------------------------------------
+
+    \1\ ICE notes that it is currently precluded from using this 
+information due to a Preliminary Injunction and it will proceed with 
+this policy when the Preliminary Injunction is lifted. See ICE 
+Policy Memorandum 11066.2, see also California v. HHS, No. 25-05536 
+(N.D. Cal. filed July 1, 2025). Under that same Preliminary 
+Injunction, CMS is currently precluded from sharing certain Medicaid 
+data with ICE for immigration enforcement purposes. Similarly, CMS 
+will proceed with this policy when the Preliminary Injunction is 
+lifted.
+---------------------------------------------------------------------------
+
+II. Legal Authority
+
+    Several federal laws authorize CMS to make certain information 
+available to
+
+[[Page 53325]]
+
+DHS. See ICE Policy Memorandum 11066.2.
+    <bullet> Under the Homeland Security Act of 2002, the Secretary of 
+Homeland Security shall have access to information ``relating to 
+matters under the responsibility of the Secretary that may be 
+collected, possessed, or prepared by an agency of the Federal 
+Government as the President may further provide.'' 6 U.S.C. 122(a)(2). 
+Additionally, the Secretary of Homeland Security can obtain this 
+information upon request and can enter into cooperative agreements with 
+other agencies to provide DHS officials with access to the data on a 
+regular or routine basis, including requests or arrangements involving 
+broad categories of material, access to electronic databases, or both. 
+6 U.S.C. 122(b).
+    <bullet> Under the Immigration and Nationality Act, ``[a]ny 
+information in any records kept by any department or agency of the 
+Government as to the identity and location of aliens in the United 
+States shall be made available to'' immigration authorities. 8 U.S.C. 
+1360(b). This ``expansive'' language reaches ``broad[ ] swaths of 
+information'' in the possession of the federal government. United 
+States v. California, 921 F.3d 865, 892 (9th Cir. 2019).
+    Moreover, under 8 U.S.C. 1373, ``[n]otwithstanding any other 
+provision of Federal, State, or local law, a Federal, State, or local 
+government entity or official may not prohibit, or in any way restrict, 
+any government entity or official from sending to, or receiving from, 
+[DHS] information regarding the citizenship or immigration status, 
+lawful or unlawful, of any individual.'' 8 U.S.C. 1373(a). 
+Additionally, ``[n]otwithstanding any other provisions of Federal, 
+State, or local law, no person or agency may prohibit, or in any way 
+restrict, a Federal, State, or local government entity'' from 
+transmitting, maintaining, or exchanging information regarding 
+immigration status with any other Federal, State, or local government 
+entity. 8 U.S.C. 1373(b).
+    <bullet> The Privacy Act of 1974 does not provide authority for a 
+disclosure. However, with respect to U.S. citizens and lawful permanent 
+residents, an exception in the law would not require an agency to 
+obtain prior written consent of the individual to whom the record 
+pertains to disclose a record contained in a system of records to 
+another federal agency ``for a civil or criminal law enforcement 
+activity if the activity is authorized by law, and if the head of the 
+agency has made a written request to the agency which maintains the 
+record specifying the particular portion desired and the law 
+enforcement activity for which the record is sought,'' See 5 U.S.C. 
+552a(b)(7).\2\
+---------------------------------------------------------------------------
+
+    \2\ The Privacy Act of 1974 only applies to U.S. citizens and 
+lawful permanent residents. See 5 U.S.C. 552a(a)(2) (defining 
+individual to include U.S. citizens and lawful permanent residents).
+---------------------------------------------------------------------------
+
+III. Purpose of Information Sharing
+
+    This notice announces CMS policy that CMS will provide certain 
+information to ICE upon request from ICE consistent with federal laws 
+to advance administration priorities related to immigration laid out in 
+the following Executive Orders.
+    <bullet> Executive Order 14159, ``Protecting the American People 
+Against Invasion''--The purpose of this Executive Order is to ``ensure[ 
+] that the Federal Government protects the American people by 
+faithfully executing immigration laws of the United States.'' (90 FR 
+8443, January 29, 2025).
+    <bullet> Executive Order 14165, ``Securing Our Borders''--This 
+Executive Order establishes a policy of the United States ``to take all 
+appropriate action to secure the borders of our Nation'' through a 
+range of means, including deterring and preventing the entry of illegal 
+aliens into the United States, and removing promptly all aliens who 
+enter or remain in violation of Federal law. (90 FR 8467, January 30, 
+2025).
+    <bullet> Executive Order 14218, ``Ending Taxpayer Subsidization of 
+Open Borders''--This Executive Order directs federal agencies to 
+faithfully carry out the immigration laws and ``to ensure, to the 
+maximum extent permitted by law, that no taxpayer-funded benefits go to 
+unqualified aliens.'' (90 FR 10581, February 25, 2025).
+    <bullet> Executive Order 14243, ``Stopping Waste, Fraud, and Abuse 
+by Eliminating Information Silo''--One of the purposes of this 
+Executive Order is to promote inter-agency data sharing. It directs 
+agencies to ``take all necessary steps, to the maximum extent 
+consistent with law,'' to ensure access to information ``for purposes 
+of pursuing Administration priorities related to the identification and 
+elimination of waste, fraud, and abuse.'' (90 FR 13681, March 25, 
+2025).
+    As noted by ICE in ICE Policy Memorandum 11066.2, certain 
+information held by CMS is useful for immigration enforcement purposes 
+and to support the full and efficient execution of ICE's mission. ICE 
+Policy Memorandum 11066.2 at 4. This CMS information ``represents a 
+particular set of accurate and quality data that can be used to enhance 
+ICE's data and improve its law enforcement actions.'' Id. More broadly, 
+using CMS information as detailed in the ICE Policy Memorandum 11066.2 
+``allows ICE to more efficiently achieve its mission of preserving 
+national security and public safety.'' Id.
+
+IV. Information To Be Shared
+
+    ICE announced that, at this time, it contemplates requesting from 
+CMS available biographical, contact, and location information, though 
+ICE reserved the right, in a specific case, to consider requesting 
+other information on a case-by-case basis as permitted by law. Id. at 
+2. This CMS information may include Medicaid information or data shared 
+with CMS by states. CMS will share the minimum required information 
+with ICE, giving due consideration to the information requested by ICE, 
+the federal laws that govern the provision of information to DHS and 
+the CMS information requested, the capabilities of CMS systems, and the 
+CMS resources available to respond to ICE information requests. 
+Examples of information that CMS may share with ICE include the 
+following: citizenship and immigration status, location, and phone 
+numbers, and, in specific cases, other information on a case-by-case 
+basis as permitted by law. CMS will respond to requests made by ICE and 
+will transfer any information to ICE in a secure manner and establish 
+appropriate safeguards for the information provided, including through 
+written agreements or other arrangements with ICE.
+    CMS intends its provision of various categories of information to 
+be severable from each other. For instance, CMS's provision of 
+biographical information about aliens is severable from its provision 
+of location information about aliens or from its provision of other 
+types of information that ICE does not presently intend to request for 
+immigration enforcement purposes. In the event a court finds that ICE 
+does not have a right to access a specific type of data (or that CMS is 
+not authorized to provide such data), CMS intends that the provision of 
+specific categories of data be severable from each other.
+
+V. Reliance Interests
+
+    CMS has considered the fact that states, providers, beneficiaries, 
+health insurance issuers, other regulated entities, and the general 
+public may have relied on past CMS statements that information 
+collected by CMS would only be used for program administration purposes 
+and would not be used for immigration enforcement purposes. The CMS 
+statements were made against the backdrop of federal laws that 
+authorize
+
+[[Page 53326]]
+
+CMS to share information with DHS, upon request, and a policy choice 
+made by ICE not to use certain information as the basis for pursuing a 
+civil immigration enforcement action. These federal laws have long 
+apprised the regulated public that immigration authorities have access 
+to ``broad swaths'' of information possessed by other federal agencies 
+relevant to immigration enforcement. Brief of Appellee State of 
+California in United States v. California, No. 18-16496, 2018 WL 
+5880015 (9th Cir. Nov. 5, 2018) (``When Congress has intended to reach 
+broad swaths of information, or specifically a person's address, it has 
+used different words. For example . . . the INA requires federal 
+agencies to communicate to ICE, upon request, `[a]ny information in any 
+records . . . as to the identity and location of aliens,' [8 U.S.C. 
+1360(b).]'')); see also Policy Memorandum 11066.2 at 4. To ensure that 
+the public is aware that CMS intends to disclose certain information to 
+DHS consistent with federal laws, including available information 
+contained in program eligibility information, CMS is publishing this 
+notice and will update relevant websites to reflect that federal laws 
+authorize CMS to share certain information with DHS.
+    ICE determined, as stated in ICE Policy Memorandum 11066.2, that 
+the ``value of this information to immigration and criminal law 
+enforcement operations outweighs any relevant reliance interests.'' ICE 
+Policy Memorandum 11066.2 at 4. Pursuant to the 6 U.S.C. 122(a)-(b), 8 
+U.S.C. 1360(b), and 8 U.S.C. 1373, ``ICE has always had authority to 
+request and receive information for immigration enforcement purposes.'' 
+ICE Policy Memorandum 11066.2 at 5.
+    As ICE stated, ``[t]he statutory provisions that both give ICE the 
+right to request this information, and that require aliens to 
+affirmatively provide that information to ICE upon request, are 
+longstanding, and there is no exception to their application under 
+Medicaid.'' ICE Policy Memorandum 11066.2 at 6.
+    Given the longstanding legal requirements for aliens to apprise 
+immigration authorities of their whereabouts, whatever reliance states, 
+providers, beneficiaries, health insurance issuers, other regulated 
+entities, and the general public have placed on DHS's exercise of its 
+enforcement discretion and CMS's information not being shared with 
+immigration authorities due to that exercise of discretion is entitled 
+to little to no weight. The biographical and location information that 
+ICE intends to seek from CMS is information that ICE has long had a 
+right to access. Accordingly, any interests in not sharing this 
+information with ICE are greatly diminished and outweighed by ICE's 
+legitimate law enforcement interests.
+    Moreover, while some states and providers contend that it would be 
+detrimental to public health if aliens do not partake in federal health 
+benefits for which they are eligible (for example, federally funded 
+Medicaid services for emergency medical conditions) because if CMS 
+shares information with ICE, the legal requirements regarding 
+information sharing with ICE long predate restrictions on Medicaid to 
+unqualified aliens. Compare, e.g., 8 U.S.C. 1360(b) (enacted in 
+Immigration and Nationality Act, 66 Stat. 163, 234 (1952)), with 42 
+U.S.C. 1396b(v)(1), 8 U.S.C. 1611(b)(1)(A) (enacted in Personal 
+Responsibility and Work Opportunity Reconciliation Act of 1996, 110 
+Stat. 2105, 2180). The concerns of states and providers are entitled to 
+little to no weight because they reflect the scheme that Congress 
+created, which provides benefits to aliens under certain limited 
+circumstances and gives immigration authorities the right to access 
+information that arises from the conferral of those benefits.
+    Finally, to the extent that states provide data to CMS on aliens 
+who receive health benefits or services funded only by the state, 
+states are doing so voluntarily. CMS only requires states to submit 
+data associated with beneficiaries who receive federally-funded 
+Medicaid services. It is incumbent upon the states to separate the data 
+that they collect when submitting it to CMS. Any reliance interests 
+with respect to the population of aliens who receive health benefits or 
+services funded only by states are entitled to no weight since states 
+are not required to submit this information to CMS.
+
+VI. Additional Information
+
+    Although notice and comment is unnecessary for this statement, CMS 
+has been explicitly instructed by the district court in California v. 
+HHS, No. 3:25-cv-05536 (N.D. Cal.), to address its reasons for forgoing 
+notice and comment.
+    As explained above, CMS's prior policy statement that it would not 
+use CMS data or information for immigration enforcement purposes was 
+made in the context of ICE's prior policy, as described in its 2013 
+Policy Memorandum, to exercise its enforcement discretion to abstain 
+from requesting information from CMS as the basis for pursuing a civil 
+immigration enforcement action. CMS's prior policy statement did not 
+change legal norms, as described above, created by Congress.
+    This notice communicates a CMS policy that CMS will share certain 
+information consistent with federal law authorizing such sharing with 
+respect to requests for CMS information from DHS and ICE. CMS is 
+accordingly updating its policy statement in this regard. CMS is 
+publishing this notice solely to inform interested parties of its 
+decision to provide information to ICE consistent with federal law. 
+This is, at the most, a policy statement as defined by 5 U.S.C. 
+553(b)(A) and (d)(2) and is exempt from notice and comment for that 
+reason alone. See Perez v. Mortgage Bankers Ass'n, 575 U.S. 92, 95 
+(2015) (not all rules must be issued through notice and comment, 
+including interpretive rules and general statements of policy under 
+section 4(b)(A) of the Administrative Procedure Act.).
+    The Administrator of the Centers for Medicare & Medicaid Services 
+(CMS), Mehmet Oz, having reviewed and approved this document, 
+authorizes Evell Barco Holland, who is the Federal Register Liaison, to 
+electronically sign this document for purposes of publication in the 
+Federal Register.
+
+Evell Barco Holland,
+Federal Register Liaison, Centers for Medicare & Medicaid Services.
+[FR Doc. 2025-20911 Filed 11-21-25; 11:15 am]
+BILLING CODE 4120-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

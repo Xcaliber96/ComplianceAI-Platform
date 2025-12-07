@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Page 53045]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20722]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF STATE
+
+[Public Notice: 12867]
+
+
+60-Day Notice of Proposed Information Collection: JADE Act 
+Questionnaire
+
+ACTION: Notice of request for public comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of State is seeking Office of Management and 
+Budget (OMB) approval for the information collection described below. 
+In accordance with the Paperwork Reduction Act of 1995, we are 
+requesting comments on this collection from all interested individuals 
+and organizations. The purpose of this notice is to allow 60 days for 
+public comment preceding submission of the collection to OMB.
+
+DATES: The Department will accept comments from the public up to 
+January 23, 2026.
+
+ADDRESSES: You may submit comments by any of the following methods:
+    <bullet> Web: Persons with access to the internet may comment on 
+this notice by going to <a href="http://www.Regulations.gov">www.Regulations.gov</a>. You can search for the 
+document by entering ``Docket Number: DOS-2025-0401'' in the Search 
+field. Then click the ``Comment Now'' button and complete the comment 
+form.
+    <bullet> Email: <a href="/cdn-cgi/l/email-protection#f5a5a7b4aab7808791909bb69a9898909b8186b58681948190db929a83"><span class="__cf_email__" data-cfemail="461614071904333422232805292b2b2328323506353227322368212930">[email&#160;protected]</span></a>.
+    <bullet> Regular Mail: Send written comments to: Regulatory 
+Coordinator, Visa Services, Department of State, 600 19th St. NW, 
+Washington, DC 20006.
+    You must include the DS form number (if applicable), information 
+collection title, and the OMB control number in any correspondence.
+
+SUPPLEMENTARY INFORMATION: 
+    <bullet> Title of Information Collection: JADE Act Questionnaire.
+    <bullet> OMB Control Number: 1405-0236.
+    <bullet> Type of Request: Renewal of a Currently Approved 
+Collection.
+    <bullet> Originating Office: CA/VO.
+    <bullet> Form Number: DS-5537.
+    <bullet> Respondents: Burmese Applicants for U.S. Visas.
+    <bullet> Estimated Number of Respondents: 22,800.
+    <bullet> Estimated Number of Responses: 22,800.
+    <bullet> Average Time per Response: 30 minutes.
+    <bullet> Total Estimated Burden Time: 11,400 hours.
+    <bullet> Frequency: Once per application.
+    <bullet> Obligation to Respond: Required to Obtain or Retain a 
+Benefit.
+    We are soliciting public comments to permit the Department to:
+    <bullet> Evaluate whether the proposed information collection is 
+necessary for the proper functions of the Department.
+    <bullet> Evaluate the accuracy of our estimate of the time and cost 
+burden for this proposed collection, including the validity of the 
+methodology and assumptions used.
+    <bullet> Enhance the quality, utility, and clarity of the 
+information to be collected.
+    <bullet> Minimize the reporting burden on those who are to respond, 
+including the use of automated collection techniques or other forms of 
+information technology.
+    Please note that comments submitted in response to this Notice are 
+public record. Before including any detailed personal information, you 
+should be aware that your comments as submitted, including your 
+personal information, will be available for public review.
+
+Abstract of Proposed Collection
+
+    Consular officers use the DS-5537 to evaluate and adjudicate an 
+applicant's eligibility for a visa in accordance with the Tom Lantos 
+Block Burmese JADE (Junta's Anti-Democratic Efforts) Act of 2008, 
+Public Law 110-286. The JADE Act renders certain individuals involved 
+in specified Burmese organizations or activities, as well as their 
+immediate family members, ineligible for U.S. visas.
+
+Methodology
+
+    All Burmese nationals applying for a U.S. visa are required to 
+complete the JADE Act questionnaire. The form is available on Embassy 
+Rangoon's website, or consular staff may provide the applicant with a 
+copy of the form directly. Immigrant visa applicants receive an email 
+with detailed guidance for the interview and the questionnaire as an 
+attachment. Nonimmigrant visa applicants typically receive the 
+questionnaire through their appointment confirmation or from the 
+embassy website. Applicants are required to bring the completed and 
+signed form to the interview.
+
+Stuart R. Wilson,
+Deputy Assistant Secretary, Bureau of Consular Affairs, Department of 
+State.
+[FR Doc. 2025-20722 Filed 11-21-25; 8:45 am]
+BILLING CODE 4710-06-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

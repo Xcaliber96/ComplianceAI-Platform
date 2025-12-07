@@ -160,4 +160,5 @@ class WorkspaceRegulation(Base):
     risk = Column(String, nullable=True)
     description = Column(String, nullable=True)
     recommended = Column(Boolean, default=False)
+    
     source = Column(String, nullable=True)

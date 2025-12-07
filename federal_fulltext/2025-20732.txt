@@ -1,0 +1,265 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Proposed Rules]
+[Pages 52899-52901]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20732]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 71
+
+[Docket No. FAA-2025-2423; Airspace Docket No. 23-AAL-10]
+RIN 2120-AA66
+
+
+Modification of Class E Airspace; Ralph Wien Memorial Airport, 
+Kotzebue, AK
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action proposes to modify the Class E2 airspace extending 
+upward from the surface and Class E5 airspace extending upward from 700 
+feet above the surface to optimize instrument flight procedure 
+containment at the Ralph Wien Memorial Airport, Kotzebue, AK. This 
+proposal supports the safety and management of instrument flight rules 
+(IFR) operations at the airport.
+
+DATES: Comments must be received on or before January 8, 2026.
+
+ADDRESSES: Send comments identified by FAA Docket No. FAA-2025-2423 and 
+Airspace Docket No. 23-AAL-10 using any of the following methods:
+    * Federal eRulemaking Portal: Go to <a href="http://www.regulations.gov">www.regulations.gov</a> and follow 
+the online instructions for sending your comments electronically.
+    * Mail: Send comments to Docket Operations, M-30; U.S. Department 
+of Transportation, 1200 New Jersey Avenue SE, Room W12-140, West 
+Building Ground Floor, Washington, DC 20590-0001.
+    * Hand Delivery or Courier: Take comments to Docket Operations in 
+Room W12-140 of the West Building Ground Floor at 1200 New Jersey 
+Avenue SE, Washington, DC, between 9 a.m. and 5 p.m., Monday through 
+Friday, except federal holidays.
+    * Fax: Fax comments to Docket Operations at (202) 493-2251.
+    Docket: Background documents or comments received may be read at 
+<a href="http://www.regulations.gov">www.regulations.gov</a> at any time. Follow the online instructions for 
+accessing the docket or go to the Docket Operations in Room W12-140 of 
+the West Building Ground Floor at 1200 New Jersey Avenue SE, 
+Washington, DC, between 9 a.m. and 5 p.m., Monday through Friday, 
+except federal holidays.
+    FAA Order JO 7400.11K, Airspace Designations and Reporting Points, 
+and subsequent amendments can be viewed online at <a href="http://www.faa.gov/air_traffic/publications/">www.faa.gov/air_traffic/publications/</a>.
+
+FOR FURTHER INFORMATION CONTACT: BryantJay Toves, Federal Aviation 
+Administration, Western Service Center, Operations Support Group, 2200 
+S 216th Street, Des Moines, WA 98198; telephone (206) 231-3465.
+
+SUPPLEMENTARY INFORMATION:
+
+Authority for This Rulemaking
+
+    The FAA's authority to issue rules regarding aviation safety is 
+found in Title 49 of the United States Code. Subtitle I, Section 106, 
+describes the authority of the FAA Administrator. Subtitle VII, 
+Aviation Programs, describes in more detail the scope of the agency's 
+authority. This rulemaking is promulgated under the authority described 
+in Subtitle VII, Part A, Subpart I, Section 40103. Under that section, 
+the FAA is charged with prescribing regulations to assign the use of 
+the airspace necessary to ensure the safety of aircraft and the 
+efficient use of airspace. This regulation is within the scope of that 
+authority as it would modify Class E airspace to support IFR operations 
+at Ralph Wien Memorial Airport, Kotzebue, AK.
+
+Comments Invited
+
+    The FAA invites interested persons to participate in this 
+rulemaking by
+
+[[Page 52900]]
+
+submitting written comments, data, or views. Comments are specifically 
+invited on the overall regulatory, aeronautical, economic, 
+environmental, and energy-related aspects of the proposal. The most 
+helpful comments reference a specific portion of the proposal, explain 
+the reason for any recommended change, and include supporting data. To 
+ensure the docket does not contain duplicate comments, commenters 
+should submit only one time if comments are filed electronically, or 
+commenters should send only one copy of written comments if comments 
+are filed in writing.
+    The FAA will file in the docket all comments it receives, as well 
+as a report summarizing each substantive public contact with FAA 
+personnel concerning this proposed rulemaking. Before acting on this 
+proposal, the FAA will consider all comments it receives on or before 
+the closing date for comments. The FAA will consider comments filed 
+after the comment period has closed if it is possible to do so without 
+incurring expense or delay. The FAA may change this proposal in light 
+of the comments it receives.
+    Privacy: In accordance with 5 U.S.C. 553(c), DOT solicits comments 
+from the public to better inform its rulemaking process. DOT posts 
+these comments, without edit, including any personal information the 
+commenter provides, to <a href="http://www.regulations.gov">www.regulations.gov</a>, as described in the system 
+of records notice (DOT/ALL-14 FDMS), which can be reviewed at 
+<a href="http://www.dot.gov/privacy">www.dot.gov/privacy</a>.
+
+Availability of Rulemaking Documents
+
+    An electronic copy of this document may be downloaded through the 
+internet at <a href="http://www.regulations.gov">www.regulations.gov</a>. Recently published rulemaking 
+documents can also be accessed through the FAA's web page at 
+<a href="http://www.faa.gov/air_traffic/publications/airspace_amendments/">www.faa.gov/air_traffic/publications/airspace_amendments/</a>.
+    You may review the public docket containing the proposal, any 
+comments received and any final disposition in person in the Dockets 
+Operations office (see ADDRESSES section for address, phone number, and 
+hours of operations). An informal docket may also be examined during 
+normal business hours at the Northwest Mountain Regional Office of the 
+Federal Aviation Administration, Air Traffic Organization, Western 
+Service Center, Operations Support Group, 2200 S. 216th Street, Des 
+Moines, WA 98198.
+
+Incorporation by Reference
+
+    Class E2 and E5 airspace designations are published in paragraphs 
+6002 and 6005, respectively, of FAA Order JO 7400.11, Airspace 
+Designations and Reporting Points, which is incorporated by reference 
+in 14 CFR 71.1 on an annual basis. This document proposes to amend the 
+current version of that order, FAA Order JO 7400.11K, dated August 4, 
+2025, and effective September 15, 2025. These updates would be 
+published in the next update to FAA Order JO 7400.11. FAA Order JO 
+7400.11K, which lists Class A, B, C, D, and E airspace areas, air 
+traffic service routes, and reporting points, is publicly available as 
+listed in the ADDRESSES section of this document.
+
+The Proposal
+
+    The FAA is proposing an amendment to 14 CFR part 71 that would 
+modify the Class E airspace at Ralph Wien Memorial Airport, Kotzebue, 
+AK. First, the FAA proposes increasing Class E2 surface area airspace 
+radius from 4.3-miles to 4.4-miles to better accommodate the circling 
+maneuvering areas to runways (RWY) 18 and 9. Further, 1.4-mile and 0.6-
+mile extensions are proposed to the southeast and west, respectively, 
+to contain departing aircraft until reaching the base of the next 
+adjacent airspace when executing the COGAS2 Area Navigation (RNAV) 
+(Required Navigation Performance [RNP]) DEPARTURE and BALIN2 RNAV (RNP) 
+DEPARTURE from RWYs 9 and 27.
+    Next, the FAA proposes modifying Class E5 airspace extending upward 
+from 700 feet above the surface to remove unneeded controlled airspace 
+to the northeast, east, southwest, and west, and expanding E5 airspace 
+to targeted areas southeast and northwest of the airport. The southeast 
+should be expanded to better contain aircraft until reaching 1,200 feet 
+above the surface on the RNAV (Global Positioning System [GPS]) RWY 27 
+missed approach procedure and BALIN2 RNAV (RNP) DEPARTURE RWY 9. An 
+additional 1x5-mile area of airspace to the northwest would provide 
+sufficient containment for arriving aircraft that descend to below 
+1,500 feet above the surface on the instrument landing system (ILS) or 
+localizer (LOC) RWY 9 approach.
+
+Regulatory Notices and Analyses
+
+    The FAA has determined that this proposed regulation only involves 
+an established body of technical regulations for which frequent and 
+routine amendments are necessary to keep them operationally current. 
+It, therefore: (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under DOT 
+Regulatory Policies and Procedures (44 FR 11034; February 26, 1979); 
+and (3) does not warrant preparation of a regulatory evaluation as the 
+anticipated impact is so minimal. Since this is a routine matter that 
+will only affect air traffic procedures and air navigation, it is 
+certified that this proposed rule, when promulgated, will not have a 
+significant economic impact on a substantial number of small entities 
+under the criteria of the Regulatory Flexibility Act.
+
+Environmental Review
+
+    This proposal will be subject to an environmental analysis in 
+accordance with FAA Order 1050.1G, FAA National Environmental Policy 
+Act Implementing Procedures, prior to any FAA final regulatory action.
+
+List of Subjects in 14 CFR Part 71
+
+    Airspace, Incorporation by reference, Navigation (air).
+
+The Proposed Amendment
+
+    In consideration of the foregoing, the Federal Aviation 
+Administration proposes to amend 14 CFR part 71 as follows:
+
+PART 71--DESIGNATION OF CLASS A, B, C, D, AND E AIRSPACE AREAS; AIR 
+TRAFFIC SERVICE ROUTES; AND REPORTING POINTS
+
+0
+1. The authority citation for 14 CFR part 71 continues to read as 
+follows:
+
+    Authority:  49 U.S.C. 106(f), 106(g), 40103, 40113, 40120; E.O. 
+10854, 24 FR 9565, 3 CFR, 1959-1963 Comp., p. 389.
+
+
+Sec.  71.1  [Amended]
+
+0
+2. The incorporation by reference in 14 CFR 71.1 of FAA Order JO 
+7400.11K, Airspace Designations and Reporting Points, dated August 4, 
+2025, and effective September 15, 2025, would be amended as follows:
+
+Paragraph 6002 Class E Airspace Areas Designated as Surface Areas.
+
+* * * * *
+
+AAL AK E2 Kotzebue, AK [Amended]
+
+Ralph Wien Memorial Airport, AK
+    (Lat. 66[deg]53'05'' N, long. 162[deg]35'53'' W)
+
+    That airspace extending upward from the surface within a 4.4-
+mile radius of the Ralph Wien Memorial Airport, within 2.9 miles 
+northeast and .8 miles southwest of the airport's 130[deg] bearing 
+extending from the 4.4-mile arc to 5.8 miles southeast of the 
+airport, and clockwise from the airport's 260[deg] bearing to its 
+286[deg] bearing extending from the 4.4-mile arc to the 5 mile-arc.
+* * * * *
+
+[[Page 52901]]
+
+Paragraph 6005 Class E Airspace Areas Extending Upward From 700 
+Feet or More Above the Surface of the Earth.
+
+* * * * *
+
+AAL AK E5 Kotzebue, AK [Amended]
+
+Ralph Wien Memorial Airport, AK
+    (Lat. 66[deg]53'05'' N, long. 162[deg]35'53'' W)
+
+    That airspace extending upward from 700 feet above the surface 
+within a 6.8-mile radius of the airport, clockwise from the 
+airport's 077[deg] bearing to its 117[deg] bearing extending from 
+the 6.8-mile arc to the 12.2-mile arc, clockwise from the airport's 
+117[deg] bearing to its 137[deg] bearing extending from the 6.8-mile 
+arc to the 8.2-mile arc, and within 4.2 miles north and 3.7 miles 
+south of the airport's 280[deg] bearing extending from the 6.8-mile 
+arc to 10.6 miles west, and that airspace extending upward from 
+1,200 feet above the surface within a 4.4-mile radius of the Ralph 
+Wien Memorial Airport, excluding that airspace extending beyond 12 
+miles from the coast.
+* * * * *
+
+    Issued in Des Moines, Washington, on November 19, 2025.
+B.G. Chew,
+Group Manager, Operations Support Group, Western Service Center.
+[FR Doc. 2025-20732 Filed 11-21-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53015-53016]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20739]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0410]
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review;
+
+Comment Request; Extension: Rules 17h-1T and 17h-2T
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736.
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (SEC or ``Commission'') is submitting to the Office of 
+Management and Budget (``OMB'') this request for an extension of the 
+proposed collection of information in Rules 17h-1T and 17h-2T.
+    Rule 17h-1T requires a covered broker-dealer to maintain and 
+preserve records and other information concerning certain entities that 
+are associated with the broker-dealer. This requirement extends to the 
+financial and securities activities of the holding company, affiliates 
+and subsidiaries of the broker-dealer that are reasonably likely to 
+have a material impact on the financial or operational condition of the 
+broker-dealer. Rule 17h-2T requires a covered broker-dealer to file 
+with the Commission quarterly reports and a cumulative year-end report 
+concerning the information required to be maintained and preserved 
+under Rule 17h-1T.
+    The collection of information required by Rules 17h-1T and 17h-2T, 
+collectively referred to as the ``risk assessment rules'', is mandatory 
+and is necessary to enable the Commission to monitor the activities of 
+a broker-dealer affiliate whose business activities are reasonably 
+likely to have a material impact on the financial and operational 
+condition of the broker-dealer. Without this information, the 
+Commission would be unable to assess the potentially damaging impact of 
+the affiliate's activities on the broker-dealer.
+    There are currently 238 respondents that must comply with Rules 
+17h-1T and 17h-2T. Each of these 238 respondents are estimated to 
+require 10 hours per year to maintain the records required under Rule 
+17h-1T, for an aggregate estimated annual burden of 2,380 hours (238 
+respondents - 10 hours). In addition, each of these 238 respondents 
+must make five annual responses under Rule 17h-2T. These five responses 
+are estimated to require 14 hours per respondent per year for an 
+aggregate estimated annual burden of 3,332 hours (238 respondents x 14 
+hours).
+    In addition, new respondents must draft an organizational chart 
+required under Rule 17h-1T and establish a system for complying with 
+the risk assessment rules. The staff estimates that drafting the 
+required organizational chart requires one hour and establishing a 
+system for complying with the risk assessment rules requires three 
+hours. Based on the reduction in the number of filers in recent years, 
+the staff estimates there will be four new respondents, and thus, a 
+corresponding estimated burden of four hours for new respondents.
+    In addition, the Commission adopted amendments in 2024 that require 
+broker-dealers subject to Rule 17h-2T to file Form 17h-2T 
+electronically on EDGAR and that would require a portion of the form to 
+be filed using Inline XBRL. Thus, the Commission estimates an average 
+additional burden of 2 hour per response four times a year (quarterly) 
+for 238 respondents, resulting in a total industrywide burden of 1,904 
+hours \1\ per year for Form 17-H filers to structure their financial 
+statements (Item 4 of Form 17-H) in Inline XBRL. The total compliance 
+burden per year is approximately 7,620 burden hours (2,380 hours + 
+3,332 hours + 4 hours + 1,904 hours).\2\
+---------------------------------------------------------------------------
+
+    \1\ (238 respondents x 8 hours = 1,904 hours.)
+    \2\ The Commission recently extended the compliance date for 
+certain of the 2024 rule amendments by twelve months. See Extension 
+of Compliance Dates for Electronic Submission of Certain Materials 
+Under the Securities Exchange Act of 1934; Amendments Regarding the 
+FOCUS Report; SEC Release Nos. 33-11386; 34-103877; IC-35738; (Sept. 
+8, 2025); 90 FR 43552 (Sept. 10, 2025) (File No. S7-08-23).
+---------------------------------------------------------------------------
+
+    On September 12, 2025, the Commission published a Federal Register 
+notice with a 60-day comment period soliciting comments on this 
+collection of information. One comment letter was received. The comment 
+letter supports the Commission's recent extension of the compliance 
+date for the 2024 amendments and agrees with the collection of data in 
+Inline XBRL format. The comment letter does not discuss the estimated 
+burdens for the collection of
+
+[[Page 53016]]
+
+information, and changes were not made to the estimated burdens in 
+connection with the comment letter.\3\
+---------------------------------------------------------------------------
+
+    \3\ Letter from Campbell Pryde, XBRL US, November 12, 2025.
+---------------------------------------------------------------------------
+
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-002">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202509-3235-002</a> or email comment to 
+<a href="/cdn-cgi/l/email-protection#49040b116706040b6706001b08671a0c0a162d2c3a2216262f2f202a2c3b0926242b672c2639672e263f"><span class="__cf_email__" data-cfemail="763b342e58393b3458393f243758253335291213051d291910101f15130436191b145813190658111900">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice, by December 26, 2025.
+
+     Dated: November 20, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-20739 Filed 11-21-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

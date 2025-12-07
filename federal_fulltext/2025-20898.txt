@@ -1,0 +1,681 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Proposed Rules]
+[Pages 53251-53255]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20898]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+18 CFR Parts 153, 157, and 380
+
+[Docket No. RM26-2-000]
+
+
+Authorizations for Certain Activities at Liquefied Natural Gas 
+Plants
+
+AGENCY: Federal Energy Regulatory Commission.
+
+ACTION: Notice of inquiry.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Energy Regulatory Commission (Commission) seeks 
+information and stakeholder perspectives to help the Commission explore 
+whether, and if so how, to revise our Part 153, 157, and 380 
+regulations to establish procedures for authorizing activities at 
+liquefied natural gas plants without case-specific authorization orders 
+under sections 3 and 7 of the Natural Gas Act.
+
+DATES: Comments are due January 26, 2026.
+
+ADDRESSES: Comments, identified by docket number, may be filed in the 
+following ways. Electronic filing through <a href="http://www.ferc.gov">http://www.ferc.gov</a>, is 
+preferred.
+    <bullet> Electronic Filing: Documents must be filed in acceptable 
+native applications and print-to-PDF, but not in scanned or picture 
+format.
+    <bullet> For those unable to file electronically, comments may be 
+filed by USPS mail or by hand (including courier) delivery.
+    [cir] Mail via US Postal Service Only: Addressed to: Federal Energy 
+Regulatory Commission, Secretary of the Commission, 888 First Street 
+NE, Washington, DC 20426.
+    [cir] Hand (Including Courier) Delivery: Deliver to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+    The Comment Procedures Section of this document contains more 
+detailed filing procedures.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Danielle Elefritz (Legal Information), Office of the General 
+Counsel, Federal Energy Regulatory Commission, 888 First Street NE, 
+Washington, DC 20426, (202) 502-8767.
+    Andrew Kohout (Technical Information), Office of Energy Projects, 
+Federal Energy Regulatory Commission, 888 First Street NE, Washington, 
+DC 20426, (202) 502-8053.
+
+SUPPLEMENTARY INFORMATION: 
+    1. In this notice of inquiry, the Federal Energy Regulatory 
+Commission (Commission) seeks information and stakeholder perspectives 
+to help the Commission explore whether, and if so how, to revise its 
+Part 153, 157, and 380 regulations to establish procedures for 
+authorizing activities at liquefied natural gas (LNG) plants \1\ 
+without the need for case-specific authorization
+
+[[Page 53252]]
+
+applications and orders under sections 3 or 7 of the Natural Gas Act 
+(NGA).
+---------------------------------------------------------------------------
+
+    \1\ LNG facilities make up the larger LNG plant. LNG plants 
+include LNG terminals authorized under section 3 of the NGA.
+---------------------------------------------------------------------------
+
+I. Background
+
+A. Statutory Framework
+
+    2. The Commission regulates the siting, construction, expansion, 
+and operation of LNG facilities pursuant to sections 3 and 7 of the 
+NGA. Section 3(a) provides for federal jurisdiction over the siting, 
+construction, expansion, and operation of facilities used to export or 
+import natural gas.\2\ Section 3(e)(1) states that ``[t]he Commission 
+shall have the exclusive authority to approve or deny an application 
+for the siting, construction, expansion, or operation of an LNG 
+terminal.'' \3\ And under section 7(c), the Commission issues 
+certificates of public convenience and necessity for natural gas and 
+LNG facilities used for the transportation of natural gas in interstate 
+commerce.\4\ Under both section 3 and section 7, the Commission has the 
+authority to include terms and conditions in any order authorizing an 
+LNG facility.\5\
+---------------------------------------------------------------------------
+
+    \2\ 15 U.S.C. 717b(a). The 1977 Department of Energy (DOE) 
+Organization Act (42 U.S.C. 7151(b)) placed all section 3 
+jurisdiction under DOE. The Secretary of Energy subsequently 
+delegated authority to the Commission to ``[a]pprove or disapprove 
+the construction and operation of particular facilities, the site at 
+which such facilities shall be located, and with respect to natural 
+gas that involves the construction of new domestic facilities, the 
+place of entry for imports or exit for exports.'' DOE Delegation 
+Order S1-DEL-FERC-2006, section 1.21A (May 16, 2006). See 
+EarthReports, Inc. v. FERC, 828 F.3d 949, 952-53 (D.C. Cir. 2016) 
+(detailing how regulatory oversight for the export of LNG and 
+supporting facilities is divided between the Commission and DOE).
+    \3\ 15 U.S.C. 717b(e)(1). LNG terminal is defined as: ``all 
+natural gas facilities located onshore or in State waters that are 
+used to receive, unload, load, store, transport, gasify, liquefy, or 
+process natural gas that is imported to the United States . . . , 
+exported to a foreign country . . . , or transported in interstate 
+commerce by waterborne vessel, but does not include (A) waterborne 
+vessels used to deliver natural gas to or from any such facility; or 
+(B) any pipeline or storage facility subject to the jurisdiction of 
+the Commission under [section 7].'' Id. 717a(11).
+    \4\ Id. 717f(c)(1)(A).
+    \5\ Id. 717b(a), 717b(e)(3), 717f(e). For a discussion of the 
+Commission's authority to condition its approvals of LNG facilities 
+under section 3 of the NGA, see, e.g., Distrigas Corp. v. FPC, 495 
+F.2d 1057, 1063-64 (D.C. Cir. 1974), cert. denied, 419 U.S. 834 
+(1974); Dynegy LNG Prod. Terminal, L.P., 97 FERC ] 61,231 (2001).
+---------------------------------------------------------------------------
+
+    3. The NGA also includes additional requirements that must be met 
+prior to authorizing the construction of LNG terminals.\6\ Pursuant to 
+section 3A(a) of the NGA,\7\ the Commission promulgated regulations 
+requiring LNG operators to use a pre-filing process for an application 
+for authorization to construct or modify an LNG terminal.\8\ Section 
+3(f) requires that the Commission obtain the concurrence of the 
+Secretary of War before authorizing the siting, construction, 
+expansion, or operation of LNG facilities affecting the training or 
+activities of an active military installation.\9\ Section 3A(e) states 
+that ``[i]n any order authorizing an LNG terminal the Commission shall 
+require the LNG terminal operator to develop an Emergency Response Plan 
+[that] shall be prepared in consultation with the United States Coast 
+Guard and State and local agencies and be approved by the Commission 
+prior to any final approval to begin construction [and] shall include a 
+cost-sharing plan.'' \10\ The plan is to describe any direct cost 
+reimbursements that the applicant will provide to state and local 
+agencies responsible for safety and security at the LNG terminal and in 
+proximity to vessels that serve the facility.\11\ Additionally, section 
+3A(c) allows states to provide a report on state and local safety 
+considerations which ``the Commission shall review and respond 
+specifically to the issues raised . . . .'' \12\
+---------------------------------------------------------------------------
+
+    \6\ These requirements do not apply to NGA section 7 LNG 
+facilities, including LNG peak shaving facilities which store gas in 
+interstate commerce.
+    \7\ 15 U.S.C. 717b-1(a).
+    \8\ 18 CFR 157.21. The Commission's regulations allow for the 
+Director of the Office of Energy Projects to waive the mandatory 
+pre-filing procedures when prospective modifications to an existing 
+LNG terminal do not involve significant state and local safety 
+considerations that have not been previously addressed.
+    \9\ 15 U.S.C. 717b(f). Pursuant to a Memorandum of Understanding 
+with the Department of War, the Commission issues a letter to the 
+Department, which then responds indicating whether or not there are 
+no or minimal impacts to military installations and operations.
+    \10\ Id. 717b-1(e).
+    \11\ Id.
+    \12\ Id. 717b-1(c).
+---------------------------------------------------------------------------
+
+    4. Modifications to already-approved, operating LNG facilities may 
+need to be undertaken during the life of the facilities.\13\ Such 
+modifications may currently necessitate that the operator file a case-
+specific application, on which the Commission will make a public 
+interest determination.\14\
+---------------------------------------------------------------------------
+
+    \13\ LNG projects occurring during operation may include: safety 
+system installations, existing equipment upgrades or replacements, 
+emissions controls, system modifications to enable integration with 
+non-jurisdictional activities (helium extraction or offsite carbon 
+capture and sequestration), uprates, extra power generation, and new 
+LNG trains, storage tanks, or loading berths.
+    \14\ 18 CFR part 153 (detailing the requirements for 
+applications filed pursuant to section 3 of the NGA); 18 CFR part 
+157 (detailing the requirements for applications filed pursuant to 
+section 7 of the NGA).
+---------------------------------------------------------------------------
+
+B. Existing Regulations for Authorizing Routine Activities Under 
+Section 7
+
+    5. Under Part 157, Subpart F of the Commission's regulations,\15\ 
+interstate pipelines that hold a certificate of public convenience and 
+necessity under NGA section 7 may apply for a one-time blanket 
+certificate to undertake, without a case-specific authorization, 
+certain activities automatically, subject only to annual reporting 
+requirements \16\ and certain other activities after prior notice,\17\ 
+both subject to cost limits.\18\ The blanket certificate program 
+``provide[s] streamlined procedures which increase flexibility and 
+reduce regulatory burden'' for a generic class of routine activities 
+with particular conditions and procedures for consistency with the 
+Commission's statutory obligations under the NGA and environmental 
+statutes.\19\
+---------------------------------------------------------------------------
+
+    \15\ 18 CFR part 157, subpart F.
+    \16\ Id. 157.203(b), 157.208(a), (e).
+    \17\ Id. 157.203(c), 157.208(b).
+    \18\ Id. 157.208(d), 157.215(a)(5). The cost limits are adjusted 
+each year to reflect the ``GDP implicit price deflator'' published 
+by the Department of Commerce for the previous calendar year. Id. 
+157.208(d).
+    \19\ Interstate Pipeline Certificates for Routine Transactions, 
+Order No. 234, 47 FR 24254, at 24256, 24263 (June 4, 1982), FERC 
+Stats. & Regs. ] 30,368, at 30,201 (1982) (cross-referenced at 19 
+FERC ] 61,216); see also Revisions to the Blanket Certificate 
+Reguls. & Clarification Regarding Rates, Order No. 686, 71 FR 63680 
+(Oct. 31, 2006), 117 FERC ] 61,074, at P 7 (2006) (``The blanket 
+certificate program was designed to provide an administratively 
+efficient means to authorize a generic class of routine activities, 
+without subjecting each minor project to a full, case-specific NGA 
+section 7 certificate proceeding.'').
+---------------------------------------------------------------------------
+
+    6. In 1982, in instituting the blanket certificate program, the 
+Commission explained that:
+
+    [T]he final regulations divide the various actions that the 
+Commission certificates into several categories. The first category 
+applies to certain activities performed by interstate pipelines that 
+either have relatively little impact on ratepayers, or little effect 
+on pipeline operations. This first category also includes minor 
+investments in facilities which are so well understood as an 
+established industry practice that little scrutiny is required to 
+determine their compatibility with the public convenience and 
+necessity. The second category of activities provides for a notice 
+and protest procedure and comprises certain activities in which 
+various interested parties might have a concern. In such cases there 
+is a need to provide an opportunity for a greater degree of review 
+and to provide for possible adjudication of controversial aspects. 
+Activities not authorized under the blanket certificate are those 
+activities which may have a major potential impact on ratepayers, or 
+which propose such important considerations that close scrutiny and 
+case-specific deliberation by the Commission is
+
+[[Page 53253]]
+
+warranted prior to the issuance of a certificate.\20\
+---------------------------------------------------------------------------
+
+    \20\ Order No. 234, FERC Stats. & Regs. ] 30,368 at 30,200.
+
+    7. The notice and protest procedures for prior notice projects 
+allow anyone, including Commission staff, to protest a prior notice 
+project within 60 days and, if a protest is not withdrawn or dismissed, 
+the project is reviewed as an application for case-specific 
+authorization under NGA section 7(c).\21\
+---------------------------------------------------------------------------
+
+    \21\ 18 CFR 157.205(h).
+---------------------------------------------------------------------------
+
+    8. Blanket certificate activities are subject to the conditions in 
+the Commission's regulations implementing the National Environmental 
+Policy Act (NEPA),\22\ as well as requirements that all blanket 
+certificate activities be consistent with all applicable laws, 
+including the Endangered Species Act, National Historic Preservation 
+Act, Clean Water Act, Clean Air Act, and other applicable statutes 
+relating to environmental concerns.\23\
+---------------------------------------------------------------------------
+
+    \22\ Id. part 380. Certain activities undertaken pursuant to the 
+blanket certificate are categorically excluded from NEPA review. Id. 
+380.4(a)(21).
+    \23\ Id. 157.206.
+---------------------------------------------------------------------------
+
+    9. In addition to the blanket program, Sec.  2.55 of the 
+Commission's regulations allows pipeline companies to perform auxiliary 
+installations and facility replacements at section 7(c) facilities 
+without a case-specific authorization.\24\ For activities undertaken 
+pursuant to either the blanket certificate program or Sec.  2.55, 
+section 7(c) certificate holders are required to provide advance notice 
+to affected landowners.\25\
+---------------------------------------------------------------------------
+
+    \24\ Id. 2.55. LNG facilities authorized under section 7 of the 
+NGA may use the procedures outlined in Sec.  2.55.
+    \25\ Id. 157.203(d)(1) (requiring affected landowners to be 
+notified of automatic authorization projects at least 45 days prior 
+to commencing construction or at the time it initiates easement 
+negotiations, whichever is earlier); id. 157.203(d)(2) (requiring 
+affected landowners to be notified of prior notice projects within 
+three days following the date that a docket number is assigned to 
+the application or at the time it initiates easement negotiations, 
+whichever is earlier); id. 2.55(c) (requiring a good faith effort to 
+notify in writing each affected landowner at least five days prior 
+to commencing any activity except for activities for which all 
+ground disturbance will be within an existing above-ground site or 
+those done for safety, DOT compliance, or environmental or unplanned 
+maintenance that are not foreseen and that require immediate 
+attention).
+---------------------------------------------------------------------------
+
+    10. In two earlier blanket certificate rulemakings decades prior to 
+this, the Commission declined to extend the program to include LNG 
+facilities. In the 1982 rulemaking, the Commission excluded LNG 
+facilities from the program, finding that they ``may have a significant 
+impact on ratepayers'' and therefore ``should not be authorized under a 
+blanket certificate, but should be subjected instead to the scrutiny of 
+a case-specific determination.'' \26\ In 2006, the Commission revised 
+its blanket certificate regulations but again declined to extend the 
+program to include LNG facilities.\27\ The Commission explained that 
+``LNG plant facilities are not within the class of minor, well-
+understood, routine activities that the blanket certificate program is 
+intended to embrace; LNG plant facilities necessarily require a review 
+of engineering, environmental, safety, and security issues that the 
+Commission believes only can be properly considered on a case-by-case 
+basis.'' \28\ The Commission summarized on rehearing that ``the blanket 
+certificate program is not well suited to address the complexity 
+inherent in issues raised by LNG . . . facilities.'' \29\
+---------------------------------------------------------------------------
+
+    \26\ Order No. 234, FERC Stats. & Regs. ] 30,368 at 30,206.
+    \27\ Order No. 686, 117 FERC ] 61,074 at PP 18-23.
+    \28\ Id. P 21 (quoting Revisions to the Blanket Certificate 
+Reguls. & Clarification Regarding Rates, Notice of Proposed 
+Rulemaking, 71 FR 36276 (June 26, 2006), 115 FERC ] 61,338, at PP 
+29-30 (2006)).
+    \29\ Revisions to the Blanket Certificate Reguls. & 
+Clarification Regarding Rates, Order No. 686-A, 72 FR 37431 (July 
+10, 2007), 119 FERC ] 61,303, at P 22 (2007).
+---------------------------------------------------------------------------
+
+    11. The Commission's experience with LNG facilities in the United 
+States has changed considerably since the 1982 and 2006 rulemakings. As 
+mentioned above, the 2006 rulemaking stated that the complexity of 
+issues raised by LNG facilities, and the Commission's limited 
+experience with these issues at the time, precluded including them in 
+the blanket program.\30\ Since that time, both the Commission and 
+industry have gained significant experience regarding the engineering, 
+environmental, safety, and security issues at LNG plants. The 
+Commission has evaluated more than 100 LNG project applications since 
+2006 under NGA section 3 and 7. Staff have also engaged in extensive 
+coordination with the Department of Transportation's (DOT) Pipeline and 
+Hazardous Materials Safety Administration (PHMSA) and the US Coast 
+Guard (USCG), which are also involved in safety for these facilities, 
+to proactively develop established safety standards and best practices 
+with the LNG industry.\31\
+---------------------------------------------------------------------------
+
+    \30\ Id. PP 22-23.
+    \31\ In individual proceedings, the Commission has issued over 
+4,500 requirements, including approximately 4,000 requirements that 
+have been coordinated with PHMSA and the USCG regarding the 
+engineering, safety, security, and reliability of those projects in 
+accordance with a 2004 Interagency Agreement. Interagency Agreement 
+Among the FERC, USCG, and [PHMSA] for the Safety and Security Review 
+of Waterfront Import/Export LNG Facilities, February 11, 2004, 
+<a href="https://www.ferc.gov/media/2004-interagency-dot-and-uscg">https://www.ferc.gov/media/2004-interagency-dot-and-uscg</a>, Accessed 
+October 2025. Approximately 30 of these orders were issued after a 
+2018 Memorandum of Understanding with DOT for coordination between 
+the Commission and PHMSA on determining whether proposed LNG 
+facilities comply with PHMSA's siting requirements contained in 49 
+CFR part 193 Subpart B. Interagency Agreement Among the FERC, USCG, 
+and [PHMSA] for the Safety and Security Review of Waterfront Import/
+Export LNG Facilities, February 11, 2004, <a href="https://www.ferc.gov/media/2004-interagency-dot-and-uscg">https://www.ferc.gov/media/2004-interagency-dot-and-uscg</a>, Accessed October 2025. 
+Commission staff, along with DOT PHMSA and US Coast Guard 
+representatives, have also actively participated in an LNG Technical 
+Committee and Commission staff has made over 300 proposals since 
+2016 to update subsequent versions of the National Fire Protection 
+Association (NFPA) 59A, Standard for the Production, Storage, and 
+Handling of LNG, to improve the safety, security, and reliability of 
+LNG projects consistent with the requirements that the Commission 
+imposes on LNG facilities in its authorization orders.
+---------------------------------------------------------------------------
+
+    12. Changes in the LNG market have also led to an expansion in the 
+number of projects that the Commission regulates. Since 2006, the 
+United States has emerged as the world's largest LNG exporter with 
+seven large-scale LNG export terminals currently in operation, eight 
+new or expanded export projects in construction, and additional 
+terminals and expansions expected over the next several years. Although 
+certain changes and variances are permitted during LNG terminal 
+construction, changes to an operating LNG terminal--in some cases even 
+routine adjustments like equipment replacements--may currently require 
+a case-specific authorization. With more LNG facilities in operation in 
+the United States, the current case-by-case review process for certain 
+replacements, modifications, and expansions may be administratively 
+inefficient, slow down needed projects, and create unnecessary 
+regulatory uncertainty. In addition, many LNG facilities under section 
+7 have been in operation for 50 years. While many have been able to 
+replace existing facilities under Sec.  2.55 provisions, there is less 
+regulatory certainty whether those provisions can be used to make 
+replacements, modifications, or expansions to accommodate changes in 
+feed gas compositions, changes in technology, or other conditions. 
+Thus, the Commission believes that reconsidering allowing an automatic 
+and/or prior-notice authorization program for certain activities is 
+warranted.
+
+II. Subject of the Notice of Inquiry
+
+    13. The Commission is issuing this notice of inquiry to consider 
+whether, and if so how, to revise its Part 153, 157, and 380 
+regulations to establish procedures for authorizing certain activities 
+at LNG plants without a case-specific authorization order, to provide 
+regulatory certainty and significantly streamline liquefied natural gas
+
+[[Page 53254]]
+
+infrastructure permitting. The Commission seeks comment on the 
+following questions:
+
+A. Process-Related Questions
+
+    A1. If the Commission promulgates rules to allow for the 
+construction, expansion, and operation of facilities without a case-
+specific section 3 authorization, should the Commission require each 
+LNG operator to apply for a blanket section 3 authorization as it does 
+for natural gas pipelines pursuant to Part 157, Subpart F (see 18 CFR 
+157.204(a)) or should all current and new LNG operators be 
+automatically granted a blanket authorization?
+    A2. How, if at all, should the Commission factor in a current LNG 
+operator's compliance history when determining whether to grant blanket 
+section 3 authorization?
+    A3. Under the Commission's existing Part 157, Subpart F blanket 
+certificate regulations for activities under NGA section 7, there is a 
+two-tiered process whereby some activities are automatically authorized 
+while others require prior notice (see 18 CFR 157.203(a)-(c)). Should 
+the Commission adopt a similar tiered approach for activities at LNG 
+terminals under section 3? If so, should there be additional or 
+different tiers?
+    A4. If the Commission allows for the construction, expansion, 
+operation, and modification of certain LNG facilities without prior 
+notice under a blanket section 3 authorization, should the Commission:
+    a. require LNG operators to notify Commission staff of any proposed 
+modifications prior to implementing them, similar to the notification 
+requirements in Sec.  2.55(b)(1)(iii)? And, if so, is 30 days' notice 
+sufficient?; and/or
+    b. require an LNG operator to file a semi-annual or annual report 
+documenting the activities undertaken during the previous calendar year 
+pursuant to the blanket authorization program? Is including this 
+information in the current semiannual report sufficient? What 
+information should be included in such reports?
+    A5. If the Commission requires prior notice for some or all 
+activities under a blanket section 3 authorization, should the 
+Commission adopt the same notice requirements as those detailed in the 
+Commission's blanket certificate regulations, including Commission 
+issuance of a notice within 10 days of filing if the filing is not 
+rejected and a 60-day notice period thereafter for filing protests and 
+interventions (see 18 CFR 157.205)?
+    A6. Should the Commission adopt the same process concerning 
+protests to prior notice section 3 LNG projects as is currently in 
+place for prior notice blanket certificate pipeline projects, i.e. that 
+if a protest is filed and not withdrawn or dismissed, the application 
+will treated as a request for a section 3 authorization (see 18 CFR 
+157.205), or should a different process be required? If a different 
+process should be required, which types of protests should be 
+dismissed, if any?
+    A7. What stakeholder (e.g., affected landowner and local, state, 
+and federal agencies) notification requirements should the Commission 
+adopt for projects constructed pursuant to a blanket authorization 
+program?
+    A8. Should the Commission require LNG facilities under a blanket 
+section 3 or 7 authorization be constructed and placed into service 
+within a specified timeframe? If so, what timeframe?
+
+B. Project Eligibility
+
+    B1. LNG projects occurring during operation may include, but are 
+not limited to: (i) replacements of, modifications to, or new 
+facilities, systems, or components that improve efficiency, capacity, 
+reliability, safety, or emissions and lessen adverse impacts to the 
+public; (ii) replacements of, modifications to, or new facilities, 
+systems, or components that increase capacity of pretreatment, 
+liquefaction, storage, transfer, or auxiliary facilities without 
+exceeding previously evaluated resource impacts identified in the NEPA 
+process associated with the plant's underlying authorizations; or (iii) 
+replacements of, modifications to, or new facilities, systems, or 
+components that are identical to those previously evaluated and 
+authorized by the Commission. If the Commission adopts a tiered 
+approach similar to that in the blanket certificate regulations for 
+natural gas pipelines (18 CFR 157.203(b)-(c)), what categories of 
+projects should be eligible for automatic authorization? What 
+categories of projects should be eligible for prior notice 
+authorization? How should the Commission divide these categories, e.g., 
+based on costs, infrastructure types, or anticipated environmental 
+effects, based on one or more of safety, security, operability, or 
+reliability concerns, based on the impact on LNG production or export 
+capacity, or based on other factors?
+    B2. What activities and modifications at authorized and existing 
+LNG plants would result in no adverse impacts to the environment or 
+safety? Specifically, what types of LNG facility modifications, 
+systems, or components would have no or beneficial impacts to the 
+following resources:
+
+<bullet> Water Resources;
+<bullet> Water Bodies and Wetlands;
+<bullet> Wildlife, including Threatened and Endangered Species;
+<bullet> Vegetation;
+<bullet> Cultural Resources;
+<bullet> Socioeconomics;
+<bullet> Geological Resources;
+<bullet> Soils;
+<bullet> Land Use;
+<bullet> Recreation;
+<bullet> Visual Resources;
+<bullet> Air Quality;
+<bullet> Noise;
+<bullet> Reliability; and
+<bullet> Safety.
+
+    B3. What categories of LNG projects would provide equivalent or 
+greater level of environmental protection and safety as compared to 
+what is authorized at an existing LNG plant? Specifically, what types 
+of LNG facility modifications, systems, or components would result in 
+different impacts but nevertheless provide an equivalent or greater 
+level of protection to the resources listed in question B2?
+    B4. What categories of LNG projects would result in less than 
+significant impacts to the environment and safety at authorized and 
+existing LNG plants such that the Commission could categorically 
+determine that such projects are not inconsistent with the public 
+interest under NGA section 3, or are or will be required by the present 
+or future public convenience and necessity under NGA section 7? 
+Specifically, what types of LNG facility modifications, systems, or 
+components would result in less than significant impacts to the 
+resources listed in question B2?
+    B5. Should the Commission allow the construction and operation of 
+additional facilities under a blanket section 3 or 7 LNG authorization 
+program to occur outside the authorized LNG plant limits? If so, what 
+should the restrictions or criteria be for construction outside the 
+authorized plant limits?
+    B6. Should the Commission revise its Part 157 blanket certificate 
+regulations to include modifications to LNG facilities under section 7? 
+If so, what types of projects should be subject to automatic 
+authorization and prior notice?
+    B7. Should the Commission require different cost limits for LNG 
+facilities under section 7 than for other interstate natural gas 
+facilities? Are cost-based limits appropriate for these LNG facilities? 
+Should there be any other considerations beyond cost and those listed 
+above?
+
+C. Statutory and Regulatory Compliance
+
+    C1. How should applicants demonstrate that: (1) other federal
+
+[[Page 53255]]
+
+permitting agencies have been consulted and that all necessary federal 
+authorizations are received prior to construction; (2) the modified LNG 
+facilities would meet the federal siting requirements promulgated by 
+PHMSA; (3) a Letter of Intent and Waterways Safety Assessment has been 
+filed with the USCG and a Letter of Recommendation that determines the 
+waterway to be suitable has been issued by the USCG; (4) the Department 
+of War has concurred that there would be no or minimal impacts to 
+military installations, training, and operations; (5) state and local 
+safety considerations have been addressed prior to construction of 
+facilities per NGA section 3A(b)-(d); and (6) an emergency response 
+plan, including a cost sharing plan, has been developed in consultation 
+with the USCG and state and local agencies prior to construction?
+    C2. Currently, under Sec.  157.21(e) of the Commission's 
+regulations, the Director of OEP may waive after notice prefiling if 
+there are no significant state and local safety considerations that 
+have not been previously addressed. How should applicants demonstrate 
+that there are no significant state and local safety considerations 
+that have not been previously addressed in order to waive pre-filing 
+requirements under the NGA and Sec.  157.21(e) of the Commission's 
+regulations per NGA section 3A(a)? Should the Commission consider 
+modifying when or how it waives its prefiling requirements?
+    C3. To comply with NEPA in reviewing proposed LNG facilities, 
+should the Commission consider establishing additional categorical 
+exclusions or adopting existing categorical exclusions from other 
+federal agencies?
+
+D. Conditions of Authorization
+
+    D1. What applicable federal laws, permits, and regulations could be 
+relied upon to ensure that no significant engineering, environmental, 
+safety, and security impacts occur from LNG facility modifications, 
+systems, and components authorized under a blanket program throughout 
+construction and operation?
+    D2. How would a blanket section 3 authorization program comply with 
+the following federal statutes and regulatory schemes:
+
+<bullet> Rivers and Harbors Act
+<bullet> Clean Water Act
+<bullet> Migratory Bird Treaty Act
+<bullet> Fish and Wildlife Coordination Act
+<bullet> Bald and Golden Eagle Protection Act
+<bullet> Marine Protection, Research, and Sanctuaries Act
+<bullet> Marine Mammal Protection Act
+<bullet> Endangered Species Act
+<bullet> Magnuson-Stevens Fishery Conservation and Management Act
+<bullet> National Historic Preservation Act
+<bullet> Farmland Protection Policy Act
+<bullet> Coastal Zone Management Act
+<bullet> Clean Air Act
+<bullet> Natural Gas Pipeline Safety Act
+<bullet> Ports and Waterways Safety Act
+<bullet> Marine Transportation Security Act
+
+Are there other federal laws to be considered?
+    D3. What terms and conditions that have been historically 
+incorporated into orders authorizing LNG projects could be included in 
+a section 3 or section 7 authorization program to ensure no significant 
+adverse environmental or safety impacts occur?
+    D4. Should the Commission require notice(s) to proceed from the 
+Director of the Office of Energy Projects or their designee prior to 
+the start of construction, introduction of hazardous fluids, or other 
+milestones, to ensure that the activities comply with all necessary 
+safety measures?
+
+E. Cost Impacts
+
+    E1. What are the historic and estimated range of costs for 
+preparation of an application for modifications to an NGA section 3 LNG 
+export/import terminal? Modifications could include replacements of, 
+modifications to, or construction, installation, and operation of new 
+facilities or components of those facilities, including those that 
+increase capacity of feed gas, pretreatment, liquefaction, storage, 
+transfer, vaporization, sendout, or auxiliary facilities.
+    E2. What are the historic and estimated range of costs for 
+preparation of an application for modifications to an NGA section 7 LNG 
+plant?
+
+III. Comment Procedures
+
+    14. The Commission invites interested persons to submit comments on 
+the matters and issues identified in this notice. Comments are due 
+January 26, 2026. Comments must refer to Docket No. RM26-2-000, and 
+must include the commenter's name, the organization they represent, if 
+applicable, and their address in their comments. All comments will be 
+placed in the Commission's public files and may be viewed, printed, or 
+downloaded remotely as described in the Document Availability section 
+below. Commenters on this proposal are not required to serve copies of 
+their comments on other commenters.
+    15. The Commission encourages comments to be filed electronically 
+via the eFiling link on the Commission's website at <a href="http://www.ferc.gov">http://www.ferc.gov</a>. The Commission accepts most standard word processing 
+formats. Documents created electronically using word processing 
+software must be filed in native applications or print-to-PDF format 
+and not in a scanned format. Commenters filing electronically do not 
+need to make a paper filing.
+    16. Commenters that are not able to file comments electronically 
+may file an original of their comment by USPS mail or by courier-or 
+other delivery services. For submission sent via USPS only, filings 
+should be mailed to: Federal Energy Regulatory Commission, Office of 
+the Secretary, 888 First Street NE, Washington, DC 20426. Submission of 
+filings other than by USPS should be delivered to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+
+IV. Document Availability
+
+    17. In addition to publishing the full text of this document in the 
+Federal Register, the Commission provides all interested persons an 
+opportunity to view and/or print the contents of this document via the 
+internet through the Commission's Home Page (<a href="http://www.ferc.gov">http://www.ferc.gov</a>).
+    18. From the Commission's Home Page on the internet, this 
+information is available on eLibrary. The full text of this document is 
+available on eLibrary in PDF and Microsoft Word format for viewing, 
+printing, and/or downloading. To access this document in eLibrary, type 
+the docket number excluding the last three digits of this document in 
+the docket number field.
+    19. User assistance is available for eLibrary and the Commission's 
+website during normal business hours from FERC Online Support at (202) 
+502-6652 (toll free at 1-866-208-3676) or email at 
+<a href="/cdn-cgi/l/email-protection#88eeedfaebe7e6e4e1e6edfbfdf8f8e7fafcc8eeedfaeba6efe7fe"><span class="__cf_email__" data-cfemail="6e080b1c0d01000207000b1d1b1e1e011c1a2e080b1c0d40090118">[email&#160;protected]</span></a>.
+
+    By direction of the Commission.
+
+    Issued: November 20, 2025.
+Carlos D. Clay,
+Deputy Secretary.
+[FR Doc. 2025-20898 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

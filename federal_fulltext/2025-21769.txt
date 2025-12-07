@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Page 55326]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21769]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0771]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Extension: Rule 3a71-3(d)
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (SEC or ``Commission'') is soliciting comments on the 
+proposed collection of information.
+    Rule 3a71-3 under the Exchange Act provides in part that, for 
+purposes of determining whether they can avail themselves of the de 
+minimis exception to the ``security-based swap dealer'' definition, 
+non-U.S. persons must count certain dealing transactions with non-U.S. 
+counterparties that have been ``arranged, negotiated, or executed'' by 
+personnel in the United States. Rule 3a71-3(d) provides an exception 
+from that ``arranged, negotiated, or executed'' counting requirement. 
+The information collection is required to obtain or retain a benefit 
+and the information is used by the Commission to monitor compliance 
+with the exception to provisions of Exchange Act Rule 3a71-3 that 
+otherwise would require non-U.S. persons to count--against the 
+thresholds associated with the de minimis exception to the ``security-
+based swap dealer'' definition--security-based swap dealing 
+transactions with non-U.S. counterparties when U.S. personnel arrange, 
+negotiate, or execute those transactions.
+    The Commission continues to estimate that up to 24 entities may 
+seek to rely on the exception to the de minimis counting requirement of 
+Rule 3a71-3. In connection with the conditions to the exception, each 
+of those up to 24 entities would make use of an affiliated registered 
+security-based swap dealer or registered broker. In general, the 
+registered entity would be required to comply with the collections of 
+information. Applications for ``listed jurisdiction'' status may be 
+submitted by the up to 24 relying entities, but the staff believes that 
+the greater portion of such applications will be submitted by foreign 
+financial authorities.
+    The Commission continues to estimate that the aggregate yearly 
+reporting burden for Rule 3a71-3(d), for all respondents, is 
+approximately 235,242.44 hours per year. In addition, to account for 
+inflation, the Commission estimates that the aggregate annual cost for 
+all of Rule 3a71-3(d) for all respondents is approximately 
+$1,359,778.96 per year. A detailed break-down of the burdens applicable 
+to each type of entity is provided in the supporting statement.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will have 
+practical utility; (b) the accuracy of the SEC's estimate of the burden 
+imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    Please direct your written comments on this 60-Day Collection 
+Notice to Austin Gerig, Director/Chief Data Officer, Securities and 
+Exchange Commission, c/o Tanya Ruttenberg via email to 
+<a href="/cdn-cgi/l/email-protection#92c2f3e2f7e0e5fde0f9c0f7f6e7f1e6fbfdfcd3f1e6d2e1f7f1bcf5fde4"><span class="__cf_email__" data-cfemail="4c1c2d3c293e3b233e271e2928392f382523220d2f380c3f292f622b233a">[email&#160;protected]</span></a> by February 2, 2026. There will be a 
+second opportunity to comment on this SEC request following the Federal 
+Register publishing a 30-Day Submission Notice.
+
+    Dated: November 28, 2025.
+Stephanie Fouse,
+Assistant Secretary.
+[FR Doc. 2025-21769 Filed 12-1-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,386 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Rules and Regulations]
+[Pages 53225-53227]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21089]
+
+
+-----------------------------------------------------------------------
+
+POSTAL SERVICE
+
+39 CFR Part 20
+
+
+International Registered Mail
+
+AGENCY: Postal Service.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Postal Service is revising Mailing Standards of the United 
+States Postal Service, International Mail Manual (IMM[supreg]), and 
+Notice 123, Price List, to reflect changes to international Registered 
+Mail as established by the Governors of the United States Postal 
+Service.
+
+DATES: Effective: January 1, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Dale Kennedy at 202-268-6592 or 
+Michelle Lassiter 202-268-2914.
+
+SUPPLEMENTARY INFORMATION: During the October 2023 Universal Postal 
+Union (UPU) Extraordinary Congress, the decision was made to revise the 
+Universal Postal Convention to limit the availability of international 
+Registered Mail to letter-post items containing documents only, 
+effective January 1, 2026.
+    On October 14, 2025, the Postal Service filed a notice in Postal 
+Regulatory Commission (PRC) Docket No. MC2026-21, which the PRC 
+favorably reviewed on November 5, 2025, in Order No. 9333, regarding 
+the termination of international Registered Mail as an extra service 
+for First-Class Package International Service[supreg], effective 
+January 1, 2026. International Registered Mail service will continue to 
+be available for First-Class Mail International[supreg] letters when 
+Registered Mail is purchased as an extra service. This order is 
+available on the PRC website at <a href="https://www.prc.gov">https://www.prc.gov</a>.
+    These IMM revisions implement changes associated with the 
+termination of outbound international Registered Mail as an extra 
+service for the following:
+    [ssquf] First-Class Package International Service.
+    [ssquf] Free Matter for the Blind First-Class Package International 
+Service.
+    The Postal Service hereby adopts the following changes to Mailing 
+Standards of the United States Postal Service,
+
+[[Page 53226]]
+
+International Mail Manual (IMM), which is incorporated by reference in 
+the Code of Federal Regulations. We will publish an appropriate 
+amendment to 39 CFR part 20 to reflect these changes.
+
+List of Subjects in 39 CFR Part 20
+
+    Foreign relations, International postal services.
+
+    Accordingly, the Postal Service amends Mailing Standards of the 
+United States Postal Service, International Mail Manual (IMM), 
+incorporated by reference in the Code of Federal Regulations, as 
+follows (see 39 CFR 20.1):
+
+PART 20--[AMENDED]
+
+0
+1. The authority citation for 39 CFR part 20 continues to read as 
+follows:
+
+    Authority:  5 U.S.C. 552(a); 13 U.S.C. 301-307; 18 U.S.C. 1692-
+1737; 39 U.S.C. 101, 401, 403, 404, 407, 414, 416, 3001-3011, 3201-
+3219, 3403-3406, 3621, 3622, 3626, 3632, 3633, and 5001.
+
+
+0
+2. Revise the following sections of the IMM as follows:
+* * * * *
+
+Mailing Standards of the United States Postal Service, International 
+Mail Manual (IMM)
+
+* * * * *
+
+1 International Mail Services
+
+* * * * *
+
+130 Mailability
+
+* * * * *
+
+134 Valuable Articles
+
+134.1 Service Options
+
+* * * * *
+    [Revise item a. to read as follows:]
+    a. First-Class Mail International with Registered Mail Service may 
+be used only when the destination customs authority treats the item as 
+a document. See Individual Country Listings.
+* * * * *
+
+135 Mailable Dangerous Goods
+
+* * * * *
+
+135.12 Type of Mail
+
+    [Revise the text to read as follows:]
+    Category B infectious substances may be sent using Priority Mail 
+Express International, Priority Mail International, or First-Class 
+Package International Service when properly packaged as described in 
+Publication 52, Packaging Instruction 6C.
+    Nonregulated materials defined in Publication 52, section 346.325, 
+and exempt human or animal specimens defined in Publication 52, item 
+346.12d, are mailable when properly packaged as described in 
+Publication 52, Packaging Instruction 6G and 6H respectively.
+* * * * *
+
+135.3 Packaging, Marking, Labeling
+
+135.31 Category B Infectious Substances
+
+    [Revise the first sentence to remove limitation to use First-Class 
+Package International Service using Registered Mail service, to read as 
+follows:]
+    A material that is classified as a Category B infectious substance 
+and that meets the definition in Publication 52, item 346.12a, must be 
+triple-packaged as described in Publication 52, Packaging Instruction 
+6C, must meet the packaging requirements in 49 CFR 173.199. * * *
+* * * * *
+
+135.5 Radioactive Materials
+
+* * * * *
+    [Revise item a. to read as follows:]
+    a. Shipments may be sent using Priority Mail Express International, 
+Priority Mail International, or First-Class Package International 
+Service.
+* * * * *
+
+140 International Mail Categories
+
+141 Definitions
+
+* * * * *
+
+141.4 Priority Mail International
+
+* * * * *
+    [Revise the second paragraph to read as follows:]
+    Priority Mail International Flat Rate Envelopes and Small Flat Rate 
+Priced Boxes provide customers with an economical means of sending 
+correspondence, documents, printed matter, and lightweight merchandise 
+items to foreign destinations. The maximum weight limit is 4 pounds. At 
+the sender`s option, extra services, such as additional merchandise 
+insurance coverage, may be added to Priority Mail International Flat 
+Rate Envelopes and Small Flat Rate Priced Boxes on a country-specific 
+basis.
+* * * * *
+
+141.6 First-Class Package International Service
+
+    [Revise the last sentence to read as follows:]
+    * * * At the sender's option, extra services may be added on a 
+country-specific basis.
+* * * * *
+
+142 Official Mail
+
+* * * * *
+
+142.4 General Secretariat of the Organization of American States (OAS)
+
+* * * * *
+    [Revise the first sentence of item a. to read as follows:]
+    a. Only unregistered or registered First-Class Mail International 
+and unregistered First-Class Package International Service items 
+bearing the return address of the OAS General Secretariat and weighing 
+not more than 4 pounds are accepted without postage when addressed to 
+the OAS member countries listed in 142.4b.* * *
+* * * * *
+
+142.5 Pan American Sanitary Bureau Mail
+
+    [Revise the second sentence to read as follows:]
+    * * * Registered First-Class Mail International, as well as items 
+in all other mail classes, must be prepaid by the mailer.
+* * * * *
+
+2 Conditions for Mailing
+
+* * * * *
+
+230 Priority Mail International
+
+* * * * *
+
+232 Eligibility
+
+232.1 Priority Mail International Flat Rate Envelopes and Small Flat 
+Rate Priced Boxes--General
+
+    [Delete the last sentence that states ``Registered Mail service is 
+not available.''
+* * * * *
+
+232.3 Priority Mail International Medium and Large Flat Rate Boxes
+
+    [Delete the last sentence that states ``Registered Mail service is 
+not available.''
+* * * * *
+
+232.5 Priority Mail International Parcels
+
+    [Delete the last sentence that states ``Registered Mail service is 
+not available.''
+* * * * *
+
+250 First-Class Package International Service
+
+* * * * *
+
+252 Eligibility
+
+* * * * *
+
+252.5 Extra Services
+
+* * * * *
+    [Delete 252.52 in its entirety and renumber current 252.53 as 
+252.52.]
+* * * * *
+
+[[Page 53227]]
+
+253 Prices and Postage Payment Methods
+
+* * * * *
+
+253.2 Postage Payment Methods
+
+* * * * *
+
+253.23 Online Methods
+
+253.231 Online Prices--Commercial Base or Commercial Plus Prices
+
+    [Revise the last sentence of the last paragraph to read as 
+follows:]
+    * * * It does not apply to any other charges or fees or shipments 
+made under a customized agreement.
+* * * * *
+
+254 Mail Preparation
+
+* * * * *
+
+254.3 Sealing
+
+    [Revise the text to read as follows:]
+    First-Class Package International Service items may be sealed at 
+the sender's option. Mailpieces not sealed by conventional means, such 
+as taping the open flaps for small packets, must be closed in such a 
+manner as to prevent the contents from falling out or being damaged 
+during postal handling and transport.
+* * * * *
+
+270 Free Matter for the Blind
+
+* * * * *
+
+272 Eligibility
+
+* * * * *
+
+272.6 Extra Services
+
+* * * * *
+    [Revise item a. to read as follows:]
+    a. Registered Mail service for First-Class Mail International 
+items.
+* * * * *
+
+3 Extra Services
+
+* * * * *
+
+330 Registered Mail
+
+* * * * *
+
+332 Availability
+
+    [Revise the text to read as follows:]
+
+Note: Global Express Guaranteed Service Is Suspended as of September 
+29, 2024
+
+    Customers may purchase Registered Mail service for First-Class Mail 
+International items that contain documents only, including Free Matter 
+for the Blind items. Registered Mail service is not available with 
+Global Express Guaranteed, Priority Mail Express International, or 
+Priority Mail International service, First-Class Package International 
+Service items, or any type of M-bag service. See Individual Country 
+Listings for additional country-specific prohibitions and restrictions.
+* * * * *
+
+334 Processing Requests
+
+334.1 Mailing Receipt and Registration Number
+
+334.11 General Use
+
+    [Revise the text to read as follows:]
+    The Postal Service issues a receipt when it accepts a Registered 
+Mail item. For individual transactions, use PS Form 3806, Receipt for 
+Registered Mail. When presenting three or more items for registration 
+at one time, the mailer may use PS Form 3877, Firm Mailing Book for 
+Accountable Mail (see DMM 503). For First-Class Mail International 
+items containing documents that require a customs form, the registered 
+number is determined by the barcode printed on the customs form, and 
+the accepting clerk applies a nonbarcoded Label 200-N, Registered Mail, 
+to the mailpiece. For First-Class Mail International items containing 
+documents that do not require a customs form, the accepting clerk 
+applies Label 200, Registered Mail, a preprinted self-adhesive label 
+with a 9-digit number series preceded by a Service Type Code of two 
+alpha characters and followed by the two-character County Code ``US.'' 
+Only labels printed by the Postal Service may be used on international 
+Registered Mail items.
+* * * * *
+
+9 Inquiries, Indemnities, and Refunds
+
+* * * * *
+
+930 Indemnity Payments
+
+* * * * *
+
+934 Payments for Registered Mail
+
+934.1 General Provisions
+
+* * * * *
+    [Revise the title and text to read as follows:]
+
+934.12 Items Erroneously Accepted as Registered Mail
+
+    For Registered Mail items accepted in error, indemnity may be paid 
+under the conditions in 934.2.
+* * * * *
+
+943 Processing Refund Applications
+
+943.1 Items Originating in the United States
+
+* * * * *
+    [Revise item b. to read as follows:]
+    b. If there is reason to believe a registered item, insured item, 
+or ordinary parcel originating in the United States was returned in 
+error, or if the parcel was returned with no annotation showing reason 
+for return, call 800-222-1811 to initiate an inquiry.
+* * * * *
+
+Colleen Hibbert-Kapler,
+Attorney, Ethics and Legal Compliance.
+[FR Doc. 2025-21089 Filed 11-24-25; 8:45 am]
+BILLING CODE 7710-12-P
+
+
+</pre></body>
+</html>

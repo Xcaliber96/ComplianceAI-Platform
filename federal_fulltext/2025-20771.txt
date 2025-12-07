@@ -1,0 +1,408 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52962-52965]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20771]
+
+
+
+[[Page 52962]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-N-1115]
+
+
+Agency Information Collection Activities; Submission for Office 
+of Management and Budget Review; Comment Request; Emergency Use 
+Authorization of Medical Products
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is announcing that a 
+proposed collection of information has been submitted to the Office of 
+Management and Budget (OMB) for review and clearance under the 
+Paperwork Reduction Act of 1995.
+
+DATES: Submit written comments (including recommendations) on the 
+collection of information by December 24, 2025.
+
+ADDRESSES: To ensure that comments on the information collection are 
+received, OMB recommends that written comments be submitted to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under Review--Open for Public 
+Comments'' or by using the search function. The OMB control number for 
+this information collection is 0910-0595. Also include the FDA docket 
+number found in brackets in the heading of this document.
+
+FOR FURTHER INFORMATION CONTACT: Amber Sanford, Office of Operations, 
+Food and Drug Administration, Three White Flint North, 10A-12M, 11601 
+Landsdown St., North Bethesda, MD 20852, 301-796-8867, 
+<a href="/cdn-cgi/l/email-protection#306062716344515656705654511e5858431e575f46"><span class="__cf_email__" data-cfemail="dc8c8e9d8fa8bdbaba9cbab8bdf2b4b4aff2bbb3aa">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In compliance with 44 U.S.C. 3507, FDA has 
+submitted the following proposed collection of information to OMB for 
+review and clearance.
+
+Emergency Use Authorization of Medical Products
+
+OMB Control Number 0910-0595--Extension
+
+    This information collection helps support implementation of Agency 
+policies applicable to the authorization for medical products for use 
+in emergencies under sections 564, 564A, and 564B of the Federal Food, 
+Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 360bbb-3, 360bbb-3a, and 
+360bbb-3b). For more information regarding emergency use authorization 
+(EUA), visit our website at <a href="https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization">https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</a>. The FD&C Act permits the Commissioner of Food and Drugs 
+(the Commissioner) to authorize the use of unapproved medical products 
+for humans and animals, or unapproved uses of approved medical products 
+for humans and animals, during an emergency declared under section 564 
+of the FD&C Act. The data to support issuance of an EUA must 
+demonstrate that, based on the totality of the scientific evidence 
+available to the Commissioner, including data from adequate and well-
+controlled clinical trials (if available), it is reasonable to believe 
+that the product may be effective in diagnosing, treating, or 
+preventing a serious or life-threatening disease or condition (21 
+U.S.C. 360bbb-3(c)).
+    Also, under section 564 of the FD&C Act, the Commissioner may 
+establish conditions on issuing an authorization that may be necessary 
+or appropriate to protect the public health. These conditions can 
+include: (1) requirements to disseminate or disclose information to 
+healthcare providers or authorized dispensers and product recipients; 
+(2) adverse event monitoring and reporting; (3) data collection and 
+analysis; (4) specific recordkeeping and records access; (5) 
+restrictions on product advertising, distribution, and administration; 
+and (6) limitations on good manufacturing practice requirements. As 
+governed by statute, some conditions are mandatory to the extent 
+practicable for authorizations of unapproved products, and 
+discretionary for authorizations of unapproved uses of approved 
+products. Some conditions may apply to manufacturers of an EUA product, 
+while other conditions may apply to any person who carries out an 
+activity for which the authorization is issued. Sections 564A and 564B 
+of the FD&C Act establish streamlined mechanisms intended to facilitate 
+preparedness and response activities involving certain FDA approved 
+products without requiring FDA to issue an EUA and set forth emergency 
+dispensing order and expiration date extension authority.
+    The guidance document entitled, ``Emergency Use Authorization of 
+Medical Products and Related Authorities'' (January 2017), available 
+for download from our website at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/emergency-use-authorization-medical-products-and-related-authorities">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/emergency-use-authorization-medical-products-and-related-authorities</a>, discusses FDA issuance of 
+Emergency Use Authorizations (EUAs) under section 564 of the FD&C Act; 
+implementation of the emergency use authorities set forth in section 
+564A of the FD&C Act; reliance on the governmental pre-positioning 
+authority set forth in section 564B of the FD&C Act; and related FDA 
+regulations. As discussed in the guidance document, the specific type 
+and amount of data needed to support an EUA will vary depending on the 
+nature of the declared emergency and the nature of the candidate 
+product. The guidance document encourages early engagement with FDA, 
+explains mechanisms for communication, and makes content and format 
+recommendations on submitting information to the Agency. The guidance 
+document also recommends that a request for consideration for an EUA 
+include scientific evidence evaluating the product's safety and 
+effectiveness, including the adverse event profile for diagnosis, 
+treatment, or prevention of the serious or life-threatening disease or 
+condition, as well as data and other information on safety, 
+effectiveness, risks and benefits, and (to the extent available) 
+alternatives.
+    In accordance with 5 CFR 1320.8(d), we published a 60-day notice 
+soliciting public comment on information collection activities related 
+to emergency use authorization for medical products in the Federal 
+Register of July 14, 2025 (90 FR 31217). Under the 60-day notice, FDA 
+invited comments on the following topics: (1) whether the proposed 
+collection of information is necessary for the proper performance of 
+FDA's functions, including whether the information will have practical 
+utility; (2) the accuracy of FDA's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3) ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (4) ways 
+to minimize the burden of the collection of information on respondents, 
+including through the use of automated collection techniques, when 
+appropriate, and other forms of information technology.
+    One comment was received. The comment did not discuss information 
+collection activities related to emergency use authorization for 
+medical products, was not responsive to the four information collection 
+topics solicited, and did not offer information that would enable FDA 
+to consider revising the information collection and/or burden 
+estimates. Instead, the comment raised policy concerns about FDA's 
+implementation of section 564 of
+
+[[Page 52963]]
+
+the Federal Food, Drug and Cosmetic Act (21 U.S.C. 360bbb-3). Such 
+comments may be offered to FDA through alternative means, such as 
+directly to the FDA docket for the 2017 EUA guidance (which remains 
+continually open for submissions) (FDA-2016-D-1025) or through FDA's 
+citizen petition process (21 CFR 10.30). Therefore, the comment will 
+not be addressed in this document.
+    FDA estimates the burden of this collection of information as 
+follows:
+
+                                 Table 1--Estimated Annual Reporting Burden \1\
+----------------------------------------------------------------------------------------------------------------
+                                                     Number of
+ Information collection activity     Number of     responses per   Total annual   Average burden    Total hours
+                                    respondents     respondent       responses     per response
+----------------------------------------------------------------------------------------------------------------
+Requests for an EUA and/or a
+ substantive amendment to an
+ existing EUA:
+    Center for Biologics                       1               4               4              45             180
+     Evaluation (CBER)..........
+    Center for Drug Evaluation                 6               1               6                             270
+     and Research (CDER)........
+    Center for Devices and                    77           1.727             133                           5,985
+     Radiological Health (CDRH).
+                                 -------------------------------------------------------------------------------
+        Total...................  ..............  ..............  ..............  ..............           6,435
+Pre-EUA submissions or
+ amendments:
+    CBER........................               2               2               4              34             136
+    CDER........................               2               1               2                              68
+    CDRH........................              23             1.4              32                           1,088
+                                 -------------------------------------------------------------------------------
+        Total...................  ..............  ..............  ..............  ..............           1,292
+Submitting information required
+ under conditions of
+ authorization:
+    CBER........................               4               3              12               8              96
+    CDER........................               8               5              40                             320
+    CDRH........................               5             2.2              11                              88
+                                 -------------------------------------------------------------------------------
+        Total...................  ..............  ..............  ..............  ..............             504
+State and local public health                  1               1               1               2               2
+ authority submissions required
+ under conditions of
+ authorization for unapproved
+ EUA product; CBER, CDER and
+ CDRH...........................
+State and local public health                  1               1               1               2               2
+ authority requests for
+ Emergency Dispensing Order;
+ CBER, CDER and CDRH............
+State and local public health                  1               1               1              20              20
+ authority requests for
+ expiration date extension; CDER
+                                 -------------------------------------------------------------------------------
+    Total.......................  ..............  ..............  ..............  ..............          56,651
+----------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of
+  information.
+
+    Although we have averaged burden across all respondents, we 
+categorize reporting activity by the type of EUA-related submission: 
+(1) those who file a request for FDA to issue an EUA and/or a 
+substantive amendment to an EUA that has previously been issued; (2) 
+those who submit a request for FDA to review information/data (i.e., a 
+pre-EUA package) for a candidate EUA product or a substantive amendment 
+to an existing pre-EUA package for preparedness purposes; (3) those who 
+must report on activities related to an unapproved EUA product (e.g., 
+administering product, disseminating information) who must report to 
+FDA regarding such activity; (4) public health authorities (e.g., 
+State, local) who must report on certain activities (e.g., 
+administering product, disseminating information) related to an 
+unapproved EUA, and public health authorities who submit an expiration 
+date extension request for an approved product; (5) those who request 
+an emergency dispensing order under section 564A; and (6) those who 
+request expiry dating extensions under section 564A of the FDC&C Act. 
+We attribute greater burden to those requests for FDA to review pre-EUA 
+packages submitted by product sponsors than burden we attribute to 
+those submitted by Federal agencies (e.g., Centers for Disease Control 
+and Prevention, the Department of Defense), and have considered other 
+factors that contribute to variability in burden for reporting, 
+including the type of product and whether there is a previously 
+reviewed pre-EUA package or investigational application.
+    We also account for burden that may be attendant to the use of the 
+following agency EUA Templates and Fact Sheet Templates:
+
+             Table 2--EUA Templates and Fact Sheet Templates
+------------------------------------------------------------------------
+         Template title               Date              Hyperlink
+------------------------------------------------------------------------
+       CDRH COVID-19 Diagnostic Templates (Molecular and Antigen)
+------------------------------------------------------------------------
+Molecular Diagnostic EUA Cover       10/06/2021  https://www.fda.gov/
+ Sheet Template.                                  media/152768/
+                                                  download?attachment.
+Molecular Diagnostic Template..      10/06/2021  <a href="https://www.fda.gov/media/135900/download?attachment">https://www.fda.gov/media/135900/download?attachment</a>.
+Molecular Diagnostic Home            10/06/2021  https://www.fda.gov/
+ Specimen Collection Template.                    media/138412/
+                                                  download?attachment.
+Antigen Diagnostic Template....      10/06/2021  <a href="https://www.fda.gov/media/137907/download?attachment">https://www.fda.gov/media/137907/download?attachment</a>.
+Molecular and Antigen Home Use       11/09/2021  https://www.fda.gov/
+ Test Template.                                   media/140615/
+                                                  download?attachment.
+
+[[Page 52964]]
+
+ 
+Supplemental Template for            10/25/2021  https://www.fda.gov/
+ Molecular and Antigen                            media/146695/
+ Diagnostic COVID-19 Tests for                    download?attachment.
+ Screening with Serial Testing.
+------------------------------------------------------------------------
+                CDRH COVID-19 Serology/Antibody Templates
+------------------------------------------------------------------------
+Serology Template..............      10/06/2021  <a href="https://www.fda.gov/media/137698/download?attachment">https://www.fda.gov/media/137698/download?attachment</a>.
+Template for Serology Tests          10/06/2021  https://www.fda.gov/
+ that Detect or Correlate to                      media/146746/
+ Neutralizing Antibodies.                         download?attachment.
+------------------------------------------------------------------------
+     CDRH COVID-19: Pooling and Serial Testing Amendment for Certain
+           Molecular Diagnostic Tests for SARS-CoV-2 Templates
+------------------------------------------------------------------------
+Appendix J--Sample Updated Fact      04/20/2021  https://www.fda.gov/
+ Sheet for Health Care                            media/147735/
+ Providers.                                       download?attachment.
+Appendix K--Sample Updated Fact      04/20/2021  https://www.fda.gov/
+ Sheet for Patients.                              media/147736/
+                                                  download?attachment.
+------------------------------------------------------------------------
+  CDRH COVID-19: Umbrella EUA for SARS-CoV-2 Molecular Diagnostic Tests
+                      for Serial Testing Templates
+------------------------------------------------------------------------
+Appendix L--Fact Sheet for           11/15/2021  https://www.fda.gov/
+ Health Care Providers                            media/154112/
+ (Template).                                      download?attachment.
+Appendix M--Fact Sheet for           11/15/2021  https://www.fda.gov/
+ Patients (Template).                             media/154114/
+                                                  download?attachment.
+Appendix N--Test Summary             11/15/2021  https://www.fda.gov/
+ (Template).                                      media/154113/
+                                                  download?attachment.
+------------------------------------------------------------------------
+    CDRH COVID-19: EUA for Molecular Diagnostic Tests for SARS-CoV-2
+ Developed And Performed By Laboratories Certified Under CLIA To Perform
+                     High Complexity Tests Templates
+------------------------------------------------------------------------
+Fact Sheet for Healthcare            11/15/2021  https://www.fda.gov/
+ Providers.                                       media/136599/
+                                                  download?attachment.
+Fact Sheet for Patients........      11/15/2021  <a href="https://www.fda.gov/media/136600/download?attachment">https://www.fda.gov/media/136600/download?attachment</a>.
+------------------------------------------------------------------------
+  CDRH Mpox Templates and EUA Summary Templates (Molecular and Antigen)
+------------------------------------------------------------------------
+EUA Summary Template for             09/07/2022  https://www.fda.gov/
+ Developers of Molecular                          media/161447/
+ Diagnostic Tests for Monkeypox.                  download?attachment.
+EUA Template for Developers of       09/07/2022  https://www.fda.gov/
+ Molecular Diagnostic Tests for                   media/161448/
+ Monkeypox.                                       download?attachment.
+EUA Summary Template for             11/29/2022  https://www.fda.gov/
+ Developers of Antigen                            media/163530/
+ Diagnostic Tests for Monkeypox.                  download?attachment.
+EUA Template for Developers of       11/29/2022  https://www.fda.gov/
+ Antigen Diagnostic Tests for                     media/163529/
+ Monkeypox.                                       download?attachment.
+------------------------------------------------------------------------
+                      CDRH Other Devices Templates
+------------------------------------------------------------------------
+Ventilator EUA Interactive           04/21/2020  https://www.fda.gov/
+ Review Template.                                 media/137172/
+                                                  download?attachment.
+------------------------------------------------------------------------
+                 CDER Therapeutics Fact Sheet Templates
+------------------------------------------------------------------------
+Healthcare Provider Fact Sheet       11/26/2024  https://www.fda.gov/
+ Template.                                        media/183876/
+                                                  download?attachment.
+Patient, Parent, and Caregiver       11/26/2024  https://www.fda.gov/
+ Fact Sheet Template.                             media/183875/
+                                                  download?attachment.
+------------------------------------------------------------------------
+
+    The CDRH templates are part of the Policy for Coronavirus Disease-
+2019 Tests During the Public Health Emergency (Revised) and Policy for 
+Monkeypox [mpox] Tests to Address the Public Health Emergency guidance 
+documents, which also include additional policies specific to these 
+public health emergencies. The templates reflect the FDA's current 
+thinking on the data and information that developers should submit to 
+facilitate the EUA process. The templates provide information and 
+recommendations, and they are updated as appropriate as we learn more 
+about the COVID-19 and mpox diseases and gain experience with the EUA 
+process for the various types of tests. Developers who intend to use 
+alternative approaches should consider seeking the FDA's feedback or 
+recommendations to help them through the EUA process.
+    The CDER templates reflect the FDA's current thinking on the data 
+and information that developers should include in the fact sheets for 
+therapeutics. The templates provide general fact sheet information and 
+recommendations. and are not specific to COVID-19. Developers who 
+intend to use alternative approaches should consider seeking the FDA's 
+feedback or recommendations during the EUA process. Members of the 
+public can submit questions about the templates to <a href="/cdn-cgi/l/email-protection#6d2e29283f28382c2d0b090c4305051e430a021b"><span class="__cf_email__" data-cfemail="ce8d8a8b9c8b9b8f8ea8aaafe0a6a6bde0a9a1b8">[email&#160;protected]</span></a>.
+
+                               Table 3--Estimated Annual Recordkeeping Burden \1\
+----------------------------------------------------------------------------------------------------------------
+                                                     Number of                    Average burden
+     Records associated with         Number of      records per    Total annual         per         Total hours
+   conditions of authorization     recordkeepers   recordkeeper       records      recordkeeping
+----------------------------------------------------------------------------------------------------------------
+EUA Holders:
+    CBER........................               8               4              32              25             800
+
+[[Page 52965]]
+
+ 
+    CDER........................               8               5              40                           1,000
+    CDRH........................             668               2           1,336                          33,400
+                                 -------------------------------------------------------------------------------
+        Total...................  ..............  ..............  ..............  ..............          35,200
+State and local Public Health                  1               1               1               3               3
+ Authorities; CBER, CDER and
+ CDRH...........................
+                                 -------------------------------------------------------------------------------
+    Total.......................  ..............  ..............  ..............  ..............          59,403
+----------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of
+  information.
+
+    We provide a conservative estimate for respondent recordkeeping, 
+recognizing that the Federal Government performs much of this activity 
+in conjunction with submissions. We do not include burden for public 
+health authorities who may need to submit emergency dispensing orders 
+or expiration date extension requests, assuming covered entities 
+already maintain these records for the products they stockpile.
+
+                           Table 4--Estimated Annual Third-Party Disclosure Burden \1\
+----------------------------------------------------------------------------------------------------------------
+                                                     Number of
+ Information collection activity     Number of      disclosures    Total annual   Average burden    Total hours
+                                    respondents   per respondent    disclosures   per disclosure
+----------------------------------------------------------------------------------------------------------------
+                  Dissemination of required information by EUA Holder or Authorized Stakeholder
+----------------------------------------------------------------------------------------------------------------
+CBER............................               8               4              32               5             160
+CDER............................               8               2              16                              80
+CDRH............................             668               2           1,336                           6,680
+                                 -------------------------------------------------------------------------------
+    Total.......................  ..............  ..............  ..............  ..............           6,920
+----------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of
+  information.
+
+    Our third-party disclosure estimate is based on the number of EUA 
+holders and authorized stakeholders disseminating information, 
+including fact sheets, advertising, and promotional materials.
+    Our estimated burden for the information collection reflects an 
+overall decrease of 7,087 hours and a corresponding decrease of 302,456 
+responses.
+
+Lowell M. Zeta,
+Acting, Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-20771 Filed 11-21-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

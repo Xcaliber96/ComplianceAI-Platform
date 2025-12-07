@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54310]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21162]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-OS-0244]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: Office of the Under Secretary of Defense for Acquisition and 
+Sustainment (OUSD(A&S)), Department of Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#33445b401d5e501e525f564b1d5640571d5e514b1d57571e575c571e5a5d555c415e52475a5c5d1e505c5f5f5650475a5c5d40735e525a5f1d5e5a5f"><span class="__cf_email__" data-cfemail="601708134e0d034d010c05184e0513044e0d02184e04044d040f044d090e060f120d0114090f0e4d030f0c0c050314090f0e13200d01090c4e0d090c">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Application for Assignment 
+to Housing, DD Form 1746, OMB Control Number 0704-AFAH.
+    Type of Request: New.
+    Number of Respondents: 422,430.
+    Responses per Respondent: 1.
+    Annual Responses: 422,430.
+    Average Burden per Response: 15 minutes.
+    Annual Burden Hours: 105,608.
+    Needs and Uses: The DD Form 1746 is used for collection of 
+information and supports DoDs commitment to determine assignment 
+priority categories for housing active-duty service members, eligible 
+civilians, local and Foreign Nationals to family housing on or off 
+base, allows service members to communicate preferences regarding 
+living accommodations, tracks all service members assigned to the 
+installation, and aligns with our administration's priorities, such as 
+reviving our warrior ethos by allowing service members to focus on 
+their warfighter duties and missions, while providing support for 
+family well-being and readiness.
+    Affected Public: Individuals and households.
+    Frequency: On occasion.
+    Respondent's Obligation: Voluntary.
+    DOD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21162 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

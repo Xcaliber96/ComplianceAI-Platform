@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54284]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21112]
+
+
+
+[[Page 54284]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF AGRICULTURE
+
+
+Submission for OMB Review; Comment Request
+
+    The Department of Agriculture has submitted the following 
+information collection requirement(s) to OMB for review and clearance 
+under the Paperwork Reduction Act of 1995, Public Law 104-13. Comments 
+are requested regarding; whether the collection of information is 
+necessary for the proper performance of the functions of the agency, 
+including whether the information will have practical utility; the 
+accuracy of the agency's estimate of burden including the validity of 
+the methodology and assumptions used; ways to enhance the quality, 
+utility and clarity of the information to be collected; and ways to 
+minimize the burden of the collection of information on those who are 
+to respond, including through the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques or 
+other forms of information technology.
+    Comments regarding this information collection received by December 
+26, 2025 will be considered. Written comments and recommendations for 
+the proposed information collection should be submitted within 30 days 
+of the publication of this notice on the following website 
+<a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under 30-day Review--Open for 
+Public Comments'' or by using the search function. An agency may not 
+conduct or sponsor a collection of information unless the collection of 
+information displays a currently valid OMB control number and the 
+agency informs potential persons who are to respond to the collection 
+of information that such persons are not required to respond to the 
+collection of information unless it displays a currently valid OMB 
+control number.
+
+Food and Nutrition Service
+
+    Title: Supplemental Nutrition Assistance Program--Supplemental 
+Nutrition Assistance for Victims of Disasters.
+    OMB Control Number: 0584-0336.
+    Summary of Collection: The authority to operate the Disaster 
+Supplemental Nutrition Assistance Program (D-SNAP) is found in section 
+5(h) of the Food and Nutrition Act of 2008, formerly the Food Stamp Act 
+of 1977, as amended and the Disaster Relief Act of 1974, as amended by 
+the Robert T. Stafford Disaster Relief and Assistance Act of 1988 
+authorizes the Secretary of Agriculture to establish temporary 
+emergency standards of eligibility for victims of a disaster if the 
+commercial channels of food distribution have been disrupted, and 
+subsequently restored. D-SNAP is a program that is separate from the 
+Supplemental Nutrition Assistance Program (SNAP) and is conducted for a 
+specific period of time. In order for a State to request to operate a 
+D-SNAP, an affected area in the State must have received a Presidential 
+Declaration of ``Major Disaster'' with Individual Assistance.
+    Need and Use of the Information: This information collection 
+concerns information obtained from State agencies seeking to operate D-
+SNAP. A State agency request to operate a D-SNAP must contain the 
+following information: Description of incident; geographic area; 
+application period; benefit period; eligibility criteria; ongoing 
+household eligibility; affected population; electronic benefit card 
+issuance process; logistical plans for Disaster SNAP rollout; staffing; 
+public information outreach; duplicate participation check process; 
+fraud prevention strategies; and employee application procedures. The 
+Food and Nutrition Service reviews the request to ensure that all the 
+necessary requirements to conduct a D-SNAP are met. If this collection 
+is not conducted, D-SNAP would not be available to help meet the 
+nutritional needs of disaster victims.
+    Description of Respondents: State, Local, or Tribal Government.
+    Number of Respondents: 9.
+    Frequency of Responses: Reporting: On Occasion.
+    Total Burden Hours: 888.
+
+Rachelle Ragland-Greene,
+Departmental Information Collection Clearance Officer.
+[FR Doc. 2025-21112 Filed 11-25-25; 8:45 am]
+BILLING CODE 3410-30-P
+
+
+</pre></body>
+</html>

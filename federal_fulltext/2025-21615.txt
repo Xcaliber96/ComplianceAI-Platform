@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55114-55115]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21615]
+
+
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-1231; FR ID 319501]
+
+
+Information Collection Being Reviewed by the Federal 
+Communications Commission Under Delegated Authority
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As part of its continuing effort to reduce paperwork burdens, 
+and as required by the Paperwork Reduction Act (PRA) of 1995, the 
+Federal Communications Commission (FCC or the Commission) invites the 
+general public and other Federal agencies to take this opportunity to 
+comment on the following information collection. Comments are requested 
+concerning: whether the proposed collection of information is necessary 
+for the proper performance of the functions of the Commission, 
+including whether the information shall have practical utility; the 
+accuracy of the Commission's burden estimate; ways to enhance the 
+quality, utility, and clarity of the information collected; ways to 
+minimize the burden of the collection of information on the 
+respondents, including the use of automated collection techniques or 
+other forms of information technology; and ways to further reduce the 
+information collection burden on small business concerns with fewer 
+than 25 employees.
+    The FCC may not conduct or sponsor a collection of information 
+unless it displays a currently valid control number. No person shall be 
+subject to any penalty for failing to comply with a collection of 
+information subject to the PRA that does not display a valid Office of 
+Management and Budget (OMB) control number.
+
+DATES: Written PRA comments should be submitted on or before January 
+30, 2026. If you anticipate that you will be submitting comments, but 
+find it difficult to do so within the period of time allowed by this 
+notice, you should advise the contact listed below as soon as possible.
+
+ADDRESSES: Direct all PRA comments to Nicole Ongele, FCC, via email 
+<a href="/cdn-cgi/l/email-protection#70202231301613135e171f06"><span class="__cf_email__" data-cfemail="9acac8dbdafcf9f9b4fdf5ec">[email&#160;protected]</span></a> and to <a href="/cdn-cgi/l/email-protection#e987808a86858cc786878e8c858ca98f8a8ac78e869f"><span class="__cf_email__" data-cfemail="fc92959f939099d293929b999099bc9a9f9fd29b938a">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: For additional information about the 
+information collection, contact Nicole Ongele, (202) 418-2991.
+
+SUPPLEMENTARY INFORMATION: 
+    OMB Control Number: 3060-1231.
+    Title: Section 90.20 (xiv), Public Safety Pool.
+    Form Number: N/A.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for-profit entities, and state, 
+local, or tribal government.
+    Number of Respondents and Responses: 2 respondents; 2 responses.
+    Estimated Time per Response: 1 hour.
+    Frequency of Response: One-time; on occasion reporting requirement 
+and third party disclosure requirement.
+    Obligation to Respond: Required to obtain or retain benefits. 
+Statutory authority for these collections are contained in Sections 1, 
+2, 4(i), 4(j), 301, 303, 316, and 337 of the Communications Act of 
+1934, as amended, 47 U.S.C. 151, 152, 154(i), 154(j), 301, 303, 316, 
+and 337.
+    Total Annual Burden: 2 hours.
+    Total Annual Cost: No Cost.
+    Needs and Uses: On August, 23, 2016, the Federal Communications 
+Commission released a Report and Order, FCC 16-113, PS Docket No. 15-
+199 that modified Part 90 of the Rules Private Land Mobile Radio 
+Services. The amended rule revises the Part 90 eligibility rules to 
+permit railroad police officers to access the interoperability. 
+Specifically, the Commission modified Section 90.20(xiv) to provide 
+that:
+    (xiv)(A) Railroad police officers are a class of users eligible to 
+operate on the nationwide interoperability and mutual aid channels 
+listed in 90.20(i) provided their employer holds a Private Land Mobile 
+Radio (PLMR) license of any radio category, including Industrial/
+Business (I/B). Eligible users include full and part time railroad 
+police officers, Amtrak employees who qualify as railroad police 
+officers under this subsection, Alaska Railroad employees who qualify 
+as railroad police officers under this subsection, freight railroad 
+employees who qualify as railroad police officers under this 
+subsection, and passenger transit lines police officers who qualify as 
+railroad police officers under this subsection. Railroads and railroad 
+police departments may obtain licenses for the nationwide 
+interoperability and mutual aid channels on behalf of railroad police 
+officers in their employ. Employers of railroad police officers must 
+obtain concurrence from the relevant state interoperability coordinator 
+or regional planning committee before applying for a license to the 
+Federal Communications Commission or operating on the interoperability 
+and mutual aid channels.
+    (1) Railroad police officer means a peace officer who is 
+commissioned in his or her state of legal residence or state of primary 
+employment and employed, full or part time, by a railroad to enforce 
+state laws for the protection of railroad property, personnel, 
+passengers, and/or cargo.
+    (2) Commissioned means that a state official has certified or 
+otherwise designated a railroad employee as qualified under the 
+licensing requirements of that state to act as a railroad police 
+officer in that state.
+    (3) Property means rights-of-way, easements, appurtenant property, 
+equipment, cargo, facilities, and buildings and other structures owned, 
+leased, operated, maintained, or transported by a railroad.
+    (4) Railroad means each class of freight railroad (i.e., Class I, 
+II, III); Amtrak, Alaska Railroad, commuter railroads and passenger 
+transit lines.
+    (5) The word state, as used herein, encompasses states, territories 
+and the District of Columbia.
+    (B) Eligibility for licensing on the 700 MHz narrowband 
+interoperability channels is restricted to entities that have as their 
+sole or principal purpose the provision of public safety services.
+    To effectively implement the provisions of the Rule, no other
+
+[[Page 55115]]
+
+modifications to existing FCC rules are required. The changes are 
+intended to simplify the licensing process for railroad police officers 
+and ensure interoperable communications. The modified rules provide a 
+benefit to public safety licensees by ensuring that only railroad 
+police officers with appropriate governmental authorization can operate 
+on the interoperability and mutual aid channels during emergencies. 
+This will provide the additional benefit of promoting interoperability 
+with railroad police officers by eliminating eligibility as a gating 
+factor when licensing spectrum. The Report and Order reduces the burden 
+on railroad police by allowing them to meet eligibility standard by 
+requiring employers of railroad police officers to obtain concurrence 
+from the relevant state interoperability coordinator or regional 
+planning committee before applying for a license to the Federal 
+Communications Commission or operating on the interoperability and 
+mutual aid channels. Compliance with this requirement is already a 
+requisite for public safety eligibility to use the interoperability and 
+mutual aid channels, consequently any new burden imposed by this 
+requirement would be minimal.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary, Office of the Secretary.
+[FR Doc. 2025-21615 Filed 11-28-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

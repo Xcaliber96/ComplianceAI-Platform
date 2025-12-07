@@ -379,16 +379,31 @@ export const runExternalIntelligence = async (industry: string) => {
 }
 export const getSampleRegulations = async () => {
   const { data } = await apiClient.get("/api/regulations/library");
-  return data.library; // returns array of {name, region, description}
+  return data.library;
 };
 export async function importRegulations(user_uid: string, regulations: any[]) {
-  const res = await apiClient.post("/api/regulations/import", {
+   const res = await apiClient.post(`/api/regulations/import`, {
     user_uid,
     regulations,
   });
 
   return res.data;
 }
+export const runCompliance = async (
+  user_uid: string,
+  file_id: string,
+  regulation_ids: string[]
+) => {
+  const payload = {
+    user_uid,
+    file_id,
+    regulation_ids,
+  };
+
+  const { data } = await apiClient.post("/api/rag/run_compliance_payload", payload);
+  return data;
+};
+
 
 export const runRagCompliance = async (
   file: File,
@@ -418,8 +433,13 @@ export interface Obligation {
   id?: number
   description: string
   regulation: string
-  due_date: string // ISO format: "2025-12-31"
+  due_date: string 
 }
+
+export const getRegulationText = async (granuleId: string) => {
+  const res = await apiClient.get(`api/regulation/${granuleId}`);
+  return res.data;
+};
 
 export const createObligation = async (obligation: Obligation) => {
   const formData = new FormData()

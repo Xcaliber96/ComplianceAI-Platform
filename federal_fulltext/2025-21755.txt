@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Page 55328]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21755]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+[Docket No. 2025-0687]
+
+
+Agency Information Collection Activities: Requests for Comments; 
+Clearance of a New Approval of Information Collection: Reauthorization 
+Section 769 Survey To Evaluate Airport Rescue and Firefighting (ARFF) 
+Staffing Levels
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995, FAA 
+invites public comments about our intention to request the Office of 
+Management and Budget (OMB) approval for a new information collection. 
+The collection involves the use of a questionnaire to establish an 
+initial baseline on Airport Rescue and Firefighting (ARFF) resources 
+and staffing capabilities at each of the 518 certificated Part 139 
+airports. The information to be collected is necessary to fulfill 
+requirements under section 769 of the FAA Reauthorization Act of 2024 
+(Pub. L. 118-63).
+
+DATES: Written comments should be submitted by February 2, 2026.
+
+ADDRESSES: Please send written comments:
+    By Electronic: <a href="http://www.regulations.gov">www.regulations.gov</a>.
+    Docket: Enter docket number: FAA-2025-0687 into search field.
+    By Email: <a href="/cdn-cgi/l/email-protection#35785441415d50421b46415054475b46755354541b525a43"><span class="__cf_email__" data-cfemail="034e6277776b66742d70776662716d70436562622d646c75">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Matthew Stearns by email at: 
+<a href="/cdn-cgi/l/email-protection#9dd0fce9e9f5f8eab3eee9f8fceff3eeddfbfcfcb3faf2eb"><span class="__cf_email__" data-cfemail="7f321e0b0b171a08510c0b1a1e0d110c3f191e1e51181009">[email&#160;protected]</span></a>; phone 907-271-5444.
+
+SUPPLEMENTARY INFORMATION: 
+    Public Comments Invited: You are asked to comment on any aspect of 
+this information collection, including (a) Whether the proposed 
+collection of information is necessary for FAA's performance; (b) the 
+accuracy of the estimated burden; (c) ways for FAA to enhance the 
+quality, utility and clarity of the information collection; and (d) 
+ways that the burden could be minimized without reducing the quality of 
+the collected information. The agency will summarize and/or include 
+your comments in the request for OMB's clearance of this information 
+collection.
+    OMB Control Number: 2120-xxxx.
+    Title: Reauthorization Section 769 Survey to Evaluate Airport 
+Rescue and Firefighting (ARFF) Staffing Levels.
+    Form Numbers: N/A.
+    Type of Review: This is a review of a new information collection.
+    Background: Currently, 14 CFR 139.319 does not require an 
+individual to be trained as an emergency medical technician (EMT). 
+Instead, section 139.319(i)(4) requires one individual, who has been 
+trained and is current in basic emergency medical services, to be 
+available during air carrier operations. Section 769(a) of the FAA 
+Reauthorization Act of 2024 (the ``Act'') instructs the FAA to update 
+section 139.319 to ensure that at least one individual maintains 
+certification at the EMT basic level, or higher, at a small, medium, or 
+large hub airport. Section 769(b) of the Act also requires the FAA to 
+conduct a review of airport environments and related regulations to 
+evaluate sufficient staffing levels necessary for firefighting, rescue, 
+and emergency medical services and responses at airports certified 
+under part 139.
+    To carry out the requirements of section 769 of the Act, the FAA 
+will develop a questionnaire to:
+    <bullet> Establish an initial baseline of airport rescue staffing 
+levels/resources;
+    <bullet> Assist the FAA in conducting a staffing review of airports 
+to evaluate sufficient staffing levels necessary for emergency medical 
+services at Part 139 airports; and
+    <bullet> Support its upcoming Notice of Proposed Rulemaking 
+addressing the EMT certification requirement.
+    Respondents: Approximately 518 airports.
+    Frequency: Once.
+    Estimated Average Burden per Response: 3 hours.
+    Estimated Total Annual Burden: 1,554 hours.
+
+    Issued in Washington, DC, on 28 November 2025.
+Anthony M. Butters,
+Acting Manager, Airport Safety and Operations (AAS-300).
+[FR Doc. 2025-21755 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

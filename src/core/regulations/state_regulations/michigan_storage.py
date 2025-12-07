@@ -98,10 +98,10 @@ def save_michigan_regulations(max_rules: int = 300, sleep_between: float = 0.5) 
 
       python -c "from src.core.regulations.state_regulations.michigan_storage import save_michigan_regulations; print(save_michigan_regulations(775))"
     """
-    print(f"🔎 Fetching up to {max_rules} Michigan regulations...")
+    # print(f"🔎 Fetching up to {max_rules} Michigan regulations...")
 
     rows = search_michigan("", limit=max_rules)
-    print(f"Found {len(rows)} index rows to process.")
+    # print(f"Found {len(rows)} index rows to process.")
 
     saved_count = 0
 
@@ -109,7 +109,7 @@ def save_michigan_regulations(max_rules: int = 300, sleep_between: float = 0.5) 
         rid = row.get("id")
         url = row.get("url")
 
-        print(f"→ [{i}/{len(rows)}] Fetching {rid} ...", flush=True)
+        # print(f"→ [{i}/{len(rows)}] Fetching {rid} ...", flush=True)
 
         try:
             full = fetch_michigan_rule(url)
@@ -133,7 +133,7 @@ def save_michigan_regulations(max_rules: int = 300, sleep_between: float = 0.5) 
         if sleep_between > 0:
             time.sleep(sleep_between)
 
-    print(f"✅ Saved {saved_count} Michigan rules into: {RULE_DIR}")
+    # print(f"✅ Saved {saved_count} Michigan rules into: {RULE_DIR}")
     return saved_count
 
 

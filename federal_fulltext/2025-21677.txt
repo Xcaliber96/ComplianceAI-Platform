@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55146-55147]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21677]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Coast Guard
+
+[Docket No. USCG-2025-0342]
+
+
+Information Collection Request to Office of Management and 
+Budget; OMB Control Number: 1625-0129
+
+AGENCY: Coast Guard, DHS.
+
+ACTION: Sixty-day notice requesting comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995, the 
+U.S. Coast Guard intends to submit an Information Collection Request 
+(ICR) to the Office of Management and Budget (OMB), Office of 
+Information and Regulatory Affairs (OIRA), requesting an extension of 
+its approval for the following collection of information: 1625-0129, 
+Intermodal Container Inspection Program; without change. Our ICR 
+describes the information we seek to collect from the public. Before 
+submitting this ICR to OIRA, the Coast Guard is inviting comments as 
+described below.
+
+DATES: Comments must reach the Coast Guard on or before January 30, 
+2026.
+
+ADDRESSES: You may submit comments identified by Coast Guard docket 
+number [USCG-2025-0342] to the Coast Guard using the Federal 
+eRulemaking Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. See the ``Public 
+participation and request for comments'' portion of the SUPPLEMENTARY 
+INFORMATION section for further instructions on submitting comments.
+    A copy of the ICR is available through the docket on the internet 
+at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Additionally, copies are available 
+from: COMMANDANT (CG-C5I-P), ATTN: PAPERWORK REDUCTION ACT MANAGER, 
+U.S. COAST GUARD, 2703 MARTIN LUTHER KING JR. AVE SE, STOP 7710, 
+WASHINGTON, DC 20593-7710.
+
+FOR FURTHER INFORMATION CONTACT: A.L. Craig, Office of Privacy 
+Management, telephone (571) 607-4058, or email <a href="/cdn-cgi/l/email-protection#7911080a541d1e5414541a1e544f4854091010390c0a1a1e57141015"><span class="__cf_email__" data-cfemail="9df5eceeb0f9fab0f0b0fefab0abacb0edf4f4dde8eefefab3f0f4f1">[email&#160;protected]</span></a> for questions on these documents.
+
+SUPPLEMENTARY INFORMATION:
+
+Public Participation and Request for Comments
+
+    This notice relies on the authority of the Paperwork Reduction Act 
+of 1995; 44 U.S.C., chapter 35, as amended. An ICR is an application to 
+OIRA seeking the approval, extension, or renewal of a Coast Guard 
+collection of information (Collection). The ICR contains information 
+describing the Collection's purpose, the Collection's likely burden on 
+the affected public, an explanation of the necessity of the Collection, 
+and other important information describing the Collection. There is one 
+ICR for each Collection.
+    The Coast Guard invites comments on whether this ICR should be 
+granted based on the Collection being necessary for the proper 
+performance of Departmental functions. In particular, the Coast Guard 
+would appreciate comments addressing: (1) the practical utility of the 
+Collection; (2) the accuracy of the estimated burden of the Collection; 
+(3) ways to enhance the quality, utility, and clarity of information 
+subject to the Collection; and (4) ways to minimize the burden of the 
+Collection on respondents, including the use of automated collection 
+techniques or other forms of information technology.
+    In response to your comments, we may revise this ICR or decide not 
+to seek an extension of approval for the Collection. We will consider 
+all comments and material received during the comment period.
+    We encourage you to respond to this request by submitting comments 
+and related materials. Comments must contain the OMB Control Number of 
+the ICR and the docket number of this request, USCG-2025-0342, and must 
+be received by January 30, 2026.
+
+Submitting Comments
+
+    We encourage you to submit comments through the Federal eRulemaking 
+Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. If your material cannot be 
+submitted using <a href="https://www.regulations.gov">https://www.regulations.gov</a>, contact the person in the 
+FOR FURTHER INFORMATION CONTACT section of this document for alternate 
+instructions. Documents mentioned in this notice, and all public 
+comments, are in our online docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and 
+can be viewed by following that website's instructions. If you go to 
+the online docket and sign up for email alerts, you will be notified 
+when comments are posted.
+    We accept anonymous comments. Comments we post to <a href="https://www.regulations.gov">https://www.regulations.gov</a> will include any
+
+[[Page 55147]]
+
+personal information you have provided. For more about privacy and 
+submissions in response to this document, see DHS's eRulemaking System 
+of Records notice (85 FR 14226, March 11, 2020).
+
+Information Collection Request
+
+    Title: Intermodal Container Inspection Program.
+    OMB Control Number: 1625-0129.
+    Summary: The Coast Guard inspects containers and cargo within 
+containers to ensure compliance with domestic and international 
+standards. Coast Guard-issued forms provide stakeholders with the 
+results of container inspections.
+    Need: Under the National Container Inspection Program, Coast Guard 
+personnel inspect intermodal containers and cargo within containers to 
+ensure compliance with applicable regulations and to promote maritime 
+safety, security, and stewardship for U.S. ports and waterways. 
+Specifically, the Coast Guard inspects containers for compliance with 
+the--
+    <bullet> Federal Hazardous Materials Transportation Law,
+    <bullet> International Safe Container Act, and
+    <bullet> International Maritime Dangerous Goods Code.
+    Forms:
+    <bullet> CG-5577, Intermodal Container Inspection Report.
+    <bullet> CG-5577A, Intermodal Container Non-Deficiency Inspection 
+Report.
+    <bullet> CG-5577B, Intermodal Container Targeted Inspection Report.
+    Respondents: Owners of container facilities.
+    Frequency: On occasion.
+    Hour Burden Estimate: The estimated burden has increased from 625 
+hours to 770 hours a year, due to an increase in the estimated annual 
+number of responses.
+    Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. chapter 
+35, as amended.
+
+    Dated: November 26, 2025.
+Bradley E. White,
+(Acting) Chief, Office of Privacy Management, U.S. Coast Guard.
+[FR Doc. 2025-21677 Filed 11-28-25; 8:45 am]
+BILLING CODE 9110-04-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

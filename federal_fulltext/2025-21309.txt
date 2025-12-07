@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54405-54406]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21309]
+
+
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[NRC-2024-0198]
+
+
+Information Collection: NRC Form 664, General Licensee 
+Registration
+
+AGENCY: Nuclear Regulatory Commission.
+
+[[Page 54406]]
+
+
+ACTION: Notice of submission to the Office of Management and Budget; 
+request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) has recently 
+submitted a request for renewal of an existing collection of 
+information to the Office of Management and Budget (OMB) for review. 
+The information collection is entitled, NRC Form 664, ``General 
+Licensee Registration.''
+
+DATES: Submit comments by December 26, 2025. Comments received after 
+this date will be considered if it is practical to do so, but the 
+Commission is able to ensure consideration only for comments received 
+on or before this date.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection by selecting ``Currently under 
+Review--Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Heather Dempsey, Acting NRC Clearance 
+Officer, U.S. Nuclear Regulatory Commission, Washington, DC 20555-0001; 
+telephone: 301-415-0856; email: <a href="/cdn-cgi/l/email-protection#6e270008010d0102020b0d1a1d403c0b1d011b1c0d0b2e001c0d40090118"><span class="__cf_email__" data-cfemail="2960474f464a4645454c4a5d5a077b4c5a465c5b4a4c69475b4a074e465f">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+    Please refer to Docket ID NRC-2024-0198 when contacting the NRC 
+about the availability of information for this action. You may obtain 
+publicly available information related to this action by any of the 
+following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2024-0198.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select ``Begin ADAMS Public Search.'' 
+For problems with ADAMS, please contact the NRC's Public Document Room 
+(PDR) reference staff at 1-800-397-4209, at 301-415-4737, or by email 
+to <a href="/cdn-cgi/l/email-protection#471703156915223428323524220729352469202831"><span class="__cf_email__" data-cfemail="2b7b6f7905794e58445e59484e6b455948054c445d">[email&#160;protected]</span></a>. A copy of the collection of information and 
+related instructions may be obtained without charge by accessing ADAMS 
+Accession No. ML25240A904. The final supporting statement for NRC Form 
+664, ``General Licensee Registration'' is available in ADAMS under 
+Accession No. ML25240A905.
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#db8b9f89f589bea8b4aea9b8be9bb5a9b8f5bcb4ad"><span class="__cf_email__" data-cfemail="97c7d3c5b9c5f2e4f8e2e5f4f2d7f9e5f4b9f0f8e1">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 
+8:00 a.m. and 4:00 p.m. eastern time (ET), Monday through Friday, 
+except Federal holidays.
+    <bullet> NRC's Clearance Officer: A copy of the collection of 
+information and related instructions may be obtained without charge by 
+contacting the NRC's Acting Clearance Officer, Heather Dempsey, Office 
+of the Chief Information Officer, U.S. Nuclear Regulatory Commission, 
+Washington, DC 20555-0001; telephone: 301-415-0856; email: 
+<a href="/cdn-cgi/l/email-protection#5a13343c35393536363f392e2974083f29352f28393f1a342839743d352c"><span class="__cf_email__" data-cfemail="50193e363f333f3c3c353324237e0235233f25223335103e22337e373f26">[email&#160;protected]</span></a>.
+
+B. Submitting Comments
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under Review--Open for 
+Public Comments'' or by using the search function.
+    The NRC cautions you not to include identifying or contact 
+information in comment submissions that you do not want to be publicly 
+disclosed in your comment submission. All comment submissions are 
+posted at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and entered into ADAMS. Comment 
+submissions are not routinely edited to remove identifying or contact 
+information.
+    If you are requesting or aggregating comments from other persons 
+for submission to the OMB, then you should inform those persons not to 
+include identifying or contact information that they do not want to be 
+publicly disclosed in their comment submission. Your request should 
+state that comment submissions are not routinely edited to remove such 
+information before making the comment submissions available to the 
+public or entering the comment into ADAMS.
+
+II. Background
+
+    Under the provisions of the Paperwork Reduction Act of 1995 (44 
+U.S.C. Chapter 35), the NRC recently submitted a request for renewal of 
+an existing collection of information to OMB for review entitled, NRC 
+Form 664, ``General Licensee Registration.'' The NRC hereby informs 
+potential respondents that an agency may not conduct or sponsor, and 
+that a person is not required to respond to, a collection of 
+information unless it displays a currently valid OMB control number.
+    The NRC published a Federal Register notice with a 60-day comment 
+period on this information collection on June 13, 2025, 90 FR 25088.
+    1. The title of the information collection: NRC Form 664, General 
+Licensee Registration.
+    2. OMB approval number: 3150-0198.
+    3. Type of submission: Extension.
+    4. The form number, if applicable: NRC Form 664.
+    5. How often the collection is required or requested: Annually.
+    6. Who will be required or asked to respond: General licensees who 
+possess registerable quantities of byproduct material.
+    7. The estimated number of annual responses: 425.
+    8. The estimated number of annual respondents: 425.
+    9. The estimated number of hours needed annually to comply with the 
+information collection requirement or request: 142.
+    10. Abstract: NRC Form 664 is used by NRC general licensees to make 
+reports regarding certain generally licensed devices subject to annual 
+registration. The registration program allows NRC to better track 
+general licensees, so that they can be contacted or inspected as 
+necessary, and to make sure that generally licensed devices can be 
+identified even if lost or damaged. Also, the registration program 
+ensures that general licensees are aware of and understand the 
+requirements for the possession, use, and disposal of devices 
+containing byproduct material. Greater awareness helps to ensure that 
+general licensees will comply with the regulatory requirements for 
+proper handling and disposal of generally licensed devices and would 
+reduce the potential for incidents that could result in unnecessary 
+radiation exposure to the public and contamination of property.
+
+    Dated: November 24, 2025.
+
+    For the Nuclear Regulatory Commission.
+Heather Dempsey,
+Acting NRC Clearance Officer, Office of the Chief Information Officer.
+[FR Doc. 2025-21309 Filed 11-25-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

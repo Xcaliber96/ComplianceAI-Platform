@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54307-54308]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21166]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Department of the Air Force
+
+[Docket ID: USAF-2025-HQ-0070]
+
+
+Proposed Collection; Comment Request
+
+AGENCY: Department of the Air Force, Department of Defense (DoD).
+
+ACTION: 60-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995, the 
+Department of the Air Force (AF) announces a proposed public 
+information collection and seeks public comment on the provisions 
+thereof. Comments are invited on: whether the
+
+[[Page 54308]]
+
+proposed collection of information is necessary for the proper 
+performance of the functions of the agency, including whether the 
+information shall have practical utility; the accuracy of the agency's 
+estimate of the burden of the proposed information collection; ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and ways to minimize the burden of the information 
+collection on respondents, including through the use of automated 
+collection techniques or other forms of information technology.
+
+DATES: Consideration will be given to all comments received by January 
+26, 2026.
+
+ADDRESSES: You may submit comments, identified by docket number and 
+title, by any of the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the 
+instructions for submitting comments.
+    Mail: Department of Defense, Privacy, Civil Liberties, and 
+Transparency Directorate, Office of the Director, Administration & 
+Management, 4800 Mark Center Drive, Mailbox #24, Suite 05F16, 
+Alexandria, VA 22350-1700.
+    Instructions: All submissions received must include the agency 
+name, docket number and title for this Federal Register document. The 
+general policy for comments and other submissions from members of the 
+public is to make these submissions available for public viewing on the 
+internet at <a href="http://www.regulations.gov">http://www.regulations.gov</a> as they are received without 
+change, including any personal identifiers or contact information.
+
+FOR FURTHER INFORMATION CONTACT: To request more information on this 
+proposed information collection or to obtain a copy of the proposal and 
+associated collection instruments, please write to AF Information 
+Collections Office, 1800 Air Force Pentagon, Suite 4C146, Washington, 
+DC 20330, ATTN: Ms. Carlinda Lotson Miller, or call 703-697-4593.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Emergency Mass Notification 
+System; OMB Control Number 0701-0162.
+    Needs and Uses: The Air Force Life Cycle Management Center Command, 
+Control, Communications, Intelligence, and Networks Directorate 
+provides standardized enterprise capabilities across the entire AF in 
+accordance with AF Instruction 10-206, Operational Reporting, as 
+authorized by 5 U.S.C. 7902--Safety Programs and 10 U.S.C. 9013--
+Secretary of the Air Force. This effort will implement and sustain a 
+cloud based, enterprise-wide AF solution for the Emergency Mass 
+Notification System (EMNS). The AF requires a single notification 
+system to send alert notifications to assigned military personnel, 
+family members, and contractors quickly and effectively in an emergent 
+event. The EMNS will increase the situational awareness for Airmen 
+families and contractors, regardless of their physical location, to 
+enable protective measures when tragic events or emergencies occur. 
+This effort will address the gaps in the notification process.
+    Affected Public: Individuals or households.
+    Annual Burden Hours: 16,667 hours.
+    Number of Respondents: 1,000,000.
+    Responses per Respondent: 1.
+    Annual Responses: 1,000,000.
+    Average Burden per Response: 1 minute.
+    Frequency: On occasion.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21166 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre></body>
+</html>

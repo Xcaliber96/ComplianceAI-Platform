@@ -1,3 +1,4 @@
+# src/api/obligations_ingest.py
 import re
 import hashlib
 import json
@@ -6,7 +7,7 @@ import traceback
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 
-from fastapi import APIRouter, Body, HTTPException
+from fastapi import APIRouter, Body, HTTPException, Query
 from fastapi.responses import JSONResponse
 
 # spaCy
@@ -14,7 +15,9 @@ import spacy
 try:
     nlp = spacy.load("en_core_web_sm")
 except Exception as e:
-    raise RuntimeError("spaCy model en_core_web_sm not found. Run: python -m spacy download en_core_web_sm") from e
+    raise RuntimeError(
+        "spaCy model en_core_web_sm not found. Run: python -m spacy download en_core_web_sm"
+    ) from e
 
 # Safe LLM wrapper (your repo)
 from src.core.client import safe_chat_completion
@@ -32,18 +35,22 @@ DEONTIC_PATTERNS = {
 }
 SENT_SPLIT_RE = re.compile(r'(?<=[\.\?\!;])\s+(?=[A-Z0-9"])')
 
+
 def normalize_text(s: str) -> str:
     return " ".join(s.split()).strip()
+
 
 def obligation_id_for(doc_id: str, sentence: str) -> str:
     payload = f"{doc_id}||{normalize_text(sentence).lower()}"
     return "obl_" + hashlib.sha256(payload.encode("utf-8")).hexdigest()[:24]
+
 
 def detect_deontic(sentence: str) -> Optional[str]:
     for label, pat in DEONTIC_PATTERNS.items():
         if pat.search(sentence):
             return label
     return None
+
 
 def rule_extract(sentence: str) -> Dict[str, Any]:
     doc = nlp(sentence)
@@ -74,9 +81,12 @@ def rule_extract(sentence: str) -> Dict[str, Any]:
             break
 
     conf = 0.4
-    if detect_deontic(sentence): conf += 0.3
-    if subj: conf += 0.15
-    if action: conf += 0.15
+    if detect_deontic(sentence):
+        conf += 0.3
+    if subj:
+        conf += 0.15
+    if action:
+        conf += 0.15
     conf = min(conf, 0.99)
 
     return {
@@ -89,6 +99,7 @@ def rule_extract(sentence: str) -> Dict[str, Any]:
         "confidence": conf,
         "extracted_by": "rule_v1",
     }
+
 
 # -------------------------------
 # LLM FALLBACK (safe wrapper)
@@ -163,6 +174,7 @@ confidence: float between 0.0 and 1.0
         "extracted_by": "llm_v1",
     }
 
+
 # -------------------------------
 # Neo4j upsert functions
 # -------------------------------
@@ -174,7 +186,8 @@ def get_neo4j_driver():
         raise RuntimeError("NEO4J_URI / NEO4J_USER / NEO4J_PASSWORD must be set")
     return GraphDatabase.driver(uri, auth=basic_auth(user, pwd), max_connection_lifetime=60*60)
 
-def upsert_obligations_neo4j(obligations: List[Dict[str,Any]]):
+
+def upsert_obligations_neo4j(obligations: List[Dict[str, Any]]):
     """
     Batch upsert obligations into Neo4j.
     Creates/updates Obligation nodes and MERGE relation to Regulation node.
@@ -197,7 +210,8 @@ SET o.text = r.text,
     o.extracted_by = r.extracted_by,
     o.status = r.status,
     o.provenance = r.provenance,
-    o.created_at = r.created_at
+    o.created_at = r.created_at,
+    o.user_uid = r.user_uid
 WITH o, r
 MERGE (reg:Regulation {regulation_id: r.source_doc})
 ON CREATE SET reg.created_at = coalesce(reg.created_at, timestamp())
@@ -221,6 +235,7 @@ RETURN count(o) AS cnt
             "provenance": json.dumps(r.get("provenance") or {}),
             "source_doc": r.get("source_doc"),
             "created_at": r.get("created_at"),
+            "user_uid": r.get("user_uid")  # new
         }
         rows.append(row)
 
@@ -235,6 +250,7 @@ RETURN count(o) AS cnt
         driver.close()
     return created
 
+
 # -------------------------------
 # Main orchestration
 # -------------------------------
@@ -247,7 +263,7 @@ def extract_obligations_from_text(
 ) -> List[Dict[str, Any]]:
     meta = meta or {}
     sents = SENT_SPLIT_RE.split(raw_text or "")
-    out: List[Dict[str,Any]] = []
+    out: List[Dict[str, Any]] = []
 
     for sent in sents:
         try:
@@ -313,15 +329,19 @@ def extract_obligations_from_text(
 
     return out
 
-# -------------------------------
+
+
 # Router endpoint (with Neo4j upsert)
-# -------------------------------
+
 @router.post("/api/v1/ingest/raw")
 async def ingest_raw(payload: Dict[str, Any] = Body(...)):
     doc_id = payload.get("doc_id") or payload.get("id") or payload.get("docId")
     raw_text = payload.get("raw_text") or payload.get("text") or payload.get("rawText")
     if not doc_id or not raw_text:
         raise HTTPException(status_code=400, detail="Missing doc_id or raw_text")
+
+    # optional user id coming from fetcher or frontend
+    user_uid = payload.get("user_uid") or payload.get("userId") or payload.get("user")
 
     meta = {
         "fetch_date": payload.get("fetch_date"),
@@ -331,12 +351,81 @@ async def ingest_raw(payload: Dict[str, Any] = Body(...)):
 
     obligations = extract_obligations_from_text(doc_id, raw_text, meta=meta)
 
-    # Persist into Neo4j (idempotent MERGE)
+    # attach user to obligations if provided
+    if user_uid:
+        for o in obligations:
+            o["user_uid"] = user_uid
+
+    
     try:
         created_count = upsert_obligations_neo4j(obligations)
     except Exception as e:
-        # If Neo4j fails, log and still return obligations (so fetcher is not blocked)
+        
         traceback.print_exc()
         return JSONResponse(content={"ok": False, "error": str(e), "created_count": 0, "obligations": obligations}, status_code=500)
 
     return JSONResponse(content={"ok": True, "created_count": created_count, "obligations": obligations})
+
+
+
+# fetch obligations for a user
+
+@router.get("/api/v1/obligations/user/{user_uid}")
+async def get_obligations_for_user(user_uid: str, limit: int = Query(100, gt=0, le=1000), skip: int = Query(0, ge=0)):
+    """
+    Returns obligations created/attached to the given user_uid with pagination
+    """
+    try:
+        driver = get_neo4j_driver()
+        q = """
+        MATCH (o:Obligation)
+        WHERE o.user_uid = $user_uid
+        OPTIONAL MATCH (reg)-[:HAS_OBLIGATION]->(o)
+        RETURN o AS obligation, reg.regulation_id AS regulation_id
+        ORDER BY o.created_at DESC
+        SKIP $skip LIMIT $limit
+        """
+        rows = []
+        with driver.session() as session:
+            res = session.run(q, {"user_uid": user_uid, "skip": skip, "limit": limit})
+            for record in res:
+                node = record["obligation"]
+                # Neo4j python driver returns Node object, convert to dict
+                props = dict(node)
+                props["regulation_id"] = record.get("regulation_id")
+                rows.append(props)
+        driver.close()
+        return JSONResponse(content={"ok": True, "count": len(rows), "obligations": rows})
+    except Exception as e:
+        traceback.print_exc()
+        return JSONResponse(content={"ok": False, "error": str(e)}, status_code=500)
+
+
+
+def ensure_neo4j_indexes():
+    """
+    Creates indexes used for lookups
+    Call this manually from a startup hook if desired
+    """
+    try:
+        driver = get_neo4j_driver()
+    except Exception as e:
+        print("ensure_neo4j_indexes skipped neo4j config missing", str(e))
+        return
+
+    idx_cypher = [
+        "CREATE INDEX IF NOT EXISTS FOR (o:Obligation) ON (o.obligation_id);",
+        "CREATE INDEX IF NOT EXISTS FOR (o:Obligation) ON (o.user_uid);",
+        "CREATE INDEX IF NOT EXISTS FOR (r:Regulation) ON (r.regulation_id);",
+    ]
+    with driver.session() as session:
+        for c in idx_cypher:
+            try:
+                session.run(c)
+            except Exception:
+                # ignore non fatal
+                traceback.print_exc()
+    driver.close()
+
+
+

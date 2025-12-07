@@ -1,0 +1,312 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55233-55236]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21681]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Highway Administration
+
+[Docket No. FHWA-2024-0400]
+
+
+Agency Information Collection Activities: Agency Information 
+Collection Activity Under OMB Review
+
+AGENCY: Federal Highway Administration (FHWA), DOT.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FHWA has forwarded the information collection request 
+described in this notice to the Office of Management and Budget (OMB) 
+to approve a new information collection. We are required to publish 
+this notice in the Federal Register by the Paperwork Reduction Act of 
+1995.
+
+DATES: Please submit comments by December 31, 2025.
+
+ADDRESSES: You may submit comments identified by DOT Docket ID Number 
+0400 by any of the following methods:
+    Website: For access to the docket to read background documents or
+
+[[Page 55234]]
+
+comments received go to the Federal eRulemaking Portal: Go to <a href="http://www.regulations.gov">http://www.regulations.gov</a>.
+    Follow the online instructions for submitting comments.
+    Fax: 1-202-493-2251.
+    Mail: Docket Management Facility, U.S. Department of 
+Transportation, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE, Washington, DC 20590-0001.
+    Hand Delivery or Courier: U.S. Department of Transportation, West 
+Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE, 
+Washington, DC 20590, between 9 a.m. and 5 p.m. ET, Monday through 
+Friday, except Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: Eva Birk, <a href="/cdn-cgi/l/email-protection#ff9a899ed19d968d94bf9b908bd1989089"><span class="__cf_email__" data-cfemail="b6d3c0d798d4dfc4ddf6d2d9c298d1d9c0">[email&#160;protected]</span></a>, Office of 
+Natural Environment, Federal Highway Administration, Department of 
+Transportation, 1200 New Jersey Ave. SE, Washington, DC 20590. Office 
+hours are from 7 a.m. to 4 p.m., Monday through Friday, except Federal 
+holidays.
+
+SUPPLEMENTARY INFORMATION: FHWA published a Federal Register Notice 
+with a 60-day public comment period on this information collection on 
+December 3, 2024, at 89 FR 95895. The notice received one comment. This 
+comment called for a clear grant application process in order ``to 
+improve trust between local and federal governments.'' FHWA has 
+considered this comment and will assess options to streamline the 
+application process during the next round of funding. The burden 
+summary provided below covers the entire 3-year PRA period and has been 
+updated since the publication of the 60-Day Federal Register Notice to 
+reflect a more accurate estimate of total number of applications and 
+evaluation activities.
+    Title: Promoting Resilient Operations for Transformative, 
+Efficient, and Cost-Saving Transportation (PROTECT) Competitive Grant 
+Program and Voluntary Resilience Improvement Plans.
+    Background: The Infrastructure Investment and Jobs Act (IIJA) 
+established the Promoting Resilient Operations for Transformative, 
+Efficient, and Cost-Saving Transportation (PROTECT) Competitive Grant 
+Program to plan for and strengthen surface transportation to be more 
+resilient to current and future weather events, natural disasters, and 
+changing conditions, such as severe storms, flooding, drought, levee 
+and dam failures, wildfire, rockslides, mudslides, sea level rise, 
+extreme weather, including extreme temperature, and earthquakes. The 
+program includes four grant categories: Planning, Resilience 
+Improvement, Community Resilience and Evacuation Routes, and At-Risk 
+Coastal Infrastructure.
+
+Summary of Information Collection Activities
+
+    For this competitive grant program, the FHWA issues Notices of 
+Funding Opportunity (NOFO) that describe the requirements of the 
+PROTECT Competitive Grant Program, including the criteria that will be 
+used to evaluate applications. The NOFOs provide a description of the 
+application requirements. Eligible applicants request PROTECT funds in 
+the form of an electronic grant application. Additional information 
+submissions are required for applicants who are selected for a grant 
+(i.e., the grantees) during the grant agreement, grant implementation 
+and evaluation phases.
+    Additionally, State DOTs and MPOs may develop Resilience 
+Improvement Plans under the PROTECT Program. A Resilience Improvement 
+Plan is a voluntary, risk-based assessment of vulnerable transportation 
+assets in immediate and long-term transportation planning that 
+demonstrates a systemic approach to surface transportation system 
+resilience (23 U.S.C. 176(e)). A Resilience Improvement Plan can reduce 
+Non-Federal match by up to 10% for both PROTECT Formula and 
+Discretionary Grant projects (23 U.S.C. 176(e)(1)(B)). FHWA's Office of 
+Natural Environment will continue to support ad-hoc resilience and 
+planning technical assistance for State DOTs and MPOs on a variety of 
+topics during the PRA covered time frame. These activities may include 
+voluntary virtual or in-person peer exchanges. Participants choosing to 
+enroll in a peer exchange are asked to submit a pre-event 
+questionnaire.
+    Lastly, FHWA is required by 23 U.S.C. 176(f)(1) to establish 
+effectiveness metrics and evaluation procedures for the PROTECT 
+Discretionary Grant Program and select a representative sample of 
+projects to evaluate with these metrics. FHWA will select a 
+representative sample of up to 50 funded projects to evaluate their 
+impact and effectiveness to fulfil this statutory requirement. Projects 
+selected as part of this representative sample will have additional 
+reporting requirements.
+    Burden estimates for each of these PROTECT program components are 
+described below:
+
+Grant Application, Agreement, Implementation and Evaluation Phase 
+Activities
+
+Grant Application Phase
+
+    Eligible entities that may apply for PROTECT Discretionary grants 
+vary depending on the type of the competitive grant. Planning Grants, 
+Resilience Improvement Grants, and Community Resilience and Evacuation 
+Route Grants have the same statutory rules for eligible applicants. The 
+At-Risk Coastal Infrastructure Grant category has different statutory 
+rules for eligible applicants. During the application process 
+applicants will provide a project narrative and budget information, 
+Standard Form 424, and Disclosure of Lobbying Activities form (SF-LLL).
+
+--Respondents: PROTECT Grant applicants.
+--Frequency: One time per grant application.
+--Estimated Average Burden per Response: 166 hours for a Planning Grant 
+application activities, 217 hours for a Resilience Improvement Grant 
+application, 217 hours for a Community Resilience and Evacuation Routes 
+Grant application, and 117 hours for an At-Risk Coastal Infrastructure 
+Grant application.
+--Estimated Total Annual Burden Hours: It is expected that 600 
+respondents will complete approximately one application during the 3-
+year PRA period for an estimated total of 107,926 annual burden hours.
+
+Grant Agreement Phase
+
+    All grant recipients must work with FHWA to develop and execute a 
+grant agreement detailing terms and conditions for use of funds.
+    Respondents: All Grant Recipients.
+    Frequency: One time, unless a grant agreement amendment is 
+necessary.
+    Estimated Burden: Approximately 30 hours per respondent. Some 
+capital projects may need to process amendments to the grant agreement 
+which is expected to take an additional 10-15 hours per amendment.
+
+Grant Implementation Phase
+
+    During the grant implementation phase, the grantee completes semi-
+annual progress and recertification reports to ensure the project 
+budget and schedule are maintained to the maximum extent possible, that 
+compliance with Federal regulations are met, and the project is 
+completed to the highest degree of quality. Post-award reporting 
+responsibilities include Semi-Annual Performance Progress Reports 
+(FHWA-PPR), and a financial status
+
+[[Page 55235]]
+
+report called the SF-425 (also known as the Federal Financial Report or 
+SF-FFR). Semi-Annual Project Progress Reports are submitted as an 
+attachment to the SF-425 form. Additionally, grant recipients 
+requesting advance or reimbursement need to provide an SF 270 and an SF 
+271 form, respectively. After project close and no later than 120 days 
+after the end of the period of performance, grant recipients submit a 
+Final Project Progress Report and Recertification, including a final 
+Federal Financial Report (SF-425).
+    Respondents: All Grant recipients:
+
+--Frequency: Semi-Annually During the period of performance; one Final 
+Progress Report after project close.
+--Estimated Burden Hours: Grantees provide a FHWA Project Progress 
+Report (FHWA-PPR) as an attachment to their Federal Financial Report 
+(SF 425). Approximately 1 hour for each form.
+--Approximately 1 additional hour each time an SF 270 and an SF 271 are 
+used for an advance or reimbursement.
+
+Grant Evaluation Phase
+
+    During the evaluation phase, reporting is necessary to comply with 
+2 CFR 200.301, to assess program effectiveness for the Federal 
+Government, and to provide information regarding how the project is 
+achieving the outcomes that grantees have targeted. Grantees collect 
+both baseline and project performance measure data unique to their 
+project as outlined in their grant agreement, and report on their 
+chosen performance measure(s) via an Annual Performance Report (see 
+Grant Agreement Schedule G--Performance Measurement). Annual 
+Performance Reports are submitted electronically to FHWA for three 
+years post project completion for all project types, followed by a 
+final performance report.
+
+    Respondents: All Grant Recipients:
+
+--Frequency: Annually during a 3-year period of performance
+--Estimated Burden: Approximately 2 hours per year.
+
+    Total burden hours for PROTECT Competitive Grant agreement, 
+implementation, and evaluation phases (all recipients):
+
+--Over the three-year PRA period, FHWA estimates that it will take 
+approximately 42 hours to complete all the post-award activities 
+outlined above for a Planning Grant, 96 hours to for a Resilience 
+Improvement Grant, 96 hours for a Community Resilience and Evacuation 
+Route Grant, and 96 hours for an At-Risk Coastal Infrastructure Grant. 
+FHWA estimates that 200 award recipients will perform these reporting 
+activities during the 3-year PRA period, which will result in 16,500 
+total burden hours.
+
+Resilience Improvement Plans and Related Technical Assistance
+
+    Resilience Improvement Plans, resilience planning peer exchanges, 
+and FHWA on-demand planning and resilience technical assistance are all 
+voluntary activities completed by State DOTs and MPOs that occur on an 
+ad-hoc frequency. Resilience Improvement Plans are estimated to require 
+250 hours to complete. Resilience Planning Peer Exchange pre-event 
+questionnaires require approximately 1 hour. Information collections to 
+support related FHWA resilience technical assistance activities will 
+vary widely. Generally, these activities may include electronic or in-
+person submission of project plans and designs, draft technical 
+materials, and PowerPoint materials from a State DOT or MPO to FHWA and 
+a peer group. FHWA may conduct informal interviews, focus groups or 
+additional short electronic questionnaires to support these technical 
+assistance activities and gauge interest in future trainings and 
+assistance offerings.
+    Respondents: State Departments of Transportation and Metropolitan 
+Planning Organizations.
+    Frequency: One time.
+    Estimated Total Annual Burden Hours: It is estimated that 25 State 
+DOTs and 25 MPOs will complete Resilience Improvement Plans during the 
+3-year PRA period for an estimated total of 12,500 annual burden hours. 
+FHWA estimates that approximately 350 participants will complete a peer 
+exchange pre-event questionnaire for an FHWA peer exchange event, 
+resulting in an estimated total of 350 burden hours.
+
+PROTECT Metrics and Program Evaluation Activities
+
+    A smaller number of grantees selected for further monitoring to 
+support an FHWA Evidence Act Program Evaluation and fulfill FHWA's 
+obligations under 23 U.S.C. 176(f)(1)(B) will need to coordinate with 
+FHWA to provide baseline data in the pre-construction phase. These 
+grantees will also assist FHWA in gathering annual post-construction 
+project performance data for 3-5 years. Participants may be asked to 
+attend interviews and focus groups to verify desktop, primary source, 
+or field measurement data collected by FHWA. This selected sample of 50 
+projects will also be administered a survey via electronic form 
+submittal. The survey is estimated to take 0.5 hours to complete. Since 
+FHWA may allow additional projects to voluntarily participate in the 
+survey, we are estimating a high end of survey participants with up to 
+all 200 grantees electing to participate in the survey.
+
+--Respondents: A representative sample of up to 50 selected grantees 
+are expected to participate in the PROTECT Discretionary Resilience 
+Metrics and Program Evaluation data collection.
+--Frequency: One-time baseline data collection followed by annual data 
+project monitoring with FHWA for three to five years after project 
+completion.
+--Estimated Average Burden per Response: FHWA estimates 25 hours of 
+burden annually per selected project for data collection and 
+coordination with FHWA for construction projects, and 6 hours of 
+coordination needed annually for planning grants. An additional 15 
+hours of burden in the first year for notification, initial 
+coordination with FHWA and baseline data collection. The evaluation 
+team will hold quarterly update calls for each project that will take 1 
+hour. The one-time survey of up to 200 grantees is estimated to take 
+0.5 hours to complete. Projects selected for metrics monitoring will 
+also be asked to participate in up to 2 in-depth interviews or focus 
+groups.
+--Estimated Total Annual Burden Hours: These activities are expected to 
+have an estimated total of 2,792 annual burden hours during the PRA 
+period.
+
+    Public Comments Invited: You are asked to comment on any aspect of 
+this information collection, including: (1) Whether the proposed 
+collection of information is necessary for the proper performance of 
+the functions of the Department, including whether the information will 
+have practical utility; the accuracy of the Department's estimate of 
+the burden of the proposed information collection; ways to enhance the 
+quality, utility, and clarity of the information to be collected; and 
+ways to minimize the burden of the collection of information on 
+respondents, including the use of automated collection techniques or 
+other forms of information technology.
+    A comment to OMB is best assured of having its full effect if OMB 
+receives it within 30 days of publication of this notice in the Federal 
+Register.
+
+[[Page 55236]]
+
+    Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. chapter 
+35, as amended; and 49 CFR 1.48.
+
+    Issued on: November 26, 2025.
+Jazmyne Lewis,
+Information Collection Officer.
+[FR Doc. 2025-21681 Filed 11-28-25; 8:45 am]
+BILLING CODE 4910-22-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

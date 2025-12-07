@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54828-54829]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21391]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0444]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Extension: Rule 10b-10
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``SEC'' or ``Commission'') is soliciting comments on the 
+proposed collection of information provided for in Rule 10b-10 (17 CFR 
+240.10b-10) under the Securities and Exchange Act of 1934 (15 U.S.C. 
+78a et seq.). The Commission plans to submit this existing collection 
+of information to the Office of Management and Budget (``OMB'') for 
+extension and approval.
+    Rule 10b-10 requires broker-dealers to disclose specified 
+information to customers regarding their securities transactions. The 
+information required by the rule includes the date and time of the 
+transaction, the identity and number of shares bought or sold, and 
+whether the broker-dealer acts as agent for the customer or as 
+principal for its own account. In addition, depending on whether the 
+broker-dealer acts as agent for the customer or as principal for its 
+own account, the rule requires the disclosure of commissions and, under 
+specified circumstances, mark-up and mark-down information. For 
+transactions in debt securities (other than U.S. savings bonds and 
+municipal securities) the rule requires the disclosure of redemption 
+and yield information. For transactions in securities futures products 
+in a futures account, the rule permits the disclosure of alternative 
+information. This alternative information includes: the date the 
+transaction was executed; the identity and number of shares bought or 
+sold; the price, the delivery month, and the exchange on which the 
+transaction was executed; the source and amount of any remuneration 
+received or to be received by the broker-dealer in connection with the 
+transaction; whether the broker receives payment for order flow for 
+such transactions; and the fact that other specified information, 
+including whether the broker-dealer is acting as agent or principal, 
+will be available upon written request. Rule 10b-10 also requires 
+broker-dealers to inform their customers if they are not members of the 
+Securities Investor Protection Corporation (``SIPC'').
+    The confirmation has long been a customary document in the 
+securities industry, and it serves several functions, which include: 
+broker-dealers use it as a billing statement; it serves as a customer 
+invoice; it informs customers of the details of transactions and 
+facilitates their checking for errors or misunderstandings; it provides 
+information that helps investors evaluate the cost and quality of 
+services provided by broker-dealers; it discloses conflicts of interest 
+that may arise between investors and broker-dealers; and it safeguards 
+against fraud by helping customers detect problems with transactions.
+    Rule 10b-10 potentially applies to all the approximately 3,292 
+broker-dealers that are registered with the Commission and that effect 
+transactions for or with customers. Based on information provided by 
+registered broker-dealers to the Commission in annual Form X-17a-5 
+Schedule I FOCUS Reports filed from January 1, 2022 to December 31, 
+2024, the Commission staff estimates that on average, registered 
+broker-dealers process approximately 36,202,574,610 order tickets per 
+year for transactions for or with customers. Each order ticket 
+representing a transaction effected for or with a customer generally 
+results in one confirmation. Therefore, the Commission staff estimates 
+that approximately 36,202,574,610 confirmations are sent to customers 
+annually. Based on information provided by industry participants, 
+Commission staff estimates that it takes approximately 30 seconds to 
+generate and send a confirmation. As a result, the Commission staff 
+estimates that the annual burden to brokers-dealers to comply with the 
+confirmation delivery requirements of Rule 10b-10 would be 
+approximately 301,688,122 hours (36,202,574,610 confirmation x 0.5 
+minutes/confirmation x 1 hour/60 minutes).
+    Based on informal discussions with securities industry 
+representatives, as well as representations made in requests for 
+exemptive and no-action letters, Commission staff estimates that 
+broker-dealers use electronic confirmations as their sole confirmations 
+for approximately 35 percent of transactions. Commission staff 
+estimates that broker-dealers continue to send paper confirmations for 
+the remaining 65 percent of transactions. Accordingly, approximately 
+23,531,673,497 paper confirmations are mailed to customers each year 
+(36,202,574,610 x 0.65) and 12,670,901,114 wholly electronic
+
+[[Page 54829]]
+
+confirmations are sent each year (36,202,574,610 x 0.35).
+    According to information provided by industry participants, the 
+Commission staff estimates that the average cost for a paper 
+confirmation is 85 cents and the average cost for a wholly electronic 
+confirmation is 40 cents. Accordingly, the Commission staff estimates 
+that the total annual cost associated with generating and mailing paper 
+confirmations is approximately $20,001,922,473 (23,531,673,497 paper 
+confirmations x $0.85 per confirmation) and the total annual cost 
+associated with generating and sending wholly electronic confirmations 
+is approximately $5,068,360,446 (12,670,901,114 electronic 
+confirmations x $0.40 per confirmation). Accordingly, Commission staff 
+estimates that the total annual cost associated with generating and 
+delivering to investors the information required under Rule 10b-10 is 
+approximately $25,070,282,919 ($20,001,922,473 + $5,068,360,446).
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will have 
+practical utility; (b) the accuracy of the SEC's estimate of the burden 
+imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    Please direct your written comments on this 60-Day Collection 
+Notice to Austin Gerig, Director/Chief Data Officer, Securities and 
+Exchange Commission, c/o Tanya Ruttenberg via email to 
+<a href="/cdn-cgi/l/email-protection#742415041106031b061f2611100117001d1b1a351700340711175a131b02"><span class="__cf_email__" data-cfemail="386859485d4a4f574a536a5d5c4d5b4c515756795b4c784b5d5b165f574e">[email&#160;protected]</span></a> by January 27, 2026. There will be a 
+second opportunity to comment on this SEC request following the Federal 
+Register publishing a 30-Day Submission Notice.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21391 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

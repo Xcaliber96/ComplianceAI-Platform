@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52971-52972]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20772]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-N-1108]
+
+
+Agency Information Collection Activities; Submission for Office 
+of Management and Budget Review; Comment Request; 510(k) Third-Party 
+Review Program
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is announcing that a 
+proposed collection of information has been submitted to the Office of 
+Management and Budget (OMB) for review and clearance under the 
+Paperwork Reduction Act of 1995.
+
+DATES: Submit written comments (including recommendations) on the 
+collection of information by December 24, 2025.
+
+ADDRESSES: To ensure that comments on the information collection are 
+received, OMB recommends that written comments be submitted to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under Review--Open for Public 
+Comments'' or by using the search function. The OMB control number for 
+this information collection is 0910-0375. Also include the FDA docket 
+number found in brackets in the heading of this document.
+
+FOR FURTHER INFORMATION CONTACT: Amber Barrett, Office of Operations, 
+Food and Drug Administration, Three White Flint North, 10A-12M, 11601 
+Landsdown St., North Bethesda, MD 20852, 301-796-8867, 
+<a href="/cdn-cgi/l/email-protection#732321322007121515331517125d1b1b005d141c05"><span class="__cf_email__" data-cfemail="451517041631242323052321246b2d2d366b222a33">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In compliance with 44 U.S.C. 3507, FDA has 
+submitted the following proposed collection of information to OMB for 
+review and clearance.
+
+Third-Party Review Program
+
+OMB Control Number 0910-0375--Extension
+
+    Section 523 of the Federal Food, Drug, and Cosmetic Act (FD&C Act) 
+(21 U.S.C. 360m), directs FDA to accredit persons in the private sector 
+to review certain premarket notifications (510(k)s; see 21 U.S.C. 
+360(k)). Participation in the 510(k) third party (3P510k) review 
+program by accredited persons is entirely voluntary. A third party 
+wishing to participate will submit a
+
+[[Page 52972]]
+
+request for accreditation to FDA. Accredited third-party reviewers have 
+the ability to review a manufacturer's 510(k) submission for selected 
+devices. After reviewing a submission, the reviewer will forward a copy 
+of the 510(k) submission, along with the reviewer's documented review 
+and recommendation, to FDA. Third-party reviewers should maintain 
+records of their 510(k) reviews and a copy of the 510(k) for a 
+reasonable period of time, usually 3 years. The 3P510k review program 
+is intended to allow review of devices by third-party 510k review 
+organizations (3PROs) to provide manufacturers of these devices an 
+alternative review process that allows FDA to best utilize our 
+resources on higher risk devices.
+    Respondents to this information collection are businesses or 
+government and can be for-profit or not-for-profit organizations, such 
+as third party review organizations.
+    The guidance ``510(k) Third-Party Review Program, Guidance for 
+Industry, Food and Drug Administration Staff and Third Party Review 
+Organizations'' (March 2020) was intended to provide a comprehensive 
+look into FDA's current thinking regarding the 3P510k program and third 
+party review of Emergency Use Authorization (EUA) requests by 
+describing FDA's expectations for the review of 510(k) submissions and 
+EUA requests by third party review organizations. This guidance 
+document also reflects section 523 of the FD&C Act, which directs FDA 
+to issue guidance on the factors that will be used in determining 
+whether a class I or class II device type, or subset of such device 
+types, is eligible for review by an accredited person. This guidance 
+was superseded on November 21, 2024, when FDA issued the final guidance 
+``510(k) Third Party Review Program and Third Party Emergency Use 
+Authorization (EUA) Review; Guidance for Industry, Food and Drug 
+Administration Staff, and Third Party Review Organizations'' (November 
+2024) (available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/510k-third-party-review-program-and-third-party-emergency-use-authorization-eua-review">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/510k-third-party-review-program-and-third-party-emergency-use-authorization-eua-review</a>). The guidance also includes new 
+content that outlines how FDA may contract with third party review 
+organizations to perform reviews of EUA requests (3PEUA review) when 
+appropriate emergency declaration authorities are active under section 
+564 of the FD&C Act. (See OMB Control Number 0910-0595.)
+    In the Federal Register of July 3, 2025 (90 FR 29552), FDA 
+published a 60-day notice requesting public comment on the proposed 
+collection of information. No comments were received.
+    FDA estimates the burden of this collection of information as 
+follows:
+
+                                                     Table 1--Estimated Annual Reporting Burden \1\
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                   No. of
+     Activity; guidance document section           No. of       responses per   Total annual          Average burden per response           Total hours
+                                                 respondents     respondent       responses
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Requests for accreditation (initial); Section               1               1               1  40.......................................              40
+ V.D.
+Requests for accreditation (re-recognition);                3               1               3  24.......................................              72
+ Section V. D.
+510(k) reviews conducted by 3PROs; Section V.               9              14             126  40.......................................           5,040
+ B.
+Complaints; Section V.C......................               1               1               1  0.25 (15 minutes)........................            0.25
+                                              ----------------------------------------------------------------------------------------------------------
+    Total....................................  ..............  ..............  ..............  .........................................        5,152.25
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of information.
+
+
+                               Table 2--Estimated Annual Recordkeeping Burden \1\
+----------------------------------------------------------------------------------------------------------------
+                                                  Number of                      Average  burden
+ Activity; guidance document      Number of      records per     Total annual          per          Total hours
+           section              recordkeepers    recordkeeper       records       recordkeeping
+----------------------------------------------------------------------------------------------------------------
+510(k) reviews conducted by                 9               14             126                10           1,260
+ 3PROs; Section V. B.........
+Records regarding                           9                1               9                 1               9
+ qualifications to receive
+ FDA recognition as a 3PRO;
+ Section V. C................
+Recordkeeping system                        9                1               9                 2              18
+ regarding complaints;
+ Section V. C................
+                              ----------------------------------------------------------------------------------
+    Total....................  ..............  ...............  ..............  ................           1,287
+----------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of
+  information.
+
+    Upon review of this information collection, we have adjusted our 
+burden estimate for the average burden hours required per response for 
+initial requests for accreditation from 24 to 40 hours to more 
+accurately reflect the time required based on recent experience of FDA 
+program staff. This adjustment has resulted in an increase of 15 hours 
+to the currently approved burden.
+
+Lowell M. Zeta,
+Acting, Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-20772 Filed 11-21-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

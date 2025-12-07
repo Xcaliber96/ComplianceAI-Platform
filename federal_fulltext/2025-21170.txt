@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54312-54314]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21170]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DOD-2025-OS-0738]
+
+
+Privacy Act of 1974; System of Records
+
+AGENCY: Department of Defense (DoD).
+
+ACTION: Notice of modified system of records.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Pursuant to the Privacy Act of 1974, as amended, the DoD is 
+modifying 18 System of Records Notices (SORNs) to include a new routine 
+use that permits disclosure of records to the Department of the 
+Treasury for the purpose of identifying, preventing, or recouping 
+improper payments, consistent with applicable law. This modification 
+notice describes the routine use and identifies the affected systems. 
+This modification notice does not alter system locations, system 
+managers, categories of individuals or records maintained in the 
+systems, nor does it change the relevant authorities or methods of 
+collection.
+
+DATES: This system of records notice is effective upon publication; 
+however, comments on the Routine Uses will be accepted on or before 
+December 26, 2025. The Routine Use is effective at the close of the 
+comment period, unless comments have been received from interested 
+members of the public that require modification and republication of 
+the notice.
+
+ADDRESSES: You may submit comments, identified by docket number and 
+title, by either of the following methods:
+    * Federal Rulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Follow 
+the instructions for submitting comments.
+    * Mail: Department of Defense, Office of the Director of 
+Administration and Management, Privacy, Civil Liberties, and 
+Transparency Directorate, Regulatory Division, 4800 Mark Center Drive, 
+Attn: Mailbox #24, Suite 05F16, Alexandria, VA 22350-1700.
+    Instructions: All submissions must include the agency name and 
+docket number for this Federal Register document. The general policy 
+for comments and other submissions from members of the public is to 
+make these submissions available for public viewing on the internet at 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a> as they are received without change, 
+including any personal identifiers or contact information.
+
+FOR FURTHER INFORMATION CONTACT: Ms. Rahwa Keleta, Chief, Privacy and 
+Civil Liberties Division, Privacy, Civil Liberties, and Transparency 
+Directorate, Office of the Director of Administration and Management, 
+Department of Defense, 4800 Mark Center Drive, Mailbox #24, Suite 
+05F16, Alexandria, VA 22350-1700, <a href="/cdn-cgi/l/email-protection#46293522682b256b272a233e6829273235226b36252a32682b243e6836252a226b35293428062b272f2a682b2f2a"><span class="__cf_email__" data-cfemail="8de2fee9a3e0eea0ece1e8f5a3e2ecf9fee9a0fdeee1f9a3e0eff5a3fdeee1e9a0fee2ffe3cde0ece4e1a3e0e4e1">[email&#160;protected]</span></a>, (703) 571-0070.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    In accordance with OMB Memorandum M-25-32, the DoD has conducted a 
+review of its Privacy Act SORNs to ensure alignment with E.O. 14249 and 
+Federal efforts to reduce improper payments and strengthen program 
+integrity. As a result of this review, the agency has identified 18 
+SORNs requiring modification to support disclosures to the Department 
+of Treasury's Do Not Pay Working System. The change involves adding a 
+new routine use to each of the identified SORNs. This routine use will 
+authorize
+
+[[Page 54313]]
+
+the disclosure of information relevant to verifying payment and award 
+eligibility through the Do Not Pay Working System. The purpose of this 
+modification notice is to enhance the agency's ability to prevent 
+improper payments, comply with government-wide financial integrity 
+mandates, and improve operational efficiency in determining eligibility 
+for Federal funds. This modification notice does not alter the 
+categories of individuals or records maintained in the systems, nor 
+does it change the authority or method of collection. Instead, it 
+strengthens the agency's data sharing posture in support of 
+transparency and accountability.
+    DoD SORNs are published in the Federal Register and are available 
+from the address in FOR FURTHER INFORMATION CONTACT or at the Privacy 
+and Civil Liberties Division website at <a href="https://dpcld.defense.gov">https://dpcld.defense.gov</a>.
+
+II. Privacy Act
+
+    Under the Privacy Act, a ``system of records'' is a group of 
+records under the control of an agency from which information is 
+retrieved by the name of an individual or by some identifying number, 
+symbol, or other identifying particular assigned to the individual. In 
+the Privacy Act, an individual is defined as a U.S. citizen or alien 
+lawfully admitted for permanent residence.
+    In accordance with 5 U.S.C. 552a(r) and Office of Management and 
+Budget (OMB) Circular No. A-108, DoD has provided a report of this 
+consolidated notice to OMB and Congress.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+
+SYSTEM NAMES AND NUMBERS:
+
+------------------------------------------------------------------------
+ 
+------------------------------------------------------------------------
+DoD Patron Authorization, Retail, And       DoD-0018.
+ Service Activities.
+Defense Enterprise Accounting and           F065 AFMC A.
+ Management System (DEAMS).
+Corps of Engineers Management Information   A0037-2-1 CE.
+ System Files.
+Marine Corps Manpower Management            M01040-3.
+ Information System Records.
+Navy Standard Integrated Personnel System   N07220-1.
+ (NSIPS).
+Defense Travel System (DTS)...............  DHRA 08 DoD.
+Integrated Accounts Payable Systems (IAPS)  T7225.
+Computerized Accounts Payable System        T7225a.
+ (CAPS).
+Integrated Automated Travel System (IATS).  T7333.
+Defense Civilian Pay System (DCPS)........  T7335.
+Defense Joint Military Pay System-Active    T7340.
+ Component.
+Defense Joint Military Pay System-Reserve   T7344.
+ Component.
+Defense Military Retiree an Annuity Pay     T7347b.
+ Systems Records.
+My Invoice System.........................  T7801.
+Enterprise Business System (EBS)..........  S700.30.
+Defense Agencies Initiative...............  S890.11.
+Medical/Dental Claim History Files........  EDTMA 04.
+Defense Transportation System (DTS)         FTRANSCOM 01, DoD.
+ Records.
+------------------------------------------------------------------------
+
+SECURITY CLASSIFICATION:
+
+    Unclassified.
+
+SYSTEMS LOCATION:
+
+    This modification notice does not alter the system location 
+information for each of the listed systems.
+
+SYSTEMS MANAGERS:
+
+    This modification notice does not alter the system manager 
+information for each of the listed systems. For details regarding the 
+system manager, please refer to the most recently published full system 
+of records notice for each system.
+* * * * *
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+
+    Each of these systems will be updated to include the following 
+routine use:
+    ``To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purposes of identifying, 
+preventing, or recouping improper payments to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.''
+* * * * *
+
+HISTORY:
+
+----------------------------------------------------------------------------------------------------------------
+               System name                             System No.                       Publication date
+----------------------------------------------------------------------------------------------------------------
+DoD Patron Authorization, Retail, And     DoD-0018............................  March 30, 2023; 88 FR 19103-
+ Service Activities.                                                             19106.
+Defense Enterprise Accounting and         F065 AFMC A.........................  August 07, 2009; 74 39673-39674.
+ Management System (DEAMS).
+Corps Of Engineers Management             A0037-2-1 CE........................  February 22, 1993; 58 FR 10002.
+ Information System Files.
+Marine Corps Manpower Management          M01040-3............................  April 29, 2010; 75 FR 22570-
+ Information System Records.                                                     22573.
+Navy Standard Integrated Personnel        N07220-1............................  November 29, 2012; 77 FR 71185-
+ System (NSIPS).                                                                 71186; December 16, 2010; 75 FR
+                                                                                 78688-78690.
+Defense Travel System (DTS).............  DHRA 08 DoD.........................  March 27, 2020; 85 FR 17319-
+                                                                                 17322.
+Integrated Accounts Payable Systems       T7225...............................  May 04, 2007; 72 FR 25271-25272.
+ (IAPS).
+Computerized Accounts Payable System      T7225a..............................  November 14, 2007; 72 FR 64057-
+ (CAPS).                                                                         64058.
+Integrated Automated Travel System        T7333...............................  April 23, 2010; 75 FR 21248-
+ (IATS).                                                                         21250.
+Defense Civilian Pay System (DCPS)......  T7335...............................  March 13, 2014; 79 FR 14241-
+                                                                                 14242.
+Defense Joint Military Pay System-Active  T7340...............................  September 25, 2014; 79 FR 57541-
+ Component.                                                                      57542; March 5, 2013; 78 FR
+                                                                                 14283-14284; March 21, 2006; 71
+                                                                                 FR 14179-14182.
+
+[[Page 54314]]
+
+ 
+Defense Joint Military Pay System-        T7344...............................  March 05, 2013; 78 FR 14281-
+ Reserve Component.                                                              14282; March 21, 2006; 71 FR
+                                                                                 14182-14186.
+Defense Military Retiree an Annuity Pay   T7347b..............................  January 07, 2009; 74 FR 696-698.
+ Systems Records.
+myInvoice System........................  T7801...............................  October 12, 2006, 71 FR 60121-
+                                                                                 60122.
+Enterprise Business System (EBS)........  S700.30.............................  November 25, 2011; 76 FR 72691-
+                                                                                 72692.
+Defense Agencies Initiative.............  S890.11.............................  June 03, 2019; 84 FR 25537-
+                                                                                 25540.
+Medical/Dental Claim History Files......  EDTMA 04............................  October 27, 2015; 80 FR 65720;
+                                                                                 March 29, 2006; 71 FR 15702-
+                                                                                 15704.
+DoD, Defense Transportation System (DTS)  FTRANSCOM 01........................  September 26, 2014; 79 FR 57893--
+ Records.                                                                        57894.
+----------------------------------------------------------------------------------------------------------------
+
+[FR Doc. 2025-21170 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

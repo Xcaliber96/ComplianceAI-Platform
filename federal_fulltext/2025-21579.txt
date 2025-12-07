@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54585-54586]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21579]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+LIBRARY OF CONGRESS
+
+Copyright Royalty Board
+
+37 CFR Part 381
+
+[Docket No. 2025-CRB-0011-PBR (2023-2027) COLA (2026)]
+
+
+Cost of Living Adjustment to Public Broadcasters Compulsory 
+License Royalty Rate
+
+AGENCY: Copyright Royalty Board, Library of Congress.
+
+ACTION: Final rule; cost of living adjustment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Copyright Royalty Judges announce a cost of living 
+adjustment (COLA) to the royalty rate that noncommercial radio stations 
+at certain colleges, universities, and other educational institutions 
+that are not affiliated with National Public Radio must pay for the use 
+in 2026 of published nondramatic musical compositions in the SESAC 
+Performing Rights, LLC (SESAC), and Global Music Rights, LLC, (GMR), 
+repertories pursuant to the statutory license under the Copyright Act 
+for noncommercial broadcasting.
+
+DATES: 
+    Effective date: November 28, 2025.
+    Applicability dates: These rates are applicable to the period 
+January 1, 2026, through December 31, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Anita Brown, CRB Program Specialist, 
+(202) 707-7658, <a href="/cdn-cgi/l/email-protection#adcedfcfedc1c2ce83cac2db"><span class="__cf_email__" data-cfemail="8eedfceccee2e1eda0e9e1f8">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Section 118 of the Copyright Act, title 17 
+of the United States Code, creates a statutory license for the use of 
+published nondramatic musical works and published pictorial, graphic, 
+and sculptural works in connection with noncommercial broadcasting.
+
+[[Page 54586]]
+
+    On June 28, 2023, the Copyright Royalty Judges (Judges) adopted 
+final regulations governing the rates and terms of copyright royalty 
+payments under section 118 of the Copyright Act for the license period 
+2023-2027. See 88 FR 41827. Pursuant to these regulations, on or before 
+December 1 of each year, the Judges shall publish in the Federal 
+Register notice of the change in the cost of living and a revised 
+schedule of the rates codified at Sec.  381.5(c)(3) and (4) relating to 
+compositions in the repertory of SESAC and GMR. The adjustment, fixed 
+to the nearest dollar, shall be the greater of (1) the change in the 
+cost of living as determined by the Consumer Price Index (all 
+consumers, all items) (``CPI-U'') ``during the period from the most 
+recent index published prior to the previous notice to the most recent 
+index published prior to December 1 of that year'' or (2) 1.5%. 37 CFR 
+381.10.
+    The change in the cost of living as determined by the CPI-U during 
+the period from the most recent index published prior to the previous 
+notice, i.e., before December 1, 2024, to the most recent index 
+published before December 1, 2025, is 2.9%.\1\ In accordance with 37 
+CFR 381.10(b), the Judges announce that the COLA for calendar year 2026 
+shall be 2.9%. Application of the 2.9% COLA to the 2025 rates for the 
+performance of published nondramatic musical compositions in the 
+repertory of SESAC and GMR--$199 per station--results in an adjusted 
+rate of $205 per station, rounded to the nearest dollar.
+---------------------------------------------------------------------------
+
+    \1\ The CPI-U announced on October 24, 2025, by the Bureau of 
+Labor Statistics in its Consumer Price Index News Release--Consumer 
+Price Index, is available at <a href="https://www.bls.gov/news.release/pdf/cpi.pdf">https://www.bls.gov/news.release/pdf/cpi.pdf</a> at Table 1. The Copyright Royalty Judges note that the 
+October 24, 2025, publication is the most recent CPI-U published by 
+the Secretary of Labor before December 1 of the preceding year of 
+this COLA adjustment (i.e., 2026). The Bureau of Labor statistics 
+has explained ``BLS could not collect October 2025 reference period 
+survey data due to a lapse in appropriations.'' See <a href="https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm">https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm</a> (last visited 
+Nov. 25, 2025). The ``change in the cost of living during the period 
+from the most recent index published prior to the previous notice to 
+the most recent index published prior to December 1'' of this year, 
+i.e., the change from October 2024 to September 2025, is 2.9% 
+((324.800-315.664)/315.664).
+---------------------------------------------------------------------------
+
+List of Subjects in 37 CFR Part 381
+
+    Copyright, Music, Radio, Rates, Television.
+
+Final Regulations
+
+    In consideration of the foregoing, the Judges amend part 381 of 
+title 37 of the Code of Federal Regulations as follows:
+
+PART 381--USE OF CERTAIN COPYRIGHTED WORKS IN CONNECTION WITH 
+NONCOMMERCIAL EDUCATIONAL BROADCASTING
+
+0
+1. The authority citation for part 381 continues to read as follows:
+
+    Authority:  17 U.S.C. 118, 801(b)(1) and 803.
+
+
+0
+2. Section 381.5 is amended by revising paragraphs (c)(3)(iv) and 
+(c)(4)(iv) as follows:
+
+
+Sec.  381.5  Performance of musical compositions by public broadcasting 
+entities licensed to colleges and universities.
+
+* * * * *
+    (c) * * *
+    (3) * * *
+    (iv) 2026: $205 per station.
+* * * * *
+    (4) * * *
+    (iv) 2026: $205 per station.
+* * * * *
+
+    Dated: November 25, 2025.
+Christina L. Shifton,
+Interim Chief Copyright Royalty Judge.
+[FR Doc. 2025-21579 Filed 11-26-25; 8:45 am]
+BILLING CODE 1410-72-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

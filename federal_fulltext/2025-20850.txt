@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Page 53392]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20850]
+
+
+
+[[Page 53392]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF LABOR
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; National Medical Support Notice--Part B
+
+ACTION: Notice of availability; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Labor (DOL) is submitting this Employee 
+Benefits Security Administration (EBSA)-sponsored information 
+collection request (ICR) to the Office of Management and Budget (OMB) 
+for review and approval in accordance with the Paperwork Reduction Act 
+of 1995 (PRA). Public comments on the ICR are invited.
+
+DATES: The OMB will consider all written comments that the agency 
+receives on or before December 26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Michael Howell by telephone at 202-
+693-6782, or by email at <a href="/cdn-cgi/l/email-protection#0f4b4043505f5d4e505f5a4d43464c4f6b606321686079"><span class="__cf_email__" data-cfemail="6622292a39363427393633242a2f252602090a48010910">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Pursuant to section 401(a) of the CSPIA, the 
+Department of Labor (the Department) and HHS jointly promulgated the 
+National Medical Support Notice Final Rule on December 27, 2000 (65 FR 
+82128) (NMSN Regulation). The NMSN Regulation simplifies the issuance 
+and processing of medical child support orders; standardizes 
+communication between State agencies, employers, and Plan 
+Administrators; and creates a uniform and streamlined process for 
+enforcement of medical child support to ensure that all eligible 
+children receive the health care coverage to which they are entitled.
+    The NMSN Regulation, codified at 29 CFR 2590.609-2, includes a 
+model National Medical Support Notice (NMSN) that is comprised of two 
+parts: part A is a notice from the State agency to the employer, 
+entitled: ``Notice to Withhold for Health Care Coverage;'' and part B 
+is a notice from the employer to the Plan Administrator, entitled: 
+``Medical Support Notice to Plan Administrator.'' Both parts have 
+detailed instructions informing the recipient to whom responses are due 
+depending on varying circumstances. This ICR addresses the Plan 
+Administrator's responsibilities under NMSN Regulation to complete part 
+B of the NMSN, the ``Plan Administrator Response,'' pursuant to the 
+CSPIA and section 609(a)(5)(C) of title I of ERISA.
+    The ``Plan Administrator Response'' in part B of the NMSN requires 
+the Plan Administrator to provide information verifying whether the 
+child is or will be receiving health care coverage from the group 
+health plan. If enrollment has already occurred or can begin 
+immediately, the Plan Administrator's response in part B serves as 
+notice to the State agency, the participant (parent), the child, their 
+non-participant parent or guardian and the employer that the child is 
+or will begin receiving dependent health care coverage pursuant to the 
+group health plan. When the child is eligible for more than one 
+coverage option, the Administrator must first send the part B response 
+to the State agency so that the agency may choose one option. The Plan 
+Administrator must also use the part B response to notify all of the 
+above-affected persons of any waiting period before enrollment of the 
+child can occur. For additional substantive information about this ICR, 
+see the related notice published in the Federal Register on January 6, 
+2025 (90 FR 671).
+    Comments are invited on: (1) whether the collection of information 
+is necessary for the proper performance of the functions of the 
+Department, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimates of the burden and 
+cost of the collection of information, including the validity of the 
+methodology and assumptions used; (3) ways to enhance the quality, 
+utility and clarity of the information collection; and (4) ways to 
+minimize the burden of the collection of information on those who are 
+to respond, including the use of automated collection techniques or 
+other forms of information technology.
+    This information collection is subject to the PRA. A Federal agency 
+generally cannot conduct or sponsor a collection of information, and 
+the public is generally not required to respond to an information 
+collection, unless the OMB approves it and displays a currently valid 
+OMB Control Number. In addition, notwithstanding any other provisions 
+of law, no person shall generally be subject to penalty for failing to 
+comply with a collection of information that does not display a valid 
+OMB Control Number. See 5 CFR 1320.5(a) and 1320.6.
+    DOL seeks PRA authorization for this information collection for 
+three (3) years. OMB authorization for an ICR cannot be for more than 
+three (3) years without renewal. The DOL notes that information 
+collection requirements submitted to the OMB for existing ICRs receive 
+a month-to-month extension while they undergo review.
+    Agency: DOL-EBSA.
+    Title of Collection: National Medical Support Notice--Part B.
+    OMB Control Number: 1210-0113.
+    Affected Public: Private sector.
+    Total Estimated Number of Respondents: 399,269.
+    Total Estimated Number of Responses: 10,753,708.
+    Total Estimated Annual Time Burden: 896,142 hours.
+    Total Estimated Annual Other Costs Burden: $5,927,982.
+
+(Authority: 44 U.S.C. 3507(a)(1)(D))
+
+Michael Howell,
+Senior Paperwork Reduction Act Analyst.
+[FR Doc. 2025-20850 Filed 11-24-25; 8:45 am]
+BILLING CODE 4510-29-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

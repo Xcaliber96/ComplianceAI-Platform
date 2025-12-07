@@ -1,0 +1,436 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52917-52921]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20763]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+National Oceanic and Atmospheric Administration
+
+[RTID 0648-XF212]
+
+
+Determination of Size Standard Review
+
+AGENCY: National Marine Fisheries Service (NMFS), National Oceanic and 
+Atmospheric Administration (NOAA), Commerce.
+
+ACTION: Notice of determination.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action serves as notice that NMFS has determined, after 
+review consistent with NMFS' small business size standards regulations, 
+the U.S. Small Business Administration's review requirements under the 
+Small Business Jobs Act of 2010, the Small Business Administration's 
+regulations establishing size standards, and Small Business 
+Administration's size standards methodology, the NMFS-established and 
+codified single small business size standard of $11 million in annual 
+gross receipts for all businesses in the commercial fishing industry 
+continues to reflect the size distribution of all businesses in the 
+commercial fishing industry and is appropriate for continued use for 
+Regulatory Flexibility Act purposes only. Therefore, no revision to the 
+standard is warranted at this time.
+
+FOR FURTHER INFORMATION CONTACT: Tara Scott, Industry Economist, (301) 
+427-8500, email: <a href="/cdn-cgi/l/email-protection#73271201125d20101c0707331d1c12125d141c05"><span class="__cf_email__" data-cfemail="7723160516592414180303371918161659101801">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: On December 29, 2015, the National Marine 
+Fisheries Service (NMFS) issued a final rule establishing a single 
+small business size standard of $11 million in annual gross receipts 
+for all businesses primarily engaged in the commercial fishing industry 
+(North American Industry Classification System [NAICS] 11411) for 
+Regulatory Flexibility Act (RFA) compliance purposes only (80 FR 81194, 
+December 29, 2015) (see 50 CFR 200.2). For the purposes of the rule, a 
+``commercial fishing business'' is a business primarily engaged in 
+commercial fishing, the ``commercial fishing industry'' is composed of 
+all such businesses, and the $11 million standard only applies to this 
+industry (Idem at 81194). The standard is used in place of the U.S. 
+Small Business Administration's (SBA) current standards of $25 million, 
+$14 million, and $11.5 million for the finfish (NAICS 114111), 
+shellfish (NAICS 114112), and other marine fishing (NAICS 114119) 
+sectors of the U.S. commercial fishing industry in all NMFS rules 
+subject to the RFA after July 1, 2016. This standard does not apply to 
+businesses primarily engaged in seafood processing (NAICS 311170), 
+seafood wholesale activities (NAICS 424460), or any other activity 
+within the seafood industry. Under the RFA, an agency must prepare an 
+initial and final regulatory flexibility analysis (IRFA/FRFA) for each 
+proposed and final rule, respectively, unless it certifies that a rule 
+will not have a significant economic impact on a substantial number of 
+small entities. Agencies generally rely on the SBA size standards to 
+identify small entities for RFA purposes. For NMFS, rulemaking 
+activities that may be impacted by changes to the size standards for 
+defining ``small'' businesses include, but are not limited to, 
+regulatory actions and analyses undertaken pursuant to the Magnuson-
+Stevens Fishery Conservation and Management Act Endangered Species Act 
+Marine Mammal Protection Act and National Environmental Policy Act.
+    Consistent with NMFS' small business size standards regulations (50 
+CFR 200.2), SBA's review requirements under the Small Business Jobs Act 
+of 2010 (Pub. L. 111-240, 124 Stat. 2504, Sept. 27, 2010 regulations 
+establishing size standards (13 CFR 121.102), and SBA's Size Standards 
+Methodology (available at <a href="https://www.sba.gov/document/support-2024-size-standards-methodology-white-paper">https://www.sba.gov/document/support-2024-size-standards-methodology-white-paper</a> and noticed in 89 FR 74109), 
+NMFS reviews this standard at least once every 5 years to determine if 
+a change is warranted. A change may be warranted because of changes in 
+industry structure, market conditions, inflation, or other relevant 
+factors (50 CFR 200.2(b)). NMFS reviews all of the applicable factors 
+simultaneously as part of its size standard review, in order to 
+minimize the frequency of changes to the standard and the need for 
+additional rulemakings.
+
+Review Methodology
+
+    In establishing the $11 million size standard during 2015, NMFS 
+determined that the data used by SBA to develop size standards were not 
+representative of all commercial fishing businesses. Specifically, in 
+establishing commercial fishing size standards during 2013 (78 FR 
+37198, June 20, 2013), SBA relied primarily on specialized tabulations 
+from the U.S. Census Bureau's economic census. The sample frame for the 
+economic census and related Census Bureau data such as County Business 
+Patterns or Quarterly Census of Employment and Wages from the Bureau of 
+Labor Statistics (BLS) are for establishments or firms that are subject 
+to payroll tax. While some commercial fishing businesses do have wage-
+based employees, remuneration for the majority of commercial fishing 
+business crew is based on a share of total revenue on each fishing 
+trip. For
+
+[[Page 52918]]
+
+this reason, commercial fishing crew are considered co-ventures or sole 
+proprietorships and not subject to payroll tax, which means that the 
+majority of fishing businesses do not have wage-based employees.
+    Given the determination that the data used by SBA were not 
+representative of how fishing businesses operate, NMFS used available 
+Census Bureau data for the limited number of commercial fishing 
+businesses that did have wage-based employees and requested specialized 
+data from the Census Bureau's non-employer series. The non-employer 
+series includes any commercial fishing establishment or individual that 
+files income tax (e.g., Schedule C) and that does not report any paid 
+employees. These data were combined with the data for wage-based 
+commercial fishing businesses to establish a single size standard of 
+$11 million solely for purposes of conducting NMFS' regulatory analyses 
+under the RFA (80 FR 81194, December 29, 2015).
+    Since 2015, the SBA changed the methods for determining size 
+standards from an anchor-based size standard to one in which industry 
+factors are ranked relative to the 20th and 80th percentile within a 
+group of industries. The revised SBA methodology was published in 2019 
+and then updated in 2024. Additionally, the SBA changed the basis for 
+calculating receipts-based size standards from a 3-year to a 5-year 
+average (84 FR 66561, December 5, 2019). In addressing these changes, 
+NMFS has determined that commercial fishing revenue reported through 
+NMFS seafood dealers or first-receivers would be the best available 
+data upon which to update the commercial fishing size standard. All 
+commercial fishing businesses that fish in the U.S. Exclusive Economic 
+Zone (EEZ) waters are required to have a Federal permit, which also 
+carries a requirement to report commercial fishing landings and revenue 
+through a NMFS dealer reporting or a trip-ticket system. This means 
+that the NMFS commercial fishing receipts data would include both 
+entities that have wage-based employees and some but not all 
+establishments included in the Census Bureau's non-employer series. The 
+non-employer series includes establishments that own fishing vessels 
+but also includes individuals who fish from shore, as well as fishing 
+crew, who would not be included in the commercial fishing receipts 
+data. This creates uncertainty over whether or not an establishment is 
+a ``small business concern,'' as defined under the RFA and over the 
+number of non-employer establishments that would not be directly 
+regulated by NMFS's actions, and therefore, would not be counted for 
+RFA purposes, because they fish exclusively in State waters. By 
+contrast, the NMFS data focuses on commercial fishing businesses that 
+are most likely to be regulated under the RFA. NMFS revenue data is 
+also more current than alternative data from either BLS or Census 
+Bureau and is replicable, which improves responsiveness to updates for 
+inflation or any future adjustments to the size standard. Importantly, 
+use of NMFS data makes it possible to evaluate the robustness of size 
+standards to potential economic effects and it ensures consistency with 
+the data used for conducting small entity impact analysis under the 
+RFA.
+    In order to undertake a more precise review, NMFS developed a 
+National database of total annual receipts from commercial fishing 
+operations constructed from data reported to NMFS in the Pacific 
+Islands, Alaska, West Coast, Southeast, and Greater Atlantic regions, 
+and for Atlantic Highly Migratory Species. Total nominal receipts from 
+all available sources of fishing revenue earned while fishing in State 
+or EEZ waters from any commercial fishing vessel issued a Federal 
+permit were included. Annual total revenues were compiled for the most 
+recent 5-year period of available complete data, which was from 2019 to 
+2023. Ownership information of fishing vessels is included on the forms 
+submitted by vessel owners for annual renewal of fishing permits for 
+some but not all fisheries. For this reason, vessel-level annual 
+receipts were the unit of observation for each commercial fishing 
+entity. This is an establishment-based definition for entity size.
+    The resulting database consisted of 16,374 entities with average 
+annual receipts from 2019 to 2023 of $2.956 billion for all 
+establishments (table 1). The distribution of fishing revenue by 
+interval of fishing revenue size is also shown in table 1. Nation-wide, 
+there were 5,923 vessel entities (36 percent of the total) with 5-year 
+average revenue of less than $5,000 with aggregate receipts of $7.2 
+million or 0.24 percent of total receipts. By contrast, the largest 
+share of aggregate receipts was 28.8 percent for the 572 entities (3.5 
+percent of the total) with average receipts of between $1 million and 
+less than $2.5 million.
+    The SBA methodology identifies four primary factors for describing 
+industry structure; average firm size, start-up costs, industry 
+competition, and size distribution of firms. Following the SBA 
+methodology, average firm size is measured by the simple and weighted 
+average of annual receipts; startup costs are measured by average 
+assets; industry competition is measured by the four-firm concentration 
+ratio; and the size distribution of firms is measured by the Gini 
+coefficient (13 CFR 121.102(a)). Of these primary factors, NMFS does 
+not have sufficient data on the capital value of fishing vessel assets 
+and permits to reliably estimate fishing firm asset values. For this 
+reason, NMFS used the simple average, weighted average, four-firm 
+concentration ratio, and Gini coefficient measures of commercial 
+fishing industry structure. The values for these four metrics based on 
+the 5-year average receipts for each of the 16,374 entities are shown 
+in column two of table 2. The SBA's industry factors at the 20th and 
+80th percentiles for receipts-based size standards for all industries, 
+excluding Subsectors 111 and 112 (see SBA, SBA's Size Standards 
+Methodology, p. 37, table 5, June 2024), are shown in columns one and 
+three, respectively, in table 2.
+    Following the size standard estimation procedures and applying the 
+formulas in SBA's Size Standards Methodology (June 2024) results in the 
+size standards shown in column 4 of table 2. The estimated size 
+standards are rounded to the nearest $500 thousand as required by SBA. 
+Specifically, the size standard for the NMFS National simple average of 
+$180 thousand would be $10 million; the size standard for the NMFS 
+National weighted average of $1.84 million would be $13 million; the 
+size standard for the NMFS National four-firm concentration ratio of 
+less than 2 percent would be $9 million; and the size standard for the 
+NMFS National Gini coefficient of 0.811 would be $35.5 million. 
+Applying these size standards to the national database of commercial 
+fishing establishments results in a range of small entities from 16,361 
+small (13 large) to 16,374 small (0 large) (see table 3). For purposes 
+of comparison, the current NMFS size standard of $11 million is shown 
+in the bottom row of table 3. Under the current NMFS size standard 
+there would be 16,367 entities classified as small and 7 classified as 
+large. All entities would be classified as small using the Gini 
+coefficient factor. For all other industry structure factors, at least 
+99 percent of NMFS national commercial fishing establishments would be 
+classified as small entities. Omitting the Gini coefficient, the 
+average of the size standards for simple average, weighted average, and 
+four-firm concentration ratio is $10.7 million, which rounded to the 
+nearest whole million would be $11 million.
+
+[[Page 52919]]
+
+
+
+             Table 1--Receipts Category for NMFS National Data for Commercial Fishing Establishments
+  [i.e., average number of establishments, average annual gross receipts, and share of total receipts for 2019-
+                                                      2023]
+----------------------------------------------------------------------------------------------------------------
+                                                                                                  Share of total
+                  Establishment receipts size                       Number of        Receipts        receipts
+                                                                 establishments      ($1,000)        (percent)
+----------------------------------------------------------------------------------------------------------------
+All establishments............................................            16,374      $2,956,652  ..............
+Less than $5,000..............................................             5,923           7,206            0.24
+$5,000-$9,999.................................................             1,087           7,878            0.27
+$10,000-$24,999...............................................             1,547          25,596            0.87
+$25,000-$49,999...............................................             1,310          47,546            1.64
+$50,000-$99,999...............................................             1,484         108,630            3.67
+$100,000-$249,999.............................................             2,156         350,619           11.86
+$250,000-$499,999.............................................             1,386         487,422           16.49
+$500,000-$999,999.............................................               803         549,451           18.58
+$1,000,000-$2,499,999.........................................               572         850,552           28.77
+$2,500,000-$4,999,999.........................................                75         255,409            8.64
+$5,000,000 or more............................................                31         266,342            9.01
+----------------------------------------------------------------------------------------------------------------
+
+
+       Table 2--Size Standards by Industry Structure Factors for NMFS National Data for Commercial Fishing
+                                                 Establishments
+----------------------------------------------------------------------------------------------------------------
+                                                   SBA industry                    SBA industry
+           Industry structure factors               factor 20th    NMFS National    factor 80th    Size standard
+                                                    percentile         data         percentile      ($millions)
+----------------------------------------------------------------------------------------------------------------
+Simple average receipts (millions)..............            1.09            0.18            8.34           $10.0
+Weighted average receipts (millions)............           26.82            1.84        1,155.04            13.0
+Four-firm concentration ratio (Percent).........               8            1.94            41.9             9.0
+Gini coefficient................................           0.697           0.811           0.835            35.5
+----------------------------------------------------------------------------------------------------------------
+
+
+         Table 3--Number of Small and Large Entities for Small Business Size Standard by Industry Factor
+----------------------------------------------------------------------------------------------------------------
+                                                   Size standard     Number of       Number of
+           Industry structure factors               ($millions)   small entities  large entities   Percent small
+----------------------------------------------------------------------------------------------------------------
+Simple average receipts.........................           $10.0          16,365               9           99.95
+Weighted average receipts.......................            13.0          16,371               3           99.98
+Four-firm concentration ratio...................             9.0          16,361              13           99.92
+Gini coefficient................................            35.5          16,374               0             100
+Current NMFS size standard......................            11.0          16,367               7           99.96
+----------------------------------------------------------------------------------------------------------------
+
+Sensitivity Analysis
+    For the initial estimation of size standards reported in tables 2 
+and 3, the 5-year average revenue was based on all vessels reporting 
+fishing revenues during at least 1 year from 2019 to 2023. This means 
+that the 5-year average revenue includes years where commercial fishing 
+receipts for some establishments or entities were zero. Additionally, 
+the 5-year period from 2019 to 2023 includes the year 2020, during 
+which the COVID-19 global pandemic had general effects on the U.S. 
+economy but was also particularly disruptive for seafood markets and 
+trade. More recently, prices received by commercial fishing vessel 
+owners were down by a nation-wide average of 10 percent during 2023 
+compared to average prices during 2019 to 2022. While the declines in 
+prices received in Alaska were more pronounced, prices were also lower 
+in other fisheries throughout the United States.
+    To examine the robustness of the size standards reported in table 
+2, adjusted average receipts were estimated to (1) account for 
+participants with zero receipts in some years by using only non-zero 
+receipts for the years from 2019 to 2023; (2) remove the effects of the 
+COVID-19 global pandemic by using the 4-year average from 2019 to 2023, 
+excluding 2020; and (3) remove the 2023 Low Price Effects by using the 
+4-year average from 2019 to 2022. The resulting industry metrics and 
+size standards for the three evaluated scenarios are reported in table 
+4. For each scenario, the industry metrics differed from the ``Base'' 
+reported in table 2; however, the small entity size standard for 
+weighted average was unchanged at $13 million and the size standards 
+for the simple average and four-firm concentration ratio differed by no 
+more than $0.5 million. Across all three scenarios the Gini coefficient 
+was lower than the Base, but, as was the case shown in table 3 for all 
+of the sensitivity scenarios, 100 percent of commercial fishing 
+establishments would still be classified as small (see table 5). 
+Additionally, at least 99 percent of small entities would be classified 
+as small under any of the evaluated scenarios.
+
+[[Page 52920]]
+
+
+
+                    Table 4--Sensitivity Analysis of a Change in 5-Year Average, COVID-19, and Low Price Effects on the Size Standard
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Non-zero revenue         Excluding 2020 COVID-19 effects     Excluding 2023 low price
+                                                       ------------------------------------------------------------------             effects
+              Industry structure factors                                                                                 -------------------------------
+                                                           Industry      Size standard      Industry      Size standard      Industry      Size standard
+                                                           statistic      ($millions)       statistic      ($millions)       statistic      ($millions)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple average receipts...............................        $205,924           $10.5         $190,630           $10.0         $199,835           $10.0
+Weighted average receipts.............................       1,745,870            13.0        1,865,573            13.0        1,801,200            13.0
+Four-firm concentration ratio (percent)...............           1.70%             8.5            1.92%             8.5            1.85%             8.5
+Gini coefficient......................................           0.779            29.5            0.805            34.5            0.800            33.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Table 5--Sensitivity Analysis of a Change in 5-Year Average, COVID-19 Effects, and Low Price Effects on the Percent of Commercial Fishing Establishments
+                                                              Classified as a Small Entity
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Non-zero revenue         Excluding 2020 COVID-19 effects     Excluding 2023 low price
+                                                       ------------------------------------------------------------------             effects
+              Industry structure factors                                                                                 -------------------------------
+                                                         Size standard   Percent small    Size standard   Percent small    Size standard
+                                                          ($millions)                      ($millions)                      ($millions)    Percent small
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple average receipts...............................           $10.5          99.95%            $10.0          99.94%            $10.0          99.96%
+Weighted average receipts.............................            13.0           99.98             13.0           99.98             13.0           99.98
+Four-firm concentration ratio (percent)...............             8.5           99.91              8.5           99.91              8.5           99.93
+Gini coefficient......................................            29.5          100.00             34.5          100.00             33.0          100.00
+Current NMFS size standard............................            11.0           99.96             11.0           99.96             11.0           99.97
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    The size standards by industry structure metric for the Base (5-
+year average including $0 receipts values) and for the three 
+sensitivity scenarios are reported in table 6.
+
+                             Table 6--Summary of Size Standards Compared to the Base
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 Excluding 2023
+                                                 Base size       Non-zero      Excluding 2020       low price
+         Industry structure factors              standard      revenue size   COVID-19 effects    effects size
+                                                ($millions)      standard       size standard       standard
+                                                                ($millions)      ($millions)       ($millions)
+----------------------------------------------------------------------------------------------------------------
+Simple average receipts.....................           $10.0           $10.5             $10.0             $10.0
+Weighted average receipts...................            13.0            13.0              13.0              13.0
+Four-firm concentration ratio...............             9.0             8.5               8.5               8.5
+Gini coefficient............................            35.5            29.5              34.5              33.0
+----------------------------------------------------------------------------------------------------------------
+
+    As previously noted, the size standard for weighted average 
+receipts is unchanged and the simple average size standard was $10 
+million for Base and two of the three sensitivity scenarios. The four-
+firm concentration ratio was $8.5 million for all three sensitivity 
+scenarios compared to $9 million for the Base. Excluding the Gini 
+coefficient, when averaging across all other factors, the Base and the 
+three sensitivity scenarios yield an average size standard of $10.6 
+million, which rounded to the nearest whole million would be $11 
+million.
+Market Conditions
+    NMFS produces an annual summary of economic performance for U.S. 
+commercial fisheries in the Fisheries Economics of the United States 
+Report (FEUS). The most recent report, from 2022, is available at 
+<a href="https://www.fisheries.noaa.gov/resource/document/fisheries-economics-united-states-reports">https://www.fisheries.noaa.gov/resource/document/fisheries-economics-united-states-reports</a>. The report provides information on landing, 
+revenue and trends. The report also describes the U.S. commercial 
+fisheries' economic impact on the economy. Per the FEUS 2022 report, 
+there was a continued decline in revenue over the prior 5 years (see 
+table 1 on page 6 and figure 3 on page 7). Specifically in 2022, U.S. 
+commercial fisheries experienced a 16-percent decrease in revenues as a 
+result of falling prices, which dropped 11 percent in real 2022 
+dollars. The report also notes that while average landing prices had 
+increased in 2021 likely due to inflationary pressures and stronger 
+recovery from the COVID-19 global pandemic, 2022 landing prices had 
+reverted back to pre-pandemic levels. The primary species that 
+contributed the most to the decline in revenue were Alaska pollock, 
+Gulf shrimp, American lobster, and sea scallops. The FEUS 2022 report 
+also notes a number of structural factors throughout the supply chain 
+that likely contributed to the decline in landing prices and the 
+resulting decline in average revenue.
+    NMFS recently published the Alaska Seafood Snapshot in August of 
+2024 (available at <a href="https://www.fisheries.noaa.gov/s3/2024-10/ak-seafood-industry-snapshot-10-31-2024-afsc.pdf">https://www.fisheries.noaa.gov/s3/2024-10/ak-seafood-industry-snapshot-10-31-2024-afsc.pdf</a>), which reported that the 
+Alaska seafood industry experienced a direct loss of $1.8 billion 
+between 2022 and 2023. The decrease in revenues in 2023 was largely 
+driven by low seafood prices across nearly all Alaska species as a 
+result of global market forces; high inventories and high levels of 
+global supply; lower global consumer demand for seafood due to 
+inflation; and lower cost of seafood production and
+
+[[Page 52921]]
+
+processing in countries that compete with U.S. seafood products.
+    With regards to Gulf Shrimp, revenue decline is largely 
+attributable to decreased landings price as domestic shrimp producers 
+faced a supply and demand mismatch and unfair competition from imports, 
+as determined by the U.S. International Trade Commission. In an article 
+by Blank, C., they noted that U.S. shrimp sales were down in 2023, and 
+market difficulties were expected to continue in 2024 (available at 
+<a href="https://www.seafoodsource.com/news/premium/foodservice-retail/shrimp-sales-down-in-2023-experts-forecast-continued-difficulties-in-2024">https://www.seafoodsource.com/news/premium/foodservice-retail/shrimp-sales-down-in-2023-experts-forecast-continued-difficulties-in-2024</a> 
+(accessed July 11, 2025)). To date, the Department of Commerce has 
+levied countervailing and antidumping duties on imports of select 
+countries and the NMFS' Shrimp Futures Initiative is working to 
+understand the challenges facing the Southeast's shrimp fisheries.
+    NMFS does not anticipate these various structural factors 
+throughout the supply chain to be fully resolved in the near term. 
+Therefore, NMFS will continue to monitor these factors and assess if 
+additional reviews or revisions to the size standard are warranted.
+Determination
+    Based on the results of the review, NMFS has determined the small 
+business size standard of $11 million in annual gross receipts 
+continues to reflect the size distribution of all businesses in the 
+commercial fishing industry and is appropriate for continued use for 
+RFA purposes only. Therefore, no revision to the standard is warranted 
+at this time. NMFS will monitor industry structure, market conditions 
+and other relevant factors as necessary to ensure the size standard 
+remains appropriate to meet the intent of the RFA.
+
+    Dated: November 20, 2025.
+Kelly Denit,
+Director, Office of Sustainable Fisheries, National Marine Fisheries 
+Service.
+[FR Doc. 2025-20763 Filed 11-21-25; 8:45 am]
+BILLING CODE 3510-22-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

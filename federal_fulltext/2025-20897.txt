@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Proposed Rules]
+[Pages 53250-53251]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20897]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+18 CFR Parts 35 and 254
+
+[Docket No. RM20-7-000]
+
+
+Safe Harbor Policy for Data Providers to Price Index Developers
+
+AGENCY: Federal Energy Regulatory Commission.
+
+ACTION: Withdrawal of notice of proposed rulemaking and termination of 
+rulemaking proceeding.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Energy Regulatory Commission is withdrawing a 
+notice of proposed rulemaking, which proposed to amend its regulations 
+to codify the Safe Harbor Policy established in the Commission's Policy 
+Statement on Natural Gas and Electric Price Indices. The Commission is 
+also terminating this rulemaking proceeding.
+
+DATES: The notice of proposed rulemaking published in the Federal 
+Register at 86 FR 12132 on March 2, 2021, is withdrawn as of November 
+25, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Gabe Sterling, Legal Information, 
+Office of Enforcement, Division of Investigations, Federal Energy 
+Regulatory Commission, 888 First Street NE, Washington, DC 20426, (202) 
+502-8891 <a href="/cdn-cgi/l/email-protection#9cfbfdfeeef5f9f0b2efe8f9eef0f5f2fbdcfaf9eeffb2fbf3ea"><span class="__cf_email__" data-cfemail="b9ded8dbcbd0dcd597cacddccbd5d0d7def9dfdccbda97ded6cf">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    1. On December 17, 2020, the Federal Energy Regulatory Commission 
+(Commission) issued a notice of proposed rulemaking (NOPR), proposing 
+to amend 18 CFR 35.41(c), 284.288(a), and 284.403(a) of the 
+Commission's regulations by adding language to indicate: (1) that there 
+will be a rebuttable presumption of accuracy, timeliness, and good 
+faith for data providers, i.e., market participants that submit 
+transaction data to price index developers; and (2) that inadvertent 
+reporting errors by data providers will not constitute violations of 
+the Commission's regulations.\1\
+---------------------------------------------------------------------------
+
+    \1\ Safe Harbor Pol'y for Data Providers to Price Index 
+Developers, 86 FR 12132 (March 2, 2021) 173 FERC ] 61,238 (2020) 
+(NOPR).
+---------------------------------------------------------------------------
+
+    2. The Commission received nine comments in response to the 
+NOPR.\2\ Eight of the comments generally supported the proposal, 
+reasoning that codification of the Commission's existing policies 
+regarding natural gas data providers could encourage more price 
+reporting to index developers.\3\ One commenter objected to the 
+proposal, arguing that there was no evidence that the regulation would 
+result in any meaningful improvement in reporting to index 
+developers.\4\ Commenters also included some proposals beyond the scope 
+of the NOPR, including changes to the Commission's audit and 
+investigation processes and creation of natural gas indices directly by 
+the Commission.
+---------------------------------------------------------------------------
+
+    \2\ Comments were filed by the Electric Power Supply 
+Association, Argus Media Inc., Pacific Gas and Electric Company, EQT 
+Energy, LLC, Public Citizen, Inc., the Natural Gas Supply 
+Association, Edison Electric Institute, the American Public Gas 
+Association, and American Gas Association.
+    \3\ See comments of the Electric Power Supply Association, Argus 
+Media Inc., Pacific Gas and Electric Company, EQT Energy, LLC, the 
+Natural Gas Supply Association, Edison Electric Institute, the 
+American Public Gas Association, and American Gas Association.
+    \4\ Comments of Public Citizen, Inc. at 4.
+---------------------------------------------------------------------------
+
+    3. For the reasons set forth below, we are exercising our 
+discretion to withdraw the NOPR and terminate the rulemaking 
+proceeding.
+
+II. Discussion
+
+    4. As discussed in the NOPR, the Commission initially adopted and 
+clarified policies on index development in the wake of the 2000-2001 
+Western Energy Crisis.\5\ In this Price Index Policy Statement, the 
+Commission affirmed the need for robust, reliable indices and accurate 
+reporting of transaction data to price index developers. The Commission 
+issued the Price Index Policy Statement, in part, ``to explain what the 
+Commission expects of natural gas and electric price indices and under 
+what conditions the Commission will give industry participants safe 
+harbor protection for good faith reporting of transaction data to 
+entities that develop price indices.'' \6\ Regarding this safe harbor, 
+``the Commission [created] a rebuttable presumption that companies and 
+individuals that report trade data to price index developers in 
+accordance with the standards adopted here are doing so in good faith, 
+and will not be investigated or subjected to administrative penalties 
+for inadvertent mistakes made in the course of reporting energy 
+transaction information.'' \7\
+---------------------------------------------------------------------------
+
+    \5\ Price Discovery in Nat. Gas & Elec. Mkts., 104 FERC ] 
+61,121, at P 37, clarified, 105 FERC ] 61,282 (2003), further 
+clarified, 112 FERC ] 61,040 (2005) (collectively, Price Index 
+Policy Statement).
+    \6\ Price Index Policy Statement, 104 FERC ] 61,121 at P 5.
+    \7\ NOPR, 173 FERC ] 61,238 at P 6 (explaining the ``Safe Harbor 
+Policy'' adopted in the Price Index Policy Statement).
+---------------------------------------------------------------------------
+
+    5. The NOPR proposed to codify the Safe Harbor Policy in the 
+Commission's regulations to eliminate concern that the Commission might 
+choose to depart
+
+[[Page 53251]]
+
+from the Safe Harbor Policy in future enforcement proceedings. The NOPR 
+postulated that, by providing reassurance through codification, 
+regulatory risk would be reduced and more participants would elect to 
+report transactions to price index developers.\8\
+---------------------------------------------------------------------------
+
+    \8\ Id. at P 11.
+---------------------------------------------------------------------------
+
+    6. Concurrent with the issuance of the NOPR, the Commission issued 
+a Proposed Revised Policy Statement \9\ on price indices to encourage 
+additional market participants to report their transactions to price 
+index developers, provide greater transparency into the natural gas 
+price formation process, and increase confidence in the accuracy and 
+reliability of wholesale natural gas prices. Subsequently, on April 21, 
+2022, the Commission adopted a Revised Policy Statement addressing 
+these matters.\10\ In the Revised Policy Statement, the Commission 
+stated that it did not intend to act on the NOPR at that time but 
+reiterated that the Safe Harbor Policy ``remains in effect.'' \11\
+---------------------------------------------------------------------------
+
+    \9\ Actions Regarding the Comm'n's Pol'y on Price Index 
+Formation & Transparency, & Indices Referenced in Nat. Gas & Elec. 
+Tariffs, 85 FR 83940 (Dec. 23, 2020) 173 FERC ] 61,237 (2020) 
+(Proposed Revised Policy Statement).
+    \10\ Actions Regarding the Comm'n's Pol'y on Price Index 
+Formation & Transparency, & Indices Referenced in Nat. Gas & Elec. 
+Tariffs, 87 FR 25237 (April 28, 2022) 179 FERC ] 61,036 (2022) 
+(Revised Policy Statement). The Revised Policy Statement allowed 
+greater flexibility for market participants choosing to provide data 
+to index developers. The Revised Policy Statement permitted market 
+participants that report transaction data to price index developers 
+to report either their non-index based next-day transactions, their 
+non-index based next-month transactions, or both, to price index 
+developers. In addition, the Commission encouraged data providers to 
+report transactions to as many Commission-approved price index 
+developers as possible, and allowed data providers to self-audit on 
+a biennial basis.
+    \11\ Id. at P 106.
+---------------------------------------------------------------------------
+
+    7. Since the issuance of the NOPR, the price reporting burden for 
+data providers has lessened and the number of new data providers has 
+increased, thereby, bolstering price index formation. The Revised 
+Policy Statement, issued in 2022, reduced the price reporting burden by 
+allowing data providers to report their monthly transactions to price 
+index developers without also being required to report their daily 
+transactions. The next year, 2023, twenty-three new companies began 
+reporting to price index developers according to Form No. 552 
+submissions.\12\ Some of these newly-reporting companies report monthly 
+(rather than monthly and daily) transactions to price index developers, 
+taking advantage of the data reporting flexibilities announced in the 
+Revised Policy Statement. In addition, some price index developers have 
+increased the robustness of their price indices by including a large 
+number and volume of fixed-priced transactions from the 
+Intercontinental Exchange (ICE).\13\ Further, consistent with the 
+Revised Policy Statement, four natural gas price index developers 
+submitted successful reapprovals in Docket No. PL03-3 demonstrating 
+that their processes continue to meet all or substantially all of the 
+Commission's standards for price index developers' indices to be 
+referenced in Commission-jurisdictional tariffs.\14\ These events 
+indicate that formal amendment of the Commission's regulations is not 
+necessary to promote reporting of transactions to price index 
+developers at this time.
+---------------------------------------------------------------------------
+
+    \12\ Form No. 552 information may be accessed at <a href="http://www.ferc.gov/industries-data/natural-gas/industry-forms/form-no-552-download-data">www.ferc.gov/industries-data/natural-gas/industry-forms/form-no-552-download-data</a>.
+    \13\ See, e.g., S&P Global Commodity Insights, FERC Policy 
+Statement Price Index Developer Commission Re-approval, Docket No. 
+PL03-3-000, at P 4 (February 9, 2023) (noting inclusion of ICE data 
+in the relevant price indices).
+    \14\ Revised Policy Statement, 173 FERC ] 61,237 at P 76.
+---------------------------------------------------------------------------
+
+    8. Consistent with the Safe Harbor Policy, for over two decades the 
+Commission has neither investigated nor imposed penalties on any 
+company for inadvertent reporting errors. As noted above, in 2022, the 
+Commission reiterated the Safe Harbor Policy in the Revised Policy 
+Statement.\15\ We remain committed to the Safe Harbor Policy, as it 
+promotes robust, voluntary reporting to index developers. Consistent 
+application of the Safe Harbor Policy and the Revised Policy Statement 
+will continue to reduce any lingering concerns by data providers and 
+other market participants about the regulatory risk of reporting to 
+index developers.
+---------------------------------------------------------------------------
+
+    \15\ Id. at P 106.
+---------------------------------------------------------------------------
+
+    The Commission orders: The NOPR is hereby withdrawn and Docket No. 
+RM20-7-000 is hereby terminated.
+
+    By direction of the Commission.
+
+    Issued: November 20, 2025.
+Carlos D. Clay,
+Deputy Secretary.
+[FR Doc. 2025-20897 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

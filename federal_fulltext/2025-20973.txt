@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Page 53279]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20973]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+
+Combined Notice of Filings #2
+
+    Take notice that the Commission received the following electric 
+rate filings:
+    Docket Numbers: ER24-343-002.
+    Applicants: Nestlewood Solar I LLC.
+    Description: Supplement to 07/30/2024, Notice of Non-Material 
+Change in Status of Nestlewood Solar I LLC.
+    Filed Date: 10/27/25.
+    Accession Number: 20251027-5184.
+    Comment Date: 5 p.m. ET 12/11/25.
+
+    Docket Numbers: ER26-559-000.
+    Applicants: Capacitor Borrower, LLC.
+    Description: Initial Rate Filing: Application for Market-Based Rate 
+Authorization, Request for Related Waivers to be effective 1/20/2026.
+    Filed Date: 11/20/25.
+    Accession Number: 20251120-5138.
+    Comment Date: 5 p.m. ET 12/11/25.
+
+    Docket Numbers: ER26-560-000.
+    Applicants: Midcontinent Independent System Operator, Inc., WPPI 
+Energy.
+    Description: 205(d) Rate Filing: WPPI Energy submits tariff filing 
+per 35.13(a)(2)(iii): 2025-11-20_WPPI Energy Request for Abandoned 
+Plant Transmission Rate Incentives to be effective 1/20/2026.
+    Filed Date: 11/20/25.
+    Accession Number: 20251120-5205.
+    Comment Date: 5 p.m. ET 12/11/25.
+    The filings are accessible in the Commission's eLibrary system 
+(<a href="https://elibrary.ferc.gov/idmws/search/fercgensearch.asp">https://elibrary.ferc.gov/idmws/search/fercgensearch.asp</a>) by querying 
+the docket number.
+    Any person desiring to intervene, to protest, or to answer a 
+complaint in any of the above proceedings must file in accordance with 
+Rules 211, 214, or 206 of the Commission's Regulations (18 CFR 385.211, 
+385.214, or 385.206) on or before 5:00 p.m. Eastern time on the 
+specified comment date. Protests may be considered, but intervention is 
+necessary to become a party to the proceeding.
+    eFiling is encouraged. More detailed information relating to filing 
+requirements, interventions, protests, service, and qualifying 
+facilities filings can be found at: <a href="http://www.ferc.gov/docs-filing/efiling/filing-req.pdf">http://www.ferc.gov/docs-filing/efiling/filing-req.pdf</a>. For other information, call (866) 208-3676 
+(toll free). For TTY, call (202) 502-8659.
+    The Commission's Office of Public Participation (OPP) supports 
+meaningful public engagement and participation in Commission 
+proceedings. OPP can help members of the public, including landowners, 
+community organizations, Tribal members and others, access publicly 
+available information and navigate Commission processes.
+    For public inquiries and assistance with making filings such as 
+interventions, comments, or requests for rehearing, the public is 
+encouraged to contact OPP at (202) 502-6595 or <a href="/cdn-cgi/l/email-protection#ca859a9a8aacafb8a9e4ada5bc"><span class="__cf_email__" data-cfemail="26697676664043544508414950">[email&#160;protected]</span></a>.
+
+    Dated: November 20, 2025
+Carlos D. Clay,
+Deputy Secretary.
+[FR Doc. 2025-20973 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

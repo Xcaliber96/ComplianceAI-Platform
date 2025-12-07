@@ -1,0 +1,1026 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Proposed Rules]
+[Pages 53255-53261]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20900]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+18 CFR Part 342
+
+[Docket No. RM25-2-000]
+
+
+Supplemental Review of the Oil Pipeline Index Level
+
+AGENCY: Federal Energy Regulatory Commission.
+
+[[Page 53256]]
+
+
+ACTION: Withdrawal of supplemental notice of proposed rulemaking and 
+termination of rulemaking proceeding.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Energy Regulatory Commission (Commission) is 
+withdrawing the supplemental notice of proposed rulemaking 
+(Supplemental NOPR) that proposed to amend the index level used to 
+determine annual changes to oil pipeline rate ceilings for the 
+remainder of the five-year period that began July 1, 2021, and 
+concludes June 30, 2026.
+
+DATES: The Supplemental NOPR published on October 23, 2024, at 89 FR 
+84475 is withdrawn as of November 25, 2025.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Monil Patel (Technical Information), Office of Energy Market 
+Regulation, 888 First Street NE, Washington, DC 20426, (202) 502-8296, 
+<a href="/cdn-cgi/l/email-protection#80cdefeee9ecaed0e1f4e5ecc0e6e5f2e3aee7eff6"><span class="__cf_email__" data-cfemail="d69bb9b8bfbaf886b7a2b3ba96b0b3a4b5f8b1b9a0">[email&#160;protected]</span></a>.
+    Evan Steiner (Legal Information), Office of the General Counsel, 
+888 First Street NE, Washington, DC 20426, (202) 502-8792, 
+<a href="/cdn-cgi/l/email-protection#2d685b4c43037e59484443485f6d4b485f4e034a425b"><span class="__cf_email__" data-cfemail="2762514649097453424e494255674142554409404851">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 1. On October 17, 2024, the Commission 
+issued a supplemental notice of proposed rulemaking proposing to amend 
+the index level used to determine annual changes to oil pipeline rate 
+ceilings.\1\ The Supplemental NOPR requested comment regarding (a) 
+changing the current index level of Producer Price Index for Finished 
+Goods plus 0.78% (PPI-FG+0.78% (Initial Index)) to PPI-FG-0.21% 
+(Rehearing Index) and (b) other issues related to the appropriate index 
+level following the decision of the United States Court of Appeals for 
+the District of Columbia Circuit (D.C. Circuit) in Liquid Energy 
+Pipeline Association v. FERC.\2\
+---------------------------------------------------------------------------
+
+    \1\ Supplemental Rev. of the Oil Pipeline Index Level, 89 FR 
+84475 (Oct. 23, 2024), 189 FERC ] 61,030 (2024) (Supplemental NOPR).
+    \2\ 109 F.4th 543 (D.C. Cir. 2024) (LEPA v. FERC).
+---------------------------------------------------------------------------
+
+    2. For the reasons discussed below, we exercise our discretion to 
+withdraw the Supplemental NOPR and terminate this rulemaking 
+proceeding.
+
+I. Background
+
+A. Indexing and the Kahn Methodology
+
+    3. The Energy Policy Act of 1992 (EPAct 1992) required the 
+Commission to establish a ``simplified and generally applicable'' 
+ratemaking methodology \3\ that was consistent with the just and 
+reasonable standard of the Interstate Commerce Act (ICA).\4\ To 
+implement this mandate, the Commission issued Order No. 561,\5\ 
+establishing an indexing methodology that allows oil pipelines to 
+change their rates subject to certain ceiling levels as opposed to 
+making cost-of-service filings.\6\ In Order No. 561, the Commission 
+committed to review the index level every five years to ensure that it 
+adequately reflects changes to industry costs.\7\ The Commission 
+conducted five-year index reviews in 2000,\8\ 2005,\9\ 2010,\10\ and 
+2015.\11\
+---------------------------------------------------------------------------
+
+    \3\ Public Law 102-486, 1801(a), 106 Stat. 3010 (Oct. 24, 1992).
+    \4\ 49 U.S.C. app. 1 et seq.
+    \5\ Revisions to Oil Pipeline Reguls. Pursuant to Energy Policy 
+Act of 1992, Order No. 561, 58 FR 58753 (Nov. 4, 1993), FERC Stats. 
+& Regs. ] 30,985 (1993) (cross-referenced at 65 FERC ] 61,109), 
+order on reh'g, Order No. 561-A, 59 FR 40243 (Aug. 8, 1994), FERC 
+Stats. & Regs. ] 31,000 (1994) (cross-referenced at 68 FERC ] 
+61,138), aff'd sub nom. Ass'n of Oil Pipe Lines v. FERC, 83 F.3d 
+1424 (D.C. Cir. 1996) (AOPL I).
+    \6\ Pursuant to the Commission's indexing methodology, oil 
+pipelines change their rate ceiling levels effective every July 1 by 
+``multiplying the previous index year's ceiling level by the most 
+recent index published by the Commission.'' 18 CFR 342.3(d)(1). Oil 
+pipelines may adjust their rates to the ceiling levels pursuant to 
+Commission's regulations so long as no protest or complaint 
+demonstrates that the index rate change substantially diverges from 
+the pipeline's cost changes. Id. 343.2(c)(1).
+    \7\ Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,941.
+    \8\ Five-Year Review of Oil Pipeline Pricing Index, 93 FERC ] 
+61,266 (2000), aff'd in part and remanded in part sub nom. Ass'n of 
+Oil Pipe Lines v. FERC, 281 F.3d 239 (D.C. Cir. 2002) (AOPL II), 
+order on remand, 102 FERC ] 61,195 (2003), aff'd sub nom. Flying J 
+Inc. v. FERC, 363 F.3d 495 (D.C. Cir. 2004).
+    \9\ Five-Year Review of Oil Pipeline Pricing Index, 114 FERC ] 
+61,293 (2006) (2005 Index Review).
+    \10\ Five-Year Review of Oil Pipeline Pricing Index, 133 FERC ] 
+61,228 (2010) (2010 Index Review), reh'g denied, 135 FERC ] 61,172 
+(2011).
+    \11\ Five-Year Review of the Oil Pipeline Index, 153 FERC ] 
+61,312 (2015) (2015 Index Review), aff'd sub nom. Ass'n of Oil Pipe 
+Lines v. FERC, 876 F.3d 336 (D.C. Cir. 2017) (AOPL III).
+---------------------------------------------------------------------------
+
+    4. In Order No. 561 and each successive five-year review, the 
+Commission has calculated the index level based upon a methodology 
+developed by Dr. Alfred E. Kahn.\12\ The Kahn Methodology uses pipeline 
+data from FERC Form No. 6, page 700 from the prior five-year period to 
+determine an appropriate adjustment to be applied to PPI-FG. The 
+calculation is as follows. Each pipeline's cost change on a per-barrel 
+mile basis over the prior five-year period (e.g., the years 2014-2019) 
+is calculated. In order to capture normal industry cost experience, the 
+resulting data set is trimmed by removing an equal number of pipelines 
+from the top and bottom of the data set. The Kahn Methodology then 
+calculates three measures of the trimmed data sample's central 
+tendency: the median, the mean, and a weighted mean.\13\ The Kahn 
+Methodology calculates a composite by averaging these measures of 
+central tendency and measures the difference between the composite and 
+the PPI-FG over the prior five-year period. The Commission then sets 
+the index level at PPI-FG plus (or minus) this differential.
+---------------------------------------------------------------------------
+
+    \12\ The D.C. Circuit has affirmed the Commission's use of the 
+Kahn Methodology. AOPL I, 83 F.3d at 1433-37; Flying J Inc. v. FERC, 
+363 F.3d at 497-500.
+    \13\ The weighted mean assigns a different weight to each 
+pipeline's cost change based upon the pipeline's total barrel-miles.
+---------------------------------------------------------------------------
+
+B. The 2020 Five-Year Review
+
+    5. The 2020 five-year review addressed the index level for the July 
+1, 2021, to June 30, 2026 period.\14\ In December of 2020, the 
+Commission's Initial Order \15\ adopted the Initial Index level of PPI-
+FG+0.78%. As relevant here, the Commission determined the Initial 
+Index, in part, by: (1) adjusting the data for Master Limited 
+Partnership (MLP) pipelines to remove the effects of a 2018 policy 
+change (Income Tax Policy Change), and (2) trimming the data set to the 
+middle 80% of cost changes.
+---------------------------------------------------------------------------
+
+    \14\ The Commission initiated the 2020 five-year review by 
+issuing a Notice of Inquiry in June of 2020. Five-Year Rev. of the 
+Oil Pipeline Index, 171 FERC ] 61,239 (2020).
+    \15\ Five-Year Rev. of the Oil Pipeline Index, 173 FERC ] 61,245 
+(2020) (Initial Order), order on reh'g, 178 FERC ] 61,023 (2022) 
+(Rehearing Order), vacated sub nom. LEPA v. FERC, 109 F.4th 543.
+---------------------------------------------------------------------------
+
+    6. First, the Commission considered whether to adjust the data to 
+remove the effects of the Income Tax Policy Change. As noted above, the 
+Commission measures industry-wide cost changes using data from 
+pipelines' Form No. 6, page 700 for the five years prior to the start 
+of the five-year review, here, 2014 to 2019. In 2018, the Commission 
+changed its policy regarding the recovery of income tax costs and 
+required MLP pipelines to eliminate their income tax allowance and 
+Accumulated Deferred Income Taxes (ADIT) balances from their page 
+700s.\16\ As a result, the 2014 page 700 data for MLP pipelines 
+reflected the Commission's old policy while the 2019 page 700 data 
+reflected the new policy. In the Initial Order, the Commission adjusted 
+for this by removing the effects of the Income Tax Policy Change.\17\
+---------------------------------------------------------------------------
+
+    \16\ See Inquiry Regarding the Comm'n Pol'y for Recovery of 
+Income Tax Costs, 162 FERC ] 61,227 (2018 Income Tax Policy 
+Statement), reh'g denied, 164 FERC ] 61,030 (2018), requests for 
+clarification dismissed, 168 FERC ] 61,136 (2019), petitions for 
+review dismissed sub nom. Enable Miss. River Transmission, LLC v. 
+FERC, 820 F. App'x 8 (D.C. Cir. 2020).
+    \17\ For any pipelines that were MLPs in 2014, the Commission 
+set the 2014 page 700 income tax allowance to zero and revised the 
+2014 return on rate base to reflect the removal of ADIT. Initial 
+Order, 173 FERC ] 61,245 at P 16.
+---------------------------------------------------------------------------
+
+    7. Second, the Initial Order trimmed the data set to the middle 80% 
+of cost
+
+[[Page 53257]]
+
+changes. As noted above, the Kahn Methodology statistically trims the 
+page 700 data by removing an equal number of pipelines from the top and 
+bottom of the data set to remove outlying and anomalous data that can 
+distort the measure of central tendency. Participants in the 2020 five-
+year review proceeding disputed whether to trim the data to the middle 
+80% or the middle 50% of cost changes. The Commission determined that 
+using the middle 80% was appropriate for this index review.\18\
+---------------------------------------------------------------------------
+
+    \18\ Id. P 25.
+---------------------------------------------------------------------------
+
+    8. In January 2021, shippers filed requests for rehearing of the 
+Initial Order. While those rehearing requests were pending, the 
+Commission published a new annual index on May 14, 2021, consistent 
+with the Initial Order.\19\ Pipelines proceeded to make rate filings, 
+which became effective July 1, 2021, reflecting the Initial Order.
+---------------------------------------------------------------------------
+
+    \19\ Notice of Ann. Change in the Producer Price Index for 
+Finished Goods, 175 FERC ] 61,117 (2021).
+---------------------------------------------------------------------------
+
+    9. In January 2022, the Commission issued the Rehearing Order \20\ 
+adopting the lower Rehearing Index level of PPI-FG-0.21%.\21\ In the 
+Rehearing Order, the Commission reversed course on the two issues 
+described above: the Commission calculated the Rehearing Index (1) 
+using unadjusted page 700 data that reflected the Income Tax Policy 
+Change, and (2) trimming the data set to the middle 50% of cost 
+changes.\22\ In addition, the Commission addressed certain relatively 
+minor computational issues identified by pipelines related to the 
+appropriate source for the 2014 data from page 700.\23\
+---------------------------------------------------------------------------
+
+    \20\ Rehearing Order, 178 FERC ] 61,023, reh'g denied, 179 FERC 
+] 61,100 (2022) (Second Rehearing Order).
+    \21\ Rehearing Order, 178 FERC ] 61,023 at P 2.
+    \22\ Id. PP 17-36, 43-58.
+    \23\ Id. PP 99-102.
+---------------------------------------------------------------------------
+
+    10. The Commission directed pipelines to recompute their ceiling 
+levels and reduce their rates to reflect the lower Rehearing Index, 
+effective March 1, 2022.\24\ Certain parties appealed the Rehearing 
+Order.
+---------------------------------------------------------------------------
+
+    \24\ Id. P 106.
+---------------------------------------------------------------------------
+
+C. LEPA v. FERC and Reinstatement Order
+
+    11. In LEPA v. FERC, the D.C. Circuit vacated the Rehearing 
+Order.\25\ The court held that the Commission's Rehearing Order 
+violated the Administrative Procedure Act (APA) by amending the Initial 
+Index without providing notice and an opportunity for comment. The 
+court explained that once an agency's rule ``carrie[s] legal 
+consequences,'' the APA requires the agency to follow notice-and-
+comment procedures before amending the rule.\26\ The court found that 
+the Initial Index became ``sufficiently final'' by July 1, 2021, when 
+pipelines' rates for the first year of the five-year period became 
+effective, ``to require that any amendment undergo notice-and-comment 
+procedures.'' \27\ Because the Commission changed the index to the 
+Rehearing Index level and required pipelines to lower their rates 
+without providing notice-and-comment procedures, the court vacated the 
+Rehearing Order and ordered the Commission to reinstate the Initial 
+Order.
+---------------------------------------------------------------------------
+
+    \25\ LEPA v. FERC, 109 F.4th 543.
+    \26\ Id. at 548 (quoting Humane Soc'y v. USDA, 41 F.4th 564, 570 
+(D.C. Cir. 2022)) (internal quotation marks omitted).
+    \27\ Id. at 549.
+---------------------------------------------------------------------------
+
+    12. On September 17, 2024, the Commission issued an order 
+reinstating the Initial Order in compliance with the court's 
+decision.\28\ The Commission directed oil pipelines to recompute their 
+ceiling levels for a second time to reflect the Initial Index and 
+explained that pipelines could file to prospectively increase their 
+indexed rates up to their recomputed ceiling levels.\29\ The Commission 
+also stated that it would address other issues following LEPA v. FERC 
+in a subsequent order.
+---------------------------------------------------------------------------
+
+    \28\ Revisions to Oil Pipeline Reguls. Pursuant to the Energy 
+Pol'y Act of 1992, 188 FERC ] 61,173 (2024) (Reinstatement Order).
+    \29\ Id. PP 1-2.
+---------------------------------------------------------------------------
+
+    13. Parties continued to file comments in Docket No. RM20-14 
+disputing the appropriate index level following LEPA v. FERC.\30\ Among 
+other things, shippers argued that the Commission should reinstitute 
+the Rehearing Order vacated by LEPA v. FERC and consider their 
+rehearing requests.\31\
+---------------------------------------------------------------------------
+
+    \30\ In addition, certain shippers filed a Petition for Action 
+requesting the Commission readopt the Rehearing Index in notice-and-
+comment proceedings. Five-Year Review of the Oil Pipeline Index, 
+Joint Shippers Petition for Action Following Vacatur and Remand of 
+Five-Year Index Review Decision, Docket No. RM20-14-003, (filed Sep. 
+23, 2024) (Joint Shippers Petition for Action).
+    \31\ The Commission is issuing an order resolving the remaining 
+issues in that proceeding concurrent with this order. Revisions to 
+Oil Pipeline Reguls. Pursuant to the Energy Pol'y Act of 1992, 193 
+FERC ] 61,137 (2025).
+---------------------------------------------------------------------------
+
+II. Supplemental NOPR
+
+A. Supplemental NOPR
+
+    14. In order to resolve the ongoing disputes over whether the index 
+should be modified following LEPA v. FERC and to comply with the 
+court's holding that any change must be accomplished through APA 
+notice-and-comment procedures, the Commission issued the Supplemental 
+NOPR. The Commission proposed to amend the index level to PPI-FG-0.21% 
+(the same level as the Rehearing Index) and sought comments on its 
+proposal. The Commission proposed to amend the index level on a 
+prospective basis for the remainder of the five-year period. More 
+specifically, the Commission proposed the following:
+    [ssquf] Calculating Prospective Ceiling Levels: The Commission 
+proposed that pipelines recalculate their ceiling levels as though the 
+amended index level of PPI-FG-0.21% was effective throughout the five-
+year period beginning in 2021.\32\ However, the Commission noted that 
+commenters could address, in the alternative, if ceiling levels should 
+only reflect a revised index level as of July 1, 2025, rather than the 
+full five-year period.\33\
+---------------------------------------------------------------------------
+
+    \32\ Under this approach, pipelines would recalculate their July 
+1, 2025 ceiling levels using the revised index level for 2021, 2022, 
+2023, and 2024.
+    \33\ Supplemental NOPR, 189 FERC ] 61,030 at P 37.
+---------------------------------------------------------------------------
+
+    [ssquf] Income Tax Policy Change: The Commission proposed to use 
+unadjusted page 700 data that reflects the Income Tax Policy Change, 
+consistent with the Rehearing Order, rather than the adjusted data used 
+in the Initial Order.\34\
+---------------------------------------------------------------------------
+
+    \34\ Id. PP 24-34.
+---------------------------------------------------------------------------
+
+    [ssquf] Statistical Data Trimming: The Commission proposed to trim 
+the data set to the middle 50% of cost changes, as the Commission did 
+in the Rehearing Order, rather than the middle 80% adopted by the 
+Initial Order.\35\
+---------------------------------------------------------------------------
+
+    \35\ Id. PP 13-23.
+---------------------------------------------------------------------------
+
+    [ssquf] Appropriate Source of 2014 Page 700 Data: The Commission 
+proposed to use page 700 data for 2014 from more recent filings made in 
+April 2016 rather than the outdated 2014 data filed in April 2015. The 
+Commission explained that the Initial Order inadvertently used outdated 
+page 700 data for 2014.\36\
+---------------------------------------------------------------------------
+
+    \36\ Id. PP 35-36.
+---------------------------------------------------------------------------
+
+    15. The Commission acknowledged that it had never previously 
+undertaken a rulemaking to consider revisions to the index level 
+outside of the five-year review process. However, the Commission found 
+it appropriate to initiate new notice-and-comment procedures given the 
+D.C. Circuit's holdings in LEPA v. FERC and ongoing concerns with the 
+Initial Index.\37\ The Commission emphasized that commenters could 
+address any issues or concerns associated with the proposal to revise 
+the index level during the five-year period.\38\
+---------------------------------------------------------------------------
+
+    \37\ Id. P 40; see also Joint Shippers Petition for Action.
+    \38\ Supplemental NOPR, 189 FERC ] 61,030 at P 40.
+
+---------------------------------------------------------------------------
+
+[[Page 53258]]
+
+B. Comments
+
+    16. Initial comments on the Supplemental NOPR were filed on 
+November 26, 2024, and reply comments were filed on December 20, 2024. 
+In general, pipeline commenters (Pipelines) \39\ oppose the 
+Commission's proposal to revise the index level. Pipelines assert that 
+amending the index level at this time would disrupt settled 
+expectations, cause regulatory uncertainty, and incentivize litigation 
+over pipeline rates.\40\ By contrast, shipper commenters (Shippers) 
+\41\ support the Commission's proposal.
+---------------------------------------------------------------------------
+
+    \39\ Pipelines include: Liquid Energy Pipeline Association 
+(LEPA); Designated Carriers (Buckeye Partners, L.P., Colonial 
+Pipeline Company, Energy Transfer LP, Enterprise Products Partners, 
+L.P., and Plains All American Pipeline, L.P.); Bridger Pipeline LLC 
+(Bridger); Kinder Morgan, Inc. (Kinder Morgan); Marathon Pipe Line 
+LLC (Marathon); Williams Companies, Inc. (Williams); South Bow (USA) 
+LP (South Bow); and Tallgrass Energy Partners LP. In addition, the 
+Energy Infrastructure Council filed comments opposing the 
+Commission's proposal to adopt a revised index level.
+    \40\ Designated Carriers Initial Comments at 23-34; LEPA Initial 
+Comments at 21; Bridger Comments at 6; Williams Comments at 8; 
+Kinder Morgan Initial Comments at 5; Marathon Initial Comments at 5.
+    \41\ Shippers include: Joint Commenters (Air Transport 
+Association of America d/b/a Airlines for America, Chevron Products 
+Company, National Propane Gas Association, and Valero Marketing and 
+Supply Company); Appalachian Basin Shippers (PennEnergy Resources, 
+LLC, and Range Resources--Appalachia, LLC); American Exploration & 
+Production Council; Canadian Association of Petroleum Producers 
+(CAPP); Pilot Travel Centers, LLC, George E. Warren LLC, and Murphy 
+Oil USA, Inc. (PG&M Shippers); Liquids Shippers Group (Apache 
+Corporation, Cenovus Energy Marketing Services Ltd., ConocoPhillips 
+Company, Husky Marketing and Supply Company, and Ovintiv Marketing 
+Inc.); River City Petroleum; Expand Energy Marketing LLC (formerly 
+known as SWN Energy Services Company, LLC), and Shell Trading (US) 
+Company (Shell).
+---------------------------------------------------------------------------
+
+    17. Regarding the Commission's proposal to calculate ceiling levels 
+as if any revised index was effective for the entire five-year period, 
+Pipelines argue that the Commission's proposal is inconsistent with the 
+vacatur of the Rehearing Order and the D.C. Circuit's directive in LEPA 
+v. FERC to reinstate the Initial Order.\42\ Additionally, Pipelines 
+argue that the Commission's proposal is inconsistent with Commission 
+regulations,\43\ and constitutes impermissible retroactive rulemaking 
+\44\ and retroactive ratemaking.\45\ Shippers dispute Pipelines' claims 
+that the Commission's proposal constitutes retroactive rulemaking or 
+ratemaking.\46\ Shippers argue that the Commission's proposal ensures 
+that going-forward rates reflect any revised index level adopted in 
+this proceeding,\47\ and conforms to the Commission's practice in the 
+2000 index review.\48\
+---------------------------------------------------------------------------
+
+    \42\ LEPA Initial Comments at 47; South Bow Initial Comments at 
+8; LEPA Reply Comments at 28.
+    \43\ Designated Carriers Initial Comments at 30.
+    \44\ LEPA Initial Comments at 48-49; Designated Carriers Initial 
+Comments at 31-32; Kinder Morgan Initial Comments at 9-12; South Bow 
+Initial Comments at 8.
+    \45\ LEPA Initial Comments at 49.
+    \46\ Joint Commenters Reply Comments at 38; Appalachian Basin 
+Shippers Reply Comments at 8-9; Liquids Shippers Group Reply 
+Comments at 16; Shell Reply Comments at 12.
+    \47\ See Joint Commenters Initial Comments at 36; Liquids 
+Shippers Group Initial Comments at 12.
+    \48\ Joint Commenters Initial Comments at 36; Shell Initial 
+Comments at 13-14.
+---------------------------------------------------------------------------
+
+    18. Pipelines oppose the Commission's proposal to calculate a 
+revised index level using page 700 data that incorporates the Income 
+Tax Policy Change. Pipelines argue that because previous index reviews 
+did not incorporate the Commission's policy allowing MLP pipelines to 
+recover a full income tax allowance, it would be improper to reflect 
+the 2018 policy change removing the MLP income tax allowance in this 
+review.\49\ Additionally, Pipelines contend that most pipelines in the 
+data set are not MLPs and the double recovery is not widely reflected 
+in MLP pipelines' rates.\50\ In contrast, Shippers argue that the 
+Commission's proposal to reflect the Income Tax Policy Change in the 
+index calculation conforms with indexing's purpose of tracking changes 
+in recoverable costs,\51\ regardless of whether individual MLP 
+pipelines' rates incorporate the income tax double recovery.\52\ 
+Shippers contend that implementing the Income Tax Policy Change as 
+proposed fulfills EPAct 1992's mandates for simplified and streamlined 
+ratemaking while ensuring just and reasonable rates.\53\ Pipelines also 
+oppose the Commission's proposal to trim the data set to the middle 
+50%, arguing that the record in this proceeding supports using the 
+middle 80%.\54\ Shippers, on the other hand, support the Commission's 
+proposal and argue that the middle 50% conforms to past Commission 
+practice and is a better measure of normal cost changes.\55\
+---------------------------------------------------------------------------
+
+    \49\ LEPA Initial Comments at 40-41; Designated Carriers Initial 
+Comments at 48-51, 64; Designated Carriers Reply Comments at 31, 33-
+35.
+    \50\ LEPA Initial Comments at 37, 44; Designated Carriers 
+Initial Comments at 52-61.
+    \51\ E.g., Joint Commenters Initial Comments at 32-33; CAPP 
+Initial Comments at 3; Shell Initial Comments at 13; Appalachian 
+Basin Shippers Reply Comments at 12-13 & n.42; PG&M Shippers Reply 
+Comments at 9-10.
+    \52\ Joint Commenters Initial Comments at 65, 68-69; PG&M 
+Shippers Reply Comments at 11-12. Relatedly, Shippers explain that 
+even though the policy change did not affect pipelines owned by 
+corporations, its effects on costs recoverable by MLPs are 
+appropriately reflected in the industry-wide index. Liquids Shippers 
+Group Reply Comments, Affidavit of Elizabeth H. Crowe, at 6:21-7:17.
+    \53\ Joint Commenters Initial Comments at 35-36; Appalachian 
+Basin Shippers Initial Comments at 8.
+    \54\ LEPA Initial Comments at 27-28; Designated Carriers Initial 
+Comments at 72-74; LEPA Reply Comments at 33-34; Designated Carriers 
+Reply Comments at 40-42.
+    \55\ Joint Commenters Initial Comments at 24-32; CAPP Initial 
+Comments at 3; Appalachian Basin Shippers Initial Comments at 4-7; 
+Shell Initial Comments at 9-11; PG&M Shippers Initial Comments at 
+10-11; River City Petroleum Initial Comments at 1; Joint Commenters 
+Reply Comments at 43-45, 51, 53 (citing 2015 Index Review, 153 FERC 
+] 61,312 at PP 9, 42-44; 2010 Index Review, 133 FERC ] 61,228 at P 
+63; Order No. 561-A, FERC Stats. & Regs. ] 31,000 at 31,097, aff'd, 
+AOPL I, 83 F.3d at 1434).
+---------------------------------------------------------------------------
+
+III. Discussion
+
+    19. Upon consideration of the record in this proceeding and given 
+the late stage of the five-year review period that began July 1, 2021, 
+and concludes June 30, 2026, we are not persuaded to proceed with the 
+proposal considered in the Supplemental NOPR. The Commission initiated 
+the Supplemental NOPR to allow industry-wide comment on ``all issues 
+related to the appropriate index level following LEPA v. FERC,'' \56\ 
+including whether to modify the index level outside the five-year 
+review process based on the issues discussed in the Rehearing 
+Order.\57\
+---------------------------------------------------------------------------
+
+    \56\ Supplemental NOPR, 189 FERC ] 61,030 at P 2.
+    \57\ Id. PP 13-34.
+---------------------------------------------------------------------------
+
+    20. We conclude that the best course of action is to allow the 
+current index level to remain effective for the remainder of this five-
+year period. The question before the Commission in the instant 
+proceeding is not what action the Commission should have taken in 2020 
+at the beginning of this five-year review. Rather, the question 
+presented here is whether in 2025 the Commission should now change the 
+index level prospectively in the last year of this five year period as 
+proposed in the Supplemental NOPR.\58\ Changing the index level for a 
+fourth time in the fifth year of the five-year period \59\ would 
+prolong ongoing regulatory uncertainty regarding the index level.\60\ 
+As
+
+[[Page 53259]]
+
+discussed below, we do not find that the record supports taking such a 
+step. Moreover, at this stage, the benefits of any index change are 
+limited, as pipelines made the last annual indexed rate filing of the 
+five-year period in June 2025.
+---------------------------------------------------------------------------
+
+    \58\ As with any rulemaking, any action the Commission might 
+take to amend the index level through notice-and-comment procedures 
+may be prospective only. Bowen v. Georgetown Univ. Hosp., 488 U.S. 
+204, 208 (1988); see also LEPA v. FERC, 109 F.4th at 547.
+    \59\ After establishing the Initial Index for this five-year 
+period in 2020 and after 201 pipelines filed rates pursuant to that 
+index effective July 1, 2021, the Commission changed the index level 
+twice. First, the Commission issued the Rehearing Order on January 
+20, 2022 and pipelines filed rates to comply with the Rehearing 
+Order's lower index made effective March 1, 2022. Then, following 
+LEPA v. FERC, the Commission issued the Reinstatement Order on 
+September 17, 2024, which restored the Initial Index and pipelines 
+once again refiled rates and ceiling levels.
+    \60\ As noted above, indexing is intended to provide a 
+``simplified and generally applicable ratemaking methodology for oil 
+pipelines'' under EPAct 1992. EPAct 1992 1801(a). Consistent with 
+that goal, the Commission established a framework under which the 
+Commission would review the index once every five years. Order No. 
+561, FERC Stats. & Regs. ] 30,985 at 30,946-47.
+---------------------------------------------------------------------------
+
+    21. We therefore exercise our discretion to withdraw the 
+Supplemental NOPR and terminate this rulemaking proceeding. We address 
+below the Supplemental NOPR's proposals regarding (1) recalculation of 
+prospective ceiling levels, (2) the Income Tax Policy Change, (3) 
+statistical data trimming, and (4) the appropriate source of 2014 Page 
+700 data.\61\
+---------------------------------------------------------------------------
+
+    \61\ The Supplemental NOPR also requested comment on any 
+additional remedial steps the Commission should take following LEPA 
+v. FERC. Because we decline to adjust the index level, we reject 
+Shippers' arguments that they are entitled to remedies for any part 
+of the five-year period based on the application of a lower index 
+level than the Initial Index. We decline to address here whether 
+Pipelines are entitled to remedies for the period between March 1, 
+2022 and September 17, 2024 when the Rehearing Index was in effect. 
+Instead, we address this issue in a concurrent order in Docket No. 
+RM20-14. See Revisions to Oil Pipeline Reguls. Pursuant to the 
+Energy Pol'y Act of 1992, Order Denying Rehearing, Denying Petition 
+and Granting Remedies, 193 FERC ] 61,137 (2025).
+---------------------------------------------------------------------------
+
+A. Calculating Prospective Ceiling Levels
+
+    22. We are not persuaded to adopt the Supplemental NOPR's proposal 
+to require pipelines to recalculate ceiling levels effective 
+prospectively from the issuance of this rule as though a revised index 
+resulting from this rulemaking was effective starting July 1, 2021.\62\
+---------------------------------------------------------------------------
+
+    \62\ Supplemental NOPR, 189 FERC ] 61,030 at P 37. As explained 
+above, the indexing methodology allows oil pipelines to change their 
+rates, effective every July 1, subject to specific ceiling levels, 
+which pipelines recalculate annually by multiplying their previous 
+year's ceiling level by the annual index published by the 
+Commission.
+---------------------------------------------------------------------------
+
+    23. As explained further below, commenters raised extensive 
+questions and concerns regarding this proposal, including assertions 
+that this proposal departs from the Commission's indexing framework and 
+regulations, and runs afoul of the rules against retroactive rulemaking 
+and retroactive ratemaking. On balance, we are not convinced that the 
+Commission should recalculate pipeline ceiling levels for the preceding 
+four years of the five-year period.
+    24. First, commenters argue that the proposal to recalculate prior 
+ceiling levels departs from the Commission's indexing framework and 
+regulations.\63\ Although the Commission can amend its rules through 
+notice-and-comment rulemakings, we recognize that the proposal to 
+recalculate the ceiling levels for multiple past years would be an 
+unprecedented departure from the Commission's existing indexing 
+policies and regulations, in which the index is ``cumulative from year 
+to year,'' \64\ and each annual index is applied to a pipeline's 
+ceiling level from the preceding year.\65\ Moreover, each year's index 
+is based upon the prior years' cost changes, not some other adjustment 
+as proposed in the Supplemental NOPR.\66\ Pipeline rates are bound by 
+those annual ceiling rate changes.\67\
+---------------------------------------------------------------------------
+
+    \63\ Designated Carriers Initial Comments at 30.
+    \64\ Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,954.
+    \65\ 18 CFR 342.3(d)(1).
+    \66\ In particular, section 342.3(d)(1) of the Commission's 
+regulations requires pipelines to compute the ceiling level for each 
+index year by multiplying the previous index year's ceiling level by 
+the most recent index. 18 CFR 342.3(d)(1).
+    \67\ Carriers are permitted to raise their rates to unused 
+ceiling levels at any time after those ceiling levels are 
+established and while they remain in effect. Id.; id. 342.3(a). 
+Conversely, the Commission prohibited pipelines from filing rates 
+exceeding their ceiling levels except in very specific 
+circumstances. Order No. 561, FERC Stats. & Regs. ] 30,985 at 
+30,947; 18 CFR 342.4(a)-(b).
+---------------------------------------------------------------------------
+
+    25. Second, the Commission designed the cumulative ceiling level 
+approach to achieve EPAct 1992's ``criteria of simplicity and general 
+applicability'' \68\ and ``reduce[ ] the necessity and likelihood of 
+prolonged litigation.'' \69\ Yet another change to the ceiling levels 
+that were in place over the prior four years would directly contravene 
+such mission, adding even more complexity and is thus in tension with 
+the index's simplified design.
+---------------------------------------------------------------------------
+
+    \68\ Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,946; id. 
+at 30,940 (indexing provides ``a simplified and generally applicable 
+methodology for regulating oil pipeline rates'').
+    \69\ Id. at 30,946.
+---------------------------------------------------------------------------
+
+    26. Third, we acknowledge significant debate in the record 
+regarding whether the remedy proposed in the Supplemental NOPR 
+constitutes impermissible retroactive rulemaking and retroactive 
+ratemaking.\70\ While we decline to address the scope of the 
+Commission's remedial authority in this rulemaking context, we are not 
+persuaded that perpetuating and exacerbating uncertainty for the final 
+year of this index cycle is warranted.
+---------------------------------------------------------------------------
+
+    \70\ Compare LEPA Initial Comments at 48-50; Designated Carriers 
+Initial Comments at 31-32; Kinder Morgan Initial Comments at 9-12; 
+South Bow Initial Comments at 8 with Joint Commenters Reply Comments 
+at 38; Appalachian Basin Shippers Reply Comments at 8-9; Liquids 
+Shippers Group Reply Comments at 16; Shell Reply Comments at 12.
+---------------------------------------------------------------------------
+
+    27. We are not persuaded by other arguments advanced by Shippers. 
+Although the Shippers argue that the proposal is necessary to ensure 
+that the ``flaws'' of the Initial Index do not result in inflated 
+ceiling levels going forward,\71\ as discussed below, we find those 
+flaws to be overstated.
+---------------------------------------------------------------------------
+
+    \71\ Joint Commenters Initial Comments at 36; Shell Initial 
+Comments at 13-14.
+---------------------------------------------------------------------------
+
+    28. We recognize that Shippers cite to the 2000 five-year review as 
+one prior instance in which the Commission directed pipelines to 
+recalculate index increases over multiple years for prospective effect 
+in rates.\72\ However, we believe this case is distinguishable. The 
+Commission's decision to recalculate ceiling levels in the 2000 five-
+year review was made in addressing the legal error identified by the 
+D.C. Circuit on remand,\73\ whereas any recalculation of ceiling levels 
+as proposed in the Supplemental NOPR would occur in response to a 
+rulemaking. Thus, we are not persuaded that the Commission's decision 
+in the 2000 five-year review would support adoption of the Supplemental 
+NOPR's proposal on ceiling levels.
+---------------------------------------------------------------------------
+
+    \72\ Five-Year Review of Oil Pipeline Pricing Index, 102 FERC ] 
+61,195, at PP 1, 31 (2000).
+    \73\ Id. The D.C. Circuit remanded the Commission's December 
+2000 order establishing the index level on the grounds that the 
+Commission had not adequately addressed the concerns raised by 
+certain pipelines. See AOPL II, 281 F.3d at 245-46.
+---------------------------------------------------------------------------
+
+    29. In sum, we conclude that the benefit of rate certainty at this 
+late stage of the current five-year index cycle generally counsels 
+against the Supplemental NOPR's proposal to revise the index going back 
+more than four years. It would be an unprecedented step for the 
+Commission to take such action, and we are concerned about establishing 
+a practice here that could justify additional disruption of subsequent 
+index periods. On balance, we are not persuaded to adopt the 
+Supplemental NOPR's proposal to recalculate pipeline ceiling levels for 
+the full five-year period.
+
+B. Income Tax Policy Change
+
+    30. We are not persuaded to modify the index level to incorporate 
+the Income Tax Policy Change as proposed in the Supplemental NOPR in 
+order to address an income tax double recovery in pipeline rates. As 
+discussed below, there are valid arguments against taking such action, 
+particularly in the fifth year of the five-year index.
+    31. As an initial matter, it is not clear the extent to which an 
+income tax double recovery exists in oil pipeline rates. The income tax 
+double recovery concern applies only to MLP pipelines, less than half 
+of the pipelines subject to
+
+[[Page 53260]]
+
+the index.\74\ Moreover, as the Initial Order explained, it is not 
+clear that the income tax double recovery is widely incorporated in 
+those MLP pipelines' rates. The Commission only permitted MLP pipelines 
+to include a full income tax allowance in their costs of service 
+between 2005 and 2018. During that period, the Commission's index 
+reviews did not actually incorporate the Commission's policies allowing 
+MLP pipelines to recover an income tax allowance.\75\ Although the 
+Commission's prior income tax policy influenced MLP pipelines' rates in 
+other ways,\76\ MLP pipelines are only a subset of all pipelines and 
+the Supplemental NOPR acknowledged that MLP pipelines' rates only 
+``imperfectly captured the 2005 income tax policy change'' that allowed 
+MLPs to recover a full income tax allowance.\77\
+---------------------------------------------------------------------------
+
+    \74\ Seventy of the 160 pipelines in the data set (or 
+approximately 44%) were organized as MLPs when the Commission 
+adopted the Income Tax Policy Change. See Designated Carriers 
+Initial Comments, Aff. of Dr. Michael J. Webb, at P 48 & n.60 (Webb 
+Aff.).
+    \75\ Before the Commission updated its calculation of the index 
+in the 2015 Index Review to use page 700 data, the Kahn Methodology 
+used net carrier property as a proxy for capital costs and income 
+taxes. 2015 Index Review, 153 FERC ] 61,312 at P 14 (citing Order 
+No. 561-A, FERC Stats. & Regs. ] 31,000 at 31,096, 31,098). This 
+proxy did not reflect changes in the Commission's Opinion No. 154-B 
+cost-of-service methodology, including changes to the Commission's 
+income tax policy. As a result, the Commission's prior policies 
+permitting MLP pipelines to recover a full or partial income tax 
+allowance were never directly incorporated into the index.
+    \76\ See Supplemental NOPR, 189 FERC ] 61,030 at P 33. For 
+example, as the Supplemental NOPR observed, 164 of the 277 total oil 
+pipelines in the Commission's data set, or 59%, have been added 
+since the 2005 five-year review. Supplemental NOPR, 189 FERC ] 
+61,030 at n.68. Those pipelines either filed cost-of-service rates 
+directly incorporating the income tax allowance or negotiated rates 
+under the circumstances of the Commission's income tax policies for 
+MLP pipelines.
+    \77\ Supplemental NOPR, 189 FERC ] 61,030 at P 33; see also 
+Inquiry Regarding Income Tax Allowances, 111 FERC ] 61,139, at P 32 
+(2005).
+---------------------------------------------------------------------------
+
+    32. Second, to the extent the income tax double recovery was 
+incorporated into MLP pipelines' rates, the index provides an 
+incomplete mechanism for remedying this issue because it would not 
+fully remove any double recoveries from MLP pipeline rates. The index 
+reflects an average of all pipelines' cost changes on an industry-wide 
+basis,\78\ including the cost changes of non-MLP pipelines that were 
+not affected by the Income Tax Policy Change. Accordingly, the 
+reduction to the index level that results from reflecting the Income 
+Tax Policy Change provides an imprecise mechanism for addressing any 
+MLP pipeline double recoveries.
+---------------------------------------------------------------------------
+
+    \78\ E.g., Order No. 561-A, FERC Stats. & Regs. ] 31,000 at 
+31,103 (explaining that indexing ``relies upon industry-wide average 
+costs . . . to establish rates'').
+---------------------------------------------------------------------------
+
+    33. Third, the late-stage of this proceeding (the fifth year of the 
+five-year review) significantly reduces the effectiveness of the index 
+as a mechanism for addressing the income tax double recovery. To 
+meaningfully address the income tax double recovery, as proposed in the 
+Supplemental NOPR, the Commission would need to direct pipelines to 
+recompute their ceiling levels and rates as though the revised index 
+level was effective for the full five-year period beginning July 1, 
+2021. As discussed above, however, this presents considerable concerns, 
+and thus we decline to take such a step.\79\
+---------------------------------------------------------------------------
+
+    \79\ Supra PP 22-29.
+---------------------------------------------------------------------------
+
+    34. Finally, attempting to address the double recovery via the 
+index reduces the index for pipelines that have no double recovery. For 
+example, it is not clear that index reductions to address the double 
+recovery are necessary for MLP pipelines whose revenues under-recover 
+costs.\80\ Whereas shippers may file cost-of-service complaints in 
+those circumstances where pipelines' rates are excessive in light of 
+the Income Tax Policy Change, making an industry-wide adjustment of the 
+index level for the only remaining year of the five-year period would 
+be both overbroad (in capturing pipelines who do not have a double-
+recovery embedded in rates) and have limited effectiveness (in only 
+capturing a fraction of any double-recovery).
+---------------------------------------------------------------------------
+
+    \80\ Even where an MLP pipeline filed a cost-of-service rate 
+that included a full income tax allowance or negotiated a settlement 
+rate based on the Commission's prior income tax policy, it is not 
+clear that the pipeline is presently over-recovering its cost of 
+service. For instance, when the Commission evaluated whether natural 
+gas pipelines were over-recovering their costs of service as a 
+result of the Income Tax Policy Change, the resulting proceedings 
+did not result in rate reductions for most pipelines. Interstate & 
+Intrastate Nat. Gas Pipelines, Order No. 849-A, 84 FR 17739 (April 
+26, 2019), 167 FERC ] 61,051, at P 4 (2019) (stating that of 120 
+natural gas pipelines that filed FERC Form No. 501-G in response to 
+Order No. 849, 84 pipelines explained why no change to their cost-
+of-service rates was necessary following the Income Tax Policy 
+Change).
+---------------------------------------------------------------------------
+
+    35. In 2020, at the beginning of this five-year review period, the 
+income tax allowance double recovery issue was an issue of first 
+impression that the Commission in 2020 addressed by removing the 
+effects of that change from the calculation of the index.\81\ It is now 
+2025, the fifth year of the five-year index process, and the benefit of 
+rate certainty support leaving the index undisturbed.\82\ None of the 
+comments \83\ undermine the factual findings above and, as explained 
+above, we decline to modify the index level for a policy change that 
+was only partially incorporated into pipeline rates and where, to the 
+extent any double recovery exists, any modifications we could make at 
+this stage would provide an imprecise and limited resolution to the 
+double-recovery issue.\84\
+---------------------------------------------------------------------------
+
+    \81\ Initial Order, 173 FERC ] 61,245 at PP 16-20.
+    \82\ See Rail Splitter Wind Farm, LLC v. Ameren Servs. Co., 142 
+FERC ] 61,047, at P 31 (2013) (emphasizing the importance of 
+stability and certainty in the Commission's decision-making 
+process).
+    \83\ Supplemental NOPR, 189 FERC ] 61,030 at PP 24-34; Joint 
+Commenters Initial Comments at 32-36; Appalachian Basin Shippers 
+Initial Comments at 8-9; CAPP Initial Comments at 3; PG&M Shippers 
+Initial Comments at 10; Shell Initial Comments at 11-13; River City 
+Petroleum Initial Comments at 1; Joint Commenters Reply Comments at 
+61-69; Liquids Shippers Group Reply Comments at 12-13; Appalachian 
+Basin Shippers Reply Comments at 12-13; PG&M Shippers Reply Comments 
+at 9-13.
+    \84\ We decline to resolve the differing positions in the 
+Initial Order and the Supplemental NOPR, regarding whether the index 
+should generally reflect policy changes embedded in the Opinion No. 
+154-B cost of service. See Supplemental NOPR, 189 FERC ] 61,030 at P 
+30 (citing Initial Order, 173 FERC ] 61,245 at P 17). Similarly, we 
+do not resolve whether reflecting the Income Tax Policy Change would 
+effectuate a true-up for prior-period over-recoveries. Id. P 31 
+(citing Initial Order, 173 FERC ] 61,245 at P 18). As necessary, 
+those issues can be addressed in subsequent five-year review 
+proceedings.
+---------------------------------------------------------------------------
+
+    36. We acknowledge that the Commission stated in the 2018 Income 
+Tax Policy Statement that it would ``incorporate the effects of the 
+post-United Airlines policy changes . . . on industry-wide oil pipeline 
+costs in the 2020 five-year review.'' \85\ However, these statements 
+were not binding,\86\ and the Commission later reconsidered those 
+statements in the Initial Order and decided a different course of 
+action was more appropriate.\87\ We find that at this late stage any 
+potential benefits of addressing the Income Tax Policy Change through 
+the index calculation are significantly attenuated, and do not outweigh 
+the disruption and regulatory
+
+[[Page 53261]]
+
+uncertainty that revising the index level again would entail.
+---------------------------------------------------------------------------
+
+    \85\ 2018 Income Tax Policy Statement, 162 FERC ] 61,227 at P 
+46; see also id. P 8 (``[T]he Commission will incorporate the 
+effects of this Revised Policy on industry-wide oil pipeline costs 
+in the 2020 five-year review of the oil pipeline index level.'').
+    \86\ E.g., Ass'n of Flight Attendants v. Huerta, 785 F.3d 710, 
+716 (D.C. Cir. 2015) (``Policy statements `are binding on neither 
+the public nor the agency, and the agency retains the discretion and 
+the authority to change its position . . . in any specific case.''') 
+(quoting Syncor Int'l Corp. v. Shalala, 127 F.3d 90 (D.C. Cir. 
+1997)).
+    \87\ Initial Order, 173 FERC ] 61,245 at P 18 (considering the 
+Commission's statement in the 2018 Income Tax Policy Statement but 
+concluding that the index is not an appropriate mechanism for 
+incorporating the Income Tax Policy Change).
+---------------------------------------------------------------------------
+
+C. Statistical Data Trimming
+
+    37. We likewise decline to adopt the Supplemental NOPR's proposal 
+to modify the index level by using the middle 50% instead of the middle 
+80% of cost changes.
+    38. We find that any benefits that may result from using the middle 
+50% do not justify revising the index level at this late stage in the 
+five-year review period. The record demonstrates that using the middle 
+50% would reduce the index level by 33 basis points, from PPI-FG+0.78% 
+to PPI-FG+0.45%.\88\ Moreover, this change would be only for one year 
+and affect pipeline rates by \1/3\ of one percent or 0.33%.\89\ It 
+would represent an extremely small percentage of the total pipeline 
+indexed rate changes over the five-year review period, and, when 
+considered over the five-year period, this 0.33% effect is de minimis. 
+Indexing necessarily involves some degree of imprecision.\90\ Even in a 
+more traditional ratemaking framework, a change of 0.33% above or below 
+a pipeline's cost of service is within expected imprecision in rates 
+over any period of time.\91\ Neither ratemaking generally nor the index 
+in particular are so exact.\92\
+---------------------------------------------------------------------------
+
+    \88\ LEPA Initial Comments, Declaration of Dr. Ramsey D. 
+Shehadeh, at Ex. A4 (Shehadeh Decl.).
+    \89\ For example, assume that Pipeline A's ceiling level was $10 
+on June 30, 2021. Thus, Pipeline A's ceiling level would be $12.748 
+following the reinstatement of the index level of PPI-FG+0.78% 
+pursuant to LEPA v. FERC (10 * 0.994188 * 1.097007 * 1.143094 * 
+1.022547 = 12.748). See Order Reinstating Index, 189 FERC ] 61,173 
+at P 1 (listing index multipliers reflecting PPI-FG+0.78% index 
+level for July 1, 2021-June 30, 2025). In addition, assume that the 
+annual change in PPI-FG from 2023-2024 is 1.22%, which reflects the 
+most recent data published by the Bureau of Labor Statistics, 
+available at <a href="https://data.bls.gov/toppicks?survey=bls">https://data.bls.gov/toppicks?survey=bls</a> (accessible by 
+selecting ``PPI Finished Goods 1982 + 100 (Unadjusted) - 
+WPUFD49207'' and clicking ``Retrieve data''). Using the index of 
+PPI-FG+0.78%, Pipeline A's ceiling level would increase from $12.748 
+to $13.004 effective July 1, 2025 (12.748 * (1 + 0.0122 + 0.0078)) = 
+13.0036). By contrast, using a revised index of PPI-FG+0.45% that 
+reflects the middle 50% for July 1, 2025-June 30, 2026, Pipeline A's 
+ceiling level would increase from $12.748 to $12.961 (12.748 * (1 + 
+0.0122 + 0.0045) = 12.9609). As a result, revising the index level 
+using the middle 50% at this stage would only reduce Pipeline A's 
+ceiling level by $0.043 (or 0.33%).
+    \90\ E.g., Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,949 
+(explaining that under the indexing system ``some divergence between 
+actual cost changes experienced by individual pipelines and the rate 
+changes permitted by the index is inevitable''); 2005 Index Review, 
+114 FERC ] 61,293 at P 57 (explaining that in adopting indexing, the 
+Commission ``recognized in adopting a uniform index for all 
+pipelines that inevitably some pipelines would over-earn while 
+others will under-earn''); see also Joint Commenters Reply Comments 
+at 69 (stating that ``indexing is necessarily inexact to some 
+degree'').
+    \91\ For example, between 2018 and 2019, 156 of the 160 
+pipelines in the data set had a change in billing determinants 
+(throughput) exceeding plus or minus 0.33%. Likewise, between 2018 
+and 2019, 94% of pipelines had page 700 costs of service per barrel-
+mile changes exceeding plus or minus 0.33%.
+    \92\ See, e.g., Consol. Edison Co. of N.Y., Inc. v. FERC, 45 
+F.4th 265, 286 (D.C. Cir. 2022) (stating that ``courts have long 
+recognized that ratemaking is `much less a science than an art' '') 
+(quoting Ala. Elec. Coop., Inc. v. FERC, 684 F.2d 20, 27 (D.C. Cir. 
+1982)); Farmers Union Cent. Exch., Inc. v. FERC, 734 F.2d 1486, 1502 
+(D.C. Cir. 1984) (explaining that there is a ``zone of 
+reasonableness'' for just and reasonable rates).
+---------------------------------------------------------------------------
+
+    39. The question before the Commission is not the index that should 
+be in place for the full five-year index period, but whether there is 
+sufficient basis to change the Commission-established index in the 
+fifth year of the five-year review period. As discussed above, this 
+record does not justify such an unprecedented step.
+
+D. Appropriate Source of 2014 Page 700 Data
+
+    40. As explained in the Supplemental NOPR,\93\ page 700 includes 
+columns for reporting summary cost-of-service data for both the current 
+year and the previous year. The more recently filed data reported in 
+the previous-year column often updates the data that was filed in the 
+prior year. As a result, for the first year of the index review period 
+in the five-year review, the Commission uses updated page 700 data 
+filed in the following year's Form No. 6, where available.\94\ However, 
+in the Initial Order, the Commission inadvertently departed from its 
+prior practice by using outdated page 700 data for 2014.\95\ Thus, the 
+Supplemental NOPR proposed to calculate a revised index level using 
+updated page 700 data for 2014, where available, as reported in the 
+previous-year column in the Form No. 6 filings submitted in April 
+2016.\96\
+---------------------------------------------------------------------------
+
+    \93\ 189 FERC ] 61,030 at P 35.
+    \94\ 2005 Index Review, 114 FERC ] 61,293 at P 50 (finding that 
+a witness was ``correct to use the data contained in [a] resubmitted 
+FERC Form No. 6'').
+    \95\ Specifically, although 38 pipelines filed updated 2014 data 
+in April 2016, the Initial Order erroneously relied on those 
+pipelines' originally filed 2014 data as reported in April 2015.
+    \96\ Supplemental NOPR, 189 FERC ] 61,030 at P 36.
+---------------------------------------------------------------------------
+
+    41. After further consideration, we decline to adopt the proposal 
+in the Supplemental NOPR. Consistent with our determination above, we 
+conclude that any benefit of adopting this proposal would not justify 
+the additional disruption that would result from modifying the index 
+level for a fourth time at this late stage of the five-year period.
+
+IV. Conclusion
+
+    42. As discussed above, upon review of the record in this 
+proceeding and given the late stage of the five-year review period that 
+began July 1, 2021, we are not persuaded to proceed with the proposals 
+considered in the Supplemental NOPR. Thus, we withdraw the Supplemental 
+NOPR and terminate this rulemaking proceeding.
+    The Commission orders:
+    The Supplemental NOPR is hereby withdrawn and Docket No. RM25-2-000 
+is hereby terminated.
+
+    By the Commission.
+    Issued: November 20, 2025.
+Debbie-Anne A. Reese,
+Secretary.
+[FR Doc. 2025-20900 Filed 11-24-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,303 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54586-54588]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21340]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 52
+
+[EPA-R08-OAR-2024-0608; FRL-12597-02-R8]
+
+
+Air Plan Approval; Montana; Regional Haze Plan for the Second 
+Implementation Period
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is approving a 
+regional haze state implementation plan (SIP) revision submitted by the 
+State of Montana on August 10, 2022 (Montana's 2022 SIP submission), as 
+satisfying applicable requirements under the Clean Air Act (CAA) and 
+the EPA's Regional Haze Rule (RHR) for the program's second 
+implementation period. The EPA is also finalizing approval of the prong 
+4 visibility portion of Montana's October 1, 2018, Infrastructure SIP 
+submission for the 2015 ozone National Ambient Air Quality Standard 
+(NAAQS). The EPA is taking this action pursuant to the CAA.
+
+DATES: This rule is effective on December 29, 2025.
+
+ADDRESSES: The EPA has established a docket for this action under 
+Docket ID No. EPA-R08-OAR-2024-0608. All documents in the docket are 
+listed on the <a href="https://www.regulations.gov">https://www.regulations.gov</a> website. Although listed in 
+the index, some information is not publicly available, e.g., 
+Confidential Business Information (CBI) or other information whose 
+disclosure is restricted by statute. Certain other material, such as 
+copyrighted material, is not placed on the internet and will be 
+publicly available only in hard copy form. Publicly available docket 
+materials are available through <a href="https://www.regulations.gov">https://www.regulations.gov</a>, or please 
+contact the person identified in the FOR FURTHER INFORMATION CONTACT 
+section for additional availability information.
+
+FOR FURTHER INFORMATION CONTACT: Amrita Singh, Air and Radiation 
+Division, EPA, Region 8, Mailcode 8ARD-IO, 1595 Wynkoop Street, Denver, 
+Colorado 80202-1129, telephone number: (303) 312-6103; email address: 
+<a href="/cdn-cgi/l/email-protection#4c3f25222b24622d213e25382d0c293c2d622b233a"><span class="__cf_email__" data-cfemail="76051f18111e58171b041f02173613061758111900">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Throughout this document ``we,'' ``us,'' and 
+``our'' means the EPA.
+
+Table of Contents
+
+I. What is being addressed in this document?
+II. Background
+III. Public Comments and EPA Responses
+IV. Final Action
+V. Statutory and Executive Order Reviews
+
+I. What is being addressed in this document?
+
+    The EPA is approving a SIP revision submitted by the State of 
+Montana to the EPA on August 10, 2022, addressing the requirements of 
+the second implementation period of the RHR. As required by section 
+169A of the CAA, the RHR calls for state and federal agencies to work 
+together to improve visibility in 156 national parks and wilderness 
+areas. The rule requires the states, in coordination with the EPA, the 
+National Park Service, Fish and Wildlife Service, the Forest Service, 
+and other interested parties, to develop and implement air quality 
+protection plans to reduce the pollution that causes visibility 
+impairment in mandatory Class I Federal areas. Visibility impairing 
+pollutants include fine and coarse particulate matter (PM) (e.g., 
+sulfates, nitrates, organic carbon, elemental carbon, and soil dust) 
+and their precursors (e.g., sulfur dioxide (SO<INF>2</INF>), oxides of 
+nitrogen (NO<INF>X</INF>), and, in some cases, volatile organic 
+compounds (VOC) and ammonia (NH<INF>3</INF>)). As discussed in further 
+detail in our proposed rule, this document, and the accompanying 
+Response to Comments
+
+[[Page 54587]]
+
+(RTC) document, the EPA finds that Montana submitted a regional haze 
+SIP that meets all the regional haze requirements for the second 
+implementation period. The State's submission, the proposed rule, and 
+the RTC document can be found in the docket for this action.
+
+II. Background
+
+    On August 10, 2022, Montana submitted a revision to its SIP to 
+address its regional haze obligations for the second implementation 
+period (2018-2028). Montana made this revision to satisfy the 
+requirements of the CAA's regional haze program pursuant to CAA 
+sections 169A and 169B and 40 Code of Federal Regulations (CFR) 51.308.
+    On September 11, 2025, the EPA proposed to approve Montana's 2022 
+SIP submission.\1\ Specifically, the EPA proposed to approve Montana's 
+2022 SIP submission as satisfying the requirements of 40 CFR 
+51.308(f)(1): calculations of baseline, current, and natural visibility 
+conditions, progress to date, and the uniform rate of progress; 40 CFR 
+51.308(f)(2): long-term strategy; 40 CFR 51.308(f)(3): reasonable 
+progress goals; 40 CFR 51.308(f)(4): reasonably attributable visibility 
+impairment; 40 CFR 51.308(f)(5) and 40 CFR 51.308(g): progress report 
+requirements; 40 CFR 51.308(f)(6): monitoring strategy and other 
+implementation plan requirements; and 40 CFR 51.308(i): Federal Land 
+Manager (FLM) consultation. Our public comment period closed on October 
+14, 2025.
+---------------------------------------------------------------------------
+
+    \1\ 90 FR 43958 (September 11, 2025).
+---------------------------------------------------------------------------
+
+    The September 11, 2025, proposed rule provided background on the 
+requirements of the CAA and RHR, a summary of Montana's regional haze 
+SIP submittal and related EPA actions, and the EPA's rationale for its 
+proposed action. That background and rationale will not be restated 
+here. For the reasons stated in the proposed rule, this document, and 
+in the accompanying RTC document, the EPA concludes that Montana's 2022 
+SIP submission meets the requirements of the CAA and RHR.
+
+III. Public Comments and EPA Responses
+
+    The public comment period on the proposal closed on October 14, 
+2025. During the public comment period, we received 16 comments on our 
+proposal: 1 in support and 15 in opposition. The commenters were: 
+Conservation Groups,\2\ the Mid-Atlantic/Northeast Visibility Union 
+(MANEVU),\3\ Cabinet Resource Group,\4\ Talen Montana,\5\ and eight 
+individual commenters.\6\ The full text of comments received is 
+included in the publicly posted docket associated with this action at 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a>. Our RTC document, which is also included 
+in the docket associated with this action, provides detailed responses 
+to all significant comments received.
+---------------------------------------------------------------------------
+
+    \2\ Letter dated October 14, 2025.
+    \3\ Letter dated October 14, 2025.
+    \4\ Letter dated October 14, 2025.
+    \5\ Letter dated October 14, 2025.
+    \6\ Letters dated from September 29, 2025 to October 14, 2025.
+---------------------------------------------------------------------------
+
+IV. Final Action
+
+    For the reasons stated in the preamble to the proposed rule, in the 
+RTC document, and in this document, we are approving Montana's 2022 SIP 
+submission. Specifically, we are approving Montana's 2022 SIP 
+submission relating to CAA 169A:
+    <bullet> Calculations of baseline, current, and natural visibility 
+conditions, progress to date, and uniform rate of progress (40 CFR 
+51.308(f)(1));
+    <bullet> Long-term strategy (40 CFR 51.308(f)(2));
+    <bullet> Reasonable progress goals (40 CFR 51.308(f)(3));
+    <bullet> Reasonably attributable visibility impairment (40 CFR 
+51.308(f)(4));
+    <bullet> Progress report requirements (40 CFR 51.308(f)(5) and 40 
+CFR 51.308(g));
+    <bullet> Monitoring strategy and other implementation plan 
+requirements (40 CFR 51.308(f)(6));
+    <bullet> FLM consultation (40 CFR 51.308(i)).
+    In addition, we are approving the prong 4 visibility portion of 
+Montana's October 1, 2018 Infrastructure SIP submission for the 2015 
+ozone NAAQS.
+
+V. Statutory and Executive Order Reviews
+
+    Under the CAA, the Administrator is required to approve a SIP 
+submission that complies with the provisions of the Act and applicable 
+Federal regulations. 42 U.S.C. 7410(k); 40 CFR 52.02(a). Thus, in 
+reviewing SIP submissions, the EPA's role is to approve state choices, 
+provided that they meet the criteria of the CAA. Accordingly, this 
+action merely proposes to approve state law as meeting Federal 
+requirements and does not impose additional requirements beyond those 
+imposed by state law. For that reason, this action:
+    <bullet> Is not a ``significant regulatory action'' subject to 
+review by the Office of Management and Budget under Executive Orders 
+12866 (58 FR 51735, October 4, 1993) and 13563 (76 FR 3821, January 21, 
+2011);
+    <bullet> Is not subject to Executive Order 14192 (90 FR 9065, 
+February 6, 2025) because State Implementation Plan approvals under the 
+CAA are exempt from review under Executive Order 12866;
+    <bullet> Does not impose an information collection burden under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501 et seq.);
+    <bullet> Is certified as not having a significant economic impact 
+on a substantial number of small entities under the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.);
+    <bullet> Does not contain any unfunded mandate or significantly or 
+uniquely affect small governments, described in the Unfunded Mandates 
+Reform Act of 1995 (Pub. L. 104-4);
+    <bullet> Does not have federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999);
+    <bullet> Is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because it approves a state program;
+    <bullet> Is not a significant regulatory action subject to 
+Executive Order 13211 (66 FR 28355, May 22, 2001);
+    <bullet> Is not subject to requirements of section 12(d) of the 
+National Technology Transfer and Advancement Act of 1995 (15 U.S.C. 272 
+note) because application of those requirements would be inconsistent 
+with the CAA.
+    In addition, the SIP is not approved to apply on any Indian 
+reservation land or in any other area where EPA or an Indian Tribe has 
+demonstrated that a Tribe has jurisdiction. In those areas of Indian 
+country, the rule does not have Tribal implications and will not impose 
+substantial direct costs on Tribal governments or preempt Tribal law as 
+specified by Executive Order 13175 (65 FR 67249, November 9, 2000).
+    This action is subject to the Congressional Review Act (CRA), and 
+EPA will submit a rule report to each House of the Congress and to the 
+Comptroller General of the United States. This action is not a ``major 
+rule'' as defined by 5 U.S.C. 804(2).
+    Under section 307(b)(1) of the CAA, petitions for judicial review 
+of this action must be filed in the United States Court of Appeals for 
+the appropriate circuit by January 27, 2026. Filing a petition for 
+reconsideration by the Administrator of this final rule does not affect 
+the finality of this action for the purposes of judicial review nor 
+does it extend the time within which a petition for judicial review may 
+be filed, and shall not postpone the effectiveness of such rule or 
+action. This action may not be challenged later in proceedings to 
+enforce its requirements (see section 307(b)(2)).
+
+[[Page 54588]]
+
+List of Subjects in 40 CFR Part 52
+
+    Environmental protection, Air pollution control, Carbon monoxide, 
+Greenhouse gases, Incorporation by reference, Intergovernmental 
+relations, Lead, Nitrogen dioxide, Ozone, Particulate matter, Reporting 
+and recordkeeping requirements, Sulfur oxides, Volatile organic 
+compounds.
+
+    Dated: November 17, 2025.
+Cyrus M. Western,
+Regional Administrator, Region 8.
+
+    For the reasons stated in the preamble, the Environmental 
+Protection Agency is amending 40 CFR part 52 as follows:
+
+PART 52--APPROVAL AND PROMULGATION OF IMPLEMENTATION PLANS
+
+0
+1. The authority citation for part 52 continues to read as follows:
+
+    Authority: 42 U.S.C. 7401 et seq.
+
+Subpart BB--Montana
+
+0
+2. In Sec.  52.1370:
+0
+a. Amend the table in paragraph (e) by:
+0
+i. Under the center heading ``(1) Statewide'', adding the entries 
+``Montana Regional Haze State Implementation Plan'' and ``Interstate 
+Transport Requirements of the CAA, section 110(a)(2)(D)(i)(II) prong 4, 
+for the 2015 Ozone NAAQS'' after the entry ``Interstate Transport 
+Requirements of the CAA, section 110(a)(2)(D)(i)(I), for the 2015 Ozone 
+NAAQS'' to read as follows:
+
+
+Sec.  52.1370  Identification of plan.
+
+* * * * *
+    (e) * * *
+
+------------------------------------------------------------------------
+                                  State      Notice of
+        Title/subject           effective    final rule    NFR citation
+                                   date         date
+------------------------------------------------------------------------
+                              (1) Statewide
+------------------------------------------------------------------------
+ 
+                              * * * * * * *
+Montana Regional Haze State      8/10/2022   11/28/2025  90 FR [insert
+ Implementation Plan.                                     Federal
+                                                          Register page
+                                                          where the
+                                                          document
+                                                          begins].
+Interstate Transport             8/22/2018   11/28/2025  90 FR [insert
+ Requirements of the CAA,                                 Federal
+ section 110(a)(2)(D)(i)(II)                              Register page
+ prong 4, for the 2015 Ozone                              where the
+ NAAQS.                                                   document
+                                                          begins].
+ 
+                              * * * * * * *
+------------------------------------------------------------------------
+
+[FR Doc. 2025-21340 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

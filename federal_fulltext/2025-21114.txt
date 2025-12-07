@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54299-54300]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21114]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+International Trade Administration
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget (OMB) for Review and Approval; Comment 
+Request; Section 232 Tariff Offsets and Inclusion Processes for 
+Automobiles and Vehicle Parts
+
+AGENCY: International Trade Administration, Commerce.
+
+ACTION: Notice of information collection, request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Commerce, in accordance with the Paperwork 
+Reduction Act of 1995 (PRA), invites the general public and other 
+Federal agencies to comment on proposed, and continuing information 
+collections, which helps us assess the impact of our information 
+collection requirements and minimize the public's reporting burden. The 
+purpose of this notice is to allow for 60 days of public comment 
+preceding submission of the collection to OMB.
+
+DATES: To ensure consideration, comments regarding this proposed 
+information collection must be received on or before January 26, 2026.
+
+ADDRESSES: Interested persons are invited to submit written comments to 
+Elizabeth Clark, Automotive Team Lead, International Trade 
+Administration, Office of Transportation and Machinery, by phone 202-
+482-5732, or by email <a href="/cdn-cgi/l/email-protection#23664f4a59424146574b0d604f4251486357514247460d444c55"><span class="__cf_email__" data-cfemail="6421080d1e050601100c4a270805160f2410160500014a030b12">[email&#160;protected]</span></a> or <a href="/cdn-cgi/l/email-protection#fbaba9babb8f899a9f9ed59c948d"><span class="__cf_email__" data-cfemail="0b5b594a4b7f796a6f6e256c647d">[email&#160;protected]</span></a>. 
+Please reference OMB Control Number 0625-0283 in the subject line of 
+your comments. Do not submit Confidential Business Information or 
+otherwise sensitive or protected information.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+specific questions related to collection activities should be directed 
+to
+
+[[Page 54300]]
+
+Elizabeth Clark, Automotive Team Lead, International Trade 
+Administration, Office of Transportation and Machinery, by phone 202-
+482-5732, or by email <a href="/cdn-cgi/l/email-protection#16537a7f6c777473627e38557a77647d56626477727338717960"><span class="__cf_email__" data-cfemail="6a2f0603100b080f1e024429060b18012a1e180b0e0f440d051c">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    On March 26, 2025, the President issued Proclamation 10908 (90 FR 
+14705), ``Adjusting Imports of Automobiles and Automobile Parts Into 
+the United States,'' (Proclamation 10908) finding that imports of 
+automobiles and certain automobile parts continue to threaten to impair 
+the national security of the United States and imposing specified 
+tariffs to adjust imports of automobiles and certain automobile parts 
+so that such imports will not threaten to impair national security 
+pursuant to Section 232 of the Trade Expansion Act of 1962 (``Section 
+232''). Section 232 authorizes the President to adjust the imports of 
+an article and its derivatives that are being imported into the United 
+States in such quantities or under such circumstances as to threaten to 
+impair the national security of the United States so that such imports 
+will not threaten to impair national security. Proclamation 10908 
+imposed a 25 percent tariff on certain imports of automobiles, 
+effective April 3, 2025, and certain imports of automobile parts, 
+effective May 3, 2025.
+    On April 29, 2025, the President issued Proclamation 10925 (90 FR 
+18899), which allowed for automobile manufactures assembling 
+automobiles in the United States to apply for an import adjustment 
+offset amount, which would offset certain tariff liability under 
+Proclamation 10908 on imports of automobile parts. Proclamation 10925 
+required that within 30 days of the date of the order the Secretary of 
+the Department of Commerce (Commerce) shall establish a process by 
+which automobile manufacturers could submit documentation supporting 
+eligibility and a claim for an import adjustment offset amount. A 
+notice announced procedures for administration of the import adjustment 
+offset amount program, including application, documentation, and 
+certification requirements, eligibility conditions, and coordination 
+with U.S. Customs and Border Protection (CBP).
+    Presidential Proclamation 10984 of October 17, 2025 determines that 
+imports of medium- and heavy-duty vehicles, their parts, and buses 
+threaten to impair U.S. national security and therefore imposes 
+corrective trade measures under Section 232 of the Trade Expansion Act. 
+The Proclamation establishes a 25 percent tariff on covered medium- and 
+heavy-duty vehicles and parts, and a 10 percent tariff on buses and 
+certain related vehicles, effective November 1, 2025. It also creates 
+an import adjustment offset program allowing manufacturers that 
+assemble qualifying vehicles in the United States to offset certain 
+tariff liabilities based on a percentage of the value of domestically 
+produced vehicles assembled between 2025 and 2030. The Secretary of 
+Commerce is directed to implement application, documentation, and 
+enforcement procedures in coordination with CBP, with the overarching 
+objective of strengthening domestic manufacturing capacity, reducing 
+reliance on foreign supply chains, and safeguarding national security 
+interests.
+
+II. Method of Collection
+
+    Manufacturers seeking an import adjustment offset amount must 
+submit documentation for each period for which an import adjustment 
+offset amount is sought as defined by Commerce (i.e., one set of 
+documentation for the period of April 3, 2025 through April 30, 2026; 
+and a separate set of documentation for the period of May 1, 2026 
+through April 30, 2027). The information collected will be used by 
+Commerce staff to facilitate the Secretary's review of the applications 
+and to make a determination of eligibility for the tariff offset on 
+their imported parts. Manufacturers may submit their applications 
+electronically to: <a href="/cdn-cgi/l/email-protection#751400011a1a13130610013501071411105b121a03"><span class="__cf_email__" data-cfemail="3e5f4b4a515158584d5b4a7e4a4c5f5a5b10595148">[email&#160;protected]</span></a>.
+    Domestic producers of automobiles or automobile parts articles, or 
+any industry association representing one or more such producers, may 
+submit automobile parts articles inclusion requests during two-week 
+submission windows that ITA will open four times annually at the 
+beginning of each January, April, July, and October.
+
+III. Data
+
+    OMB Control Number: 0625-0283.
+    Form Number(s): None.
+    Type of Review: Regular submission, extension of a current 
+information collection.
+    Affected Public: Business or other for-profit organizations.
+    Estimated Number of Respondents: 80.
+    Estimated Time per Response: 48 hours.
+    Estimated Total Annual Burden Hours: 4,000 hours.
+    Estimated Total Annual Cost to Public: $120,760.
+    Respondent's Obligation: Voluntary.
+
+IV. Request for Comments
+
+    We are soliciting public comments to permit the Department/Bureau 
+to: (a) Evaluate whether the proposed information collection is 
+necessary for the proper functions of the Department, including whether 
+the information will have practical utility; (b) Evaluate the accuracy 
+of our estimate of the time and cost burden for this proposed 
+collection, including the validity of the methodology and assumptions 
+used; (c) Evaluate ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (d) Minimize the reporting burden 
+on those who are to respond, including the use of automated collection 
+techniques or other forms of information technology.
+    Comments that you submit in response to this notice are a matter of 
+public record. We will include or summarize each comment in our request 
+to OMB to approve this ICR. Before including your address, phone 
+number, email address, or other personal identifying information in 
+your comment, you should be aware that your entire comment--including 
+your personal identifying information--may be made publicly available 
+at any time. While you may ask us in your comment to withhold your 
+personal identifying information from public review, we cannot 
+guarantee that we will be able to do so.
+
+Sheleen Dumas,
+Departmental PRA Compliance Officer, Office of the Under Secretary for 
+Economic Affairs, Commerce Department.
+[FR Doc. 2025-21114 Filed 11-25-25; 8:45 am]
+BILLING CODE 3510-DR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

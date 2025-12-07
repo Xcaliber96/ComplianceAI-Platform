@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53392-53393]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20876]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+
+[NASA Document Number: 25-043; NASA Docket Number: NASA-2025-0234]
+
+
+Name of Information Collection: Flight Analog Projects (FAP) Crew 
+Selection Questionnaire AGENCY: National Aeronautics and Space 
+Administration (NASA).
+
+ACTION: Renewal of information collection.
+
+-----------------------------------------------------------------------
+
+SUMMARY: NASA, as part of its continuing effort to reduce paperwork and 
+respondent burden, invites the general public and other Federal 
+agencies to take this opportunity to comment on proposed and/or 
+continuing information collections, as required by the Paperwork 
+Reduction Act of 1995 (PRA).
+
+DATES: Comments are due by January 26, 2026.
+
+ADDRESSES: Written comments and recommendations for this information 
+collection should be sent within 60 days of publication of this notice 
+at <a href="http://www.regulations.gov">http://www.regulations.gov</a> and search for NASA Docket [NASA-2025-
+0234].
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+copies of the information collection instrument(s) and instructions 
+should be directed to NASA PRA Clearance Officer, Stayce Hoult, NASA 
+Headquarters, 300 E Street SW, JC0000, Washington, DC 20546, phone 256-
+714-8575, or email <a href="/cdn-cgi/l/email-protection#d9aaadb8a0babcf7bdf7b1b6acb5ad99b7b8aab8f7beb6af"><span class="__cf_email__" data-cfemail="760502170f15135812581e19031a02361817051758111900">[email&#160;protected]</span></a> or <a href="/cdn-cgi/l/email-protection#f09881dd9f93999fdd808291dd80829f9782919db09d91999cde9e918391de979f86"><span class="__cf_email__" data-cfemail="95fde4b8faf6fcfab8e5e7f4b8e5e7faf2e7f4f8d5f8f4fcf9bbfbf4e6f4bbf2fae3">[email&#160;protected]</span></a>.
+
+[[Page 53393]]
+
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    This site contains a questionnaire to become a crew/experiment 
+subject for Flight Analog Project (FAP) missions such as Pressure 
+Chamber Analog, Mars Exploration Analog and other analog studies. The 
+questionnaire is used to screen potential applicants for initial 
+qualifications. In addition, the website where the questionnaire exists 
+describes the FAP facilities and experiments conducted to inform and 
+promote interest in public participating in different FAP missions.
+    NASA is committed to effectively performing the Agency's 
+communication function in accordance with the Space Act Section 
+203(a)(3) to ``provide for the widest practicable and appropriate 
+dissemination of information concerning its activities and the results 
+thereof,'' and to enhance public understanding of, and participation 
+in, the nation's aeronautical and space program in accordance with the 
+NASA Strategic Plan.
+
+II. Methods of Collection
+
+    Public website, Web Form.
+
+III. Data
+
+    Title: Flight Analog Projects (FAP) Crew Selection Questionnaire.
+    OMB Number: 2700-0174.
+    Type of Review: Renewal of information collection.
+    Affected Public: Individuals.
+    Estimated Annual Number of Activities: 1.
+    Estimated Number of Respondents per Activity: 100.
+    Annual Responses: 100.
+    Estimated Time per Response: 15 minutes.
+    Estimated Total Annual Burden Hours: 25 hours.
+
+IV. Request for Comments
+
+    Comments are invited on: (1) Whether the proposed collection of 
+information is necessary for the proper performance of the functions of 
+NASA, including whether the information collected has practical 
+utility; (2) the accuracy of NASA's estimate of the burden (including 
+hours and cost) of the proposed collection of information; (3) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (4) ways to minimize the burden of the collection of 
+information on respondents, including automated collection techniques 
+or the use of other forms of information technology.
+    Comments submitted in response to this notice will be summarized 
+and included in the request for OMB approval of this information 
+collection. They will also become a matter of public record.
+
+Stayce Hoult,
+PRA Clearance Officer, National Aeronautics and Space Administration.
+[FR Doc. 2025-20876 Filed 11-24-25; 8:45 am]
+BILLING CODE 7510-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

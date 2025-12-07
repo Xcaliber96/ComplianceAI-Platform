@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53051-53053]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20738]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Railroad Administration
+
+[Docket No. FRA-2025-0852, Notice No. 1]
+
+
+Review of Quiet Zone in Miami, Florida
+
+AGENCY: Federal Railroad Administration (FRA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of quiet zone review.
+
+-----------------------------------------------------------------------
+
+SUMMARY: FRA is providing notice of its intent to review a quiet zone 
+(THR-000000111223) located in Miami, Florida. Based on a high rate of 
+reported accidents/incidents between January 2020 and January 2025, FRA 
+has made a preliminary determination that safety systems and measures 
+implemented within the quiet zone do not fully compensate for the 
+absence of routine sounding of the locomotive horn due to a substantial 
+increase in risk with respect to loss of life or serious personal 
+injury within the quiet zone. Further, FRA discovered that the 
+documentation submitted and relied upon by the City of Miami (the 
+Public Authority) to establish the quiet zone may contain substantial 
+errors that have an adverse impact on public safety. Therefore, FRA 
+intends to review existing conditions within the quiet zone to 
+determine whether it should be terminated or whether additional safety 
+measures may be necessary to ensure safety.
+
+DATES: Written comments must be received on or before December 24, 
+2025. FRA will consider comments filed after this date to the extent 
+practicable.
+
+ADDRESSES: 
+    Comments: Comments related to this notice may be submitted by going 
+to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and following the online instructions 
+for submitting comments.
+    Instructions: All submissions must include the agency name and 
+docket number (FRA-2025-0852). Please note that comments submitted 
+online via <a href="http://www.regulations.gov">www.regulations.gov</a> are not immediately posted to the 
+docket. Several business days may elapse after a comment has been 
+submitted online before it is posted to the docket.
+    Privacy Act: DOT solicits comments from the public to better inform 
+its regulatory process. DOT posts these comments, without edit, to 
+<a href="http://www.regulations.gov">www.regulations.gov</a>, as described in the system of records notice, DOT/
+ALL-14 FDMS, accessible through <a href="http://www.dot.gov/privacy">www.dot.gov/privacy</a>. To facilitate 
+comment tracking and response, commenters are encouraged to provide 
+their name, or the name of their organization; however, submission of 
+names is completely optional. Whether or not commenters identify 
+themselves, all timely comments will be fully considered. If you wish 
+to provide comments containing proprietary or confidential information, 
+please contact the agency for alternate submission instructions.
+    Docket: For access to the docket to read comments received, please 
+visit <a href="https://www.regulations.gov">https://www.regulations.gov</a> and follow the online instructions 
+for accessing the docket.
+
+FOR FURTHER INFORMATION CONTACT: James Payne, Staff Director, Highway-
+Rail Crossing and Trespasser Programs Division, at telephone: (202) 
+441-2787 or email: <a href="/cdn-cgi/l/email-protection#0d676c60687e237d6c7463684d696279236a627b"><span class="__cf_email__" data-cfemail="462c272b23356836273f28230622293268212930">[email&#160;protected]</span></a>; or Kathryn Gresham, Attorney-
+Adviser, Office of the Chief Counsel, at telephone: (202) 577-7142 or 
+email: <a href="/cdn-cgi/l/email-protection#7a111b0e12080314541d081f09121b173a1e150e541d150c"><span class="__cf_email__" data-cfemail="3e555f4a564c475010594c5b4d565f537e5a514a10595148">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    In a Notice of Quiet Zone Establishment (NOE) letter, dated August 
+27, 2012, the Public Authority established a quiet zone by designation 
+under 49 CFR 222.39(a)(3) with an effective date of September 30, 2012. 
+The quiet zone, which extends from NE 71st Street (U.S. DOT Crossing 
+Inventory No. 272622C) to the Bayside pedestrian crossing (U.S. DOT 
+Crossing Inventory No. 273139L), includes the following highway-rail 
+and pedestrian grade crossings:
+
+[[Page 53052]]
+
+
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                               Railroad milepost
+ U.S. DOT crossing inventory No.      Street name        Crossing type     Crossing purpose          (MP)
+----------------------------------------------------------------------------------------------------------------
+273139L.........................  Bayside Pedestrian  Public............  Pathway,            DL 1.26
+                                                                           Pedestrian.
+272960A.........................  Port Boulevard....  Public............  Highway...........  DL 1.19
+273133V \1\.....................  Pedestrian Arena..  Public............  Pathway,            DL 1.15
+                                                                           Pedestrian.
+272654H.........................  Biscayne Boulevard  Public............  Highway...........  DL 1.10
+272653B.........................  NE 2nd Avenue.....  Public............  Highway...........  DL 1.04
+272652U.........................  NE 1st Avenue.....  Public............  Highway...........  DL 0.98
+272651M.........................  Miami Avenue......  Public............  Highway...........  DL 0.82
+272648E.........................  NW 1st Avenue.....  Public............  Highway...........  DL 0.71
+272647X.........................  NW 8th Street.....  Public............  Highway...........  DL 0.65
+272646R.........................  NW 10th Street....  Public............  Highway...........  DL 0.52
+272644C.........................  NW 11th Street....  Public............  Highway...........  DL 0.45
+272640A.........................  NW 14th Street....  Public............  Highway...........  PL 3.75
+272637S.........................  N Miami Avenue....  Public............  Highway...........  PL 3.32
+272636K.........................  NE 20th Street....  Public............  Highway...........  PL 3.23
+272635D.........................  NE 27th Street....  Public............  Highway...........  PL 2.74
+272634W.........................  NE 29th Street....  Public............  Highway...........  PL 2.64
+272633P.........................  NE 36th Street....  Public............  Highway...........  PL 2.18
+272631B.........................  NE 39th Street....  Public............  Highway...........  PL 2.02
+272627L.........................  NE 54th Street....  Public............  Highway...........  PL 1.13
+272625X.........................  NE 59th Street....  Public............  Highway...........  PL 0.91
+272624R.........................  NE 61st Street....  Public............  Highway...........  PL 0.65
+273010J.........................  NE 62nd Street....  Public............  Highway...........  PL 0.60
+272622C.........................  NE 71st Street....  Public............  Highway...........  PL 0.12
+----------------------------------------------------------------------------------------------------------------
+
+    According to the NOE, this crossing corridor qualified for quiet 
+zone status on the basis of having a Quiet Zone Risk Index (QZRI) that 
+was below the Risk Index With Horns (RIWH).\2\ Therefore, the NOE 
+indicated that the Public Authority had taken sufficient measures to 
+compensate for the excess risk that results from restricting routine 
+train horn sounding at the grade crossings identified in the notice.
+---------------------------------------------------------------------------
+
+    \1\ U.S. DOT Crossing Inventory No. 273133V was not included in 
+the NOE dated August 27, 2012 from the Public Authority but falls 
+within the boundaries of the quiet zone.
+    \2\ See 49 CFR 222.39(a)(3).
+---------------------------------------------------------------------------
+
+Substantial Increase in Risk
+
+    Between January 2020 and January 2025, there have been 23 accident/
+incidents within this quiet zone.\3\ As reflected in the table below, 
+11 accident/incidents have resulted in either injury or fatality, with 
+9 persons injured and 2 fatalities.\4\ Therefore, in accordance with 49 
+CFR 222.51(c), FRA has made a preliminary determination that there is 
+significant risk with respect to loss of life or serious personal 
+injury within this quiet zone necessitating FRA review.
+---------------------------------------------------------------------------
+
+    \3\ Since January 2025, additional incidents continue to be 
+reported within the quiet zone.
+    \4\ The table only lists incidents that resulted in an injury or 
+a fatality. There were 17 incidents at grade crossings and 6 
+incidents involving trespassers not at grade crossings. Five grade 
+crossing incidents resulted in injury and four trespasser incidents 
+resulted in injury. In addition, two separate trespasser incidents 
+resulted in fatalities.
+
+----------------------------------------------------------------------------------------------------------------
+                Date                     Injury/fatality              GX ID                       RR
+----------------------------------------------------------------------------------------------------------------
+20-Mar-20..........................  1--Injury.............  Trespass..............  FEC \5\
+13-Jan-22..........................  1--Injury.............  272636K...............  BLF \6\
+24-Sep-22..........................  1--Injury.............  272636K...............  BLF
+27-Dec-22..........................  1--Injury.............  Trespass..............  BLF
+20-Oct-23..........................  1--Injury.............  Trespass..............  BLF
+02-Jan-24..........................  1--Injury.............  272633P...............  FEC
+16-Jan-24..........................  1--Injury.............  272637S...............  SFRV \7\
+25-Oct-24..........................  1--Fatality...........  Trespass..............  BLF
+19-Nov-24..........................  1--Fatality...........  Trespass..............  BLF
+05-Dec-24..........................  1--Injury.............  Trespass..............  SFRV
+14-Jan-25..........................  1--Injury.............  272636K...............  SFRV
+----------------------------------------------------------------------------------------------------------------
+
+Inadequate Safety Measures
+
+    In 2012, initially to demonstrate to FRA that the QZRI was lower 
+than the RIWH, the Public Authority relied upon pre-existing 
+Supplemental Safety Measures (SSMs) \8\ to reduce existing risk levels 
+within the quiet zone. However, railroad operating circumstances have 
+significantly changed since 2012. Most notably, beginning in May 2018, 
+Brightline (BLF) now operates passenger trains to and from a newly 
+built station, MiamiCentral. In early 2024, the South Florida Regional 
+Transportation Authority (SFRV or Tri-Rail) began operating passenger 
+trains to MiamiCentral as well. This has resulted in an increase in 
+train traffic from approximately 4 trains per day to over 50 trains per 
+day. The accidents/incidents described above, along with the increase 
+in train traffic, has caused
+
+[[Page 53053]]
+
+the QZRI for this quiet zone to rise to a level above the RIWH.
+---------------------------------------------------------------------------
+
+    \5\ Florida East Coast Railway (FEC).
+    \6\ Brightline Florida (BLF).
+    \7\ South Florida Regional Transportation Authority (SFRV or 
+Tri-Rail).
+    \8\ A Supplementary Safety Measure (SSM) is a safety system or 
+procedure established in accordance with 49 CFR part 222, which is 
+provided by the appropriate traffic control authority or law 
+enforcement authority responsible for safety at the highway-rail 
+grade crossing, that is determined by the FRA Associate 
+Administrator for Railroad Safety to be an effective substitute for 
+the locomotive horn in the prevention of highway-rail casualties. 
+See 49 CFR 222.9.
+---------------------------------------------------------------------------
+
+    In addition, the maximum timetable speed \9\ for all trains, 
+including passenger, increased from 20 miles per hour (mph) to 40 mph 
+for several miles of track, and a second main track was constructed. 
+The crossings affected by the speed increase were on the Port Lead from 
+MP PL 0.00 to PL 3.75. The Public Authority has not implemented any 
+SSMs or Alternative Safety Measures (ASMs) \10\ since the establishment 
+of the quiet zone to compensate for the increased train traffic, new 
+railroad infrastructure, and higher train speeds. All twelve quiet zone 
+crossings on the Port Lead were affected by this maximum timetable 
+speed increase.
+---------------------------------------------------------------------------
+
+    \9\ The maximum timetable speed references the highest maximum 
+speed any train may travel through the crossing and is determined by 
+the railroad in accordance with the relevant operating conditions 
+and track class. This speed is denoted on the U.S. DOT Crossing 
+Inventory Form in Part II, Box 3. The maximum timetable speed is 
+factored into determining the RIWH and QZRI by the Quiet Zone 
+Calculator.
+    \10\ An Alternative Safety Measure (ASM) is a safety system or 
+procedure, other than an SSM, established in accordance with 49 CFR 
+part 222, which is provided by the appropriate traffic control 
+authority or law enforcement authority and which, after individual 
+review and analysis by the FRA Associate Administrator for Railroad 
+Safety, is determined to be an effective substitute for the 
+locomotive horn in the prevention of highway-rail casualties at 
+specific highway-rail grade crossings. See 49 CFR 222.9.
+---------------------------------------------------------------------------
+
+Improper Documentation
+
+    FRA noted the following inaccuracies when comparing the 
+documentation relied upon to establish the quiet zone with current 
+conditions:
+    <bullet> The required list of crossings in the NOE does not include 
+the pedestrian grade crossing at MP DL 1.15 (U.S. DOT Crossing 
+Inventory No. 273133V).
+    <bullet> The Quiet Zone Calculator data in the NOE does not include 
+the Port Boulevard crossing (U.S. DOT Crossing Inventory No. 272960A), 
+which artificially reduced the QZRI.
+    <bullet> A diagnostic team review of the pedestrian grade crossings 
+in the quiet zone was required by 49 CFR 222.27. No record or comments 
+from a diagnostic team review of any pedestrian grade crossing were 
+included in the NOE.
+    During FRA's review of the documentation submitted to establish the 
+quiet zone, FRA noted additional discrepancies, including outdated 
+annual average daily traffic counts and incomplete Quiet Zone 
+Calculator documentation.\11\
+---------------------------------------------------------------------------
+
+    \11\ The U.S. DOT Crossing Inventory forms contained in the NOE 
+indicated that an Annual Average Daily Traffic (AADT) analysis had 
+not been performed since 1988 on any highway-rail grade crossings in 
+the quiet zone.
+---------------------------------------------------------------------------
+
+Non-Compliance With the Manual on Uniform Traffic Control Devices 
+(MUTCD)
+
+    FRA conducted a field inspection of each quiet zone crossing in 
+October 2024 and provided a summary of its findings to the Public 
+Authority in January 2025. The inspection uncovered numerous exceptions 
+to the standards and guidance of the MUTCD.\12\ Most notable was the 
+absence or improper use of ``No Train Horn'' signs or plaques at 
+several grade crossings. FRA conducted a follow-up inspection in April 
+2025 and observed that, except for the installation of several ``No 
+Train Horn'' signs, most of the exceptions have not been corrected. The 
+Federal Highway Administration (FHWA) has reviewed the documented MUTCD 
+non-compliance and concurs with FRA's findings.
+---------------------------------------------------------------------------
+
+    \12\ FHWA publishes the MUTCD, which contains national design, 
+application, and placement standards, guidance, options, and support 
+provisions for traffic control devices.
+---------------------------------------------------------------------------
+
+Scope of Review
+
+    From the inception of FRA's rulemaking on the use of locomotive 
+horns at public highway-rail grade crossings (indeed, beginning with 
+FRA's issuance of Emergency Order No. 15 \13\ in 1991), FRA has adopted 
+a corridor-wide approach to evaluating and mitigating risk within quiet 
+zones, instead of requiring the implementation of risk mitigation 
+measures at each public highway-rail grade crossing located within a 
+quiet zone. A corridor-wide approach permits the most efficient 
+deployment of risk reduction measures and encourages public authorities 
+to focus their resources on addressing the most hazardous public 
+highway-rail grade crossings.
+---------------------------------------------------------------------------
+
+    \13\ 56 FR 36190 (July 31, 1991).
+---------------------------------------------------------------------------
+
+    This quiet zone is located on the BLF and SFRV passenger rail 
+corridor. When first established in 2012, the Dodge Island Lead (DL) 
+consisted of one continuous track into the Port of Miami. Since then, 
+this rail line has been split into two different sections: the Port 
+Lead (PL) and the DL.\14\ This quiet zone contains PL and DL crossings. 
+Accordingly, the scope of FRA's review may include an analysis of the 
+current configuration of the quiet zone.
+---------------------------------------------------------------------------
+
+    \14\ The PL connects the FEC mainline southbound to MiamiCentral 
+(PL 0.00 to PL 4.51). The DL splits off at PL 3.53 and then runs 
+parallel until it crosses under the elevated PL at the NW 8th Street 
+crossing (U.S. DOT Crossing Inventory No. 272647X) and turns east to 
+the Port of Miami. The DL terminates at the Port of Miami.
+---------------------------------------------------------------------------
+
+    Interested parties are invited to submit written comments to the 
+docket. FRA is interested in obtaining information from the public 
+about any unsafe actions that have been observed at any of the above-
+listed grade crossings. This could include information about motorists 
+or pedestrians who have been observed engaging in unsafe actions. FRA 
+is also interested in obtaining information from the Public Authority 
+about the effectiveness of existing quiet zone crossing safety 
+improvements, as well any additional quiet zone safety improvements 
+that may be under consideration and the anticipated timeline for 
+implementing any such improvements.
+    After the comment period closes, the Associate Administrator may 
+require that additional safety measures be taken or that the quiet zone 
+be terminated. The Associate Administrator will provide a copy of his 
+decision to the Public Authority as well as the railroads that operate 
+through the quiet zone and the State agencies responsible for grade 
+crossing, highway, and road safety.
+
+    Issued in Washington, DC.
+John Karl Alexy,
+Associate Administrator for Railroad Safety, Chief Safety Officer.
+[FR Doc. 2025-20738 Filed 11-21-25; 8:45 am]
+BILLING CODE 4910-06-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53412-53413]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21082]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+SOCIAL SECURITY ADMINISTRATION
+
+[Docket No. SSA-2025-0011]
+
+
+Privacy Act of 1974; Matching Program
+
+AGENCY: Social Security Administration (SSA).
+
+ACTION: Notice of a new matching program.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the provisions of the Privacy Act, as 
+amended, this notice announces a new matching program with the United 
+States Department of the Treasury,
+
+[[Page 53413]]
+
+Internal Revenue Service (IRS). Under this matching program, the IRS 
+will disclose IRS return information to SSA for use in verifying 
+eligibility for, and the correct amount of, benefits to qualified aged, 
+blind, and disabled individuals.
+
+DATES: The deadline to submit comments on the proposed matching program 
+is December 26, 2025.
+    The matching program will be applicable on January 1, 2026, or once 
+a minimum of 30 days after publication of this notice has elapsed, 
+whichever is later. The matching program will be in effect for a period 
+of 18 months.
+
+ADDRESSES: You may submit comments by any one of three methods--
+internet, fax, or mail. Do not submit the same comments multiple times 
+or by more than one method. Regardless of which method you choose, 
+please state that your comments refer to Docket No. SSA-2025-0011 so 
+that we may associate your comments with the correct regulation.
+    Caution: You should be careful to include in your comments only 
+information that you wish to make publicly available. We strongly urge 
+you not to include in your comments any personal information, such as 
+Social Security numbers or medical information.
+    1. Internet: We strongly recommend that you submit your comments 
+via the internet. Please visit the Federal eRulemaking portal at 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a>. Use the Search function to find docket 
+number SSA-2025-0011 and then submit your comments. The system will 
+issue you a tracking number to confirm your submission. You will not be 
+able to view your comment immediately because we must post each 
+submission manually. It may take up to a week for your comments to be 
+viewable.
+    2. Fax: Fax comments to (833) 410-1631.
+    3. Mail: Matthew Ramsey, Executive Director, Head of Privacy and 
+Disclosure Policy, Law and Policy, Social Security Administration, 6401 
+Security Boulevard, Baltimore, MD 21235-6401, or emailing 
+<a href="/cdn-cgi/l/email-protection#feb39f8a8a969b89d0ac9f938d9b87be8d8d9fd0999188"><span class="__cf_email__" data-cfemail="b8f5d9ccccd0ddcf96ead9d5cbddc1f8cbcbd996dfd7ce">[email&#160;protected]</span></a>. Comments are also available for public viewing 
+on the Federal eRulemaking portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or in 
+person, during regular business hours, by arranging with the contact 
+person identified below.
+
+FOR FURTHER INFORMATION CONTACT: Interested parties may submit general 
+questions about the matching program to Andrea Huseth, Division 
+Director, Privacy and Disclosure Policy, Law and Policy, Social 
+Security Administration, 6401 Security Boulevard, Baltimore, MD 21235-
+6401, at telephone: (410) 608-9675, or send an email to 
+<a href="/cdn-cgi/l/email-protection#1f5e717b6d7a7e31576a6c7a6b775f6c6c7e31787069"><span class="__cf_email__" data-cfemail="eaab848e988f8bc4a29f998f9e82aa99998bc48d859c">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: This is the re-establishment of a matching 
+program that is set to expire between SSA and IRS, which supports SSA's 
+efficient administration of its Title XVI Supplemental Security Income 
+program.
+
+Matthew Ramsey,
+Head of Privacy and Disclosure Policy, Law and Policy.
+
+Participating Agencies
+
+    SSA and IRS.
+
+Authority for Conducting the Matching Program
+
+    The matching agreement between SSA and IRS is executed pursuant to 
+the Privacy Act of 1974 (5 U.S.C. 552a), as amended by the Computer 
+Matching and Privacy Protection Act of 1988, and otherwise; and the 
+Office of Management and Budget (OMB) Final Guidance interpreting those 
+Acts.
+    Section 6103(l)(7) of the Internal Revenue Code (26 U.S.C. 
+6103(l)(7)) authorizes IRS to disclose return information with respect 
+to unearned income to Federal, State, or local agencies administering 
+certain federally-assisted benefit programs under the Social Security 
+Act (Act).
+    Section 1631(e)(1)(B) of the Act (42 U.S.C. 1383(e)(1)(B)) requires 
+verification of Supplemental Security Income eligibility and benefit 
+amounts with independent or collateral sources. This section of the Act 
+provides that the ``Commissioner of Social Security shall, as may be 
+necessary, request and utilize information available pursuant to 
+section 6103(l)(7) of the Internal Revenue Code'' for purposes of Title 
+XVI benefits and for federally-administered supplementary payments of 
+the type described in section 1616(a) of the Act (including payments 
+pursuant to an agreement entered into under section 212(a) of Pub. L. 
+93-66).
+    The legal authority for the disclosure of SSA data under the 
+agreement is section 1106 of the Act (42 U.S.C. 1306), section (b)(3) 
+of the Privacy Act (5 U.S.C. 552a(b)(3)), and the regulations and 
+guidance promulgated under these provisions.
+
+Purpose(s)
+
+    The agreement sets forth the terms and conditions under which IRS 
+agrees under the authority of 26 U.S.C. 6103(l)(7) to disclose to SSA 
+certain return information for use in verifying eligibility for, and 
+the correct amount of, benefits provided under Title XVI of the Act to 
+qualified aged, blind, and disabled individuals; and for federally-
+administered supplementary payments as described in section 1616(a) of 
+the Act (42 U.S.C. 1382e(a)) (including payments pursuant to an 
+agreement entered into under section 212(a) of Pub. L. 93-66 (87 Stat. 
+152)). 42 U.S.C. 1382 note.
+
+Categories of Individuals
+
+    The individuals whose information is involved in the matching 
+program are aged, blind, or disabled individuals who are applicants or 
+recipients (and their deemors) of title XVI benefits.
+
+Categories of Records
+
+    SSA will provide electronically to IRS the following data elements 
+in the finder file:
+    <bullet> Social Security number, and
+    <bullet> Name control
+    IRS will disclose to SSA the following:
+    <bullet> Payee Account Number,
+    <bullet> Payee Name and Mailing Address,
+    <bullet> Payee Taxpayer Identification Number (TIN),
+    <bullet> Payer Name and Address,
+    <bullet> Payer TIN, and
+    <bullet> Income Type and Amount.
+
+System(s) of Records
+
+    SSA's system of records is the Supplemental Security Income Record 
+and Special Veterans Benefit 60-0103, last fully published at 71 
+Federal Register (FR) 1830 (January 11, 2006), amended at 72 FR 69723 
+(December 10, 2007), 83 FR 31250-51 (July 3, 2018), 83 FR 54969 
+(November 1, 2018), 89 FR 825 (January 5, 2024), and 89 FR 14554 
+(February 27, 2024).
+    IRS will match SSA's information with its Information Return Master 
+File [Treasury/IRS 22.061], as published at 80 FR 54081-082 (September 
+8, 2015) and amended at 85 FR 64227 (October 9, 2020), through the 
+Disclosure of Information to Federal, State and Local Agencies program.
+
+[FR Doc. 2025-21082 Filed 11-24-25; 8:45 am]
+BILLING CODE 4191-02-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

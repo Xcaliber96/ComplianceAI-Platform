@@ -1,0 +1,434 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Rules and Regulations]
+[Pages 53218-53221]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20935]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Coast Guard
+
+33 CFR Part 165
+
+[Docket Number USCG-2025-0082]
+RIN 1625-AA00
+
+
+Safety Zones; Recurring Events in Captain of the Port Duluth Zone
+
+AGENCY: Coast Guard, Department of Homeland Security.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Coast Guard is revising existing regulations for recurring 
+safety zones in the Captain of the Port Duluth Zone. These amendments 
+update the table of annually recurring marine events, add definitions, 
+and clarify how and when the COTP may enforce listed zones. These 
+changes will improve the timeliness and clarity of public notification, 
+enhance mariner situational awareness, and promote the safety of life 
+on the navigable waters of western Lake Superior during recurring near-
+shore events.
+
+DATES: This rule is effective December 26, 2025.
+
+ADDRESSES: To view available documents go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for USCG-2025-0082.
+
+FOR FURTHER INFORMATION CONTACT: If you have questions about this rule, 
+contact LT Zachary Fedak, Marine Safety Unit Duluth Waterways 
+Management Division, U.S. Coast Guard; telephone 218-522-0708, or email 
+<a href="/cdn-cgi/l/email-protection#d389b2b0bbb2a1aafd92fd95b6b7b2b893a6a0b0b4fdbebabf"><span class="__cf_email__" data-cfemail="d288b3b1bab3a0abfc93fc94b7b6b3b992a7a1b1b5fcbfbbbe">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Table of Abbreviations
+
+CFR Code of Federal Regulations
+COTP Captain of the Port
+DHS Department of Homeland Security
+FR Federal Register
+NPRM Notice of proposed rulemaking
+Sec.  Section
+U.S.C. United States Code
+
+II. Background and Authority
+
+    Each year, communities throughout the western Lake Superior region 
+sponsor marine events that generate predictable concentrations of 
+spectator vessels in confined harbor and near-shore waters. These 
+activities pose recurring hazards, including the accidental discharge 
+of fireworks, falling embers or debris, and congestion of swimmers or 
+boaters. In such conditions, even routine vessel wakes or sudden wind 
+shifts can increase the risk of collisions and injuries.
+    To address these risks, the Coast Guard previously codified 
+annually recurring safety zones for these events in 33 CFR 165.943. 
+Under the current regulation, enforcement of each zone must be 
+individually noticed, which can result in fragmented or delayed 
+information reaching mariners. This fragmentation may lead to confusion 
+when multiple events occur in close proximity or on separate dates.
+    On September 9, 2025, the Coast Guard published a notice of 
+proposed rulemaking (NPRM) titled Safety Zones; Recurring Events in 
+Captain of the Port Duluth Zone (90 FR 43404). In that NPRM, we stated 
+why we issued the NPRM and invited comments on our proposed regulatory 
+action related to regulation revision.
+    Under the authority in 46 U.S.C. 70034, the COTP has determined 
+that this rule revision is necessary to improve clarity, consistency, 
+and public communication for the purposes of protecting personnel, 
+vessels, and the marine environment from potential hazards associated 
+with these recurring marine events. The revised rule defines key terms 
+to support uniform enforcement; clarifies procedures for
+
+[[Page 53219]]
+
+enforcement and early suspension of safety zones; updates the 
+regulation's structure and formatting; and frames the rule to allow 
+flexibility for consolidated Notifications of Enforcement when 
+operationally appropriate. These revisions will enhance the 
+predictability and timeliness of safety communications, thereby 
+improving mariner situational awareness and promoting the safety of 
+life on navigable waters.
+
+III. Discussion of Comments and the Rule
+
+    During the comment period that ended on October 9, 2025, we 
+received no comments. Based on further internal review, we made minor 
+technical changes to Table 1 for clarity. There are no substantive 
+changes in the regulatory text of this rule from the proposed rule in 
+the NPRM.
+    This revision to the existing regulatory text and associated table 
+establishing annually recurring safety zones within the Captain of the 
+Port (COTP) Duluth Zone, as listed in 33 CFR 165.943, updates event 
+listings, clarifies enforcement procedures, adds relevant definitions, 
+and structures the rule in a way that may accommodate a single 
+Notification of Enforcement announcing multiple zones or event dates. 
+These revisions will improve the clarity, consistency, and timeliness 
+of public notification.
+    The geographic locations and general durations of the safety zones 
+remain unchanged. Each safety zone will continue to be enforced only 
+during specific periods, which will be announced in advance through 
+publication of a Notification of Enforcement in the Federal Register 
+and via Broadcast Notices to Mariners over VHF-FM marine channel 16. 
+These measures ensure continued protection of persons, vessels, and the 
+navigable waters of western Lake Superior during recurring safety zone 
+enforcement periods. During periods of enforcement, no vessel or person 
+may enter a designated safety zone without obtaining permission from 
+the COTP Duluth or their designated representative.
+
+IV. Regulatory Analyses
+
+    We developed this rule after considering numerous statutes and 
+Executive orders related to rulemaking. Below we summarize our analyses 
+based on a number of these statutes and Executive orders.
+
+A. Impact on Small Entities
+
+    The Regulatory Flexibility Act of 1980 (RFA), 5 U.S.C. 601-612, as 
+amended, requires Federal agencies to consider the potential impact of 
+regulations on small entities during rulemaking. The term ``small 
+entities'' comprises small businesses, not-for-profit organizations 
+that are independently owned and operated and are not dominant in their 
+fields, and governmental jurisdictions with populations of less than 
+50,000. Section 605 of the RFA allows an agency to certify a rule, in 
+lieu of preparing an analysis, if the rulemaking is not expected to 
+have a significant economic impact on a substantial number of small 
+entities.
+    The Coast Guard certifies that, although some small entities may 
+intend to transit the safety zone above, this rule will not have a 
+significant economic impact on a substantial number of small entities, 
+as mandated by the Regulatory Flexibility Act of 1980, 5 U.S.C. 601-612 
+for the following reasons. Vessel traffic will be able to safely 
+transit around these safety zones, which are short in duration, 
+geographically limited, and often occur during off-peak periods when 
+vessel traffic is normally low. In addition, the Coast Guard will issue 
+a Broadcast Notice to Marines via VHF FM marine channel 16, which will 
+allow small entities to adjust their transit plans, and the rule allows 
+vessels to request permission to enter the zone from the COTP.
+    Under section 213(a) of the Small Business Regulatory Enforcement 
+Fairness Act of 1996 (Pub. L. 104-121), if this rule will affect your 
+small business, organization, or governmental jurisdiction and you have 
+questions, contact the person listed in the FOR FURTHER INFORMATION 
+CONTACT section.
+    Small businesses may send comments to the Small Business and 
+Agriculture Regulatory Enforcement Ombudsman and the Regional Small 
+Business Regulatory Fairness Boards by calling 1-888-REG-FAIR (1-888-
+734-3247).
+
+B. Collection of Information
+
+    This rule will not call for a new collection of information under 
+the Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3520).
+
+C. Federalism and Indian Tribal Governments
+
+    We have analyzed this rule under Executive Order 13132, Federalism, 
+and have determined that it is consistent with the fundamental 
+federalism principles and preemption requirements described in that 
+Order.
+    Also, this rule does not have tribal implications under Executive 
+Order 13175, Consultation and Coordination with Indian Tribal 
+Governments, because it does not have a substantial direct effect on 
+one or more Indian tribes, on the relationship between the Federal 
+Government and Indian tribes, or on the distribution of power and 
+responsibilities between the Federal Government and Indian tribes.
+
+D. Unfunded Mandates Reform Act
+
+    As required by The Unfunded Mandates Reform Act of 1995 (2 U.S.C. 
+1531-1538), the Coast Guard certifies that this rule will not result in 
+an annual expenditure of $100,000,000 or more (adjusted for inflation) 
+by a State, local, or tribal government, in the aggregate, or by the 
+private sector.
+
+E. Environment
+
+    We have analyzed this rule under Department of Homeland Security 
+Directive 023-01, Rev. 1, associated implementing instructions, and 
+Environmental Planning COMDTINST 5090.1 (series), which guide the Coast 
+Guard in complying with the National Environmental Policy Act of 1969 
+(42 U.S.C. 4321-4370f), and have determined that this action is one of 
+a category of actions that do not individually or cumulatively have a 
+significant effect on the human environment.
+    This rule is a revision of an existing regulation establishing 
+recurring safety zones in the Captain of the Port Duluth Zone. It is 
+categorically excluded from further review under paragraph L60(a) of 
+Appendix A, Table 1 of DHS Instruction Manual 023-01-001-01, Rev. 1. A 
+Record of Environmental Consideration supporting this determination is 
+available in the docket.
+
+List of Subjects in 33 CFR Part 165
+
+    Harbors, Marine safety, Navigation (water), Reporting and 
+recordkeeping requirements, Security measures, Waterways.
+
+    For the reasons discussed in the preamble, the Coast Guard amends 
+33 CFR part 165 as follows:
+
+PART 165--REGULATED NAVIGATION AREAS AND LIMITED ACCESS AREAS
+
+0
+1. The authority citation for part 165 continues to read as follows:
+
+    Authority: 46 U.S.C. 70034, 70051, 70124; 33 CFR 1.05-1, 6.04-1, 
+6.04-6, and 160.5; Department of Homeland Security Delegation No. 
+00170.1, Revision No. 01.4.
+
+0
+2. Revise Sec.  165.943 to read as follows:
+
+
+Sec.  165.943   Safety Zones; Recurring Events in Captain of the Port 
+Duluth Zone.
+
+    (a) Regulations. (1) In accordance with the general regulations in 
+Sec.  165.23 of this part, entry into, transiting, or anchoring within 
+this safety zone is
+
+[[Page 53220]]
+
+prohibited unless authorized by the Captain of the Port (COTP) Duluth 
+or his or her designated on-scene representative.
+    (2) These safety zones are closed to all vessel traffic, except as 
+may be permitted by the COTP Duluth or his or her designated on-scene 
+representative.
+    (3) The ``on-scene representative'' of the COTP Duluth is any Coast 
+Guard commissioned, warrant or petty officer who has been designated by 
+the COTP Duluth to act on his behalf.
+    (4) Vessel operators desiring to enter or operate within the safety 
+zone must contact the COTP Duluth or his or her on-scene representative 
+to obtain permission to do so. The COTP Duluth or his or her on-scene 
+representative may be contacted via VHF Channel 16. Vessel operators 
+given permission to enter or operate in the safety zone must comply 
+with all directions given to them by the COTP Duluth, or his or her on-
+scene representative.
+    (5) The enforcement dates and times for each of the safety zones 
+listed in Table 1 are subject to change, but the duration of 
+enforcement would remain the same or nearly the same as stated in Table 
+1. In the event of a change, the COTP Duluth will provide notice to the 
+public by publishing a Notification of Enforcement in the Federal 
+Register, as well as issuing a Broadcast Notice to Mariners.
+    (b) Definitions. As used in this section:
+    (1) Designated representative means any Coast Guard coxswain, petty 
+officer, or other officer operating a Coast Guard vessel and a Federal, 
+State, and local officer designated by or assisting the COTP Duluth in 
+the enforcement of each safety zone.
+    (2) Public vessel means a vessel that is owned, chartered, or 
+operated by the United States, or by a State or political subdivision 
+thereof.
+    (3) Rain date refers to an alternate date and/or time in which the 
+safety zone would be enforced in the event of inclement weather.
+    (c) Suspension of enforcement. The COTP Duluth may suspend 
+enforcement of any of these zones earlier than listed in this section. 
+Should the COTP Duluth suspend any of these zones earlier than the 
+listed duration in this section, he or she may make the public aware of 
+this suspension by Broadcast Notice to Mariners and/or on-scene notice 
+by his or her designated representative.
+    (d) Exemption. Public vessels, as defined in paragraph (b) of this 
+section, are exempt from the requirements in this section.
+    (e) Waiver. For any vessel, the COTP Duluth or his or her 
+designated representative may waive any of the requirements of this 
+section upon finding that operational conditions or other circumstances 
+are such that application of this section is unnecessary or impractical 
+for the purposes of safety or security.
+    (f) Notification. The enforcement dates and times for each of the 
+listed safety zones are subject to change. Advance notice to the local 
+maritime community will be made well in advance of the events through 
+Notification(s) of Enforcement in the Federal Register, listing exact 
+times and dates of the enforcement periods. A Broadcast Notice to 
+Mariners will also be issued.
+
+                                            Table 1 to Sec.   165.943
+                                                [Datum NAD 1983]
+----------------------------------------------------------------------------------------------------------------
+               Event                              Location                       Enforcement date and time
+----------------------------------------------------------------------------------------------------------------
+                                            (a) January Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                            (b) February Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                             (c) March Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                             (d) April Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                              (e) May Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                              (f) June Safety Zones
+----------------------------------------------------------------------------------------------------------------
+(1) Bridgefest Regatta Fireworks    All waters of the Keweenaw Waterway   Mid-June.
+ Display.                            in Hancock, MI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 47[deg]07'22'' N,
+                                     088[deg]35'28'' W.
+----------------------------------------------------------------------------------------------------------------
+                                              (g) July Safety Zones
+----------------------------------------------------------------------------------------------------------------
+(1) Ashland 4th of July Fireworks   All waters of Chequamegon Bay in      On or around July 4th.
+ Display.                            Ashland, WI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 46[deg]35'50'' N,
+                                     090[deg]52'59'' W.
+(2) City of Bayfield 4th of July    All waters of the Lake Superior       On or around July 4th.
+ Fireworks Display.                  North Channel in Bayfield, WI
+                                     within the arc of a circle with a
+                                     radius of no more than 1,120 feet
+                                     from the launch site at position
+                                     46[deg]48'40'' N, 090[deg]48'32'' W.
+(3) Cornucopia 4th of July          All waters of Siskiwit Bay in         On or around July 4th.
+ Fireworks Display.                  Cornucopia, WI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 46[deg]51'35'' N,
+                                     091[deg]06'15'' W.
+
+[[Page 53221]]
+
+ 
+(4) Duluth 4th Fest Fireworks       All waters of the Duluth Harbor       On or around July 4th.
+ Display.                            Basin, Northern Section in Duluth,
+                                     MN within the arc of a circle with
+                                     a radius of no more than 1,120 feet
+                                     from the launch site at position
+                                     46[deg]46'14'' N, 092[deg]06'16'' W.
+(5) LaPointe 4th of July Fireworks  All waters of Lake Superior in        On or around July 4th.
+ Display.                            LaPointe, WI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 46[deg]46'40'' N,
+                                     090[deg]47'22'' W.
+(6) Two Harbors 4th of July         All waters of Agate Bay in Two        On or around July 4th.
+ Fireworks Display.                  Harbors, MN within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 47[deg]00'54'' N,
+                                     091[deg]40'04'' W.
+(7) Superior 4th of July Fireworks  All waters of Superior Bay in         On or around July 4th.
+ Display.                            Superior, WI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 46[deg]43'28''N,
+                                     092[deg]03'38'' W.
+----------------------------------------------------------------------------------------------------------------
+                                             (h) August Safety Zones
+----------------------------------------------------------------------------------------------------------------
+(1) Point to LaPointe Swim........  All waters of the Lake Superior       Early August.
+                                     North Channel between Bayfield and
+                                     LaPointe, WI within an imaginary
+                                     line created by the following
+                                     coordinates: 46[deg]48'50'' N,
+                                     090[deg]48'44'' W, moving southeast
+                                     to 46[deg]46'44'' N,
+                                     090[deg]47'33'' W, then moving
+                                     northeast to 46[deg]46'52'' N,
+                                     090[deg]47'17'' W, then moving
+                                     northwest to 46[deg]49'03'' N,
+                                     090[deg]48'25'' W, and finally
+                                     returning to the starting position.
+(2) Lake Superior Dragon Boat       All waters of Superior Bay in         Late August.
+ Festival Fireworks Display.         Superior, WI within the arc of a
+                                     circle with a radius of no more
+                                     than 1,120 feet from the launch
+                                     site at position 46[deg]43'28'' N,
+                                     092[deg]03'47'' W.
+(3) Superior Man Triathlon........  All waters of the Duluth Harbor       Late August.
+                                     Basin, Northern Section in Duluth,
+                                     MN within an imaginary line created
+                                     by the following coordinates:
+                                     46[deg]46'36'' N, 092[deg]06'06''
+                                     W, moving southeast to
+                                     46[deg]46'32'' N, 092[deg]06'01''
+                                     W, then moving northeast to
+                                     46[deg]46'45'' N, 092[deg]05'45''
+                                     W, then moving northwest to
+                                     46[deg]46'49'' N, 092[deg]05'49''
+                                     W, and finally returning to the
+                                     starting position.
+----------------------------------------------------------------------------------------------------------------
+                                           (i) September Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                            (j) October Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                            (k) November Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+                                            (l) December Safety Zones
+----------------------------------------------------------------------------------------------------------------
+[Reserved]........................
+----------------------------------------------------------------------------------------------------------------
+
+
+    Dated: November 19, 2025.
+John P. Botti,
+Commander, U.S. Coast Guard, Captain of the Port Marine Safety Unit 
+Duluth.
+[FR Doc. 2025-20935 Filed 11-24-25; 8:45 am]
+BILLING CODE 9110-04-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

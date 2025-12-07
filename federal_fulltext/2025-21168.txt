@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54309-54310]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21168]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-OS-0740]
+
+
+Proposed Collection; Comment Request
+
+AGENCY: United States Transportation Command (USTRANSCOM), Department 
+of Defense (DoD).
+
+ACTION: 60-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995, the 
+USTRANSCOM announces a proposed public information collection and seeks 
+public comment on the provisions thereof. Comments are invited on: 
+whether the proposed collection of information is necessary for the 
+proper performance of the functions of the agency, including whether 
+the information shall have practical utility; the accuracy of the 
+agency's estimate of the burden of the proposed information collection; 
+ways to enhance the quality, utility, and clarity of the information to 
+be collected; and ways to minimize the burden of the information 
+collection on respondents, including through the use of automated 
+collection techniques or other forms of information technology.
+
+DATES: Consideration will be given to all comments received by January 
+26, 2026.
+
+ADDRESSES: You may submit comments, identified by docket number and 
+title, by any of the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the 
+instructions for submitting comments.
+    Mail: Department of Defense, Privacy, Civil Liberties, and 
+Transparency Directorate, Office of the Director, Administration & 
+Management, 4800 Mark Center Drive, Mailbox #24 Suite 05F16, 
+Alexandria, VA 22350-1700.
+    Instructions: All submissions received must include the agency 
+name, docket number and title for this Federal Register document. The 
+general policy for comments and other submissions from members of the 
+public is to make these submissions available for public viewing on the 
+internet at <a href="http://www.regulations.gov">http://www.regulations.gov</a> as they are received without 
+change, including any personal identifiers or contact information.
+
+FOR FURTHER INFORMATION CONTACT: To request more information on this 
+proposed information collection or to obtain a copy of the proposal and 
+associated collection instruments, please write to U.S. Transportation 
+Command, 508 Scott, Scott AFB, IL 62225-5006, Ms. Jaime E. Bates, 
+Telephone Number: 618-817-9950.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Tender of Service for 
+Personal Property Household Goods and Unaccompanied Baggage Shipments, 
+DD Forms 619, 1412, 1800, 1840, 1863, 2787; OMB Number 0704-0531.
+    Needs and Uses: The forms entailed in this collection are used to 
+collect data to support the private sector commercial Transportation 
+Service Providers (TSP). The TSPs are under contract with the DoD for 
+the shipment and storage of personal property for DoD Service Members, 
+DoD Civilians and U.S. Coast Guard.
+    Affected Public: Business or other for-profit.
+
+DD Form 619--Statement of Accessorial Services Performed
+
+    Annual Burden Hours: 11,995.
+    Number of Respondents: 833.
+    Responses per Respondent: 288.
+    Annual Responses: 239,904.
+    Average Burden per Response: 3 minutes.
+
+DD Form 1412--Inventory of Articles Shipped in House Trailer
+
+    Annual Burden Hours: 25,268.
+    Number of Respondents: 833.
+    Responses per Respondent: 364.
+    Annual Responses: 303,212.
+    Average Burden per Response: 5 minutes.
+
+DD Form 2787--Certificate of Warehousemen's Legal Liability Insurance
+
+    Annual Burden Hours: 25,268.
+    Number of Respondents: 833.
+    Responses per Respondent: 364.
+    Annual Responses: 303,212.
+    Average Burden per Response: 5 minutes.
+
+DD Form 1800--Mobile Home Inspection Record
+
+    Annual Burden Hours: 25,268.
+    Number of Respondents: 833.
+    Responses per Respondent: 364.
+    Annual Responses: 303,212.
+    Average Burden per Response: 5 minutes.
+
+DD Form 1840--Joint Statement of Loss or Damage at Delivery
+
+    Annual Burden Hours: 25,268.
+    Number of Respondents: 833.
+    Responses per Respondent: 364.
+    Annual Responses: 303,212.
+    Average Burden per Response: 5 minutes.
+
+DD Form 1863--Accessorial Services--Mobile Homes
+
+    Annual Burden Hours: 19,992.
+    Number of Respondents: 833.
+
+[[Page 54310]]
+
+    Responses per Respondent: 288.
+    Annual Responses: 239,904.
+    Average Burden per Response: 5 minutes.
+
+Total
+
+    Number of Respondents: 833.
+    Annual Responses: 1,692,656.
+    Annual Burden Hours: 133,059.
+    Frequency: On occasion.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21168 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre></body>
+</html>

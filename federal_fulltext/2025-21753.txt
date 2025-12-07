@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55329-55330]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21753]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Motor Carrier Safety Administration
+
+[Docket No. FMCSA-2025-0103]
+
+
+Hours of Service of Drivers: Protein Transport of Indiana, 
+L.L.C.; Application for Exemption
+
+AGENCY: Federal Motor Carrier Safety Administration (FMCSA), Department 
+of Transportation (DOT).
+
+ACTION: Notice of final disposition; denial of application for 
+exemption.
+
+-----------------------------------------------------------------------
+
+SUMMARY: FMCSA announces its decision to deny Protein Transport of 
+Indiana, LLC's (Protein Transport) request for an exemption from the 
+hours-of-service (HOS) regulations. FMCSA analyzed the application and 
+public comments and determined that the exemption would not likely 
+achieve a level of safety that is equivalent to, or greater than, the 
+level that would be achieved absent such exemption.
+
+FOR FURTHER INFORMATION CONTACT: Ms. Bernadette Walker, Driver and 
+Carrier Operations Division; Office of Carrier, Driver and Vehicle 
+Safety Standards, FMCSA; (202) 507-0363; or <a href="/cdn-cgi/l/email-protection#480a2d3a26292c2d3c3c2d663f2924232d3a082c273c662f273e"><span class="__cf_email__" data-cfemail="296b4c5b47484d4c5d5d4c075e4845424c5b694d465d074e465f">[email&#160;protected]</span></a>. 
+If you have questions on viewing or submitting material to the docket, 
+contact Dockets Operations at (202) 366-9826.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Public Participation
+
+Viewing Comments and Documents
+
+    To view any documents mentioned as being available in the docket, 
+go to <a href="https://www.regulations.gov/docket/FMCSA-2025-0103/document">https://www.regulations.gov/docket/FMCSA-2025-0103/document</a> and 
+choose the document to review. To view comments, click this notice, 
+then click ``Browse Comments.'' If you do not have access to the 
+internet, you may view the docket online by visiting Dockets Operations 
+on the ground floor of the DOT West Building, 1200 New Jersey Avenue 
+SE, Washington, DC 20590-0001, between 9 a.m. and 5 p.m., Monday 
+through Friday, except Federal holidays. To be sure someone is there to 
+help you, please call (202) 366-9317 or (202) 366-9826 before visiting 
+Dockets Operations.
+
+II. Legal Basis
+
+    FMCSA has authority under 49 U.S.C. 31136(e) and 31315(b) to grant 
+exemptions from the Federal Motor Carrier Safety Regulations. FMCSA 
+must publish a notice of each exemption request in the Federal Register 
+(49 CFR 381.315(a)). The Agency must provide the public an opportunity 
+to inspect the information relevant to the application, including the 
+applicant's safety analysis. The Agency must provide an opportunity for 
+public comment on the request.
+    The Agency reviews the application, safety analyses and, public 
+comments submitted and determines whether granting the exemption would 
+likely achieve a level of safety equivalent to, or greater than, the 
+level that would be achieved absent such exemption, pursuant to the 
+standard set forth in 49 U.S.C. 31315(b)(1). The Agency must publish 
+its decision in the Federal Register (49 CFR 381.315(b)). If granted, 
+the notice will identify the regulatory provision from which the 
+applicant will be exempt, the effective period, and all terms and 
+conditions of the exemption (49 CFR 381.315(c)(1)). If the exemption is 
+denied, the notice will explain the reason for the denial (49 CFR 
+381.315(c)(2)). The exemption may be renewed (49 CFR 381.300(b)).
+
+III. Background
+
+Current Regulatory Requirements
+
+    FMCSA prescribes HOS limits on commercial motor vehicle (CMV) 
+driver on-duty and driving time, among other requirements, to reduce 
+the possibility of driver fatigue. Congress created an exemption from 
+the the HOS regulations for CMV drivers transporting agricultural 
+commodities during planting and harvesting periods in each State. The 
+statutory exemption was initially enacted in 1995 and subsequently 
+revised (109 Stat. 568, 613, Nov. 28, 1995).
+    FMCSA codified the statutory exemption in 49 CFR 395.1(k), which 
+provides that drivers are exempt from HOS requirements when 
+transporting agricultural commodities, including livestock, and farm 
+supplies for agricultural purposes, to a location within 150 air miles 
+of the source of the
+
+[[Page 55330]]
+
+exempt product during the harvest and planting seasons, as defined by 
+each State. Once a driver operates beyond the 150 air-mile radius, the 
+HOS regulations apply, except that livestock are also exempt from the 
+HOS rules when transported within a 150 air-mile radius of the point of 
+delivery of the livestock.
+    Under 49 CFR 395.2, agricultural commodities include horticultural 
+products at risk of perishing or degrading in quality during transport 
+and non-processed food, feed, fiber, or livestock. Livestock includes 
+insects and all other living animals cultivated, grown, or raised for 
+commercial purposes, including aquatic animals. Farm supplies for 
+agricultural purposes include products directly related to the growing 
+or harvesting of agricultulral commodities during the planting and 
+harvesting seasons within each State, and livestock feed.
+
+Applicant's Request
+
+    Protein Transport's application for exemption was described in 
+detail in a Federal Register notice on July 1, 2025, (90 FR 28853) and 
+will not be repeated as the facts have not changed.
+
+IV. Public Comments
+
+    The Agency received three comments, all of which opposed the 
+exemption, emphasizing the applicant's lack of fatigue management 
+measures. AWM Associates noted that the exemption application did not 
+address fatigue management. The Truck Safety Coalition said that the 
+application ``conspicuously lacks a single countermeasure that combats 
+driver fatigue. Furthermore, its safety record is highly concerning and 
+should give FMCSA tremendous pause.'' Advocates for Highway and Auto 
+Safety noted that truck driver fatigue is a serious safety issue and 
+that Protein Transport failed to include ``any additional procedures it 
+will take beyond those already covered'' by regulation.
+
+V. FMCSA Decision
+
+    FMCSA evaluated Protein Transport's application and public comments 
+and denies the exemption request. Congress created a statutory 
+exemption from the HOS requirements for the transportation of 
+agricultural commodities and farm supplies for agricultural purposes. 
+The transportation of chicken products does not fall within the 
+exemptions Congress established. Although such products may be included 
+in animal feed, they are merely one such component and do not 
+separately qualify as animal feed. In addition, as highlighted by the 
+commenters, the exemption application contains no countermeasures to 
+address driver fatigue. Protein Transport failed to establish that it 
+would likely achieve a level of safety that is equivalent to, or 
+greater than, the level that would be achieved without the exemption. 
+In addition, FMCSA established the HOS rules following notice and 
+comment rulemaking, based on research and data, to ensure the safe 
+operation of CMVs on our nations' roadways. Accordingly, any exemption 
+from the HOS regulations should be well supported to demonstrate why 
+the exempted party would be able to achieve an equivalent or greater 
+level of safety. To grant HOS exemptions without that level of 
+confidence would be inconsistent with a primary goal of the HOS 
+regulations to keep fatigued drivers off the public roadways and 
+contrary to the statutory standard for an exemption. For the above 
+reasons, the Protein Transport of Indiana, L.L.C. exemption application 
+is denied.
+
+Derek Barrs,
+Administrator.
+[FR Doc. 2025-21753 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-EX-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

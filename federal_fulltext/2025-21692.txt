@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55133-55134]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21692]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA 2024-N-3945]
+
+
+FDA's Strategy Document on Innovative Manufacturing Technologies
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice of availability.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA or Agency) is announcing 
+the publication of FDA's Strategy Document on Innovative Manufacturing 
+Technologies (Strategy Document), which outlines specific actions FDA 
+has taken and the Agency's plans for fiscal years 2023-2027 to 
+facilitate the use of innovative manufacturing technologies. As part of 
+the Prescription Drug User Fee Act (PDUFA) Reauthorization Performance 
+Goals and Procedures Fiscal Years 2023-2027 (PDUFA VII), FDA committed 
+to advance the use and implementation of innovative manufacturing. The 
+actions described in the Strategy Document are based on lessons learned 
+from FDA's experiences with submissions involving advanced 
+manufacturing technologies as well as public input.
+
+DATES: The announcement of the strategy document is published in the 
+Federal Register on January 30, 2026.
+
+ADDRESSES: You may submit either electronic or written comments as 
+follows.
+
+Electronic Submissions
+
+    Submit electronic comments in the following way:
+    <bullet> Federal eRulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments. Comments submitted 
+electronically, including attachments, to <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+will be posted to the docket unchanged. Because your comment will be 
+made public, you are solely responsible for ensuring that your comment 
+does not include any confidential information that you or a third party 
+may not wish to be posted, such as medical information, your or anyone 
+else's Social Security number, or confidential business information, 
+such as a manufacturing process. Please note that if you include your 
+name, contact information, or other information that identifies you in 
+the body of your comments, that information will be posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    <bullet> If you want to submit a comment with confidential 
+information that you
+
+[[Page 55134]]
+
+do not wish to be made available to the public, submit the comment as a 
+written/paper submission and in the manner detailed (see ``Written/
+Paper Submissions'' and ``Instructions'').
+
+Written/Paper Submissions
+
+    Submit written/paper submissions as follows:
+    <bullet> Mail/Hand delivery/Courier (for written/paper 
+submissions): Dockets Management Staff (HFA-305), Food and Drug 
+Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852.
+    <bullet> For written/paper comments submitted to the Dockets 
+Management Staff, FDA will post your comment, as well as any 
+attachments, except for information submitted, marked, and identified 
+as confidential, if submitted as detailed in ``Instructions.''
+    Instructions: All submissions received must include the Docket No. 
+FDA 2024-N-3945 for ``FDA's Strategy Document on Innovative 
+Manufacturing Technologies.'' Received comments will be placed in the 
+docket and, except for those submitted as ``Confidential Submissions,'' 
+publicly viewable at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or at the Dockets 
+Management Staff between 9 a.m. and 4 p.m., Monday through Friday.
+    <bullet> Confidential Submissions: To submit a comment with 
+confidential information that you do not wish to be made publicly 
+available, submit your comments only as a written/paper submission. You 
+should submit two copies total. One copy will include the information 
+you claim to be confidential with a heading or cover note that states 
+``THIS DOCUMENT CONTAINS CONFIDENTIAL INFORMATION.'' The Agency will 
+review this copy, including the claimed confidential information, in 
+its consideration of comments. The second copy, which will have the 
+claimed confidential information redacted/blacked out, will be 
+available for public viewing and posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Submit both copies to the Dockets Management Staff. If you do not wish 
+your name and contact information to be made publicly available, you 
+can provide this information on the cover sheet and not in the body of 
+your comments and you must identify this information as 
+``confidential.'' Any information marked as ``confidential'' will not 
+be disclosed except in accordance with 21 CFR 10.20 and other 
+applicable disclosure law. For more information about FDA's posting of 
+comments to public dockets, see docket number, Date, or access the 
+information at: <a href="https://www.gpo.gov/fdsys/pkg/FR-2015-09-18/pdf/2015-23389.pdf">https://www.gpo.gov/fdsys/pkg/FR-2015-09-18/pdf/2015-23389.pdf</a>.
+    Docket: For access to the docket to read background documents or 
+the electronic and written/paper comments received, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and insert the docket number, found in brackets in 
+the heading of this document, into the ``Search'' box and follow the 
+prompts and/or go to the Dockets Management Staff, 5630 Fishers Lane, 
+Rm. 1061, Rockville, MD 20852, 240-402-7500.
+
+FOR FURTHER INFORMATION CONTACT: Elisa A. Nickum, Center for Drug 
+Evaluation and Research, Food and Drug Administration, 10903 New 
+Hampshire Ave., Bldg. 75, Rm. 4226, Silver Spring, MD 20993, 301-796-
+4226, <a href="/cdn-cgi/l/email-protection#22674e4b51430c6c4b4149574f624446430c4a4a510c454d54"><span class="__cf_email__" data-cfemail="06436a6f756728486f656d736b46606267286e6e7528616970">[email&#160;protected]</span></a>, or Phillip Kurs, Center for Biologics 
+Evaluation and Research, Food and Drug Administration, 240-402-7911.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Innovative manufacturing technologies--including but not limited to 
+continuous manufacturing, distributed manufacturing, modern aseptic 
+manufacturing equipment and processes, and novel analytical methods--
+can increase product development speed, bolster supply chains, improve 
+drug quality, and prevent drug shortages. On June 8, 2023, FDA 
+supported and participated in a public workshop hosted by the Duke-
+Margolis Center for Health Policy on ``Advancing the Utilization and 
+Supporting the Implementation of Innovative Manufacturing Approaches.'' 
+At this workshop, interested parties from industry shared feedback on 
+their interactions with the FDA's Center for Drug Evaluation and 
+Research (CDER) Emerging Technology Program (ETP) and Center for 
+Biologics Evaluation and Research (CBER) Advanced Technologies Team 
+(CATT) to guide submissions from persons or organizations using 
+innovative manufacturing technologies. Regulators, academic 
+researchers, and industry representatives discussed the current 
+barriers to using these technologies and shared ideas on how 
+initiatives such as the newly created Advanced Manufacturing 
+Technologies Designation Program (AMTDP) could alleviate these 
+barriers. The intent of this workshop was to fulfill a PDUFA VII 
+commitment related to advancing utilization and implementation of 
+innovative manufacturing, as well as section 506L(e)(1) of the Federal 
+Food, Drug, and Cosmetic Act, as amended by section 3213 of the Food 
+and Drug Omnibus Reform Act of 2022 regarding the AMTDP.
+    Based on lessons learned from the Agency's experience with 
+submissions involving advanced manufacturing, the topics discussed 
+during the June 8, 2023, workshop, and other public input, including 
+public comments received in response to the draft strategy document 
+announced in the Federal Register on September 12, 2024 (89 FR 74279), 
+FDA developed the Strategy Document. The Strategy Document outlines the 
+specific activities FDA has undertaken or intends to undertake to 
+facilitate the use of innovative manufacturing technologies, including: 
+continuing to enhance the ETP and CATT as a mechanism to support 
+innovation; implementing the AMTDP in a manner that incorporates 
+feedback on eligibility criteria; continuing to identify opportunities 
+for international harmonization of regulatory expectations in support 
+of further adoption of advanced manufacturing; supporting and utilizing 
+ongoing initiatives for advanced manufacturing to address potential 
+barriers; and supporting training in advanced manufacturing for FDA 
+regulatory staff.
+    The Strategy Document will be made available on the following FDA 
+web pages:
+    <bullet> CDER's Framework for Regulatory Advanced Manufacturing 
+Evaluation (FRAME) Initiative, available at: <a href="https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cders-framework-regulatory-advanced-manufacturing-evaluation-frame-initiative">https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cders-framework-regulatory-advanced-manufacturing-evaluation-frame-initiative</a>.
+    <bullet> CDER Emerging Technology Program (ETP), available at 
+<a href="https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/emerging-technology-program-etp">https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/emerging-technology-program-etp</a>.
+    <bullet> CBER Advanced Technologies Program, available at <a href="https://www.fda.gov/vaccines-blood-biologics/industry-biologics/cber-advanced-technologies-program">https://www.fda.gov/vaccines-blood-biologics/industry-biologics/cber-advanced-technologies-program</a>.
+    Authority: 21 U.S.C. 379g-h2. This document is being published to 
+fufill a commitment in the Prescription Drug User Fee Act (PDUFA) 
+Reauthorization Performance Goals and Procedures Fiscal Years 2023-2027 
+(PDUFA VII).
+
+Lowell M. Zeta,
+Acting Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21692 Filed 11-28-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

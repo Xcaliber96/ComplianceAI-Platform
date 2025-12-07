@@ -1,0 +1,311 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Rules and Regulations]
+[Pages 52860-52862]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20826]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE INTERIOR
+
+Office of Surface Mining Reclamation and Enforcement
+
+30 CFR Part 872
+
+[Docket No. OSM-2025-0014; S1D1S SS08011000 SX064A000 256S180110; S2D2S 
+SS08011000 SX064A000 25XS501520]
+RIN 1029-AC98
+
+
+Minimum Program Make Up Funds
+
+AGENCY: Office of Surface Mining Reclamation and Enforcement, Interior.
+
+ACTION: Direct final rule; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This direct final rule revises the Federal regulations to 
+remove references to prior balance replacement funds and to rescind the 
+phase-in schedule for minimum program make up fund distributions 
+between October 1, 2007, and October 1, 2010.
+
+DATES: The final rule is effective January 23, 2026, unless significant 
+adverse comments are received by December 24, 2025. If significant 
+adverse comments are received, notice will be published in the Federal 
+Register before the effective date either withdrawing the rule or 
+issuing a new final rule that responds to significant adverse comments.
+
+ADDRESSES: You may submit comments by one of the following methods:
+    <bullet> Electronically: Go to the Federal eRulemaking Portal: 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket Number OSM-2025-0014. 
+Follow the instructions for submitting comments.
+    <bullet> By hard copy: Submit by U.S. mail to Division of 
+Regulatory Support, Office of Surface Mining Reclamation and 
+Enforcement, Department of the Interior, Attn: James Tyree, 1849 C 
+Street NW, Mail Stop 4557, Washington, DC 20240.
+
+FOR FURTHER INFORMATION CONTACT: James Tyree, Chief, Division of 
+Regulatory Support, (202) 208-4479, <a href="/cdn-cgi/l/email-protection#a3c9d7dad1c6c6e3ccd0ced1c68dc4ccd5"><span class="__cf_email__" data-cfemail="5b312f22293e3e1b342836293e753c342d">[email&#160;protected]</span></a>. Individuals in 
+the United States who are deaf, deafblind, hard of hearing, or have a 
+speech disability may dial 711 (TTY, TDD, or TeleBraille) to access 
+telecommunications relay services. Individuals outside the United 
+States should use the relay services offered within their country to 
+make international calls to the point-of-contact in the United States.
+
+SUPPLEMENTARY INFORMATION: The Federal regulations at 30 CFR 
+872.27(a)(1) and (2) refer to prior balance replacement funds, which 
+are moneys from the United States Treasury's General Fund that replaced 
+State or Tribal share funds that were allocated before October 1, 2007, 
+but never appropriated by Congress. Section 411(h)(1) of the Surface 
+Mining Control and Reclamation Act of 1977 (SMCRA) required the Office 
+of Surface Mining Reclamation and Enforcement (OSMRE) to distribute 
+prior balance replacement funds to eligible States and Tribes for seven 
+years, beginning October 1, 2008. As the distribution of prior balance 
+replacement funds is complete, the Department of the Interior 
+(Department) and OSMRE have determined that the references to prior 
+balance replacement funds should be removed and that the remaining 
+language in each paragraph should be lightly edited to improve clarity 
+and ensure correct grammar and punctuation. To the extent States or 
+Tribes may have any unspent prior balance replacement funds, those 
+funds will be governed by the regulations that were in place at the 
+time of the initial grant award.
+    In addition, the Federal regulations at 30 CFR 872.27(a)(2)(i) and 
+(ii) contain the phase-in schedule for minimum program make up fund 
+distributions between October 1, 2007, and October 1, 2010. Minimum 
+program make up funds are moneys that OSMRE distributes to eligible 
+States and Tribes to make up the difference between their total 
+distribution of other funds and $3 million. Section 401(f)(5)(B) of 
+SMCRA required OSMRE to phase in the amount of minimum program make up 
+funds distributed to eligible States and Tribes over four years, 
+beginning October 1, 2007. As the phase-in dates for minimum program 
+make up funds have passed, the Department and OSMRE have determined 
+that these provisions should be rescinded because they are obsolete. 
+Existing paragraphs (a)(2)(iii) and (a)(2)(iv) will be redesignated as 
+paragraphs (a)(2)(i) and (a)(2)(ii).
+
+[[Page 52861]]
+
+    The Department has determined that these reasons, independently and 
+alone, justify amending 30 CFR 872.27(a)(1) and (2) and rescinding 30 
+CFR 872.27(a)(2)(i) and (ii). The Department has no interest in 
+maintaining a rule that is obsolete.
+    The Department is issuing this rule as a direct final rule. 
+Although the Administrative Procedure Act (APA, 5 U.S.C. 551-559) 
+generally requires agencies to engage in notice and comment rulemaking, 
+section 553 of the APA provides an exception when the agency ``for good 
+cause finds'' that notice and comment are ``impracticable, unnecessary, 
+or contrary to the public interest.'' Id. Sec.  553(b)(B). The 
+Department has determined that notice and comment are unnecessary 
+because this rule is noncontroversial; of a minor, technical nature; 
+involves little agency discretion; and is unlikely to receive any 
+significant adverse comments. Significant adverse comments are those 
+that oppose the amendment or recission of the regulatory language and 
+raise, alone or in combination, (1) reasons why the amendment or 
+recission of the regulatory language is inappropriate, including 
+challenges to the amendment's or recission's underlying premise, or (2) 
+serious unintended consequences of the amendment or recission. A 
+comment recommending an addition to the rule will not be considered 
+significant and adverse unless the comment explains how this direct 
+final rule would be ineffective without the addition.
+
+Procedural Determinations
+
+Executive Order 12630--Governmental Actions and Interference With 
+Constitutionally Protected Property Rights
+
+    This rule does not result in a taking of private property or 
+otherwise have regulatory takings implications under Executive Order 
+12630. The rule revises the Federal regulations to amend or remove 
+obsolete regulatory language; therefore, the rule will not result in 
+private property being taken for public use without just compensation. 
+A takings implication assessment is not required.
+
+Executive Order 12866--Regulatory Planning and Review and Executive 
+Order 13563--Improving Regulation and Regulatory Review
+
+    Executive Order 12866 provides that the Office of Information and 
+Regulatory Affairs (OIRA) in the Office of Management and Budget (OMB) 
+will review all significant rules. OIRA has determined that this rule 
+is not significant.
+    Executive Order 13563 reaffirms the principles of Executive Order 
+12866, while calling for improvements in the Nation's regulatory system 
+to promote predictability, reduce uncertainty, and use the best, most 
+innovative, and least burdensome tools for achieving regulatory ends. 
+Executive Order 13563 directs agencies to consider regulatory 
+approaches that reduce burdens and maintain flexibility and freedom of 
+choice for the public where these approaches are relevant, feasible, 
+and consistent with regulatory objectives. Executive Order 13563 
+emphasizes further that agencies must base regulations on the best 
+available science and that the rulemaking process must allow for public 
+participation and an open exchange of ideas. The Department developed 
+this rule in a manner consistent with these requirements.
+
+Executive Order 12988--Civil Justice Reform
+
+    This direct final rule complies with the requirements of Executive 
+Order 12988. Among other things, this rule:
+    (a) Meets the criteria of section 3(a) requiring that all 
+regulations be reviewed to eliminate errors and ambiguity and be 
+written to minimize litigation;
+    (b) Meets the criteria of section 3(b)(2) requiring that all 
+regulations be written in clear language and contain clear legal 
+standards.
+
+Executive Order 13132--Federalism
+
+    Under the criteria of section 1 of Executive Order 13132, this rule 
+does not have sufficient federalism implications to warrant the 
+preparation of a federalism summary impact statement. This rule will 
+not have substantial direct effects on the States, on the relationship 
+between the national government and the States, or on the distribution 
+of power and responsibilities among the various levels of government. A 
+federalism summary impact statement is not required.
+
+Executive Order 13175--Consultation and Coordination With Indian Tribal 
+Governments
+
+    The Department of the Interior strives to strengthen its 
+government-to-government relationship with Indian tribes through a 
+commitment to consultation with Tribes and recognition of their right 
+to self-governance and Tribal sovereignty. The Department evaluated 
+this direct final rule under Executive Order 13175 and the Department's 
+consultation policies and determined that it has no substantial direct 
+effects on Federally recognized Indian tribes and that consultation 
+under the Department's Tribal consultation policies is not required. 
+The rule merely revises the Federal regulations to amend or remove 
+obsolete regulatory language.
+
+Executive Order 13211--Actions Concerning Regulations That 
+Significantly Affect Energy Supply, Distribution, or Use
+
+    This direct final rule is not a significant energy action as 
+defined in Executive Order 13211. Therefore, a Statement of Energy 
+Effects is not required.
+
+National Environmental Policy Act
+
+    This direct final rule does not constitute a major Federal action 
+significantly affecting the quality of the human environment. A 
+detailed statement under the National Environmental Policy Act (NEPA, 
+42 U.S.C. 4321 et seq.) is not required because this rule is covered by 
+a categorical exclusion applicable to regulatory functions ``that are 
+of an administrative, financial, legal, technical, or procedural 
+nature.'' 43 CFR 46.210(i). In addition, the Department has determined 
+that this rule does not involve any of the extraordinary circumstances 
+listed in 43 CFR 46.215 that would require further analysis under NEPA.
+
+Paperwork Reduction Act
+
+    This rule does not impose any new information collection burden 
+under the Paperwork Reduction Act. OMB previously approved the 
+information collection activities contained in the existing regulations 
+and assigned OMB control number 1029-0054. This rule does not impose an 
+information collection burden because the Department is not making any 
+changes to the information collection requirements.
+
+Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA, 5 U.S.C. 601-612) requires an 
+agency to prepare a regulatory flexibility analysis for all rules 
+unless the agency certifies that the rule will not have a significant 
+economic impact on a substantial number of small entities. The RFA 
+applies only to rules for which an agency is required to first publish 
+a proposed rule. See 5 U.S.C. 603(a) and 604(a). As the Department is 
+not required to publish a notice of proposed rulemaking for this direct 
+final rule, the RFA does not apply.
+
+[[Page 52862]]
+
+Congressional Review Act
+
+    This rule is not a major rule under the Congressional Review Act, 5 
+U.S.C. 804(2). Specifically, the direct final rule: (a) will not have 
+an annual effect on the economy of $100 million or more; (b) will not 
+cause a major increase in costs or prices for consumers, individual 
+industries, Federal, State, or local government agencies, or geographic 
+regions; and (c) will not have significant adverse effects on 
+competition, employment, investment, productivity, innovation, or on 
+the ability of United States-based enterprises to compete with foreign-
+based enterprises in domestic and export markets.
+
+Unfunded Mandates Reform Act
+
+    This rule does not impose an unfunded mandate on State, local, or 
+Tribal governments, or the private sector, of more than $100 million 
+per year. The rule does not have a significant or unique effect on 
+State, local, or Tribal governments, or the private sector. The rule 
+merely revises the Federal regulations to amend or remove obsolete 
+regulatory language. Therefore, a statement containing the information 
+required by the Unfunded Mandates Reform Act (2 U.S.C. 1531 et seq.) is 
+not required.
+
+List of Subjects in 30 CFR Part 872
+
+    Indians--lands, Surface mining, Underground mining.
+
+Leslie Shockley Beyer,
+Assistant Secretary, Land and Minerals Management.
+
+    For the reasons stated in the preamble, the Department of the 
+Interior amends 30 CFR part 872 as follows:
+
+PART 872--MONEYS AVAILABLE TO ELIGIBLE STATES AND INDIAN TRIBES
+
+0
+1. The authority citation for part 872 continues to read as follows:
+
+    Authority: 30 U.S.C. 1201 et seq., Pub. L. 117-58.
+
+
+0
+2. In Sec.  872.27, revise paragraphs (a)(1) and (2) to read as 
+follows:
+
+
+Sec.  872.27  How does OSM distribute and award minimum program make up 
+funds?
+
+    (a) * * *
+    (1) We calculate your total distribution under this part by adding 
+your applicable State or Tribal share funds distribution (Sec.  872.14 
+or Sec.  872.17) and your historic coal funds distribution (Sec.  
+872.21). If the sum of these funds is less than $3 million, we 
+calculate the amount of minimum program make up funds to add to your 
+distribution under this section to increase it to that level.
+    (2) For each Federal fiscal year, we add minimum program make up 
+funds to your combined distribution of State or Tribal share and 
+historic coal funds as shown in the following table:
+
+------------------------------------------------------------------------
+                                 The amount of minimum program make up
+   For each of the Federal     funds we add to your distribution will be
+ fiscal years beginning . . .                    . . .
+------------------------------------------------------------------------
+(i) October 1, 2011 and        100 percent of the amount that we
+ continuing through September   calculated should be added under
+ 30, 2035.                      paragraph (a)(1) of this section as long
+                                as you have at least $3 million of
+                                Priority 1 and 2 coal problems
+                                remaining.
+(ii) October 1, 2035 and       to the extent funds are available, 100
+ thereafter.                    percent of the amount that we calculated
+                                should be added under paragraph (a)(1)
+                                until you have less than $3 million of
+                                Priority 1 and 2 coal problems
+                                remaining.
+------------------------------------------------------------------------
+
+* * * * *
+[FR Doc. 2025-20826 Filed 11-21-25; 8:45 am]
+BILLING CODE 4310-05-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

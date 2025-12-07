@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53063-53064]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20778]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Primary Dealer Meeting Agenda
+
+AGENCY: Departmental Offices, U.S. Department of the Treasury.
+
+ACTION: Notice of Information Collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury, as part of its continuing 
+effort to reduce paperwork and respondent burden, invites the general 
+public and other federal agencies to comment on the proposed 
+information collections listed below, in accordance with the Paperwork 
+Reduction Act of 1995.
+
+DATES: Written comments must be received on or before January 23, 2026.
+
+ADDRESSES: Send comments regarding the burden estimate, or any other 
+aspect of the information collection, including suggestions for 
+reducing the burden, to Treasury PRA Clearance Officer, 1750 
+Pennsylvania Ave. NW, Suite 8100, Washington, DC 20220, or email at 
+<a href="/cdn-cgi/l/email-protection#aafaf8ebeaded8cfcbd9dfd8d384cdc5dc"><span class="__cf_email__" data-cfemail="a8f8fae9e8dcdacdc9dbdddad186cfc7de">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Copies of the submissions may be 
+obtained from Spencer W. Clark by emailing <a href="/cdn-cgi/l/email-protection#b2e2e0f3f2c6c0d7d3c1c7c0cb9cd5ddc4"><span class="__cf_email__" data-cfemail="2676746766525443475553545f08414950">[email&#160;protected]</span></a>, calling 
+(202) 927-5331, or viewing the entire information collection request at 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title: Primary Dealer Meeting Agenda.
+    OMB Control Number: 1505-0261.
+    Type of Request: Extension without change of a currently approved 
+collection.
+    Description: The Primary Dealer Meeting Agenda is a quarterly 
+survey sent to all primary dealers, which currently comprise 25 
+financial institutions. Primary dealers are trading counterparties of 
+the Federal Reserve Bank of New York in its implementation of monetary 
+policy. Primary dealers are also expected to have a substantial 
+presence as a market maker for Treasury securities and to bid on a pro-
+rata basis in all Treasury auctions.
+    The Treasury's mission to manage the U.S government's finances and 
+resources effectively includes financing the government at the lowest 
+cost over time. Treasury meets this objective by issuing debt in a 
+regular and predictable
+
+[[Page 53064]]
+
+pattern, providing transparency in its decision-making process, and 
+seeking continuous improvements in the Treasury auction process. 
+Unexpected changes in Treasury's borrowing requirements, changes in the 
+demand for Treasury securities, and other factors can create risks for 
+Treasury. To mitigate these risks, Treasury closely monitors economic 
+conditions, market activity, and, if necessary, responds with 
+appropriate changes in debt issuance based on analysis and consultation 
+with market participants, including the primary dealers through the 
+quarterly survey and subsequent meetings.
+    Form: None.
+    Affected Public: Businesses or other for-profits.
+    Estimated Number of Respondents: 25.
+    Frequency of Response: Quarterly.
+    Estimated Total Number of Annual Responses: 100.
+    Estimated Time per Response: 2 Hours.
+    Estimated Total Annual Burden Hours: 200.
+    Request for Comments: Comments submitted in response to this notice 
+will be summarized and included in the request for Office of Management 
+and Budget approval. All comments will become a matter of public 
+record. Comments are invited on: (a) whether the collection of 
+information is necessary for the proper performance of the functions of 
+the agency, including whether the information shall have practical 
+utility; (b) the accuracy of the agency's estimate of the burden of the 
+collection of information; (c) ways to enhance the quality, utility, 
+and clarity of the information to be collected; (d) ways to minimize 
+the burden of the collection of information on respondents, including 
+through the use of technology; and (e) estimates of capital or start-up 
+costs and costs of operation, maintenance, and purchase of services 
+required to provide information.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Rachel Miller,
+Executive Secretary.
+[FR Doc. 2025-20778 Filed 11-21-25; 8:45 am]
+BILLING CODE 4810-AK-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53059-53060]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20752]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of the Comptroller of the Currency
+
+
+Agency Information Collection Activities: Information Collection 
+Renewal; Comment Request; Stress Testing Rules for National Banks and 
+Federal Savings Associations
+
+AGENCY:  Office of the Comptroller of the Currency (OCC), Treasury.
+
+ACTION: Notice and request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY:  The OCC, as part of its continuing effort to reduce paperwork 
+and respondent burden, invites comment on a continuing information 
+collection, as required by the Paperwork Reduction Act of 1995 (PRA). 
+In accordance with the requirements of the PRA, the OCC may not conduct 
+or sponsor, and the respondent is not required to respond to, an 
+information collection unless it displays a currently valid Office of 
+Management and Budget (OMB) control number. The OCC is soliciting 
+comment concerning the renewal of its information collection titled, 
+``Stress Testing Rules for National Banks and Federal Savings 
+Associations.''
+
+DATES:  Comments must be received by January 23, 2026.
+
+ADDRESSES:  Commenters are encouraged to submit comments by email, if 
+possible. You may submit comments by any of the following methods:
+    <bullet> Email: <a href="/cdn-cgi/l/email-protection#651517040c0b030a250a06064b11170004164b020a13"><span class="__cf_email__" data-cfemail="c9b9bba8a0a7afa689a6aaaae7bdbbaca8bae7aea6bf">[email&#160;protected]</span></a>.
+    <bullet> Mail: Chief Counsel's Office, Attention: Comment 
+Processing, Office of the Comptroller of the Currency, Attention: 1557-
+0343, 400 7th Street SW, Suite 3E-218, Washington, DC 20219.
+
+[[Page 53060]]
+
+    <bullet> Hand Delivery/Courier: 400 7th Street SW, Suite 3E-218, 
+Washington, DC 20219.
+    <bullet> Fax: (571) 293-4835.
+    Instructions: You must include ``OCC'' as the agency name and 
+``1557-0343'' in your comment. In general, the OCC will publish 
+comments on <a href="http://www.reginfo.gov">www.reginfo.gov</a> without change, including any business or 
+personal information provided, such as name and address information, 
+email addresses, or phone numbers. Comments received, including 
+attachments and other supporting materials, are part of the public 
+record and subject to public disclosure. Do not include any information 
+in your comment or supporting materials that you consider confidential 
+or inappropriate for public disclosure.
+    Following the close of this notice's 60-day comment period, the OCC 
+will publish a second notice with a 30-day comment period. You may 
+review comments and other related materials that pertain to this 
+information collection beginning on the date of publication of the 
+second notice for this collection by the method set forth in the next 
+bullet.
+    <bullet> Viewing Comments Electronically: Go to <a href="http://www.reginfo.gov">www.reginfo.gov</a>. 
+Hover over the ``Information Collection Review'' tab and click on 
+``Information Collection Review'' from the drop-down menu. From the 
+``Currently under Review'' drop-down menu, select ``Department of the 
+Treasury'' and then click ``submit.'' This information collection can 
+be located by searching OMB control number ``1557-0343'' or ``Stress 
+Testing Rules for National Banks and Federal Savings Associations.'' 
+Upon finding the appropriate information collection, click on the 
+related ``ICR Reference Number.'' On the next screen, select ``View 
+Supporting Statement and Other Documents'' and then click on the link 
+to any comment listed at the bottom of the screen.
+    <bullet> For assistance in navigating <a href="http://www.reginfo.gov">www.reginfo.gov</a>, please 
+contact the Regulatory Information Service Center at (202) 482-7340.
+
+FOR FURTHER INFORMATION CONTACT: Shaquita Merritt, Clearance Officer, 
+(202) 649-5490, Chief Counsel's Office, Office of the Comptroller of 
+the Currency, 400 7th Street SW, Washington, DC 20219. If you are deaf, 
+hard of hearing, or have a speech disability, please dial 7-1-1 to 
+access telecommunications relay services.
+
+SUPPLEMENTARY INFORMATION: Under the PRA (44 U.S.C. 3501 et seq.), 
+Federal agencies must obtain approval from the OMB for each collection 
+of information that they conduct or sponsor. ``Collection of 
+information'' is defined in 44 U.S.C. 3502(3) and 5 CFR 1320.3(c) to 
+include agency requests or requirements, imposed on ten or more 
+persons, that members of the public submit reports, keep records, or 
+provide information to a third party. Section 3506(c)(2)(A) of title 44 
+generally requires Federal agencies to provide a 60-day notice in the 
+Federal Register concerning each proposed collection of information, 
+including each proposed extension of an existing collection of 
+information, before submitting the collection to OMB for approval. To 
+comply with this requirement, the OCC is publishing notice of the 
+renewal of this collection.
+    Title: Stress Testing Rules for National Banks and Federal Savings 
+Associations.
+    OMB Control No.: 1557-0343.
+    Type of Review: Regular.
+    Affected Public: Businesses or other for-profit.
+    Description: The Annual Stress Test rule \1\ implemented Section 
+165(i) of the Dodd-Frank Wall Street Reform and Consumer Protection Act 
+\2\ (``Dodd-Frank Act'') which requires certain companies to conduct 
+stress tests. As enacted by the Dodd-Frank Act, national banks and 
+Federal savings associations with total consolidated assets of more 
+than $10 billion were required to conduct annual stress tests and 
+comply with reporting and disclosure requirements under the rule. The 
+reporting templates for institutions with total consolidated assets of 
+over $50 billion were finalized in 2012.\3\
+---------------------------------------------------------------------------
+
+    \1\ 77 FR 61238 (October 9, 2012) (codified at 12 CFR part 46).
+    \2\ Dodd-Frank Wall Street Reform and Consumer Protection Act, 
+Public Law 111-203, 124 Stat. 1376 (2010).
+    \3\ 77 FR 49485 (August 16, 2012); 77 FR 66663 (November 6, 
+2012).
+---------------------------------------------------------------------------
+
+    Section 165(i)(2) of the Dodd-Frank Act requires certain financial 
+companies, including national banks and Federal savings associations, 
+to conduct annual stress tests \4\ and requires the primary financial 
+regulatory agency \5\ of those financial companies to issue regulations 
+implementing the stress test requirements.\6\
+---------------------------------------------------------------------------
+
+    \4\ 12 U.S.C. 5365(i)(2)(A).
+    \5\ 12 U.S.C. 5301 (12).
+    \6\ 12 U.S.C. 5365(i)(2)(C).
+---------------------------------------------------------------------------
+
+    Under section 165(i)(2), a covered institution was required to 
+submit to the Board of Governors of the Federal Reserve System (Board) 
+and to its primary financial regulatory agency a report at such time, 
+in such form, and containing such information as the primary financial 
+regulatory agency may require.\7\
+---------------------------------------------------------------------------
+
+    \7\ 12 U.S.C. 5365(i)(2)(B).
+---------------------------------------------------------------------------
+
+    The Economic Growth, Regulatory Relief, and Consumer Protection Act 
+(EGRRCPA), enacted on May 24, 2018, amended certain aspects of the 
+company-run stress testing requirement in section 165(i)(2) of the 
+Dodd-Frank Act.\8\ Specifically, section 401 of EGRRCPA raises the 
+minimum asset threshold for financial companies covered by the company-
+run stress testing requirement from $10 billion to $250 billion in 
+total consolidated assets; revises the requirement for banks to conduct 
+stress tests ``annually'' and instead requires them to conduct stress 
+tests ``periodically''; and no longer requires the OCC to provide an 
+``adverse'' stress-testing scenario, thus reducing the number of 
+required stress test scenarios from three to two.
+---------------------------------------------------------------------------
+
+    \8\ Public Law 115-174, 132 Stat. 1296-1368 (2018).
+---------------------------------------------------------------------------
+
+Estimated Burden
+
+    Estimated Frequency of Response: On occasion.
+    Estimated Number of Respondents: 9 (biennial testing: 5; annual 
+testing: 4).
+    Estimated Total Annual Responses: 27 responses.
+    Estimated Total Annual Burden: 6,760 hours.
+    Comments submitted in response to this notice will be summarized 
+and included in the request for OMB approval. All comments will become 
+a matter of public record. Comments are invited on:
+    (a) Whether the collection of information is necessary for the 
+proper performance of the functions of the OCC, including whether the 
+information has practical utility;
+    (b) The accuracy of the OCC's estimate of the burden of the 
+collection of information;
+    (c) Ways to enhance the quality, utility, and clarity of the 
+information to be collected;
+    (d) Ways to minimize the burden of the collection on respondents, 
+including through the use of automated collection techniques or other 
+forms of information technology; and
+    (e) Estimates of capital or start-up costs and costs of operation, 
+maintenance, and purchase of services to provide information.
+
+Carl Kaminski,
+Assistant Director, Office of the Comptroller of the Currency.
+[FR Doc. 2025-20752 Filed 11-21-25; 8:45 am]
+BILLING CODE 4810-33-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

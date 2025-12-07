@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54363-54365]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21120]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+
+[DOCKET No. FR-6573-N-01]
+
+
+Personal Responsibility and Work Opportunity Reconciliation Act 
+of 1996 (PRWORA); Interpretation of ``Federal Public Benefit''
+
+AGENCY: Office of the General Counsel, HUD.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice sets forth the interpretation that the U.S. 
+Department of Housing and Development (HUD) uses for the term ``Federal 
+public benefit'' as used in Title IV of the Personal Responsibility and 
+Work Opportunity Reconciliation Act of 1996 (PRWORA), and its 
+exceptions. In doing so, this notice supersedes any prior 
+interpretation in any notice or other document issued by any HUD 
+program or office.
+
+FOR FURTHER INFORMATION CONTACT: Mr. David C. Woll, General Counsel, 
+Office of the General Counsel, U.S. Department of Housing and Urban 
+Development, 451 7th St. SW, Room 10110, Washington, DC 20410, 
+telephone number 202-708-2244. HUD welcomes and is prepared to receive 
+calls from individuals who are deaf or hard of hearing, as well as 
+individuals with speech or communication disabilities. To learn more 
+about how to make an accessible telephone call, please visit: <a href="https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    According to Section 401 of PRWORA, 8 U.S.C. 1611(a), aliens who 
+are not ``qualified aliens'' are not eligible for any ``Federal public 
+benefit'' as defined in 8 U.S.C. 1611(c). The prohibition set forth in 
+Sec.  1611(a) is subject to certain exceptions set forth in Sec.  
+1611(b).
+    Section 401(c) of PRWORA, defines ``Federal public benefit'' as 
+``(A) any grant, contract, loan, professional license, or commercial 
+license provided by an agency of the United States or by appropriated 
+funds of the United States'' and ``(B) any retirement, welfare, health, 
+disability, public or assisted housing, postsecondary education, food 
+assistance, unemployment benefit, or any other similar benefit for 
+which payments or assistance are provided to an individual, household, 
+or family eligibility unit by an agency of the United States or by 
+appropriated funds of the United States.'' 8 U.S.C. 1611(c)(1). This 
+definition, too, is subject to certain exceptions. See id. (c)(2) 
+(setting forth certain exceptions to the definition of ``Federal public 
+benefit'').
+    In addition, under Section 432 of PRWORA, as amended, to the extent 
+required by law, providers of a nonexempt ``Federal public benefit'' 
+must verify that a person applying for the benefit is a qualified alien 
+and is eligible to receive the benefit. 8 U.S.C. 1642. While the 
+verification requirement is necessary for proper enforcement of PRWORA, 
+it is conceptually distinct from the meaning of the term ``Federal 
+public benefit'' and this notice is not intended to address the 
+application of such requirement. Neither does this notice speak to 
+``Federal public benefits'' that may be subject to other statutory 
+authority besides PRWORA regarding citizenship and alien eligibility.
+    In the list of substantive exceptions under 8 U.S.C. 1611(b)(1) 
+Congress provided that the prohibition against providing non-qualified 
+aliens with any federal public benefit ``shall not apply with respect 
+to the following Federal public benefits:
+    (B) Short-term, non-cash, in-kind emergency disaster relief [. . .] 
+``(D) Programs, services, or assistance (such as soup kitchens, crisis 
+counseling and intervention, and short-term shelter) specified by the 
+Attorney General, in the Attorney General's sole and unreviewable 
+discretion after consultation with appropriate Federal agencies and 
+departments, which (i) deliver in-kind services at the community level, 
+including through public or private nonprofit agencies; (ii) do not 
+condition the provision of assistance, the amount of assistance 
+provided, or the cost of assistance provided on the individual 
+recipient's income or resources; and (iii) are necessary for the 
+protection of life or safety.
+
+II. Interpretation
+
+    Statutory construction ``must begin, and often should end as well, 
+with the language of the statute itself.'' United States v. Steele, 147 
+F.3d 1316, 1318 (11th Cir. 1998) (quoting Merritt v. Dillard, 120 F.3d 
+1181, 1185 (11th Cir. 1997). ``The plain meaning controls.'' United 
+States v. Robinson, 94 F.3d 1325, 1328 (9th Cir. 1996) (citation 
+omitted). The statutory language is clear: if a HUD program falls into 
+either Sec.  1611(c)(1)(A) or (c)(1)(B), such benefits are not 
+available to individuals who are aliens, unless (i) that individual is 
+a qualified alien, or (ii) some other exception applies to the HUD 
+program, either under Sec.  1611(b) or via the definitional limits on 
+``Federal public benefit'' set forth in (c)(2). Thus, the task is 
+simple: construe the plain language of (c)(1)(A)
+
+[[Page 54364]]
+
+and (c)(1)(B). Those provisions state that ``Federal public benefit'' 
+means:
+    (A) any grant, contract, loan, professional license, or commercial 
+license provided by an agency of the United States or by appropriated 
+funds of the United States; and
+    (B) any retirement, welfare, health, disability, public or assisted 
+housing (emphasis added), postsecondary education, food assistance, 
+unemployment benefit, or any other similar benefit for which payments 
+or assistance are provided to an individual, household, or family 
+eligibility unit by an agency of the United States or by appropriated 
+funds of the United States.
+    If HUD ``provide[s]'' the (i) ``grant, contract, loan, professional 
+license, or commercial license,'' or if the ``grant, contract, loan, 
+professional license, or commercial license'' is ``provided by'' 
+``appropriated funds of the United States,'' then such item is a 
+``Federal public benefit.'' Similarly, if HUD ``provide[s]'' the 
+``retirement, welfare, health, disability, public or assisted housing, 
+postsecondary education, food assistance, unemployment benefit, or any 
+other similar benefit,'' or such ``benefit'' is ``provided'' ``by 
+appropriated funds of the United States,'' then such benefit is a 
+``Federal public benefit,'' as long as the benefit is ``provided to'' 
+one of three types of recipients: (i) ``an individual,'' (ii) a 
+``household,'' or (iii) a ``family eligibility unit.''
+
+1. Grant
+
+    Section 1611(c)(1)(A) applies to ``any grant, contract, loan, 
+professional license, or commercial license'' provided by HUD. For 
+purposes of PRWORA, a grant means the award of funding for an 
+individual or entity to carry out specified activities without the 
+direct involvement of HUD.
+    HUD administers a multitude of grant programs, including those in 
+which the grants go to individuals, private entities, and institutions 
+(such as building or services grants) and those in which the grants go 
+to States, units of local government as well as non-profit 
+organizations. The grant ``recipient'' may carry out the activity 
+supported by the grant, but sometimes the recipient may issue a 
+subgrant to an individual or entity. For PRWORA purposes, the term 
+``grant'' includes any ``subgrant'' derivative of a grant. Sometimes 
+the activity supported by the grant is carried out by the recipient and 
+sometimes the recipient acts as a ``pass-through entity'' ``that 
+provides a subaward to a subrecipient to carry out part of a Federal 
+program,'' 2 CFR 200.1 (definitions for uniform grants guidance for all 
+Federal financial assistance), under which the obligations and 
+requirements on the recipient flow down to the subrecipient.
+    Section 1611 (c)(1) of PRWORA defines a ``Federal public benefit'' 
+to mean ``any grant'' (emphasis added). ``Read naturally, the word 
+`any' has an expansive meaning, that is, one or some indiscriminately 
+of whatever kind.'' Ali v. Fed. Bureau of Prisons, 552 U.S. 214, 219 
+(2008) (cleaned up). The statutory text does not distinguish between 
+grants ``to individuals'' and grants ``provided to states or 
+localities.'' Contra 63 FR at 41659. And so, HUD must apply the plain 
+meaning of the statutory text. E.g., Pub. Serv. Elec. & Gas Co. v. 
+F.E.R.C., 989 F.3d 10, 19 (D.C. Cir. 2021) (``[A] regulation can never 
+trump the plain meaning of a statute.'') (quotes omitted).
+    It is HUD's position that any grants it administers that are not 
+explicitly governed by another statute are federal public benefits 
+related to housing assistance and are subject to the eligibility 
+requirements under PRWORA. HUD intends to revise its guidance as to 
+which grant programs are deemed covered by PRWORA or by another 
+statute.
+
+2. ``Any Other Similar Benefit''
+
+    To determine whether a HUD program provides ``any other similar 
+benefit(s)'' under 8 U.S.C. 1611(c)(1)(B), it is instructive to look 
+not just to the enumerated benefits within 8 U.S.C. 1611(c)(1), but 
+also to the exempted Federal public benefits under 8 U.S.C. 1611(b)(1). 
+Here, Congress specified under subparagraphs (B) and (D) that there are 
+exemptions from the general alien restrictions of 8 U.S.C. 1611(a) for 
+certain types of Federal public benefits, including non-cash benefits 
+or in-kind services. In-kind is defined as ``in the same manner or with 
+something equivalent'' Webster's II: New Riverside University 
+Dictionary (1994). In the context of the statute, ``in-kind'' means 
+some sort of non-cash benefit that provides goods or services directly, 
+rather than providing cash to procure those goods or services. The 
+exception under subparagraph (D) applies more specifically to in-kind 
+services that are delivered ``at the community level, including through 
+public or private nonprofit agencies.'' It would not make sense for 
+Congress to exclude these limited non-cash or in-kind services 
+explicitly in 8 U.S.C. 1611(b)(1)(B) and (D) if at least some of those 
+benefits were not already captured under the operative definition of 
+``Federal public benefit'' under 8 U.S.C. 1611(c). Congress would have 
+no need to carve something out that would not otherwise be covered in 
+the first instance under the ``Federal public benefit'' definition. As 
+such, the general definition of ``Federal public benefit'' is best 
+understood to include ``assistance'' similar to the ``deliver[y] [of] 
+in-kind services at the community level, including through public or 
+private nonprofit agencies'' where such benefits have not been 
+specifically excluded by 8 U.S.C. 1611(b)(1).
+
+III. Application to HUD Programs
+
+    HUD interprets PRWORA to apply to all HUD programs related to 
+public or assisted housing as they are ``public or assisted housing'' 
+for which payments or assistance are ``provided to an individual, 
+household, or family eligibility unit by an agency of the United States 
+or by appropriated funds of the United States'' unless a more specific 
+federal statute applies, e.g. Section 214 of the Housing and Community 
+Development Act of 1980, as amended.
+    HUD has applied the provisions of PRWORA to its Community Planning 
+and Development programs and grants which include Homeless Assistance 
+Programs, particularly the Emergency Solutions Grants (ESG) and 
+Continuum of Care (CoC) programs (see 24 CFR parts 576 and 578). HUD 
+considers these programs to award ``grants'' as defined in PRWORA and 
+therefore covered by the definition of ``Federal public benefit'' under 
+the statute. As a result, these grant programs are subject to the 
+eligibility and verification provisions under PRWORA.
+    The covered grant programs include, but are limited to, grants to 
+governments (state and local) or to other organizations. Covered grant 
+programs with governmental grantees include HOME, HOME Investment 
+Partnerships American Rescue Plan (HOME-ARP), National Housing Trust 
+Fund, Community Development Block Grant (CDBG), Community Development 
+Block Grant Disaster Recovery (CDBG-DR), Housing Opportunities for 
+Persons with AIDS (HOPWA) formula, and ESG, but also include Pathways 
+to Removing Obstacles to Housing (PRO Housing) and Preservation and 
+Reinvestment Initiative for Community Enhancement (PRICE) (both 
+competitive). Programs that award grants to non-profit organizations 
+include the CoC program, Congressional earmarks, the HOPWA competitive 
+program, PRO Housing, PRICE and the Self-Help Homeownership Opportunity 
+Program (SHOP).
+
+[[Page 54365]]
+
+IV. Verification and Economic Impact
+
+    HUD will undertake a review and revised guidance in order to 
+determine the means of verification of immigration status as they 
+affect those programs not exempt under Section 1611(b)(1). These will 
+address those program recipients (such as States and government actors) 
+who have access to the Systemic Alien Verification for Entitlements 
+(SAVE) program as well as non-government recipients. Under PRWORA, 
+although nonprofit charitable organizations that administer ``Federal 
+public benefits'' are not required to conduct eligibility verification 
+under 8 U.S.C. 1642(d), it does not relieve states or other 
+governmental from the requirements to ensure that all relevant programs 
+are in compliance with PWRORA. As a result, HUD will be issuing new 
+guidelines related to the verification for benefits provided through 
+its housing assistance and grant programs, including for benefits 
+distributed by charitable non-profit organizations. HUD will be relying 
+in guidance issued by the Department of Homeland Security once that is 
+published.
+    Due to the multitude of HUD programs that are available to tens of 
+millions of individuals, HUD will continue to evaluate the manner in 
+which it will verify compliance with PRWORA. HUD will, to the maximum 
+extent possible, minimize the imposition of reporting and information 
+and information collection requirements. Similarly, HUD continues to 
+analyze the economic impact of this interpretation, but at this time, 
+has not found there to be significant economic impact. HUD will issue 
+subsequent guidance on verification actions and a final determination 
+regarding the economic impact of this interpretation.
+
+David C. Woll,
+General Counsel, Office of the General Counsel.
+[FR Doc. 2025-21120 Filed 11-25-25; 8:45 am]
+BILLING CODE 4210-67-P
+
+
+</pre></body>
+</html>

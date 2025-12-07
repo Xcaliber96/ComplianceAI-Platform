@@ -1,0 +1,2020 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Proposed Rules]
+[Pages 55066-55083]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21620]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+47 CFR Part 1
+
+[WT Docket No. 25-276; FCC 25-67; FR ID 318640]
+
+
+Build America: Eliminating Barriers to Wireless Deployments
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In this document, the Federal Communications Commission (the 
+FCC or Commission) seeks to advance its Build America Agenda by seeking 
+comment on reforms that would free towers and other wireless 
+infrastructure from unlawful regulatory burdens imposed.
+
+DATES: Comments are due December 31, 2025. Reply Comments are due 
+January 15, 2026.
+
+ADDRESSES: Pursuant to Sec. Sec.  1.415 and 1.419 of the Commission's 
+rules, 47 CFR 1.415, 1.419, interested parties may file comments and 
+reply comments on or before the dates indicated on the first page of 
+this document. Comments may be filed using the Commission's Electronic 
+Comment Filing System (ECFS). You may submit comments, identified by WT 
+Docket No. 25-276, by any of the following methods:
+    <bullet> Electronic Filers: Comments may be filed electronically 
+using the internet by accessing the ECFS: <a href="https://www.fcc.gov/ecfs">https://www.fcc.gov/ecfs</a>.
+    <bullet> Paper Filers: Parties who choose to file by paper must 
+file an original and one copy of each filing. Filings can be sent by 
+hand or messenger delivery, by commercial courier, or by the U.S. 
+Postal Service. All filings must be addressed to the Secretary, Federal 
+Communications Commission.
+    <bullet> Hand-delivered or messenger delivered paper filings for 
+the Commission's Secretary are accepted between 8 a.m. and 4 p.m. by 
+the FCC's mailing contractor at 9050 Junction Drive, Annapolis 
+Junction, MD 20701. All hand deliveries must be held together with 
+rubber bands or fasteners. Any envelopes and boxes must be disposed of 
+before entering the building.
+    <bullet> Commercial courier deliveries (any deliveries not by the 
+U.S. Postal Service)
+
+[[Page 55067]]
+
+must be sent to 9050 Junction Drive, Annapolis Junction, MD 20701.
+    <bullet> Filings sent by U.S. Postal Service First-Class Mail, 
+Priority Mail, and Priority Mail Express must be sent to 45 L Street 
+NE, Washington, DC 20554.
+    <bullet> People with Disabilities. To request materials in 
+accessible formats for people with disabilities (braille, large print, 
+electronic files, audio format), send an email to <a href="/cdn-cgi/l/email-protection#2a4c49491f1a1e6a4c4949044d455c"><span class="__cf_email__" data-cfemail="45232626707571052326266b222a33">[email&#160;protected]</span></a> or 
+call the Consumer & Governmental Affairs Bureau at 202-418-0530.
+
+FOR FURTHER INFORMATION CONTACT: Jeff Bartlett, FCC, Wireless 
+Telecommunications Bureau, Competition & Infrastructure Policy 
+Division, (202) 418-1994, <a href="/cdn-cgi/l/email-protection#cc86a9aaaabea9b5e28eadbeb8a0a9b8b88caaafafe2aba3ba"><span class="__cf_email__" data-cfemail="d19bb4b7b7a3b4a8ff93b0a3a5bdb4a5a591b7b2b2ffb6bea7">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: This is a summary of the Commission's Notice 
+of Proposed Rulemaking (NPRM), in WT Docket No. 25-276; FCC 25-276, 
+adopted and released on September 30, 2025. The full text of this 
+document is available at <a href="https://docs.fcc.gov/public/attachments/FCC-25-67A1.pdf">https://docs.fcc.gov/public/attachments/FCC-25-67A1.pdf</a>.
+    Paperwork Reduction Act. This document may contain proposed new or 
+modified information collections. The Commission, as part of its 
+continuing effort to reduce paperwork burdens, invites the general 
+public and the Office of Management and Budget (OMB) to comment on any 
+information collections contained in this document, as required by the 
+Paperwork Reduction Act of 1995, 44 U.S.C. 3501-3521. In addition, 
+pursuant to the Small Business Paperwork Relief Act of 2002, 44 U.S.C. 
+3506(c)(4), we seek specific comment on how we might further reduce the 
+information collection burden for small business concerns with fewer 
+than 25 employees.
+    Regulatory Flexibility Act. The Regulatory Flexibility Act of 1980, 
+as amended (RFA), requires that an agency prepare a regulatory 
+flexibility analysis for notice and comment rulemaking proceedings, 
+unless the agency certifies that ``the rule will not, if promulgated, 
+have a significant economic impact on a substantial number of small 
+entities.'' Accordingly, the Commission has prepared an Initial 
+Regulatory Flexibility Analysis (IRFA) concerning potential rule and 
+policy changes contained in this Notice of Proposed Rulemaking (NPRM). 
+The IRFA is set forth in Appendix B of the NPRM. The Commission invites 
+the general public, in particular small businesses, to comment on the 
+IRFA. Comments must be filed by the deadlines for comments on the first 
+page of this NPRM and must have a separate and distinct heading 
+designating them as responses to the IRFA.
+    Providing Accountability Through Transparency Act. Consistent with 
+the Providing Accountability Through Transparency Act, Public Law 118-
+9, a summary of this document will be available on <a href="https://www.fcc.gov/proposed-rulemakings">https://www.fcc.gov/proposed-rulemakings</a>.
+
+Synopsis
+
+Introduction
+
+    With this Notice of Proposed Rulemaking (NPRM), we advance the 
+Commission's Build America Agenda by proposing reforms that would free 
+towers and other wireless infrastructure from regulatory burdens 
+imposed at the state and local level. This NPRM answers President 
+Trump's call across the federal government to expedite, eliminate, and 
+simplify permitting burdens that inhibit economic development, job 
+creation, and energy production. This proceeding also builds on the 
+Commission's successful efforts during President Trump's first term to 
+streamline infrastructure rules, which helped spur significant 
+investment and network buildout.
+    New infrastructure builds remain essential to this nation's 5G 
+leadership. American consumers demand more from their mobile networks 
+as wireless data traffic rises rapidly year-over-year. The number of 
+mobile voice subscriptions has continued to increase year-over-year. In 
+North America alone, experts predict a 12% compound annual growth rate 
+in mobile data traffic per active smartphone between 2024 and 2030. In 
+addition, fixed wireless access (FWA) services, which are provided over 
+the same networks that provide mobile voice and data service, have 
+gained traction in the marketplace and can play a pivotal role in 
+facilitating the delivery of broadband service. Artificial intelligence 
+(AI) is also expected to significantly increase demand on mobile 
+networks.
+    To ensure that mobile service providers can keep pace with consumer 
+demands and needs, we seek to continue the success of the Commission's 
+prior efforts to remove regulatory barriers that would unlawfully 
+inhibit the deployment of wireless infrastructure. This objective, 
+which reflects a longstanding bipartisan priority, is consistent with 
+Congress's stated intent in the Telecommunications Act of 1996 to 
+``provide for a pro-competitive, de-regulatory national policy 
+framework designed to accelerate rapidly private sector deployment of 
+advanced telecommunications and information technologies to all 
+Americans by opening all telecommunications markets to competition . . 
+. .''
+    In this NPRM, we first seek to clarify and potentially expand upon 
+the Commission's rulings under certain permitting provisions of section 
+6409(a) of the Spectrum Act of 2012 (Spectrum Act) that expedite state 
+or local approval of certain modifications of existing tower and 
+wireless base stations. In particular, in response to court remand, we 
+seek to clarify the meaning of ``concealment elements,'' which are used 
+by builders to minimize the visual impact of towers and other wireless 
+infrastructure, and to codify these clarifications in Sec.  1.6100 of 
+the Commission's rules, as described in Appendix A. We also ask for 
+comment on other changes that the Commission should consider making to 
+Sec.  1.6100, such as changes related to siting conditions, to further 
+streamline wireless permitting proceedings and facilitate the rapid 
+buildout of wireless infrastructure.
+    Second, we seek comment on whether we should take further steps to 
+ensure that state and local permitting regulations do not prohibit or 
+have the effect of prohibiting the deployment of wireless 
+infrastructure facilities pursuant to sections 253 and 332(c)(7) of the 
+Communications Act. We recognize that some state and local governments 
+have taken important steps to modernize their approach to siting 
+requests. However, in recent years, a number of state and local 
+regulations have inhibited the deployment, densification, and upgrading 
+of wireless networks, resulting in an effective prohibition of 5G 
+wireless services. We seek comment on such regulations, including 
+potential preemption, particularly those that:
+    <bullet> Inhibit the deployment of macro cell towers and other 
+wireless facilities;
+    <bullet> Impose unreasonable delays of permitting approvals;
+    <bullet> Assess disproportionate or otherwise unreasonable fees;
+    <bullet> Condition approval on aesthetic or similar criteria; and
+    <bullet> Impose other regulatory impediments in violation of the 
+Telecommunications Act and Commission rules.
+    In addition, we seek comment on whether the Commission should 
+consider implementing alternative dispute resolution procedures to 
+facilitate the resolution of permitting disputes.
+    Our goal is to ensure that all state and local permitting 
+regulations that address the deployment of wireless infrastructure are 
+consistent with the
+
+[[Page 55068]]
+
+requirements of section 6409 of the Spectrum Act and sections 253 and 
+332(c)(7) of the Communications Act, and do not prohibit or effectively 
+prohibit the provision of service. As an overarching matter, we ask 
+that commenters that responded to our companion Notice of Inquiry 
+construing section 253's statutory provisions to identify portions of 
+that record that bear on factual, policy, economic, or legal issues 
+raised in this NPRM to help inform the Commission's next steps in this 
+proceeding.
+
+Background
+
+FCC Implementation of Section 6409(a) of the Spectrum Act
+
+    In section 6409(a) of the Spectrum Act, Congress recognized the 
+efficiency of using existing infrastructure for the expansion of 
+advanced wireless networks, and, accordingly, the need to expedite 
+state or local approval of certain modifications of existing tower and 
+wireless base stations. Section 6409(a) provides that ``a State or 
+local government may not deny, and shall approve, any eligible 
+facilities request for a modification of an existing wireless tower or 
+base station that does not substantially change the physical dimensions 
+of such tower or base station.'' Further, section 6003 of the Spectrum 
+Act requires the Commission to ``implement and enforce'' the provisions 
+of the Spectrum Act as if it ``is a part of the Communications Act of 
+1934.''
+    In 2014, the Commission adopted rules implementing section 6409(a). 
+Section 1.6100(c)(2) of the Commission's rules provides that a state or 
+local government must approve an eligible facilities request within 60 
+days of the date on which an applicant submits the request. The rules 
+define an ``eligible facilities request'' as ``[a]ny request for 
+modification of an existing tower or base station that does not 
+substantially change the physical dimensions of such tower or base 
+station, involving: (i) collocation of new transmission equipment; (ii) 
+removal of transmission equipment; or (iii) replacement of transmission 
+equipment.'' The rules provide that changes are ``substantial'' if 
+they: (i) exceed defined limits on increases in the height or girth of 
+the structure or the number of associated equipment cabinets; (ii) 
+involve excavation or deployment on ground outside a structure's 
+current site; (iii) defeat the concealment elements of the pre-existing 
+structure; or (iv) violate conditions previously imposed by the local 
+zoning authority.
+    In the 2020 Declaratory Ruling, the Commission clarified the 2014 
+rules including clarifying that the term ``concealment elements'' means 
+``elements of a stealth-designed facility intended to make the facility 
+look like something other than a wireless tower or base station,'' such 
+as a tree or flag pole. The Commission clarified that, ``the element 
+must have been part of the facility that the locality approved in its 
+prior review.'' The Commission determined that a modification 
+``defeats'' a concealment element (and thus becomes ineligible for 
+expedited local approval) where it ``cause[s] a reasonable person to 
+view the structure's intended stealth design as no longer effective 
+after the modification.''
+    The 2020 Declaratory Ruling also addressed the application of the 
+siting conditions provision under which a proposed modification would 
+not qualify as an eligible facilities request if it did ``not comply 
+with conditions associated with the siting approval of the construction 
+or modification of the eligible support structure or base station 
+equipment . . . .'' The 2020 Declaratory Ruling stated that this 
+limitation could include aesthetic conditions to minimize the visual 
+impact of a wireless facility, as long as the condition does not 
+prevent modifications explicitly allowed under the rules (antenna 
+height, antenna width, equipment cabinets, and excavations or 
+deployments outside the current site).
+    In 2024, the U.S. Court of Appeals for the Ninth Circuit (Ninth 
+Circuit) upheld the 2020 Declaratory Ruling in most respects but 
+remanded to the Commission to use notice-and-comment rulemaking before 
+clarifying the meaning of ``concealment elements.'' The court 
+determined that the clarifications were ``inconsistent with the 
+unambiguous text'' of the Commission's 2014 rules implementing section 
+6409(a) and therefore were ``legislative rules'' that required a 
+notice-and-comment rulemaking under the Administrative Procedure Act 
+(APA). The court found that the 2020 Declaratory Ruling did not satisfy 
+this procedural requirement and that this was not harmless error.
+
+A. FCC Implementation of Sections 253 and 332(c)(7) of the 
+Communications Act
+
+    Sections 253 and 332(c)(7) of the Communications Act expressly 
+preempt state or local requirements that prohibit or have the effect of 
+prohibiting the provision of telecommunications service and personal 
+wireless service, respectively.
+    Section 253(a) provides that ``[n]o State or local statute or 
+regulation, or other State or local legal requirement, may prohibit or 
+have the effect of prohibiting the ability of any entity to provide any 
+interstate or intrastate telecommunications service.'' This provision 
+establishes ``a rule of preemption [that] articulates a reasonably 
+broad limitation on state and local governments' authority to regulate 
+telecommunications providers.'' Sections 253(b) and 253(c) establish 
+two exceptions to the rule of preemption. First, section 253(b) 
+preserves state statutes, regulations, and legal requirements that are 
+competitively neutral, consistent with section 253 of the Act, and 
+``necessary to preserve and advance universal service, protect the 
+public safety and welfare, ensure the continued quality of 
+telecommunications services, and safeguard the rights of consumers.'' 
+Second, section 253(c) preserves ``the authority of a State or local 
+government to manage their public rights-of-way or to require fair and 
+reasonable compensation from telecommunications providers, on a 
+competitively neutral and nondiscriminatory basis, for the use of 
+public rights-of-way on a nondiscriminatory basis, if the compensation 
+required is publicly disclosed by such government.'' Section 253(d) 
+requires the Commission, after notice and comment, to preempt the 
+enforcement of specific state or local requirements that violate 
+section 253 to ``the extent necessary to correct such violation or 
+inconsistency.''
+    Similar to section 253, Congress specified in section 332(c)(7) 
+that ``[t]he regulation of the placement, construction, and 
+modification of personal wireless service facilities by any State or 
+local government or instrumentality thereof--(I) shall not unreasonably 
+discriminate among providers of functionally equivalent services; and 
+(II) shall not prohibit or have the effect of prohibiting the provision 
+of personal wireless services.'' Section 332(c)(7) also sets forth a 
+judicial remedy, stating that ``[a]ny person adversely affected by any 
+final action or failure to act by a State or local government'' that is 
+inconsistent with the requirements of Section 332(c)(7) ``may, within 
+30 days after such action or failure to act, commence an action in any 
+court of competent jurisdiction.''
+    In 2018, the Commission adopted the Small Cell Order, which 
+affirmed that state or local statutes, regulations, or ordinances are 
+unlawful when they prohibit or have the effect of prohibiting service 
+under sections 253(a) and 332(c)(7) with respect to ``Small
+
+[[Page 55069]]
+
+Wireless Facilities.'' Specifically, the Commission found that state 
+and local regulatory fees prohibit or have the effect of prohibiting 
+the deployment of Small Wireless Facilities under sections 253 and 332, 
+unless the fees: (1) reasonably approximate the state or local 
+government's costs; (2) include only ``objectively reasonable costs''; 
+and (3) are ``no higher than the fees charged to similarly-situated 
+competitors in similar situations.'' Given the characteristics of Small 
+Wireless Facilities and the anticipated number of deployments, the 
+Commission concluded that for Small Wireless Facilities, fees that 
+exceed these limits prohibit or have the effect of prohibiting service 
+when considered in the aggregate. The Commission also established 
+presumptive ``shot clocks'' that govern the amount of time state and 
+local permitting authorities can take to review applications for both 
+Small Wireless Facilities and other larger facilities. The Commission 
+also concluded that state and local ``aesthetics requirements are not 
+preempted if they are (1) reasonable, (2) no more burdensome than those 
+applied to other types of infrastructure deployments, and (3) objective 
+and published in advance.''
+    In August 2020, the Ninth Circuit upheld the Commission's Small 
+Cell Order with respect to fee limitations, shot clocks, and the 
+finding that aesthetic requirements must be reasonable. The court, 
+however, vacated and remanded the Commission's determination that 
+aesthetic requirements be no more burdensome than those applied to 
+other types of infrastructure deployments, and found that the 
+requirement that aesthetic requirements be objective lacked a reasoned 
+explanation.
+
+Discussion
+
+B. Section 6409(a) of the Spectrum Act
+
+    We propose to revise Sec.  1.6100 of the Commission's rules (as set 
+forth in Appendix A of the NPRM) to codify the 2020 Declaratory 
+Ruling's clarifications regarding concealment elements and siting 
+conditions. In addition, we propose to codify the guidance and examples 
+the Commission provided in the 2020 Declaratory Ruling, to illustrate 
+how the rule revisions would operate in practice. We anticipate that 
+revising the rules as proposed will help provide greater certainty, and 
+thereby reduce the number of disputes in the permitting process.
+Concealment Elements
+    Section 1.6100(b)(7)(v) of the Commission's rules states that a 
+modification ``substantially changes'' the physical dimensions of an 
+existing structure if ``[i]t would defeat the concealment elements of 
+the eligible support structure,'' but it does not define what qualifies 
+as a ``concealment element.'' In the Wireless Infrastructure Order the 
+Commission stated that ``concealed or `stealth'-designed facilities'' 
+were ``facilities designed to look like some feature other than a 
+wireless tower or base station,'' and that ``any change that defeats 
+the concealment elements of such facilities would be considered a 
+substantial change under section 6409(a).'' The Commission identified 
+``painting to match the supporting facade or artificial tree branches'' 
+as examples of ``concealment elements.''
+    In the 2020 Declaratory Ruling, the Commission sought to clarify 
+the concealment elements provision in Sec.  1.6100(b)(7)(v), noting 
+that stakeholders had ``interpreted the definition of `concealment 
+element' and the types of modifications that would `defeat' concealment 
+in different ways.'' The Commission clarified that concealment elements 
+were ``elements of a stealth-designed facility intended to make the 
+facility look like something other than a wireless tower or base 
+station.'' The Commission also found that concealment elements are 
+``defeated'' when ``the proposed modification . . . cause[s] a 
+reasonable person to view the structure's intended stealth design as no 
+longer effective after the modification.'' In doing so, the Commission 
+rejected arguments that ``any attribute that minimizes the visual 
+impact of a facility, such as a specific location on a rooftop site or 
+placement behind a tree line or fence, can be a concealment element.'' 
+The Commission noted that local governments often address visual 
+impacts ``not through specific stealth conditions, but through careful 
+placement conditions'' and that the Commission's rules governing 
+``conditions associated with the siting approval'' separately address 
+conditions to minimize the visual impact of non-stealth facilities.
+    Consistent with the 2020 Declaratory Ruling, we propose to define 
+concealment elements as those elements intended to make a stealth-
+designed facility look like something other than a wireless tower or 
+base station. We also propose that a requested modification would 
+``defeat'' a concealment element if it would cause a reasonable person 
+to view the structure's intended stealth design as ineffective. A 
+proposed modification would not defeat concealment if its stealth-
+design elements would continue to make the structure not appear to be a 
+wireless facility.
+    We further propose to codify the guidance the Commission provided 
+in the 2020 Declaratory Ruling regarding the application of this 
+approach. For example, placing coaxial cable on the outside of a 
+stealth facility would be unlikely to make the stealth design of the 
+facility ineffective because such cables are typically a small size. A 
+modification that involves a change in color would only defeat 
+concealment if it would cause a reasonable person to view the intended 
+stealth design of the underlying facility as no longer effective. For 
+facilities stealth-designed to resemble a pine tree (a ``monopine'' 
+wireless facility), if the prior approval of that facility requires 
+that the monopine remain hidden behind a tree line, a proposed 
+modification that makes the monopine visible above the tree line would 
+not defeat concealment if a reasonable person would continue to view 
+the stealth design of the monopine as effective. We would not view a 
+requirement that the facility remain hidden behind a tree line as a 
+feature of a stealth-designed facility, but instead as an aesthetic 
+siting approval condition that would fall under Sec.  1.6100(b)(7)(vi), 
+as described below.
+    We expect that these changes will provide a clearer regulatory 
+framework that will mitigate potential disputes during the permitting 
+process and expedite broadband deployment. We seek comment on this 
+analysis and on the scope of benefits and any potential drawbacks 
+associated with our proposed approach. Do commenters agree that 
+adopting these proposed rule changes would help spur wireless 
+facilities deployment by providing clarity and reducing permitting 
+disputes? We ask commenters to provide information about their 
+experiences during the permitting process. To what extent do disputes 
+regarding concealment elements arise? What changes have localities 
+viewed as defeating concealment? What effect have such disputes about 
+concealment elements had on efforts to deploy wireless infrastructure? 
+If any commenters oppose our proposed rule changes, we ask them to 
+explain why the proposed changes should not be adopted and to discuss 
+alternative approaches we should consider, including any alternative 
+approaches that should apply to small entities. We propose to codify 
+the examples to illustrate how the rules would apply and seek
+
+[[Page 55070]]
+
+comment on this approach. Are there other situations that we should 
+consider addressing in this manner?
+Conditions Associated With the Siting Approval
+    We also propose to revise the rules to formally codify the 
+Commission's determinations in the 2020 Declaratory Ruling regarding 
+siting approval conditions. Under the current rules, a modification is 
+``substantial'' (and thus ineligible for expedited approval) if ``[i]t 
+does not comply with conditions associated with the siting approval of 
+the construction or modification of the eligible support structure or 
+base station equipment, provided however that this limitation does not 
+apply to any modification that is non-compliant only in a manner that 
+would not exceed the thresholds identified in [paragraphs](b)(7)(i) 
+through (iv).'' Consistent with the court's decision and the 2020 
+Declaratory Ruling, we propose to revise the rule to clarify that any 
+siting approval condition--including an aesthetics-related condition or 
+any other condition designed to address the visual impact of a 
+facility--cannot be used to prevent modifications specifically allowed 
+under Sec.  1.6100(b)(7)(i) through (iv) of the rules.
+    We further propose to adopt and codify the Commission's previous 
+guidance and examples from the 2020 Declaratory Ruling. For example, if 
+a locality had an aesthetics-related condition that specified a three-
+foot shroud cover for a three-foot antenna, the locality could not 
+prevent replacement of the original antenna with a four-foot antenna 
+that complies with Sec.  1.6100(b)(7)(i). If there was express evidence 
+that the shroud cover requirement was a condition of the locality's 
+original approval, the locality could enforce its shrouding condition 
+if the provider could reasonably install a four-foot shroud to cover 
+the new four-foot antenna. The locality also could enforce a shrouding 
+requirement that was not size-specific and that did not limit 
+modifications allowed under Sec.  1.6100(b)(7)(i) through (iv).
+    Under the proposal, existing walls and fences around non-stealth 
+designed facilities would be considered aesthetic conditions and not 
+concealment elements. However, if there was express evidence that the 
+wall or fence was a condition of approval in order to fully obscure the 
+original equipment from view, the locality may require a provider to 
+make reasonable efforts to extend the wall or fence to continue 
+covering the equipment. We further propose to codify the Commission's 
+2020 guidance that for a tower that was originally approved conditioned 
+on being hidden behind a tree line, a proposed modification, allowed 
+under Sec.  1.6100, that would make the tower visible above the tree 
+line would be permitted. A locality could not prevent such a 
+modification because the provider presumably could not reasonably 
+replace a grove of mature trees with a grove of taller mature trees to 
+maintain the absolute hiding of the tower.
+    We seek comment on the proposed rule changes. We tentatively 
+conclude that they would make the Commission's rules clearer and easier 
+to understand, streamline the wireless permitting processes across the 
+country, and minimize disputes over differing interpretations. We ask 
+for comments on this analysis and on the potential benefits or 
+drawbacks of this approach. In addition, we invite commenters to 
+discuss their experiences with respect to aesthetics-related conditions 
+and conditions designed to address the visual impact of wireless 
+facilities. Do such conditions affect the time to complete deployment, 
+increase costs, or reduce providers' ability to satisfy coverage 
+demands and/or provide enhanced services. We ask commenters to also 
+provide information on the extent to which such conditions have 
+restricted modifications to existing infrastructure that would have 
+otherwise been permitted under our rules. Commenters who oppose our 
+approach should explain why the proposed rule changes should not be 
+adopted and discuss alternatives the Commission should consider, 
+including alternatives that would be appropriate for small entities.
+Other Considerations
+    Finally, we seek comment on other possible changes to Sec.  1.6100 
+to reduce permitting and other barriers to infrastructure deployment. 
+For example, should the Commission clarify the relationship between 
+time-limited conditional use permits (CUPs) and the requirements of 
+section 6409(a)? Recently, some local jurisdictions have passed 
+ordinances that require tower owners to renew their wireless tower 
+facility permits after 10 years, which include ``eligible facilities'' 
+under section 6409. In some instances, after the expiration of the 
+initial permit period, the local government imposes new conditions on 
+permit renewals for deployments previously deemed eligible facilities 
+requests under section 6409(a). For example, a City of Monterey, CA 
+ordinance states that a wireless facility permit may not have a 
+duration longer than ten years. We seek comment on whether the 
+Commission should adopt a rule that, once a particular deployment is 
+found to be an eligible facilities request and the permit is granted by 
+a state or local jurisdiction, that state or local jurisdiction may not 
+seek to impose new conditions as part of a permit renewal process. Does 
+the imposition of new conditions at the time of renewal conflict with 
+section 6409(a)(1), which provides, in pertinent part, that ``a State 
+or local government may not deny, and shall approve, any eligible 
+facilities request for a modification of an existing wireless tower or 
+base station that does not substantially change the physical dimensions 
+of such tower or base station''? Are such ordinances equivalent to a 
+local or state government limiting eligible facilities status to the 
+length of the term of the local permit? Is there any scenario under 
+which an ``eligible facility'' would lose this designation after it is 
+acknowledged at the initial permit stage? For example, would imposing a 
+new condition be acceptable after a natural disaster alters the terrain 
+where the eligible facility was previously authorized?
+    Are there other changes that should be made to initial permit 
+application review and/or renewal applications that would clarify and 
+expedite deployment? Is there a need to further clarify when the 
+timeframe for review is deemed to have begun? Are there other 
+considerations regarding Sec.  1.6100 that would clarify the permitting 
+and renewal process and make it more efficient?
+
+C. Sections 253 and 332(c)(7) of the Communications Act
+
+    As described in this section, we continue to see state and local 
+regulatory impediments to vital infrastructure builds and to the 
+provision of new and high quality services in a competitive 
+marketplace. We seek comment on whether we should take further steps to 
+ensure that state and local permitting regulations do not prohibit or 
+have the effect of prohibiting the deployment of wireless 
+infrastructure facilities pursuant to sections 253 and 332(c)(7) of the 
+Communications Act, recognizing the Ninth Circuit's guidance outlined 
+above. Specifically, we seek comment on state and local permitting 
+regulations that: inhibit the deployment of macro cell towers and other 
+wireless facilities, impose unreasonable delays on permitting 
+approvals, assess disproportionate or otherwise unreasonable fees, 
+condition approval on aesthetic requirements or similar criteria, and 
+impose other regulatory
+
+[[Page 55071]]
+
+impediments. In addition, we seek comment on whether the Commission 
+should consider implementing alternative dispute resolution procedures 
+to resolve permitting disputes between applicants and state and local 
+governments.
+Macro Cell Towers and Other Wireless Facilities
+    The Small Cell Order focused on state and local permitting 
+requirements that affect the installation of Small Wireless Facilities. 
+We recognize, however, the importance of ensuring the timely buildout 
+of macro cell towers and other wireless facilities, which play a vital 
+role in promoting competition and securing higher-quality services.
+    We seek comment on whether we should extend any of the Small Cell 
+Order reforms adopted in 2018 or discussed in this NPRM to macro cell 
+towers and other wireless facilities. Are there barriers to extending 
+the Small Cell Order reforms to macro facilities or other wireless 
+facilities? Commenters should identify which reforms should or should 
+not be extended, and provide specific examples and data that support 
+their position. For example, are there aspects of the Small Cell Order 
+related to densification or fees that are applicable to macro towers or 
+other wireless facilities? If we extend any of the Small Wireless 
+Facilities reforms to macro cell towers and other wireless facilities, 
+is there a need to modify these reforms to match the specific 
+circumstances associated with the siting of these types of facilities? 
+Are there issues beyond those addressed in the Small Cell Order and 
+this NPRM that are unique to macro cell towers and, if so, how should 
+the Commission address those issues?
+    We also seek comment on what constitutes a macro cell tower. Are 
+macro cell towers simply wireless facilities that do not qualify as 
+Small Wireless Facilities under our rules? Are there other factors that 
+we should consider in defining macro cell towers and related 
+facilities? For instance, should we consider the height, width, and 
+volume of the tower or whether the tower is a monopole, lattice, or 
+guyed tower? Should we consider whether the macro facilities or other 
+wireless facilities will be placed on pre-existing structures (e.g., a 
+water tower)? Commenters should propose definitions for what qualifies 
+as a macro cell tower or other wireless facilities, explain how these 
+facilities are distinguishable from Small Wireless Facilities, and 
+articulate how the Commission should treat these other categories of 
+wireless facilities.
+Unreasonable Delays of Permitting Approvals
+    In the Commission's 2009 Declaratory Ruling, the Commission 
+established a ``shot clock'' framework to implement the ``reasonable 
+period of time'' provision of section 332(c)(7)(B)(ii), finding that 
+the lack of a decision from a permitting authority within certain 
+periods of time constituted a ``failure to act''. Specifically, the 
+Commission found that 90 days is a reasonable time frame for processing 
+collocation applications and 150 days is a reasonable time frame to 
+process applications other than collocations. In the Small Cell Order, 
+the Commission adopted a new shot clock framework to take into account 
+the unique features and needs of Small Wireless Facilities. There, the 
+Commission adopted a 60-day shot clock as a presumptively reasonable 
+time period for reviewing applications for Small Wireless Facility 
+collocations, and a 90-day shot clock as a presumptive reasonable time 
+period for a newly constructed structure. The Commission also codified 
+the presumptive 90-day and 150-day shot clocks developed in the 2009 
+Declaratory Ruling for siting applications that do not involve Small 
+Wireless Facilities.
+    We seek comment on how well the shot clocks codified in the 
+Commission's rules have helped expedite the delivery of advanced 
+communications services. Have the shot clock timeframes provided 
+greater clarity and efficiency in processing permit applications? Has 
+litigation been reduced? Would adopting additional shot clocks for 
+specific scenarios help improve the efficiency of permit approvals and, 
+if so, what specific revisions and/or additions should be made?
+    In the Small Cell Order, the Commission codified its previous 
+determination that a shot clock begins to run when an application is 
+submitted, not when it is deemed complete by the permitting authority. 
+The rules provide for a temporary pause or tolling if: (1) the 
+permitting authority notifies the applicant within 30 days of 
+submission that the application is materially incomplete and specifies 
+the information needed for completion; and (2) the locality provides 
+written notice to the applicant within 10 days of submission of the 
+applicant's response that not all of the specified information was 
+submitted. The shot clock restarts once the applicant submits the 
+supplemental information.
+    We seek comment on the effectiveness of these notifications in 
+removing complications and ensuring the efficient processing of 
+incomplete applications. Are permitting authorities requesting multiple 
+rounds of supplements, with subsequent requests including comments not 
+contained in the first request? How often do permitting authorities 
+notify applicants of incomplete filings close to the end of the shot 
+clock period?
+    The Commission determined violations of the shot clocks for Small 
+Wireless Facilities constitute a section 332(c) ``failure to act,'' and 
+a ``presumptive prohibition on the provision of personal wireless 
+services within the meaning of section 332(c)(7)(B)(i)(II).'' The 
+Commission expects that either the permitting authority would ``issue 
+all necessary permits without further delay,'' or the applicant would 
+have ``a straightforward case'' for obtaining relief in court based on 
+violations of section 332(c)(7). The Commission anticipated that courts 
+will typically find that injunctive relief is warranted if there is 
+inaction at the end of the shot clock period, absent extraordinary 
+circumstances that would rebut the presumptive shot clock period.
+    In the Small Cell Order, the Commission noted that ``there may be 
+merit'' to a ``deemed granted'' remedy but it declined to adopt this 
+remedy because it determined that the shot clock framework that it had 
+codified ``should address the concerns raised by a `deemed granted' 
+remedy.'' The Commission also indicated that if its approach ``proves 
+insufficient'' it may again consider adopting a deemed granted 
+approach.'' The Ninth Circuit upheld the Commission's decision not to 
+adopt a ``deemed granted'' remedy because the Commission had 
+``reasonably explained'' that the new shot clock framework would reduce 
+delays prevalent under the prior shot clock regime.
+    We seek comment on whether shot clocks are preventing unreasonable 
+delay or whether the Commission should reconsider its prior decision 
+not to adopt a deemed granted remedy. If appropriate, what would be the 
+basis for the Commission to adopt a ``deemed granted'' rule for shot 
+clock violations? For example, could a deemed granted remedy be 
+justified on the basis that unreasonable delays have the effect of 
+prohibiting deployment in violation of section 332(c)(7)(B)(i)(II)? 
+Could the Commission enforce a shot clock violation through a petition 
+under section 253(d)?
+    In addition, we seek comment on the effect of excessive delays on 
+the prohibition of covered service under section 253 and 332(c)(7). For 
+example,
+
+[[Page 55072]]
+
+can excessive delays result in the abandonment of certain planned 
+deployments? Can such delays also raise the cost of deployments such 
+that a provider might be forced to scale back a planned deployment, 
+either in the locality affected by the delay or in other planned 
+localities? Commenters should provide estimates of recent deployment 
+costs that were raised or schedules that were not met due to expected 
+or actual delays in authorization, including costs per day of delay. 
+How do covered service providers determine when regulatory costs and 
+delays make the provision of telecommunications uneconomical and, 
+therefore, prohibitive in a community? Do delays and costs have a 
+uniquely harmful effect on wireless deployments as opposed to other 
+types of deployments?
+Disproportionate or Unreasonable State and Local Fees
+    Standard for Determining Reasonability of Fees. In the Small Cell 
+Order, the Commission recognized that ``state and local fees and other 
+charges associated with the deployment of wireless infrastructure can 
+unlawfully prohibit the provision of service'' under sections 253 and 
+332(c)(7). The Commission determined that ``fees are only permitted to 
+the extent that they are nondiscriminatory and represent a reasonable 
+approximation of the locality's reasonable costs.'' The Commission 
+identified ``specific fee levels for the deployment of Small Wireless 
+Facilities that presumptively comply with this standard.'' The 
+Commission further found that ``a variety of fees not reasonably 
+tethered to costs appear to violate sections 253(a) or 332(c)(7) . . . 
+.'' For example, the Commission noted, ``gross revenue fees generally 
+are not based on the costs associated with an entity's use of the ROW, 
+and where that is the case, are preempted under section 253(a).'' With 
+respect to the use of third party contractors or consultants, the 
+Commission found that the ``fees must not only be limited to a 
+reasonable approximation of costs, but in order to be reflected in 
+fees, the costs themselves must also be reasonable.'' In City of 
+Portland, the Ninth Circuit upheld the Commission's determinations on 
+fees, concluding that the Commission reasonably determined that, when 
+localities impose small cell fees that exceed the localities' actual 
+and reasonable costs, those inflated fees have a prohibitive effect on 
+the deployment of small cells nationwide.
+    Subsequent to the Small Cell Order, the Wireless Telecommunications 
+Bureau (Bureau) addressed a petition for declaratory ruling requesting 
+preemption of certain recurring fees set forth in a Clark County, 
+Nevada (Clark County) ordinance. In doing so, the Bureau clarified 
+that, pursuant to the Small Cell Order, a locality, rather than the 
+petitioner, ``has the burden of demonstrating to the Commission why 
+fees above safe harbor levels should not be preempted (assuming that 
+the petitioner has made a prima facie case that the fees in question 
+do, in fact, exceed these safe harbor levels).''
+    We seek comment on the extent to which state and local fees 
+continue to impede wireless infrastructure deployment and on whether 
+certain findings in the Small Cell Order on fees are equally applicable 
+to larger wireless facilities, such as macro towers. Additionally, we 
+seek comment on whether we should codify the Commission's findings from 
+the Small Cell Order and the Verizon Clark County Dismissal Order? 
+Should we consider adopting other safe harbors for additional types of 
+fees and/or additional types of wireless infrastructure deployments, 
+such as larger wireless facilities? Should we further define what 
+constitutes reasonable costs? If so, what rules should we consider to 
+help ensure that costs are reasonably limited to the processing of 
+applications and to the use and maintenance of rights of way? Would 
+codifying these clarifications help prevent states and localities from 
+continuing to impose fees that are unlawful under sections 253 and 
+332(c)(7)?
+    Application of Economic Principles. The Commission's clarifications 
+on fees in the Small Cell Order stemmed from application of economic 
+principles and its recognition that ``infrastructure builders, like all 
+economic actors, have a finite (though perhaps fluid) amount of 
+resources to use for the deployment of infrastructure'' and that ``fees 
+imposed by localities, above and beyond the recovery of localities' 
+reasonable costs, materially and improperly inhibit deployment that 
+could have occurred elsewhere.'' Moreover, the Commission has 
+recognized the importance of considering the ``aggregate effects of 
+fees imposed by individual localities.'' While the Commission's focus 
+in the Small Cell Order was on the use of Small Wireless Facilities, we 
+tentatively conclude that its implicit rationale applies with equal 
+force to macro facilities and other wireless facilities. Such 
+facilities continue to be critically important components of wireless 
+network infrastructure nationwide and providers need these facilities 
+to densify their networks and help improve the quality of the services 
+they offer. We seek comment on whether this economic interpretation of 
+our rules could help set a standard for determining when high rights-
+of-way and other access fees on macro facilities and other wireless 
+facilities would ``have the effect of prohibiting'' the deployment of 
+5G networks--as they would raise the cost of service provision above a 
+competitive level and prohibit certain efficient investments.
+    This theoretical grounding supports and flows naturally from the 
+principles the Commission articulated in the Small Cell Order, and we 
+seek comment on how to apply them in the context of macro and other 
+wireless facilities--in particular how an economic grounding 
+illuminates the ``prohibit or have the effect of prohibiting'' language 
+in sections 253 and 332. As noted, section 253 preempts any state or 
+local regulations that ``prohibit or have the effect of prohibiting the 
+ability of any entity to provide any interstate or intrastate 
+telecommunications service.'' We are interested in understanding this 
+provision from an economic perspective in a manner consistent with the 
+Small Cell Order.
+    In particular, we are interested in exploring the fact that states 
+and localities can set prices in a manner that is freed from 
+competitive constraints when setting rights-of-way and other access 
+charges. They therefore can charge rights-of-way fees that are higher 
+than the direct or incremental costs of such access, thereby 
+prohibiting the making of socially beneficial investments. Indeed, all 
+else equal, setting price above incremental costs will tend to lower 
+investment and reduce overall social welfare. The concern over lost 
+investment due to excessive fees for access to rights-of-way or 
+facilities within the rights-of-way is reflected in the Commission's 
+precedent. As the Commission said in the California Payphone Order and 
+emphasized again in the Small Cell Order, section 253 preempts those 
+``ordinance[s that] materially inhibi[t] or limi[t] the ability of any 
+competitor or potential competitor to compete in a fair and balanced 
+legal and regulatory environment.''
+    In competitive markets, prices tend toward marginal or incremental 
+cost resulting in greater consumer welfare. Fees that are closely 
+connected to recovering only direct or incremental costs are generally 
+acceptable under section 253(a), while fees that recover more overhead 
+such as joint and common costs require greater scrutiny. Fees that were 
+set without regard to costs, such as those based on a
+
+[[Page 55073]]
+
+percentage of a provider's revenue, require the greatest scrutiny. Do 
+commenters agree that fees that exceed the direct or incremental costs 
+of issuing permits for such facilities result in a reduction in 
+infrastructure investment and effectively prohibit the provision of 
+wireless services on that basis?
+    The Small Cell Order found fees above and beyond the localities' 
+reasonable costs can result in an effective prohibition of a deployment 
+elsewhere. As part of that determination, should we allow localities to 
+recover some portion of joint and common costs? We note that, with the 
+exception of Ramsey pricing, there is no non-arbitrary methodology for 
+allocating common costs. Economic principles, therefore, can only 
+suggest ranges of acceptable rights-of-way and access fees. Given the 
+lack of clear economic principles for allocating common costs, would 
+allowing recovery of common costs enable localities to load significant 
+common costs on to access fees, such that they would discourage network 
+investment?
+    With respect to macro facilities and other wireless facilities, 
+should the Commission allow localities to recover a portion of their 
+joint and common costs? How do these costs relate to section 253's 
+protection of states' and localities' ability to ``require fair and 
+reasonable compensation from telecommunications providers, on a 
+competitively neutral and nondiscriminatory basis?'' Given the 
+importance of encouraging the deployment of telecommunications 
+infrastructure, does section 253(c) require the recovery of common 
+costs in excess of those costs directly attributable to, or caused by, 
+the deployment of telecommunications infrastructure within the rights-
+of-way? We seek comment on what would be an appropriate limiting 
+principle for joint and common costs in the context of macro and other 
+wireless facilities that would be within the scope of this statutory 
+provision and inform the Commission's determination in this proceeding.
+    In particular, would it be helpful for the Commission to define: 
+(1) which types of potential common costs could be recovered from 
+telecom providers; and (2) the portion of common costs that could be 
+recovered from each provider? As far as which types of potential common 
+costs could be recovered, we seek comment on limiting recoverable costs 
+to those that directly and unambiguously benefit the party on which the 
+fee is assessed. As far as the portion of common costs that could be 
+recovered from each provider, we seek comment on suggesting that states 
+and localities employ some measure of usage and/or benefits of cost-
+imposing activity to determine the portion of common costs recovered 
+from each party benefiting from the activity. We also seek comment on 
+whether and to what extent we should consider cost recovery schemes the 
+Commission has adopted in other contexts to inform our understanding of 
+fees that ``ha[ve] the effect of prohibiting'' under section 253(a) and 
+fall outside the scope of ``fair and reasonable compensation'' under 
+section 253(c).
+    Preemption of Local Fees. We are aware that applicants seeking 
+permits to deploy wireless infrastructure facilities continue to face a 
+range of state and local fees that may prohibit or have the effect of 
+prohibiting telecommunications service in violation of sections 253 and 
+332(c)(7). These state and local fees take the form of initial one-time 
+fees, consulting fees, annual recurring fees, and gross revenue fees. 
+These fees are applicable to permit requests for both Small Wireless 
+Facilities as well as larger wireless facilities, such as macro towers. 
+We tentatively conclude that the following examples are not justified 
+by a state or local government's reasonable costs, and we seek comment 
+on whether the Commission should preempt the local regulations that 
+impose the fees discussed below. In addition to those listed, we also 
+seek comment on other instances where state and local fees may be 
+prohibiting or having the effect of prohibiting covered services.
+    One-time Fees:
+    <bullet> The City of San Francisco, California: Application fee of 
+$6,874 and a surcharge of $120 for a total of $6,994;
+    <bullet> City of San Diego, California: Fees ranging from more than 
+$13,000 to more than $16,000 in addition to other fees to cover an 
+``environmental initial study'' and an ``historic resources review'';
+    <bullet> County of San Diego, California: Initial deposit plus fee 
+ranging from more than $9,000 to more than $19,000 depending on type of 
+facility;
+    <bullet> Gwinnett County, Georgia: Application fee of $6,000 for 
+communication towers greater than 50 feet in height;
+    <bullet> Grant County, New Mexico: Application fee of $17,500 for a 
+new tower and a $9,000 application fee for collocation on an existing 
+tower or modification of existing facilities;
+    <bullet> Rio Rancho, New Mexico: Application fee up to $15,000 for 
+a new tower and $8,000 for collocation or substantial change;
+    <bullet> Putnam Valley, New York: Building permitting fee of up to 
+$5,000 per linear foot in height for a new tower plus a $3,000 fee for 
+each antenna collocated on the tower;
+    <bullet> Marion, North Carolina: Application fee of $5,000 for a 
+new wireless tower plus an additional $15,000 fee for new towers to be 
+located in the downtown district;
+    <bullet> Portland, Oregon: Conditional use fee of $6,251 or $9,315 
+(depending on location), plus additional fees for design review, 
+environmental review, greenway review, and/or historic resource review 
+that can exceed $20,000 in total; and
+    <bullet> Thurston County, Washington: Base application fee of 
+$25,776 (includes community planning and economic development, 
+environmental health, and public works development review).
+    Consulting Fees:
+    <bullet> Oyster Bay, New York: Regulation that requires an 
+applicant to maintain an escrow account with a balance of between 
+$2,500 and $5,000 to reimburse the town for consultant costs; and
+    <bullet> Walkersville, Maryland: Regulation that requires an expert 
+assistance fee of no less than $7,500 for a new tower, support 
+structure, or a substantial modification.
+    Recurring Fees:
+    <bullet> Phoenix, Arizona: Annual recurring fees for public rights-
+of-way use for macro facilities that range from more than $4,000 to 
+more than $27,000 depending on the size of ground equipment that is 
+installed at the site; and
+    <bullet> Scottsdale, Arizona: Annual recurring fee for public 
+rights-of-way use for macro facilities that ranges from more than 
+$7,000 to more than $30,000 depending on the size of ground equipment 
+installed.
+    Gross Revenue Fees:
+    <bullet> Ashland, Oregon: Except for limited use telecommunications 
+grantees, imposing minimum quarterly right-of-way usage fee equaling a 
+percent of the grantee's gross revenues derived from grantee's 
+provision of telecommunications services and telecommunications 
+facilities to retail customers in the City and one percent (1%) on all 
+other gross revenues derived from grantee's provision of 
+telecommunications services and telecommunications facilities to 
+wholesale customers in the City;
+    <bullet> Ogden City, Utah: Providing that unless a wireless 
+provider is subject to the Municipal Telecommunications License Tax 
+under title 10, chapter 1, part 4 Utah Code Annotated, for the right to 
+use and occupy the right-of-way the wireless provider shall pay to the
+
+[[Page 55074]]
+
+City an annual fee equal to the greater of: 3.5 percent of all annual 
+gross revenue related to the wireless provider's use of the right-of-
+way within the City or two hundred fifty dollars ($250.00) annually for 
+each small wireless facility located in the City;
+    <bullet> St. George, Utah: Imposing an annual right of way usage 
+fee equal to the greater of: (1) three and one-half percent (3.5%) of a 
+wireless provider's gross revenues related to wireless provider's use 
+of the public way, or (2) two hundred fifty dollars ($250.00) per small 
+wireless facility; and
+    <bullet> Lake Forest, Illinois: Imposing a city telecommunications 
+infrastructure maintenance fee upon all telecommunications retailers in 
+the amount of 1.0% of all gross charges charged by the 
+telecommunications retailer to service addresses within the city for 
+telecommunications originating or received in the city.
+    For the four categories of fee regulations provided above we seek 
+comment on our tentative conclusion that we should preempt these 
+provisions because these fee regulations prohibit or have the effect of 
+prohibiting the ability of wireless service providers to provide 
+covered service. These fees do not appear to represent a reasonable 
+approximation of the local permitting authority's reasonable costs. For 
+example, some are assessed at a flat rate and, thus, do not appear to 
+reflect the specifics of individual applications, such as the 
+conditions at the particular site or the size and other characteristics 
+of the proposed facility.
+    To the extent these fees are applicable to Small Wireless 
+Facilities, they do not appear to comply with the Commission's safe 
+harbor fee levels, and are unlikely to be based on the costs associated 
+with an entity's use of the public rights-of-way. For those that apply 
+to larger wireless facilities, such as macro towers, the cumulative 
+effect of these fees on macro towers can constrain providers' capital 
+budgets and limit their ability to upgrade and improve their networks, 
+similar to Small Wireless Facilities. Accordingly, we seek comment on 
+whether we should preempt the local fee regulations listed above for 
+both Small Wireless Facilities and other wireless facilities as 
+violating sections 253(a) and 332(c)(7).
+    Commenters advocating for preemption of such fees should provide 
+evidence and documentation demonstrating that these fees prohibit or 
+have the effect of prohibiting covered service and demonstrating that 
+these fees are not based on the locality's reasonable and actual costs. 
+Commenters who support these fees should explain why the Commission 
+should not preempt these fees. They should provide evidence or 
+documentation that: (1) these fees represent a reasonable approximation 
+of the locality's costs and that the costs themselves are reasonable; 
+and (2) that these fees are reasonably related to the management of 
+public rights-of-way or the fees represent fair and reasonable 
+compensation on a competitively neutral and nondiscriminatory basis for 
+use of public rights-of-way.
+    Are there other local permitting authorities that are imposing 
+regulatory fees that mirror the fees cited above? If so, commenters 
+should provide cites to these regulations, explain why the Commission 
+should preempt these fees, and provide a legal rationale supporting 
+their position, for example, that the fees are an effective prohibition 
+of covered services and/or are not fair and reasonable.
+Aesthetic Requirements
+    In 2018, the Commission found that aesthetic regulations for Small 
+Wireless Facilities significantly impacted the ability to deploy 
+wireless infrastructure. The Commission stated that ``[l]ike fees, 
+compliance with aesthetic requirements imposes costs on providers, and 
+the impact on their ability to provide service is just the same as the 
+impact of fees.'' The Commission concluded that, to be permissible 
+under section 332, aesthetic requirements had to be reasonable, no more 
+burdensome than those applied to other types of infrastructure 
+deployments, and objective and published in advance.
+    In City of Portland, the Ninth Circuit upheld the Commission's 
+ruling that local aesthetic regulations be ``reasonable,'' and left in 
+place the requirement that such regulations be ``published in 
+advance.'' The court vacated the requirement that local aesthetic 
+regulations for Small Wireless Facilities be ``no more burdensome'' 
+than those imposed on ``other types of infrastructure deployments'' 
+because it found this requirement to ``depart[ ] from . . . Section 332 
+in at least two critical ways.' '' First, the court found that the 
+Commission's standard did ``not permit even reasonable regulatory 
+distinctions among functionally equivalent, but physically different 
+services.'' Second, the Commission's standard ``require[d] the 
+comparison of the challenged aesthetic regulation of 5G deployments to 
+the regulation of any other infrastructure deployments, while the 
+statute only requires a comparison with the regulation of functionally 
+equivalent infrastructure deployments.''
+    Against this backdrop, we seek comment on whether the Commission 
+should clarify what constitutes unreasonable discrimination in the 
+siting of wireless facilities and whether certain state and local 
+aesthetic requirements unreasonably discriminate against wireless 
+facilities. Are such requirements unreasonably limiting the deployment 
+of wireless infrastructure, including the deployment of Small Wireless 
+Facilities as well as larger macro towers and other wireless 
+facilities? Do parties seeking to deploy wireless infrastructure 
+facilities frequently encounter state or local aesthetic regulations 
+that unreasonably impose requirements on the deployment of wireless 
+facilities that are more burdensome than those imposed on functionally 
+equivalent infrastructure deployments? If so, we ask commenters to 
+provide specific examples of such requirements and the consequences for 
+wireless infrastructure deployment.
+    We also seek comment on the appropriate standard for detecting 
+unreasonable discrimination and whether to adopt that standard into our 
+rules. Does the City of Portland decision provide sufficient certainty 
+about the scope of permissible distinctions in state and local 
+permitting requirements generally and aesthetic regulations in 
+particular? What costs and resources would providers need to expend to 
+make a showing under the Ninth Circuit standard? Are there other 
+factors that should be considered in determining whether discrimination 
+is unreasonable in the context of a permitting authority's aesthetic 
+requirements for wireless infrastructure?
+Regulatory Impediments
+    As we describe below, we continue to have concerns that state and 
+local authorities are adopting regulations that impede the deployment 
+of new and high quality services, and thereby could be in violation of 
+the Telecommunications Act and Commission rules. In this section, we 
+address the use of siting regulations for the unlawful regulation of 
+radiofrequency (RF) emissions, the negative impact of conditional use 
+permits on the provision of service, and the continued imposition of de 
+facto moratoria by local authorities on wireless providers in violation 
+of the Commission's Moratoria Order. We also reaffirm our position that 
+restrictions which prohibit densifying or upgrading wireless networks 
+result in an effective prohibition of service. Further, we seek comment 
+on how state and local regulations on AI may be an effective 
+prohibition on wireless providers'
+
+[[Page 55075]]
+
+ability to provide service using AI technologies.
+    Setbacks and Radio Frequency Emissions. Our research shows that 
+some localities adopted ordinances restricting the placement and manner 
+of infrastructure deployment (e.g., through setback provisions and pole 
+height requirements) for the purpose of limiting human exposure to RF 
+emissions. Other localities require that service providers pay for 
+third-party randomized testing of RF emissions, regardless of whether 
+there is any objective basis to suspect the tower or antennas may have 
+become out of compliance with the Commission's RF emissions rules. We 
+seek comment regarding any additional scenarios of RF emissions 
+regulation where state and local authorities add barriers to the 
+deployment of communications facilities. Commenters should provide 
+descriptions of such barriers and evidence of the material impacts upon 
+the cost and timing of facility deployment.
+    The Commission has exclusive authority to set RF emissions limits. 
+Section 332(c)(7)(B)(iv) specifically prohibits state and local 
+jurisdictions from regulating deployments based on RF emissions ``to 
+the extent that such facilities comply with the Commission's 
+regulations concerning such emissions.'' Accordingly, we seek comment 
+on whether the Commission should preempt, under sections 253(a) and (d) 
+and section 332(c)(7)(B)(iv), these specific state and local ordinances 
+(including setback regulations) as unlawful regulation of RF emissions. 
+Are there other specific examples of such restrictions that the 
+Commission should consider preempting? Should the Commission adopt a 
+rule prohibiting state and local government regulation of RF emissions 
+which involve setback requirements or establish limits on state and 
+local requirements for RF testing? We seek comment on additional 
+actions the Commission can take to prevent the use of state and local 
+authority to regulate the placement, construction, and modification of 
+wireless facilities for unlawful purposes such as RF emissions 
+concerns.
+    Conditional Use Permits. Outside of the context of facilities 
+eligible for section 6409 preemptive relief, some states and localities 
+grant applications to build or install wireless communications 
+facilities under a conditional use permit (CUP) with conditions, 
+including time-limited provisions. Under time-limited CUP approvals, 
+once initial approvals have expired, some localities treat renewals as 
+opportunities to impose new conditions on previously approved 
+facilities, resulting in significant costs for service providers. We 
+seek comment on whether state and local conditional CUPs are 
+effectively prohibiting the provision of covered services under 
+sections 253 and 332(c)(7) when they apply to facilities that not are 
+eligible for preemptive relief under section 6409.
+    In Ventura County, California, for example, providers requesting 
+permit extensions must ``replace or upgrade existing equipment when 
+feasible to reduce the facility's visual impacts and improve land use 
+compatibility.'' In Carlsbad, California, upon a request for an 
+extension of a CUP, the city will review whether the existing 
+facility's design continues to meet certain criteria. Do state and 
+local CUPs and regulations relating to the extension of such permits, 
+like the examples here, result in the effective prohibition of the 
+provision of covered service? How frequently do localities change the 
+permitting requirements and what are the costs to service providers and 
+tower owners of these changes? What are some examples of new conditions 
+that localities have imposed at CUP renewals? Are infrastructure 
+providers being required to change the design of their facilities to 
+accommodate the locality's updated aesthetic preferences? Do the 
+unpredictable costs of CUP renewal requirements discourage the 
+deployment of needed infrastructure?
+    Are the burdens associated with these types of provisions 
+significant enough to warrant Commission preemption under section 
+253(d)? We seek comment on whether we should preempt the specific local 
+regulations listed above and whether they prohibit or have the effect 
+of prohibiting covered service. If we preempt state and local CUP 
+regulations, how can we ensure that the range of preempted conditions 
+is tailored to avoid broadly preempting CUPs altogether? For example, 
+should we preempt durational limitations? Should we permit durational 
+limitations only if changes in permit conditions are limited to 
+legitimate safety concerns and do not include new aesthetic limitations 
+on existing facilities? Should we permit new conditions to be imposed 
+on previously approved facilities when a natural disaster has altered 
+the terrain thereby requiring the new condition? Alternatively, or in 
+addition to preemption under section 253(d), should the Commission 
+adopt a rule addressing CUPs and the scope of appropriate renewal 
+conditions?
+    Moratoria. In its 2018 Moratoria Order, the Commission concluded 
+that ``state and local moratoria on telecommunications services and 
+facilities deployment are barred by section 253(a) of the 
+Communications Act because they `prohibit or have the effect of 
+prohibiting the ability of any entity to provide any interstate or 
+intrastate telecommunications service.' '' The Declaratory Ruling gave 
+a brief summary of ways in which state and local governments impose 
+moratoria on construction, and found that moratoria fall into two 
+categories, express and de facto, both of which are presumptively 
+prohibited under section 253(a). Express moratoria are those 
+restrictions ``that expressly, by their very terms, prevent or suspend 
+the acceptance, processing, or approval of applications or permits 
+necessary for deploying telecommunications services and/or 
+facilities.'' De facto moratoria are state and local actions ``not 
+formally codified by state or local governments as outright 
+prohibitions but . . . by their operation, prohibit or have the effect 
+of prohibiting deployment of telecommunications services and/or 
+telecommunications facilities.'' The difference between de facto 
+moratoria and state and local actions that simply result in delay is 
+one of degrees. An action becomes a de facto moratorium when it results 
+in delay that is so unreasonable or indefinite that it discourages the 
+filing of applications or prevents carriers from deploying facilities.
+    Despite the Commission's adoption of the Small Cell Order and the 
+Moratoria Order, state and local governments continue to engage in the 
+practice of moratoria. For example, temporary bans on 5G deployments 
+have been adopted by Keene, NH, Hawaii County, HI, and Easton, CT. 
+Although not a ban, Farragut, TN passed a resolution asking states and 
+the federal government to take the lead in halting 5G deployments until 
+the FCC conducts a study of the possible health risks of 5G. We seek 
+comment on whether these local ordinances meet the existing definition 
+of moratoria or otherwise violate section 253(a) and section 332(c)(7) 
+because they appear to prohibit or have the effect of prohibiting 
+wireless service and do not appear to meet the requirements of section 
+253(b) and (c). We ask commenters to provide additional information 
+about whether express or de facto moratoria continue to exist in state 
+or local ordinances. For example, do localities impose setbacks of such 
+size or frequency that they function as de facto moratoria?
+    If these specific resolutions remain in effect, should we preempt 
+these resolutions under section 253(d)? Are there other examples of 
+resolutions we should consider preempting? Should
+
+[[Page 55076]]
+
+the Commission address either de facto or express moratoria through 
+adoption of rules? What other actions should the Commission take to 
+address the continued existence of these moratoria?
+    Deployment and Densification of New and High Quality Services. The 
+continued deployment of new and high quality services is a cornerstone 
+of the Communications Act and integral to the provision of 
+telecommunications services. When Congress comprehensively amended the 
+Communications Act in the Telecommunications Act of 1996 (1996 Act) and 
+adopted sections 253 and 332(c)(7), its stated goal was to promote 
+competition, improve service quality, and enable the rapid deployment 
+of new technologies. Section 706(a) of the 1996 Act, which exhorts the 
+Commission to ``encourage the deployment on a reasonable and timely 
+basis of advanced telecommunications capability to all Americans,'' 
+informs the Commission's exercise of its statutory authority under 
+sections 253 and 332(c)(7).''
+    5G is the fastest growing segment of the wireless industry and 
+these 5G networks integrate voice services as well as new and evolving 
+services such as video, mobile gaming, and telehealth. Consequently, 
+service providers need to continue to grow their network capacity to 
+meet demand. However, there are a limited number of ways to increase 
+capacity: acquire more spectrum; develop and deploy more advanced and 
+efficient technology; or, reuse existing spectrum through network 
+densification. Spectrum is a finite resource with many users and use 
+cases, each with unique demands. And while technological advancements 
+in efficient network management are vital, they are unpredictable. 
+Therefore, in a spectrum constrained environment, densification, which 
+permits the efficient reuse of spectrum, is more important than ever to 
+satisfy increasing demand.
+    It is with this context that we turn to the preemption provisions 
+of the Communications Act in the context of deployment densification 
+and enhanced capacity for covered services. Under sections 253 and 
+332(c)(7), state and local laws may not ``prohibit or have the effect 
+of prohibiting the provision of'' telecommunications services or 
+personal wireless services. At the core of providing new and high 
+quality services is the need to densify networks. Here, the term 
+``densification'' refers to the build-out of facilities in support of 
+5G services. Such services are reliant upon the siting of additional 
+antennas, including macro sites and small wireless facilities, that can 
+transmit frequency signals that travel short distances and efficiently 
+reuse finite spectrum resources to provide higher bandwidth 
+applications. Densification enhances capacity and speed, which are 
+necessary to manage growing network congestion. A local regulation 
+blocking or delaying network deployments that provide access to new and 
+high quality services does not merely govern the ``placement'' of 
+antennas, it prevents the provision of the level of service Congress 
+intended the Communications Act to protect. It follows, then, that 
+section 253's and 332(c)(7)'s preemption of local measures that 
+effectively prohibit the provision of covered service must necessarily 
+protect a provider's right to upgrade their network through 
+densification in order to ensure the continued provision of high 
+quality telecommunications services and personal wireless services.
+    Jurisdictions that prohibit densification--for example, by 
+requiring that a coverage gap exists--overlook that 5G is a different 
+technology with unique features and benefits that make it well-suited 
+to meet demands for modern communications. Preventing the densification 
+of 5G networks can have a significant effect on the functionality of 
+telecommunications and personal wireless services, which are integrated 
+on 5G devices. Indeed, access to these new technologies are central to 
+public safety and emergency services such as transmission of 911 calls 
+or other emergency traffic when a network is congested or service is at 
+least partially disrupted. 5G networks can provide critical 
+communications needs--including better call reliability and management 
+of network congestion--for first responders during tragic events such 
+as natural disasters or mass shootings when communications needs surge 
+and time is of the essence. While prior generations of wireless 
+technology may become overloaded in such circumstances--leading to 
+audio distortions, delays in connecting calls, or dropped calls--5G 
+networks can minimize or eliminate these problems and help people reach 
+first responders and family members during emergencies. State and local 
+restrictions that prevent densification can pose a real and substantial 
+risk to public safety. In a technology-driven sector, the inability to 
+timely densify a network can lead to network degradation and can 
+effectively prohibit these important covered services.
+    We propose to affirm our long-standing understanding that state and 
+local regulations that prevent the densification of a network can be an 
+effective prohibition of covered services. We seek comment on whether 
+we should codify in our rules that an effective prohibition occurs 
+where a state or local requirement prevents a service provider from 
+improving its service capabilities (such as coverage, capacity, speed, 
+latency, and/or reliability) or introducing new services. What types of 
+limits could state or local governments place on the densification of a 
+network without undermining the statutory goals of protecting against 
+network degradation or ensuring access to new or upgraded services? 
+Should the Commission adopt presumptions about what would suffice to 
+avoid violating sections 253 and 332(c)(7)?
+    Our research shows that some localities continue to consider 
+factors that prevent the densification of networks. We seek comment on 
+whether the Commission should preempt these regulations under section 
+253(a) and (d). We also seek assistance in identifying other instances 
+where state and local regulations have the effect of preventing 
+carriers from meeting evolving consumer demands. What consumer uses are 
+prevented or limited by state and local restrictions on densification? 
+Could state and local limits on densification inhibit or slow progress 
+in building wireless networks capable of supporting advanced 
+technologies beyond 5G? Are there state or local regulatory limitations 
+on wireless network deployment that otherwise could inhibit U.S. 
+leadership in evolving technologies like artificial intelligence or 
+future technologies like 6G? And how might those inhibitions affect the 
+functionality of telecommunications and personal wireless services? Are 
+there additional actions we should consider to help implement the 
+Communications Act's goals regarding competition, service quality, and 
+rapid deployment of new technologies and covered services while taking 
+into account the role that Congress intended for state and local 
+authorities?
+    Artificial Intelligence. Mobile network operators use AI 
+technologies to help manage and optimize the performance of their 
+networks. In seeking to leverage these technologies, providers 
+increasingly face a complex landscape of state and local regulations on 
+AI. We seek comment on whether state and local regulations addressing 
+the use of AI may be an effective prohibition on wireless providers' 
+ability to provide covered service using AI technologies.
+    In July 2025, the White House released ``Winning the Race-America's 
+AI Action Plan'' (AI Action Plan) aimed at ensuring U.S. leadership in 
+AI technology development. The AI Action Plan directs the Commission to
+
+[[Page 55077]]
+
+``evaluate whether state AI regulations interfere with the agency's 
+ability to carry out its obligations and authorities under the 
+Communications Act of 1934.'' In particular, the Commission is 
+responsible for implementing the Communications Act, including the 
+deployment of higher quality service and new technologies for American 
+telecommunications consumers. Congress also directed the Commission to 
+ensure the efficient and intensive use of the electromagnetic spectrum.
+    Accordingly, we seek comment on ways AI tools are, or may be, used 
+in communications networks to provide higher quality service and ensure 
+the efficient and intensive use of the electromagnetic spectrum for the 
+public benefit. Similarly, we seek comment on how state and local 
+regulations on AI are, or have the effect of, impeding the advancement 
+of telecommunications and personal wireless service. We also request 
+that commenters provide legal theories on how the Commission has 
+authority under sections 253 and 332(c)(7) to preempt these state and 
+local AI regulations.
+    We ask commenters to provide information about state and local AI 
+regulations that prohibit or have the effect of prohibiting the 
+provision of covered wireless services, including specific examples 
+that may limit providers' ability to use AI tools to improve the 
+efficiency and quality of covered services. Are these rules overly 
+broad and difficult to implement, and might they prevent deployment of 
+AI infrastructure?
+Expedited Processes for Resolving Permitting Disputes
+    Significant litigation at the state and local level continues to 
+impede the Congressional mandate of promoting a pro-competitive, de-
+regulatory national policy that accelerates private sector deployment 
+of advanced telecommunications and information technologies and service 
+to all Americans. Litigation is notoriously costly and time consuming. 
+Delays caused by litigation diminish American consumers' access to 
+advanced telecommunications and take a toll in the form of lost 
+economic and educational opportunities and productivity, the ability to 
+communicate, and even harms to health and safety. Conscious of these 
+effects, we seek comment on whether there is a role for the Commission 
+to play in reducing litigation in the implementation of sections 253 
+and 332(c)(7) through alternative dispute resolution procedures to 
+resolve disagreements between permitting authorities and siting 
+applicants. Are there models within the Commission already that offer a 
+template for developing this option for permitting authorities and 
+applicants?
+    For example, what can be learned or adapted from the Market 
+Disputes Resolution Division of the Enforcement Bureau, which serves an 
+adjudicatory role in resolving formal complaints against common 
+carriers and utility pole owners that are filed by industry 
+participants, entities, or other organizations? What might be learned 
+or adapted from the structure, operation, and experience of the Rapid 
+Broadband Assessment Team (RBAT), which is a joint initiative of the 
+Wireline Competition Bureau and the Enforcement Bureau, to efficiently 
+and effectively resolve broadband-related pole attachment disputes? 
+Should the Commission create a process that is non-public similar to 
+RBAT to encourage participation?
+    Along these lines, should the Commission create an accelerated 
+process or ``rocket docket'' to resolve disputes under section 253(d)? 
+Section 253(d) authorizes the Commission to preempt any statute, 
+regulation, or legal requirement--after notice and opportunity for 
+public comment--if it determines that the requirement violates section 
+253(a) or (b). We seek comment on creating an expedited process whereby 
+applicants could submit petitions of disputes involving state or local 
+legal requirements that may violate 253(a) or (b). Would such a process 
+help reduce costly litigation and expedite permitting in a manner 
+consistent with the Communications Act?
+    We seek comment on the Commission's legal authority to help resolve 
+infrastructure siting disputes between permitting authorities and 
+applicants for permits to deploy communications infrastructure. How can 
+the Commission encourage the use of internal procedures and processes, 
+whether through its bureaus or offices or through other institutions 
+that offer these services? Are there any other approaches or 
+alternatives the Commission should consider to facilitate the 
+resolution of infrastructure siting disputes?
+
+Procedural Matters
+
+    Ex Parte Rules. This proceeding shall be treated as a ``permit-but-
+disclose'' proceeding in accordance with the Commission's ex parte 
+rules. Persons making ex parte presentations must file a copy of any 
+written presentation or a memorandum summarizing any oral presentation 
+within two business days after the presentation (unless a different 
+deadline applicable to the Sunshine period applies). Persons making 
+oral ex parte presentations are reminded that memoranda summarizing the 
+presentation must (1) list all persons attending or otherwise 
+participating in the meeting at which the ex parte presentation was 
+made, and (2) summarize all data presented and arguments made during 
+the presentation. If the presentation consisted in whole or in part of 
+the presentation of data or arguments already reflected in the 
+presenter's written comments, memoranda, or other filings in the 
+proceeding, then the presenter may provide citations to such data or 
+arguments in his or her prior comments, memoranda, or other filings 
+(specifying the relevant page and/or paragraph numbers where such data 
+or arguments can be found) in lieu of summarizing them in the 
+memorandum. Documents shown or given to Commission staff during ex 
+parte meetings are deemed to be written ex parte presentations and must 
+be filed consistent with 47 CFR 1.1206(b). In proceedings governed by 
+47 CFR 1.49(f), or for which the Commission has made available a method 
+of electronic filing, written ex parte presentations and memoranda 
+summarizing oral ex parte presentations, and all attachments thereto, 
+must be filed through the electronic comment filing system available 
+for that proceeding and must be filed in their native format (e.g., 
+.doc, .xml, .ppt, searchable .pdf). Participants in this proceeding 
+should familiarize themselves with the Commission's ex parte rules.
+
+Initial Regulatory Flexibility Analysis
+
+    As required by the Regulatory Flexibility Act of 1980, as amended 
+(RFA), the Federal Communications Commission (Commission) has prepared 
+this Initial Regulatory Flexibility Analysis (IRFA) of the policies and 
+rules proposed in the NPRM. The Commission requests written public 
+comments on this IRFA. Comments must be identified as responses to the 
+IRFA and must be filed by the deadlines for comments specified on the 
+first page of the NPRM. The Commission will send a copy of the NPRM, 
+including this IRFA, to the Chief Counsel for Advocacy of the Small 
+Business Administration (SBA). In addition, the NPRM and IRFA (or 
+summaries thereof) will be published in the Federal Register.
+
+D. Need for and Objectives of the Proposed Rules
+
+    In the NPRM, the Commission proposes to revise its rules 
+implementing section 6409 of the
+
+[[Page 55078]]
+
+Spectrum Act of 2012 and sections 332(c)(7) and 253 of the 
+Communications Act of 1934, as amended by the Telecommunications Act of 
+1996, to further streamline the wireless permitting process and 
+facilitate the rapid buildout of wireless infrastructure. Specifically, 
+the NPRM proposes and seeks comment on revising Sec.  1.6100(b)(7)(v) 
+and (vi) of the Commission's rules regarding concealment elements and 
+siting conditions, respectively, in order to formally codify the 
+clarifications made in the 2020 Declaratory Ruling. The NPRM proposes 
+to codify the guidance and examples the Commission provided in the 2020 
+Declaratory Ruling, to illustrate how the rule revisions would operate 
+in practice. The NPRM also seeks comment on whether to adopt new rules 
+to ensure that state and local permitting regulations do not prohibit 
+or have the effect of prohibiting the deployment of wireless 
+infrastructure facilities pursuant to sections 253 and 332(c)(7) of the 
+Communications Act. Specifically, the NPRM seeks comment on state and 
+local permitting regulations that: inhibit the deployment of macro cell 
+towers and other wireless facilities, impose unreasonable delays on 
+permitting approvals, assess disproportionate or otherwise unreasonable 
+fees, condition approval on aesthetic requirements or similar criteria, 
+and impose other regulatory impediments. The NPRM seeks comment on 
+whether to adopt new rules codifying the protections of the 
+Communications Act for service providers to densify and upgrade their 
+networks. The NPRM seeks comment on whether to adopt new rules 
+preempting state and local regulations that violate provisions of the 
+Communications Act. In addition, it seeks comment on whether the 
+Commission should consider implementing alternative dispute resolution 
+procedures to facilitate the resolution of permitting disputes. The 
+Commission wishes to ensure that all state and local permitting 
+regulations that address the deployment of wireless infrastructure are 
+consistent with the requirements of sections 6409 of the Spectrum Act 
+and 253 and 332(c)(7) of the Communications Act, the legislative intent 
+of Congress, and do not prohibit or effectively prohibit the provision 
+of telecommunications service.
+    Section 6409. The NPRM proposes to revise Sec.  1.6100(b)(7)(v) of 
+the Commission's rules to define concealment elements as elements of a 
+stealth-designed facility intended to make the facility look like 
+something other than a wireless tower or base station and to provide 
+that a proposed modification would defeat a concealment element if it 
+would cause a reasonable person to view the structure's intended 
+stealth design as no longer effective after the modification. Next, the 
+NPRM proposes to revise Sec.  1.6100(b)(7)(vi) of the Commission's 
+rules to clarify that neither an aesthetics-related condition nor any 
+other condition designed to address the visual impact of a facility may 
+be used to prevent modifications specifically allowed under Sec.  
+1.6100(b)(7)(i) through (iv) of the rules. The Commission proposes 
+these revisions to help reduce permitting disputes, which in turn would 
+promote expedited deployments.
+    Additionally, the NPRM seeks comment on amending Sec.  1.6100 of 
+the Commission's rules to address the relationship between time-limited 
+conditional use permits (CUPs) and section 6409(a) of the Spectrum Act. 
+Some jurisdictions have ordinances that require tower owners to renew 
+wireless tower facility permits after 10 years. In some cases, the 
+local governments have imposed new conditions on permit renewals for 
+deployments that were previously found to be eligible facilities 
+requests under section 6409(a). The NPRM seeks comment on whether the 
+Commission should adopt a rule that clarifies that, once a particular 
+deployment is found to be an eligible facilities request and the permit 
+is granted by a state or local jurisdiction, the state or local 
+jurisdiction may not seek to impose new conditions when reviewing the 
+deployment as part of a permit renewal process. The NPRM seeks comment 
+on whether such ordinances that impact eligible facilities requests 
+conflict with section 6409(a).
+    Sections 332(c)(7) and 253. The NPRM seeks comment on whether to 
+extend any of the Small Cell Order reforms or any other measures the 
+Commission may adopt in this proceeding to macro cell towers and other 
+wireless facilities. While the Small Cell Order focused on state and 
+local permitting requirements that impact the installation of Small 
+Wireless Facilities, the Commission is equally interested in ensuring 
+the timely buildout of macro cell towers and other wireless facilities, 
+and removing regulatory obstacles that may unlawfully delay these 
+buildouts. The Commission also seeks comment on how and whether to 
+clarify the definition of a macro cell tower, and comment on what state 
+or local permitting issues commonly delay the buildout of macro cell 
+and other wireless facility deployments.
+    Next, the NPRM addresses issues associated with its shot clock 
+rules. The Commission initially adopted shot clock rules in its 2009 
+Declaratory Ruling, finding that unreasonable delays in the siting 
+process ``impede[d] the promotion of advanced services and competition 
+that Congress deemed critical to the Telecommunications Act of 1996,'' 
+it established a defined time period or ``shot clock'' framework to 
+effectuate the ``reasonable period of time'' provision of section 
+332(c)(7)(B)(ii). This shot clock approach was intended to provide 
+clarity and a degree of certainty both to the applicants for siting 
+permits as well as to state and local permitting authorities. In the 
+Small Cell Order, the Commission adopted a new set of shot clocks 
+calibrated to the unique features of Small Wireless Facilities. The 
+Commission adopted a presumptive 60-day shot clock for reviewing Small 
+Wireless Facility collocations and a presumptive 90-day shot clock for 
+Small Wireless Facilities to be attached to a newly constructed 
+structure. The Commission also codified the presumptive 90-day and 150-
+day shot clocks developed in the 2009 Declaratory Ruling, for a total 
+of four shot clocks. The shot clock rules preserved a siting agency's 
+ability to rebut the presumptive reasonableness of any of the 
+applicable shots clocks based on a specific situation. The NPRM seeks 
+comment on how well the shot clocks codified in the Commission's rules 
+have helped expedite the delivery of advanced communications services. 
+It also seeks comment on whether further refinement through a broader 
+number of shot clocks for specific scenarios is warranted.
+    The Commission also previously codified its determination in the 
+Wireless Infrastructure Order that a shot clock begins to run when an 
+application is submitted, not when it is deemed complete by the 
+permitting authority. The NPRM seeks comment on how well the 
+notification of incompleteness feature of the shot clock framework is 
+functioning as a means to remove complications in the smooth processing 
+of incomplete applications.
+    Regarding remedies for shot clock violations, the Commission 
+determined violations of the shot clocks for Small Wireless Facilities 
+constitute not only a section 332(c)(7)(B)(v) ``failure to act,'' but 
+also a ``presumptive prohibition on the provision of personal wireless 
+services within the meaning of section 332(c)(7)(B)(i)(II).'' The 
+Commission noted that ``there may be merit'' to a ``deemed granted'' 
+remedy but it declined to adopt this remedy because it determined that 
+the shot clock
+
+[[Page 55079]]
+
+framework that it had codified ``should address the concerns raised by 
+a `deemed granted' remedy.'' The Commission also indicated that if its 
+approach ``proves insufficient'' it may again consider adopting a 
+deemed granted approach. The NPRM seeks comment on whether shot clocks 
+are preventing unreasonable delay or whether the Commission should 
+reconsider its prior decision not to adopt a deemed granted remedy.
+    Next, the NPRM addresses issues associated with fees imposed by 
+state and local permitting authorities to process permit applications. 
+In the Small Cell Order and the Verizon Clark County Dismissal Order, 
+the Commission explained that localities have the burden of proving the 
+reasonableness of their fees, and that fees for use of a right-of-way 
+can constitute an effective prohibition of service. The NPRM seeks 
+comment on state and local fees. Service providers continue to face a 
+range of state and local fees that may increase unpredictably over the 
+course of a project. These state and local fees take the form of 
+initial one-time fees, annual recurring fees, and gross revenue fees. 
+The NPRM seeks comment on whether to preempt a number of local 
+regulations that impose these types of fees as prohibiting or having 
+the effect of prohibiting service under sections 253(a) and 332(c)(7) 
+and also seeks comment on preempting the fee regulations of other local 
+permitting authorities whose fees mirror those described in the NPRM. 
+The NPRM seeks comment on whether to preempt the fee regulations listed 
+in the NPRM both for Small Wireless Facilities and other larger 
+facilities as violating sections 253(a) and 332(c)(7). The NPRM also 
+seeks comment on whether the Commission should take additional steps to 
+address fees including whether to adopt rules codifying the fee 
+guidance of the Small Cell Order and the Verizon Clark County Dismissal 
+Order and whether to extend application of the previous clarifications 
+on fees to macro and other wireless facilities.
+    Next, the NPRM seeks comment on how state and local aesthetic 
+requirements are affecting the deployment of wireless infrastructure. 
+In the Small Cell Order, the Commission found that that ``[l]ike fees, 
+compliance with aesthetic requirements imposes costs on providers, and 
+the impact on their ability to provide service is just the same as the 
+impact of fees.'' The Commission concluded that, to be permissible 
+under section 332(c)(7), aesthetic requirements had to be reasonable, 
+no more burdensome than those applied to other types of infrastructure 
+deployments, and objective and published in advance.
+    In City of Portland, the Court of Appeals for the Ninth Circuit 
+upheld most of the Small Cell Order, but vacated the requirement that 
+local aesthetic regulations for Small Wireless Facilities be ``no more 
+burdensome'' than those imposed on other technologies, finding that 
+this requirement was not consistent with the ``more lenient statutory 
+standard that regulations not `unreasonably discriminate.' '' The court 
+also found that the requirement that local aesthetic regulations be 
+``objective'' was ``neither adequately defined nor its purpose 
+adequately explained.'' The court held that section 332(c)(7)(B)(i)(I) 
+of the Communications Act ``permits some difference in the treatment of 
+different providers, so long as the treatment is reasonable'' and that 
+to ``establish unreasonable discrimination, providers `must show that 
+they have been treated differently from other providers whose 
+facilities are similarly situated in terms of the structure, placement 
+or cumulative impact as the facilities in question.' ''
+    In response to this decision, the NPRM seeks comment on whether the 
+Commission should revisit the issue of what constitutes unreasonable 
+discrimination in the siting of wireless facilities, and in particular, 
+whether certain state and local aesthetic requirements unreasonably 
+discriminate against wireless facilities. The NPRM also seeks comments 
+on whether the City of Portland decision addressing the meaning of 
+``unreasonable discrimination'' under section 332(c)(7) provides 
+sufficient certainty about the scope of permissible distinctions in 
+state and local permitting requirements generally and aesthetic 
+regulations, in particular. The NPRM asks whether additional guidance 
+is needed with regard to the scope of permissible aesthetic 
+regulations, and whether the Commission should codify the test 
+articulated by the 9th Circuit, into its rules.
+    Next, the NPRM addresses state and local regulations associated 
+with radiofrequency (RF). Although any RF-based state or local wireless 
+infrastructure deployment restrictions are explicitly prohibited by 
+section 332(c)(7)(B)(iv) of the Communications Act, the Commission 
+finds that state and local authorities continue to adopt such 
+regulations--particularly within the context of local setback 
+restrictions for siting wireless communications facilities. The NPRM 
+seeks comment on whether the Commission should adopt rules to address 
+this practice of some state and local permitting authorities. The NPRM 
+also seeks comment on whether the Commission should preempt these types 
+of regulations, and the Commission's legal authority for doing so.
+    Next, the NPRM seeks comment on the impact of conditional use 
+permits on the rapid deployment of wireless infrastructure. The 
+Commission has found that numerous localities impose conditional use 
+permits on tower builders with strict durational limits. When the 
+duration of the permit is over, the permit renewal process may require 
+expensive changes to or complete removal of the already constructed 
+infrastructure. These permits inject uncertainty into the network 
+planning process and impose large costs on tower builders and service 
+providers. The NPRM also seeks comment on whether the Commission should 
+take action to preempt state and local conditional use permits under 
+section 253(d) of the Communications Act. In the alternative, the 
+Commission seeks comment on whether to adopt a rule narrowing the scope 
+of conditional use permits in order to limit unlawful conditional use 
+permits.
+    Next, the NPRM considers the persistence of state and local 
+authorities imposing moratoria on the buildout of wireless 
+infrastructure. Despite the Commission stating in the Moratoria Order 
+that moratoria are barred by section 253(a) of the Communications Act 
+because they effectively prohibit the ability of any entity to provide 
+telecommunication services, state and local governments continue to 
+engage in the practice of moratoria. The NPRM seeks comment on whether, 
+pursuant to section 253(d), to preempt local ordinances banning 5G 
+equipment. It also seeks comment on what further actions the Commission 
+can take to address the phenomenon of de facto moratoria.
+    Next, the NPRM addresses the issue of network upgrades and 
+densification. It is the stated purpose of the Telecommunications Act 
+to promote competition, improve service quality, and to enable the 
+rapid deployment of new technologies. The Act contains several 
+provisions to advance this goal including section 706 which imposes on 
+the Commission an affirmative duty to ``encourage the deployment on a 
+reasonable and timely basis of advanced telecommunications capability 
+to all Americans,'' and section 332(c)(7)(B)(i)(II) which provides that 
+state and local regulations may not have the effect of prohibiting the 
+provision of
+
+[[Page 55080]]
+
+wireless service. In the Small Cell Order, the Commission clarified 
+that, consistent with the intent of Congress in passing the 
+Communications Act to promote the rapid deployment of new technologies, 
+state and local regulations that prevent service providers from 
+upgrading their networks or densifying their networks constitute an 
+effective prohibition of service. Despite this, numerous jurisdictions, 
+not recognizing that 5G networks are a new technology with distinct 
+network infrastructure needs, continue to prevent service providers 
+from densifying or upgrading their networks where an outdated legacy 
+network already exists. The NPRM seeks to affirm the Commission's 
+historic understanding that state and local regulations that prevent 
+the densification of a network can be an effective prohibition of 
+protected services. The NPRM also seeks comment on whether to codify 
+within our rules that state and local restrictions that prohibit the 
+densification and upgrading of existing networks constitute an 
+effective prohibition of service under sections 332(c)(7) and 253(a) of 
+the Communications Act, and seek comment on what presumptions the 
+Commission can adopt to preserve state and local authority while still 
+protecting the right of providers to densify and upgrade their 
+networks. The NPRM seeks comment on whether the Commission should 
+preempt restrictions that prohibit the upgrading and densification of 
+networks under sections 253(a) and (d).
+    In the NPRM, in order to ensure Americans' have access to high 
+equality services and the latest technology, the Commission asks 
+commenters to identify ways in which AI tools are used in 
+communications networks. The NPRM further requests comment on how state 
+and local regulations on AI are, or have the effect of, impeding the 
+advancement of telecommunications and personal wireless service. The 
+NPRM also requests that commenters provide legal theories on how the 
+Commission has authority under sections 253 and 332(c)(7) to preempt 
+these state and local AI regulations.
+    Finally, the NPRM turns its attention to whether, in order to 
+reduce costly litigation and to accelerate permitting, the Commission 
+should explore alternative dispute resolution procedures that could 
+facilitate the resolution of disagreements between permitting 
+authorities and siting applicants and seeks comment on what a 
+successful alternative dispute resolution might look like. The NPRM 
+also seeks comment on how permitting disputes could be put on an 
+Accelerated Docket for resolution. In addition, the NPRM seeks comment 
+on whether the Commission has legal authority to engage in facilitating 
+infrastructure siting disputes between permitting authorities and 
+applicants for permits to deploy communications infrastructure.
+    These proposed revisions will satisfy Congress's intent and meet 
+the Commission's statutory responsibility to enhance regulatory 
+certainty, reduce disputes and litigation in the permitting process, 
+and facilitate deployment of 5G and other advanced wireless services 
+throughout the country in a competitive marketplace for the advantage 
+all Americans.
+
+E. Legal Basis
+
+    The proposed action is authorized pursuant to sections 1, 4(i)-(j), 
+7, 201, 253, 301, 303, 309, 319, and 332 of the Communications Act of 
+1934, as amended, and sections 6003 and 6409 of the Middle Class Tax 
+Relief and Job Creation Act of 2012, as amended, 47 U.S.C. 151, 154(i)-
+(j), 157, 201, 253, 301, 303, 309, 319, 332, 1403, 1455(a).
+
+F. Description and Estimate of the Number of Small Entities to Which 
+the Proposed Rules Will Apply
+
+    The RFA directs agencies to provide a description of, and where 
+feasible, an estimate of the number of small entities that may be 
+affected by the rules adopted herein. The RFA generally defines the 
+term ``small entity'' as having the same meaning as under the Small 
+Business Act. In addition, the term ``small business'' has the same 
+meaning as the term ``small business concern'' under the Small Business 
+Act.'' A ``small business concern'' is one which: (1) is independently 
+owned and operated; (2) is not dominant in its field of operation; and 
+(3) satisfies any additional criteria established by the SBA.
+    Our actions, over time, may affect small entities that are not 
+easily categorized at present. We therefore describe three broad groups 
+of small entities that could be directly affected by our actions. In 
+general, a small business is an independent business having fewer than 
+500 employees. These types of small businesses represent 99.9% of all 
+businesses in the United States, which translates to 34.75 million 
+businesses. Next, ``small organizations'' are not-for-profit 
+enterprises that are independently owned and operated and not dominant 
+their field. While we do not have data regarding the number of non-
+profits that meet that criteria, over 99 percent of nonprofits have 
+fewer than 500 employees. Finally, ``small governmental jurisdictions'' 
+are defined as cities, counties, towns, townships, villages, school 
+districts, or special districts with populations of less than fifty 
+thousand. Based on the 2022 U.S. Census of Governments data, we 
+estimate that at least 48,724 out of 90,835 local government 
+jurisdictions have a population of less than 50,000.
+    The actions taken in the NPRM will apply to small entities in the 
+industries identified in the chart below by their six-digit North 
+American Industry Classification System codes and corresponding SBA 
+size standard.
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                       % Small
+        Regulated industry           NAICS           SBA size standard           Total      Small      firms in
+                                      code                                       firms      firms      industry
+----------------------------------------------------------------------------------------------------------------
+All Other Information Services...     519190  1,500 employees................        704        556        78.98
+All Other Telecommunications.....     517810  $40 million....................      1,079      1,039        96.29
+Cable and Other Subscription          515210  $47 million....................        378        149        39.42
+ Programming.
+Media Streaming Distribution          516210  $47 million....................      6,417      5,710        88.98
+ Services, Social Networks, and
+ Other Media Networks and Content
+ Providers.
+Radio and Television Broadcasting     334220  1,250 employees................        656        624        95.12
+ and Wireless Communications
+ Equipment Manufacturing.
+Satellite Telecommunications.....     517410  $47 million....................        275        242        88.00
+Telecommunications Resellers.....     517121  1,500 employees................      1,386      1,375        99.21
+Wired Telecommunications Carriers     517111  1,500 employees................      3,054      2,964        97.05
+Wireless Telecommunications           517112  1,500 employees................      2,893      2,837        98.06
+ Carriers (except Satellite).
+----------------------------------------------------------------------------------------------------------------
+
+
+[[Page 55081]]
+
+    Based on currently available U.S. Census data regarding the 
+estimated number of small firms in each identified industry, we 
+conclude that the adopted rules will impact a substantial number of 
+small entities. Where available, we provide additional information 
+regarding the number of potentially affected entities in the above 
+identified industries, and information for other affected entities, as 
+follows.
+
+                2024 Universal Service Monitoring Report Telecommunications Service Provider Data
+                                           [Data as of December 2023]
+----------------------------------------------------------------------------------------------------------------
+                                                                        SBA size standard (1,500 employees)
+                                                                 -----------------------------------------------
+                         Affected entity                            Total # FCC
+                                                                     form 499A      Small firms       % Small
+                                                                      filers                         entities
+----------------------------------------------------------------------------------------------------------------
+Competitive Local Exchange Carriers (CLECs).....................           3,729           3,576           95.90
+Incumbent Local Exchange Carriers (Incumbent LECs)..............           1,175             917           78.04
+Interexchange Carriers (IXCs)...................................             113              95           84.07
+Local Exchange Carriers (LECs)..................................           4,904           4,493           91.62
+Local Resellers.................................................             222             217           97.75
+Other Toll Carriers.............................................              74              71           95.95
+Prepaid Card Providers..........................................              47              47          100.00
+Toll Resellers..................................................             411             398           96.84
+Telecommunications Resellers....................................             633             615           97.16
+Wired Telecommunications Carriers...............................           4,682           4,276           91.33
+Wireless Telecommunications Carriers (except Satellite).........             585             498           85.13
+----------------------------------------------------------------------------------------------------------------
+
+
+                   Broadband Internet Access Providers
+      [Internet Access Services Report: Status as of June 30, 2024]
+------------------------------------------------------------------------
+                                                Number of providers of
+              Affected entity                 connections over 200 kbps
+                                              in at least one direction
+------------------------------------------------------------------------
+Wired Broadband Internet Access Service                            2,204
+ Providers (Wired ISPs)....................
+Wireless Broadband Internet Access Service                         1,209
+ Providers (Wireless ISPs or WISPs)........
+------------------------------------------------------------------------
+
+G. Description of Economic Impact and Projected Reporting, 
+Recordkeeping, and Other Compliance Requirements for Small Entities
+
+    The RFA directs agencies to provide a description of the projected 
+reporting, recordkeeping and other compliance requirements of the 
+proposed rule, including an estimate of the classes of small entities 
+which will be subject to the requirement and the type of professional 
+skills necessary for preparation of the report or record. At this time, 
+the we do not believe that the proposed rules in the NPRM, if adopted, 
+will create any new reporting, recordkeeping, or other compliance 
+requirements for small and other entities preparing eligible facilities 
+requests under sections 6409(a), 253, or 332(c)(7) as entities are 
+already required to submit construction proposals outlining the work to 
+be done regardless of whether the project qualifies as an eligible 
+facilities request under sections 6409(a), 253, and 332(c)(7). In 
+addition, for these reasons we do not anticipate that any action we 
+take on the matters raised in the NPRM will require small entities to 
+hire additional attorneys, engineers, consultants, or other 
+professionals to comply with the proposed revised rules.
+    We anticipate that the proposed rule changes on which the NPRM 
+seeks comment would help reduce the economic impact on small entities 
+that may need to deploy wireless infrastructure by reducing the cost 
+and delay associated with the deployment of such infrastructure and by 
+reducing costly litigation. To assist the Commission in its evaluation 
+of the economic impact on small entities, and of the proposed rule 
+changes generally, and to better explore options and alternatives, the 
+NPRM asks small entities to discuss any benefits or drawbacks 
+associated with making the proposed rule changes in their comments. The 
+Commission expects to consider more fully the economic impact on small 
+entities following its review of comments filed in response to the 
+NPRM, including costs and benefits information.
+
+H. Discussion of Significant Alternatives Considered That Minimize the 
+Significant Economic Impact on Small Entities
+
+    The RFA directs agencies to provide a description of any 
+significant alternatives to the proposed rules that would accomplish 
+the stated objectives of applicable statutes, and minimize any 
+significant economic impact on small entities. The discussion is 
+required to include alternatives such as: ``(1) the establishment of 
+differing compliance or reporting requirements or timetables that take 
+into account the resources available to small entities; (2) the 
+clarification, consolidation, or simplification of compliance and 
+reporting requirements under the rules for such small entities; (3) the 
+use of performance rather than design standards; and (4) an exemption 
+from coverage of the rule, or any part thereof, for such small 
+entities.
+    The NPRM seeks comment on proposed changes to the Commission's 
+existing rules implementing section 6409(a) of the Spectrum Act and 
+sections 253 and 332(c)(7) of the Communications Act, as well as 
+adopting new rules implementing sections 253 and 332(c)(7) of the 
+Communications Act. The purpose of these changes is to reduce economic 
+impact and regulatory burden on small entities and other applicants. In 
+this regard, the NPRM seeks comment on
+
+[[Page 55082]]
+
+different approaches or alternatives the Commission might take in 
+streamlining compliance with section 6409(a) of the Spectrum Act and 
+sections 253 and 332(c)(7) of the Communications Act. For instance, the 
+Commission may adopt rules implementing section 6409(a) of the Spectrum 
+Act and sections 253 and 332(c)(7) of the Communications Act 
+establishing that, once a particular deployment is found to be an 
+eligible facilities request and the permit is granted by a state or 
+local jurisdiction, that state or local jurisdiction may not seek to 
+impose new conditions when reviewing the deployment as part of a permit 
+renewal process. The Commission is also evaluating whether to adopt a 
+deemed granted remedy for violations of its shot-clock rules, and 
+whether to codify rules that state and local restrictions that prohibit 
+the densification and upgrading of existing networks constitute an 
+effective prohibition of service prohibited under sections 253(a) and 
+332(c)(7) of the Communications Act.
+    In the NPRM, the Commission also seeks comment on proposals to 
+revise the concealment elements and siting conditions provisions of 
+Sec.  1.6100 of its rules to provide more clarity to parties involved 
+in the process of obtaining local approval for siting of wireless 
+infrastructure and to enable small entities and others to navigate the 
+permitting process more effectively. In making its determinations for 
+the proposed rules in the NPRM, the Commission considered alternatives 
+intended to minimize significant economic impact on small entities. For 
+example, we considered other potential changes to the application 
+review process, such as timeframes for review, that would help clarify 
+and expedite the process and thereby reduce economic burdens on small 
+entities seeking to comply with the revised rules that are ultimately 
+adopted. In developing the proposed rule revisions for concealment 
+elements, we considered to what extent disputes about concealment 
+elements had on efforts to deploy wireless infrastructure and what 
+other approaches could be considered. Lastly, regarding the proposed 
+rule revisions for siting conditions, we considered factors such as the 
+time to complete deployment, cost impacts, and the potential delays in 
+satisfying coverage demand and/or enhancements for consumers.
+    The NPRM seeks comment on whether to revise existing rules and/or 
+adopt new rules under sections 253 and 332(c)(7) of the Communications 
+Act to protect the rights of service providers to densify and upgrade 
+their networks, to establish a ``deemed granted'' remedy for shot-clock 
+violations, and to prohibit fees that constitute an effective 
+prohibition of service or otherwise violate the guidance of the Small 
+Cell Order. It seeks comment on whether to offer clarifying guidance on 
+the meaning of ``unreasonable discrimination'' under section 332 of the 
+Communications Act. The NPRM also seeks comment on whether to preempt 
+under sections 253(a) and (d) and section 332(c)(7)(B)(iv) of the 
+Communications Act state and local regulations predicated on RF 
+emissions, ordinances that permit or require the use of conditional use 
+permits, and ordinances or resolutions that impose moratoria on the 
+buildout of wireless infrastructure. In the alternative, the Commission 
+seeks comment on whether to adopt a rule narrowing the scope of 
+conditional use permits in order to limit conditional use permit abuse. 
+The NPRM seeks comment on (1) whether to preempt a number of local 
+regulations that impose certain fees on applicants seeking to build 
+wireless infrastructure as prohibiting or having the effect of 
+prohibiting service under sections 253(a) and 332(c)(7); (2) whether to 
+preempt the fee regulations listed in the NPRM both for Small Wireless 
+Facilities and other larger facilities as violating sections 253(a) and 
+332(c)(7); and (3) whether the Commission could and should offer an 
+alternative dispute resolution option to reduce litigation between 
+permit applicants and permitting authorities.
+    The Commission will decide what actions it should take based on the 
+record developed to the NPRM. Part of the decisional process will 
+include evaluating the impact of these decisions on small entities and 
+what alternatives it might adopt to lessen significant economic impact 
+and regulatory burden on small entities while complying with the 
+requirements of sections 6409(a), 253, and 332(c)(7) of the 
+Communications Act. Alternative proposals and approaches from 
+commenters will further develop the record and could help the 
+Commission further minimize the economic impact on small entities. The 
+Commission's evaluation of the comments filed in this proceeding will 
+shape the final conclusions it reaches, the final alternatives it 
+considers, and the actions it ultimately takes to minimize any 
+significant economic impact that may occur on small entities from the 
+final rules.
+
+I. Federal Rules That May Duplicate, Overlap, or Conflict With the 
+Proposed Rules
+
+    None.
+
+Ordering Clauses
+
+    Accordingly, it is ordered that, pursuant to sections 1, 4(i)-(j), 
+7, 201, 253, 301, 303, 309, 319, and 332 of the Communications Act of 
+1934, as amended, and sections 6003 and 6409 of the Middle Class Tax 
+Relief and Job Creation Act of 2012, as amended, 47 U.S.C. 151, 154(i)-
+(j), 157, 201, 253, 301, 303, 309, 319, 332, 1403, 1455(a) this Notice 
+of Proposed Rulemaking in WT Docket No. 25-276 is adopted.
+    It is further ordered that, pursuant to applicable procedures set 
+forth in Sec. Sec.  1.415 and 1.419 of the Commission's rules, 47 CFR 
+1.415, 1.419, interested parties may file comments on the Notice of 
+Proposed Rulemaking on or before 30 days after publication in the 
+Federal Register, and reply comments on or before 45 days after 
+publication in the Federal Register.
+    It is further ordered that the Commission's Office of the Secretary 
+shall send a copy of this Notice of Proposed Rulemaking, including the 
+Initial Regulatory Flexibility Analysis, to the Chief Counsel for 
+Advocacy of the Small Business Administration.
+
+List of Subjects in 47 CFR Part 1
+
+    Administrative practice and procedure.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary, Office of the Secretary.
+
+Proposed Rules
+
+    For the reasons discussed in the preamble, the Federal 
+Communications Commission proposes to amend 47 CFR part 1 as follows:
+
+PART 1--PRACTICE AND PROCEDURE
+
+0
+1. The authority citation for part 1 continues to read as follows:
+
+    Authority:  47 U.S.C. chs. 2, 5, 9, 13; 28 U.S.C. 2461 note; 47 
+U.S.C. 1754, unless otherwise noted.
+
+0
+2. Section 1.6100 is amended by revising paragraphs (b)(7)(v) and (vi) 
+as follows:
+
+
+Sec.  1.6100  Wireless Facility Modifications.
+
+* * * * *
+    (b) * * *
+    (7) * * *
+    (v) It would defeat the concealment elements of the eligible 
+support structure. For purposes of this paragraph, ``concealment 
+elements'' are
+
+[[Page 55083]]
+
+elements intended to make a stealth-designed facility look like 
+something other than a wireless tower or base station. A proposed 
+modification would defeat the concealment elements of the eligible 
+support structure if it would cause a reasonable person to view the 
+structure's intended stealth design as ineffective; or
+    Example 1 to paragraph (v): Placement of coaxial cable on the 
+outside of a stealth-designed facility would be unlikely to render the 
+intended stealth design of the facility ineffective at the distance 
+from which individuals would view a facility because of the typically 
+small size of such cabling.
+    Example 2 to paragraph (v): A modification that involves a change 
+in color would only defeat concealment if it would cause reasonable 
+person to view the intended stealth design of the underlying facility 
+as no longer effective. For instance, if new equipment is shielded by 
+an existing shroud that is not being modified, then the color of the 
+equipment is irrelevant because it is not visible to the public and 
+would not render an intended concealment ineffective.
+    Example 3 to paragraph (v): For a stealth-designed facility, (such 
+as a wireless facility designed to resemble a pine tree), that was 
+originally conditioned on the facility being hidden behind a tree line, 
+a proposed modification that would make the facility visible above the 
+tree line would not defeat the concealment elements of the facility 
+under Sec.  1.6100(b)(7)(v) if a reasonable person would continue to 
+view the intended stealth design as effective. The requirement that the 
+facility be hidden behind a tree line is not a feature of a stealth-
+designed facility, but rather an aesthetic condition that falls under 
+Sec.  1.6100(b)(7)(vi).
+    (vi) It does not comply with conditions associated with the siting 
+approval of the construction or modification of the eligible support 
+structure or base station equipment, provided, however, that this 
+limitation does not apply to any modification that is noncompliant only 
+in a manner that would not exceed the thresholds identified in 
+paragraphs (b)(7)(i) through (iv) of this section. Any condition under 
+this paragraph (b)(7)(vi), including aesthetics-related conditions or 
+any other conditions designed to address the visual impact of a 
+facility, cannot be used to prevent modifications allowed under Sec.  
+1.6100(b)(7)(i) through (iv).
+    Example 1 to paragraph (vi): If a locality imposes an aesthetics-
+related condition that specifies a three-foot shroud cover for a three-
+foot antenna, the locality could not prevent the replacement of the 
+original antenna with a four-foot antenna otherwise permissible under 
+Sec.  1.6100(b)(7)(i) because the new antenna could not fit in the 
+original shroud. If there was express evidence that the shroud was a 
+condition of approval, the locality could enforce its shrouding 
+condition if the provider could reasonably install a four-foot shroud 
+to cover the new four-foot antenna. The locality also could enforce a 
+shrouding requirement that was not size-specific and did not limit 
+modifications allowed under Sec.  1.6100(b)(7)(i) through (iv).
+    Example 2 to paragraph (vi): Existing walls and fences around non-
+camouflaged towers would be considered aesthetic conditions and not 
+concealment elements. However, if there was express evidence that the 
+wall or fence was a condition of approval, the locality may require a 
+provider to extend the wall or fence to continue covering the 
+equipment.
+    Example 3 to paragraph (vi): In regard to a tower that was 
+originally approved conditioned on being hidden behind a tree line, a 
+proposed modification within the thresholds of Sec.  1.6100(b)(7)(i) 
+through (iv) that would make the tower visible above the tree line 
+would be permitted under Sec.  1.6100(b)(7)(vi), assuming the provider 
+cannot reasonably replace a grove of mature trees with a grove of 
+taller mature trees to maintain the absolute hiding of the tower.
+* * * * *
+[FR Doc. 2025-21620 Filed 11-28-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,267 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Rules and Regulations]
+[Pages 55294-55296]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21764]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 97
+
+[Docket No. 31636; Amdt. No. 4193]
+
+
+Standard Instrument Approach Procedures, and Takeoff Minimums and 
+Obstacle Departure Procedures; Miscellaneous Amendments
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This rule establishes, amends, suspends, or removes Standard 
+Instrument Approach Procedures (SIAPS) and associated Takeoff Minimums 
+and Obstacle Departure procedures (ODPs) for operations at certain 
+airports. These regulatory actions are needed because of the adoption 
+of new or revised criteria, or because of changes occurring in the 
+National Airspace System, such as the commissioning of new navigational 
+facilities, adding new obstacles, or changing air traffic requirements. 
+These changes are designed to provide safe and efficient use of the 
+navigable airspace and to promote safe flight operations under 
+instrument flight rules at the affected airports.
+
+DATES: This rule is effective December 2, 2025. The compliance date for 
+each SIAP, associated Takeoff Minimums, and ODP is specified in the 
+amendatory provisions.
+    The incorporation by reference of certain publications listed in 
+the regulations is approved by the Director of the Federal Register as 
+of December 2, 2025.
+
+ADDRESSES: Availability of matters incorporated by reference in the 
+amendment is as follows:
+
+For Examination
+
+    1. U.S. Department of Transportation, Docket Ops-M30, 1200 New 
+Jersey Avenue SE, West Bldg., Ground Floor, Washington, DC 20590-0001.
+    2. The FAA Air Traffic Organization Service Area in which the 
+affected airport is located;
+    3. The office of Aeronautical Information Services, 6500 South 
+MacArthur Blvd., Oklahoma City, OK 73169 or,
+    4. The National Archives and Records Administration (NARA). For 
+information on the availability of this material at NARA, visit 
+<a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a> or email 
+<a href="/cdn-cgi/l/email-protection#4d2b3f6324233e3d282e392422230d232c3f2c632a223b"><span class="__cf_email__" data-cfemail="91f7e3bff8ffe2e1f4f2e5f8feffd1fff0e3f0bff6fee7">[email&#160;protected]</span></a>.
+
+Availability
+
+    All SIAPs and Takeoff Minimums and ODPs are available online free 
+of charge. Visit the National Flight Data Center at <a href="http://nfdc.faa.gov">nfdc.faa.gov</a> to 
+register. Additionally, individual SIAP and Takeoff Minimums and ODP 
+copies may be obtained from the FAA Air Traffic Organization Service 
+Area in which the affected airport is located.
+
+FOR FURTHER INFORMATION CONTACT: Rune Duke, Manager (Acting), Standards 
+Section, Flight Procedures and Airspace Group, Aviation Safety, Federal 
+Aviation Administration. Mailing Address: FAA Mike Monroney 
+Aeronautical Center, Flight Procedures and Airspace Group, 6500 South 
+MacArthur Blvd., STB Annex, Bldg. 26, Room 217, Oklahoma City, OK 
+73099. Telephone (405) 954-1139.
+
+SUPPLEMENTARY INFORMATION: This rule amends 14 CFR part 97 by 
+establishing, amending, suspending, or removes SIAPS, Takeoff Minimums 
+and/or ODPS. The complete regulatory description of each SIAP and its 
+associated Takeoff Minimums or ODP for an identified airport is listed 
+on FAA form documents which are incorporated by reference in this 
+amendment under 5 U.S.C. 552(a), 1 CFR part 51, and 14 CFR 97.20. The 
+applicable FAA Forms are 8260-3, 8260-4, 8260-5, 8260-15A, 8260-15B, 
+when required by an entry on 8260-15A, and 8260-15C.
+    The large number of SIAPs, Takeoff Minimums and ODPs, their complex 
+nature, and the need for a special format make publication in the 
+Federal Register expensive and impractical. Further, pilots do not use 
+the regulatory text of the SIAPs, Takeoff Minimums or ODPs, but instead 
+refer to their graphic depiction on charts printed by publishers of 
+aeronautical materials. Thus, the advantages of incorporation by 
+reference are realized and
+
+[[Page 55295]]
+
+publication of the complete description of each SIAP, Takeoff Minimums 
+and ODP listed on FAA form documents is unnecessary. This amendment 
+provides the affected CFR sections and specifies the types of SIAPS, 
+Takeoff Minimums and ODPs with their applicable effective dates. This 
+amendment also identifies the airport and its location, the procedure, 
+and the amendment number.
+
+Availability and Summary of Material Incorporated by Reference
+
+    The material incorporated by reference is publicly available as 
+listed in the ADDRESSES section.
+    The material incorporated by reference describes SIAPS, Takeoff 
+Minimums and/or ODPs as identified in the amendatory language for part 
+97 of this final rule.
+
+The Rule
+
+    This amendment to 14 CFR part 97 is effective upon publication of 
+each separate SIAP, Takeoff Minimums and ODP as amended in the 
+transmittal. Some SIAP and Takeoff Minimums and textual ODP amendments 
+may have been issued previously by the FAA in a Flight Data Center 
+(FDC) Notice to Airmen (NOTAM) as an emergency action of immediate 
+flights safety relating directly to published aeronautical charts.
+    The circumstances that created the need for some SIAP and Takeoff 
+Minimums and ODP amendments may require making them effective in less 
+than 30 days. For the remaining SIAPs and Takeoff Minimums and ODPs, an 
+effective date at least 30 days after publication is provided.
+    Further, the SIAPs and Takeoff Minimums and ODPs contained in this 
+amendment are based on the criteria contained in the U.S. Standard for 
+Terminal Instrument Procedures (TERPS). In developing these SIAPs and 
+Takeoff Minimums and ODPs, the TERPS criteria were applied to the 
+conditions existing or anticipated at the affected airports. Because of 
+the close and immediate relationship between these SIAPs, Takeoff 
+Minimums and ODPs, and safety in air commerce, I find that notice and 
+public procedure under 5 U.S.C. 553(b) are impracticable and contrary 
+to the public interest and, where applicable, under 5 U.S.C. 553(d), 
+good cause exists for making some SIAPs effective in less than 30 days.
+    The FAA has determined that this regulation only involves an 
+established body of technical regulations for which frequent and 
+routine amendments are necessary to keep them operationally current. 
+It, therefore--(1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under DOT 
+Regulatory Policies and Procedures (44 FR 11034; February 26, 1979); 
+and (3) does not warrant preparation of a regulatory evaluation as the 
+anticipated impact is so minimal. For the same reason, the FAA 
+certifies that this amendment will not have a significant economic 
+impact on a substantial number of small entities under the criteria of 
+the Regulatory Flexibility Act.
+
+Lists of Subjects in 14 CFR Part 97
+
+    Air traffic control, Airports, Incorporation by reference, 
+Navigation (air).
+
+    Issued in Washington, DC, on November 21, 2025.
+Rune Duke,
+Manager (Acting), Standards Section, Flight Procedures and Airspace 
+Group, Flight Technologies & Procedures Division, Federal Aviation 
+Administration.
+
+Adoption of the Amendment
+
+    Accordingly, pursuant to the authority delegated to me, 14 CFR part 
+97 is amended by establishing, amending, suspending, or removing 
+Standard Instrument Approach Procedures and/or Takeoff Minimums and 
+Obstacle Departure Procedures effective at 0901 UTC on the dates 
+specified, as follows:
+
+PART 97--STANDARD INSTRUMENT APPROACH PROCEDURES
+
+0
+1. The authority citation for part 97 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(f), 106(g), 40103, 40106, 40113, 
+40114, 40120, 44502, 44514, 44701, 44719, 44721-44722.
+
+
+0
+2. Part 97 is amended to read as follows:
+
+Effective 25 December 2025
+
+Evansville, IN, EVV, ILS OR LOC RWY 4, Amdt 5
+Evansville, IN, EVV, RNAV (GPS) RWY 36, Amdt 2B
+Thief River Falls, MN, TVF, RNAV (GPS) RWY 31, Orig-C
+Jefferson City, MO, JEF, RNAV (GPS) RWY 12, Amdt 2
+Wooster, OH, BJJ, RNAV (GPS) RWY 28, Orig-D
+Wooster, OH, BJJ, Takeoff Minimums and Obstacle DP, Amdt 2
+
+Effective 22 January 2026
+
+Lanett, AL, 7A3, RNAV (GPS) RWY 6, Amdt 1
+Lanett, AL, 7A3, RNAV (GPS) RWY 24, Amdt 1
+Lanett, AL, 7A3, Takeoff Minimums and Obstacle DP, Amdt 2
+Chandler, AZ, P19, RNAV (GPS) RWY 35, Amdt 1
+Chandler, AZ, P19, Takeoff Minimums and Obstacle DP, Orig
+Chandler, AZ, P19, Takeoff Minimums and Obstacle DP, Amdt 3, 
+CANCELED
+Carlsbad, CA, CRQ, RNAV (GPS) X RWY 24, Orig-C, CANCELED
+Carlsbad, CA, CRQ, RNAV (GPS) Y RWY 24, Amdt 4
+Fort Pierce, FL, FPR, ILS OR LOC RWY 10R, Amdt 5A
+Kamuela, HI, MUE/PHMU, KAMUELA ONE, Graphic DP
+Kamuela, HI, MUE/PHMU, Takeoff Minimums and Obstacle DP, Amdt 2
+Jacksonville, IL, IJX, Takeoff Minimums and Obstacle DP, Orig-A
+Harper, KS, 8K2, Takeoff Minimums and Obstacle DP, Amdt 2
+Covington, KY, CVG, ILS OR LOC RWY 9, Amdt 20
+Covington, KY, CVG, ILS OR LOC RWY 18C, ILS RWY 18C (SA CAT I), ILS 
+RWY 18C (SA CAT II), Amdt 25
+Covington, KY, CVG, ILS OR LOC RWY 18L, Amdt 9
+Covington, KY, CVG, ILS OR LOC RWY 18R, ILS RWY 18R (CAT II), Amdt 3
+Covington, KY, CVG, ILS OR LOC RWY 27, ILS RWY 27 (SA CAT I), ILS 
+RWY 27 (SA CAT II), Amdt 21
+Covington, KY, CVG, ILS OR LOC RWY 36C, ILS RWY 36C (CAT II), ILS 
+RWY 36C (CAT III), Amdt 43
+Covington, KY, CVG, ILS OR LOC RWY 36L, ILS RWY 36L (CAT II), Amdt 3
+Covington, KY, CVG, ILS OR LOC RWY 36R, ILS RWY 36R (CAT II), ILS 
+RWY 36R (CAT III), Amdt 10
+Covington, KY, CVG, RNAV (GPS) Y RWY 9, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 18C, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 18L, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 18R, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 27, Amdt 2
+Covington, KY, CVG, RNAV (GPS) Y RWY 36C, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 36L, Amdt 3
+Covington, KY, CVG, RNAV (GPS) Y RWY 36R, Amdt 3
+Covington, KY, CVG, RNAV (RNP) Z RWY 9, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 18C, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 18L, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 18R, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 27, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 36C, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 36L, Amdt 2
+Covington, KY, CVG, RNAV (RNP) Z RWY 36R, Amdt 2
+Glasgow, KY, GLW, RNAV (GPS) RWY 8, Amdt 2E
+Three Rivers, MI, HAI, RNAV (GPS) RWY 27, Amdt 1
+Kaiser/Lake Ozark, MO, AIZ, RNAV (GPS) RWY 4, Amdt 1C
+Kaiser/Lake Ozark, MO, AIZ, RNAV (GPS) RWY 22, Amdt 1C
+
+[[Page 55296]]
+
+Ahoskie, NC, ASJ, RNAV (GPS) RWY 19, Amdt 1
+Concord, NC, JQF, ILS OR LOC RWY 20, Amdt 3
+Concord, NC, JQF, RNAV (GPS) RWY 20, Amdt 1
+Concord, NC, KJQF, Takeoff Minimums and Obstacle DP, Amdt 4
+Edenton, NC, EDE, ILS OR LOC RWY 19, Amdt 1
+Edenton, NC, EDE, RNAV (GPS) RWY 19, Amdt 3
+Mount Olive, NC, W40, RNAV (GPS) RWY 23, Orig-E
+Edgeley, ND, 51D, RNAV (GPS) RWY 14, Orig-A
+Edgeley, ND, 51D, RNAV (GPS) RWY 32, Orig-A
+Prineville, OR, S39, RNAV (GPS) RWY 11, Amdt 3A
+Prineville, OR, S39, RNAV (GPS) RWY 29, Amdt 3A
+Prineville, OR, S39, Takeoff Minimums and Obstacle DP, Amdt 3
+Rock Hill, SC, UZA, ILS OR LOC RWY 2, Amdt 2
+Rock Hill, SC, UZA, ILS Z OR LOC Z RWY 2, Amdt 3, CANCELED
+Lebanon, TN, M54, Takeoff Minimums and Obstacle DP, Amdt 2
+Waco, TX, KPWG, Takeoff Minimums and Obstacle DP, Amdt 2A
+Galax Hillsville, VA, HLX, RNAV (GPS) RWY 19, Amdt 2
+Omak, WA, OMK, RNAV (GPS) RWY 35, Amdt 1
+Lake Geneva, WI, C02, RNAV (GPS) RWY 23, Orig-C, CANCELED
+Lake Geneva, WI, C02, Takeoff Minimums and Obstacle DP, Amdt 1A, 
+CANCELED
+
+[FR Doc. 2025-21764 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

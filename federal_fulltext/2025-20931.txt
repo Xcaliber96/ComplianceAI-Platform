@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53413-53415]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20931]
+
+
+-----------------------------------------------------------------------
+
+SOCIAL SECURITY ADMINISTRATION
+
+[Docket No. SSA-2025-0387]
+
+
+Privacy Act of 1974; System of Records
+
+AGENCY: Social Security Administration (SSA).
+
+ACTION: Notice of a modified system of records.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Privacy Act of 1974, we are issuing
+
+[[Page 53414]]
+
+public notice of our intent to modify our existing systems of records 
+listed below under the System Name and Number section. This notice 
+publishes details of the modified systems as set forth below under the 
+caption, SUPPLEMENTARY INFORMATION.
+
+DATES: The system of records notice (SORN) is applicable upon its 
+publication in today's Federal Register, with the exception of the new 
+routine use, which is effective December 26, 2025.
+    We invite public comment on the addition of the routine use. In 
+accordance with the Privacy Act of 1974, we are providing the public a 
+30-day period in which to submit comments. Therefore, please submit any 
+comments by December 26, 2025.
+
+ADDRESSES: The public, Office of Management and Budget (OMB), and 
+Congress may comment on this publication by writing to the Head of 
+Privacy and Disclosure Policy, Privacy and Disclosure Policy, Law and 
+Policy, SSA, Room G-401 West High Rise, 6401 Security Boulevard, 
+Baltimore, Maryland 21235-6401, or through the Federal e-Rulemaking 
+Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Please reference docket number 
+SSA-2025-0387. All comments we receive will be available for public 
+inspection at the above address, and we will post them to <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Tristin Dorsey, Government Information 
+Specialist, Privacy Implementation Division, Privacy and Disclosure 
+Policy, Law and Policy, SSA, Room G-401 West High Rise, 6401 Security 
+Boulevard, Baltimore, Maryland 21235-6401, telephone: (410) 966-5855, 
+email: <a href="/cdn-cgi/l/email-protection#aae5ede984e5faee84f9e5f8e4ead9d9cb84cdc5dc"><span class="__cf_email__" data-cfemail="c58a8286eb8a9581eb968a978b85b6b6a4eba2aab3">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Executive Order 14249, Protecting America's 
+Bank Account Against Fraud, Waste, and Abuse, requires agencies to take 
+action to defend against financial fraud and prevent improper payments 
+in collaboration with the U.S. Department of the Treasury. To assist 
+SSA in administering the Social Security Act, we are adding the 
+following routine use to the systems of records listed below to permit 
+disclosure to Department of Treasury to review SSA's payment and award 
+eligibility through the Do Not Pay Working System for the purpose of 
+identifying, preventing, or recouping fraud and improper payments when 
+disclosure meets the requirements in 20 CFR 401.150(c):
+
+    To the U.S. Department of the Treasury, when disclosure of the 
+information is relevant to review SSA's payment and award 
+eligibility through the Do Not Pay Working System for the purposes 
+of identifying, preventing or recouping improper payments to an 
+applicant for, or recipient of, Federal funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally-
+recognized Indian tribe) in a state-administered, federally-funded 
+program. This routine use will be applied when disclosure meets the 
+requirements in 20 CFR 401.150(c).
+
+SYSTEM NAME AND NUMBER:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                      Federal Register Citation No./ publication
+        System number and name                  Routine uses                             date
+----------------------------------------------------------------------------------------------------------------
+60-0003--Attorney Fee File...........  No. 11.......................  71 FR 1803, 01/11/06.
+                                                                      72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 14553, 02/27/24.
+                                                                      89 FR 95894, 12/03/24.
+60-0044--National Disability           No. 12.......................  71 FR 1810, 01/11/06.
+ Determination Services File.                                         72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 825, 01/05/24.
+60-0045--Black Lung Payment System...  No. 16.......................  52 FR 9543, 03/25/87.
+                                                                      59 FR 46439, 09/08/94.
+                                                                      60 FR 52948, 10/11/95.
+                                                                      72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+60-0050--Completed Determination       No. 42.......................  71 FR 1813, 01/11/06.
+ Record--Continuing Disability                                        72 FR 69723, 12/10/07.
+ Determinations.                                                      83 FR 54969, 11/01/18.
+                                                                      84 FR 17907, 04/26/19.
+                                                                      89 FR 825, 01/05/24.
+60-0059--Earnings Recording and Self-  No. 32.......................  71 FR 1819, 01/11/06.
+ Employment Income System.                                            78 FR 40542, 07/05/13.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 825, 01/05/24.
+60-0089--Claims Folders System.......  No. 40.......................  84 FR 58422, 10/31/19.
+                                                                      89 FR 14553, 02/27/24.
+                                                                      89 FR 14554, 02/27/24.
+                                                                      89 FR 95894, 12/03/24.
+60-0090--Master Beneficiary Record...  No. 44.......................  71 FR 1826, 01/11/06.
+                                                                      72 FR 69723, 12/10/07.
+                                                                      78 FR 40542, 07/05/13.
+                                                                      83 FR 31250, 07/03/18.
+                                                                      83 FR 31251, 07/03/18.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 825, 01/05/24.
+                                                                      89 FR 14554, 02/27/24.
+60-0094--Recovery of Overpayments,     No. 13.......................  70 FR 49354, 08/23/05.
+ Accounting and Reporting/Debt                                        72 FR 69723, 12/10/07.
+ Management System.                                                   83 FR 31250, 07/03/18.
+                                                                      83 FR 54969, 11/01/18.
+
+[[Page 53415]]
+
+ 
+60-0103--Supplemental Security Income  No. 42.......................  71 FR 1830, 01/11/06.
+ Record and Special Veterans Benefits.                                72 FR 69723, 12/10/07.
+                                                                      83 FR 31250, 07/03/18.
+                                                                      83 FR 31251, 07/03/18.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 825, 01/05/24.
+                                                                      89 FR 14554, 02/27/24.
+60-0222--Master Representative Payee   No. 25.......................  83 FR 55228, 11/02/18.
+ File.
+60-0231--Social Security Online        No. 20.......................  85 FR 2224, 01/14/20.
+ Accounting and Reporting System.
+60-0268--Medicare Part B Buy-In        No. 11.......................  64 FR 10173, 03/02/99.
+ Information System.                                                  72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+60-0269--Prisoner Update Processing    No. 14.......................  64 FR 11076, 09/08/99.
+ System.                                                              72 FR 69723, 12/10/07.
+                                                                      78 FR 40542, 07/05/13.
+                                                                      83 FR 54969, 11/01/18.
+60-0273--Social Security Title VIII    No. 17.......................  65 FR 13803, 03/14/00.
+ Special Veterans Benefits Claims                                     65 FR 46997, 08/01/00.
+ Development and Management                                           72 FR 69723, 12/10/07.
+ Information System.                                                  83 FR 54969, 11/01/18.
+60-0295--Ticket-to-Work and Self-      No. 11.......................  66 FR 17985, 04/04/01.
+ Sufficiency Program Payment Database.                                72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+                                                                      89 FR 825, 01/05/24.
+60-0305--SSA Mass Transportation       No. 14.......................  67 FR 44658, 07/03/02.
+ Subsidy Program.                                                     72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+60-0310--Medicare Savings Programs     No. 11.......................  69 FR 17019, 03/31/04.
+ Information System.                                                  72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+60-0321--Medicare Database File......  No. 24.......................  71 FR 42159, 07/25/06.
+                                                                      72 FR 69723, 12/10/07.
+                                                                      83 FR 54969, 11/01/18.
+60-0325--Appointed Representative      No. 15.......................  74 FR 51940, 10/08/09.
+ File.                                                                83 FR 54969, 11/01/18.
+----------------------------------------------------------------------------------------------------------------
+
+    We are not republishing the system of records notices in their 
+entirety. Instead, we are republishing only the identification number; 
+the system of records name; the number of the new routine use; and the 
+issue of the Federal Register in which the system of records notice was 
+last published in full, including the subsequent modification to the 
+system of records notice's publication date and page number.
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+SYSTEM LOCATION:
+    SSA provides the address of the component and system manager 
+responsible for each system in the Federal Register notices listed 
+above.
+
+SYSTEM MANAGER(S):
+    SSA provides the title, business address, and contact information 
+of the agency official who is responsible for the system in the Federal 
+Register notices listed above.
+
+HISTORY:
+    SSA provides the citation to the last fully published Federal 
+Register notices, as well as last subsequent modification notice to the 
+system of records notices listed above.
+    In accordance with 5 U.S.C. 552a(r), we have provided a report to 
+OMB and Congress on this modified system of records.
+
+Matthew Ramsey,
+Head of Privacy and Disclosure Policy, Law and Policy.
+[FR Doc. 2025-20931 Filed 11-24-25; 8:45 am]
+BILLING CODE 4191-02-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

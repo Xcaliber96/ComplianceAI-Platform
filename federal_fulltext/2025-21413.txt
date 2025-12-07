@@ -1,0 +1,267 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54609-54611]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21413]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 52
+
+[EPA-R01-OAR-2025-0653; FRL-13092-01-R1]
+
+
+Air Plan Approval; Connecticut; New Source Review Permit Program 
+State Plan Revision
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is proposing to 
+approve a State Implementation Plan (SIP) revision submitted by the 
+State of Connecticut. This action consists of revisions to 
+Connecticut's New Source Review (NSR) permit program, primarily to 
+clarify applicability for stationary sources in nonattainment areas. 
+This action is being taken under the Clean Air Act (CAA).
+
+DATES: Written comments must be received on or before December 29, 
+2025.
+
+ADDRESSES: Submit your comments, identified by Docket ID No. EPA-R01-
+OAR-2025-0653 at <a href="https://www.regulations.gov">https://www.regulations.gov</a>, or via email to 
+<a href="/cdn-cgi/l/email-protection#99edecebf7fcebb7f8f7fdebfcd9fce9f8b7fef6ef"><span class="__cf_email__" data-cfemail="90e4e5e2fef5e2bef1fef4e2f5d0f5e0f1bef7ffe6">[email&#160;protected]</span></a>. For comments submitted at <a href="http://Regulations.gov">Regulations.gov</a>, follow 
+the online instructions for submitting comments. Once submitted, 
+comments cannot be edited or removed from <a href="http://Regulations.gov">Regulations.gov</a>. For either 
+manner of submission, the EPA may publish any comment received to its 
+public docket. Do not submit electronically any information you 
+consider to be Confidential Business Information (CBI) or other 
+information whose disclosure is restricted by statute. Multimedia 
+submissions (audio, video, etc.) must be accompanied by a written 
+comment. The written comment is considered the official comment and 
+should include discussion of all points you wish to make. The EPA will 
+generally not consider comments or comment contents located outside of 
+the primary submission (i.e., on the web, cloud, or other file sharing 
+system). For additional submission methods, please contact the person 
+identified in the FOR FURTHER INFORMATION CONTACT section. For the full 
+EPA public comment policy, information about CBI or multimedia 
+submissions, and general guidance on making effective comments, please 
+visit <a href="https://www.epa.gov/dockets/commenting-epa-dockets">https://www.epa.gov/dockets/commenting-epa-dockets</a>. Publicly 
+available docket materials are available at <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+or at the U.S. Environmental Protection Agency, EPA Region 1 Regional 
+Office, Air and Radiation Division, 5 Post Office Square--Suite 100, 
+Boston, MA. EPA requests that, if at all possible, you contact the 
+contact listed in the FOR FURTHER INFORMATION CONTACT section to 
+schedule your inspection.
+
+FOR FURTHER INFORMATION CONTACT: Andre Turner, U.S. Environmental 
+Protection Agency, Region 1 Office of Air and Radiation Division, 5 
+Post Office Square, Suite 100, Boston, MA 02109, Phone number: (617) 
+918-1216, Email: <a href="/cdn-cgi/l/email-protection#146061667a71663a757a706671547164753a737b62"><span class="__cf_email__" data-cfemail="a2d6d7d0ccc7d08cc3ccc6d0c7e2c7d2c38cc5cdd4">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Throughout this document whenever ``we,'' 
+``us,'' or ``our'' is used, we mean EPA.
+
+Table of Contents
+
+I. Background
+II. Description and Review of Submittal
+III. EPA's Evaluation of CT DEEP's Submittal
+    1. RCSA Section 22a-174-3a(a)(2)(C)(ii)
+
+[[Page 54610]]
+
+    2. RCSA Section 22a-174-3a(l)(1)(B)
+    3. RCSA Section 22a-174-3a(l)(1)(C)
+IV. Proposed Action
+V. Incorporation by Reference
+VI. Statutory and Executive Order Reviews
+
+I. Background
+
+    The Connecticut Department of Energy and Environmental Protection 
+(CT DEEP) established its SIP, including its NSR permit program, in 
+1972 in accordance with CAA section 110 and 40 CFR part 51. Since then, 
+there have been numerous revisions to the SIP in accordance with state 
+and federal air permitting regulations. The most recent federally 
+enforceable revision to Connecticut's NSR permit program was approved 
+into the SIP by EPA on September 5, 2023, and included changes to 
+sections 22a-174-2a and 22a-174-3a of the Regulations of Connecticut 
+State Agencies (RCSA).
+
+II. Description and Review of Submittal
+
+    On October 3, 2024,\1\ CT DEEP submitted a SIP revision containing 
+changes to RCSA section 22a-174-3a, primarily to clarify the 
+applicability of Connecticut's permit requirements for stationary 
+sources in nonattainment areas. These revisions to RCSA became 
+effective, as a matter of state enforceability, on March 14, 2024.
+---------------------------------------------------------------------------
+
+    \1\ The Connecticut SIP cover letter lists a submittal date of 
+June 27, 2024, however EPA received this through the online 
+submittal system State Planning Electronic Collaboration System 
+(SPeCS) on October 3, 2024.
+---------------------------------------------------------------------------
+
+    The first revision made by CT DEEP is to RCSA section 22a-174-
+3a(a)(2)(C)(ii), which references the federal definition of a ``non-
+road engine.'' The citation to 40 CFR part 89 in this clause was 
+amended to 40 CFR 1068.30 in order reflect the correct citation after 
+EPA renumbering. The two other revisions relate to subsection (l) of 
+RCSA section 22a-174-3a, which addresses permit requirements for 
+nonattainment areas. Subparagraph (B) of subdivision (1) of subsection 
+(l) is amended to clarify how the subsection applies to modifications. 
+The revised text provides more detail on how changes to an existing 
+unit may be considered a major modification. The amended text also 
+includes references to Table 3a(k)-1, which lists the significant 
+emission rate threshold values for pollutants and their precursors. In 
+subparagraph (C) of the same subdivision, the text is revised to add 
+the phrase ``for such pollutant'' after ``nonattainment area'' for 
+clarity.
+
+III. EPA's Evaluation of CT DEEP's Submittal
+
+    EPA has reviewed the following revisions to RCSA section 22a-174-3a 
+submitted by CT DEEP.
+
+1. RCSA Section 22a-174-3a(a)(2)(C)(ii)
+
+    CT DEEP revised this provision to replace the outdated reference to 
+40 CFR part 89 with the current federal definition of ``nonroad 
+engine'' at 40 CFR 1068.30. EPA has determined that this correction 
+does not change the applicability of the exemption for nonroad engines 
+but ensures that the state regulation references the appropriate 
+federal definition.
+
+2. RCSA Section 22a-174-3a(l)(1)(B)
+
+    CT DEEP revised this provision to clarify the applicability of 
+nonattainment new source review (NNSR) requirements to modifications at 
+major stationary sources. The revised regulations clarify that the NNSR 
+program applies to two categories of modifications:
+    (i) modifications to an emission unit that is itself a major 
+stationary source that triggers NNSR when the modification results in a 
+significant emissions increase equal to or greater than the significant 
+emission rate thresholds of a pollutant (or their precursors) for which 
+the area is designated as nonattainment; or
+    (ii) modifications to a premises that is a major stationary source 
+that triggers NNSR when the modification results in a net emissions 
+increase equal to or greater than the significant emission rate 
+threshold of a pollutant (or their precursors) for which the area is 
+designated as nonattainment.
+    The revisions to 22a-174-3a(l)(1)(B) do not change NNSR 
+applicability thresholds, offset obligations, or control technology 
+requirements, but rather clarify the circumstances that a modification 
+may be considered major and trigger NNSR to either a unit itself or to 
+a premises that is considered a major stationary source. EPA has 
+determined that this revision appropriately clarifies NNSR 
+applicability for major modifications and is consistent with EPA's 40 
+CFR 51.165 requirements for state NNSR programs.
+
+3. RCSA Section 22a-174-3a(l)(1)(C)
+
+    CT DEEP revised this provision by adding the phrase ``for such a 
+pollutant'' after ``nonattainment area.'' This revision clarifies that 
+NNSR requirements apply only to nonattainment pollutants (and their 
+precursors) at new major stationary sources and modifications at 
+existing major stationary sources located in nonattainment areas. The 
+revisions to 22a-174-3a(l)(1)(C) do not change NNSR applicability 
+thresholds, offset obligations, or control technology requirements. EPA 
+has determined that this revision clarifies NNSR applicability and is 
+consistent with EPA's 40 CFR 51.165 requirements for state NNSR 
+programs.
+
+IV. Proposed Action
+
+    EPA is proposing to approve Connecticut's October 3, 2024, SIP 
+submittal that addresses revisions to RCSA section 22a-174-3a. EPA is 
+soliciting public comments on the issues discussed in this notice or on 
+other relevant matters. These comments will be considered before taking 
+final action. Interested parties may participate in the Federal 
+rulemaking procedure by submitting written comments to this proposed 
+rule by following the instructions listed in the ADDRESSES section of 
+this Federal Register.
+
+V. Incorporation by Reference
+
+    In this rule, the EPA is proposing to include in a final EPA rule 
+regulatory text that includes incorporation by reference. In accordance 
+with requirements of 1 CFR 51.5, the EPA is proposing to incorporate by 
+reference the changes to RCSA section 22a-174-3a as adopted on March 
+14, 2024, and discussed in Section II of this preamble. The EPA has 
+made, and will continue to make, these documents generally available 
+through <a href="https://www.regulations.gov">https://www.regulations.gov</a> and at the EPA Region 1 Office 
+(please contact the person identified in the FOR FURTHER INFORMATION 
+CONTACT section of this preamble for more information).
+
+VI. Statutory and Executive Order Reviews
+
+    Under the Clean Air Act, the Administrator is required to approve a 
+SIP submission that complies with the provisions of the Clean Air Act 
+and applicable Federal regulations. See 42 U.S.C. 7410(k); 40 CFR 
+52.02(a). Thus, in reviewing SIP submissions, EPA's role is to approve 
+state choices, provided that they meet the criteria of the Clean Air 
+Act. Accordingly, this proposed action merely approves state law as 
+meeting Federal requirements and does not impose additional 
+requirements beyond those imposed by state law. For that reason, this 
+proposed action:
+    <bullet> Is not a significant regulatory action subject to review 
+by the Office of Management and Budget under
+
+[[Page 54611]]
+
+Executive Orders 12866 (58 FR 51735, October 4, 1993);
+    <bullet> Is not subject to Executive Order 14192 (90 FR 9065, 
+February 6, 2025) because SIP actions are exempt from review under 
+Executive Order 12866;
+    <bullet> Does not impose an information collection burden under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501 et seq.);
+    <bullet> Is certified as not having a significant economic impact 
+on a substantial number of small entities under the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.);
+    <bullet> Does not contain any unfunded mandate or significantly or 
+uniquely affect small governments, as described in the Unfunded 
+Mandates Reform Act of 1995 (Pub. L. 104-4);
+    <bullet> Does not have federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999);
+    <bullet> Is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because it approves a state program;
+    <bullet> Is not a significant regulatory action subject to 
+Executive Order 13211 (66 FR 28355, May 22, 2001); and
+    <bullet> Is not subject to requirements of Section 12(d) of the 
+National Technology Transfer and Advancement Act of 1995 (15 U.S.C. 272 
+note) because application of those requirements would be inconsistent 
+with the Clean Air Act.
+    In addition, the SIP is not approved to apply on any Indian 
+reservation land or in any other area where EPA or an Indian tribe has 
+demonstrated that a tribe has jurisdiction. In those areas of Indian 
+country, the rule does not have tribal implications and will not impose 
+substantial direct costs on tribal governments or preempt tribal law as 
+specified by Executive Order 13175 (65 FR 67249, November 9, 2000).
+
+List of Subjects in 40 CFR Part 52
+
+    Environmental protection, Air pollution control, Incorporation by 
+reference, Intergovernmental relations, Nitrogen dioxide, Ozone, 
+Reporting and recordkeeping requirements, Volatile organic compounds.
+
+    Dated: November 20, 2025.
+Mark Sanborn,
+Regional Administrator, EPA Region 1.
+[FR Doc. 2025-21413 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

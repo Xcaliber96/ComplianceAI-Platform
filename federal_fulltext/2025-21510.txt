@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54640-54643]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21510]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+COMMODITY FUTURES TRADING COMMISSION
+
+
+Privacy Act of 1974; System of Records
+
+AGENCY: Commodity Futures Trading Commission.
+
+ACTION: Notice of a modified system of records.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Privacy Act of 1974 and in compliance 
+with Executive Order 14249, Protecting America's Bank Account Against 
+Fraud, Waste, and Abuse, and Office of Management and Budget Memorandum 
+M-25-32, Preventing Improper Payments and Protecting Privacy Through Do 
+Not Pay, the Commodity Futures Trading Commission (CFTC or Commission) 
+is modifying four Privacy Act systems of records by adding a new 
+routine use to permit the disclosure of records to the Department of 
+the Treasury. In addition, in accordance with Office of Management and 
+Budget Memorandum M-17-12, Preparing for and Responding to a Breach of 
+Personally Identifiable Information, the CFTC is adding routine uses to 
+three of those systems of records to permit the disclosure of records 
+in response to a breach. These modified systems of records will be 
+included in the CFTC's inventory of record systems.
+
+DATES: These modified systems of records are effective December 29, 
+2025. Please submit comments on or before December 29, 2025.
+
+ADDRESSES: You may submit comments, identified as pertaining to PA 
+Routine Uses, by any of the following methods:
+    <bullet> CFTC Comments Portal: <a href="https://comments.cftc.gov">https://comments.cftc.gov</a>. Select 
+the ``Submit Comments'' link for this notice and follow the 
+instructions on the Public Comment Form.
+    <bullet> Mail: Send to Christopher Kirkpatrick, Secretary of the 
+Commission, Commodity Futures Trading Commission, Three Lafayette 
+Centre, 1155 21st Street NW, Washington, DC 20581.
+    <bullet> Hand Delivery/Courier: Follow the same instructions as for 
+Mail, above.
+    Please submit your comments using only one of these methods. To 
+avoid possible delays with mail or in-person deliveries, submissions 
+through the CFTC Comments Portal are encouraged. All comments must be 
+submitted in English, or if not, be accompanied by an English 
+translation. Comments will be posted as received to <a href="https://comments.cftc.gov">https://comments.cftc.gov</a>. You should submit only information that you wish to 
+make available publicly.
+    The Commission reserves the right, but shall have no obligation, to 
+review, pre-screen, filter, redact, refuse, or remove any or all of a 
+submission from <a href="https://comments.cftc.gov">https://comments.cftc.gov</a> that it may deem to be 
+inappropriate for publication, such as obscene language. All 
+submissions that have been redacted or removed that contain comments on 
+the merits of this notice will be retained in the comment file and will 
+be considered as required under all applicable laws and may be 
+accessible under the Freedom of Information Act.
+
+FOR FURTHER INFORMATION CONTACT: Kellie Cosgrove Riley, Chief Privacy 
+Officer, <a href="/cdn-cgi/l/email-protection#5b2b29322d3a38221b383d2f38753c342d"><span class="__cf_email__" data-cfemail="b5c5c7dcc3d4d6ccf5d6d3c1d69bd2dac3">[email&#160;protected]</span></a>, (202) 418-5610, Office of the General 
+Counsel, Commodity Futures Trading Commission, Three Lafayette Centre, 
+1155 21st Street NW, Washington, DC 20581.
+
+SUPPLEMENTARY INFORMATION: In accordance with the Privacy Act of 1974 
+and in compliance with Executive Order 14249, Protecting America's Bank 
+Account Against Fraud, Waste, and Abuse (E.O. 14249), and Office of 
+Management and Budget Memorandum M-25-32, Preventing Improper Payments 
+and Protecting Privacy Through Do Not Pay (OMB M-25-32), the Commodity 
+Futures Trading Commission (CFTC or Commission) is modifying four 
+Privacy Act systems of records by adding a new routine use to permit 
+the disclosure of records to the Department of the Treasury to review 
+payments through the Do Not Pay Working System.
+    A ``routine use'' means, with respect to the disclosure of a 
+Privacy Act record, the use of such record for a purpose which is 
+compatible with the purpose for which it is collected.'' 5 U.S.C. 
+552a(a)(7). All agency systems of records must have a system of records 
+notice (SORN) published in the Federal Register and the SORN must 
+describe ``each routine use of the records contained in the system, 
+including the categories of users and the purposes of such use.'' 5 
+U.S.C. 552a(e)(4)(D).
+    E.O. 14249 promotes financial integrity by enabling the Department 
+of the Treasury to more easily conduct improper payment and fraud 
+prevention screening prior to disbursing funds on behalf of agencies'' 
+It requires agencies to review and modify, as applicable, their 
+relevant system of records notices
+
+[[Page 54641]]
+
+under the Privacy Act of 1974 to include a ``routine use'' that allows 
+for the disclosure of records to the Department of the Treasury for the 
+purposes of identifying, preventing, or recouping fraud and improper 
+payments, to the extent permissible by law.
+    The Office of Management and Budget, in OMB M-25-32, issued 
+guidance concerning the routine use provisions in E.O. 14249. OMB M-25-
+32 requires agencies, in accordance with the Executive Order, to 1. 
+identify which of their systems of records maintain information about 
+applicants for, or recipients of, Federal funds that agencies use to 
+make eligibility determinations for payments to beneficiaries, award 
+and loan recipients, vendors, contractors, and other payees; 2. 
+determine which of those systems of records maintain information whose 
+disclosure to Treasury would be relevant and necessary for identifying, 
+preventing, or recouping improper payments by reviewing payment and 
+award eligibility through the Do Not Pay Working System; and 3. report 
+to OMB and Congress in accordance with OMB Circular No. A-108 any 
+proposal(s) to add the following routine use to the agency's SORN(s) or 
+to modify an existing routine use in the agency's SORN(s) so that it 
+conforms to the following routine use:
+
+    To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility 
+through the Do Not Pay Working System for the purpose of 
+identifying, preventing, or recouping improper payment to an 
+applicant for, or recipient of, Federal funds, including funds 
+disbursed by a state (meaning a state of the United States, the 
+District of Columbia, a territory or possession of the United 
+States, or a federally recognized Indian tribe) in a state-
+administered, federally funded program.
+
+    The Commission has reviewed its SORNs and determined, in accordance 
+with the mandate in E.O. 14249 and the guidance in M-25-32, to modify 
+four of the CFTC SORNs to include the required routine use. These are:
+
+<bullet> CFTC-5 Employee Personnel, Payroll, Time and Attendance
+<bullet> CFTC-6 Employee Travel and Transportation Records
+<bullet> CFTC-49 Whistleblower Records
+<bullet> CFTC-51 Contractors and Consultants
+
+    In addition to adding the required routine use for disclosure to 
+the Department of the Treasury to the above-referenced SORNs, the 
+Commission has also determined to add two additional routine uses to 
+permit disclosure of records in the context of a breach to three of 
+those SORNs:
+
+<bullet> CFTC-5 Employee Personnel, Payroll, Time and Attendance
+<bullet> CFTC-6 Employee Travel and Transportation Records
+<bullet> CFTC-49 Whistleblower Records
+
+    Office of Management and Budget Memorandum M-17-12, Preparing for 
+and Responding to a Breach of Personally Identifiable Information, (OMB 
+M-17-12) sets forth the policy for Federal agencies to prepare for and 
+respond to a breach of personally identifiable information (PII). It 
+established two model routine uses, one permitting the disclosure of 
+information related to breaches of an agency's own records, and the 
+second permitting the disclosure of agency records to assist other 
+agencies in their efforts to respond to a breach. To date, the 
+Commission has been adding these routine uses to individual SORNs when 
+they otherwise require a modification, relying until those updates are 
+in place on the Commission's blanket routine use 19, which closely 
+parallels the first of OMB M-17-12's model routine uses. See 76 FR 
+5974. To that end, the Commission is deleting the reference to blanket 
+routine use 19 in these three SORNs and including the following routine 
+uses from OMB M-17-12:
+
+    To appropriate agencies, entities, and persons when (1) the 
+Commission suspects or has confirmed that there has been a breach of 
+the system of records, (2) the Commission has determined that as a 
+result of the suspected or confirmed breach there is a risk of harm 
+to individuals, the Commission (including its information systems, 
+programs, and operations), the Federal Government, or national 
+security; and (3) the disclosure made to such agencies, entities, 
+and persons is reasonably necessary to assist in connection with the 
+Commission's efforts to respond to the suspected or confirmed breach 
+or to prevent, minimize, or remedy such harm.
+    To another Federal agency or Federal entity, when the Commission 
+determines that information from this system of records is 
+reasonably necessary to assist the recipient agency or entity in (1) 
+responding to a suspected or confirmed breach or (2) preventing, 
+minimizing, or remedying the risk of harm to individuals, the 
+recipient agency or entity (including its information systems, 
+programs, and operations), the Federal Government, or national 
+security, resulting from a suspected or confirmed breach.
+
+    Finally, the Commission is making minor administrative edits to the 
+System Location and System Manager sections of all four SORNs to 
+address organizational changes within the Commission since they were 
+last published.
+    These modified systems of records will be included in the CFTC's 
+inventory of record systems and, in accordance with 5 U.S.C. 552a(r), 
+the CFTC has provided a report of these modified systems of records to 
+the Office of Management and Budget and to Congress.
+CFTC-5
+
+SYSTEM NAME AND NUMBER:
+    Employee Personnel, Payroll, Time and Attendance, CFTC-5.
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+SYSTEM LOCATION:
+    Division of Administration, Human Resources Branch, Commodity 
+Futures Trading Commission, Three Lafayette Centre, 1155 21st Street 
+NW, Washington, DC 20581, and at the Commission's payroll processor, 
+Department of Agriculture's National Finance Center, New Orleans, LA.
+
+SYSTEM MANAGER(S):
+    Executive Director, Commodity Futures Trading Commission, Three 
+Lafayette Centre, 1155 21st Street NW, Washington, DC 20581.
+* * * * *
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+* * * * *
+    e. To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purpose of identifying, 
+preventing, or recouping improper payment to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.
+    f. To appropriate agencies, entities, and persons when (1) the 
+Commission suspects or has confirmed that there has been a breach of 
+the system of records, (2) the Commission has determined that as a 
+result of the suspected or confirmed breach there is a risk of harm to 
+individuals, the Commission (including its information systems, 
+programs, and operations), the Federal Government, or national 
+security; and (3) the disclosure made to such agencies, entities, and 
+persons is reasonably necessary to assist in connection with the 
+Commission's efforts to respond to the suspected or confirmed breach or 
+to prevent, minimize, or remedy such harm.
+    g. To another Federal agency or Federal entity, when the Commission
+
+[[Page 54642]]
+
+determines that information from this system of records is reasonably 
+necessary to assist the recipient agency or entity in (1) responding to 
+a suspected or confirmed breach or (2) preventing, minimizing, or 
+remedying the risk of harm to individuals, the recipient agency or 
+entity (including its information systems, programs, and operations), 
+the Federal Government, or national security, resulting from a 
+suspected or confirmed breach.
+    Information in this system may also be disclosed in accordance with 
+blanket routine uses 1-18, available at 76 FR 5974 (Feb. 2, 2011), and 
+on the Commission's website, <a href="https://www.cftc.gov/privacy">https://www.cftc.gov/privacy</a>.
+
+HISTORY:
+    76 FR 6974 (Feb. 2, 2011), 81 FR 67327 (Sept. 30, 2016)
+CFTC-6
+
+SYSTEM NAME AND NUMBER:
+    Employee Travel and Transportation Records, CFTC-6.
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+SYSTEM LOCATION:
+    Employee travel records are part of the E2 Solutions TAVS system 
+operated by CW Government Travel located in Arlington, VA. Access to 
+these records is through Office of Financial Management, Commodity 
+Futures Trading Commission, Three Lafayette Centre, 1155 21st Street 
+NW, Washington, DC 20581. The transit subsidy system is located in the 
+Office of Management Operations, Commodity Futures Trading Commission, 
+Three Lafayette Centre, 1155 21st Street NW, Washington, DC 20581.
+
+SYSTEM MANAGER(S):
+    Deputy Director for Accounting and Financial Systems and Network 
+Manager (travel and transportation records) and Director, Office of 
+Management Operations (transit subsidy records), Commodity Futures 
+Trading Commission, Three Lafayette Centre, 1155 21st Street NW, 
+Washington, DC 20581.
+* * * * *
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+    Information in this system may be disclosed in accordance with 
+blanket routine uses numbered 1 through 18 that are published in the 
+Federal Register at 76 FR 5974 (Feb. 2, 2011). In addition, information 
+in this system may be disclosed as follows:
+    a. To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purpose of identifying, 
+preventing, or recouping improper payment to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.
+    b. To appropriate agencies, entities, and persons when (1) the 
+Commission suspects or has confirmed that there has been a breach of 
+the system of records, (2) the Commission has determined that as a 
+result of the suspected or confirmed breach there is a risk of harm to 
+individuals, the Commission (including its information systems, 
+programs, and operations), the Federal Government, or national 
+security; and (3) the disclosure made to such agencies, entities, and 
+persons is reasonably necessary to assist in connection with the 
+Commission's efforts to respond to the suspected or confirmed breach or 
+to prevent, minimize, or remedy such harm.
+    c. To another Federal agency or Federal entity, when the Commission 
+determines that information from this system of records is reasonably 
+necessary to assist the recipient agency or entity in (1) responding to 
+a suspected or confirmed breach or (2) preventing, minimizing, or 
+remedying the risk of harm to individuals, the recipient agency or 
+entity (including its information systems, programs, and operations), 
+the Federal Government, or national security, resulting from a 
+suspected or confirmed breach.
+
+HISTORY:
+    76 FR 5974 (Feb. 2, 2011)
+CFTC-49
+
+SYSTEM NAME AND NUMBER:
+    Whistleblower Records, CFTC-49.
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+SYSTEM LOCATION:
+    Whistleblower Office, Commodity Futures Trading Commission, Three 
+Lafayette Centre, 1155 21st Street NW, Washington, DC 20581.
+
+SYSTEM MANAGER(S):
+    Senior Attorney Advisor, Whistleblower Office, Office of the 
+General Counsel, Commodity Futures Trading Commission, Three Lafayette 
+Centre, 1155 21st Street NW, Washington, DC 20581.
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+    Information in this system may be disclosed in accordance with 
+blanket routine uses numbered 1 through 18 that are published in the 
+Federal Register at 76 FR 5974 (Feb. 2, 2011). In addition, information 
+in this system may be disclosed as follows:
+    a. To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purpose of identifying, 
+preventing, or recouping improper payment to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.
+    b. To appropriate agencies, entities, and persons when (1) the 
+Commission suspects or has confirmed that there has been a breach of 
+the system of records, (2) the Commission has determined that as a 
+result of the suspected or confirmed breach there is a risk of harm to 
+individuals, the Commission (including its information systems, 
+programs, and operations), the Federal Government, or national 
+security; and (3) the disclosure made to such agencies, entities, and 
+persons is reasonably necessary to assist in connection with the 
+Commission's efforts to respond to the suspected or confirmed breach or 
+to prevent, minimize, or remedy such harm.
+    c. To another Federal agency or Federal entity, when the Commission 
+determines that information from this system of records is reasonably 
+necessary to assist the recipient agency or entity in (1) responding to 
+a suspected or confirmed breach or (2) preventing, minimizing, or 
+remedying the risk of harm to individuals, the recipient agency or 
+entity (including its information systems, programs, and operations), 
+the Federal Government, or national security, resulting from a 
+suspected or confirmed breach.
+
+HISTORY:
+    77 FR 41378 (July 13, 2012)
+CFTC-51
+
+SYSTEM NAME AND NUMBER:
+    Contractors and Consultants, CFTC-51.
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+[[Page 54643]]
+
+SYSTEM LOCATION:
+    Division of Administration, Business and Operations Branch, 
+Commodity Futures Trading Commission, Three Lafayette Centre, 1155 21st 
+Street NW, Washington, DC 2058, and the Department of Transportation 
+Enterprise Service Center, Oklahoma City, Oklahoma.
+
+SYSTEM MANAGER(S):
+    Executive Director, Commodity Futures Trading Commission, Three 
+Lafayette Centre, 1155 21st Street NW, Washington, DC 20581.
+* * * * *
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+* * * * *
+    f. To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purpose of identifying, 
+preventing, or recouping improper payment to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.
+
+HISTORY:
+    83 FR 5997 (Feb. 12, 2018).
+
+    Issued in Washington, DC, on November 25, 2025, by the 
+Commission.
+Robert Sidman,
+Deputy Secretary of the Commission.
+[FR Doc. 2025-21510 Filed 11-26-25; 8:45 am]
+BILLING CODE 6351-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

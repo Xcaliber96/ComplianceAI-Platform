@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52987-52988]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20747]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Substance Abuse and Mental Health Services Administration
+
+
+Agency Information Collection Activities: Submission for OMB 
+Review; Comment Request
+
+    Periodically, the Substance Abuse and Mental Health Services 
+Administration (SAMHSA) will publish a summary of information 
+collection requests under Office of Management and Budget (OMB) review, 
+in compliance with the Paperwork Reduction Act (44 U.S.C. chapter 35). 
+To request a copy of these documents, call the SAMHSA Reports Clearance 
+Officer at (240) 276-0361.
+
+Project: Data Resource Toolkit Protocol for the Crisis Counseling 
+Assistance and Training Program (OMB No. 0930-0270)--Reinstatement
+
+    The SAMHSA Center for Mental Health Services (CMHS), as part of an 
+interagency agreement with the Federal Emergency Management Agency 
+(FEMA), provides a toolkit to be used for the purposes of collecting 
+data on the Crisis Counseling Assistance and Training Program (CCP). 
+The CCP provides supplemental funding to states, territories, and 
+tribes for individual and community crisis intervention services after 
+a presidentially declared major disaster.
+    The CCP has provided disaster behavioral health services to 
+millions of disaster survivors since its inception, and, with more than 
+40 years of accumulated expertise, it has become an important model for 
+federal response to a variety of catastrophic events. Recent CCP grants 
+have been issued for nearly all 50 states, 5 territories, and at least 
+4 tribes. These grants have helped survivors of disasters such as 
+Hurricanes Helene and Milton in 2024; the catastrophic Maui wildfire in 
+2023; and other wildfires, severe storms, flooding, earthquakes, and 
+tornadoes in 2022 through 2025. CCPs address the short-term behavioral 
+health needs of communities primarily through (a) outreach and public 
+education, (b) individual and group counseling, and (c) referral. 
+Outreach and public education serve primarily to make people aware of 
+common disaster reactions and to engage people who may need further 
+care. Crisis counseling assists survivors in coping with current stress 
+and symptoms to return to pre-disaster functioning. Crisis counseling 
+relies largely on ``active listening,'' \1\ and crisis counselors also 
+provide education (especially about the nature of responses to 
+disaster, adversity, and trauma) and help participants build coping 
+skills. Crisis counselors \2\ typically work with a single participant 
+once or a few times. Because crisis counseling is time-limited, 
+referral is the third important function of CCPs. Counselors are 
+expected to refer survivors to formal treatment if they have developed 
+a mental and/or substance use disorder or are having difficulty in 
+coping with their disaster reactions.
+---------------------------------------------------------------------------
+
+    \1\ Active listening requires the crisis counselor to engage 
+fully with the survivor to understand what the survivor is 
+communicating. The crisis counselor engages in activities such as 
+asking questions, encouraging the survivor to respond candidly, 
+reflecting on what the survivor says, and not judging the survivor's 
+experiences or statements.
+    \2\ CCP crisis counselors are paraprofessionals (e.g., outreach 
+workers, community health workers, resource linkage coordinators) 
+trained to work with individuals, families, and groups to provide 
+short-term counseling and support. Crisis counselors also assess 
+survivors for reactions requiring referrals, and they provide 
+referrals as needed.
+---------------------------------------------------------------------------
+
+    Data about services delivered and users of services are collected 
+throughout the program period. The data are collected via the use of a 
+toolkit that relies on standardized forms. At the program level, the 
+data are entered quickly and easily into a cumulative database mainly 
+through mobile data entry or paper forms to yield summary tables for 
+quarterly and final reports for the program. Data entry allows for the 
+data to be uploaded and linked to a national database that houses data 
+collected across CCPs. The standardized data collection and database 
+allow SAMHSA CMHS and FEMA to produce summary reports of services 
+provided across all programs funded.
+    The components of the toolkit are listed and described below:
+    <bullet> Encounter logs. These forms document all services 
+provided. The CCP requires crisis counselors to complete these logs. 
+There are three types of encounter logs: (1) Individual/Family Crisis 
+Counseling Services Encounter Log, (2) Group Encounter Log, and (3) 
+Weekly Tally Sheet.
+    [cir] Individual/Family Crisis Counseling Services Encounter Log. 
+Crisis counseling is defined as an interaction that lasts at least 15 
+minutes and involves participant-provided information. This form is 
+completed by the crisis counselor for each participant, defined as the 
+person or people who actively participated in the session (that is, by 
+engaging in conversation), not someone who was merely present. One form 
+may be completed for all family or household members who are actively 
+engaged in the visit. Information collected includes demographics, 
+service characteristics, risk factors, event reactions, and referral 
+data.
+    [cir] Group Encounter Log. This form is used to collect data on 
+either a group crisis counseling encounter or a group public education 
+encounter. The crisis counselor indicates in a checkbox the class of 
+activities (that is, counseling or education). Information collected 
+includes service characteristics, group identity and characteristics, 
+and group activities.
+    [cir] Weekly Tally Sheet. This form documents brief educational and 
+supportive encounters not captured on any other form. Information 
+collected includes service characteristics, daily tallies, and weekly 
+totals for brief educational or supportive contacts, material 
+distribution with no or minimal interaction, and social media activity.
+    <bullet> Assessment and referral tools (ARTs). These tools--one for 
+adults and one for children and youth--can be administered at any time 
+if the crisis counselor feels the participant is exhibiting distress or 
+they would benefit from referral to other services. It is recommended 
+that the ARTs be administered during encounters where more than four 
+event reactions or certain risk categories are indicated. These tools 
+will typically be used beginning 3 months after the disaster and will 
+be completed by the crisis counselor.
+    <bullet> Participant Feedback Survey Form. These surveys are 
+completed by and collected from a sample of participants, not every 
+participant. Sampling is done on a biannual basis 6 months and 1 year 
+after the disaster. Information collected includes satisfaction with 
+services, perceived improvements in coping and functioning, types of 
+exposure, and event reactions.
+    <bullet> Service Provider Feedback Form. These surveys are 
+completed by and collected from the CCP service providers anonymously 
+at 6 months and 1 year after the disaster. The survey is coded on 
+several program-level as well as provider-level variables. However,
+
+[[Page 52988]]
+
+the program survey data are only shared with program management if more 
+than 10 individual provider staff members complete the survey.
+    There are no changes to the Weekly Tally Sheet since its last 
+approval. Revisions to the Individual Encounter Log include updating 
+the collection of adult age information to align with SAMHSA reporting 
+convention, race and ethnicity information to align with updates to OMB 
+guidance, and sex information to align with White House guidance; 
+removing the question about recent immigration; adding ``stress 
+management'' to the example for ``managing physical and emotional 
+reactions''; adding a separate referral option for ``FEMA-funded 
+programs;'' and changing ``self-help groups'' to ``self-help or support 
+groups.'' For the Group Encounter Log, changes include updating the 
+collection of race and ethnicity information to align with OMB 
+guidance, adding a question about primary language spoken during the 
+encounter, removing the question about recent immigration, and adding 
+``stress management'' to the example for ``managing physical and 
+emotional reactions.''
+    For the Adult and Child/Youth ARTs, edits were made to update the 
+collection of adult age information to align with SAMHSA reporting 
+convention, race and ethnicity information to align with updated OMB 
+guidance, and sex information to align with White House guidance; frame 
+demographic information collection as questions; add a graphic showing 
+response options, change ``self-help groups'' to ``self-help or support 
+groups,'' and include a separate referral option for ``FEMA-funded 
+programs''; and remove questions related to recent immigration and 
+suicidal ideation. In addition, since the diagnostic criteria for 
+posttraumatic stress disorder (PTSD) changed in the Diagnostic and 
+Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), the PTSD 
+assessment tool within the Child/Youth ART was updated to align with 
+the new PTSD criteria via the validated and abbreviated University of 
+California at Los Angeles PTSD Reaction Index for DSM-5 (Reaction 
+Index-5) tool. The Child/Youth ART was also updated to use the terms 
+``caregiver'' and ``child or youth'' throughout, move the statement 
+that is read to the respondents, and add a question about whether the 
+primary respondent was the caregiver or child or youth.
+    Changes to the collection of age, race, ethnicity, sex, and 
+disaster-related experiences information were made to the Participant 
+Feedback Survey and Service Provider Feedback Forms to align with 
+encounter and ART forms. In addition, the Participant Feedback Survey 
+Form was updated to state more explicitly that the form is voluntary 
+and the respondent may skip questions; add ``prefer not to answer'' 
+options; ask about referral to ``FEMA-funded programs''; add ``using/
+misusing other substances'' to the examples for the ``In the past month 
+to what extent have you had trouble taking care of your health (e.g., 
+eating poorly, not getting enough rest, smoking more, drinking more)?'' 
+question; add a sentence noting that if the respondent was not impacted 
+by the disaster, they should skip the next set of questions; and update 
+response options for the question about education and household income.
+    The Service Provider Feedback Form language was further changed to 
+include ``resources'' when asking providers to rate ``support, 
+training, and resources provided to help you avoid compassion fatigue 
+or to cope with the stress of listening to and helping others''; update 
+the response options for questions about education and household 
+income; and add a sentence noting that if the respondent was not 
+impacted by the disaster, they should skip the next set of questions. 
+The estimates of the annualized burden hours are provided in Table 1.
+
+                                    Table 1--Annualized Hour Burden Estimates
+----------------------------------------------------------------------------------------------------------------
+                                     Estimated
+   Data  collection instrument       number of     Responses per       Total         Hours per      Total hour
+                                    respondents     respondent       responses       response         burden
+----------------------------------------------------------------------------------------------------------------
+Individual/Family Crisis                 \1\ 800         \2\ 200         160,000            0.13          20,800
+ Counseling Services Encounter
+ Log............................
+Group Encounter Log.............         \3\ 400          \3\ 33          13,200            0.08           1,056
+Weekly Tally Sheet..............         \1\ 800          \4\ 52          41,600            0.20           8,320
+Adult Assessment and Referral            \1\ 800               9       \5\ 7,200            0.17           1,224
+ Tool...........................
+Child/Youth Assessment and               \1\ 800               1         \5\ 800            0.08              64
+ Referral Tool..................
+Participant Feedback Survey Form           4,000               1           4,000            0.30           1,200
+Service Provider Feedback Form..         \6\ 400               1             400            0.30             120
+                                 -------------------------------------------------------------------------------
+    Total.......................           8,000  ..............         227,200  ..............          32,784
+----------------------------------------------------------------------------------------------------------------
+\1\ The value for estimated number of respondents (800) is based on a typical average of 40 crisis counselors
+  (or 40 full-time equivalents [FTEs]) per grant with an approximate average of 20 grants per year (i.e., 40 x
+  20 = 800).
+\2\ On average, each FTE crisis counselor completes 200 forms over 1 year.
+\3\ On average, a pair of crisis counselors completes 1 form per week (i.e., 2 counselors completing 1 form =
+  400 crisis counselors) for 33 weeks.
+\4\ The average length of a CCP grant is 52 weeks.
+\5\ On average, 5% of the Individual/Family Crisis Counseling Services Encounter Logs completed result in the
+  use of the assessment and referral tools (i.e., 160,000 individual x 5% = 8,000, which equals the total Adult
+  and Child/Youth Assessment and Referral Tool responses).
+\6\ On average, 50% of service providers/crisis counselors may complete or use this tool.
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this information collection 
+by selecting ``Currently under Review--Open for Public Comments'' or by 
+using the search function.
+
+Alicia Broadus,
+Public Health Advisor.
+[FR Doc. 2025-20747 Filed 11-21-25; 8:45 am]
+BILLING CODE 4162-20-P
+
+
+</pre></body>
+</html>

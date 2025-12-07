@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Page 53066]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20671]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+[OMB Control No. 202503-2900-014]
+
+
+Agency Information Collection Activity: Establishing Property 
+Suitability for VA Specially Adapted Housing
+
+AGENCY: Veterans Benefits Administration, Department of Veterans 
+Affairs.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Veterans Benefits Administration, Department of Veterans 
+Affairs (VA), is announcing an opportunity for public comment on the 
+proposed collection of certain information by the agency. Under the 
+Paperwork Reduction Act (PRA) of 1995, Federal agencies are required to 
+publish notice in the Federal Register concerning each proposed 
+collection of information, including each proposed extension of a 
+currently approved collection, and allow 60 days for public comment in 
+response to the notice.
+
+DATES: Written comments and recommendations on the proposed collection 
+of information should be received on or before January 23, 2026.
+
+ADDRESSES: Comments must be submitted through <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Program-specific information: Kendra McCleave, 202-461-9760, 
+<a href="/cdn-cgi/l/email-protection#83c8e6ede7f1e2adcee0c0efe6e2f5e6c3f5e2ade4ecf5"><span class="__cf_email__" data-cfemail="440f212a2036256a09270728212532210432256a232b32">[email&#160;protected]</span></a>.
+    VA PRA information: Dorothy Glasgow, 202-461-1084, <a href="/cdn-cgi/l/email-protection#a2f4e3f2f0e3e2d4c38cc5cdd4"><span class="__cf_email__" data-cfemail="d5839485879495a3b4fbb2baa3">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Under the PRA of 1995, Federal agencies must 
+obtain approval from the Office of Management and Budget (OMB) for each 
+collection of information they conduct or sponsor. This request for 
+comment is being made pursuant to Section 3506(c)(2)(A) of the PRA.
+    With respect to the following collection of information, VBA 
+invites comments on: (1) whether the proposed collection of information 
+is necessary for the proper performance of VBA's functions, including 
+whether the information will have practical utility; (2) the accuracy 
+of VBA's estimate of the burden of the proposed collection of 
+information; (3) ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (4) ways to minimize the burden of 
+the collection of information on respondents, including through the use 
+of automated collection techniques or the use of other forms of 
+information technology.
+    Title: Establishing Property Suitability for VA Specially Adapted 
+Housing.
+    OMB Control Number: 202503-2900-014 <a href="https://www.reginfo.gov/public/do/PRASearch">https://www.reginfo.gov/public/do/PRASearch</a> (Once at this link, you can enter the OMB Control Number 
+to find the historical versions of this Information Collection).
+    Type of Review: New Collection (Request for a new OMB Control 
+Number).
+    Abstract: The Report of Loan Guaranty Existing Housing Unit 
+Inspection of SAH Property Suitability (VA Form 26-1858a-ARE), Report 
+of Loan Guaranty SHA Property Suitability (VA 26-1858b), Report of Loan 
+Guaranty SAH Vacant Lot Inspection (VA Form 26-1858c-ARE), Report of 
+Loan Guaranty Final SAH/SHA Field Review (VA Form 26-1858d) are used to 
+assess the suitability and condition of properties under the VA's 
+Specially Adapted Housing (SAH) program. The information collected in 
+this process assists Veterans who are entitled to adapted housing 
+grants itemized under 38 U.S.C. Chapter 21 Sec.  2101 (a) who may use 
+their benefit to ``acquire a suitable housing unit'' that will provide 
+a barrier-free living space based on ``the nature of the Veteran's 
+disability''. Per 38 U.S.C. Chapter 21 Sec.  2101 (a)3, determinations 
+must be made regarding the feasibility and suitability of a proposed 
+property. Information must be gathered to make such determinations. 38 
+CFR 36.4404 (b) requires that the VA establish if it is medically 
+feasible for the Veteran to reside outside an institutional setting, 
+that the proposed housing unit is suitable for the Veteran's needs and 
+that the cost of the proposed housing unit bears a proper relation to 
+the Veteran's present and anticipated income and expenses. The 
+information being sought is both required and necessary to make an 
+accurate analysis that may support these conclusions.
+    Affected Public: Individuals and households.
+    Estimated Annual Burden: 2,695 Hours.
+    Estimated Average Burden per Respondent: 15 minutes (to complete 
+forms)/45 minutes (to take photos and measurements).
+    Frequency of Response: Annually.
+    Estimated Number of Respondents: 6,628.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Lanea Haynes,
+Acting VA PRA Clearance Officer, (Alt) Office of Enterprise and 
+Integration/Data Governance Analytics, Department of Veterans Affairs.
+[FR Doc. 2025-20671 Filed 11-21-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Proposed Rules]
+[Pages 52901-52902]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20790]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 71
+
+[Docket No. FAA-2025-5147; Airspace Docket No. 25-AEA-17]
+RIN 2120-AA66
+
+
+Amendment of Class D and Class E4 Airspace Over Wilkes-Barre, PA
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action proposes to amend Class D and Class E4 airspace at 
+Wilkes-Barre/Scranton International Airport, Wilkes-Barre, PA, due to 
+the currently designated airspace not properly containing instrument 
+flight rule (IFR) operations, which require controlled airspace. This 
+action also proposes to update the geographic coordinates of the 
+airport and language related to the hours of operation of the air 
+traffic control tower.
+
+DATES: Comments must be received on or before January 8, 2026.
+
+ADDRESSES: Send comments identified by FAA Docket No. FAA-2025-5147 and 
+Airspace Docket No. 25-AEA-17 using any of the following methods:
+    * Federal eRulemaking Portal: Go to <a href="http://www.regulations.gov">www.regulations.gov</a> and follow 
+the online instructions for sending your comments electronically.
+    * Mail: Docket Operations, M-30; U.S. Department of Transportation, 
+1200 New Jersey Avenue SE, Room W12-140, West Building Ground Floor, 
+Washington, DC 20590-0001.
+    * Hand Delivery or Courier: Take comments to Docket Operations in 
+Room W12-140 of the West Building Ground Floor at 1200 New Jersey 
+Avenue SE, Washington, DC, between 9 a.m. and 5 p.m., Monday through 
+Friday, except for Federal holidays.
+    * Fax: Fax comments to Docket Operations at (202) 493-2251.
+    Docket: Background documents or comments received may be read at 
+<a href="http://www.regulations.gov">www.regulations.gov</a> at any time. Follow the online instructions for 
+accessing the docket or go to the Docket Operations in Room W12-140 of 
+the West Building Ground Floor at 1200 New Jersey Avenue SE, 
+Washington, DC, between 9 a.m. and 5 p.m., Monday through Friday, 
+except for Federal holidays.
+    FAA Order JO 7400.11K Airspace Designations and Reporting Points 
+and subsequent amendments can be viewed online at <a href="http://www.faa.gov/air_traffic/publications/">www.faa.gov/air_traffic/publications/</a>. You may also contact the Rules and 
+Regulations Group, Policy Directorate, Federal Aviation Administration, 
+600 Independence Avenue SW, Washington, DC 20597; Telephone: (202) 267-
+8783.
+
+FOR FURTHER INFORMATION CONTACT: Marc Ellerbee, Operations Support 
+Group, Eastern Service Center, Federal Aviation Administration, 1701 
+Columbia Avenue, College Park, GA 30337; Telephone: (404) 305-5589.
+
+SUPPLEMENTARY INFORMATION:
+
+Authority for This Rulemaking
+
+    The FAA's authority to issue rules regarding aviation safety is 
+found in Title 49 of the United States Code. Subtitle I, Section 106, 
+describes the authority of the FAA Administrator. Subtitle VII, 
+Aviation Programs, describes in more detail the scope of the agency's 
+authority. This rulemaking is promulgated under the authority described 
+in Subtitle VII, Part A, Subpart I, Section 40103. Under that section, 
+the FAA is charged with prescribing regulations to assign the use of 
+airspace necessary to ensure the safety of aircraft and the efficient 
+use of airspace. This regulation is within the scope of that authority, 
+as it would amend Class D and Class E4 airspace in Wilkes-Barre, PA.
+
+Comments Invited
+
+    The FAA invites interested persons to participate in this 
+rulemaking by submitting written comments, data, or views. Comments are 
+specifically invited on the overall regulatory, aeronautical, economic, 
+environmental, and energy-related aspects of the proposal. The most 
+helpful comments reference a specific portion of the proposal, explain 
+the reason for any recommended change, and include supporting data. To 
+ensure the docket does not contain duplicate comments, commenters 
+should submit only one time if comments are filed electronically, or 
+commenters should send only one copy of written comments if comments 
+are filed in writing.
+    The FAA will file in the docket all comments it receives, as well 
+as a report summarizing each substantive public contact with FAA 
+personnel concerning this proposed rulemaking. Before acting on this 
+proposal, the FAA will consider all comments it receives on or before 
+the closing date for comments. The FAA will consider comments filed 
+after the comment period has closed if it is possible to do so without 
+incurring expense or delay. The FAA may change this proposal in light 
+of the comments it receives.
+    Privacy: In accordance with 5 U.S.C. 553(c), DOT solicits comments 
+from the public to better inform its rulemaking process. DOT posts 
+these comments, without edits, including any personal information the 
+commenter provides, to <a href="http://www.regulations.gov">www.regulations.gov</a>, as described in the system 
+of records notice (DOT/ALL-14 FDMS), which can be reviewed at 
+<a href="http://www.dot.gov/privacy">www.dot.gov/privacy</a>.
+
+Availability of Rulemaking Documents
+
+    An electronic copy of this document may be downloaded through the 
+internet at <a href="http://www.regulations.gov">www.regulations.gov</a>. Recently published rulemaking 
+documents can also be accessed through the FAA's web page at 
+<a href="http://www.faa.gov/air_traffic/publications/airspace_amendments/">www.faa.gov/air_traffic/publications/airspace_amendments/</a>.
+    You may review the public docket containing the proposal, any 
+comments received, and any final disposition in person in the Dockets 
+Operations office (see ADDRESSES section for address, phone number, and 
+hours of operations). An informal docket may also be examined during 
+regular business hours at the office of the Eastern Service Center, 
+Federal Aviation Administration, Room 210, 1701 Columbia Ave., College 
+Park, GA 30337.
+
+[[Page 52902]]
+
+Incorporation by Reference
+
+    Class D and Class E4 airspace designations are published in 
+paragraphs 5000 and 6004 of FAA Order JO 7400.11, Airspace Designations 
+and Reporting Points, which is incorporated by reference in 14 CFR 71.1 
+on an annual basis. This document proposes to amend the current version 
+of that order, FAA Order JO 7400.11K, dated August 4, 2025, and 
+effective September 15, 2025. These updates would be published in the 
+next update to FAA Order JO 7400.11. FAA Order JO 7400.11K, which lists 
+Class A, B, C, D, and E airspace areas, air traffic service routes, and 
+reporting points, is publicly available as listed in the ADDRESSES 
+section of this document.
+
+The Proposal
+
+    This action proposes an amendment to 14 CFR part 71 modifying the 
+Class D and Class E4 airspace for Wilkes-Barre/Scranton International 
+Airport, Wilkes-Barre, PA. Controlled airspace is necessary for the 
+safety and management of IFR operations in the area for existing 
+instrument approach procedures.
+    This action proposes to amend the Class D airspace over Wilkes-
+Barre, PA, by updating the Wilkes-Barre/Scranton International Airport 
+geographic coordinates and increasing the lateral boundary of the Class 
+D airspace from a 4.1-mile radius of the airport to a 4.2-mile radius 
+of the airport.
+    This action also proposes to amend the Class E4 airspace over 
+Wilkes-Barre, PA, by modifying the dimensions from the current 
+configuration to that airspace extending upward from the surface within 
+2 miles each side of a 033[deg] bearing from Wilkes-Barre/Scranton 
+International Airport extending from the 4.2-mile radius to 9.4 miles 
+northeast of the airport, and within 1 mile either side of a 214[deg] 
+bearing from the airport extending from the 4.2-mile radius to 7.3 
+miles southwest of the airport. This reconfiguration will properly 
+contain the currently published standard instrument approach 
+procedures.
+    This action also proposes to remove the language in the Wilkes-
+Barre, PA, Class E4 Airspace legal description that indicates a part-
+time status, as the control tower is in operation 24 hours a day.
+
+Regulatory Notices and Analyses
+
+    The FAA has determined that this proposed regulation only involves 
+an established body of technical regulations for which frequent and 
+routine amendments are necessary to keep them operationally current. 
+It, therefore, (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under 
+Department of Transportation (DOT) Regulatory Policies and Procedures 
+(44 FR 11034; February 26, 1979); and (3) does not warrant preparation 
+of a regulatory evaluation as the anticipated impact is so minimal. 
+Since this is a routine matter that will only affect air traffic 
+procedures and air navigation, it is certified that this proposed rule, 
+when promulgated, will not have a significant economic impact on a 
+substantial number of small entities under the criteria of the 
+Regulatory Flexibility Act.
+
+Environmental Review
+
+    This proposal will be subject to an environmental analysis in 
+accordance with FAA Order 1050.1G, ``FAA National Environmental Policy 
+Act Implementing Procedures'' prior to any FAA final regulatory action.
+
+Lists of Subjects in 14 CFR Part 71
+
+    Airspace, Incorporation by reference, Navigation (air).
+
+The Proposed Amendment
+
+    In consideration of the foregoing, the Federal Aviation 
+Administration proposes to amend 14 CFR part 71 as follows:
+
+PART 71--DESIGNATION OF CLASS A, B, C, D, AND E AIRSPACE AREAS; AIR 
+TRAFFIC SERVICE ROUTES; AND REPORTING POINTS
+
+0
+1. The authority citation for part 71 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(f), 106(g), 40103, 40113, 40120; E.O. 
+10854, 24 FR 9565, 3 CFR, 1959-1963 Comp., p. 389.
+
+
+Sec.  71.1  [Amended]
+
+0
+2. The incorporation by reference in 14 CFR 71.1 of FAA Order JO 
+7400.11K, Airspace Designations and Reporting Points, dated August 4, 
+2025, and effective September 15, 2025, is amended as follows:
+
+Paragraph 5000 Class D Airspace.
+
+* * * * *
+
+AEA PA D Wilkes-Barre, PA [Amended]
+
+Wilkes-Barre/Scranton International Airport, PA
+    (Lat. 41[deg]20'19'' N, long. 75[deg]43'24'' W)
+
+    That airspace extending upward from the surface to and including 
+3,500 feet MSL within a 4.2-mile radius of Wilkes-Barre/Scranton 
+International Airport.
+* * * * *
+
+Paragraph 6004 Class E Airspace Designated as an Extension to a 
+Class D Surface Area.
+
+* * * * *
+
+AEA PA E4 Wilkes-Barre, PA [Amended]
+
+Wilkes-Barre/Scranton International Airport, PA
+    (Lat. 41[deg]20'19'' N, long 75[deg]43'24'' W)
+
+    That airspace extending upward from the surface within 2 miles 
+each side of a 033[deg] bearing from Wilkes-Barre/Scranton 
+International Airport extending from the 4.2-mile radius to 9.4 
+miles northeast of the airport, and within 1 mile either side of a 
+214[deg] bearing from the airport extending from the 4.2-mile radius 
+to 7.3 miles southwest of the airport.
+* * * * *
+
+    Issued in College Park, Georgia, on November 20, 2025.
+Patrick Young,
+Manager, Airspace & Procedures Team North, Eastern Service Center, Air 
+Traffic Organization.
+[FR Doc. 2025-20790 Filed 11-21-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre></body>
+</html>

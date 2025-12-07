@@ -75,14 +75,15 @@ def get_full_text(doc_number: str):
         data = resp.json()
 
         mods_url = data.get("mods_url", "")
-        print("modeslklergmemgklkmglmkletmlmelmrtlm_url",mods_url)
+       
         package_id = extract_package_id(mods_url)
-        print("kjvhevnovoefmvklemvklmve", package_id)
+   
         raw_text_url = data.get("raw_text_url")
         if raw_text_url:
             text_resp = requests.get(raw_text_url, headers=HEADERS)
             text_resp.raise_for_status()
             full_text = text_resp.text
+
         else:
             full_text = data.get("full_text_xml_url", "") or data.get("document", {}).get("full_text", "")
 
@@ -105,7 +106,7 @@ def extract_package_id(mods_url: str) -> str:
             return package_id
         return None
     except Exception as e:
-        print(f"Error extracting package ID: {e}")
+        # print(f"Error extracting package ID: {e}")
         return None
 
 

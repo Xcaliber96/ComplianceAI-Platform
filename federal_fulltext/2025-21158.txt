@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54314]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21158]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-OS-0542]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: The Under Secretary of Defense for Acquisition and Sustainment 
+(USD(A&S)), Department of Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#b6c1dec598dbd59bd7dad3ce98d3c5d298dbd4ce98d2d29bd2d9d29bdfd8d0d9c4dbd7c2dfd9d89bd5d9dadad3d5c2dfd9d8c5f6dbd7dfda98dbdfda"><span class="__cf_email__" data-cfemail="2c5b445f02414f014d40495402495f4802414e54024848014843480145424a435e414d58454342014f434040494f584543425f6c414d454002414540">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Technical Assistance for 
+Public Participation Application; DD Form 2749; OMB Control Number 
+0704-0392.
+    Type of Request: Individuals or households.
+    Number of Respondents: 25.
+    Responses per Respondent: 2.
+    Annual Responses: 50.
+    Average Burden per Response: 4 hours.
+    Annual Burden Hours: 200.
+    Needs and Uses: The information collection requirement is necessary 
+to identify products or services requested by community members of 
+restoration advisory boards or technical review committees to aid in 
+their participation in the DoD's environmental restoration program, and 
+to meet Congressional reporting requirements.
+    Affected Public: Individuals or households.
+    Frequency: As required.
+    Respondent's Obligation: Voluntary.
+    DOD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21158 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

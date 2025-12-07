@@ -1,0 +1,494 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52982-52987]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20742]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Substance Abuse and Mental Health Services Administration
+
+
+Agency Information Collection Activities: Proposed Collection; 
+Comment Request
+
+    In compliance with Section 3506(c)(2)(A) of the Paperwork Reduction 
+Act of 1995 concerning opportunity for public comment on proposed 
+collections of information, the Substance Abuse and Mental Health 
+Services Administration (SAMHSA) will publish periodic summaries of 
+proposed projects. To request more information on the proposed projects 
+or to obtain a copy of the information collection plans, call the 
+SAMHSA Reports Clearance Officer at <a href="/cdn-cgi/l/email-protection#d1b0bdb8b2b8b0ffb3a3beb0b5a4a291a2b0bcb9a2b0ffb9b9a2ffb6bea7"><span class="__cf_email__" data-cfemail="97f6fbfef4fef6b9f5e5f8f6f3e2e4d7e4f6faffe4f6b9ffffe4b9f0f8e1">[email&#160;protected]</span></a>.
+    Comments are invited on: (a) whether the proposed collections of 
+information are necessary for the proper performance of the functions 
+of the agency, including whether the information shall have practical 
+utility; (b) the accuracy of the agency's estimate of the burden of the 
+proposed collection of information; (c) ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (d) ways 
+to minimize the burden of the collection of information on respondents, 
+including the use of automated collection techniques or other forms of 
+information technology.
+
+Proposed Project: Programs To Reduce Underage Drinking--(OMB No. 0930-
+0316)--Revision
+
+    The Sober Truth on Preventing Underage Drinking Act (STOP Act) was 
+passed by Congress in 2006, reauthorized in December 2016 as part of 
+the 21st Century Cures Act (Pub. L. 114-255) and the Consolidated 
+Appropriations Act, 2023 (Pub. L. 117-328), and codified into law in 42 
+U.S.C. 290bb-25b: Programs to reduce underage drinking. The STOP Act 
+contains four primary elements:
+    1. The award of community-based coalition enhancement grants for 
+underage drinking prevention activities to eligible entities currently 
+receiving funds under the Drug-Free Communities Act of 1997.
+    2. A national adult-oriented media public service campaign to 
+prevent underage drinking, ``Talk. They Hear You.'', and an annual 
+report to Congress evaluating the campaign.
+    3. An annual report to Congress summarizing federal prevention 
+activities and the extent of progress in
+
+[[Page 52983]]
+
+reducing underage drinking nationally, including data from national 
+surveys conducted by federal agencies.
+    4. An annual report to Congress ``on each State's performance in 
+enacting, enforcing, and creating laws, regulations, and programs to 
+prevent or reduce underage drinking.'' The survey that is the subject 
+of this request gathers data used to develop the state-by-state report 
+on prevention and enforcement activities related to underage drinking.
+    Driven by the legislation and coordinated by the Interagency 
+Coordinating Committee on the Prevention of Underage Drinking (ICCPUD), 
+each of these activities work together to prevent and reduce underage 
+drinking. ICCPUD provides national leadership in federal policy and 
+programming to support state and community activities that prevent and 
+reduce underage drinking. The data collection activities described in 
+this package serve to assess the outputs and outcomes of public health 
+messaging and interventions. The data collection activities outlined in 
+this package are:
+    1. Survey of State Underage Drinking Prevention Policies, Programs, 
+and Practices: An annual survey mandated by the STOP Act legislation 
+sent to an individual designated by the governor of all 50 states and 
+the mayor of the District of Columbia;
+    2. Policy Academy Evaluations: An assessment of participant 
+capacity and workforce development through ICCPUD's Alcohol Policy 
+Academy and SAMHSA's State and Community Policy Academy;
+    3. ``Parents' Night Out'' Evaluation: Tools for distribution of 
+materials and evaluation of presenters and participants, including a 
+solicitation of feedback from presenters and an assessment of changes 
+in knowledge, skills, and confidence of parents and caregivers after 
+receiving the training and materials for ``Parents' Night Out'' and 
+``Talk. They Hear You.'' products;
+    4. ``Talk. They Hear You.'' Mobile App Surveys: A parent and 
+caregiver survey and an app satisfaction survey. The parent survey will 
+allow parents to provide their insight on campaign materials, general 
+demographic information, and details on their conversations with youth 
+regarding underage drinking and substance use. The satisfaction survey 
+will assess perceptions of the app function and content to inform 
+future ``Talk. They Hear You.'' campaign refinement.
+    5. ``Talk. They Hear You.'' Community Partner Surveys: A newsletter 
+survey, a license survey, and a feedback survey. Each tool will be used 
+to engage partners, disseminate materials, provide technical 
+assistance, and receive feedback.
+    6. Screen4Success: A pre-screener, screener, and consent/assent 
+survey on the Screen4Success website. The tool is designed to screen 
+for health, wellness, and well-being concerns and connect participants 
+to resources in their area.
+
+Survey of State Underage Drinking Prevention Policies, Programs, and 
+Practices
+
+    The STOP Act states that the ``Secretary [of Health and Human 
+Services] shall . . . annually issue a report on each state's 
+performance in enacting, enforcing, and creating laws, regulations, and 
+programs to prevent or reduce underage drinking.'' The Secretary has 
+delegated responsibility for this report to SAMHSA. Therefore, SAMHSA 
+has developed a Survey of State Underage Drinking Prevention Policies, 
+Programs, and Practices (the State Survey) to provide input for the 
+state-by-state report on prevention and enforcement activities related 
+to the underage drinking component of the annual Report to Congress on 
+the Prevention and Reduction of Underage Drinking.
+    Congress' purpose in mandating the collection of data on state 
+policies, programs, and practices through the State Survey is to 
+provide policymakers and the public with otherwise unavailable but much 
+needed information regarding state underage drinking prevention 
+policies and programs. SAMHSA and other federal agencies that have 
+underage drinking prevention as part of their mandate use the results 
+of the State Survey to inform federal programmatic priorities, as do 
+other stakeholders, including community organizations. The information 
+gathered by the State Survey has established a resource for state 
+agencies and the public for assessing policies and programs in their 
+own state and for becoming familiar with the policies, programs, 
+practices, and funding priorities of other states.
+    SAMHSA has determined that data on Categories #2 and #3 mandated in 
+the STOP Act (as listed on page 2; enforcement and educational programs 
+and programs targeting youth, parents, and caregivers) as well as 
+states' collaborations with tribal governments, use of social marketing 
+or counter-advertising campaigns, state-level interagency 
+collaborations, and prevention workforce development activities are not 
+available from secondary sources and therefore must be collected from 
+the states themselves. The State Survey is therefore necessary to 
+fulfill the Congressional mandate found in the STOP Act. Furthermore, 
+the uniform collection of these data from the states over the last 15 
+years has created a valuable longitudinal dataset, and the State 
+Survey's renewal is vital to maintaining this resource.
+    The State Survey is a single document that is divided into three 
+sections: (1) enforcement of underage drinking laws; (2A) underage 
+drinking prevention programs targeted to youth, families, parents, and 
+caregivers, including data on the approximate number of persons served 
+by these programs; (2B) state collaborations and best practices; (2C) 
+interagency collaborations and state participation in social marketing 
+media campaigns intended to reduce underage drinking; and (3) workforce 
+development activities, including strategies and funds expended on 
+recruiting and retaining a behavioral health workforce.
+    SAMHSA collects the required data using an online survey data 
+collection platform. Links to the survey are distributed to states via 
+email. The State Survey is sent to each state governor's office and the 
+Office of the Mayor of the District of Columbia. SAMHSA provides both 
+telephone and electronic technical support to state agency staff and 
+emphasizes that the states are expected to provide data from existing 
+state databases and other data sources available to them. The burden 
+estimate below considers these assumptions.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+State Survey.........................................             51             1           51         18.5        943.50      $28.07       $26,484.05
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[[Page 52984]]
+
+Alcohol Policy Academy Evaluation
+
+    ICCPUD's Alcohol Policy Academy strives to reduce and prevent 
+underage and excessive drinking by increasing the capacity of community 
+coalitions to modify the community context through the policy process. 
+The Alcohol Policy Academy includes 14 coalitions from across the U.S., 
+with two individuals from each coalition serving as Academy 
+participants. The Alcohol Policy Academy evaluation is designed to 
+measure the effectiveness of increasing coalition capacity through the 
+training and coaching of the policy process. Additionally, the 
+evaluation will measure the increase in the policy training workforce 
+through a mentee-to-coach development pipeline. The scope of the 
+evaluation is limited to measuring the impact of the Alcohol Policy 
+Academy curriculum on participants and coaches.
+    The evaluation comprises seven surveys and one focus group. Surveys 
+are conducted after each monthly training and coaching call. The 
+participant surveys seek feedback on changes in knowledge, skills, and 
+confidence after each training and coaching call as well as feedback on 
+the training content and training/coaching provider. The coach surveys 
+track the progress of the coalitions. These surveys take the 
+participants and coaches approximately 5-10 minutes each to complete. 
+The participants also complete a baseline survey, a 12-month follow-up 
+survey, and an 18-month follow-up survey. These surveys assess whether 
+participants reach their own goals during the Alcohol Policy Academy, 
+how they share their knowledge and skills gained, and how they continue 
+to progress in the policy process. All surveys will be fielded using a 
+web-based survey tool. The focus group within the cohort will collect 
+qualitative data from the participants on their experience.
+    The table below indicates the estimated total annual burden on the 
+participants and coaches of the Alcohol Policy Academy. The survey 
+estimates include reading the instructions and questions and responding 
+to each question. The focus group is scheduled for one hour and 
+includes introductions, instructions, posing of questions, and open 
+discussion.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 Number of    Responses/     Total     Hours per   Total hour               Total hour
+                          Instrument                            respondents   respondent   responses   response      burden    Wage rate       cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Focus Group..................................................            28            1          28           1           28     $27.10         $758.80
+Participant Post-Coaching Call Survey........................            28           10         280       0.125           35      27.10          948.50
+Participant Post-Training Call Survey........................            28           10         280       0.125           35      27.10          948.50
+Coach Post-Coaching Call Survey..............................             3           70         210        0.17         35.7         50        1,785.00
+Baseline.....................................................            28            1          28        0.67        18.76      27.10          508.40
+Follow-Up....................................................            28            1          28           1           28      27.10          758.80
+Six-Month Follow-Up..........................................            28            1          28        0.67        18.76      27.10          508.40
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+``Talk. They Hear You''
+
+    The ``Talk They Hear You'' campaign comprises a variety of tools 
+and resources designed to decrease underage drinking by encouraging 
+families, parents and caregivers, educators, and community members/
+organizations to proactively engage youth in conversations about 
+alcohol and other substances. Research has demonstrated that active and 
+engaged adults can reduce underage drinking.\1\
+---------------------------------------------------------------------------
+
+    \1\ Glenn, S.D., Turrisi, R., Mallett, K.A., Waldron, M.S., 
+Lenker, L.K. (2024). Examination of brief parent-based interventions 
+to reduce drinking outcomes on a nationally representative sample of 
+teenagers. Journal of Adolescent Health, 74(3) 449-457. <a href="https://doi.org/10.1016/j.jadohealth.2023.09.010">https://doi.org/10.1016/j.jadohealth.2023.09.010</a>.
+---------------------------------------------------------------------------
+
+``Parents' Night Out'' Materials Download Survey
+
+    The ``Parents' Night Out'' Materials Download Survey will 
+facilitate the download of materials by interested organizations, 
+including local coalitions, health departments, schools, and other 
+community groups. The survey will ask questions relevant to providing 
+training and technical assistance for implementation and contact 
+information for automated delivery of the materials.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Number of     Responses/      Total       Hours per    Total hour
+                     Instrument                         respondents    respondent    responses     response       burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+``Parents' Night Out'' Materials Download Survey....            500             1          500          0.05            25      $27.10          $677.50
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+``Parents' Night Out'' Evaluation
+
+    The ``Parents' Night Out'' Evaluation will assess changes in 
+knowledge, skills, and confidence of parents and caregivers after 
+receiving the training and materials from ``Parents' Night Out'' and 
+``Talk. They Hear You.'' products. This evaluation will be delivered in 
+collaboration with community partners, who will be exposed to varying 
+combinations of ``Parents' Night Out'' and materials to determine 
+change before and after exposure. The information gleaned in surveys of 
+participants and presenters of the sessions will allow the evaluation 
+team to assess whether ``Parents' Night Out'' is being implemented as 
+intended and which products are most useful in increasing parents' and 
+caregivers' capacity and intentions. The results will be shared with 
+the implementation team for ``Parents' Night Out'' curriculum 
+modifications and for updating ``Talk. They Hear You.'' materials. 
+Similarly, information collected regarding technical assistance from 
+the Presenter Survey will be used to continuously improve the materials 
+to best serve the needs of the users.
+    The table below indicates the estimated total annual burden on the 
+participants and presenters of ``Parents' Night Out''. The survey 
+estimates include reading the instructions and questions and responding 
+to each question.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+[[Page 52985]]
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 Number of    Responses/     Total     Hours per   Total hour               Total hour
+                          Instrument                            respondents   respondent   responses   response      burden    Wage rate       cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+``Parents' Night Out'' Participant Survey....................         1,000            1       1,000        0.12          120   * $17.50       $2,100.00
+``Parents' Night Out'' Presenter Survey......................           200            1         200        0.08           16      27.10          433.60
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+Mobile App Parent Survey
+
+    The ``Talk. They Hear You.'' mobile app provides families, parents, 
+and caregivers access to resources, conversation practice sessions, and 
+Screen4Success. The mobile app's Parent Survey will be linked within 
+the ``Talk. They Hear You.'' mobile app for parents and caregivers of 
+youth ages 12-20 to complete. Parents and caregivers will be able to 
+provide their insight on campaign materials, general demographic 
+information, and details on their conversations with youth regarding 
+underage drinking and substance use. This feedback will help the 
+campaign team better serve parents and caregivers by tailoring 
+resources to meet the age range of youth and parental areas of 
+interest.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Mobile App Parent Survey.............................            200             1          200         0.12            24    $17.50 *          $420.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+Mobile App Satisfaction Survey
+
+    The campaign team is interested in continuing deployment of the 
+User Satisfaction Survey. The overall objective of the survey is to 
+determine users' satisfaction with the app and if the user would like 
+to see any changes made to the app. The survey will inform SAMHSA on 
+how the mobile app resonates with the intended users and determine 
+whether the mobile app is effective at conveying the importance of 
+talking with kids early and often about underage drinking and other 
+substances use through guided conversations. This survey will be 
+available at the bottom of each page of the mobile app and promoted 
+through in-app pop-up notifications.
+    The table below indicates the estimated total annual burden on the 
+respondents of the survey. The survey estimates include reading and 
+responding to each question, and totals 3 minutes. The wage rate was 
+determined based on the highest state minimum wage, as respondent 
+locations are not collected.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Mobile App Satisfaction Survey.......................            200             1          200         0.05            10    $17.50 *          $175.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+Community Partner Newsletter Survey
+
+    The Newsletter Survey will be a brief survey designed for 
+interested individuals to sign up to receive regular campaign 
+communications via email. The newsletter is developed for organization 
+members to engage with campaign materials, receive updates when new 
+products are released, and participate in ``Talk. They Hear You.'' 
+events. The newsletter also provides free pre-made social media content 
+related to underage drinking prevention for organizations to share or 
+customize.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Newsletter Survey....................................            240             1          240         0.05            12     $17.50*          $210.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+Community Partner License Survey
+
+    The License Survey is designed for organizations to register and 
+partner with the ``Talk. They Hear You.'' campaign. In contrast to the 
+Newsletter Survey, the License Survey is designed to be filled out once 
+per organization. Partners will receive regular communication from the 
+campaign outreach team and can access technical assistance as needed. 
+Partners help facilitate the campaign at the local level by engaging 
+their community, parents and caregivers, families, and educators. The 
+campaign will highlight the work of partners periodically in the 
+newsletters to share their successes and valuable efforts to 
+disseminate ``Talk. They Hear You.'' products.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+License Survey.......................................            260             1          260         0.08          20.8      $27.10          $563.68
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[[Page 52986]]
+
+Community Partner Feedback Survey
+
+    The Partner Feedback Survey will provide an opportunity for 
+partners to share feedback on community engagement meetings and 
+evaluate how current community partners are engaging with ``Talk. They 
+Hear You.'' Partners who attend the community engagement meetings will 
+be asked to complete the survey after each quarterly meeting. The 
+survey will gather both qualitative and quantitative evaluation data to 
+be used for campaign refinement and to improve technical assistance to 
+licensed partners. The data gathered through the Partner Feedback 
+Survey will be used to continuously enhance the materials and community 
+engagement provided by ``Talk. They Hear You.''
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Partner Feedback Survey..............................             86             1           86         0.17         14.62      $27.10          $396.20
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Screen4Success
+
+    Screen4Success is designed for individuals and organizations to 
+access free health, wellness, and well-being screening tools; collect 
+consent/assent from parents and participants; navigate to local and 
+national resources; and track referrals to services. Information 
+collected at the consent of the participant will be shared with 
+researchers to better inform prevention efforts and support services of 
+the ``Talk. They Hear You.'' campaign. Additionally, organizations who 
+use Screen4Success can utilize their aggregated, de-identified 
+participant result data to inform local interventions, shape policy, 
+and supplement applications to secure funding.
+    The estimated annual response burden to collect this information is 
+as follows:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 Number of    Responses/     Total     Hours per   Total hour               Total hour
+                          Instrument                            respondents   respondent   responses   response      burden    Wage rate       cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Pre-Screener.................................................         1,000            1       1,000        0.08           80   * $17.50       $1,400.00
+Screener.....................................................         1,000            1       1,000         0.3          300    * 17.50        5,250.00
+Parental Consent/Assent......................................         1,000            1       1,000        0.04           40    * 17.50          700.00
+Participant Consent/Assent...................................         1,000            1       1,000        0.04           40    * 17.50          700.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+    The two tables shown below detail the aggregate and combined total 
+burden of the data collection activities listed above.
+
+                                                        Combined Estimated Burden for Respondents
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 Number of    Responses/     Total     Hours per   Total hour               Total hour
+                          Instrument                            respondents   respondent   responses   response      burden    Wage rate       cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+State Survey.................................................            51            1          51        18.5       943.50     $28.07      $26,484.05
+Focus Group..................................................            28            1          28           1           28      27.10          758.80
+Participant Post-Coaching Call Survey........................            28           10         280       0.125           35      27.10          948.50
+Participant Post-Training Call Survey........................            28           10         280       0.125           35      27.10          948.50
+Coach Post-Coaching Call Survey..............................             3           70         210        0.17         35.7         50        1,785.00
+Baseline.....................................................            28            1          28        0.67        18.76      27.10          508.40
+Follow-Up....................................................            28            1          28           1           28      27.10          758.80
+Six-Month Follow-Up..........................................            28            1          28        0.67        18.76      27.10          508.40
+``Parents' Night Out'' Materials Download Survey.............           500            1         500        0.05           25      27.10          677.50
+``Parents' Night Out'' Participant Survey....................         1,000            1       1,000        0.12          120    * 17.50        2,100.00
+``Parents' Night Out'' Presenter Survey......................           200            1         200        0.08           16      27.10          433.60
+Mobile App Parent Survey.....................................           200            1         200        0.12           24    * 17.50          420.00
+Mobile App Satisfaction Survey...............................           200            1         200        0.05           10    * 17.50          175.00
+Newsletter Survey............................................           240            1         240        0.05           12    * 17.50          210.00
+License Survey...............................................           260            1         260        0.08         20.8      27.10          563.68
+Partner Feedback Survey......................................            86            1          86        0.17        14.62      27.10          396.20
+Pre-Screener.................................................         1,000            1       1,000        0.08           80    * 17.50        1,400.00
+Screener.....................................................         1,000            1       1,000         0.3          300    * 17.50        5,250.00
+Parental Consent/Assent......................................         1,000            1       1,000        0.04           40    * 17.50          700.00
+Participant Consent/Assent...................................         1,000            1       1,000        0.04           40    * 17.50          700.00
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+* <a href="https://www.dol.gov/agencies/whd/minimum-wage/state">https://www.dol.gov/agencies/whd/minimum-wage/state</a>.
+
+
+                                                Total Burden on Respondents for All Data Collection Tools
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Number of     Responses/      Total      Hours per    Total hour
+                      Instrument                         respondents    respondent    responses     response      burden      Wage rate  Total hour cost
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Total................................................          6,908           107        7,619        23.44      1,845.14     $489.07       $45,726.43
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[[Page 52987]]
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under 30-day Review--Open for 
+Public Comments'' or by using the search function.
+
+Alicia Broadus,
+Public Health Advisor.
+[FR Doc. 2025-20742 Filed 11-21-25; 8:45 am]
+BILLING CODE 4162-20-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

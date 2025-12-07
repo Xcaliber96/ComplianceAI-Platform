@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53064-53065]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20743]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+[OMB Control No. 2900-0590]
+
+
+Agency Information Collection Activity under OMB Review: 
+Department of Veterans Affairs Acquisition Regulation (VAAR) Clauses 
+852.237-70, Indemnification and Medical Liability Insurance; 852.228-
+71, Indemnification and Insurance
+
+AGENCY: Office of Acquisition and Logistics, Department of Veterans 
+Affairs.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act (PRA) of 1995, 
+this notice announces that the Office of Acquisition and Logistics, 
+Department of Veterans Affairs (VA), will submit the collection of 
+information abstracted below to the Office of Management and Budget 
+(OMB) for review and comment. The PRA submission describes the nature 
+of the information collection and its expected cost and burden, and it 
+includes the actual data collection instrument.
+
+DATES: Comments and recommendations for the proposed information 
+collection should be sent by December 24, 2025.
+
+ADDRESSES: To submit comments and recommendations for the proposed 
+information collection, please type the following link into your 
+browser: <a href="http://www.reginfo.gov/publicdo/PRA/Main">www.reginfo.gov/publicdo/PRA/Main</a>, select ``Currently under 
+Review--Open for Public Comments, then search the list for the 
+information collection by Title or ``OMB Control No. 2900-0590.''
+
+FOR FURTHER INFORMATION CONTACT: VA PRA information: Dorothy Glasgow, 
+202-461-1084, <a href="/cdn-cgi/l/email-protection#81d7c0d1d3c0c1f7e0afe6eef7"><span class="__cf_email__" data-cfemail="eeb8afbebcafae988fc0898198">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title: Department of Veterans Affairs Acquisition Regulation (VAAR) 
+Clauses 852.237-70, Indemnification and Medical Liability Insurance; 
+852.228-71, Indemnification and Insurance.
+    OMB Control Number: 2900-0590. <a href="https://www.reginfo.gov/public/do/PRASearch">https://www.reginfo.gov/public/do/PRASearch</a>.
+    Type of Review: Reinstatement without change of a previously 
+approved collection.
+    Abstract: VAAR clause 852.237-70, Indemnification and Medical 
+Liability Insurance, is used in lieu of Federal Acquisition Regulation 
+(FAR) clause 52.237-7, Indemnification and Medical Liability Insurance, 
+in solicitations and contracts for the acquisition of nonpersonal 
+health care services. It requires the apparent successful bidder/
+offeror, upon the request of the contracting officer, prior to contract 
+award, to furnish evidence of insurability of the offeror and/or all 
+health-care providers who will perform under the contract. In addition, 
+the clause requires the contractor, prior to commencement of services 
+under the contract, to provide Certificates of Insurance or insurance 
+policies evidencing that the firm possesses the types and amounts of 
+insurance required by the solicitation. The information is required in 
+order to protect VA by ensuring that the firm to which award may be 
+made and the individuals who may provide health care services under the 
+contract are insurable and that, following award, the contractor and 
+its employees will continue to possess the types and amounts of 
+insurance required by the solicitation. It helps ensure that VA will 
+not be held liable for any negligent acts of the contractor or its 
+employees and ensures that VA and VA beneficiaries are protected by 
+adequate insurance coverage.
+    VAAR clause 852.228-71, Indemnification and Insurance, is used in 
+solicitations for vehicle or aircraft services. It requires the 
+apparent successful bidder/offeror, prior to contract award, to furnish 
+evidence that the firm possesses the types and amounts of insurance 
+required by the solicitation. This evidence is in the form of a 
+certificate from the firm's insurance company. The information is 
+required to protect VA by ensuring that the firm to which award will be 
+made possesses the types and amounts of insurance required by the 
+solicitation. It helps ensure that VA will not be held liable for any 
+negligent acts of the contractor and ensures that VA beneficiaries and 
+the public are protected by adequate insurance coverage.
+    VA uses the information to determine whether additional contract 
+terms and conditions are necessary. An agency may not conduct or 
+sponsor, and a person is not required to respond to a collection of 
+information unless it displays a currently valid OMB control number. 
+The Federal Register notice with a 60-day comment period soliciting 
+comments on this collection of information was published at 90 FR 
+39264, August 14, 2025.
+    Affected Public: Business or other for profit and not-for-profit 
+institutions.
+    Estimated Annual Burden:
+    a. VAAR Clause 852.237-7, Indemnification and Medical Liability 
+Insurance--750 hours.
+    b. VAAR clause 852.228-71, Indemnification and Insurance--250 
+hours.
+
+[[Page 53065]]
+
+    Estimated Average Burden Per Respondent:
+    a. VAAR Clause 852.237-7, Indemnification and Medical Liability 
+Insurance--30 minutes.
+    b. VAAR clause 852.228-71, Indemnification and Insurance--30 
+minutes.
+    Frequency of Response:
+    a. VAAR Clause 852.237-7, Indemnification and Medical Liability 
+Insurance--1 per each contract awarded.
+    b. VAAR clause 852.228-71, Indemnification and Insurance--1 per 
+each contract awarded.
+    Estimated Number of Respondents:
+    a. VAAR Clause 852.237-7, Indemnification and Medical Liability 
+Insurance--1500.
+    b. VAAR clause 852.228-71, Indemnification and Insurance--500.
+
+(Authority: 44 U.S.C. 3501 et seq.)
+
+Dorothy Glasgow,
+Acting, VA PRA Clearance Officer, Office of Information Technology, 
+Data Governance Analytics, Department of Veterans Affairs.
+[FR Doc. 2025-20743 Filed 11-21-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54399]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21113]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF LABOR
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; No Surprises Act: IDR Process
+
+ACTION: Notice of availability; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Labor (DOL) is submitting this Employee 
+Benefits Security Administration (EBSA)-sponsored information 
+collection request (ICR) to the Office of Management and Budget (OMB) 
+for review and approval in accordance with the Paperwork Reduction Act 
+of 1995 (PRA). Public comments on the ICR are invited.
+
+DATES: The OMB will consider all written comments that the agency 
+receives on or before December 26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Michael Howell by telephone at 202-
+693-6782, or by email at <a href="/cdn-cgi/l/email-protection#45010a091a1517041a151007090c0605212a296b222a33"><span class="__cf_email__" data-cfemail="9cd8d3d0c3ccceddc3ccc9ded0d5dfdcf8f3f0b2fbf3ea">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The CAA added provisions applicable to group 
+health plans and health insurance issuers in the group and individual 
+markets in a new Part D of title XXVII of the Public Health Service Act 
+(PHS Act) and also added new provisions to part 7 of the Employee 
+Retirement Income Security Act (ERISA), and Subchapter B of chapter 100 
+of the Internal Revenue Code (Code). Section 102 of the No Surprises 
+Act added Code section 9816, ERISA section 716, and PHS Act section 
+2799A-1, which contain limitations on cost sharing and requirements for 
+initial payments for emergency services. Section 103 of the No 
+Surprises Act amended Code section 9816, ERISA section 716, and PHS Act 
+section 2799A-1 to establish a Federal independent dispute resolution 
+(Federal IDR) process that nonparticipating providers or facilities and 
+group health plans and health insurance issuers in the group and 
+individual market may use following the end of an unsuccessful open 
+negotiation period to determine the out-of-network rate for certain 
+services. More specifically, the Federal IDR provisions may be used to 
+determine the out-of-network rate for certain emergency services, 
+nonemergency items and services furnished by nonparticipating providers 
+at participating health care facilities, where an All-Payer Model 
+Agreement or specified state law does not apply. Section 105 of the No 
+Surprises Act created Code section 9817, ERISA section 717, and PHS Act 
+section 2799A-2 which contain limitations on cost sharing and 
+requirements for initial payments for air ambulance services, and allow 
+plans and issuers and providers of air ambulance services to access the 
+Federal IDR process. CAA provisions that apply to health care providers 
+and facilities, and providers of air ambulance services, such as 
+requirements around cost sharing, prohibitions on balance billing for 
+certain items and services, and requirements related to disclosures 
+about balance billing protections, were added to title XXVII of the PHS 
+Act in a new part E. For additional substantive information about this 
+ICR, see the related notice published in the Federal Register on 
+January 6, 2025 (90 FR 671).
+    Comments are invited on: (1) whether the collection of information 
+is necessary for the proper performance of the functions of the 
+Department, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimates of the burden and 
+cost of the collection of information, including the validity of the 
+methodology and assumptions used; (3) ways to enhance the quality, 
+utility and clarity of the information collection; and (4) ways to 
+minimize the burden of the collection of information on those who are 
+to respond, including the use of automated collection techniques or 
+other forms of information technology.
+    This information collection is subject to the PRA. A Federal agency 
+generally cannot conduct or sponsor a collection of information, and 
+the public is generally not required to respond to an information 
+collection, unless the OMB approves it and displays a currently valid 
+OMB Control Number. In addition, notwithstanding any other provisions 
+of law, no person shall generally be subject to penalty for failing to 
+comply with a collection of information that does not display a valid 
+OMB Control Number. See 5 CFR 1320.5(a) and 1320.6.
+    DOL seeks PRA authorization for this information collection for 
+three (3) years. OMB authorization for an ICR cannot be for more than 
+three (3) years without renewal. The DOL notes that information 
+collection requirements submitted to the OMB for existing ICRs receive 
+a month-to-month extension while they undergo review.
+    Agency: DOL-EBSA.
+    Title of Collection: No Surprises Act: IDR Process.
+    OMB Control Number: 1210-0169.
+    Affected Public: Private sector.
+    Total Estimated Number of Respondents: 2,000,012.
+    Total Estimated Number of Responses: 2,755,048.
+    Total Estimated Annual Time Burden: 1,691,251 hours.
+    Total Estimated Annual Other Costs Burden: $58,518,032.
+
+(Authority: 44 U.S.C. 3507(a)(1)(D))
+
+Michael Howell,
+Senior Paperwork Reduction Act Analyst.
+[FR Doc. 2025-21113 Filed 11-25-25; 8:45 am]
+BILLING CODE 4510-29-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

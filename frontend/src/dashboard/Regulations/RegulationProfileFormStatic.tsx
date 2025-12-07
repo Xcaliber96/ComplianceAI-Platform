@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { v4 as uuidv4 } from "uuid";
-import { wizardSearch, getLocalPackages  } from "../../api/client";
+import { wizardSearch, getLocalPackages,BASE_URL  ,getRegulationText } from "../../api/client";
 type SourceType = "government" | "state";
 type GovernmentSearchMode = "topic" | "packageId";
 type StateSearchMode = "ruleNumber" | "topic";
@@ -128,44 +128,61 @@ useEffect(() => {
   });
 }, []);
 
-  const handleAddSelected = async () => {
-    if (selectedIds.length === 0) {
-      setError("Please select at least one regulation to add.");
-      return;
+const handleAddSelected = async () => {
+  if (selectedIds.length === 0) {
+    setError("Please select at least one regulation to add.");
+    return;
+  }
+
+  setIsLoading(true);
+  setError(null);
+
+  try {
+    const selectedRegs = results.filter((r) => selectedIds.includes(r.id));
+const user_uid = localStorage.getItem("user_uid");
+alert(user_uid)
+if (!user_uid) {
+  console.error("❌ No user_uid found in localStorage");
+  return;
+}
+
+    // 1️⃣ FETCH FULL TEXT BEFORE SENDING TO BACKEND
+    const enriched = await Promise.all(
+      selectedRegs.map(async (reg) => {
+        const full = await getRegulationText(reg.id); // ← retrieves parsed .txt
+        return {
+          ...reg,
+          full_text: full.text, // ← store the full text in dataset
+        };
+      })
+    );
+
+    // 2️⃣ SEND THE DATA TO BACKEND (using BASE_URL)
+    const response = await fetch(`${BASE_URL}/api/regulations/import`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        user_uid,
+        regulations: enriched,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to add regulations.");
     }
 
-    setIsLoading(true);
-    setError(null);
+    alert(`Added ${selectedIds.length} regulations with full text.`);
+    resetResults();
+    setQuery("");
 
-    try {
-      const selected = results.filter((r) => selectedIds.includes(r.id));
-   const user_uid = localStorage.getItem("uid") || "test-user";
+  } catch (err: any) {
+    console.error(err);
+    setError(err.message || "Something went wrong.");
+  } finally {
+    setIsLoading(false);
+  }
+};
 
-      // Hook to your backend: e.g. /api/regulations/import
-      const response = await fetch("/api/regulations/import", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user_uid,
-          regulations: selected,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to add regulations to your library.");
-      }
-
-      // You might want a toast system here instead
-      alert(`Successfully added ${selected.length} regulation(s) to your library.`);
-      resetResults();
-      setQuery("");
-    } catch (err: any) {
-      console.error(err);
-      setError(err.message || "Something went wrong while adding regulations.");
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   const showGovTopic = sourceType === "government" && govSearchMode === "topic";
   const showGovPackage =
