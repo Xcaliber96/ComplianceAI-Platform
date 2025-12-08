@@ -5,6 +5,10 @@ import chromadb
 import math
 from datetime import datetime, timezone
 from PyPDF2 import PdfReader
+FALLBACK_NARRATIVE = (
+    "The system could not generate an AI gap narrative for this requirement. "
+    "Treat this as not fully assessed and review the evidence manually."
+)
 
 # --- Helpers required by scripts/reindex_chroma.py and others ---
 
@@ -247,11 +251,8 @@ class ComplianceChecker:
     def generate_llm_narrative(self, reg_text, evidence_chunk):
         """
         Generate compliance gap narrative with LLM.
-        Behavior:
-          - If centralized helper `generate_gap_summary` is available, call it and format result.
-          - Otherwise fall back to original inline OpenAI call (preserves current prompts and behavior).
+        Always returns a clean, user-friendly sentence - never error messages.
         """
-        # If we have centralized helper available, use it first
         if USE_CENTRALIZED_LLM:
             try:
                 resp = generate_gap_summary(regulation_text=reg_text, evidence_chunks=[evidence_chunk])
@@ -260,64 +261,51 @@ class ComplianceChecker:
                     summary = result.get("summary") or ""
                     missing = result.get("missing_items", [])
                     confidence = result.get("confidence", None)
+                    
                     parts = []
                     if summary:
-                        parts.append("GAP SUMMARY: " + summary.strip())
+                        parts.append(f"GAP SUMMARY: {summary.strip()}")
                     if missing:
-                        parts.append("MISSING: " + "; ".join(missing[:5]))
+                        parts.append(f"MISSING: {', '.join(missing[:5])}")
                     if confidence is not None:
                         parts.append(f"CONFIDENCE: {confidence}")
-                    return " | ".join([p for p in parts if p])
+                    
+                    return " | ".join([p for p in parts if p]) if parts else FALLBACK_NARRATIVE
                 else:
-                    # If helper returned an error, include that info but fall through to inline fallback if available
-                    helper_err = resp.get("error") if isinstance(resp, dict) else "LLM helper returned falsey response"
-                    # Fall back to inline OpenAI only if configured
-                    if self.llm_client is None:
-                        return f"LLM helper error: {helper_err}"
-                    # else fall through to inline call below
-            except Exception as e:
-                # If helper fails unexpectedly, fall back to inline call if present; otherwise return error.
-                if self.llm_client is None:
-                    return f"LLM helper exception: {e}"
-                # else proceed to inline fallback
+                    # Helper returned error or falsey response
+                    return FALLBACK_NARRATIVE
+            except Exception:
+                # Unexpected helper failure
+                return FALLBACK_NARRATIVE
 
-        # Inline fallback (preserve original behavior)
-        prompt = f"""
-You are a compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE
-and state the compliance GAP in one clear sentence.
+        # Inline OpenAI fallback
+        prompt = f"""You are a compliance analyst. Compare the following REGULATION with the POLICY EVIDENCE and state the compliance GAP in one clear sentence.
 
-REGULATION: "{reg_text}"
+REGULATION: {reg_text}
 
-POLICY EVIDENCE: "{evidence_chunk[:500]}"
+POLICY EVIDENCE: {evidence_chunk[:500]}
 
-GAP SUMMARY:
-"""
+GAP SUMMARY:"""
+
         try:
-            # Ensure llm_client exists for fallback (it was created in __init__ when centralized helper absent)
             if not getattr(self, "llm_client", None):
-                return "LLM Error: no LLM helper available and OpenAI client not initialized."
+                return FALLBACK_NARRATIVE
+                
             completion = self.llm_client.chat.completions.create(
-                model="gpt-4.1-mini",
+                model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=150,
                 temperature=0.3
             )
-            content = self._extract_content_from_completion(completion)
+            
+            content = self._extract_content_from_completion(completion)  # Note the underscore!
             if content:
-                # prepend label for clarity (keeps previous behavior)
                 if not content.lower().startswith("gap summary"):
                     content = "GAP SUMMARY: " + content
                 return content
-            # fallback: return a compact debug repr
-            try:
-                # try to get a readable repr of the first choice
-                if hasattr(completion, "choices") and len(completion.choices) > 0:
-                    return f"LLM API Error: unexpected choice shape; repr: {repr(completion.choices[0])[:400]}"
-                return "LLM API Error: no content returned"
-            except Exception as e:
-                return f"LLM API Error: {e}"
-        except Exception as e:
-            return f"LLM API Error: {e}"
+            return FALLBACK_NARRATIVE
+        except Exception:
+            return FALLBACK_NARRATIVE
 
     def run_check(self):
         compliance_results = []
@@ -355,6 +343,10 @@ GAP SUMMARY:
                 narrative = ""
                 if not is_compliant:
                     narrative = self.generate_llm_narrative(query_text, doc)
+                
+                # Ensure every non-compliant result has a narrative
+                if not is_compliant and not narrative:
+                    narrative = FALLBACK_NARRATIVE
 
                 compliance_results.append({
                     "Reg_ID": reg_id,
