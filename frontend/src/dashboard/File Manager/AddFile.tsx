@@ -35,7 +35,7 @@ export default function AddFile({ onClose }: { onClose: () => void }) {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         onClose();
-        navigate("/dashboard/FileList");
+        navigate("/dashboard/FileList", { state: { refresh: true } });
       }
     };
     window.addEventListener("keydown", handleEsc);
@@ -49,7 +49,7 @@ const handleUpload = async () => {
   }
 
   
-    navigate("/dashboard/FileList");
+navigate("/dashboard/FileList", { state: { refresh: true } });
     onClose();
   try {
     const result = await uploadToFileHub(
