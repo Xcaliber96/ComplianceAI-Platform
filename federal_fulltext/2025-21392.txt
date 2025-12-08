@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54814-54815]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21392]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0609]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Extension: Regulation S-AM
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``SEC'' or ``Commission'') is soliciting comments on the 
+proposed collection of information provided for in Regulation S-AM (17 
+CFR part 248, subpart B), under the Fair Credit Reporting Act (15 
+U.S.C. 1681 et seq.) (``FCRA''), the Securities Exchange Act of 1934 
+(15 U.S.C. 78a et seq.), the Investment Company Act of 1940 (15 U.S.C. 
+80a-1 et seq.), and the Investment Advisers Act of 1940 (15 U.S.C. 80b-
+1 et seq.).
+    Regulation S-AM implements the requirements of Section 624 of the 
+FCRA (15 U.S.C. 1681s-3) with respect to investment advisers and 
+transfer agents registered with the Commission, as well as brokers, 
+dealers and investment companies (collectively, ``Covered Persons''). 
+Section 624 and Regulation S-AM limit a Covered Person's use of certain 
+consumer financial information received from an affiliate to solicit a 
+consumer for marketing purposes, unless the consumer was given notice 
+and a reasonable opportunity and a reasonable and simple method to opt 
+out of such solicitations. Regulation S-AM potentially applies to all 
+of the approximately 22,824 Covered Persons registered with the 
+Commission, although only approximately 12,781 of them have one or more 
+corporate affiliates, and the regulation requires only approximately 
+2,282 to provide consumers with an affiliate marketing notice and an 
+opt-out opportunity.
+    The Commission staff estimates that there are approximately 12,781 
+Covered Persons having one or more affiliates, and that they each spend 
+an average of 0.20 hours per year to review affiliate marketing 
+practices, for, collectively, an estimated annual time burden of 
+approximately 2,556 hours at an annual internal compliance cost of 
+approximately $1,686,960. The staff also estimates that approximately 
+2,282 Covered Persons provide notice and opt-out opportunities to 
+consumers, and that they each spend an average of 7.6 hours per year 
+creating notices, providing notices and opt-out opportunities, 
+monitoring the opt-out notice process, making and updating records of 
+opt-out elections, and addressing consumer questions and concerns about 
+opt-out notices, for, collectively, an estimated annual time burden of 
+approximately 17,343 hours at an annual internal compliance cost of 
+approximately $4,210,665. Thus, the staff estimates that the collection 
+of information requires a total of approximately 12,781 respondents to 
+incur an estimated total annual time burden of approximately 19,899 
+hours at a total annual internal cost of compliance of approximately 
+$5,897,625.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will
+
+[[Page 54815]]
+
+have practical utility; (b) the accuracy of the SEC's estimate of the 
+burden imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    Please direct your written comments on this 60-Day Collection 
+Notice to Austin Gerig, Director/Chief Data Officer, Securities and 
+Exchange Commission, c/o Tanya Ruttenberg via email to 
+<a href="/cdn-cgi/l/email-protection#e6b6879683949189948db483829385928f8988a78592a6958385c8818990"><span class="__cf_email__" data-cfemail="306051405542475f425b625554455344595f5e715344704355531e575f46">[email&#160;protected]</span></a> by January 27, 2026. There will be a 
+second opportunity to comment on this SEC request following the Federal 
+Register publishing a 30-Day Submission Notice.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21392 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54232-54234]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21218]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Part 882
+
+[Docket No. FDA-2025-N-4680]
+
+
+Medical Devices; Neurological Devices; Classification of Field 
+Generator Positioning Device
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Final amendment; final order.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA, the Agency, or we) is 
+classifying the field generator positioning device into class I 
+(general controls). We are taking this action because we have 
+determined that classifying the device into class I (general controls) 
+will provide a reasonable assurance of safety and effectiveness of the 
+device. We believe this action will also enhance patients' access to 
+beneficial innovative devices in part by reducing regulatory burdens.
+
+DATES: This order is effective November 26, 2025. The classification 
+was applicable on July 10, 2020.
+
+FOR FURTHER INFORMATION CONTACT: Payton Lin, Center for Devices and
+
+[[Page 54233]]
+
+Radiological Health, Food and Drug Administration, 10903 New Hampshire 
+Ave., Bldg. 66, Rm. 1212, Silver Spring, MD 20993-0002, 240-402-6580, 
+<a href="/cdn-cgi/l/email-protection#cd9dacb4b9a2a3e381a4a38daba9ace3a5a5bee3aaa2bb"><span class="__cf_email__" data-cfemail="cd9dacb4b9a2a3e381a4a38daba9ace3a5a5bee3aaa2bb">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Upon request, FDA has classified the field generator positioning 
+device as class I (general controls), which we have determined will 
+provide a reasonable assurance of safety and effectiveness for its 
+intended use. In addition, we believe this action will enhance 
+patients' access to beneficial innovation, in part by reducing 
+regulatory burdens by placing the device into the appropriate device 
+class based on risk and the regulatory controls sufficient to provide 
+reasonable assurance of safety and effectiveness.
+    FDA may classify a device through an accessory classification 
+request under section 513(f)(6) of the Federal Food, Drug, and Cosmetic 
+Act (FD&C Act) (21 U.S.C. 360c(f)(6)), established by section 707 of 
+the FDA Reauthorization Act of 2017 (Pub. L. 115-52). The provision 
+allows manufacturers or importers to request classification of an 
+accessory distinct from another device upon written request. The 
+classification is based on the risks of the accessory when used as 
+intended as well as the level of regulatory controls necessary to 
+provide a reasonable assurance of safety and effectiveness, 
+notwithstanding the classification of any other device with which such 
+accessory is intended to be used. Until an accessory is reclassified by 
+FDA, the classification of any accessory distinct from another device 
+by regulation or written order issued prior to December 13, 2016, will 
+continue to apply.
+    Under section 513(f)(6)(D)(ii) of the FD&C Act, a manufacturer or 
+importer may request appropriate classification of an accessory that 
+has been granted marketing authorization as part of a premarket 
+approval application (PMA), premarket notification (510(k)), or De Novo 
+classification request. FDA must grant or deny the request not later 
+than 85 days after receipt and, if granting, publish a notice in the 
+Federal Register within 30 days of announcing the classification.
+    Alternatively, under section 513(f)(6)(C), a person filing a PMA or 
+510(k) may include a written request for the proper classification of 
+an accessory that has not been classified distinctly from another 
+device based on the risks of the accessory when used as intended and 
+the level of regulatory controls necessary to provide a reasonable 
+assurance of safety and effectiveness. When the written request is 
+included in a submission for marketing authorization, FDA must grant or 
+deny the request along with the response to the PMA or 510(k). Upon 
+granting, FDA will publish a notice in the Federal Register within 30 
+days of announcing the classification.
+
+II. Accessory Classification
+
+    On April 17, 2020, FDA received Stryker ENT's request for accessory 
+classification of the TGS Universal Headrest with Mounting Arm. FDA 
+reviewed the request in order to classify the device under the criteria 
+for classification set forth in section 513(a)(1) of the FD&C Act.
+    We classify devices into class I if general controls are sufficient 
+to provide reasonable assurance of safety and effectiveness of the 
+device for its intended use (see section 513(a)(1)(A) of the FD&C Act). 
+After review of the information submitted in the request, we determined 
+that the device can be classified into class I (general controls). FDA 
+has determined that general controls will provide reasonable assurance 
+of the safety and effectiveness of the device.
+    Therefore, on July 10, 2020, FDA issued an order to the requester 
+classifying the device into class I. In this final order, FDA is 
+codifying the classification of the device by adding 21 CFR 
+882.4565.\1\ We have named the generic type of device ``field generator 
+positioning device,'' and it is identified as a manual, mechanical 
+device intended to position the field generator of an electromagnetic 
+based stereotaxic navigation system in proximity to a patient. The 
+device may operate independently or adapt existing medical equipment, 
+such as a procedure chair or surgical bed, by using a mechanical 
+interface.
+---------------------------------------------------------------------------
+
+    \1\ FDA notes that the ACTION caption for this final order is 
+styled as ``Final amendment; final order,'' rather than ``Final 
+order.'' Beginning in December 2019, this editorial change was made 
+to indicate that the document ``amends'' the Code of Federal 
+Regulations. The change was made in accordance with the Office of 
+Federal Register's (OFR) interpretations of the Federal Register Act 
+(44 U.S.C. chapter 15), its implementing regulations (1 CFR 5.9 and 
+parts 21 and 22), and the Document Drafting Handbook.
+---------------------------------------------------------------------------
+
+    FDA has identified the following risks to health associated 
+specifically with this type of device: mechanical failure (which could 
+damage the field generator or cause the device to physically impact the 
+patient), interference from items within the projected field, or 
+movement of the electromagnetic field projection.
+    Section 510(l)(1) of the FD&C Act provides that a device within a 
+type that has been classified into class I under section 513 of the 
+FD&C Act is exempt from premarket notification under section 510(k), 
+unless the device is of substantial importance in preventing impairment 
+of human health or presents a potentially unreasonable risk of illness 
+or injury (21 U.S.C. 360(l)(1)). Devices within this type are exempt 
+from the premarket notification requirements under section 510(k), 
+subject to the limitations of exemptions in 21 CFR 882.9.
+
+III. Analysis of Environmental Impact
+
+    The Agency has determined under 21 CFR 25.34(b) that this action is 
+of a type that does not individually or cumulatively have a significant 
+effect on the human environment. Therefore, neither an environmental 
+assessment nor an environmental impact statement is required.
+
+IV. Paperwork Reduction Act of 1995
+
+    This final order establishes special controls that refer to 
+previously approved collections of information found in other FDA 
+regulations and guidance. These collections of information are subject 
+to review by the Office of Management and Budget (OMB) under the 
+Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521). The collections 
+of information in 21 CFR part 860, subpart D, regarding De Novo 
+classification have been approved under OMB control number 0910-0844; 
+the collections of information in the guidance document ``Medical 
+Device Accessories--Describing Accessories and Classification 
+Pathways'' have been approved under OMB control number 0910-0823; the 
+collections of information in part 814, subparts A through E, regarding 
+premarket approval have been approved under OMB control number 0910-
+0231; the collections of information in 21 CFR part 820 regarding 
+quality system regulation have been approved under OMB control number 
+0910-0073; the collections of information in part 807, subpart E, 
+regarding premarket notification submissions have been approved under 
+OMB control number 0910-0120; and the collections of information in 
+part 801 regarding labeling have been approved under OMB control number 
+0910-0485.
+
+List of Subjects in 21 CFR Part 882
+
+    Medical devices.
+
+    Therefore, under the Federal Food, Drug, and Cosmetic Act and under 
+authority delegated to the Commissioner of Food and Drugs, 21 CFR part 
+882 is amended as follows:
+
+[[Page 54234]]
+
+PART 882--NEUROLOGICAL DEVICES
+
+0
+1. The authority citation for part 882 continues to read as follows:
+
+    Authority:  21 U.S.C. 351, 360, 360c, 360e, 360j, 360l, 371.
+
+
+0
+2. Add Sec.  882.4565 to subpart E to read as follows:
+
+
+Sec.  882.4565  Field generator positioning device.
+
+    (a) Identification. A field generator positioning device is a 
+manual, mechanical device intended to position the field generator of 
+an electromagnetic based stereotaxic navigation system in proximity to 
+a patient. The device may operate independently or adapt existing 
+medical equipment, such as a procedure chair or surgical bed, by using 
+a mechanical interface.
+    (b) Classification. Class I (general controls). The device is 
+exempt from the premarket notification procedures in subpart E of part 
+807 of this chapter subject to the limitations in Sec.  882.9.
+
+Lowell M. Zeta,
+Acting Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21218 Filed 11-25-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

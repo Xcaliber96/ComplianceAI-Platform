@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54644-54645]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21511]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+CONSUMER PRODUCT SAFETY COMMISSION
+
+[Docket No. CPSC-2017-0044]
+
+
+Agency Information Collection Activities; Extension of 
+Collection; Comment Request; Safety Standard for Clothing Storage Units
+
+AGENCY: Consumer Product Safety Commission.
+
+ACTION: Notice of Information Collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As required by the Paperwork Reduction Act of 1995 (PRA), the 
+Consumer Product Safety Commission (CPSC or Commission) requests 
+comments on a proposed extension of approval of information collection 
+requirements associated with the Safety Standard for Clothing Storage 
+Units. The Office of Management and Budget (OMB) previously approved 
+the collection of information under control number 3041-0191. OMB's 
+approval will expire on December 30, 2025. The Commission will consider 
+all comments received in response to this notice before requesting an 
+extension of this collection of information from OMB.
+
+DATES: Submit comments on the collection of information by January 27, 
+2026.
+
+ADDRESSES: You may submit comments, identified by Docket No. CPSC-2017-
+0044, within 60 days of publication of this notice by any of the 
+following methods:
+    Electronic Submissions: Submit electronic comments to the Federal 
+eRulemaking Portal at: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Follow the 
+instructions for submitting comments. Do not submit through this 
+website: confidential business information, trade secret information, 
+or other sensitive or protected information that you do not want to be 
+available to the public. The Commission typically does not accept 
+comments submitted by email, except as described below.
+    Mail/hand delivery/courier/written submissions: CPSC encourages you 
+to submit electronic comments by using the Federal eRulemaking Portal. 
+You may, however, submit comments by mail/hand delivery/courier to: 
+Office of the Secretary, U.S. Consumer Product Safety Commission, 4330 
+East-West Highway, Bethesda, MD 20814; telephone (301) 504-7479.
+    Instructions: All submissions received must include the agency name 
+and docket number for this notice. CPSC may post all comments without 
+change, including any personal identifiers, contact information, or 
+other personal information provided, to: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+If you wish to submit confidential business information, trade secret 
+information, or other sensitive or protected information that you do 
+not want to be available to the public, you may submit such comments by 
+mail, hand delivery, or courier, or you may email them to <a href="/cdn-cgi/l/email-protection#33504340501e5c4073504340501d545c45"><span class="__cf_email__" data-cfemail="cfacbfbcace2a0bc8facbfbcace1a8a0b9">[email&#160;protected]</span></a>.
+    Docket: For access to the docket to read background documents or 
+comments received, go to: <a href="https://www.regulations.gov">https://www.regulations.gov</a>, insert docket 
+number CPSC-2017-0044.
+
+FOR FURTHER INFORMATION CONTACT: Cynthia Gillham, Consumer Product 
+Safety Commission, 4330 East-West Highway, Bethesda, MD 20814; (301) 
+504-7791, or by email to: <a href="/cdn-cgi/l/email-protection#8afaf8ebcae9faf9e9a4ede5fc"><span class="__cf_email__" data-cfemail="2353514263405350400d444c55">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: CPSC seeks to renew the following currently 
+approved collection of information:
+
+[[Page 54645]]
+
+    Title: Safety Standard for Clothing Storage Units.
+    OMB Number: 3041-0191.
+    Type of Review: Renewal of collection.
+    Frequency of Response: On occasion.
+    Affected Public: Manufacturers and importers of clothing storage 
+units.
+    General Description of Collection: Pursuant to 15 U.S.C. 2056f, 
+CPSC promulgated a consumer product safety standard to protect against 
+tip-over of clothing storage units (CSUs). 16 CFR part 1261. That 
+standard incorporates by reference ASTM F2057-23, Standard Safety 
+Specification for Clothing Storage Units. Id. 1261.2. A CSU is defined 
+as a ``furniture item with drawers and/or hinged doors intended for the 
+storage of clothing typical with bedroom furniture.'' Section 3.1.3, 
+ASTM F2057-23. The standard's requirements include warning labels that 
+contain certain statements and pictograms. These requirements fall 
+within the definition of ``collection of information,'' as defined in 
+44 U.S.C. 3502(3).
+    Identification and labeling requirements provide information to 
+consumers and regulators needed to locate and recall noncomplying 
+products. Identification and labeling requirements include content such 
+as the name and address of the manufacturer. In addition, CSUs must 
+contain warning labels. Warning labels or markings provide information 
+to consumers on hazards and risks associated with product use. The CSU 
+warning label must state: ``Children have died from furniture 
+tipover.'' Section 10.2.3.1, ASTM F2057-23.
+    Estimated Number of Respondents: CPSC estimates that approximately 
+2,122 respondents will design and update the CSU label annually.\1\ 
+CPSC estimates that there are approximately 20,103,360 CSU units that 
+will need to be labeled annually.
+---------------------------------------------------------------------------
+
+    \1\ According to 2023 County Business Patterns data published by 
+the U.S. Census Bureau there were between 2,075 and 3,955 
+establishments manufacturing household furniture: Table CB2300CBP; 
+Upper bound NAICS 33712 (Household and institutional furniture 
+manufacturing), lower bound NAICS 337122 (Nonupholstered wood 
+household furniture manufacturing).
+---------------------------------------------------------------------------
+
+    Estimated Time per Response: The burden associated with the 
+standard includes time spent updating/designing the labeling or marking 
+for a CSU model and time spent attaching the label to a CSU. CPSC 
+estimates that it could take an hour to update/design the labeling or 
+marking for a CSU model. CPSC estimates it could take 0.06 minutes (3.6 
+seconds or 1,000 labels per hour) to attach the label to the CSU.
+    Total Estimated Annual Burden: CPSC estimates that it could take an 
+hour to update/design the labeling or marking for a CSU model, 
+therefore, the annual burden is 2,122 hours (based on 2,122 
+respondents). CPSC estimates that attaching the label to CSUs would 
+amount to an annual burden of 20,103 hours [(0.06 min x 20,103,360 
+CSUs)/60 mins per hour]. The total estimated annual burden is 22,225 
+hours.
+    Total Estimated Annual Cost to Respondents: The total compensation 
+cost per hour worked for private industry workers in goods-producing 
+industries was $47.00 (March 2025, Table 4, <a href="https://www.bls.gov/news.release/archives/ecec_06132025.pdf">https://www.bls.gov/news.release/archives/ecec_06132025.pdf</a>). Based on this analysis, CPSC 
+estimates that the labor cost of respondent burden is approximately $1 
+million annually [(2,122 hours + 20,103 hours) x $47.00 per hour = 
+$1,044,575].
+    In addition to the labor burden costs addressed above, the labeling 
+requirement imposes additional annualized costs. These costs include 
+capital costs for adhesive paper used for each label to be placed on 
+the CSUs. CPSC estimates the cost of the printed label will be about 
+$0.01. Therefore, the total cost of materials to industry would be 
+about $200,000 per year ($0.01 x 20,103,360 units = $201,033.60).
+    Request for Comments: The Commission solicits written comments from 
+all interested persons about the proposed collection of information. 
+The Commission specifically solicits information relevant to the 
+following topics:
+    <bullet> whether the collection of information described above is 
+necessary for the proper performance of the Commission's functions, 
+including whether the information would have practical utility;
+    <bullet> whether the estimated burden of the proposed collection of 
+information is accurate;
+    <bullet> whether the quality, utility, and clarity of the 
+information to be collected could be enhanced; and
+    <bullet> whether the burden imposed by the collection of 
+information could be minimized by use of automated, electronic or other 
+technological collection techniques, or other forms of information 
+technology.
+
+Alberta E. Mills,
+Secretary, Consumer Product Safety Commission.
+[FR Doc. 2025-21511 Filed 11-26-25; 8:45 am]
+BILLING CODE 6355-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

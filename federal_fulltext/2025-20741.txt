@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53045-53046]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20741]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+[Docket No. FAA-2025-1218]
+
+
+Notice of Availability of Draft FAA Order 8000.95D, Change 1, 
+Regarding Individual Designee Management Policy
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of availability; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Draft FAA Order 8000.95D, Change 1, Designee Management Policy 
+(Draft Change 1) would transition from the Designee Registration System 
+to the Designee Management System (DMS) and would align the Order 
+8000.95 with the DMS tool workflows. The draft would revise several 
+procedural descriptions to better match DMS workflows, including 
+updates to digital signatures and automation for registering, 
+enrolling, tracking, and recording designee training completions. The 
+draft would also change the algorithm for the frequency of direct 
+observation oversight intervals required of Flight Standards managing 
+specialists and would update email addresses and website links.
+
+[[Page 53046]]
+
+
+DATES: Send comments on or before January 23, 2026.
+
+ADDRESSES: Send comments identified by docket number FAA-2025-1218, 
+using any of the following methods:
+    Federal eRulemaking Portal: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and 
+follow the online instructions for sending your comments 
+electronically.
+    Mail: Send comments to Docket Operations, M-30, U.S. Department of 
+Transportation (DOT), 1200 New Jersey Avenue SE, Room W12-140, West 
+Building Ground Floor, Washington, DC 20590-0001.
+    Hand Delivery or Courier: Take comments to Docket Operations in 
+Room W12-140 of the West Building Ground Floor at 1200 New Jersey 
+Avenue SE, Washington, DC, between 9 a.m., and 5 p.m., Monday through 
+Friday, except Federal holidays.
+    Fax: Fax comments to Docket Operations at (202) 493-2251.
+    Privacy: In addition to the final Order 8000.95D, Change 1, the FAA 
+will post all comments it receives, without change, to <a href="https://regulations.gov">https://regulations.gov</a>, including any personal information the commenter 
+provides. DOT's complete Privacy Act Statement can be found in the 
+Federal Register published on April 11, 2000 (65 FR 19476).
+
+FOR FURTHER INFORMATION CONTACT: Mr. Scott Geddie, Policy and Oversight 
+Integration Section, AVS-64, AVS ODA Office, Federal Aviation 
+Administration, by telephone at 405-954-6897 or by email at 
+<a href="/cdn-cgi/l/email-protection#ce9dada1babae089abaaaaa7ab8ea8afafe0a9a1b8"><span class="__cf_email__" data-cfemail="affcccc0dbdb81e8cacbcbc6caefc9cece81c8c0d9">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    Draft FAA Order 8000.95D, Change 1, Designee Management Policy 
+(Draft Change 1) would transition from the Designee Registration System 
+to the Designee Management System (DMS) and would align the Order 
+8000.95 with the DMS tool workflows. The revisions would align designee 
+training procedures with the new features of the DMS tool. Draft Change 
+1 would revise Volume 3, Designated Pilot Examiner (DPE), Specialty 
+Aircraft Examiner (SAE), and Administrative Pilot Examiner (Admin PE) 
+Designee Policy to update the documentation of training, require 
+designees to submit training certificates through DMS, and establish 
+suspension protocols for incomplete training, while clarifying training 
+terminology and categories. Draft Change 1 would update the web link 
+for the training matrix in Volume 4, Designated Aircraft Dispatcher 
+Examiner (DADE) Designee Policy. In Volume 5, Designated Mechanic 
+Examiner (DME), Designated Parachute Rigger Examiner (DPRE), and 
+Designated Airworthiness Representative--Maintenance (DAR-T) Designee 
+Policy, Draft Change 1 would move training processes to the DMS system, 
+automating updates to training records and streamlining scheduling and 
+completion with automatic suspension and reinstatement for training 
+compliance. Draft Change 1 would revise Volumes 3 (DPE, SAE and Admin 
+PE Designee Policy), 5 (DME, DPRE, DAR-T Designee Policy), 6 (Aircrew 
+Program Designee (APD)) Designee Policy, and 7 (Training Center 
+Evaluator (TCE) Designee Policy) to change how direct observation 
+oversight intervals are determined. In Volume 8, Designated 
+Manufacturing Inspection Representative (DMIR) and Designated 
+Airworthiness Representative--Manufacturing (DAR-F) Designee Policy, 
+Draft Change 1 would revise training procedures to align with DMS 
+workflows and standards for course information, registration, and 
+automatic suspension and reinstatement for training compliance. In 
+Volume 9, Designated Engineering Representative (DER) Designee Policy, 
+Draft Change 1 would revise web links and sections related to 
+engineering designee training for clarity and accuracy. In Volume 10, 
+Designated Control Tower Operator Examiner (DCTO-E) Designee Policy, 
+Draft Change 1 would update the requirements for demonstrated history 
+of professional performance and established compliance with applicable 
+standards, and would add an overall performance results table.
+    In addition to Draft Change 1's proposed changes to designee 
+training and direct observation oversight intervals, other changes 
+would include updating email addresses and website links, establishing 
+digital signature provisions, providing early preapprovals to improve 
+process efficiency, and removing outdated references to streamline the 
+documentation.
+    Draft Order 8000.95D, Change 1 would affect all individual designee 
+types. You may examine draft Order 8000.95D, Change 1 and the preferred 
+comment log template for providing comments in the docket or at: 
+<a href="https://www.faa.gov/aircraft/draft_docs/">https://www.faa.gov/aircraft/draft_docs/</a>.
+
+Comments Invited
+
+    The FAA invites the public to submit comments on draft Order 
+8000.95D, Change 1, as specified in the ADDRESSES section of this 
+Notice. Commenters should include docket number FAA-2025-1218 and the 
+subject line, ``Comments to Draft FAA Order 8000.95D, Change 1'' on all 
+comments submitted to the FAA. The most helpful comments provide a 
+specific recommendation, explain the reason for any recommended change, 
+identify the paragraph(s) and/or subparagraph(s) associated with the 
+recommendation, and include supporting information. The preferred 
+comment log template can be used to provide this information. The FAA 
+will consider all comments received on or before the closing date 
+before issuing the final Order. The FAA will also consider late-filed 
+comments if it is possible to do so without incurring expense or delay.
+    Authority: 49 U.S.C. 44702.
+
+Scott A. Geddie,
+Manager, AVS-64, Policy and Oversight Integration Section, AVS ODA 
+Office.
+[FR Doc. 2025-20741 Filed 11-21-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

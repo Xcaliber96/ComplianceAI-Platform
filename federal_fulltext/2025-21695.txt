@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Rules and Regulations]
+[Pages 55044-55045]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21695]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+LIBRARY OF CONGRESS
+
+Copyright Royalty Board
+
+37 CFR Part 385
+
+[Docket No. 25-CRB-0012-PR COLA (2026)]
+
+
+Cost of Living Adjustment to Royalty Rates and Terms for Making 
+and Distributing Phonorecords
+
+AGENCY: Copyright Royalty Board, Library of Congress.
+
+ACTION: Final rule; cost of living adjustment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Copyright Royalty Judges announce a cost of living 
+adjustment (COLA) in the royalty rates for the statutory license for 
+making and distributing phonorecords of nondramatic musical works 
+regarding physical phonorecords and Permanent Downloads.
+
+DATES: 
+    Effective date: December 1, 2025.
+    Applicability date: These rates and terms are applicable during the 
+period from January 1, 2026, through December 31, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Anita Brown, CRB Program Specialist, 
+(202) 707-7658, <a href="/cdn-cgi/l/email-protection#8ae9f8e8cae6e5e9a4ede5fc"><span class="__cf_email__" data-cfemail="2447564664484b470a434b52">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Section 115 of the Copyright Act, title 17 
+of the United States Code, creates a statutory license for making and 
+distributing phonorecords of nondramatic musical works. On December 16, 
+2022, the Copyright Royalty Judges (Judges) adopted final regulations 
+governing the rates and terms of copyright royalty payments under that 
+license for the license period 2024-2027 for making and distributing 
+phonorecords of nondramatic musical works. See 87 FR 76942.
+    Pursuant to those regulations, at least 25 days before January 1 of 
+each year, the Judges shall publish in the Federal Register notice of a 
+cost of living adjustment (COLA) applicable to the royalty fees for 
+making and distributing physical phonorecords and Permanent Downloads. 
+See 37 CFR 385.11.
+    The adjustment in the royalty fee shall be based on a calculation 
+of the percentage increase in the Consumer Price Index for All Urban 
+Consumers (CPI-U) published in November 2022 (298.012) \1\ (``base 
+rate'') according to the following formulas: for the per-work rate, (1 
++ (Cy-298.012 \2\)/298.012) x 12[cent], rounded to the nearest tenth of 
+a cent; for the per-minute rate, (1 + (Cy-298.012)/298.012) x 
+2.31[cent], rounded to the nearest hundredth of a cent; where Cy is the 
+CPI-U published by the Secretary of Labor before December 1 of the 
+preceding year. 37 CFR 385.11(a)(2). The CPI-U published by the 
+Secretary of Labor from the most recent index published before December 
+1, 2025, is 324.800.\3\ Applying the formulas in 37 CFR 385.11(a)(2) 
+results in an increase in the rates for 2026.
+---------------------------------------------------------------------------
+
+    \1\ The CPI-U published in November 2022 is available at <a href="https://www.bls.gov/news.release/archives/cpi_11102022.htm">https://www.bls.gov/news.release/archives/cpi_11102022.htm</a> at Table 1.
+    \2\ Base rate.
+    \3\ The CPI-U announced on October 24, 2025, by the Bureau of 
+Labor Statistics in its Consumer Price Index News Release--Consumer 
+Price Index, is available at <a href="https://www.bls.gov/news.release/pdf/cpi.pdf">https://www.bls.gov/news.release/pdf/cpi.pdf</a> at Table 1 (last viewed on Nov. 25, 2015). The Copyright 
+Royalty Judges note that the October 24, 2025, publication is the 
+most recent CPI-U published by the Secretary of Labor before 
+December 1 of the preceding year of this COLA adjustment (i.e., 
+2026). The Bureau of Labor statistics has explained ``BLS could not 
+collect October 2025 reference period survey data due to a lapse in 
+appropriations.'' See <a href="https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm">https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm</a> (last viewed on Nov. 25, 2025).
+---------------------------------------------------------------------------
+
+    The adjusted rates for 2026 are 13.1 cents for the per-work rate 
+and 2.52 cents for the per-minute rate.
+
+List of Subjects in 37 CFR Part 385
+
+    Copyright, Phonorecords, Recordings.
+
+[[Page 55045]]
+
+Final Regulations
+
+    In consideration of the foregoing, the Judges amend part 385 of 
+title 37 of the Code of Federal Regulations as follows:
+
+PART 385--RATES AND TERMS FOR USE OF NONDRAMATIC MUSICAL WORKS IN 
+THE MAKING AND DISTRIBUTING OF PHYSICAL AND DIGITAL PHONORECORDS
+
+0
+1. The authority citation for part 385 continues to read as follows:
+
+    Authority:  17 U.S.C. 115, 801(b)(1), 804(b)(4).
+
+
+0
+2. Section 385.11 is amended by revising paragraph (a)(1) to read as 
+follows:
+
+
+Sec.  385.11   Royalty rates.
+
+    (a) * * *
+    (1) 2026 rate. For the year 2026 for every physical phonorecord and 
+Permanent Download the Licensee makes and distributes or authorizes to 
+be made and distributed, the royalty rate payable for each work 
+embodied in the phonorecord or Permanent Download shall be either 13.1 
+cents or 2.52 cents per minute of playing time or fraction thereof, 
+whichever amount is larger.
+* * * * *
+
+    Dated: November 26, 2025.
+Christina L. Shifton,
+Interim Chief Copyright Royalty Judge.
+[FR Doc. 2025-21695 Filed 11-28-25; 8:45 am]
+BILLING CODE 1410-72-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

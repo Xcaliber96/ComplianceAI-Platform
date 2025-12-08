@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54678-54680]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21341]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+[EPA-HQ-OLEM-2018-0012; FRL-13075-01-OLEM]
+
+
+Agency Information Collection Activities; Proposed Information 
+Collection Request; Comment Request; State Program Adequacy 
+Determination: Municipal Solid Waste Landfills (MSWLFs) and Non-
+Municipal, Non-Hazardous Waste Disposal Units That Receive 
+Conditionally Exempt Small Quantity Generator (CESQG) Hazardous Waste, 
+EPA ICR No. 1608.10, OMB Control No. 2050-0152
+
+AGENCY: Environmental Protection Agency.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is planning to 
+submit an information collection request (ICR), ``State Program 
+Adequacy Determination: Municipal Solid Waste Landfills (MSWLFs) and 
+Non-Municipal, Non-Hazardous Waste Disposal Units that Receive 
+Conditionally Exempt Small Quantity Generator (CESQG) Hazardous Waste'' 
+(EPA ICR No. 1608.10, OMB Control No. 2050-0152) to the Office of 
+Management and Budget (OMB) for review and approval in accordance with 
+the Paperwork Reduction Act (PRA). Before doing so, EPA is soliciting 
+public comments on specific aspects of the proposed information 
+collection as described in SUPPLEMENTARY
+
+[[Page 54679]]
+
+INFORMATION. This is a proposed extension of the ICR, which is 
+currently approved through June 30, 2026. This document allows 60 days 
+for public comments.
+
+DATES: Comments may be submitted on or before January 27, 2026.
+
+ADDRESSES: Submit your comments, referencing Docket ID No. EPA-HQ-OLEM-
+2018-0012, to EPA online using <a href="https://www.regulations.gov">https://www.regulations.gov</a> (our 
+preferred method), or by mail to: EPA Docket Center, U.S. Environmental 
+Protection Agency, Mail Code 28221T, 1200 Pennsylvania Avenue NW, 
+Washington, DC 20460. EPA's policy is that all comments received will 
+be included in the public docket without change including any personal 
+information provided, unless the comment includes profanity, threats, 
+information claimed to be Confidential Business Information (CBI) or 
+other information whose disclosure is restricted by statute.
+
+FOR FURTHER INFORMATION CONTACT: Peggy Vyas, Environmental Protection 
+Agency, 1200 Pennsylvania Ave. NW, Mail Code 5101T, Washington, DC 
+20460; telephone number: (202) 566-0453; <a href="/cdn-cgi/l/email-protection#50262931237e2035373729103520317e373f26"><span class="__cf_email__" data-cfemail="0c7a756d7f227c696b6b754c697c6d226b637a">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: This is a proposed extension of the ICR, 
+which is currently approved through June 30, 2026. An agency may not 
+conduct or sponsor and a person is not required to respond to a 
+collection of information unless it displays a currently valid OMB 
+control number.
+    This document allows 60 days for public comments. Supporting 
+documents, which explain in detail the information that the EPA will be 
+collecting, are available in the public docket for this ICR. The docket 
+can be viewed online at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or in person at the 
+EPA Docket Center, WJC West, Room 3334, 1301 Constitution Ave. NW, 
+Washington, DC. The telephone number for the Docket Center is (202) 
+566-1744. For additional information about EPA's public docket, visit 
+<a href="https://www.epa.gov/dockets">https://www.epa.gov/dockets</a>.
+    Pursuant to section 3506(c)(2)(A) of the PRA, EPA is soliciting 
+comments and information to enable it to: (i) evaluate whether the 
+proposed collection of information is necessary for the proper 
+performance of the functions of the Agency, including whether the 
+information will have practical utility; (ii) evaluate the accuracy of 
+the Agency's estimate of the burden of the proposed collection of 
+information, including the validity of the methodology and assumptions 
+used; (iii) enhance the quality, utility, and clarity of the 
+information to be collected; and (iv) minimize the burden of the 
+collection of information on those who are to respond, including 
+through the use of appropriate forms of information technology. EPA 
+will consider the comments received and amend the ICR as appropriate. 
+The final ICR package will then be submitted to OMB for review and 
+approval. At that time, EPA will issue another Federal Register 
+document to announce the submission of the ICR to OMB and the 
+opportunity to submit additional comments to OMB.
+    Abstract: Section 4010(c) of the Resource Conservation and Recovery 
+Act (RCRA) of 1976 requires that EPA revise the landfill criteria 
+promulgated under paragraph (1) of section 4004(a) and section 
+1008(a)(3). Section 4005(c) of RCRA, as amended by the Hazardous Solid 
+Waste Amendments (HSWA) of 1984, requires states to develop and 
+implement permit programs to ensure that MSWLFs and non-municipal, non-
+hazardous waste disposal units that receive household hazardous waste 
+or CESQG hazardous waste are in compliance with the revised criteria 
+for the design and operation of non-municipal, non-hazardous waste 
+disposal units under 40 CFR part 257, subpart B and MSWLFs under 40 CFR 
+part 258 (40 CFR part 257, subpart B and 40 CFR part 258 are henceforth 
+referred to as the ``revised federal criteria''). Section 4005(c) of 
+RCRA further mandates the EPA Administrator to determine the adequacy 
+of state permit programs to ensure owner and/or operator compliance 
+with the revised federal criteria. A state program that is deemed 
+adequate to ensure compliance may afford flexibility to owners or 
+operators in the approaches they use to meet federal requirements, 
+significantly reducing the burden associated with compliance.
+    In response to the statutory requirement in section 4005(c) of 
+RCRA, EPA developed 40 CFR part 239, commonly referred to as the State 
+Implementation Rule (SIR). The SIR describes the state application and 
+EPA review procedures and defines the elements of an adequate state 
+permit program.
+    The collection of information from the state during the permit 
+program adequacy determination process allows EPA to evaluate whether a 
+program for which approval is requested is appropriate in structure and 
+authority to ensure owner or operator compliance with the revised 
+federal criteria. The SIR does not require the use of a particular 
+application form. Section 239.3 of the SIR, however, requires that all 
+state applications contain the following five components:
+    (1) A transmittal letter requesting permit program approval.
+    (2) A narrative description of the state permit program, including 
+a demonstration that the state's standards for non-municipal, non-
+hazardous waste disposal units that receive CESQG hazardous waste are 
+technically comparable to the 40 CFR part 257, subpart B criteria and/
+or that its MSWLF standards are technically comparable to the 40 CFR 
+part 258 criteria.
+    (3) A legal certification demonstrating that the state has the 
+authority to carry out the program.
+    (4) Copies of state laws, regulations, and guidance that the state 
+believes demonstrate program adequacy.
+    (5) Copies of relevant state-tribal agreements if the state has 
+negotiated with a tribe for the implementation of a permit program for 
+non-municipal, non-hazardous waste disposal units that receive CESQG 
+hazardous waste and/or MSWLFs on tribal lands.
+    The EPA Administrator has delegated the authority to make 
+determinations of adequacy, as contained in the statute, to the EPA 
+Regional Administrator. The appropriate EPA Regional Office, therefore, 
+will use the information provided by each state to determine whether 
+the state's permit program satisfies the statutory test reflected in 
+the requirements of 40 CFR part 239. In all cases, the information will 
+be analyzed to determine the adequacy of the state's permit program for 
+ensuring compliance with the federal revised criteria.
+    Form numbers: None.
+    Respondents/affected entities: State, Local, or Tribal Governments.
+    Respondent's obligation to respond: Mandatory under section 4005(c) 
+of RCRA.
+    Estimated number of respondents: 12.
+    Frequency of response: On occasion.
+    Total estimated burden: 968 hours (per year). Burden is defined at 
+5 CFR 1320.03(b).
+    Total estimated cost: $41,674 (per year), which includes $41,674 
+for annual labor and $0 for annualized capital or operation & 
+maintenance costs. All costs are labor costs, there are no capital/
+start-up or operation & maintenance costs associated with this ICR.
+    Changes in the estimates: The burden hours are likely to stay 
+substantially the same.
+
+
+[[Page 54680]]
+
+
+    Dated: November 13, 2025.
+Andrew Baca,
+Director, Office of Resource Conservation and Recovery.
+[FR Doc. 2025-21341 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

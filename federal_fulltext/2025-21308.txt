@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Proposed Rules]
+[Pages 54247-54248]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21308]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+POSTAL SERVICE
+
+39 CFR Part 111
+
+
+Claims Filing Date for Insured Mail
+
+AGENCY: Postal Service.
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Postal Service is proposing to amend Mailing Standards of 
+the United States Postal Service, Domestic Mail Manual (DMM) subsection 
+609.1.4 to change the claims filing date for insured mail.
+
+DATES: Submit comments on or before December 26, 2025.
+
+ADDRESSES: Mail or deliver written comments to the manager, Product 
+Classification, U.S. Postal Service, 475 L'Enfant Plaza SW, Room 4446, 
+Washington, DC 20260-5015. If sending comments by email, include the 
+name and address of the commenter and send to 
+<a href="/cdn-cgi/l/email-protection#4d1d0e0b2829283f2c211f282a243e39283f0d383e3d3e632a223b"><span class="__cf_email__" data-cfemail="247467624140415645487641434d5750415664515754570a434b52">[email&#160;protected]</span></a>, with a subject line of ``Claims Filing 
+Date''. Faxed comments are not accepted.
+    You may inspect and photocopy all written comments, by appointment 
+only, at USPS Headquarters Library, 475 L'Enfant Plaza SW, 11th Floor 
+North, Washington, DC 20260. These records are available for review on 
+Monday through Friday, 9 a.m.-4 p.m., by calling 202-268-2906.
+
+FOR FURTHER INFORMATION CONTACT: Abdul Bah at (314) 452-2844 or Garry 
+Rodriguez at (202) 268-7281.
+
+SUPPLEMENTARY INFORMATION: All submitted comments and attachments are 
+part of the public record and subject to disclosure. Do not enclose any 
+material in your comments that you consider to be confidential or 
+inappropriate for public disclosure.
+
+Background
+
+    On August 21, 2025, (Postal Bulletin 22683) the Postal Service 
+revised DMM 609.1.4 to reduce the insured mail ``No Sooner Than'' 
+filing date to 6 days, effective November 3, 2025.
+
+Proposal
+
+    After further evaluation of this revision, the Postal Service is 
+proposing to re-establish the ``No Sooner Than'' filing date of 15 days 
+for filing insured mail claims to re-align the filing thresholds with 
+other mail service and bulk claims.
+    The Postal Service is proposing to implement this change effective 
+January 18, 2026.
+    Although exempt from the notice and comment requirements of the 
+Administrative Procedure Act (5 U.S.C. 553(b), (c)) regarding proposed 
+rulemaking by 39 U.S.C. 410(a), the Postal Service invites public 
+comment on the proposed revisions to Mailing Standards of the United 
+States Postal Service, Domestic Mail Manual (DMM), incorporated by 
+reference in the Code of Federal Regulations.
+    We will publish an appropriate amendment to 39 CFR part 111 to 
+reflect these changes.
+
+List of Subjects in 39 CFR Part 111
+
+    Administrative practice and procedure, Postal Service.
+
+    Accordingly, the Postal Service proposes the following changes to 
+Mailing Standards of the United States Postal Service, Domestic Mail 
+Manual (DMM), incorporated by reference in the Code of Federal 
+Regulations (see 39 CFR 111.1):
+
+PART 111--[AMENDED]
+
+0
+1. The authority citation for 39 CFR part 111 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 552(a); 13 U.S.C. 301-307; 18 U.S.C. 1692-
+1737; 39 U.S.C. 101, 401-404, 414, 416, 3001-3018, 3201-3220, 3401-
+3406, 3621, 3622, 3626, 3629, 3631-3633, 3641, 3681-3685, and 5001.
+
+
+[[Page 54248]]
+
+
+0
+2. Revise the Mailing Standards of the United States Postal Service, 
+Domestic Mail Manual (DMM) as follows:
+    Mailing Standards of the United States Postal Service, Domestic 
+Mail Manual (DMM)
+* * * * *
+
+600 Basic Standards for All Mailing Services
+
+* * * * *
+
+609 Filing Indemnity Claims for Loss or Damage
+
+1.0 General Filing Instructions
+
+* * * * *
+
+1.4 When To File
+
+    File claims as follows:
+* * * * *
+
+------------------------------------------------------------------------
+                                                   When to file (from
+                                                      mailing date)
+             Mail type or service              -------------------------
+                                                 No sooner     No later
+                                                    than         than
+------------------------------------------------------------------------
+ 
+                                * * * * *
+------------------------------------------------------------------------
+[Revise the ``No Sooner Than'' timeframe for ``Insured Mail'' line item
+ to read as follows:]
+ 
+Insured Mail (including Priority Mail under         15 days
+ 503.4.2).....................................
+ 
+                                * * * * *
+------------------------------------------------------------------------
+[Delete the footnote at the bottom of the table in 1.4 in its entirety.]
+------------------------------------------------------------------------
+
+* * * * *
+
+Kevin Rayburn,
+Attorney, Ethics & Legal Compliance.
+[FR Doc. 2025-21308 Filed 11-25-25; 8:45 am]
+BILLING CODE 7710-12-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

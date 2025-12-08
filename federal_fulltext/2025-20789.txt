@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52939-52940]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20789]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+[Docket No. IC25-18-000]
+
+
+Commission Information Collection Activity (Ferc-740); Comment 
+Request; Extension
+
+AGENCY: Federal Energy Regulatory Commission, DOE.
+
+ACTION: Notice of information collection and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the requirements of the Paperwork Reduction 
+Act of 1995, the Federal Energy Regulatory Commission (Commission or 
+FERC) is soliciting public comment on the currently approved 
+information collection, FERC-740 (Availability of E-Tag Information to 
+Commission Staff). There are no proposed changes to the information 
+collection approach.
+
+DATES: Comments on the collections of information are due January 23, 
+2026.
+
+ADDRESSES: Please submit comments via email to <a href="/cdn-cgi/l/email-protection#2d694c594c6e41484c5f4c434e486d6b687f6e034a425b"><span class="__cf_email__" data-cfemail="1753766376547b72766576797472575152455439707861">[email&#160;protected]</span></a>. 
+You must specify the Docket No. (IC25-18-000) and the FERC Information 
+Collection number (FERC-740) in your email. If you are unable to file 
+electronically, comments may be filed by USPS mail or by hand 
+(including courier) delivery:
+    <bullet> Mail via U.S. Postal Service only, addressed to: Federal 
+Energy Regulatory Commission, Secretary of the Commission, 888 First 
+Street, NE, Washington, DC 20426.
+    <bullet> Hand (including courier) delivery to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+    Docket: To view comments and issuances in this docket, please visit 
+<a href="https://elibrary.ferc.gov/eLibrary/search">https://elibrary.ferc.gov/eLibrary/search</a>. Once there, you can also 
+sign-up for automatic notification of activity in this docket.
+
+FOR FURTHER INFORMATION CONTACT: Kayla Williams may be reached by email 
+at <a href="/cdn-cgi/l/email-protection#3c785d485d7f50595d4e5d525f597c7a796e7f125b534a"><span class="__cf_email__" data-cfemail="f2b6938693b19e979380939c9197b2b4b7a0b1dc959d84">[email&#160;protected]</span></a>, or by telephone at (202) 502-6468.
+
+SUPPLEMENTARY INFORMATION: 
+    Title: FERC-740, Availability of E-Tag Information to Commission 
+Staff
+    OMB Control No.: 1902-0254
+    Type of Request: Three-year extension of the FERC-740 information 
+collection requirements with no changes to the current reporting 
+requirements.
+    Abstract: This collection of information is authorized by 18 CFR 
+366.2(d), which requires Commission access, on a non-public and view-
+only basis, to information that is located on ``electronic tags,'' also 
+known as ``e-Tags.'' Each e-Tag consists of an electronic record of a 
+transaction to transfer energy from a generation source to a Balancing 
+Authority (BA). Each BA operates a portion of the grid, balancing 
+supply and demand and assuring compliance with federal reliability 
+standards. E-Tag ``authors'' are typically Purchasing-Selling Entities 
+(PSEs). A PSE purchases or sells energy, capacity, and Interconnected 
+Operations Services.
+    Transmission system operators, which are among the addressees of e-
+Tags, use e-Tags to ascertain the transactions affecting their local 
+systems, and to prevent damage to the power grid. Commission access to 
+e-Tags helps the Commission detect and prevent market manipulation and 
+anti-competitive behavior, and also monitor the efficiency of markets. 
+Both transmission system operators and the Commission need the e-Tag 
+information to understand the use of the interconnected electricity 
+grid, particularly transactions occurring at interchanges. Due to the 
+nature of the electric grid, an individual transaction's impact on an 
+interchange cannot be assessed adequately in all cases without 
+information from all connected systems, which is included in the e-
+Tags.
+    The inclusion of the Commission is completely automatic and is part 
+of the normal business requirement. Thus, the time, effort, and 
+financial resources necessary to comply with this collection of 
+information are ``usual and customary'' within the meaning of the OMB 
+regulation at 5 CFR 1320.3 (b)(2) (excluding such activities from the 
+definition of ``burden''). In view of these circumstances, FERC is 
+including only a ``placeholder'' burden of one hour to account for the 
+rare event where a new BA qualifies for exemption under the
+
+[[Page 52940]]
+
+Commission's regulations (e.g., transmissions from a new non-U.S. BA 
+into another non-U.S. BA using a path that does not go through a U.S. 
+BA). In that case, this administrative function would be expected to 
+require at most an hour of effort total from both the BA and e-Tag 
+administrator to include the BA on the exemption list. New exempt BAs 
+are not common--years may pass between them--but for the purpose of 
+estimation, we will conservatively assume one appears each year 
+creating a burden and cost associated with the Commission's FERC-740 of 
+one hour and $71.27.\1\
+---------------------------------------------------------------------------
+
+    \1\ The total hourly cost applied in this calculation, $71.27, 
+is the total hourly cost to an employer for a management analyst in 
+the utilities sector. This figure includes the average hourly wage 
+of $49.96 plus all employer-paid benefits, and is based on 2024 data 
+from the U.S. Bureau of Labor Statistics (BLS) Occupational 
+Employment and Wage Statistics (OEWS) program.
+---------------------------------------------------------------------------
+
+    Type of Respondents: Purchasing-Selling Entities and Balancing 
+Authorities
+    Estimate of Annual Burden: \2\ The Commission estimates the burden 
+and cost for FERC-740 as follows based on the distinct e-Tags submitted 
+to the Commission in 2024 (the most recent full year available).
+---------------------------------------------------------------------------
+
+    \2\ ``Burden'' is the total time, effort, or financial resources 
+expended by persons to generate, maintain, retain, or disclose or 
+provide information to or for a Federal agency. For further 
+explanation of what is included in the information collection 
+burden, refer to 5 CFR part 1320.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Average annual                                          Total average annual
+                                        Number of       number of     Total number   Average annual burden   burden hours & total   Cost per respondent
+            Requirements               respondents    responses per   of responses    hrs. & cost ($) per      annual cost ($)         ($) (rounded)
+                                                       respondent                      response (rounded)         (rounded)
+                                                  1               2     (1)*(2)=(3)  4....................  (3)*(4)=(5)..........  (5)/(1)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+e-Tags.............................     444 PSE/BAs           4,281       1,900,764  Automatic, so 0        Automatic, so 0        Automatic, so 0
+                                                                                      burden and cost.       burden and cost.       burden and cost.
+E-Tag administrator response to add               1               1               1  1 hr.; $71.27........  1 hr.; $71.27........  $71.27
+ new non-jurisdictional Balancing
+ Authority.
+                                    --------------------------------------------------------------------------------------------------------------------
+    Totals.........................  ..............  ..............       1,900,764  .....................  1 hr.; $71.27........  $71.27
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Comments are invited on: (1) whether the collection of information 
+is necessary for the proper performance of the functions of the 
+Commission, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimate of the burden and 
+cost of the collection of information, including the validity of the 
+methodology and assumptions used; (3) ways to enhance the quality, 
+utility and clarity of the information collection; and (4) ways to 
+minimize the burden of the collection of information on those who are 
+to respond, including the use of automated collection techniques or 
+other forms of information technology.
+
+    Dated: October 15, 2025.
+Debbie-Anne A. Reese,
+Secretary.
+[FR Doc. 2025-20789 Filed 11-21-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,564 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54555-54559]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21477]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2024-2144; Project Identifier AD-2024-00424-T; 
+Amendment 39-23174; AD 2025-21-02]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is superseding Airworthiness Directive (AD) 2022-15-
+06, which applied to all The Boeing Company Model 777-200, -200LR, -
+300, -300ER, and 777F series airplanes. AD 2022-15-06 required 
+disconnecting certain connectors and capping and stowing the wires that 
+had been attached to the affected transorb modules. Since the FAA 
+issued AD 2022-15-06, the agency has determined additional connectors 
+are affected. Also, a replacement has been developed to address the 
+unsafe condition, which would terminate the existing actions. This AD 
+continues to require the actions specified in AD 2022-15-06 and 
+requires those actions for additional connectors. This AD also requires 
+determining if affected transorb modules are installed, replacing or 
+testing affected transorb modules, and applicable on-condition actions. 
+This AD also prohibits the installation of affected parts. The FAA is 
+issuing this AD to address the unsafe condition on these products.
+
+DATES: This AD is effective January 2, 2026.
+    The Director of the Federal Register approved the incorporation by 
+reference of a certain publication listed in this AD as of January 2, 
+2026.
+
+ADDRESSES: 
+    AD Docket: You may examine the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2024-2144; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this final rule, any comments received, and other 
+information. The
+
+[[Page 54556]]
+
+address for Docket Operations is U.S. Department of Transportation, 
+Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 
+New Jersey Avenue SE, Washington, DC 20590.
+    Material Incorporated by Reference:
+    <bullet> For Boeing material identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Contractual & Data Services (C&DS), 
+2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; 
+telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    <bullet> You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., Des 
+Moines, WA. For information on the availability of this material at the 
+FAA, call 206-231-3195. It is also available at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2024-2144.
+
+FOR FURTHER INFORMATION CONTACT: Raja Vengadasalam, Aviation Safety 
+Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-
+231-3859; email: <a href="/cdn-cgi/l/email-protection#4735262d26693122292026232634262b262a0721262669202831"><span class="__cf_email__" data-cfemail="d4a6b5beb5faa2b1bab3b5b0b5a7b5b8b5b994b2b5b5fab3bba2">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued a notice of proposed rulemaking (NPRM) to amend 14 
+CFR part 39 to supersede AD 2022-15-06, Amendment 39-22126 (87 FR 
+47334, August 3, 2022) (AD 2022-15-06). AD 2022-15-06 applied to all 
+The Boeing Company Model 777-200, -200LR, -300, -300ER, and 777F series 
+airplanes. The NPRM was published in the Federal Register on September 
+26, 2024 (89 FR 78827). The NPRM was prompted by the determination that 
+connectors that were not identified in AD 2022-15-06 are affected and 
+by the development of a replacement action to address the unsafe 
+condition, which would terminate the existing actions. In the NPRM, the 
+FAA proposed to continue to require the actions specified in AD 2022-
+15-06 and require those actions for additional connectors. The NPRM 
+also proposed to require determining if affected transorb modules are 
+installed, replacing or testing affected transorb modules, and 
+applicable on-condition actions. The NPRM also proposed to prohibit the 
+installation of affected parts. The NPRM was prompted by high 
+electrical resistance within the gust suppression sensor (GSS) transorb 
+modules due to corrosion on the transorb threads and insufficient 
+engagement of the anti-rotation teeth. The FAA is issuing this AD to 
+address high electrical resistance in both transorb modules, which can 
+result in two actuator control electronics (ACEs) being exposed to 
+damaging lightning transient voltages in excess of the qualification 
+levels, potentially inducing erroneous or oscillatory outputs to flight 
+control surfaces. The unsafe condition, if not addressed, could result 
+in loss of control of the airplane.
+
+Discussion of Final Airworthiness Directive
+
+Comments
+
+    The FAA received comments from Air Line Pilots Association, 
+International (ALPA), and Cathay Pacific, who supported the NPRM 
+without change.
+    The FAA received additional comments from five commenters, 
+including American Airlines, Boeing, FedEx Express, and United Airlines 
+(United). The following presents the comments received on the NPRM and 
+the FAA's response to each comment.
+
+Request To Revise the Applicability
+
+    Boeing requested that paragraph (c) of the proposed AD be revised 
+to limit the applicability to the airplanes affected by Boeing Alert 
+Requirements Bulletin 777-27A0125 RB, dated February 3, 2023. Boeing 
+stated that if the AD applies to all The Boeing Company Model 777-200, 
+-200LR, -300, -300ER, and 777F series airplanes (including the 
+airplanes after line number 1726-the airplanes that will have this 
+change already incorporated in production), then the airplanes 
+delivered after the effective date of this AD would need to document 
+that these AD actions were incorporated in production in an AD Letter 
+(ADL), stating that the airplane is not affected by the AD.
+    The FAA disagrees with Boeing's request that paragraph (c) of this 
+AD be revised because the transorbs are rotable and these parts could 
+later be installed on airplanes that were initially delivered with 
+acceptable parts, thereby subjecting those airplanes to the unsafe 
+condition. All airplanes are subject to the parts installation 
+prohibition specified in paragraph (k) of this AD, which does not allow 
+affected parts to be installed as of the effective date of the AD.
+    The FAA notes that airplanes produced after the effective date of 
+this AD do not need to document that the actions in Boeing Alert 
+Requirements Bulletin 777-27A0125 RB, dated February 3, 2023, were done 
+because paragraphs (i)(1) and (2) of this AD only apply to airplanes 
+produced on or before the effective date of this AD. Additionally, the 
+FAA has revised paragraphs (g) and (h) of this AD to limit those 
+requirements to airplanes produced on or before the effective date of 
+this AD since airplanes produced after the effective date of this AD 
+will not be delivered with the affected transorb modules or connectors.
+
+Request To Allow Optional Action to the Replacement of Required Actions
+
+    FedEx Express requested that the FAA revise paragraph (i)(2) of the 
+proposed AD to allow continued flight with the GSS connectors stowed 
+per paragraphs (g) and (h) of the proposed AD, as an optional action. 
+The commenter stated that the reactivation in paragraph (i)(2) of the 
+proposed AD does not appear to lend any effort towards airworthiness of 
+the aircraft outside of passenger comfort. Additionally, the commenter 
+noted that such a system is not a requirement of 14 CFR part 25 and 
+therefore expenditure of valuable time and resources on a system not 
+appreciably utilized by a cargo carrier would seem pointless.
+    The FAA acknowledges the commenter's request. The purpose of this 
+AD is to restore the affected fleet to an acceptable level of safety. 
+The FAA is issuing this AD to address high electrical resistance in 
+both transorb modules, which can result in two actuator control 
+electronics (ACEs) being exposed to damaging lightning transient 
+voltages in excess of the qualification levels, potentially inducing 
+erroneous or oscillatory outputs to flight control surfaces and could 
+result in loss of control of the airplane. Allowing the connectors to 
+be disconnected long-term may not address the unsafe condition in the 
+affected fleet, as an operator may inadvertently reconnect the affected 
+connectors in the future. Therefore, the replacement of affected 
+connectors must be done to address the unsafe condition. However, any 
+person may request approval of an alternative method of compliance 
+(AMOC) under the provisions of paragraph (l)(2) of this AD. This AD has 
+not been changed regarding this request.
+
+Request for Removing/Revising Paragraphs (g) and (h) of the Proposed AD 
+and References to Connector D02099P
+
+    Boeing requested that the FAA remove paragraph (h) of the proposed 
+AD, update paragraph (g) of the proposed AD by referring to bundle/
+connector W6313/D02098P, and remove references to connector D02099P 
+from ``Actions Since AD-2022-15-06 Was Issued'' in the NPRM. Boeing 
+suggested some revised wording for paragraph (g) of the proposed AD to 
+account for additional wire to bundles/connector part numbers that are 
+present on some
+
+[[Page 54557]]
+
+airplanes. Boeing stated paragraph (h) of the proposed AD could be 
+misleading to operators as it does not highlight that the difference in 
+the bundle and connector callouts are line number dependent. In 
+addition, Boeing stated the connectors called out in paragraph (h) of 
+the proposed AD are incorrect and reference two disconnect points on 
+the same wire bundle. Boeing recommended that connector D02099P not be 
+referenced as a disconnect point in the NPRM.
+    United requested that the FAA revise paragraph (h) of the proposed 
+AD to allow for disconnecting one of the connectors rather than the 
+referenced ``W6313/D02098P and W7314/D02099P,'' which would require 
+operators to unnecessarily disconnect both. United stated that the 
+connectors are in the same wiring circuit so disconnecting either 
+connector D02098P or D02099P would effectively deactivate the upper 
+gust suppression transducer circuit. United noted it has disconnected, 
+capped, and stowed connector D02099P and connector D02098P remains 
+connected for these aircraft as allowed in AMOC letter 783-22-11124, 
+dated January 17, 2023.
+    American Airlines requested that the FAA change references to wire 
+bundles/connectors from ``W6313/D02098P and W7314/D02099P'' to ``W6313/
+D02098P or W7314/D02099P,'' as disconnecting either from the transorb 
+module sufficiently complies with the level of safety required by the 
+proposed AD.
+    The FAA agrees with rewording paragraph (h) of this AD to address 
+the two disconnect points of the wire bundles being referenced as 
+``W6313/D02098P and W7314/D02099P'' to ``W6313/D02098P or W7314/
+D02099P'' to alleviate confusion of referencing disconnecting both from 
+the transorb module; the disconnection of either bundle/connector 
+provides an equivalent level of safety. Paragraph (h) of this AD has 
+been updated to the reference above.
+    The FAA disagrees with removing paragraph (h) of this AD and 
+updating paragraph (g) of this AD because either bundles/connectors 
+W6313/D02098P or W7314/D02099P can be disconnected to address the 
+unsafe condition. This AD has not been changed to remove the actions 
+required by paragraph (h) of this AD.
+    Regarding the request to revise the wording in paragraph (g) of 
+this AD, the FAA agrees to clarify. AMOC letter 783-22-11124, dated 
+January 17, 2023, allows operators to use the wording suggested by 
+Boeing. Paragraph (l)(4) of this AD allows operators to use AMOCs 
+previously approved for AD 2022-15-06 for the corresponding provisions 
+of paragraph (g) of this AD. Therefore, no change to this AD is 
+necessary.
+    Regarding the request to revise ``Actions Since AD-2022-15-06 Was 
+Issued'' in the NPRM, that language is not restated in this final rule; 
+however, the FAA acknowledges that the text should have stated 
+``disconnect the connectors and cap and stow the wires to bundles/
+connectors W6313/D02098P or W7314/D02099P.''
+
+Conclusion
+
+    The FAA reviewed the relevant data, considered any comments 
+received, and determined that air safety requires adopting this AD as 
+proposed. Accordingly, the FAA is issuing this AD to address the unsafe 
+condition on these products. Except for minor editorial changes, and 
+any other changes described previously, this AD is adopted as proposed 
+in the NPRM. None of the changes will increase the economic burden on 
+any operator.
+
+Material Incorporated by Reference Under 1 CFR Part 51
+
+    The FAA reviewed Boeing Alert Requirements Bulletin 777-27A0125 RB, 
+dated February 3, 2023. This material specifies procedures for 
+replacing affected transorb modules with new or serviceable transorb 
+modules or testing affected transorb modules and accomplishing 
+applicable on-condition actions. The on-condition actions include part 
+marking any module that meets certain specifications or replacing any 
+modules that do not meet the specifications.
+    This material is reasonably available because the interested 
+parties have access to it through their normal course of business or by 
+the means identified in the ADDRESSES section.
+
+Costs of Compliance
+
+    The FAA estimates that this AD affects 312 airplanes of U.S. 
+registry. The FAA estimates the following costs to comply with this AD:
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                                                  Cost on U.S.
+             Action                    Labor cost            Parts cost      Cost per product      operators
+----------------------------------------------------------------------------------------------------------------
+Disconnecting connectors,        3 work-hours x $85 per  $0...............  $255.............  $79,560.
+ capping and stowing wires        hour = $255.
+ (retained actions from AD 2022-
+ 15-06).
+Disconnecting additional         3 work-hours x $85 per  $0...............  $255.............  $79,560.
+ connectors, capping and          hour = $255.
+ stowing wires (new action).
+Determining if affected          Up to 3 work-hours x    Up to $3,668.....  Up to $3,923.....  Up to $1,223,976.
+ transorb modules are             $85 per hour = $255.
+ installed, and replacing or
+ testing affected modules (new
+ action).
+----------------------------------------------------------------------------------------------------------------
+
+    The FAA estimates the following costs to do any necessary on-
+condition actions that would be required based on the results of the 
+testing. The agency has no way of determining the number of aircraft 
+that might need these actions:
+
+                                               On-Condition Costs
+----------------------------------------------------------------------------------------------------------------
+               Action                         Labor cost                Parts cost           Cost per product
+----------------------------------------------------------------------------------------------------------------
+Part marking or replacing affected   Up to 3 work-hours x $85     Up to $3,668..........  Up to $3,923.
+ modules.                             per hour = $255.
+----------------------------------------------------------------------------------------------------------------
+
+
+[[Page 54558]]
+
+    The FAA has included all known costs in its cost estimate. 
+According to the manufacturer, however, some or all of the costs of 
+this AD may be covered under warranty, thereby reducing the cost impact 
+on affected operators.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII: Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    The FAA is issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701: General requirements. 
+Under that section, Congress charges the FAA with promoting safe flight 
+of civil aircraft in air commerce by prescribing regulations for 
+practices, methods, and procedures the Administrator finds necessary 
+for safety in air commerce. This regulation is within the scope of that 
+authority because it addresses an unsafe condition that is likely to 
+exist or develop on products identified in this rulemaking action.
+
+Regulatory Findings
+
+    This AD will not have federalism implications under Executive Order 
+13132. This AD will not have a substantial direct effect on the States, 
+on the relationship between the national government and the States, or 
+on the distribution of power and responsibilities among the various 
+levels of government.
+    For the reasons discussed above, I certify that this AD:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866,
+    (2) Will not affect intrastate aviation in Alaska, and
+    (3) Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA amends 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by:
+0
+a. Removing Airworthiness Directive (AD) 2022-15-06, Amendment 39-22126 
+(87 FR 47334, August 3, 2022); and
+0
+b. Adding the following new AD:
+
+2025-21-02 The Boeing Company: Amendment 39-23174; Docket No. FAA-
+2024-2144; Project Identifier AD-2024-00424-T.
+
+(a) Effective Date
+
+    This airworthiness directive (AD) is effective January 2, 2026.
+
+(b) Affected ADs
+
+    This AD replaces AD 2022-15-06, Amendment 39-22126 (87 FR 47334, 
+August 3, 2022) (AD 2022-15-06).
+
+(c) Applicability
+
+    This AD applies to all The Boeing Company Model 777-200, -200LR, 
+-300, -300ER, and 777F series airplanes, certificated in any 
+category.
+
+(d) Subject
+
+    Air Transport Association (ATA) of America Code 27, Flight 
+controls.
+
+(e) Unsafe Condition
+
+    This AD was prompted by high electrical resistance within the 
+gust suppression sensor (GSS) transorb modules due to corrosion on 
+the transorb threads and insufficient engagement of the anti-
+rotation teeth. The FAA is issuing this AD to address high 
+electrical resistance in both transorb modules, which can result in 
+two actuator control electronics (ACEs) being exposed to damaging 
+lightning transient voltages in excess of the qualification levels, 
+potentially inducing erroneous or oscillatory outputs to flight 
+control surfaces. The unsafe condition, if not addressed, could 
+result in loss of control of the airplane.
+
+(f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+(g) Retained Requirement To Disconnect, Cap, and Stow Transorb Module 
+Connectors, With Revised Affected Airplanes
+
+    For airplanes with an original airworthiness certificate or 
+original export certificate of airworthiness issued on or before the 
+effective date of this AD: This paragraph restates the requirements 
+of paragraph (g) of AD 2022-15-06, with revised affected airplanes. 
+At the later of the times specified in paragraphs (g)(1) and (2) of 
+this AD: Disconnect the connectors and cap and stow the wires to 
+bundles/connectors W7314/D02006P and W7579/D02005P from the transorb 
+module part numbers CLPT-12SP-06, CLPT-12SP-07, and CLPT-12SP-67.
+    Note 1 to the introductory text of paragraph (g): Guidance on 
+locating wire bundles/connectors W7314/D02006P and W7579/D02005P can 
+be found in Section 05-55-43 of the Boeing 777 aircraft maintenance 
+manual.
+    Note 2 to the introductory text of paragraph (g): Guidance on 
+capping and stowing the wires once they are disconnected can be 
+found in Section 20-10-11 of the Boeing Standard Wiring Practices 
+Manual.
+    (1) Before the accumulation of 75,000 total flight hours or 
+23,000 total flight cycles, whichever occurs first.
+    (2) Within 3 months after August 18, 2022 (the effective date of 
+AD 2022-15-06).
+
+(h) New Requirement To Disconnect, Cap, and Stow Certain Other Transorb 
+Module Connectors
+
+    For airplanes with an original airworthiness certificate or 
+original export certificate of airworthiness issued on or before the 
+effective date of this AD: At the later of the times specified in 
+paragraphs (h)(1) and (2) of this AD: Disconnect the connectors and 
+cap and stow the wires to bundles/connectors W6313/D02098P or W7314/
+D02099P from the transorb module part numbers CLPT-12SP-06, CLPT-
+12SP-07, and CLPT-12SP-67.
+    Note 3 to the introductory text of paragraph (h): Guidance on 
+locating wire bundles/connectors W6313/D02098P and W7314/D02099P can 
+be found in Section 05-55-43 of the Boeing 777 aircraft maintenance 
+manual.
+    Note 4 to the introductory text of paragraph (h): Guidance on 
+capping and stowing the wires once they are disconnected can be 
+found in Section 20-10-11 of the Boeing Standard Wiring Practices 
+Manual.
+    (1) Before the accumulation of 75,000 total flight hours or 
+23,000 total flight cycles, whichever occurs first.
+    (2) Within 3 months after the effective date of this AD.
+
+(i) New Required Actions
+
+    (1) For airplanes with an original airworthiness certificate or 
+original export certificate of airworthiness issued on or before the 
+effective date of this AD: At the later of the times specified in 
+paragraph (i)(1)(i) or (ii) of this AD, do an inspection to 
+determine if any airplane has a transorb module with part number 
+CLPT-12SP-06, CLPT-12SP-07, or CLPT-12SP-67 installed. A review of 
+airplane maintenance records is acceptable in lieu of the inspection 
+if the part numbers can be conclusively determined from that review.
+    (i) Within 24 months after the effective date of this AD.
+    (ii) Within 24 months after the date of issuance of the original 
+standard airworthiness certificate or the original export 
+certificate of airworthiness.
+    (2) If, during any inspection or records review required by 
+paragraph (i)(1) of this AD, any transorb module with part number 
+CLPT-12SP-06, CLPT-12SP-07, or CLPT-12SP-67 is found: Except as 
+specified by paragraph (j) of this AD, at the applicable times 
+specified in the ``Compliance'' paragraph of Boeing Alert 
+Requirements Bulletin 777-27A0125 RB, dated February 3, 2023, do all 
+applicable actions identified in, and in accordance with, the 
+Accomplishment Instructions of Boeing Alert Requirements
+
+[[Page 54559]]
+
+Bulletin 777-27A0125 RB, dated February 3, 2023. Doing the 
+replacement required by this paragraph terminates the requirements 
+of paragraphs (g) and (h) of this AD.
+    Note 5 to paragraph (i)(2): Guidance for accomplishing the 
+actions required by paragraph (i)(2) of this AD can be found in 
+Boeing Alert Service Bulletin 777-27A0125, dated February 3, 2023, 
+which is referred to in Boeing Alert Requirements Bulletin 777-
+27A0125 RB, dated February 3, 2023.
+
+(j) Exception to Requirements Bulletin Specifications
+
+    Where the Compliance Time column of the table in the 
+``Compliance'' paragraph of Boeing Alert Requirements Bulletin 777-
+27A0125 RB, dated February 3, 2023, refers to the original issue 
+date of Requirements Bulletin 777-27A0125 RB, this AD requires using 
+the effective date of this AD.
+
+(k) Parts Installation Prohibition
+
+    As of the effective date of this AD, no person may install a 
+transorb module, part numbers CLPT-12SP-06, CLPT-12SP-07, and CLPT-
+12SP-67, on any airplane.
+
+(l) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, AIR-520, Continued Operational Safety Branch, 
+FAA, has the authority to approve AMOCs for this AD, if requested 
+using the procedures found in 14 CFR 39.19. In accordance with 14 
+CFR 39.19, send your request to your principal inspector or 
+responsible Flight Standards Office, as appropriate. If sending 
+information directly to the manager of the certification office, 
+send it to the attention of the person identified in paragraph 
+(m)(1) of this AD. Information may be emailed to: <a href="/cdn-cgi/l/email-protection#ca8b8785898aacababe4ada5bc"><span class="__cf_email__" data-cfemail="4a0b0705090a2c2b2b642d253c">[email&#160;protected]</span></a>.
+    (2) Before using any approved AMOC, notify your appropriate 
+principal inspector, or lacking a principal inspector, the manager 
+of the responsible Flight Standards Office.
+    (3) An AMOC that provides an acceptable level of safety may be 
+used for any repair, modification, or alteration required by this AD 
+if it is approved by The Boeing Company Organization Designation 
+Authorization (ODA) that has been authorized by the Manager, AIR-
+520, Continued Operational Safety Branch, FAA, to make those 
+findings. To be approved, the repair method, modification deviation, 
+or alteration deviation must meet the certification basis of the 
+airplane, and the approval must specifically refer to this AD.
+    (4) AMOCs approved for AD 2022-15-06 are approved as AMOCs for 
+the corresponding provisions of paragraph (g) of this AD.
+
+(m) Related Information
+
+    (1) For more information about this AD, contact Raja 
+Vengadasalam, Aviation Safety Engineer, FAA, 2200 South 216th St., 
+Des Moines, WA 98198; phone: 206-231-3859; email: 
+<a href="/cdn-cgi/l/email-protection#d9abb8b3b8f7afbcb7beb8bdb8aab8b5b8b499bfb8b8f7beb6af"><span class="__cf_email__" data-cfemail="4735262d26693122292026232634262b262a0721262669202831">[email&#160;protected]</span></a>.
+    (2) Material identified in this AD that is not incorporated by 
+reference is available at the address specified in paragraph (n)(3) 
+of this AD.
+
+(n) Material Incorporated by Reference
+
+    (1) The Director of the Federal Register approved the 
+incorporation by reference of the material listed in this paragraph 
+under 5 U.S.C. 552(a) and 1 CFR part 51.
+    (2) You must use this material as applicable to do the actions 
+required by this AD, unless the AD specifies otherwise.
+    (i) Boeing Alert Requirements Bulletin 777-27A0125 RB, dated 
+February 3, 2023.
+    (ii) [Reserved]
+    (3) For the material identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Contractual & Data Services (C&DS), 
+2600 Westminster Blvd., MC 110-SK57, Seal Beach, CA 90740-5600; 
+telephone 562-797-1717; website <a href="http://myboeingfleet.com">myboeingfleet.com</a>.
+    (4) You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., 
+Des Moines, WA. For information on the availability of this material 
+at the FAA, call 206-231-3195.
+    (5) You may view this material at the National Archives and 
+Records Administration (NARA). For information on the availability 
+of this material at NARA, visit <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a> or email <a href="/cdn-cgi/l/email-protection#593f2b7730372a293c3a2d3036371937382b38773e362f"><span class="__cf_email__" data-cfemail="8ceafea2e5e2fffce9eff8e5e3e2cce2edfeeda2ebe3fa">[email&#160;protected]</span></a>.
+
+    Issued on October 7, 2025.
+Lona C. Saccomando,
+Acting Deputy Director, Integrated Certificate Management Division, 
+Aircraft Certification Service.
+[FR Doc. 2025-21477 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

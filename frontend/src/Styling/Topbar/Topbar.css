@@ -1,0 +1,39 @@
+.topbar {
+  height: 60px;
+  background: #294936;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  position: fixed;
+  top: 0;
+  left: 50px;      
+  right: 0px;    
+
+  border-bottom-left-radius: 5000px;
+  z-index: 100;
+
+  padding-left: 40px;   
+  padding-right: 20px;
+}
+
+.topbar .left h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.topbar .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar .profile {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #444;
+}

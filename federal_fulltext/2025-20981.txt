@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53278-53279]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20981]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF EDUCATION
+
+[Docket No.: ED-2025-SCC-0086]
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget for Review and Approval; Comment 
+Request; National Public Education Financial Survey (NPEFS) 2025-2027
+
+AGENCY: Institute of Education Sciences (IES), Department of Education 
+(ED).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act (PRA) of 1995, 
+the Department is proposing an extension without change of a currently 
+approved information collection request (ICR).
+
+DATES: Interested persons are invited to submit comments on or before 
+December 26, 2025.
+
+ADDRESSES: Written comments and recommendations for proposed 
+information collection requests should be submitted within 30 days of 
+publication of this notice. Click on this link <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a> to access the site. Find this information collection request 
+(ICR) by selecting ``Department of Education'' under ``Currently Under 
+Review,'' then check the ``Only Show ICR for Public Comment'' checkbox. 
+<a href="http://Reginfo.gov">Reginfo.gov</a> provides two links to view documents related to this 
+information collection request. Information collection forms and 
+instructions may be found by clicking on the ``View Information 
+Collection (IC) List'' link. Supporting statements and other supporting 
+documentation may be found by clicking on the ``View Supporting 
+Statement and Other Documents'' link.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+specific questions related to collection activities should be directed 
+to Chris Greene, Senior Advisor, Institute of Education Sciences, 202-
+453-5926 or <a href="/cdn-cgi/l/email-protection#284b405a415b064f5a4d4d464d684d4c064f475e"><span class="__cf_email__" data-cfemail="94f7fce6fde7baf3e6f1f1faf1d4f1f0baf3fbe2">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Department is especially interested in 
+public comment addressing the following issues: (1) is this collection 
+necessary to the proper functions of the Department; (2) will this 
+information be processed and used in a timely manner; (3) is the 
+estimate of burden accurate; (4) how might the Department enhance the 
+quality, utility, and clarity of the information to be collected; and 
+(5) how might the Department minimize the burden of this collection on 
+the respondents, including through the use of information technology. 
+Please note that written comments received in response to this notice 
+will be considered public records.
+    Title of Collection: National Public Education Financial Survey 
+(NPEFS) 2025-2027.
+    OMB Control Number: 1850-0067.
+    Type of Review: Extension without change of a currently approved 
+ICR.
+    Respondents/Affected Public: State, Local, and Tribal Governments.
+    Total Estimated Number of Annual Responses: 56.
+    Total Estimated Number of Annual Burden Hours: 7,327.
+    Abstract: The National Public Education Financial Survey (NPEFS) is 
+an annual collection of state-level finance data that has been included 
+in the National Center for Education Statistics (NCES) Common Core of 
+Data (CCD) since FY 1982 (school year 1981-82). The U.S. Census Bureau 
+(Census), Economic Reimbursable Surveys Division, administers the NPEFS 
+data collection for NCES under interagency agreement in conjunction 
+with the Local Education Agency (School District) Finance Survey (F-33) 
+(OMB #0607-0700) and the School-Level Finance Survey (SLFS) (OMB #1850-
+0930). NPEFS is a comprehensive source of state-level finance data for 
+public education collected on a nationwide scale using uniform 
+definitions, concepts, and procedures. The collection includes the 
+revenues,
+
+[[Page 53279]]
+
+expenditures, and average daily attendance of all publicly funded 
+schools and elementary-secondary local education agencies (LEAs), state 
+payments on behalf of LEAs, and state support for a free public 
+education for students in prekindergarten through 12th grade. In this 
+notice, NCES is announcing its intention to extend the date of 
+clearance for NPEFS, without change, to the currently approved 
+collection.
+    Detailed information about the collection, including the currently 
+approved collection, can be found at <a href="https://www.reginfo.gov/public/do/PRAOMBHistory?ombControlNumber=1850-0067">https://www.reginfo.gov/public/do/PRAOMBHistory?ombControlNumber=1850-0067</a>.
+    NPEFS data are used to calculate a state's ``average per-pupil 
+expenditure'' (SPPE) for elementary and secondary education, as defined 
+by Title 20 U.S.C., Section 7801, paragraphs 1, 2, 3, 12, 26, and 48. 
+SPPE data are used in calculating allocations for certain formula grant 
+programs, including, but not limited to, Title I, Part A, of the 
+Elementary and Secondary Education Act of 1965 (ESEA), Impact Aid, and 
+Indian Education programs. Other programs, such as the Education for 
+Homeless Children and Youth program under title VII of the McKinney-
+Vento Homeless Assistance Act, and the Student Support and Academic 
+Enrichment Grants under title IV, part A of the ESEA make use of SPPE 
+data indirectly because their formulas are based, in whole or in part, 
+on State title I, part A, allocations.
+    Data will be collected from State Education Agencies (SEAs) for all 
+50 states, the District of Columbia, American Samoa, the Northern 
+Mariana Islands, Guam, Puerto Rico, and the Virgin Islands. SEAs 
+appoint state fiscal coordinators to work with NCES and the U.S. Census 
+Bureau to provide accurate and comparable data across states and 
+jurisdictions. SEAs typically collect finance data from school 
+districts for their own uses. Many states produce a state-specific 
+chart of accounts or accounting manual to assist school districts in 
+classifying and reporting finance data and producing government-wide 
+financial statements. Uniform definitions and concepts of revenues and 
+expenditures are defined by the NCES handbook Financial Accounting for 
+Local and State School Systems.
+    Comparative data on resources and spending patterns is helpful for 
+states to evaluate the effectiveness of their programs and services. 
+The products of this data collection make it possible for data users to 
+search within a single database to obtain information on such things as 
+instruction and student support services expenditures per pupil; 
+expenditures on salaries and benefits, supplies, and purchased 
+services; and the percent of school system funding from state, local, 
+and federal sources. Education finance statistics provided by this 
+collection allow for state-level comparisons of how public elementary-
+secondary education systems receive their funding and how they are 
+spending their funds.
+
+Ross Santy,
+Chief Data Officer Office of Planning, Evaluation and Policy 
+Development
+[FR Doc. 2025-20981 Filed 11-24-25; 8:45 am]
+BILLING CODE 4000-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

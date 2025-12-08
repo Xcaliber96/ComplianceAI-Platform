@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54832-54833]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21393]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0766]
+
+
+Agency Information Collection Activities; Proposed Collection; 
+Comment Request; Extension: Rule 17a-14 and Form CRS
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that pursuant to the Paperwork Reduction Act 
+of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``SEC'' or ``Commission'') is soliciting comments on the 
+proposed collection of information provided for in Rule 17a-14 (17 CFR 
+240.17a-14) and Form CRS (17 CFR 249.640), under the Securities 
+Exchange Act of 1934 (15 U.S.C. 78a et seq.).
+    Rule 17a-14 and Form CRS require a broker-dealer that offers 
+services to retail investors to prepare and file with the Commission 
+through WebCRD, post to the broker-dealer's website (if it has one), 
+and deliver to retail investors a relationship summary. The 
+relationship summary can assist retail investors in making an informed 
+choice about whether to hire or retain a broker-dealer, as well as what 
+types of accounts and services are appropriate for their needs.
+    The information that must be collected pursuant to Rule 17a-14 and 
+Form CRS is necessary to provide broker-dealer retail customers, 
+prospective retail customers, and the Commission with information about 
+the relationships and services the firm offers to retail investors, 
+fees and costs that the retail investor will pay, specific conflicts of 
+interest and standards of conduct, legal or disciplinary history, and 
+how to obtain additional information about the firm. The Commission 
+uses the information to manage its regulatory and examination programs. 
+Retail investors can use the information required in the relationship 
+summary to determine whether to hire or retain a broker-dealer, as well 
+as what types of accounts and services are appropriate for their needs. 
+The information will therefore help establish a framework that protects 
+investors and promotes efficiency, competition, and capital formation.
+    The aggregate annual hour burden for all respondents to comply with 
+the information collection requirements of Rule 17a-14 and Form CRS is 
+estimated to be approximately 6,426,099 hours per year. Under Rule 17a-
+14 and Form CRS, respondents will also incur cost burdens. The 
+aggregate annual cost burden for all respondents is estimated to be 
+approximately $142,554 per year.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless it displays a 
+currently valid OMB Control Number.
+    Written comments are invited on: (a) whether this proposed 
+collection of information is necessary for the proper performance of 
+the functions of the SEC, including whether the information will have 
+practical utility; (b) the accuracy of the SEC's estimate of the burden 
+imposed by the proposed collection of information, including the 
+validity of the methodology and the assumptions used; (c) ways to 
+enhance the quality, utility, and clarity of the information to be 
+collected; and (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated, 
+electronic collection techniques or other forms of information 
+technology.
+    Please direct your written comment on this 60-Day Collection Notice 
+to Austin Gerig, Director/Chief Data
+
+[[Page 54833]]
+
+Officer, Securities and Exchange Commission, c/o Tanya Ruttenberg via 
+email to <a href="/cdn-cgi/l/email-protection#b8e8d9c8ddcacfd7cad3eadddccddbccd1d7d6f9dbccf8cbdddb96dfd7ce"><span class="__cf_email__" data-cfemail="124273627760657d60794077766771667b7d7c537166526177713c757d64">[email&#160;protected]</span></a> by January 27, 2026. There will 
+be a second opportunity to comment on this SEC request following the 
+Federal Register publishing a 30-Day Submission Notice.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21393 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

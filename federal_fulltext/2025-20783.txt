@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52991-52992]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20783]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+
+[Docket No. FR-7092-N 36; OMB Control No.: 2506-0157]
+
+
+30-Day Notice of Proposed Information Collection: Comment Request 
+Self-Help Homeownership Opportunity Program (SHOP)
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: HUD is seeking approval from the Office of Management and 
+Budget (OMB) for the information collection described below. In 
+accordance with the Paperwork Reduction Act, HUD is requesting comments 
+from all interested parties on the proposed collection of information. 
+The purpose of this notice is to allow for 30 days of public comment.
+
+DATES: Comments Due Date: December 24, 2025.
+
+ADDRESSES: Interested persons are invited to submit comments regarding 
+this proposal. Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Anna Guido, PRA Compliance Officer, 
+Paperwork Reduction Act Division, PRAD, Department of Housing and Urban 
+Development, 451 7th Street SW, Room 8210, Washington, DC 20410; email 
+at <a href="/cdn-cgi/l/email-protection#144475647166637b667f4671706177607d7b7a5577605b72727d7771547c61703a737b62"><span class="__cf_email__" data-cfemail="3a6a5b4a5f484d554851685f5e4f594e5355547b594e755c5c53595f7a524f5e145d554c">[email&#160;protected]</span></a>, ATTN: Anna Guido, telephone 
+(202) 402-5535. This is not a toll-free number. HUD welcomes and is 
+prepared to receive calls om individuals who are deaf or hard of 
+hearing, as well as individuals with speech or communication 
+disabilities. To learn more about how to make an accessible telephone 
+call, please visit <a href="https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>. Copies of available documents 
+submitted to OMB may be obtained from Ms. Guido.
+
+SUPPLEMENTARY INFORMATION: This notice informs the public that HUD is 
+seeking approval from OMB for the information collection described in 
+Section A. The Federal Register notice that solicited public comment on 
+the information collection for a period of 60 days was published on 
+December 9, 2024 at 89 FR 97648.
+
+A. Overview of Information Collection
+
+    Title of Information Collection: Notice of Application for 
+Designation as a Single-Family Foreclosure Commissioner.
+    OMB Approval Number: 2506-0157.
+    Type of Request: Reinstatement, with change, of a previously 
+approved collection.
+    Form Number: SF-424; SF-424B; HUD-424-B; HUD 424 CB; HUD 424 CBW; 
+HUD 426; HUD 424 M; SF-424D; HUD 2880; HUD 50153; HUD 2996; HUD 50070; 
+SF-LLL/OMB 0348-0046; SF-LLL/OMB 4040-0013; and Grant Reporting 
+(Disaster Recover Grant Reporting/DRGR System).
+    Description of the need for the information and proposed use:
+    This is a proposed information collection for submission 
+requirements under the SHOP Notice of Funding Availability (NOFO) and 
+post-award
+
+[[Page 52992]]
+
+reporting requirements. Applicants are required to register in <a href="http://SAM.gov">SAM.gov</a> 
+and submit all required SHOP NOFO specific narratives and forms in 
+<a href="http://Grants.gov">Grants.gov</a>. HUD requires this information to ensure the eligibility of 
+SHOP applicants and the compliance of SHOP proposals, to rate and rank 
+SHOP applications, and to select applicants for grant awards. 
+Information is collected on an annual basis from each applicant that 
+responds to the SHOP NOFO. HUD also requires data such as semi-annual 
+reports (which includes such information as activity and budget 
+information as activity and budget information, drawdowns, performance 
+reports, and federal financial reports) action plans, payment drawdown 
+requests, environmental site certification, and semi-annual grant 
+reporting post-award in order to ensure the SHOP grantees are complying 
+with the terms of the Executed Grant Agreement. This information is 
+reported in the Disaster Recovery Grant Reporting (DRGR) system.
+    Respondents: National and regional non-profit self-help housing 
+organizations (including consortia) that apply for funds in response to 
+the SHOP NOFO.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                   Burden hour     Annual    Hourly cost
+                  Information collection                     Number of    Frequency    Responses       per         burden        per        Annual cost
+                                                            respondents  of response   per annual    response      hours       response
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Application for Federal Assistance SF-424 *...............            0            0            0            0            0           $0              $0
+Assurances for Non-Construction Program SF-424B *.........            0            0            0            0            0            0               0
+Assurances for Construction Programs SF-424D *............            0            0            0            0            0            0               0
+Applicant and Recipient Assurances and Certifications HUD-            0            0            0            0            0            0               0
+ 424-B....................................................
+Certification Regarding Lobbying SF-LLL/OMB 0348-0046.....            0            0            0            0            0            0               0
+Disclosure of Lobbying Activities SF-LLL/OMB 4040-0013....            0            0            0            0            0            0               0
+Grant Application Detailed Budget.........................            0            0            0            0            0            0               0
+HUD-424CB.................................................
+Grant Application Detailed Budget Worksheet...............            0            0            0            0            0            0               0
+HUD-424CBW................................................
+Indirect Cost Information for Award Applicant/Recipient           10.00         1.00        10.00         0.25          2.5        86.76          216.90
+ HUD 426 **...............................................
+Federal Assistance Funding Matrix and Certifications......            0            0            0            0            0            0               0
+HUD 424M **...............................................
+Applicant Recipient Disclosure Update Report HUD-2880.....            0            0            0            0            0            0               0
+Promise Zone Certification................................            0            0            0            0            0            0               0
+HUD 50153.................................................
+Opportunity Zone Certification............................        10.00         1.00        10.00         0.20            2        86.76          173.52
+HUD 2996 **...............................................
+Certification for a Drug-Free Workplace HUD 50070 **......            0            0            0            0            0            0               0
+Applicant Eligibility.....................................        10.00         1.00        10.00         2.00        20.00        86.76        1,735.20
+SHOP Program Design and Scope of Work.....................        10.00         1.00        10.00        30.00       300.00        86.76       26,028.00
+Rating Factor 1+..........................................        10.00         1.00        10.00        25.00       250.00        86.76       21,620.00
+Rating Factor 2+..........................................        10.00         1.00        10.00        30.00       300.00        86.76       25,944.00
+Rating Factor 3+..........................................        10.00         1.00        10.00        55.00       550.00        86.76       47,564.00
+Rating Factor 4+..........................................        10.00         1.00        10.00        30.00       300.00        86.76       25,944.00
+Rating Factor 5+..........................................        10.00         1.00        10.00        25.00       250.00        86.76       21,620.00
+Grant Reporting (DRGR)....................................         4.00         2.00         8.00       100.00       800.00        86.76       70,208.00
+                                                           ---------------------------------------------------------------------------------------------
+    Total Annual Hour Burden..............................        94.00        11.00        94.00       297.45     2,774.50  ...........      240,715.62
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+B. Solicitation of Public Comment
+
+    This notice is soliciting comments from members of the public and 
+affected parties concerning the collection of information described in 
+Section A on the following:
+    (1) Whether the proposed collection of information is necessary for 
+the proper performance of the functions of the agency, including 
+whether the information will have practical utility;
+    (2) The accuracy of the agency's estimate of the burden of the 
+proposed collection of information;
+    (3) Ways to enhance the quality, utility, and clarity of the 
+information to be collected; and
+    (4) Ways to minimize the burden of the collection of information on 
+those who are to respond; including through the use of appropriate 
+automated collection techniques or other forms of information 
+technology, e.g., permitting electronic submission of responses.
+    HUD encourages interested parties to submit comment in response to 
+these questions.
+
+C. Authority
+
+    Section 2 of the Paperwork Reduction Act of 1995, 44 U.S.C. 3507.
+
+Anna Guido,
+Department PRA Compliance Officer, Office of Policy Development and 
+Research, Chief Data Officer.
+[FR Doc. 2025-20783 Filed 11-21-25; 8:45 am]
+BILLING CODE 4210-67-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

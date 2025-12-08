@@ -1,5 +1,4 @@
 import React from "react";
-import { Box, Typography, Grid, Card, CardContent, Button, Stack } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import {
   CloudUpload,
@@ -7,7 +6,6 @@ import {
   Assignment,
   Group,
   BarChart,
-  TrendingUp,
   Shield,
   CompareArrows,
 } from "@mui/icons-material";
@@ -17,135 +15,123 @@ export default function FrontPage() {
 
   const features = [
     {
-      title: "Upload & Fetch Files",
-      desc: "Start your compliance journey by uploading internal policies or fetching documents from Google Drive or SharePoint.",
-      icon: <CloudUpload sx={{ fontSize: 40, color: "#1976d2" }} />,
+      title: "Upload & Retrieve Files",
+      desc: "Import policies and compliance documents instantly.",
+      icon: <CloudUpload className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/upload",
-      action: "Go to Uploads",
+      action: "Open Tools",
     },
     {
-      title: "Run Audit & Generate Obligations",
-      desc: "Use AI-powered RAG analysis to detect compliance gaps and automatically generate new obligations.",
-      icon: <Assessment sx={{ fontSize: 40, color: "#0288d1" }} />,
+      title: "Run AI Audit",
+      desc: "AI finds gaps, obligations, and compliance risks.",
+      icon: <Assessment className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/audit",
-      action: "Run Audit",
+      action: "Start Audit",
     },
     {
       title: "Manage Tasks",
-      desc: "Create remediation tasks, assign them to employees or suppliers, and track their progress through completion.",
-      icon: <Assignment sx={{ fontSize: 40, color: "#2e7d32" }} />,
-      path: "/dashboard/audit",
-      action: "Manage Tasks",
+      desc: "Track obligations, assign owners, and resolve gaps.",
+      icon: <Assignment className="text-emerald-700" style={{ fontSize: 34 }} />,
+      path: "/dashboard/tasks",
+      action: "View Tasks",
     },
     {
-      title: "Add Suppliers",
-      desc: "Onboard and manage your third-party vendors. Link them to obligations and request evidence for compliance verification.",
-      icon: <Group sx={{ fontSize: 40, color: "#8e24aa" }} />,
+      title: "Manage Suppliers",
+      desc: "Onboard, score, and monitor vendors continuously.",
+      icon: <Group className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/suppliers",
-      action: "Add Supplier",
+      action: "Manage Suppliers",
     },
     {
-      title: "Add Competitors",
-      desc: "Analyze your competitors’ SEC filings and generate AI-based market insights for benchmarking and strategy.",
-      icon: <CompareArrows sx={{ fontSize: 40, color: "#f57c00" }} />,
-      path: "/competitors",
-      action: "Add Competitors",
+      title: "Analyze Competitors",
+      desc: "Review filings and generate AI-powered insights.",
+      icon: <CompareArrows className="text-emerald-700" style={{ fontSize: 34 }} />,
+      path: "/dashboard/competitors",
+      action: "Analyze",
     },
     {
-      title: "View Results & Reports",
-      desc: "Review audit results, compliance metrics, and regional coverage analytics all in one place.",
-      icon: <BarChart sx={{ fontSize: 40, color: "#c2185b" }} />,
+      title: "View Reports",
+      desc: "Access analytics, metrics, and compliance summaries.",
+      icon: <BarChart className="text-emerald-700" style={{ fontSize: 34 }} />,
       path: "/dashboard/results",
-      action: "View Results",
+      action: "Open Reports",
     },
   ];
 
   return (
-    <Box
-      sx={{
-        minHeight: "100vh",
-        backgroundColor: "#FFFFFF",
-        px: { xs: 3, md: 8 },
-        py: { xs: 6, md: 10 },
-      }}
-    >
-      {/* 🔹 Header */}
-      <Box textAlign="center" mb={6}>
-        <Typography
-          variant="h4"
-          sx={{
-            fontWeight: 800,
-            fontFamily: "'Montserrat', sans-serif",
-            mb: 1,
-            color: "#111",
-          }}
-        >
-          Welcome to Your Compliance Hub
-        </Typography>
-        <Typography variant="subtitle1" color="text.secondary">
-          Automate compliance — from document upload to audit results — all in one place.
-        </Typography>
-      </Box>
+    <div className="min-h-screen bg-[#F5F7FB] px-6 md:px-14 py-12 animate-fadeIn">
+      {/* HEADER */}
+      <header className="text-center mb-14">
+        <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">
+          NomiAI Compliance Dashboard
+        </h1>
+        <p className="text-slate-600 max-w-xl mx-auto mt-3 text-[15px]">
+          AI-powered compliance automation for fast, audit-ready organizations.
+        </p>
+      </header>
 
-      {/* 🔹 Feature Cards */}
-      <Grid container spacing={4} justifyContent="center">
-        {features.map((item, idx) => (
-          <Grid item xs={12} sm={6} md={4} key={idx}>
-            <Card
-              variant="outlined"
-              sx={{
-                height: "100%",
-                borderRadius: 3,
-                transition: "all 0.3s ease",
-                "&:hover": {
-                  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
-                  transform: "translateY(-4px)",
-                },
-              }}
-            >
-              <CardContent>
-                <Stack spacing={2} alignItems="center" textAlign="center">
-                  {item.icon}
-                  <Typography
-                    variant="h6"
-                    sx={{ fontWeight: 700, color: "#111", mt: 1 }}
-                  >
-                    {item.title}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    sx={{ minHeight: 60 }}
-                  >
-                    {item.desc}
-                  </Typography>
-                  <Button
-                    variant="contained"
-                    onClick={() => navigate(item.path)}
-                    sx={{
-                      mt: 1,
-                      borderRadius: 2,
-                      textTransform: "none",
-                      backgroundColor: "#1976d2",
-                      "&:hover": { backgroundColor: "#125ea5" },
-                    }}
-                  >
-                    {item.action}
-                  </Button>
-                </Stack>
-              </CardContent>
-            </Card>
-          </Grid>
+      {/* FEATURE GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 max-w-7xl mx-auto">
+        {features.map((f, i) => (
+          <div
+            key={i}
+            onClick={() => navigate(f.path)}
+            className="
+              rounded-3xl 
+              bg-white/70 
+              backdrop-blur-sm
+              border border-slate-50 
+              shadow-[0_1px_4px_rgba(0,0,0,0.02)]
+              p-6 cursor-pointer 
+              transition-all duration-300
+              hover:-translate-y-1 
+              hover:shadow-[0_4px_14px_rgba(0,0,0,0.04)]
+            "
+          >
+            <div className="flex flex-col items-center text-center space-y-4">
+              {/* ICON BUBBLE */}
+              <div className="w-14 h-14 rounded-2xl bg-emerald-50/80 flex items-center justify-center shadow-sm">
+                {f.icon}
+              </div>
+
+              <h3 className="text-lg font-semibold text-slate-900">
+                {f.title}
+              </h3>
+
+              <p className="text-sm text-slate-500 leading-relaxed min-h-[55px]">
+                {f.desc}
+              </p>
+
+              <button
+                className="
+                  mt-2 px-4 py-2 rounded-lg 
+                  bg-emerald-600 text-white 
+                  text-sm font-medium 
+                  transition 
+                  hover:bg-emerald-700
+                "
+              >
+                {f.action}
+              </button>
+            </div>
+          </div>
         ))}
-      </Grid>
+      </div>
 
-      {/* 🔹 Bottom Section */}
-      <Box textAlign="center" mt={8}>
-        <Typography variant="body2" color="text.secondary">
-          <Shield sx={{ fontSize: 18, verticalAlign: "middle", mr: 1 }} />
-          Built with trust. Powered by NomiAI.
-        </Typography>
-      </Box>
-    </Box>
+      {/* FOOTER */}
+      <footer className="text-center mt-16 text-slate-600 text-sm flex items-center justify-center gap-1">
+        <Shield className="text-emerald-600" style={{ fontSize: 18 }} />
+        Built for trust. Powered by NomiAI.
+      </footer>
+
+      {/* Animations */}
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(6px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn { animation: fadeIn 0.5s ease-out; }
+      `}</style>
+    </div>
   );
 }

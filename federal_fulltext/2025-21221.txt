@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54332-54333]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21221]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Health Resources and Services Administration
+
+
+Agency Information Collection Activities: Proposed Collection: 
+Public Comment Request; Information Collection Request Title: Ryan 
+White HIV/AIDS Program Part F Dental Services Report, OMB No. 0915-
+0151--Revision
+
+AGENCY: Health Resources and Services Administration (HRSA), Department 
+of Health and Human Services.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the requirement for opportunity for public 
+comment on proposed data collection projects of the Paperwork Reduction 
+Act of 1995, HRSA announces plans to submit an Information Collection 
+Request (ICR), described below, to the Office of Management and Budget 
+(OMB). Prior to submitting the ICR to OMB, HRSA seeks comments from the 
+public regarding the burden estimate, below, or any other aspect of the 
+ICR.
+
+DATES: Comments on this ICR should be received no later than January 
+26, 2026.
+
+ADDRESSES: Submit your comments to <a href="/cdn-cgi/l/email-protection#780819081d0a0f170a1338100a0b19561f170e"><span class="__cf_email__" data-cfemail="720213021700051d0019321a0001135c151d04">[email&#160;protected]</span></a> or mail the HRSA 
+Information Collection Clearance Officer, Room 14NWH04, 5600 Fishers 
+Lane, Rockville, Maryland 20857.
+
+FOR FURTHER INFORMATION CONTACT: To request more information on the 
+proposed project or to obtain a copy of the data collection plans and 
+draft instruments, email <a href="/cdn-cgi/l/email-protection#2656475643545149544d664e54554708414950"><span class="__cf_email__" data-cfemail="ee9e8f9e8b9c99819c85ae869c9d8fc0898198">[email&#160;protected]</span></a> or call Samantha Miller, 
+the HRSA Information Collection Clearance Officer, at (301) 443-3983.
+
+SUPPLEMENTARY INFORMATION: When submitting comments or requesting 
+information, please include the ICR title for reference.
+    Information Collection Request Title: Ryan White HIV/AIDS Program 
+Part F Dental Services Report, OMB No. 0915--0151--Revision.
+    Abstract: The Dental Reimbursement Program (DRP) and the Community 
+Based Dental Partnership Program (CBDPP) under Part F of the Ryan White 
+HIV/AIDS Program (RWHAP) offer funding to accredited dental education 
+programs to support the education and training of oral health providers 
+in HIV oral health care and reimbursement for the provision of oral 
+health services for people eligible for the RWHAP. Institutions 
+eligible for the RWHAP DRP and CBDPP are accredited schools of 
+dentistry and other accredited dental education programs, such as 
+dental hygiene programs or those sponsored by a school of dentistry, a 
+hospital, or a public or private institution that offers postdoctoral 
+training in the specialties of dentistry, advanced education in general 
+dentistry, or a dental general practice residency. The RWHAP DRP 
+Application for the Notice of Funding Opportunity includes the Dental 
+Services Report (DSR) that applicants use to apply for funding of non-
+reimbursed costs incurred in providing oral health care to patients 
+with HIV and to report annual program data. Awards are authorized under 
+section 2692(b) of the Public Health Service Act (42 U.S.C. 300ff-
+111(b)). The DSR is also used by CBDPP recipients to report on services 
+rendered, patients served, and partnerships as an annual requirement. 
+The DSR collects data on program information, client demographics, oral 
+health services, funding, and training. It also requests applicants/
+recipients to provide a narrative description of the services offered, 
+the types of facilities available, and their linkage and collaboration 
+with community-based oral health service providers.
+    Beginning with the 2022 DSR submission, the DSR website provided 
+RWHAP DRP applicants and RWHAP CBDPP recipients an easily accessible 
+and secure location to enter and submit their aggregate DSR data 
+annually. All RWHAP DRP applicants and RWHAP CBDPP recipients will be 
+authorized users of a web-based platform that allows users to easily 
+navigate the site and enter their data. Users can see their report 
+submission status and no longer need to email their dataset to HRSA. 
+The implementation of the DSR website contributed to the overall 
+decrease in burden hours. HRSA proposes minor modifications to the DSR 
+data reporting tool:
+    <bullet> Remove the question regarding gender to align with 
+Administration priorities.
+    <bullet> Add an ``Unknown'' response option for the ``Sex at 
+Birth'' variable.
+    <bullet> Remove ``People and Communities Disproportionately 
+Impacted by HIV'' from section 4.
+    Need and Proposed Use of the Information: The primary purpose of
+
+[[Page 54333]]
+
+collecting this information annually is to verify applicant eligibility 
+and determine reimbursement amounts for DRP applicants, as well as to 
+document the program accomplishments of CBDDP grant recipients. This 
+information allows HRSA to learn about (1) the extent of the 
+involvement of dental schools and programs in treating persons with 
+HIV, (2) the number and characteristics of clients who receive RWHAP 
+supported oral health services, (3) the types and frequency of the 
+provision of these services, (4) the non-reimbursed costs of oral 
+health care provided to persons with HIV, and (5) the scope of grant 
+recipients' community-based collaborations and training of providers. 
+In addition to meeting the goal of accountability to Congress, clients, 
+community groups, and the public, information collected in the DSR is 
+critical for HRSA and recipients to assess the status of existing HIV-
+related health service delivery systems. The information will provide 
+the measurement data for the HRSA budget justifications on the 
+following indicators: number of persons for whom a portion/percentage 
+of their unreimbursed oral health costs were reimbursed and the number 
+of providers trained through the RWHAP Part F Dental Reimbursement and 
+Community-Based Partnership Programs.
+    Likely Respondents: Accredited schools of dentistry and other 
+accredited dental education programs, such as dental hygiene programs 
+or those sponsored by a school of dentistry, a hospital, or a public or 
+private institution that offers postdoctoral training in the 
+specialties of dentistry, advanced education in general dentistry, or a 
+general dental practice residency.
+    Burden Statement: Burden in this context means the time expended by 
+persons to generate, maintain, retain, disclose, or provide the 
+information requested. This includes the time needed to review 
+instructions; to develop, acquire, install, and use technology and 
+systems for the purpose of collecting, validating, and verifying 
+information, processing and maintaining information, and disclosing and 
+providing information; to train personnel and to be able to respond to 
+a collection of information; to search data sources; to complete and 
+review the collection of information; and to transmit or otherwise 
+disclose the information. The total annual burden hours estimated for 
+this ICR are summarized in the table below.
+
+                                                         Total Estimated Annualized Burden Hours
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                     Average
+                                                                                          Number of      Number of       Total      burden per    Total
+                Form name                               Type of respondent               respondents   responses per   responses     response    burden
+                                                                                                        respondent                  (in hours)    hours
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Dental Services Report...................  DRP Applicants.............................            56               1           56         32.0     1,792
+                                           CBDPP Recipients...........................            12               1           12          1.5        18
+                                                                                       -----------------------------------------------------------------
+    Total................................  ...........................................            68  ..............           68  ...........     1,810
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    HRSA specifically requests comments on (1) the necessity and 
+utility of the proposed information collection for the proper 
+performance of the agency's functions, (2) the accuracy of the 
+estimated burden, (3) ways to enhance the quality, utility, and clarity 
+of the information to be collected, and (4) the use of automated 
+collection techniques or other forms of information technology to 
+minimize the information collection burden.
+
+Maria G. Button,
+Director, Executive Secretariat.
+[FR Doc. 2025-21221 Filed 11-25-25; 8:45 am]
+BILLING CODE 4165-15-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

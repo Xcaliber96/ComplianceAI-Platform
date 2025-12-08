@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54577-54579]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21444]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE INTERIOR
+
+Office of Surface Mining Reclamation and Enforcement
+
+30 CFR Part 817
+
+[Docket No. OSM-2025-0009; S1D1S SS08011000 SX064A000 256S180110; S2D2S 
+SS08011000 SX064A000 25XS501520]
+RIN 1029-AC91
+
+
+Rescission of Portions of Permanent Program Performance Standards 
+Regulating Subsidence Controls for Underground Mines
+
+AGENCY: Office of Surface Mining Reclamation and Enforcement, Interior.
+
+ACTION: Direct final rule; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This direct final rule lifts the suspension and revises the 
+Federal regulations to remove paragraphs related to establishing a 
+rebuttable presumption of causation for damage to any non-commercial 
+building or occupied residential dwelling or structure related thereto 
+that occurs as a result of earth movement within an area determined by 
+projecting a specified angle of draw from the outermost boundary of any 
+underground
+
+[[Page 54578]]
+
+mine workings to the surface of the land. These paragraphs were struck 
+down on judicial review because the court found that the Office of 
+Surface Mining Reclamation and Enforcement (OSMRE) failed to provide 
+adequate support to justify its presumption that damage was the result 
+of mining within the angle of draw.
+
+DATES: The amendments in this direct final rule lifting the suspension 
+at 30 CFR 817.(c)(4)(i) through (iv) and amending the section are 
+effective January 27, 2026, without further action, unless significant 
+adverse comments are received by December 29, 2025. If significant 
+adverse comments are received, OSMRE will publish a timely withdrawal 
+or issue a new final rule that responds to significant adverse 
+comments.
+
+ADDRESSES: You may submit comments by one of the following methods:
+    <bullet> Electronically: Go to the Federal eRulemaking Portal: 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket Number [OSM-2025-
+0009]. Follow the instructions for submitting comments.
+    <bullet> By hard copy: Submit by U.S. mail to Division of 
+Regulatory Support, Office of Surface Mining Reclamation and 
+Enforcement, Department of the Interior, Attn: James Tyree, 1849 C 
+Street NW, Mail Stop 4557, Washington, DC 20240.
+
+FOR FURTHER INFORMATION CONTACT: James Tyree, Division of Regulatory 
+Support, (202) 208-4479, <a href="/cdn-cgi/l/email-protection#b6dcc2cfc4d3d3f6d9c5dbc4d398d1d9c0"><span class="__cf_email__" data-cfemail="4228363b302727022d312f30276c252d34">[email&#160;protected]</span></a>. Individuals in the United 
+States who are deaf, deafblind, hard of hearing, or have a speech 
+disability may dial 711 (TTY, TDD, or TeleBraille) to access 
+telecommunications relay services. Individuals outside the United 
+States should use the relay services offered within their country to 
+make international calls to the point-of-contact in the United States.
+
+SUPPLEMENTARY INFORMATION: Paragraphs (c)(4)(i) through (c)(4)(iv) of 
+30 CFR 817.121 provided that if damage to any non-commercial building 
+or occupied residential dwelling or structures related thereto occurs 
+as a result of earth movement within an area determined by projecting a 
+specified angle of draw from the outermost boundary of any underground 
+mine workings to the surface of the land, a rebuttable presumption 
+would exist that the permittee caused the damage. The presumption 
+typically would have applied to a 30-degree angle of draw. Once the 
+presumption was triggered, the burden of going forward shifted to the 
+mine operator to offer evidence that the damage was attributable to 
+another cause.
+    Over 25 years ago, these provisions were struck down on judicial 
+review because the court found that OSMRE failed to provide adequate 
+support to justify its presumption that damage was the result of mining 
+within the angle of draw. Nat'l Mining Ass'n v. Babbitt, 172 F.3d 906, 
+912 (1999). In response to the court's holding, OSMRE suspended these 
+provisions on December 22, 1999, but did not remove the language from 
+the Code of Federal Regulations. 64 FR 71652, 71653 (Dec. 22, 1999). 
+OSMRE attempted to lift the suspension and remove these provisions as 
+part of the Stream Protection Rule in 2016 (81 FR 93418 (Dec. 20, 
+2020)). However, all proposed changes to OSMRE's regulations under the 
+Stream Protection Rule were disapproved by Joint Resolution under the 
+Congressional Review Act. Consequently, these removed provisions were 
+reinstated. 82 FR 54924 (Nov. 17, 2017). Although we recognize that the 
+Congressional Review Act at 5 U.S.C. 801(b)(2) prevents OSMRE from 
+reissuing the Stream Protection Rule in substantially the same form, we 
+find that lifting the suspension and removing these provisions 
+regarding a rebuttable presumption of causation is not substantially 
+the same as the Stream Protection Rule because of the housekeeping and 
+ministerial nature of removing an inoperative regulation.
+    Upon reviewing these regulations, OSMRE has determined that the 
+suspension should be lifted and paragraphs (c)(4)(i) through (c)(4)(iv) 
+of 30 CFR 817.121 should be rescinded because they were vacated by 
+court order in 1999, and it is confusing to allow these inoperative 
+provisions to remain in OSMRE's regulations. This reason, independently 
+and alone, justifies rescission of paragraphs (c)(4)(i) through 
+(c)(4)(iv) of 30 CFR 817.121. OSMRE has no interest in maintaining 
+regulations that have been vacated by court order.
+    The Department is issuing this rule as a direct final rule. 
+Although the Administrative Procedure Act (APA, 5 U.S.C. 551-559) 
+generally requires agencies to engage in notice and comment rulemaking, 
+section 553 of the APA provides an exception when the agency ``for good 
+cause finds'' that notice and comment are ``impracticable, unnecessary, 
+or contrary to the public interest.'' Id. Sec.  553(b)(B). The 
+Department has determined that notice and comment are unnecessary 
+because this rule is noncontroversial; of a minor, technical nature; 
+involves little agency discretion; and is unlikely to receive any 
+significant adverse comments. Significant adverse comments are those 
+that oppose the recission of the rule and raise, alone or in 
+combination, (1) reasons why the recission of the rule is 
+inappropriate, including challenges to the recission's underlying 
+premise, or (2) serious unintended consequences of the recission. A 
+comment recommending an addition to the rule will not be considered 
+significant and adverse unless the comment explains how this direct 
+final rule would be ineffective without the addition.
+
+Procedural Determinations
+
+Executive Order 12630--Governmental Actions and Interference With 
+Constitutionally Protected Property Rights
+
+    This rule does not result in a taking of private property or 
+otherwise have regulatory takings implications under Executive Order 
+12630. The rule rescinds a regulatory provision vacated by a court in 
+1999; therefore, the rule will not result in private property being 
+taken for public use without just compensation. A takings implication 
+assessment is not required.
+
+Executive Order 12866--Regulatory Planning and Review and Executive 
+Order 13563--Improving Regulation and Regulatory Review
+
+    Executive Order 12866 provides that the Office of Information and 
+Regulatory Affairs (OIRA) in the Office of Management and Budget (OMB) 
+will review all significant rules. OIRA has determined that this rule 
+is not significant.
+    Executive Order 13563 reaffirms the principles of Executive Order 
+12866, while calling for improvements in the Nation's regulatory system 
+to promote predictability, reduce uncertainty, and use the best, most 
+innovative, and least burdensome tools for achieving regulatory ends. 
+Executive Order 13563 directs agencies to consider regulatory 
+approaches that reduce burdens and maintain flexibility and freedom of 
+choice for the public where these approaches are relevant, feasible, 
+and consistent with regulatory objectives. Executive Order 13563 
+emphasizes further that agencies must base regulations on the best 
+available science and that the rulemaking process must allow for public 
+participation and an open exchange of ideas. The Department developed 
+this rule in a manner consistent with these requirements.
+
+[[Page 54579]]
+
+Executive Order 12988--Civil Justice Reform
+
+    This direct final rule complies with the requirements of Executive 
+Order 12988. Among other things, this rule:
+    (a) Meets the criteria of section 3(a) requiring that all 
+regulations be reviewed to eliminate errors and ambiguity and be 
+written to minimize litigation;
+    (b) Meets the criteria of section 3(b)(2) requiring that all 
+regulations be written in clear language and contain clear legal 
+standards.
+
+Executive Order 13132--Federalism
+
+    Under the criteria of section 1 of Executive Order 13132, this rule 
+does not have sufficient federalism implications to warrant the 
+preparation of a federalism summary impact statement. This rule will 
+not have substantial direct effects on the States, on the relationship 
+between the national government and the States, or on the distribution 
+of power and responsibilities among the various levels of government. A 
+federalism summary impact statement is not required.
+
+Executive Order 13175--Consultation and Coordination With Indian Tribal 
+Governments
+
+    The Department of the Interior strives to strengthen its 
+government-to-government relationship with Indian tribes through a 
+commitment to consultation with Tribes and recognition of their right 
+to self-governance and Tribal sovereignty. The Department evaluated 
+this direct final rule under Executive Order 13175 and the Department's 
+consultation policies and determined that it has no substantial direct 
+effects on federally recognized Indian tribes and that consultation 
+under the Department's Tribal consultation policies is not required. 
+The rule merely revises the Federal regulations to remove language made 
+obsolete by a 1999 court ruling.
+
+Executive Order 13211--Actions Concerning Regulations That 
+Significantly Affect Energy Supply, Distribution, or Use
+
+    This direct final rule is not a significant energy action as 
+defined in Executive Order 13211. Therefore, a Statement of Energy 
+Effects is not required.
+
+National Environmental Policy Act
+
+    This direct final rule does not constitute a major Federal action 
+significantly affecting the quality of the human environment. A 
+detailed statement under the National Environmental Policy Act (NEPA, 
+42 U.S.C. 4321 et seq.) is not required because this rule is covered by 
+a categorical exclusion applicable to regulatory functions ``that are 
+of an administrative, financial, legal, technical, or procedural 
+nature.'' 43 CFR 46.210(i). In addition, the Department has determined 
+that this rule does not involve any of the extraordinary circumstances 
+listed in 43 CFR 46.215 that would require further analysis under NEPA.
+
+Paperwork Reduction Act
+
+    This rule does not impose any new information collection burden 
+under the Paperwork Reduction Act. OMB previously approved the 
+information collection activities contained in the existing regulations 
+and assigned OMB control number 1029-0048. This rule does not impose an 
+information collection burden because the Department is not making any 
+changes to the information collection requirements.
+
+Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA, 5 U.S.C. 601-612) requires an 
+agency to prepare a regulatory flexibility analysis for all rules 
+unless the agency certifies that the rule will not have a significant 
+economic impact on a substantial number of small entities. The RFA 
+applies only to rules for which an agency is required to first publish 
+a proposed rule. See 5 U.S.C. 603(a) and 604(a). As the Department is 
+not required to publish a notice of proposed rulemaking for this direct 
+final rule, the RFA does not apply.
+
+Congressional Review Act
+
+    This rule is not a major rule under the Congressional Review Act (5 
+U.S.C. 804(2)). Specifically, the direct final rule: (a) will not have 
+an annual effect on the economy of $100 million or more; (b) will not 
+cause a major increase in costs or prices for consumers, individual 
+industries, Federal, State, or local government agencies, or geographic 
+regions; and (c) will not have significant adverse effects on 
+competition, employment, investment, productivity, innovation, or on 
+the ability of United States-based enterprises to compete with foreign-
+based enterprises in domestic and export markets.
+
+Unfunded Mandates Reform Act
+
+    This rule does not impose an unfunded mandate on State, local, or 
+Tribal governments, or the private sector, of more than $100 million 
+per year. The rule does not have a significant or unique effect on 
+State, local, or Tribal governments, or the private sector. The rule 
+merely revises the Federal regulations to remove an obsolete provision 
+that is no longer used. Therefore, a statement containing the 
+information required by the Unfunded Mandates Reform Act (2 U.S.C. 1531 
+et seq.) is not required.
+
+List of Subjects in 30 CFR Part 817
+
+    Environmental protection, Reporting and recordkeeping requirements, 
+Underground mining.
+
+Leslie Shockley Beyer,
+Assistant Secretary, Land and Minerals Management.
+
+    For the reasons stated in the preamble, the Department of the 
+Interior amends 30 CFR part 817 as follows:
+
+PART 817--PERMANENT PROGRAM PERFORMANCE STANDARDS--UNDERGROUND 
+MINING ACTIVITIES
+
+0
+1. The authority citation for part 817 continues to read as follows:
+
+    Authority: 30 U.S.C. 1201 et seq.
+
+
+0
+2. In Sec.  817.121:
+0
+a. Lift the suspension of paragraphs (c)(4)(i) through (iv); and
+0
+b. Revising paragraph (c)(4).
+    The revision reads as follows:
+
+
+Sec.  817.121  Subsidence control.
+
+* * * * *
+    (c) * * *
+    (4) Rebuttable presumption of causation by subsidence. In any 
+determination whether damage to protected structures was caused by 
+subsidence from underground mining, all relevant and reasonably 
+available information will be considered by the regulatory authority.
+* * * * *
+[FR Doc. 2025-21444 Filed 11-26-25; 8:45 am]
+BILLING CODE 4310-05-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

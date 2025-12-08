@@ -1,0 +1,2217 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Proposed Rules]
+[Pages 54248-54266]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21325]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+47 CFR Parts 1, 15, and 90
+
+[GN Docket No. 13-111; FCC 25-65; FR ID 318554]
+
+
+Promoting Technological Solutions To Combat Contraband Wireless 
+Device Use in Correctional Facilities
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In this document, the Federal Communications Commission (FCC 
+or Commission) seeks comment on proposals that would enhance public 
+safety by removing regulatory barriers to the deployment and viability 
+of existing and developing technologies that combat contraband wireless 
+device use in correctional facilities. This document seeks comment on a 
+proposed framework to authorize, for the first time, non-federal 
+operation of radio frequency (RF) jamming solutions in correctional 
+facilities. The Commission seeks to foster a collaborative environment 
+among key stakeholders, including departments of correction, solutions 
+providers, wireless providers, public safety and 911 entities, to 
+explore an expanded range of solutions to a shared problem.
+
+DATES: Interested parties may file comments on or before December 26, 
+2025; and reply comments on or before January 12, 2026.
+
+ADDRESSES: Pursuant to Sec. Sec.  1.415 and 1.419 of the Commission's 
+rules, 47 CFR 1.415, 1.419, interested parties may file comments and 
+reply comments on or
+
+[[Page 54249]]
+
+before the dates indicated on the first page of this document. Comments 
+may be filed using the Commission's Electronic Comment Filing System 
+(ECFS). You may submit comments, identified by GN Docket No. 13-111, by 
+any of the following methods:
+    <bullet> Electronic Filers: Comments may be filed electronically 
+using the internet by accessing the ECFS: <a href="https://www.fcc.gov/ecfs/">https://www.fcc.gov/ecfs/</a>.
+    <bullet> Paper Filers: Parties who choose to file by paper must 
+file an original and one copy of each filing.
+    <bullet> Filings can be sent by hand or messenger delivery, by 
+commercial courier, or by the U.S. Postal Service. All filings must be 
+addressed to the Secretary, Federal Communications Commission.
+    <bullet> Hand-delivered or messenger-delivered paper filings for 
+the Commission's Secretary are accepted between 8:00 a.m. and 4:00 p.m. 
+by the FCC's mailing contractor at 9050 Junction Drive, Annapolis 
+Junction, MD 20701. All hand deliveries must be held together with 
+rubber bands or fasteners. Any envelopes and boxes must be disposed of 
+before entering the building.
+    <bullet> Commercial courier deliveries (any deliveries not by the 
+U.S. Postal Service) must be sent to 9050 Junction Drive, Annapolis 
+Junction, MD 20701. Filings sent by U.S. Postal Service First-Class 
+Mail, Priority Mail, and Priority Mail Express must be sent to 45 L 
+Street NE, Washington, DC 20554.
+    <bullet> People with Disabilities: To request materials in 
+accessible formats for people with disabilities (braille, large print, 
+electronic files, audio format), send an email to <a href="/cdn-cgi/l/email-protection#a4c2c7c7919490e4c2c7c78ac3cbd2"><span class="__cf_email__" data-cfemail="b5d3d6d6808581f5d3d6d69bd2dac3">[email&#160;protected]</span></a> or 
+call the Consumer & Governmental Affairs Bureau at 202-418-0530 
+(voice), 202-418-0432 (TTY).
+
+FOR FURTHER INFORMATION CONTACT: For additional information on this 
+proceeding, contact <a href="/cdn-cgi/l/email-protection#adcec2c0cfccd9cec2c3d9dfcccfccc3c9edcbcece83cac2db"><span class="__cf_email__" data-cfemail="32515d5f505346515d5c46405350535c56725451511c555d44">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: This is a summary of the Commission's Third 
+Further Notice of Proposed Rulemaking (Third FNPRM) in GN Docket No. 
+13-111; FCC 25-65, adopted and released on September 30, 2025. The full 
+text of this document is available for public inspection online at 
+<a href="https://docs.fcc.gov/public/attachments/FCC-25-65A1.pdf">https://docs.fcc.gov/public/attachments/FCC-25-65A1.pdf</a>.
+    Paperwork Reduction Act. This document may contain potential new or 
+revised information collection requirements. If the Commission adopts 
+any new or modified information collection requirements, they will be 
+submitted to the Office of Management and Budget (OMB) for review under 
+section 3507(d) of the PRA. OMB, the general public, and other federal 
+agencies are invited to comment on the new or modified information 
+collection requirements contained in this proceeding. In addition, 
+pursuant to the Small Business Paperwork Relief Act of 2002, the 
+Commission seeks specific comment on how it might ``further reduce the 
+information collection burden for small business concerns with fewer 
+than 25 employees.''
+    Providing Accountability Through Transparency Act: The Providing 
+Accountability Through Transparency Act, Public Law 118-9, requires 
+each agency, in providing notice of a rulemaking, to post online a 
+brief plain language summary of the proposed rule. The required summary 
+of this Third Further Notice of Proposed Rulemaking is available at 
+<a href="https://www.fcc.gov/proposed-rulemakings">https://www.fcc.gov/proposed-rulemakings</a>.
+    Ex Parte Status: The proceeding this Third FNPRM initiates shall be 
+treated as a ``permit-but-disclose'' proceeding in accordance with the 
+Commission's ex parte rules. Persons making ex parte presentations must 
+file a copy of any written presentation or a memorandum summarizing any 
+oral presentation within two business days after the presentation 
+(unless a different deadline applicable to the Sunshine period 
+applies). Persons making oral ex parte presentations are reminded that 
+memoranda summarizing the presentation must (1) list all persons 
+attending or otherwise participating in the meeting at which the ex 
+parte presentation was made, and (2) summarize all data presented and 
+arguments made during the presentation. If the presentation consisted 
+in whole or in part of the presentation of data or arguments already 
+reflected in the presenter's written comments, memoranda or other 
+filings in the proceeding, the presenter may provide citations to such 
+data or arguments in his or her prior comments, memoranda, or other 
+filings (specifying the relevant page and/or paragraph numbers where 
+such data or arguments can be found) in lieu of summarizing them in the 
+memorandum. Documents shown or given to Commission staff during ex 
+parte meetings are deemed to be written ex parte presentations and must 
+be filed consistent with Sec.  1.1206(b). In proceedings governed by 
+Sec.  1.49(f) or for which the Commission has made available a method 
+of electronic filing, written ex parte presentations and memoranda 
+summarizing oral ex parte presentations, and all attachments thereto, 
+must be filed through the electronic comment filing system available 
+for that proceeding, and must be filed in their native format (e.g., 
+.doc, .xml, .ppt, searchable .pdf). Participants in this proceeding 
+should familiarize themselves with the Commission's ex parte rules.
+
+Synopsis
+
+    1. In this Third FNPRM, the Commission proposes to deauthorize, for 
+purposes of FCC licensing, subscriber operation of contraband wireless 
+devices and leverage its existing leasing process as a preferred 
+approach to licensing jamming solutions, thereby providing correctional 
+officials with additional methods to address a demonstrable public 
+safety threat. The Commission also proposes and seeks comment on 
+restrictions that might prove necessary to ensure that jamming 
+solutions are limited to this targeted use, and to mitigate the risk 
+that these solutions are deployed in contexts other than a correctional 
+facility environment.
+
+A. Definition of Jamming Solution
+
+    2. The Commission proposes to define the term ``jamming solution'' 
+as ``the deployment of RF transmitter(s) within a correctional facility 
+to prevent contraband wireless devices from establishing or maintaining 
+a connection with a network.'' This definition is solely applicable in 
+the context of combatting contraband wireless devices in correctional 
+facilities and incorporates the concept that such a solution disrupts a 
+network connection on affected spectrum bands in a specific geographic 
+area. We seek comment on this proposed definition and any alternatives 
+that commenters believe will further this proceeding's goals. To 
+provide clarity for stakeholders regarding both proposed licensing 
+frameworks, i.e. leasing and overlay licensing, we propose to 
+incorporate a definition of a ``jamming solution'': (1) as another type 
+of contraband interdiction system (CIS) where appropriate to facilitate 
+leasing arrangements, with certain special provisions solely applicable 
+to jamming solutions where warranted; and (2) to authorize overlay 
+licensees to provide such a solution where certain eligibility criteria 
+are met.
+
+B. Deauthorizing Subscriber Operation of Contraband Wireless Devices
+
+    3. The Commission proposes to address the prohibition in section 
+333 of the Communications Act by deauthorizing subscriber operation of 
+contraband wireless devices located within a correctional facility. 
+Specifically, the Commission proposes
+
+[[Page 54250]]
+
+to amend its rules and the rights granted under licenses issued, such 
+that operations in this specific context would not be authorized by the 
+Commission within the meaning of section 333. This approach would allow 
+departments of correction (DOCs) to employ jamming solutions, or other 
+similar technologies, without violating section 333, and would provide 
+an additional tool to prevent criminal activity stemming from 
+unauthorized communications within and to those outside a correctional 
+facility.
+
+1. Subscriber Authority Rule
+
+    4. Under current Commission rules, wireless providers may legally 
+transmit RF signals within the boundaries of their geographic area 
+license, including areas within those boundaries where a correctional 
+facility may be located. Subscribers operating devices in connection 
+with those licensed services are authorized under that same wireless 
+provider license pursuant to the Commission's rules. We propose a key 
+change to the authorization status, as it relates to Commission 
+licensing, of subscribers operating contraband wireless devices on 
+commercial wireless networks in correctional facilities, which will 
+enable the Commission to authorize jamming solutions in a narrow 
+context in compliance with section 333 of the Act.
+    5. As a threshold matter, the Commission proposes to amend Sec.  
+1.903(c) of its rules to create an exception regarding subscriber 
+operation of a ``contraband wireless device.'' Specifically, the 
+proposal is to amend the rule to make clear that subscriber contraband 
+wireless device operation of any fixed or mobile station in the 
+Wireless Radio Services (WRS) is not authorized by the Commission. As 
+such operation would not be considered to be licensed or authorized by 
+or under the Act, there is no statutory protection against willful or 
+malicious interference by other technologies, such as jamming 
+solutions, that would be licensed under our proposed process. This 
+proposal is referred to as the ``deauthorization rule'' or 
+``deauthorization approach.'' We tentatively conclude that we have the 
+authority to propose this approach pursuant to section 303 of the Act, 
+which provides the Commission with expansive powers and duties to make 
+rules governing wireless operations that are required by the public 
+convenience, interest, or necessity. We seek comment on this tentative 
+conclusion, and on our deauthorization approach more generally.
+    6. The Commission proposes to apply the deauthorization rule to 
+subscriber operation of a contraband wireless device that is used 
+within a correctional facility in violation of federal, state, or local 
+law, or a correctional facility rule, regulation, or policy, and seeks 
+comment on this approach. This expansive approach is consistent with 
+the Commission's definition of ``contraband wireless device'' as 
+applied in our current CIS leasing context. We note, however, that when 
+adopting the framework permitting DOC officials with an approved CIS to 
+request that wireless providers disable contraband wireless devices, we 
+took a narrower view of ``contraband wireless devices'' and limited 
+disabling of such devices to those ``used in violation of state or 
+federal criminal statutes.'' We seek comment on whether to apply to our 
+deauthorization rule the more restrictive approach taken in the CIS 
+disabling context.
+    7. We propose to apply the deauthorization rule to subscriber 
+operations of contraband wireless devices used in ``correctional 
+facilities,'' as defined in its existing CIS leasing context. Section 
+1.9003 defines correctional facility as ``any facility operated or 
+overseen by federal, state, or local authorities that houses or holds 
+criminally charged or convicted inmates for any period of time, 
+including privately owned and operated correctional facilities that 
+operate through contracts with federal, state or local jurisdictions.'' 
+We recognize, however, that the proposed deauthorization rule would 
+apply broadly to contraband wireless devices located in correctional 
+facilities that include local facilities, e.g., city or county jails, 
+often located next to, or relatively near, other government facilities 
+(e.g., a city hall, courthouse, etc.) or residential areas. This 
+proximity presents an increased risk of interference to authorized 
+devices if a jamming solution is not properly engineered, deployed, and 
+maintained. We seek comment on whether it is necessary to restrict the 
+application of our deauthorization rule and subsequent authorization of 
+jamming solutions to a particular type(s) of correctional facility. In 
+this regard, we also seek comment on the extent to which contraband 
+devices are used in local facilities, and whether local municipalities 
+are seeking these particular RF solutions that require extensive 
+technical expertise to engineer and require associated costs to install 
+and maintain. Where are states more likely to invest in carefully 
+deployed, properly engineered and maintained jamming solutions? Should 
+the Commission consider the security level of the correctional facility 
+(e.g., minimum, medium, maximum), or the average length of time of 
+inmate incarceration, in this analysis? Commenters advocating for a 
+restriction should consider our goal of reaching those facilities where 
+contraband wireless device use is a serious public safety threat, and 
+should also address the argument that a properly engineered and 
+maintained jamming solution is substantially less likely to cause 
+harmful interference to authorized users, notwithstanding the proximity 
+issue.
+
+2. Section 316 License Modification
+
+    8. Section 316 of the Act states that ``any station license or 
+construction permit may be modified by the Commission . . . if in the 
+judgment of the Commission such action will promote the public 
+interest, convenience and necessity.'' We propose a rule change to 
+deauthorize certain operations that would be promulgated pursuant to 
+the Commission's rulemaking authority consistent with the 
+Administrative Procedure Act. As additional legal support for this 
+approach, we also propose, pursuant to section 316 of the Act, to 
+modify any and all licenses affected by the proposed rule change, if 
+adopted and made effective, that would eliminate authority for WRS 
+subscribers to operate contraband wireless devices in correctional 
+facilities. We believe that this proposed modification is within our 
+authority under the Act, is in the public interest and, given that its 
+scope is limited to deauthorizing subscriber operation of contraband 
+wireless devices in correctional facilities, does not result in a 
+fundamental change to any underlying wireless provider license. We seek 
+comment on this proposal.
+
+3. Safe Harbor to Proposed Deauthorization Rule
+
+    9. The proposed deauthorization rule would make subscriber 
+operation of any contraband wireless device in a correctional facility 
+a violation of section 301 of the Act and proposed revised Sec.  
+1.903(c) of the Commission's rules. Recognizing that wireless providers 
+might also be liable for continuing to authenticate and provide service 
+to such devices following deauthorization, we propose to create a safe 
+harbor, to the extent necessary, for wireless providers that engage in 
+good faith negotiations with DOCs that are actively seeking an RF 
+solution to this issue, including a jamming solution.
+    10. Specifically, we propose a ``safe harbor'' wherein the 
+Commission would
+
+[[Page 54251]]
+
+not take enforcement action against a wireless provider arguably in 
+violation of section 301 of the Act for unauthorized operation on its 
+network of contraband wireless devices in a correctional facility under 
+the following circumstances. First, the safe harbor would apply to a 
+wireless provider licensed in a geographic area where no DOC is 
+actively seeking to implement an RF solution, including jamming, to 
+combat contraband wireless device use. Second, the proposed safe harbor 
+would apply to a wireless provider where it actively participates in 
+good faith negotiations (or has successfully completed such 
+negotiations) with the DOC/solutions provider that is seeking to lease 
+spectrum to authorize operation of a CIS, including a jamming solution.
+    11. We clarify that, under our proposal, where a party actively 
+seeks authority as lessee for a jamming solution to combat contraband 
+wireless devices and negotiates in good faith, but a wireless provider 
+fails to negotiate in good faith, the wireless provider would not be 
+eligible for the proposed safe harbor. We also clarify that a wireless 
+provider would not qualify for a safe harbor if it responds to a DOC/
+solutions provider request for a jamming solution by indicating that it 
+is only willing to lease spectrum for a managed access system (MAS) or 
+detection system deployment. The Commission seeks comment on this 
+proposal, including whether a wireless provider should be eligible for 
+the proposed safe harbor in the absence of a good faith lease 
+arrangement, but where it can demonstrate that a DOC's jamming solution 
+poses an unreasonable risk of interference to authorized subscribers or 
+otherwise is not technically feasible as sought to be deployed. We also 
+seek comment on whether to extend the proposed safe harbor to future 
+instances where a wireless provider actively facilitates the 
+implementation, at a DOC/solutions provider's request, of an 
+alternative technological solution, such as geolocation or beacon 
+technology in the applicable correctional facility.
+    12. We believe our proposal to establish a safe harbor will address 
+any potential wireless industry concerns about liability for 
+deauthorized operations, while also encouraging wireless providers to 
+work with correctional facilities to combat the problem of contraband 
+wireless device use. We seek comment on this proposal and on whether 
+there are additional liability concerns regarding potential 
+unauthorized transmissions in violation of section 301 and proposed 
+revised Sec.  1.903(c) of the Commission's rules. Commenters should 
+specifically describe instances where they believe a wireless provider 
+should be further shielded from enforcement action, including the costs 
+and benefits of such an approach. Also, we are not aware of any 
+instance where a wireless provider directly owned and installed base 
+stations within a correctional facility to effectively block signals 
+from its macro-network pursuant to a contract with a DOC. We seek 
+comment on the prospect of wireless providers engaging directly with 
+DOCs to install transmitters for the purpose of effectuating a jamming 
+solution. Should the Commission expand the scope of a prospective safe 
+harbor to include instances where a wireless provider elects to 
+directly employ a jamming solution in a correctional facility through a 
+contract with a DOC?
+
+C. Facilitating the Authorization of Jamming Solutions Under Section 
+301
+
+1. Authorization of Jamming Solutions
+
+a. Spectrum Leasing
+    13. The Commission proposes to authorize jamming solutions in 
+correctional facilities by substantially leveraging its existing 
+leasing regime used for CIS deployment in correctional facilities. We 
+seek comment on a proposed definition of ``jamming solution'' to 
+distinguish it, where relevant, from other CISs. Importantly, however, 
+we also propose to amend our current definition of CIS by: (1) 
+incorporating jamming solutions as a type of CIS for purposes of 
+administrative efficiency and to achieve regulatory harmony across 
+technologies where feasible and appropriate; and (2) refining the CIS 
+definition to better describe current CISs that have the capability of 
+preventing contraband wireless devices from ultimately connecting to a 
+wireless provider network, while also distinguishing between contraband 
+and non-contraband wireless devices in the area of CIS operation (e.g., 
+MAS).
+    14. Leasing Arrangement Framework and Types of Leases. Our goal is 
+to leverage our existing leasing rules used for CIS deployment as much 
+as possible to reduce regulatory burdens. We therefore seek comment on 
+the extent to which the part 1 rules require amendment to effectuate 
+authorization through lease arrangements of transmitters operating on 
+wireless provider licensed spectrum to deploy jamming solutions in 
+correctional facilities. Is it necessary to revise any other existing 
+leasing rules or add new rules to effectuate the authorization of 
+jamming solutions in correctional facilities?
+    15. Included Services. We seek comment on the applicability of the 
+bands currently set forth in our part 1 leasing rules as ``included 
+services,'' and therefore eligible for leasing, to the deployment of 
+jamming solutions through lease arrangements. We seek to ensure that 
+our approach to authorizing leasing arrangements for jamming solutions 
+in correctional facilities does not inadvertently fail to include a 
+relevant band deployed in commercial networks, thus creating a 
+technical loophole for inmates to potentially exploit. Accordingly, we 
+seek comment on whether additional bands beyond the recognized included 
+services should be part of our proposed framework. We also seek comment 
+on whether a particular band or service currently specified as an 
+included service should be excluded from a jamming solutions leasing 
+framework and, if so, through what rationale.
+    16. Although our focus is removing barriers to jamming solutions 
+that would necessarily be deployed on WRS bands commonly used in 
+commercial networks, we also seek comment on whether there are bands 
+not typically included in current CIS leasing arrangements that 
+commenters believe should nonetheless be considered in authorizing 
+jamming solutions. For example, should the Commission include any 
+Mobile Satellite Service (MSS) or Fixed Satellite Service (FSS) 
+satellite bands that are authorized under part 25? Is there evidence 
+that those bands, or any other bands not listed in our part 1 leasing 
+rules as ``included services,'' are currently used in serving 
+contraband wireless devices and therefore present an issue for DOCs? We 
+ask that commenters supporting inclusion of other bands for jamming 
+solutions through leasing arrangements indicate which bands the 
+Commission should consider as included services, and whether there is a 
+regulatory bar that must be overcome, address any associated costs, and 
+describe in detail the need for the operation of jamming technology in 
+these bands in correctional facilities. We also ask commenters to 
+consider the international treaty implications of permitting jamming 
+solutions in satellite bands, specifically the potential for harmful 
+interference to any foreign spacecraft that may cover the United 
+States.
+    17. Eligibility Criteria. We find it in the public interest to 
+propose eligibility criteria for those seeking authorization to deploy 
+jamming solutions as a lessee under part 1 of our rules. We believe 
+that proposing strict eligibility restrictions is vital to ensure that 
+use of
+
+[[Page 54252]]
+
+jamming solutions is on a limited scale for a very specific public 
+safety purpose. We also seek comment on whether, in the interest of 
+maintaining technological neutrality and harmonizing procedures across 
+CISs, we should require the eligibility criteria set forth below for 
+all CIS leases.
+    18. We propose that an entity will be eligible for authorization to 
+engage in jamming solutions through a leasing arrangement if it is: (1) 
+a DOC with authority over the correctional facility for which the lease 
+is sought; or (2) a solutions provider that has entered into a contract 
+with a DOC with authority over the correctional facility for which the 
+lease is sought. We also propose that the applicant is required to 
+provide a certification as an attachment to the FCC Form 608 stating 
+that the applicant: (1) is eligible for authorization to engage in 
+jamming solutions; and (2) seeks to deploy equipment that has a valid 
+part 2 equipment authorization, as discussed below. Should we require, 
+as a condition of the lease, that the lessee must deploy the specific 
+equipment in its jamming solution that it certified in its attachment 
+has a valid part 2 equipment authorization, without substitution or 
+modification? Should we require that entities seeking authority to 
+operate transmitters as part of a jamming solution provide proof of the 
+contractual arrangement with the correctional facility by, for example, 
+including a copy of the contract with any lease filing? Would it be in 
+the public interest to require disclosure of any particular lease terms 
+to the Commission in the application process, subject to any 
+appropriate protections sought for proprietary information under 
+current rules?
+    19. We seek comment on whether to expressly include wireless 
+provider licensees as entities eligible to provide jamming solutions 
+through lease arrangements, which in certain circumstances might 
+include the need to lease spectrum from another wireless provider in 
+the limited geographic area of a correctional facility to achieve a 
+comprehensive spectrum solution. Are wireless providers interested in, 
+independent of leasing to DOCs/solutions providers, directly 
+participating in resolving this public safety issue by entering into a 
+contract with a DOC for the purpose of operating a jamming system 
+within a correctional facility? To the extent wireless provider 
+licensees seek to operate transmitters that provide jamming solutions, 
+we seek comment on whether such licensees should be subject to the same 
+or similar requirements proposed herein for DOCs and solutions 
+providers that provide jamming solutions.
+    20. We also seek comment on whether we should consider, as an 
+eligibility criterion, a geographical component regarding the location 
+of a correctional facility. For example, should we first take a 
+measured approach, perhaps limiting eligibility for authorization of 
+jamming solutions to DOCs/solutions providers seeking jamming solutions 
+in correctional facilities located in rural areas? Would excluding from 
+a lease authorization structure arrangements with DOCs/solutions 
+providers seeking solutions for more densely-populated areas reduce the 
+potential for harmful interference to authorized devices, given the 
+challenges presented in managing RF technologies in certain 
+environments? Are DOCs primarily interested in jamming solutions for 
+rural facilities, or do they seek to deploy in urban/suburban areas as 
+well? Should DOCs/solutions providers first be required to demonstrate 
+that a proposed solution can be sufficiently targeted so as to not 
+impact authorized users, particularly in a less rural environment? What 
+are the costs and benefits of taking an incremental approach? If we 
+were to initially limit eligibility for authorization of jamming 
+technology to rural correctional facilities, how should it define 
+``rural,'' given that the Commission has defined this term in different 
+ways depending on context. If we were to limit eligibility to deploy 
+jamming solutions based on geographic considerations, how should we 
+treat suburban areas? To what extent would authorizing jamming 
+solutions in non-rural areas be problematic, or are DOCs/solutions 
+providers committed to properly engineering, maintaining, and updating 
+the network as necessary to avoid causing harmful interference to non-
+contraband devices located either within or outside the correctional 
+facility located in such areas?
+    21. Good Faith Negotiations. We propose to adopt a good faith 
+negotiation rule--akin to current Sec.  20.23(a) of the Commission's 
+rules--that would require wireless providers to engage in good faith 
+lease negotiations with eligible entities seeking to deploy a jamming 
+solution in a correctional facility. To ensure wireless provider 
+cooperation, we proposes to require a wireless provider to engage in 
+good faith negotiations with a DOC, or with a solutions provider that 
+has executed a contract with a DOC, that seeks Commission authorization 
+to deploy a jamming solution in a correctional facility via a leasing 
+arrangement. If, after a 45-day period, there is no good faith 
+agreement, the DOC/solutions provider may apply for a non-exclusive 
+overlay license, as discussed below. Because wireless providers that 
+fail to negotiate in good faith toward a leasing arrangement would not 
+be eligible for our proposed safe harbor, the Commission potentially 
+could take enforcement action for possible unauthorized operation of 
+contraband wireless devices in a correctional facility in violation of 
+section 301 of the Act and our proposed amended rule Sec.  1.903(c). 
+Although below we propose to provide an overlay license fallback 
+approach to leasing arrangements, we recognize that there may be 
+instances where stakeholders fail to reach a lease agreement due to the 
+bad faith of either party. To provide proper incentives for 
+stakeholders on either side of a transaction, we propose that DOCs and 
+their contracted solutions providers also are subject to a good faith 
+negotiation requirement to discourage sham negotiations undertaken to 
+avoid the Commission-preferred leasing process in favor of directly 
+seeking what we clearly intend as a fallback overlay authorization.
+    22. We seek comment on this proposal and whether we should revise 
+our approach. Are there additional distinguishing factors in play with 
+respect to negotiating leases for the deployment of jamming solutions, 
+thus necessitating a negotiation period lengthier than 45 days? We seek 
+comment on whether and how we should specifically define ``good faith 
+negotiations'' or elaborate on relevant factors to be considered in 
+making the determination. Are the same factors relevant for lease 
+negotiations to operate base station transmitters as part of a jamming 
+solution? If not, we ask commenters to propose factors for possible 
+incorporation into a Commission rule. Stakeholders should specifically 
+address the questions above, as well as provide comments on the costs 
+and benefits of the proposed approach and any alternatives.
+    23. Technical Rules. To provide flexibility for stakeholders and 
+maintain consistency with current CIS leasing approach, we propose to 
+apply to jamming solutions in correctional facilities our current 
+secondary markets approach to compliance with technical rules. 
+Accordingly, an entity seeking to deploy a jamming solution in a 
+correctional facility would enter into a part 1 leasing arrangement(s) 
+with a wireless provider to operate on the provider's licensed 
+frequencies. Under existing leasing rules, a lessee would be subject to 
+the same technical limits as the lessor, as set forth in band-specific 
+radio service rules (e.g., complying with
+
+[[Page 54253]]
+
+power limits and out-of-band emission limits to protect adjacent band 
+licensees). A DOC or solutions provider seeking to use a jamming 
+solution would therefore be required to comply with a variety of, and 
+possibly differing, technical rules that are set forth under various 
+parts of the Commission's rules governing spectrum typically used in 
+commercial wireless networks, including, for example, parts 22, 24, 27, 
+30, and 96.
+    24. As in the current CIS leasing context, we generally believe 
+that parties to a lease arrangement are best positioned to agree on 
+technical details that not only comply with the technical limits of 
+various applicable radio service rule parts, but that address the 
+potential for harmful interference to a lessor's licensed operations 
+from the lessee's operations limited to a particular correctional 
+facility. We seek comment on whether the introduction of jamming 
+solutions, even when authorized through leasing arrangements negotiated 
+at arms-length, requires a stricter regulatory framework from a 
+technical perspective than its current maximum levels set forth across 
+various service rules to best ensure that authorized wireless devices 
+are not subjected to harmful interference. We request that commenters 
+provide detailed analysis in support of any proposed alternative 
+technical parameters. If such rules are needed, what are appropriate 
+technical parameters to govern jamming deployments through leasing in a 
+correctional facility environment? Should we establish more restrictive 
+technical limits for jamming solutions than those established for 
+wireless provider commercial operations in flexible use bands? Should 
+we require a DOC or solutions provider lessee to use narrowly tailored 
+means to achieve the goal of combatting contraband wireless device use, 
+which will vary from a technical perspective, depending on the 
+particular correctional facility? For example, should we prohibit use 
+of a jamming solution across an entire 5G band(s), some with bandwidths 
+as large as 100 megahertz, where a jamming solution could be targeted 
+on the control channel portion of a band? We seek comment on how to 
+implement a narrowly tailored jamming solution, while balancing the 
+cost tradeoffs associated with deploying an effective solution that 
+does not cause harmful interference to authorized users.
+    25. Further, we seek comment on how DOCs, as the primary advocates 
+for additional tools to combat contraband wireless device use, intend 
+to deploy jamming solutions to avoid harmful interference to wireless 
+provider networks in a manner that accounts for differences in how 
+commercial wireless networks are deployed, for example, the use of time 
+division duplexing (TDD) versus frequency division duplexing (FDD). 
+Should we require those seeking to deploy jamming solutions to adjust 
+their technical parameters based on the specific technology the 
+wireless providers use to provide a signal that covers a correctional 
+facility? To what extent should we adopt technical rules applicable to 
+jamming solutions that distinguish between the potential for harmful 
+interference in bands using FDD versus those using TDD? Or, in a 
+leasing scenario, should any such distinctions be addressed solely 
+through leasing arrangements and the underlying contractual agreements 
+between wireless providers and solutions providers? Are specific 
+measures needed to prevent harmful interference to a wireless 
+provider's base stations in a TDD context, for example taking into 
+consideration the desired v. undesired signal levels in a TDD pattern? 
+Should we require, in a TDD context, synchronization between a 
+solutions provider deploying a jamming solution and the wireless 
+provider offering service to an area that includes a correctional 
+facility to avoid unwanted transmissions during the wireless provider's 
+base station transmit timeslot? Are different considerations raised 
+where a jamming solution is deployed in bands using FDD and seeks to 
+cause interference to the contraband wireless device's ability to 
+receive a base station's downlink transmissions?
+    26. To minimize the risk of harmful interference to authorized 
+users, should we set specific limits on: radiated power (e.g., limiting 
+transmitter output power to 1-watt or 5-watt maximum) or power spectral 
+density per band, out-of-band emission (OOBE) limits, field strength 
+limit at a correctional facility boundary, power flux density (PFD) 
+limit measured at a certain point from a transmitter, and/or Signal to 
+Interference Noise Ratio (SINR) at the boundary of proposed jamming 
+operations? Are more stringent restrictions required, in particular PFD 
+or OOBE limits, in order to protect authorized operations outside of 
+the boundary of the leased service area and users of immediately 
+adjacent or nearby frequency bands? If so, what are the appropriate 
+limits? If we impose more restrictive limits, would the efficacy of the 
+jamming solution be compromised? Would providers of jamming solutions 
+find it necessary to internalize a guard band to comply with our 
+technical rules? Would adopting stricter limitations on transmitter 
+power levels in an effort to help prevent harmful interference to 
+authorized users, potentially resulting in a substantial increase in 
+the number of transmitters required to be deployed, drive up the cost 
+of deploying and maintaining a jamming solution? Conversely, if DOCs/
+solutions providers seek to deploy a jamming solution that operates 
+band-wide with multiple licensees within a band, are there any current 
+technical rules or policies in any of the included services that might 
+hinder operation of a jamming solution across the band that might 
+require revision? Should any of our technical rules be more permissive 
+to foster an effective jamming solution in the limited context of 
+correctional facilities?
+    27. We seek comment on whether technical parameters should vary 
+depending on various factors including, but not limited to: whether the 
+deployment is in a rural, suburban, or urban location; the size of the 
+correctional facility and the topography of the surrounding area; the 
+materials used in constructing the facility; and the proximity of 
+wireless provider networks in the area, including the proximity of 
+wireless provider service to residential/office locations, highways, 
+and the corresponding strength of those RF signals entering the 
+correctional facility. We also seek comment on how to adequately 
+protect public safety communications from harmful interference 
+potentially caused by jamming solutions. Are there appropriate 
+technical measures, including filters, that could protect first 
+responder communications near correctional facilities that deploy a 
+jamming solution? What agreements should be in place to prevent 
+interference to public safety communications? In addition, we seek 
+comment on whether additional measures would need to be in place to 
+protect first responder and priority communications using commercial 
+wireless spectrum, such as FirstNet, Verizon's Frontline, and T-
+Mobile's T-Priority. Are there other spectrum bands that support public 
+safety communications that might require specific protection against 
+potential harmful interference from jamming solutions?
+    28. We also seek comment on the potential effect of jamming 
+solutions on the public's ability to receive Wireless Emergency Alerts 
+(WEA), which federal, state, Tribal, territorial, and local officials 
+rely on to send critical notifications concerning emergencies. Could 
+the use of jamming solutions by
+
+[[Page 54254]]
+
+correctional officials prevent the wireless providers that participate 
+in WEA (Participating CMS Providers) from delivering WEAs in or near 
+facilities employing jamming solutions? Would this result in 
+Participating CMS Providers being unable to comply with the 
+Commission's WEA rules, including its geographic accuracy requirements? 
+Do emergency managers have concerns that the use of jamming solutions 
+would put the public at risk? If the use of jamming solutions did 
+prevent the delivery of WEAs, what effect could this have on the safety 
+of correctional officials, prisoners, and other individuals during 
+emergencies?
+    29. Solutions Providers with Existing Lease Arrangements for CIS 
+Operation. We seek comment on whether we should permit solutions 
+providers with existing CIS leases that seek authority for jamming 
+operations to file a lease modification application, rather than file a 
+new FCC Form 608 for a spectrum manager or de facto transfer leasing 
+arrangement. If so, what information or certification should we require 
+to be filed with the modification application to support the lessee's 
+eligibility to engage in jamming operations? We ask commenters to 
+discuss the pros and cons of this approach, and to provide any other 
+proposals on ways in which an existing leasing arrangement could be 
+modified to reflect authorization of a newly proposed jamming solution.
+    30. Immediate Approval Procedures. We also seek comment on whether 
+leases for the operation of jamming systems, consistent with our 
+approach to CISs, should be subject to the Commission's immediate 
+approval procedures. We seek to seek to harmonize its CIS leasing rules 
+to accommodate jamming solutions within the framework where feasible. 
+As its proposed revised definition of CIS in the leasing rules would 
+include jamming solutions, qualifying leases for jamming solutions in 
+correctional facilities would be subject to immediate processing and 
+approval. We seek comment on whether this is the appropriate approach 
+for these types of lease applications. We also seek comment on whether 
+there is a compelling reason to exclude leasing arrangements for 
+jamming solutions from immediate processing procedures. Commenters 
+supporting such an exclusion are requested to provide details regarding 
+why an application for lease of spectrum for deployment of a jamming 
+solution, if otherwise complete and meeting the Commission's 
+requirements, would necessitate lengthier Commission review than that 
+of current CIS lease arrangements subject to expedited processing.
+    31. Regulatory Status. We believe that a Private Mobile Radio 
+Service (PMRS) presumption is most applicable to eligible DOCs/
+solutions provider entities seeking to deploy jamming solutions, which 
+we understand are not intended to provide a service that meets the 
+Commercial Mobile Radio Service (CMRS) definition. We therefore seek 
+comment on applying the PMRS presumption to all spectrum leasing 
+arrangements entered into for the provision of jamming solutions, 
+unless the lessee includes an exhibit to its lease application 
+indicating that it is CMRS for regulatory status purposes, thereby 
+aligning the treatment of regulatory status for jamming solutions with 
+other CIS operations, e.g., MAS and detection systems.
+    32. 911-Related Leasing Rules. We seek comment on the possible 
+effects on wireless emergency/911 calls and public safety 
+communications of the deployment of jamming solutions in correctional 
+facilities. Our understanding is that jamming solutions block calls on 
+all affected frequencies and, unlike MAS, are unable to allow 911 calls 
+to be transmitted to a PSAP. We seek comment on whether it is in fact 
+technically infeasible for the operator of any type of jamming solution 
+to satisfy, under any circumstances, the 911-related requirements in 
+part 1 and Sec.  9.10 of the Commission's rules. Commenters citing a 
+technical inability to comply with these rules should describe which 
+particular requirements are not feasible and why. We ask that 
+commenters provide details regarding any scenario where a jamming 
+system, including any type of system under development, could be 
+deployed in a correctional facility in a way that permits the 
+transmission of 911 calls to a PSAP.
+    33. We seek comment from stakeholders on how emergency calls from 
+wireless devices are addressed today in a correctional facility 
+environment. We are aware that some state DOC officials have indicated 
+that correctional facilities typically do not allow any calls from 
+within, including emergency calls. In contrast, we seek comment as to 
+how 911 calls are routed today if made from an authorized phone that 
+might be used, for example, by counsel during visitation or by a vendor 
+serving the premises that requires emergency services. Are such calls 
+routed to a local PSAP or to internal DOC personnel, including perhaps 
+internal DOC firefighting and/or medical personnel? Are such calls 
+handled differently if made from an inmate using a contraband wireless 
+device? To what extent have PSAPs opted to not receive calls from 
+correctional facilities regardless of whether the source of the call is 
+authorized by the correctional facility?
+    34. Based on the record in this proceeding, including our 
+assumption that current jamming solutions are not capable of permitting 
+impacted calls to reach a PSAP, we seek comment on the prospect of not 
+applying the Commission's 911 and E911 rules to entities that have 
+entered into leasing arrangements for the provision of jamming 
+solutions in correctional facilities, if ultimately regulated as PMRS, 
+whether it be a DOC directly or through its contracted solutions 
+provider. To the extent jamming solutions are included in the proposed 
+revised definition of CIS, we seek comment on whether it is necessary 
+to modify existing leasing rules related to the provision of 911 
+service in the context of CIS leasing. Finally, we seek comment on how 
+to treat a CMRS wireless provider, for 911 regulatory purposes, that 
+opts to deploy base stations as part of a jamming solution, if the 
+developing record indicates wireless provider interest in participating 
+at that direct level to address this public safety issue. If so, what 
+rule revisions are necessary to reflect the apparent technical 
+limitations of jamming solutions, if deployed directly by wireless 
+providers, with respect to passage of 911 calls to PSAP?
+    35. Interference-Related Leasing Rules. We seek comment on leasing 
+rules and the issue of potential interference to non-contraband, 
+authorized devices within a correctional facility and/or interference 
+to authorized devices outside of the correctional facility perimeter. 
+We seek comment on whether to retain the existing hierarchy of 
+responsibility in the context of a proposed framework that would 
+authorize jamming solutions in correctional facilities. Does our 
+proposal to permit jamming solutions in such a limited context warrant 
+revisions to Commission rules relating to interference resolution? In 
+the case of a spectrum manager lease under the proposed jamming 
+authorization framework, is it practical and appropriate for direct 
+responsibility and accountability to apply to the licensee/lessor, 
+where unwanted harmful interference would likely be to the licensee/
+lessor's authorized subscribers? Commenters seeking a rule revision are 
+requested to address how this risk differs from that currently existing 
+with deployment of transmitters for MAS and
+
+[[Page 54255]]
+
+detection systems. Should we specify in the jamming solutions context 
+that the lessee is primarily responsible for interference resolution 
+caused by its jamming operations?
+    36. Community Notification. We seek comment on whether we should 
+apply the current CIS community notification requirement to deployments 
+of jamming solutions, to the extent that jamming solutions are proposed 
+to be included within a revised definition of CIS for purposes of part 
+1 leasing arrangements. We also seek comment on whether the existing 
+notification requirement has been effective in contributing to 
+corrective action by DOCs in cases, if any, where users outside of the 
+correctional facility were negatively impacted. Conversely, are there 
+relevant DOC security reasons for not mandating such a notification 
+requirement, or perhaps eliminating the current notification 
+requirement applicable to CIS? Is it in the public interest to continue 
+to require inherently sensitive information regarding the status of CIS 
+deployments, specifically focused on preventing contraband wireless 
+device use, to be made publicly available, where inmates potentially 
+are able to obtain real-time updated deployment information on a per-
+facility basis nationwide?
+    37. Notification to Solutions Providers of Wireless Provider 
+Technical Changes. We seek comment on applying to wireless providers 
+the advance notification rule applicable to wireless providers and MAS 
+lessees to assist jamming system operators in maintaining the 
+effectiveness of jamming solutions deployed in a correctional facility. 
+What are the costs and benefits of applying our current notification 
+structure to jamming solutions? Are there differences in the operation 
+of MAS compared to jamming solutions that would necessitate amendments 
+to our current advance notification criteria?
+    38. Length of Lease. We seek comment on whether to apply the 
+current part 1 lease term requirements to leasing arrangements for 
+jamming solutions. Although we seek to provide regulatory flexibility 
+where feasible, we seek comment on whether a revised approach is 
+warranted here, given the contractual collaboration between solutions 
+providers implementing jamming solutions and DOCs. For example, should 
+we amend our rules to specify that the length of the lease for the 
+provision of jamming services may only be as long as the length of the 
+contractual arrangement with the applicable DOC, with possible 
+extensions? What are the costs and benefits of such a restriction? 
+Should we strengthen our approach to CISs generally and revise current 
+rules to take this approach for MAS and detection systems?
+    39. Subleasing. In the proposed framework, an eligible entity--
+whether a lessee DOC or lessee solutions provider under contract--would 
+be implementing jamming solutions to combat contraband device use in a 
+specific correctional facility. Under this framework, we believe that 
+the ability to sublease to a third party would raise practical and 
+technical issues, particularly with respect to system security, 
+oversight of operations, and increased risk of harmful interference. 
+Accordingly, we propose to not allow subleasing under the proposed 
+jamming framework and seek comment on this proposal and on whether we 
+should clarify in our rules that subleasing is not permitted for any 
+CIS in the interest of harmonizing our leasing rules across 
+technologies.
+    40. Construction Attribution. Due to the nature of jamming 
+solutions deployed to prevent ``service'' in a limited public safety-
+related circumstance, we propose to not allow a licensee/lessor(s) to 
+rely on its lessee(s) deployment of a jamming solution for purposes of 
+satisfying the performance requirements of the underlying license. We 
+seek comment on this proposal, and whether we should clarify in our 
+rules that such construction attribution is not permitted for any CIS.
+    41. ECIP Holding Period Exception. In July 2022, the Commission 
+established the Enhanced Competition Incentive Program (ECIP), which 
+among other things, modified the Commission's leasing rules to provide 
+incentives for stakeholders to engage in qualifying transactions that 
+make spectrum available in rural areas for advanced wireless services. 
+In this regard, the Commission adopted several measures to protect the 
+integrity of ECIP, including a five-year holding period during which 
+licensees cannot further partition, disaggregate, assign, or lease 
+licenses assigned through ECIP. The Commission, however, adopted an 
+exception to the holding period for lease arrangements involving CIS 
+providers, deeming CIS deployment in correctional facilities as vital 
+to public safety. Because leasing arrangements entered into for the 
+provision of jamming solutions would likewise promote public safety, we 
+propose to apply the exception to the ECIP holding period for lease 
+arrangements involving providers of jamming solutions in correctional 
+facilities. We seek comment on this proposal.
+b. Non-Exclusive Overlay Licensing
+    42. We propose, as a method of last resort, an authorization path 
+for jamming solutions in correctional facilities available only when 
+parties fail to reach a leasing arrangement negotiated in good faith. 
+In such cases, we propose to permit eligible entities to directly apply 
+for an overlay license, provided certain conditions are met, to 
+increase flexibility for jamming solutions in correctional facilities 
+and to incentivize market-based solutions in the first instance. We 
+believe that an overlay construct is an appropriate mechanism for 
+authorizing jamming solutions where DOCs/solutions providers seek lease 
+arrangements in good faith, but the wireless provider is unwilling to 
+enter into the leasing arrangement on a good faith basis.
+    43. Statutory Authority and Mutual Exclusivity. Consistent with the 
+proposed deauthorization rule, we believe that a non-exclusive overlay 
+licensing approach complies with section 333 of the Act, as the overlay 
+licensee would be licensed to transmit under section 301 of the Act and 
+would be permitted to cause interference to the operations of 
+subscribers using contraband wireless devices that are no longer 
+authorized under the wireless provider's license. We also believe that 
+a non-exclusive, eligibility-based licensing approach is consistent 
+with its statutory authority under section 309(j) of the Act. We seek 
+comment on an overlay licensing approach that would not result in 
+receipt of mutually exclusive applications requiring resolution through 
+competitive bidding. Under the proposal, absent a good faith leasing 
+arrangement, DOCs/solutions providers would be eligible to receive an 
+overlay license to operate on the identical spectrum used in that 
+geographic area by the relevant wireless provider, effectively 
+resulting in spectrum sharing. We therefore propose, pursuant to 
+section 316 of the Act, to modify any and all licenses affected by 
+overlay licensing for jamming solutions, if adopted and made effective, 
+which would eliminate the wireless providers' exclusive use rights to 
+their licensed spectrum in certain limited geographic areas. We seek 
+comment on this proposed modification as applied in the overlay 
+licensing construct.
+    44. In addition, we seek comment on an approach that would permit 
+more than one applicant to serve a given correctional facility, at a 
+DOC's option, which also results in spectrum sharing in the defined 
+geographic area and the
+
+[[Page 54256]]
+
+absence of mutual exclusivity. We seek comment on implementing an 
+approach whereby applications for new overlay licenses would be placed 
+in a processing ``queue'' and would be reviewed and processed in the 
+order in which they are filed.
+    45. Overlay Licensing Through Part 90. Currently, wireless 
+providers that provide service across several spectrum bands to 
+contraband wireless devices in correctional facilities are regulated 
+through service and technical rules set forth in a number of rule 
+parts, for example, parts 22, 24, 27, 30, 90, and 96. Providers of 
+jamming solutions must necessarily transmit on bands used to provide 
+commercial wireless service to counteract contraband wireless device 
+use in correctional facilities. For administrative ease, we propose to 
+adopt a new, standalone subpart within part 90 of the Commission's 
+rules to address the use of overlay licenses for jamming solutions in 
+correctional facilities, and we seek comment on this proposal. We 
+propose to define ``jamming solution'' in a new part 90 subpart in the 
+same way as proposed in the leasing rules, and we seek comment on 
+whether there is any reason not to mirror, for overlay licensing 
+purposes, the language ultimately adopted in the leasing construct.
+(i) Overlay Licensing and Operating Rules
+    46. Eligibility Restrictions. To effectuate an overlay licensing 
+framework, we propose to limit eligibility to apply for an overlay 
+license to DOCs with authority over the correctional facility for which 
+authority to operate a jamming solution is sought and solutions 
+providers that have entered into a contract with a DOC with authority 
+over the correctional facility for which authority to operate a jamming 
+solution is sought. We also propose that, to be eligible to seek an 
+overlay license for a jamming solution: (1) the entity must have 
+attempted to negotiate a lease arrangement with the relevant wireless 
+provider in good faith; and (2) the wireless provider must have acted 
+in bad faith during the negotiation process resulting in no lease 
+arrangement.
+    47. Further, we recognize that there may be a fact-specific 
+circumstance where a mix of Commission authorization vehicles for 
+jamming solutions may be necessary. For example, a solutions provider 
+may be able to negotiate lease arrangements with two wireless providers 
+for a given correctional facility, but unable to reach a good faith 
+agreement with a third wireless provider serving that same geographic 
+area. In such a case, we believe it is in the public interest to permit 
+the solutions provider to apply for an overlay authorization for bands/
+specific frequencies at a given correctional facility for which it has 
+not reached a good faith leasing arrangement, so as to prevent an 
+incomplete spectrum solution in that correctional facility. We seek 
+comment generally on these proposed eligibility restrictions, and on 
+whether we should consider any other eligibility restrictions and/or 
+entry criteria in an overlay licensing model.
+    48. Overlay Licensing Bands. We seek comment on whether, in an 
+overlay licensing framework, we should limit the authorization of 
+jamming solutions to those bands typically used by wireless providers 
+to provide commercial service to subscribers, identified as ``included 
+services'' in the leasing context. We seek comment on the inclusion of 
+each band (or block within a band), currently set forth as an included 
+service in its leasing rules, in the proposed overlay license 
+framework. We seek comment on whether the authorization of jamming 
+operations by issuing non-exclusive overlay licenses in bands currently 
+licensed to wireless providers would require an amendment to Sec.  
+2.106 of the U.S. Table of Allocations, including potentially the 
+addition of a table footnote applicable to relevant bands.
+    49. License Area. We seek comment on a licensing model in which the 
+overlay license area would be confined to the geographic area affected 
+by the proposed subscriber operation deauthorization rule, so as to 
+comply with section 333 of the Act. We seek comment on permitting an 
+applicant, most likely a solutions provider, to seek authority to 
+transmit in a geographic area that is based upon its agreement with a 
+DOC, which could involve the entire area within the perimeter of a 
+correctional facility or a defined smaller area within the correctional 
+facility. We seek comment on the necessary information and level of 
+detail that should be provided to the Commission in describing the 
+requested license area, for example, the name and address of the 
+facility, the exact coordinates of the leased spectrum boundaries, or a 
+shapefile reflecting the requested area. We also seek comment on the 
+appropriate mechanism by which this information should be provided to 
+the Commission.
+    50. License Term/Renewal. We seek comment on the appropriate 
+license term if we implement our overlay license proposal. Commercial 
+wireless provider licensees seek certainty and flexibility in 
+implementing their networks and clearly benefit from a 10-year (or in 
+some bands a 15-year) term, for administrative certainty and planning 
+purposes. We seek comment on whether we should issue an overlay license 
+for a shorter period, noting that the Commission has granted shorter 
+license terms in other bands as a means to manage and ensure periodic 
+reevaluation of possible interference issues. Should the initial 
+license term mirror the contractual terms with a DOC for each 
+individual facility to ensure the license authorization does not exceed 
+the jamming solutions provider's contract with the correctional 
+facility? Similarly, we seek comment on the appropriate term to apply 
+for any subsequent license renewal.
+    51. We also seek comment on how to address compliance with the 
+Commission's renewal standard at the end of any license term. We seek 
+comment on whether to require overlay licensees for jamming operations 
+to make a ``renewal showing'' consistent with the WRS rules, for 
+instance, certifying that it is operating consistent with its 
+authorization to operate at specific correctional facilities with which 
+the licensee continues to have a contract to perform jamming 
+operations. We seek comment on the costs and benefits of imposing a 
+renewal requirement for these licensees and invite commenters to submit 
+alternate proposals for the appropriate license terms and renewal 
+showings.
+    52. Regulatory Status. We seek comment on applying the PMRS 
+presumption--similar to the regulatory status that we seek comment on 
+for leasing arrangements--to any overlay licenses issued for the 
+provision of jamming operations as discussed herein. Would applying 
+this presumption to eligible entities in the overlay license model help 
+align with the services to be provided, which are not intended to 
+provide CMRS service as defined in the statute and our rules?
+    53. Secondary Market Transactions. We seek comment on allowing 
+overlay licensees for jamming solutions to engage in secondary market 
+transactions only where the licensee is engaging in a transfer of 
+control of the licensee, and not permitting assignment, partitioning, 
+or disaggregation to another party. We likewise seek comment on not 
+permitting overlay licensees to lease the non-exclusively licensed 
+spectrum, which is not permitted under current secondary markets rules. 
+Are such limitations necessary in the jamming solutions overlay 
+context, where different considerations may be relevant, including that 
+the request for
+
+[[Page 54257]]
+
+authority would be limited a relatively small service area of a 
+correctional facility, and that such authority would be available only 
+to entities that meet strict eligibility requirements as a DOC or 
+solutions provider following the failure of good faith leasing 
+negotiations? Or should we permit alienability conditioned upon the 
+assignee, for example, making a showing that it too meets all 
+underlying requirements to be an overlay licensee in this specific, 
+limited context? Commenters should address the costs and benefits of 
+these potential limitations and any alternatives that we should 
+consider.
+    54. 911 Call Transmission Requirements. We seek comment on whether 
+to refrain from applying the Commission's 911 and E911 rules to PMRS 
+overlay licensees authorized to provide jamming solutions in 
+correctional facilities. We seek comment on whether there are 
+considerations in the overlay license context that are different from 
+considerations in the leasing context with regard to the treatment of 
+911 for jamming operations. We ask stakeholders to discuss whether it 
+is technically feasible for a licensee that deploys any type of jamming 
+solution to satisfy the requirements in Sec.  9.10 of the Commission's 
+rules, and if not, which particular requirements are not feasible and 
+why.
+    55. Performance Requirements. Due to the nature of jamming 
+operations, we believe it unnecessary to impose performance 
+requirements on the overlay licensee, and seek comment on this 
+proposal. Although we believe that operation through an overlay license 
+in satisfaction of a contract with a correctional facility for public 
+safety purposes meets our goal of ensuring spectrum usage, we seek 
+comment on whether an overlay licensee should be required to meet some 
+form of construction obligation.
+(ii) Technical Parameters for Overlay Licenses
+    56. We seek detailed comment on the specific technical requirements 
+that we should apply to an overlay license for jamming solutions in 
+correctional facilities. Commenters are requested to provide technical 
+details and analysis in support of any recommended action, including an 
+evaluation of the impact of their proposals on other radio services. 
+Among other issues, these studies and analyses should address how 
+entities seeking to deploy jamming solutions plan to protect co- and 
+adjacent channel, geographically proximate licensees, and also protect 
+out-of-band spectral neighbors from harmful interference. Additionally, 
+commenters should compare their recommendations to the technical 
+requirements applicable to existing licensees as authorized under the 
+pertinent service rules. We seek comment on the challenges and issues 
+that stakeholders have experienced when testing or deploying jamming 
+technology and welcomes the results of technical studies and analyses.
+    57. We also seek comment on how our proposal to authorize jamming 
+solutions through an overlay license might impact non-contraband 
+devices located within a correctional facility. These include so-called 
+``white-listed devices'' approved for use by select correctional 
+facility personnel (i.e., administrators, corrections staff, on-
+premises vendors, contractors, medical personnel). We seek detailed 
+comment as to how correctional facilities and solutions providers with 
+which they contract intend to deploy jamming solutions, while limiting 
+the impact to only contraband devices within a correctional facility. 
+Commenters that propose particular techniques to address this issue 
+should also indicate whether their proposal should be incorporated into 
+our technical rules and, if so, provide specific requirements.
+    58. Power Limits. We seek comment on the appropriate power limits 
+that should be applied to jamming operations in correctional facilities 
+under an overlay license. We seek comment on whether we should apply 
+the power limits applicable to each band in the respective service 
+rules or, in the alternative, implement a uniform power limit for 
+overlay jamming operations. Is there a way to regulate power limits 
+that does not unnecessarily constrain jamming technological 
+advancements, while also allowing for successful operations in a manner 
+that does not create harmful interference to authorized users in widely 
+deployed commercial bands? Should we adopt varying power levels for 
+overlay licenses based on bands in operation, as is done for CMRS 
+licenses today? Should we permit higher power levels in certain 
+geographic areas, such as rural areas, with significantly less power 
+available for jamming solutions operating in non-rural areas? Should we 
+establish power limits for overlay licensee operation based on the size 
+of the correctional facility at issue? Should we apply the power 
+spectral density (PSD) model to transmitters deployed as part of a 
+jamming solution? What are the costs and benefits of taking this 
+approach, which has been implemented to achieve parity amongst varying 
+technologies in the commercial services? Commenters advocating for 
+higher power should also address how much more power they believe is 
+necessary to effectively serve correctional facilities in rural areas, 
+and provide comment on how we should define rural areas in this 
+specific context.
+    59. Further, should we also generally require overlay licensees to 
+use narrowly tailored means in implementing a jamming solution, which 
+will vary from a technical perspective depending on the particular 
+correctional facility? For example, should we prohibit use of jamming 
+technology across an entire 5G band(s) where a jamming solution could 
+be targeted on the control channel portion of a band, which would 
+require less overall radiated power and potentially reduce the risk of 
+harmful interference to authorized devices? Should we require licensees 
+to adjust their technical parameters contingent on what technology the 
+wireless provider is using in the particular correctional facility, for 
+example, deployments in FDD or TDD bands?
+    60. Field Strength Limit and Market Boundaries. We seek comment on 
+whether we should adopt a new, uniform field strength or power flux 
+density limit that will apply to jamming overlay licensees, if 
+commenters believe that existing field strength limits set forth in the 
+Commission's rule parts governing commercial wireless services are not 
+sufficient to protect co-channel adjacent market users. We seek comment 
+on whether modified or additional technical protections are required, 
+as well as the costs and benefits of any alternative approach.
+    61. Intermodulation Interference. We seek comment on the likelihood 
+of jamming operations causing intermodulation interference and what 
+technical solutions, if any, are available to mitigate such 
+interference during the design of a jamming solution. We also seek 
+comment on what methods could mitigate such interference, should it 
+occur after a jamming solution is installed and operating.
+    62. Interference Resolution Procedures. We seek comment on whether 
+to implement strict responsibility for eliminating harmful interference 
+to authorized devices. Should operators utilizing jamming technologies 
+be required to respond to every complaint of interference to an 
+authorized in-band or adjacent band licensee with full cooperation and 
+utmost diligence to abate objectionable interference in the shortest 
+practicable time? In addition, we seek comment on the appropriate 
+obligations of an
+
+[[Page 54258]]
+
+operator using jamming solutions following receipt of a complaint of 
+harmful interference to a non-contraband wireless device. Should such 
+an operator be required to immediately shut down all operations until 
+it can ensure that the interference issue has been resolved? Would such 
+an obligation unintentionally allow inmates or other stakeholders to 
+circumvent a jamming solution?
+    63. We seek comment on whether we should adopt standardized 
+procedures for reporting any such harmful interference and implementing 
+a solution. For example, should we require overlay licensees to 
+establish some type of common electronic means of receiving initial 
+notification of harmful interference complaints from in-band and 
+adjacent band licensees? If so, what information should we require in a 
+complaint? Should we also impose a response time on the overlay 
+licensee? We seek comment on whether we should require overlay 
+licensees receiving an initial notification of harmful interference to 
+perform a timely analysis and identification of the harmful 
+interference, including, whenever necessary, an immediate on-site 
+visit. We ask stakeholders to discuss whether we should consider 
+alternatives or additions to the interference resolution mechanisms 
+discussed.
+    64. RF Exposure. We propose to require jamming solutions to comply 
+with the RF exposure rules set forth in Sec. Sec.  1.1307, 2.1091, and 
+2.1093 of the Commission's rules that outline exposure limits, 
+equipment authorization requirements, and other regulatory requirements 
+that are based on the type of device, how it is deployed or used, the 
+power of its transmissions, and the proximity of its antenna and 
+radiating structures to a person's body. Are there additional 
+provisions we should implement for transmitters utilizing jamming 
+technology? We also seek comment on whether to prohibit any 
+transmitters implementing a jamming solution that are designed to be 
+deployed where the radiating structure(s) is/are within 20 centimeters 
+of the user or other persons, as defined for portable devices in Sec.  
+2.1093(b) of the Commission's rules.
+    65. Canadian and Mexican Border Coordination. We seek comment on 
+whether compliance with existing bilateral agreements is sufficient in 
+the context of overlay licensing for jamming solutions, or whether 
+additional limits on transmissions are required to prevent harmful 
+interference to operations across international borders. If commenters 
+believe that additional protections (e.g., stricter limits, larger 
+coordination distances, or other technical criteria) are required in 
+this regard, we ask for specific technical comments.
+    66. Other Technical Requirements and Limitations. We seek comment 
+on how other current technical limits for operations in bands commonly 
+used to provide commercial wireless service should be applied to 
+jamming operations in correctional facilities in an overlay licensing 
+framework. For example, should we apply the existing frequency 
+stability, duty cycle, synchronization requirements, and other limits 
+that apply to CMRS base stations and devices, as set forth in the 
+service rules for the respective band of operation, to jamming 
+solutions? If existing technical limits are insufficient to protect 
+against harmful interference, commenters should offer specific limits, 
+with a justification of why those limits are needed and an analysis of 
+how they might impact in-band and adjacent band authorized operations 
+in the bands under consideration. We also seek comment on the 
+applicability to jamming operations of various coordination, 
+notification, and other rules currently applicable to 800 MHz cellular 
+terrestrial base stations to protect public safety operations.
+    67. Other Licensing and Operational Rules. We seek comment on 
+whether there are any other relevant service rules that we should 
+consider including in an overlay licensing framework for jamming 
+solutions. We invite comment on the costs and benefits associated with 
+authorizing jamming solutions and ask that commenters provide detailed 
+technical and economic data to support their suggestions. We seek 
+comment on whether there are other studies, standards, efforts, or 
+analyses that we should consider in this proceeding. We also invite 
+comment on other possible approaches to authorizing jamming solutions 
+in correctional facilities.
+(iii) Application Process and Procedures
+    68. We propose and seek comment on a multi-step application process 
+that includes: (1) submission of an application with supporting 
+information demonstrating that the licensee is prepared to deploy an 
+effective jamming solution without causing harmful interference to 
+authorized devices; (2) Commission review of the application and, where 
+in the public interest, an initial grant of a conditional overlay 
+license; (3) satisfaction of the condition of the license grant through 
+on-site testing; and (4) provision of final Commission authority to 
+operate at the facility following successful testing.
+    69. As an initial step, we propose that an eligible entity seeking 
+an overlay license would be required to submit an FCC Form 601 in ULS 
+that provides: administrative information, a certification regarding 
+its eligibility, a certification that it seeks to deploy equipment as 
+part of a jamming solution with a valid part 2 equipment authorization, 
+a brief description of its jamming solution, the requested technical 
+parameters, the proposed service area and geographic boundaries of the 
+requested license area, and a showing as to how the proposed system 
+will not cause harmful interference to authorized devices. We seek 
+comment regarding what specific additional information should be 
+required to be filed along with the application. Should we require an 
+applicant to file an attachment to its FCC Form 601 sufficiently 
+demonstrating that it attempted to negotiate in good faith, that the 
+wireless provider acted in bad faith during the negotiation process, 
+and that as a result, the parties were unable to enter into a lease 
+agreement? We seek comment on what would constitute a sufficient 
+demonstration of bad faith in the exhibit. Regarding service area, 
+should we require that the applicant submit the name and address of the 
+facility, the specific services to be provided and frequency bands 
+requested, and the service area requested for the overlay license, 
+including specific coordinates and/or map? Should the application 
+include, as an attachment, a copy of the applicant's contract with the 
+DOC to provide jamming services at the particular correctional 
+facility? Alternatively, would it be sufficient for the applicant to 
+provide a certification that a contract with a DOC exists to provide 
+jamming services at the facility? We propose to require an applicant to 
+include a declaration consistent with Sec.  1.16 of the Commission's 
+rules that its application contains truthful and accurate information. 
+Finally, the application would be required to be accompanied by the 
+requisite filing fee, and we propose to treat an overlay license 
+application for jamming solutions as site-based for application fee 
+purposes, given that the area of operation is limited to a specific 
+correctional facility (e.g., the perimeter of the facility). We seek 
+comment on each of these proposals, including related costs and 
+benefits.
+    70. Following the initial grant of an overlay license for a jamming 
+solution, as a condition of the grant, we propose that a DOC/solutions 
+provider perform on-site testing at the correctional facility
+
+[[Page 54259]]
+
+to demonstrate that the system will function as expected and within the 
+boundaries of the overlay license service area, protecting authorized 
+users both within and outside the boundaries from harmful interference. 
+We seek comment on the nature of wireless provider participation in the 
+testing and what details the conditional licensee will be required to 
+provide the Commission following the testing.
+    71. We seek comment on what information conditional licensees must 
+provide to the Commission to show successful testing and how such 
+information should be provided. Following the filing and Commission 
+approval of the on-site test results, we propose that a jamming 
+solutions provider would be authorized to begin jamming operations. We 
+seek comment on whether, and how often, we should require an overlay 
+licensee to re-test the effectiveness of its system, particularly where 
+technical or operational details of the deployment change in response 
+to wireless provider network adjustments. We seek comment on the costs, 
+benefits, and burdens to potential stakeholders of requiring a jamming 
+solutions provider to obtain conditional authorization, test, and 
+provide test results to the Commission for approval before commencing 
+jamming operations, and of potentially requiring the relevant wireless 
+providers to be part of the solution through mandatory involvement in 
+the on-site testing process, and if so, to what extent.
+    72. We seek comment on whether there are alternatives to the 
+proposed overlay licensing mechanism that would authorize jamming 
+solutions where good faith leasing agreements cannot be reached. 
+Commenters should include detailed descriptions of their proposals and 
+should discuss the costs and benefits of the approach.
+
+2. Authorizing Jamming Solutions on Other Spectrum
+
+    73. We seek comment on whether contraband devices operating in 
+other radio services, such as part 25, or on unlicensed spectrum are a 
+substantial issue in correctional facilities and, if so, on the 
+appropriate means to authorize jamming solutions to address this issue.
+a. Unlicensed Operations Under Part 15
+    74. Part 15 Equipment. We seek comment on whether inmate use of Wi-
+Fi in a contraband wireless device is a current or anticipated problem 
+in correctional facilities and ask stakeholders to specifically 
+describe the nature of the problem, if any. Commenters should also 
+discuss in detail the types of current or future technologies that are 
+available to block, interfere with, or de-authenticate Wi-Fi 
+transmissions; how the Commission should facilitate the authorization 
+of those technologies; and whether any of these technologies include 
+functions that might enable certain Wi-Fi devices to communicate, while 
+blocking others located in the same limited geographic area. We also 
+seek comment on whether correctional facilities are relying on any 
+unlicensed devices essential for facility operation, such as wireless 
+security cameras, and how these devices can be protected while jamming 
+contraband Wi-Fi devices.
+    75. Framework for Deauthorization of Contraband Part 15 Devices and 
+Authorizing Part 15 Jamming Solutions. If we determine that jamming 
+solutions should be authorized to cause interference to contraband 
+wireless devices operating on unlicensed spectrum, such as those that 
+communicate using Wi-Fi, we seek comment on the appropriate 
+deauthorization approach to permit such action consistent with section 
+333 of the Act. We seek comment on whether the definition of a 
+contraband wireless device in Sec.  1.9003 of our leasing rules is 
+broad enough to cover unlicensed devices, such that a cross-reference 
+to the Sec.  1.9003 definition in part 15 is sufficient, or whether we 
+would need to replicate this definition within part 15 to ensure that 
+it is applicable to unlicensed devices. With respect to deauthorization 
+of contraband wireless devices operating on part 15 spectrum, is it 
+necessary to adopt a part 15 provision expressly prohibiting the 
+operation of such devices under part 15? Alternatively, is a rule 
+change unnecessary to comply with section 333 of the Act because part 
+15 devices already operate without any protection from interference 
+that may be caused by the operation of an authorized radio station? We 
+seek comment on these issues.
+    76. We seek comment on the appropriate authorization framework for 
+jamming solutions using part 15 spectrum. In lieu of leasing, should we 
+require an operator of a jamming solution intended to prevent 
+unlicensed contraband device use to obtain a part 90 overlay license 
+for authorization to operate such equipment? Should such a license be a 
+separate part 90 authorization for part 15 spectrum use or should it be 
+combined with a more expansive part 90 overlay license that covers a 
+mix of licensed bands, as well as the bands most commonly used by 
+unlicensed devices? Are there other alternatives available to license 
+transmissions for which current operations are authorized on an 
+unlicensed basis? Further, should we take an approach analogous to the 
+procedures proposed herein for licensed operations, where an entity (if 
+acting on behalf of a DOC) seeking such a license would certify that 
+it: (1) has entered into a contractual agreement with a DOC that 
+requires the solutions provider to block or otherwise deny access to 
+unlicensed (e.g., Wi-Fi transmissions); and (2) is proposing to use 
+equipment that has part 2 equipment authorization? We seek comment on 
+the appropriate licensing requirements for jamming solutions intended 
+to prevent unlicensed devices from communicating and to what extent 
+amendments are needed to parts 15 and 90.
+    77. Some stakeholders have expressed a belief that transmitting 
+devices that are fully intended to cause harmful interference could 
+arguably operate on commercial bands within the current part 15 rules 
+if their power levels are sufficiently low. We propose that the 
+Commission will not certify transmitter(s) intended for use as part of 
+a jamming solution under part 15 of the rules. Are there other 
+safeguards we should put in place to achieve the same result? We seek 
+comment on these proposals.
+    78. Technical Requirements. Unlicensed operation is permitted under 
+part 15 rules in multiple frequency bands. We seek comment on the 
+specific bands for which it should authorize jamming solutions for 
+unlicensed devices. Should the rules be flexible to permit jamming 
+solutions for any band where unlicensed devices can operate, which 
+would also include the same bands on which services allocated in the 
+frequency allocation table operate, or only the most commonly used 
+unlicensed bands? How can the Commission ensure that jamming solutions 
+adequately protect unauthorized incumbent users operating on spectrum 
+shared with unlicensed operations?
+    79. We seek comment on what technical rules should apply to jamming 
+solutions that are intended to prevent unlicensed devices from 
+communicating. We also seek comment on whether a jamming solution 
+operator should comply either fully or in-part with the existing part 
+15 rules for each band in which it operates. Or should the technical 
+rules for jamming solutions be specific to jamming solutions? We seek 
+comment on the specific rules that either should or should not apply in 
+each band of interest, as well as relevant interference analyses to 
+demonstrate how authorized incumbent users can be protected if a 
+jamming solution is
+
+[[Page 54260]]
+
+operating nearby and on the same or adjacent spectrum bands.
+    80. We also seek comment on what interference protection 
+obligations jamming solutions should have with respect to unlicensed 
+device operations that are permitted either within or near a 
+correctional facility. We seek comment on whether the general rule 
+requiring unlicensed devices to accept interference from authorized 
+devices should be amended when such interference is caused by a jamming 
+solution and whether, in such instances, the jamming solution operator 
+should be obligated to adjust its system to ensure that interference to 
+such unlicensed, yet authorized, operations is remedied. We request 
+that commenters provide relevant interference analyses supporting the 
+co-existence between jamming solutions and non-contraband unlicensed 
+devices or justifications for requiring non-contraband unlicensed 
+devices to have to accept interference from a jamming solution.
+b. Part 25 Spectrum
+    81. We seek comment on whether contraband devices that operate 
+using part 25 (satellite communications) spectrum is a current or 
+anticipated problem in correctional facilities. We ask stakeholders to 
+specifically describe the nature of the problem and to discuss in 
+detail the types of technologies, whether current or potentially under 
+development, that can block or interfere with part 25 authorized 
+transmissions. How should the Commission facilitate the authorization 
+of those technologies, and do any of these technologies include 
+functions that enable network connections for authorized devices that 
+might be located in a correctional facility? How can these technologies 
+protect other satellite services, including international satellite 
+systems, from harmful interference? Finally, if we determine that we 
+should deauthorize contraband wireless device satellite communications 
+currently authorized under part 25, we seek comment on the appropriate 
+approach to authorizing jamming solutions in the relevant bands.
+
+3. Transmitters Used To Enable Jamming Solutions
+
+a. Part 2 Equipment Authorization
+    82. We propose to apply our current procedures to eligible entities 
+for equipment certification regarding equipment to be used as part of a 
+jamming solution in correctional facilities. Specifically, we propose 
+to require entities to comply with existing part 2, subpart J, 
+equipment authorization procedures for certification of equipment used 
+as part of a jamming solution that would be authorized for operation 
+pursuant to our part 1 leasing rules, a part 90 overlay license, or a 
+combination thereof. This would require that RF equipment associated 
+with jamming solutions must be shown to comply with a variety of, and 
+possibly differing, technical rules under various parts of the 
+Commission's rules governing spectrum typically used in commercial 
+wireless networks, including, for example, parts 22, 24, 27, 30, and 
+96. Because the equipment could also potentially be used under a part 
+90 overlay license, it would necessarily require a part 90 equipment 
+certification. Importantly, we propose that the Commission will not 
+certify such transmitters under part 15 of the rules to ensure the 
+authorization of jamming solutions does not result in the production, 
+marketing, and sale of unlicensed low-power, hand-held jamming solution 
+devices. We seek comment on this proposal.
+    83. We seek comment on whether the application requirements of 
+current Commission rule Sec. Sec.  2.911 and 2.1033 are appropriate in 
+this case or whether specific requirements should be added, modified, 
+or considered inapplicable. We believe that a transmitter used for 
+jamming solutions would fall within Sec.  2.1033(e), which applies to a 
+``composite system that incorporates devices subject to certification 
+under multiple rule parts.'' Commenters should target any proposals 
+regarding this rule to the specific issues associated with approving 
+jamming solutions and not generally comment on equipment authorization 
+procedures that could apply to any device. Further, should the testing 
+of equipment used to provide jamming solutions include a method to 
+ensure that it does not operate in any unauthorized bands (not just the 
+bands adjacent to those for which it seeks authorization)? Finally, we 
+propose to include jamming solutions equipment on the ``Pre-approval 
+Guidance List,'' thus requiring a TCB to process the application in 
+coordination with the Commission in accordance with the Commission's 
+rules.
+    84. Are any additional procedures necessary to ensure the 
+equipment's ability to comply with the Commission's technical rules? We 
+seek comment on the costs and benefits of applying existing procedures 
+to certifying equipment to transmitters that can be deployed as part of 
+a jamming solution in a correctional facility. We also seek comment on 
+ways the Commission can facilitate, encourage, or require the 
+production of these devices within the United States or United States 
+allied countries. Are there specific actions we should take to mitigate 
+any national security risks posed by jamming solutions that use 
+equipment produced by foreign adversaries or other entities that have 
+been determined to pose an unacceptable risk to the national security 
+of the United States or the security and safety of United States 
+persons?
+    85. Operation of Equipment Used for Jamming Solutions Prior to 
+Equipment Authorization. We seek comment on whether we should amend 
+Sec.  2.805 to specify that jamming solutions may not be operated for 
+testing purposes, unless and until equipment authorization is obtained. 
+Alternatively, should we adopt more flexible rules to permit testing of 
+jamming solutions prior to equipment authorization, but only through 
+one of two methods: (1) special temporary authority granted by the 
+Bureau; or (2) experimental license granted by OET pursuant to part 5 
+of the Commission's rules? What are the costs and benefits of either of 
+these approaches or any suggested alternatives?
+b. Marketing, Labeling, and Importation of Equipment Used for Jamming 
+Solutions
+    86. We seek comment on whether we should limit the marketing of 
+transmitters intended for use in jamming solutions directly to DOCs and 
+solutions providers that contract to provide jamming solutions within a 
+correctional facility. If so, what rule changes would be required to 
+limit the marketing of transmitters in this way? What are stakeholders' 
+concerns, challenges, or cost considerations associated with limiting 
+the marketing of transmitters to these entities? Further, should we 
+adopt a specific rule in its marketing rules? Such a rule could set 
+forth the compliance requirements that apply to the responsible party 
+associated with the part 2 equipment certification. If we adopt such a 
+rule, should applicants be required to address compliance with the rule 
+requirements by including a compliance plan in any certification 
+application submitted to a TCB? Should all marketing include clear 
+disclosures that such equipment can only be sold to DOC or solutions 
+provider lessees or overlay licensees for the provision of jamming 
+solutions in correctional facilities? Should specific language be 
+required for the disclosure? Should the marketer be required to verify 
+and retain documentation that any sale is only to a DOC or solutions 
+provider lessee or licensee?
+
+[[Page 54261]]
+
+    87. To ensure compliance with any marketing restriction that we 
+might adopt, we seek comment on the need for a number of potential 
+requirements the Commission could put on manufacturers dealing with 
+tracking jamming equipment, reporting, and rule enforcement. We also 
+seek comment on whether labeling requirements are necessary, including 
+e-labeling.
+    88. In addition, we ask whether we should exclude equipment used to 
+provide jamming solutions from exceptions for importing and marketing 
+RF devices prior to equipment authorization, or apply significantly 
+more restrictive limits, while permitting such pre-equipment 
+authorization importation. Alternatively, rather than restricting 
+importation, should we require that equipment intended for use in a 
+jamming solution be manufactured or assembled in the United States to 
+simplify efforts by our federal partners to interdict equipment 
+imported into the United States intended for use outside of the 
+correctional facility context? Should we restrict distribution of 
+equipment intended for use in a jamming solution, such that the 
+equipment may only be shipped directly from the manufacturer to a DOC 
+or solutions provider lessee or licensee?
+    89. We seek comment on whether it is in the public interest to 
+require manufacturers to employ some type of locking mechanism, if 
+technically feasible, that would prevent any non-eligible entities from 
+using such a transmitter outside of the correctional facilities 
+context. If so, we seek detailed comment on how to accomplish this 
+goal. We seek comment on whether there are other conditions that might 
+be appropriate to prevent transmitters authorized for correctional 
+facility use from being diverted to uses outside of the intended 
+locations and purposes.
+
+4. Other Implementation Issues
+
+    90. Phased Implementation. We seek comment on a phased 
+implementation of jamming solutions, such as a pilot program in 
+controlled environments, or an initial restriction to, for example, 
+facilities located in rural areas that might pose an even lower risk of 
+harmful interference. We seek comment on the costs and benefits of 
+phased implementation and on whether this would ultimately help reduce 
+the risk of harmful interference, or whether it would inhibit 
+manufacturers from developing equipment at scale. We also seek comment 
+on appropriate parameters for phased implementation. For example, what 
+is the optimal duration of any such program to draw accurate and 
+valuable conclusions? How should eligible facilities be chosen? Should 
+we prioritize facilities with a greater volume of contraband devices? 
+Can such a program be limited in a way that allows us to proceed 
+cautiously while providing the benefits of representative sampling?
+    91. Consumer Complaints. We recognize that the public might benefit 
+from specific processes for communicating complaints of harmful 
+interference from jamming solutions. Do wireless providers have 
+effective contacts at correctional facilities or jamming solutions 
+providers that they can work with to resolve issues if they receive 
+complaints from the public? Should the Commission require that 
+correctional facilities and solutions providers establish and publicize 
+a phone number or dedicated email address for complaints from the 
+public or that providers can use when an issue arises? Would the 
+Commission's existing complaints mechanism adequately enable affected 
+persons to file complaints about signal jamming in and around 
+correctional facilities? We also seek comment on our authority to serve 
+complaints on DOCs and/or jamming solutions providers noting that, 
+under our lead proposal, such entities would be operating as lessees on 
+spectrum licensed to common carrier wireless providers. How might the 
+Commission use complaint data to track challenges, resolution, and any 
+consumer issues that might arise from jamming? Is such tracking needed?
+
+D. Facilitating Other Handset-Centric Technologies
+
+    92. We seek comment on whether there are other device-based 
+solutions that should be considered for inclusion in the proposed 
+deauthorization framework in addition to jamming solutions. In the 
+context of the proposed deauthorization framework, we invite commenters 
+to refresh the record specifically on the feasibility of geofencing, or 
+geolocation-based denial (and if feasible, whether the Commission 
+should consider mandating that wireless providers eliminate 
+unauthorized devices within correctional facility perimeters), and 
+beacon technology, including whether there have been technological, 
+economic, or policy developments affecting the deployment of these 
+technologies, and whether the Commission can play a role in promoting 
+these tools. We seek comment on specific rules that we should amend or 
+adopt, if any, to promote the use of these technologies as tools 
+available to combat contraband wireless devices in correctional 
+facilities.
+
+E. Further Facilitating and Streamlining the Authorization of Current 
+CIS Technology
+
+    93. We seek comment to refresh the record on potential steps the 
+Commission could take to ensure that MAS maintains effectiveness as 
+technology evolve and facilitate MAS deployments. We invite 
+stakeholders to refresh the record on the question of whether it should 
+make any changes to rules in parts 1 and 20 to further streamline the 
+current CIS leasing process. We also seek comment on whether we should 
+amend any procedures in Sec.  20.23, in particular, to further 
+streamline the CIS Phase 1 and Phase 2 processes or make changes to the 
+disabling process.
+
+F. Other Technological Solutions
+
+    94. We seek comment generally on whether there are other 
+technologies currently available or under development that could be 
+used in correctional facilities to combat contraband devices. If so, 
+what steps could the Commission take to facilitate deployment of those 
+technologies? We also seek comment on whether there are other studies, 
+standards, efforts, or analyses regarding the effectiveness of CISs or 
+other related solutions that we should consider in this proceeding.
+
+G. Costs and Benefits
+
+    95. The benefits of the proposed rule amendments include reduced 
+criminal activity resulting from inmates' use of contraband wireless 
+devices, which can impact the safety of prison officials and employees, 
+the prison population, and members of the general public. The costs of 
+the proposed rule amendments include the need for considerable 
+stakeholder cooperation and a commitment, particularly from DOCs, to 
+make the expenditures necessary to ensure that jamming solutions are 
+installed, deployed, and maintained in such a manner as to avoid 
+harmful interference to non-contraband devices located outside a 
+correctional facility, as well as non-contraband devices that might be 
+permitted within a particular correctional facility, depending on state 
+or local law or policies (e.g., devices used by vendors, attorneys, or 
+medical personnel). We seek comment on all costs and benefits 
+associated with adopting the proposals, accompanied by specific data 
+and analysis supporting claimed costs and benefits.
+
+[[Page 54262]]
+
+Initial Regulatory Flexibility Analysis
+
+    96. The Regulatory Flexibility Act of 1980, as amended (RFA), 
+requires that an agency prepare a regulatory flexibility analysis for 
+notice-and-comment rulemaking proceedings, unless the agency certifies 
+that ``the rule will not, if promulgated, have a significant economic 
+impact on a substantial number of small entities.'' Accordingly, the 
+Commission has prepared an Initial Regulatory Flexibility Analysis 
+(IRFA) concerning potential rule and policy changes contained in this 
+Third FNPRM. The IRFA is set forth in Appendix B of the Third FNPRM. 
+The Commission invites the general public, in particular small 
+businesses, to comment on the IRFA.
+
+A. Need for, and Objectives of, the Proposed Rules
+
+    97. In the Third FNPRM, the Commission aims to strengthen public 
+safety through the removal of regulatory barriers to the deployment and 
+viability of existing and developing technologies that can assist the 
+ability of correctional facilities to stem the use of contraband 
+wireless devices in correctional facilities, which can be used to 
+engage in criminal activity. The proposals contained in the Third FNPRM 
+build upon prior Commission actions and seek to meet our objectives of 
+expanding the scope of technical options available to corrections 
+officials, while simultaneously fostering a collaborative environment 
+among key stakeholders, including DOCs, solutions providers, and 
+wireless providers. To achieve these goals, the Commission seeks 
+comment on a broad range of potential actions intended to help 
+eliminate a continuing public safety threat, reduce regulatory burdens, 
+and also continue the growth of currently deployed technologies, 
+commonly known as CISs, while ensuring that the Commission's rules 
+evolve to afford consistent regulatory treatment across technologies, 
+some of which are operated by small entities.
+    98. As a first step, the Third FNPRM proposes to deauthorize 
+subscriber operation of contraband wireless devices in correctional 
+facilities. The proposed deauthorization rule is intended to facilitate 
+the use of jamming solutions consistent with section 333 of the Act and 
+is a key step towards permitting corrections officials to engage with 
+wireless providers to use jamming solutions or other technologies in 
+the limited context of combatting contraband wireless devices in 
+correctional facilities. The Commission's lead licensing proposal would 
+involve the participation of wireless providers, so as to help prevent 
+harmful interference to legitimate users, a long-standing wireless 
+industry concern.
+    99. In addition, the proposed approach ensures that a contraband 
+wireless device located in a correctional facility would not be 
+considered, for purposes of section 301 of the Act, a ``station 
+licensed or authorized by or under [the] Act'' and, therefore, would 
+not be afforded protection against willful or malicious interference by 
+other technologies, such as jamming solutions, that have been approved 
+under our proposed process. The Third FNPRM proposes to apply the 
+deauthorization rule to subscriber operation of a contraband wireless 
+device that is used in a correctional facility in violation of federal, 
+state, or local law, or a correctional facility rule, regulation, or 
+policy, consistent with the approach that the Commission took in prior 
+decisions to facilitate CISs. The Third FNPRM also seeks comment on 
+only applying a jamming solutions approach to a narrower group of 
+correctional facilities (e.g., only those located in jurisdictions that 
+impose criminal penalties for possessing or using contraband wireless 
+devices, or for delivering or attempting to deliver those devices to 
+prison inmates).
+    100. Recognizing that the proposed deauthorization rule would make 
+operation of any contraband wireless device a violation of section 301 
+of the Act and revised Sec.  1.903(a) of the Commission's rules, the 
+Third FNPRM also proposes to create a ``safe harbor'' wherein the 
+Commission would take no enforcement action against a wireless 
+provider, to the extent it might be liable, for unauthorized operation 
+of contraband wireless devices in a correctional facility if certain 
+conditions exist. Specifically, the proposed safe harbor would apply to 
+(1) wireless providers licensed in a geographic area where no DOC is 
+actively seeking to implement a technology solution, including jamming, 
+to combat contraband devices; and (2) any wireless provider that is 
+actively participating in good faith negotiations (or has successfully 
+completed such negotiations) with the DOC/solutions provider that is 
+seeking to lease spectrum to authorize operation of a CIS solution, 
+including jamming.
+    101. The Third FNPRM also seeks to establish the framework whereby 
+correctional facilities or solution providers that contract with them 
+can become authorized to deploy an expanded range of technological 
+solutions to combat contraband wireless devices. The Commission's lead 
+proposal in the Third FNPRM is to authorize jamming solutions in 
+correctional facilities by applying its existing secondary markets 
+framework. The Commission's goal and expectation is that wireless 
+providers will reach agreement with DOCs and solutions providers on 
+lease terms for authorized jamming solutions, in the same way that 
+parties have, to date, successfully negotiated in good faith for CIS 
+deployments. The Third FNPRM seeks comment on, among other things, the 
+types of leases parties may wish to utilize, eligibility criteria, 
+including whether wireless providers should be required to provide 
+jamming technology directly to correctional facilities, and a 
+requirement for good faith negotiations.
+    102. As a method of last resort, in cases where parties fail to 
+reach a good faith leasing arrangement, the Commission proposes to 
+permit eligible entities to directly apply for a non-exclusive overlay 
+license to deploy a jamming solution in a correctional facility 
+provided certain conditions are met. The Third FNPRM seeks comment on a 
+variety of issues related to the framework for issuing a last resort 
+overlay license, including licensing and operating rules, license term 
+and renewal, application procedures, and technical parameters of the 
+overlay licenses. The Third FNPRM also seeks comment on other issues 
+related to the deployment of jamming solutions. For example, the 
+Commission seeks comment on authorizing jamming solutions on Wi-Fi 
+spectrum and part 25 satellite spectrum, in order to ensure that that 
+the proposed authorization framework is broad enough to include all 
+spectrum that may be used to communicate with contraband wireless 
+devices.
+    103. In addition, the Commission seeks comment on possible measures 
+to ensure that jamming solutions are limited solely to correctional 
+facilities. For example, the Third FNPRM proposes an express 
+prohibition against certifying any transmitter utilizing jamming 
+solutions pursuant to part 15 of the Commission's rules and against the 
+operation of such equipment under part 15 to ensure that the proposed 
+deauthorization framework does not result in low-power, hand-held 
+jamming devices being produced, marketed, and sold in the United States 
+for use on a part 15 unlicensed basis. The Commission also seeks 
+comment on the appropriate procedures for the certification of 
+equipment used to provide jamming solutions in correctional facilities, 
+and on the extent to which it is necessary to specifically limit the 
+marketing and sale of such
+
+[[Page 54263]]
+
+transmitters directly to DOCs and solutions providers that contract 
+with them to provide jamming solutions.
+    104. Given the novelty of the proposed framework, the Commission 
+also seeks comment on a phased implementation of jamming solutions, 
+such as a pilot program in controlled environments, or an initial 
+restriction to, for example, facilities located in rural areas that 
+might pose an even lower risk of harmful interference. The Commission 
+requests specific comment on the costs and benefits of a phased 
+implementation, as well as appropriate parameters for a phased 
+approach. In addition, the Commission seeks comment on whether the 
+public would benefit from specific processes for communicating 
+complaints of harmful interference from jamming solutions, beyond 
+processes currently in place.
+    105. Finally, the Commission seeks comment on whether there are 
+other device-based solutions that should be considered for inclusion in 
+the proposed deauthorization framework in addition to jamming 
+solutions. In the context of the proposed deauthorization framework, 
+the Third FNPRM invites commenters to refresh the record specifically 
+on the feasibility of geofencing, or geolocation-based denial (and if 
+feasible, whether the Commission should consider mandating that 
+wireless providers eliminate unauthorized devices within correctional 
+facility perimeters), and beacon technology, whether there have been 
+technological, economic, or policy developments affecting the 
+deployment of these technologies, and whether the Commission can play a 
+role in promoting these tools.
+
+B. Legal Basis
+
+    106. The proposed action is authorized pursuant to sections 1, 2, 
+4(i), 4(j), 301, 302, 303, 307-310, 319, 324, and 332 of the 
+Communications Act of 1934, as amended, 47 U.S.C. 151, 152, 154(i), 
+154(j), 301, 302a, 303, 307-310, 319, 324, and 332, and Sec.  1.411 of 
+the Commission's rules, 47 CFR 1.411.
+
+C. Description and Estimate of the Number of Small Entities to Which 
+the Proposed Rules Will Apply
+
+    107. The RFA directs agencies to provide a description of, and 
+where feasible, an estimate of the number of small entities that may be 
+affected by the rules adopted herein. The RFA generally defines the 
+term ``small entity'' as having the same meaning as under the Small 
+Business Act. In addition, the term ``small business'' has the same 
+meaning as the term ``small business concern'' under the Small Business 
+Act.'' A ``small business concern'' is one which: (1) is independently 
+owned and operated; (2) is not dominant in its field of operation; and 
+(3) satisfies any additional criteria established by the SBA.
+    108. Our actions, over time, may affect small entities that are not 
+easily categorized at present. We therefore describe three broad groups 
+of small entities that could be directly affected by our actions. In 
+general, a small business is an independent business having fewer than 
+500 employees. These types of small businesses represent 99.9% of all 
+businesses in the United States, which translates to 34.75 million 
+businesses. Next, ``small organizations'' are not-for-profit 
+enterprises that are independently owned and operated and not dominant 
+their field. While we do not have data regarding the number of non-
+profits that meet that criteria, over 99 percent of nonprofits have 
+fewer than 500 employees. Finally, ``small governmental jurisdictions'' 
+are defined as cities, counties, towns, townships, villages, school 
+districts, or special districts with populations of less than fifty 
+thousand. Based on the 2022 U.S. Census of Governments data, we 
+estimate that at least 48,724 out of 90,835 local government 
+jurisdictions have a population of less than 50,000.
+    109. The actions taken in the Third FNPRM will apply to small 
+entities in the industries identified in the chart below by their six-
+digit North American Industry Classification System (NAICS) codes and 
+corresponding SBA size standard.
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                   Percent small
+   Regulated industry (NAICS      NAICS code        SBA size        Total firms     Small firms      firms in
+        classification)                             standard                                         industry
+----------------------------------------------------------------------------------------------------------------
+Radio and Television                    334220  1,250 employees.             656             624           95.12
+ Broadcasting and Wireless
+ Communications Equip
+ Manufacturing.
+Other Communications Equipment          334290  750 employees...             321             310           96.57
+ Manufacturing.
+Wireless Telecommunications             517112  1,500 employees.           2,893           2,837           98.06
+ Carriers (except Satellite).
+Telecommunications Resellers..          517121  1,500 employees.           1,386           1,375           99.21
+Satellite Telecommunications..          517410  $47 million.....             275             242           88.00
+All Other Telecommunications..          517810  $40 million.....           1,079           1,039           96.29
+Engineering Services..........          541330  $34 million.....          37,462          34,803           92.90
+Facilities Support Service....          561210  $47 million.....           1,922           1,783           92.77
+Security Guards and Patrol              561612  $47 million.....              76              76          100.00
+ Services.
+All Other Support Services....          561990  $16.5 million...           9,615           9,350           97.24
+Correctional Institutions.....          922140  No SBA Size                1,677             813           48.48
+                                                 Standard.
+----------------------------------------------------------------------------------------------------------------
+
+    110. Based on currently available U.S. Census data regarding the 
+estimated number of small firms in each identified industry, we 
+conclude that the adopted rules will impact a substantial number of 
+small entities. Where available, we provide additional information 
+regarding the number of potentially affected entities in the above 
+identified industries, and information for other affected entities, as 
+follows.
+
+[[Page 54264]]
+
+
+
+----------------------------------------------------------------------------------------------------------------
+   2024 Universal service monitoring report telecommunications          SBA size standard (1,500 employees)
+        service provider data (data as of December 2023)         -----------------------------------------------
+-----------------------------------------------------------------  Total number
+                                                                   FCC Form 499A    Small firms    Percent small
+                         Affected entity                              filers                         entities
+----------------------------------------------------------------------------------------------------------------
+Toll Resellers..................................................             411             398           96.84
+Wireless Telecommunications Carriers (except Satellite).........             585             498           85.13
+----------------------------------------------------------------------------------------------------------------
+
+    111. Experimental Radio Service (Other Than Broadcast). Neither the 
+SBA nor the Commission have developed a size standard for this 
+industry. Experimental Radio Service is a service in which radio waves 
+are employed for purposes of experimentation in the radio art or for 
+purposes of providing essential communications for research projects 
+that could not be conducted without the benefit of such communications. 
+The majority of experimental licenses are issued to companies such as 
+Motorola and Department of Defense contractors such as Northrop Grumman 
+and Lockheed Martin. Large businesses such as these are the primary 
+applicants for such licenses and may have as many as 200 licenses at 
+one time. For the purposes of this regulatory flexibility analysis, 
+using the SBA's Office of Advocacy's general definition that a small 
+business is an independent business having fewer than 500 employees, 
+the Commission estimates that 30 percent of applications, will be 
+awarded to small entities. The Commission processes approximately 1,000 
+applications a year for experimental radio operations. About half, or 
+500 of these are renewals and the other half are for new licenses. We 
+do not have adequate information to predict precisely how many of these 
+are from small entities. However, based on the above figures we 
+estimate that as many as 300 of these applications could be from small 
+entities and could potentially be impacted.
+
+D. Description of Economic Impact and Projected Reporting, 
+Recordkeeping, and Other Compliance Requirements for Small Entities
+
+    112. The RFA directs agencies to describe the economic impact of 
+proposed rules on small entities, as well as projected reporting, 
+recordkeeping and other compliance requirements, including an estimate 
+of the classes of small entities which will be subject to the 
+requirements and the type of professional skills necessary for 
+preparation of the report or record.
+    113. In the Third FNPRM, the Commission seeks public comment on a 
+potential framework that would increase the RF options that DOCs could 
+utilize to combat contraband wireless device use in correctional 
+facilities. There are three classes of small entities that might be 
+impacted: correctional facilities, solutions providers, and providers 
+of wireless services. For all of these entities, the Commission first 
+proposes to leverage its existing leasing rules applicable to CISs as 
+much as possible to reduce regulatory burdens and continue expedited 
+processing for these important solutions. With this intent in mind, the 
+Third FNPRM seeks comment on the extent to which the Commission's rules 
+require amendment to effectuate authorization through lease 
+arrangements of transmitters operating on wireless provider licensed 
+commercial spectrum to deploy jamming solutions in correctional 
+facilities. Small and other entities are encouraged to comment on any 
+potential regulatory burdens or costs incurred in connection with these 
+proposals, if adopted. We also encourage suggestions from small and 
+other entities on ways in which the Commission may minimize any 
+required information collections, while ensuring that all parties meet 
+the desired goals of providing an additional tool toward combating 
+contraband wireless device use, and that only non-authorized devices 
+are impacted.
+
+E. Discussion of Significant Alternatives Considered That Minimize the 
+Significant Economic Impact on Small Entities
+
+    114. The RFA directs agencies to provide a description of any 
+significant alternatives to the proposed rules that would accomplish 
+the stated objectives of applicable statutes, and minimize any 
+significant economic impact on small entities. The discussion is 
+required to include alternatives such as: ``(1) the establishment of 
+differing compliance or reporting requirements or timetables that take 
+into account the resources available to small entities; (2) the 
+clarification, consolidation, or simplification of compliance and 
+reporting requirements under the rule for such small entities; (3) the 
+use of performance rather than design standards; and (4) an exemption 
+from coverage of the rule, or any part thereof, for such small 
+entities.''
+    115. As discussed above, in the Third FNPRM, the Commission seeks 
+public comment on a proposed framework that seeks to increase the RF 
+options that DOCs could utilize to better combat contraband wireless 
+device use. Additionally, the Commission seeks comment on several 
+regulatory alternatives that might reduce impacts on small entities. 
+For example, the Commission seeks to leverage its current licensing 
+process and existing leasing rules applicable to CISs, which small and 
+other correctional facilities and/or solution providers that contract 
+with correctional facilities have successfully used for more than a 
+decade, rather than creating a completely new paradigm. Many entities 
+that may be interested in participating in the framework proposed in 
+the Third FNPRM may already be engaged in the process of combatting 
+contraband wireless devices by the processes currently available, 
+specifically for CISs. By leveraging the Commission's current spectrum 
+leasing rules, small entities--be they solutions providers, or even the 
+DOCs, as well as wireless providers--will already be familiar with the 
+processes, thereby decreasing any new regulatory burdens and, by 
+extension, minimizing significant economic impact to such entities. The 
+Commission also seeks comment on the alternative of a phased 
+implementation of jamming solutions, such as a pilot program in 
+controlled environments, or an initial restriction to, for example, 
+facilities located in rural areas that might pose an even lower risk of 
+harmful interference. The Commission requests specific comment on the 
+costs and benefits of a phased implementation, as well as appropriate 
+parameters for a phased approach.
+    116. The Third FNPRM also proposes a safe harbor for wireless 
+providers to avoid potential liability for unauthorized operation of 
+subscriber devices that fall within the proposed deauthorization rule, 
+as well as direct jamming solution authorization mechanisms. The safe 
+harbor will provide wireless providers with assurance that they will 
+not be subject to enforcement action, provided they
+
+[[Page 54265]]
+
+either: have not received a specific request to lease their spectrum to 
+support the authorization of a jamming solution or, if they have 
+received such a request, they negotiated a good faith leasing 
+arrangement with a DOC or its contracted solutions provider.
+    117. The Commission invites comment on its proposed deauthorization 
+rule and framework for facilitating the authorization of jamming 
+solutions. Through these comments, the Commission seeks to develop 
+final rules that combat the exigent public safety concerns of 
+contraband wireless device use in correctional facilities, while also 
+minimizing economic and other compliance burdens on small and other 
+entities to the greatest extent possible.
+    118. To clarify and simplify compliance and reporting requirements 
+for impacted small and other entities, the Third FNPRM also invites 
+comment regarding the prospective needs of the entities and the various 
+approaches that can be taken to accommodate those needs in both a 
+leasing arrangement and in a direct overlay licensing approach. In so 
+doing, the Commission invites small and other entities to help inform 
+on any necessary clarifications and/or simplification of compliance and 
+reporting requirements that should be incorporated in the final rules. 
+Receiving input from small entities will allow the Commission, to the 
+extent feasible, to better consider options that could minimize the 
+impact for these entities.
+    119. Finally, the Commission finds an overriding public interest in 
+preventing the illicit use of contraband wireless devices by 
+incarcerated people to perpetuate criminal enterprises and therefore 
+does not propose any exemptions for small entities from the potential 
+solutions discussed in the Third FNPRM. If small entities were to be 
+exempted from the selected approach, it is likely that the overall 
+effectiveness of the solution would be reduced which is not consistent 
+with, and is contrary to, the Commission's overarching goal of 
+eliminating the use of contraband wireless devices in correctional 
+facilities. Small and other entities have the opportunity to provide 
+comments on technological, economic, policy, and/or legal developments 
+sufficient to overcome the potential challenges presented by widespread 
+deployment of the various options discussed in the Third FNPRM to 
+combat wireless contraband use in correctional facilities. Importantly, 
+the Third FNPRM gives small entities the ability to submit cost-benefit 
+analyses, comments on economic and other challenges they may face with 
+the potential solutions that have been discussed, and the opportunity 
+to suggest other alternatives for the Commission to consider in any 
+final rules that it may adopt.
+
+F. Federal Rules That May Duplicate, Overlap, or Conflict With the 
+Proposed Rules
+
+    120. None.
+
+List of Subjects
+
+47 CFR Part 1
+
+    Administrative practice and procedure, Communications, Radio, 
+Telecommunications.
+
+47 CFR Part 15
+
+    Communications equipment, Radio.
+
+47 CFR Part 90
+
+    Administrative practice and procedure, Communications, 
+Communications equipment, Radio, Telecommunications.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary.
+
+Proposed Rules
+
+    For the reasons discussed in the preamble, the Federal 
+Communications Commission proposes to amend 47 CFR parts 1, 15, and 90 
+as follows:
+
+PART 1--PRACTICE AND PROCEDURE
+
+0
+1. The authority citation for part 1 continues to read as follows:
+
+    Authority: 47 U.S.C. chs. 2, 5, 9, 13; 28 U.S.C. 2461 note; 47 
+U.S.C. 1754, unless otherwise noted.
+
+0
+2. Section 1.903 is amended by revising paragraph (c) to read as 
+follows:
+
+
+Sec.  1.903  Authorization required.
+
+* * * * *
+    (c) Subscribers. Authority for subscribers to operate mobile or 
+fixed stations in the Wireless Radio Services, except for certain 
+stations in the Rural Radiotelephone Service and except for any fixed 
+or mobile station that is considered a contraband wireless device, as 
+defined in Sec.  1.9003 of this chapter, is included in the 
+authorization held by the licensee providing service to them. 
+Subscribers are not required to apply for, and the Commission does not 
+accept, applications from subscribers for individual mobile or fixed 
+station authorizations in the Wireless Radio Services, and individual 
+authorizations for contraband wireless devices are not permitted. 
+Individual authorizations are required to operate rural subscriber 
+stations in the Rural Radiotelephone Service, except as provided in 
+Sec.  22.703 of this chapter. Individual authorizations are required 
+for end users of certain Specialized Mobile Radio Systems as provided 
+in Sec.  90.655 of this chapter. In addition, certain ships and 
+aircraft are required to be individually licensed under parts 80 and 87 
+of this chapter. See Sec. Sec.  80.13 and 87.18 of this chapter.
+0
+3. Section 1.9003 is amended by revising the definition of ``Contraband 
+Interdiction System'' and by adding the definition of ``Jamming 
+Solution'' in alphabetical order to read as follows:
+
+
+Sec.  1.9003  Definitions
+
+    Contraband Interdiction System. A Contraband Interdiction System is 
+a system that transmits radio communication signals comprised of one or 
+more stations used only in a correctional facility to: provide a 
+jamming solution, subject to the special provisions of Sec.  1.9041 of 
+this chapter; prevent transmissions to or from contraband wireless 
+devices within the boundary of the facility, while being capable of 
+distinguishing transmissions from contraband and non-contraband 
+wireless devices; and/or obtain identifying information from a 
+contraband wireless device.
+* * * * *
+    Jamming Solution. A Jamming Solution is the deployment of RF 
+transmitter(s) within a correctional facility to prevent contraband 
+wireless devices from establishing or maintaining a connection with a 
+network.
+* * * * *
+0
+4. Add Sec.  1.9041 to read as follows:
+
+
+Sec.  1.9041  Special provisions relating to spectrum leasing 
+arrangements for a jamming solution in correctional facilities.
+
+    (a) Eligibility criteria. An entity seeking to engage in spectrum 
+leasing as a lessee under this section may do so if it is a department 
+of corrections with authority over the correctional facility for which 
+the lease is sought, or a solutions provider that has entered into a 
+contract with a department of corrections with authority over the 
+correctional facility for which the lease is sought.
+    (b) Application requirements. An entity seeking to engage in 
+spectrum leasing as a lessee under this section must provide a 
+certification as an attachment to FCC Form 608 stating that the entity:
+    (1) Meets the eligibility criteria; and
+    (2) Seeks to deploy equipment with a valid equipment authorization 
+under part 2 of this chapter.
+
+[[Page 54266]]
+
+    (c) Subleasing. Notwithstanding the provisions of Sec. Sec.  
+1.9020(l) and 1.9030(k), a spectrum lessee authorized to provide a 
+jamming solution may not sublease spectrum usage rights.
+    (d) Construction/performance requirements. Notwithstanding the 
+provisions of Sec. Sec.  1.9020(d)(5)(i) and 1.9030(d)(5)(i), a 
+licensee may not attribute to itself the build-out or performance 
+activities of its spectrum lessee(s) providing a jamming solution for 
+purposes of complying with any applicable performance or build-out 
+requirement.
+    (e) Good faith negotiations. CMRS licensees must negotiate in good 
+faith with entities seeking to deploy a jamming solution in a 
+correctional facility. Upon receipt of a good faith request by such an 
+entity, a CMRS licensee must negotiate toward a lease agreement. If, 
+after a 45-day period, there is no agreement, the entity seeking to 
+operate a jamming solution in the absence of CMRS licensee consent may 
+file an application for a part 90 non-exclusive overlay license for a 
+jamming solution on FCC Form 601, as described in Sec.  90.1403 of this 
+chapter, accompanied by evidence demonstrating its good faith, and the 
+lack of good faith on the part of the CMRS licensee(s), in negotiating 
+a lease arrangement.
+
+PART 15--RADIO FREQUENCY DEVICES
+
+0
+5. The authority citation for part 15 continues to read as follows:
+
+    Authority: 47 U.S.C. 154, 302a, 303, 304, 307, 336, 544a, and 
+549.
+
+0
+6. Section 15.5 is amended by adding paragraph (e) to read as follows:
+
+
+Sec.  15.5  General conditions of operation.
+
+* * * * *
+    (e) Operation of devices as part of a jamming solution, as defined 
+in Sec.  1.9003 of this chapter, is prohibited under this part, even 
+under power levels that comply with the limits set forth in this part. 
+Any jamming solution must be authorized pursuant to Sec. Sec.  1.9041 
+or 90.1401, or a combination thereof, of this chapter.
+0
+7. Section 15.201 is amended by adding paragraph (e) to read as 
+follows:
+
+
+Sec.  15.201  Equipment authorization requirement.
+
+* * * * *
+    (e) An intentional radiator intended for use as part of a jamming 
+solution, as defined in Sec.  1.9003 of this chapter, is not eligible 
+for certification under part 15 pursuant to the Commission's part 2, 
+subpart J Equipment Authorization Procedures.
+
+PART 90--PRIVATE LAND MOBILE RADIO SERVICES
+
+0
+8. The authority citation for part 90 continues to read as follows:
+
+    Authority: 47 U.S.C. 154(i), 161, 303(g), 303(r), 332(c)(7), 
+1401-1473.
+
+0
+9. Add subpart AA, consisting of Sec. Sec.  90.1401 and 90.1403, to 
+read as follows:
+
+Subpart AA Regulations Governing the Licensing of Jamming 
+Solutions.
+
+Sec.
+90.1401 Eligibility.
+90.1403 Application requirements.
+
+
+Sec.  90.1401  Eligibility.
+
+    An entity is eligible to apply for an overlay license for the 
+provision of a jamming solution (as defined in Sec.  1.9003 of this 
+chapter) under this subpart if it:
+    (a) Is a department of corrections with authority over the 
+correctional facility for which authority to implement a jamming 
+solution therein is sought, or is a solutions provider that has entered 
+into a contract with a department of corrections with authority over a 
+correctional facility for which authority to implement a jamming 
+solution therein is sought; and
+    (b) Meets the good faith negotiation requirements specified in 
+Sec.  1.9041(e) of this chapter.
+
+
+Sec.  90.1403  Application requirements.
+
+    (a) Jamming overlay license application requirements. An overlay 
+license applicant seeking authority to provide a jamming solution in a 
+correctional facility must apply using FCC Form 601 in the Commission's 
+Universal Licensing System (ULS) in accordance with part 1, subpart F 
+of this chapter. All modifications or renewals of licenses and 
+associated waiver requests must also be filed on FCC Form 601 in the 
+Commission's Universal Licensing System (ULS) in accordance with part 
+1, subpart F. The entity seeking an overlay license under this section 
+must provide with its FCC Form 601 the following information:
+    (1) A certification regarding its eligibility as specified in Sec.  
+90.1401;
+    (2) A certification that it seeks to deploy equipment as part of a 
+jamming solution with a valid equipment authorization under part 2 of 
+this chapter;
+    (3) A description of the jamming solution to be deployed at the 
+correctional facility demonstrating that the applicant is prepared to 
+deploy a solution that does not interfere with authorized devices, 
+including technical parameters, and the service area associated with 
+the proposed operations; and
+    (4) A declaration in accordance with Sec.  1.16 of this chapter.
+    (b) Authorization of jamming solutions. An overlay license for a 
+jamming solution in a correctional facility is deemed effective only 
+after the following actions are completed:
+    (1) Conditional grant of an overlay license application for the 
+specified geographic area;
+    (2) Satisfaction of the condition(s) of the overlay license 
+following on-site testing at the correctional facility demonstrating to 
+the Commission, through the filing of a certification, that the system 
+functions as expected and within the licensed area, protecting 
+authorized users within and outside the correctional facility from 
+harmful interference; and
+    (3) Grant of final Commission authority to provide a jamming 
+solution at the correctional facility following successful on-site 
+testing.
+
+[FR Doc. 2025-21325 Filed 11-25-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

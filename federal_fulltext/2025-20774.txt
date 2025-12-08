@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52960-52961]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20774]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-N-1109]
+
+
+Agency Information Collection Activities; Submission for Office 
+of Management and Budget Review; Comment Request; Administrative 
+Procedures for Clinical Laboratory Improvement Amendments of 1988 
+Categorization
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is announcing that a 
+proposed collection of information has been submitted to the Office of 
+Management and Budget (OMB) for review and clearance under the 
+Paperwork Reduction Act of 1995.
+
+DATES: Submit written comments (including recommendations) on the 
+collection of information by December 24, 2025.
+
+ADDRESSES: To ensure that comments on the information collection are 
+received, OMB recommends that written comments be submitted to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular information 
+collection by selecting ``Currently under Review--Open for Public 
+Comments'' or by using the search function. The OMB control number for 
+this information collection is 0910-0607. Also include the FDA docket 
+number found in brackets in the heading of this document.
+
+FOR FURTHER INFORMATION CONTACT: Amber Barrett, Office of Operations,
+
+[[Page 52961]]
+
+Food and Drug Administration, Three White Flint North, 10A-12M, 11601 
+Landsdown St., North Bethesda, MD 20852, 301-796-8867, 
+<a href="/cdn-cgi/l/email-protection#8adad8cbd9feebececcaeceeeba4e2e2f9a4ede5fc"><span class="__cf_email__" data-cfemail="93c3c1d2c0e7f2f5f5d3f5f7f2bdfbfbe0bdf4fce5">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In compliance with 44 U.S.C. 3507, FDA has 
+submitted the following proposed collection of information to OMB for 
+review and clearance.
+
+Administrative Procedures for Clinical Laboratory Improvement 
+Amendments of 1988 Categorization
+
+OMB Control Number 0910-0607--Extension
+
+    This information collection helps support implementation of 
+statutory provisions applicable to laboratories that conduct testing on 
+human specimens under CLIA. These requirements are codified in 42 
+U.S.C. 263a and implementing regulations are found in 42 CFR 493. 
+Regulations in 42 CFR 493.17 set forth certain notice requirements and 
+establish test categorization criteria for laboratory tests and are 
+implemented by FDA's Center for Devices and Radiological Health. The 
+guidance document entitled ``Administrative Procedures for CLIA 
+Categorization'' (October 2017) (available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/administrative-procedures-clia-categorization">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/administrative-procedures-clia-categorization</a>) describes procedures FDA uses to assign 
+the complexity category to a device. Typically, FDA assigns complexity 
+categorizations to devices at the time of clearance or approval of the 
+device. In some cases, however, a manufacturer may request CLIA 
+categorization even if FDA is not simultaneously reviewing a 510(k) or 
+premarket approval application. One example is when a manufacturer 
+requests that FDA assign CLIA categorization to a previously cleared 
+device that has changed names since the original CLIA categorization. 
+Another example is when a device is exempt from premarket review. In 
+such cases, the guidance recommends that manufacturers provide FDA with 
+a copy of the package insert for the device and a cover letter 
+indicating why the manufacturer is requesting a categorization (e.g., 
+name change, exempt from 510(k) review). The guidance recommends that 
+in the correspondence to FDA the manufacturer should identify the 
+product code and classification as well as reference to the original 
+510(k) when this is available.
+    In addition, this information collection includes provisions 
+associated with certificates of waiver. The guidance document entitled 
+``Recommendations for Clinical Laboratory Improvement Amendments of 
+1988 (CLIA) Waiver Applications for Manufacturers of In Vitro 
+Diagnostic Devices--Guidance for Industry and FDA Staff'' (February 
+2020) (available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-clinical-laboratory-improvement-amendments-1988-clia-waiver-applications">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-clinical-laboratory-improvement-amendments-1988-clia-waiver-applications</a>) describes recommendations for 
+device manufacturers submitting to FDA an application for determination 
+that a cleared or approved device meets this CLIA standard (CLIA waiver 
+application). The guidance recommends that CLIA waiver applications 
+include a description of the features of the device that make it 
+``simple''; a report describing a hazard analysis that identifies 
+potential sources of error, including a summary of the design and 
+results of flex studies and conclusions drawn from the flex studies; a 
+description of fail-safe and failure alert mechanisms and a description 
+of the studies validating these mechanisms; a description of clinical 
+tests that demonstrate the accuracy of the test in the hands of 
+intended operators; and statistical analyses of clinical study results.
+    In the Federal Register of July 3, 2025 (90 FR 29568), FDA 
+published a 60-day notice requesting public comment on the proposed 
+collection of information. No comments were received.
+    FDA estimates the burden of this collection of information as 
+follows:
+
+                                                     Table 1--Estimated Annual Reporting Burden \1\
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                               Total
+                                                             Number of       Number of     Total annual   Average burden                   operating and
+             Information collection activity                respondents    responses per     responses     per response     Total hours     maintenance
+                                                                            respondent                                                         costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Request for CLIA Categorization.........................              86               5             430               1             430          $2,150
+CLIA Waiver Application Submissions.....................              20               1              20           1,200          24,000         540,000
+                                                         -----------------------------------------------------------------------------------------------
+    Total...............................................  ..............  ..............  ..............  ..............          24,430         542,150
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs associated with this collection of information.
+
+
+                                                   Table 2--Estimated Annual Recordkeeping Burden \1\
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                         Number of                       Average burden
+                  Information collection activity                       Number of       records per      Total annual         per          Total hours
+                                                                      recordkeepers     recordkeeper       records       recordkeeping
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CLIA Waiver Recordkeeping as discussed in FDA Guidance.............              20                1               20            2,800           56,000
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+\1\ There are no capital costs or operating and maintenance costs associated with this collection of information.
+
+    FDA estimates an increase of 30 responses for requests for CLIA 
+categorization and 7 responses for waiver application submission based 
+on recent FDA receipt data to more accurately reflect recent receipts 
+of requests for CLIA categorization and CLIA waiver application 
+submissions. Our total burden for this collection will be 80,430 hours 
+(24,430 reporting + 56,000 recordkeeping). Our estimated burden for the 
+information collection reflects an overall increase of 28,030 hours and 
+a corresponding increase of $190,150 total operating and maintenance 
+costs.
+
+Lowell M. Zeta,
+Acting, Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-20774 Filed 11-21-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,53 +1,118 @@
-from fastapi import FastAPI, UploadFile, File, Form, Depends
-from fastapi.responses import JSONResponse
-from typing import List
-from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, BackgroundTasks
-from fastapi.responses import JSONResponse
-from pathlib import Path
-from dotenv import load_dotenv, dotenv_values
+from fastapi import (
+    FastAPI,
+    UploadFile,
+    File,
+    Form,
+    Depends,
+    HTTPException,
+    BackgroundTasks,
+    Request,
+    Response,
+    APIRouter,
+    Query,
+)
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.gov_reg.local_search import (
+    get_package_ids,
+    load_granules_for_package,
+    load_all_granules,
+    search_granules_in_package,
+    search_local_granules,
+)
+from src.api.obligations_ingest import (
+    extract_obligations_from_text,
+    upsert_obligations_neo4j,
+)
+
+from src.api.models import WorkspaceRegulation
+from src.core.regulations.state_regulations.state_engine  import normalize_regulation
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from src.core.store_file_data import save_extraction
+from src.core.regulations.state_regulations.state_engine import search_state_regulations,normalize_regulation
+from src.api.models import FileExtraction
+from apscheduler.schedulers.background import BackgroundScheduler
+
+from src.core.regulations.gov_reg.package_cache import (
+    refresh_package_cache,
+    get_cached_packages,
+)
+
 import os
+import sys
+import io
+import json
+import tempfile
+import hashlib
+import logging
+import traceback
+import subprocess
+
+import fitz 
+import io
+from src.core.regulations.gov_reg.fulltext_cache import read_file
 from uuid import uuid4
 from datetime import datetime
 from fastapi import Request, Response, HTTPException
 
-from sqlalchemy.orm import Session
-from typing import List, Optional
-import logging, sys, io, json, os, tempfile, hashlib, requests
+from src.core.nomi_file_hub import get_direct_file_url
+from fastapi.responses import FileResponse
+from src.core.regulations.gov_reg.main_router import route
+import mimetypes
+from typing import List, Optional, Dict, Any
+from uuid import uuid4
+from pathlib import Path
 from datetime import datetime, timedelta
+
+from src.core.nomi_file_hub import get_direct_file_url
+from src.api.models import User
+from dotenv import load_dotenv, dotenv_values
+
 from apscheduler.schedulers.background import BackgroundScheduler
-from src.core.LLM import generate_market_insight
-
-# Google API imports
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
-from google.oauth2.credentials import Credentials
-from google.auth.transport.requests import Request
-
-# Local imports for DB
-from src.api.models import ObligationInstance, RemediationTask, EvidenceArtifact, AuditLog, TaskState, Base
+from sqlalchemy.orm import Session
+from src.api.models import (
+    User,                       
+    ObligationInstance,
+    RemediationTask,
+    EvidenceArtifact,
+    AuditLog,
+    TaskState,
+    Base,
+)
+from PyPDF2 import PdfReader
 from src.api.db import get_db, engine, SessionLocal
-from apscheduler.schedulers.background import BackgroundScheduler
-import logging, sys,io,json, os
+
+from src.core.LLM import (
+    generate_market_insight,
+    extract_document_metadata,
+    extract_regulation,
+    run_full_extraction,
+    generate_gap_summary,
+)
+
+from src.core.nomi_file_hub import (
+    save_user_file,
+    list_user_files,
+    get_user_file_path,
+    delete_user_file,
+    get_direct_file_url,
+)
 from src.core.backend import fetch_files_from_source
 from src.core.work import DowComplianceDataFetcher
 from src.core.RAG import ComplianceChecker as RAGComplianceChecker
-from fastapi import FastAPI, Form
-import os, json, requests, logging, sys, traceback,tempfile
-import msal
+from src.core.extract_keywords import read_policy_text, extract_keywords
+from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from google.oauth2.credentials import Credentials
-from fastapi.responses import JSONResponse
 from google.oauth2 import service_account
-from pydantic import BaseModel
-DOWNLOAD_DIR = os.path.abspath(os.path.join(os.getcwd(), "shared_downloads"))
-os.makedirs(DOWNLOAD_DIR, exist_ok=True)
-from fastapi.middleware.cors import CORSMiddleware
-import firebase_admin
 from google.auth.transport.requests import Request as GoogleAuthRequest
+from google.auth.exceptions import RefreshError
+
+import firebase_admin
 from firebase_admin import auth as firebase_auth, credentials
 from fastapi import HTTPException
 
@@ -57,11 +122,75 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from src.core.find_competitors import find_competitors, clean_names, get_company_filings
 from fastapi import APIRouter
-from openai import OpenAI
+# Replace direct OpenAI usage with safe wrapper
+from src.core.client import safe_chat_completion
 import os
 from uuid import uuid4
 from fastapi import Request, Response
 from fastapi import Query
+from fastapi import FastAPI
+from .graph_api import router as graph_router   # plain import works when cwd is the folder
+import sys, subprocess, os
+from typing import Dict, Any
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import PlainTextResponse
+from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
+
+from contextlib import asynccontextmanager
+import threading
+import time
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("[Startup] Building Federal Register cache...")
+    refresh_package_cache()
+    print("[Startup] Launching 24h refresher...")
+    threading.Thread(target=cache_refresher, daemon=True).start()
+
+    print("[Startup] Ensuring Neo4j audit indexes...")
+    try:
+        ensure_audit_indexes()
+    except Exception as e:
+        print(f"Warning: Could not initialize audit indexes: {e}")
+
+    yield
+
+    print("[Shutdown] Application shutting down...")
+
+app = FastAPI(lifespan=lifespan)
+from src.api.obligations_ingest import router as obligations_router
+app.include_router(obligations_router)
+# dev origins — include the exact origin your frontend uses (update if different)
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,   # required for cookies
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.options("/{rest_of_path:path}")
+async def cors_preflight_handler(rest_of_path: str):
+    return PlainTextResponse("", status_code=200)
+
+app.include_router(graph_router)
+from src.api.obligations_ingest import router as obligations_router
+app.include_router(obligations_router)
+app.include_router(audit_router)
+
+
+@app.options("/{rest_of_path:path}")
+async def cors_preflight_handler(rest_of_path: str):
+    # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
+    return PlainTextResponse("", status_code=200)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -71,23 +200,22 @@ else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
 
-app = FastAPI(title="ComplianceAI Platform API", version="2.0")
-load_dotenv()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://nomioc.com",                        
         "https://www.nomioc.com",                       
         "http://localhost:8000",
-        "http://localhost:8501", 
+        "http://localhost:8501",        "http://localhost:5173",       "http://127.0.0.1:5173", 
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# include routers (do this AFTER app is created)
+app.include_router(graph_router)
+# client removed (use safe_chat_completion)
 router = APIRouter()
 
 TOKEN_FILE = "token.json"
@@ -103,8 +231,15 @@ firebase_key_path = (
 if not firebase_admin._apps:
     cred = credentials.Certificate(firebase_key_path)
     firebase_admin.initialize_app(cred)
+    print("\n🔥 BACKEND FIREBASE PROJECT:", cred.project_id)
+    print("📄 Using Firebase key file:", firebase_key_path)
+
     
 SESSIONS = {}
+
+# Folder where files will be stored
+FILEHUB_DIR = os.path.abspath("filehub_storage")
+os.makedirs(FILEHUB_DIR, exist_ok=True)
 
 def store_user_if_new(uid, email):
     """Store a new Firebase user in the database if not already present."""
@@ -119,7 +254,6 @@ def store_user_if_new(uid, email):
                 created_at=datetime.utcnow()
             )
             db.add(user)
-            print("-------------------------------------------------------------I'm here")
             db.commit()
             print(f"[DB] Created new user: {email}")
         else:
@@ -129,6 +263,451 @@ def store_user_if_new(uid, email):
     finally:
         db.close()
 
+class RegulationImport(BaseModel):
+    id: str
+    name: str
+    code: str | None
+    region: str | None
+    category: str | None
+    description: str | None
+    source: str | None
+
+
+class ImportRequest(BaseModel):
+    regulations: list[RegulationImport]
+    
+@app.post("/api/regulations/import")
+def import_regulations(payload: dict, db: Session = Depends(get_db)):
+    user_uid = payload.get("user_uid", "test-user")
+    regulations = payload.get("regulations", [])
+    # print("🚨 IMPORT PAYLOAD:", payload)
+
+    if not regulations:
+        return {"error": "No regulations provided"}
+
+    created_ids = []
+
+    for reg in regulations:
+
+        # check if it already exists for that user
+        existing = (
+            db.query(WorkspaceRegulation)
+              .filter(
+                  WorkspaceRegulation.user_uid == user_uid,
+                  WorkspaceRegulation.regulation_id == reg["id"]
+              )
+              .first()
+        )
+
+        if existing:
+            # skip duplicate entry
+            continue
+
+        # create new mapping entry
+        entry = WorkspaceRegulation(
+            regulation_id = reg["id"],
+            user_uid = user_uid,
+            workspace_status = "added",
+            name = reg.get("name"),
+            code = reg.get("code"),
+            region = reg.get("region"),
+            category = reg.get("category"),
+            risk = reg.get("risk"),
+            description = reg.get("description"),
+            recommended = reg.get("recommended", False),
+            source = reg.get("source"),
+        )
+
+        db.add(entry)
+        created_ids.append(reg["id"])
+
+    db.commit()
+
+    return {
+        "success": True,
+        "added": created_ids,
+        "count": len(created_ids)
+    }
+
+@app.get("/api/state/search")
+async def api_state_search(state: str, query: str):
+    try:
+        raw = search_state_regulations(state, query)
+        normalized = [normalize_regulation(r) for r in raw]
+        return {"results": normalized}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    
+    regs = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": r.regulation_id,      # IMPORTANT — frontend expects "id"
+            "workspace_status": r.workspace_status,
+            "name": r.name,
+            "code": r.code,
+            "region": r.region,
+            "category": r.category,
+            "risk": r.risk,
+            "description": r.description,
+            "recommended": r.recommended,
+            "source": r.source,
+        }
+        for r in regs
+    ]
+
+@app.post("/api/regulations/wizard_search")
+def wizard_search(payload: dict):
+    source_type = payload.get("sourceType")
+    query = payload.get("query", "")
+    mode = payload.get("mode", "")
+    state = payload.get("state", "michigan")
+
+    if not query:
+        return {"error": "Missing query"}
+
+    if source_type == "state":
+        raw = search_state_regulations(state, query)
+        return raw
+
+    source = payload.get("sourceType")
+    mode = payload.get("mode")
+    query = payload.get("query")
+
+    # Utility: convert a granule to frontend shape
+    def map_granule(g):
+        return {
+            "id": g.get("granuleId"),
+            "name": g.get("title"),
+            "code": g.get("cfrCitation"),
+            "region": "Federal",
+            "category": g.get("type"),
+            "risk": None,
+            "description": g.get("summary"),
+            "source": ", ".join(g.get("agencyNames", [])) if g.get("agencyNames") else "Federal Register",
+        }
+
+    if source == "government" and mode == "topic":
+        data = search_local_granules(query)
+        return [map_granule(x) for x in data]
+
+    # --- PACKAGE ID SEARCH ---
+    if source == "government" and mode == "packageId":
+        data = load_granules_for_package(query)
+        return [map_granule(x) for x in data]
+
+    return []
+
+@app.get("/api/users/profile/{uid}")
+def get_user_profile(uid: str, db: Session = Depends(get_db)):
+    """
+    Returns a user's profile for use in the onboarding screen.
+    """
+    user = db.query(User).filter(User.uid == uid).first()
+
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    return {
+        "uid": user.uid,
+        "display_name": user.display_name or "",
+        "full_name": user.full_name or "",
+        "company_name": user.company_name or "",
+        "job_title": user.job_title or "",
+        "department": user.department or "",
+        "industry": user.industry or "",
+    }
+@app.get("/api/regulations/local/granules")
+def api_all_granules():
+    data = load_all_granules()
+    return {
+        "count": len(data),
+        "granules": data
+    } 
+@app.get("/api/regulations/local_search")
+def local_regulation_search(q: str = Query(..., description="Search topic across local granules")):
+
+    try:
+        results = search_local_granules(q)
+        return {"query": q,"results_count": len(results), "results": results,}
+    except Exception as e:
+        return JSONResponse( content={"error": str(e)},status_code=500 )
+
+@app.get("/api/regulations/local/granules/{package_id}")
+def list_package_granules(package_id: str):
+    data = load_granules_for_package(package_id)
+
+    return {
+        "package_id": package_id,
+        "count": len(data),
+        "granules": data
+    }
+
+@app.get("/api/regulations/local/packages")
+def list_local_packages():
+    ids = get_package_ids()
+    return {
+        "count": len(ids),
+        "packages": ids
+    }
+
+
+@app.get("/api/regulations/search")
+def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, or doc number")):
+    """
+    Unified regulation search across:
+    - Federal Register topics
+    - GovInfo package IDs
+    - CFR citations
+    - Document numbers
+    """
+    try:
+        result = route(q)
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
+
+@app.get("/api/workspace/{user_uid}/regulations")
+def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+    items = (
+        db.query(WorkspaceRegulation)
+        .filter(WorkspaceRegulation.user_uid == user_uid)
+        .all()
+    )
+
+    return [
+        {
+            "id": item.regulation_id,
+            "workspace_status": item.workspace_status,
+            "name": item.name,
+            "code": item.code,
+            "region": item.region,
+            "category": item.category,
+            "risk": item.risk,
+            "description": item.description,
+            "recommended": item.recommended,
+            "source": item.source,
+        }
+        for item in items
+    ]
+
+import threading
+import time
+
+@app.get("/api/regulation/{granule_id}")
+async def get_regulation_text(granule_id: str):
+    """
+    Return the full text AND auto-ingest obligations
+    WITHOUT making internal HTTP requests.
+    """
+    filename = f"{granule_id}.txt"
+    text = read_file(filename)
+
+    if not text or text.startswith("Error"):
+        raise HTTPException(status_code=404, detail="Granule not found or unreadable")
+
+    meta = {
+        "fetch_date": datetime.utcnow().isoformat(),
+        "package_id": None,
+        "chunk_id": None,
+    }
+
+    obligations = extract_obligations_from_text(
+        doc_id=granule_id,
+        raw_text=text,
+        meta=meta
+    )
+    print(f"🔍 Extracted {len(obligations)} potential obligations.")
+    print(obligations)
+
+    try:
+        created_count = upsert_obligations_neo4j(obligations)
+    except Exception as e:
+        created_count = 0
+        print("❌ Neo4j error during ingest:", e)
+
+    return {
+        "granule_id": granule_id,
+        "text": text,
+        "ingested": {
+            "ok": True,
+            "created_count": created_count,
+            "obligations": obligations,
+        }
+    }
+
+@app.post("/api/rag/run_compliance")
+async def run_rag_compliance(
+    payload: dict,
+    db: Session = Depends(get_db)
+):
+    """
+    Runs RAG compliance check on a user's uploaded file
+    against selected workspace regulations.
+    """
+    user_uid = payload.get("user_uid")
+    file_id = payload.get("file_id")
+    regulation_ids = payload.get("regulation_ids", [])
+    supplier_id = payload.get("supplier_id")  # Optional supplier ID
+    
+    if not user_uid or not file_id:
+        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+    
+    if not regulation_ids:
+        raise HTTPException(status_code=400, detail="No regulations selected")
+    
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+    
+    file_path, file_entry = result
+    
+    # Load workspace regulations
+    regs = (
+        db.query(WorkspaceRegulation)
+        .filter(
+            WorkspaceRegulation.user_uid == user_uid,
+            WorkspaceRegulation.regulation_id.in_(regulation_ids)
+        )
+        .all()
+    )
+    
+    if not regs:
+        raise HTTPException(status_code=404, detail="No matching regulations found")
+    
+    # Build compliance regulation objects
+    regulation_objs = []
+    for reg in regs:
+        regulation_objs.append({
+            "Reg_ID": reg.regulation_id,
+            "Requirement_Text": reg.description or reg.name or "",
+            "Risk_Rating": reg.risk or "",
+            "Target_Area": reg.category or "",
+            "Dow_Focus": reg.region or ""
+        })
+    
+    # Run compliance check
+    try:
+        checker = RAGComplianceChecker(
+            pdf_path=file_path,
+            regulations=regulation_objs
+        )
+        results = checker.run_check()
+        summary = checker.dashboard_summary(results)
+    except Exception as e:
+        print("RAG ERROR:", e)
+        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+
+    try:
+        audit_save_result = upsert_audit_to_neo4j(
+            user_uid=user_uid,
+            file_id=file_id,
+            supplier_id=supplier_id,
+            results=results,
+            summary=summary,
+            metadata={
+                "file_name": file_entry.get("original_name"),
+                "regulation_count": len(regulation_objs)
+            }
+        )
+        
+        if not audit_save_result.get("ok"):
+            print(f"⚠️ Failed to save audit to Neo4j: {audit_save_result.get('error')}")
+        else:
+            print(f"✅ Audit saved to Neo4j: {audit_save_result.get('audit_id')}")
+        
+    except Exception as e:
+        # Don't fail the whole request if Neo4j save fails
+        print(f" Neo4j save error (non-fatal): {e}")
+        traceback.print_exc()
+    
+    return {
+        "status": "success",
+        "file": file_entry["original_name"],
+        "results": results,
+        "summary": summary,
+        "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None
+    }
+
+
+
+@router.get("/api/v1/obligations/all")
+def get_all_obligations():
+    driver = get_neo4j_driver()
+    with driver.session() as session:
+        result = session.run("""
+            MATCH (o:Obligation)
+            RETURN o ORDER BY o.created_at DESC
+        """)
+        obligations = [record["o"] for record in result]
+
+    driver.close()
+
+    return {
+        "count": len(obligations),
+        "obligations": obligations
+    }
+
+def cache_refresher():
+    while True:
+        time.sleep(60 * 60 * 24)  # 24 hours
+        print("[CacheRefresher] Refreshing Federal Register package cache...")
+        refresh_package_cache()
+
+
+@app.post("/api/workspace/{user_uid}/toggle/{regulation_id}")
+def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(get_db)):
+    item = (
+        db.query(WorkspaceRegulation)
+        .filter(
+            WorkspaceRegulation.regulation_id == regulation_id,
+            WorkspaceRegulation.user_uid == user_uid
+        )
+        .first()
+    )
+
+    if item:
+        item.workspace_status = (
+            "removed" if item.workspace_status == "added" else "added"
+        )
+    else:
+        item = WorkspaceRegulation(
+            regulation_id=regulation_id,
+            user_uid=user_uid,
+            workspace_status="added"
+        )
+        db.add(item)
+
+    db.commit()
+    db.refresh(item)
+
+    #  ONLY RETURN WHAT FRONTEND NEEDS
+    return {"status": item.workspace_status}
+
+@app.get("/api/user/{user_uid}/granules")
+def get_user_granules(user_uid: str, db: Session = Depends(get_db)):
+    regs = (
+        db.query(Regulation)     # or RegulationModel depending on your name
+        .filter(Regulation.user_uid == user_uid)
+        .all()
+    )
+
+    return {
+        "user_uid": user_uid,
+        "granule_ids": [r.id for r in regs],  # r.id *is the granule_id*
+        "count": len(regs),
+    }
+    
 @app.post("/session/login")
 async def session_login(request: Request, response: Response):
     data = await request.json()
@@ -139,11 +718,21 @@ async def session_login(request: Request, response: Response):
         raise HTTPException(status_code=400, detail="Missing idToken")
 
     try:
-        decoded = firebase_auth.verify_id_token(id_token)
+      decoded = firebase_auth.verify_id_token(id_token, clock_skew_seconds=10)
     except Exception as e:
+        print("FIREBASE TOKEN ERROR:", repr(e))
         raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
 
+
     email = decoded.get("email")
+
+    print("\n==============================")
+    print(" /session/login CALLED")
+    print("==============================")
+
+    print(" ID Token (first 50 chars):", id_token[:50] + "..." if id_token else None)
+    print(" UID:", uid)
+    print(" Email from token:", email)
 
     try:
         store_user_if_new(uid, email)
@@ -165,8 +754,8 @@ async def session_login(request: Request, response: Response):
         or FRONTEND_URL.startswith("http://127.0.0.1")
     )
 
-    print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
-
+    # print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
+    # print("BACKEND FIREBASE PROJECT:", cred.project_id)
     if IS_LOCAL:
         response.set_cookie(
             key="session_id",
@@ -189,6 +778,44 @@ async def session_login(request: Request, response: Response):
 
     return {"status": "success", "email": email, "uid": uid}
 
+@app.get("/api/regulations/state")
+def api_state_regulations(state: str, q: str):
+    try:
+        raw = search_state_regulations(state, q)
+        results = [normalize_regulation(r) for r in raw]
+        return {"state": state, "query": q, "results": results}
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=400)
+
+@app.get("/api/users/basic_info/{uid}")
+def get_basic_user_info(uid: str):
+    db = SessionLocal()
+    user = db.query(User).filter(User.uid == uid).first()
+
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    return {
+        "uid": user.uid,
+        "display_name": user.display_name,
+        "department": user.department,
+        "email": user.email
+    }
+
+@app.get("/regulations")
+async def regulations_query(q: str = ""):
+    """
+    Example: /regulations?q=FR-2025-09-16
+    """
+    try:
+        result = route(q)  
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(
+            content={"error": str(e)},
+            status_code=500
+        )
+
 @app.get("/session/me")
 async def get_current_user(request: Request):
     session_id = request.cookies.get("session_id")
@@ -207,15 +834,216 @@ async def logout(request: Request, response: Response):
     response.delete_cookie("session_id")
     return {"status": "logged_out"}
 
+@app.get("/api/filehub/{file_id}/direct")
+async def filehub_direct(file_id: str, user_uid: str):
+    result = get_user_file_path(user_uid, file_id)
+
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result   # <-- HERE is your path and metadata
+
+    return FileResponse(
+        file_path,
+        media_type="application/pdf",
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
-    from PyPDF2 import PdfReader
-    reader = PdfReader(io.BytesIO(pdf_bytes))
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text() or ""
-    return text
 
+    # 1. Try PyMuPDF
+    try:
+        import fitz
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        text = "".join([page.get_text("text") for page in doc])
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PyMuPDF failed:", e)
+
+    # 2. Try PDFMiner
+    try:
+        from pdfminer.high_level import extract_text as pdfminer_extract
+        text = pdfminer_extract(io.BytesIO(pdf_bytes))
+        if text.strip():
+            return text
+    except Exception as e:
+        print("PDFMiner failed:", e)
+
+    # 3. Fallback: PyPDF2
+    try:
+
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() or ""
+        return text
+    except Exception as e:
+        print("PyPDF2 failed:", e)
+
+    return ""
+
+@app.get("/api/filehub/{file_id}")
+async def filehub_get(file_id: str, user_uid: str):
+    """
+    Returns the actual file (PDF, OUT file, etc.)
+    Used by the frontend preview system.
+    """
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    mime_type, _ = mimetypes.guess_type(entry["original_name"])
+    if not mime_type:
+        mime_type = "application/octet-stream"
+
+    return FileResponse(
+        file_path,
+        media_type=mime_type,
+        filename=entry["original_name"],
+        headers={"Content-Disposition": "inline"}
+    )
+
+def run_ingest_script(audit_path: str) -> Dict[str, Any]:
+    project_root = ROOT
+    script_path = project_root / "scripts" / "ingest_audit_to_neo4j.py"
+    if not script_path.exists():    
+        raise FileNotFoundError(f"Ingest script not found at {script_path}")
+
+    python_bin = os.environ.get("PYTHON_BIN", sys.executable)
+    cmd = [python_bin, str(script_path), str(audit_path)]
+    # run and capture
+    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(project_root))
+    # log to server console for debugging
+    print(f"[INGEST] cmd: {cmd}")
+    print(f"[INGEST] returncode: {proc.returncode}")
+    print(f"[INGEST] stdout:\n{proc.stdout}")
+    print(f"[INGEST] stderr:\n{proc.stderr}")
+    return {
+        "returncode": proc.returncode,
+        "stdout": proc.stdout,
+        "stderr": proc.stderr
+    }
+@app.post("/api/filehub/upload")
+async def filehub_upload(
+    file: UploadFile = File(...),
+    user_uid: str = Form(...),
+    file_type: str = Form(...),
+    used_for: str = Form(...),
+    department: str = Form(...)
+):
+    print("Saving file for user:", user_uid)
+    print("Received filename:", file.filename)
+
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    # Read file
+    contents = await file.read()
+
+    # Save metadata + file
+    entry = save_user_file(
+        contents,
+        file.filename,
+        user_uid,
+        file_type,
+        used_for,
+        department
+    )
+
+    # ✅ Correct key name
+    file_id = entry["id"]
+
+    # Get actual saved file path
+    file_path, _ = get_user_file_path(user_uid, file_id)
+    pdf_path = file_path
+
+    # Extract text
+    try:
+        reader = PdfReader(pdf_path)
+        text = "\n".join([(p.extract_text() or "") for p in reader.pages])
+    except Exception as e:
+        print(" PDF extraction failed:", e)
+        text = ""
+
+    # LLM extraction
+    from src.core.metadata_extractor import run_full_extraction
+    extracted = run_full_extraction(text)
+
+    # Save to DB
+    db = SessionLocal()
+    row = db.query(FileExtraction).filter_by(file_id=file_id).first()
+
+    if row:
+        row.extraction = extracted
+    else:
+        db.add(FileExtraction(
+            file_id=file_id,
+            user_uid=user_uid,
+            extraction=extracted
+        ))
+
+    db.commit()
+    db.close()
+
+    return {
+        "status": "success",
+        "file": entry,
+        "extraction": extracted
+    }
+@app.get("/api/filehub")
+async def filehub_list(user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    files = list_user_files(user_uid)
+    return {"files": files}
+@app.get("/api/filehub/{file_id}/view")
+async def filehub_view(file_id: str, user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    # Detect MIME type
+    import mimetypes
+    mime_type, _ = mimetypes.guess_type(entry["original_name"])
+    if not mime_type:
+        mime_type = "application/octet-stream"
+
+    def iterfile():
+        with open(file_path, "rb") as f:
+            yield from f
+
+    return StreamingResponse(
+        iterfile(),
+        media_type=mime_type,
+        headers={
+            "Content-Disposition": f'inline; filename="{entry["original_name"]}"',
+            "X-Content-Type-Options": "nosniff"
+        }
+    )
+
+@app.delete("/api/filehub/{file_id}")
+async def filehub_delete(file_id: str, user_uid: str):
+    if not user_uid:
+        raise HTTPException(status_code=400, detail="Missing user_uid")
+
+    ok = delete_user_file(user_uid, file_id)
+    if not ok:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    return {"status": "deleted", "file_id": file_id}
 
 def get_gdrive_credentials():
     """Safely load Google Drive credentials, auto-delete invalid token.json"""
@@ -401,6 +1229,41 @@ def list_suppliers(
         return []
 
 
+
+@app.post("/api/users/setup_profile")
+def setup_profile(
+    uid: str = Form(...),
+    display_name: str = Form(None),
+    full_name: str = Form(None),
+    company_name: str = Form(None),
+    job_title: str = Form(None),
+    department: str = Form(None),
+    industry: str = Form(None),
+    db: Session = Depends(get_db)
+):
+    user = db.query(User).filter(User.uid == uid).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    # Update fields (only if provided)
+    if full_name: 
+        user.full_name = full_name
+    if display_name:
+        user.display_name = display_name
+    if company_name:
+        user.company_name = company_name
+    if job_title:
+        user.job_title = job_title
+    if department:
+        user.department = department
+    if industry:
+        user.industry = industry
+
+    db.commit()
+
+    return {"status": "success", "user_uid": uid}
+
+
 @app.post("/api/suppliers/{supplier_id}/upload")
 def upload_supplier_file(
     supplier_id: int,
@@ -440,30 +1303,6 @@ async def analyze_company(company_name: str = Form(...)):
         return {"company": company_name, "insight": insight}
     except Exception as e:
         return {"error": str(e)}
-
-def check_federal_register():
-    """Monitor Federal Register for new rules"""
-    try:
-        response = requests.get(REGULATORY_SOURCES["FEDERAL_REGISTER"], timeout=10)
-        data = response.json()
-        new_regulations = []
-        
-        for doc in data.get('results', [])[:5]:
-            reg_id = hashlib.md5(doc['title'].encode()).hexdigest()
-            if reg_id not in processed_regulations:
-                processed_regulations.add(reg_id)
-                new_regulations.append({
-                    "source": "Federal Register",
-                    "title": doc['title'],
-                    "date": doc.get('publication_date'),
-                    "url": f"https://www.federalregister.gov/documents/{doc.get('document_number', '')}",
-                    "impact_areas": ["Legal", "Compliance"],
-                    "regulation_type": "Federal"
-                })
-        return new_regulations
-    except Exception as e:
-        logging.error(f"Federal Register monitoring failed: {e}")
-        return []
 
 def analyze_regulation_impact(regulation: dict):
     """Analyze regulation impact"""
@@ -552,16 +1391,6 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-@app.post("/api/fetch_files")
-async def fetch_files(source: str = Form(...)):
-    try:
-        result = {"status": "ok", "total_requirements": 15, "file_name": file.filename}
-        return result
-    except Exception as e:
-        traceback.print_exc()
-        return {"error": str(e)}
-    finally:
-        cleanup_temp_files()
 async def extract_keywords_api(file: UploadFile = File(...)):
     """Automatically extract compliance-related keywords from uploaded file."""
     # Save uploaded file temporarily
@@ -696,9 +1525,96 @@ async def internal_compliance_audit(file: UploadFile = File(...), response_model
             status_code=500
         )
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+class ComplianceRequest(BaseModel):
+    user_uid: str
+    file_id: str
+    regulation_ids: list[str]
 
+@app.post("/api/rag/run_compliance_payload")
+async def run_compliance_payload(payload: dict):
+    user_uid = payload.get("user_uid")
+    file_id = payload.get("file_id")
+    regulation_ids = payload.get("regulation_ids", [])
+
+    if not user_uid or not file_id:
+        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="Evidence file not found")
+
+    pdf_path, entry = result
+    print("USING FILE:", pdf_path)
+
+    db = next(get_db())
+
+    regs = db.query(WorkspaceRegulation).filter(
+        WorkspaceRegulation.user_uid == user_uid,
+        WorkspaceRegulation.regulation_id.in_(regulation_ids)
+    ).all()
+
+    if not regs:
+        raise HTTPException(status_code=404, detail="No regulations found")
+
+    regulation_objs = []
+    for r in regs:
+        regulation_objs.append({
+            "Reg_ID": r.regulation_id,
+            "Requirement_Text": r.description or r.name or "",
+            "Risk_Rating": r.risk or "",
+            "Target_Area": r.category or "",
+            "Dow_Focus": r.region or ""
+        })
+
+    try:
+        checker = RAGComplianceChecker(
+            pdf_path=pdf_path,
+            regulations=regulation_objs
+        )
+        results = checker.run_check()
+        summary = checker.dashboard_summary(results)
+        print("\n================= 🔍 DEBUG: RAW RESULTS =================")
+        print(results)
+        print("=========================================================\n")
+
+        print("================= 🔍 DEBUG: SUMMARY =====================")
+        print(summary)
+        print("=========================================================\n")
+    except Exception as e:
+        print("❌ RAG ERROR:", e)
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+
+    audit_save = upsert_audit_to_neo4j(
+        user_uid=user_uid,
+        file_id=file_id,
+        supplier_id=None,
+        results=results,
+        summary=summary,
+        metadata={}
+    )
+
+    if not audit_save["ok"]:
+        raise HTTPException(status_code=500, detail=audit_save["error"])
+
+    audit_id = audit_save["audit_id"]
+
+    return {
+        "status": "success",
+        "audit_id": audit_id,                 
+        "file": entry["original_name"],
+
+        "results": results,
+        "summary": summary,
+
+        "compliance_score": summary.get("compliance_score"),
+        "total_requirements": summary.get("total_requirements"),
+        "gap_count": summary.get("gap_count"),
+        "high_risk_count": summary.get("high_risk_gaps"),
+        "flagged_departments": summary.get("departments_flagged", []),
+    }
+
+# external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)
 async def external_intelligence(industry: str):
     prompt = (
@@ -711,18 +1627,22 @@ async def external_intelligence(industry: str):
             '{"regulation": "...", "summary": "...", "link": "..."}'
         ']}'
     )
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are an enterprise compliance assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=600,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are an enterprise compliance assistant."},
+        {"role": "user", "content": prompt}
+    ]
+    # call safe wrapper
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=600, temperature=0.2)
+    # handle wrapper response format (robust)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = [json.loads(content)]
     except Exception:
@@ -972,6 +1892,37 @@ async def auto_generate_compliance(
         "tasks_created": len(created_tasks),
         "obligations": [{"id": o.id, "description": o.description} for o in created_obligations]
     })
+@app.get("/api/audit/run/{file_id}")
+async def run_audit_on_file(file_id: str, user_uid: str):
+    """
+    Runs full compliance audit on a stored FileHub file.
+    """
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    with open(file_path, "rb") as f:
+        pdf_bytes = f.read()
+
+    text = extract_text_from_pdf_bytes(pdf_bytes)
+
+    if not os.path.exists("sample_regulations.json"):
+        raise HTTPException(status_code=500, detail="sample_regulations.json missing")
+
+    with open("sample_regulations.json", "r") as f:
+        regulations = json.load(f)
+    from src.core.RAG import ComplianceChecker
+    checker = ComplianceChecker(pdf_path=file_path, regulations=regulations)
+
+    results = checker.run_check()
+    return {
+        "status": "success",
+        "file": entry["original_name"],
+        "results": results,
+        "total": len(results)
+    }
 
 @app.post("/api/trigger_regulatory_scan")
 async def trigger_regulatory_scan(background_tasks: BackgroundTasks):
@@ -1001,6 +1952,52 @@ def log_audit(db: Session, entity_type: str, entity_id: int, action: str, user: 
     )
     db.add(entry)
     db.commit()
+@app.get("/api/regulations/library")
+def get_regulation_library():
+    """
+    Loads and returns a flat list of regulations from sample_regulations.json.
+    Works whether JSON is a list OR a dict of categories.
+    """
+    json_path = "sample_regulations.json"
+
+    if not os.path.exists(json_path):
+        raise HTTPException(status_code=500, detail="sample_regulations.json not found")
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+
+        # If file is LIST → return directly
+        if isinstance(raw, list):
+            library = []
+            for r in raw:
+                library.append({
+                    "id": r.get("id"),
+                    "name": r.get("title"),
+                    "region": r.get("regulation_type", "N/A"),
+                    "description": r.get("text", "No description provided."),
+                })
+
+            return {"library": library}
+
+        # If file is DICT with categories → flatten structure
+        if isinstance(raw, dict):
+            library = []
+            for region, regs in raw.items():
+                for r in regs:
+                    library.append({
+                        "id": r.get("id"),
+                        "name": r.get("title"),
+                        "region": region,
+                        "description": r.get("text", "No description provided."),
+                    })
+            return {"library": library}
+
+        raise HTTPException(status_code=500, detail="Invalid regulations JSON format")
+
+    except Exception as e:
+        print("REGULATIONS ERROR:", e)
+        raise HTTPException(status_code=500, detail="Failed to load regulations")
 
 @app.get("/")
 async def root():
@@ -1059,9 +2056,7 @@ async def add_user_to_gcs(request: Request):
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
     
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+# rag_analysis: replaced direct OpenAI call with safe_chat_completion
 @app.post("/api/rag_compliance_analysis", response_model=None)
 async def rag_analysis(
     file: UploadFile = File(...),
@@ -1079,18 +2074,21 @@ async def rag_analysis(
         "Always return a JSON array, even for one regulation. Do not return a single object. Array of JSON objects, nothing else."
     )
 
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a compliance audit expert."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=800,
-        temperature=0.2,
-        response_format={"type": "json_object"},
-    )
+    messages = [
+        {"role": "system", "content": "You are a compliance audit expert."},
+        {"role": "user", "content": prompt}
+    ]
+
+    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=800, temperature=0.2)
+    if isinstance(resp, dict):
+        if resp.get("ok"):
+            content = resp.get("text")
+        else:
+            content = resp.get("error") or str(resp)
+    else:
+        content = resp
+
     import json
-    content = response.choices[0].message.content
     try:
         findings = json.loads(content)
         # Normalize output to always be a list of findings
@@ -1106,7 +2104,45 @@ async def rag_analysis(
         "details": findings
     })
 
+@app.get("/api/filehub/{file_id}/extract")
+async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db)):
+    saved = db.query(FileExtraction).filter(
+        FileExtraction.file_id == file_id,
+        FileExtraction.user_uid == user_uid
+    ).first()
 
+    if saved:
+        return {
+            "status": "success",
+            "file_id": file_id,
+            "file_name": saved.file_name,
+            "extraction": saved.extraction,
+        }
+
+    result = get_user_file_path(user_uid, file_id)
+    if not result:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path, entry = result
+
+    with open(file_path, "rb") as f:
+        file_bytes = f.read()
+
+    text = extract_text_from_pdf_bytes(file_bytes)
+    metadata = extract_document_metadata(text)
+
+    if not metadata.get("ok"):
+        raise HTTPException(status_code=500, detail="Metadata extraction failed")
+
+    # Save extraction
+    inserted = save_extraction(db, file_id, user_uid, metadata["metadata"])
+
+    return {
+        "status": "success",
+        "file_id": file_id,
+        "file_name": entry["original_name"],
+        "extraction": inserted.extraction
+    }
 
 if __name__ == "__main__":
     import uvicorn

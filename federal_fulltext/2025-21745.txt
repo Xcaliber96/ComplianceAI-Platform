@@ -1,0 +1,521 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55335-55339]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21745]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Office of the Secretary
+
+[Docket No. DOT-OST-2025-1359]
+
+
+Privacy Act of 1974; System of Records
+
+AGENCY: Office of the Departmental Chief Information Officer, Office of 
+the Secretary of Transportation, Department of Transportation (DOT).
+
+ACTION: Notice of a modified System of Records.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Privacy Act of 1974, the Department of 
+Transportation (DOT), Office of the Secretary (OST), proposes to 
+rename, update, and reissue an existing system of records titled, 
+``DOT/ALL 7--Departmental Accounting and Financial Information System 
+(DAFIS) and Delphi Accounting System.'' The name of this system of 
+records notice will be changed to ``DOT/ALL 7--DOT Financial Management 
+Records''. The records in the system are used to perform transaction 
+based financial management functions and mandated government reporting.
+
+DATES: Submit comments on or before January 2, 2026. The Department may 
+publish an amended Systems of Records Notice considering any comments 
+received. This modified system will be effective immediately upon 
+publication. The routine uses will be effective January 2, 2026.
+
+ADDRESSES: You may submit comments, identified by docket number DOT-
+OST-2025-1359 by one of the following methods:
+    <bullet> Federal e-Rulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments.
+    <bullet> Mail: Department of Transportation Docket Management, Room 
+W12-140, 1200 New Jersey Ave. SE, Washington, DC 20590.
+    <bullet> Hand Delivery or Courier: West Building Ground Floor, Room 
+W12-140, 1200 New Jersey Ave. SE, between 9 a.m. and 5 p.m. ET, Monday 
+through Friday, except Federal holidays.
+    <bullet> Instructions: You must include the agency name and docket 
+number DOT-OST-2025-1359. All comments received will be posted without 
+change to <a href="https://www.regulations.gov">https://www.regulations.gov</a>, including any personal 
+information provided. You may review the Department of Transportation's 
+complete Privacy Act statement in the Federal Register published on 
+April 11, 2000 (65 FR 19477-78).
+    Privacy Act: Anyone is able to search the electronic form of all 
+comments received in any of our dockets by the name of the individual 
+submitting the comment (or signing the comment, if submitted on behalf 
+of an association, business, labor union, etc.).
+    Docket: For access to the docket to read background documents or 
+comments received, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> or to the street 
+address listed above. Follow the online instructions for accessing the 
+docket.
+
+FOR FURTHER INFORMATION CONTACT: For questions, please contact Karyn 
+Gorman, Departmental Chief Privacy Officer, Privacy Office, Department 
+of Transportation, Washington, DC 20590; email: <a href="/cdn-cgi/l/email-protection#0f7f7d66796e6c764f6b607b21686079"><span class="__cf_email__" data-cfemail="8dfdffe4fbeceef4cde9e2f9a3eae2fb">[email&#160;protected]</span></a>; or 
+202-603-8321.
+
+SUPPLEMENTARY INFORMATION:
+
+Notice Updates
+
+    This Notice includes both substantive changes and non-substantive 
+changes to the previously published Notice. The substantive changes 
+have been made to system name, system location, system manager, 
+authority for maintenance of the system, categories of individuals 
+covered by the system, categories of records in the system, purpose of 
+the system, record source categories, Routine Uses maintained in the 
+system, policies and practices for storing, retrieval, retention and 
+disposal of the records in the system, and administrative, technical 
+and physical safeguards. Non-substantive changes have been made to 
+record access procedures as well as revisions to align with the 
+requirements of Office of Management and Budget Memoranda (OMB) A-108 
+and to ensure consistency with other Notices issued by the Department 
+of Transportation.
+
+Background
+
+    In accordance with the Privacy Act of 1974, the Department of 
+Transportation proposes to modify and re-issue an existing system of 
+records titled ``DOT/ALL 7--Departmental Accounting and Financial 
+Information System (DAFIS) and Delphi Accounting System'' and change 
+the name to ``DOT/ALL 7--DOT Financial Management Records''. This 
+system of records covers records collected and maintained for the 
+purposes of performing transaction based financial management functions 
+and mandated government reporting. The following substantive changes 
+have been made to the Notice:
+    1. System Name: Is updated to ``DOT/ALL 7--DOT Financial Management 
+Records'' from ``DOT/ALL 7--Departmental Accounting and Financial 
+Information System (DAFIS) and Delphi Accounting System'' to more 
+accurately reflect the records covered under the Notice.
+    2. System Location: Is updated to remove outdated references to 
+Operating Administrations and specify the location of DOT's Federal 
+shared service provider.
+    3. System Manager: This Notice updates the system manager name and 
+address. The previous address listed was U.S. DOT, 400 7th Street SW, 
+Washington, DC 20590.
+    4. Authority: This Notice updates the authorities to include 49 
+U.S.C. 322 (DOT general powers), 31 U.S.C. 3512 (b) (agency authority 
+to maintain financial management systems and internal controls), 26 
+U.S.C. 6109 (Identifying numbers), 41 CFR Chapters 300-304 (Federal 
+Travel Regulations) and E.O. 9397 (SSN) as amended (relating to use of 
+SSNs) to expand and include relevant regulations to align with the 
+collection of personally identifiable information and data in the 
+system.
+    5. Purpose: Is updated to clarify how the records are used in the 
+system and for what purpose and to include non-DOT federal agencies on 
+a fee for use basis.
+
+[[Page 55336]]
+
+    6. Categories of Individuals: Updated categories of individuals to 
+clearly define and identify who is covered by this system of records to 
+include employees, individuals engaged with business activities as 
+invitational travelers, vendors, debtors, or grantees, for DOT 
+Operating Administrations, and other federal agencies on a fee-for-use 
+basis.
+    7. Categories of Records: Updated to better describe the type of 
+records maintained in the system to include individuals' contact 
+information, bank account information, travel reimbursement data, 
+government-issued charge cards, and sole proprietor information serving 
+as an individual.
+    8. Record source Categories: Updated to remove reference to the 
+legacy DOT Consolidated Uniform Payroll System and replaced with 
+current source categories from which individual's data is obtained.
+    9. Routine Uses: Updated routine uses to include system specific 
+routine uses that allows disclosing of data obtained from the General 
+Services Administration (GSA) System for Award Management, and added 
+disclosure for Treasury's Do Not Pay Working System to support 
+Executive Order 14249, Protecting America's Bank Account Against Fraud, 
+Waste, and Abuse, and align with recent requirements specified in the 
+August 20, 2025 OMB Memo M-25-32, Preventing Improper Payments and 
+Protecting Privacy Through Do Not Pay. This notice also modifies the 
+routine uses by adding and updating the specific DOT General Routine 
+Uses that apply to this system.
+    10. Records Storage: Updated policies and practices for the storage 
+of records to inform the public that records are no longer stored on 
+magnetic tape or disks, microfiche, and paper and now are digitized and 
+input records are maintained on electronic storage media.
+    11. Records Retrieval: Updated the policies and practices for the 
+retrieval of records to inform the public records may be retrieved by a 
+unique supplier number assigned by the system and queried by Social 
+Security Number (SSN), or Tax Identification Number (TIN).
+    12. Retention and Disposal: Updated the policies and practices for 
+the retention of records to reflect updated NARA record schedules. The 
+previous NARA record schedule no longer applies to the records in the 
+system.
+    13. Administrative, Technical, and Physical Safeguards: Updated to 
+account for the agency's transition from paper to electronic 
+recordkeeping and the Information Technology measures that are in place 
+to protect the records.
+    The following non-substantive changes have been made to the Notice:
+    14. Record Access: Updated the record access procedures to reflect 
+signatures on signed requests for records must either be notarized or 
+accompanied by a statement made under penalty of perjury in compliance 
+with 28 U.S.C. 1746.
+
+Privacy Act
+
+    The Privacy Act (5 U.S.C. 552a) governs the means by which the 
+Federal Government collects, maintains, and uses personally 
+identifiable information (PII) in a System of Records. A ``System of 
+Records'' is a group of any records under the control of a Federal 
+agency from which information about individuals is retrieved by name or 
+other personal identifier. The Privacy Act requires each agency to 
+publish in the Federal Register a System of Records Notice (SORN) 
+identifying and describing each System of Records the agency maintains, 
+including the purposes for which the agency uses PII in the system, the 
+routine uses for which the agency discloses such information outside 
+the agency, and how individuals to whom a Privacy Act record pertains 
+can exercise their rights under the Privacy Act (e.g., to determine if 
+the system contains information about them and to contest inaccurate 
+information). In accordance with 5 U.S.C. 552a(r), DOT has provided a 
+report of this system of records to the Office of Management and Budget 
+and to Congress.
+SYSTEM NAME AND NUMBER:
+    Department of Transportation, DOT/ALL 7--DOT Financial Management 
+Records
+
+SECURITY CLASSIFICATION:
+    Unclassified.
+
+SYSTEM LOCATION:
+    (1) Department of Transportation, DOT Accounting offices and 
+selected program, policy, and budget Offices. Records may also be 
+maintained in regional Departmental and Operating Administration 
+locations that prepare and provide input information for controlling 
+and facilitating the accounting and reporting of financial transactions 
+for this system.
+    (2) Federal Aviation Administration's Mike Monroney Aeronautical 
+Center. Serving as a Federal shared service provider centrally 
+maintaining the system software and data centers and providing 
+accounting and financial management services to federal agencies.
+
+SYSTEM MANAGER(S):
+    Office of Financial Management, (B-30), Office of the Secretary, 
+1200 New Jersey Ave. SE, Washington, DC 20590.
+
+AUTHORITY FOR MAINTENANCE OF THE SYSTEM:
+    49 U.S.C. 322, 31 U.S.C. 3512(b), 26 U.S.C. 6109, 41 CFR Chapters 
+300-304 and E.O. 9397 (SSN) as amended.
+
+PURPOSE(S) OF THE SYSTEM:
+    The purpose of the system is to support financial management for 
+Federal agencies by providing a standard solution for controlling and 
+facilitating the accounting and reporting of financial transactions. 
+Records are collected to perform transaction based financial management 
+functions to include procurement payables, inventory, general ledger, 
+financial reporting, budgeting, accounts payable, employee 
+reimbursements, accounts receivable, purchasing, project accounting, 
+payroll summary, financial statements and mandated government reporting 
+for DOT and other non-DOT federal agencies on a fee-for-use basis.
+
+CATEGORIES OF INDIVIDUALS COVERED BY THE SYSTEM:
+    Current and former U.S. federal employees of DOT and non-DOT 
+federal agencies obtaining accounting and financial management services 
+on a fee-for-service basis. Individuals engaged with business 
+activities, or have previously conducted business activities, as 
+invitational travelers (traveling at the agency request), vendors, 
+debtors, or grantees with the DOT and non-DOT federal agencies 
+obtaining accounting and financial management services on a fee-for-
+service basis. Only records reflecting personal information are subject 
+to the Privacy Act. The system also contains records concerning 
+corporations, other business entities, and organizations whose records 
+are not subject to the Privacy Act.
+
+CATEGORIES OF RECORDS IN THE SYSTEM:
+    Individual's Name, Social Security Number (SSN), Tax Identification 
+Number (TIN), home and/or business address, personal and/or business 
+telephone number, personal and/or business email address, personal and/
+or business bank account information, government-issued charge card 
+information, and financial transactions related to the DOT and non-DOT 
+federal agencies obtaining accounting and financial management services 
+on a fee-for-service basis.
+
+RECORD SOURCE CATEGORIES:
+    Individuals, contractors, vendors to include sole proprietors, 
+grantees, other
+
+[[Page 55337]]
+
+government agencies, documents submitted to or received from specific 
+offices maintaining the records in the performance of their duties. 
+Records are collected from Department of Interior's Federal Personnel 
+Payment System (FPPS) for employee data required to support employee 
+reimbursements, from GSA's System of Award Management (SAM) to obtain 
+grantee and vendor data for financial transactions, and from the GSA's 
+Smart Pay Vendor travel application for traveler data to support travel 
+reimbursements.
+
+ROUTINE USES OF RECORDS MAINTAINED IN THE SYSTEM, INCLUDING CATEGORIES 
+OF USERS AND PURPOSES OF SUCH USES:
+    In addition to those disclosures generally permitted under 5 U.S.C. 
+552a(b) of the Privacy Act, all or a portion of the records or 
+information contained in this system may be disclosed outside DOT as a 
+routine use pursuant to 5 U.S.C. 552a(b)(3) as follows:
+    System Specific Uses:
+    1. Records may be disclosed in this system as a routine use to 
+federal agencies or organizations for fiscal operations related to 
+employee reimbursements and to facilitate the distribution of labor 
+charges for cost accounting purposes.
+    2. Information in this system from GSA's SAM may be disclosed as a 
+routine use for the purpose of processing payments to vendors and 
+grantees doing business with DOT and non-DOT federal agencies using 
+DOT's financial and accounting system.
+    3. To the U.S. Department of the Treasury when disclosure of the 
+information is relevant to review payment and award eligibility through 
+the Do Not Pay Working System for the purposes of identifying, 
+preventing, or recouping improper payments to an applicant for, or 
+recipient of, Federal funds, including funds disbursed by a state 
+(meaning a state of the United States, the District of Columbia, a 
+territory or possession of the United States, or a federally recognized 
+Indian tribe) in a state-administered, federally funded program.
+    Departmental General Routine Uses:
+    4. In the event that a system of records maintained by DOT to carry 
+out its functions indicates a violation or potential violation of law, 
+whether civil, criminal or regulatory in nature, and whether arising by 
+general statute or particular program pursuant thereto, the relevant 
+records in the system of records may be referred, as a routine use, to 
+the appropriate agency, whether Federal, State, local or foreign, 
+charged with the responsibility of investigating or prosecuting such 
+violation or charged with enforcing or implementing the statute, or 
+rule, regulation, or order issued pursuant thereto.
+    5. A record from this system of records may be disclosed, as a 
+routine use, to a Federal, State, or local agency maintaining civil, 
+criminal, or other relevant enforcement information or other pertinent 
+information, such as current licenses, if necessary to obtain 
+information relevant to a DOT decision concerning the hiring or 
+retention of an employee, the issuance of a security clearance, the 
+letting of a contract, or the issuance of a license, grant or other 
+benefit.
+    6. A record from this system of records may be disclosed, as a 
+routine use, to a Federal agency, in response to its request, in 
+connection with the hiring or retention of an employee, the issuance of 
+a security clearance, the reporting of an investigation of an employee, 
+the letting of a contract, or the issuance of a license, grant, or 
+other benefit by the requesting agency, to the extent that the 
+information is relevant and necessary to the requesting agency's 
+decision on the matter.
+    7a. Routine Use for Disclosure for Use in Litigation. It shall be a 
+routine use of the records in this system of records to disclose them 
+to the Department of Justice or other Federal agency conducting 
+litigation when--
+    (a) DOT, or any agency thereof, or
+    (b) Any employee of DOT or any agency thereof, in his/her official 
+capacity, or
+    (c) Any employee of DOT or any agency thereof, in his/her 
+individual capacity where the Department of Justice has agreed to 
+represent the employee, or
+    (d) The United States or any agency thereof, where DOT determines 
+that litigation is likely to affect the United States, is a party to 
+litigation or has an interest in such litigation, and the use of such 
+records by the Department of Justice or other Federal agency conducting 
+the litigation is deemed by DOT to be relevant and necessary in the 
+litigation, provided, however, that in each case, DOT determines that 
+disclosure of the records in the litigation is a use of the information 
+contained in the records that is compatible with the purpose for which 
+the records were collected.
+    7b. Routine Use for Agency Disclosure in Other Proceedings. It 
+shall be a routine use of records in this system to disclose them in 
+proceedings before any court or adjudicative or administrative body 
+before which DOT or any agency thereof, appears, when--
+    (a) DOT, or any agency thereof, or
+    (b) Any employee of DOT or any agency thereof in his/her official 
+capacity, or
+    (c) Any employee of DOT or any agency in his/her individual 
+capacity where DOT has agreed to represent the employee, or
+    (d) The United States or any agency thereof, where DOT determines 
+that the proceeding is likely to affect the United States, is a party 
+to the proceeding or has an interest in such proceeding, and DOT 
+determines that use of such records is relevant and necessary in the 
+proceeding, provided, however, that in each case, DOT determines that 
+disclosure of the records in the proceeding is a use of the information 
+contained in the records that is compatible with the purpose for which 
+the records were collected.
+    8. The information contained in this system of records will be 
+disclosed to the Office of Management and Budget, OMB, in connection 
+with the review of private relief legislation as set forth in OMB 
+Circular No. A-19 at any stage of the legislative coordination and 
+clearance process as set forth in that Circular.
+    9. Disclosure may be made to a Congressional office from the record 
+of an individual in response to an inquiry from the Congressional 
+office made at the request of that individual. In such cases, however, 
+the Congressional office does not have greater rights to records than 
+the individual. Thus, the disclosure may be withheld from delivery to 
+the individual where the file contains investigative or actual 
+information or other materials which are being used, or are expected to 
+be used, to support prosecution or fines against the individual for 
+violations of a statute, or of regulations of the Department based on 
+statutory authority. No such limitations apply to records requested for 
+Congressional oversight or legislative purposes; release is authorized 
+under 49 CFR 10.35(9).
+    10. One or more records from a system of records may be disclosed 
+routinely to the National Archives and Records Administration in 
+records management inspections being conducted under the authority of 
+44 U.S.C. 2904 and 2906.
+    11. DOT may make available to another agency or instrumentality of 
+any government jurisdiction, including State and local governments, 
+listings of names from any system of records in DOT for use in law 
+enforcement activities, either civil or criminal, or to expose 
+fraudulent claims, regardless of the stated purpose for the collection 
+of the information in the system of records. These enforcement 
+activities are generally
+
+[[Page 55338]]
+
+referred to as matching programs because two lists of names are checked 
+for match using automated assistance. This routine use is advisory in 
+nature and does not offer unrestricted access to systems of records for 
+such law enforcement and related antifraud activities. Each request 
+will be considered on the basis of its purpose, merits, cost 
+effectiveness and alternatives using Instructions on reporting computer 
+matching programs to the Office of Management and Budget, OMB, 
+Congress, and the public, published by the Director, OMB, dated 
+September 20, 1989.
+    12. It shall be a routine use of the information in any DOT system 
+of records to provide to the Attorney General of the United States, or 
+his/her designee, information indicating that a person meets any of the 
+disqualifications for receipt, possession, shipment, or transport of a 
+firearm under the Brady Handgun Violence Prevention Act. In case of a 
+dispute concerning the validity of the information provided by DOT to 
+the Attorney General, or his/her designee, it shall be a routine use of 
+the information in any DOT system of records to make any disclosures of 
+such information to the National Background Information Check System, 
+established by the Brady Handgun Violence Prevention Act, as may be 
+necessary to resolve such dispute.
+    13a. To appropriate agencies, entities, and persons when (1) DOT 
+suspects or has confirmed that there has been a breach of the system of 
+records; (2) DOT has determined that as a result of the suspected or 
+confirmed breach there is a risk of harm to individuals, DOT (including 
+its information systems, programs, and operations), the Federal (3) the 
+disclosure made to such agencies, entities, and persons is reasonably 
+necessary to assist in connection with DOT's efforts to respond to the 
+suspected or confirmed breach or to prevent, minimize, or remedy such 
+harm.
+    13b. To another Federal agency or Federal entity, when DOT 
+determines that information from this system of records is reasonably 
+necessary to assist the recipient agency or entity in (1) responding to 
+a suspected or confirmed breach or (2) preventing, minimizing, or 
+remedying the risk of harm to individuals, the recipient agency or 
+entity (including its information systems, programs, and operations), 
+the Federal Government, or national security, resulting from a 
+suspected or confirmed breach.
+    14. DOT may disclose records from this system, as a routine use, to 
+the Office of Government Information Services for the purpose of (a) 
+resolving disputes between FOIA requesters and Federal agencies and (b) 
+reviewing agencies' policies, procedures, and compliance in order to 
+recommend policy changes to Congress and the President.
+    15. DOT may disclose records from this system, as a routine use, to 
+contractors and their agents, experts, consultants, and others 
+performing or working on a contract, service, cooperative agreement, or 
+other assignment for DOT, when necessary to accomplish an agency 
+function related to this system of records.
+    16. DOT may disclose records from this system, as a routine use, to 
+an agency, organization, or individual for the purpose of performing 
+audit or oversight operations related to this system of records, but 
+only such records as are necessary and relevant to the audit or 
+oversight activity. This routine use does not apply to intra-agency 
+sharing authorized under Section (b)(1) of the Privacy Act.
+    17. DOT may disclose from this system, as a routine use, records 
+consisting of, or relating to, terrorism information (6 U.S.C. 
+485(a)(5)), homeland security information (6 U.S.C. 482(f)(1)), or Law 
+enforcement information (Guideline 2 Report attached to White House 
+Memorandum, ``Information Sharing Environment, November 22, 2006) to a 
+Federal, State, local, tribal, territorial, foreign government and/or 
+multinational agency, either in response to its request or upon the 
+initiative of the Component, for purposes of sharing such information 
+as is necessary and relevant for the agencies to detect, prevent, 
+disrupt, preempt, and mitigate the effects of terrorist activities 
+against the territory, people, and interests of the United States of 
+America, as contemplated by the Intelligence Reform and Terrorism 
+Prevention Act of 2004 (Pub. L. 108-458) and Executive Order 13388 
+(October 25, 2005).
+
+POLICIES AND PRACTICES FOR STORAGE OF RECORDS:
+    Records are stored on electronic storage media in accordance with 
+the safeguards below.
+
+POLICIES AND PRACTICES FOR RETRIEVAL OF RECORDS:
+    Records are retrieved by a unique supplier number assigned by the 
+system for both individuals and vendors; records can be queried by 
+name, SSN, or TIN.
+
+POLICIES AND PRACTICES FOR RETENTION AND DISPOSAL OF RECORDS:
+    Records in the system are maintained in accordance with NARA 
+records schedule and retention: GRS 1.1: Financial Management and 
+Reporting Records, Item 10, DAA-GRS-2013-0003-0001; Financial 
+transaction records related to procuring goods and services, paying 
+bills, collecting debts, and accounting is the only that applies. 
+Temporary. Destroy 6 years after final payment or cancellation, but 
+longer dependent on business need.
+
+ADMINISTRATIVE, TECHNICAL, AND PHYSICAL SAFEGUARDS:
+    Administrative Procedures: Access to the records is limited to 
+person(s) responsible for servicing the records in performance of their 
+official duties, who are properly screened, trained on policies and 
+procedures, and cleared for need to-know. Personnel who access the 
+system and its data must take security awareness training and sign a 
+Rules of Behavior initially (prior to access) and, at least, annually 
+thereafter. Technical: Regular monitoring of users and the system are 
+implemented to ensure only authorized personnel have access to 
+information in the system. Strict controls are in place to minimize the 
+compromise of stored or accessed in the system. Physical: The system 
+and the data are housed in secure data center.
+
+RECORD ACCESS PROCEDURES:
+    Individuals seeking access to records about themselves contained in 
+this system should address inquiries to the System Manager at the 
+address identified in ``System Manager and Address'' above. Request 
+must be in writing, include SORN ID and name of this system of records 
+notice, information on the Operating Administration-Department, 
+specific date range and specific type of records seeking. Request must 
+be signed by the requester, must be notarized as required by 28 U.S.C. 
+1746 in the following format: If executed without the United States: 
+``I declare (or certify, verify, or state) under penalty of perjury 
+under the laws of the United States of America that the foregoing is 
+true and correct. Executed on (date). (Signature)''. If executed within 
+the United States, its territories, possessions, or commonwealths: ``I 
+declare (or certify, verify, or state) under penalty of perjury that 
+the foregoing is true and correct. Executed on (date). (Signature)''.
+
+CONTESTING RECORD PROCEDURES:
+    See ``Record Access Procedures'' above.
+
+[[Page 55339]]
+
+NOTIFICATION PROCEDURES:
+    See ``Record Access Procedures'' above.
+
+EXEMPTIONS PROMULGATED FOR THE SYSTEM:
+    None.
+
+HISTORY:
+    A full notice of this system of records, Departmental Accounting 
+and Financial Information System (DAFIS) and Delphi Accounting System, 
+was published in the Federal Register on April 11, 2000 (65 FR 19481).
+
+    Issued in Washington, DC.
+Karyn Gorman,
+Chief Privacy Officer.
+[FR Doc. 2025-21745 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-9X-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

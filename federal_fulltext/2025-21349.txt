@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54839-54840]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21349]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+[Docket No. FAA-2025-0780]
+
+
+Agency Information Collection Activities: Requests for Comments; 
+Clearance of a Renewed Approval of Information Collection: Service 
+Availability Prediction Tool (SAPT)
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995, FAA 
+invites public comments about our intention to request the Office of 
+Management and Budget (OMB) approval to renew an information 
+collection. The collection involves planned routes of flight and 
+aircraft avionics equipment. The information to be collected will be 
+used to predict whether an aircraft flying the proposed route of flight 
+will have sufficient position accuracy and integrity for the following: 
+Navigation, via the Receiver Autonomous Integrity Monitoring (RAIM) 
+SAPT; Surveillance, via the Automatic Dependent Surveillance--Broadcast 
+(ADS-B) SAPT. In addition, the website will allow operators to request 
+authorization to operate in ADS-B-Out rule airspace with aircraft that 
+do not fully meet the ADS-B Out requirements via: ADS-B Deviation 
+Authorization Pre-flight Tool (ADAPT).
+
+DATES: Written comments should be submitted by January 27, 2026.
+
+ADDRESSES: Please send written comments:
+    By Electronic Docket: <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a> (Enter 
+docket number into search field).
+    By email: Mr. Jamal A. Wilson by email at: <a href="/cdn-cgi/l/email-protection#c3a9a2aea2afedb4aaafb0acad83a5a2a2eda4acb5"><span class="__cf_email__" data-cfemail="2d474c404c41035a44415e42436d4b4c4c034a425b">[email&#160;protected]</span></a>; 
+phone: (202) 267-4301.
+
+FOR FURTHER INFORMATION CONTACT: For technical questions concerning 
+this action, contact Mr. James Kenney by email at <a href="/cdn-cgi/l/email-protection#355f545850461b5e505b5b4c755354541b525a43"><span class="__cf_email__" data-cfemail="6b010a060e1845000e0505122b0d0a0a450c041d">[email&#160;protected]</span></a>; 
+phone: (703) 624-3695.
+
+SUPPLEMENTARY INFORMATION: 
+    Public Comments Invited: You are asked to comment on any aspect of 
+this information collection, including (a) Whether the proposed 
+collection of
+
+[[Page 54840]]
+
+information is necessary for FAA's performance; (b) the accuracy of the 
+estimated burden; (c) ways for FAA to enhance the quality, utility and 
+clarity of the information collection; and (d) ways that the burden 
+could be minimized without reducing the quality of the collected 
+information. The agency will summarize and/or include your comments in 
+the request for OMB's clearance of this information collection.
+    OMB Control Number: 2120-0780.
+    Title: Service Availability Prediction Tool (SAPT).
+    Form Numbers: eXtensible markup language (XML) format, ADS-B SAPT 
+flight information entry form, and ADS-B authorization request at 
+<a href="https://sapt.faa.gov">https://sapt.faa.gov</a>.
+    Type of Review: Renewal of an information collection.
+    Background:
+    Under 14 CFR 91.103, pilots must use all available information in 
+planning their flight. SAPT is a web-based tool to assist aircraft 
+operators in achieving compliance with the requirements of 14 CFR 
+91.103, 91.225. and 91.227, and/or AC 90-100A Change 2, Paragraph 10a. 
+(5). To ensure that they will meet the performance requirements for the 
+duration of the flight, pilots may use the FAA-provided pre-flight 
+Service Availability Prediction Tool (SAPT) to determine predicted 
+navigation or surveillance availability before a flight. The SAPT has 
+three main components: the Receiver Autonomous Integrity Monitoring 
+(RAIM) SAPT, the ADS-B SAPT, and the ADS-B Deviation Authorization Pre-
+Flight Tool (ADAPT). The SAPT models the GPS constellation in order to 
+assess the predicted accuracy and integrity of GPS position information 
+used in navigation and surveillance for a few GPS receiver Technical 
+Standard Orders (TSOs).
+    The RAIM SAPT is intended mainly for pilots, dispatchers, and 
+commercial operators using TSO-C129 equipment to check their predicted 
+navigation horizontal protection level (HPL). It incorporates TSO-C129 
+GPS RAIM predictions to check the availability of GPS RAIM satisfying 
+the RNAV requirements of AC 90-100A Change 2, Paragraph 10(5)).
+    The ADS-B SAPT is provided to help operators comply with 14 CFR 
+91.225 and 91.227 by predicting whether operators will meet regulatory 
+requirements.
+    Information collected via ADS-B SAPT is comparable to that provided 
+by pilots when they file flight plans, with some additional information 
+about aircraft position source TSO and related capabilities. The ADS-B 
+SAPT prediction is based on the ability of the aircraft's position 
+source (i.e., GPS receiver) to meet performance requirements specified 
+in FAA TSOs C129, C129a, C145c/C146c, and C196, as well as the 
+predicted status of the GPS constellation.
+    The ADS-B SAPT predicts whether GPS position information will be 
+sufficient throughout the flight to meet the performance requirements 
+of 14 CFR 91.227(c)(1)(i) and (iii). If a waypoint is in rule airspace 
+and the aircraft's position source is not predicted to meet the 
+performance requirements of 14 CFR 91.227, the ADS-B SAPT checks for 
+the availability of back-up surveillance at that waypoint.
+    Operators of aircraft equipped with TSO-C129 (SA-On) GPS receivers 
+must run a pre-flight prediction. The operator may use their own 
+prediction tool.
+    ADAPT is mandatory for operators desiring to apply for an ATC 
+authorization, per 14 CFR 91.225(g), to fly in ADS-B Out rule airspace 
+using aircraft with avionics that do not meet the ADS-B equipage 
+requirements. ADAPT allows operators to create an air traffic 
+authorization request to operate in ADS-B Out rule airspace when (1) 
+the aircraft is without ADS-B equipment; (2) that equipment is 
+inoperative; or (3) their avionics are not expected to meet the ADS-B 
+performance requirements as identified in 14 CFR 91.227(c)(1)(i) and 
+(iii). Operators who wish to submit an ADAPT request must complete the 
+ADS-B SAPT analysis using information entered into the flight 
+information entry form before filing the ADAPT request.
+
+Information Collected
+
+    Information collected by SAPT is comparable to that provided in FAA 
+flight plans, with some additional information about the position 
+source. The ADS-B SAPT flight information entry form requires the 
+aircraft call sign but does not collect other personal identification 
+information about the operator. ADAPT does collect personal information 
+to include name, telephone number, email address. The information is 
+necessary to enable the FAA ATC Authorization Authority (AAA) to reply 
+with either an approval, rejection, or pending decision. It also 
+collects additional information about the flight, including US Civil 
+Aircraft Registry Number or ICAO Address.
+
+Respondents
+
+    These prediction tools are primarily intended for pilots and 
+dispatchers; and for anyone who is planning a flight which passes 
+through U.S. sovereign airspace, using an aircraft whose GPS 
+receiver(s) is/are not guaranteed to meet certain performance 
+requirements or whose aircraft is not equipped to meet the requirements 
+of 14 CFR 91.225. Since SAPT does not collect personal information from 
+either ADS-B SAPT or RAIM users, we do not have transactions assigned 
+to individual respondents.
+
+Frequency
+
+    As part of the flight planning process, as required by FAA policy. 
+Predictions are made in evaluating a route of flight, which may be more 
+than one route per flight. We estimate that the total 2026 levels will 
+be:
+    Automated transactions, requiring insignificant effort per 
+transaction:
+
+<bullet> RAIM SAPT--3,792,901
+<bullet> ADS-B SAPT--9,667,021
+
+    Manual web transactions:
+
+<bullet> ADS-B SAPT Web Form--18,102 transactions, approximately 885 
+hours.
+<bullet> ADAPT--4,823 transactions, including DoD/military, which takes 
+approximately 344 hours.
+
+Estimated Average Burden per Response
+
+    RAIM SAPT and ADS-B SAPT can be automated as part of the dispatch 
+process by operators or flight service providers, thus eliminating 
+manual data-entry.
+    RAIM SAPT--Insignificant, as all transactions are automated in 
+flight planning systems.
+    ADS-B SAPT--5 minutes or less for transactions entered in the 
+flight plan form.
+    ADAPT--7 minutes or less (includes up to 2 minutes to check FAA 
+email response).
+
+Estimated Total Annual Burden
+
+    Cumulative total burden for 2026:
+    RAIM SAPT--Insignificant additional burden.
+    ADS-B SAPT--Approximately 1,207 hours (for reporting) and 302 hours 
+(for record-keeping).
+    ADAPT--Approximately 402 hours (for reporting) and 80 hours (for 
+record-keeping).
+
+    Issued in Washington, DC.
+Jamal Abdul Wilson,
+Project Manager, AJM-42, ADS-B Program Office, PMO Surveillance 
+Services, Air Traffic Organization, FAA.
+[FR Doc. 2025-21349 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

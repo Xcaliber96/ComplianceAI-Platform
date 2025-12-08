@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Page 54646]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21498]
+
+
+
+[[Page 54646]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF EDUCATION
+
+[Docket No.: ED-2025-SCC-0943]
+
+
+Agency Information Collection Activities; Comment Request; Form 
+for Maintenance of Effort Waiver Requests
+
+AGENCY: Office of Elementary and Secondary Education (OESE), Department 
+of Education (ED).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act (PRA) of 1995, 
+the Department is proposing an extension without change to a currently 
+approved information collection request (ICR).
+
+DATES: Interested persons are invited to submit comments on or before 
+January 27, 2026.
+
+ADDRESSES: To access and review all the documents related to the 
+information collection listed in this notice, please use <a href="http://www.regulations.gov">http://www.regulations.gov</a> by searching the Docket ID number ED-2025-SCC-0943. 
+Comments submitted in response to this notice should be submitted 
+electronically through the Federal eRulemaking Portal at <a href="http://www.regulations.gov">http://www.regulations.gov</a> by selecting the Docket ID number or via postal 
+mail, commercial delivery, or hand delivery. If the <a href="http://regulations.gov">regulations.gov</a> 
+site is not available to the public for any reason, the Department will 
+temporarily accept comments at <a href="/cdn-cgi/l/email-protection#672e242308040c02132a001527020349000811"><span class="__cf_email__" data-cfemail="064f454269656d63724b617446636228616970">[email&#160;protected]</span></a>. Please include the 
+docket ID number and the title of the information collection request 
+when requesting documents or submitting comments. Please note that 
+comments submitted after the comment period will not be accepted. 
+Written requests for information or comments submitted by postal mail 
+or delivery should be addressed to Todd Stephenson, U.S. Department of 
+Education, Office of Elementary and Secondary Education, 400 Maryland 
+Avenue SW, Washington, DC 20202.
+
+FOR FURTHER INFORMATION CONTACT: For specific questions related to 
+collection activities, please contact Todd Stephenson, (202) 987-1599.
+
+SUPPLEMENTARY INFORMATION: The Department, in accordance with the 
+Paperwork Reduction Act of 1995 (PRA) (44 U.S.C. 3506(c)(2)(A)), 
+provides the general public and Federal agencies with an opportunity to 
+comment on proposed, revised, and continuing collections of 
+information. This helps the Department assess the impact of its 
+information collection requirements and minimize the public's reporting 
+burden. It also helps the public understand the Department's 
+information collection requirements and provide the requested data in 
+the desired format. The Department is soliciting comments on the 
+proposed information collection request (ICR) that is described below. 
+The Department is especially interested in public comment addressing 
+the following issues: (1) is this collection necessary to the proper 
+functions of the Department; (2) will this information be processed and 
+used in a timely manner; (3) is the estimate of burden accurate; (4) 
+how might the Department enhance the quality, utility, and clarity of 
+the information to be collected; and (5) how might the Department 
+minimize the burden of this collection on the respondents, including 
+through the use of information technology. Please note that written 
+comments received in response to this notice will be considered public 
+records.
+    Title of Collection: Form for Maintenance of Effort Waiver 
+Requests.
+    OMB Control Number: 1810-0693.
+    Type of Review: Extension without change to a currently approved 
+ICR.
+    Respondents/Affected Public: State, Local, and Tribal Governments.
+    Total Estimated Number of Annual Responses: 20.
+    Total Estimated Number of Annual Burden Hours: 1,600.
+    Abstract: Section 8521(a) of the Elementary and Secondary Education 
+Act of 1965, as amended by the Every Student Succeeds Act (ESEA) 
+provides that a local educational agency (LEA) may receive funds under 
+Title I, Part A and other ESEA ``covered programs'' for any fiscal year 
+only if the State educational agency (SEA) finds that either the 
+combined fiscal effort per student or the aggregate expenditures of the 
+LEA and the State with respect to the provision of free public 
+education by the LEA for the preceding fiscal year was not less than 90 
+percent of the combined fiscal effort or aggregate expenditures for the 
+second preceding fiscal year. This provision is the maintenance of 
+effort (MOE) requirements for LEAs under the ESEA. If an LEA fails to 
+meet the MOE requirement, under section 8521(b) of the ESEA, the SEA 
+must reduce the amount of funds allocated under the programs covered by 
+the MOE requirement in any fiscal year in the exact proportion by which 
+the LEA fails to maintain effort by falling below 90 percent of either 
+the combined fiscal effort per student or aggregate expenditures, if 
+the LEA has also failed to maintain effort for 1 or more of the 5 
+immediately preceding fiscal years. In reducing an LEA's allocation 
+because it failed to meet the MOE requirement, the SEA uses the measure 
+most favorable to the LEA. Section 8521(c) gives the U.S. Department of 
+Education (ED) the authority to waive the ESEA's MOE requirement for an 
+LEA if it would be equitable to grant the waiver due to an exceptional 
+or uncontrollable circumstance such as a natural disaster or a change 
+in the organizational structure of the LEA or a precipitous decline in 
+the LEA's financial resources. If an MOE waiver is granted, the 
+reduction required by section 8521(b) does not occur for that year. A 
+request for a waiver of the MOE requirement is discretionary. Only an 
+LEA that has failed to maintain effort and that believes its failure 
+justifies a waiver would request one. To review an MOE waiver request, 
+ED relies primarily on expenditure, revenue, and other data relevant to 
+an LEA's request provided by the SEA. To assist an SEA with submitting 
+this information, ED developed an MOE waiver form as part of the 2009 
+Title I, Part A Waiver Guidance, which covered a range of waivers that 
+ED invited at that time. The purpose of this request is to renew 
+approval for the MOE waiver form. This collection includes burden at 
+the SEA level.
+
+Ross Santy,
+Chief Data Officer, Office of Planning, Evaluation and Policy 
+Development.
+[FR Doc. 2025-21498 Filed 11-26-25; 8:45 am]
+BILLING CODE 4000-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

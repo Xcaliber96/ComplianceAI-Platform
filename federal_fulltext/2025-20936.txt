@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53323-53324]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20936]
+
+
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-1230; FR ID 319080]
+
+
+Information Collection Being Reviewed by the Federal 
+Communications Commission Under Delegated Authority
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As part of its continuing effort to reduce paperwork burdens, 
+and as required by the Paperwork Reduction Act (PRA) of 1995, the 
+Federal Communications Commission (FCC or the Commission) invites the 
+general public and other Federal agencies to take this opportunity to 
+comment on the following information collection. Comments are requested 
+concerning: whether the proposed collection of information is necessary 
+for the proper performance of the functions of the Commission, 
+including whether the information shall have practical utility; the 
+accuracy of the Commission's burden estimate; ways to enhance the 
+quality, utility, and clarity of the information collected; ways to 
+minimize the burden of the collection of information on the 
+respondents, including the use of automated collection techniques or 
+other forms of information technology; and ways to further reduce the 
+information collection burden on small business concerns with fewer 
+than 25 employees.
+    The FCC may not conduct or sponsor a collection of information 
+unless it displays a currently valid control number. No person shall be 
+subject to
+
+[[Page 53324]]
+
+any penalty for failing to comply with a collection of information 
+subject to the PRA that does not display a valid Office of Management 
+and Budget (OMB) control number.
+
+DATES: Written PRA comments should be submitted on or before January 
+26, 2026. If you anticipate that you will be submitting comments, but 
+find it difficult to do so within the period of time allowed by this 
+notice, you should advise the contact listed below as soon as possible.
+
+ADDRESSES: Direct all PRA comments to Nicole Ongele, FCC, via email 
+<a href="/cdn-cgi/l/email-protection#affffdeeefc9cccc81c8c0d9"><span class="__cf_email__" data-cfemail="c595978485a3a6a6eba2aab3">[email&#160;protected]</span></a> and to <a href="/cdn-cgi/l/email-protection#66080f05090a0348090801030a032600050548010910"><span class="__cf_email__" data-cfemail="d7b9beb4b8bbb2f9b8b9b0b2bbb297b1b4b4f9b0b8a1">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: For additional information about the 
+information collection, contact Nicole Ongele, (202) 418-2991.
+
+SUPPLEMENTARY INFORMATION: 
+    OMB Control Number: 3060-1230.
+    Title: Enterprise Service and Public Safety Interference Complaint 
+Intake Form.
+    Form Number: FCC-5624.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for-profit entities, Not-for-profit 
+institutions, Federal government, and State, Local, or Tribal 
+government.
+    Number of Respondents and Responses: 400 respondents; 400 
+responses.
+    Estimated Time per Response: 0.5 hours (30 minutes).
+    Frequency of Response: On occasion reporting requirement.
+    Obligation to Respond: Voluntary. The statutory authority for this 
+information collection is contained in contained in 47 U.S.C. 154(i)-
+(j), 155, and 303(r).
+    Total Annual Burden: 200 hours.
+    Total Annual Cost: No Cost.
+    Needs and Uses: Commercial spectrum licensees, spectrum licensees 
+with public safety or safety of life missions, and federal agencies 
+will have a single portal through which to submit complaints of RF 
+interference. This online RF interference intake portal will enhance 
+the Commission's ability to efficiently triage and assign RF 
+interference complaints to field agents for further investigation, 
+mitigation, and/or enforcement action, as appropriate.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary, Office of the Secretary.
+[FR Doc. 2025-20936 Filed 11-24-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

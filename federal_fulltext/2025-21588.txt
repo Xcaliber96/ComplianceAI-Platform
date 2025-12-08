@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55090-55091]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21588]
+
+
+-----------------------------------------------------------------------
+
+CONSUMER PRODUCT SAFETY COMMISSION
+
+[Docket No. CPSC-2009-0044]
+
+
+Agency Information Collection Activities; Extension of 
+Collection; Safety Standard for Cigarette Lighters
+
+AGENCY: Consumer Product Safety Commission.
+
+ACTION: Notice of information collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As required by the Paperwork Reduction Act of 1995 (PRA), the 
+Consumer Product Safety Commission (CPSC or Commission) announces that 
+the Commission has submitted to the Office of Management and Budget 
+(OMB) a request for extension of approval of information collection 
+requirements associated with the Safety Standard for Cigarette 
+Lighters. OMB previously approved the collection of information under 
+control number 3041-0116. OMB's most recent extension of approval will 
+expire on November 30, 2025. On September 22, 2025, CPSC published a 
+notice in the Federal Register to announce the agency's intention to 
+seek extension of approval of the collection of information. The 
+Commission received two, out of scope, public comments. Therefore, by 
+publication of this notice, the Commission announces that CPSC has 
+submitted to OMB a request for extension of approval of that collection 
+of information.
+
+[[Page 55091]]
+
+
+DATES: Submit comments on the collection of information by December 29, 
+2025.
+
+ADDRESSES: Submit comments about this request by email: 
+<a href="/cdn-cgi/l/email-protection#4c03051e0d133f392e21253f3f2523220c23212e6229233c622b233a"><span class="__cf_email__" data-cfemail="723d3b20332d0107101f1b01011b1d1c321d1f105c171d025c151d04">[email&#160;protected]</span></a> or fax: 202-395-6881. Comments by mail 
+should be sent to the Office of Information and Regulatory Affairs, 
+Attn: OMB Desk Officer for the CPSC, Office of Management and Budget, 
+Room 10235, 725 17th Street NW, Washington, DC 20503. Written comments 
+that are sent to OMB also should be submitted electronically at <a href="http://www.regulations.gov">http://www.regulations.gov</a>, under Docket No. CPSC-2009-0044.
+
+FOR FURTHER INFORMATION CONTACT: Cynthia Gillham, Consumer Product 
+Safety Commission, 4330 East-West Highway, Bethesda, MD 20814; (301) 
+504-7791, or by email to: <a href="/cdn-cgi/l/email-protection#3d4d4f5c7d5e4d4e5e135a524b"><span class="__cf_email__" data-cfemail="7000021130130003135e171f06">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: CPSC seeks to renew the following currently 
+approved collection of information:
+    Title: Safety Standard for Cigarette Lighters.
+    OMB Number: 3041-0116.
+    Type of Review: Renewal of collection.
+    Frequency of Response: On occasion.
+    Affected Public: Manufacturers and importers of cigarette lighters.
+    General Description of Collection: The Safety Standard for 
+Cigarette Lighters (16 CFR part 1210) addresses the risks of death and 
+burn injury associated with fires accidentally started by children 
+playing with cigarette lighters. The standard requires certain test 
+protocols, as well as recordkeeping and reporting requirements. 16 CFR 
+part 1210, subpart B. In addition, section 14(a) of the Consumer 
+Product Safety Act (CPSA) requires manufacturers, importers, and 
+private labelers of a consumer product subject to a consumer product 
+safety standard to issue a certificate stating that the product 
+complies with all applicable consumer product safety standards. 15 
+U.S.C. 2063(a). Section 14(a) of the CPSA also requires that the 
+certificate of compliance must be based on a test of each product or 
+upon a reasonable testing program. Id.
+    Estimated Number of Respondents: Based on averaging available data 
+from fiscal years 2021 (used in the last PRA renewal) and 2024, CPSC 
+estimates approximately 30 firms will respond to the collection 
+annually.
+    Estimated Time per Response: The burden associated with the 
+standard includes the time spent compiling the test records. The burden 
+associated with compiling a test record for a new model is expected to 
+be about 90 hours per model. There is no burden associated with the 
+comparison lighters.\1\ For recordkeeping, the time for a new model is 
+estimated to be 20 hours and for a comparison lighter it is estimated 
+to be three hours. For reporting, approximately one hour per product 
+will be required for manufacturers to submit information to CPSC.
+---------------------------------------------------------------------------
+
+    \1\ Under Sec.  1210.14, if a manufacturer has tested one 
+lighter model, and then wishes to distribute another lighter model 
+that differs from the first model only in features that would not 
+have an adverse effect on child resistance, the second model need 
+not be tested in accordance with Sec.  1210.4.
+---------------------------------------------------------------------------
+
+    Total Estimated Annual Burden: CPSC expects four new models to be 
+subject to initial qualification testing annually and approximately 139 
+lighters comparable to previously tested models, comparison lighters, 
+to be subject to ongoing testing annually.
+    The burden associated with the standard includes the cost for 
+compiling and maintaining the test records, either by the firm or by 
+outside contractors. As previously mentioned, comparison lighters do 
+not have a burden associated with compiling a test record, including 
+costs. If the firm elects to use an outside contractor, the estimated 
+cost for compiling a test record for a new model is about $25,000 on 
+average.\2\ If all four new lighter models are tested annually by 
+outside contractors, the cost is expected to be about $100,000. The 
+total time to compile a test record for the four models, if conducted 
+in-house, is approximately 360 hours. The total time for recordkeeping 
+of new models is expected to be 80 hours (20 hours x 4 models). For 139 
+comparison lighters, the estimated burden for recordkeeping is 417 
+hours (139 models x 3 hours). For reporting, CPSC estimates 143 total 
+hours for reporting (4 new models + 139 comparison lighters). The 
+annual total number of hours is expected to be 1,000 hours (360 testing 
+hours + 497 record keeping hours + 143 reporting hours) per year.
+---------------------------------------------------------------------------
+
+    \2\ This estimate is based on an approximate cost of $22,000 of 
+compiling a test record per panel, but for a few models a second 
+test panel will be required.
+---------------------------------------------------------------------------
+
+    Total Estimated Annual Cost to Respondents: CPSC estimates that 
+hourly compensation for the time required for compiling a test record 
+is $77.19 per hour (U.S. Bureau of Labor Statistics, ``Employer Costs 
+for Employee total compensation for management, professional, and 
+related workers in goods-producing industries: <a href="https://www.bls.gov/news.release/archives/ecec_06132025.pdf">https://www.bls.gov/news.release/archives/ecec_06132025.pdf</a>). The total cost to industry 
+for this regulation is expected to be within the range of $27,788 to 
+$100,000 per year, depending on whether the testing is performed in-
+house or outsourced.
+    For the recordkeeping burden, CPSC estimates that the hourly 
+compensation is $41.59 (U.S. Bureau of Labor Statistics, ``Employer 
+Costs for Employee Compensation,'' March 2025, Table 4, total 
+compensation for all sales and office workers in goods-producing, 
+private industries: <a href="https://www.bls.gov/news.release/archives/ecec_06132025.pdf">https://www.bls.gov/news.release/archives/ecec_06132025.pdf</a>). The estimated annual cost of recordkeeping for new 
+models rounded to the nearest dollar is $3,327 (80 hours x $41.59). The 
+estimated annual cost of recordkeeping for comparison lighters rounded 
+to the nearest dollar is $17,343 (417 hours x $41.59). In total, the 
+estimated recordkeeping burden for new lighter models and comparison 
+lighters is 497 hours (80 hours + 417 hours). The estimated total 
+recordkeeping costs for new lighter models and comparison lighters is 
+$20,670 ($3,327 + $17,343).
+    For the reporting burden, CPSC estimates the hourly compensation 
+for the time required for submitting the form to be $41.59 (U.S. Bureau 
+of Labor Statistics, ``Employer Costs for Employee Compensation,'' 
+March 2025, Table 4, total compensation for all sales and office 
+workers in goods-producing, private industries: <a href="https://www.bls.gov/news.release/archives/ecec_06132025.pdf">https://www.bls.gov/news.release/archives/ecec_06132025.pdf</a>). Therefore, rounded to the 
+nearest whole dollar, the estimated cost of reporting is $5,947.
+    CPSC estimates that the total burden cost for firms to prepare, 
+maintain, and submit testing records to the CPSC is within the range of 
+$54,406 to $126,618, depending upon whether the firms choose to conduct 
+testing in-house or through outsourcing.
+
+Alberta E. Mills,
+Secretary Consumer Product Safety Commission.
+[FR Doc. 2025-21588 Filed 11-28-25; 8:45 am]
+BILLING CODE 6355-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

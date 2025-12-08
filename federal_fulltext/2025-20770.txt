@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52957-52958]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20770]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Administration for Children and Families
+
+[OMB #: 0970-0467]
+
+
+Submission for Office of Management and Budget Review; 
+Trafficking Victim Assistance Program Data
+
+AGENCY: Office on Trafficking in Persons, Administration for Children 
+and Families, Department of Health and Human Services.
+
+ACTION: Request for public comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office on Trafficking in Persons (OTIP), Administration 
+for Children and Families (ACF), U.S. Department of Health and Human 
+Services (HHS), is requesting an extension of approval with revisions 
+of an Office of Management and Budget (OMB) approved information 
+collection: Trafficking Victim Assistance Program
+
+[[Page 52958]]
+
+(TVAP) Data (OMB #0970-0467; expiration date February 28, 2026).
+
+DATES: Comments due December 24, 2025.
+
+ADDRESSES: The public may view and comment on this information 
+collection request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202511-0970-005">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202511-0970-005</a>. You can also obtain copies of the 
+proposed collection of information by emailing 
+<a href="/cdn-cgi/l/email-protection#076e69616864686b6b6264736e686947666461296f6f7429606871"><span class="__cf_email__" data-cfemail="0960676f666a6665656c6a7d60666749686a6f2761617a276e667f">[email&#160;protected]</span></a>. Identify all emailed requests by the title 
+of the information collection. You can also obtain copies of the 
+proposed collection of information by emailing 
+<a href="/cdn-cgi/l/email-protection#f1989f979e929e9d9d949285989e9fb1909297df999982df969e87"><span class="__cf_email__" data-cfemail="563f38303935393a3a3335223f393816373530783e3e2578313920">[email&#160;protected]</span></a>. Identify all emailed requests by the title 
+of the information collection.
+
+SUPPLEMENTARY INFORMATION: 
+    Description: The Trafficking Victims Protection Act of 2000 (TVPA), 
+as amended, authorizes the Secretary of HHS to expand benefits and 
+services to victims of severe forms of trafficking in persons in the 
+U.S. Through TVAP, grant recipients provide time-limited comprehensive 
+case management services to confirmed and potential victims of a severe 
+form of human trafficking, as defined by TVPA, as amended, who are 
+seeking or have received HHS certification. Case management services 
+must be provided to qualified persons directly by full-time case 
+managers that are staffed by the prime recipient and may also be 
+provided through a network of per capita service providers.
+    OTIP proposes to continue to collect information to measure grant 
+project performance, provide technical assistance to grant recipients, 
+assess program outcomes, inform program evaluation, respond to 
+congressional inquiries and mandated reports, and inform policy and 
+program development that is responsive to the needs of victims.
+    The information collection captures information on participant 
+demographics (e.g., age, sex, type of trafficking experienced, service 
+location) and services provided, along with aggregate information on 
+outreach activities conducted, subrecipients enrolled, and dollars 
+spent per service. Minor nonsubstantive updates have been made to 
+performance indicators under this collection to simplify response 
+options or to bring the collection into alignment with OTIP's grant 
+recipient reporting database, the Anti-Trafficking Information 
+Management System (ATIMS).
+    Respondents: TVAP grant recipients and clients of those programs, 
+specifically: TVAP and the Aspire: Child Trafficking Victim Assistance 
+Demonstration Program funding recipients.
+
+Annual Burden Estimates
+
+    Based on review of performance data received pertaining to the 
+number of clients served through TVAP programs and funding levels, the 
+total number of respondents for each form has been lowered. The time to 
+complete each form remains the same.
+
+----------------------------------------------------------------------------------------------------------------
+                                                Total number of  Average  burden
+          Instrument             Total number     responses per     hours  per     Total burden    Annual burden
+                                of respondents     respondent        response          hours           hours
+----------------------------------------------------------------------------------------------------------------
+Client Characteristics and                5300                1             0.75            3975            1325
+ Program Entry................
+Client Case Closure...........            5300                1            0.167             885             295
+Barriers to Service Delivery               120                4            0.167              80              27
+ and Monitoring...............
+Client Service Use and                    5300                1             0.25            1325             442
+ Delivery.....................
+Client Outreach...............             120                4              0.3             144              48
+Subrecipient Enrollment.......              60                3            0.167              30              10
+Client Service Costs..........              60                1              0.5              30              10
+----------------------------------------------------------------------------------------------------------------
+
+    Estimated Total Annual Burden Hours: 2,157.
+    Authority: 22 U.S.C. 7105
+
+Mary C. Jones,
+ACF/OPRE Certifying Officer.
+[FR Doc. 2025-20770 Filed 11-21-25; 8:45 am]
+BILLING CODE 4184-73-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

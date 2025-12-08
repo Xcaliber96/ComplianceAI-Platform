@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54340-54341]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21244]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+National Institutes of Health
+
+
+Proposed Collection; 60-Day Comment Request; Information Program 
+on Clinical Trials: Maintaining a Registry and Results Databank 
+(National Library of Medicine)
+
+AGENCY: National Institutes of Health, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the requirement of the Paperwork Reduction 
+Act of 1995 to provide opportunity for public comment on proposed data 
+collection projects, the National Library of Medicine (NLM), National 
+Institutes of Health (NIH) will publish periodic summaries of proposed 
+projects to be submitted to the Office of Management and Budget (OMB) 
+for review and approval.
+
+DATES: Comments regarding this information collection are best assured 
+of having their full effect if received within 60 days of the date of 
+this publication.
+
+FOR FURTHER INFORMATION CONTACT: To obtain a copy of the data 
+collection plans and instruments, submit comments in writing, or 
+request more information on the proposed project, contact: Vivian Le, 
+Office of Administration, National Library of Medicine, 8600 Rockville 
+Pike, Building 38A, 4N401Q5, Bethesda, Maryland, 20894 or call non-
+toll-free number 301-827-6328 or Email your request, including your 
+address to: <a href="/cdn-cgi/l/email-protection#93e5fae5faf2fdbdfff6d3fdfafbbdf4fce5"><span class="__cf_email__" data-cfemail="a3d5cad5cac2cd8dcfc6e3cdcacb8dc4ccd5">[email&#160;protected]</span></a>. Formal requests for additional plans and 
+instruments must be requested in writing.
+
+SUPPLEMENTARY INFORMATION: Section 3506(c)(2)(A) of the Paperwork 
+Reduction Act of 1995 requires written comments and/or suggestions from 
+the public and affected agencies are invited to address one or more of 
+the following points: (1) Whether the proposed collection of 
+information is necessary for the proper performance of the function of 
+the agency, including whether the information will have practical 
+utility; (2) The accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3) Ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (4) Ways 
+to minimize the burden of the collection of information on those who 
+are to respond, including the use of appropriate automated, electronic, 
+mechanical, or other technological collection techniques or other forms 
+of information technology.
+    Proposed Collection Title: Information Program on Clinical Trials: 
+Maintaining a Registry and Results Databank, 0925-0586, Expiration 
+Date: 03/31/2026, Extension, National Library of Medicine (NLM), 
+National Institutes of Health (NIH).
+    Need and Use of Information Collection: The National Institutes of 
+Health operates <a href="http://ClinicalTrials.gov">ClinicalTrials.gov</a>, which was established as a clinical 
+trial registry under section 113 of the Food and Drug Administration 
+Modernization Act of 1997 (Pub. L. 105-115) and was expanded to include 
+a results data bank by Title VIII of the Food and Drug Administration 
+Amendments Act of 2007 (FDAAA) and by the Clinical Trials Registration 
+and Results Information Submission regulations at 42 CFR part 11. 
+<a href="http://ClinicalTrials.gov">ClinicalTrials.gov</a> collects registration and results information for 
+clinical trials and other types of clinical studies (e.g., 
+observational studies and patient registries) with the objectives of 
+enhancing patient enrollment and providing a mechanism for tracking 
+subsequent progress of clinical studies to the benefit of public 
+health. It is widely used by patients, physicians, and medical 
+researchers; in particular those involved in clinical research. While 
+many clinical studies are registered and submit results information 
+voluntarily, 42 CFR part 11 requires the registration of certain 
+applicable clinical trials of drug, biological, and device products and 
+the submission of results information for completed applicable clinical 
+trials of drug, biological, and device products whether or not they are 
+approved, licensed, or cleared by the Food and Drug Administration.
+    OMB approval is requested for 3 years. There are no costs to 
+respondents other than their time. The total estimated annualized 
+burden hours are 1,411,181.
+
+                                        Estimated Annualized Burden Hours
+----------------------------------------------------------------------------------------------------------------
+                                                                                      Average
+                                                   Number of        Number of       burden per     Total annual
+                Submission type                   respondents     responses per    response (in     burden hour
+                                                                   respondent         hours)
+----------------------------------------------------------------------------------------------------------------
+Registration--Attachment 2:
+    Initial...................................           7,400                 1               8          59,200
+    Updates...................................           7,400                 8               2         118,400
+    Triggered, voluntary......................             182                 1               8           1,456
+    Initial, non-regulated, NIH Policy........           1,200                 1               8           9,600
+    Updates, non-regulated, NIH Policy........           1,200                 8               2          19,200
+    Initial, voluntary and non-regulated......          23,130                 1               8         185,040
+    Updates, voluntary and non-regulated......          23,130                 8               2         370,080
+Results Information Submission--Attachment 5:
+    Initial...................................           7,400                 1              40         296,000
+    Updates...................................           7,400                 2              10         148,000
+    Triggered, voluntary--also attachment 2...              61                 1              45           2,745
+    Initial, non-regulated, NIH Policy........           1,200                 1              40          48,000
+    Updates, non-regulated, NIH Policy........           1,200                 2              10          24,000
+    Initial, voluntary and non-regulated......           2,100                 1              40          84,000
+
+[[Page 54341]]
+
+ 
+    Updates, voluntary and non-regulated......           2,100                 2              10          42,000
+Other:
+    Certification to delay results--attachment           5,150                 1           30/60           2,575
+     6........................................
+    Extension requests and Appeals--attachment             175                 1               2             350
+     7........................................
+    Initial, expanded access--attachment 3....             213                 1               2             426
+    Updates, expanded access--attachment 3....             213                 2           15/60             107
+    Waiver requests and appeals...............               1                 1               2               2
+                                               -----------------------------------------------------------------
+        Total.................................  ..............           323,878  ..............       1,411,181
+----------------------------------------------------------------------------------------------------------------
+
+
+Vivian K. Le,
+Project Clearance Liaison, National Library of Medicine, National 
+Institutes of Health.
+[FR Doc. 2025-21244 Filed 11-25-25; 8:45 am]
+BILLING CODE 4140-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

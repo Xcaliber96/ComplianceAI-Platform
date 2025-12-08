@@ -1,30 +1,226 @@
-import axios from 'axios'
+import axios from "axios";
 
-const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  (window.location.hostname.includes("localhost")
+const rawEnvBase = import.meta.env.VITE_API_BASE_URL;
+
+// 🔍 startup debug
+console.log("[client.ts] raw VITE_API_BASE_URL:", rawEnvBase);
+console.log("[client.ts] window.location.hostname:", window.location.hostname);
+
+export const BASE_URL =
+  rawEnvBase && rawEnvBase.trim() !== ""
+    ? rawEnvBase.trim()
+    : window.location.hostname === "localhost"
     ? "http://localhost:8000"
-    : "https://api.nomioc.com"); 
-console.log("VITE_API_BASE_URL:", import.meta.env.VITE_API_BASE_URL);
-  // Create axios instance with default config
+    : "https://api.nomioc.com";
+
+console.log("[client.ts] RESOLVED BASE_URL:", BASE_URL);
+
+// Create axios instance with default config
 const apiClient = axios.create({
   baseURL: BASE_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
-  withCredentials: true, 
-})
+  withCredentials: true,
+});
 
 apiClient.interceptors.response.use(
   (res) => res,
   (err) => {
     if (err.response?.status === 401) {
-      console.warn("⚠️ Session expired or unauthorized. Please log in again.");
+      console.warn("Session expired or unauthorized. Please log in again.");
       // Optional:  redirect to login or clear local session here
     }
     return Promise.reject(err);
   }
 );
+export async function fetchWorkspace(user_id: string) {
+  const res = await apiClient.get(`/api/workspace/${user_id}/regulations`);
+  return res.data;
+}
+
+export async function toggleRegulation(user_id: string, reg_id: string) {
+  try {
+    const res = await apiClient.post(`/api/workspace/${user_id}/toggle/${reg_id}`);
+    return res.data;
+  } catch (err: any) {
+    console.error("Toggle regulation failed:", err);
+    throw err;
+  }
+}
+export async function fetchStateRegulations(state: string, query: string) {
+  const res = await apiClient.get("/api/regulations/state", {
+    params: { state, q: query },
+  });
+
+  return res.data.results; // backend returns { results: [...] }
+}
+
+export async function wizardSearch(params: {
+  sourceType: "government" | "state";
+  mode: "topic" | "packageId" | "ruleNumber";
+  query: string;
+  state?: string;
+}) {
+  const res = await apiClient.post("/api/regulations/wizard_search", params);
+
+  if (Array.isArray(res.data)) {
+    return res.data;
+  }
+
+  if (res.data && res.data.results) {
+    return res.data.results;
+  }
+
+  return [];
+}
+
+export async function getLocalPackages() {
+  const res = await apiClient.get("/api/regulations/local/packages");
+  return res.data; // { count, packages }
+}
+export async function getGranulesForPackage(packageId: string) {
+  const res = await apiClient.get(`/api/regulations/local/granules/${packageId}`);
+  return res.data; // { package_id, count, granules }
+}
+export async function localGranuleSearch(query: string) {
+  const res = await apiClient.get("/api/regulations/local_search", {
+    params: { q: query }
+  });
+  return res.data; // { query, results_count, results }
+}
+export async function getAllLocalGranules() {
+  const res = await apiClient.get("/api/regulations/local/granules");
+  return res.data; // { count, granules }
+}
+export async function searchFederalRegulations(query: string) {
+  if (!query || query.trim() === "") {
+    return { error: "Empty query" };
+  }
+
+  const res = await apiClient.get("/api/regulations/search", {
+    params: { q: query },
+  });
+
+  return res.data;
+}
+
+export async function getUserProfile(uid: string): Promise<UserProfile> {
+  const res = await apiClient.get(`/api/users/profile/${uid}`);
+  return res.data;
+}
+export const updateUserProfile = async (profile: {
+  uid: string;
+  display_name: string;   // used for full_name too
+  company_name: string;
+  full_name: string;
+  department: string;
+  job_title?: string;
+  industry?: string;
+}) => {
+  const form = new FormData();
+
+  form.append("uid", profile.uid);
+
+  // Send BOTH fields
+  form.append("display_name", profile.display_name);
+  form.append("full_name", profile.display_name);  // ⭐ important
+
+  form.append("company_name", profile.company_name);
+  form.append("department", profile.department);
+
+  if (profile.job_title) form.append("job_title", profile.job_title);
+  if (profile.industry) form.append("industry", profile.industry);
+
+  const { data } = await apiClient.post(`/api/users/setup_profile`, form, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+
+  return data;
+};
+
+export const getRegulation = async (packageId: string) => {
+  if (!packageId) throw new Error("Package ID is required");
+
+  const { data } = await apiClient.get("/regulations", {
+    params: { q: packageId },
+  });
+
+  return data;
+};
+
+export interface UserProfile {
+  uid: string;
+  display_name: string;
+  full_name?: string;
+  company_name: string;
+  job_title?: string;
+  department: string;
+  industry?: string;
+}
+export const uploadToFileHub = async (
+  file: File,
+  user_uid: string,
+  file_type: string,
+  used_for: string,
+  department: string      
+) => {
+  const form = new FormData();
+  form.append("file", file);
+  form.append("user_uid", user_uid);
+  form.append("file_type", file_type);
+  form.append("used_for", used_for);
+  form.append("department", department);   
+
+  const { data } = await apiClient.post("/api/filehub/upload", form, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+
+  return data;
+};
+
+export const getDirectFileUrl = (file_id: string, user_uid: string) => {
+  return `${BASE_URL}/api/filehub/${file_id}/direct?user_uid=${user_uid}`;
+};
+
+export const getFileHubFiles = async (user_uid: string) => {
+  const { data } = await apiClient.get(`/api/filehub`, {
+    params: { user_uid },
+  })
+  return data.files
+}
+
+export const getBasicUserInfo = async (uid: string) => {
+  if (!uid) return { display_name: "Unknown" };
+
+  const { data } = await apiClient.get(`/api/users/basic_info/${uid}`);
+  return data;
+};
+
+export const viewFileHubFile = async (file_id: string, user_uid: string) => {
+  const response = await apiClient.get(`/api/filehub/${file_id}`, {
+    params: { user_uid },
+    responseType: "blob", 
+  })
+  return response
+}
+
+export const deleteFileHubFile = async (file_id: string, user_uid: string) => {
+  const { data } = await apiClient.delete(`/api/filehub/${file_id}`, {
+    params: { user_uid },
+  })
+  return data
+}
+
+export const downloadFileHubFile = async (file_id: string, user_uid: string) => {
+  // This will return a real file download stream
+  const url = `${BASE_URL}/api/filehub/${file_id}/download?user_uid=${user_uid}`
+
+  const link = document.createElement("a")
+  link.href = url
+  link.download = ""
+  link.click()
+}
 
 export type DriveFile = { id: string; name: string }
 export async function checkBackendReady() {
@@ -35,6 +231,18 @@ export async function checkBackendReady() {
     return false;
   }
 }
+
+export const getAllFiles = async () => {
+  const response = await apiClient.get("/api/files");
+  return response.data;
+};
+
+// Delete a file
+export const deleteFileHubItem = async (fileId: string) => {
+  const response = await apiClient.delete(`/api/files/${fileId}`);
+  return response.data;
+};
+
 export async function loginWithFirebaseToken(user: any) {
 
   const idToken = await user.getIdToken();
@@ -50,8 +258,11 @@ export async function loginWithFirebaseToken(user: any) {
       headers: { "Content-Type": "application/json" }, // explicit for clarity
     }
   );
-
-  // 3️⃣ Return backend response
+  console.log("LOGIN DEBUG — FRONTEND SENDING:");
+  console.log("→ idToken (first 50 chars):", idToken.substring(0, 50) + "...");
+  console.log("→ uid:", user.uid);
+  console.log("→ email:", user.email);
+  console.log("→ BASE_URL:", BASE_URL);
   return data;
 }
 export async function getCurrentSession() {
@@ -166,6 +377,33 @@ export const runExternalIntelligence = async (industry: string) => {
   })
   return response.data
 }
+export const getSampleRegulations = async () => {
+  const { data } = await apiClient.get("/api/regulations/library");
+  return data.library;
+};
+export async function importRegulations(user_uid: string, regulations: any[]) {
+   const res = await apiClient.post(`/api/regulations/import`, {
+    user_uid,
+    regulations,
+  });
+
+  return res.data;
+}
+export const runCompliance = async (
+  user_uid: string,
+  file_id: string,
+  regulation_ids: string[]
+) => {
+  const payload = {
+    user_uid,
+    file_id,
+    regulation_ids,
+  };
+
+  const { data } = await apiClient.post("/api/rag/run_compliance_payload", payload);
+  return data;
+};
+
 
 export const runRagCompliance = async (
   file: File,
@@ -195,8 +433,13 @@ export interface Obligation {
   id?: number
   description: string
   regulation: string
-  due_date: string // ISO format: "2025-12-31"
+  due_date: string 
 }
+
+export const getRegulationText = async (granuleId: string) => {
+  const res = await apiClient.get(`api/regulation/${granuleId}`);
+  return res.data;
+};
 
 export const createObligation = async (obligation: Obligation) => {
   const formData = new FormData()
@@ -299,6 +542,24 @@ export const attestEvidence = async (evidenceId: number, user: string) => {
     headers: { 'Content-Type': 'multipart/form-data' },
   })
   return response.data
+}
+export const runAuditOnFile = async (fileId: string, user_uid: string) => {
+  return apiClient
+    .get(`/api/audit/run/${fileId}`, {
+      params: { user_uid },
+    })
+    .then((res) => res.data);
+};
+export async function extractFile(fileId: string, user_uid: string) {
+  const res = await fetch(
+    `${BASE_URL}/api/filehub/${fileId}/extract?user_uid=${user_uid}`
+  );
+
+  if (!res.ok) {
+    throw new Error("Extraction failed");
+  }
+
+  return res.json();
 }
 
 export interface DashboardSummary {

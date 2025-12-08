@@ -1,0 +1,903 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Proposed Rules]
+[Pages 52902-52908]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20762]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF ENERGY
+
+Federal Energy Regulatory Commission
+
+18 CFR Part 342
+
+[Docket No. RM26-6-000]
+
+
+Five-Year Review of the Oil Pipeline Index
+
+AGENCY: Federal Energy Regulatory Commission, Department of Energy.
+
+ACTION: Notice of proposed rulemaking.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Energy Regulatory Commission (Commission) invites 
+comments on its proposed index level used to determine annual changes 
+to oil pipeline rate ceilings. The Commission proposes to use the 
+Producer Price Index for Finished Goods (PPI-FG)-1.42% as the index 
+level for the five-year period commencing July 1, 2026. The Commission 
+invites interested persons to submit comments regarding this proposal 
+and any alternative methodologies for calculating the index.
+
+DATES: Initial Comments are due December 24, 2025, and Reply Comments 
+are due January 14, 2026.
+
+ADDRESSES: Comments, identified by docket number, may be filed in the 
+following ways. Electronic filing through <a href="http://www.ferc.gov">http://www.ferc.gov</a>, is 
+preferred.
+    <bullet> Electronic Filing: Documents must be filed in acceptable 
+native applications and print-to-PDF, but not in scanned or picture 
+format.
+
+[[Page 52903]]
+
+    <bullet> For those unable to file electronically, comments may be 
+filed by USPS mail or by hand (including courier) delivery.
+    [cir] Mail via U.S. Postal Service Only: Addressed to: Federal 
+Energy Regulatory Commission, Secretary of the Commission, 888 First 
+Street NE, Washington, DC 20426.
+    [cir] Hand (Including Courier) Delivery: Deliver to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+    The Comment Procedures Section of this document contains more 
+detailed filing procedures.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Monil Patel (Technical Information), Office of Energy Market 
+Regulation, Federal Energy Regulatory Commission, 888 First Street NE, 
+Washington, DC 20426, (202) 502-8296. <a href="/cdn-cgi/l/email-protection#327f5d5c5b5e1c625346575e72545740511c555d44"><span class="__cf_email__" data-cfemail="7e3311101712502e1f0a1b123e181b0c1d50191108">[email&#160;protected]</span></a>.
+    Evan Steiner (Legal Information), Office of the General Counsel, 
+Federal Energy Regulatory Commission, 888 First Street NE, Washington, 
+DC 20426, (202) 502-8792. <a href="/cdn-cgi/l/email-protection#f3b685929ddda087969a9d9681b395968190dd949c85"><span class="__cf_email__" data-cfemail="0f4a796e61215c7b6a66616a7d4f696a7d6c21686079">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    1. The Commission annually applies an index to existing oil 
+pipeline transportation rate ceilings to establish new rate ceiling 
+levels.\1\ The Commission reexamines the index level every five 
+years.\2\ In this notice of proposed rulemaking (NOPR), the Commission 
+invites comments on its proposal to use the Producer Price Index for 
+Finished Goods (PPI-FG) \3\ minus 1.42% (PPI-FG-1.42%) as the index 
+level for the next five years beginning July 1, 2026.\4\
+---------------------------------------------------------------------------
+
+    \1\ Indexing allows oil pipelines to change their tariff rates 
+so long as those rates remain at or below certain ceiling levels. 18 
+CFR 342.3(a).
+    \2\ The five-year index review process was established in Order 
+No. 561. See Revisions to Oil Pipeline Reguls. Pursuant to the 
+Energy Pol'y Act of 1992, Order No. 561, 58 FR 58753 (Nov. 4, 1993), 
+FERC Stats. & Regs. ] 30,985 (1993) (cross-referenced at 65 FERC ] 
+61,109), order on reh'g, Order No. 561-A, 59 FR 40243 (Aug. 8, 
+1994), FERC Stats. & Regs. ] 31,000 (1994) (cross-referenced at 68 
+FERC ] 61,138), aff'd, Ass'n of Oil Pipe Lines v. FERC, 83 F.3d 1424 
+(D.C. Cir. 1996) (AOPL I).
+    \3\ The PPI-FG is determined and issued by the Bureau of Labor 
+Statistics, U.S. Department of Labor.
+    \4\ See Attach. A, Ex. 1 tab.
+---------------------------------------------------------------------------
+
+    2. As discussed below, interested persons are invited to submit 
+comments regarding the Commission's proposal and any alternative 
+methodologies for calculating the index level. The Commission will 
+finalize the index level at the conclusion of this proceeding. In 
+accordance with 5 U.S.C. 553(b)(4), a summary of this rule may be found 
+at <a href="http://www.regulations.gov">www.regulations.gov</a> by searching for ``RIN 1902-AG33.''
+
+I. Background
+
+    3. The Energy Policy Act of 1992 (EPAct 1992) required the 
+Commission to establish a ``simplified and generally applicable'' 
+ratemaking methodology that was consistent with the just and reasonable 
+standard of the Interstate Commerce Act.\5\ To implement this mandate, 
+the Commission issued Order No. 561 establishing an indexing 
+methodology that allows oil pipelines to change rates based upon an 
+annual index as opposed to making cost-of-service filings.\6\ The use 
+of an industry-wide index avoids expensive and time-consuming 
+proceedings associated with cost-of-service ratemaking and litigation 
+for individual pipelines while still allowing pipelines to efficiently 
+set rates that are commensurate with industry-wide costs. Furthermore, 
+updating the index every five years to reflect oil pipeline industry 
+costs changes helps ensure that rates are just and reasonable for 
+shippers and pipelines. Each year, pipelines adjust their rate ceilings 
+effective July 1 using an index multiplier that the Commission 
+publishes in May based on recent changes in the PPI-FG (a measure of 
+inflation) and the current index level.\7\
+---------------------------------------------------------------------------
+
+    \5\ Public Law 102-486, 1801(a), 106 Stat. 2776, 3010 (Oct. 24, 
+1992), codified at 42 U.S.C. 7172 note.
+    \6\ Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,947.
+    \7\ 18 CFR 342.3(d)(1), (2); see also, e.g., Revisions to Oil 
+Pipeline Regulations Pursuant to the Energy Pol'y Act of 1992, 90 FR 
+21917 (May 22, 2025), 191 FERC ] 61,134 (2025) (calculating the 
+index for the July 1, 2025--June 30, 2026, index year using the 
+index level established in the 2020 five-year review).
+---------------------------------------------------------------------------
+
+    4. In this proceeding, the Commission is conducting its five-year 
+review of the oil pipeline index level. When the Commission established 
+indexing in Order No. 561, the Commission committed to review the index 
+level every five years to ensure that the index level chosen by the 
+Commission adequately reflects changes to industry costs and to ensure 
+that oil pipeline indexed rates remain just and reasonable.\8\ The 
+Commission explained that its responsibilities under the ICA, to both 
+shippers and pipelines, require monitoring of the relationship between 
+the change in the chosen index level and the actual cost changes 
+experienced by industry.\9\ On appeal of Order No. 561, the United 
+States Court of Appeals for the District of Columbia Circuit (D.C. 
+Circuit) upheld the indexing methodology based in part on the 
+Commission's commitment to undertake regular five-year reviews.\10\ 
+Since 2000,\11\ the Commission has conducted a review of the index 
+level every five years.\12\ While continuing to use PPI-FG
+
+[[Page 52904]]
+
+as the basis of the index level,\13\ the Commission has recalibrated 
+the index level each time so that it continued to reflect the 
+relationship between oil pipeline cost changes and PPI-FG.\14\ The 
+generally applicable changes to the oil pipeline index necessarily 
+require notice and comment rulemaking.\15\
+---------------------------------------------------------------------------
+
+    \8\ See Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,941 
+(``To ensure that the operation of the index meets the Commission's 
+responsibility under the ICA to ensure that rates are just and 
+reasonable, the Commission will undertake an examination of the 
+relationship between the annual change in the [PPI-FG-1%] index and 
+the actual cost changes experienced by the oil pipeline industry 
+every five years, beginning in the year 2000 upon the availability 
+of the final index for calendar year 1999.''); id. at 30,947 
+(``[T]he Commission will review the appropriateness of the index in 
+relation to industry costs every five years, beginning July 1, 
+2000.''); id. at 30,951 (``[T]o ensure that the change in [PPI-FG-
+1%] continues to fulfill this objective in the future, the 
+Commission will conduct a periodic review of this index every five 
+years.''); id. at 30,952 (The Commission ``will review the choice of 
+the index every 5 years.''); Order No. 561-A, FERC Stats. & Regs. ] 
+31,000 at 31,093 (``To ensure over time that this nexus between the 
+changes in the index and the cost changes experienced by the typical 
+pipeline will be maintained, the Commission will conduct a review of 
+the PPI-FG index every five years, beginning in the year 2000.''); 
+id. at 31,099 (The Commission's decision on the index level ``will 
+be reviewed every five years, beginning with the year 2000.''); id. 
+at 31,105 (``The concern . . . that under the indexing system 
+pipeline rates will increasingly diverge from actual pipeline costs 
+. . . has been addressed by the Commission in its structuring of the 
+index system. . . . [U]nder the final rule, every five years 
+beginning in the year 2000, the Commission will examine the 
+relationship between changes in the index (PPI-1) and actual cost 
+changes experienced by the oil pipeline industry.''); see also 49 
+U.S.C. app. 1(5), 2, 3(1).
+    \9\ Order No. 561, FERC Stats. & Regs. ] 30,985 at 30,952 
+(``[T]he Commission believes that its responsibilities under the 
+ICA, to both shippers and pipelines, requires monitoring the 
+relationship between the [PPI-FG-1%] and the actual cost changes 
+experienced by the industry. The Commission will use the Form No. 6 
+information for this purpose, and will review the choice of the 
+index every 5 years.'').
+    \10\ AOPL I, 83 F.3d at 1437. See also id. at 1430 
+(acknowledging the Commission's commitment to ``monitor the index's 
+ability to track changes in pipeline costs and review the 
+appropriateness of its choice of index, in light of the just and 
+reasonable standard of the ICA, every five years'').
+    \11\ See Five-Year Rev. of Oil Pipeline Pricing Index, 93 FERC ] 
+61,266, at 61,846 (2000) (2000 Index Review), aff'd in part & 
+remanded sub nom. Ass'n of Oil Pipe Lines v. FERC, 281 F.3d 239 
+(D.C. Cir. 2002), order on remand, Five-Year Rev. of Oil Pipeline 
+Pricing Index, 102 FERC ] 61,195, at P 3 (2003) (2000 Remand Order) 
+(``The Commission recognized [in Order Nos. 561 and 561-A] that its 
+responsibilities, to both shippers and pipelines, required it to 
+monitor the relationship between the change in the PPI-1 index and 
+the actual cost changes experienced by the industry.''), aff'd sub 
+nom. Flying J Inc. v. FERC, 363 F.3d 495 (D.C. Cir. 2004).
+    \12\ Five-Year Rev. of the Oil Pipeline Index, 86 FR 9448 (Feb. 
+16, 2021), 173 FERC ] 61,245 (2020) (2020 Index Order), order on 
+reh'g, 87 FR 4476 (Jan. 28, 2022), 178 FERC ] 61,023 (2022) (2022 
+Rehearing Order), vacated sub nom. Liquid Energy Pipeline Ass'n v. 
+FERC, 109 F.4th 543, 549 (D.C. Cir. 2024) (LEPA v. FERC); Five-Year 
+Rev. of the Oil Pipeline Index, 80 FR 81744 (Dec. 31, 2015), 153 
+FERC ] 61,312 (2015) (2015 Index Review), aff'd sub nom. Ass'n of 
+Oil Pipe Lines v. FERC, 876 F.3d 336 (D.C. Cir. 2017) (AOPL III); 
+Five-Year Rev. of Oil Pipeline Pricing Index, 75 FR 80300 (Dec. 22, 
+2010), 133 FERC ] 61,228 (2010) (2010 Index Review), order on reh'g, 
+135 FERC ] 61,172 (2011); Five-Year Rev. of Oil Pipeline Pricing 
+Index, 71 FR 15329 (Mar. 28, 2006), 114 FERC ] 61,293 (2006) (2005 
+Index Review); 2000 Index Review, 93 FERC ] 61,266; Order No. 561, 
+FERC Stats. & Regs. ] 30,985 at 30,948-52; Order No. 561-A, FERC 
+Stats. & Regs. ] 31,000 at 31,093-99.
+    \13\ Although in some prior five-year reviews various commenters 
+proposed alternatives to PPI-FG, the Commission has continued to use 
+PPI-FG.
+    \14\ See, e.g., 2020 Index Order, 173 FERC ] 61,245 at P 2; 2015 
+Index Review, 153 FERC ] 61,312 at P 2; 2010 Index Review, 133 FERC 
+] 61,228 at P 1; 2005 Index Review, 114 FERC ] 61,293 at P 2; 2000 
+Remand Order, 102 FERC ] 61,195 at P 1.
+    \15\ See LEPA v. FERC, 109 F.4th at 549 (holding that the 
+Commission could not revise the index level without adhering to 
+notice and comment procedures required by the Administrative 
+Procedure Act).
+---------------------------------------------------------------------------
+
+    5. In Order No. 561 and each successive five-year index review, the 
+Commission has calculated the index level based upon a methodology 
+originally developed by Dr. Alfred E. Kahn and modified by the 
+Commission in subsequent five-year reviews.\16\ The Kahn Methodology 
+uses pipeline data from Form No. 6, page 700 \17\ from the prior five-
+year period to determine adjustments to be applied to the PPI-FG. The 
+calculation is as follows. Each pipeline's cost change on a per barrel-
+mile basis over the prior five-year period (e.g., the years 2019-2024 
+in this proceeding) is calculated. In order to remove statistical 
+outliers and spurious data, the Kahn Methodology trims an equal number 
+of pipelines from the top and bottom of the data set.\18\ The Kahn 
+Methodology then calculates three measures of central tendency for the 
+trimmed data sample: the median, the mean, and a weighted mean.\19\ The 
+Kahn Methodology calculates a composite by averaging these three 
+measures of central tendency and measures the difference between the 
+composite and the PPI-FG over the prior five-year period. The index 
+level is then set at PPI-FG plus (or minus) this differential.
+---------------------------------------------------------------------------
+
+    \16\ The Commission's use of the Kahn Methodology has been 
+affirmed by the D.C. Circuit. AOPL I, 83 F.3d 1424; Flying J Inc. v. 
+FERC, 363 F.3d 495.
+    \17\ 2015 Index Review, 153 FERC ] 61,312 at P 12 (updating the 
+Commission's calculation of the five-year oil pipeline index to use 
+page 700 data to measure changing barrel-mile costs), aff'd, AOPL 
+III, 876 F.3d at 345-46. Page 700 provides summarized interstate 
+barrel-mile and cost-of-service data consistent with the 
+Commission's cost-of-service methodology. Id. PP 12-13, 16.
+    \18\ For example, the Commission has previously trimmed the data 
+set to the middle 50% (removing the bottom 25% and top 25% of 
+pipelines) and in 2020, for the 2021-2026 five-year index, changed 
+to using the middle 80% (removing the bottom 10% and top 10% of 
+pipelines). 2020 Index Order, 173 FERC ] 61,245 at PP 25-32 (using 
+the middle 80%); 2015 Index Review, 153 FERC ] 61,312 at PP 42-44 
+(using the middle 50%); 2010 Index Review, 133 FERC ] 61,228 at PP 
+60-63 (using the middle 50%); Order No. 561-A, FERC Stats. & Regs. ] 
+31,000 at 31,096-97 (adopting Dr. Kahn's proposal to use the middle 
+50%); see also 2005 Index Review, 114 FERC ] 61,293 at P 28 
+(considering average of the middle 50% and middle 80%); 2000 Remand 
+Order, 102 FERC ] 61,295 at P 24 (same).
+    \19\ The weighted mean assigns a different weight to each 
+pipeline's cost change based on the pipeline's total barrel-miles.
+---------------------------------------------------------------------------
+
+II. Commission Proposal
+
+    6. We propose PPI-FG minus 1.42% as the index level for the five-
+year period commencing July 1, 2026. The proposal is based on the Kahn 
+Methodology as applied to Form No. 6, page 700 data from the 2019 
+through 2024 period. The Commission's calculations are included in 
+workpapers included as Attachment A and available in this docket on the 
+Commission's eLibrary system.\20\ This proposal is subject to change 
+based on the Commission's review of the record developed in this 
+proceeding.
+---------------------------------------------------------------------------
+
+    \20\ See infra P 37 (discussing the Commission's eLibrary 
+system).
+---------------------------------------------------------------------------
+
+    7. We invite interested persons to submit comments regarding the 
+Commission's proposal and any alternative methodologies for calculating 
+the index level for the five-year period commencing July 1, 2026.\21\ 
+Commenters may address all issues relating to the calculation of the 
+index level, including, but not limited to: (i) different data trimming 
+methodologies; (ii) whether, and if so how, the Commission should 
+adjust the data set to address the effects of the change in Commission 
+policy regarding return on equity (ROE); and (iii) whether, and if so 
+how, the Commission's calculation of the index level should incorporate 
+recently resubmitted page 700 data for 2019. As discussed further 
+below, the index level of PPI-FG-1.42% was calculated by trimming the 
+data set to the middle 80%, using unadjusted ROE, and using pipelines' 
+originally filed FERC Form No. 6, page 700 data for 2019. The economic 
+effects of the NOPR proposal and various regulatory alternatives are 
+shown in the Regulatory Impact Analysis.\22\
+---------------------------------------------------------------------------
+
+    \21\ As discussed below, commenters must file any supporting 
+workpapers in an acceptable spreadsheet format with all links and 
+formulas intact. Infra P 35.
+    \22\ The Regulatory Impact Analysis (RIA) supporting this 
+rulemaking can be found as a supporting document at 
+<a href="http://www.regulations.gov">www.regulations.gov</a>.
+---------------------------------------------------------------------------
+
+A. Trimming of the Data Set
+
+    8. As part of each five-year index review, the Commission trims the 
+data set that it uses to establish the updated index level to remove 
+outlying data. We propose to set the index level in this proceeding by 
+trimming the data set to the middle 80% of all oil pipelines. While the 
+Commission has used various data trimming approaches in the past,\23\ 
+use of the middle 80% is consistent with the Commission's approach in 
+the most recent 2020 index review.\24\ Although we considered different 
+data trimming approaches for this five-year review, including using the 
+middle 50% of the data set, we preliminarily conclude that the middle 
+80% is the appropriate data set to use in this five-year review for the 
+reasons discussed below.
+---------------------------------------------------------------------------
+
+    \23\ 2015 Index Review, 153 FERC ] 61,312 at PP 42-44 (using the 
+middle 50%); 2010 Index Review, 133 FERC ] 61,228 at PP 60-63 (using 
+the middle 50%); 2005 Index Review, 114 FERC ] 61,293 at P 28 
+(considering average of the middle 50% and middle 80%); 2000 Remand 
+Order, 102 FERC ] 61,295 at P 24 (same); Order No. 561-A, FERC 
+Stats. & Regs. ] 31,000 at 31,096-97 (adopting Dr. Kahn's proposal 
+to trim the data set to the middle 50%).
+    \24\ 2020 Index Order, 173 FERC ] 61,245 at PP 25-32 (adopting 
+the middle 80% for the 2021-2026 cycle). In the 2020 review, the 
+Commission subsequently granted rehearing to modify the index to use 
+the middle 50%, but the rehearing order was vacated on procedural 
+grounds by the D.C. Circuit. See 2022 Rehearing Order, 178 FERC ] 
+61,023 at PP 43-58, vacated sub nom. LEPA v. FERC, 109 F.4th at 547-
+49; see also Revisions to Oil Pipeline Reguls. Pursuant to the 
+Energy Pol'y Act of 1992, 188 FERC ] 61,173 (2024) (order 
+reinstating index level based upon the middle 80% following 
+vacatur).
+---------------------------------------------------------------------------
+
+    9. First, as the Commission explained in the 2020 index review,\25\ 
+it is appropriate to consider more data in measuring industry-wide cost 
+changes rather than less. The Kahn Methodology determines the index 
+level by calculating the central tendency of a statistically trimmed 
+data sample. As a general matter, considering a larger data sample 
+should enhance the calculation of the central tendency of industry cost 
+experience.\26\ Furthermore, the middle 80% of the data set in this 
+record excludes only 40 pipelines out of 196 pipelines in the full data 
+set and only 6% of industry-wide barrel-miles, providing a robust 
+sample of industry cost experience.\27\ By contrast, using the middle 
+50% would exclude an additional 58 pipelines (for a total of 98 
+pipelines excluded) and 12% of industry barrel-miles from the 
+Commission's review of industry-wide cost changes over the 2019-2024 
+period.\28\
+---------------------------------------------------------------------------
+
+    \25\ 2020 Index Order, 173 FERC ] 61,245 at P 26.
+    \26\ Id.
+    \27\ Attach. A, Model tab (indicating that trimming to the 
+middle 80% would reduce the sample from 196 pipelines to 156 
+pipelines).
+    \28\ Id. (indicating that trimming to the middle 50% instead of 
+the middle 80% would reduce the sample from 156 pipelines to 98 
+pipelines).
+
+---------------------------------------------------------------------------
+
+[[Page 52905]]
+
+    10. Second, we preliminarily find that ``normal'' cost changes are 
+best defined using the inclusive data sample embodied in the middle 
+80%. Prematurely discarding data prior to determining the central 
+tendency could skew the index such that it does not reflect industry-
+wide trends. By using the inclusive data sample in the middle 80%, the 
+Commission is able to accurately identify the central tendency of 
+industry-wide cost changes that reflects the ``normal'' cost changes 
+recoverable by the index.\29\
+---------------------------------------------------------------------------
+
+    \29\ 2020 Index Order, 173 FERC ] 61,245 at P 27.
+---------------------------------------------------------------------------
+
+    11. Accordingly, we preliminarily conclude that the middle 80% is 
+the appropriate data set to use in the upcoming five-year review cycle. 
+However, we invite commenters to address whether the Commission should 
+continue to trim the data set to the middle 80% or adopt an alternative 
+approach to data trimming. Commenters should explain why their 
+preferred approach is superior and how it would appropriately address 
+outliers and spurious or unrepresentative data that could bias the 
+index calculation in either direction.
+
+B. Treatment of ROE in Data Set
+
+    12. In May 2020, the Commission revised its methodology for 
+determining ROE for oil pipelines. Whereas the Commission had 
+previously relied solely on the discounted cash flow (DCF) model for 
+determining ROE, the Commission now averages the results of the DCF and 
+Capital Asset Pricing Model (CAPM) analyses (ROE Policy Change).\30\
+---------------------------------------------------------------------------
+
+    \30\ The DCF and CAPM models are described in the policy 
+statement. See Inquiry Regarding the Comm'n's Pol'y for Determining 
+Return on Equity, 171 FERC ] 61,155, at PP 18, 28, 50 (2020).
+---------------------------------------------------------------------------
+
+    13. We calculated the proposed index level without making any 
+adjustment to the data in light of the ROE Policy Change. The 
+Commission has never adjusted ROE in a prior index proceeding. We are 
+concerned that adjusting the data in light of the ROE Policy Change 
+would be a complex and difficult endeavor that would be inconsistent 
+with indexing's purpose as a simplified and streamlined process.\31\
+---------------------------------------------------------------------------
+
+    \31\ In the 2020 Index Order, the Commission declined to adjust 
+the ROE data due to the difficulty of determining just and 
+reasonable alternative ROEs for the diverse pipelines in the data 
+set. The Commission found that ``addressing such complex cost-of-
+service issues would improperly complicate and prolong the five-year 
+review process in violation of EPAct 1992's mandate for simplified 
+and streamlined ratemaking.'' 2020 Index Order, 173 FERC ] 61,245 at 
+PP 49-50.
+---------------------------------------------------------------------------
+
+    14. We encourage commenters to address whether, and if so, how, the 
+Commission should address the ROE Policy Change in the index 
+calculation. Commenters proposing any adjustment to the data set should 
+explain why their proposal is consistent with EPAct 1992's dual 
+mandates for just and reasonable rates and simplified and streamlined 
+ratemaking. Among other things, to the extent pipelines changed their 
+reported ROEs as a result of the ROE Policy Change, commenters should 
+address how that data should be considered in light of indexing's 
+relationship to recoverable costs under the Opinion No. 154-B 
+methodology.\32\
+---------------------------------------------------------------------------
+
+    \32\ We acknowledge that in the 2020 Index Order the Commission 
+adjusted the data to remove the effects on the index level of a 
+different policy change related to recovery of income tax costs. Id. 
+PP 16-20. The Commission later found participants' challenges to 
+this determination persuasive and modified the index level to use 
+unadjusted data and to incorporate the effects of the policy change 
+into the index. 2022 Rehearing Order, 178 FERC ] 61,023 at PP 17-36. 
+However, the D.C. Circuit vacated the rehearing order on procedural 
+grounds. LEPA v. FERC, 109 F.4th at 547-49. The Commission also 
+proposed in a Supplemental NOPR to depart from the 2020 Index 
+Order's holdings on that same income tax issue and to incorporate 
+the policy change into the index. Supplemental Rev. of the Oil 
+Pipeline Index Level, 89 FR 84475 (Oct. 23, 2024), 189 FERC ] 
+61,030, at PP 24-34 (2024). For purposes of considering the ROE 
+Policy Change and how it affects the index in this proceeding, we 
+consider anew any issues related to whether the index should 
+incorporate cost-of-service policy changes. Commenters should not 
+simply rely upon statements and findings in the 2020 Index Order 
+related to this matter.
+---------------------------------------------------------------------------
+
+C. Resubmitted Form No. 6s
+
+    15. We also observe that, since April 2025, 61 pipelines have 
+resubmitted FERC Form No. 6 cost data for 2019 to change the 
+calculation of the ROE as well as other modifications.\33\ We 
+considered whether to use pipelines' resubmitted FERC Form No. 6 cost 
+data for 2019 or whether to rely on pipelines' originally submitted 
+FERC Form No. 6 cost data. For the reasons discussed below, the index 
+level proposed in this NOPR relies on pipelines' originally submitted 
+FERC Form No. 6 cost data.
+---------------------------------------------------------------------------
+
+    \33\ See Appendix (listing 61 pipelines that have resubmitted 
+their 2020 Form No. 6 since April 2025 to change their page 700 data 
+for 2019). See also Tallgrass Pony Express Pipeline, LLC, Form No. 6 
+(filed June 13, 2025) (resubmitting 2019 Form No. 6 to change their 
+page 700 data for 2019). Many of the changes involved changes to ROE 
+and capital structure that led to modifications elsewhere on page 
+700. However, some pipelines made additional changes to other cost 
+components, such as rate base and operating expenses. See, e.g., 
+Sunoco Pipeline L.P., Form No. 6, page 700 (filed Apr. 29, 2025) 
+(among other modifications, showing an approximately $1 billion 
+change to rate base); Tesoro High Plains Pipeline Company LLC, Form 
+No. 6, page 700 (filed Apr. 17, 2025) (among other modifications, 
+showing an approximately $7 million change to operating costs).
+---------------------------------------------------------------------------
+
+    16. First, the resubmissions were filed five years after the cost 
+data was originally due to be submitted and include limited 
+explanations for these changes.\34\ A similarly significant volume of 
+late filings of Form No. 6 has not arisen in prior five-year review 
+proceedings, and these filings raise potential concerns about use of 
+the late-filed data. For example, the late-filed data from many 
+pipelines filing Form No. 6 updates lack supporting calculations, 
+instead merely stating that ``[t]he cost of service results have been 
+updated to reflect the most current interpretation of the FERC 
+methodology outlined in Opinion No. 154-B, 31 FERC 61,377 (1985), as 
+modified and clarified by subsequent rulings.'' \35\ Additionally, we 
+are concerned that use of updated data could introduce biases in the 
+index calculations because only some pipelines updated their data. 
+Accordingly, we are not including these late submittals in the 
+calculation of the index level proposed in this NOPR.\36\ We seek 
+comment on whether, and if so how, the Commission's calculation of the 
+index level should incorporate the recently resubmitted page 700 data 
+for 2019.
+---------------------------------------------------------------------------
+
+    \34\ See, e.g., Mid-America Pipeline Company, LLC, Form No. 6, 
+page 700 (filed May 6, 2025) (stating ``The cost-of-service results 
+have been updated to reflect the most current interpretation of the 
+FERC methodology outlined in Opinion No. 154-B, 31 FERC 61,377 
+(1985), as modified and clarified by Opinion No. 586.''); Platte 
+Pipe Line Company, LLC, Form No. 6, page 700 (filed May 2, 2025) 
+(stating ``2019 and 2020 data has been restated using a revised 
+return on equity (ROE) calculation consistent with the ROE 
+methodology approved by the Commission in Opinion No. 586.'').
+    \35\ See, e.g., Buckeye Pipe Line Transportation LLC June 16, 
+2025, revisions of 2020 FERC Form 6 report at page 2.
+    \36\ For informational purposes, see Attach. A, Ex. 4 tab.
+---------------------------------------------------------------------------
+
+III. Information Collection Statement
+
+    17. The information collection requirements contained in this 
+proposed rule are subject to review by the Office of Management and 
+Budget (OMB) under section 3507(d) of the Paperwork Reduction Act of 
+1995.\37\ OMB's regulations require approval of certain information 
+collection requirements imposed by agency rules.\38\
+---------------------------------------------------------------------------
+
+    \37\ 44 U.S.C. 3507(d).
+    \38\ 5 CFR 1320.11.
+---------------------------------------------------------------------------
+
+    18. This proposed rule affects a currently approved information 
+collection. Changes described in this proposed rule are non-substantive 
+and do not change any filing requirements; rather this proposed rule 
+adjusts an aspect of the calculation that is used in an annual tariff 
+filing that FERC jurisdictional oil pipelines are required to submit to 
+the Commission. This aspect of the calculation is reviewed and updated 
+every five years.
+
+[[Page 52906]]
+
+Summary of Information Collection
+
+    Title: FERC-550, Oil Pipeline Tariff Filings & Depreciation 
+Studies.
+    Action: Non-substantive change adjusting an aspect of the 
+calculation that is used in annual oil pipeline tariff filings.
+    OMB Control Nos.: 1902-0089 (FERC-550).
+    Respondents: Oil Pipelines.
+    Frequency of Information Collection: On occasion in compliance with 
+requirements.
+    Necessity of Information: The reforms in this proposed rule are 
+necessary to ensure that the rates of oil pipelines are just and 
+reasonable.
+    Internal Review: The Commission has reviewed the reforms and 
+determined that such reforms are necessary. These reforms conform to 
+the Commission's need for efficient information collection, 
+communication, and management within the energy industry. The 
+Commission has specific, objective support for the burden estimates 
+associated with the information collection requirements.
+    Public Reporting Burden: The burden and cost related to filing an 
+oil pipeline tariff will not change due to this proposed rule. The 
+currently approved hourly burden for submitting a tariff filing is 7 
+hours ($721 \39\).
+---------------------------------------------------------------------------
+
+    \39\ The hourly cost used in this calculation is based on the 
+estimated average annual cost per FERC FTE, including salary + 
+benefits of $103 per hour, or $214,093 per year.
+---------------------------------------------------------------------------
+
+IV. Executive Order 12866 (Regulatory Planning and Review) and 
+Executive Order 13563 (Improving Regulation and Regulatory Review)
+
+    19. Executive Order 12866 (Regulatory Planning and Review), as 
+amended by Executive Orders 14215 (Ensuring Accountability for All 
+Agencies) and supplemented by 13563 (Improving Regulation and 
+Regulatory Review), directs agencies to assess the costs and benefits 
+of available regulatory alternatives and, if regulation is necessary, 
+to select regulatory approaches that maximize net benefits. Executive 
+Order 13563 emphasizes the importance of quantifying costs and 
+benefits, reducing costs, harmonizing rules, and promoting flexibility. 
+The Office of Information and Regulatory Affairs (OIRA) has designated 
+this proposed rule a ``significant regulatory action'' that is 
+economically significant under section 3(f)(1) of Executive Order 
+12866. Accordingly, OMB has reviewed this proposed rule. The regulatory 
+impact analysis associated with this rulemaking can be found as a 
+supporting document at <a href="http://www.regulations.gov">www.regulations.gov</a>. The following represents a 
+summary of the aforementioned regulatory impact analysis.
+    20. If adopted in a final rule, the index level proposed in this 
+NOPR would influence rates for interstate oil pipeline transportation 
+service, which would affect the interests of interstate oil pipelines 
+and shippers on interstate oil pipelines.\40\ The RIA considers the 
+potential impacts of the index level proposed in the NOPR relative to 
+two baselines.\41\ The first baseline (Baseline 1) assumes that a final 
+rule establishing a new index level for the 2026-2031 time period is 
+not issued and assumes that the index level established for 2021-2025 
+would remain effective for 2026-2031. The second baseline (Baseline 2) 
+assumes that a final rule establishing an index level for the 2026-2031 
+time period is not issued, and that there is no effective index level 
+and pipelines are thus precluded from changing their rates pursuant to 
+the Commission's indexing regulations for the 2026-2031 period. 
+Adopting the index level proposed in this NOPR would reduce interstate 
+oil pipeline transportation revenues during the five-year period that 
+the index would be effective as compared to Baseline 1 and would 
+increase oil pipeline revenues during the five-year period that the 
+index would be effective as compared to Baseline 2.\42\
+---------------------------------------------------------------------------
+
+    \40\ Approximately 350 pipelines file tariff rates with the 
+Commission for interstate transportation of crude oil and petroleum 
+products, and approximately 86% of rates are set under the indexing 
+method. For more information about who is affected by the NOPR, see 
+section II.C of the RIA.
+    \41\ See RIA, section II.E.
+    \42\ For more information about the effects of the NOPR as 
+compared to Baseline 1 and Baseline 2, see RIA, section II.f. See 
+also RIA, apps. A, B.
+---------------------------------------------------------------------------
+
+    21. As discussed in the RIA, the issuance of a final rule adopting 
+the proposed index level in the NOPR would not create any measurable 
+costs or benefits outside of these effects experienced by pipelines and 
+shippers. While there are circumstances in which pipeline 
+transportation rates can indirectly affect financial interests outside 
+of pipelines and shippers (for example, lower pipeline transportation 
+rates could affect commodity prices for refineries, prices of 
+petroleum, or pipeline infrastructure investment), these impacts are 
+sufficiently attenuated or otherwise so minimal as to not result in 
+significant costs.\43\
+---------------------------------------------------------------------------
+
+    \43\ See id. section II.G.
+---------------------------------------------------------------------------
+
+    22. The RIA also describes the regulatory alternatives that the 
+Commission considered and the estimated effects of alternative index 
+levels on annual interstate oil pipeline transportation revenues as 
+compared to the baselines. The alternative index levels reflect 
+different combinations of regulatory alternatives, specifically of 
+different approaches to the three issues on which we seek comment in 
+the NOPR.\44\ All of the index levels that result from the various 
+regulatory alternatives considered in the RIA are higher compared to 
+the index level proposed in the NOPR.
+---------------------------------------------------------------------------
+
+    \44\ For further details about the regulatory alternatives 
+considered by the Commission and their estimated effects on annual 
+interstate oil pipeline transportation revenues, see RIA, section 
+II.H, apps. A, B, C, D.
+---------------------------------------------------------------------------
+
+V. Executive Order 13132 (Federalism)
+
+    23. Executive Order 13132 (Federalism) imposes certain requirements 
+on Federal agencies formulating and implementing policies or 
+regulations that preempt State law or that have federalism 
+implications. The Executive Order requires agencies to examine the 
+constitutional and statutory authority supporting any action that would 
+limit the policymaking discretion of the States and to carefully assess 
+the necessity for such actions.
+    24. The Commission has examined the NOPR and has determined that it 
+would not have a substantial direct effect on the States, on the 
+relationship between the national government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government. Therefore, the Commission has not prepared a federalism 
+assessment.
+
+VI. Executive Order 13211 (Actions Concerning Regulations That 
+Significantly Affect Energy Supply, Distribution, or Use)
+
+    25. Executive Order 13211 (Actions Concerning Regulations that 
+Significantly Affect Energy Supply, Distribution, or Use) requires 
+Federal agencies to prepare and submit to OIRA at OMB, a Statement of 
+Energy Effects for any significant energy action. A ``significant 
+energy action'' is defined as any action that promulgates or is 
+expected to lead to promulgation of a final rule, and that: (1) is a 
+significant regulatory action under Executive Order 12866, or any 
+successor order and is likely to have a significant adverse effect on 
+the supply, distribution, or use of energy; or (2) is designated by the 
+Administrator of OIRA as a significant energy action. For any 
+significant energy action, the agency must give a detailed statement of 
+any adverse effects on energy supply, distribution, or use should the 
+proposal be implemented, and of reasonable alternatives to the
+
+[[Page 52907]]
+
+action and their expected benefits on energy supply, distribution, and 
+use.
+    26. At this NOPR stage, the Commission has preliminarily determined 
+that this rule would not have a significant adverse effect on the 
+supply, distribution, or use of energy. Accordingly, the Commission has 
+not prepared a Statement of Energy Effects.
+
+VII. Environmental Analysis
+
+    27. The Commission is required to prepare an Environmental 
+Assessment or an Environmental Impact Statement for any action that may 
+have a significant adverse effect on the human environment.\45\ The 
+Commission has categorically excluded certain actions from this 
+requirement as not having a significant effect on the human 
+environment. Included in this exclusion are proposed rules that are 
+clarifying, corrective, or procedural or that do not substantially 
+change the effect of the regulations being amended.\46\ The action 
+proposed herein falls within this categorical exclusion in the 
+Commission's regulations.
+---------------------------------------------------------------------------
+
+    \45\ Reguls. Implementing the National Env't Pol'y Act, Order 
+No. 486, 52 FR 47897 (Dec. 17, 1987), FERC Stats. & Regs. ] 30,783 
+(1987) (cross-referenced at 41 FERC ] 61,284).
+    \46\ 18 CFR 380.4(a)(2)(ii).
+---------------------------------------------------------------------------
+
+VIII. Regulatory Flexibility Act
+
+    28. The Regulatory Flexibility Act of 1980 (RFA) \47\ generally 
+requires a description and analysis of proposed rules that will have 
+significant economic impact on a substantial number of small entities. 
+The Small Business Administration's (SBA) Office of Size Standards 
+develops the numerical definition of a small business.\48\ The SBA 
+defines a small oil pipeline company as one with less than 1,500 
+employees.\49\ Based on this definition, the Commission identified 43 
+small entities that the proposed rule will affect. As discussed above, 
+the burdens and costs associated with filing oil pipeline tariffs will 
+not change as a result of the proposed rule. The currently approved 
+hourly burden for submitting a tariff filing is 7 hours ($721). We view 
+this as a minimal economic impact for each entity. Accordingly, we 
+certify that the proposed rule will not have a significant economic 
+impact on a substantial number of small entities. Thus, no regulatory 
+flexibility analysis is required.
+---------------------------------------------------------------------------
+
+    \47\ 5 U.S.C. 601-612.
+    \48\ 13 CFR 121.101.
+    \49\ Id. 121.201, Subsector 486 (Pipeline Transportation).
+---------------------------------------------------------------------------
+
+IX. Comment Procedures
+
+    29. The Commission invites interested persons to submit comments on 
+the matters and issues proposed in this notice to be adopted, including 
+any related matters or alternative proposals that commenters may wish 
+to discuss. Initial Comments are due [insert date 30 days after date of 
+publication in the Federal Register], and Reply Comments are due 
+[insert date 51 days after date of publication in the Federal 
+Register]. Comments must refer to Docket No. RM26-6-000, and must 
+include the commenter's name, the organization they represent, if 
+applicable, and their address in their comments. All comments will be 
+placed in the Commission's public files and may be viewed, printed, or 
+downloaded remotely as described in the Document Availability section 
+below. Commenters on this proposal are not required to serve copies of 
+their comments on other commenters.
+    30. The Commission encourages comments to be filed electronically 
+via the eFiling link on the Commission's website at <a href="http://www.ferc.gov">http://www.ferc.gov</a>. The Commission accepts most standard word processing 
+formats. Documents created electronically using word processing 
+software must be filed in native applications or print-to-PDF format 
+and not in a scanned format. All supporting workpapers must be 
+submitted with links and formulas intact and in a spreadsheet format 
+acceptable under the Commission's eFiling rules. Commenters filing 
+electronically do not need to make a paper filing.
+    31. Commenters that are not able to file comments electronically 
+may file an original of their comment by USPS mail or by courier-or 
+other delivery services. For submission sent via USPS only, filings 
+should be mailed to: Federal Energy Regulatory Commission, Office of 
+the Secretary, 888 First Street NE, Washington, DC 20426. Submission of 
+filings other than by USPS should be delivered to: Federal Energy 
+Regulatory Commission, 12225 Wilkins Avenue, Rockville, MD 20852.
+
+X. Document Availability
+
+    32. In addition to publishing the full text of this document in the 
+Federal Register, the Commission provides all interested persons an 
+opportunity to view and/or print the contents of this document via the 
+internet through the Commission's Home Page (<a href="http://www.ferc.gov">http://www.ferc.gov</a>).
+    33. From the Commission's Home Page on the internet, this 
+information is available on eLibrary. The full text of this document is 
+available on eLibrary in PDF and Microsoft Word format for viewing, 
+printing, and/or downloading. To access this document in eLibrary, type 
+the docket number excluding the last three digits of this document in 
+the docket number field.
+    34. User assistance is available for eLibrary and the Commission's 
+website during normal business hours from FERC Online Support at (202) 
+502-6652 (toll free at 1-866-208-3676) or email at 
+<a href="/cdn-cgi/l/email-protection#6c0a091e0f0302000502091f191c1c031e182c0a091e0f420b031a"><span class="__cf_email__" data-cfemail="e1878493828e8f8d888f84929491918e9395a187849382cf868e97">[email&#160;protected]</span></a>, or the Public Reference Room at (202) 502-
+8371, TTY (202) 502-8659. Email the Public Reference Room at 
+<a href="/cdn-cgi/l/email-protection#621217000e0b014c1007040710070c0107100d0d0f22040710014c050d14"><span class="__cf_email__" data-cfemail="85f5f0e7e9ece6abf7e0e3e0f7e0ebe6e0f7eaeae8c5e3e0f7e6abe2eaf3">[email&#160;protected]</span></a>.
+
+    By direction of the Commission.
+
+    Issued: November 20, 2025.
+Carlos D. Clay,
+Deputy Secretary.
+
+Appendix--Pipelines That Resubmitted Page 700 Data for 2019 Since April 
+2025
+
+------------------------------------------------------------------------
+               Pipeline                            Filing date
+------------------------------------------------------------------------
+1. MPLX Ozark Pipe Line LLC...........  April 17, 2025.
+2. Tesoro Logistics Northwest Pipeline  April 17, 2025.
+ LLC.
+3. Marathon Pipe Line LLC.............  April 17, 2025.
+4. Muskegon Pipeline LLC..............  April 17, 2025.
+5. Hardin Street Holdings LLC.........  April 17, 2025.
+6. Andeavor Gathering I LLC...........  April 17, 2025.
+7. Tesoro High Plains Pipeline Company  April 17, 2025.
+ LLC.
+8. Andeavor Logistics Rio Pipeline LLC  April 17, 2025.
+9. Western Refining Conan Gathering,    April 17, 2025.
+ LLC.
+10. Western Refining Pipeline, LLC....  April 17, 2025.
+11. Ohio River Pipe Line LLC..........  April 17, 2025.
+
+[[Page 52908]]
+
+ 
+12. Dakota Access, LLC................  April 28, 2025.
+13. White Cliffs Pipeline, L.L.C......  April 28, 2025.
+14. Inland Corporation................  April 28, 2025.
+15. Energy Transfer Crude Oil Company,  April 28, 2025.
+ LLC.
+16. Mid Valley Pipeline Company LLC...  April 28, 2025.
+17. Permian Express Terminal LLC......  April 28, 2025.
+18. Permian Express Partners LLC......  April 28, 2025.
+19. West Texas Gulf Pipe Line Company   April 28, 2025.
+ LLC.
+20. Bayou Bridge Pipeline LLC.........  April 28, 2025.
+21. Enable Bakken Crude Services, LLC.  April 28, 2025.
+22. Centurion Pipeline L.P............  April 29, 2025.
+23. Sunoco Pipeline L.P...............  April 29, 2025.
+24. Centurion SENM Gathering LP.......  April 29, 2025.
+25. Energy Transfer GC NGL Pipelines    April 29, 2025.
+ LP.
+26. ETP Crude LLC.....................  April 29, 2025.
+27. Front Range Pipeline LLC..........  May 1, 2025.
+28. NuStar Permian Transportation and   May 1, 2025.
+ Storage, LLC.
+29. CCPS Transportation, LLC..........  May 2, 2025.
+30. Enbridge Storage (Patoka) L.L.C...  May 2, 2025.
+31. Enbridge Energy, Limited            May 2, 2025.
+ Partnership.
+32. Express Pipeline LLC..............  May 2, 2025.
+33. Platte Pipe Line Company, LLC.....  May 2, 2025.
+34. Seminole Pipeline Company LLC.....  May 2, 2025.
+35. Illinois Extension Pipeline         May 2, 2025.
+ Company L.L.C.
+36. Gray Oak Pipeline, LLC............  May 2, 2025.
+37. Enbridge Pipelines (Toledo) Inc...  May 2, 2025.
+38. North Dakota Pipeline Company LLC.  May 2, 2025.
+39. Enbridge Pipelines (Southern        May 2, 2025.
+ Lights) LLC.
+40. Bakken Pipeline Company LP........  May 2, 2025.
+41. Enbridge Pipelines (FSP) L.L.C....  May 2, 2025.
+42. Texas Express Pipeline LLC........  May 2, 2025.
+43. Rio Grande Pipeline Company LLC...  May 5, 2025.
+44. Seaway Crude Pipeline Company LLC.  May 5, 2025.
+45. Enterprise TE Products Pipeline     May 6, 2025.
+ Company LLC.
+46. Enterprise Lou-Tex NGL Pipeline     May 6, 2025.
+ L.P.
+47. Baton Rouge Pipeline LLC..........  May 6, 2025.
+48. Mid-America Pipeline Company, LLC.  May 6, 2025.
+49. Dixie Pipeline Company LLC........  May 6, 2025.
+50. Sorrento Pipeline Company, LLC....  May 6, 2025.
+51. WILPRISE Pipeline Company, L.L.C..  May 6, 2025.
+52. Enterprise Interstate Crude LLC...  May 6, 2025.
+53. Panola Pipeline Company, LLC......  May 6, 2025.
+54. Tri-States NGL Pipeline, LLC......  May 6, 2025.
+55. Leveret Pipeline Company LLC......  May 6, 2025.
+56. Buckeye Pipe Line Company, L.P....  June 16, 2025.
+57. Buckeye Pipe Line Transportation    June 16, 2025.
+ LLC.
+58. Buckeye Linden Pipe Line Company    June 16, 2025.
+ LLC.
+59. Wood River Pipe Lines LLC.........  June 16, 2025.
+60. West Shore Pipe Line Company......  June 16, 2025.
+61. Norco Pipe Line Company, LLC......  June 16, 2025.
+------------------------------------------------------------------------
+
+[FR Doc. 2025-20762 Filed 11-21-25; 8:45 am]
+BILLING CODE 6717-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

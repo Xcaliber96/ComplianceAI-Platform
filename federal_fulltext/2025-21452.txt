@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54731-54732]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21452]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+[Docket No. CISA-2025-0002]
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget for Review and Approval; Comment 
+Request; Visitor Request Form
+
+AGENCY: Cybersecurity and Infrastructure Security Agency (CISA), 
+Department of Homeland Security (DHS).
+
+ACTION: 30-Day notice of Information Collection; request for comment; 
+This a renewal of existing 11000-39 Visitor Request Form, 1670-0036 
+that was previously approved on August 05, 2022, with an expiration 
+date of November 30, 2025.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Chief Security Officer (OCSO) within 
+Cybersecurity and Infrastructure Security Agency (CISA) submits the 
+following information collection request (ICR) to the Office of 
+Management and Budget (OMB) for review and clearance. CISA previously 
+published this information collection request (ICR) in the Federal 
+Register on August 20, 2025, for a 60-day public comment period. No 
+comments were received by CISA. The purpose of this notice is to allow 
+an additional 30 days for public comments.
+
+DATES: Comments are encouraged and will be accepted until December 29, 
+2025. Submissions received after the deadline for receiving comments 
+may not be considered.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+    The Office of Management and Budget is particularly interested in 
+comments which:
+    1. Evaluate whether the proposed collection of information is 
+necessary for the proper performance of the functions of the agency, 
+including whether the information will have practical utility;
+    2. Evaluate the accuracy of the agency's estimate of the burden of 
+the proposed collection of information, including the validity of the 
+methodology and assumptions used;
+    3. Enhance the quality, utility, and clarity of the information to 
+be collected; and
+    4. Minimize the burden of the collection of information on those 
+who are to respond, including through the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques or 
+other forms of information technology, e.g., permitting electronic 
+submissions of responses.
+
+FOR FURTHER INFORMATION CONTACT: If additional information is required 
+contact: Michael A. Washington, Jr., 703-235-1925, 
+<a href="/cdn-cgi/l/email-protection#f0bd99939891959cdea7918398999e97849f9eb09d91999cde93998391de949883de979f86"><span class="__cf_email__" data-cfemail="c885a1aba0a9ada4e69fa9bba0a1a6afbca7a688a5a9a1a4e6aba1bba9e6aca0bbe6afa7be">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Public Law 107-296 The Homeland Security Act 
+of 2002, Title II, recognizes the Department of Homeland Security's 
+role in integrating relevant critical infrastructure and cybersecurity 
+information, analyses, and vulnerability assessments (whether such 
+information, analyses, or assessments are provided or produced by the 
+Department or others) in order to identify priorities for protective 
+and support measures by the Department, other agencies of the Federal 
+Government, State and local government agencies and authorities, the 
+private sector, and other entities while maintaining positive control 
+of sensitive information regarding the national infrastructure. In 
+support of this mission, CISA Office of the Chief Security Officer 
+(OCSO) must maintain a robust visitor screening capability. CISA OCSO 
+will collect, using an electronic form, information about each 
+potential visitor to CISA facilities and the nature of each visit. CISA 
+OCSO will use collected information to make a risk-based decision to 
+allow visitor access to CISA facilities. This is an extension of an 
+existing information collection.
+
+Analysis
+
+    Agency: Cybersecurity and Infrastructure Security Agency (CISA), 
+Department of Homeland Security (DHS).
+    Title: Cybersecurity and Infrastructure Security Agency (CISA) 
+Visitor Request Form.
+    OMB Number: 1670-0036.
+    Frequency: Annually.
+
+[[Page 54732]]
+
+    Affected Public: Private and Public Sector.
+    Number of Respondents: 20,000.
+    Estimated Time Per Respondent: 10 minutes.
+    Total Burden Hours: 3,333 hours.
+    Total Annual Burden Cost: $158,010.66.
+    Total Government Burden Cost: $366,514.16.
+
+Robert J. Costello,
+Chief Information Officer, Department of Homeland Security, 
+Cybersecurity and Infrastructure Security Agency.
+[FR Doc. 2025-21452 Filed 11-26-25; 8:45 am]
+BILLING CODE 9111-LF-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

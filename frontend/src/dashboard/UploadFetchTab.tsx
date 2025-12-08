@@ -1,24 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  Divider,
-  Stack,
-  TextField,
-  Typography,
-  List,
-  ListItem,
-  ListItemText,
-  Alert,
-  Select,
-  MenuItem,
-  FormControl,
-  InputLabel,
-  Tabs,
-  Tab,
-} from "@mui/material";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   downloadDriveFile,
   fetchFiles,
@@ -26,723 +6,686 @@ import {
   createObligation,
   getObligations,
   type Obligation,
+  getFileHubFiles,
+  BASE_URL,
+  fetchWorkspace,
+  runCompliance,
 } from "../api/client";
 import { useFilters } from "../store/filters";
+import { useNavigate } from "react-router-dom";
 
-const BG_MAIN = "#fcfcfc";
-const CARD_BORDER = "#232323";
-const CARD_BG = "#fff";
-const HEADING_BLACK = "#151515";
+type StepCardProps = {
+  step: number | string;
+  title: string;
+  description: string;
+  children: React.ReactNode;
+};
 
-export default function UploadFetchTab() {
-  const [tabIndex, setTabIndex] = useState(0);
-  const [source, setSource] = useState("Google");
-  const [driveFiles, setDriveFiles] = useState<any[]>([]);
-  const [uploading, setUploading] = useState(false);
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [message, setMessage] = useState<string>("");
+function StepCard({ step, title, description, children }: StepCardProps) {
+  return (
+    <section className="relative overflow-hidden rounded-2xl bg-white/90 p-5 shadow-sm ring-1 ring-slate-100">
+      {/* soft emerald accent bar */}
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-200 via-emerald-300 to-emerald-100" />
 
-  const [obligations, setObligations] = useState<Obligation[]>([]);
+      <div className="mt-2 flex items-start gap-3">
+        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-emerald-50 text-xs font-semibold text-emerald-700 ring-1 ring-emerald-200">
+          {step}
+        </span>
+        <div>
+          <h2 className="text-sm font-semibold text-slate-900">{title}</h2>
+          <p className="mt-1 text-xs text-slate-500">{description}</p>
+        </div>
+      </div>
+
+      <div className="mt-4 space-y-4">{children}</div>
+    </section>
+  );
+}
+
+export default function UploadFetchWizard() {
+  const navigate = useNavigate();   
+  const filters = useFilters(); // still here so behavior/backends remain unchanged
+
+  const [selectedEvidenceFileId, setSelectedEvidenceFileId] =
+    useState<string>("");
+  const [selectedRegulationIds, setSelectedRegulationIds] = useState<any[]>([]);
+
+  const user_uid = localStorage.getItem("user_uid");
+
+  const [message, setMessage] = useState("");
+  const [selectedRegulation, setSelectedRegulation] = useState("GDPR");
+  const [daysOffset, setDaysOffset] = useState(90);
+
+  const [openRegDropdown, setOpenRegDropdown] = useState(false);
+  const [openFileDropdown, setOpenFileDropdown] = useState(false);
+
+  const [selectedGranuleText, setSelectedGranuleText] = useState("");
+  const [selectedGranuleObligations, setSelectedGranuleObligations] =
+    useState<any[]>([]);
+
   const [newObligation, setNewObligation] = useState({
     description: "",
     regulation: "",
     due_date: "",
   });
 
-  const [selectedRegulation, setSelectedRegulation] = useState("GDPR");
-  const [daysOffset, setDaysOffset] = useState(90);
+  const [obligations, setObligations] = useState<Obligation[]>([]);
+  const [workspaceRegulations, setWorkspaceRegulations] = useState<any[]>([]);
 
-  const filters = useFilters();
+  const [source, setSource] = useState("Google");
+  const [driveFiles, setDriveFiles] = useState<any[]>([]);
 
-  useEffect(() => { loadObligations(); }, []);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [uploading, setUploading] = useState(false);
 
+  // Helper kept in place (no backend changes)
+  const importRegulationAndExtract = async (reg: any) => {
+    const user_uid = localStorage.getItem("user_uid");
+    if (!user_uid) {
+      console.error("❌ No user_uid found");
+      return;
+    }
+
+    const full = await fetch(`${BASE_URL}/api/regulation/${reg.id}`).then((r) =>
+      r.json()
+    );
+
+    const enriched = {
+      ...reg,
+      full_text: full.text,
+    };
+
+    const response = await fetch(`${BASE_URL}/api/regulations/import`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        user_uid,
+        regulations: [enriched],
+      }),
+    });
+
+    if (!response.ok) throw new Error("Import failed.");
+
+    const imported = await response.json();
+    return imported;
+  };
+
+  // ---- API: load obligations (define before useEffect) ----
   const loadObligations = async () => {
     try {
-      const data = await getObligations();
-      setObligations(data);
-    } catch (error) {
-      console.error("Failed to load obligations:", error);
-    }
-  };
-
-  const handleFetch = async () => {
-    const res = await fetchFiles(source);
-    setDriveFiles(res?.files ?? []);
-  };
-
-  const handleDownload = async (id: string) => {
-    const res = await downloadDriveFile(id);
-    setMessage(`Downloaded: ${res?.path ?? "unknown path"}`);
-  };
-
-  const handleUpload = async () => {
-    if (!selectedFile) return;
-    setUploading(true);
-    try {
-      const res = await uploadForInternalAudit(selectedFile);
-      setMessage(
-        `Audit started: ${res?.status ?? "ok"} (items: ${res?.total_requirements ?? 0})`
-      );
+      const res = await getObligations();
+      setObligations(res);
     } catch (err) {
-      console.error(err);
-      setMessage("Upload failed.");
-    } finally {
-      setUploading(false);
+      console.error("Failed to load obligations:", err);
     }
   };
 
+  // Load obligations initially
+  useEffect(() => {
+    loadObligations();
+  }, []);
+
+  // Load workspace regulations
+  useEffect(() => {
+    if (!user_uid) return;
+
+    async function loadRegulations() {
+      const regs = await fetchWorkspace(user_uid);
+      setWorkspaceRegulations(regs);
+    }
+
+    loadRegulations();
+  }, [user_uid]);
+
+  // Load FileHub files
+  useEffect(() => {
+    const user_uid = localStorage.getItem("user_uid");
+    console.log("USER UID:", user_uid);
+    if (!user_uid) return;
+
+    getFileHubFiles(user_uid).then(setDriveFiles);
+  }, []);
+
+const handleRunCompliance = async () => {
+  if (!user_uid) {
+    setMessage("Missing user session.");
+    return;
+  }
+
+  if (!selectedEvidenceFileId) {
+    setMessage("Select an evidence file first.");
+    return;
+  }
+
+  if (selectedRegulationIds.length === 0) {
+    setMessage("Select at least one regulation.");
+    return;
+  }
+
+  try {
+    const auditData = await runCompliance(
+      user_uid,
+      selectedEvidenceFileId,
+      selectedRegulationIds
+    );
+
+    console.log("Audit saved:", auditData.audit_id);
+
+    // Redirect to results page with audit data
+    navigate("/dashboard/results", {
+      state: auditData,   // 🔥 pass full audit results to the results page
+    });
+
+  } catch (err) {
+    console.error(err);
+    setMessage("RAG compliance check failed.");
+  }
+};
+
+  // API: auto-generate obligations
+  const handleAutoGenerate = async () => {
+    try {
+      const form = new FormData();
+      form.append("regulation", selectedRegulation);
+      form.append("due_date_offset_days", daysOffset.toString());
+
+      const res = await fetch(
+        "http://127.0.0.1:8000/api/auto_generate_compliance",
+        {
+          method: "POST",
+          body: form,
+        }
+      );
+
+      const data = await res.json();
+      if (data.status === "success") {
+        setMessage(
+          `Auto-generated ${data.obligations_created} obligations and ${data.tasks_created} tasks for ${selectedRegulation}.`
+        );
+        loadObligations();
+      } else {
+        setMessage(data.error || "Auto-generation failed.");
+      }
+    } catch {
+      setMessage("Auto-generation failed.");
+    }
+  };
+
+  // API: create obligation manually (API kept)
   const handleCreateObligation = async () => {
     if (
       !newObligation.description ||
       !newObligation.regulation ||
       !newObligation.due_date
     ) {
-      setMessage("Please fill all obligation fields");
+      setMessage("Please fill all obligation fields.");
       return;
     }
     try {
       await createObligation(newObligation);
-      setMessage("Obligation created successfully");
+      setMessage("Obligation created successfully.");
       setNewObligation({ description: "", regulation: "", due_date: "" });
       loadObligations();
-    } catch (error) {
-      setMessage("Failed to create obligation");
-      console.error(error);
+    } catch {
+      setMessage("Failed to create obligation.");
     }
   };
 
-  const handleAutoGenerate = async () => {
+  // API: fetch drive files from external source (kept)
+  const handleFetch = async () => {
+    const res = await fetchFiles(source);
+    setDriveFiles(res?.files ?? []);
+  };
+
+  // API: download (kept)
+  const handleDownload = async (id: string) => {
+    const res = await downloadDriveFile(id);
+    setMessage(`Downloaded: ${res?.path ?? "unknown path"}`);
+  };
+
+  // API: upload for audit (kept)
+  const handleUpload = async () => {
+    if (!selectedFile) return;
+    setUploading(true);
     try {
-      const formData = new FormData();
-      formData.append("regulation", selectedRegulation);
-      formData.append("due_date_offset_days", daysOffset.toString());
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/auto_generate_compliance",
-        {
-          method: "POST",
-          body: formData,
-        }
+      const res = await uploadForInternalAudit(selectedFile);
+      setMessage(
+        `Audit started: ${res?.status ?? "ok"} (${
+          res?.total_requirements ?? 0
+        } requirements)`
       );
-      const result = await response.json();
-      if (result.status === "success") {
-        setMessage(
-          `Auto-generated ${result.obligations_created} obligations and ${result.tasks_created} tasks for ${selectedRegulation}`
-        );
-        loadObligations();
-      } else {
-        setMessage(result.error || "Auto-generation failed");
-      }
-    } catch (error) {
-      setMessage("Auto-generation failed");
-      console.error(error);
+    } catch (err) {
+      setMessage("Upload failed.");
+    } finally {
+      setUploading(false);
     }
   };
+
+  // Extract obligations for selected regulation
+  const handleExtractObligations = async () => {
+    if (selectedRegulationIds.length === 0) {
+      setMessage("Please select at least one regulation first.");
+      return;
+    }
+
+    const regId = selectedRegulationIds[0];
+    const reg = workspaceRegulations.find((r) => r.id === regId);
+
+    if (!reg) {
+      setMessage("Could not find the selected regulation.");
+      return;
+    }
+
+    setMessage("Extracting obligations…");
+
+    try {
+      const full = await fetch(`${BASE_URL}/api/regulation/${reg.id}`).then(
+        (r) => r.json()
+      );
+      const obligations =
+        full.ingested?.obligations || full.obligations || [];
+
+      setSelectedGranuleText(full.text || "");
+      setSelectedGranuleObligations(obligations);
+
+      setMessage(`Extracted ${obligations.length} obligations.`);
+    } catch (err) {
+      console.error(err);
+      setMessage("Failed to extract obligations.");
+    }
+  };
+
+  const selectedEvidenceFile = driveFiles.find(
+    (f) => f.id === selectedEvidenceFileId
+  );
 
   return (
-    <Box
-      sx={{
-        minHeight: "calc(100vh - 64px)",
-        width: "100%",
-        bgcolor: BG_MAIN,
-        py: 4,
-      }}
-    >
-      <Stack spacing={4} maxWidth="900px" mx="auto" alignItems="stretch">
-        <Tabs
-          value={tabIndex}
-          onChange={(e, v) => setTabIndex(v)}
-          indicatorColor="primary"
-          textColor="inherit"
-          centered
-          sx={{
-            mb: 3,
-            ".MuiTabs-indicator": { bgcolor: HEADING_BLACK, height: 3, borderRadius: 2 },
-            ".MuiTab-root": {
-              fontWeight: 600,
-              fontSize: "1.07rem",
-              minWidth: 140,
-              textTransform: "none",
-              color: HEADING_BLACK,
-              "&.Mui-selected": { color: HEADING_BLACK },
-            },
-          }}
-        >
-          <Tab label="Auto-Generate" />
-          <Tab label="Obligation" />
-          <Tab label="Files" />
-          <Tab label="Audit" />
-        </Tabs>
+    <div className="min-h-screen ">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        {/* Page Header */}
+        <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-[11px] font-medium text-emerald-700 ring-1 ring-emerald-100">
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+              Compliance Workspace
+            </div>
+            <h1 className="mt-3 text-2xl font-semibold text-slate-900">
+              Compliance & Evidence Wizard
+            </h1>
+            <p className="mt-1 max-w-xl text-sm text-slate-500">
+              Guide your compliance flow step-by-step: generate obligations,
+              extract requirements from regulations, select evidence files, and
+              run AI-based compliance checks.
+            </p>
+          </div>
+          <div className="flex flex-col items-end gap-2 text-xs text-slate-400">
+            <span className="rounded-full bg-emerald-100/70 px-3 py-1 font-medium text-emerald-700">
+              Soft Green Mode
+            </span>
+            {user_uid && (
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] text-slate-500">
+                User: <span className="font-mono">{user_uid}</span>
+              </span>
+            )}
+          </div>
+        </header>
 
-        {message && (
-          <Alert
-            severity={
-              message.includes("success") ||
-              message.includes("started") ||
-              message.includes("Auto-generated")
-                ? "success"
-                : message.includes("failed") || message.includes("Failed")
-                ? "error"
-                : "info"
-            }
-            onClose={() => setMessage("")}
-            sx={{
-              borderRadius: 2,
-              boxShadow: "0 2px 18px 0 rgba(35,35,35,0.08)",
-              fontSize: "0.93rem",
-              bgcolor: "#fff",
-              color: HEADING_BLACK,
-              border: `1px solid ${CARD_BORDER}`,
-            }}
-          >
-            {message}
-          </Alert>
-        )}
-
-        {/* Auto-Generate Compliance Plan */}
-        {tabIndex === 0 && (
-          <Card
-            elevation={0}
-            sx={{
-              borderRadius: 4,
-              border: `1px solid ${CARD_BORDER}`,
-              background: CARD_BG,
-              boxShadow: "0 1px 10px 0 rgba(35,35,35,0.04)",
-            }}
-          >
-            <CardContent sx={{ p: { xs: 2, md: 4 } }}>
-              <Typography
-                variant="h6"
-                fontWeight={700}
-                sx={{ color: HEADING_BLACK, mb: 1.5, letterSpacing: 0.1 }}
-              >
-                Auto-Generate Compliance Plan
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{
-                  mb: 2,
-                  color: "#232323",
-                  lineHeight: 1.7,
-                  opacity: 0.97,
-                  fontWeight: 500,
-                }}
-              >
-                Automatically create obligations and tasks from regulation templates.
-              </Typography>
-              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
-
-              <Stack spacing={2}>
-                {/* Select Regulation field */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <InputLabel
-                    id="regulation-select-label"
-                    sx={{
-                      fontWeight: 600,
-                      fontSize: "0.99rem",
-                      color: "#232323",
-                      backgroundColor: "#fff",
-                      px: 0.6,
-                      zIndex: 2,
-                      left: 8,
-                    }}
-                  >
+        {/* 2-column layout */}
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,3fr),minmax(260px,1fr)]">
+          {/* LEFT SIDE — STEPS */}
+          <main className="space-y-6">
+            {/* STEP 1: Auto-generate compliance plan */}
+            <StepCard
+              step={1}
+              title="Auto-generate compliance plan"
+              description="Automatically create obligations and tasks for common frameworks based on a base regulation and due date offset."
+            >
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="sm:col-span-2">
+                  <label className="text-xs font-medium text-slate-700">
                     Select Regulation
-                  </InputLabel>
-                  <Select
-                    labelId="regulation-select-label"
-                    id="regulation-select"
+                  </label>
+                  <select
                     value={selectedRegulation}
                     onChange={(e) => setSelectedRegulation(e.target.value)}
-                    label="Select Regulation"
-                    sx={{
-                      borderRadius: 4,
-                      bgcolor: "#fff",
-                      fontWeight: 500,
-                      "& .MuiOutlinedInput-notchedOutline": {
-                        borderColor: CARD_BORDER,
-                      },
-                    }}
+                    className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                   >
-                    <MenuItem value="GDPR">GDPR (3 obligations, 6 tasks)</MenuItem>
-                    <MenuItem value="SOX">SOX (2 obligations, 4 tasks)</MenuItem>
-                    <MenuItem value="SOC2">SOC2 (2 obligations, 4 tasks)</MenuItem>
-                    <MenuItem value="HIPAA">HIPAA (2 obligations, 4 tasks)</MenuItem>
-                  </Select>
-                </FormControl>
-                {/* Days Until Due field */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <TextField
-                    id="days-until-due"
-                    label="Days Until Due"
+                    <option value="">Select Regulation</option>
+                    {workspaceRegulations.map((reg) => (
+                      <option key={reg.id} value={reg.name}>
+                        {reg.name} {reg.code ? `(${reg.code})` : ""}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="text-xs font-medium text-slate-700">
+                    Days Until Due
+                  </label>
+                  <input
                     type="number"
                     value={daysOffset}
                     onChange={(e) => setDaysOffset(Number(e.target.value))}
-                    helperText="Default deadline offset from today"
-                    InputLabelProps={{
-                      sx: {
-                        backgroundColor: "#fff",
-                        px: 0.6,
-                        zIndex: 2,
-                        left: 8,
-                      }
-                    }}
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: 4,
-                        bgcolor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                      },
-                      "& .MuiFormHelperText-root": {
-                        fontSize: "0.85rem",
-                        color: "#232323"
-                      }
-                    }}
+                    className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                   />
-                </FormControl>
-                <Button
-                  variant="contained"
-                  onClick={handleAutoGenerate}
-                  fullWidth
-                  sx={{
-                    py: 1.4,
-                    borderRadius: 7,
-                    textTransform: "none",
-                    fontSize: "1.07rem",
-                    fontWeight: 700,
-                    background: HEADING_BLACK,
-                    boxShadow: "none",
-                    color: "#fff",
-                    letterSpacing: 0.4,
-                    "&:hover": {
-                      background: "#232323",
-                      opacity: 0.97
-                    }
-                  }}
-                >
-                  Auto-Generate Full Compliance Plan
-                </Button>
-              </Stack>
-            </CardContent>
-          </Card>
-        )}
+                </div>
 
-        {/* Obligation Tab */}
-        {tabIndex === 1 && (
-          <Card
-            elevation={0}
-            sx={{
-              borderRadius: 4,
-              border: `1px solid ${CARD_BORDER}`,
-              background: CARD_BG,
-              boxShadow: "0 1px 10px 0 rgba(35,35,35,0.04)",
-            }}
-          >
-            <CardContent sx={{ p: { xs: 2, md: 4 } }}>
-              <Typography
-                variant="h6"
-                fontWeight={700}
-                sx={{ color: HEADING_BLACK, mb: 1.5, letterSpacing: 0.1 }}
-              >
-                Create Compliance Obligation
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{
-                  mb: 2,
-                  color: "#232323",
-                  lineHeight: 1.7,
-                  fontWeight: 500,
-                }}
-              >
-                Define new compliance requirements and deadlines manually.
-              </Typography>
-              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
-              <Stack spacing={2}>
-                {/* Description */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <TextField
-                    id="description-field"
-                    label="Description"
-                    size="small"
-                    value={newObligation.description}
-                    onChange={(e) =>
-                      setNewObligation({ ...newObligation, description: e.target.value })
-                    }
-                    placeholder="e.g., Implement GDPR data retention policy"
-                    InputLabelProps={{
-                      sx: {
-                        backgroundColor: "#fff",
-                        px: 0.6,
-                        zIndex: 2,
-                        left: 8,
-                      }
-                    }}
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: 4,
-                        bgcolor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                      }
-                    }}
-                  />
-                </FormControl>
-                {/* Regulation */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <TextField
-                    id="regulation-field"
-                    label="Regulation"
-                    size="small"
-                    value={newObligation.regulation}
-                    onChange={(e) =>
-                      setNewObligation({ ...newObligation, regulation: e.target.value })
-                    }
-                    placeholder="e.g., GDPR, SOX, SOC2"
-                    InputLabelProps={{
-                      sx: {
-                        backgroundColor: "#fff",
-                        px: 0.6,
-                        zIndex: 2,
-                        left: 8,
-                      }
-                    }}
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: 4,
-                        bgcolor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                      }
-                    }}
-                  />
-                </FormControl>
-                {/* Due Date */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <TextField
-                    id="due-date-field"
-                    label="Due Date"
-                    size="small"
-                    type="date"
-                    InputLabelProps={{
-                      shrink: true,
-                      sx: {
-                        backgroundColor: "#fff",
-                        px: 0.6,
-                        zIndex: 2,
-                        left: 8,
-                      }
-                    }}
-                    value={newObligation.due_date}
-                    onChange={(e) =>
-                      setNewObligation({ ...newObligation, due_date: e.target.value })
-                    }
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: 4,
-                        bgcolor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                      }
-                    }}
-                  />
-                </FormControl>
-                <Button
-                  variant="contained"
-                  onClick={handleCreateObligation}
-                  fullWidth
-                  sx={{
-                    py: 1.4,
-                    borderRadius: 7,
-                    textTransform: "none",
-                    fontSize: "1.07rem",
-                    fontWeight: 700,
-                    background: HEADING_BLACK,
-                    boxShadow: "none",
-                    color: "#fff",
-                    letterSpacing: 0.4,
-                    "&:hover": {
-                      background: "#232323",
-                      opacity: 0.97
-                    }
-                  }}
-                >
-                  Create Obligation
-                </Button>
-              </Stack>
-              {obligations.length > 0 && (
-                <>
-                  <Divider sx={{ my: 3, borderColor: CARD_BORDER }} />
-                  <Typography
-                    variant="subtitle2"
-                    fontWeight={700}
-                    sx={{ mb: 2, color: HEADING_BLACK }}
+                <div className="sm:col-span-2">
+                  <button
+                    onClick={handleAutoGenerate}
+                    className="mt-1 w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
                   >
-                    Existing Obligations ({obligations.length})
-                  </Typography>
-                  <List dense sx={{ backgroundColor: "#fff", borderRadius: 4, p: 1 }}>
-                    {obligations.map((ob: any) => (
-                      <ListItem
-                        key={ob.id}
-                        sx={{
-                          borderRadius: 3,
-                          mb: 0.7,
-                          backgroundColor: "#fff",
-                          border: `1px solid ${CARD_BORDER}`,
-                          "&:last-child": { mb: 0 }
-                        }}
-                      >
-                        <ListItemText
-                          primary={
-                            <Typography
-                              variant="body2"
-                              fontWeight={600}
-                              sx={{ color: "#232323" }}
-                            >
-                              {ob.regulation}: {ob.description}
-                            </Typography>
-                          }
-                          secondary={
-                            <Typography variant="caption" sx={{ color: "#232323", opacity: 0.7 }}>
-                              Due: {new Date(ob.due_date).toLocaleDateString()}
-                            </Typography>
-                          }
-                        />
-                      </ListItem>
-                    ))}
-                  </List>
-                </>
-              )}
-            </CardContent>
-          </Card>
-        )}
+                    Auto-generate plan
+                  </button>
+                </div>
+              </div>
+            </StepCard>
 
-        {/* Files Tab */}
-        {tabIndex === 2 && (
-          <Card
-            elevation={0}
-            sx={{
-              borderRadius: 4,
-              border: `1px solid ${CARD_BORDER}`,
-              background: CARD_BG,
-              boxShadow: "0 1px 10px 0 rgba(35,35,35,0.04)",
-            }}
-          >
-            <CardContent sx={{ p: { xs: 2, md: 4 } }}>
-              <Typography
-                variant="h6"
-                fontWeight={700}
-                sx={{ color: HEADING_BLACK, mb: 1.5, letterSpacing: 0.1 }}
-              >
-                Fetch Files from Cloud Storage
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{
-                  mb: 2,
-                  color: "#232323",
-                  lineHeight: 1.7,
-                  fontWeight: 500,
-                }}
-              >
-                Current Filters — Dept: {filters.department ?? "All"}, Country: {filters.country ?? "All"}, State: {filters.state ?? "All"}
-              </Typography>
-              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
-              <Stack direction="row" spacing={2} alignItems="flex-start" sx={{ mb: 2 }}>
-                {/* Source field */}
-                <FormControl fullWidth size="small" variant="outlined">
-                  <TextField
-                    id="source-field"
-                    label="Source"
-                    size="small"
-                    value={source}
-                    onChange={(e) => setSource(e.target.value)}
-                    helperText="Use 'Google' for Google Drive"
-                    InputLabelProps={{
-                      sx: {
-                        backgroundColor: "#fff",
-                        px: 0.6,
-                        zIndex: 2,
-                        left: 8,
-                      }
-                    }}
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: 4,
-                        bgcolor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                      },
-                      "& .MuiFormHelperText-root": { color: "#232323", fontSize: "0.85em" }
-                    }}
-                  />
-                </FormControl>
-                <Button
-                  variant="outlined"
-                  onClick={handleFetch}
-                  sx={{
-                    py: 1.2,
-                    px: 3,
-                    borderRadius: 4,
-                    fontWeight: 700,
-                    borderColor: CARD_BORDER,
-                    color: HEADING_BLACK,
-                    background: "#fff",
-                    "&:hover": {
-                      borderColor: "#191919",
-                      backgroundColor: "#f1f1f1"
-                    }
-                  }}
+            {/* STEP 2: Extract obligations from regulation */}
+            <StepCard
+              step={2}
+              title="Extract obligations from regulations"
+              description="Choose one or more regulations in your workspace and automatically extract their obligations."
+            >
+              {/* Regulation multiselect */}
+              <div className="relative">
+                <label className="text-xs font-medium text-slate-700">
+                  Workspace Regulations
+                </label>
+                <button
+                  type="button"
+                  onClick={() => setOpenRegDropdown((prev) => !prev)}
+                  className="mt-1 flex w-full items-center justify-between rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                 >
-                  Fetch Files
-                </Button>
-              </Stack>
-              {driveFiles.length > 0 && (
-                <List dense sx={{ backgroundColor: "#fff", borderRadius: 4, p: 1 }}>
-                  {driveFiles.map((f) => (
-                    <ListItem
-                      key={f.id}
-                      sx={{
-                        borderRadius: 3,
-                        mb: 0.7,
-                        backgroundColor: "#fff",
-                        border: `1px solid ${CARD_BORDER}`,
-                        "&:last-child": { mb: 0 }
-                      }}
-                      secondaryAction={
-                        <Button
-                          size="small"
-                          onClick={() => handleDownload(f.id)}
-                          sx={{
-                            textTransform: "none",
-                            fontSize: "0.91rem",
-                            color: HEADING_BLACK,
-                            fontWeight: 700,
-                            "&:hover": {
-                              backgroundColor: "#e9e9e9"
-                            }
+                  {selectedRegulationIds.length > 0
+                    ? `${selectedRegulationIds.length} regulation(s) selected`
+                    : "Select regulation(s)…"}
+                  <span className="ml-2 text-slate-400">▾</span>
+                </button>
+
+                {openRegDropdown && (
+                  <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
+                    {workspaceRegulations.length === 0 && (
+                      <p className="p-4 text-center text-xs text-slate-500">
+                        No regulations found for this workspace.
+                      </p>
+                    )}
+
+                    {workspaceRegulations.map((reg) => {
+                      const isSelected = selectedRegulationIds.includes(reg.id);
+                      return (
+                        <div
+                          key={reg.id}
+                          onClick={() => {
+                            setSelectedRegulationIds((prev) =>
+                              prev.includes(reg.id)
+                                ? prev.filter((id) => id !== reg.id)
+                                : [...prev, reg.id]
+                            );
                           }}
+                          className={`cursor-pointer px-4 py-3 text-sm transition ${
+                            isSelected
+                              ? "bg-emerald-50 text-emerald-800"
+                              : "hover:bg-slate-50"
+                          }`}
                         >
-                          Download
-                        </Button>
-                      }
-                    >
-                      <ListItemText
-                        primary={
-                          <Typography variant="body2" fontWeight={700} sx={{ color: "#232323" }}>
-                            {f.name}
-                          </Typography>
-                        }
-                        secondary={
-                          <Typography variant="caption" sx={{ color: "#232323", opacity: 0.7 }}>
-                            {f.id}
-                          </Typography>
-                        }
-                      />
-                    </ListItem>
-                  ))}
-                </List>
-              )}
-            </CardContent>
-          </Card>
-        )}
+                          <div className="flex items-center justify-between">
+                            <p className="font-medium">
+                              {reg.name}
+                              {reg.code ? (
+                                <span className="ml-1 text-[11px] text-slate-400">
+                                  ({reg.code})
+                                </span>
+                              ) : null}
+                            </p>
+                            {isSelected && (
+                              <span className="rounded-full bg-emerald-100 px-2 py-[2px] text-[10px] font-semibold text-emerald-700">
+                                Selected
+                              </span>
+                            )}
+                          </div>
+                          <p className="mt-1 text-[11px] text-slate-400">
+                            ID: {reg.id}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
 
-        {/* Audit Tab remains unchanged */}
-        {tabIndex === 3 && (
-          <Card
-            elevation={0}
-            sx={{
-              borderRadius: 4,
-              border: `1px solid ${CARD_BORDER}`,
-              background: CARD_BG,
-              boxShadow: "0 1px 10px 0 rgba(35,35,35,0.04)",
-            }}
-          >
-            <CardContent sx={{ p: { xs: 2, md: 4 } }}>
-              <Typography
-                variant="h6"
-                fontWeight={700}
-                sx={{ color: HEADING_BLACK, mb: 1.5, letterSpacing: 0.1 }}
+              <button
+                onClick={handleExtractObligations}
+                className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
-                Upload Evidence & Run Audit
-              </Typography>
-              <Divider sx={{ my: 2, borderColor: CARD_BORDER }} />
-              <Stack spacing={2}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 2,
-                    p: 2,
-                    backgroundColor: "#fff",
-                    borderRadius: 4,
-                    border: `1px dashed ${CARD_BORDER}`
-                  }}
+                Extract obligations
+              </button>
+
+              {selectedGranuleObligations.length > 0 && (
+                <div className="rounded-lg bg-emerald-50/70 p-3 text-xs text-emerald-800 ring-1 ring-emerald-100">
+                  Extracted{" "}
+                  <span className="font-semibold">
+                    {selectedGranuleObligations.length}
+                  </span>{" "}
+                  obligation
+                  {selectedGranuleObligations.length === 1 ? "" : "s"} from the
+                  selected regulation.
+                </div>
+              )}
+            </StepCard>
+
+            {/* Extracted Obligations List (if any) */}
+            {selectedGranuleObligations.length > 0 && (
+              <section className="rounded-2xl bg-white/90 p-5 shadow-sm ring-1 ring-slate-100">
+                <div className="mb-3 flex items-center justify-between gap-2">
+                  <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    Extracted obligations (
+                    {selectedGranuleObligations.length})
+                  </h3>
+                  <span className="rounded-full bg-slate-50 px-2 py-1 text-[10px] text-slate-400">
+                    Scroll to review
+                  </span>
+                </div>
+
+                <div className="max-h-96 space-y-4 overflow-y-auto pr-1">
+                  {selectedGranuleObligations.map((o: any, idx: number) => (
+                    <div
+                      key={idx}
+                      className="space-y-2 rounded-xl border border-slate-200 bg-slate-50/60 p-4 shadow-sm transition hover:border-emerald-200 hover:bg-white"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-[11px] font-mono text-slate-400">
+                          {o.obligation_id}
+                        </span>
+                        <span className="rounded-full bg-emerald-50 px-2 py-[2px] text-[10px] text-emerald-700">
+                          {o.deontic}
+                        </span>
+                      </div>
+
+                      <p className="text-sm font-medium text-slate-900">
+                        {o.text}
+                      </p>
+
+                      <div className="mt-2 grid grid-cols-2 gap-y-1 text-[11px] text-slate-600">
+                        <p>
+                          <span className="font-semibold">Subject:</span>{" "}
+                          {o.subject}
+                        </p>
+                        <p>
+                          <span className="font-semibold">Action:</span>{" "}
+                          {o.action}
+                        </p>
+                        {o.object && (
+                          <p>
+                            <span className="font-semibold">Object:</span>{" "}
+                            {o.object}
+                          </p>
+                        )}
+                        {o.condition && (
+                          <p>
+                            <span className="font-semibold">Condition:</span>{" "}
+                            {o.condition}
+                          </p>
+                        )}
+                        <p>
+                          <span className="font-semibold">Confidence:</span>{" "}
+                          {Math.round((o.confidence ?? 0) * 100)}%
+                        </p>
+                      </div>
+
+                      <div className="mt-2 border-t pt-2 text-[10px] text-slate-400">
+                        <p>Source doc: {o.source_doc}</p>
+                        {o.created_at && (
+                          <p>
+                            Created:{" "}
+                            {new Date(o.created_at).toLocaleString()}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* STEP 3: Select evidence file */}
+            <StepCard
+              step={3}
+              title="Select evidence file"
+              description="Pick a FileHub document to use as evidence in your compliance run."
+            >
+              <div className="relative">
+                <label className="text-xs font-medium text-slate-700">
+                  FileHub files
+                </label>
+                <button
+                  type="button"
+                  onClick={() => setOpenFileDropdown((prev) => !prev)}
+                  className="mt-1 flex w-full items-center justify-between rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                 >
-                  <Button
-                    component="label"
-                    variant="outlined"
-                    sx={{
-                      borderRadius: 4,
-                      fontSize: "1rem",
-                      fontWeight: 700,
-                      borderColor: CARD_BORDER,
-                      color: HEADING_BLACK,
-                      background: "#f6f6f6",
-                      "&:hover": {
-                        borderColor: "#191919",
-                        backgroundColor: "#f1f1f1"
-                      }
-                    }}
-                  >
-                    Choose PDF
-                    <input
-                      type="file"
-                      accept="application/pdf"
-                      hidden
-                      onChange={(e) => {
-                        const file = e.target.files?.[0];
-                        setSelectedFile(file ?? null);
-                      }}
-                    />
-                  </Button>
-                  <Typography
-                    variant="body2"
-                    sx={{
-                      flex: 1,
-                      color: selectedFile ? "#232323" : HEADING_BLACK,
-                      fontWeight: 700
-                    }}
-                  >
-                    {selectedFile?.name ?? "No file selected"}
-                  </Typography>
-                </Box>
-                <Button
-                  variant="contained"
-                  disabled={!selectedFile || uploading}
-                  onClick={handleUpload}
-                  fullWidth
-                  sx={{
-                    py: 1.4,
-                    borderRadius: 7,
-                    textTransform: "none",
-                    fontSize: "1.07rem",
-                    fontWeight: 700,
-                    background: HEADING_BLACK,
-                    color: "#fff",
-                    boxShadow: "none",
-                    "&:hover": {
-                      background: "#232323",
-                      opacity: 0.97
-                    },
-                    "&:disabled": {
-                      backgroundColor: "#ececec",
-                      color: "#bdbdbd"
-                    }
-                  }}
-                >
-                  {uploading ? "Uploading..." : "Upload & Start Internal Audit"}
-                </Button>
-              </Stack>
-            </CardContent>
-          </Card>
-        )}
-      </Stack>
-    </Box>
+                  {selectedEvidenceFile
+                    ? selectedEvidenceFile.name
+                    : "Select a file from FileHub…"}
+                  <span className="ml-2 text-slate-400">▾</span>
+                </button>
+
+                {openFileDropdown && (
+                  <div className="absolute z-50 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur">
+                    {driveFiles.length === 0 && (
+                      <p className="p-4 text-center text-xs text-slate-500">
+                        No files available.
+                      </p>
+                    )}
+
+                    {driveFiles.map((f) => {
+                      const isSelected = selectedEvidenceFileId === f.id;
+                      return (
+                        <div
+                          key={f.id}
+                          onClick={() => {
+                            setSelectedEvidenceFileId(f.id);
+                            setOpenFileDropdown(false);
+                            setMessage(`Selected file: ${f.name}`);
+                          }}
+                          className={`cursor-pointer px-4 py-3 text-sm transition ${
+                            isSelected
+                              ? "bg-emerald-50 text-emerald-800"
+                              : "hover:bg-slate-50"
+                          }`}
+                        >
+                          <p className="font-medium">{f.name}</p>
+                          <p className="text-[11px] text-slate-400">
+                            ID: {f.id}
+                          </p>
+                          {isSelected && (
+                            <span className="mt-1 inline-flex rounded-full bg-emerald-100 px-2 py-[2px] text-[10px] font-semibold text-emerald-700">
+                              Selected ✓
+                            </span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+
+              {selectedEvidenceFile && (
+                <div className="rounded-lg bg-emerald-50/70 p-3 text-xs text-emerald-800 ring-1 ring-emerald-100">
+                  <p className="font-semibold text-emerald-900">
+                    Evidence ready
+                  </p>
+                  <p className="mt-1 truncate">
+                    <span className="font-medium">Name:</span>{" "}
+                    {selectedEvidenceFile.name}
+                  </p>
+                  <p className="truncate text-[11px]">
+                    <span className="font-medium">ID:</span>{" "}
+                    {selectedEvidenceFile.id}
+                  </p>
+                </div>
+              )}
+            </StepCard>
+
+            {/* STEP 4: Run compliance check */}
+            <StepCard
+              step={4}
+              title="Run compliance check"
+              description="We’ll analyze the selected evidence file against your chosen regulations using AI-based retrieval and reasoning."
+            >
+              <button
+                onClick={handleRunCompliance}
+                disabled={
+                  !selectedEvidenceFileId ||
+                  selectedRegulationIds.length === 0
+                }
+                className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
+              >
+                Run compliance check
+              </button>
+
+              {message && (
+                <p className="text-xs text-slate-600">{message}</p>
+              )}
+            </StepCard>
+          </main>
+
+          {/* RIGHT SIDE — INFO / HELP */}
+          <aside className="space-y-4">
+            <div className="relative overflow-hidden rounded-2xl bg-slate-900 text-slate-50 shadow-lg">
+              <div className="pointer-events-none absolute inset-x-6 top-0 h-24 rounded-b-full bg-emerald-400/20 blur-3xl" />
+              <div className="relative p-5">
+                <h3 className="text-sm font-semibold">How this wizard works</h3>
+                <p className="mt-2 text-xs text-slate-200">
+                  You’re building a soft, guided flow that supports compliance
+                  teams through structured steps. Each step feeds into the next:
+                </p>
+                <ul className="mt-3 space-y-2 text-[11px] text-slate-200">
+                  <li>• Generate obligations and tasks for a framework.</li>
+                  <li>• Extract obligations from specific regulations.</li>
+                  <li>• Choose an evidence file from FileHub.</li>
+                  <li>• Run AI-based checks on that evidence.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white p-4 text-xs text-slate-600 shadow-sm ring-1 ring-slate-100">
+              <h4 className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                Next step
+              </h4>
+              <p className="mt-2 text-xs">
+                After generating obligations, extracting regulatory duties, and
+                running compliance checks, you can review every result inside
+                your{" "}
+                <span className="font-semibold text-slate-900">
+                  Compliance Dashboard
+                </span>
+                .
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
   );
 }

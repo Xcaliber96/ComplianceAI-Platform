@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54230-54232]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21217]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Part 876
+
+[Docket No. FDA-2025-N-4645]
+
+
+Medical Devices; Gastroenterology-Urology Devices; Classification 
+of the Anchored Esophageal Sheath
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Final amendment; final order.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA, the Agency, or we) is 
+classifying the anchored esophageal sheath into class II (special 
+controls). The special controls that apply to the device type are 
+identified in this order and will be part of the codified language for 
+the classification of the anchored esophageal sheath. We are taking 
+this action because we have determined that classifying the device into 
+class II (special controls) will
+
+[[Page 54231]]
+
+provide a reasonable assurance of safety and effectiveness of the 
+device. We believe this action will also enhance patients' access to 
+beneficial innovative devices, in part by reducing regulatory burdens.
+
+DATES: This order is effective November 26, 2025. The classification 
+was applicable on April 16, 2019.
+
+FOR FURTHER INFORMATION CONTACT: Anthony Lee, Center for Devices and 
+Radiological Health, Food and Drug Administration, 10903 New Hampshire 
+Ave., Bldg. 66, Rm. 4549, Silver Spring, MD 20993-0002, 240-402-5935, 
+<a href="/cdn-cgi/l/email-protection#40012e34282f2e396e0c252571002624216e2828336e272f36"><span class="__cf_email__" data-cfemail="34755a405c5b5a4d1a78515105745250551a5c5c471a535b42">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Upon request, FDA has classified the anchored esophageal sheath as 
+class II (special controls), which we have determined will provide a 
+reasonable assurance of safety and effectiveness for its intended use. 
+In addition, we believe this action will enhance patients' access to 
+beneficial innovation, in part by reducing regulatory burdens by 
+placing the device into the appropriate device class based on risk and 
+the regulatory controls sufficient to provide reasonable assurance of 
+safety and effectiveness.
+    FDA may classify a device through an accessory classification 
+request under section 513(f)(6) of the Federal Food, Drug, and Cosmetic 
+Act (FD&C Act) (21 U.S.C. 360c(f)(6)), established by section 707 of 
+the FDA Reauthorization Act of 2017 (Pub. L. 115-52). The provision 
+allows manufacturers or importers to request classification of an 
+accessory distinct from another device upon written request. The 
+classification is based on the risks of the accessory when used as 
+intended as well as the level of regulatory controls necessary to 
+provide a reasonable assurance of safety and effectiveness, 
+notwithstanding the classification of any other device with which such 
+accessory is intended to be used. Until an accessory is reclassified by 
+FDA, the classification of any accessory distinct from another device 
+by regulation or written order issued prior to December 13, 2016, will 
+continue to apply.
+    Under section 513(f)(6)(D)(ii) of the FD&C Act, a manufacturer or 
+importer may request appropriate classification of an accessory that 
+has been granted marketing authorization as part of a premarket 
+approval application (PMA), premarket notification (510(k)), or De Novo 
+classification request. FDA must grant or deny the request not later 
+than 85 days after receipt and, if granting, publish a notice in the 
+Federal Register within 30 days of announcing the classification.
+    Alternatively, under section 513(f)(6)(C) of the FD&C Act, a person 
+filing a PMA or 510(k) may include a written request for the proper 
+classification of an accessory that has not been classified distinctly 
+from another device based on the risks of the accessory when used as 
+intended and the level of regulatory controls necessary to provide a 
+reasonable assurance of safety and effectiveness. When the written 
+request is included in a submission for marketing authorization, FDA 
+must grant or deny the request along with the response to the PMA or 
+510(k). Upon granting, FDA will publish a notice in the Federal 
+Register within 30 days of announcing the classification.
+
+II. Accessory Classification
+
+    On July 9, 2018, FDA received BAROnova, Inc.'s request for 
+accessory classification of the BAROnova Access Sheath. FDA reviewed 
+the request in order to classify the device under the criteria for 
+classification set forth in section 513(a)(1) of the FD&C Act.
+    We classify devices into class II if general controls by themselves 
+are insufficient to provide reasonable assurance of safety and 
+effectiveness, but there is sufficient information to establish special 
+controls that, in combination with the general controls, provide 
+reasonable assurance of the safety and effectiveness of the device for 
+its intended use (see section 513(a)(1)(B) of the FD&C Act). After 
+review of the information submitted in the request, we determined that 
+the device can be classified into class II with the establishment of 
+special controls. FDA has determined that these special controls, in 
+addition to the general controls, will provide reasonable assurance of 
+the safety and effectiveness of the device.
+    Therefore, on April 16, 2019, FDA issued an order to the requester 
+classifying the device into class II. In this final order, FDA is 
+codifying the classification of the device by adding 21 CFR 
+876.1510.\1\ We have named the generic type of device ``anchored 
+esophageal sheath,'' and it is identified as a device used to provide 
+an endoluminal pathway to facilitate insertion of an endoscope or other 
+compatible device into the upper gastrointestinal tract. A distal 
+anchor assists in keeping the sheath in place to facilitate positioning 
+of the endoscope or other compatible device.
+---------------------------------------------------------------------------
+
+    \1\ FDA notes that the ACTION caption for this final order is 
+styled as ``Final amendment; final order,'' rather than ``Final 
+order.'' Beginning in December 2019, this editorial change was made 
+to indicate that the document ``amends'' the Code of Federal 
+Regulations. The change was made in accordance with the Office of 
+Federal Register's (OFR) interpretations of the Federal Register Act 
+(44 U.S.C. chapter 15), its implementing regulations (1 CFR 5.9 and 
+parts 21 and 22), and the Document Drafting Handbook.
+---------------------------------------------------------------------------
+
+    FDA has identified the following risks to health associated 
+specifically with this type of device and the measures required to 
+mitigate these risks in table 1.
+
+    Table 1--Anchored Esophageal Sheath Risks and Mitigation Measures
+------------------------------------------------------------------------
+       Identified risks to health              Mitigation measures
+------------------------------------------------------------------------
+Adverse tissue reaction................  Biocompatibility evaluation.
+Mechanical injury to esophagus and/or    Non-clinical performance
+ gastroesophageal junction (GEJ)          testing; Simulated use
+ related to:                              testing; Shelf life testing;
+<bullet> Insertion/removal of anchored    and Labeling.
+ esophageal sheath.
+    <bullet> Insertion/removal of
+     endoscope or other compatible
+     device through anchored esophageal
+     sheath.
+    <bullet> Actuation of anchoring
+     component into anchored
+     configuration within esophagus.
+    <bullet> Retraction of anchoring
+     component against GEJ.
+------------------------------------------------------------------------
+
+    FDA has determined that special controls, in combination with the 
+general controls, address these risks to health and provide reasonable 
+assurance of safety and effectiveness. For a device to fall within this 
+classification, and
+
+[[Page 54232]]
+
+thus avoid automatic classification in class III, it would have to 
+comply with the special controls named in this final order. The 
+necessary special controls appear in the regulation codified by this 
+final order. This device is subject to premarket notification 
+requirements under section 510(k) of the FD&C Act (21 U.S.C. 360(k)).
+    Section 510(m) of the FD&C Act provides that FDA may exempt a class 
+II device from the premarket notification requirements under section 
+510(k) if, after notice of our intent to exempt and consideration of 
+comments, we determine that premarket notification is not necessary to 
+provide reasonable assurance of safety and effectiveness of the device. 
+At a future date, we may publish a separate notice in the Federal 
+Register announcing our intent to exempt this device type.
+
+III. Analysis of Environmental Impact
+
+    The Agency has determined under 21 CFR 25.34(b) that this action is 
+of a type that does not individually or cumulatively have a significant 
+effect on the human environment. Therefore, neither an environmental 
+assessment nor an environmental impact statement is required.
+
+IV. Paperwork Reduction Act of 1995
+
+    This final order establishes special controls that refer to 
+previously approved collections of information found in other FDA 
+regulations and guidance. These collections of information are subject 
+to review by the Office of Management and Budget (OMB) under the 
+Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521). The collections 
+of information in 21 CFR part 860, subpart D, regarding De Novo 
+classification have been approved under OMB control number 0910-0844; 
+the collections of information in the guidance document ``Medical 
+Device Accessories--Describing Accessories and Classification 
+Pathways'' have been approved under OMB control number 0910-0823; the 
+collections of information in part 814, subparts A through E, regarding 
+premarket approval have been approved under OMB control number 0910-
+0231; the collections of information in part 820 regarding quality 
+system regulation have been approved under OMB control number 0910-
+0073; the collections of information in part 807, subpart E, regarding 
+premarket notification submissions have been approved under OMB control 
+number 0910-0120; and the collections of information in part 801 
+regarding labeling have been approved under OMB control number 0910-
+0485.
+
+List of Subjects in 21 CFR Part 876
+
+    Medical devices.
+
+    Therefore, under the Federal Food, Drug, and Cosmetic Act and under 
+authority delegated to the Commissioner of Food and Drugs, 21 CFR part 
+876 is amended as follows:
+
+PART 876--GASTROENTEROLOGY-UROLOGY DEVICES
+
+0
+1. The authority citation for part 876 continues to read as follows:
+
+    Authority: 21 U.S.C. 351, 360, 360c, 360e, 360j, 360l, 371.
+
+
+0
+2. Add Sec.  876.1510 to subpart B to read as follows:
+
+
+Sec.  876.1510  Anchored esophageal sheath.
+
+    (a) Identification. An anchored esophageal sheath is a device used 
+to provide an endoluminal pathway to facilitate insertion of an 
+endoscope or other compatible device into the upper gastrointestinal 
+tract. A distal anchor assists in keeping the sheath in place to 
+facilitate positioning of the endoscope or other compatible device.
+    (b) Classification. Class II (special controls). The special 
+controls for this device are:
+    (1) The patient-contacting components of the device must be 
+demonstrated to be biocompatible.
+    (2) Non-clinical performance testing must demonstrate that the 
+device performs as intended under anticipated conditions of use. The 
+following performance characteristics must be demonstrated:
+    (i) Testing must verify all dimensions;
+    (ii) Testing must demonstrate that insertion and removal of any 
+device from the anchored esophageal sheath does not damage the shaft 
+wall or exert force that would cause tissue injury;
+    (iii) Testing must demonstrate that the anchoring component can be 
+reliably actuated;
+    (iv) Testing must demonstrate compatibility with any other device 
+that the anchored esophageal sheath is intended to be used with; and
+    (v) Testing must demonstrate device integrity and functionality in 
+simulated gastric conditions under clinically anticipated forces.
+    (3) Simulated use testing using an anatomically accurate 
+gastrointestinal model must demonstrate that:
+    (i) The device can be inserted and removed safely;
+    (ii) The device remains anchored in place;
+    (iii) The device can be safely withdrawn after releasing the 
+anchor; and
+    (iv) The device location and anchoring status can be observed by 
+the intended user.
+    (4) Performance data must demonstrate continued device 
+functionality over the identified shelf life.
+    (5) Labeling must include:
+    (i) Information as to whether the device can be used for foreign 
+body removal or with instruments alongside the endoscope;
+    (ii) Steps needed to prevent injury to the esophagus or 
+gastroesophageal junction (GEJ) during placement, anchoring, and use of 
+the device;
+    (iii) Any visualization steps required to confirm the device's 
+placement prior to and after actuating the anchoring component at the 
+GEJ;
+    (iv) A precaution to avoid excessive force during insertion;
+    (v) Identification of any endoscopes or other devices that have 
+been validated for use with the anchored esophageal sheath; and
+    (vi) An expiration date or shelf life.
+
+Lowell M. Zeta,
+Acting Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21217 Filed 11-25-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

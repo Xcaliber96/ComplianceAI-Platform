@@ -106,4 +106,6 @@ src/core/network.html"src/core/admin-key.json"
 "src/core/admin-key.json" 
 node_modules
 *.db
+filehub_uploads/
+.env
 

@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Page 54815]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21390]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[OMB Control No. 3235-0282]
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Reinstatement Without Change: Rule 23c-2
+
+Upon Written Request, Copies Available From: Securities and Exchange 
+Commission, Office of FOIA Services, 100 F Street NE, Washington, DC 
+20549-2736
+
+    Notice is hereby given that, pursuant to the Paperwork Reduction 
+Act of 1995 (44 U.S.C. 3501 et seq.), the Securities and Exchange 
+Commission (``SEC'' or ``Commission'') has submitted to the Office of 
+Management and Budget (``OMB'') a request for extension of the 
+previously approved collection of information discussed below.
+    The title for the collection of information is ``Rule 23c-2 (17 CFR 
+270.23c-2) under the Investment Company Act of 1940.'' Rule 23c-2(a) 
+(17 CFR 270.23c-2(a)) under the Act provides that a closed-end fund may 
+call or redeem any securities it has issued in accordance with the 
+charter, provided that in instances where less than all of the 
+outstanding shares of a class or series are called or redeemed, the 
+call or redemption is made by lot on a pro rata basis, or in a manner 
+that does not discriminate against any shareholders. Further, rule 23c-
+2(b) (17 CFR 270.23c-2(b)) requires closed-end funds that propose to 
+call or redeem any securities it has issued to file with the Commission 
+notice of its intention at least 30 days prior to the date set for the 
+call or redemption, provided that if such notice is required to by 
+published in newspaper, notice is required within 10 days of 
+publication. The notice is required to include (1) the title of the 
+class of securities to be called or redeemed; (2) the date on which the 
+securities are to be called or redeemed; (3) the applicable provisions 
+of the governing instrument pursuant to which the securities are to be 
+called or redeemed; and (4) if less than all the outstanding securities 
+of a class or series are to be called or redeemed, the principal amount 
+or number of shares and the basis upon which the securities to be call 
+or redeemed are to be selected.
+    The Commission last submitted an information collection request 
+(``ICR'') regarding this rule to OMB for approval under the Paperwork 
+Reduction Act of 1995 (``PRA'') in November of 1982. The submission was 
+subsequently approved in February of 1983. The Commission never sought 
+an extension of the previously approved ICR upon expiration of the OMB 
+approval in February of 1986. The reason the Commission never sought an 
+extension is because the number of responses to this ICR recorded 
+within the 1982 submission was only five, which is below the threshold 
+of ten respondents outlined within the PRA for requiring OMB clearance. 
+The Commission is now seeking to reinstate the rule 23c-2 ICR under 
+control number 3235-0282.
+    Commission staff estimates that approximately 75 closed-end funds 
+undertake an average of 110 proposed calls or redemptions of securities 
+annually under rule 23c-2. Staff estimates further that, with respect 
+to each proposed call or redemption, each fund spends 1.5 hours to 
+comply with the rule's filing requirement with the Commission. Thus, 
+Commission staff estimates the total annual respondent reporting burden 
+is 165 hours. The total annual cost for all funds is estimated to be 
+$81,180.
+    The requirements of this collection of information are mandatory. 
+Responses will not be kept confidential. An agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a currently valid OMB Control Number.
+    The public may view and comment on this information collection 
+request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202507-3235-015">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202507-3235-015</a> or email comment to 
+<a href="/cdn-cgi/l/email-protection#c28f809aec8d8f80ec8d8b9083ec9187819da6a7b1a99dada4a4aba1a7b082adafa0eca7adb2eca5adb4"><span class="__cf_email__" data-cfemail="e1aca3b9cfaeaca3cfaea8b3a0cfb2a4a2be8584928abe8e878788828493a18e8c83cf848e91cf868e97">[email&#160;protected]</span></a> within 30 days of the day 
+after publication of this notice, by December 29, 2025.
+
+    Dated: November 24, 2025.
+Sherry R. Haywood,
+Assistant Secretary.
+[FR Doc. 2025-21390 Filed 11-26-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

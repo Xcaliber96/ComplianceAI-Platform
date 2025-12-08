@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 53002-53003]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20776]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+NATIONAL SCIENCE FOUNDATION
+
+
+Agency Information Collection Activities: Comment Request; 
+National Science Foundation (NSF) Small Business Innovation Research 
+(SBIR)/Small Business Technology Transfer (STTR) Pre-Award Information 
+Collection
+
+AGENCY: National Science Foundation.
+
+ACTION: Submission for OMB review; comment request.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The National Science Foundation (NSF) has submitted the 
+following information collection requirement to OMB for review and 
+clearance under the Paperwork Reduction Act of 1995. This is the second 
+notice for public comment; the first was published in the Federal 
+Register, and no comments were received. NSF is forwarding the proposed 
+submission to the Office of Management and Budget (OMB) for clearance 
+simultaneously with the publication of this second notice.
+
+DATES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAmain">www.reginfo.gov/public/do/PRAmain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Suzanne H. Plimpton, Reports Clearance 
+Officer, National Science Foundation, 2415 Eisenhower Avenue, 
+Alexandria, Virginia 22314; telephone (703) 292-7556; or send email to 
+<a href="/cdn-cgi/l/email-protection#c6b5b6aaafabb6b2a986a8b5a0e8a1a9b0"><span class="__cf_email__" data-cfemail="245754484d4954504b644a57420a434b52">[email&#160;protected]</span></a>. Individuals who use a telecommunications device for 
+the deaf (TDD) may call the Federal Information Relay Service (FIRS) at 
+1-800-877-8339, which is accessible 24 hours a day, 7 days a week, 365 
+days a year (including Federal holidays).
+    Comments: Comments regarding (a) whether the proposed collection of 
+information is necessary for the proper performance of the functions of 
+the NSF, including whether the information shall have practical 
+utility; (b) the accuracy of the NSF's estimate of the burden of the 
+proposed collection of information; (c) ways to enhance the quality, 
+use, and clarity of the information on respondents; and (d) ways to 
+minimize the burden of the collection of information on those who are 
+to respond, including through the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques or 
+other forms of information technology should be addressed to the points 
+of contact in the FOR FURTHER INFORMATION CONTACT section.
+    Copies of the submission may be obtained by calling 703-292-7556. 
+NSF may not conduct or sponsor a collection of information unless the 
+collection of information displays a currently valid OMB control 
+number, and the agency informs potential persons who are to respond to 
+the collection of information that such persons are not required to 
+respond to the collection of information unless it displays a currently 
+valid OMB control number.
+
+SUPPLEMENTARY INFORMATION: 
+    Title of Collection: National Science Foundation (NSF) Small 
+Business Innovation Research (SBIR)/Small Business Technology Transfer 
+(STTR) Pre-Award Information Collection.
+    OMB Control No.: 3145-0270.
+    Abstract: The NSF SBIR/STTR programs focus on transforming 
+scientific discovery into products and services with commercial 
+potential and/or societal benefit. Unlike fundamental or basic research 
+activities that focus on scientific and engineering discoveries, the 
+NSF SBIR/STTR programs support the creation of opportunities to move 
+fundamental science and engineering out of the lab and into the market 
+at scale, through startups and small businesses representing deep 
+technology ventures.
+    The NSF SBIR/STTR programs have two phases: Phase I and Phase II. 
+Phase I is a 6-12 month experimental or theoretical investigation that 
+allows the awardees to determine the scientific and technical 
+feasibility, as well as the commercial merit of the idea or concept. 
+Phase II further develops the proposed concept, with a goal of working 
+toward the commercial launch of the new product, process, or service 
+being developed.
+    The NSF SBIR/STTR programs request the Office of Management and 
+Budget (OMB) approval of this clearance that will allow the programs to 
+collect information from a selected group of applicants--those that 
+have been reviewed by independent experts and that NSF Program 
+Directors are considering recommending for funding--for the purpose of 
+making a funding decision. This information includes, but is not 
+exclusive to, a list of company officers and the corresponding 
+ownership status of each company officer within the startup,
+
+[[Page 53003]]
+
+whether the startup is associated or affiliated with other companies, 
+whether there exist any relationships (personal, financial, and/or 
+professional) between project personnel, and the locations of all the 
+facilities where significant research will be performed for the 
+proposed project. Such data will enable the NSF Program Directors to 
+evaluate a given company's business structure, ascertain the level of 
+commitment of the Principal Investigator (PI) and co-PIs to the startup 
+venture, and identify conflicts of interests (if any), as part of the 
+due diligence process that the programs undertake to verify there are 
+no fraudulent or inappropriate business practices prior to recommending 
+the small business for an award.
+    Following standard OMB requirements, NSF will request OMB approval 
+in advance and provide OMB with a copy of the form containing these 
+questions. Data collected will be used strictly for due-diligence, 
+auditing, and/or legal purposes, and are needed for effective pre-award 
+management, administration, and/or program monitoring. The applicants, 
+if being considered for award, will only be asked to submit a signed 
+form containing their responses to the questions once for each NSF 
+SBIR/STTR proposal (Phase I and II, if applicable). The data collection 
+burden to the selected applicants will be limited to no more than 10 
+minutes of the respondents' time in each instance. Summaries of the 
+collected data are also being used to respond to queries from Congress, 
+the Small Business Administration, the public, NSF's external merit 
+reviewers who serve as advisors, including Committees of Visitors, 
+NSF's Office of the Inspector General, and other pertinent 
+stakeholders.
+    Respondents: PIs listed on the NSF SBIR/STTR proposals.
+    Estimated Number of Annual Respondents: 1,000.
+    Frequency: Once.
+    Average Time: 15 minutes.
+    Estimated Total Burden Hours: 250 hours per year.
+
+    Dated: November 20, 2025.
+Suzanne H. Plimpton,
+Reports Clearance Officer, National Science Foundation.
+[FR Doc. 2025-20776 Filed 11-21-25; 8:45 am]
+BILLING CODE 7555-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

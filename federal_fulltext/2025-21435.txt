@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54693-54694]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21435]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+[Document Identifiers: CMS-10500 and CMS-10344]
+
+
+Agency Information Collection Activities: Proposed Collection; 
+Comment Request
+
+AGENCY: Centers for Medicare & Medicaid Services, Health and Human 
+Services (HHS).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Centers for Medicare & Medicaid Services (CMS) is 
+announcing an opportunity for the public to comment on CMS' intention 
+to collect information from the public. Under the Paperwork Reduction 
+Act of 1995 (PRA), federal agencies are required to publish notice in 
+the Federal Register concerning each proposed collection of information 
+(including each proposed extension or reinstatement of an existing 
+collection of information) and to allow 60 days for public comment on 
+the proposed action. Interested persons are invited to send comments 
+regarding our burden estimates or any other aspect of this collection 
+of information, including the necessity and utility of the proposed 
+information collection for the proper performance of the agency's 
+functions, the accuracy of the estimated burden, ways to enhance the 
+quality, utility, and clarity of the information to be collected, and 
+the use of automated collection techniques or other forms of 
+information technology to minimize the information collection burden.
+
+DATES: Comments must be received by January 27, 2026.
+
+ADDRESSES: When commenting, please reference the document identifier or 
+OMB control number. To be assured consideration, comments and 
+recommendations must be submitted in any one of the following ways:
+    1. Electronically. You may send your comments electronically to 
+<a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the instructions for ``Comment or 
+Submission'' or ``More Search Options'' to find the information 
+collection document(s) that are accepting comments.
+    2. By regular mail. You may mail written comments to the following 
+address: CMS, Office of Strategic Operations and Regulatory Affairs, 
+Division of Regulations Development, Attention: Document Identifier: _/
+OMB Control Number: _, Room C4-26-05, 7500 Security Boulevard, 
+Baltimore, Maryland 21244-1850.
+    To obtain copies of a supporting statement and any related forms 
+for the proposed collection(s) summarized in this notice, please access 
+the CMS PRA website by copying and pasting the following web address 
+into your web browser: <a href="https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing">https://www.cms.gov/Regulations-and-Guidance/Legislation/PaperworkReductionActof1995/PRA-Listing</a>.
+
+FOR FURTHER INFORMATION CONTACT: William N. Parham at (410) 786-4669.
+
+SUPPLEMENTARY INFORMATION:
+
+Contents
+
+    This notice sets out a summary of the use and burden associated 
+with the following information collections. More detailed information 
+can be found in each collection's supporting statement and associated 
+materials (see ADDRESSES).
+    Under the PRA (44 U.S.C. 3501-3520), federal agencies must obtain 
+approval from the Office of Management
+
+[[Page 54694]]
+
+and Budget (OMB) for each collection of information they conduct or 
+sponsor. The term ``collection of information'' is defined in 44 U.S.C. 
+3502(3) and 5 CFR 1320.3(c) and includes agency requests or 
+requirements that members of the public submit reports, keep records, 
+or provide information to a third party. Section 3506(c)(2)(A) of the 
+PRA requires federal agencies to publish a 60-day notice in the Federal 
+Register concerning each proposed collection of information, including 
+each proposed extension or reinstatement of an existing collection of 
+information, before submitting the collection to OMB for approval. To 
+comply with this requirement, CMS is publishing this notice.
+
+Information Collections
+
+    1. Type of Information Collection Request: Revision with change of 
+a currently approved collection; Title of Information Collection: 
+National Implementation of the Outpatient and Ambulatory Surgery 
+Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS); 
+Use: The Agency for Healthcare Research an Quality (AHRQ) and its 
+Consumer Assessment of Healthcare Providers and Systems (CAHPS[supreg]) 
+Consortium, in conjunction with the Centers for Medicare & Medicaid 
+Services (CMS), have developed standardized CAHPS Surveys and tools for 
+a variety of patient populations, including commercially insured 
+ambulatory patients, patients whose care is covered by Medicare and 
+Medicaid, dialysis patients, home health patients, hospital inpatients, 
+dental patients, and patients who receive behavioral health care and 
+services. The purpose of the CAHPS family of surveys is to collect data 
+about patients' assessment and rating of the care they receive from 
+their health care provider or health care system.
+    The national implementation of OAS CAHPS is designed to allow 
+third-party, CMS- approved survey vendors to administer OAS CAHPS using 
+mail-only, telephone-only, mixed mode (mail with telephone follow-up), 
+mixed-mode (web with mail follow-up), or mixed-mode (web with telephone 
+follow-up). The CMS-approved survey vendors who administer the survey 
+use an electronic data collection system if they administer a 
+telephone-only or mixed-mode survey using web. Form Number: CMS-10500 
+(OMB control number: 0938-1240); Frequency: Once; Affected Public: 
+Business or other for-profits and Not-for-profits institutions; Number 
+of Respondents: 2,045,727; Total Annual Responses: 2,045,727; Total 
+Annual Hours: 500,805. (For policy questions regarding this collection 
+contact Memuna Ifedirah 410-786-6849.)
+    2. Type of Information Collection Request: Extension of a currently 
+approved collection; Title of Information Collection: Elimination of 
+Cost-Sharing for Full Benefit Dual-Eligible Individuals Receiving Home 
+and Community-Based Services; Use: Section 1860 D-14 of the Social 
+Security Act (the Act) sets forth requirements for premium and cost-
+sharing subsidies for low-income beneficiaries enrolled in Medicare 
+Part D. Based on this statute, 42 CFR 423.771, provides guidance 
+concerning limitations for payments made by and on behalf of low-income 
+Medicare beneficiaries who enroll in Part D plans. 42 CFR 423.771(b) 
+establishes requirements for determining a beneficiary's eligibility 
+for full subsidy under the Part D program. Regulations set forth in 
+Sec. Sec.  423.780 and 423.782 outline premium and cost sharing 
+subsidies to which full subsidy eligible are entitled under the Part D 
+program.
+    Each month CMS deems individuals automatically eligible for the 
+full subsidy, based on data from State Medicaid Agencies and the Social 
+Security Administration (SSA). The SSA sends a monthly file of 
+Supplementary Security Income-eligible beneficiaries to CMS. Similarly, 
+the State Medicaid agencies submit Medicare Modernization Act files to 
+CMS that identify full subsidy beneficiaries. CMS deems the 
+beneficiaries as having full subsidy and auto-assigns these 
+beneficiaries to benchmark Part D plans. Part D plans to receive 
+premium amounts based on the monthly assessments. Form Number: CMS-
+10344 (OMB control number: 0938-1127); Frequency: Monthly; Affected 
+Public: State, Local, or Tribal Governments and Not-for-profits 
+institutions; Number of Respondents: 51; Total Annual Responses: 51; 
+Total Annual Hours: 612. (For policy questions regarding this 
+collection contact Roland Herrera 410-786-0668.)
+
+William N. Parham, III,
+Director, Division of Information Collections and Regulatory Impacts, 
+Office of Strategic Operations and Regulatory Affairs.
+[FR Doc. 2025-21435 Filed 11-26-25; 8:45 am]
+BILLING CODE 4120-01-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54544-54545]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21461]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 328
+
+RIN 3064-AF26
+
+
+FDIC Official Signs and Advertising Requirements, False 
+Advertising, Misrepresentation of Insured Status, and Misuse of the 
+FDIC's Name or Logo
+
+AGENCY: Federal Deposit Insurance Corporation (FDIC).
+
+ACTION: Final rule; delay of compliance date.
+
+-----------------------------------------------------------------------
+
+SUMMARY: On December 20, 2023, the FDIC adopted a final rule that, 
+among other things, amended the FDIC's official sign and advertisement 
+of membership requirements for insured depository institutions (IDIs). 
+The current compliance date for requirements related to displaying the 
+official digital sign on IDIs' digital deposit-taking channels and 
+automated teller machines (ATMs) and like devices is March 1, 2026. The 
+FDIC is delaying the March 1, 2026, compliance date to January 1, 2027. 
+This delay will provide certainty and minimize undue burden on IDIs 
+while the FDIC completes consideration of a proposal to amend 
+requirements related to digital deposit-taking channels and ATMs and 
+like devices.
+
+DATES: The compliance date for the requirements in 12 CFR 328.4 and 
+328.5, which was initially delayed at 89 FR 84261 (October 22, 2024) 
+and was subsequently delayed at 90 FR 11659 (March 11, 2025), is 
+further delayed to January 1, 2027.
+
+FOR FURTHER INFORMATION CONTACT: Division of Depositor and Consumer 
+Protection: Monika Jansen, Senior Policy Analyst, 202-898-6781, 
+<a href="/cdn-cgi/l/email-protection#83ceecc9e2edf0e6edc3e5e7eae0ade4ecf5"><span class="__cf_email__" data-cfemail="367b597c57584553587650525f5518515940">[email&#160;protected]</span></a>. Legal Division: Shane Bogusz, Senior Attorney, 202-
+898-6571, <a href="/cdn-cgi/l/email-protection#aefdecc1c9dbddd4eee8eae7ed80c9c1d8"><span class="__cf_email__" data-cfemail="e9baab868e9c9a93a9afada0aac78e869f">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: On December 20, 2023, the FDIC adopted a 
+final rule \1\ revising the official sign and advertising regulations 
+implementing section 18(a) of the Federal Deposit Insurance Act.\2\
+---------------------------------------------------------------------------
+
+    \1\ 89 FR 3504.
+    \2\ 12 U.S.C. 1828(a).
+---------------------------------------------------------------------------
+
+    The final rule became effective on April 1, 2024, and required full 
+compliance with the rule by January 1, 2025. Based upon feedback from 
+IDIs and other industry participants, the FDIC delayed the compliance 
+date for the amendments in subpart A of 12 CFR part 328 to May 1, 
+2025.\3\ The delay was intended to provide additional time for IDIs to 
+put in place processes and systems and make technological updates. In 
+March 2025, the compliance date was further delayed as to the 
+requirements in 12 CFR 328.4 and 328.5.\4\ This second delay recognized 
+that the requirements of 12 CFR 328.4 and 328.5, relating to signage 
+requirements for digital deposit-taking channels and ATMs and like 
+devices, continued to generate questions regarding implementation and 
+had the potential to cause consumer confusion. The delay allowed the 
+FDIC to consider proposing changes to these requirements, which it did 
+on August 21, 2025.\5\
+---------------------------------------------------------------------------
+
+    \3\ 89 FR 84261 (Oct. 22, 2024).
+    \4\ 90 FR 11659 (Mar. 11, 2025).
+    \5\ 90 FR 40767.
+---------------------------------------------------------------------------
+
+    Specifically, on August 21, 2025, the FDIC issued a notice of 
+proposed rulemaking seeking comment on a proposal that would amend the 
+requirements of 12 CFR 328.4 and 328.5 to minimize identified 
+implementation issues, reduce burden, and address potential consumer 
+confusion. Given that the FDIC is considering changes to 12 CFR 328.4 
+and 328.5, the approaching March 1, 2026, compliance deadline for the 
+present requirements of 12 CFR 328.4 and 328.5 has created uncertainty 
+and could impose unnecessary burden on IDIs. To address these concerns, 
+the FDIC is delaying the compliance date for the requirements in 12 CFR 
+328.4 and 328.5 from March 1, 2026, to January 1, 2027.\6\ This delayed
+
+[[Page 54545]]
+
+compliance date is subject to any changes to these provisions made by 
+any future rulemaking.
+---------------------------------------------------------------------------
+
+    \6\ The policies and procedures required by 12 CFR 328.8 for 
+which the compliance date is May 1, 2025, will not need to address 
+the requirements in 12 CFR 328.4 or 328.5, until January 1, 2027, 
+the full compliance date for these provisions.
+
+---------------------------------------------------------------------------
+Federal Deposit Insurance Corporation.
+
+    By order of the Board of Directors.
+
+    Dated at Washington, DC, on November 25, 2025.
+Jennifer M. Jones,
+Deputy Executive Secretary.
+[FR Doc. 2025-21461 Filed 11-26-25; 8:45 am]
+BILLING CODE 6714-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

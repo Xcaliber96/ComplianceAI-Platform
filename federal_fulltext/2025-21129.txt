@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54449-54450]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21129]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+SMALL BUSINESS ADMINISTRATION
+
+
+Data Collection Available for Public Comments
+
+AGENCY: U.S. Small Business Administration.
+
+ACTION: 60-Day notice; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Small Business Administration (SBA) is publishing this 
+notice in compliance with the Paperwork Reduction Act (PRA) of 1995, as 
+amended, to solicit public comments on the information collection 
+described below. The PRA requires publication of this notice before 
+submitting the information collection to the Office of Management and 
+Budget (OMB) for review and approval.
+
+DATES: Submit comments on or before January 26, 2026.
+
+ADDRESSES: Comments should refer to the information collection by title 
+or OMB Control Number (3245-0417) and be submitted by the deadline 
+above to: <a href="/cdn-cgi/l/email-protection#7c2c2c2c2335121a13233f131010191f081513120f3c0f1e1d521b130a"><span class="__cf_email__" data-cfemail="f9a9a9a9a6b0979f96a6ba9695959c9a8d9096978ab98a9b98d79e968f">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: You may obtain information including a 
+copy of the forms and supporting documents from the Interim Agency 
+Clearance Officer, Shauniece Carter, at (202) 205-6536, or 
+<a href="/cdn-cgi/l/email-protection#6d1e050c180304080e08430e0c1f19081f2d1e0f0c430a021b"><span class="__cf_email__" data-cfemail="fb88939a8e95929e989ed5989a898f9e89bb88999ad59c948d">[email&#160;protected]</span></a>, or from Cailyn Gerald, Office of Financial 
+Program Operations, at 202-205-7373, or <a href="/cdn-cgi/l/email-protection#a6c5c7cfcadfc888c1c3d4c7cac2e6d5c4c788c1c9d0"><span class="__cf_email__" data-cfemail="1d7e7c74716473337a786f7c71795d6e7f7c337a726b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    Section 1102 of the Coronavirus Aid, Relief, and Economic Security 
+(CARES) Act, Public Law 116-136, authorized SBA to guarantee loans made 
+by banks or other financial institutions under a temporary program 
+titled the ``Paycheck Protection Program'' (PPP). These loans were 
+available to eligible small businesses, certain non-profit 
+organizations, veterans' organizations, Tribal business concerns, 
+independent contractors, and self-employed individuals adversely 
+impacted by the COVID-19 Emergency. SBA's authority to guarantee PPP 
+loans expired on August 8, 2020. On December 27, 2020, SBA received 
+reauthorization under the Economic Aid Act, Public Law 116-260, to 
+resume guaranteeing PPP loans through March 31, 2021. The Economic Aid 
+Act also allowed certain eligible borrowers that previously received a 
+PPP loan to receive a second draw PPP loan (``Second Draw PPP Loan 
+Program'') and amended certain other PPP statutory provisions. On March 
+11, 2021, the American Rescue Plan Act, Public Law 117-2, was enacted, 
+amending various PPP statutory provisions. On March 30, 2021, the PPP 
+Extension Act of 2021 was enacted, extending the SBA's PPP program 
+authority through June 30, 2021.
+    This information collection is used for the Second Draw PPP Loan 
+Program. This approval is set to expire on January 31, 2026. Although 
+SBA's program authority has expired, this information collection is 
+still needed. Under the Interim Final Rule on Paycheck Protection 
+Program--Extension of Lender Records Retention Requirements (89 FR 
+68090, August 23, 2024), PPP loan records retention requirements for 
+PPP lenders are ten years from the date of disposition of each 
+individual PPP loan. Because the PPP lender recordkeeping requirements 
+extend through at least June 30, 2031 (ten years after SBA's authority 
+to issue PPP loan numbers expired), this information collection needs 
+to be extended accordingly. Therefore, as required by the Paperwork 
+Reduction Act, SBA is publishing this notice as a prerequisite to 
+seeking OMB's approval to use this information collection beyond 
+January 31, 2026. There are no proposed changes to any of the forms.
+
+Summary of Information Collection
+
+    Title: Paycheck Protection Loan Program--Second Draw.
+    OMB Control Number: 3245-0417.
+
+(I) SBA Form 2483--Paycheck Protection Program Second Draw Application
+
+    Estimated Number of Respondents: 0.
+    Estimated Annual Responses: 0.
+    Estimated Annual Hour Burden: 14,962.
+
+(II) SBA Form 2483-SD-C--Paycheck Protection Program Second Draw 
+Application for Schedule C Filers Using Gross Income
+
+    Estimated Number of Respondents: 0.
+    Estimated Annual Responses: 0.
+    Estimated Annual Hour Burden: 9,316.
+
+(III) SBA FORM 2484-SD--Paycheck Protection Program Second Draw 
+Lender's Application for 7(A) Guaranty
+
+    Estimated Number of Respondents: 0.
+    Estimated Annual Responses: 0.
+    Estimated Annual Hour Burden: 24,278.
+
+[[Page 54450]]
+
+Solicitation of Public Comments
+
+    SBA invites the public to submit comments, including specific and 
+detailed suggestions on ways to improve the collection and reduce the 
+burden on respondents. Commenters should also address (i) whether the 
+information collection is necessary for the proper performance of SBA's 
+functions, including whether it has any practical utility; (ii) the 
+accuracy of the estimated burdens; (iii) ways to enhance the quality, 
+utility, and clarity of the information to be collected; and (iv) the 
+use of automated collection techniques or other forms of information 
+technology to minimize the information collection burden on those who 
+are required to respond.
+
+Alethea Ten Eyck-Sanders,
+Interim Agency Clearance Officer.
+[FR Doc. 2025-21129 Filed 11-25-25; 8:45 am]
+BILLING CODE 8026-09-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

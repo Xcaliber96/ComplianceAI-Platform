@@ -1,0 +1,56 @@
+
+.nomi-sidebar .MuiDrawer-paper {
+  width: 240px;
+  background: #FFFFFF;
+  color: #294936;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+}
+
+/* COLLAPSED WIDTH */
+.nomi-sidebar.collapsed .MuiDrawer-paper {
+  width: 72px !important;
+}
+
+.nomi-sidebar-brand {
+  text-align: center;
+  padding: 18px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nomi-nav-item {
+  padding-left: 20px;
+}
+
+.nomi-sidebar.collapsed .nomi-nav-item {
+  padding-left: 10px;
+}
+
+/* ACTIVE ITEM */
+.nomi-nav-item.Mui-selected {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.nomi-nav-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nomi-icon {
+  color: #294936 !important;
+  min-width: 40px;
+}
+
+.nomi-sidebar.collapsed .nomi-icon {
+  justify-content: center;
+}
+
+.nomi-collapse-btn {
+  margin-top: 320px;
+  padding-left: 20px;
+}
+
+.nomi-sidebar.collapsed .nomi-collapse-btn {
+  padding-left: 10px;
+}

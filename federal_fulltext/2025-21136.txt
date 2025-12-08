@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54347-54348]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21136]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+U.S. Customs and Border Protection
+
+[OMB Control Number 1651-0053]
+
+
+Agency Information Collection Activities; Extension; 
+Accreditation of Commercial Testing Laboratories and Approval of 
+Commercial Gaugers
+
+AGENCY: U.S. Customs and Border Protection (CBP), Department of 
+Homeland Security.
+
+ACTION: 30-Day notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Homeland Security, U.S. Customs and Border 
+Protection (CBP) will be submitting the following information 
+collection request to the Office of Management and Budget (OMB) for 
+review and approval in accordance with the Paperwork Reduction Act of 
+1995 (PRA). The information collection is published in the Federal 
+Register to obtain comments from the public and affected agencies.
+
+DATES: Comments are encouraged and must be submitted (no later than 
+December 26, 2025) to be assured of consideration.
+
+ADDRESSES: Written comments and/or suggestions regarding the item(s) 
+contained in this notice should be sent within 30 days of publication 
+of this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Please submit 
+written comments and/or suggestions in English. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional PRA 
+information should be directed to Seth Renkema, Chief, Economic Impact 
+Analysis Branch, U.S. Customs and Border Protection, Office of Trade, 
+Regulations and Rulings, 90 K Street NE, 10th Floor, Washington, DC 
+20229-1177, Telephone number 202-325-0056 or via email 
+<a href="/cdn-cgi/l/email-protection#521110020d020013123130227c363a217c353d24"><span class="__cf_email__" data-cfemail="57141507080705161734352779333f2479303821">[email&#160;protected]</span></a>. Please note that the contact information provided 
+here is solely for questions regarding this notice. Individuals seeking 
+information about other CBP programs should contact the CBP National 
+Customer Service Center at 877-227-5511, (TTY) 1-800-877-8339, or CBP 
+website at <a href="https://www.cbp.gov/">https://www.cbp.gov/</a>.
+
+SUPPLEMENTARY INFORMATION: CBP invites the general public and other 
+Federal agencies to comment on the proposed and/or continuing 
+information collections pursuant to the Paperwork Reduction Act of 1995 
+(44 U.S.C. 3501 et seq.). This proposed information collection was 
+previously published in the Federal Register (90 FR 44201) on September 
+12, 2025, allowing for a 60-day comment period. This notice allows for 
+an additional 30 days for public comments. This process is conducted in 
+accordance with 5 CFR 1320.8. Written comments and suggestions from the 
+public and affected agencies should address one or more of the 
+following four points: (1) whether the proposed collection of 
+information is necessary for the proper performance of the functions of 
+the agency, including whether the information will have practical 
+utility; (2) the accuracy of the agency's estimate of the burden of the 
+proposed collection of information, including the validity of the 
+methodology and assumptions used; (3) suggestions to enhance the 
+quality, utility, and clarity of the information to be collected; and 
+(4) suggestions to minimize the burden of the collection of information 
+on those who are to respond, including through the use of appropriate 
+automated, electronic, mechanical, or other technological collection 
+techniques or other forms of information technology, e.g., permitting 
+electronic submission of responses. The comments that are submitted 
+will be summarized and included in the request for approval. All 
+comments will become a matter of public record.
+
+Overview of This Information Collection
+
+    Title: Accreditation of Commercial Testing Laboratories and 
+Approval of Commercial Gaugers.
+    OMB Number: 1651-0053.
+    Form Number: N/A.
+    Current Actions: Extension with change.
+    Type of Review: Extension (with change).
+    Affected Public: Businesses.
+    Abstract: Commercial laboratories seeking to become a Customs and 
+Border Protection (CBP) Accredited Laboratory and commercial gaugers 
+seeking to become a CBP Approved Gauger must submit the information 
+specified in 19 CFR 151.12 and 19 CFR 151.13, respectively, to CBP on 
+CBP
+
+[[Page 54348]]
+
+Form 6478. After the initial accreditation and/or approval, a private 
+company may apply to include additional facilities under its 
+accreditation and/or approval by submitting a formal written request to 
+CBP. This application process is authorized by Section 613 of Public 
+Law 103-182 (NAFTA Implementation Act), codified at 19 U.S.C. 1499, 
+which directs CBP to establish a procedure to accredit privately owned 
+testing laboratories. The information collected is used by CBP in 
+deciding whether to approve individuals or businesses desiring to 
+measure bulk products or to analyze importations. Instructions for 
+completing these applications are accessible at: <a href="http://www.cbp.gov/about/labs-scientific/commercial-gaugers-and-laboratories">http://www.cbp.gov/about/labs-scientific/commercial-gaugers-and-laboratories</a>.
+    CBP Form 6478 is accessible at: <a href="http://www.cbp.gov/sites/default/files/documents/CBP%20Form%206478_0.pdf">http://www.cbp.gov/sites/default/files/documents/CBP%20Form%206478_0.pdf</a>.
+    Type of Information Collection: Application.
+    Estimated Number of Respondents: 4.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 4.
+    Estimated Time per Response: 75 minutes.
+    Estimated Total Annual Burden Hours: 5.
+
+Seth D. Renkema,
+Branch Chief, Economic Impact Analysis Branch, U.S. Customs and Border 
+Protection.
+[FR Doc. 2025-21136 Filed 11-25-25; 8:45 am]
+BILLING CODE 9111-14-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

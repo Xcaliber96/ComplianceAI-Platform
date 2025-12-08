@@ -1,0 +1,1086 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Rules and Regulations]
+[Pages 52883-52892]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20740]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+POSTAL SERVICE
+
+39 CFR Part 111
+
+
+Postmarks and Postal Possession
+
+AGENCY: Postal Service.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Postal Service is adding section 608.11, ``Postmarks and 
+Postal Possession,'' to the Domestic Mail Manual (DMM). This new 
+section defines postmarks, identifies the types of Postal Service 
+markings that qualify as postmarks, and describes the circumstances 
+under which those markings are applied. It also advises customers of 
+how to obtain evidence of the date on which the Postal Service accepts 
+possession of their mailings. This new language in the DMM does not 
+change any existing postal operations or postmarking practices, but is 
+instead intended to improve public understanding of postmarks and their 
+relationship to the date of mailing.
+
+DATES: Effective December 24, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Martha Johnson, Senior Public 
+Relations Representative, at <a href="/cdn-cgi/l/email-protection#fe939f8c8a969fd08dd0949196908d9190be8b8d8e8dd0999188"><span class="__cf_email__" data-cfemail="cda0acbfb9a5ace3bee3a7a2a5a3bea2a38db8bebdbee3aaa2bb">[email&#160;protected]</span></a> or (202) 268-
+2000.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Introduction
+II. Comments
+III. Response to Comments
+IV. Explanation of Final Rules
+
+I. Introduction
+
+    On August 12, 2025, the Postal Service published a proposed rule in 
+the Federal Register, Postmarks and Postal Possession, 90 FR 38716 
+(Aug. 11, 2025)
+
+[[Page 52884]]
+
+(hereafter ``the Proposed Rule''). The Proposed Rule defined the 
+postmark and explained the Postal Service's operational use of the 
+postmark; identified the types of Postal Service markings that qualify 
+as postmarks (together with certain auxiliary markings and scan data 
+that are generated during the course of postal operations and that 
+indicate postal possession of a mailpiece but do not qualify as 
+postmarks); described how and where in the course of postal operations 
+such markings are applied; and clarified the scope of information that 
+such markings do and do not convey. The Proposed Rule further advised 
+that, while the presence of a postmark on a mailpiece confirms that the 
+Postal Service was in possession of the mailpiece on the date of the 
+postmark's inscription, the postmark date does not inherently or 
+necessarily align with the date on which the Postal Service first 
+accepted possession of the mailpiece. The Proposed Rule further noted 
+that this lack of alignment has and will become more common with the 
+implementation of the Regional Transportation Optimization (RTO) 
+initiative and the corresponding adoption of ``leg''-based service 
+standards. (90 FR 10857). The Proposed Rule then advised customers to 
+request a manual (local) postmark at a retail location if they want to 
+ensure that their mailpiece receives a postmark containing a date that 
+aligns with the date on which the Postal Service first accepted 
+possession of their mailpiece, and reminded customers who wish to 
+retain proof of the date on which the Postal Service first accepted 
+possession of their mailpiece(s) of the services (including 
+Certificates of Mailing) that provide such proof. Finally, the Proposed 
+Rule submitted a new Section 608.11 of the Domestic Mail Manual (DMM), 
+for the public's consideration.
+    While the Postal Service has chosen to utilize the notice-and-
+comment rulemaking process for this Proposed Rule, we note that this is 
+not a rulemaking in the traditional sense. As stated in the Proposed 
+Rule, nothing in DMM Section 608.11 effectuates any changes in how, or 
+the extent to which, the Postal Service applies postmarks to 
+mailpieces. However, the postmark was not previously defined in any 
+current Postal Service regulations, and the Postal Service considered 
+it appropriate to reflect these existing practices in the DMM to ensure 
+that customers have a clear understanding of the postmark and what it 
+means.
+    The Proposed Rule sought public input on DMM Section 608.11, 
+welcoming the perspectives of customers, government entities, industry 
+stakeholders, and other interested parties. In particular, the Proposed 
+Rule solicited recommendations on how to effectively inform customers 
+of the new DMM provision and explain its meaning and feasible 
+suggestions to advise and accommodate customers who want proof of the 
+date on which the Postal Service first accepted possession of their 
+mailings.
+
+II. Comments
+
+    The Postal Service received 130 comments on the Proposed Rule, 
+approximately 80 of which consisted of form letters--or, more 
+precisely, one of three distinct form letters (each one using similar, 
+if not verbatim, language) submitted multiple times. Issues raised by 
+these letters include the alleged ``dilution'' of the postmark's 
+meaning, impacts on rural and sparsely populated regions, and the 
+importance of postmarks for mail-in ballots and other documents (e.g., 
+tax returns) subject to strict deadlines. Approximately 25 additional 
+comments were submitted by members of the public writing on their own 
+behalf; these comments range from simple statements of opposition to 
+detailed critiques of proposed DMM Section 608.11. Numerous 
+commenters--among them several election officials, one county Board of 
+Elections, and certain independent institutions--expound at length on 
+mail-in voting, raising concerns about postmarking deadlines and 
+potentially discarded Ballot Mail. Finally, some industry mailers and 
+labor organizations contributed comments echoing the concerns of other 
+commenters, notably with regard to mail-in voting, postmarking 
+deadlines more generally, and the need for robust public education and 
+outreach. These concerns are discussed more fully below.
+    Some commenters suggested operational or staffing changes, new or 
+expanded product offerings, educational outreach endeavors, various 
+means of communicating relevant information to customers, and detailed 
+revisions to DMM Section 608.11. The Postal Service thanks these 
+commenters for their recommendations, which are discussed more fully 
+below. Some comments raised issues (and/or advanced arguments) outside 
+the scope of the present rulemaking. These issues and arguments, which 
+will be excluded from the discussion below, include:
+    <bullet> Criticism of mail-in voting as a general practice. While 
+the Proposed Rule contains information of potential relevance to 
+election officials and to citizens who choose to vote by mail, the 
+Postal Service does not administer elections, establish the rules or 
+deadlines that govern elections, or determine whether or how election 
+jurisdictions utilize the mail or incorporate our postmark into their 
+rules. The Postal Service also does not advocate for or against any 
+particular voting practices (including mail-in voting). Instead, the 
+Postal Service collects, processes, transports, and delivers mail and 
+packages that are mailable under federal law. As part of that role, we 
+deliver the nation's Election Mail when public policy makers and 
+election officials choose to use the mail as a part of their election 
+system and when citizens choose to utilize our services to participate 
+in an election.
+    <bullet> Concerns about missed or belatedly applied postmarks. As 
+explained in the Proposed Rule, DMM Section 608.11 in no way signals a 
+change in our postmarking procedures; postmarks will continue to be 
+applied to Single-Piece First Class Mail pieces, both letter-shaped and 
+flat-shaped, in the same manner and to the same extent as before. Of 
+course, mistakes occur in the normal course of postal operations; the 
+Proposed Rule explains as much, noting that occasional circumstances 
+may arise where a legible postmark is not applied (for instance when 
+two mailpieces are stuck together as they run through a cancelling 
+machine, when the machine runs out of ink or smears when applying 
+postmarks, and so forth). For this reason, we have informed our 
+customers who choose to vote by mail that they can ``ensure that a 
+postmark is applied to [their] return ballot by visiting a Postal 
+Service retail [location] and requesting a postmark from a retail 
+associate when dropping off the ballot.'' Kit 600, USPS Postmarking 
+Guidelines (2024), available at <a href="https://about.usps.com/kits/kit600/kit600_039.htm">https://about.usps.com/kits/kit600/kit600_039.htm</a>. That same guidance would also address concerns about 
+postmark dates, as the date on a manual (local) postmark applied at 
+retail location aligns with the date that the customer tendered the 
+return ballot for mailing. The present rulemaking, however, does not 
+involve any operational changes that would increase the frequency of 
+missed or misapplied postmarks; it is intended to explain the Postal 
+Service's operational use of the postmark and to clarify what 
+information postmarks can be reliably taken to convey.
+    <bullet> Criticisms of the Delivering for America (DFA) strategic 
+plan. As noted in the Proposed Rule, RTO increases the likelihood that 
+a postmark applied at originating processing facilities--the locations 
+where postmarks are typically
+
+[[Page 52885]]
+
+applied--will contain a date that does not align with the date on which 
+the Postal Service first accepted possession of the mailpiece. RTO was 
+the subject of an earlier rulemaking (90 FR 10857) and separate 
+proceedings before the Postal Regulatory Commission (PRC Docket No. 
+N2024-1). The Proposed Rule here is intended to define the postmark and 
+inform the public of its meaning and operational uses. While the need 
+for such clarification is due in part to RTO's changes to 
+transportation and processing schedules, which will enable the Postal 
+Service to significantly increase our operational efficiency and reduce 
+costs, thereby supporting our efforts to continue to provide universal 
+postal services in a financially self-sufficient manner, as the law 
+requires, neither RTO nor any other initiative within the DFA plan are 
+themselves the subject of this Proposed Rule.
+    <bullet> Postal Service Funding. One comment urges: ``It's 
+essential that the USPS be funded at a level that maintains the service 
+on which we rely.'' As an initial matter, the Postal Service, by 
+statute, is designed to be self-funded and self-sufficient. The Postal 
+Service generally receives no tax dollars for operating expenses and 
+relies on the sale of postage, products and services to fund its 
+operations. To the extent this comment is recommending legislative 
+changes, such recommendations are beyond the scope of this rulemaking 
+and the Postal Service's authority. Moreover, while certain operational 
+initiatives discussed in the Proposed Rule (e.g., RTO) are designed to 
+promote financial sustainability, such initiatives do not themselves 
+fall within the scope of the present rulemaking, which is, as noted, 
+confined to the postmark. Finally, as explained in the Notice of 
+Proposed Rulemaking, the postmark is not, and never has been, a 
+service, but has always performed functions (e.g., cancelling postage) 
+internal to the Postal Service operations.
+    Other comments betray factual misapprehensions that, while not 
+addressed in the discussion below, warrant correction. According to one 
+comment, voters will be required to ``pay extra'' for expedited 
+handling of Ballot Mail. However, this Proposed Rule does not change 
+the handing of Ballot Mail or any other mail, but simply clarifies the 
+meaning of the postmark. Nor is it correct that, as predicted by other 
+comments, current postmarks will be supplanted by new (and 
+substantially different) postmarks, replaced in some way by notices 
+that Postal Service has possession of a mailpiece, or eliminated in 
+their entirety. As noted, DMM Section 608.11 seeks to define the 
+postmark as it presently exists, not to change it, and certainly not to 
+eliminate it. To reiterate, postmarks will continue to be applied to 
+Single-Piece First-Class Mail, both letter-shaped and flat-shaped, in 
+the same manner and to the same extent as before.
+    All remaining comments within scope of this proceeding are 
+addressed below.
+
+III. Response to Comments
+
+A. Issues and Concerns
+
+    Some comments commend the Proposed Rule for the clarity and 
+transparency it imparts. One observes that proposed DMM Section 608.11 
+``clearly defines and codifies the role of the postmark.'' Another 
+``applaud[s] the Postal Service's formalization and coalescence of 
+existing policies and understandings regarding postmarks into a single 
+uniform rule,'' noting that ``[t]his will provide greater clarity and 
+authority regarding the meaning of a postmark. . . .'' The Postal 
+Service appreciates these comments, as they acknowledge the intent 
+behind the Proposed Rule: not to diminish or supplant the postmark, but 
+to clarify its meaning, such that customers better understand what it 
+is and the purposes for which it may be relied upon.
+    Most comments adopt a more critical posture, but those comments 
+generally misapprehend the current meaning of the postmark and the 
+purpose of this rulemaking. One expresses concern with the perceived 
+impetus behind the Proposed Rule: namely, to ``move the public and 
+customers away from viewing the postmark as a definitive date'' on 
+which a mailpiece was ``received by the [Postal Service].'' As 
+explained in the Proposed Rule, postmarks applied at originating 
+processing facilities have never provided a perfectly reliable 
+indicator of the date on which the Postal Service first accepted 
+possession of a mailpiece, and this fact will become more common under 
+RTO. Therefore, to the extent that customers currently have this view 
+of the postmark, it does not reflect the realities of postal 
+operations. The purpose of DMM Section 608.11, and our forthcoming 
+education efforts, is to make the actual meaning of the postmark more 
+widely known, so that customers who may currently lack a clear 
+understanding of the postmark can, if necessary, make adjustments to 
+their mailing behavior--for example, by dispatching their mailings 
+earlier, obtaining a manual (local) postmark at a retail location at no 
+additional cost, or purchasing a Certificate of Mailing. However, to 
+suggest (in the words of one form letter) that ``this proposal quietly 
+ends any meaningful reliability of a postmark as indicia or proof of 
+mailing'' is completely inaccurate, given that DMM Section 608.11 
+plainly states, ``[t]he presence of a postmark confirms that the Postal 
+Service accepted custody of a mailpiece, and that the mailpiece was in 
+the possession of the Postal Service on the identified date.''
+    Some comments urge the Postal Service not to ``implement'' the 
+``policies'' described by the Proposed Rule, which also stems from a 
+misunderstanding of DMM Section 608.11's nature and scope. These 
+comments appear to assume that adoption of this DMM provision will 
+prompt operational changes in how the postmark is applied, thereby 
+altering the quality of information that postmarks as such convey. One 
+comment, for instance, criticizes what it claims to be ``the proposed 
+changes to eliminate same-day postmarks.'' This comment ignores, 
+however, that ``same-day postmarks'' (i.e., postmarks bearing dates 
+that align with the date on which the Postal Service first accepted 
+possession of a mailpiece) will in many instances continue to be 
+applied through automation and will remain available in all cases upon 
+request at the retail counter. Meanwhile, multiple others perceive in 
+the Proposed Rule an attempt to ``devalue'' the traditional postmark, 
+and/or to ``dilute'' (or even ``destroy'') its alleged status as proof 
+of the date that the Postal Service first accepted possession of a 
+mailpiece. Yet to reiterate, the Proposed Rule aims to clarify the 
+meaning and value of the postmark, not to change its meaning or destroy 
+its utility. By notifying the public of the realities of postal 
+operations; by offering a definition of the postmark embodied in 
+regulation; and by listing out the various available indicia of postal 
+possession, the present rulemaking seeks to clarify and preserve, 
+rather than erode, the value of the postmark for customers who may rely 
+upon it.
+    The above concerns may also reflect a view of the postmark 
+fundamentally as a service that the Postal Service provides--one on par 
+with, for example, reliable mail delivery and P.O. Box rentals. Indeed, 
+multiple commenters characterize the postmark in just this way, 
+describing it variously as an ``essential benefit,'' a ``public good,'' 
+or a ``service'' that the Proposed Rule somehow threatens. This 
+conception of the postmark possibly informs the demand, proclaimed in 
+one frequently submitted form letter, that the postmark date and the 
+date of first postal
+
+[[Page 52886]]
+
+possession be made always and without exception to align. Yet as 
+explained in the Notice of Proposed Rulemaking, the postmark is not a 
+service, and the Postal Service does not hold it out as such to the 
+public. In any event--despite insinuations to the contrary--the 
+proposed DMM language does not mean that the Postal Service plans to 
+postmark mailpieces less consistently, accurately, or reliably than 
+before. As stated throughout this process, this new language in the DMM 
+does not change any existing postal operations or postmarking 
+practices, but is instead intended to improve public understanding of 
+postmarks and their relationship to the date of mailing.
+    To be sure, the Postal Service is well aware and readily 
+acknowledges that third parties have utilized the postmark for various 
+purposes and have potentially infused it with their own particular 
+meanings. Indeed, the Proposed Rule identified numerous third-party 
+uses of the postmark, including court rules that concern the filing of 
+specific documents, federal statutes such as the Internal Revenue 
+Service code, state tax statutes and other laws, and numerous election 
+jurisdictions that utilize the postmark to accept certain completed 
+ballots as timely where they are sent by mail but are received after 
+Election Day. Numerous commenters also invoke these third-party uses, 
+along with government benefits applications; contract and business 
+transactions; insurance claims and premium payments; and sweepstakes, 
+contests and promotions. Multiple comments then assert that DMM Section 
+608.11 will cause an uptick in missed deadlines. This assertion is 
+misplaced. To reiterate, the present rulemaking entails no change to 
+postmarking practices but aims instead to educate the public as to the 
+postmark's meaning. If customers are aware that the postmark date may 
+not align with the date on which the Postal Service first accepted 
+possession of a mailpiece, they will be better equipped to adjust their 
+plans accordingly. And if policymakers or other entities that create 
+rules utilizing the postmark date are aware of what the postmark date 
+signifies, they are better equipped to determine whether their rules 
+adequately serve their purposes. Through the present rulemaking 
+process, the addition of DMM Section 608.11, and further educational 
+outreach endeavors (described more fully below), the Postal Service 
+seeks to promote such awareness.
+    Some comments raise concerns that DMM Section 608.11 will 
+disproportionately burden certain groups (including disabled, elderly, 
+rural-dwelling, and/or financially distressed users of the mail). As 
+noted, the Proposed Rule does not itself propose any changes to current 
+postmarking procedures; and insofar as members of the public rely on 
+the postmark, they are better served by a rule that clarifies the 
+postmark's meaning and lists the options available to those who may 
+require a postmark date aligning with the date of first postal 
+possession. Such comments may, moreover, confuse the Proposed Rule with 
+certain operational and service standard changes (including but not 
+limited to RTO) that were discussed at length in a prior rulemaking (90 
+FR 10857) and in proceedings before the Postal Regulatory Commission 
+(PRC Docket No. N2024-1). Whatever the case, mailers who desire a 
+postmark by a particular date are encouraged to take measures to ensure 
+that their mail is postmarked by the date they need, when necessary, 
+and at no additional cost. Those not able to appear in person at a 
+retail location to obtain a manual (local) stamp may choose to mail 
+their time-sensitive documents before the relevant deadline, again at 
+no additional cost.
+    The general concerns discussed above--regarding the postmark's 
+alleged ``dilution,'' its purported status as a ``service,'' its uses 
+by third parties, and the perceived burdens placed on (at least some) 
+mailers--frequently converge on the topic of Election Mail. Indeed, a 
+majority of comments invoke Election Mail, and as noted, election 
+officials account for a significant portion of the comments received. 
+The various (and at times interrelated) issues raised by these comments 
+are summarized as follows:
+    <bullet> In response to this rulemaking, Boards of Elections will 
+encourage voters to avoid mailing in their completed ballots and to use 
+drop-boxes instead.
+    <bullet> This Proposed Rule, if implemented, could somehow strain 
+the resources and capacities of election officials, who might be tasked 
+with ``tracking down potentially tens of thousands of ballots'' to 
+verify the date on which they were initially accepted by the Postal 
+Service rather than simply referring to the postmark date.
+    <bullet> This Proposed Rule, if implemented, could suppress voter 
+turnout and/or lead to ``disenfranchisement'' (as election officials 
+reject mail-in ballots bearing postmark dates past the deadline).
+    <bullet> The Proposed Rule is designed to require voters ``to pay 
+for services like Certificates of Mailing or to request manual 
+postmarks,'' which constitutes an ``an unfair burden.''
+    <bullet> This rulemaking will ``erode public confidence in the 
+election process,'' diminish the public's confidence in mail-in 
+ballots, or is itself ``a deliberate attempt to undermine trust in 
+elections.''
+    As noted above, the present rulemaking clarifies the meaning of the 
+postmark, including for both election officials and voters who choose 
+to use the mail to vote. The Postal Service does not administer 
+elections, establish the rules or deadlines that govern elections, or 
+determine whether or how elections utilize the mail or incorporate our 
+postmark. The Postal Service also does not advocate for or against 
+voting by mail. Instead, the Postal Service collects, processes, 
+transports, and delivers mail and packages, and remains fully committed 
+to transporting the nation's Election Mail when public policy makers 
+choose to use the mail as a part of their election system or when 
+voters choose to utilize our services to participate in an election. 
+Boards of Elections and other officials who administer elections are 
+free to issue guidance to voters as they see fit. To voters who choose 
+to vote by mail, the Postal Service has long recommended as a common-
+sense measure that they mail their completed ballot before Election 
+Day, and at least one week before it must be received by their local 
+election office. Otherwise, the Postal Service has also long advised 
+that voters who wish to ensure that a ballot envelope is postmarked on 
+the day it is tendered to the Postal Service can request a manual 
+(local) postmark at a retail unit, which will be applied to the 
+mailpiece free of charge and which will inherently bear a date that 
+aligns with the date on which the Postal Service first accepted 
+possession of the mailpiece.
+    While voters who use mail-in ballots may also elect to purchase a 
+Certificate of Mailing, which will provide the individual mailer with a 
+receipt indicating the date on which the mailpiece was tendered to the 
+Postal Service for mailing, the Postal Service's guidance to voters who 
+choose to vote by mail does not include recommending the purchase of a 
+Certificate of Mailing. In any event, whether to purchase a Certificate 
+of Mailing is a decision for the individual mailer and does not 
+constitute a supplemental fee for the act of voting by mail. The Postal 
+Service has adjusted the language in the Final Rule so DMM 608.11.5 now 
+says customers who wish to retain a record of proof of the date on 
+which the Postal Service first accepted possession of their 
+mailpiece(s) may purchase a Certificate
+
+[[Page 52887]]
+
+of Mailing, rather than saying that they are encouraged to do so. While 
+this language is not specific to Election Mail, the Postal Service 
+believes the updated language may avoid further confusion.
+    Given that the present rulemaking (together with other educational 
+outreach endeavors, discussed below) educates election officials about 
+the information conveyed by postmarks and educates voters who choose to 
+use the mail to vote that they can take certain measures if they need a 
+postmark date that aligns with the date of mailing, it should 
+contribute to a more effective use of the mail for their purposes. 
+Concerns that DMM Section 608.11 may ``disenfranchise'' voters and/or 
+overtax the capacities of Boards of Elections are therefore misplaced.
+
+B. Recommendations
+
+    Many of the above issues and concerns--most especially, though not 
+exclusively, the effects of postmarking on Election Mail--were 
+accompanied by recommendations. These recommendations fall roughly into 
+three categories: outreach and communication, operational and staffing 
+changes, and product offerings. The Postal Service thanks the public 
+for its constructive input and addresses each category of 
+recommendation below.
+1. Outreach and Communication
+    Multiple comments recommended educational outreach endeavors beyond 
+the context of the present rulemaking. As explained below, a 
+communications strategy regarding postmarks is indeed under 
+development. Overall, our advice is simple: customers who wish to 
+obtain a postmark aligning with the date of mailing should request a 
+local (manual) at a retail location. The intent of this messaging is to 
+provide information that customers would find useful, avoiding 
+potential confusion; and to provide information that is accurate and 
+does not constrain our operational flexibility. Commenters' 
+recommendations regarding educational outreach were evaluated with 
+these considerations in mind.
+    Some comments recommended that retail locations post notices 
+indicating whether mail deposited by a particular time will arrive at 
+the processing facility (and be postmarked at that facility) on the day 
+of deposit. Such cutoff times, however, cannot always be predicted 
+across all locations, given varied operating hours at retail locations, 
+unscheduled trips, and transportation contingencies beyond the Postal 
+Service's control that may possibly result in delays. This is why, as 
+the Proposed Rule explained, the postmark date applied at processing 
+never provided a perfectly reliable indicator of the date on which the 
+Postal Service first accepted possession of a mailpiece, even before 
+RTO. Furthermore, the service standard changes coincident with RTO's 
+implementation (90 FR 10857) confer operational flexibility by 
+divorcing collection schedules from transportation and processing 
+schedules. As noted in the Notice of Proposed Rulemaking and elsewhere, 
+with an extra day allotted for transportation to the originating 
+processing facility, originating processing operations (including 
+automated machine cancellations) do not need to respond reactively to 
+volume arrivals, but can instead allocate processing capacity more 
+predictably and efficiently based on known volume arrival profiles. 
+USPS-T-4, PRC Docket No. N2024-1 (October 4, 2024), <a href="https://prc.arkcase.com/portal/filings/131269">https://prc.arkcase.com/portal/filings/131269</a>. Displays of the type of cutoff 
+times recommended here would compel more rigid transportation schedules 
+and would as a result constrain the very flexibility that RTO was in 
+part designed to accommodate, thereby blunting the downstream network 
+efficiencies that such flexibility allows. It is, therefore, neither 
+practical, nor in all cases possible, to display ``same-day postmark'' 
+cutoff times at retail locations. It is also unnecessary, as customers 
+at those retail locations who need a postmark with the date of 
+acceptance can ensure that their mailpieces receive that day's postmark 
+by bringing their mailpieces to the retail counter and requesting a 
+manual (local) postmark, free of charge. This option serves the purpose 
+underlying the above-mentioned recommendation, while preserving the 
+Postal Service's operational flexibility.
+    One comment suggests modifying blue collection box labels to 
+indicate whether mail deposited by a particular time will arrive at the 
+processing facility (and be postmarked at that facility) on the day of 
+deposit. Blue collection box labels indicate when mail is retrieved 
+from the boxes themselves, which is relevant information to the mailer 
+who may be concerned about how long their mail may sit in the blue 
+collection box prior to a carrier retrieving it. As RTO does not alter 
+these retrieval times but instead impacts outgoing transportation 
+schedules from delivery units, the suggested label modifications would 
+convey supplementary information concerning downstream transportation, 
+further compounding the risk of customer confusion. Moreover, for the 
+reasons discussed above, transportation and processing schedules cannot 
+always be predicted with enough precision to make such information 
+consistently dependable, which could make such displays misleading for 
+customers who seek to obtain postmarks reflecting that day's date. 
+Nevertheless, blue collection boxes already feature QR codes that link 
+to our public website, <a href="http://usps.com">usps.com</a>, which includes a tool for mailers to 
+locate the closest Post Office; and the Postal Service plans to include 
+on <a href="http://usps.com">usps.com</a> information on postmarks and postmark dates, including a 
+recommendation that mailers bring their mail to a retail location and 
+request a manual (local) postmark if they need a postmark with a date 
+aligning with the date of mailing.
+    Multiple comments urged the Postal Service to launch a ``massive 
+education program'' regarding postmarks, including notification to 
+customers that the date on a postmark applied at a processing facility 
+may not align with the date on which the Postal Service first accepts 
+possession of a mailpiece (including a vote-by-mail ballot), newly 
+established points of contact ``to address public concerns,'' and close 
+collaboration with election officials. In addition to the present 
+rulemaking, the Postal Service is developing an approach to provide 
+public and internal education regarding postmarking. We will engage in 
+a coordinated effort to post customer-facing information on <a href="http://usps.com">usps.com</a>, 
+including making it easier to find resources we have already developed 
+to provide information about the service standard changes generally, 
+and about postmarking specifically. We will also engage in targeted 
+education to specific mailing communities, including election 
+officials. For example, we plan to include in the Official Election 
+Mail communication (known as Kit 600), which we send to Boards of 
+Election nationwide in advance of each federal general election season, 
+specific information about DMM Section 608.11 and practical advice on 
+mail-in voting consistent with prior advice (i.e., that voters mail 
+their completed ballots before Election Day and at least one week 
+before it must be received by their election office), along with 
+contact information for stakeholders who wish to inquire further. 
+Furthermore, the Postal Service has established points of contact with 
+election officials in every jurisdiction throughout the country, and we 
+plan to communicate clear information on postmarking and address any 
+areas of concern.
+    As the date of first postal possession and the date on the postmark 
+applied at processing facilities will diverge most frequently in ZIP 
+Codes subject to RTO, some comments suggest that RTO-
+
+[[Page 52888]]
+
+impacted facilities be widely publicized. This recommendation, which 
+the Postal Service has seen in the context of service-standard changes 
+more broadly as well, is, however, less helpful or straightforward than 
+it may initially seem. Regarding both postmarking and service 
+standards, the Postal Service's intent is to provide information to 
+customers that is most useful and understandable (as opposed to putting 
+the onus on the customer to determine what it means if a Post Office is 
+or is not subject to RTO). While some information may be gleaned from 
+an RTO designation, the Postal Service does not want customers to 
+attach unwarranted significance to that designation. For example, 
+whether a Post Office is subject to RTO does not determine the actual 
+service standard for a given mailpiece; both the origin and the 
+destination of the mailpiece must be considered. USPS.com features a 
+service-standard lookup tool that provides this information accurately, 
+without forcing customers to identify the various elements of our rules 
+for determining service expectations. Customers apprised of whether a 
+specific Post Office is subject to RTO may draw conclusions at odds 
+with the lookup tool's outputs--as RTO is one of several inputs 
+determining service standards, and the ``leg 2'' acceleration that RTO 
+underwrites may counterbalance any day added within ``leg 1.'' 
+Regarding the postmark, because the Postal Service has never guaranteed 
+that the postmark date would align with the date of mailing, our 
+messaging to customers is the same whether or not their Post Office is 
+subject to RTO: customers should request a manual (local) postmark at a 
+retail location if they want to ensure that their mailpiece receives a 
+postmark containing a date that aligns with the date on which the 
+Postal Service first accepted possession of their mailpiece. For these 
+reasons, the Postal Service has chosen to focus on user-friendly tools 
+and messaging, rather than identifying specific locations that may be 
+subject to RTO transportation schedules.
+2. Operational and Staffing Changes
+    Multiple comments recommended additional accommodations at retail 
+locations for customers who desire a manual (local) postmark aligning 
+with the date of first postal possession--for instance, a dedicated 
+mail slot where customers can request such a postmark, or alternately, 
+a special window held open during certain times of year (e.g., tax 
+season). The Postal Service has taken these recommendations under 
+advisement, and, if there appears to be a need, we will consider making 
+appropriate adjustments to retail operations as feasible.
+    Some comments also recommend that the Postal Service deploy extra 
+staff in the days and weeks preceding important deadlines, and/or 
+provide additional training for postal personnel in anticipation of 
+such deadlines. As yet, however, there is no evidence of surging retail 
+traffic by customers desiring a postmark ahead of various deadlines 
+that might necessitate additional staff to ensure that sensitive 
+documents receive a postmark. Indeed, the overriding concern expressed 
+in comments, as noted above, is not that mailpieces will not be 
+postmarked at all--an issue beyond the scope of the present 
+rulemaking--but rather that postmarks applied by automated machinery 
+will inscribe a date later than the date of first postal possession: a 
+concern that additional retail staff would not directly address. The 
+Postal Service therefore deems the request for additional retail 
+staffing premature, though it will continue to monitor the need for 
+such staffing.
+    One comment demanded that ``for periods close to key election 
+dates, USPS . . . adjust its Regional Transport Optimization initiative 
+to hire and employ . . . additional staff and transportation vehicles 
+to ensure that ballots are timely transported to RPDC/LPC locations to 
+receive a timely postmark.'' It should be noted that the deployment of 
+additional transportation, when warranted to ensure timely delivery, is 
+part of the Postal Service's normal business practices, and the Postal 
+Service will continue to monitor the need for such deployments at all 
+times of year. Regarding ``timely postmarks,'' the Postal Service's 
+messaging is intended to make clear to customers what ``timely'' means 
+in terms of postal operations so customers can plan accordingly.
+    Some commenters recommend quarantining RTO-volume and non-RTO 
+volume into distinct batches, and postmarking those batches separately, 
+as this would in theory allow the postmark dates on RTO volume to be 
+rolled back to the date on which the Postal Service took possession of 
+it. The Postal Service has considered the feasibility of such a 
+procedure, and has concluded that it would prove operationally 
+impracticable, cost-prohibitive, and contrary to the aims of RTO. There 
+is no reliable way to segregate RTO from non-RTO volume within all 
+originating processing facilities; any attempt to do so would add 
+significant complexity to an already complex set of operations, 
+delivering inconsistent results at an inordinate cost. Furthermore, the 
+volume arrival profiles enabled by RTO--which in turn allow for more 
+efficient staffing, more productive machine deployments, and earlier 
+dispatches into the network--depend on the simultaneous processing of 
+RTO and non-RTO volume within compressed timeframes. Direct Testimony 
+of Gregory White, USPS-T-4, PRC Docket No. N2024-1 (October 4, 2024), 
+at 13-19, 25-35, <a href="https://prc.arkcase.com/portal/filings/131269">https://prc.arkcase.com/portal/filings/131269</a>. These 
+processing efficiencies, which underwrite accelerated service standards 
+for a majority of market-dominant mail volume, and which are expected 
+to yield significant cost savings over time, would be unlikely to 
+survive a scheme designed (again, unreliably) to cancel RTO and non-RTO 
+volume in separate batches, each with its own distinct postmark date. 
+Adding such costs and complexity is particularly unsupportable given 
+the Postal Service's financial condition, and when there are means 
+available for those customers who want to ensure that the postmark 
+reflects the day of acceptance to do so.
+    Some comments recommend postmarking all mail before it leaves the 
+retail unit for processing. This recommendation would also add 
+significant costs and is therefore not being accepted. The Postal 
+Service discontinued this practice decades ago, and the practice had 
+functionally disappeared well before that. As such, some historical 
+context regarding automated postmarking may be helpful. The Postal 
+Service has for many years relied on machines at processing facilities 
+to postmark mail; indeed, versions of the Advanced Facer Canceller 
+System now currently deployed date back to the early 1990s, and were 
+themselves acquired to replace an earlier generation of facer 
+cancellers. That replacement was completed in 2008. (Postal Service 
+High-Speed Sorters Get Smarter, Faster). As the Postal Service 
+explained in a 2008 Postal Bulletin (<a href="https://about.usps.com/postal-bulletin/2008/html/pb22238/html/updt_001.html">https://about.usps.com/postal-bulletin/2008/html/pb22238/html/updt_001.html</a>): ``Cancellation and 
+routine postmarking of mail at Post Offices, except for transactions at 
+the retail window, were made obsolete with the mechanized cancellation 
+systems installed at larger facilities in the 1970s. After the 
+installation of the Advanced Facer Canceller Systems (AFCSs) at 
+processing plants more than 15 years ago, routine cancellation of mail 
+at local Post Offices was virtually eliminated. The efficiencies of the 
+AFCSs help keep postage rates as low as possible for all
+
+[[Page 52889]]
+
+customers.'' In light of this shift away from routine postmarking at 
+retail locations, the Postal Service amended Postal Operations Manual 
+(POM) Section 312.2 to provide, in language that persists to this day, 
+that ``[c]ustomers may request a local postmark at the retail counter 
+at all Post Offices, stations, and branches.'' As the circumstances 
+underlying this revision have not changed--that is, as the AFCS 200 
+machines deployed in processing facilities continue to provide a 
+significantly more efficient means of postmarking mail than would the 
+practice of applying postmarks at retail facilities as a matter of 
+course--the Postal Service would not be justified in turning back the 
+clock.
+    In a similar vein, other comments propose that all mailpieces 
+deposited at retail locations by customers receive a manual (local) 
+handstamp as a matter of course, and not merely upon request. POM 
+Section 312.2 was adopted in its current form for a reason, however. As 
+noted, automated processing machines at processing facilities provide a 
+much more efficient means of postmarking mail than would 19th-century-
+style production lines of hand-stampers housed in every Post Office, 
+station, and branch. We recognize that some customers may want to 
+ensure that a piece of mail sent on a particular day receives a 
+postmark bearing that day's date, and we accommodate those customers by 
+applying a manual (local) postmark upon the customer's request when 
+they tender their mail at a retail location. To go beyond that 
+accommodation, by creating a separate postmarking process in which all 
+mailings deposited at retail facilities receive a manual postmark 
+regardless of mailer intent or need, would result in significant 
+additional costs and inefficiencies.
+    Finally, one form letter urges that postmarks should indicate the 
+date and time of a mailpiece's receipt by the Postal Service. As an 
+initial matter, none of our postmarking methods--including manual 
+postmarks applied at retail or machine postmarks applied at 
+processing--entail stamping a specific time of day on a mailpiece. Even 
+as to the date, reengineering the postmark so that it always shows the 
+date of initial postal possession would vitiate the current processing 
+system, as the automated cancellation system deployed at processing 
+facilities affords no visibility into the date (much less the precise 
+time) when a mailpiece first entered postal possession. As observed in 
+the Proposed Rule, the date on postmarks applied at processing 
+facilities represents the date of the first automated processing 
+operation applied at that facility. The machines that apply the 
+postmarks, and the staff who operates those machines, have no way of 
+ascertaining whether that date happens to align with the date on which 
+the Postal Service initially took possession of any specific mailpiece. 
+As machines can feasibly inscribe only the date of cancellation, 
+implementation of a postmark that uniformly inscribes the date of first 
+postal acceptance would, in practical terms, require the circumvention 
+of all such machines in favor of a manual stamp applied at the point of 
+collection--resulting in the operational costs and inefficiencies noted 
+above. Again, for customers who need a postmark with that day's date, 
+they can go to a Postal Service-operated retail location and request a 
+manual (local) postmark when dropping off their mail.
+3. Product Offerings
+    One commenter recommends expanding services within the Informed 
+Greetings platform, which generates an Intelligent Mail[supreg] Barcode 
+(IMb), to provide insights into when and where the Postal Service had 
+possession of a mailpiece. First, it bears noting that the Informed 
+Greetings platform was not designed for this purpose; its intended use 
+is, instead, to assist customers in the creation of digital greetings 
+that then accompany the dispatch of physical mail--and the Postal 
+Service has no intention of expanding this relatively specialized 
+product into an all-purpose mail-tracking system. Furthermore, as noted 
+in the Proposed Rule, IMb scans indicate possession of a mailpiece, but 
+do not constitute evidence of the date when the Postal Service first 
+accepted possession of a mailpiece, and neither does their absence 
+imply that the Postal Service never accepted possession of a mailpiece. 
+The Postal Service does not consider such scans to serve as proof of 
+the date of postal acceptance; they therefore are not adequate 
+substitutes for a manual (local) postmark applied at retail or services 
+such as Certificates of Mailing.
+
+C. Proposed Revisions to DMM 608.11
+
+    One comment urges the Postal Service to include in DMM Section 
+608.11 ``its longstanding policy and practice that all Ballot Mail 
+returned by voters should receive a postmark.'' If the present 
+rulemaking effectuated a change in postmarking practices impacting 
+Ballot Mail, such an addition would perhaps be appropriate. As noted, 
+however, the present rulemaking is intended to explain the Postal 
+Service's operational use of the postmark, identify the markings that 
+qualify as postmarks, and clarify what information such markings can be 
+reliably taken to convey. As such, it does not signal any change to 
+postmarking practices, which will continue to the same extent as 
+before. This holds true for Ballot Mail, most of which is sent as 
+Single-Piece First-Class Mail, and which the Postal Service postmarks 
+in the manner described by the present rulemaking. (It bears mentioning 
+that the additional efforts to postmark all Ballot Mail fall under the 
+Postal Service's practices specifically related to Election Mail, and 
+that these measures exceed the present rulemaking's scope and are as 
+such not contemplated by DMM 608.11). The Postal Service therefore 
+declines to adopt this suggested revision.
+    Some comments recommend the inclusion of language in the DMM 
+stating that IMb scans may serve as proof of mailing. The Postal 
+Service declines to adopt this suggestion, as DMM Section 608.11 
+already contains an entry on IMb scans. As noted there, IMb scans 
+indicate that a mailpiece was in the Postal Service's possession, but 
+do not constitute evidence of the date when the Postal Service first 
+accepted possession of a mailpiece.
+    One commenter proposed numerous detailed revisions to DMM Section 
+608.11. The Postal Service thanks this commenter for their thorough 
+engagement and addresses the commenter's recommendations at length as 
+follows.
+    Regarding Section 608.11.1, the commenter observes, correctly, that 
+when mail that otherwise would be cancelled on an automated processing 
+machine is unable to be cancelled, it is the Postal Service's practice 
+to apply a manual postmark to such mail at an originating processing 
+facility. The commenter then opines that the proposed definition 
+offered by Section 608.11.1 does not account for this eventuality. Such 
+manual postmarks, however, are typically applied after a mailpiece is 
+rejected by an automated processing machine; and the originally 
+proposed language of Section 608.11.1, which indexes the postmark date 
+to the performance of automated processing operations, does indeed 
+contemplate those rare instances when a mailpiece is in this way 
+rejected (and subsequently hand-stamped).
+    The commenter also recalls that, as explained by the Proposed Rule, 
+the Postal Service utilizes a ``rollover'' time on its processing 
+machines to reflect the fact that originating operations for particular 
+mailpieces occur overnight, and hence those operations can cross 
+calendar days. On this basis, the
+
+[[Page 52890]]
+
+commenter recommends that Section 608.11.1 align the postmark date as 
+applied at processing facilities with ``the date on which the mailpiece 
+was inducted into processing.'' The Postal Service declines to adopt 
+this revision, for two reasons. First, the phrase ``was inducted into 
+processing'' may be taken to mean ``arrived at a processing facility''; 
+some volume, however, may arrive at a processing facility before 
+midnight, but after that day's cutoff time for processing--a nuance 
+that the proposed revision, if interpreted in this manner, would fail 
+to capture. Second, ``inducted into processing'' may instead be taken 
+to mean ``entered into processing operations''; and such a construction 
+would not account for volume that arrives before the cutoff time for 
+processing operations, and thus receives a postmark aligned with its 
+date of arrival, but is not ``inducted into processing'' until after 
+midnight. In light of these complexities, the Postal Service has 
+determined that the original proposed language supplies the most 
+comprehensible, succinct, and accurate formulation available to 
+describe postmark dates as applied at processing facilities.
+    The commenter also observes that some postmarks display location 
+indicators (such as ``Metroplex, MI'') that do not strictly correspond 
+to geographical entities, but instead map onto postal processing 
+facilities; accordingly, the commenter recommends that in Section 
+608.11.1, postmarks be characterized as displaying the ``name or 
+location'' (rather than just the location) of the facility in which 
+they were applied. This recommendation is well-taken and will be 
+incorporated into the Final Rule.
+    Finally, the commenter recommends that Section 608.11.1 be broken 
+into shorter sentences. In its original proposed form, Section 608.11.1 
+aimed to encompass the entire definition of ``postmarks'' within one 
+sentence in order to emphasize that postmarks are officially defined by 
+Section 608.11.1 in its entirety. The Postal Service acknowledges, 
+however, that simplified syntax would likely make Section 608.11.1 
+easier to understand, and it is already clear that the entirety of the 
+text in Section 608.11.1, whether expressed as a single sentence or as 
+multiple sentences, constitutes the definition of a ``postmark,'' just 
+as the Section title implies. We will therefore revise Section 608.11.1 
+in a manner consistent with the commenter's recommendations in this 
+regard.
+    Regarding Section 608.11.2, the commenter urges greater specificity 
+in the description of manual postmarks that are applied at processing 
+facilities to non-machinable mail. Namely, in lieu of the phrase, 
+``when a mailpiece that would ordinarily be postmarked on an automated 
+cancellation machine is unable to be canceled,'' the commenter suggests 
+language specifying that mail characteristics may impact machinability. 
+The original proposed language, however, captures the circumstance 
+evoked by the commenter--mailpieces may, after all, prove ``unable to 
+be cancelled'' due to their physical characteristics. The Postal 
+Service therefore declines to adopt the suggested specification.
+    The commenter also observes that while some Postage Validation 
+Imprint (PVI) labels display the city, state, and ZIP Code of the 
+postal facility at which they are printed, others display only the 
+facility's ZIP Code. On this basis, the commenter disputes the accuracy 
+of DMM Section 608.11.2 as originally proposed, insofar as it 
+represents that PVI labels ``indicate . . . the location of the retail 
+unit at which the mailpiece was accepted.'' While it is true that some 
+PVI labels feature only the ZIP code of the relevant facility, this 
+fact is not, in the Postal Service's view, inconsistent with the 
+language of Section 608.11.2 as proposed, since ZIP Codes designate 
+location.
+    Finally, the commenter recommends that Section 608.11.2 state 
+explicitly that local (manual) postmarks may be obtained free of 
+charge. The Postal Service agrees that a reminder of this postal policy 
+would be helpful and will therefore make conforming changes to Section 
+608.11.2. The phrase ``first accepts possession'' occurs regularly in 
+the Proposed Rule, including throughout the proposed DMM Section. The 
+commenter criticizes this phrase on two grounds: that the qualifier 
+``first'' is redundant (since in nearly every conceivable instance, the 
+Postal Service accepts possession of a mailpiece only once); and that 
+the phrase as a whole is supposedly inaccurate (in that the Postal 
+Service does not in fact ``accept possession'' of mailpieces, but 
+rather ``takes possession'' of them, often in an allegedly passive 
+manner). For these reasons, the commenter suggests replacing the phrase 
+``first accepts possession,'' with the phrase ``first possesses.'' On 
+the first count, the phrase ``first accepts possession'' has the merit 
+of accentuating that there is a point in time when the Postal Service 
+(through its employees) has taken custody of a mailpiece through some 
+affirmative action--collecting the mail from a residence or a 
+collection box, accepting a mailpiece tendered to a retail employee by 
+a customer, etc. On the second count, the difference between ``first 
+accepting possession,'' ``first taking possession,'' and ``first 
+possessing'' is less than fully clear; if, as the commenter hints, the 
+latter formulation implies a certain measure of passivity in how the 
+Postal Service takes possession of the mail, its premise is inaccurate. 
+The Postal Service, acting through its employees, actively takes 
+possession of mailpieces tendered by mailers. Indeed, the notion of 
+accepting possession more precisely renders the transactional nexus 
+between the Postal Service and its customers, since custody of a 
+mailpiece cannot properly be transferred unless it is both voluntarily 
+offered and affirmatively received. For these reasons, DMM 608.11 will 
+retain the phrase, ``first accepts possession.''
+
+IV. Explanation of Final Rules
+
+    After evaluating the comments, the Postal Service is adopting the 
+new DMM Section 608.11. The final text of DMM Section 608.11 
+incorporates the revisions noted above. The Postal Service will also, 
+on its own initiative, make two amendments concerning manual (local) 
+postmarks obtained at retail locations. First, the phrase ``Manual 
+(local) postmarks are available, upon a customer's request . . . ,'' in 
+Section 608.11.2, is changed to ``Manual (local) postmarks are applied 
+to a mailpiece, upon a customer's request. . . .'' Second, Section 
+608.11.4 includes the following reminder of the 50 mailpiece limit for 
+manual (local) postmarks: ``Customers planning to present significant 
+mail volume--50 or more mailpieces--for (local) postmarks should 
+contact the postmaster or other manager in advance to ensure that 
+adequate resources are available.''
+    The Postal Service adopts the described changes to Mailing 
+Standards of the United States Postal Service, Domestic Mail Manual 
+(DMM), incorporated by reference in the Code of Federal Regulations. We 
+will publish an appropriate amendment to 39 CFR part 111 to reflect 
+these changes.
+
+List of Subjects in 39 CFR Part 111
+
+    Administrative practice and procedure, Postal Service.
+
+    Accordingly, the Postal Service amends Mailing Standards of the 
+United States Postal Service, Domestic Mail Manual (DMM), incorporated 
+by reference in the Code of Federal Regulations as follows (see 39 CFR 
+111.1):
+
+PART 111--[AMENDED]
+
+0
+1. The authority citation for 39 CFR part 111 continues to read as 
+follows:
+
+
+[[Page 52891]]
+
+
+    Authority:  5 U.S.C. 552(a); 13 U.S.C. 301-307; 18 U.S.C. 1692-
+1737; 39 U.S.C. 101, 401-404, 414, 416, 3001-3018, 3201-3220, 3401-
+3406, 3621, 3622, 3626, 3629, 3631-3633, 3641, 3681-3685, and 5001.
+
+
+0
+2. Revise the Mailing Standards of the United States Postal Service, 
+Domestic Mail Manual (DMM) as follows:
+* * * * *
+
+600 Basic Standards for All Mailing Services
+
+* * * * *
+
+608 Postal Information and Resources
+
+* * * * *
+    [Add the text of part 11 to read as follows:]
+
+11.0 Postmarks and Postal Possession
+
+11.1 Postmark Defined
+
+    A postmark is a marking applied by the Postal Service to a 
+mailpiece. If applied at a retail unit, the postmark displays the name 
+or location of the retail unit and the date on which the mailpiece was 
+accepted at the retail unit. If applied at a processing facility, the 
+postmark displays the name or location of the processing facility and 
+the date of the first automated processing operation performed on that 
+mailpiece. Where necessary, a postmark also cancels postage so that it 
+cannot be reused.
+
+11.2 Locations at Which a Postmark Is Applied
+
+    Postmarks are generally applied by the Postal Service via 
+automation on machines in originating processing facilities but may 
+also be applied manually by Postal Service personnel at those 
+facilities, or by a Postal Service employee at a retail unit when a 
+customer presents a mailpiece at a retail counter and requests a 
+postmark.
+    <bullet> Automated Machine-Applied Postmarks. These are applied by 
+automated cancellation machines located in originating processing 
+facilities, including in Regional Processing and Distribution Centers 
+(RPDCs) and select Local Processing Centers (LPCs). Automated machine-
+applied postmarks cancel postage and identify the processing facility 
+that applied the postmark and the date of the first automated 
+processing operation performed on that mailpiece. Mailpieces prepared 
+according to certain criteria will bypass automated cancellation to 
+improve delivery speed.
+    <bullet> Manual Postmarks on Non-Machinable Mail at Processing 
+Facilities. Where a mailpiece that would ordinarily be postmarked on an 
+automated cancellation machine is unable to be canceled, the Postal 
+Service's common practice is to apply a manual postmark to the 
+mailpiece at the originating processing facility. Like automated 
+machine cancellations, these manual postmarks register the facility at 
+which the mailpiece was received and the date that the first automated 
+processing operation would have been performed on that mailpiece.
+    <bullet> Postmarks at Retail Locations: Manual (local) postmarks 
+are applied to mailpieces, upon a customer's request, free of charge at 
+the retail counter of every Post Office, station, or branch. Manual 
+(local) postmarks at retail locations cancel postage (if necessary), 
+and indicate the location of the retail unit at which the postmark is 
+applied and the date on which the mailpiece was accepted at that unit.
+    <bullet> Postage Validation Imprint (PVI) Labels at Retail 
+Locations. These are printed by Postal Service employees at retail 
+locations and are applied to a mailpiece by a Postal Service employee 
+upon acceptance of the piece. These labels indicate the postage paid 
+for a mailpiece and, like manual (local) postmarks applied at retail 
+locations, indicate the location of the retail unit at which the 
+postmark is applied and the date on which the mailpiece was accepted at 
+that unit.
+
+11.3 Information Conveyed by a Postmark
+
+    The presence of a postmark confirms that the Postal Service 
+accepted custody of a mailpiece, and that the mailpiece was in the 
+possession of the Postal Service on the identified date. However, for 
+the reasons that are further described below, the postmark date does 
+not necessarily indicate the first day that the Postal Service had 
+possession of the mailpiece. Moreover, the absence of a postmark does 
+not imply that the Postal Service did not accept custody of a 
+mailpiece, because the Postal Service does not postmark all mail in the 
+ordinary course of operations.
+    The name or location displayed on a postmark shows the processing 
+facility or retail unit at which the postmark was applied. The date 
+displayed on a postmark shows the date of the first automated 
+processing operation performed on a mailpiece or, alternately, the date 
+when a mailpiece was accepted at a retail unit. Because most postmarks 
+are applied at processing facilities, they do not necessarily represent 
+either the place at which, or the date on which, the Postal Service 
+first accepted possession of the mailpiece. The date inscribed by a 
+postmark applied at a processing facility may be later than the date 
+that the mailpiece was first accepted by the Postal Service. See 11.5. 
+for options available to customers who seek proof of the date on which 
+the Postal Service first accepted custody of a mailpiece.
+
+11.4 Postmarks Aligning With the Date of Acceptance
+
+    Customers who want a postmark aligning with the date on which the 
+Postal Service first accepted possession of their mailpiece may 
+request, for no additional fee, a manual (local) postmark at any Post 
+Office, station, or branch when tendering their mailpiece. Customers 
+planning to present significant mail volume--50 or more mailpieces--for 
+(local) postmarks should contact the postmaster or other manager in 
+advance to ensure that adequate resources are available.
+    Because a manual (local) postmark is applied upon acceptance at the 
+retail counter, the date on that postmark aligns with the date on which 
+the Postal Service first accepted possession of the mailpiece. 
+Similarly, the date on PVI labels, which are applied by Postal Service 
+employees at the retail counter at any Post Office, station, or branch 
+to a mailpiece for which a customer is simultaneously paying for 
+postage and tendering the mailpiece for mailing, also aligns with the 
+date on which the Postal Service first accepted possession of a 
+mailpiece.
+    Please note that pre-printed labels applied by the customer prior 
+to mailing--e.g., postage printed from Self-Service Kiosks (SSK), 
+Click-N-Ship online postage, and meter strips--show merely that a 
+customer has purchased postage and the date on which the postage was 
+printed; they do not in themselves demonstrate that the Postal Service 
+accepted the mailpiece, or the date on which any such acceptance 
+occurred.
+
+11.5 Services Proving the Date of Postal Acceptance
+
+    Customers who wish to retain a record or proof of the date on which 
+the Postal Service first accepted possession of their mailpiece(s) may 
+purchase a Certificate of Mailing. As described more fully in Section 
+500.5, a Certificate of Mailing is a service designed to provide 
+evidence that individual mailpieces have been presented for mailing. As 
+described more fully in Sections 500.2 and 500.3 respectively, 
+Registered Mail and Certified Mail services also provide mailing 
+receipts for individual mailpieces.
+
+11.6 Auxiliary Markings and Data
+
+    During the course of postal operations, the Postal Service may 
+inscribe markings on mailpieces and/or
+
+[[Page 52892]]
+
+generate scan data. Such auxiliary markings and data indicate 
+possession of a mailpiece; however, they do not constitute evidence of 
+the date when the Postal Service first accepted possession of a 
+mailpiece. Furthermore, the absence of these auxiliary markings or data 
+does not imply that the Postal Service did not accept possession of a 
+mailpiece.
+    A non-exhaustive list of such auxiliary markings and data include:
+    <bullet> Identification Tags. Mailpieces processed on automated 
+machines (i.e., mailpieces that are not deposited through bulk or 
+commercial methods) are typically imprinted with a fluorescent 
+identification tag. This tag encodes a variety of information, 
+including the date on which the tag itself was applied.
+    <bullet> Scans of an Intelligent Mail[supreg] Barcode (IMb). As 
+more fully described in Section 204.1, IMbs are applied by customers to 
+mailpieces--primarily to letters, flats, and cards (as well as to 
+certain competitive product mailings, such as USPS Priority 
+Mail[supreg])--and encode a variety of data, including the identity of 
+the mailer, the services requested, a serial number, and a routing 
+code. The IMb itself does not verify Postal Service possession, as it 
+is applied by a customer before a mailpiece is tendered to the Postal 
+Service. Rather, IMbs are typically scanned at various points in a 
+mailpiece's trajectory, and each scan event reflects the time and place 
+of the scan. Where the mailer includes unique serial numbers on each 
+mailpiece containing an IMb, IMb scan data can be used to track the 
+processing of specific mailpieces. Commercial mailers can access IMb 
+scan data via the Informed Visibility interface. Please note that for 
+information generated by IMb scans to be accurate, IMbs must be 
+properly prepared as specified in Section 204.1. Duplicate and/or 
+illegible barcodes will compromise the availability and reliability of 
+scan event data.
+* * * * *
+
+Kevin Rayburn,
+Attorney, Ethics & Legal Compliance.
+[FR Doc. 2025-20740 Filed 11-21-25; 8:45 am]
+BILLING CODE 7710-12-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

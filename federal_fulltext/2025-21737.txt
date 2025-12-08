@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55299-55300]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21737]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF AGRICULTURE
+
+Food Safety and Inspection Service
+
+[Docket No. FSIS-2025-0180]
+
+
+Delayed Verification Sampling of Not Ready-to-Eat Breaded Stuffed 
+Chicken Products
+
+AGENCY: Food Safety and Inspection Service (FSIS), U.S. Department of 
+Agriculture (USDA).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: FSIS is delaying the implementation of its verification 
+activities related to Salmonella in not ready-to-eat (NRTE) breaded 
+stuffed chicken product because of current testing method limitations. 
+The current available test methods have accuracy limitations and have 
+resulted in findings of false positives, especially at low levels of 
+contamination.
+
+DATES: FSIS will not begin sampling and testing NRTE breaded stuffed 
+chicken or other verification activities related to that product on 
+November 3, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Rachel Edelstein, Assistant 
+Administrator, Office of Policy and Program Development by telephone at 
+(202) 205-0495.
+
+SUPPLEMENTARY INFORMATION: FSIS is the public health agency within the 
+USDA responsible for ensuring that meat, poultry, and egg products are 
+safe, wholesome, and properly labeled. In support of this mission, FSIS 
+published a final determination in the Federal Register on May 1, 2024, 
+declaring that NRTE breaded stuffed chicken products containing 
+Salmonella at levels of 1 colony forming unit per gram (1 CFU/g) or 
+higher are adulterated under the Poultry Products Inspection Act 
+(PPIA)(21 U.S.C. 453 (g)(1) and (3))(89 FR 35033).
+    The final determination also announced FSIS' intention to implement 
+sampling and testing of raw incoming chicken components used to produce 
+NRTE breaded stuffed chicken products (88 FR 35033, 35050-35051). The 
+testing program was initially set to begin on May 1, 2025. On April 11, 
+2025, FSIS extended the start date until November 3, 2025, to give the 
+Agency additional time to finalize relevant guidance and instructions 
+and to prepare laboratories for sampling and testing (90 FR 15433).
+    FSIS is now announcing a further delay in the implementation of 
+verification sampling and testing and other verification activities for 
+NRTE breaded stuffed chicken products. The available methods, including 
+the reference method Most Probable Number (MPN) have accuracy 
+limitations and have resulted in findings of false positives for 
+Salmonella at 1 CFU/g; that is, there have been instances in which some 
+product that in fact contains less than 1 CFU/g has tested positive.
+    Specifically, an evaluation study conducted by the Agricultural 
+Research Service (ARS),\1\ tested source material for NRTE breaded 
+stuffed chicken, consistent with the sampling approach FSIS planned to 
+use and found false positives. According to the study, under the 
+specific method \2\ FSIS planned to use, if a sample contains 
+Salmonella at a concentration of 0.9 CFU/g, there is a 75% chance the 
+method will report >= 1 CFU/g. If a sample is 0.5 CFU/g, there would 
+still be a 40% chance the method would report >= 1 CFU/g. As a result, 
+moving forward with the current testing method could lead to 
+enforcement actions against products that are positive for Salmonella 
+at less than 1 CFU/g and are, therefore, not adulterated based on the 
+final determination published May 1, 2024 (89 FR 35033).
+---------------------------------------------------------------------------
+
+    \1\ Schmidt, J.W., Wu, W., Harhay, D.M. & Wheeler, T. L., (2025) 
+Identification of Chicken Component Samples Containing Salmonella 
+Concentrations Greater Than or Equal to 1 CFU/g, Meat and Muscle 
+Biology 9(1): 18993, 1-8. doi: <a href="https://doi.org/10.22175/mmb.18993">https://doi.org/10.22175/mmb.18993</a>.
+    \2\ More information about the ``Confidently Above Threshold'' 
+(CAT) method and the CAT method protocol (CAT-80) is available in 
+the article in Meat and Muscle Biology at: <a href="https://doi.org/10.22175/mmb.18993">https://doi.org/10.22175/mmb.18993</a>.
+---------------------------------------------------------------------------
+
+    Applying a quantitative threshold (i.e., 1 CFU/g) for Salmonella in 
+raw poultry is a regulatory approach the Agency has not taken before. 
+FSIS has historically relied on presence or absence testing to verify 
+whether product is adulterated based on pathogen testing (e.g., when 
+testing ready-to-eat product for Listeria monocytogenes or Salmonella 
+or applicable raw beef product for Shiga toxin-producing Escherichia 
+coli).
+    Given the implications of enforcement based on a specific numerical 
+threshold, FSIS needs additional time to reevaluate the testing program 
+and determine its viability moving forward.
+    This delay reflects FSIS' commitment to ensuring that enforcement 
+decisions are based on data that are not only scientifically valid, but 
+also operationally reliable, reproducible, and fair. This delay also 
+gives industry more time to implement controls to reduce Salmonella in 
+source components used to produce NRTE breaded stuffed chicken.
+    At this time, FSIS is not establishing a new implementation date. 
+The duration of the delay will depend largely on whether the Agency is 
+able to refine the current method or develop and validate an 
+alternative method that can be reliably applied in a regulatory 
+context. FSIS will provide advance notice in the Federal Register 
+before beginning verification sampling and testing activities.
+
+Additional Public Notification
+
+    Public awareness of all segments of rulemaking and policy 
+development is important. Consequently, FSIS will announce this Federal 
+Register publication on-line through the FSIS web page located at: 
+<a href="https://www.fsis.usda.gov/federal-register">https://www.fsis.usda.gov/federal-register</a>.
+    FSIS will also announce and provide a link to this Federal Register 
+publication through the FSIS Constituent Update, which is used to 
+provide information regarding FSIS policies, procedures, regulations, 
+Federal Register notices, FSIS public meetings, and other types of 
+information that could affect or would be of interest to our 
+constituents and stakeholders. The Constituent Update is available on 
+the FSIS web page. Through the web page, FSIS can provide information 
+to a much broader, more diverse audience. In addition, FSIS offers an 
+email subscription service that provides automatic and customized 
+access to selected food safety news and information. This service is 
+available at:
+
+[[Page 55300]]
+
+<a href="https://www.fsis.usda.gov/subscribe">https://www.fsis.usda.gov/subscribe</a>. The available information ranges 
+from recalls to export information, regulations, directives, and 
+notices. Customers can add or delete subscriptions themselves and have 
+the option to password protect their accounts.
+
+USDA Non-Discrimination Statement
+
+    In accordance with Federal civil rights law and USDA civil rights 
+regulations and policies, the USDA, its Agencies, offices, and 
+employees, and institutions participating in or administering USDA 
+programs are prohibited from discriminating based on race, color, 
+national origin, religion, sex, disability, age, marital status, 
+family/parental status, income derived from a public assistance 
+program, political beliefs, or reprisal or retaliation for prior civil 
+rights activity, in any program or activity conducted or funded by USDA 
+(not all bases apply to all programs). Remedies and complaint filing 
+deadlines vary by program or incident.
+    Persons with disabilities who require alternative means of 
+communication for program information (e.g., Braille, large print, 
+audiotape, American Sign Language, etc.) should contact the responsible 
+Agency or USDA's TARGET Center at (202) 720-2600 (voice and TTY) or 
+contact USDA through the Federal Relay Service at (800) 877-8339. 
+Additionally, program information may be made available in languages 
+other than English.
+    To file a program discrimination complaint, complete the USDA 
+Program Discrimination Complaint Form, AD-3027, found online at How to 
+File a Program Discrimination Complaint and at any USDA office or write 
+a letter addressed to USDA and provide in the letter all of the 
+information requested in the form. To request a copy of the complaint 
+form, call (866) 632-9992. Submit your completed form or letter to USDA 
+by: (1) mail: U.S. Department of Agriculture, Office of the Assistant 
+Secretary for Civil Rights, 1400 Independence Avenue SW, Washington, DC 
+20250-9410; (2) fax: (202) 690-7442; or (3) email: 
+<a href="/cdn-cgi/l/email-protection#2454564b435645490a4d4a50454f4164515740450a434b52"><span class="__cf_email__" data-cfemail="5f2f2d30382d3e327136312b3e343a1f2a2c3b3e71383029">[email&#160;protected]</span></a>.
+    USDA is an equal opportunity provider, employer, and lender.
+
+Denise Eblen,
+Deputy Administrator.
+[FR Doc. 2025-21737 Filed 12-1-25; 8:45 am]
+BILLING CODE 3410-DM-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

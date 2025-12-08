@@ -2,17 +2,39 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, J
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
+from pydantic import BaseModel
+from typing import Optional, Literal
 
 from src.api.db import Base
 
 class User(Base):
     __tablename__ = "users"
+
     uid = Column(String, primary_key=True, index=True)
     email = Column(String, unique=True, index=True)
-    display_name = Column(String, nullable=True)
+
+    # NEW — aligned with your onboarding page
+    full_name = Column(String, nullable=True)        # Full legal name
+    display_name = Column(String, nullable=True)     # Preferred/short display name
+    job_title = Column(String, nullable=True)
+    department = Column(String, nullable=True)
+    company_name = Column(String, nullable=True)
+    industry = Column(String, nullable=True)
+
     photo_url = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
-        
+
+class FileExtraction(Base):
+    __tablename__ = "file_extractions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    file_id = Column(String, index=True)
+    user_uid = Column(String, index=True)
+    extraction = Column(JSON)
+    file_name = Column(String)  
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
 class TaskState(str, enum.Enum):
     TODO = "TODO"
     # user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
@@ -72,7 +94,7 @@ class AuditLog(Base):
     entity_id = Column(Integer)
     action = Column(String)
     user = Column(String)
-    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
+    user_uid = Column(String, ForeignKey("users.uid"))  
     timestamp = Column(DateTime, default=datetime.utcnow)
     detail = Column(String)
 class Supplier(Base):
@@ -82,7 +104,7 @@ class Supplier(Base):
     email = Column(String, unique=True)
     industry = Column(String)
     region = Column(String)
-    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
+    user_uid = Column(String, ForeignKey("users.uid"))  
     is_verified = Column(Boolean, default=False)
     created_at = Column(DateTime)
     last_updated = Column(DateTime)
@@ -101,3 +123,42 @@ class DemoRequest(Base):
     consent = Column(Boolean)
     submittedAt = Column(DateTime, default=datetime.utcnow)
 print("Loaded models.py (end)")
+class FileHubFile(Base):
+    __tablename__ = "filehub_files"
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_uid = Column(String, ForeignKey("users.uid"), nullable=False, index=True)
+    file_id = Column(String, unique=True, index=True) 
+    original_name = Column(String)
+    stored_name = Column(String)
+    size = Column(Integer)
+    file_type = Column(String)  
+    used_for = Column(String)    
+    uploaded_at = Column(DateTime, default=datetime.utcnow)
+    user = relationship("User")
+
+class WorkspaceRegulation(Base):
+    __tablename__ = "workspace_regulations"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+
+    # ID of the regulation (string from frontend)
+    regulation_id = Column(String, index=True)
+
+    # Owner (user)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+
+    # "added", "removed", "custom"
+    workspace_status = Column(String, default="added")
+
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    # Optional: store metadata for custom regulations
+    name = Column(String, nullable=True)
+    code = Column(String, nullable=True)
+    region = Column(String, nullable=True)
+    category = Column(String, nullable=True)
+    risk = Column(String, nullable=True)
+    description = Column(String, nullable=True)
+    recommended = Column(Boolean, default=False)
+    
+    source = Column(String, nullable=True)

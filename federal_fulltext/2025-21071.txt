@@ -1,0 +1,1656 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Proposed Rules]
+[Pages 53261-53274]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21071]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Part 866
+
+[Docket No. FDA-2025-N-4622]
+
+
+Immunology and Microbiology Devices; Reclassification of Nucleic 
+Acid-Based Test Systems for Use With a Corresponding Approved Oncology 
+Therapeutic Product; Proposed Amendment; Proposed Order; Request for 
+Comments
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Proposed amendment; proposed order; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is proposing to 
+reclassify certain postamendments class III nucleic acid-based test 
+systems indicated for use with a corresponding approved oncology 
+therapeutic product (product codes OWD, PJG, PQP, and SFL) from class 
+III (premarket approval) into class II (special controls), subject to 
+premarket notification. FDA is also proposing a new device 
+classification regulation, along with the special controls that FDA 
+believes are necessary to provide a reasonable assurance of safety and 
+effectiveness for these devices.
+
+DATES: Submit electronic or written comments on the proposed order by 
+January 26, 2026. Please see section X of this document for the 
+proposed effective date when the new requirements apply and for the 
+proposed effective date of a final order based on this proposed order.
+
+[[Page 53262]]
+
+
+ADDRESSES: You may submit comments as follows. Please note that late, 
+untimely filed comments will not be considered. The <a href="https://www.regulations.gov">https://www.regulations.gov</a> electronic filing system will accept comments until 
+midnight 11:59 p.m. Eastern Time at the end of January 26, 2026. 
+Comments received by mail/hand delivery/courier (for written/paper 
+submissions) will be considered timely if they are received on or 
+before that date.
+
+Electronic Submissions
+
+    Submit electronic comments in the following way:
+    <bullet> Federal Rulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments. Comments submitted 
+electronically, including attachments, to <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+will be posted to the docket unchanged. Because your comment will be 
+made public, you are solely responsible for ensuring that your comment 
+does not include any confidential information that you or a third party 
+may not wish to be posted, such as medical information, your or anyone 
+else's Social Security number, or confidential business information, 
+such as a manufacturing process. Please note that if you include your 
+name, contact information, or other information that identifies you in 
+the body of your comments, that information will be posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    <bullet> If you want to submit a comment with confidential 
+information that you do not wish to be made available to the public, 
+submit the comment as a written/paper submission and in the manner 
+detailed (see ``Written/Paper Submissions'' and ``Instructions'').
+
+Written/Paper Submissions
+
+    Submit written/paper submissions as follows:
+    <bullet> Mail/Hand Delivery/Courier (for written/paper 
+submissions): Dockets Management Staff (HFA-305), Food and Drug 
+Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852.
+    <bullet> For written/paper comments submitted to the Dockets 
+Management Staff, FDA will post your comment, as well as any 
+attachments, except for information submitted, marked and identified, 
+as confidential, if submitted as detailed in ``Instructions.''
+    Instructions: All submissions received must include the Docket No. 
+FDA-2025-N-4622 for ``Immunology and Microbiology Devices; 
+Reclassification of Nucleic Acid-Based Test Systems for Use with a 
+Corresponding Approved Oncology Therapeutic Product; Proposed 
+Amendment; Proposed Order; Request for Comments.'' Received comments, 
+those filed in a timely manner (see ADDRESSES), will be placed in the 
+docket and, except for those submitted as ``Confidential Submissions,'' 
+publicly viewable at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or at the Dockets 
+Management Staff between 9 a.m. and 4 p.m., Monday through Friday 
+Eastern Time, 240-402-7500.
+    <bullet> Confidential Submissions--To submit a comment with 
+confidential information that you do not wish to be made publicly 
+available, submit your comments only as a written/paper submission. You 
+should submit two copies total. One copy will include the information 
+you claim to be confidential with a heading or cover note that states 
+``THIS DOCUMENT CONTAINS CONFIDENTIAL INFORMATION.'' The Agency will 
+review this copy, including the claimed confidential information, in 
+its consideration of comments. The second copy, which will have the 
+claimed confidential information redacted/blacked out, will be 
+available for public viewing and posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Submit both copies to the Dockets Management Staff. If you do not wish 
+your name and contact information to be made publicly available, you 
+can provide this information on the cover sheet and not in the body of 
+your comments and you must identify this information as 
+``confidential.'' Any information marked as ``confidential'' will not 
+be disclosed except in accordance with 21 CFR 10.20 and other 
+applicable disclosure law. For more information about FDA's posting of 
+comments to public dockets, see 80 FR 56469, September 18, 2015, or 
+access the information at: <a href="https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf">https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf</a>.
+    Docket: For access to the docket to read background documents, the 
+plain language summary of the proposed order of not more than 100 words 
+consistent with the ``Providing Accountability Through Transparency 
+Act,'' or the electronic and written/paper comments received, go to 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a> and insert the docket number, found in 
+brackets in the heading of this document, into the ``Search'' box and 
+follow the prompts and/or go to the Dockets Management Staff, 5630 
+Fishers Lane, Rm. 1061, Rockville, MD 20852, 240-402-7500.
+
+FOR FURTHER INFORMATION CONTACT: Soma Ghosh, Center for Devices and 
+Radiological Health, Food and Drug Administration, 10903 New Hampshire 
+Ave., Bldg. 66, Rm. 3316, Silver Spring, MD 20993, 240-402-5333, 
+<a href="/cdn-cgi/l/email-protection#b5e6dad8d49bf2dddac6ddf5d3d1d49bddddc69bd2dac3"><span class="__cf_email__" data-cfemail="90c3fffdf1bed7f8ffe3f8d0f6f4f1bef8f8e3bef7ffe6">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background--Regulatory Authorities
+
+    The Federal Food, Drug, and Cosmetic Act (FD&C Act), as amended, 
+establishes a comprehensive system for the regulation of medical 
+devices intended for human use. Section 513 of the FD&C Act (21 U.S.C. 
+360c) establishes three classes of devices reflecting the regulatory 
+controls needed to provide reasonable assurance of their safety and 
+effectiveness. The three classes of devices are class I (general 
+controls), class II (special controls), and class III (premarket 
+approval).
+    Section 513(a)(1) of the FD&C Act defines the three classes of 
+devices. Class I devices are those devices for which the general 
+controls of the FD&C Act (controls authorized by or under section 501, 
+502, 510, 516, 518, 519, or 520 (21 U.S.C. 351, 352, 360, 360f, 360h, 
+360i, or 360j) or any combination of such sections) are sufficient to 
+provide reasonable assurance of safety and effectiveness of the device; 
+or those devices for which insufficient information exists to determine 
+that general controls are sufficient to provide reasonable assurance of 
+safety and effectiveness or to establish special controls to provide 
+such assurance, but because the devices are not purported or 
+represented to be for a use in supporting or sustaining human life or 
+for a use which is of substantial importance in preventing impairment 
+of human health, and do not present a potential unreasonable risk of 
+illness or injury, are to be regulated by general controls (section 
+513(a)(1)(A) of the FD&C Act). General controls include, but are not 
+limited to, provisions that relate to establishment registration and 
+device listing; premarket notification; prohibitions against 
+adulteration and misbranding (e.g., labeling that fails to bear 
+adequate directions for use); recordkeeping and reporting, including 
+adverse event reporting and reporting of corrections and removals 
+initiated to reduce a risk to health posed by the device or to remedy a 
+violation of the FD&C Act caused by the device which may present a risk 
+to health; and current good manufacturing practice (CGMP) requirements. 
+These controls apply to all devices unless an exemption applies.
+    Class II devices are those devices for which general controls by 
+themselves are insufficient to provide reasonable assurance of safety 
+and effectiveness, but for which there is sufficient information to 
+establish special controls to provide such assurance, including the 
+issuance of performance standards, postmarket surveillance, patient 
+registries, development and dissemination of guidelines,
+
+[[Page 53263]]
+
+recommendations, and other appropriate actions FDA deems necessary to 
+provide such assurance (section 513(a)(1)(B) of the FD&C Act).
+    Class III devices are those devices for which insufficient 
+information exists to determine that general controls and special 
+controls would provide a reasonable assurance of safety and 
+effectiveness, and are purported or represented to be for a use in 
+supporting or sustaining human life or for a use which is of 
+substantial importance in preventing impairment of human health, or 
+present a potential unreasonable risk of illness or injury (section 
+513(a)(1)(C) of the FD&C Act).
+    Devices that were not introduced or delivered for introduction into 
+interstate commerce for commercial distribution before May 28, 1976 
+(generally referred to as ``postamendments devices'') are classified 
+automatically by section 513(f)(1) of the FD&C Act into class III 
+without any action taken by FDA (Agency or we). Those devices remain in 
+class III and require approval of a premarket approval application 
+(PMA), unless and until: (1) FDA reclassifies the device into class I 
+or II, or (2) FDA issues an order finding the device to be 
+substantially equivalent, in accordance with section 513(i) of the FD&C 
+Act, to a predicate device that does not require premarket approval. 
+The Agency determines whether new devices are substantially equivalent 
+to predicate devices by means of the premarket notification procedures 
+in section 510(k) of the FD&C Act (21 U.S.C. 360(k)) and part 807, 
+subpart E, of the regulations (21 CFR part 807).
+    A postamendments device that has initially been classified into 
+class III under section 513(f)(1) of the FD&C Act may be reclassified 
+into class I or class II under section 513(f)(3) of the FD&C Act. 
+Section 513(f)(3) of the FD&C Act provides that FDA, acting by 
+administrative order, can reclassify the device into class I or class 
+II on its own initiative, or in response to a petition from the 
+manufacturer or importer of the device. To change the classification of 
+the device, the proposed new class must have sufficient regulatory 
+controls to provide reasonable assurance of the safety and 
+effectiveness of the device for its intended use.\1\
+---------------------------------------------------------------------------
+
+    \1\ See generally section 513 of the FD&C Act.
+---------------------------------------------------------------------------
+
+    FDA relies upon ``valid scientific evidence'' as defined in section 
+513(a)(3) of the FD&C Act and 21 CFR 860.7(c)(2) in the classification 
+process to determine the level of regulation for devices.\2\ In 
+general, to be considered in the reclassification process, the ``valid 
+scientific evidence'' upon which the Agency relies must be publicly 
+available. Publicly available information excludes trade secret and/or 
+confidential commercial information, e.g., the contents of a pending 
+PMA (see section 520(c) of the FD&C Act (21 U.S.C. 360j(c))). Section 
+520(h)(4) of the FD&C Act provides that FDA may use, for 
+reclassification of a device, certain information in a PMA 6 years 
+after the application has been approved. This includes information from 
+clinical and preclinical tests or studies that demonstrate the safety 
+and effectiveness of the device, but it does not include the 
+descriptions of methods of manufacture and product composition and 
+other trade secrets.
+---------------------------------------------------------------------------
+
+    \2\ See generally id.
+---------------------------------------------------------------------------
+
+    In accordance with section 513(f)(3) of the FD&C Act, FDA is 
+issuing this proposed order to reclassify postamendments class III 
+nucleic acid-based test systems indicated for use with a corresponding 
+approved oncology therapeutic product (product codes OWD, PJG, PQP, and 
+SFL),\3\ hereafter collectively referred to as oncology therapeutic 
+nucleic acid-based test systems, into class II (special controls) 
+subject to premarket notification under a new device classification 
+regulation with the name ``Nucleic Acid-Based Test Systems for Use with 
+a Corresponding Approved Oncology Therapeutic Product.''
+---------------------------------------------------------------------------
+
+    \3\ FDA's Center for Devices and Radiological Health (CDRH) uses 
+product codes to help categorize and ensure consistent regulation of 
+medical devices. A product code consists of three characters that 
+are assigned at the time a product code is generated and is unique 
+to a product type. The three characters carry no other significance 
+and are not an abbreviation.
+---------------------------------------------------------------------------
+
+    The identification in the proposed classification regulation 
+characterizes oncology therapeutic nucleic acid-based test systems as 
+prescription in vitro diagnostic (IVD) devices intended for the 
+detection of specific genetic variant(s) and/or other nucleic acid 
+biomarkers in human clinical specimens using nucleic acid amplification 
+technology (NAAT) and/or sequencing technology, and are indicated for 
+use with a corresponding approved oncology therapeutic product. These 
+test systems include companion diagnostic (CDx) test systems, which are 
+devices that provide information that is essential for the safe and 
+effective use of a corresponding approved therapeutic product and the 
+use of which is stipulated in the instructions for use in the labeling 
+of both the diagnostic device and the approved therapeutic product 
+(Ref. 1). These test systems also include those test systems that 
+provide information about known benefits and/or risks of an approved 
+therapeutic product, where the use of the test system is referenced in 
+the product labeling of the corresponding approved therapeutic product 
+but the test system is not essential for the safe and effective use of 
+the approved therapeutic product.
+    As discussed further throughout this proposed order, FDA has issued 
+PMAs for various oncology therapeutic nucleic acid-based test systems 
+designated under product codes OWD, PJG, PQP, or SFL. The oncology 
+therapeutic nucleic acid-based test systems within the different 
+product codes have distinct characteristics in certain respects, for 
+example, each product code generally represents devices with a distinct 
+technology used (e.g., NAAT and/or sequencing technology) and/or 
+specific analyte(s) detected by the test system. FDA has considered the 
+distinctions of these test systems across the four product codes and 
+has determined that these test systems, including those devices that 
+provide information that is essential for the safe and effective use of 
+a corresponding approved oncology therapeutic product, as well as test 
+systems that, while not essential to the safe and effective use of the 
+corresponding approved oncology therapeutic product, provide 
+information about known benefits and/or risks related to the use of the 
+approved oncology therapeutic product, have the same or a similar risk 
+profile and sufficiently similar purposes, design considerations, 
+functions, and other features related to safety and effectiveness such 
+that the same or similar regulatory controls are necessary and 
+sufficient to provide reasonable assurance of safety and 
+effectiveness.\4\ For these reasons and considering that FDA did not 
+identify any unique risks associated with the distinctions across
+
+[[Page 53264]]
+
+these devices, FDA is proposing a single classification regulation to 
+classify all oncology therapeutic nucleic acid-based test systems into 
+class II. There would generally not be changes to the product codes 
+(i.e., OWD, PJG, PQP, and SFL) for previously approved oncology 
+therapeutic nucleic acid-based test systems, and future oncology 
+therapeutic nucleic acid-based test systems would either be assigned to 
+one of the currently existing product codes or a new product code, as 
+appropriate. The new classification regulation would apply to both 
+current and new devices that are oncology therapeutic nucleic acid-
+based test systems.
+---------------------------------------------------------------------------
+
+    \4\ For example, a specific device could be indicated for and 
+approved to provide information that is essential for the safe and 
+effective use of a corresponding approved oncology therapeutic 
+product and to provide information about known benefits and/or risks 
+related to the use of a corresponding approved oncology therapeutic 
+product that is not essential to the safe and effective use of a 
+corresponding approved oncology therapeutic product. The distinction 
+is determined by the data from the clinical development program of 
+the corresponding therapeutic product and how the therapeutic 
+product is labeled (i.e., whether the use of the IVD device is 
+essential for the safe and effective use of the therapeutic product 
+or not essential for the safe and effective use of the therapeutic 
+product but provides information about known benefits and/or risks 
+related to the use of the therapeutic product). The devices have 
+sufficiently similar purposes, design considerations, functions, and 
+other features related to safety and effectiveness such that the 
+same or similar regulatory controls are necessary and sufficient to 
+provide reasonable assurance of safety and effectiveness and the 
+devices can be part of the same device type.
+---------------------------------------------------------------------------
+
+    Based upon the extensive PMA data available to FDA in accordance 
+with section 520(h)(4) of the FD&C Act,<SUP>5 6</SUP> published peer-
+reviewed literature studying the longstanding and well-understood 
+technologies, and data available to the Agency demonstrating a lack of 
+significant postmarket safety signals with oncology therapeutic nucleic 
+acid-based test systems, FDA believes there is sufficient information 
+to reclassify these devices from class III (premarket approval) into 
+class II (special controls). FDA believes the standard in section 
+513(a)(1)(B) of the FD&C Act is met as there is sufficient information 
+to establish special controls, which, in addition to general controls, 
+would provide reasonable assurance of the safety and effectiveness of 
+these devices.\7\ Therefore, FDA is proposing to establish a new device 
+classification regulation, ``Nucleic Acid-Based Test Systems for Use 
+with a Corresponding Approved Oncology Therapeutic Product,'' and 
+classify this device type into class II along with the special controls 
+that the Agency believes are necessary to provide a reasonable 
+assurance of the safety and effectiveness for these devices.
+---------------------------------------------------------------------------
+
+    \5\ In proposing to reclassify oncology therapeutic nucleic 
+acid-based test systems from class III to class II, FDA, on its own 
+initiative, is relying on data from relevant PMAs and a relevant PMA 
+panel-track supplement (under product codes OWD, PJG and PQP) 
+available to FDA in accordance with the six-year rule (see section 
+520(h)(4) of the FD&C Act (21 U.S.C. 360j(h)(4)) (see also, FDA, 
+``Guidance on Section 216 of the Food and Drug Administration 
+Modernization Act of 1997--Guidance for Industry and for FDA 
+Reviewers,'' August 9, 2000. Available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-section-216-food-and-drug-administration-modernization-act-1997-guidance-industry-and-fda">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-section-216-food-and-drug-administration-modernization-act-1997-guidance-industry-and-fda</a>). This data was from relevant PMAs and a 
+PMA panel-track supplement approved after November 28, 1990 and 
+before January 27, 2019 for devices that would fall under this 
+specific proposed reclassification as noted in section II of this 
+proposed order. See also, FDA's premarket approval database, 
+available at <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>.
+    \6\ For the purpose of this proposed order, PMA data considered 
+in accordance with section 520(h)(4) includes only that data which 
+was submitted to and therefore considered by FDA at the time the PMA 
+was reviewed and approval was issued.
+    \7\ FDA notes that the ``ACTION'' caption for this proposed 
+order is styled as ``Proposed amendment; proposed order; request for 
+comments'' rather than ``Proposed order.'' Beginning in December 
+2019, this editorial change was made to indicate that the document 
+``amends'' the Code of Federal Regulations. The change was made in 
+accordance with the Office of the Federal Register's (OFR) 
+interpretations of the Federal Register Act (44 U.S.C. chapter 15), 
+its implementing regulations (1 CFR 5.9 and parts 21 and 22), and 
+the Document Drafting Handbook.
+---------------------------------------------------------------------------
+
+    Under the FD&C Act, premarket notification (510(k)) submissions are 
+required to provide a reasonable assurance of the safety and 
+effectiveness of class II devices unless FDA determines that the device 
+type should be exempt from 510(k) requirements under section 510(m) of 
+the FD&C Act.\8\ FDA has not made this determination for oncology 
+therapeutic nucleic acid-based test systems and, therefore, FDA is not 
+proposing for this class II device type to be exempt from 510(k) 
+requirements.
+---------------------------------------------------------------------------
+
+    \8\ In considering whether to exempt class II devices from 
+premarket notification, FDA considers whether premarket notification 
+for the type of device is necessary to provide reasonable assurance 
+of safety and effectiveness of the device. FDA generally considers 
+the factors initially identified in the January 21, 1998 Federal 
+Register notice (63 FR 3142) and further explained in FDA's guidance 
+issued on February 19, 1998, entitled ``Procedures for Class II 
+Device Exemptions from Premarket Notification, Guidance for Industry 
+and CDRH Staff'' in determining whether premarket notification is 
+necessary for class II devices. FDA also considers that, even when 
+exempting devices from the 510(k) requirements, these devices would 
+still be subject to certain limitations on exemptions, for example, 
+the general limitations set forth in 21 CFR 866.9.
+---------------------------------------------------------------------------
+
+    If this proposed order is finalized, persons who intend to market 
+this type of device must submit to FDA a premarket notification under 
+section 510(k) of the FD&C Act prior to marketing the device.
+
+II. Regulatory History of the Devices
+
+    In accordance with section 513(f)(1) of the FD&C Act, oncology 
+therapeutic nucleic acid-based test systems are automatically 
+classified into class III because they were not introduced or delivered 
+for introduction into interstate commerce for commercial distribution 
+before May 28, 1976, have not been reclassified into class I or II, and 
+have not been found substantially equivalent to a device placed in 
+commercial distribution after May 28, 1976, which was subsequently 
+classified or reclassified into class I or class II. Therefore, these 
+devices are subject to the PMA requirements under section 515 of the 
+FD&C Act (21 U.S.C. 360e).
+    On August 17, 2011, FDA approved an original PMA for the first 
+oncology therapeutic nucleic acid-based test system, the cobas 4800 
+BRAF V600 Mutation Test (P110020) (product code OWD), a real-time 
+polymerase chain reaction (PCR) IVD device intended for the qualitative 
+detection of the BRAF V600E mutation in DNA extracted from human 
+melanoma tissue and intended to be used as an aid in selecting melanoma 
+patients for treatment with vemurafenib (Ref. 2). In a January 13, 
+2012, Federal Register notice (77 FR 2071), FDA announced the approval 
+order and availability of the Summary of Safety and Effectiveness Data 
+(SSED) for the device.
+    Subsequently, on December 19, 2014, FDA approved an original PMA 
+for the BRACAnalysis CDx under product code PJG (P140020). The 
+BRACAnalysis CDx is an oncology therapeutic nucleic acid-based test 
+intended for the qualitative detection and classification of variants 
+in the protein coding regions and intron/exon boundaries of the BRCA1 
+and BRCA2 genes using genomic DNA obtained from whole blood specimens. 
+Single nucleotide variants and small insertions and deletions (indels) 
+are identified by PCR and Sanger sequencing. Large deletions and 
+duplications in BRCA1 and BRCA2 are detected using multiplex PCR. 
+Results of the test are intended to be used as an aid in identifying 
+ovarian cancer patients eligible for treatment with Lynparza (olaparib) 
+(Ref. 3). In an April 22, 2015, Federal Register notice (80 FR 22527), 
+FDA announced the approval order and availability of the SSED for the 
+device.
+    FDA subsequently approved an original PMA for FoundationFocus 
+CDxBRCA Assay under the product code PQP on December 19, 2016 
+(P160018). FoundationFocus CDxBRCA Assay is an oncology therapeutic 
+nucleic acid-based test system using next generation sequencing (NGS) 
+technology, intended for the qualitative detection of BRCA1 and BRCA2 
+alterations in formalin-fixed paraffin-embedded (FFPE) ovarian tumor 
+tissues, with results of the test intended to be used as an aid in 
+identifying ovarian cancer patients for whom treatment with Rubraca 
+(rucaparib) is being considered (Ref. 4). In a September 25, 2017 
+Federal Register notice (82 FR 44626), FDA announced the approval order 
+and availability of the SSED for the FoundationFocus CDxBRCA Assay. FDA 
+subsequently approved a panel-track supplement \9\ (P160018/S001), on 
+April
+
+[[Page 53265]]
+
+6, 2018, expanding the indications for use of this test to include the 
+qualitative detection of genomic loss of heterozygosity (LOH) from FFPE 
+ovarian tumor tissue for which positive homologous recombination 
+deficiency (HRD) status (defined as tBRCA-positive or LOH high) in 
+ovarian cancer patients is associated with improved progression-free 
+survival (PFS) from Rubraca (rucaparib) maintenance therapy (Ref. 
+5).\10\ This new indication for use, while not essential to the safe 
+and effective use of the corresponding approved oncology therapeutic 
+product, is to provide information about known benefits related to the 
+use of the approved oncology therapeutic product. With the approval of 
+P160018/S001, FDA has thus far approved four oncology therapeutic 
+nucleic acid-based test systems that provide information about known 
+benefits and/or risks of an approved oncology therapeutic product, 
+where the use of the test system is referenced in the product labeling 
+of the corresponding approved therapeutic product but the test system 
+is not considered to be essential for the safe and effective use of the 
+approved therapeutic product.
+---------------------------------------------------------------------------
+
+    \9\ The term ``panel-track supplement'' is defined in section 
+737(4)(B) of the FD&C Act as, ``a supplement to an approved 
+premarket application or premarket report under section 515 that 
+requests a significant change in design or performance of the 
+device, or a new indication for use of the device, and for which 
+substantial clinical data are necessary to provide a reasonable 
+assurance of safety and effectiveness.''
+    \10\ The original device was approved under the trade name 
+FoundationFocus CDxBRCA Assay (P160018). The sponsor originally 
+submitted the panel-track PMA supplement application (P160018/S001) 
+for the same test with an expanded indication for use under the 
+trade name FoundationFocus CDxBRCA <INF>HRD</INF>. However, through 
+the review process, the sponsor decided to change the name to 
+FoundationFocus CDxBRCA <INF>LOH</INF>. Consistent with the 
+authorized device trade name for P160018/S001, the name used 
+throughout this reclassification proposed order is FoundationFocus 
+CDxBRCA <INF>LOH</INF>.
+---------------------------------------------------------------------------
+
+    Finally, on August 15, 2025, FDA approved an original PMA for the 
+Idylla CDx MSI Test under product code SFL (P250005). The Idylla CDx 
+MSI Test is an oncology therapeutic nucleic acid-based test intended 
+for the qualitative detection of a panel of seven monomorphic 
+biomarkers (ACVR2A, BTBD7, DIDO1, MRE11, RYR3, SEC31A and SULF2) for 
+identification of microsatellite instability (MSI) in colorectal cancer 
+(CRC) tissue. The Idylla CDx MSI Test uses FFPE tissue sections from 
+patients with CRC, from which nucleic acids are extracted and then 
+analyzed using PCR amplification and subsequent melt-curve 
+analysis.\11\ The Idylla CDx MSI Test reports MSI status as either 
+Microsatellite Stable (MSS), Microsatellite Instability-High (MSI-H), 
+or invalid. The test is intended as a companion diagnostic to identify 
+CRC patients with MSI-H status, who may benefit from treatment with 
+OPDIVO (nivolumab) as a monotherapy and/or treatment with OPDIVO 
+(nivolumab) in combination with YERVOY (ipilimumab).\12\
+---------------------------------------------------------------------------
+
+    \11\ As noted above, FDA has determined that the tests assigned 
+to product codes OWD, PJG, PQP, and SFL all utilize NAAT and/or 
+sequencing-based technology for use with a corresponding approved 
+oncology therapeutic product, and have sufficiently similar 
+purposes, design considerations, functions, and other features 
+related to safety and effectiveness such that all oncology 
+therapeutic nucleic acid-based test systems have the same or a 
+similar risk profile. Further, FDA has not identified any unique 
+risks associated with the distinctions across these tests.
+    \12\ As of the date of issuance of this proposed order, fewer 
+than 6 years have transpired since FDA's approval of the Idylla CDx 
+MSI Test (PMA P250005). Therefore, no information from this document 
+has been used in support of this proposed order to reclassify 
+oncology therapeutic nucleic acid-based test systems into class II 
+(see section 520(h)(4) of the FD&C Act (21 U.S.C. 360j(h)(4))).
+---------------------------------------------------------------------------
+
+    Since the first approval order for an oncology therapeutic nucleic 
+acid-based test system, FDA has reviewed and approved an additional 18, 
+2, 13, and 1 original PMAs under the product codes OWD, PJG, PQP, and 
+SFL, respectively, and approximately 200, 29, 174, and 0 PMA 
+supplements, respectively, for therapeutic nucleic acid-based test 
+systems under product codes OWD, PJG, PQP, and SFL.\13\
+---------------------------------------------------------------------------
+
+    \13\ FDA has determined that the tests assigned to product codes 
+OWD, PJG, PQP, and SFL all utilize NAAT and/or sequencing-based 
+technology for use with a corresponding approved oncology 
+therapeutic product, and have sufficiently similar purposes, design 
+considerations, functions, and other features related to safety and 
+effectiveness such that all oncology therapeutic nucleic acid-based 
+test systems have the same or a similar risk profile. Further, FDA 
+has not identified any unique risks associated with the distinctions 
+across these tests.
+---------------------------------------------------------------------------
+
+    In accordance with the ``six-year rule'' described in section 
+520(h)(4) of the FD&C Act (21 U.S.C. 360j(h)(4)) (Ref. 6), FDA 
+considered data contained in the following 17 original PMAs and one 
+panel-track supplement to an original PMA, representing oncology 
+therapeutic nucleic acid-based test systems from three of the four 
+product codes (i.e., OWD, PJG, and PQP) for oncology therapeutic 
+nucleic acid-based test systems: cobas 4800 BRAF V600 Mutation Test 
+(P110020) (product code OWD) (Ref. 2), therascreen KRAS RGQ PCR Kit 
+(P110027) (product code OWD) (Ref. 7), therascreen KRAS RGQ PCR Kit 
+(P110030) (product code OWD) (Ref. 8), THxID BRAF Kit (P120014) 
+(product code OWD) (Ref. 9), cobas EGFR Mutation Test (P120019) 
+(product code OWD) (Ref. 10), therascreen EGFR RGQ PCR Kit (P120022) 
+(product code OWD) (Ref. 11), BRACAnalysis CDx (P140020) (product code 
+PJG) (Ref. 3), cobas KRAS Mutation Test (P140023) (product code OWD) 
+(Ref. 12), cobas EGFR Mutation Test v2 (P150044) (product code OWD) 
+(Ref. 13), cobas EGFR Mutation Test v2 (P150047) (product code OWD) 
+(Ref. 14), FoundationFocus CDxBRCA Assay (P160018) (product code PQP) 
+(Ref. 4), FoundationFocus CDxBRCA <INF>LOH</INF> (P160018/S001) 
+(product code PQP) (Ref. 5), Praxis Extended RAS Panel (P160038) 
+(product code PQP) (Ref. 15), LeukoStrat CDx FLT3 Mutation Assay 
+(P160040) (product code OWD) (Ref. 16), Oncomine Dx Target Test 
+(P160045) (product code PQP) (Ref. 17), Abbott RealTime IDH2 (P170005) 
+(product code OWD) (Ref. 18), FoundationOne CDx (P170019) (product code 
+PQP) (Ref. 19), and Abbott RealTime IDH1 (P170041) (product code OWD) 
+(Ref. 20). No information from PMAs and PMA supplements for which fewer 
+than six years have passed since FDA's approval has been used in 
+support of this proposed order to reclassify oncology therapeutic 
+nucleic acid-based test systems into class II (see section 520(h)(4) of 
+the FD&C Act (21 U.S.C. 360j(h)(4))).\14\
+---------------------------------------------------------------------------
+
+    \14\ In accordance with section 520(h)(4) of the FD&C Act, FDA 
+has not relied on information in PMAs and PMA supplements approved 
+within the last 6 years to develop the proposed special controls or 
+to otherwise inform this proposed reclassification action.
+---------------------------------------------------------------------------
+
+    A review of data from FDA's Manufacturer and User Facility Device 
+Experience (MAUDE) database, which contains Medical Device Reports 
+(MDRs) of adverse events, indicates that as of September 8, 2025 there 
+have been 147 reported events for oncology therapeutic nucleic acid-
+based test systems under product codes OWD (N= 139 MDRs), PJG (N= 1 
+MDR), PQP (N= 7 MDRs), and SFL (N= 0 MDR) since the approval of the 
+first oncology therapeutic nucleic acid-based test system in 2011.
+    After review of the data, the Agency has determined that false 
+positive results account for the device problem associated with a 
+significant number (over 80 percent) of the MDR reported events. Other 
+device problems that were less frequently reported include, for 
+example, incorrect, inadequate or imprecise result or readings, non-
+reproducible results, output problem, and false negative results. 
+Notably, a significant majority (over 95 percent) of the MDRs reported 
+under these product codes listed identified no clinical signs, 
+symptoms, or conditions; no known impact or consequence to the patient; 
+and/or no patient involvement. Other less frequently reported health 
+impacts, include, for example, inadequate/
+
+[[Page 53266]]
+
+inappropriate treatment or diagnostic exposure; minor injury/illness/
+impairment; and delay to treatment/therapy.
+    A search of these product codes in FDA's Medical Device Recalls 
+database indicates that as of September 8, 2025, there have been four 
+class III recalls, 23 class II recalls,\15\ and no class I recalls \16\ 
+involving oncology therapeutic nucleic acid-based test systems. Of the 
+23 class II recalls, 12 occurred between 2014 and 2022, have since been 
+terminated, and were determined to be due to non-specific molecular 
+interactions or fluorescence artifacts, nonconforming material/
+component, and a process control issue, all of which led to or could 
+lead to false positive test results. There is 1 class II recall that 
+was terminated on July 19, 2021, for which the manufacturer's reason 
+for the recall was potential false positive test results, but the root 
+cause is still under investigation by the firm. Other reasons for the 
+class II recalls include erroneous translation of the approved English 
+labeling to Hungarian, an incorrect or lack of expiration date, and 
+erroneous test results caused by off-label use or a manufacturing or 
+design issue of the device.
+---------------------------------------------------------------------------
+
+    \15\ The database searches initially identified 13 class II 
+recalls reported under the product code OWD. However, after manual 
+review of the data it has been determined that there is one recall 
+that was improperly coded under the product code OWG although the 
+product listed should fall within the product code OWD. As such, for 
+the purpose of this proposed order the data related to this recall 
+has been included in the Agency's postmarket surveillance analysis 
+and discussion surrounding recall data.
+    \16\ Class I, II, and III recalls are defined in 21 CFR 7.3(m).
+---------------------------------------------------------------------------
+
+    Of the four class III recalls, three occurred between 2012 and 
+2015, have since been terminated, and were determined to be due to a 
+device design issue leading to the device generating invalid results 
+and a mix up of materials/components (i.e., incorrect packaging of 
+internal-use only components and released for distribution). The 
+remaining class III recall was terminated on December 11, 2017, for 
+which the manufacturer's reason for the recall was the device 
+generating false positive results, however, the root cause is still 
+under investigation by the firm.
+    This postmarket data, coupled with the relatively low number of 
+reported events that caused patient harm, indicate a generally good 
+safety record for these device types. The MDR and recall events provide 
+information on the risks to health (identified in section V of this 
+proposed order), which FDA believes can be effectively mitigated 
+through general controls and the special controls proposed herein.
+    In response to FDA's announcement that the Agency intended to 
+initiate the reclassification process for certain IVDs including 
+companion diagnostic tests (Ref. 21), FDA received a petition on July 
+25, 2024 from Foundation Medicine Inc., (Docket No. FDA-2024-P-3484) 
+requesting FDA to reclassify next-generation sequencing oncology panel 
+devices used for somatic or germline variant detection that include one 
+or more companion diagnostic indications (under product code PQP) from 
+class III to class II. As discussed in this proposed order, FDA has 
+considered the information available to the Agency and believes that 
+there is sufficient information available to establish special 
+controls, and that the special controls proposed in section VII, 
+together with general controls, would provide a reasonable assurance of 
+the safety and effectiveness of such devices under the PQP product 
+code, as well as other similar devices under product codes OWD, PJG and 
+SFL, and is proposing, on its own initiative, that oncology therapeutic 
+nucleic acid-based test systems, including those under product code 
+PQP, be reclassified from class III to class II.
+
+III. Device Description
+
+    Oncology therapeutic nucleic acid-based test systems are 
+postamendments devices classified into class III under section 
+513(f)(1) of the FD&C Act. These oncology therapeutic nucleic acid-
+based test systems are prescription IVDs intended for the detection of 
+specific genetic variant(s) and/or other nucleic acid biomarkers in 
+human clinical specimens using NAAT (e.g., PCR) and/or sequencing 
+technology (e.g., NGS), and are indicated for use with a corresponding 
+approved oncology therapeutic product. These oncology therapeutic 
+nucleic acid-based test systems include IVD CDx devices which are 
+devices that provide information that is essential for the safe and 
+effective use of a corresponding approved therapeutic product.\17\ The 
+use of an IVD CDx device with a therapeutic product is stipulated in 
+the instructions for use in the labeling of both the diagnostic device 
+and the corresponding approved therapeutic product, including the 
+labeling of any generic equivalents of the therapeutic product.\18\ An 
+IVD CDx device could be essential for the safe and effective use of a 
+corresponding approved therapeutic product to:
+---------------------------------------------------------------------------
+
+    \17\ FDA, ``In Vitro Companion Diagnostic Devices--Guidance for 
+Industry and Food and Drug Administration Staff,'' August 6, 2014. 
+Available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/in-vitro-companion-diagnostic-devices">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/in-vitro-companion-diagnostic-devices</a>.
+    \18\ Id.
+---------------------------------------------------------------------------
+
+    <bullet> Identify patients who are most likely to benefit from the 
+therapeutic product;
+    <bullet> Identify patients likely to be at increased risk for 
+serious adverse reactions as a result of treatment with the therapeutic 
+product;
+    <bullet> Monitor response to treatment with the therapeutic product 
+for the purpose of adjusting treatment (e.g., schedule, dose, 
+discontinuation) to achieve improved safety or effectiveness;
+    <bullet> Identify patients in the population for whom the 
+therapeutic product has been adequately studied, and found safe and 
+effective, i.e., there is insufficient information about the safety and 
+effectiveness of the therapeutic product in any other population.
+    FDA does not include in this definition of a CDx device IVD devices 
+that are not essential to the safe and effective use of a therapeutic 
+product.\19\ For more information on CDx devices, see FDA's guidance 
+titled ``In Vitro Companion Diagnostic Devices--Guidance for Industry 
+and Food and Drug Administration Staff'' (Ref. 1).
+---------------------------------------------------------------------------
+
+    \19\ Id.
+---------------------------------------------------------------------------
+
+    Additionally, the oncology therapeutic nucleic acid-based test 
+systems in this proposed order include IVD test systems that provide 
+information about known benefits and/or risks of patient populations 
+related to the use of a corresponding approved therapeutic product and 
+are referenced in the labeling for the corresponding approved 
+therapeutic product but are not essential for the safe and effective 
+use of the therapeutic product. For example, such devices can be used 
+to assess a biomarker-defined population of patients and provide 
+information regarding the overall survival (OS) rate or objective 
+response rate for those patients compared to the broader population of 
+patients for whom the corresponding therapy is indicated. The use of 
+these devices is not a prerequisite for receiving treatment with the 
+corresponding therapeutic product but can aid in the benefit-risk 
+assessment as to the use of the corresponding therapy for those 
+biomarker-defined patients.
+    FDA proposes to revise 21 CFR part 866 to create a new device 
+classification regulation with the name ``Nucleic Acid-Based Test 
+Systems for Use with a Corresponding Approved Oncology Therapeutic 
+Product.'' Nucleic acid-based test systems indicated for use with a 
+corresponding approved
+
+[[Page 53267]]
+
+oncology therapeutic product are identified as prescription IVD devices 
+intended for the detection of specific genetic variant(s) and/or other 
+nucleic acid biomarkers in human clinical specimens using NAAT and/or 
+sequencing technology to provide information related to the use of a 
+corresponding approved oncology therapeutic product. These test systems 
+provide information that is essential for the safe and effective use of 
+a corresponding approved oncology therapeutic product and/or are test 
+systems that, while not essential to the safe and effective use of the 
+corresponding approved oncology therapeutic product, provide 
+information about known benefits and/or risks related to the use of the 
+corresponding approved oncology therapeutic product.
+
+IV. Proposed Reclassification and Summary of Reasons for 
+Reclassification
+
+    In accordance with section 513(f)(3) of the FD&C Act and 21 CFR 
+part 860, subpart C, FDA is proposing to reclassify oncology 
+therapeutic nucleic acid-based test systems from class III into class 
+II, subject to 510(k) requirements. FDA believes that there is 
+sufficient information available to establish special controls, and 
+that these special controls, together with general controls, would 
+effectively mitigate the risks to health identified in section V and 
+are necessary to provide a reasonable assurance of the safety and 
+effectiveness of therapeutic nucleic acid-based test systems.
+    Under this proposed order, if finalized, oncology therapeutic 
+nucleic acid-based test systems will be identified as prescription IVD 
+devices. If the proposed order is finalized, these devices will be 
+subject to the prescription labeling requirements for IVD products (see 
+21 CFR 809.10(a)(4) and (b)(5)(ii)). Section 510(m) of the FD&C Act 
+provides that FDA may exempt a class II device from the premarket 
+notification requirements under section 510(k) of the FD&C Act, if FDA 
+determines that premarket notification is not necessary to provide 
+reasonable assurance of the safety and effectiveness of the device. For 
+oncology therapeutic nucleic acid-based test systems, FDA has not made 
+this determination and, therefore, the Agency is not proposing to 
+exempt these proposed class II devices from 510(k) requirements.\20\ If 
+this proposed order is finalized, persons who intend to market an 
+oncology therapeutic nucleic acid-based test system will need to submit 
+a 510(k) to FDA and receive clearance prior to marketing the device.
+---------------------------------------------------------------------------
+
+    \20\ See supra note 8.
+---------------------------------------------------------------------------
+
+    This proposed order, if finalized, will decrease regulatory burden 
+on industry, as manufacturers will no longer have to submit a PMA for 
+these types of devices but can instead submit a 510(k) to the Agency 
+for review prior to marketing their device. The 510(k) pathway is less 
+burdensome and generally more cost-effective for industry and FDA than 
+the PMA pathway, the most stringent type of device marketing pathway. A 
+510(k) typically results in a shorter premarket review timeline 
+compared to a PMA, which ultimately may provide more timely access of 
+these types of devices to patients. FDA expects that the 
+reclassification of these devices would enable more manufacturers to 
+develop these types of devices such that patients would benefit from 
+increased access to appropriately safe and effective tests.
+    Additionally, manufacturers may wish to use predetermined change 
+control plans (PCCPs) as a way to implement future modifications to 
+their devices without needing to submit a new 510(k) for each 
+significant change or modification \21\ while continuing to provide a 
+reasonable assurance of device safety and effectiveness.\22\ FDA 
+reviews a PCCP as part of a marketing submission for a device to ensure 
+the continued safety and effectiveness of the device without 
+necessitating additional marketing submissions for implementing each 
+modification described in the PCCP. When used appropriately, PCCPs 
+authorized by FDA are expected to be least burdensome for manufacturers 
+and FDA.\23\
+---------------------------------------------------------------------------
+
+    \21\ For the purpose of this proposed order reference to 
+``modification'' means a significant change or modification that 
+would generally require a new premarket notification under 21 CFR 
+807.81(a)(3).
+    \22\ Section 3308 of the Food and Drug Omnibus Reform Act of 
+2022, Title III of Division FF of the Consolidated Appropriations 
+Act, 2023, Public Law 117-328 (``FDORA''), enacted on December 29, 
+2022, added section 515C ``Predetermined Change Control Plans for 
+Devices'' to the FD&C Act. Section 515C has provisions regarding 
+predetermined change control plans (PCCPs) for devices requiring 
+premarket approval or premarket notification. Under section 515C, 
+supplemental applications (section 515C(a)) and new premarket 
+notifications (section 515C(b)) are not required for a change to a 
+device that would otherwise require a premarket approval supplement 
+or new premarket notification if the change is consistent with a 
+PCCP approved or cleared by FDA.
+    \23\ Sections 513 and 515 of the FD&C Act. See also, FDA, ``The 
+Least Burdensome Provisions: Concept and Principles--Guidance for 
+Industry and FDA Staff,'' February 5, 2019. Available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/least-burdensome-provisions-concept-and-principles">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/least-burdensome-provisions-concept-and-principles</a>.
+---------------------------------------------------------------------------
+
+    FDA believes that there is sufficient information available to FDA 
+through the 17 original PMAs and 1 panel-track supplement for cobas 
+4800 BRAF V600 Mutation Test (P110020; product code OWD), therascreen 
+KRAS RGQ PCR Kit (P110027; product code OWD), therascreen KRAS RGQ PCR 
+Kit (P110030; product code OWD), THxID BRAF Kit (P120014; product code 
+OWD), cobas EGFR Mutation Test (P120019; product code OWD), therascreen 
+EGFR RGQ PCR Kit (P120022; product code OWD), BRACAnalysis CDx 
+(P140020; product code PJG), cobas KRAS Mutation Test (P140023; product 
+code OWD), cobas EGFR Mutation Test v2 (P150044; product code OWD), 
+cobas EGFR Mutation Test v2 (P150047; product code OWD), 
+FoundationFocus CDxBRCA Assay (P160018; product code PQP), 
+FoundationFocus CDxBRCA <INF>LOH</INF> (P160018/S001; product code 
+PQP), Praxis Extended RAS Panel (P160038; product code PQP), LeukoStrat 
+CDx FLT3 Mutation Assay (P160040; product code OWD), Oncomine Dx Target 
+Test (P160045; product code PQP), Abbott RealTime IDH2 (P170005; 
+product code OWD), FoundationOne CDx (P170019; product code PQP), and 
+Abbott RealTime IDH1 (P170041; product code OWD) \24\ (Refs. 2-5, and 
+7-20), published peer-reviewed literature on nucleic acid-based 
+detection methods, including NAAT and sequencing technologies, and 
+FDA's publicly available MAUDE and Medical Device Recalls databases to 
+establish special controls that effectively mitigate the risks to 
+health identified in section V. More specifically, in evaluating these 
+data sources, FDA has identified the risks to health for inclusion in 
+the overall risk assessment for oncology therapeutic nucleic acid-based 
+test systems. The Agency has considered the risks to health identified 
+by these sources and used certain information from these sources in 
+developing proposed special controls that include mitigation measures 
+for each of the risks to health identified in section V. Accordingly, 
+there would continue to be a reasonable assurance of safety and 
+effectiveness for the devices upon their reclassification from class 
+III to class II when there is conformity with general and special 
+controls. Absent the special controls identified in this proposed 
+order, general controls applicable to these devices are insufficient to 
+provide
+
+[[Page 53268]]
+
+reasonable assurance of the safety and effectiveness of oncology 
+therapeutic nucleic acid-based test systems.
+---------------------------------------------------------------------------
+
+    \24\ In accordance with section 520(h)(4) of the FD&C Act. FDA 
+has not relied on information in PMAs and PMA supplements approved 
+within the last 6 years to develop the proposed special controls or 
+to otherwise inform this proposed reclassification action.
+---------------------------------------------------------------------------
+
+V. Risks to Health
+
+    FDA is providing a substantive summary of the valid scientific 
+evidence concerning the public health benefits of the use of oncology 
+therapeutic nucleic acid-based test systems, and the risks to health of 
+these devices (see further discussion of the special controls being 
+proposed to mitigate these risks in section VII of this proposed 
+order). FDA considered data from 17 PMAs and 1 panel-track supplement 
+available to FDA under section 520(h)(4) of the FD&C Act, published 
+peer-reviewed literature on nucleic acid-based detection methods, 
+including NAAT and sequencing technologies, and postmarket information 
+regarding oncology therapeutic nucleic acid-based test systems.
+    Cancer continues to be one of the two leading causes of death in 
+the United States (Ref. 22). Biomarker tests for molecularly targeted 
+therapies aim to provide information for health care providers to 
+target and/or tailor cancer treatment based on identifiable molecular 
+differences between patients, with the goal of improving patient 
+outcomes while minimizing risks related to treatment side effects. 
+Oncology therapeutic nucleic acid-based test systems provide a benefit 
+to the public health by aiding in oncology therapeutic product 
+treatment decisions. These test systems may provide information that is 
+essential for the safe and effective use of a corresponding approved 
+therapeutic product and/or provide information about known benefits 
+and/or risks related to the use of a corresponding approved therapeutic 
+product that is not essential for its safe and effective use. For 
+example, health care providers may use a relevant oncology therapeutic 
+nucleic acid-based test system to identify specific patients who are 
+eligible for the safe and effective use of a corresponding oncology 
+therapeutic product, including those patients for which the drug is 
+contraindicated, or monitor a particular patient's response to an 
+approved oncology therapeutic product for the purpose of optimizing a 
+dosing regimen. These devices can be used to enable personalization of 
+oncology care by identifying patients who are most likely to benefit 
+from a specific therapy and yield improved clinical outcomes, or who 
+are at varying degrees of risk for a particular side effect related to 
+the use of a specific therapy. Ultimately, the use of such devices 
+informs treatment decisions and has a significant public health impact 
+for cancer patients.
+    The Agency has identified the following risks to health associated 
+with the use of oncology therapeutic nucleic acid-based test systems.
+    <bullet> False negative test results or false positive test 
+results. False negative test results or false positive test results may 
+negatively influence oncology therapeutic product treatment decisions 
+for patients. For those test systems intended to provide information 
+that is essential for the safe and effective use of a corresponding 
+approved oncology therapeutic product, this risk may result in the 
+withholding of appropriate oncology therapeutic treatment, delayed 
+treatment from an available appropriate alternative therapy, or 
+receiving inappropriate therapy with varying degrees of consequence 
+(e.g., failing to adjust therapy to achieve optimal clinical outcome or 
+exposing a patient to otherwise avoidable serious adverse health risks 
+caused by the therapeutic product). For those test systems that provide 
+information about known benefits and/or risks related to the use of a 
+corresponding approved oncology therapeutic product but are not 
+essential for the safe and effective use of the corresponding approved 
+oncology therapeutic product, this risk may negatively influence 
+patient management based on a misinformed benefit-risk assessment 
+related to the use of a corresponding oncology therapeutic product and 
+could lead to many of the same negative patient outcomes associated 
+with test systems intended to provide information that is essential for 
+the safe and effective use of a corresponding approved oncology 
+therapeutic product as previously described.
+    <bullet> Failure of the test system to perform as intended or 
+indicated. For test systems intended to provide information that is 
+essential for the safe and effective use of a corresponding approved 
+oncology therapeutic product, failure of the test system to perform as 
+intended or indicated may result in inappropriate clinical management, 
+due to, among other things, the potential need to rerun the test, 
+leading to a delay in effective treatment or inappropriate treatment 
+for a patient based on delayed results that are essential for the safe 
+and effective use of a corresponding approved oncology therapeutic 
+product. Similarly, for those test systems that provide information 
+about known benefits and/or risks related to the use of a corresponding 
+approved oncology therapeutic product but are not essential for the 
+safe and effective use of the corresponding approved oncology 
+therapeutic product, this risk may result in the potential need to 
+rerun the test, leading to a delay in treatment or inappropriate 
+treatment for a patient based on delayed results that would provide 
+important benefit-risk information for a health care provider to aid in 
+the clinical decision making related to the use of a corresponding 
+oncology therapeutic product.
+    <bullet> Failure to correctly interpret test results. Failure to 
+correctly interpret test results, such as incorrect interpretation of 
+the biomarker classification or information provided regarding the 
+therapeutic product, may result in the same negative outcomes 
+associated with false negative or false positive test results as 
+previously discussed. For example, for test systems intended to provide 
+information that is essential for the safe and effective use of a 
+corresponding approved oncology therapeutic product, incorrectly 
+interpreting the test results as positive (i.e., false positive test 
+results) may lead to a patient receiving ineffective or unnecessary 
+treatment that may unnecessarily expose them to treatment toxicities. 
+Similarly, for those test systems that provide information about known 
+benefits and/or risks related to the use of a corresponding approved 
+oncology therapeutic product but are not essential for the safe and 
+effective use of the corresponding approved oncology therapeutic 
+product this risk may, for example, lead to inappropriate patient 
+management decisions made by a health care provider, such as, selecting 
+a suboptimal treatment for a patient, and failure for the patient to 
+realize benefit from a different therapy based on inaccurate benefit-
+risk information related to the use of a corresponding oncology 
+therapeutic product.
+
+VI. Summary of Data Upon Which the Reclassification Is Based
+
+    The safety and effectiveness of this device type has become well 
+established since the initial approval of the first oncology 
+therapeutic nucleic acid-based test system in 2011. FDA believes that 
+oncology therapeutic nucleic acid-based test systems should be 
+reclassified from class III (premarket approval) into class II (special 
+controls) because special controls can be established to mitigate the 
+risks to health identified in section V and are necessary, in addition 
+to general controls, to provide a reasonable assurance of the safety 
+and effectiveness of these devices. The proposed special controls are 
+identified by FDA in section VII of this proposed order.
+    Taking into account the health benefits of the use of these devices 
+and the nature and known incidence of the
+
+[[Page 53269]]
+
+risks to health of the devices, FDA, on its own initiative is proposing 
+to reclassify these postamendments class III devices into class II. FDA 
+believes, that when used as indicated, oncology therapeutic nucleic 
+acid-based test systems can provide significant benefits to health care 
+providers and patients.
+    In proposing to reclassify and establish special controls for 
+oncology therapeutic nucleic acid-based test systems, FDA has 
+considered and analyzed the following information: (1) data from 17 
+PMAs and 1 PMA panel-track supplement for oncology therapeutic nucleic 
+acid-based test systems available to FDA in accordance with section 
+520(h)(4) of the FD&C Act, (2) published peer-reviewed literature on 
+nucleic acid-based detection methods, including NAAT and sequencing 
+technologies, and (3) MDR and recall data from the Agency's publicly 
+available MAUDE and Medical Device Recalls databases. The available 
+evidence demonstrates that there are public health benefits derived 
+from the use of oncology therapeutic nucleic acid-based test systems 
+which provide information related to the use of a corresponding 
+approved oncology therapeutic product. In addition, the nature of the 
+associated risks to health are known, and special controls can be 
+established to sufficiently mitigate these risks.
+    FDA considered the safety and effectiveness of oncology therapeutic 
+nucleic acid-based test systems through review of PMA data dating back 
+to the initial approval of the first oncology therapeutic nucleic acid-
+based test system in 2011, under product code OWD (P110020) (Ref. 2). 
+Subsequently, between August 17, 2011 and September 8, 2025, FDA 
+approved 35 PMAs and 403 supplements for oncology therapeutic nucleic 
+acid-based test systems under the product codes OWD, PJG, PQP, and SFL. 
+For the purpose of this reclassification, FDA was able to consider data 
+from the following 17 original PMAs and 1 panel-track supplement to an 
+original PMA in accordance with section 520(h)(4): cobas 4800 BRAF V600 
+Mutation Test (P110020), therascreen KRAS RGQ PCR Kit (P110027), 
+therascreen KRAS RGQ PCR Kit (P110030), THxID BRAF Kit (P120014), cobas 
+EGFR Mutation Test (P120019), therascreen EGFR RGQ PCR Kit (P120022), 
+BRACAnalysis CDx (P140020), cobas KRAS Mutation Test (P140023), cobas 
+EGFR Mutation Test v2 (P150044), cobas EGFR Mutation Test v2 (P150047), 
+FoundationFocus CDxBRCA Assay (P160018), FoundationFocus CDxBRCA 
+<INF>LOH</INF> (P160018/S001), Praxis Extended RAS Panel (P160038), 
+LeukoStrat CDx FLT3 Mutation Assay (P160040), Oncomine Dx Target Test 
+(P160045), Abbott RealTime IDH2 (P170005), FoundationOne CDx (P170019), 
+and Abbott RealTime IDH1 (P170041) (Ref. 2-5, and 7-20).\25\
+---------------------------------------------------------------------------
+
+    \25\ In accordance with section 520(h)(4) of the FD&C Act. FDA 
+has not relied on information in PMAs and PMA supplements approved 
+within the last 6 years to develop proposed special controls or to 
+otherwise inform this proposed reclassification.
+---------------------------------------------------------------------------
+
+    As part of the Agency's analysis for the proposed reclassification 
+of oncology therapeutic nucleic acid-based test systems, FDA reviewed 
+and considered information provided within each of these applications, 
+including information available in the SSEDs and device labeling for 
+each application, which demonstrated a reasonable assurance of safety 
+and effectiveness of the devices. In developing the proposed special 
+controls, the Agency considered the analytical and clinical studies and 
+device performance data, all of which demonstrated appropriate 
+performance of the device and supported each approval. FDA believes the 
+proposed special controls can effectively mitigate the risks to health 
+identified in section V and, along with general controls, can provide a 
+reasonable assurance of the safety and effectiveness for oncology 
+therapeutic nucleic acid-based test systems. Additionally, FDA 
+identified the probable adverse effects or risks to health of the tests 
+based on information provided within the applications. As diagnostic 
+tests, oncology therapeutic nucleic acid-based test systems generally 
+do not pose additional safety hazards or direct adverse effects to the 
+patients being tested beyond those associated with routine procedures 
+typical for a diagnostic workup of the disease. The risks to health 
+identified within the applications include false test results (i.e., 
+false negative or false positive test results), failure to correctly 
+interpret test results or incorrect test results interpretations, and 
+failure of the device to perform as intended or indicated. Based on 
+data collected in the clinical and non-clinical studies conducted, the 
+safety profile for the devices was generally deemed acceptable in 
+supporting the approvals of these devices.
+    While the oncology therapeutic nucleic acid-based test systems that 
+are the subject of the 17 PMAs and 1 PMA panel-track supplement have 
+unique test attributes in certain respects (e.g., the use of a specific 
+technology and/or the type of analyte(s) detected by the test system), 
+FDA has determined that these tests have sufficiently similar purposes, 
+design considerations, functions, and other features related to safety 
+and effectiveness such that the information and data reviewed and 
+analysis conducted by FDA was analogous across all 18 applications 
+available to the Agency in accordance with section 520(h)(4) of the 
+FD&C Act. As such, and in order to avoid redundancy, the following 
+three summaries are intended to provide examples that are 
+representative of the PMA information and data that was reviewed and 
+considered by FDA across the 18 applications in proposing to reclassify 
+oncology therapeutic nucleic acid-based test systems from class III 
+(premarket approval) into class II (special controls).
+    For example, FDA reviewed the original PMA data for the first FDA-
+approved oncology therapeutic nucleic acid-based test system, which was 
+approved on August 17, 2011, through an original PMA (P110020) (product 
+code OWD) (Ref. 2), for a CDx test, cobas 4800 BRAF V600 Mutation Test, 
+intended for the qualitative detection of the BRAF V600E mutation in 
+DNA extracted from FFPE human melanoma tissues and to be used as an aid 
+in selecting melanoma patients whose tumors carry the BRAF V600E 
+mutation for treatment with vemurafenib. The Agency considered the 
+submitted studies and data provided in the approved submission, which 
+demonstrated reasonable assurance of safety and effectiveness of this 
+test when used in accordance with the indications for use. Such studies 
+and data include the results of the international, randomized, open-
+label, controlled, multicenter, Phase III clinical study N025026 
+(BRIM3) for which the cobas 4800 BRAF V600 Mutation Test was used as a 
+CDx test for selecting patients for treatment with vemurafenib 
+(Zelboraf). Results from this clinical study demonstrated that patients 
+who received treatment with vemurafenib (Zelboraf) based on a BRAF 
+V600E positive test result as detected by the cobas 4800 BRAF V600 
+Mutation Test met the study's two co-primary efficacy endpoints, OS and 
+PFS as compared to dacarbazine. Therefore, the results of this clinical 
+study helped to demonstrate a reasonable assurance of the safety and 
+effectiveness of the cobas 4800 BRAF V600 Mutation Test for its 
+indicated use, as an aid in selecting melanoma patients whose tumors 
+carry the BRAF V600E mutation for treatment with vemurafenib. The 
+performance of the test was also supported by the analytical validation 
+studies. For example, reproducibility studies demonstrated very good 
+agreement to
+
+[[Page 53270]]
+
+support analytical performance of the test. The adverse effects of the 
+test are based on data collected in the BRIM3 clinical study. As a 
+diagnostic test, the cobas 4800 BRAF V600 Mutation Test involves 
+testing on FFPE human melanoma tissue sections, which are routinely 
+removed as part of the diagnosis of melanoma by pathologists. The test, 
+therefore, presents no additional safety hazard to the patient being 
+tested. Potential adverse effects of the cobas 4800 BRAF V600 Mutation 
+Test include failure of the device to perform as expected, failure to 
+correctly interpret test results, and/or false positive test results or 
+false negative test results which may lead to improper patient 
+management decisions in melanoma treatment.
+    Additionally, FDA considered the original PMA studies and data from 
+the Oncomine Dx Target Test PMA, which FDA approved on June 22, 2017 
+(P160045) (product code PQP) (Ref.17). The Oncomine Dx Target Test is a 
+qualitative test that uses targeted high throughput, parallel-
+sequencing technology to detect single nucleotide variants (SNVs) and 
+deletions in 23 genes from DNA and fusions in ROS1 from RNA isolated 
+from FFPE tumor tissue samples from patients with non-small cell lung 
+cancer (NSCLC) using the Ion PGM Dx System. The test system is 
+indicated to aid in selecting NSCLC patients with V600E and EGFR (Ex. 
+19del or L858R variant) mutations in DNA, and ROS1 fusions in RNA for 
+the targeted therapies of Tafinlar (dabrafenib) in combination with 
+Mekinist (trametinib), Xalkori (crizotinib), and Iressa (gefitinib), 
+respectively, in accordance with the approved therapeutic product 
+labeling. The Agency considered the submitted studies and data in the 
+approved submission, which demonstrated reasonable assurance of safety 
+and effectiveness of the Oncomine Dx Target Test when used in 
+accordance with the indications for use. Such studies and data include 
+the retrospective analyses of patients enrolled in two clinical studies 
+(BRF113928 for BRAF V600E mutations and A8081001 for ROS1) and safety 
+and efficacy data obtained from these trials. The clinical outcomes, 
+based on objective response rate (ORR), observed for both clinical 
+studies were maintained based on the ORR estimated from the respective 
+bridging studies supporting the effectiveness of the Oncomine Dx Target 
+Test to select NSCLC patients whose tumors are positive for BRAF V600E 
+or ROS1 fusions for treatment with Tafinlar (dabrafenib) in combination 
+with Mekinist (trametinib), Xalkori (crizotinib), respectively. The 
+safety and effectiveness of the Oncomine Dx Target Test for the 
+selection of NSCLC patients with an EGFR (Ex. 19del or L858R variant) 
+mutation was demonstrated in a retrospective analysis of concordance 
+between the Oncomine Dx Target Test and the FDA-approved QIAGEN 
+therascreen EGFR RGQ PCR Kit. Results demonstrating a high concordance 
+between the Oncomine Dx Target Test and the QIAGEN therascreen EGFR RGQ 
+PCR Kit and comparable reproducibility performance observed between the 
+two tests supported the effectiveness of the Oncomine Dx Target Test to 
+identify NSCLC patients whose tumors are positive for the EGFR (Ex. 
+19del or L858R variant) mutations for treatment with Iressa 
+(gefitinib). Further, analytical performance studies were conducted 
+with the Oncomine Dx Target Test using DNA and RNA extracted from FFPE 
+tissue of NSCLC patients which demonstrated acceptable sensitivity for 
+the tested variants when used in accordance with the directions 
+provided. The risks of the test or potential adverse effects of the 
+test include failure of the device to perform as expected, failure to 
+correctly interpret test results, and/or false positive test results or 
+false negative test results that could lead to improper patient 
+management decisions in NSCLC treatment. Therefore, the clinical and 
+analytical data in this application supported the reasonable assurance 
+of safety and effectiveness of the Oncomine Dx Target Test when used in 
+accordance with the approved indications for use.
+    As a final example, FDA considered PMA studies and data from the 
+FoundationFocus CDxBRCA <INF>LOH</INF> \26\ panel-track PMA supplement, 
+which FDA approved on April 6, 2018 expanding the indications for use 
+of this test (P160018/S001) (product code PQP) (Ref. 5) to include an 
+indication for use to provide information that while not essential to 
+the safe and effective use of a corresponding approved oncology 
+therapeutic product, provides information about known benefits and/or 
+risks related to the use of an approved oncology therapeutic product. 
+FoundationFocus CDxBRCA <INF>LOH</INF> was originally indicated for the 
+qualitative detection of BRCA1 and BRCA2 alterations in FFPE ovarian 
+tumor tissue to aid in identifying ovarian cancer patients with 
+deleterious tumor BRCA variants (tBRCA-positive) who may be eligible 
+for treatment with Rubraca (rucaparib), providing information that is 
+essential for the safe and effective use of Rubraca (rucaparib). The 
+panel-track PMA supplement expanded the indications for use to include 
+the qualitative detection of genomic LOH from FFPE ovarian tumor tissue 
+to determine HRD status (defined as tBRCA-positive and/or LOH high) in 
+ovarian cancer patients, and positive HRD status in such patients is 
+associated with improved PFS from Rubraca (rucaparib) maintenance 
+therapy. This new indication for use is to provide information about 
+known benefits related to the use of the approved oncology therapeutic 
+product, although the information provided is not essential to the safe 
+and effective use of the corresponding approved oncology therapeutic 
+product. In accordance with the six-year rule \27\ and to support this 
+proposed reclassification action, the Agency considered the submitted 
+studies and data in the approved submission, which demonstrated 
+reasonable assurance of safety and effectiveness of this test when used 
+in accordance with the indications for use. For example, the clinical 
+performance of the test for its new indication was established based on 
+results from ARIEL3, a Phase 3, global, randomized, double-blind 
+clinical study of Rubraca (rucaparib) maintenance therapy demonstrating 
+an improved PFS in patients selected by the FoundationFocus CDxBRCA 
+<INF>LOH</INF> and a clinical bridging study that included an analysis 
+of the concordance of the LOH results between the FoundationFocus 
+CDxBRCA LOH and the clinical trial assay (CTA) used in the therapeutic 
+product trial. The primary objective of the therapeutic product 
+clinical trial was to evaluate PFS by Response Evaluation Criteria in 
+Solid Tumors (RECIST) v1.1. The bridging study, which supports 
+extrapolating the clinical performance characteristics of the CTA to a 
+candidate device (in this case, the FoundationFocus CDxBRCA 
+<INF>LOH</INF>)
+
+[[Page 53271]]
+
+to support the clinical validity of the candidate device, includes 
+retrospective testing of clinical trial samples using the 
+FoundationFocus CDxBRCA <INF>LOH</INF>. To support that the 
+FoundationFocus CDxBRCA <INF>LOH</INF> is clinically meaningful and 
+provides information about known benefits and/or risks related to the 
+use of the approved oncology therapeutic product, the clinical trial 
+data were analyzed using a Cox Proportional Hazard model to demonstrate 
+that there is an interaction between the test results (HRD status) and 
+the corresponding therapeutic product in the intent-to-treat (ITT) 
+population. The Proportional Hazard model showed a statistically 
+significant improvement in PFS for patients randomized to Rubraca as 
+compared with placebo in all patients, including the biomarker positive 
+subgroups (i.e., HRD and tBRCA subgroups). Thus, results demonstrate 
+there is overall probable clinical benefit of the FoundationFocus 
+CDxBRCA <INF>LOH</INF> for its approved indication for use. However, 
+the approved oncology therapeutic product drug is intended for all 
+comers, irrespective of biomarker results, therefore, the information 
+provided is not essential to the safe and effective use of the 
+corresponding approved oncology therapeutic product. Further, the 
+performance of the FoundationFocus CDxBRCA <INF>LOH</INF> was also 
+supported by analytical validation studies, such as reproducibility and 
+repeatability studies, which demonstrated acceptable analytical 
+performance of the assay. The risks of the test are based on data 
+collected in the validation studies conducted to support the test 
+approval. The FoundationFocus CDxBRCA <INF>LOH</INF> involves testing 
+on FFPE ovarian cancer tumor tissue. The risks of the test or potential 
+adverse effects of the test include failure of the device to perform as 
+expected, failure to correctly interpret test results, and/or false 
+positive test results or false negative test results which could lead 
+to improper patient management decisions in ovarian cancer treatment. 
+Therefore, the clinical and analytical data in this panel-track PMA 
+supplement supported the reasonable assurance of safety and 
+effectiveness of this test when used in accordance with the indications 
+for use.
+---------------------------------------------------------------------------
+
+    \26\ The original device was approved under the trade name 
+FoundationFocus CDxBRCA (P160018). The sponsor originally submitted 
+the panel-track PMA supplement application (P160018/S001) for the 
+same device with an expanded indication for use under the trade name 
+FoundationFocus CDxBRCA <INF>HRD</INF>. However, through the review 
+process, the sponsor decided to change the name to FoundationFocus 
+CDxBRCA <INF>LOH</INF>. For the purpose of providing example 
+summaries that are representative of the PMA information and data 
+that was reviewed and considered by FDA to support the proposed 
+reclassification action in accordance with the six-year rule (see 
+section 520(h)(4) of the FD&C Act), the name used throughout this 
+paragraph is FoundationFocus CDxBRCA <INF>LOH</INF>.
+    \27\ In accordance with section 520(h)(4) of the FD&C Act, FDA 
+has not relied on information in PMAs and PMA supplements approved 
+within the last 6 years to develop the proposed special controls or 
+to otherwise inform this proposed reclassification action.
+---------------------------------------------------------------------------
+
+    In addition to the original PMA data from the 17 available PMAs and 
+one PMA panel-track supplement, FDA further considered that nucleic 
+acid-based detection methods, including NAAT and sequencing, are well-
+established technologies, for example, with NAAT, such as PCR, first 
+described in the 1980s (Ref. 23). These technologies have been commonly 
+used in both research and clinical settings for decades and their 
+general principles are well understood and widely published in the 
+literature at this time (Ref. 24). There have been significant 
+scientific developments aimed at addressing certain limitations for 
+NAAT and sequencing technologies and expanding the applications of 
+these technologies, such as the introduction of a thermostable DNA 
+polymerase in PCR and the emergence of high throughput or next 
+generation sequencing techniques (Ref. 25-26). These developments 
+further demonstrate the maturity of these technologies, and FDA 
+considered the breadth of knowledge available regarding NAAT and 
+sequencing technologies in proposing to reclassify oncology therapeutic 
+nucleic acid-based test systems from class III (premarket approval) 
+into class II (special controls). This includes, for example, the 
+establishment of special controls that FDA believes can effectively 
+mitigate those identified risks to health (discussed in section V) and, 
+along with general controls, are necessary to provide a reasonable 
+assurance of the safety and effectiveness for these devices.
+    Finally, a search of FDA's publicly available MAUDE database 
+revealed 147 reported events for oncology therapeutic nucleic acid-
+based test systems under product codes OWD, PJG, PQP, and SFL, a 
+significant majority of which did not cause patient harm per the 
+reports. A search of FDA's publicly available Medical Device Recalls 
+database revealed that there have been four class III recall, 23 class 
+II recalls, and no class I recalls involving oncology therapeutic 
+nucleic acid-based test systems. The lack of class I recalls, and 
+relatively few numbers of class II and class III recalls,\28\ coupled 
+with the relatively low number of reported events that caused patient 
+harm, indicate a generally good safety record for this device type (see 
+further discussion of the MDR and recall data in section II of this 
+proposed order).
+---------------------------------------------------------------------------
+
+    \28\ As defined in 21 CFR 7.3(m), the numerical designation, 
+i.e., I, II, or III, assigned by the FDA to a particular product 
+recall indicates the relative degree of health hazard presented by 
+the product being recalled. Class I recalls are those classified as 
+the highest level of risk in which there is a reasonable probability 
+that the use of, or exposure to, a violative product will cause 
+serious adverse health consequences or death.
+---------------------------------------------------------------------------
+
+    Based on the Agency's review of the information described in this 
+proposed order, FDA has determined that special controls, in addition 
+to general controls, are necessary to provide a reasonable assurance of 
+safety and effectiveness for these devices, and that sufficient 
+information exists to establish such special controls. Therefore, FDA, 
+on its own initiative, is proposing to reclassify oncology therapeutic 
+nucleic acid-based test systems from class III (premarket approval) 
+into class II (special controls) subject to 510(k) requirements.
+
+VII. Proposed Special Controls
+
+    FDA believes that the following proposed special controls would 
+mitigate each of the risks to health described in section V and that 
+these special controls, in addition to general controls, would provide 
+a reasonable assurance of safety and effectiveness for oncology 
+therapeutic nucleic acid-based test systems.
+    Risks of false positive test results or false negative test 
+results, failure of the test system to perform as intended or 
+indicated, and failure to correctly interpret test results can be 
+mitigated by special controls, including certain design verification 
+and validation activities. For example, documentation of clinical 
+performance testing which must include clinical data demonstrating 
+acceptable performance of the device for its intended use based on data 
+generated using a dataset representative of the intended use 
+population. This may include, for example, data from use of the device 
+as the clinical trial enrollment assay in the therapeutic product 
+clinical trial or data from a method comparison study to an appropriate 
+FDA-authorized device. The analytical performance testing must include 
+data demonstrating appropriate analytical performance of the device 
+such as the precision, analytical accuracy, analytical sensitivity, 
+analytical specificity, and sample and reagent stability of the test 
+system. In addition, device design verification and validation 
+information must include the specification for risk mitigation elements 
+intended to mitigate risks associated with testing and results 
+interpretation including, controls, procedures, and user training 
+requirements.
+    The risks of false test results, failure to correctly interpret 
+test results, and failure of the device to perform as intended or 
+indicated can be further mitigated by special controls that require 
+specific information in the labeling for these test systems. For 
+example, a requirement to provide a device description that includes a 
+description of relevant limitations with regard to target/genomic 
+region(s) that cannot be targeted and/or detected by the test system, 
+as applicable. In addition, these risks can be further mitigated by 
+labeling special controls that require an appropriate, as
+
+[[Page 53272]]
+
+determined by FDA, summary of the performance studies performed and the 
+results of those studies, thus informing the user of the expected 
+performance of the device. Table 1 shows how FDA believes such risks to 
+health described in section V would be mitigated by the proposed 
+special controls.
+
+      Table 1--Risks to Health and Mitigation Measures for Oncology
+               Therapeutic Nucleic Acid-Based Test Systems
+------------------------------------------------------------------------
+  Identified risks to health              Mitigation measures
+------------------------------------------------------------------------
+False positive test results    Certain design verification and
+ or false negative test         validation activities, including certain
+ results.                       analytical validation and clinical
+                                validation data.
+                               Certain labeling information, including
+                                certain performance information.
+Failure of the test system to  Certain design verification and
+ perform as intended or         validation activities, including certain
+ indicated.                     analytical validation and clinical
+                                validation data.
+                               Certain labeling information, including
+                                certain performance information.
+Failure to correctly           Certain design verification and
+ interpret test results.        validation activities, including certain
+                                analytical validation and clinical
+                                validation data.
+                               Certain labeling information, including
+                                certain performance information.
+------------------------------------------------------------------------
+
+    If this proposed order is finalized, oncology therapeutic nucleic 
+acid-based test systems will be identified as prescription IVD devices. 
+Therefore, these devices would be subject to the prescription labeling 
+requirements for IVD products (see 21 CFR 809.10(a)(4) and (b)(5)(ii)).
+    If this proposed order is finalized, oncology therapeutic nucleic 
+acid-based test systems will be reclassified into class II (special 
+controls) and will be subject to premarket notification requirements 
+under section 510(k) of the FD&C Act. As discussed in this proposed 
+order, the intent is for the reclassification to be codified in the new 
+classification regulation 21 CFR 866.6075. If finalized, firms will be 
+required to comply with the particular mitigation measures set forth in 
+the special controls. Adherence to the special controls, in addition to 
+the general controls, is necessary to provide a reasonable assurance of 
+the safety and effectiveness of oncology therapeutic nucleic acid-based 
+test systems.
+
+VIII. Analysis of Environmental Impact
+
+    We have determined under 21 CFR 25.34(b) that this action is of a 
+type that does not individually or cumulatively have a significant 
+effect on the human environment. Therefore, neither an environmental 
+assessment nor an environmental impact statement is required.
+
+IX. Paperwork Reduction Act of 1995
+
+    While this proposed order contains no new collections of 
+information, it does refer to previously approved FDA collections of 
+information. The previously approved collections of information are 
+subject to review by the Office of Management and Budget (OMB) under 
+the Paperwork Reduction Act of 1995 (PRA) (44 U.S.C. 3501-3521). The 
+collections of information in 21 CFR part 820 (Quality System 
+Regulation) have been approved under OMB control number 0910-0073; the 
+collections of information in part 807, subpart E (Premarket 
+Notification Procedures), have been approved under OMB control number 
+0910-0120; and the collections of information in 21 CFR parts 801 and 
+809 (Device Labeling) have been approved under OMB control number 0910-
+0485.
+
+X. Proposed Effective Date
+
+    FDA proposes that any final order based on this proposal become 
+effective 30 days after the date of its publication in the Federal 
+Register.
+
+XI. Codification of Orders
+
+    Under section 513(f)(3) of the FD&C Act, FDA may issue final orders 
+to reclassify devices. FDA will continue to codify classifications and 
+reclassifications in the Code of Federal Regulations (CFR). Changes 
+resulting from final orders will appear in the CFR as newly codified 
+orders. Therefore, under section 513(f)(3) of the FD&C Act, in the 
+proposed order, we are proposing to codify Nucleic Acid-Based Test 
+Systems for Use with a Corresponding Approved Oncology Therapeutic 
+Product in the new 21 CFR 866.6075, under which these oncology 
+therapeutic nucleic acid-based test systems would be reclassified from 
+class III into class II.
+
+XII. References
+
+    The following references marked with an asterisk (*) are on display 
+at the Dockets Management Staff (see ADDRESSES) and are available for 
+viewing by interested persons between 9 a.m. and 4 p.m., Monday through 
+Friday; they also are available electronically at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. References without asterisks are not on public 
+display at <a href="https://www.regulations.gov">https://www.regulations.gov</a> because they have copyright 
+restriction. Some may be available at the website address, if listed. 
+References without asterisks are available for viewing only at the 
+Dockets Management Staff. Although FDA verified the website addresses 
+in this document, please note that websites are subject to change over 
+time.
+
+* 1. In Vitro Companion Diagnostic Devices--Guidance for Industry 
+and Food and Drug Administration Staff, issued August 6, 2014 
+(available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/in-vitro-companion-diagnostic-devices">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/in-vitro-companion-diagnostic-devices</a>).
+* 2. P110020 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P110020.
+* 3. P140020 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P140020.
+* 4. P160018 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P160018.
+* 5. P160018S001 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P160018S001.
+* 6. ``Guidance for Industry and for FDA Reviewers: Guidance on 
+Section 216 of the Food and Drug Administration Modernization Act of 
+1997,'' issued on August 9, 2000. Available at <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-section-216-food-and-drug-administration-modernization-act-1997-guidance-industry-and-fda">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-section-216-food-and-drug-administration-modernization-act-1997-guidance-industry-and-fda</a>.
+* 7. P110027 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P110027.
+* 8. P110030 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P110030.
+* 9. P120014 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P120014.
+
+[[Page 53273]]
+
+* 10. P120019 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P120019.
+* 11. P120022 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P120022.
+* 12. P140023 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P140023.
+* 13. P150044 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P150044.
+* 14. P150047 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P150047.
+* 15. P160038 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P160038.
+* 16. P160040 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P160040.
+* 17. P160045 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P160045.
+* 18. P170005 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P170005.
+* 19. P170019 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P170019.
+    * 20. P170041 Summary of Safety and Effectiveness, available at: 
+<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm">https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm</a>?ID=P170041.
+    * 21. FDA, ``CDRH Announces Intent to Initiate the 
+Reclassification Process for Most High Risk IVDs,'' January 31, 
+2024. Available at <a href="https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-announces-intent-initiate-reclassification-process-most-high-risk-ivds">https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-announces-intent-initiate-reclassification-process-most-high-risk-ivds</a>.
+    22. Curtin, SC, Tejada-Vera, B, Bastian, Deaths: Leading Causes 
+for 2021. National Center for Health Statistics. Vital Health Stat 
+73(4). 2024.
+    23. Saiki RK, Scharf S, Faloona F, et al. Enzymatic 
+amplification of beta-globin genomic sequences and restriction site 
+analysis for diagnosis of sickle cell anemia. Science. 
+1985;230(4732):1350-1354. doi:10.1126/science.2999980.
+    24. Bej AK, Mahbubani MH, Atlas RM. Amplification of nucleic 
+acids by polymerase chain reaction (PCR) and other methods and their 
+applications. Crit Rev Biochem Mol Biol. 1991;26(3-4):301-334. 
+doi:10.3109/10409239109114071.
+    25. Saiki RK, Gelfand DH, Stoffel S, et al. Primer-directed 
+enzymatic amplification of DNA with a thermostable DNA polymerase. 
+Science. 1988;239(4839):487-491. doi:10.1126/science.2448875.
+    26. McCombie WR, McPherson JD, Mardis ER. Next-Generation 
+Sequencing Technologies. Cold Spring Harb Perspect Med. 
+2019;9(11):a036798. Published 2019 Nov 1. doi:10.1101/
+cshperspect.a036798.
+
+List of Subjects in 21 CFR Part 866
+
+    Biologics, Laboratories, Medical devices.
+
+    Therefore, under the Federal Food, Drug, and Cosmetic Act, and 
+under authority delegated to the Commissioner of Food and Drugs, it is 
+proposed that 21 CFR part 866 be amended as follows:
+
+PART 866--IMMUNOLOGY AND MICROBIOLOGY DEVICES
+
+0
+1. The authority citation for 21 CFR part 866 continues to read as 
+follows:
+
+    Authority: 21 U.S.C. 351, 360, 360c, 360e, 360j, 360l, 371.
+
+0
+2. Add Sec.  866.6075 to subpart G to read as follows:
+
+
+Sec.  866.6075  Nucleic Acid-Based Test Systems for Use with a 
+Corresponding Approved Oncology Therapeutic Product.
+
+    (a) Identification. Nucleic acid-based test systems indicated for 
+use with a corresponding approved oncology therapeutic product are 
+identified as prescription in vitro diagnostic devices intended for the 
+detection of specific genetic variant(s) and/or other nucleic acid 
+biomarkers in human clinical specimens using nucleic acid amplification 
+(e.g., polymerase chain reaction) and/or sequencing technology (e.g., 
+next generation sequencing) to provide information related to the use 
+of a corresponding approved oncology therapeutic product. These test 
+systems include devices that provide information that is essential for 
+the safe and effective use of a corresponding approved oncology 
+therapeutic product and devices that, while not essential to the safe 
+and effective use of the corresponding approved oncology therapeutic 
+product, provide information about known benefits and/or risks related 
+to the use of the corresponding approved oncology therapeutic product.
+    (b) Classification: Class II (special controls). The special 
+controls for this device are:
+    (1) Design verification and validation must include:
+    (i) A summary of the empirical evidence that establishes the 
+appropriate analytical quality metrics and thresholds for the test 
+system.
+    (ii) Device performance data demonstrating appropriate, as 
+determined by FDA, analytical and clinical performance of the device 
+for the intended use. This must include:
+    (A) Data demonstrating the precision, analytical accuracy, 
+analytical sensitivity, analytical specificity, and sample and reagent 
+stability of the test system. Analytical performance data must be 
+evaluated for each gene/variant, or alternatively, justification for an 
+alternative approach must be provided and determined by FDA to be 
+appropriate, such as the use of a representative set of genes and/or 
+variants.
+    (B) Data demonstrating all targeted region(s) that can be detected 
+by the test system and disclosure of any region(s) not targeted or 
+detected by the test system and/or with limited detection by the test 
+system, as applicable.
+    (C) Clinical data generated using clinical specimens representative 
+of the intended use population demonstrating appropriate, as determined 
+by FDA, clinical performance of the device for its intended use.
+    (D) Data demonstrating appropriate validation of the intended 
+specimen handling protocol and specimen preparation (e.g., nucleic acid 
+extraction and purification) as described in the labeling.
+    (iii) Specifications and data that appropriately demonstrate the 
+validity of the biomarker classification process, including any 
+bioinformatic pipeline. This information must include a description of 
+the classification process, including protocol(s) and criteria used for 
+classification and reporting, and detailed documentation of the basis 
+for biomarker interpretation with appropriate references.
+    (iv) Specification for risk mitigation elements intended to 
+mitigate risks associated with testing and results interpretation 
+including controls, procedures, and user training requirements, as 
+appropriate.
+    (2) Labeling must include the following:
+    (i) A device description which includes:
+    (A) The biomarker(s) detected by the test system;
+    (B) Relevant limitations with regard to target/genomic region(s) 
+that cannot be targeted or detected by the test system and/or with 
+limited detection by the test system, as applicable;
+    (C) A description of the analysis algorithms used for biomarker 
+detection and annotation, evaluation, and classification;
+    (D) A description of the quality metrics, thresholds, and filters 
+utilized at each step of the test system, as applicable.
+    (ii) An appropriate summary, as determined by FDA, of the 
+performance studies conducted and the results of those studies, 
+including those that relate to all design verification and validation 
+special controls.
+    (iii) For those test systems intended to provide information that 
+is essential for
+
+[[Page 53274]]
+
+the safe and effective use of a corresponding approved oncology 
+therapeutic product, language indicating that the test system is 
+indicated for use with a corresponding FDA-approved oncology 
+therapeutic product. Device labeling must be consistent with the 
+information set forth in the corresponding FDA-approved oncology 
+therapeutic product labeling.
+    (iv) For those test systems intended to provide information about 
+known benefits and/or risks related to the use of a corresponding FDA-
+approved oncology therapeutic product but are not essential for the 
+safe and effective use of the corresponding approved oncology 
+therapeutic product, language summarizing the benefits and/or risks 
+related to the use of a corresponding FDA-approved oncology therapeutic 
+product that must be consistent with the information set forth in the 
+corresponding FDA-approved oncology therapeutic product labeling.
+
+Lowell M. Zeta,
+Acting Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21071 Filed 11-24-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

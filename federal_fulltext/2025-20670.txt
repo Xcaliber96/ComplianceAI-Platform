@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Notices]
+[Pages 52952-52953]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20670]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+[EPA-HQ-OAR-2003-0085; FRL-13049-01-OAR]
+
+
+Proposed Information Collection Request; Comment Request; NESHAP 
+for Radionuclides (40 CFR Part 61, Subparts B, K, R and W) (Renewal)
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is planning to 
+submit an information collection request (ICR), ``NESHAP for 
+Radionuclides (Renewal)'' (EPA ICR No. 1100.16, OMB Control No.
+
+[[Page 52953]]
+
+2060-0191) to the Office of Management and Budget (OMB) for review and 
+approval in accordance with the Paperwork Reduction Act. Before doing 
+so, the EPA is soliciting public comments on specific aspects of the 
+proposed information collection as described below. An Agency may not 
+conduct or sponsor and a person is not required to respond to a 
+collection of information unless it displays a currently valid OMB 
+control number.
+
+DATES: Comments must be submitted on or before January 23, 2026.
+
+ADDRESSES: Submit your comments, referencing Docket ID No. EPA-HQ-OAR-
+2003-0085, online using <a href="http://www.regulations.gov">www.regulations.gov</a> (our preferred method), by 
+email to [<a href="/cdn-cgi/l/email-protection#66074b0708024b144b2209050d03122603160748010910"><span class="__cf_email__" data-cfemail="1c7d317d7278316e3158737f7779685c796c7d327b736a">[email&#160;protected]</span></a>], or by mail to: EPA Docket Center, 
+Environmental Protection Agency, Mail Code 28221T, 1200 Pennsylvania 
+Ave. NW, Washington, DC 20460.
+    EPA's policy is that all comments received will be included in the 
+public docket without change, including any personal information 
+provided, unless the comment includes profanity, threats, information 
+claimed to be Confidential Business Information (CBI) or other 
+information whose disclosure is restricted by statute.
+
+FOR FURTHER INFORMATION CONTACT: Joseph Rustick, Radiation Protection 
+Division, Office of Radiation and Indoor Air, Mail Code 6608T, 
+Environmental Protection Agency, 1200 Pennsylvania Ave. NW, Washington, 
+DC 20460; telephone number: 202-564-9682; fax number: 202-343-2304; 
+email address: <a href="/cdn-cgi/l/email-protection#097b7c7a7d606a622763667a6c7961496c7968276e667f"><span class="__cf_email__" data-cfemail="d0a2a5a3a4b9b3bbfebabfa3b5a0b890b5a0b1feb7bfa6">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Supporting documents which explain in detail 
+the information that the EPA will be collecting are available in the 
+public docket for this ICR. The docket can be viewed online at 
+<a href="http://www.regulations.gov">www.regulations.gov</a> or in person at the EPA Docket Center, WJC West, 
+Room 3334, 1301 Constitution Ave. NW, Washington, DC. The telephone 
+number for the Docket Center is 202-566-1744. For additional 
+information about EPA's public docket, visit <a href="http://www.epa.gov/dockets">http://www.epa.gov/dockets</a>.
+    Pursuant to section 3506(c)(2)(A) of the Paperwork Reduction Act, 
+EPA is soliciting comments and information to enable it to: (i) 
+evaluate whether the proposed collection of information is necessary 
+for the proper performance of the functions of the Agency, including 
+whether the information will have practical utility; (ii) evaluate the 
+accuracy of the Agency's estimate of the burden of the proposed 
+collection of information, including the validity of the methodology 
+and assumptions used; (iii) enhance the quality, utility, and clarity 
+of the information to be collected; and (iv) minimize the burden of the 
+collection of information on those who are to respond, including 
+through the use of appropriate automated electronic, mechanical, or 
+other technological collection techniques or other forms of information 
+technology, e.g., permitting electronic submission of responses. EPA 
+will consider the comments received and amend the ICR as appropriate. 
+The final ICR package will then be submitted to OMB for review and 
+approval. At that time, EPA will issue another Federal Register notice 
+to announce the submission of the ICR to OMB and the opportunity to 
+submit additional comments to OMB.
+    Abstract: On December 15, 1989, pursuant to Section 112 of the 
+Clean Air Act as amended in 1977 (42 U.S.C. 1857), the Environmental 
+Protection Agency (EPA) promulgated National Emission Standards for 
+Hazardous Air Pollutants (NESHAP) regulations to control radionuclide 
+emissions from several source categories. The regulations are codified 
+at 40 CFR part 61. Of the eight subparts (B, H, I, K, Q, R, T and W) 
+included in the 1989 rule, as currently amended, four apply to 
+privately-operated facilities. In addition to requiring operational 
+practices that limit emissions, subparts B, K, R, and W impose 
+radionuclide dose and/or emission limits, respectively, to underground 
+uranium mines, elemental phosphorous plants, phosphogypsum stacks, and 
+uranium mill tailings impoundments. Facilities must inspect 
+impoundments, measure radionuclide emissions, perform analyses or 
+calculations per EPA procedures, and report the results to the EPA.
+    Information collected is used by the EPA to ensure that public 
+health and the environment continue to be protected from the hazards of 
+airborne radionuclides by compliance with these standards. Compliance 
+is demonstrated through emissions testing and dose calculation when 
+appropriate.
+    Form Numbers: None.
+    Respondents/affected entities: The North American Industry 
+Classification System (NAICS) codes of facilities associated with the 
+activity of the respondents are: (1) Elemental Phosphorous 325180, (2) 
+Phosphogypsum Stacks 212390, (3) Underground Uranium Mines 212290, and 
+(4) Uranium Mill Tailings 212290.
+    Respondent's obligation to respond: mandatory (CAA, Sec, 112; 40 
+CFR part 61).
+    Estimated number of respondents: 52 (total).
+    Frequency of response: Monthly, annual, or one-time depending on 
+the source category and respondent activity.
+    Total estimated burden: 11,301 hours (per year). Burden is defined 
+at 5 CFR 1320.03(b).
+    Total estimated cost: $1,412,827 (per year), which includes 
+$408,300 annualized capital or operation and maintenance costs.
+    Changes in Estimates: Total estimated respondent hours increased 
+from 4,146 hours in the previous approved version of this ICR to 
+11,301, primarily as a result of additional subpart B and subpart W 
+facilities potentially coming online by 2029. Two subpart B facilities 
+were reporting at the time of the last renewal in 2023, however, the 
+Agency identified 12 respondents that are likely to submit annual 
+reports by 2029, and 12 responses were added to the ICR, adding 2,760 
+hours of labor and $63,600 of non-labor cost to the burden that was 
+approved in 2023. The Agency also identified a potential for an 
+additional 15 non-conventional impoundments under subpart W to begin 
+operation by 2029, adding an additional 4,215 hours of labor and $4,500 
+of non-labor costs. For subparts K and R, there were no changes to the 
+number of respondents, the annual time burden, or the annual non-labor 
+cost compared to the most recent renewals of this ICR.\1\
+---------------------------------------------------------------------------
+
+    \1\ For the most recent renewal of ICR 2060-0191, see 87 FR 
+17084, March 25, 2022.
+
+    Dated: November 18, 2025.
+Armin Ansari,
+Acting Director, Radiation Protection Division.
+[FR Doc. 2025-20670 Filed 11-21-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

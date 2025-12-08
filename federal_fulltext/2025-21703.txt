@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55244-55245]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21703]
+
+
+
+[[Page 55244]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+[OMB Control No. 2900-0674]
+
+
+Agency Information Collection Activity: Notice of Disagreement: 
+Appeal to the Board of Veterans' Appeals
+
+AGENCY: Board of Veterans' Appeals, Department of Veterans Affairs.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Board of Veterans' Appeals (Board), Department of Veterans 
+Affairs (VA), is announcing an opportunity for public comment on the 
+proposed collection of certain information by the agency. Under the 
+Paperwork Reduction Act (PRA) of 1995, Federal agencies are required to 
+publish notice in the Federal Register concerning each proposed 
+collection of information, including each proposed extension of a 
+currently approved collection, and allow 60 days for public comment in 
+response to the notice. DATES: Comments must be received on or before 
+January 30, 2026.
+
+ADDRESSES: Comments must be submitted through <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Program-Specific information: Michael Nanez, 202-382-2785, 
+<a href="/cdn-cgi/l/email-protection#206d49434841454c0e6e414e455a6056410e474f56"><span class="__cf_email__" data-cfemail="f9b4909a91989c95d7b798979c83b98f98d79e968f">[email&#160;protected]</span></a>.
+    VA PRA information: Dorothy Glasgow, 202-461-1084, <a href="/cdn-cgi/l/email-protection#4315021311020335226d242c35"><span class="__cf_email__" data-cfemail="edbbacbdbfacad9b8cc38a829b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Under the PRA of 1995, Federal agencies must 
+obtain approval from the Office of Management and Budget (OMB) for each 
+collection of information they conduct or sponsor. This request for 
+comment is being made pursuant to Section 3506(c)(2)(A) of the PRA.
+    With respect to the following collection of information, the Board 
+invites comments on: (1) whether the proposed collection of information 
+is necessary for the proper performance of the Board's functions, 
+including whether the information will have practical utility; (2) the 
+accuracy of the Board's estimate of the burden of the proposed 
+collection of information; (3) ways to enhance the quality, utility, 
+and clarity of the information to be collected; and (4) ways to 
+minimize the burden of the collection of information on respondents, 
+including through the use of automated collection techniques or the use 
+of other forms of information technology.
+    Title: Notice of Disagreement (NOD)/Appeal to the Board of 
+Veterans' Appeals, VA Form 10182 and VA Form 9.
+    OMB Control Number: 2900-0674. <a href="https://www.reginfo.gov/public/do/PRASearch">https://www.reginfo.gov/public/do/PRASearch</a> (Once at this link, you can enter the OMB Control Number to 
+find the historical versions of this Information Collection).
+    Type of Review: Revision of a currently approved collection.
+    Abstract: OMB Control No. 2900-0674 was recently approved on April 
+30, 2025. The VA Form 10182 Decision Review Request: Board Appeal 
+(Notice of Disagreement), which is required to initiate Board review of 
+an appeal in the modernized review system as implemented by the 
+Veterans Appeals Improvement and Modernization Act of 2017 (AMA), was 
+one of the forms approved for information collection. The Board is 
+requesting to revise the currently approved VA Form 10182, to include 
+an additional checkbox under Part III, number 11. The proposed checkbox 
+will state: ``Check here if you want the Board to issue a decision as 
+soon as possible, even if it is within the period to request a 
+different review option in Part II. By checking this box, you 
+acknowledge that once the Board issues a decision, you will not be 
+permitted to change your Board review option.'' The ``Overview of 
+Notice of Disagreement Form Sections'' on page three will be amended to 
+include further explanation of the checkbox. The Board additionally 
+requests to remove the checkbox from Part III, number 11, which states: 
+``Check here if you are appealing a denial of benefits by the Veterans 
+Health Administration (VHA).'' Finally, the Board seeks to amend the VA 
+Form 10182 to clarify that selecting the Evidence Submission or Hearing 
+with a Veterans Law Judge review option may extend the time it takes 
+for the Board to decide an appeal; the VA Form 10182 currently states 
+that selecting those review options will extend the time to receive a 
+Board decision. The Board does not request to revise any of the other 
+items included in the previously approved collection.
+    The Board is requesting to revise the VA Form 10182, by adding a 
+checkbox to Part III, number 11, in response to a recent case issued by 
+the U.S. Court of Appeals for Veterans Claims (CAVC). When appellants 
+file a VA Form 10182, Decision Review Request: Board Appeal (Notice of 
+Disagreement), they have the choice of three Board review options, or 
+``dockets.'' Pursuant to 38 CFR 20.202(c)(2), appellants may request to 
+modify their Notice of Disagreement and change review options until the 
+later of one year from the date the agency of original jurisdiction 
+mails notice of the decision on appeal, or within 60 days of the date 
+the Board receives the Notice of Disagreement. In Williams v. 
+McDonough, 37 Vet. App. 305, 310-311 (2024), the CAVC interpreted 38 
+CFR 20.202(c)(2) as preventing the Board from issuing a decision until 
+the period to request to change Board review options elapses. As a 
+result, the Board has been forced to delay issuing decisions in cases 
+that are otherwise ready for adjudication until that period elapses or 
+sends a letter and ask appellants whether they wish to waive the 
+remaining time, which places additional burdens on appellants and the 
+Board.
+    The requested revision provides appellants with the option to 
+request that the Board issue a decision prior to the end of the period 
+to request to switch dockets set out in 38 CFR Sec.  20.202(c)(2). By 
+selecting the checkbox on the VA Form 10182, appellants can receive a 
+decision in their appeal as soon as possible based on their place in 
+docket order while also retaining the right to request a different 
+Board review option up until the Board promulgates a decision on the 
+appeal.
+    The Board is requesting to remove the checkbox under Part III, 
+number 11, that states: ``Check here if you are appealing a denial of 
+benefits by the Veterans Health Administration (VHA),'' because it 
+leads to confusion with appellants and provides little benefit to the 
+Board.
+    Revising the VA Form 10182 by adding a checkbox is the most 
+Veteran-friendly approach as no new form would be required, and 
+appellants can avoid delays resulting from the Williams decision by 
+requesting that the Board issue a decision in their appeal using an 
+already-familiar form. Removing the checkbox concerning denial of 
+benefits by the VHA will eliminate the need for appellants to consider 
+which Administration issued the decision they are appealing when 
+completing the VA Form 10182. The explanation that selecting the 
+Evidence Submission or Hearing review option may extend the time it 
+takes for the Board to decide an appeal will help appellants make a 
+fully informed decision on selecting the Board review option that is 
+best for them.
+    Any appellant who files a VA Form 10182 may utilize the checkbox 
+and review the explanation of the time required for the review options. 
+Therefore, the estimated number of respondents and annual burden are 
+the same estimates as those provided for the number of respondents who 
+may utilize the VA Form 10182 Decision Review Request: Board Appeal 
+(Notice of Disagreement). Because the Board is seeking to add a 
+checkbox and remove a checkbox, it is estimated that a
+
+[[Page 55245]]
+
+respondent's burden would be unchanged by the requested revisions. The 
+estimates are consistent with those provided in the previously approved 
+collection, because the requested changes to the VA Form 10182 do not 
+add any additional burden to the processing of the form. Rather, the 
+checkbox will eliminate the need to delay issuing decisions in appeals 
+that are otherwise ready for adjudication and send appellants letters 
+of clarification, thereby decreasing the overall administrative burden 
+caused by Williams, supra.
+    Affected Public: Individuals and households.
+    Estimated Annual Burden: 55,000 hours.
+    Estimated Average Burden per Respondent: 30 minutes.
+    Frequency of Response: Once.
+    Estimated Number of Respondents: 110,000.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Dorothy Glasgow,
+Acting, VA PRA Clearance Officer, Office of Information Technology, 
+Data Governance and Analytics, Department of Veterans Affairs.
+[FR Doc. 2025-21703 Filed 11-28-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Notices]
+[Pages 53326-53327]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20962]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Administration for Children and Families
+
+[OMB #: 0970-0307]
+
+
+Submission for Office of Management and Budget Review; State 
+Court Improvement Program
+
+AGENCY: Children's Bureau, Administration for Children and Families, 
+U.S. Department of Health and Human Services.
+
+ACTION: Request for public comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Administration for Children and Families (ACF) is 
+requesting a 3-year extension of the State Court Improvement Program 
+(SCIP) Strategic Plan Template and Annual Self-Assessment (Office of 
+Management and Budget (OMB) #: 0970-0307, expiration February 28, 
+2026). There are minor updates to the self-assessment to reflect new 
+legislation as well as to support technical
+
+[[Page 53327]]
+
+assistance. The collections are necessary to continue operating the 
+program in compliance with congressional reauthorization.
+
+DATES: Comments due December 26, 2025.
+
+ADDRESSES: The public may view and comment on this information 
+collection request at: <a href="https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202511-0970-007">https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202511-0970-007</a>. You can also obtain copies of the 
+proposed collection of information by emailing 
+<a href="/cdn-cgi/l/email-protection#224d5250474b4c444d414d4e4e4741564b4d4c624341440c4a4a510c454d54"><span class="__cf_email__" data-cfemail="523d2220373b3c343d313d3e3e3731263b3d3c123331347c3a3a217c353d24">[email&#160;protected]</span></a>. Identify all emailed requests by the 
+title of the information collection.
+
+SUPPLEMENTARY INFORMATION: 
+    Description: The SCIP provides federal funding to state courts to 
+assess their child welfare and judicial practices and develop and 
+implement improvement plans. States use funds in a variety of ways, 
+including improving legal representation and hearing quality, enhancing 
+the engagement of families in court proceedings, and supporting child 
+welfare and court partnerships. The proposed collection is a 
+continuation of the current collection and comprised of two 
+instruments: A strategic plan and self-assessment. The self-assessment 
+reflects what the state has done in the prior year focusing on its 
+progress and status within the change management cycle. The strategic 
+plan looks forward to those interventions and actions the state plans 
+to undertake to address needs or buttress strengths they have 
+discovered in their assessment activities. These two instruments serve 
+as an application for annual SCIP funding as well as a source for data 
+which are shared back with SCIP grantees to support their community 
+learning and peer connections, to inform technical assistance, and 
+support any reporting to Congress and others. Regarding updates to the 
+self-assessment and strategic plan, a minor change was made early in 
+2025 to the self-assessment in response to Executive Orders, amounting 
+to one optional topical box and a few drop-down categories being 
+removed. Additionally, the following minor changes are proposed to the 
+currently approved version of the self-assessment. These do not impact 
+estimated time to respond.
+    <bullet> Brief questions were added on IV-E funding, self-
+assessment point of contact or publishing information, and additional 
+collaborative partners.
+    <bullet> Dropdown categories have been added to reduce burden and 
+improve data where `other' was too often selected.
+    <bullet> Some questions about technical assistance states 
+participated in were removed because alternative data sources were 
+found that reduced burden.
+    No changes are proposed to the strategic plan.
+    The next application will be due June 30, 2026.
+    Respondents: We anticipate the highest state court of every state, 
+the District of Columbia, Puerto Rico, and the U.S. Virgin Islands to 
+respond. All 53 jurisdictions currently participate in the program. One 
+response from each jurisdiction is anticipated.
+
+                                             Annual Burden Estimates
+----------------------------------------------------------------------------------------------------------------
+                                                 Total number of  Average burden
+           Instrument             Total number    responses per      hours per     Total burden    Annual burden
+                                 of respondents     respondent       response          hours           hours
+----------------------------------------------------------------------------------------------------------------
+Annual Self-Assessment.........              53                1              40            6360           2,120
+Strategic Plan.................              53            * .20              52          1653.6           551.2
+                                --------------------------------------------------------------------------------
+    Estimated Total Annual       ..............  ...............  ..............  ..............        2,671.20
+     Burden Hours..............
+----------------------------------------------------------------------------------------------------------------
+* The full Strategic Plan is completed every 5 years. In years when the Strategic Plan is not completed,
+  respondents may spend minimal time updating relevant sections of the Strategic Plan. This is accounted for in
+  the estimate for the Annual Self-Assessment.
+
+    Authority: 42 U.S.C. 629h.
+
+Mary C. Jones,
+ACF/OPRE Certifying Officer.
+[FR Doc. 2025-20962 Filed 11-24-25; 8:45 am]
+BILLING CODE 4184-29-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

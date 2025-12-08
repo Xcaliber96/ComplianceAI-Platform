@@ -1,0 +1,422 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54228-54230]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21291]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 71
+
+[Docket No. FAA-2025-1187; Airspace Docket No. 24-AWP-84]
+RIN 2120-AA66
+
+
+Modification and Revocation of Class E Airspace; Hawaiian 
+Islands, HI
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action modifies the Class E5 airspace areas extending 
+upward from 700 feet above the surface at Lihue Airport (LIH), Lihue, 
+HI; Daniel K. Inouye International Airport (HNL), Honolulu, HI; and 
+Ellison Onizuka Kona International at Keahole Airport (KOA), Kailua-
+Kona, HI, by adding an additional layer of Class E5 airspace area 
+extending upward from 1,200 feet above the surface. This action 
+complies with the international laws and treaties, and satisfies the 
+State of Hawaii's domestic airspace requirements. Additionally, this 
+action revokes the portions of the existing Class E5 airspace area 
+1,200 feet above the surface that extends beyond 12 miles from the 
+shorelines of the Hawaiian Islands into international airspace. This 
+action further modifies the Class E4 airspace area designated as an 
+extension to a Class D or Class E surface area at KOA and revokes the 
+Class E4 airspace area at LIH. These actions support the safe and 
+efficient management of instrument flight rules (IFR) operations at 
+airports within the Hawaiian Islands.
+
+DATES: Effective date 0901 UTC, January 22, 2026. The Director of the 
+Federal Register approves this incorporation by reference action under 
+1 CFR part 51, subject to the annual revision of FAA Order JO 7400.11 
+and publication of conforming amendments.
+
+ADDRESSES: A copy of the notice of proposed rulemaking (NPRM), all 
+comments received, this final rule, and all background material may be 
+viewed online at <a href="http://www.regulations.gov">www.regulations.gov</a> using the FAA Docket number. 
+Electronic retrieval help and guidelines are available on the website. 
+It is available 24 hours each day, 365 days each year. An electronic 
+copy of this document may also be downloaded from 
+<a href="http://www.federalregister.gov">www.federalregister.gov</a>.
+    FAA Order JO 7400.11K, Airspace Designations and Reporting Points, 
+and subsequent amendments can be viewed online at <a href="http://www.faa.gov/air_traffic/publications/">www.faa.gov/air_traffic/publications/</a>.
+
+FOR FURTHER INFORMATION CONTACT: Keith T. Adams, Federal Aviation 
+Administration, Western Service Center, Operations Support Group, 2200 
+S 216th Street, Des Moines, WA 98198; telephone: (206) 231-2428.
+
+SUPPLEMENTARY INFORMATION: 
+
+Authority for This Rulemaking
+
+    The FAA's authority to issue rules regarding aviation safety is 
+found in Title 49 of the United States Code. Subtitle I, Section 106 
+describes the authority of the FAA Administrator. Subtitle VII, 
+Aviation Programs, describes in more detail the scope of the agency's 
+authority. This rulemaking is promulgated under the authority described 
+in Subtitle VII, Part A, Subpart I, Section 40103. Under that section, 
+the FAA is charged with prescribing regulations to assign the use of 
+the airspace necessary to ensure the safety of aircraft and the 
+efficient use of airspace. This regulation is within the scope of that 
+authority as it revokes the Class E5 1,200 feet above the surface 
+airspace area designated as the ``Hawaiian Islands'' and the Class E4 
+airspace area at LIH, and modifies the Class E4 airspace area at KOA 
+and the Class E5 700 feet above the surface airspace areas at LIH, HNL, 
+and KOA. These actions comply with international laws and treaties, 
+while also supporting IFR operations for the State of Hawaii.
+
+History
+
+    The FAA published an NPRM for Docket No. FAA 2025-1187 in the 
+Federal Register (87 FR 36400; August 4, 2025), proposing to: (a) 
+modify the Class E5 airspace areas 700 feet above the surface at Lihue 
+Airport, Lihue, HI; Daniel K. Inouye International Airport, Honolulu, 
+HI; and Ellison Onizuka Kona International at Keahole Airport, Kailua-
+Kona, HI; (b) revoke the Class E5 airspace area 1,200 feet above the 
+surface surrounding the Hawaiian Islands; (c) modify the Class E4 
+airspace area for KOA; and (d) revoke the Class E4 airspace area for 
+LIH. This action complies with the international law associated with 
+United Nations Convention on the Law of the Sea (UNCLOS) and the 
+international treaties provision from Proclamation 5928, Territorial 
+Sea of the United States. A final rule issued by the FAA in 2019 rule 
+incorrectly applied the concept of ``archipelagic states'' under UNCLOS 
+to justify connecting the islands with contiguous Class E airspace. 
+However, FAA has since determined that because Hawaii is a U.S. state, 
+it is not an archipelagic state under international law, and therefore 
+is not entitled to such treatment. This notice proposes corrective 
+action to realign the Hawaiian Class E airspace with U.S. jurisdiction 
+and international legal standards, restricting it to airspace over U.S. 
+land and territorial waters.
+    Interested parties were invited to participate in this rulemaking 
+effort by submitting written comments on the proposal to the FAA. Two 
+comments were received in favor of the airspace proposal.
+    One commenter recommended that the FAA consider additional 
+clarification to the flying public regarding aircraft separation 
+standards while transiting between the Hawaiian Islands in situations 
+where flight operations may transition between domestic and 
+international airspace boundaries.
+    The FAA acknowledges the commenter's suggestion. However, aircraft 
+separation standards do not change in this context, as the FAA has been 
+delegated controlling authority for air traffic service in the Hawaiian 
+region, both domestically and internationally.
+
+[[Page 54229]]
+
+    One commenter suggested that the FAA ``provide a brief 
+environmental review on the potential impacts of modified approach 
+procedures to the local community and sensitive habitat.''
+    The comment is not germane to the scope of this airspace action. 
+The FAA's action modifies only the controlled airspace areas associated 
+with Hawaiian Islands; it does not modify approach procedures for any 
+of the Hawaiian airports, although some airspace boundaries are 
+modified to better contain existing procedures. The potential 
+environmental impacts of this action have been addressed under the 
+FAA's environmental review process, as discussed below, and after 
+evaluation was determined to qualify for categorical exclusion rather 
+than a higher level of environmental review.
+
+Differences From the NPRM
+
+    The FAA is modifying the airport reference points (ARP) geographic 
+coordinates used in the airspace legal description for the Class E5 
+airspace area associated with HNL, Class E4 and Class E5 airspace areas 
+associated with KOA, as proposed in the NPRM. However, in addition to 
+those proposed changes, this final rule also modifies the ARP 
+geographic coordinates within the Class E5 airspace area legal 
+description. These changes align with the FAA's aeronautical database.
+    These changes are needed to maintain consistency with the proposed 
+controlled airspace areas parameters. Specifically, the FAA has 
+substituted alternative geographical coordinates (Point in Space) to 
+replace previously used reference points to describe the airspace 
+boundaries associated with the legal descriptions of the airports' 
+controlled airspace areas.
+    These changes are minor and ministerial in nature, and do not 
+impose additional requirements on regulated parties. Accordingly, the 
+FAA finds good cause to bypass additional notice and comment.
+
+Incorporation by Reference
+
+    Class E4 and Class E5 airspace areas are published in paragraphs 
+6004 and 6005, respectively, of FAA Order JO 7400.11, Airspace 
+Designations and Reporting Points, which is incorporated by reference 
+in 14 CFR 71.1 on an annual basis. This document amends the current 
+version of that order, FAA Order JO 7400.11K, dated August 4, 2025, and 
+effective September 15, 2025. These amendments will be published in the 
+next update to FAA Order JO 7400.11. FAA Order JO 7400.11K, which lists 
+Class A, B, C, D, and E airspace areas, air traffic service routes, and 
+reporting points, is publicly available as listed in the ADDRESSES 
+section of this document.
+
+The Rule
+
+    This action amends 14 CFR part 71 by modifying Class E5 airspace 
+areas 700 feet above surface at LIH, HNL, and KOA. Additionally, this 
+action revokes the Class E5 airspace area extending upward from 1,200 
+feet above the surface over the Hawaiian Islands. The Class E5 (1,200 
+feet above the surface) airspace area is redefined to comply with U.S. 
+territorial boundaries and international airspace sovereignty 
+provisions by limiting the airspace to 12 miles from the State's 
+coastline, as explained above. Each of the three airports' Class E5 
+(700 feet above the surface) airspace areas are modified to include an 
+additional layer of Class E5 (1,200 feet above the surface) airspace 
+area, designed to contain its respective island groups' territorial 
+lands and coastal waters.
+    The LIH Class E5 (700 feet above the surface) airspace area is 
+modified to incorporate additional Class E5 airspace area extending 
+upward from 1,200 feet above the surface that encompasses the islands 
+of Kauai and Niihau, and the islet of Kaula, limited to 12 miles from 
+the coastline. The Class E5 (700 feet above the surface) airspace area 
+is also modified to better contain the Very High Frequency 
+Omnidirectional Range (VOR) or Tactical Air Navigation (TACAN) Runway 
+(RWY) 21 instrument approach procedure for LIH, extending upward from 
+700 feet above the surface within a 4.3-mile radius of the airport, and 
+extending to the 7.3-mile radius between the airport's 354[deg] bearing 
+clockwise to the 192[deg] bearing.
+    In addition, the Class E airspace area designated as an extension 
+to a Class D or Class E surface area (Class E4 airspace area) is 
+revoked, as arriving aircraft descends through 1,000 feet above the 
+surface are already contained within the LIH Class D and Class E 
+surface areas.
+    The HNL Class E5 (700 feet above the surface) airspace area is 
+modified to incorporate an additional Class E5 (1,200 feet above the 
+surface) airspace area that encompasses the islands of Oahu, Molokai, 
+Lanai, Kahoolawe, and Maui, but limited to 12 miles from the coastline. 
+Additionally, the legal description for the Honolulu Class E5 (700 feet 
+above the surface) airspace area is updated as follows: (1) the 
+location is amended from Honolulu International Airport to Honolulu, 
+and (2) the airport's name is amended from Honolulu International 
+Airport to Daniel K. Inouye International Airport.
+    The KOA Class E5 (700 feet above the surface) airspace area is 
+modified to incorporate an additional Class E5 (1,200 feet above the 
+surface) airspace area encompassing the island of Hawaii, but limited 
+to 12 miles from the coastline. The KOA Class E5 (700 feet above the 
+surface) airspace area is also modified to better contain the VOR 
+Distance Measuring Equipment (DME)/TACAN RWY 17 approach procedures. 
+The amended Class E5 (700 feet above the surface) airspace area extends 
+upward from 700 feet above the surface within the airport's 7.4-mile 
+radius, and within 4 miles of either side of the airport's Point in 
+Space Alpha 002[deg] bearing, extending from the airport's 7.4-mile 
+radius to 11 miles north. Additionally, the KOA Class E4 airspace area 
+is modified to better contain the previously mentioned instrument 
+approach procedures descending through 1,000 feet above the surface, 
+extending upward from the surface within 2.8 miles either side of the 
+airport's Point in Space Alpha 186[deg] bearing, extending from the 
+airport's 4.3-mile radius to 5.7 miles south, and within 3.6 miles 
+either side of the airport's Point in Space Alpha 002[deg] bearing, 
+extending from the airport's Point in Space Alpha 4.3-mile radius to 
+9.5 miles north. Lastly, the airport name was updated in its legal 
+description from Kona International Airport at Keahole to Ellison 
+Onizuka Kona International at Keahole Airport.
+
+Regulatory Notices and Analyses
+
+    The FAA has determined that this regulation only involves an 
+established body of technical regulations for which frequent and 
+routine amendments are necessary to keep them operationally current. 
+It, therefore: (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under DOT 
+Regulatory Policies and Procedures (44 FR 11034; February 26, 1979); 
+and (3) does not warrant preparation of a regulatory evaluation as the 
+anticipated impact is so minimal. Since this is a routine matter that 
+only affects air traffic procedures and air navigation, it is certified 
+that this rule, when promulgated, does not have a significant economic 
+impact on a substantial number of small entities under the criteria of 
+the Regulatory Flexibility Act.
+
+Environmental Review
+
+    The FAA has determined that this action qualifies for categorical 
+exclusion under the National Environmental Policy Act (42 U.S.C. 4321, 
+et seq.) and in accordance with FAA Order 1050.1G, ``FAA National 
+Environmental Policy
+
+[[Page 54230]]
+
+Act Implementing Procedures,'' paragraph B-2.5.a. This airspace action 
+is not expected to cause any potentially significant environmental 
+impacts, and no extraordinary circumstances exist that warrant 
+preparation of an environmental assessment.
+
+Lists of Subjects in 14 CFR Part 71
+
+    Airspace, Incorporation by reference, Navigation (air).
+
+The Amendment
+
+    In consideration of the foregoing, the Federal Aviation 
+Administration amends 14 CFR part 71 as follows:
+
+PART 71--DESIGNATION OF CLASS A, B, C, D, AND E AIRSPACE AREAS; AIR 
+TRAFFIC SERVICE ROUTES; AND REPORTING POINTS
+
+0
+1. The authority citation for 14 CFR part 71 continues to read as 
+follows:
+
+    Authority:  49 U.S.C. 106(f), 106(g), 40103, 40113, 40120; E.O. 
+10854, 24 FR 9565, 3 CFR, 1959-1963 Comp., p.389.
+
+
+Sec.  71.1  [Amended]
+
+0
+2. The incorporation by reference in 14 CFR 71.1 of FAA Order JO 
+7400.11K, Airspace Designations and Reporting Points, dated August 4, 
+2025, and effective September 15, 2025, is amended as follows:
+
+Paragraph 6004 Class E Airspace Designated as an Extension to a 
+Class D or Class E Surface Area.
+
+* * * * *
+
+AWP HI E4 Kailua-Kona, HI [Amended]
+
+Ellison Onizuka Kona International at Keahole Airport, HI
+    (Lat. 19[deg]44'00'' N, long. 156[deg]02'46'' W)
+Point in Space Alpha
+    (Lat. 19[deg]44'20'' N, long. 156[deg]02'44'' W)
+
+    That airspace extending upward from the surface within 2.8 miles 
+each side of the Point in Space Alpha 186[deg] bearing extending 
+from the Point in Space Alpha 4.3-mile radius to 5.7 miles south, 
+and within 3.6 miles each side of the Point in Space Alpha 002[deg] 
+bearing extending from the Point in Space Alpha 4.3-mile radius to 
+9.5 miles north.
+* * * * *
+
+AWP HI E4 Lihue HI [Removed]
+
+Lihue Airport, HI
+    (Lat. 21[deg]58'34'' N, long. 159[deg]20'20'' W)
+
+    That airspace extending upward from the surface within that 
+airspace beginning at lat. 21[deg]54'25'' N, long. 159[deg]21'36'' 
+W, thence clockwise to lat. 21[deg]58'15'' N, long. 159[deg]15'42'' 
+W; to lat. 21[deg]55'03'' N, long. 159[deg]12'10'' W; to lat. 
+21[deg]51'03'' N, long. 159[deg]11'05'' W; to lat. 21[deg]50'34'' N, 
+long. 159[deg]21'50'' W, thence to the point of beginning.
+* * * * *
+
+Paragraph 6005 Class E Airspace Areas Extending Upward From 700 
+Feet or More Above the Surface of the Earth.
+
+* * * * *
+
+AWP HI E5 Lihue, HI [Amended]
+
+Lihue Airport, HI
+    (Lat. 21[deg]58'34'' N, long. 159[deg]20'20'' W)
+
+    That airspace extending upward from 700 feet above the surface 
+within a 4.3-mile radius of the airport, and within an area between 
+the airport's 354[deg] bearing clockwise to the 192[deg] bearing 
+between the 4.3-mile radius and the 7.3-mile radius; and that 
+airspace extending upward from 1,200 feet above the surface within 
+12 miles of the shoreline of the islands of Kauai, Niihau, and 
+Kaula.
+* * * * *
+
+AWP HI E5 Honolulu, HI (Amended)
+
+Daniel K. Inouye International Airport, HI
+    (Lat. 21[deg]19'04'' N, long. 157[deg]55'13'' W)
+Point in Space Alpha
+    (Lat. 21[deg]18'30'' N, long. 157[deg]55'50'' W)
+Point in Space Bravo
+    (Lat. 21[deg]18'26'' N, long. 158[deg]04'13'' W)
+
+    That airspace extending upward from 700 feet above the surface 
+at Daniel K. Inouye International Airport beginning at a line 
+bounded from lat. 21[deg]20'19'' N, long. 157[deg]49'00'' W, to lat. 
+21[deg]16'31.15'' N, long. 157[deg]45'11.19'' W, thence east bound 
+along the shoreline to intercept the Point in Space Alpha 15-mile 
+radius, thence clockwise along the Point in Space Alpha 15-mile 
+radius to intercept the Point in Space Alpha 241[deg] bearing, 
+thence northeast bound along the Point in Space Alpha 241[deg] 
+bearing to intercept the Point in Space Bravo 4.3-mile radius, 
+thence counterclockwise along the Point in Space Bravo 4.3-mile 
+radius to intercept the Point in Space Alpha 5-mile radius, thence 
+counterclockwise along the Point in Space Alpha 5-mile radius to 
+intercept the Point in Space Alpha 106[deg] bearing, thence 
+westbound along the Point in Space Alpha 106[deg] bearing to 
+intercept the Point in Space Alpha 4-mile radius, thence 
+counterclockwise along the Point in Space Alpha 4-mile radius to 
+intercept the Point in Space Alpha 071[deg] bearing, thence to the 
+point of beginning, excluding that portion beyond 12 miles of the 
+coastline; and that airspace beginning at lat. 21[deg]10'25'' N, 
+long. 158[deg]11'22'' W; to lat. 21[deg]16'05'' N, long. 
+158[deg]14'35'' W; to lat. 21[deg]16'30'' N, long. 158[deg]13'46'' 
+W; to lat. 21[deg]16'50'' N, long. 158[deg]00'00'' W; to the point 
+of beginning; and that airspace extending upward from 1,200 feet 
+above the surface within 12 miles of the shoreline of the islands of 
+Oahu, Molokai, Lanai, Maui, and Kahoolawe.
+* * * * *
+
+AWP HI E5 Kailua-Kona, HI [Amended]
+
+Ellison Onizuka Kona International at Keahole Airport, HI
+    (Lat. 19[deg]44'00'' N, long. 156[deg]02'46'' W)
+Point in Space Alpha
+    (Lat. 19[deg]44'20'' N, long. 156[deg]02'44'' W)
+
+    That airspace extending upward from 700 feet above the surface 
+within a 7.4-mile radius of Point in Space Alpha, and within 4 miles 
+each side of the Point in Space Alpha 002[deg] bearing extending 
+from the 7.4-mile radius to 11 miles north; and that airspace 
+extending upward from 1,200 feet above the surface within 12 miles 
+off the coastline of the Island of Hawaii.
+* * * * *
+
+AWP HI E5 Hawaiian Islands, HI [Removed]
+
+    That airspace extending upward from 1,200 feet above the surface 
+within 12 NM of the Hawaiian Islands' shoreline beginning at lat. 
+22[deg]06'28'' N, long. 159[deg]04'39'' W, to lat. 21[deg]46'57'' N, 
+long. 158[deg]14'41'' W, to 12 NM from the shoreline of Oahu. 
+Thence, clockwise along the line 12 NM from and parallel to the 
+shoreline of the State of Hawaii, to lat. 20[deg]30'29'' N, long. 
+155[deg]53'40'' W, to lat. 20[deg]28'08'' N, long. 155[deg]52'03'' 
+W, to 12 NM from the shoreline of Hawaii. Thence, clockwise along 
+the line 12 NM from and parallel to the shoreline of Hawaii to lat. 
+20[deg]03'26'' N, long. 156[deg]05'30'' W, to lat. 20[deg]22'48'' N, 
+long.156[deg]18'51'' W, to 12 NM from the shoreline of Maui. Thence 
+clockwise along the line 12 NM from and parallel to the shoreline of 
+the State of Hawaii, to lat. 21[deg]25'19'' N, long. 158[deg]26'08'' 
+W, to lat. 21[deg]44'34'' N, long. 159[deg]15'27'' W, to 12 NM from 
+the shoreline of Kauai. Thence, clockwise along the line 12 NM from 
+and parallel to the shoreline of the State of Hawaii to the 
+beginning.
+* * * * *
+
+    Issued in Des Moines, Washington, on November 24, 2025.
+B.G. Chew,
+Group Manager, Operations Support Group, Western Service Center.
+[FR Doc. 2025-21291 Filed 11-25-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54308-54309]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21156]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF DEFENSE
+
+Office of the Secretary
+
+[Docket ID: DoD-2025-HA-0211]
+
+
+Submission for OMB Review; Comment Request
+
+AGENCY: Office of the Assistant Secretary of Defense for Health Affairs
+
+[[Page 54309]]
+
+(OASD(HA)), Department of Defense (DoD).
+
+ACTION: 30-Day information collection notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The DoD has submitted to the Office of Management and Budget 
+(OMB) for clearance the following proposal for collection of 
+information under the provisions of the Paperwork Reduction Act.
+
+DATES: Consideration will be given to all comments received by December 
+26, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Reginald Lucas, (571) 372-7574, 
+<a href="/cdn-cgi/l/email-protection#87f0eff4a9eae4aae6ebe2ffa9e2f4e3a9eae5ffa9e3e3aae3e8e3aaeee9e1e8f5eae6f3eee8e9aae4e8ebebe2e4f3eee8e9f4c7eae6eeeba9eaeeeb"><span class="__cf_email__" data-cfemail="45322d366b2826682429203d6b2036216b28273d6b212168212a21682c2b232a372824312c2a2b68262a29292026312c2a2b360528242c296b282c29">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 
+    Title; Associated Form; and OMB Number: Centralized Credentials and 
+Quality Assurance System (CCQAS); OMB Control Number 0720-0071.
+    Type of Request: Extension.
+    Number of Respondents: 62,500.
+    Responses per Respondent: 3.
+    Annual Responses: 187,500.
+    Average Burden per Response: 4 hours.
+    Annual Burden Hours: 750,000.
+    Needs and Uses: CQAS is a DoD, DHA system governed within the 
+overall corporate sponsorship and policies of the OASD/HA. The 
+information collection requirement is necessary to operate, manage, 
+evaluate, and improve DoD clinical quality management and risk 
+management programs. This information is essential for the DHA and DoD 
+Services to support credentialing, privileging, and healthcare risk 
+management of Active Duty, Reserve, Guard, Civil Service, contractors, 
+and volunteer direct health care providers within the Military Health 
+System.
+    Affected Public: Individuals or households.
+    Frequency: As required.
+    Respondent's Obligation: Voluntary.
+    DoD Clearance Officer: Mr. Reginald Lucas.
+
+    Dated: November 21, 2025.
+Stephanie J. Bost,
+Alternate OSD Federal Register Liaison Officer, Department of Defense.
+[FR Doc. 2025-21156 Filed 11-25-25; 8:45 am]
+BILLING CODE 6001-FR-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

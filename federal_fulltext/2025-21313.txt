@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54404-54405]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21313]
+
+
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[NRC-2025-0022]
+
+
+Information Collection: Collection of Research Code Non-
+Disclosure Agreement Information
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Renewal of existing information collection; request for 
+comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) invites public 
+comment on the renewal of Office of Management and Budget (OMB) 
+approval for an existing collection of information. The information 
+collection is entitled, ``Collection of Research Code Non-Disclosure 
+Agreement Information.''
+
+DATES: Submit comments by January 26, 2026. Comments received after 
+this date will be considered if it is practical to do so, but the 
+Commission is able to ensure consideration only for comments received 
+on or before this date.
+
+ADDRESSES: You may submit comments by any of the following methods; 
+however, the NRC encourages electronic comment submission through the 
+Federal rulemaking website:
+    <bullet> Federal rulemaking website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2025-0022. Address 
+questions about Docket IDs in <a href="http://Regulations.gov">Regulations.gov</a> to Bridget Curran; 
+telephone: 301-415-1003; email: <a href="/cdn-cgi/l/email-protection#9edcecf7faf9fbeab0ddebececfff0def0ecfdb0f9f1e8"><span class="__cf_email__" data-cfemail="094b7b606d6e6c7d274a7c7b7b686749677b6a276e667f">[email&#160;protected]</span></a>. For technical 
+questions, contact the individual(s) listed in the FOR FURTHER 
+INFORMATION CONTACT section of this document.
+    <bullet> Mail comments to: Heather Dempsey, Office of the Chief 
+Information Officer, Mail Stop: T-6 A10M, U.S. Nuclear Regulatory 
+Commission, Washington, DC 20555-0001.
+    For additional direction on obtaining information and submitting 
+comments, see ``Obtaining Information and Submitting Comments'' in the 
+SUPPLEMENTARY INFORMATION section of this document.
+
+FOR FURTHER INFORMATION CONTACT: Heather Dempsey, Acting NRC Clearance 
+Officer, U.S. Nuclear Regulatory Commission, Washington, DC 20555-0001; 
+telephone: 301-415-
+
+[[Page 54405]]
+
+0856; email: <a href="/cdn-cgi/l/email-protection#226b4c444d414d4e4e474156510c7047514d57504147624c50410c454d54"><span class="__cf_email__" data-cfemail="f3ba9d959c909c9f9f96908780dda196809c86819096b39d8190dd949c85">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+    Please refer to Docket ID NRC-2025-0022 when contacting the NRC 
+about the availability of information for this action. You may obtain 
+publicly available information related to this action by any of the 
+following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2025-0022.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select ``Begin ADAMS Public Search.'' 
+For problems with ADAMS, please contact the NRC's Public Document Room 
+(PDR) reference staff at 1-800-397-4209, at 301-415-4737, or by email 
+to <a href="/cdn-cgi/l/email-protection#217165730f7344524e54534244614f53420f464e57"><span class="__cf_email__" data-cfemail="510115037f0334223e24233234113f23327f363e27">[email&#160;protected]</span></a>. A copy of the collection of information and 
+related instructions may be obtained without charge by accessing ADAMS 
+Accession Nos. ML25248A334 and ML25160A298. The supporting statement is 
+available in ADAMS under Accession No. ML25091A165.
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#1f4f5b4d314d7a6c706a6d7c7a5f716d7c31787069"><span class="__cf_email__" data-cfemail="7c2c382e522e190f13090e1f193c120e1f521b130a">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 8 
+a.m. and 4 p.m. eastern time (ET), Monday through Friday, except 
+Federal holidays.
+    <bullet> NRC's Clearance Officer: A copy of the collection of 
+information and related instructions may be obtained without charge by 
+contacting the NRC's Acting Clearance Officer, Heather Dempsey, Office 
+of the Chief Information Officer, U.S. Nuclear Regulatory Commission, 
+Washington, DC 20555-0001; telephone: 301-415-0856; email: 
+<a href="/cdn-cgi/l/email-protection#e7ae89818884888b8b82849394c9b582948892958482a7899584c9808891"><span class="__cf_email__" data-cfemail="fcb5929a939f939090999f888fd2ae998f93898e9f99bc928e9fd29b938a">[email&#160;protected]</span></a>.
+
+B. Submitting Comments
+
+    The NRC encourages electronic comment submission through the 
+Federal rulemaking website (<a href="https://www.regulations.gov">https://www.regulations.gov</a>). Please 
+include Docket ID NRC-2025-0022, in your comment submission.
+    The NRC cautions you not to include identifying or contact 
+information in comment submissions that you do not want to be publicly 
+disclosed in your comment submission. All comment submissions are 
+posted at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and entered into ADAMS. Comment 
+submissions are not routinely edited to remove identifying or contact 
+information.
+    If you are requesting or aggregating comments from other persons 
+for submission to the NRC, then you should inform those persons not to 
+include identifying or contact information that they do not want to be 
+publicly disclosed in their comment submission. Your request should 
+state that comment submissions are not routinely edited to remove such 
+information before making the comment submissions available to the 
+public or entering the comment into ADAMS.
+
+II. Background
+
+    In accordance with the Paperwork Reduction Act of 1995 (44 U.S.C. 
+Chapter 35), the NRC is requesting public comment on its intention to 
+request the OMB's approval for the information collection summarized as 
+follows.
+    1. The title of the information collection: Collection of Research 
+Code Non-Disclosure Agreement Information.
+    2. OMB approval number: 3150-0240.
+    3. Type of submission: Extension.
+    4. The form number, if applicable: Not applicable.
+    5. How often the collection is required or requested: The 
+collection is required every time an NRC developed code is requested by 
+users.
+    6. Who will be required or asked to respond: Users of the code from 
+domestic and foreign licensees, universities, corporations, and members 
+of the public, as well as foreign technical support organizations.
+    7. The estimated number of annual responses: 962.
+    8. The estimated number of annual respondents: 962.
+    9. The estimated number of hours needed annually to comply with the 
+information collection requirement or request: 962.
+    10. Abstract: This information collection request is a non-
+disclosure agreement (NDA) used for domestic and foreign entities to 
+obtain and use the NRC's nuclear safety analytical computer codes. NRC 
+develops and uses computer codes to independently model and evaluate 
+safety issues associated with the licensed use of radioactive 
+materials. As a global leader in nuclear regulatory research and safety 
+assessment, NRC is frequently approached by domestic and international 
+organizations requesting copies of NRC computer codes. In general, to 
+obtain an NRC code an individual or organization first agrees to not 
+redistribute the code (i.e., non-disclosure) through an NDA. The NDA 
+also imposes terms and conditions for code use, and requires 
+notification to NRC of code errors, code modifications, and updated 
+user information. An officially signed and executed NDA of users 
+agreeing to the terms and conditions is current NRC practice for access 
+to NRC-developed computer codes. Once the NDA has been signed, 
+received, reviewed, and accepted, the requesting individual or 
+organization is given access to the requested code. The information 
+collection enables the NRC to ensure that proper procedures and 
+agreements are in place to guide the distribution and use of these 
+codes according to NRC and U.S. Government policies and international 
+agreements such as import-export restrictions and intellectual property 
+rights. Further information collection on code errors and modifications 
+by code users permits NRC to maintain control and quality of its codes 
+in a timely and efficient manner.
+
+III. Specific Requests for Comments
+
+    The NRC is seeking comments that address the following questions:
+    1. Is the proposed collection of information necessary for the NRC 
+to properly perform its functions? Does the information have practical 
+utility? Please explain your answer.
+    2. Is the estimate of the burden of the information collection 
+accurate? Please explain your answer.
+    3. Is there a way to enhance the quality, utility, and clarity of 
+the information to be collected?
+    4. How can the burden of the information collection on respondents 
+be minimized, including the use of automated collection techniques or 
+other forms of information technology?
+
+    Dated: November 24, 2025.
+
+    For the Nuclear Regulatory Commission.
+Heather Dempsey,
+Acting NRC Clearance Officer, Office of the Chief Information Officer.
+[FR Doc. 2025-21313 Filed 11-25-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

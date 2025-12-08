@@ -1,0 +1,2613 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 224 (Monday, November 24, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 224 (Monday, November 24, 2025)]
+[Rules and Regulations]
+[Pages 52867-52882]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20727]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Coast Guard
+
+33 CFR Parts 1, 26, 62, 66, 67, 95, 97, 100, 107, 114, 115, 116, 
+117, 118, 133, 151, 155, 159, 164, 165, and 174
+
+46 CFR Parts 2, 3, 4, 7, 11, 15, 24, 26, 58, 62, 68, 90, 108, 110, 
+118, 125, 126, 131, 132, 133, 147, 169, 177, 181, 182, and 188
+
+[Docket No. USCG-2024-1103]
+
+
+Navigation and Navigable Waters, and Shipping; Technical, 
+Organizational, and Conforming Amendments
+
+AGENCY: Coast Guard, DHS.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule makes non-substantive, technical, 
+organizational, and conforming amendments to existing Coast Guard 
+regulations. This represents a continuation of our practice of 
+periodically issuing rules to keep our regulations up-to-date and 
+accurate. This final rule is deregulatory in nature due to the 
+discontinuation of the Information Collection Request (ICR), Office of 
+Management and Budget (OMB) Control Number 1625-0068. In all other 
+respects, this final rule will have no substantive impact on the 
+regulated public.
+
+DATES: This final rule is effective November 24, 2025.
+
+ADDRESSES: To view documents mentioned in this preamble as being 
+available in the docket, go to <a href="http://www.regulations.gov">www.regulations.gov</a>, type USCG-2024-1103 
+in the search box and click ``Search.'' Next, in the Document Type 
+column, select ``Supporting & Related Material.''
+
+FOR FURTHER INFORMATION CONTACT: For information about this document, 
+call or email Mr. Dale Murad, Office of Regulations and Administrative 
+Law, U.S. Coast Guard; telephone 571-607-4608, email 
+<a href="/cdn-cgi/l/email-protection#3a7e5b565f14774f485b5e7a4f49595d14575356"><span class="__cf_email__" data-cfemail="1652777a73385b636477725663657571387b7f7a">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents for Preamble
+
+I. Abbreviations
+II. Regulatory History
+III. Basis and Purpose
+IV. Discussion of the Rule
+    A. Authority Citation Updates
+    B. Formatting Amendments To Accompany Technical Amendments in 
+This Document
+    C. Technical Amendments to Title 33 of the CFR
+    D. Technical Amendments to Title 46 of the CFR
+V. Regulatory Analyses
+    A. Regulatory Planning and Review
+    B. Small Entities
+    C. Assistance for Small Entities
+    D. Collection of Information
+    E. Federalism
+    F. Unfunded Mandates
+    G. Taking of Private Property
+    H. Civil Justice Reform
+    I. Protection of Children
+    J. Indian Tribal Governments
+    K. Energy Effects
+    L. Technical Standards and Incorporation by Reference
+    M. Environment
+    N. Congressional Review Act
+
+I. Abbreviations
+
+CFR Code of Federal Regulations
+COTP Captain of the Port
+DDH Document Drafting Handbook
+DHS Department of Homeland Security
+EPA Environmental Protection Agency
+FR Federal Register
+GPO Government Publishing Office
+IBR Incorporation by Reference
+ICR Information Collection Request
+MHz megahertz
+NDAA 2023 James M. Inhofe National Defense Authorization Act for 
+Fiscal Year 2023, Public Law 117-263
+NPRM Notice of Proposed Rulemaking
+OMB Office of Management and Budget
+Sec.  Section
+
+[[Page 52868]]
+
+U.S.C. United States Code
+
+II. Regulatory History
+
+    We did not publish a notice of proposed rulemaking (NPRM) for this 
+rule. Under 5 U.S.C. 553(b)(A), the Coast Guard finds that this final 
+rule is exempt from notice and public comment rulemaking requirements 
+because the changes made in this rulemaking involve rules of agency 
+organization, procedure, or practice. In addition, the Coast Guard 
+finds that notice and comment procedures are unnecessary under 5 U.S.C. 
+553(b)(B), as this final rule consists of only technical and editorial 
+corrections, and these changes will have no substantive effect on the 
+public.\1\ Finally, under 5 U.S.C. 553(d)(3), the Coast Guard finds, 
+for the same reasons, that good cause also exists for making this final 
+rule effective upon publication in the Federal Register.
+---------------------------------------------------------------------------
+
+    \1\ As explained below, notice and comment procedures are also 
+unnecessary regarding the removal of 33 CFR part 133 because its 
+removal flows directly from legislative changes made by the James M. 
+Inhofe National Defense Authorization Act for Fiscal Year 2023, 
+Public Law 117-263 (NDAA 2023), and leaves no room for the exercise 
+of discretion by the Coast Guard.
+---------------------------------------------------------------------------
+
+III. Basis and Purpose
+
+    The purpose of this final rule, which becomes effective on November 
+24, 2025, is to make technical and editorial corrections throughout 33 
+CFR chapter I and 46 CFR chapter I. These changes are necessary to 
+update authority citations, correct errors, update contact information, 
+and make other non-substantive amendments that improve the clarity of 
+the CFR. This rule does not create or change any substantive 
+requirements.
+    The legal basis for this final rule rests on the authorities of 5 
+U.S.C. 552(a) and 553; 14 U.S.C. 102 and 503; Department of Homeland 
+Security (DHS) Delegation No. 00170.1, Revision No. 01.4; and on 
+authorities listed at the end of this rule for each CFR part this rule 
+amends.
+
+IV. Discussion of the Rule
+
+    The Coast Guard periodically issues technical, organizational, and 
+conforming amendments to existing regulations in titles 33 and 46 of 
+the CFR. These technical amendments are intended to provide the public 
+with more accurate and current regulatory information than exist in the 
+rules they amend without changing the effect of any Coast Guard 
+regulations on the public.
+
+A. Authority Citation Updates
+
+    This final rule implements updates to DHS Delegation No. 00170.1, 
+Revision No. 01.4 in 33 CFR parts 1, 26, 62, 66, 67, 95, 97, 107, 114, 
+115, 117, 118, 133, 151, 155, 159, 164, and 165, and 46 CFR parts 3, 4, 
+7, 11, 24, 26, 58, 62, 68, 90, 110, 125, 126, 131, 177, 182, and 188.
+
+B. Formatting Amendments To Accompany Technical Amendments in This 
+Document
+
+    While making the technical amendments within this document, we 
+identified cases where the text of the existing CFR does not meet 
+current formatting standards and made stylistic changes to bring the 
+affected portions of the CFR into compliance. Our formatting amendments 
+reflect direction in three sources prescribing stylistic standards for 
+Federal documents--the Document Drafting Handbook (DDH),\2\ the 
+Government Publishing Office (GPO) Style Manual, and Executive Order 
+12866, 58 FR 51735 (Oct. 4, 1993), which directs Federal agencies to 
+provide information to the public in plain, understandable language. 
+The DDH provides guidance on how to follow the formatting and editorial 
+requirements established in 44 U.S.C. chapter 15 (the Federal Register 
+Act) and 1 CFR chapter I.\3\ On page 2-55, the DDH refers readers to 
+the GPO Style Manual as a guide for punctuation, capitalization, 
+spelling, compounding, and other style matters not addressed in the 
+DDH.
+---------------------------------------------------------------------------
+
+    \2\ The DDH is published by the Office of the Federal Register. 
+We consulted the August 2018 edition (Revision 2.2, dated June 
+2025).
+    \3\ See the Introduction to the DDH, at <a href="http://www.archives.gov/files/federal-register/write/handbook/ddh.pdf">www.archives.gov/files/federal-register/write/handbook/ddh.pdf</a>.
+---------------------------------------------------------------------------
+
+    Two stylistic changes occur repeatedly in this document. In cases 
+where this final rule updates a mailing address that includes an 
+abbreviation of a geographic quadrant, we have removed any periods from 
+the abbreviation. This reflects Rule 9.17 in the GPO Style Manual,\4\ 
+which states ``in addresses, no period is used with the abbreviations 
+NW, SW, NE, SE (indicating sectional divisions of cities) following 
+name or number.'' This final rule further replaces all instances of 
+``shall'' in regulatory text otherwise amended by this rule with 
+``must.'' We do so to follow a recommendation in the Federal plain 
+language guidelines, posted on <a href="http://plainlanguage.gov">plainlanguage.gov</a>, that the word 
+``shall'' should usually be replaced with the clearer and more commonly 
+used ``must.''
+---------------------------------------------------------------------------
+
+    \4\ The GPO Style Manual is available at <a href="http://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2016/pdf/GPO-STYLEMANUAL-2016.pdf">www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2016/pdf/GPO-STYLEMANUAL-2016.pdf</a> (Last 
+accessed 3-12-25).
+---------------------------------------------------------------------------
+
+C. Technical Amendments to 33 CFR
+
+    In Sec.  1.07-100(a)(1), this final rule removes references to 
+paragraph numbers in 46 U.S.C. 2101 because the paragraphs in that 
+section of the U.S. Code have been renumbered, and the referenced 
+paragraph numbers for the definitions of fishing vessel, fish 
+processing vessel, and fish tender vessel are incorrect. We are not 
+replacing the paragraph number references, as these definitions are 
+listed in alphabetical order in the referenced statute, and cross-
+referencing to a paragraph number is unnecessary. In addition, Congress 
+updates 46 U.S.C. 2101 fairly frequently, and if we were to replace the 
+paragraph numbers, they would likely be rendered incorrect the next 
+time Congress updates the section.
+    In Sec.  26.03(b), this final rule replaces the term ``Mega-Hertz'' 
+with ``megahertz (MHz),'' to use GPO's preferred formatting and to help 
+readers understand the use of the abbreviation elsewhere in the 
+section.
+    In Sec.  62.1, this final rule removes paragraph (b)(2), which 
+references 33 CFR subpart 66.10 (which is deleted elsewhere in this 
+rule), and redesignates Sec.  62.1(b)(1) as Sec.  62.1(b), as there are 
+no longer any subordinate paragraphs under paragraph (b).
+    In Sec.  62.21(c)(2), this final rule corrects internet addresses 
+and a spelling error.
+    In Sec.  62.47(a)(2), this final rule removes a reference to fog 
+detector technology that is no longer in use and provides information 
+on the technology that has replaced it.
+    In Sec.  62.63(b)(2), this final rule replaces a reference to 
+``loran,'' a radio navigation system no longer in use, with 
+``electronic charting systems.''
+    In Sec.  66.01-5, this final rule corrects an internet address in 
+the introductory text.
+    This final rule removes 33 CFR part 66 subpart 66.10. On June 19, 
+1998 (63 FR 33570), the Coast Guard, exercising authorities in 14 
+U.S.C. 83 (now 14 U.S.C. 542) and 33 U.S.C. 1333, announced a merger of 
+the Uniform State Waterway Marking System with the United States Aids 
+to Navigation System, to be phased in over a five-year period. As 
+provided in a sunset provision (33 CFR 66.10-1(b)) that is removed by 
+this rule, the regulations in the subpart ceased to be in effect after 
+the phase-in period ended in 2003, when aids to navigation which had 
+been governed by subpart 66.10, would be governed by part 62 of 
+subchapter C of title 33.
+    In Sec. Sec.  67.05-20 and 67.30-5(d), this final rule makes 
+stylistic and grammatical corrections, changing ``Provided, That'' in 
+both paragraphs to ``provided that.''
+
+[[Page 52869]]
+
+    In Sec.  67.40-1(a), this final rule replaces an outdated 
+notification method (telegram) with newer methods (electronic mail and 
+telephone) and, in paragraph (b), removes a reference to telegrams. 
+Western Union stopped providing telegram service in 2006.\5\
+---------------------------------------------------------------------------
+
+    \5\ See Mike Musgrove, ``The Telegram, 1844-2006,'' Washington 
+Post (Feb 3, 2006).
+---------------------------------------------------------------------------
+
+    In Sec.  67.40-1(b), this rule replaces the word ``telegraph'' with 
+the word ``notification,'' consistent with the change made in Sec.  
+67.40-1(a).
+    In Sec.  67.50-25, this final rule updates the name of the district 
+in the section heading and in paragraph (e) to reflect that on July 3, 
+2025, the Coast Guard announced the renaming of its districts in an all 
+Coast Guard Message (ALCOAST), ALCOAST 305/25 ``Force Design 2028--
+Renaming Coast Guard Districts.'' In paragraph (e), this final rule 
+also updates a street address, and an internal office routing symbol.
+    In Sec.  95.010, this final rule removes from the definition of 
+recreational vessel a reference to a paragraph in 46 U.S.C. 2101 
+because the paragraphs in that section have been renumbered, as noted 
+in our discussion of Sec.  1.07-100(a)(1). We are also adding the 
+phrase ``of that term'' to clarify that the word ``definition'' refers 
+to the definition of recreational vessel contained in 46 U.S.C. 2101.
+    In Sec.  97.110(a), this final rule updates the name of the point 
+of contact and substitutes the current contact's email address and 
+phone number for the public to submit requests to view material 
+incorporated by reference (IBR) in part 97.
+    In Sec.  100.30, this final rule identifies the Captain of the Port 
+(COTP) as the approval authority, except for those applications that 
+are managed by the State. This change is consistent with 33 CFR 
+100.35(a), which already acknowledges that COTPs can ``approv[e] plans 
+for the holding of a regatta or marine parade within his or her . . . 
+zone.''
+    In Sec.  107.210(b), this final rule removes the reference to the 
+paragraph number in 46 U.S.C. 2101 defining public vessel because the 
+paragraphs in that section have been renumbered for the reasons 
+provided in our discussion of Sec.  1.07-100(a)(1). We are also 
+removing the reference to a definition of foreign vessel in 46 U.S.C. 
+2101 as that definition has been removed from the section entirely. We 
+are replacing it with a reference to the definition of foreign vessel 
+in 46 U.S.C. 110, added by Public Law 109-304, Sec.  4, Oct. 6, 2006, 
+120 Stat. 1487. Finally, we are adding a reference to the definition of 
+vessel of the United States at 46 U.S.C. 116. Congress also added that 
+definition in Public Law 109-304.
+    In Sec.  114.50, this final rule adds an email address as an 
+additional means for the public to submit appeals for the denial of 
+bridge permits.
+    In Sec.  115.50(a), this final rule adds language to require 
+applicants for authorization to construct a bridge across navigable 
+waters of the United States to include their email addresses in their 
+applications. It also adds language advising applicants to refer to 
+Commandant Publication (COMDTPUB) 16591, Bridge Permit Application 
+Guide, for guidance on completing the application.
+    In Sec.  115.60(a), this final rule removes the last three lines of 
+that paragraph, which relate to procedures for compliance (in 
+connection with the Coast Guard's issuance of a bridge permit) with 
+water quality certification requirements under section 401 of the Clean 
+Water Act, 33 U.S.C. 1341. The language removed from Sec.  115.60(a) 
+fulfilled requirements previously contained in an Environmental 
+Protection Agency (EPA) regulation, 40 CFR 121.6(b), that Federal 
+agencies provide the certifying authority notification of (a) the date 
+it received a copy of the applicant's certification request to the 
+certifying authority, (b) the ``applicable reasonable period of time to 
+act on the certification request,'' and (c) ``the date upon which 
+waiver will occur if the certifying authority fails or refuses to act 
+on the certification request.'' See the version of 40 CFR 121.6 in 
+effect on September 11, 2020. Also see the preamble of ``Clean Water 
+Act Section 401 Water Quality Certification Improvement Rule,'' 88 FR 
+66558, 66582 (Sept. 27, 2023), where EPA stated ``the Agency [EPA] is 
+removing the regulatory text located at Sec.  121.6(b) in the 2020 
+Rule, which required the Federal agency to communicate the date of 
+receipt of the request for [water quality] certification, the 
+reasonable period of time [to act on the request for certification], 
+and the date waiver [of certification] will occur.'' The 2023 EPA rule 
+which replaced the 2020 version of Sec.  121.6 renders the removed text 
+of the EPA rule obsolete, as the 2023 rule sets the date from which the 
+reasonable period of time begins for certification to occur, and 
+provides that the reasonable period of time to act on a certification 
+request is six months, unless the Federal agency and the certifying 
+authority agree in writing to some other period that does not exceed 
+one year.
+    In Sec.  116.55(a), this final rule changes the word 
+``recommendation'' to ``decision'' to describe a matter subject to 
+appeal, to conform with the language used elsewhere in the section. We 
+note here that a matter would not need to be appealed if it were merely 
+a recommendation.
+    In Sec.  116.55(b), this final rule adds email as a means of 
+submitting an appeal under paragraph (a) of this section.
+    In Sec. Sec.  117.255(a)(3)(i) and (a)(5)(i), this final rule 
+updates a contact phone number.
+    In Sec.  117.593(b)(2), this final rule adds language to clarify 
+how the operation lights at the Chelsea Street Bridge work, to better 
+reflect what a mariner sees at this location.
+    In Sec.  117.997(c)(2)(i), this final rule adds the term 
+``vessels'' after the term ``recreational'' to clarify that the phrase 
+``that do not qualify under section'' applies only to commercial 
+vessels. We also correct an incorrect reference to paragraph (d)(2)(ii) 
+so that Sec.  117.997(c)(2)(i) refers to paragraph (c)(2)(ii), as 
+paragraph (d) pertains to a different bridge, and paragraph (d)(2)(ii) 
+does not exist.
+    In Sec.  117.997(c)(2)(ii), this final rule corrects a 
+typographical error by adding a space between ``at'' and ``7.''
+    In Sec. Sec.  117.1087(a), 117.1087(a)(3), and 117.1087(a)(4), this 
+final rule amends those sections to reflect changes in bridge names 
+made by the bridge owner. The names of these bridges have already been 
+corrected in Coast Pilot 6 (page 419),\6\ and are being used in general 
+messaging between the Coast Guard and the bridge owner, including 
+messaging regarding deviations.
+---------------------------------------------------------------------------
+
+    \6\ <a href="http://nauticalcharts.noaa.gov/publications/coast-pilot/files/cp6/CPB6_WEB.pdf">nauticalcharts.noaa.gov/publications/coast-pilot/files/cp6/CPB6_WEB.pdf</a> (Last accessed 3-12-25).
+---------------------------------------------------------------------------
+
+    In Sec.  118.3(b), this final rule adds an email address for the 
+public to submit requests to view material incorporated by reference 
+(IBR) in part 118.
+    This final rule removes 33 CFR part 133, which is now obsolete. 
+Prior to December 23, 2022, when the NDAA 2023, became law, 33 U.S.C. 
+2712(d) and (e) authorized and required the President to obligate 
+appropriations into the Oil Spill Liability Trust Fund for removal 
+actions undertaken by the States, in a procedure (commonly known as 
+``State access'') that was implemented in 33 CFR part 133. Section 
+11314 of the NDAA 2023 removed those provisions in old 33 U.S.C. 
+2712(d) and (e) and substituted the language which is now in current 
+section 2712(d), for those provisions. That language authorizes States 
+to use cost-reimbursable agreements and withdraws the Coast Guard's 
+authority to administer the State access program.
+
+[[Page 52870]]
+
+    With the removal of 33 CFR part 133, the Coast Guard will 
+discontinue the Information Collection Request (ICR), Office of 
+Management and Budget (OMB) Control Number 1625-0068. Accordingly, this 
+technical amendment is considered deregulatory under Executive Order 
+14192 (Unleashing Prosperity Through Deregulation) due to the 
+elimination of a paperwork requirement. In addition, there is the 
+triennial savings to the Federal Government (for example, Coast Guard, 
+DHS and OMB) of not conducting a periodic renewal of the ICR, OMB 
+Control Number 1625-0068. We consider this a non-quantifiable benefit.
+    In Sec.  151.51(a)(1), this final rule removes incorrect citations 
+to paragraphs referring to the definitions of recreational vessels and 
+uninspected vessels in 46 U.S.C. 2101. This information is incorrect as 
+the paragraphs in 46 U.S.C. 2101 have been renumbered, as explained in 
+our discussion of Sec.  1.07-100(a)(1).
+    In Sec. Sec.  155.4025, 155.4030(b), and 155.4040(c), this final 
+rule replaces the term ``assessment of structural stability'' with 
+``assessment of structure and stability.'' The term ``assessment of 
+structural stability'' implies one distinct action but, as the Coast 
+Guard stated in a response to comments on its 2008 final rule, Salvage 
+and Marine Firefighting Requirements; Vessel Response Plans for Oil, 
+``these are two distinct types of assessments that will be going on at 
+the same time.'' \7\ We stated in the same paragraph of the 2008 rule 
+that we agreed, in part, with the points made in the response to 
+comments and added a sentence to the proposed definition (at 67 FR 
+31868, 31874 (May 10, 2002)), but did not clarify that the term 
+referred to two distinct actions. The change we are making in this 
+final rule will clarify the two distinct actions required--the 
+assessment of vessel stability and the assessment of structural 
+integrity.
+---------------------------------------------------------------------------
+
+    \7\ 73 FR 80618, 80631 (Dec. 31, 2008).
+---------------------------------------------------------------------------
+
+    In Sec. Sec.  155.5015(a)(3), 155.5020, and 159.305, this final 
+rule removes references to paragraph numbers in 46 U.S.C. 2101 as the 
+paragraphs have been renumbered, as explained in our discussion of 
+Sec.  1.07-100(a)(1). In Sec. Sec.  155.5015(a)(3) and 159.305, we are 
+not replacing the paragraph numbers referring to the definitions of 
+navigable waters of the United States and cruise vessel, respectively. 
+In Sec.  155.5020, however, we are replacing the paragraph number 
+referring to the definition of navigable waters of the United States, 
+now cited in Sec.  155.5020, with ``(23)'' because that regulation 
+refers to the waters identified in 46 U.S.C. 2101(23) only as a subset 
+of an alternative definition of that term, and not as the definition of 
+navigable waters of the United States, which is used in Sec.  155.5020.
+    In Sec.  164.01(b)(2), this final rule corrects an erroneous 
+reference to the regulation containing the definition for assistance 
+towing. 46 CFR 10.103, which the rule referenced prior to this change, 
+is an IBR section; 46 CFR 10.107, which the rule references after the 
+change, is the proper location of the definition.
+    In Sec. Sec.  164.39(b), 165.123(b), 165.169(a), and 165.500(a)(4), 
+this final rule removes references to paragraph numbers for the 
+definitions of tanker, tank vessel, and passenger vessel in 46 U.S.C. 
+2101 for the reasons provided in our discussion of Sec.  1.07-
+100(a)(1).
+    In Sec.  165.911(b)(2), this final rule updates contact information 
+for the public to request permission to transit security zones in the 
+Captain of the Port Eastern Great Lakes Zone.
+    In Sec.  165.923(a)(2)(ii)(C), this final rule removes a reference 
+to a paragraph number for the definition of commercial service in 46 
+U.S.C. 2101 for the reasons provided in our discussion of Sec.  1.07-
+100(a)(1) pertaining to the renumbering of paragraphs.
+    In Sec.  165.1141(d)(2), this final rule updates contact 
+information for the public to request permission to transit through the 
+San Clemente Safety Zone.
+    In Sec.  165.1157(a), this final rule adds degree, minute, and 
+second symbols to the latitude and longitude coordinates for the Santa 
+Barbara Breakwater Light.
+    In Sec.  165.1711(c)(6), this final rule removes a reference to an 
+incorrect paragraph number in 46 U.S.C. 2101 for the reasons provided 
+in our discussion of Sec.  1.07-100(a)(1). In addition, the adjective 
+``commercial'' has been removed before the phrase ``fishing vessels,'' 
+as the definition of fishing vessel in Sec.  2101 is ``a vessel that 
+commercially engages in the catching, taking, or harvesting of fish or 
+an activity that can reasonably be expected to result in the catching, 
+taking, or harvesting of fish.'' (Emphasis added.)
+    This final rule removes Sec. Sec.  174.17(c) and 174.19(c), which 
+are obsolete paragraphs governing the issuance of certificates of 
+number to vessels between April 27, 2012, and January 1, 2017. The 
+appendix referenced in these sections has already been removed.
+
+D. Technical Amendments to 46 CFR
+
+    In Sec.  2.01-7, footnote 7, this final rule removes references to 
+paragraphs in 46 U.S.C. 2101 defining passenger and passenger(s)-for-
+hire, as the paragraphs have been renumbered. For more detail, see our 
+explanation of the change to 33 CFR 1.07-100(a)(1).
+    In Sec.  3.01-1, this final rule removes a reference to a paragraph 
+number in 46 U.S.C. 2101 defining oceanographic research vessel because 
+the paragraphs in that section of the U.S. Code have been renumbered. 
+For more detail, see our explanation of the change to 33 CFR 1.07-
+100(a)(1).
+    In Sec. Sec.  4.03-50 and 7.1, this final rule removes a reference 
+to a paragraph number in 46 U.S.C. 2101 for the definitions of 
+recreational vessel, seagoing barges and seagoing motor vessels because 
+the paragraphs in that section of the U.S. Code have been renumbered. 
+For more detail, see our explanation of the change to 33 CFR 1.07-
+100(a)(1).
+    In Sec.  11.301, this final rule removes the reference to 
+paragraphs 11(a) and 11(c) in 46 U.S.C. 2101 for the definitions of 
+fishing vessel and fish-tender vessel because the paragraphs in section 
+2101 have been renumbered, and the referenced paragraph numbers are no 
+longer correct. We are not replacing the paragraph numbers, as 
+definitions in section 2101 are listed in alphabetical order, and 
+cross-referencing to a paragraph number is unnecessary for these 
+definitions. We are retaining a reference to the subordinate paragraph 
+associated with the definition of uninspected passenger vessels, 
+however, because that subordinate paragraph designation remains 
+unchanged and subordinate paragraphs (A) and (B) contain separate 
+definitions.
+    In Sec. Sec.  11.491(a) and 11.551, this final rule removes a 
+reference to a U.S. Code paragraph in 46 U.S.C. 2101 for the definition 
+of offshore supply vessel, as the paragraph has been renumbered. For 
+more detail, see our explanation of the change to 33 CFR 1.07-
+100(a)(1).
+    In Sec.  15.105, this final rule removes the reference to 
+paragraphs 12 and 14 in 46 U.S.C. 2101 because the paragraphs in 
+section 2101 have been renumbered and the referenced paragraph numbers 
+are no longer correct. We are not replacing the paragraph numbers, as 
+definitions in section 2101 are listed in alphabetical order, and 
+cross-referencing to a paragraph number is unnecessary for the 
+definitions of fishing vessel and fish-tender vessel. We are retaining 
+a reference to the subordinate paragraph associated with the definition 
+of uninspected passenger vessels, however, because that subordinate 
+paragraph designation remains unchanged and subordinate paragraphs (A) 
+and (B) contain separate definitions.
+    In Sec.  15.403(e), this final rule removes the reference to 
+paragraphs for the
+
+[[Page 52871]]
+
+definitions of fishing vessels and fish-tender vessels in 46 U.S.C. 
+2101 because the paragraphs in section 2101 have been renumbered, and 
+the referenced paragraph number is no longer correct. We are not 
+replacing the paragraph numbers, as definitions in section 2101 are 
+listed in alphabetical order, and cross-referencing to a paragraph 
+number is unnecessary. We are retaining a reference to the subordinate 
+paragraph associated with the definition of uninspected passenger 
+vessels, however, because that subordinate paragraph designation 
+remains unchanged and subordinate paragraphs (A) and (B) contain 
+separate definitions.
+    In Sec. Sec.  15.720(b) this final rule removes references to 
+paragraphs in the definitions of offshore supply vessel and mobile 
+offshore drilling unit in 46 U.S.C. 2101, as the paragraphs in section 
+2101 have been renumbered. For more detail, see our explanation of the 
+change to 33 CFR 1.07-100(a)(1).
+    In Sec.  15.1101(a), this final rule removes the reference to 
+paragraphs 11(a) and 11(c) in 46 U.S.C. 2101 because the paragraphs in 
+section 2101 have been renumbered and the referenced paragraph numbers 
+for the definitions of fishing vessel and fish-tender vessel are no 
+longer correct. For the reasons provided in our discussion of 33 CFR 
+1.07-100(a)(1), we are not replacing the paragraph numbers. We are 
+retaining a reference to the subordinate paragraphs associated with the 
+definition of uninspected passenger vessels, however, because the 
+subordinate paragraphs contain separate definitions.
+    In Sec.  24.10-1, this final rule changes a reference in the 
+definition of motorboat from table 24.05-1(a) in Sec.  24.05-1 to table 
+2.01-7(a) in 46 CFR 2.01-7(a). In 2014, the Coast Guard issued a rule 
+which removed table 24.05-1(a) from the CFR on the grounds that the 
+table unnecessarily duplicated table 2.01-7(a).\8\ However, due to a 
+drafting error, the rule did not update this cross-reference, and we 
+correct that here.
+---------------------------------------------------------------------------
+
+    \8\ 79 FR 58270, 58272 (Sept. 29, 2014)
+---------------------------------------------------------------------------
+
+    In Sec. Sec.  26.15-1(a) and 58.25-5(a), this final rule removes 
+references to the U.S. Code paragraphs in 46 U.S.C. 2101 defining 
+uninspected vessel, tanker, and tank vessel, as the paragraphs in 
+section 2101 have been renumbered. For more detail, see our explanation 
+of the change to 33 CFR 1.07-100(a)(1).
+    In Sec.  62.50-30(k)(3), this final rule corrects a cross-
+reference. Section 62.50-30(k)(3) incorrectly references paragraph (f) 
+of Sec.  111.70-3 because the reference to that paragraph was not 
+changed when the Coast Guard updated Sec.  111.70-3 in 1996 to 
+eliminate obsolete requirements. This amendment corrects that oversight 
+by changing the reference to paragraph (b) of Sec.  111.70-3, which now 
+contains the material that had been in paragraph (f) of the 1995 
+version of Sec.  111.70-3.\9\
+---------------------------------------------------------------------------
+
+    \9\ In 1995, 46 CFR 111.70-3 contained paragraphs (a) to (k). 
+Paragraph (f) was titled ``Low voltage release.'' On February 2, 
+1996 (at 61 FR 4137), the Coast Guard proposed to revise 46 CFR 
+subpart 111.70, stating ``the revision will eliminate obsolete 
+requirements.'' Section 111.70-3 was revised in the interim final 
+rule on June 4, 1996 (see 61 FR 28281 at <a href="http://www.govinfo.gov/content/pkg/FR-1996-06-04/pdf/96-13416.pdf">www.govinfo.gov/content/pkg/FR-1996-06-04/pdf/96-13416.pdf</a>). The revision contains 
+paragraphs (a) to (d). Paragraph (b), titled ``Low-voltage 
+release,'' now contains the material which had been in paragraph (f) 
+of the 1995 version of Sec.  111.70-3.
+---------------------------------------------------------------------------
+
+    In Sec.  68.55, this final rule removes a reference to the U.S. 
+Code paragraph in 46 U.S.C. 2101 defining oil, as the paragraphs in 
+section 2101 have been renumbered. For more detail, see our explanation 
+of the change to 33 CFR 1.07-100(a)(1).
+    In Sec.  90.10-23, this final rule changes a reference in the 
+definition of motorboat from a table which has been removed (table 
+90.05-1(a)) to a table with the same information in it (table 2.01-
+7(a)). This should have been done in a rulemaking published on 
+September 29, 2014, which stated at 79 FR 58270, 58272:
+
+    ``This rule amends the following sections to remove repetitive 
+tables: 46 CFR 24.05-1(a) . . ., 90.05-1(a) . . . . The repetitive 
+tables are duplications of information contained in table 2.01-7(A) 
+[sic], and therefore we replace the tables with a reference back to 
+the complete, original table published as table 2.01-7(A) [sic] in 
+46 CFR 2.01-7(a).''
+
+    In Sec.  108.151(b), this final rule corrects a grammatical error 
+by adding the word ``of.''
+    In Sec.  110.01-3(c), this final rule removes a reference to the 
+U.S. Code paragraph (14a) in 46 U.S.C. 2101 defining conversion, as the 
+paragraphs in section 2101 have been renumbered. For more detail, see 
+our explanation of the change to 33 CFR 1.07-100(a)(1). In addition, 
+the word ``Major'' has been added before ``conversions'' because the 
+current definition given in section 2101, and the definition given in 
+the 1997 version of section 2101 (which contained paragraph 14a), was 
+for ``major conversions.''
+    In Sec.  118.400(f),\10\ this final rule corrects a reference to 
+``paragraph (f) of this section'' to refer instead to paragraph (g). We 
+redesignated Sec.  118.400(f) as Sec.  118.400(g) in 86 FR 73171 
+(December 27, 2021), but failed to make a conforming change to the 
+reference at that time.
+---------------------------------------------------------------------------
+
+    \10\ Subpart D of Part 118 is titled ``Fixed Fire Extinguishing 
+and Detecting Systems.'' Section 118.400 is titled ``Where 
+required.''
+---------------------------------------------------------------------------
+
+    In Sec.  125.180(b)(4), this final rule corrects citations to 
+sections in 46 CFR subchapter L, which incorporate by reference the 
+American Bureau for Shipping's Rules for Building and Classing Mobile 
+Offshore Drilling Units. It does not change the meaning of the 
+regulations.
+    In Sec.  126.180, this final rule removes a reference to the higher 
+level paragraph in 46 U.S.C. 2101, as the number of the paragraph in 
+that U.S. Code section containing the definition of passenger has 
+changed. Because Sec.  126.180 refers the reader to a specific 
+subordinate paragraph of the definition of ``passenger,'' we are 
+revising the reference, ``46 U.S.C. 2101(21)(B)'' rather than deleting 
+everything after ``2101.'' Our revision refers the reader to 
+subordinate paragraph (B) of the paragraph containing the definition of 
+passenger in 46 U.S.C. 2101. That paragraph applies specifically to a 
+passenger on an offshore supply vessel.
+    In Sec.  131.540(a), this final rule corrects the misspelling of 
+the word ``each.''
+    In Sec.  132.130(a), this final rule corrects the misspelling of 
+the word ``fire.''
+    In Sec.  133.130(b)(4)(i), this final rule corrects an editorial 
+error by deleting the redundant words ``and list'' from the phrase 
+``Within the limits of trim and list and list specified . . . .''
+    In Sec.  147.65(b)(1), this final rule removes the words ``of 
+pressure'' from the sentence ``If cylinder weight or liquid level, 
+adjusted for temperature, shows a 5 percent loss of pressure, the 
+cylinder must be refilled.'' A loss of cylinder weight or liquid level, 
+adjusted for temperature, is distinct from a loss of pressure, so the 
+earlier language was illogical.
+    In Sec.  169.101, this final rule deletes a reference to a U.S. 
+Code paragraph defining sailing school vessel because the paragraphs in 
+46 U.S.C. 2101 have been renumbered, and the paragraph cited is no 
+longer the correct one. For more detail, see our explanation of the 
+change to 33 CFR 1.07-100(a)(1).
+    In Sec.  177.410(b), this final rule removes the words ``meet as'' 
+from the phrase ``. . . and meet as accepted by the Commandant as 
+meeting . . .'' as both redundant and ungrammatical.
+    In Sec.  181.115(b), this final rule, applicable to 46 CFR 
+subchapters T and K, removes implementation deadlines that have passed 
+and are no longer relevant. This final rule also corrects an error in 
+Sec.  181.115 resulting from a previous rulemaking, published at 81 FR 
+48220 (July 22, 2016). That 2016 rulemaking split an earlier version of 
+Sec.  181.400 into two sections to separate
+
+[[Page 52872]]
+
+the identification of spaces required to have fixed fire extinguishing 
+systems from the identification of spaces required to have fire 
+detection systems. The portion of Sec.  181.400 dealing with fire 
+extinguishing systems remained in Sec.  181.400, and the portion 
+relating to fire detection systems was moved to Sec.  181.405. Section 
+181.115, which had referred only to Sec.  181.400, was not changed in 
+the 2016 rulemaking. This final rule corrects Sec.  118.115 by adding a 
+reference to Sec.  181.405 to reflect that the identification of spaces 
+required to have fire detection systems is now set out in that section.
+    This final rule splits 46 CFR 181.300(d) into two separate 
+paragraphs and redesignates what had been paragraph (e) as paragraph 
+(f). The first sentence of paragraph (d), ``A fire pump may be driven 
+by a propulsion engine,'' remains in paragraph (d). The second 
+sentence, ``A fire pump must be permanently connected to the fire main 
+and may be connected to the bilge system to meet the requirements of 
+Sec.  182.520 of this chapter,'' is now paragraph (e). Having both 
+requirements in one paragraph has caused confusion because people have 
+incorrectly inferred that the second sentence is only applicable if the 
+first sentence is true. Regardless of whether the fire pump is driven 
+by a propulsion engine, however, the pump must be permanently attached 
+to the vessel. A separate, portable pump does not meet the requirements 
+set out in 46 CFR subpart D.
+    This final rule adds paragraphs (c), (d), and (e) to Sec.  181.400. 
+The language added here pertains to fire suppression system 
+requirements and is being moved from the section addressing fire 
+detection systems in 46 CFR 181.405. A 2016 rule \11\ for harmonizing 
+fire safety standards split requirements (previously consolidated in 
+Sec.  181.400) for both fire suppression and detection systems into 
+Sec. Sec.  181.400 (Fire suppression systems) and 181.405 (Fire 
+detection systems). The rulemaking inadvertently put some of the fire 
+suppression requirements into the fire detection section. Rearranging 
+these paragraphs will not change the requirements, but it will make the 
+organization of the subpart more logical and consistent with the 
+original intent as proposed. The original intent of the 2016 change is 
+explained at 79 FR 2271, in the NPRM titled ``Harmonization of 
+Standards for Fire Protection, Detection, and Extinguishing 
+Equipment,'' and published on January 13, 2014. There, we stated:
+---------------------------------------------------------------------------
+
+    \11\ 81 FR 48299, 48300 (July 22, 2016)
+
+    The existing regulations at Sec.  181.400 contain the 
+requirements for both fire extinguishing systems and fire detection 
+systems on small passenger vessels regulated under 46 CFR subchapter 
+T. We propose to separate, for clarity, these requirements by 
+removing the regulations for fire detection systems in Sec.  
+181.400(c) through (g) and moving these regulations to proposed new 
+Sec.  181.405(a) through (e). Further, we propose to amend the title 
+of Sec.  181.400 to ``Spaces required to have fixed fire 
+extinguishing systems,'' in order to clarify that this section would 
+---------------------------------------------------------------------------
+contain the requirements for fire extinguishing systems only.
+
+    In Sec.  181.405, this final rule removes fire suppression system 
+requirements that are currently listed in the section designated for 
+fire detection systems. As explained in the preceding paragraph 
+regarding Sec.  181.400, the 2016 rule harmonizing fire safety 
+standards split Sec.  181.400, which contained requirements for both 
+fire suppression and detection systems, into Sec.  181.400 (Fire 
+suppression systems) and Sec.  181.405 (Fire detection systems). The 
+rulemaking inadvertently left some fire suppression requirements in the 
+fire detection section. Rearranging these paragraphs will not change 
+the requirements, but it will make the organization of the subpart more 
+logical.
+    In Sec.  182.115(c) and (d), this final rule removes an 
+implementation deadline that has passed and is no longer relevant.
+    In Sec.  188.10-77, this final rule changes a reference, in the 
+definition of vessel, from a table (table 24.05-1(a)) which has been 
+removed to another table (table 2.01-7(a)) with the same information in 
+it. This change should have been done in a rulemaking published on 
+September 29, 2014, where we stated the following, at 79 FR 58270, 
+58272:
+
+    This final rule amends 46 CFR 24.05-1(a) to remove repetitive 
+tables. The repetitive tables are duplications of information 
+contained in table 2.01-7(A)[sic], and therefore we replace the 
+tables with a reference back to the complete, original table 
+published as table 2.01-7(A) [sic] in 46 CFR 2.01-7(a).
+
+V. Regulatory Analyses
+
+    We developed this final rule after considering numerous statutes 
+and Executive orders related to rulemaking. Below we summarize our 
+analyses based on these statutes or Executive orders.
+
+A. Regulatory Planning and Review
+
+    Executive Orders 12866 (Regulatory Planning and Review) and 13563 
+(Improving Regulation and Regulatory Review) direct agencies to assess 
+the costs and benefits of available regulatory alternatives and, if 
+regulation is necessary, to select regulatory approaches that maximize 
+net benefits. Executive Order 13563 emphasizes the importance of 
+quantifying both costs and benefits, of reducing costs, of harmonizing 
+rules, and of promoting flexibility.
+    Executive Order 14192 (Unleashing Prosperity Through Deregulation) 
+directs agencies to significantly reduce the private expenditures 
+required to comply with Federal regulations and provides that ``any new 
+incremental costs associated with new regulations shall, to the extent 
+permitted by law, be offset by the elimination of existing costs 
+associated with at least 10 prior regulations.''
+    The Office of Management and Budget (OMB) has not designated this 
+final rule a ``significant regulatory action'' under section 3(f) of 
+Executive Order 12866. Accordingly, this rule has not been reviewed by 
+OMB.
+    This final rule is considered an Executive Order 14192 deregulatory 
+action due to the elimination of a paperwork requirement. This final 
+rule involves non-substantive, technical amendments and internal agency 
+practices and procedures; it will not impose any additional costs. The 
+technical amendments in this final rule fit into categories that 
+involve (1) correcting inadvertent typographical errors in the CFR; (2) 
+modifying existing language in the CFR by addition or subtraction to 
+improve the readability or clarity of regulations; (3) removing 
+irrelevant information, such as expired regulatory provisions or 
+cancelled reference material, and replacing outdated regulatory 
+information with current information, where applicable; and (4) 
+revising office contact information and mailing addresses. This final 
+rule will not impose any additional costs to the public or the Federal 
+Government, because none of the technical and editorial changes in this 
+final rule will impose new regulatory requirements. A summary of these 
+amendments by category and by CFR title and section are presented in 
+table 1.
+
+[[Page 52873]]
+
+
+
+     Table 1--Summary of Regulatory Changes by CFR Title and Section
+------------------------------------------------------------------------
+                   CFR section or     Description of
+   CFR title            part             changes        Economic impact
+------------------------------------------------------------------------
+33.............  67.05-20, 67.30-   Improves the       Corrects various
+                  5(d),              accuracy of        typographical
+                  117.997(c)(2)(ii   regulatory         errors.
+                  ), 155.4025,       information by
+                  Table              correcting
+                  155.4030(b),       erroneous
+                  Table 155          information.
+                  4040(c),
+                  164.01(b)(2).
+46.............  108.151(b),        Improves the       Corrects various
+                  131.540(a),        accuracy of        typographical
+                  132.130(a),        regulatory         errors.
+                  181.300(d),        information by
+                  181.405,.          correcting
+                                     erroneous
+                                     information.
+33.............  26.03(b),          Improves the       Improves
+                  62.47(a)(2),       accuracy of        readability by
+                  62.63(b)(2),       regulatory         removing or
+                  67.40-1(a)         information by     replacing
+                  95.010, 100.30,    correcting         irrelevant and
+                  107.210(b),        erroneous          outdated
+                  116.55(a),         information.       information.
+                  117.593(b)(2),
+                  117.997(c)(2)(i)
+                  ,
+                  117.1087(a)(3),
+                  117.1087(a)(4),
+                  151.51(a)(1),
+                  165.1711(c)(6).
+33.............  1.07-100(a)(1),    Adds clarifying    Improves
+                  62.1(b)(2),        language and       readability by
+                  66.10, 67.40-      removes            removing or
+                  1(b), 115.50(a),   redundant,         replacing
+                  115.60(a),         confusing, or      irrelevant and
+                  155.5015(a)(3),    incorrect          outdated
+                  155.5020,          language.          information.
+                  159.305,
+                  164.39(b),
+                  165.123(b),
+                  165.169(a),
+                  165.500(a)(4),
+                  165.923(a)(2)(ii
+                  )(C),
+                  165.1141(d)(2),
+                  165.1157(a),
+                  174.17(c),
+                  174.19(c).
+46.............  2.01-7 footnote    Adds clarifying    Improves
+                  7, 3.01-1, 4.03-   language and       readability by
+                  50, 7.1, 11.301,   removes            removing or
+                  11.491(a),         redundant,         replacing
+                  11.551, 15.105,    confusing, or      irrelevant and
+                  15.403(e),         incorrect          outdated
+                  15.720(b),         language.          information.
+                  15.1101(a),
+                  24.10-1, 26.15-
+                  1(a), 58.25-
+                  5(a), 62.50-
+                  30(k)(3), 68.55,
+                  90.10-23, 110.01-
+                  3(c),
+                  118.400(f),
+                  125.180(b)(4),
+                  126.180,
+                  133.130(b)(4)(i)
+                  , 147.65(b)(1),
+                  169.101,
+                  177.410(b),
+                  181.115(b),
+                  181.400,
+                  182.115(c),
+                  182.115(d),
+                  188.10-77.
+33.............  62.21(c)(2),       Updates office     Improves the
+                  66.01-5, 67.50-    contact            accuracy of
+                  25(e),             information or     regulatory
+                  97.110(a),         mailing            information
+                  114.50,            addresses.         through
+                  116.55(b),                            administrative
+                  117.255(a)(3)(i)                      changes.
+                  ,
+                  117.255(a)(5)(i)
+                  , 117.1087(a),
+                  118.3(b),
+                  165.911(b)(2).
+------------------------------------------------------------------------
+
+    Also, as discussed in the ``Discussion of the Rule'' section above, 
+this final rule removes 33 CFR part 133, which is now obsolete. Prior 
+to December 23, 2022, the date in which the NDAA 2023, became law, 33 
+U.S.C. 2712(d) and (e) authorized and required the President to 
+obligate appropriations into the Oil Spill Liability Trust Fund for 
+removal actions undertaken by the States, in a procedure (commonly 
+known as ``State access'') that was implemented in 33 CFR part 133. 
+Section 11314 of the NDAA 2023 removed those provisions in 33 U.S.C. 
+2712(d) and (e) and substituted the language, which is now in section 
+2712(d), for those provisions. That language authorizes States to use 
+cost-reimbursable agreements and withdraws the Coast Guard's authority 
+to administer the State access program.
+    The benefits of the non-substantive technical amendments are 
+increased accuracy of regulatory information by correcting erroneous 
+information, and improved readability and clarity of regulations by 
+removing redundant or confusing language and by removing expired or 
+cancelled provisions that are no longer relevant. In addition, 
+correcting technical items such as office contact details and location 
+coordinates will improve the ability to reference and contact the 
+correct entities.
+
+B. Small Entities
+
+    The Regulatory Flexibility Act of 1980, 5 U.S.C. 601-612, requires 
+federal agencies to consider the potential impact on small entities 
+when they issue a rule after being required to first publish a general 
+NPRM. Under 5 U.S.C. 604(a), a regulatory flexibility analysis is not 
+required for this final rule because, under provisions in 553(b)(B), we 
+were not required to publish a general NPRM. Therefore, we did not 
+conduct a regulatory flexibility analysis for this rule.
+
+C. Assistance for Small Entities
+
+    Under section 213(a) of the Small Business Regulatory Enforcement 
+Fairness Act of 1996, Public Law 104-121, we offer to assist small 
+entities in understanding this final rule so that they can better 
+evaluate its effects on them and participate in the rulemaking. The 
+Coast Guard will not retaliate against small entities that question or 
+complain about this final rule or any policy or action of the Coast 
+Guard.
+
+D. Collection of Information
+
+    This final rule calls for no new collection of information under 
+the Paperwork Reduction Act of 1995, 44 U.S.C. 3501-3520. However, with 
+the removal of 33 CFR part 133 the Coast Guard will discontinue the ICR 
+OMB Control Number 1625-0068.
+
+E. Federalism
+
+    A rule has implications for federalism under Executive Order 13132 
+(Federalism) if it has a substantial direct effect on States, on the 
+relationship between the National Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government. We have analyzed this rule under Executive Order 13132 and 
+have determined that it is consistent with the fundamental federalism 
+principles and preemption requirements described in Executive Order 
+13132.
+
+F. Unfunded Mandates
+
+    The Unfunded Mandates Reform Act of 1995, 2 U.S.C. 1531-1538, 
+requires Federal agencies to assess the effects of their discretionary 
+regulatory actions. In particular, the Act addresses actions that may 
+result in the expenditure by a
+
+[[Page 52874]]
+
+State, local, or tribal government, in the aggregate, or by the private 
+sector of $100,000,000 (adjusted for inflation) or more in any one 
+year. Although this final rule will not result in such expenditure, we 
+do discuss the effects of this final rule elsewhere in this preamble.
+
+G. Taking of Private Property
+
+    This final rule will not cause a taking of private property or 
+otherwise have taking implications under Executive Order 12630 
+(Governmental Actions and Interference with Constitutionally Protected 
+Property Rights), which addresses governmental actions and interference 
+with property rights.
+
+H. Civil Justice Reform
+
+    This final rule meets applicable standards in sections 3(a) and 
+3(b)(2) of Executive Order 12988 (Civil Justice Reform) to minimize 
+litigation, eliminate ambiguity, and reduce burden.
+
+I. Protection of Children
+
+    We have analyzed this final rule under Executive Order 13045 
+(Protection of Children from Environmental Health Risks and Safety 
+Risks). This final rule is not an economically significant rule and 
+will not create an environmental risk to health or risk to safety that 
+might disproportionately affect children.
+
+J. Indian Tribal Governments
+
+    This final rule does not have tribal implications under Executive 
+Order 13175 (Consultation and Coordination with Indian Tribal 
+Governments), because it will not have a substantial direct effect on 
+one or more Indian Tribes, on the relationship between the Federal 
+Government and Indian Tribes, or on the distribution of power and 
+responsibilities between the Federal Government and Indian Tribes.
+
+K. Energy Effects
+
+    We have analyzed this final rule under Executive Order 13211 
+(Actions Concerning Regulations That Significantly Affect Energy 
+Supply, Distribution, or Use). We have determined that it is not a 
+``significant energy action'' under that order because it is not a 
+``significant regulatory action'' under Executive Order 12866 and is 
+not likely to have a significant adverse effect on the supply, 
+distribution, or use of energy.
+
+L. Technical Standards
+
+    The National Technology Transfer and Advancement Act, codified as a 
+note to 15 U.S.C. 272, directs agencies to use voluntary consensus 
+standards in their regulatory activities unless the agency provides 
+Congress, through OMB, with an explanation of why using these standards 
+would be inconsistent with applicable law or otherwise impractical. 
+Voluntary consensus standards are technical standards (for example, 
+specifications of materials, performance, design, or operation; test 
+methods; sampling procedures; and related management systems practices) 
+that are developed or adopted by voluntary consensus standards bodies.
+    This final rule does not use technical standards or incorporation 
+by reference. Therefore, we did not consider the use of voluntary 
+consensus standards.
+
+M. Environment
+
+    We have analyzed this final rule under Department of Homeland 
+Security Management Directive 023-01, Rev. 1, associated implementing 
+instructions, and Environmental Planning COMDTINST 5090.1 (series), 
+which guide the Coast Guard in complying with the National 
+Environmental Policy Act of 1969 (42 U.S.C. 4321-4370f), and have made 
+a determination that this action is one of a category of actions that 
+do not individually or cumulatively have a significant effect on the 
+human environment. A Record of Environmental Consideration supporting 
+this determination is available in the docket. For instructions on 
+locating the docket, see the ADDRESSES section of this preamble.
+    This final rule is categorically excluded under paragraph A3 and 
+L54 of Appendix A, Table 1 of DHS Instruction Manual 023-01-001-01, Rev 
+1. Paragraph A3 pertains to: Promulgation of rules, issuance of rulings 
+or interpretations, and the development and publication of policies, 
+orders, directives, notices, procedures, manuals, advisory circulars, 
+and other guidance documents of the following nature: (a) Those of a 
+strictly administrative or procedural nature; (b) Those that implement, 
+without substantive change, statutory or regulatory requirements; (c) 
+Those that implement, without substantive change, procedures, manuals, 
+and other guidance documents; (d) Those that interpret or amend an 
+existing regulation without changing its environmental effect; (e) 
+Technical guidance on safety and security matters; or (f) Guidance for 
+the preparation of security plans. Paragraph L54 pertains to 
+``Regulations which are editorial or procedural, such as those updating 
+addresses or establishing application procedures.'' This final rule 
+makes non-substantive technical, organizational, and conforming 
+amendments to existing Coast Guard regulations and also, as explained 
+above, implements without substantive changes, statutory requirements 
+made by the NDAA 2023. This final rule is a continuation of our 
+practice of periodically issuing rules to keep our regulations up-to-
+date and accurate.
+
+N. Congressional Review Act
+
+    Before a rule can take effect, 5 U.S.C. 801, the Congressional 
+Review Act, requires agencies to submit the rule and a report 
+indicating whether it is a major rule to Congress and the Comptroller 
+General. Under 5 U.S.C. 804(3)(C), rules of agency organization, 
+procedure, or practice that do not substantially affect the rights or 
+obligations of non-agency parties are not considered to be a rule for 
+the purposes of the Congressional Review Act. This technical amendment 
+is a rule of agency organization, procedure, or practice that will not 
+substantially affect the rights or obligations of non-agency parties, 
+thus it is not required to be submitted for review under the CRA.
+
+List of Subjects
+
+33 CFR Part 1
+
+    Administrative practice and procedure, Authority delegations 
+(Government agencies), Freedom of information, Penalties.
+
+33 CFR Part 26
+
+    Communications equipment, Marine safety, Radio, Telephone, Vessels.
+
+33 CFR Part 62
+
+    Navigation (water).
+
+33 CFR Part 66
+
+    Intergovernmental relations, Navigation (water), Reporting and 
+recordkeeping requirements.
+
+33 CFR Part 67
+
+    Continental shelf, Navigation (water), Reporting and recordkeeping 
+requirements.
+
+33 CFR Part 95
+
+    Alcohol abuse, Drug abuse, Marine safety, Penalties.
+
+33 CFR Part 97
+
+    Cargo vessels, Incorporation by reference, Marine safety, 
+Navigation (water), Reporting and recordkeeping requirements.
+
+33 CFR Part 100
+
+    Harbors, Marine safety, Navigation (water), Reporting and 
+recordkeeping
+
+[[Page 52875]]
+
+requirements, Security measures, Waterways.
+
+33 CFR Part 107
+
+    Harbors, Marine safety, Maritime security, Navigation (water), 
+Reporting and recordkeeping requirements, Security measures, Vessels, 
+Waterways.
+
+33 CFR Part 114
+
+    Bridges.
+
+33 CFR Part 115
+
+    Administrative practice and procedure, Bridges, Reporting and 
+recordkeeping requirements.
+
+33 CFR Part 116
+
+    Bridges.
+
+33 CFR Part 117
+
+    Bridges.
+
+33 CFR Part 118
+
+    Bridges.
+
+33 CFR Part 133
+
+    Intergovernmental relations, Oil pollution, Reporting and 
+recordkeeping requirements.
+
+33 CFR Part 151
+
+    Administrative practice and procedure, Oil pollution, Penalties, 
+Reporting and recordkeeping requirements, Water pollution control.
+
+33 CFR Part 155
+
+    Alaska, Hazardous substances, Incorporation by reference, Oil 
+pollution, Reporting and recordkeeping requirements.
+
+33 CFR Part 159
+
+    Alaska, Reporting and recordkeeping requirements, Sewage disposal, 
+Vessels.
+
+33 CFR Part 164
+
+    Incorporation by reference, Marine safety, Navigation (water), 
+Reporting and recordkeeping requirements, Waterways.
+
+33 CFR Part 165
+
+    Harbors, Marine safety, Navigation (water), Reporting and 
+recordkeeping requirements, Security measures, Waterways.
+
+33 CFR Part 174
+
+    Intergovernmental relations, Marine safety, Reporting and 
+recordkeeping requirements.
+
+46 CFR Part 2
+
+    Marine safety, Reporting and recordkeeping requirements, Vessels.
+
+46 CFR Part 3
+
+    Coastal zone, Oceanographic research vessels, Reporting and 
+recordkeeping requirements, Research.
+
+46 CFR Part 4
+
+    Administrative practice and procedure, Drug testing, 
+Investigations, Marine safety, Nuclear vessels, Radiation protection, 
+Reporting and recordkeeping requirements, Safety, Transportation.
+
+46 CFR Part 7
+
+    Law enforcement, Vessels.
+
+46 CFR Part 11
+
+    Penalties, Reporting and recordkeeping requirements, Schools, 
+Seamen.
+
+46 CFR Part 15
+
+    Incorporation by reference, Reporting and recordkeeping 
+requirements, Seamen, Vessels.
+
+46 CFR Part 24
+
+    Marine safety.
+
+46 CFR Part 26
+
+    Marine safety, Penalties, Reporting and recordkeeping requirements.
+
+46 CFR Part 58
+
+    Incorporation by reference, Reporting and recordkeeping 
+requirements, Vessels.
+
+46 CFR Part 62
+
+    Incorporation by reference, Reporting and recordkeeping 
+requirements, Vessels.
+
+46 CFR Part 68
+
+    Oil pollution, Vessels.
+
+46 CFR Part 90
+
+    Cargo vessels, Marine safety.
+
+46 CFR Part 108
+
+    Fire prevention, Marine safety, Occupational safety and health, Oil 
+and gas exploration, Vessels.
+
+46 CFR Part 110
+
+    Incorporation by reference, Reporting and recordkeeping 
+requirements, Vessels.
+
+46 CFR Part 118
+
+    Fire prevention, Marine safety, Passenger vessels, Reporting and 
+recordkeeping requirements.
+
+46 CFR Part 125
+
+    Administrative practice and procedure, Cargo vessels, Hazardous 
+materials transportation, Incorporation by reference, Marine safety, 
+Seamen.
+
+46 CFR Part 126
+
+    Cargo vessels, Marine safety, Reporting and recordkeeping 
+requirements.
+
+46 CFR Part 131
+
+    Cargo vessels, Fire prevention, Marine safety, Navigation (water), 
+Occupational safety and health, Reporting and recordkeeping 
+requirements.
+
+46 CFR Part 132
+
+    Cargo vessels, Fire prevention, Marine safety, Reporting and 
+recordkeeping requirements.
+
+46 CFR Part 133
+
+    Cargo vessels, Marine safety, Reporting and recordkeeping 
+requirements.
+
+46 CFR Part 147
+
+    Hazardous materials transportation, Incorporation by reference, 
+Labeling, Marine resources, Marine safety, Packaging and containers, 
+Reporting and recordkeeping requirements.
+
+46 CFR Part 169
+
+    Fire prevention, Incorporation by reference, Marine safety, 
+Reporting and recordkeeping requirements, Schools, Vessels.
+
+46 CFR Part 177
+
+    Marine safety, Passenger vessels, Reporting and recordkeeping 
+requirements.
+
+46 CFR Part 181
+
+    Fire prevention, Marine safety, Passenger vessels, Reporting and 
+recordkeeping requirements.
+
+46 CFR Part 182
+
+    Marine safety, Passenger vessels.
+
+46 CFR Part 188
+
+    Marine safety, Oceanographic research vessels.
+
+    For the reasons discussed in the preamble, the Coast Guard amends 
+33 CFR parts 1, 26, 62, 66, 67, 95, 97, 100, 107, 114, 115, 116, 117, 
+118, 133, 151, 155, 159, 164, 165, and 174 and 46 CFR parts 2, 3, 4, 7, 
+11, 15, 24, 26, 58, 62, 68, 90, 108, 110, 118, 125, 126, 131, 132, 133, 
+147, 169, 177, 181, 182, and 188 as follows:
+
+Title 33--Navigation and Navigable Waters
+
+PART 1--GENERAL PROVISIONS
+
+0
+1. The authority citation for part 1 is revised to read as follows:
+
+
+    Authority: 14 U.S.C. 502, 503, 505; 33 U.S.C. 401, 491, 525, 
+1321, 2716, and 2716a;
+
+[[Page 52876]]
+
+42 U.S.C. 9615; 49 U.S.C. 322; DHS Delegation No. 00170.1, Revision 
+No. 01.4; section 1.01-70 also issued under the authority of E.O. 
+12580, 3 CFR, 1987 Comp., p. 193; and sections 1.01-80 and 1.01-85 
+also issued under the authority of E.O. 12777, 3 CFR, 1991 Comp., p. 
+351.
+
+
+Sec.  1.07-100   [Amended]
+
+0
+2. Amend Sec.  1.07-100 in paragraph (a)(1), by removing the text 
+``(11a), (11b), or (11c), respectively''.
+
+PART 26--VESSEL BRIDGE-TO-BRIDGE RADIOTELEPHONE REGULATIONS
+
+0
+3. The authority citation for part 26 is revised to read as follows:
+
+    Authority: 14 U.S.C. 102, 33 U.S.C. 1201-1208; Pub. L. 107-295, 
+116 Stat. 2064; DHS Delegation No. 00170.1, Revision No. 01.4. Rule 
+1, International Regulations for the Prevention of Collisions at 
+Sea.
+
+
+Sec.  26.03  [Amended]
+
+0
+4. Amend Sec.  26.03 in paragraph (b), by removing the text ``Mega-
+Hertz'' and adding in its place the text ``megahertz (MHz)''.
+
+PART 62--UNITED STATES AIDS TO NAVIGATION SYSTEM
+
+0
+5. The authority citation for part 62 is revised to read as follows:
+
+    Authority:  14 U.S.C. 544; 43 U.S.C. 1333; 46 U.S.C. 70031, 
+70041; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  62.1   [Amended]
+
+0
+6. Amend Sec.  62.1 by removing paragraph (b)(2), and redesignate 
+paragraph (b)(1) as paragraph (b).
+
+0
+7. Amend Sec.  62.21 by revising paragraph (c)(2) to read as follows:
+
+
+Sec.  62.21   General.
+
+* * * * *
+    (c) * * *
+    (2) The United States Coast Pilot, published by the National Ocean 
+Service and available from NOAA Certified Printer Partners listed at 
+<a href="http://www.nauticalcharts.noaa.gov/enconline/enconline.html">www.nauticalcharts.noaa.gov/enconline/enconline.html</a>. Free on-line 
+versions and weekly updates supplement the information shown on 
+nautical charts and are available directly from NOAA at 
+<a href="http://distribution.charts.noaa.gov/weekly_updates/">distribution.charts.noaa.gov/weekly_updates/</a>. Subjects such as local 
+navigation regulations, channel and anchorage peculiarities, dangers, 
+climatological data, routes, and port facilities are covered.
+* * * * *
+
+0
+8. Amend Sec.  62.47 by revising paragraph (a)(2) to read as follows:
+
+
+Sec.  62.47   Sound signals.
+
+    (a) * * *
+    (2) Where no live watch is maintained, sound signals are normally 
+operated continuously. However, most are equipped with Mariner Radio 
+Activated Sound Systems (MRASS) that are activated by the mariner by 
+keying their VHF radio microphone five (5) times on the designated 
+charted frequency. Channels 81a (157.075 MHz) and channel 83a (157.175 
+MHz) are the two most common frequencies, but others may be designated 
+and charted. (Mariners may consult the appropriate U.S. Coast Guard 
+Light List volume or local notice to mariners for specific activation 
+frequencies and instructions.) Activated signals will normally operate 
+for 45 minutes after the signal is triggered.
+* * * * *
+
+
+Sec.  62.63   [Amended]
+
+0
+9. Amend Sec.  62.63 in paragraph (b)(2), by removing the word 
+``loran'' and adding, in its place, the words ``electronic charting 
+systems''.
+
+PART 66--PRIVATE AIDS TO NAVIGATION
+
+0
+10. The authority citation for part 66 is revised to read as follows:
+
+    Authority: 14 U.S.C. 542, 543, 544; 43 U.S.C. 1333; Pub. L. 107-
+296, 116 Stat. 2135; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  66.01-5   [Amended]
+
+0
+11. Amend Sec.  66.01-5 in the introductory text, by removing the text 
+``http://www.uscg.mil/forms/form_public_use.asp'' and adding in its 
+place the text ``www.dcms.uscg.mil/forms/''.
+
+Subpart 66.10 [Removed]
+
+0
+12. Remove subpart 66.10, consisting of Sec. Sec.  66.10-1 through 
+66.10-35.
+
+PART 67--AIDS TO NAVIGATION ON ARTIFICIAL ISLANDS AND FIXED 
+STRUCTURES
+
+0
+13. The authority citation for part 67 is revised to read as follows:
+
+    Authority:  14 U.S.C. 503, 544; 43 U.S.C. 1333; DHS Delegation 
+No. 00170.1, Revision No. 01.4.
+
+
+Sec.  67.05-20   [Amended]
+
+0
+14. Amend Sec.  67.05-20 by removing the text ``: Provided, That'' and 
+adding, in its place, the text ``; provided that''.
+
+
+Sec.  67.30-5   [Amended]
+
+0
+15. Amend Sec.  67.30-5 in paragraph (d), by removing the text ``: 
+Provided, That'' and adding, in its place, the text ``; provided 
+that''.
+
+
+Sec.  67.40-1   [Amended]
+
+0
+16. Amend Sec.  67.40-1 as follows:
+0
+a. In paragraph (a), remove the word ``telegram'' and add in its place 
+the text ``electronic mail, telephone,''; and
+0
+b. In paragraph (b), remove the word ``telegram'' and add in its place 
+the word ``notification''.
+
+0
+17. Amend Sec.  67.50-25 by revising paragraph (e) to read as follows:
+
+
+Sec.  67.50-25   USCG Heartland District.
+
+* * * * *
+    (e) Applications. All applications for private aids to navigation 
+and all correspondence dealing with private aids to navigation and 
+obstruction lighting must be addressed to Commander (dpw), USCG 
+Heartland District, Hale Boggs Federal Building, 500 Poydras Street, 
+Suite 1324, New Orleans, Louisiana 70130-3396.
+* * * * *
+
+PART 95--OPERATING A VESSEL WHILE UNDER THE INFLUENCE OF ALCOHOL OR 
+A DANGEROUS DRUG
+
+0
+18. The authority citation for part 95 is revised to read as follows:
+
+    Authority: 33 U.S.C. 1701, 46 U.S.C. 2302; DHS Delegation No. 
+00170.1, Revision No. 01.4.
+
+0
+19. Amend Sec.  95.010 by revising the definition of ``Recreational 
+vessel'' to read as follows:
+
+
+Sec.  95.010   Definition of terms as used in this part.
+
+* * * * *
+    Recreational vessel means a vessel meeting the definition of that 
+term in 46 U.S.C. 2101 that is then being used only for pleasure.
+* * * * *
+
+PART 97--RULES FOR THE SAFE OPERATION OF VESSELS, STOWAGE AND 
+SECURING OF CARGOES
+
+0
+20. The authority citation for part 97 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3306; E.O. 12234; DHS Delegation No. 
+00170.1, Revision No. 01.4.
+
+0
+21. Amend Sec.  97.110 by revising paragraph (a) to read as follows:
+
+
+Sec.  97.110   Incorporation by reference.
+
+    (a) Certain material is incorporated by reference into this subpart 
+with the approval of the Director of the Federal Register under 5 
+U.S.C. 552(a) and 1 CFR part 51. All approved material is available for 
+inspection by contacting Mr. Douglas Lincoln, of the Coast
+
+[[Page 52877]]
+
+Guard's Vessel and Facility Operating Standards Division, Commandant 
+(CG-OES-2); telephone 571-613-1069, email <a href="/cdn-cgi/l/email-protection#c682a9b3a1aaa7b5e894e88aafa8a5a9aaa8f586b3b5a5a1e8abafaa"><span class="__cf_email__" data-cfemail="bdf9d2c8dad1dcce93ef93f1d4d3ded2d1d38efdc8cededa93d0d4d1">[email&#160;protected]</span></a>, 
+and is available from the sources listed below. It is also available 
+for inspection at the National Archives and Records Administration 
+(NARA). For information on the availability of this material at NARA, 
+email: <a href="/cdn-cgi/l/email-protection#0365712d6a6d70736660776a6c6d436d6271622d646c75"><span class="__cf_email__" data-cfemail="c8aebae6a1a6bbb8adabbca1a7a688a6a9baa9e6afa7be">[email&#160;protected]</span></a>, or go to: <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a>.
+* * * * *
+
+PART 100--SAFETY OF LIFE ON NAVIGABLE WATERS
+
+0
+22. The authority citation for part 100 continues to read as follows:
+
+    Authority: 46 U.S.C. 70041; 33 CFR 1.05-1.
+
+
+Sec.  100.30   [Amended]
+
+0
+23. Amend Sec.  100.30 by removing the text ``District Commander'' and 
+adding, in its place, the text ``Captain of the Port''.
+
+PART 107--NATIONAL VESSEL AND FACILITY CONTROL MEASURES AND LIMITED 
+ACCESS AREAS
+
+0
+24. The authority citation for part 107 is revised to read as follows:
+
+    Authority: 14 U.S.C. 701; 46 U.S.C. 70051, 70052, 70053; 
+Presidential Proclamation 6867, 61 FR 8843, 3 CFR, 1996 Comp., p. 8; 
+Presidential Proclamation 7757, 69 FR 9515 (March 1, 2004); 
+Secretary of Homeland Security Order 2004-001; DHS Delegation No. 
+00170.1, Revision No. 01.4, and 33 CFR 1.05-1.
+
+0
+25. Amend Sec.  107.210 by revising paragraph (b) to read as follows:
+
+
+Sec.  107.210   Applicability.
+
+* * * * *
+* * * * *
+    (b) This subpart does not apply to the following: foreign vessels, 
+as defined by 46 U.S.C. 110; public vessels, as defined by 46 U.S.C. 
+2101, when they are being operated for non-commercial purposes; or to 
+vessels of the United States, as defined by 46 U.S.C. 116, when 
+entering Cuban territorial waters under force majeure.
+
+PART 114--GENERAL
+
+0
+26. The authority citation for part 114 is revised to read as follows:
+
+    Authority: 33 U.S.C. 401, 406, 491, 494, 495, 499, 502, 511, 
+513, 514, 516, 517, 519, 521, 522, 523, 525, 528, 530, 533, and 
+535(c), (e), and (h); 14 U.S.C. 503; 49 U.S.C. 1655(g); Pub. L. 107-
+296, 116 Stat. 2135; 33 CFR 1.05-1 and 1.01-60, DHS Delegation No. 
+00170.1, Revision No. 01.4.
+
+
+Sec.  114.50  [Amended]
+
+0
+27. Amend Sec.  114.50 by removing the text ``DC 20593-7418'' and 
+adding, in its place, the text ``DC 20593-7418 or <a href="/cdn-cgi/l/email-protection#c880999be59b858ae58b8fe58a9a8f88bdbbabafe6a5a1a4"><span class="__cf_email__" data-cfemail="1c544d4f314f515e315f5b315e4e5b5c696f7f7b32717570">[email&#160;protected]</span></a>''.
+
+PART 115--BRIDGE LOCATIONS AND CLEARANCES; ADMINISTRATIVE 
+PROCEDURES
+
+0
+28. The authority citation for part 115 is revised to read as follows:
+
+    Authority: Mar. 3, 1899, Ch. 425, sec. 9, 30 Stat. 1151 (33 
+U.S.C. 401); Mar. 23, 1906, Ch. 1130, sec. 1, 34 Stat. 84 (33 U.S.C. 
+491); sec. 5, 28 Stat. 362, as amended (33 U.S.C. 499); sec. 11, 54 
+Stat. 501, as amended (33 U.S.C. 521); Aug 2, 1946, Ch. 753, title 
+V, sec. 502, 60 Stat. 847, as amended (33 U.S.C. 525); 86 Stat. 732 
+(33 U.S.C. 535); 14 U.S.C. 503.
+
+
+0
+29. Amend Sec.  115.50 by revising paragraph (a) to read as follows:
+
+
+Sec.  115.50  Application for bridge permits.
+
+    (a) Application. An application for authorization to construct a 
+bridge across navigable waters of the United States must include the 
+name, address, telephone number, and email address of the applicant; 
+the waterway and location of the bridge; a citation to the applicable 
+act of Congress; when appropriate, a citation to the State legislation 
+authorizing the bridge; a map of the location and plans of the bridge 
+showing the features which affect navigation; papers to establish the 
+identity of the applicant. Additional guidance on completing the 
+application can be found in the Bridge Permit Application Guide, 
+COMDTPUB16591.series.
+* * * * *
+
+
+115.60  [Amended]
+
+0
+30. Amend Sec.  115.60, paragraph (a), by removing the last three 
+sentences.
+
+PART 116--ALTERATION OF UNREASONABLY OBSTRUCTIVE BRIDGES
+
+0
+31. The authority citation for part 116 continues to read as follows:
+
+    Authority: 33 U.S.C. 401, 521.
+
+
+Sec.  116.55  [Amended]
+
+0
+32. Amend Sec.  116.55 as follows:
+0
+a. In paragraph (a), remove the text ``recommendation'', and add, in 
+its place, the text ``decision''; and
+0
+b. In paragraph (b), remove the text ``DC 20593-7318'', and add, in its 
+place, the text ``DC 20593-7318, or <a href="/cdn-cgi/l/email-protection#194c4a5a5e5d5a56596c6a7a7e37747075"><span class="__cf_email__" data-cfemail="83d6d0c0c4c7c0ccc3f6f0e0e4adeeeaef">[email&#160;protected]</span></a>''.
+
+PART 117--DRAWBRIDGE OPERATION REGULATIONS
+
+0
+33. The authority citation for part 117 is revised read as follows:
+
+    Authority: 33 U.S.C. 499; 33 CFR 1.05-1; and DHS Delegation No. 
+00170.1, Revision No. 01.4.
+
+
+Sec.  117.255  [Amended]
+
+0
+34. Amend Sec.  117.255 in paragraphs (a)(3)(i) and (a)(5)(i), by 
+removing the text ``(703) 836-2396'' and adding, in its place, the text 
+``(571) 513-3745''.
+
+
+Sec.  117.593  [Amended]
+
+0
+35. Amend Sec.  117.593 in paragraph (b)(2), by removing the text ``a 
+range light display with one solid green light and one'' and adding, in 
+its place, the text ``a solid green light over a''.
+
+0
+36. Amend Sec.  117.997 by revising paragraphs (c)(2)(i) and (ii) to 
+read as follows:
+
+
+Sec.  117.997  Atlantic Intracoastal Waterway, South Branch of the 
+Elizabeth River to the Albermarle and Chesapeake Canal.
+
+* * * * *
+    (c) * * *
+    (2) * * *
+    (i) Need not open for the passage of recreational vessels, or 
+commercial vessels that do not qualify under paragraph (c)(2)(ii) of 
+this section.
+    (ii) Need not open for commercial cargo vessels, including tugs, 
+and tugs with tows, unless 2 hours advance notice has been given to the 
+Gilmerton Bridge at 757-485-5567.
+* * * * *
+
+
+Sec.  117.1087  [Amended]
+
+0
+37. Amend Sec.  117.1087 as follows:
+0
+a. Remove the text ``Canadian National'' wherever it appears and add in 
+its place the text ``Fox Valley & Lake Superior Railroad'';
+0
+b. Remove the text ``Main Street'' wherever it appears and add in its 
+place the text ``Ray Nitschke''; and
+0
+c. Remove the text ``Walnut Street'' wherever it appears and add in its 
+place the text ``Bart Starr Memorial''.
+
+PART 118--BRIDGE LIGHTING AND OTHER SIGNALS
+
+0
+38. The authority citation for part 118 is revised to read as follows:
+
+    Authority: 33 U.S.C. 494; 14 U.S.C. 503, 544; DHS Security 
+Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  118.3  [Amended]
+
+0
+39. Amend Sec.  118.3 in paragraph (b), by removing the text ``DC 
+20593-7418'' and adding, in its place, the text ``DC 20593-7418, or 
+<a href="/cdn-cgi/l/email-protection#f3bba2a0dea0beb1deb0b4deb1a1b4b386809094dd9e9a9f"><span class="__cf_email__" data-cfemail="bff7eeec92ecf2fd92fcf892fdedf8ffcaccdcd891d2d6d3">[email&#160;protected]</span></a>''.
+
+[[Page 52878]]
+
+PART 133 [Removed]
+
+0
+40. Remove part 133, consisting of Sec. Sec.  133.1 through 133.25.
+
+PART 151--VESSELS CARRYING OIL, NOXIOUS LIQUID SUBSTANCES, GARBAGE, 
+MUNICIPAL OR COMMERCIAL WASTE, AND BALLAST WATER
+
+0
+41. The authority citation for part 151 is revised to read as follows:
+
+    Authority: 33 U.S.C. 1902, 1903, 1908; 46 U.S.C. 6101; 46 U.S.C. 
+70034; Pub. L. 104-227, 110 Stat. 3034; sec. 623, Pub. L. 108-293, 
+118 Stat. 1063; E.O. 12777, 56 FR 54757, 3 CFR, 1991 Comp., p. 351; 
+DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+0
+42. Amend Sec.  151.51 by revising paragraph (a)(1) to read as follows:
+
+
+Sec.  151.51  Applicability.
+
+    (a) * * *
+    (1) Is of United States registry or nationality, or one operated 
+under the authority of the United States, including recreational 
+vessels defined in 46 U.S.C. 2101 and uninspected vessels defined in 46 
+U.S.C. 2101, wherever located; or
+* * * * *
+
+PART 155--OIL OR HAZARDOUS MATERIAL POLLUTION PREVENTION 
+REGULATIONS FOR VESSELS
+
+0
+43. The authority citation for part 155 is revised to read as follows:
+
+    Authority: 3 U.S.C. 301 through 303; 33 U.S.C. 1321(j), 1903(b), 
+2735; 46 U.S.C. 70011; 70034; E.O. 12777, 56 FR 54757, 3 CFR, 1991 
+Comp., p. 351; DHS Delegation No. 00170.1, Revision No. 01.4. 
+Section 155.1020 also issued under section 316 of Pub. L. 114-120. 
+Section 155.480 also issued under section 4110(b) of Pub. L. 101-
+380.
+
+
+Sec.  155.4025  [Amended]
+
+0
+44. Amend Sec.  155.4025 by removing the text ``structural stability'' 
+from the definition ``Assessment of structural stability'' and adding 
+in its place the text ``structure and stability''.
+
+0
+45. Amend Sec.  155.4030(b) by revising the heading of table 
+155.4030(b), and paragraphs (b)(1)(i)(B) and (D), to read as follows:
+
+
+Sec.  155.4030  Required salvage and marine firefighting services to 
+list in response plans.
+
+* * * * *
+    (b) * * *
+
+ Table 1 to Sec.   155.4030(b)--Salvage and Marine Firefighting Services
+                         and Response Timeframes
+                 Service                   Location of incident response
+                                                activity timeframe
+------------------------------------------------------------------------
+ 
+                                * * * * *
+(1).....................................           * * *  ..............
+(i).....................................           * * *  ..............
+(B) Begin assessment of structure and                  3               3
+ stability..............................
+ 
+                                * * * * *
+(D) Assessment of structure and                       12              18
+ stability..............................
+ 
+                                * * * * *
+------------------------------------------------------------------------
+
+* * * * *
+
+0
+46. Amend Sec.  155.4040(c) by revising table 155.4040(c) rows (1)(ii) 
+and (iv), to read as follows:
+
+
+Sec.  155.4040  Response times for each salvage and marine firefighting 
+service.
+
+    (a) * * *
+    (c) * * *
+
+      Table 1 to Sec.   155.4040(c)--Response Timeframe End Points
+------------------------------------------------------------------------
+                  Service                   Response timeframe ends when
+------------------------------------------------------------------------
+ 
+                                * * * * *
+(ii) Begin assessment of structure and      A structural assessment of
+ stability.                                  the vessel has been
+                                             initiated.
+ 
+                                * * * * *
+(iv) Assessment of structure and stability  Initial analysis is
+                                             completed. This is a
+                                             continual process, but at
+                                             the time specified an
+                                             analysis needs to be
+                                             completed.
+ 
+                                * * * * *
+------------------------------------------------------------------------
+
+* * * * *
+
+
+Sec.  155.5015  [Amended]
+
+0
+47. Amend Sec.  155.5015 in paragraph (a)(3), by removing the text 
+``(17a)''.
+
+
+Sec.  155.5020  [Amended]
+
+0
+48. Amend Sec.  155.5020 in the definition for ``Navigable waters of 
+the United States'', by removing the text ``(17a)'' and adding, in its 
+place, the text ``(23)''.
+
+PART 159--MARINE SANITATION DEVICES
+
+0
+49. The authority citation for part 159 is revised to read as follows:
+
+    Authority: 33 U.S.C. 1322(b)(1); 49 CFR 1.45(b). Subpart E also 
+issued under authority of sec. 1(a)(4), Pub. L. 106-554, 114 Stat. 
+2763; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  159.305  [Amended]
+
+0
+50. Amend Sec.  159.305, in the definition for Cruise Vessel, by 
+removing the text ``(22)''.
+
+PART 164--NAVIGATION SAFETY REGULATIONS
+
+0
+51. The authority citation for part 164 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3703, 70034; E.O. 12234, 45 FR 58801, 
+3 CFR, 1980 Comp., p. 277. Sec. 164.13 also issued under 46 U.S.C. 
+8502. Sec. 164.46 also issued under 46 U.S.C. 70114 and Sec. 102 of 
+Pub. L. 107-295. Sec. 164.61 also issued under 46 U.S.C. 6101. DHS 
+Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  164.01  [Amended]
+
+0
+52. Amend Sec.  164.01 in paragraph (b)(2), by removing the text ``46 
+CFR 10.103'' and adding in its place the text ``46 CFR 10.107''.
+
+0
+53. Amend Sec.  164.39 in paragraph (b), by revising the definition of 
+Tanker to read as follows:
+
+
+Sec.  164.39  Steering gear: Foreign tankers.
+
+* * * * *
+    (b) * * *
+    Tanker means a self-propelled vessel defined as a tanker or a tank 
+vessel by 46 U.S.C. 2101.
+* * * * *
+
+[[Page 52879]]
+
+PART 165--REGULATED NAVIGATION AREAS AND LIMITED ACCESS AREAS
+
+0
+54. The authority citation for part 165 is revised to read as follows:
+
+    Authority: 46 U.S.C. 70034, 70051, 70124; 33 CFR 1.05-1, 6.04-1, 
+6.04-6, and 160.5; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  165.123  [Amended]
+
+0
+55. Amend Sec.  165.123 in paragraph (b), in the definition of Cruise 
+ship, by removing the text ``(22)''.
+
+
+Sec.  165.169  [Amended]
+
+0
+56. Amend Sec.  165.169 in paragraphs (a)(14)(i) and (15)(i), by 
+removing the text ``(22)''.
+
+
+Sec.  165.500  [Amended]
+
+0
+57. Amend Sec.  165.500, paragraph (a)(4), by removing the text 
+``(22)''.
+
+0
+58. Amend Sec.  165.911 by revising paragraph (b)(2) to read as 
+follows:
+
+
+Sec.  165.911  Security Zones; Captain of the Port Eastern Great Lakes 
+Zone.
+
+* * * * *
+    (b) * * *
+    (2) Persons or vessels desiring to transit the area of Ginna 
+Nuclear Power Plant security zones must contact the Captain of Port 
+Eastern Great Lakes at telephone number (716) 843-9570, or on VHF/FM 
+channel 16 to seek permission to transit the area. Persons desiring to 
+transit the area of the Nine Mile Point and Fitzpatrick Nuclear Power 
+Plants, or the Moses-Saunders Power Dam or Long Sault Spillway Dam 
+security zones must contact the Commanding Officer, Marine Safety Unit 
+Thousand Islands at telephone number (315) 774-8724 or on VHF/FM 
+channel 16 to seek permission to transit the area. If permission is 
+granted, all persons and vessels must comply with the instructions of 
+the Captain of the Port or his or her designated representative.
+* * * * *
+
+
+Sec.  165.923  [Amended]
+
+0
+59. Amend Sec.  165.923, paragraph (a)(2)(ii)(C), by removing the text 
+``(5)'' after the text ``46 U.S.C. 2101''.
+
+0
+60. Amend Sec.  165.1141 by revising paragraph (d)(2) to read as 
+follows:
+
+
+Sec.  165.1141  Safety Zone; San Clemente 3 NM Safety Zone, San 
+Clemente Island, CA.
+
+* * * * *
+    (d) * * *
+    (2) Mariners requesting permission to transit through any section 
+of the zone may request authorization to do so from the San Clemente 
+Island Range Control, call sign ``STARBURST'' by either calling 619-
+313-2293 or establishing a VHF bridge to bridge radio connection on 
+Channel 82A. Immediately upon completing transit, the vessel operator 
+must promptly notify the STARBURST Range Control of safe passage 
+through the safety zone. Failure to expeditiously notify STARBURST 
+Range Control of passage through the safety zone will result in a 
+determination by the Navy that the vessel is still in the safety zone, 
+thereby restricting the use of the area for naval operations. If the 
+Navy determines that facilitating safe transit through the zone 
+negatively impacts range operations, the Navy will cease this practice 
+and enforce the safety zones in these two areas without exception.
+* * * * *
+
+
+Sec.  165.1157  [Amended]
+
+0
+61. Amend Sec.  165.1157 in paragraph (a), by removing the text ``34-
+24-17.364 N, 119-41-16.260W'' and adding, in its place, the text 
+``34[deg]24'17.364'' N, 119[deg]41'16.260'' W''.
+
+
+Sec.  165.1711  [Amended]
+
+0
+62. Amend Sec.  165.1711 in paragraph (c)(6), by removing the text 
+``commercial'' and ``(11a)''.
+
+PART 174--STATE NUMBERING AND CASUALTY REPORTING SYSTEMS
+
+0
+63. The authority citation for part 174 continues to read as follows:
+
+    Authority: 46 U.S.C. 6101 and 12302; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  174.17  [Amended]
+
+0
+64. Amend Sec.  174.17 by removing paragraph (c).
+
+
+Sec.  174.19  [Amended]
+
+0
+65. Amend Sec.  174.19 by removing paragraph (c).
+
+TITLE 46--SHIPPING
+
+PART 2--VESSEL INSPECTIONS
+
+0
+66. The authority citation for part 2 continues to read as follows:
+
+    Authority:  33 U.S.C. 1903; 43 U.S.C. 1333; 46 U.S.C. 2103, 
+2110, 3306, 3316, 3703, 70034; DHS Delegation No. 00170.1, Revision 
+No. 01.4; E.O. 12234, 45 FR 58801, 3 CFR, 1980 Comp., p. 277, sec. 
+1-105.
+
+
+Sec.  2.01-7  [Amended]
+
+0
+67. Amend footnote 7 to table 2.01-7(a) by removing the text 
+``(21)(21a)''.
+
+PART 3--DESIGNATION OF OCEANOGRAPHIC RESEARCH VESSELS
+
+0
+68. The authority citation for part 3 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2113, 3306; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  3.01-1  [Amended]
+
+0
+69. Amend Sec.  3.01-1 by removing the text ``(18)''.
+
+PART 4--MARINE CASUALTIES AND INVESTIGATIONS
+
+0
+70. The authority citation for part 4 is revised to read as follows:
+
+    Authority: 14 U.S.C. 102; 43 U.S.C. 1333; 46 U.S.C. 2103, 2303A, 
+2306, 6101, 6301, 6305, 70034; 50 U.S.C. 198; DHS Delegation 
+00170.1, Revision No. 01.4. Subpart 4.40 issued under 49 U.S.C. 
+1131(a)(1)(E).
+
+
+Sec.  4.03-50  [Amended]
+
+0
+71. Amend Sec.  4.03-50 by removing the text ``(25)''.
+
+PART 7--BOUNDARY LINES
+
+0
+72. The authority citation for part 7 is revised to read as follows:
+
+    Authority:  14 U.S.C. 503; 33 U.S.C. 151; DHS Delegation 
+00170.1, Revision No. 01.4.
+
+
+Sec.  7.1  [Amended]
+
+0
+73. Amend Sec.  7.1 by removing the text ``(32)'' and ``(33)''.
+
+PART 11--REQUIREMENTS FOR OFFICER ENDORSEMENTS
+
+0
+74. The authority citation for part 11 is revised to read as follows:
+
+    Authority:  14 U.S.C. 503; 31 U.S.C. 9701; 46 U.S.C. 2101, 2103, 
+and 2110; 46 U.S.C. chapter 71; 46 U.S.C. 7502, 7505, 7701, 8903, 
+8904, 8906, and 70105; E.O. 10173; DHS Delegation No. 00170.1, 
+Revision No. 01.4. Section 11.107 is also issued under the authority 
+of 44 U.S.C. 3507.
+
+
+0
+75. Amend Sec.  11.301 as follows:
+0
+a. In paragraph (h)(1), remove the text ``(11)(a)'';
+0
+b. In paragraph (h)(2), remove the text ``(11)(c)''; and
+0
+c. Revise paragraph (i) to read as follows:
+
+
+Sec.  11.301  Requirements for STCW officer endorsements.
+
+* * * * *
+    (i) Mariners serving on, and owners or operators of uninspected 
+passenger vessels as defined in subparagraph (B) of the definition of 
+uninspected passenger vessel in 46 U.S.C. 2101, do not need to hold an 
+STCW endorsement. The vessels concerned are not subject to further 
+obligation under STCW because of their special operating conditions as 
+small vessels engaged in domestic, near-coastal voyages.
+
+
+Sec.  11.491  [Amended]
+
+0
+76. Amend Sec.  11.491 in paragraph (a), by removing the text ``(19)''.
+
+[[Page 52880]]
+
+Sec.  11.551  [Amended]
+
+0
+77. Amend Sec.  11.551 by removing the text ``(19)''.
+
+PART 15--MANNING REQUIREMENTS
+
+0
+78. The authority citation for part 15 continues to read as follows:
+
+    Authority: 46 U.S.C. 2101, 2103, 3306, 3703, 8101, 8102, 8103, 
+8104, 8105, 8301, 8304, 8502, 8503, 8701, 8702, 8901, 8902, 8903, 
+8904, 8905(b), 8906 and 9102; sec. 617, Pub. L. 111-281, 124 Stat. 
+2905; and DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+0
+79. Amend Sec.  15.105 as follows:
+0
+a. In paragraph (f)(1), remove the text ``(12)'';
+0
+b. In paragraph (f)(2), remove the text ``(14)''; and
+0
+c. Revise paragraph (g)(3) to read as follows:
+
+
+Sec.  15.105  General.
+
+* * * * *
+    (g) * * *
+    (3) Uninspected passenger vessels (UPVs) as defined in subparagraph 
+(B) of the definition of uninspected passenger vessel in 46 U.S.C. 
+2101.
+* * * * *
+
+0
+80. Amend Sec.  15.403 as follows:
+0
+a. In paragraph (e)(1)(i), remove the text ``(11)(a)'';
+0
+b. In paragraph (e)(1)(ii), remove the text ``(11)(c)''; and
+0
+c. Revise paragraph (e)(2)(iii), to read as follows:
+
+
+Sec.  15.403  When credentials for ratings are required.
+
+* * * * *
+    (e) * * *
+    (2) * * *
+    (iii) Uninspected passenger vessels (UPVs) as defined in 
+subparagraph (B) of the definition of uninspected passenger vessel in 
+46 U.S.C. 2101.
+
+
+Sec.  15.720  [Amended]
+
+0
+81. Amend Sec.  15.720 as follows:
+0
+a. In paragraph (b)(1), remove the text ``(19)''; and
+0
+b. In paragraph (b)(2), remove the text ``(15a)''.
+
+0
+82. Amend Sec.  15.1101 as follows:
+0
+a. In paragraph (a)(1)(i), remove the text ``(11)(a)'';
+0
+b. In paragraph (a)(1)(ii), remove the text ``(11)(c)''; and
+0
+c. Revise paragraph (a)(2)(iii) to read as follows:
+
+
+Sec.  15.1101  General.
+
+* * * * *
+    (a) * * *
+    (2) * * *
+    (iii) Uninspected passenger vessels as defined in subparagraph (B) 
+of the definition of uninspected passenger vessel in 46 U.S.C. 2101.
+* * * * *
+
+PART 24--GENERAL PROVISIONS
+
+0
+83. The authority citation for part 24 is revised to read as follows:
+
+    Authority:  46 U.S.C. 2103, 2113, 4302; E.O. 12234, 45 FR 58801, 
+3 CFR, 1980 Comp., p. 277, sec. 1-105; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  24.10-1  [Amended]
+
+0
+84. Amend Sec.  24.10-1, in the introductory text of the definition for 
+Motorboat, by removing the text ``column five of table 24.05-1(a) in 
+Sec.  24.05-1,'' and adding, in its place, the text ``column 5 of table 
+2.01-7(a) in Sec.  2.01-7(a) of this chapter,''.
+
+PART 26--OPERATIONS
+
+0
+85. The authority citation for part 26 is revised to read as follows:
+
+    Authority: 46 U.S.C. 3306, 4105, 4106, 6101, 8105; Pub. L. 103-
+206, 107 Stat. 2439; E.O. 12234, 45 FR 58801, 3 CFR, 1980 Comp., p. 
+277; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  26.15-1  [Amended]
+
+0
+86. Amend Sec.  26.15-1, paragraph (a), by removing the text ``(43)''.
+
+PART 58--MAIN AND AUXILIARY MACHINERY AND RELATED SYSTEMS
+
+0
+87. The authority citation for part 58 is revised to read as follows:
+
+    Authority: 43 U.S.C. 1333; 46 U.S.C. 3306, 3703; E.O. 12234, 45 
+FR 58801, 3 CFR, 1980 Comp., p. 277; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  58.25-5  [Amended]
+
+0
+88. Amend Sec.  58.25-5 in paragraph (a), in the definition of ``Tank 
+Vessel'', by removing the text ``(38)'' and ``(39)''.
+
+PART 62--VITAL SYSTEM AUTOMATION
+
+0
+89. The authority citation for part 62 is revised to read as follows:
+
+    Authority: 46 U.S.C. 3306, 3703, 8105; sec. 617, Pub. L. 111-
+281, 124 Stat. 2905; E.O. 12234, 45 FR 58801, 3 CFR, 1980 Comp., p. 
+277; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  62.50-30  [Amended]
+
+0
+90. Amend Sec.  62.50-30 in paragraph (k)(3), by removing the text 
+``(f)'', and adding, in its place, the text ``(b)''.
+
+PART 68--DOCUMENTATION OF VESSELS: EXCEPTIONS TO COASTWISE 
+QUALIFICATION
+
+0
+91. The authority citation for part 68 is revised to read as follows:
+
+    Authority: 14 U.S.C. 946; 31 U.S.C. 9701; 42 U.S.C. 9118; 46 
+U.S.C. 2103, 2110; 46 U.S.C. app. 876; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  68.55  [Amended]
+
+0
+92. Amend Sec.  68.55 in the definition of ``Oil'', by removing the 
+text ``(20)''.
+
+PART 90--GENERAL PROVISIONS
+
+0
+93. The authority citation for part 90 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3306, 3703; E.O. 12234, 45 FR 58801, 
+3 CFR, 1980 Comp., p. 277, sec. 1-105; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  90.10-23  [Amended]
+
+0
+94. Amend Sec.  90.10-23, in the introductory paragraph, by removing 
+the text ``Column 5 of table 90.05-1(a)'', and adding, in its place, 
+the text ``column 5 of table 2.01-7(a) in Sec.  2.01-7(a) of this 
+chapter,''.
+
+PART 108--DESIGN AND EQUIPMENT
+
+0
+95. The authority citation for part 108 continues to read as follows:
+
+    Authority: 43 U.S.C. 1333; 46 U.S.C. 3102, 3306; DHS Delegation 
+No. 00170.1, Revision No. 01.4.
+
+
+Sec.  108.151  [Amended]
+
+0
+96. Amend Sec.  108.151 in paragraph (b), by removing the text ``one 
+the'' and adding, in its place, the text ``one of the''.
+
+PART 110--GENERAL PROVISIONS
+
+0
+97. The authority citation for part 110 is revised to read as follows:
+
+    Authority: 43 U.S.C. 1333; 46 U.S.C. 3306, 3307, 3703; E.O. 
+12234, 45 FR 58801, 3 CFR, 1980 Comp., p. 277; DHS Delegation 
+00170.1, Revision No. 01.4; Sec.  110.01-2 also issued under 44 
+U.S.C. 3507. Sections 110.15-1 and 110.25-1 also issued under sec. 
+617, Pub. L. 111-281, 124 Stat. 2905.
+
+
+Sec.  110.01-3  [Amended]
+
+0
+98. Amend Sec.  110.01-3 in paragraph (c), by removing the text 
+``Conversions specified in 46 U.S.C. 2101(14a)'' and adding, in its 
+place, the text ``Major conversions, as defined in 46 U.S.C. 2101''.
+
+PART 118--FIRE PROTECTION EQUIPMENT
+
+0
+99. The authority citation for part 118 continues to read as follows:
+
+
+[[Page 52881]]
+
+
+    Authority: 46 U.S.C. 2103, 3306; E.O. 12234, 45 FR 58801, 3 CFR, 
+1980 Comp., p. 277; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  118.400  [Amended]
+
+0
+100. Amend Sec.  118.400 in paragraph (f) introductory text, by 
+removing the text ``paragraph (f)'' and adding, in its place, the text 
+``paragraph (g)''.
+
+PART 125--GENERAL
+
+0
+101. The authority citation for part 125 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3306, 3307; 49 U.S.C. App. 1804; sec. 
+617, Pub. L. 111-281, 124 Stat. 2905; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  125.180  [Amended]
+
+0
+102. Amend Sec.  125.180 in paragraph (b)(4), by removing the text 
+``Sec. Sec.  133.140 and 133.150'' and adding, in its place, the text 
+``Sec. Sec.  134.140 and 134.150''.
+
+PART 126--INSPECTION AND CERTIFICATION
+
+0
+103. The authority citation for part 126 is revised to read as follows:
+
+    Authority:  46 U.S.C. 3205, 3306, 3307, 70034; 46 U.S.C. Chapter 
+701; sec. 617, Pub. L. 111-281, 124 Stat. 2905; E.O. 11735, 38 FR 
+21243, 3 CFR 1971-1975 Comp., p. 793; DHS Delegation 00170.1, 
+Revision No. 01.4.
+
+
+0
+104. Revise Sec.  126.180 to read as follows:
+
+
+Sec.  126.180  Carriage of passengers.
+
+    No passengers as defined by subparagraph (B) of the definition of 
+passenger in 46 U.S.C. 2101 may be carried aboard an OSV except in an 
+emergency.
+
+PART 131--OPERATIONS
+
+0
+105. The authority citation for part 131 is revised to read as follows:
+
+    Authority: 33 U.S.C. 1321(j); 46 U.S.C. 3306, 6101, 10104; E.O. 
+12234, 3 CFR, 1980 Comp., p. 277; E.O. 12777, 3 CFR, 1991 Comp., p. 
+351; DHS Delegation No. 00170.1, Revision No. 01.4. Section 131.990 
+also issued under sec. 617, Pub. L. 111-281, 124 Stat. 2905.
+
+
+Sec.  131.540  [Amended]
+
+0
+106. Amend Sec.  131.540 paragraph (a), by removing the text ``ach 
+lifesaving'' and adding, in its place, the text ``each lifesaving''.
+
+PART 132--FIRE-PROTECTION EQUIPMENT
+
+0
+107. The authority citation for part 132 continues to read as follows:
+
+    Authority: 46 U.S.C. 3306, 3307; sec. 617, Pub. L. 111-281, 124 
+Stat. 2905; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  132.130  [Amended]
+
+0
+108. Amend Sec.  132.130, paragraph (a), by removing the text ``ire 
+stations'' and adding, in its place, the text ``fire stations''.
+
+PART 133--LIFESAVING SYSTEMS
+
+0
+109. The authority citation for part 133 continues to read as follows:
+
+    Authority:  46 U.S.C. 3306, 3307; DHS Delegation 00170.1, 
+Revision No. 01.4.
+
+
+Sec.  133.130  [Amended]
+
+0
+110. Amend Sec.  133.130, paragraph (b)(4)(i), by removing the text 
+``and list and list'' and adding in its place the text ``and list''.
+
+PART 147--HAZARDOUS SHIPS' STORES
+
+0
+111. The authority citation for part 147 continues to read as follows:
+
+    Authority: 46 U.S.C. 3306; E.O. 12234, 45 FR 58801, 3 CFR, 1980 
+Comp., p. 277; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  147.65   [Amended]
+
+0
+112. Amend Sec.  147.65 in paragraph (b)(1), by removing the text ``of 
+pressure'' from the third sentence.
+
+PART 169--SAILING SCHOOL VESSELS
+
+0
+113. The authority citation for part 169 continues to read as follows:
+
+    Authority: 33 U.S.C. 1321(j); 46 U.S.C. 3306, 6101; Pub. L. 103-
+206, 107 Stat. 2439; E.O. 11735, 38 FR 21243, 3 CFR, 1971-1975 
+Comp., p. 793; DHS Delegation 00170.1, Revision No. 01.4; Sec.  
+169.117 also issued under the authority of 44 U.S.C. 3507.
+
+
+Sec.  169.101   [Amended]
+
+0
+114. Amend Sec.  169.101 by removing the text ``(30)''.
+
+PART 177--CONSTRUCTION AND ARRANGEMENT
+
+0
+115. The authority citation for part 177 is revised to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3306; E.O. 12234, 45 FR 58801, 3 CFR, 
+1980 Comp., p. 277; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  177.410  [Amended]
+
+0
+116. Amend Sec.  177.410, paragraph (b), by removing the text ``meet 
+as'' from the first sentence.
+
+PART 181--FIRE PROTECTION EQUIPMENT
+
+0
+117. The authority citation for part 181 continues to read as follows:
+
+    Authority: 46 U.S.C. 2103, 3306; E.O. 12234, 45 FR 58801, 3 CFR, 
+1980 Comp., p. 277; DHS Delegation 00170.1, Revision No. 01.4.
+
+
+Sec.  181.115   [Amended]
+
+0
+118. Amend Sec.  181.115 in paragraph (b), as follows:
+0
+a. Remove the text ``Sec.  181.400'' and add, in its place, the text 
+``Sec. Sec.  181.400 and 181.405''; and
+0
+b. Remove the text ``on or before March 11, 1999.''
+
+0
+119. Amend Sec.  181.300 as follows:
+0
+a. Revise paragraph (d);
+0
+b. Redesignate paragraph (e) as paragraph (f); and
+0
+c. Add new paragraph (e).
+    The revision and addition read as follows:
+
+
+Sec.  181.300   Fire Pumps.
+
+* * * * *
+    (d) A fire pump may be driven by a propulsion engine.
+    (e) A fire pump must be permanently connected to the fire main and 
+may be connected to the bilge system to meet the requirements of Sec.  
+182.520 of this chapter.
+* * * * *
+
+0
+120. Amend Sec.  181.400 by adding paragraphs (c), (d), and (e) to read 
+as follows:
+
+
+Sec.  181.400   Spaces required to have fixed fire extinguishing 
+systems.
+
+* * * * *
+    (c) All griddles, broilers, and deep fat fryers must be fitted with 
+a grease extraction hood in compliance with Sec.  181.425 of this 
+subchapter.
+    (d) An enclosed vehicle space must be fitted with an automatic 
+sprinkler system that meets the requirements of part 76 of this 
+chapter.
+    (e) A partially enclosed vehicle space must be fitted with a manual 
+sprinkler system that meets the requirements of part 76 of this 
+chapter.
+
+0
+121. Amend Sec.  181.405 as follows:
+0
+a. Remove and reserve paragraph (b);
+0
+b. Revise paragraph (d); and
+0
+c. Remove paragraph (e).
+    The revision reads as follows:
+
+
+Sec.  181.405   Spaces required to have fire detection systems.
+
+* * * * *
+    (d) An enclosed vehicle space must be fitted with a fire detection 
+and alarm system of an approved type that is installed in accordance 
+with part 76 of this chapter.
+
+[[Page 52882]]
+
+PART 182--MACHINERY INSTALLATION
+
+0
+122. The authority citation for part 182 is revised to read as follows:
+
+    Authority: 46 U.S.C. 3306; E.O. 12234, 45 FR 58801, 3 CFR, 1980 
+Comp., p. 277; DHS Delegation No. 00170.1, Revision No. 01.4.
+
+
+Sec.  182.115  [Amended]
+
+0
+123. Amend Sec.  182.115 as follows:
+0
+a. In paragraph (c) remove the text ``on or before March 11, 1999''; 
+and
+0
+b. In paragraph (d) remove the text ``On or before March 11, 1999, an'' 
+and add, in its place, the text ``An''.
+
+PART 188--GENERAL PROVISIONS
+
+0
+124. The authority citation for part 188 is revised to read as follows:
+
+    Authority:  6 U.S.C. 2103, 2113, 3306; E.O. 12234, 45 FR 58801, 
+3 CFR, 1980 Comp., p. 277, sec. 1-105; DHS Delegation No. 00170.1, 
+Revision No. 01.4.
+
+
+0
+125. Revise Sec.  188.10-77 to read as follows:
+
+
+Sec.  188.10-77  Vessel.
+
+    Where the word ``vessel'' is used in this subchapter, it will be 
+considered to include all inspected and certificated oceanographic 
+research vessels as listed in column 6 of table 2.01-7(a) in Sec.  
+2.01-7(a) of this chapter.
+
+Michael T. Cunningham,
+Chief, Office of Regulations and Administrative Law.
+[FR Doc. 2025-20727 Filed 11-21-25; 8:45 am]
+BILLING CODE 9110-04-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

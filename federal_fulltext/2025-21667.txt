@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Page 55243]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21667]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+[OMB Control No. 2900-0138]
+
+
+Agency Information Collection Activity: Request for Details of 
+Expenses
+
+AGENCY: Veterans Benefits Administration, Department of Veterans 
+Affairs.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Veterans Benefits Administration, Department of Veterans 
+Affairs (VA), is announcing an opportunity for public comment on the 
+proposed collection of certain information by the agency. Under the 
+Paperwork Reduction Act (PRA) of 1995, Federal agencies are required to 
+publish notice in the Federal Register concerning each proposed 
+collection of information, including each proposed extension of a 
+currently approved collection, and allow 60 days for public comment in 
+response to the notice.
+
+DATES:  Comments must be received on or before January 30, 2026.
+
+ADDRESSES: Comments must be submitted through <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: 
+    Program-Specific information: Kendra McCleave, 202-461-9568, 
+<a href="/cdn-cgi/l/email-protection#2249474c4650430c4f41414e474354476254430c454d54"><span class="__cf_email__" data-cfemail="f398969d978192dd9e90909f96928596b38592dd949c85">[email&#160;protected]</span></a>.
+    VA PRA information: Dorothy Glasgow, 202-461-1084, <a href="/cdn-cgi/l/email-protection#095f48595b48497f68276e667f"><span class="__cf_email__" data-cfemail="b3e5f2e3e1f2f3c5d29dd4dcc5">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:  Under the PRA of 1995, Federal agencies 
+must obtain approval from the Office of Management and Budget (OMB) for 
+each collection of information they conduct or sponsor. This request 
+for comment is being made pursuant to Section 3506(c)(2)(A) of the PRA.
+    With respect to the following collection of information, VBA 
+invites comments on: (1) whether the proposed collection of information 
+is necessary for the proper performance of VBA's functions, including 
+whether the information will have practical utility; (2) the accuracy 
+of VBA's estimate of the burden of the proposed collection of 
+information; (3) ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (4) ways to minimize the burden of 
+the collection of information on respondents, including through the use 
+of automated collection techniques or the use of other forms of 
+information technology.
+    Title: Request for Details of Expenses.
+    OMB Control Number: 2900-0138 <a href="https://www.reginfo.gov/public/do/PRASearch">https://www.reginfo.gov/public/do/PRASearch</a>.
+    Type of Review: Extension without change of a currently approved 
+collection.
+    Abstract: The primary use of the form is to gather the necessary 
+information to determine eligibility for VA Pension. Without VA Form 
+21P-8049, VA will not be able to properly evaluate the totality of a 
+claimant's circumstances when considering an application for benefits. 
+VA will also be unable to assess the totality of the claimant's 
+circumstances when VA receives evidence of a significant increase in 
+the corpus of the claimant's estate. The collection is conducted on a 
+one-time basis and cannot be performed less frequently.
+    Affected Public: Individuals and households.
+    Estimated Annual Burden: 218 hours.
+    Estimated Average Burden per Respondent: 15 minutes.
+    Frequency of Response: One time.
+    Estimated Number of Respondents: 871 per year.
+
+(Authority: 44 U.S.C. 3501 et seq.)
+
+Dorothy Glasgow,
+Acting, VA PRA Clearance Officer, Office of Information Technology/Data 
+Governance Analytics, Department of Veterans Affairs.
+[FR Doc. 2025-21667 Filed 11-28-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

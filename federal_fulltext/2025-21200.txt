@@ -1,0 +1,336 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54240-54242]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21200]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 180
+
+[EPA-HQ-OPP-2025-1972; FRL-13038-01-OCSPP]
+
+
+Propyzamide; Extension of Tolerance for Emergency Exemption
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This regulation extends the time-limited tolerance for 
+residues of propyzamide in or on cranberry for an additional three-year 
+period. The time-limited tolerance expires on December 31, 2028. This 
+action is in response to EPA's granting of an emergency exemption under 
+section 18 of the Federal Insecticide, Fungicide, and Rodenticide Act 
+(FIFRA) authorizing use of this pesticide. In addition, the Federal 
+Food, Drug, and Cosmetic Act (FFDCA) requires EPA to establish a time-
+limited tolerance or exemption from the requirement for a tolerance for 
+pesticide chemical residues in food that will result from the use of a 
+pesticide under an emergency exemption granted by EPA under FIFRA.
+
+DATES: This regulation is effective November 26, 2025. Objections and 
+requests for hearings must be received on or before January 26, 2026 
+and must be filed in accordance with the instructions provided in 40 
+CFR part 178 (see also Unit I.C. of the SUPPLEMENTARY INFORMATION).
+
+ADDRESSES: The docket for this action, identified by docket 
+identification (ID) number EPA-HQ-OPP-2025-1972, is available at 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a>. Additional information about dockets 
+generally, along with instructions for visiting the docket in person, 
+is available at <a href="https://www.epa.gov/dockets">https://www.epa.gov/dockets</a>.
+
+FOR FURTHER INFORMATION CONTACT: Charles Smith, Director, Registration 
+Division (7505T), Office of Pesticide Programs, Environmental 
+Protection Agency, 1200 Pennsylvania Ave. NW, Washington, DC 20460-
+0001; main telephone number: (202) 566-1030; email address: 
+<a href="/cdn-cgi/l/email-protection#f7a5b3b1a5b998839e949284b7928796d9909881"><span class="__cf_email__" data-cfemail="affdebe9fde1c0dbc6cccadcefcadfce81c8c0d9">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Executive Summary
+
+A. Does this action apply to me?
+
+    You may be potentially affected by this action if you are an 
+agricultural producer, food manufacturer, or pesticide manufacturer. 
+The following list of North American Industrial Classification System 
+(NAICS) codes is not intended to be exhaustive but rather provides a 
+guide to help readers determine whether this document applies to them.
+    <bullet> Crop production (NAICS code 111).
+    <bullet> Animal production (NAICS code 112).
+    <bullet> Food manufacturing (NAICS code 311).
+    <bullet> Pesticide manufacturing (NAICS code 32532).
+    If you have questions regarding the applicability of this action to 
+a particular entity, consult the person listed under FOR FURTHER 
+INFORMATION CONTACT.
+
+B. What is EPA's authority for taking this action?
+
+    The Federal Food, Drug, and Cosmetic Act (FFDCA) requires EPA to 
+establish a time-limited tolerance or exemption from the requirement of 
+a tolerance for pesticide chemical residues in food that will result 
+from the use of a pesticide under an emergency exemption granted by EPA 
+under FIFRA. This regulation extends the time-limited tolerance for 
+residues of propyzamide in or on cranberry for an additional three-year 
+period. The time-limited tolerance expires on December 31, 2028.
+
+C. How can I file an objection or hearing request?
+
+    Under FFDCA section 408(g), 21 U.S.C. 346a(g), any person may file 
+an objection to any aspect of this regulation and may also request a 
+hearing on those objections. If you fail to file an objection to the 
+final rule within the time period specified in the final rule, you will 
+have waived the right to raise any issues resolved in the final rule. 
+You must file your objection or request a hearing on this regulation in 
+accordance with the instructions provided in 40 CFR part 178. To ensure 
+proper receipt by EPA, you must identify the docket ID number EPA-HQ-
+OPP-2025-1972 in the subject line on the first page of your submission. 
+All objections and requests for a hearing must be in writing and must 
+be received by the Hearing Clerk on or before January 26, 2026.
+    The EPA's Office of Administrative Law Judges (OALJ), in which the 
+Hearing Clerk is housed, urges parties to
+
+[[Page 54241]]
+
+file and serve documents by electronic means only, notwithstanding any 
+other particular requirements set forth in other procedural rules 
+governing those proceedings. See ``Revised Order Urging Electronic 
+Filing and Service,'' dated June 22, 2023, which can be found at 
+<a href="https://www.epa.gov/system/files/documents/2023-06/2023-06-22%20-%20revised%20order%20urging%20electronic%20filing%20and%20service.pdf">https://www.epa.gov/system/files/documents/2023-06/2023-06-22%20-%20revised%20order%20urging%20electronic%20filing%20and%20service.pdf</a>. 
+Although the EPA's regulations require submission via U.S. Mail or hand 
+delivery, the EPA intends to treat submissions filed via electronic 
+means as properly filed submissions; therefore, the EPA believes the 
+preference for submission via electronic means will not be prejudicial. 
+When submitting documents to the OALJ electronically, a person should 
+utilize the OALJ e-filing system at <a href="https://yosemite.epa.gov/oa/eab/eab-alj_upload.nsf">https://yosemite.epa.gov/oa/eab/eab-alj_upload.nsf</a>.
+    In addition to filing an objection or hearing request with the 
+Hearing Clerk as described in 40 CFR part 178, please submit a copy of 
+the filing (excluding any Confidential Business Information (CBI)) for 
+inclusion in the public docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Follow 
+the online instructions for submitting comments. Do not submit 
+electronically any information you consider to be CBI or other 
+information whose disclosure is restricted by statute. If you wish to 
+include CBI in your request, please follow the applicable instructions 
+at <a href="https://www.epa.gov/dockets/commenting-epa-dockets#rules">https://www.epa.gov/dockets/commenting-epa-dockets#rules</a> and clearly 
+mark the information that you claim to be CBI. Information not marked 
+confidential pursuant to 40 CFR part 2 may be disclosed publicly by EPA 
+without prior notice.
+
+II. Background and Statutory Findings
+
+    EPA previously published a final rule, establishing a time-limited 
+tolerance in the Federal Register of November 12, 2019 (84 FR 60937) 
+(FRL-10000-50), for the residues of propyzamide in or on cranberry. EPA 
+established the tolerance because FFDCA section 408(l)(6) requires EPA 
+to establish a time-limited tolerance or exemption from the requirement 
+for a tolerance for pesticide chemical residues in food that will 
+result from the use of a pesticide under an emergency exemption granted 
+by EPA under FIFRA section 18. Such tolerances can be established 
+without providing notice or period for public comment.
+    EPA received a request to extend emergency use of propyzamide on 
+cranberry for this year's growing season to control dodder 
+infestations. After having reviewed the submission, EPA concurs that 
+emergency conditions continue to exist.
+    EPA assessed the potential risks presented by residues of 
+propyzamide in or on cranberry. In doing so, EPA considered the safety 
+standard in FFDCA section 408(b)(2) and decided that the necessary 
+tolerance under FFDCA section 408(l)(6) would be consistent with the 
+safety standard and with FIFRA section 18. The data and other relevant 
+material have been evaluated and were discussed in the final rule that 
+originally established the time-limited tolerance. Based on that data 
+and information considered, the Agency reaffirms that extension of the 
+time-limited tolerance will continue to meet the requirements of FFDCA 
+section 408(l)(6). Therefore, the time-limited tolerance is extended 
+until December 31, 2028. Although this tolerance will expire and is 
+revoked on December 31, 2028, under FFDCA section 408(l)(5), residues 
+of the pesticide not in excess of the amounts specified in the 
+tolerance remaining in or on cranberry after that date will not be 
+unlawful, provided the residues are present as a result of an 
+application or use of a pesticide at a time and manner that was lawful 
+under FIFRA, the tolerance was in place at the time of application, and 
+the residues do not exceed the level that was authorized by the 
+tolerance. EPA will take action to revoke the tolerance earlier if any 
+experience with, scientific data on, or other relevant information on 
+this pesticide indicates that the residues are not safe. EPA will 
+publish a document in the Federal Register to remove the revoked 
+tolerances from the Code of Federal Regulations (CFR).
+    Under FIFRA section 18, EPA authorized the use of propyzamide on 
+cranberry for control of dodder in Massachusetts. This was done 
+pursuant to a request by the Massachusetts Department of Agricultural 
+Resources. This regulation extends a time-limited tolerance for 
+residues of the herbicide propyzamide and its metabolites and 
+degradates in or on cranberry at 1 part per million (ppm) for an 
+additional 3-year period. This tolerance will expire and be revoked on 
+December 31, 2028. The time-limited tolerance was originally published 
+in the Federal Register of November 12, 2019 (84 FR 60937) (FRL-10000-
+50).
+
+III. International Residue Limits
+
+    In making its tolerance decisions, EPA seeks to harmonize U.S. 
+tolerances with international standards whenever possible, consistent 
+with U.S. food safety standards and agricultural practices. EPA 
+considers the international maximum residue limits (MRLs) established 
+by the Codex Alimentarius Commission (Codex), as required by FFDCA 
+section 408(b)(4). The Codex Alimentarius is a joint United Nations 
+Food and Agriculture Organization/World Health Organization food 
+standards program, and it is recognized as an international food safety 
+standards-setting organization in trade agreements to which the United 
+States is a party. EPA may establish a tolerance that is different from 
+a Codex MRL; however, FFDCA section 408(b)(4) requires that EPA explain 
+the reasons for departing from the Codex level. The Codex has not 
+established any MRLs for propyzamide.
+
+VI. Statutory and Executive Order Reviews
+
+    Additional information about these statutes and Executive Orders 
+can be found at <a href="https://www.epa.gov/regulations/and-executive-orders">https://www.epa.gov/regulations/and-executive-orders</a>.
+
+A. Executive Order 12866: Regulatory Planning and Review
+
+    This action is exempt from review under Executive Order 12866 (58 
+FR 51735, October 4, 1993), because it establishes or modifies a 
+pesticide tolerance or a tolerance exemption under FFDCA section 408 in 
+response to a petition submitted to the Agency. The Office of 
+Management and Budget (OMB) has exempted these types of actions from 
+review under Executive Order 12866.
+
+B. Executive Order 14192: Unleashing Prosperity Through Deregulation
+
+    Executive Order 14192 (90 FR 9065, February 6, 2025) does not apply 
+because actions that establish a tolerance under FFDCA section 408 are 
+exempted from review under Executive Order 12866.
+
+C. Paperwork Reduction Act (PRA)
+
+    This action does not impose an information collection burden under 
+the PRA 44 U.S.C. 3501 et seq., because it does not contain any 
+information collection activities.
+
+D. Regulatory Flexibility Act (RFA)
+
+    Since tolerances and exemptions that are established in accordance 
+with FFDCA sections 408(e) and 408(l)(6), such as the tolerance in this 
+final rule, do not require the issuance of a proposed rule, the 
+requirements of the RFA, 5 U.S.C. 601 et seq., do not apply.
+
+E. Unfunded Mandates Reform Act (UMRA)
+
+    This action does not contain an unfunded mandate of $100 million or 
+more (in 1995 dollars and adjusted
+
+[[Page 54242]]
+
+annually for inflation) as described in UMRA, 2 U.S.C. 1531-1538 and 
+does not significantly or uniquely affect small governments. The action 
+imposes no enforceable duty on any State, local, or Tribal governments 
+or on the private sector.
+
+F. Executive Order 13132: Federalism
+
+    This action does not have federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999), because it will 
+not have substantial direct effects on the States, on the relationship 
+between the National Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+
+G. Executive Order 13175: Consultation and Coordination With Indian 
+Tribal Governments
+
+    This action does not have Tribal implications as specified in 
+Executive Order 13175 (65 FR 67249, November 9, 2000), because it will 
+not have substantial direct effects on Tribal governments, on the 
+relationship between the Federal Government and the Indian Tribes, or 
+on the distribution of power and responsibilities between the Federal 
+Government and Indian Tribes.
+
+H. Executive Order 13045: Protection of Children From Environmental 
+Health Risks and Safety Risks
+
+    This action is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because tolerance actions like this one are exempt from 
+review under Executive Order 12866. However, EPA's 2021 Policy on 
+Children's Health applies to this action. This rule finalizes tolerance 
+actions under the FFDCA, which requires EPA to give special 
+consideration to exposure of infants and children to the pesticide 
+chemical residue in establishing a tolerance and to ``ensure that there 
+is a reasonable certainty that no harm will result to infants and 
+children from aggregate exposure to the pesticide chemical residue . . 
+.'' (FFDCA 408(b)(2)(C)).
+
+I. Executive Order 13211: Actions Concerning Regulations That 
+Significantly Affect Energy Supply, Distribution or Use
+
+    This action is not subject to Executive Order 13211 (66 FR 28355) 
+(May 22, 2001) because it is not a significant regulatory action under 
+Executive Order 12866.
+
+J. National Technology Transfer Advancement Act (NTTAA)
+
+    This action does not involve technical standards that would require 
+Agency consideration under NTTAA section 12(d), 15 U.S.C. 272.
+
+K. Congressional Review Act (CRA)
+
+    This action is subject to the CRA, 5 U.S.C. 801 et seq., and EPA 
+will submit a rule report to each House of the Congress and to the 
+Comptroller General of the United States. This action is not a ``major 
+rule'' as defined by 5 U.S.C. 804(2).
+
+List of Subjects in 40 CFR Part 180
+
+    Environmental protection, Administrative practice and procedure, 
+Agricultural commodities, Pesticides and pests, Reporting and 
+recordkeeping requirements.
+
+    Dated: November 19, 2025.
+Charles Smith,
+Director, Registration Division, Office of Pesticide Programs.
+
+    Therefore, 40 CFR chapter I is amended as follows:
+
+PART 180--TOLERANCES AND EXEMPTIONS FOR PESTICIDE CHEMICAL RESIDUES 
+IN FOOD
+
+0
+1. The authority citation for part 180 continues to read as follows:
+
+    Authority:  21 U.S.C. 321(q), 346a and 371.
+
+
+0
+2. In Sec.  180.317, revise table 2 to paragraph (b) to read as 
+follows:
+
+
+Sec.  180.317  Propyzamide; tolerances for residues.
+
+* * * * *
+     (b) * * *
+
+                        Table 2 to Paragraph (b)
+------------------------------------------------------------------------
+                                                             Expiration/
+                   Commodity                      Parts per   revocation
+                                                   million       date
+------------------------------------------------------------------------
+Cranberry......................................           1   12/31/2028
+------------------------------------------------------------------------
+
+* * * * *
+[FR Doc. 2025-21200 Filed 11-25-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

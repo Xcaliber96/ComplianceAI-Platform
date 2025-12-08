@@ -1,0 +1,310 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Proposed Rules]
+[Pages 55063-55065]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21670]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+Coast Guard
+
+33 CFR Part 117
+
+[Docket No. USCG-2025-0999]
+RIN 1625-AA09
+
+
+Drawbridge Operation Regulation; Passaic River, Between the City 
+of Newark and Town of Kearny, NJ
+
+AGENCY: Coast Guard, DHS.
+
+ACTION: Notice of proposed rulemaking.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Coast Guard proposes to modify the operating regulation 
+that governs the Point No Point Railroad Bridge across the Passaic 
+River, mile 2.6, between the City of Newark and Town of Kearny, NJ. The 
+proposed change in the regulation will allow the bridge to be remotely 
+operated from the Conrail North Jersey Dispatch Center in Mount Laurel, 
+NJ. This proposed change will alter the operating schedule of the 
+bridge to open on signal and no longer require a four-hour advance 
+notice. We invite your comments on this proposed rulemaking.
+
+DATES: Comments and related material must be received by the Coast 
+Guard on or before December 31, 2025.
+
+ADDRESSES:  You may submit comments identified by docket number USCG-
+2025-0999 at <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    See the ``Public Participation and Request for Comments'' portion 
+of the SUPPLEMENTARY INFORMATION section below for instructions on 
+submitting comments. This notice of proposed rulemaking with its plain-
+language, 100-word-or-less proposed rule summary will be available in 
+this same docket.
+
+FOR FURTHER INFORMATION CONTACT: If you have questions on this proposed 
+rule, call or email Mr. Gregory P. Hitchen, Northeast Coast Guard 
+District (dpb), the Coast Guard; telephone 571-607-8154, email 
+<a href="/cdn-cgi/l/email-protection#9bdce9fefcf4e9e2b5cbb5d3f2eff8f3fef5dbeee8f8fcb5f6f2f7"><span class="__cf_email__" data-cfemail="571025323038252e7907791f3e23343f32391722243430793a3e3b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Table of Abbreviations
+
+CFR Code of Federal Regulations
+DHS Department of Homeland Security
+FR Federal Register
+OMB Office of Management and Budget
+NPRM Notice of Proposed Rulemaking (Advance, Supplemental)
+Sec.  Section
+U.S.C. United States Code
+
+II. Background, Purpose and Legal Basis
+
+    The Point No Point Railroad Bridge across the Passaic River, 
+between the City of Newark and Town of Kearny, NJ, mile 2.6, owned and 
+operated by Conrail, has a vertical clearance of 20 feet above mean 
+high water when closed and is unlimited when open.
+    This proposed regulation will allow the bridge to be remotely 
+operated from the Conrail North Jersey Dispatch Center in Mount Laurel, 
+NJ. The current operating schedule is published in 33 CFR 117.739(c). 
+With the implementation of remote operation of the bridge, the 
+operating schedule will change to allow the bridge to open on signal 
+versus requiring a four-hour advance notice. There are 30 daily train 
+transits that cross the bridge and an average of one bridge opening 
+every six months for vessel transits. The bridge is normally maintained 
+in the closed position due to the average daily number of trains 
+crossing the bridge. The Passaic River has limited commercial and 
+recreational vessel traffic. Most commercial traffic supports marine 
+construction projects in the waterway.
+    The Coast Guard is proposing to allow remote operations to improve 
+the efficiency of bridge openings. Currently the Conrail train 
+dispatcher in Mount Laurel NJ must dispatch bridge operating personnel 
+to open the Point No Point Railroad Bridge. Remote operations will 
+allow the Conrail train dispatcher to open the bridge on signal.
+    The legal basis for this rulemaking is 33 U.S.C. 499.
+
+III. Discussion of Proposed Rule
+
+    This proposed operating regulation will allow the Point No Point 
+Railroad Bridge to be operated remotely from the Conrail North Jersey 
+Dispatch Center in Mount Laurel, NJ. The remote operations system 
+includes eight camera views (four marine and four rail), marine radar, 
+sonar, automated integration system (AIS) sensors, integration 
+software, a dedicated phone line for bridge operations, and 
+radiotelephone communications on VHF-FM channels 13 and 16.
+    The remote operation system is designed to provide equal or greater 
+capabilities compared to the on-site bridge tender, in visibility of 
+the waterway and bridge, and in signals (communications) via sound and 
+visual signals and radio telephone (voice) via VHF-FM channels 13 and 
+16. The remote operation system also incorporates a dedicated telephone 
+line for bridge operations and push-to-talk (PTT) capability on VHF-FM 
+channels 13. Vessels that require an opening shall continue to request 
+an opening via the methods (sound or visual signals or radio telephone 
+(VHF-FM) voice
+
+[[Page 55064]]
+
+communications) as defined in 33 CFR 117.15(b) through (d), via 
+telephone at (856) 231-2301, or push-to-talk (PTT) on VHF-FM channel 
+13. Vessels may push the PTT button five times while on VHF-FM channel 
+13 and the North Jersey Dispatch Center will receive and respond to the 
+request and commence opening of the bridge.
+    The remote operation system will be considered failed and qualified 
+personnel will return and operate the Point No Point Railroad Bridge 
+within 60 minutes if any of the following conditions are found: (1) The 
+remote operation system becomes incapable of safely and effectively 
+operating the bridge from the remote operation center, (2) visibility 
+of the waterway or bridge is degraded to less than equal that of an on-
+site bridge tender (all eight camera views are required), or (3) 
+signals (communications) via sound or visual signals or radio telephone 
+(voice) via VHF-FM channels 13 or 16 become inoperative.
+
+IV. Regulatory Analyses
+
+    We developed this proposed rule after considering numerous statutes 
+and Executive Orders related to rulemaking. Below we summarize our 
+analyses based on these statutes and Executive Orders.
+
+A. Impact on Small Entities
+
+    The Regulatory Flexibility Act of 1980, 5 U.S.C. 601-612, as 
+amended, requires Federal agencies to consider the potential impact of 
+regulations on small entities during rulemaking. The term ``small 
+entities'' comprises small businesses, not-for-profit organizations 
+that are independently owned and operated and are not dominant in their 
+fields, and governmental jurisdictions with populations of less than 
+50,000. The Coast Guard certifies under 5 U.S.C. 605(b) that this 
+proposed rule would not have a significant economic impact on a 
+substantial number of small entities for the following reasons. (1) 
+vessels will be able to obtain bridge openings on signal versus a four-
+hour advance notice, (2) the remote operation system is designed to 
+provide equal or greater capabilities compared to the on-site bridge 
+tender, and (3) the bridge owner will be capable of restoring on-site 
+operation of the bridge within 60 minutes if the remote operation 
+system fails.
+    If you think that your business, organization, or governmental 
+jurisdiction qualifies as a small entity and that this rule would have 
+a significant economic impact on it, please submit a comment (see 
+ADDRESSES) explaining why you think it qualifies and how and to what 
+degree this rule would economically affect it.
+    Under section 213(a) of the Small Business Regulatory Enforcement 
+Fairness Act of 1996 (Pub. L. 104-121), we want to assist small 
+entities in understanding this proposed rule. If the proposed rule 
+would affect your small business, organization, or governmental 
+jurisdiction and you have questions concerning its provisions or 
+options for compliance, please contact the person listed in the FOR 
+FURTHER INFORMATION CONTACT section. The Coast Guard will not retaliate 
+against small entities that question or complain about this proposed 
+rule or any policy or action of the Coast Guard.
+
+B. Collection of Information
+
+    This proposed rule would call for no new collection of information 
+under the Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3520.).
+
+C. Federalism and Indian Tribal Governments
+
+    A rule has implications for federalism under Executive Order 13132 
+(Federalism), if it has a substantial direct effect on the States, on 
+the relationship between the National Government and the States, or on 
+the distribution of power and responsibilities among the various levels 
+of government. We have analyzed this proposed rule under that Order and 
+have determined that it is consistent with the fundamental federalism 
+principles and preemption requirements described in Executive Order 
+13132.
+    Also, this proposed rule does not have tribal implications under 
+Executive Order 13175 (Consultation and Coordination with Indian Tribal 
+Governments) because it would not have a substantial direct effect on 
+one or more Indian tribes, on the relationship between the Federal 
+Government and Indian tribes, or on the distribution of power and 
+responsibilities between the Federal Government and Indian tribes. If 
+you believe this proposed rule has implications for federalism or 
+Indian tribes, please contact the person listed in the FOR FURTHER 
+INFORMATION CONTACT section.
+
+D. Unfunded Mandates Reform Act
+
+    The Unfunded Mandates Reform Act of 1995 (2 U.S.C. 1531-1538) 
+requires Federal agencies to assess the effects of their discretionary 
+regulatory actions. In particular, the Act addresses actions that may 
+result in the expenditure by a State, local, or tribal government, in 
+the aggregate, or by the private sector of $100,000,000 (adjusted for 
+inflation) or more in any one year. Though this proposed rule will not 
+result in such an expenditure, we do discuss the effects of this 
+proposed rule elsewhere in this preamble.
+
+E. Environment
+
+    We have analyzed this rule under Department of Homeland Security 
+Management Directive 023-01, Rev.1, associated implementing 
+instructions, and Environmental Planning Policy COMDTINST 5090.1 
+(series), which guide the Coast Guard in complying with the National 
+Environmental Policy Act of 1969 (NEPA) (42 U.S.C. 4321-4370f). The 
+Coast Guard has determined that this action is one of a category of 
+actions that do not individually or cumulatively have a significant 
+effect on the human environment. This proposed rule promulgates the 
+operating regulations or procedures for drawbridges. Normally such 
+actions are categorically excluded from further review, under paragraph 
+L49, of Appendix A, Table 1 of DHS Instruction Manual 023-01-001-01, 
+Rev. 1.
+    Neither a Record of Environmental Consideration nor a Memorandum 
+for the Record are required for this rule. We seek any comments or 
+information that may lead to the discovery of a significant 
+environmental impact from this proposed rule.
+
+V. Public Participation and Request for Comments
+
+    We view public participation as essential to effective rulemaking 
+and will consider all comments and material received during the comment 
+period. Your comment can help shape the outcome of this rulemaking. If 
+you submit a comment, please include the docket number for this 
+rulemaking, indicate the specific section of this document to which 
+each comment applies, and provide a reason for each suggestion or 
+recommendation.
+    Submitting comments. We encourage you to submit comments at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. To do so, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a>, type 
+USCG-2025-0999 in the search box and click ``Search.'' Next, look for 
+this document in the Search Results column, and click on it. Then click 
+on the Comment option. If your material cannot be submitted using 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a>, contact the person in the FOR FURTHER 
+INFORMATION CONTACT section of this document for alternate 
+instructions.
+    Viewing material in docket. To view documents mentioned in this 
+proposed rule as being available in the docket, find the docket as 
+described in the previous paragraph, and then select ``Supporting & 
+Related Material'' in the
+
+[[Page 55065]]
+
+Document Type column. Public comments will also be placed in our online 
+docket and can be viewed by following instructions on the <a href="https://www.regulations.gov">https://www.regulations.gov</a> Frequently Asked Questions web page. Also, if you 
+go to the online docket and sign up for email alerts through the 
+``Subscribe'' option, you will be notified when comments/updates are 
+posted, or a final rule is published.
+    Personal information. We accept anonymous comments. Comments we 
+post to <a href="https://www.regulations.gov">https://www.regulations.gov</a> will include any personal 
+information you have provided. For more about privacy and submissions 
+in response to this document, see DHS's eRulemaking System of Records 
+notice (85 FR 14226, March 11, 2020).
+
+List of Subjects in 33 CFR Part 117
+
+    Bridges.
+
+    For the reasons discussed in the preamble, the Coast Guard proposes 
+to amend 33 CFR part 117 as follows:
+
+PART 117--DRAWBRIDGE OPERATION REGULATIONS
+
+0
+1. The authority citation for part 117 continues to read as follows:
+
+    Authority:  33 U.S.C. 499; 33 CFR 1.05-1; and DHS Delegation No. 
+00170.1. Revision No. 01.3
+
+0
+2. Revise Sec.  117.739(c) to read as follows
+
+
+Sec.  117.739  Passaic River.
+
+* * * * *
+    (c) The draw of CONRAIL's Point-No-Point Railroad Bridge, mile 2.6, 
+between the City of Newark and the Town of Kearny, NJ, shall be 
+operated from a remote location at all times, except when it is tended 
+locally. The bridge shall open on signal once notice is given. After 
+the signal to open is given, the opening may be delayed no more than 
+ten minutes.
+    (1) Closed circuit television cameras shall be operated and 
+maintained at the bridge site to enable the remotely located bridge 
+tender to have a full view of both vessel traffic and the bridge.
+    (2) Radiotelephone Channel 13/16 VHF-FM shall be maintained and 
+utilized to facilitate communication in both remote and local control 
+locations. A push-to-talk (PTT) will be maintained on VHF-FM channel 
+13. Vessels may push the PTT button five times while on VHF-FM channel 
+13 and the remotely located bridge tender will receive and respond to 
+the request and commence opening of the bridge.
+    (3) The bridge shall also be equipped with directional microphones 
+and horns to receive and deliver signals to vessels.
+    (4) A telephone number will be maintained and posted for mariners 
+to directly contact the remotely located bridge tender.
+* * * * *
+
+M.E. Platt,
+Rear Admiral, U.S. Coast Guard, Commander, Northeast Guard District.
+[FR Doc. 2025-21670 Filed 11-28-25; 8:45 am]
+BILLING CODE 9110-04-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

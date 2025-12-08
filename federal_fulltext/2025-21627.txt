@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Page 55189]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21627]
+
+
+-----------------------------------------------------------------------
+
+SECURITIES AND EXCHANGE COMMISSION
+
+[Release No. 34-104260; File No. 10-00248]
+
+
+In the Matter of the Application of Dream Exchange Holdings, Inc. 
+for Registration as a National Securities Exchange; Findings, Opinion, 
+and Order of the Commission
+
+November 25, 2025.
+
+I. Introduction and Procedural History
+
+    On February 14, 2025, Dream Exchange Holdings, Inc. (``DreamEx'') 
+filed with the Securities and Exchange Commission (``Commission'') a 
+Form 1 application (``Form 1'') under the Securities Exchange Act of 
+1934 (``Act''), seeking registration as a national securities exchange 
+under section 6 of the Act.\1\ Notice of the application was published 
+for comment in the Federal Register on March 3, 2025.\2\ The Commission 
+received no comments on the Form 1. On May 30, 2025, the Commission 
+instituted proceedings pursuant to section 19(a)(1)(B) of the Act \3\ 
+to determine whether to grant or deny DreamEx's application for 
+registration as a national securities exchange under section 6 of the 
+Act.\4\ On July 8, 2025, DreamEx filed an amendment to the Form 1 
+(``Amendment No. 1'').\5\ Amendment No. 1 was published for comment in 
+the Federal Register on July 14, 2025.\6\ On July 16, 2025, DreamEx 
+filed Amendment No. 2 to the Form 1 (``Amendment No. 2'').\7\ The 
+Commission received no comments on the Form 1, as amended by Amendment 
+Nos. 1 and 2. On August 22, 2025, the Commission extended, pursuant to 
+section 19(a)(1)(B) of the Act,\8\ the time period for granting or 
+denying the Form 1 for an additional 90 days, until November 28, 
+2025.\9\
+---------------------------------------------------------------------------
+
+    \1\ 15 U.S.C. 78f. The Form 1 is available on the Commission's 
+website at: <a href="https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1">https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1</a>. See also 15 U.S.C. 
+78s(a)(1) (stating that the Commission shall, ``[w]ithin ninety days 
+of the date of publication of such notice (or within such longer 
+period as to which the applicant consents),'' grant the registration 
+or institute proceedings to determine whether the registration 
+should be denied, that any such proceedings ``shall be concluded 
+within one hundred eighty days of the date of a public of notice of 
+the filing of the application for registration,'' that ``[a]t the 
+conclusion of such proceedings, the Commission, by order, shall 
+grant or deny such registration,'' and that ``[t]he Commission may 
+extend the time for conclusion of such proceedings for up to ninety 
+days if it finds good cause for such extension and publishes its 
+reasons for so finding or for such longer period as to which the 
+applicant consents'').
+    \2\ See Securities Exchange Act Release No. 102484 (Feb. 25, 
+2025), 90 FR 11078 (Mar. 3, 2025) (``Notice'').
+    \3\ 15 U.S.C. 78s(a)(1)(B).
+    \4\ See Securities Exchange Act Release No. 103157 (May 30, 
+2025), 90 FR 23751 (June 4, 2025).
+    \5\ Amendment No. 1 is available on the Commission's website at: 
+<a href="https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1">https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1</a>.
+    \6\ See Securities Exchange Act Release No. 103430 (July 9, 
+2025), 90 FR 31310 (July 14, 2025).
+    \7\ Amendment No. 2 is available on the Commission's website at: 
+<a href="https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1">https://www.sec.gov/rules-regulations/other-commission-orders-notices-information/dream-exchange-form-1</a>.
+    \8\ 15 U.S.C. 78s(a)(1)(B).
+    \9\ See Securities Exchange Act Release No. 103767 (Aug. 22, 
+2025), 90 FR 41847 (Aug. 27, 2025).
+---------------------------------------------------------------------------
+
+    The Commission has reviewed DreamEx's registration application, as 
+amended, in order to make a determination whether to grant such 
+registration. For the reasons set forth below, this order denies 
+DreamEx's application, as amended, for registration as a national 
+securities exchange.
+
+II. Statutory Standards and Discussion
+
+    Pursuant to Sections 6(b) and 19(a) of the Act,\10\ the Commission 
+shall by order grant an application for registration as a national 
+securities exchange if the Commission finds, among other things, that 
+the proposed exchange is so organized and has the capacity to be able 
+to carry out the purposes of the Act and to comply, and to enforce 
+compliance by its members, with the provisions of the Act, the rules 
+and regulations thereunder, and the rules of the exchange.\11\ The 
+Commission shall deny such registration if it does not make such 
+finding.
+---------------------------------------------------------------------------
+
+    \10\ 15 U.S.C. 78f(b)(1) and 15 U.S.C. 78s(a), respectively.
+    \11\ See also supra note 1 (discussing the time for Commission 
+action following publication of notice of an application for 
+exchange registration).
+---------------------------------------------------------------------------
+
+    The Commission is mindful of the important role national securities 
+exchanges play in the securities markets.\12\ Not only do they operate 
+trading markets, but registered national securities exchanges are also 
+self-regulatory organizations charged with a public trust to implement 
+and enforce the Federal securities laws and rules, as well as their own 
+rules with respect to their members.\13\
+---------------------------------------------------------------------------
+
+    \12\ See Securities Exchange Act Release No. 40760 (Dec. 8, 
+1998), 63 FR 70844, 70881 (Dec. 22, 1998) (``the self-regulatory 
+role of registered exchanges is fundamental to the enforcement of 
+the Federal securities laws.''); and Securities Exchange Act Release 
+No. 50699 (Nov. 18, 2004), 69 FR 71126, 71132 (Dec. 8, 2004) (``As 
+operators of trading markets, front-line regulators of securities 
+firms, and standard-setters for listed issuers, national securities 
+exchanges . . . are critical to the integrity of the U.S. securities 
+markets.'').
+    \13\ See Securities Exchange Act Release No. 50699, 69 FR 71126, 
+71131.
+---------------------------------------------------------------------------
+
+    In connection with DreamEx's application for registration as a 
+national securities exchange, the Commission has reviewed information 
+provided by DreamEx publicly in its Form 1 and non-publicly in response 
+to Commission requests, as well as additional information derived from 
+public and non-public sources related to DreamEx and its officers, 
+directors, and affiliates.\14\ The non-public information includes 
+information obtained as a result of a formal order of investigation 
+issued by the Commission to determine whether there have been any 
+violations of the Federal securities laws. Although the Commission has 
+not yet made any determinations in connection with the investigation, 
+taken together, the information currently before the Commission raises 
+questions about DreamEx's capacity to be able to carry out the purposes 
+of and comply with the provisions of the Act and the rules and 
+regulations thereunder that we are not able to resolve at this 
+time,\15\ and may not be resolved until the investigation is 
+concluded.\16\ Consequently, the Commission is unable at this time to 
+find that DreamEx is so organized and has the capacity to be able to 
+carry out the purposes of the Act and to comply, and to enforce 
+compliance by its members, with the provisions of the Act, the rules 
+and regulations thereunder, and the rules of the exchange consistent 
+with Section 6(b)(1) of the Act.\17\
+---------------------------------------------------------------------------
+
+    \14\ Among other things, there have been press reports raising 
+questions about the potential misuse of funds.
+    \15\ See 15 U.S.C. 78s(a)(1), supra note 1. However, nothing 
+precludes DreamEx from filing another Form 1 application with the 
+Commission in the future.
+    \16\ The Commission's analysis and conclusions do not depend on 
+the identity or affiliation of any such sources. Rather, the 
+Commission has considered the substance of the concerns raised both 
+publicly and non-publicly in light of the information before it.
+    \17\ See supra note 10.
+---------------------------------------------------------------------------
+
+III. Conclusion
+
+    It is ordered that the application of DreamEx for registration as a 
+national securities exchange be, and it hereby is, denied.
+
+    By the Commission.
+Vanessa A. Countryman,
+Secretary.
+[FR Doc. 2025-21627 Filed 11-28-25; 8:45 am]
+BILLING CODE 8011-01-P
+
+
+</pre></body>
+</html>

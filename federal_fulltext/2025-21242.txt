@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54234-54236]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21242]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF VETERANS AFFAIRS
+
+38 CFR Part 1
+
+[Docket No. VA-2024-OTHER-0024]
+RIN 2900-AS18
+
+
+Extending Deadline for Debtor To Request a Waiver
+
+AGENCY: Department of Veterans Affairs.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Veterans Affairs (VA) is finalizing, with 
+technical changes, a proposed rule to amend the time period that a 
+debtor has to request a waiver from 180 days to one year, as mandated 
+by the Cleland Dole Act. Generally, VA is authorized to not recover 
+debts related to benefits payments or overpayments where recovery would 
+be against good conscience and an application for relief is made within 
+the required time period. Allowing an additional six months to request 
+a waiver reduces pressure on veterans by easing the compliance burden.
+
+DATES: This rule is effective on January 26, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Jeremiah Mcintosh, Systems and 
+Procedures Analyst, Office of Finance, Office of Management, (207) 402-
+9017.
+
+SUPPLEMENTARY INFORMATION: On November 8, 2024, VA published a proposed 
+rule in the Federal Register, 89 FR 88686, to amend the time period 
+that a debtor has to request a waiver from 180 days to one year 
+consistent with section 254 of the Cleland Dole Act, Public Law 117-
+328, Division U, which went into effect on December 29, 2024. VA 
+provided a 60-day comment period, which ended on January 7, 2025. VA 
+received one supportive comment, which also contained a request that 
+was outside the scope of the rulemaking. VA is not making any changes 
+to the final regulation based on this comment. For the reasons stated 
+above, VA will adopt the proposed rule as final, with technical 
+changes.
+
+Technical Changes Not Related to Comments
+
+    Currently, 38 CFR 1.963(b)(1) establishes a two-year timeframe for 
+individuals to submit a request for waiver from indebtedness for VA 
+notices of indebtedness issued by VA on or before March 31, 1983, 
+without any exception to extend this timeframe. This two-year timeframe 
+was consistent with 38 U.S.C. 5302(a), prior to such statute being 
+amended to substitute ``180 days'' for the former ``two years,'' and to 
+newly include an exception to extend the 180-day timeframe if an 
+individual could show their receipt of VA's notice was delayed. See 
+Public Law 97-306, sec. 407(b), enacted Oct. 14, 1982, effective March 
+31, 1983.
+    Subject to this statutory amendment, VA promulgated Sec.  
+1.963(b)(2) on June 15, 1983, establishing a new timeframe of 180 days 
+from the date of VA notice for those notices issued by VA after March 
+31, 1983, and including a new exception to extend that timeframe. 48 FR 
+27400. At the time that VA first promulgated Sec.  1.963(b)(2), this 
+new 180-day timeframe overlapped the former two-year timeframe in Sec.  
+1.963(b)(1), and so VA retained paragraph (b)(1) to ensure that the 
+former, longer timeframe had adequate time to run. However, paragraph 
+(b)(1) is now obsolete as the former two-year timeframe for notices of 
+indebtedness issued by VA on or prior to March 31, 1983, has long since 
+passed, and there is no statutory exception to extend that two-year 
+timeframe for such notices. VA therefore removes paragraph (b)(1) of 
+Sec.  1.963 in this final rule. In so doing, VA will now only regulate 
+applicable timeframes for individuals to submit requests for waivers of 
+indebtedness in a single paragraph (b) under Sec.  1.963.
+    VA proposed to revise Sec.  1.963(b)(1) to replace the former 180-
+day timeframe with one year for all notices issued by VA after April 1, 
+1983, so that application of waiver can be ``made within one year 
+following the date of a notice of indebtedness issued on or after April 
+1, 1983, by the Department of Veterans Affairs to the debtor.'' 89 FR 
+88687. This proposed revision was based on amendments to 38 U.S.C.
+
+[[Page 54235]]
+
+5302(a)(1) as made by section 254 of the Joseph Maxwell Cleland and 
+Robert Joseph Dole Memorial Veterans Benefits and Health Care 
+Improvement Act of 2022 (Div. U of Pub. L. 117-328, enacted December 
+29, 2022, hereinafter referred to as ``the Act''). However, section 254 
+of the Act amended 38 U.S.C. 5302(a)(1) to establish a one-year 
+timeframe to apply for waiver only for notices of indebtedness issued 
+by VA on and after December 29, 2024, not to any notice issued by VA on 
+or after April 1, 1983, as stated in the proposed rule. Any notice 
+issued by VA from April 1, 1983, through December 28, 2024, would 
+technically still be subject to the former 180-day timeframe in section 
+5302(a)(1), prior to the most recent amendment to that statute as made 
+by section 254 of the Act (albeit, that former 180-day timeframe lapsed 
+on June 26, 2025, for any notice of indebtedness issued by VA as late 
+as December 28, 2024).
+    Although the proposed rule did not distinguish the two timeframes 
+for waiver requests based on the effective date of the change made to 
+38 U.S.C. 5302(a)(1) by section 254 of the Act, the former timeframe of 
+180 days for notices of indebtedness issued by VA from April 1, 1983, 
+through December 28, 2024, is not relevant. That 180-day timeframe 
+would have lapsed on June 26, 2025, for any notice of indebtedness that 
+VA could have issued as late as December 28, 2024. We acknowledge that 
+38 U.S.C. 5302(a)(1) provides an exception to extend the 180-day 
+timeframe if an individual could show their receipt of VA's notice was 
+delayed. However, as of the date of publication of this final rule, VA 
+does not have knowledge that any individual issued a notice by VA as 
+late as December 28, 2024, has otherwise submitted proof to VA that 
+their receipt of VA's notice was delayed in accordance with the current 
+regulatory language in Sec.  1.963(b)(2), that ``as a result of an 
+error by either the Department of Veterans Affairs or the postal 
+authorities, or due to other circumstances beyond the debtor's control, 
+there was a delay in such individual's receipt of the notification of 
+indebtedness beyond the time customarily required for mailing 
+(including forwarding).'' There would therefore be no risk to VA in 
+publishing a final rule without any date(s) of VA notice otherwise 
+referenced in 38 CFR 1.963(b).
+    This final rule therefore makes changes from the proposed rule to 
+remove paragraph (b)(1) from Sec.  1.963, and renumber and revise Sec.  
+1.963(b)(2) as proposed to be a new paragraph (b) that retains the 
+current one-year statutory timeframe in 38 U.S.C. 5302(a)(1) to submit 
+a request for waiver, but removes the reference to notices of 
+indebtedness by VA issued on or after April 1, 1983.
+
+Executive Orders 12866, 13563, and 14192
+
+    VA examined the impact of this rulemaking as required by Executive 
+Orders 12866 (Sept. 30, 1993) and 13563 (Jan. 18, 2011), which direct 
+agencies to assess all costs and benefits of available regulatory 
+alternatives and, if regulation is necessary, to select regulatory 
+approaches that maximize net benefits. A regulatory impact analysis 
+must be prepared for major rules with effects of $100 million or more 
+in any one year. The Office of Information and Regulatory Affairs has 
+determined that this rulemaking is a significant regulatory action 
+under section 3(f)(1) of Executive Order 12866, as supplemented by 
+Executive Order 13563. This final rule is a deregulatory action under 
+Executive Order 14192 because it reduces pressure on veterans by easing 
+the compliance burden associated with debt waivers by allowing an 
+additional six months to request a waiver. The Regulatory Impact 
+Analysis associated with this rulemaking can be found as a supporting 
+document at <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+Regulatory Flexibility Act (RFA)
+
+    The Secretary hereby certifies that this final rule will not have a 
+significant economic impact on a substantial number of small entities 
+as they are defined in the Regulatory Flexibility Act (5 U.S.C. 601-
+612). The factual basis for this certification is based on the fact 
+that the final rule only affects individual veteran debtors, not small 
+entities. In addition, the final rule gives debtors more time to 
+request a waiver which will not have a negative economic impact on the 
+debtors. Therefore, pursuant to 5 U.S.C. 605(b), the initial and final 
+regulatory flexibility analysis requirements of 5 U.S.C. 603 and 604 do 
+not apply.
+
+Unfunded Mandates
+
+    This final rule will not result in the expenditure by State, local, 
+and Tribal governments, in the aggregate, or by the private sector, of 
+$100 million or more (adjusted annually for inflation) in any one year.
+
+Paperwork Reduction Act (PRA)
+
+    This rulemaking contains no provisions constituting a collection of 
+information under the Paperwork Reduction Act of 1995 (44 U.S.C. 3501-
+3521).
+
+Congressional Review Act
+
+    This rule may result in an annual effect on the economy of $100 
+million or more and is considered a major rule as defined by 5 U.S.C. 
+804(2). Thus, this rule is subject to a 60-day delayed effective date 
+under 5 U.S.C. 801(a)(3).
+
+List of Subjects in 38 CFR Part 1
+
+    Administrative practice and procedure, Disability benefits, 
+Penalties, Pensions, Wages.
+
+Signing Authority
+
+    Douglas A. Collins, Secretary of Veterans Affairs, approved this 
+document on November 5, 2025, and authorized the undersigned to sign 
+and submit the document to the Office of the Federal Register for 
+publication electronically as an official document of the Department of 
+Veterans Affairs.
+
+Taylor N. Mattson,
+Alternate Federal Register Liaison Officer, Department of Veterans 
+Affairs.
+
+    For the reasons stated in the preamble, the Department of Veterans 
+Affairs amends 38 CFR part 1 as set forth below:
+
+PART 1--GENERAL PROVISIONS
+
+0
+1. The authority citation for part 1 continues to read as follows:
+
+    Authority: 38 U.S.C. 501, and as noted in specific sections.
+
+
+0
+2. Amend Sec.  1.963 by revising paragraph (b) and the sectional 
+authority to read as follows:
+
+
+Sec.  1.963  Waiver; other than loan guaranty.
+
+* * * * *
+    (b) Application. A request for waiver of an indebtedness under this 
+section shall only be considered if made within one year following the 
+date of a notice of indebtedness issued by the Department of Veterans 
+Affairs to the debtor. The one-year period may be extended if the 
+individual requesting waiver demonstrated to the Chairperson of the 
+Committee on Waivers and Compromises that, as a result of an error by 
+either the Department of Veterans Affairs or the postal authorities, or 
+due to other circumstances beyond the debtor's control, there was a 
+delay in such individual's receipt of the notification of indebtedness 
+beyond the time customarily required for mailing (including 
+forwarding). If the requester does substantiate that there was such a 
+delay in the receipt of the notice of indebtedness, the Chairperson 
+shall direct that the one-year period be computed from the date of the 
+requester's actual receipt of the notice of indebtedness.
+
+
+[[Page 54236]]
+
+
+(Authority: 38 U.S.C. 5302(a) and (c); Pub. L. 117-328, Title II, 
+Subtitle E, sec. 254 (Dec. 29, 2022), unless otherwise noted)
+
+[FR Doc. 2025-21242 Filed 11-25-25; 8:45 am]
+BILLING CODE 8320-01-P
+
+
+</pre></body>
+</html>

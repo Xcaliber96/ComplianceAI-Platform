@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54352-54354]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21133]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOMELAND SECURITY
+
+U.S. Customs and Border Protection
+
+[OMB Control Number 1651-0009]
+
+
+Agency Information Collection Activities; Revision; Customs 
+Declaration (CBP Form 6059B)
+
+AGENCY: U.S. Customs and Border Protection (CBP), Department of 
+Homeland Security.
+
+ACTION: 60-Day notice and request for comments
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Homeland Security, U.S. Customs and Border 
+Protection (CBP) will be submitting the following information 
+collection request to the Office of Management and Budget (OMB) for 
+review and approval in accordance with the Paperwork Reduction Act of 
+1995 (PRA). The information collection is published in the Federal 
+Register to obtain comments from the public and affected agencies.
+
+DATES: Comments are encouraged and must be submitted (no later than 
+January 26, 2026) to be assured of consideration.
+
+ADDRESSES: Written comments and/or suggestions regarding the item(s) 
+contained in this notice must include the OMB Control Number 1651-0009 
+in the subject line and the agency name. Please submit written comments 
+and/or suggestions in English. Please use the following method to 
+submit comments:
+    Email. Submit comments to: <a href="/cdn-cgi/l/email-protection#8ac9c8dad5dad8cbcae9e8faa4eee2f9a4ede5fc"><span class="__cf_email__" data-cfemail="27646577787775666744455709434f5409404851">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional PRA 
+information should be directed to Seth Renkema, Chief, Economic Impact 
+Analysis Branch, U.S. Customs and Border Protection, Office of Trade, 
+Regulations and Rulings, 90 K Street NE, 10th Floor, Washington, DC 
+20229-1177, Telephone number 202-325-0056 or via email 
+<a href="/cdn-cgi/l/email-protection#e1a2a3b1beb1b3a0a1828391cf858992cf868e97"><span class="__cf_email__" data-cfemail="d89b9a8887888a9998bbbaa8f6bcb0abf6bfb7ae">[email&#160;protected]</span></a>. Please note that the contact information provided 
+here is solely for questions regarding this notice. Individuals seeking 
+information about other CBP programs should contact the CBP National 
+Customer Service Center at 877-227-5511, (TTY) 1-800-877-8339, or CBP 
+website at <a href="https://www.cbp.gov/">https://www.cbp.gov/</a>.
+
+SUPPLEMENTARY INFORMATION: CBP invites the general public and other 
+Federal agencies to comment on the proposed and/or continuing 
+information collections pursuant to the Paperwork Reduction Act of 1995 
+(44 U.S.C. 3501 et seq.). This process is conducted in accordance with 
+5 CFR 1320.8. Written comments and suggestions from the public and 
+affected agencies should address one or more of the following four 
+points: (1) whether the proposed collection of information is necessary 
+for the proper performance of the functions of the agency, including 
+whether the information will have practical utility; (2) the accuracy 
+of the agency's estimate of the burden of the proposed collection of 
+information, including the validity of the methodology and assumptions 
+used; (3) suggestions to enhance the quality, utility, and clarity of 
+the information to be collected; and (4) suggestions to minimize the 
+burden of the collection of information on those who are to respond, 
+including through the use of appropriate automated, electronic, 
+mechanical, or other technological collection techniques or other forms 
+of information technology, e.g., permitting electronic submission of 
+responses. The comments that are submitted will be summarized and 
+included in the request for approval. All comments will become a matter 
+of public record.
+
+[[Page 54353]]
+
+Overview of This Information Collection
+
+    Title: Customs Declaration.
+    OMB Number: 1651-0009.
+    Form Number: 6059B.
+    Current Actions: Revision.
+    Type of Review: Revision.
+    Affected Public: Individuals.
+    Abstract: CBP Form 6059B, Customs Declaration, is used as a 
+standard report of the identity and residence of each person arriving 
+in the United States. This form is also used to declare imported 
+articles to U.S. Customs and Border Protection (CBP) in accordance with 
+19 CFR 122.27, 148.12, 148.13, 148.110, 148.111; 31 U.S.C. 5316 and 
+Section 498 of the Tariff Act of 1930, as amended (19 U.S.C. 1498).
+    Section 148.13 of the CBP regulations prescribes the use of the CBP 
+Form 6059B when a written declaration is required of a traveler 
+entering the United States. Oral declarations are permissible under 
+conditions as provided by 19 CFR 148.12 (e.g., items below a certain 
+value). However, CBP may require a written declaration at any time. If 
+an oral declaration is not accepted under 19 CFR 148.12, a written 
+declaration is required using CBP form 6059B pursuant to 19 CFR 148.13.
+    CBP continues to find ways to improve the entry process through the 
+use of mobile technology to ensure it is safe and efficient. To that 
+end, CBP has deployed a process which allows travelers to use a mobile 
+app to submit information to CBP prior to arrival in domestic locations 
+and prior to departure at preclearance locations. This process, called 
+Mobile Passport Control (MPC), allows travelers to use a designated 
+lane upon arrival into the United States or departing a preclearance 
+location. The MPC process also helps determine under what circumstances 
+CBP should require a written customs declaration (CBP Form 6059B) and 
+when it is beneficial to admit travelers who make an oral customs 
+declaration during the primary inspection. MPC eliminates the 
+administrative tasks performed by the officer during a traditional 
+inspection and in most cases will eliminate the need for respondents/
+travelers to fill out a paper declaration. MPC provides a more 
+efficient and secure in person inspection between the CBP Officer and 
+the traveler.
+    MPC provides an electronic method for travelers to answer the 
+questions that appear on form 6059B without filling out a paper form.
+    A sample of CBP Form 6059B can be found at: <a href="https://www.cbp.gov/sites/default/files/2024-07/cbp_form_6059b_english_0.pdf">https://www.cbp.gov/sites/default/files/2024-07/cbp_form_6059b_english_0.pdf</a>.
+    This collection is available in the following languages: English, 
+French, Vietnamese, German, Italian, Japanese, Korean, Polish, 
+Portuguese, Russian, Chinese, Hebrew, Spanish, Dutch, Arabic, Farsi, 
+and Punjabi.
+    Previously approved revisions: Due to the termination of the APC 
+program, U.S. Legal permanent residents (LPR) and visa waiver country 
+(VWP) visitors arriving for their second visit to the United States 
+will be included into the MPC program. U.S. LPRs are eligible for 
+Simplified Arrival's (SA) photo biometric confirmation upon arrival 
+into the United States. Other classes of admission eligible for SA's 
+photo biometric confirmation will be considered for MPC inclusion as a 
+future update.
+    CBP added a new mobile application, testing the operational 
+effectiveness of allowing travelers to use the CBP Home mobile 
+application to submit information to CBP, in advance, prior to arrival. 
+This second mobile capability is under the current CBP Link\TM\ 
+application, a platform that serves as a portal for travelers and 
+stakeholders to virtually interact with CBP. The CBP Link\TM\ 
+application will also allow travelers to self-segment upon arrival at 
+land borders in the United States.
+    Similar to the MPC application, the CBP Link\TM\ application 
+eliminates the administrative tasks performed by the officer during a 
+traditional inspection and in most cases will eliminate the need for 
+respondents/travelers to fill out a paper declaration. In addition, the 
+CBP Link\TM\ application will also provide a more efficient and secure 
+in person inspection between the CBP Officer and the traveler at the 
+land border.
+    Unique to the CBP Link\TM\ application is that while the MPC 
+submission is completed upon arrival, the CBP Link\TM\ application must 
+be submitted in advance and will require the additional data elements:
+    1. Traveler Identify the Port of Entry (POE).
+    2. Time and/or date of arrival.
+    In addition, travelers will provide their answers to CBP's 
+questions, take a self-picture/selfie and submit the information via 
+the CBP Link\TM\ application, after the plane lands. This will allow 
+for advance vetting and proper resource management at the POE. This 
+capability through the CBP Link\TM\ application is available to all 
+travelers arriving with authorized travel documents, including foreign 
+nationals.
+
+New Changes
+
+    1. MPC Expansion: CBP is now expanding the MPC program to visa-
+exempt non-immigrants and non-immigrant visa-bearing travelers.
+    As CBP expands Mobile Passport Control (MPC) to land ports of 
+entry, new elements are being incorporated. Travelers arriving by 
+personal vehicle will self-submit their vehicle's license plate number 
+via the MPC application. This enables CBP to associate travelers with 
+their conveyance, improving pre-arrival processing, situational 
+awareness, and inspection efficiency at primary.
+    To determine the correct Port of Entry (POE) for submission, MPC 
+uses the device's location services to calculate proximity. A single 
+latitude/longitude coordinate--determined by the device's hardware--is 
+collected locally and immediately discarded after a distance 
+calculation is performed on the device. CBP does not receive or retain 
+specific device location data; only the closest POE is selected for 
+submission.
+    At primary inspection, CBP Officers use Simplified Arrival to 
+process MPC travelers. Travelers group together by their MPC 
+application will be linked in SA via their license plate number. When a 
+license plate is read on primary, a function that SA already has, any 
+MPC application associated to that plate number, within the time frame 
+submitted by the traveler, will populate in SA. SA displays all 
+relevant traveler data--including biographic, passport, and customs 
+declaration information--alongside any enforcement flags. This 
+integrated process provides a secure, efficient experience for both 
+officers and travelers.
+    In the commercial bus environment, both individual travelers and 
+carriers will be able to submit traveler information via the MPC 
+application. Carriers will create an MPC shell that will be available 
+to travelers to input their information into; carriers would input 
+information of travelers who did not submit into the shell themselves. 
+Travelers will be linked to the arriving conveyance using the bus's 
+license plate number, allowing CBP to connect submissions to group 
+manifests. This enhances processing for high-volume passenger arrivals 
+and ensures accurate vetting.
+    For travelers arriving in the pedestrian environment, no additional 
+data elements are required beyond those already collected in the air 
+and sea environments. The process remains fundamentally the same, with 
+MPC submissions including biometric and biographic data for Simplified 
+Arrival (SA) processing. Travelers benefit from the same streamlined, 
+paperless experience, and CBP benefits from continuity across all 
+travel modes.
+
+[[Page 54354]]
+
+    MPC will also be integrating I94 application and payments, in 
+stages. Initially MPC will provide a link and a prompt to the public 
+I94 website where MPC participants can apply and pay for their I94, if 
+their information provided to MPC indicates they need a I94. Once 
+communication is established between MPC and the public I94 website, 
+biographical information (name, DOB, passport number, ext.) already 
+provided to MPC by the traveler will be prepopulated into the I94 
+website for fast and more consistent applications. Eventually 
+applicants will be able to both apply for and pay for their I94 without 
+leaving the MPC app.
+    Type of Information Collection: Form 6059B.
+    Estimated Number of Respondents: 5,421,252.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 5,421,252.
+    Estimated Time per Response: 4 minutes.
+    Estimated Total Annual Burden Hours: 363,242.
+
+    Type of Information Collection: Verbal Declarations.
+    Estimated Number of Respondents: 420,525,380.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 420,525,380.
+    Estimated Time per Response: 10 seconds.
+    Estimated Total Annual Burden Hours: 1,261,576.
+
+    Type of Information Collection: MPC App.
+    Estimated Number of Respondents: 42,594,663.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 42,594,663.
+    Estimated Time per Response: 2 minutes.
+    Estimated Total Annual Burden Hours: 1,405,623.
+
+    Type of Information Collection: CBP Link App.
+    Estimated Number of Respondents: 500,000.
+    Estimated Number of Annual Responses per Respondent: 1.
+    Estimated Number of Total Annual Responses: 500,000.
+    Estimated Time per Response: 2 minutes.
+    Estimated Total Annual Burden Hours: 16,500.
+
+
+Seth D. Renkema,
+Branch Chief, Economic Impact Analysis Branch, U.S. Customs and Border 
+Protection.
+[FR Doc. 2025-21133 Filed 11-25-25; 8:45 am]
+BILLING CODE 9111-14-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

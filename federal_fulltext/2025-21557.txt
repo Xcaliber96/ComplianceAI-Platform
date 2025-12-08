@@ -1,0 +1,310 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54607-54609]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21557]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 52
+
+[EPA-R03-OAR-2025-0226; FRL-13007-01-R3]
+
+
+Air Plan Approval; Virginia; Repeal of Existing Stationary Source 
+Regulations
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is proposing to 
+approve a state implementation plan (SIP) revision (Revision B23) 
+submitted by the Commonwealth of Virginia. The revision seeks to remove 
+two existing stationary sources regulations, emission standards for 
+petroleum refinery operations and emissions standards for large 
+appliance coating application systems, from Virginia's SIP as there are 
+no longer any applicable sources in Virginia. This action is being 
+taken under the Clean Air Act (CAA).
+
+DATES: Written comments must be received on or before December 29, 
+2025.
+
+ADDRESSES: Submit your comments, identified by Docket ID No. EPA-R03-
+OAR-2025-0226 at <a href="http://www.regulations.gov">www.regulations.gov</a>, or via email to 
+<a href="/cdn-cgi/l/email-protection#93f4fce1f7fcfdbdfefaf8f6d3f6e3f2bdf4fce5"><span class="__cf_email__" data-cfemail="90f7ffe2f4fffebefdf9fbf5d0f5e0f1bef7ffe6">[email&#160;protected]</span></a>. For comments submitted at <a href="http://Regulations.gov">Regulations.gov</a>, follow 
+the online instructions for submitting comments. Once submitted, 
+comments cannot be edited or removed from <a href="http://Regulations.gov">Regulations.gov</a>. For either 
+manner of submission, the EPA may publish any comment received to its 
+public docket. Do not submit electronically any information you 
+consider to be confidential business information (CBI) or other 
+information whose disclosure is restricted by statute. Multimedia 
+submissions (audio, video, etc.) must be accompanied by a written 
+comment. The written comment is considered the official comment and 
+should include discussion of all points you wish to make. The EPA will 
+generally not consider comments or comment contents located outside of 
+the primary submission (i.e., on the web, cloud, or other file sharing 
+system). For additional submission methods, please contact the person 
+identified in the For Further Information Contact section. For the full 
+EPA public comment policy, information about CBI or multimedia 
+submissions, and general guidance on making effective comments, please 
+visit <a href="http://www.epa.gov/dockets/commenting-epa-dockets">www.epa.gov/dockets/commenting-epa-dockets</a>.
+
+FOR FURTHER INFORMATION CONTACT: Sarah McCabe, Planning & 
+Implementation Branch (3AD30), Air & Radiation Division, U.S. 
+Environmental Protection Agency, Region III, 1600 John F Kennedy 
+Boulevard, Philadelphia, Pennsylvania 19103. The telephone number is 
+(215) 814-5786. Ms. McCabe can also be reached via electronic mail at 
+<a href="/cdn-cgi/l/email-protection#d8b5bbbbb9babdf6abb9aab9b098bda8b9f6bfb7ae"><span class="__cf_email__" data-cfemail="254846464447400b564457444d654055440b424a53">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: On December 20, 2024, the Virginia 
+Department of Environmental Quality (VADEQ) submitted Revision B23 to 
+its SIP. The revision seeks to repeal Article 11, Emission Standards 
+for Petroleum Refinery Operations (9VAC5-40-1340 through 5-40-1510), 
+and Article 26, Emissions Standards for Large Appliance Coating 
+Application Systems (9VAC5-40-3560 through 5-40-3700) from existing 
+stationary source regulations in the Virginia SIP, as there are no 
+longer any facilities within the state subject to the regulations. 
+Virginia has already repealed the regulations from the Virginia 
+Administrative Code (VAC).
+
+I. Background
+
+    The CAA mandates that the EPA set national ambient air quality 
+standards (NAAQS) for criteria pollutants, which are ozone and related 
+photochemical oxidants, carbon monoxide, lead, nitrogen oxides, 
+particulate matter, and sulfur oxides. The CAA also requires the EPA to 
+periodically review the relevant scientific information and the 
+standards and revise them, if appropriate, to ensure that the standards 
+provide the requisite protection for public health and the environment. 
+The CAA requires states to develop a general plan to attain and 
+maintain the standards in all areas of the country and a specific plan 
+to attain the standards for each area designated nonattainment.
+    In 1972, Virginia promulgated standards on emissions from Existing 
+Stationary Sources (9VAC5-40). The articles pertaining to this 
+rulemaking, Articles 11 and 26, establish regulations regarding 
+petroleum refineries and large appliance coating application systems, 
+respectively. Article 11 was promulgated in 1972 to control emissions 
+of criteria pollutants, such as particulate matter, sulfur dioxide, and 
+volatile organic compounds (VOCs) as well as hydrogen sulfide. Article 
+26 was also promulgated in 1972 to control emissions of VOCs. The EPA 
+adopted Article 11 and Article 26 into Virginia's SIP on April 21, 2000 
+(65 FR 21315).
+
+[[Page 54608]]
+
+    Virginia state agencies are required to review regulations 
+periodically in order to determine whether they are still needed. A 
+public review of 9VAC5-40, including a review of the VADEQ's 
+Comprehensive Environmental Data System database, demonstrated that 
+there are no longer any facilities within the state subject to Article 
+11, Emission Standards for Petroleum Refinery Operations, or Article 
+26, Emissions Standards for Large Appliance Coating Application 
+Systems.
+
+II. Summary of SIP Revision and EPA Analysis
+
+    On December 20, 2024, VADEQ submitted a SIP revision (Revision B23) 
+consisting of amendments to Virginia's regulations regarding existing 
+stationary sources (9VAC5-40). The revision proposes to repeal Article 
+11, Emission Standards for Petroleum Refinery Operations (9VAC5-40-1340 
+through 5-40-1510), and Article 26, Emissions Standards for Large 
+Appliance Coating Application Systems (9VAC5-40-3560 through 5-40-
+3700), from the Virginia SIP because there are no remaining petroleum 
+refinery operations or large appliance coating application systems in 
+Virginia. Additionally, any future such facilities constructed in 
+Virginia would be subject to more stringent Federal and State 
+regulations, such as New Source Review, than Articles 11 and 26 in 
+9VAC5-40.
+    Section 110(l) of the CAA indicates that the EPA cannot approve a 
+SIP revision if the revision interferes with reasonable further 
+progress (RFP), any NAAQS, or any other CAA requirement. Therefore, the 
+EPA will approve a SIP revision that removes or modifies measures only 
+after the state has demonstrated noninterference with RFP, the NAAQS, 
+or any other CAA requirement. Virginia demonstrated noninterference 
+through a review of 9VAC5-40 and VADEQ's Comprehensive Environmental 
+Data System database, indicating that there are no longer any 
+facilities subject to the articles proposed for removal. Additionally, 
+the EPA confirmed that there are neither petroleum refineries nor large 
+appliance coating application systems remaining in Virginia through the 
+analysis of the most recently available emissions data.\1\ CAA section 
+110(l) also states that a revision to an implementation plan submitted 
+by a state shall be adopted by such state after reasonable notice and 
+public hearing. Revision B23 meets such public notice and public 
+hearing requirements through Virginia's certification of public 
+participation activities and compliance with state administrative 
+procedures document, which can be found in the docket of this 
+rulemaking.
+---------------------------------------------------------------------------
+
+    \1\ 2020 National Emissions Inventory (NEI).
+---------------------------------------------------------------------------
+
+    The removal of Articles 11 and 26 in 9VAC5-40 has no expected 
+emissions impact on any pollutant because there are no existing 
+affected facilities in Virginia and the removal of the regulations is 
+not expected to interfere with reasonable further progress, any NAAQS, 
+or any other CAA requirement. Therefore, the removal of Articles 11 and 
+26 in 9VAC5-40 from the Virginia SIP is in accordance with section 
+110(l) of the CAA.
+    The regulations were repealed by Virginia's State Air Pollution 
+Control Board on September 13, 2023. As the regulations have been 
+repealed, they may be removed from Virginia's SIP.
+
+III. Proposed Action
+
+    The EPA is proposing to approve Revision B23, submitted on December 
+20, 2024 by VADEQ, as a revision to the Virginia SIP, because the 
+submission meets the requirements of CAA section 110. Revision B23 
+repeals Article 11, Emission Standards for Petroleum Refinery 
+Operations (9VAC5-40-1340 through 5-40-1510), and Article 26, Emissions 
+Standards for Large Appliance Coating Application Systems (9VAC5-40-
+3560 through 5-40-3700) from the Virginia SIP. The EPA is soliciting 
+public comments on the issues discussed in this document. These 
+comments will be considered before taking final action.
+
+IV. General Information Pertaining to SIP Submittals From the 
+Commonwealth of Virginia
+
+    In 1995, Virginia adopted legislation that provides, subject to 
+certain conditions, for an environmental assessment (audit) 
+``privilege'' for voluntary compliance evaluations performed by a 
+regulated entity. The legislation further addresses the relative burden 
+of proof for parties either asserting the privilege or seeking 
+disclosure of documents for which the privilege is claimed. Virginia's 
+legislation also provides, subject to certain conditions, for a penalty 
+waiver for violations of environmental laws when a regulated entity 
+discovers such violations pursuant to a voluntary compliance evaluation 
+and voluntarily discloses such violations to the Commonwealth and takes 
+prompt and appropriate measures to remedy the violations. Virginia's 
+Voluntary Environmental Assessment Privilege Law, Va. Code Sec. 10.1-
+1198, provides a privilege that protects from disclosure documents and 
+information about the content of those documents that are the product 
+of a voluntary environmental assessment. The Privilege Law does not 
+extend to documents or information that: (1) are generated or developed 
+before the commencement of a voluntary environmental assessment; (2) 
+are prepared independently of the assessment process; (3) demonstrate a 
+clear, imminent and substantial danger to the public health or 
+environment; or (4) are required by law.
+    On January 12, 1998, the Commonwealth of Virginia Office of the 
+Attorney General provided a legal opinion that states that the 
+Privilege law, Va. Code Sec. 10.1-1198, precludes granting a privilege 
+to documents and information ``required by law,'' including documents 
+and information ``required by Federal law to maintain program 
+delegation, authorization or approval,'' since Virginia must ``enforce 
+federally authorized environmental programs in a manner that is no less 
+stringent than their Federal counterparts. . . .'' The opinion 
+concludes that ``[r]egarding Sec.  10.1-1198, therefore, documents or 
+other information needed for civil or criminal enforcement under one of 
+these programs could not be privileged because such documents and 
+information are essential to pursuing enforcement in a manner required 
+by Federal law to maintain program delegation, authorization or 
+approval.''
+    Virginia's Immunity law, Va. Code Sec. 10.1-1199, provides that 
+``[t]o the extent consistent with requirements imposed by Federal 
+law,'' any person making a voluntary disclosure of information to a 
+state agency regarding a violation of an environmental statute, 
+regulation, permit, or administrative order is granted immunity from 
+administrative or civil penalty. The Attorney General's January 12, 
+1998 opinion states that the quoted language renders this statute 
+inapplicable to enforcement of any federally authorized programs, since 
+``no immunity could be afforded from administrative, civil, or criminal 
+penalties because granting such immunity would not be consistent with 
+Federal law, which is one of the criteria for immunity.''
+    Therefore, the EPA has determined that Virginia's Privilege and 
+Immunity statutes will not preclude the Commonwealth from enforcing its 
+program consistent with the Federal requirements. In any event, because 
+the EPA has also determined that a state audit privilege and immunity 
+law can affect only state enforcement and cannot have any impact on 
+Federal enforcement authorities, the EPA may at any time invoke its 
+authority under the
+
+[[Page 54609]]
+
+CAA, including, for example, sections 113, 167, 205, 211 or 213, to 
+enforce the requirements or prohibitions of the state plan, 
+independently of any state enforcement effort. In addition, citizen 
+enforcement under section 304 of the CAA is likewise unaffected by 
+this, or any, state audit privilege or immunity law.
+
+V. Incorporation by Reference
+
+    In this document, the EPA is proposing to include in a final EPA 
+rule regulatory text that includes incorporation by reference. In 
+accordance with requirements of 1 CFR 51.5, the EPA is proposing to 
+incorporate by reference amendments to Virginia Administrative Code 
+9VAC5-40 Existing Stationary Sources, repealing 9VAC5-40-1340 through 
+9VAC5-40-1510, and 9VAC5-40-3560 through 9VAC5-40-3700, as described in 
+section II of this document. The EPA has made, and will continue to 
+make, these materials generally available through <a href="http://www.regulations.gov">www.regulations.gov</a> 
+and at the EPA Region III Office (please contact the person identified 
+in the FOR FURTHER INFORMATION CONTACT section of this preamble for 
+more information).
+
+VI. Statutory and Executive Order Reviews
+
+    Under the Clean Air Act, the Administrator is required to approve a 
+SIP submission that complies with the provisions of the Clean Air Act 
+and applicable Federal regulations. 42 U.S.C. 7410(k); 40 CFR 52.02(a). 
+Thus, in reviewing SIP submissions, the EPA's role is to approve state 
+choices, provided that they meet the criteria of the Clean Air Act. 
+Accordingly, this action merely approves state law as meeting Federal 
+requirements and does not impose additional requirements beyond those 
+imposed by State law. For that reason, this action:
+    <bullet> Is not a significant regulatory action subject to review 
+by the Office of Management and Budget under Executive Order 12866 (58 
+FR 51735, October 4, 1993);
+    <bullet> Is not subject to Executive Order 14192 (90 FR 9065, 
+February 6, 2025) because SIP actions are exempt from review under 
+Executive Order 12866:
+    <bullet> Does not impose an information collection burden under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501 et seq.);
+    <bullet> Is certified as not having a significant economic impact 
+on a substantial number of small entities under the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.);
+    <bullet> Does not contain any unfunded mandate or significantly or 
+uniquely affect small governments, as described in the Unfunded 
+Mandates Reform Act of 1995 (Pub. L. 104-4);
+    <bullet> Does not have federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999);
+    <bullet> Is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because it approves a state program;
+    <bullet> Is not a significant regulatory action subject to 
+Executive Order 13211 (66 FR 28355, May 22, 2001); and
+    <bullet> Is not subject to requirements of section 12(d) of the 
+National Technology Transfer and Advancement Act of 1995 (15 U.S.C. 272 
+note) because application of those requirements would be inconsistent 
+with the Clean Air Act.
+    In addition, the SIP is not approved to apply on any Indian 
+reservation land or in any other area where EPA or an Indian Tribe has 
+demonstrated that a Tribe has jurisdiction. In those areas of Indian 
+country, the rulemaking does not have Tribal implications and will not 
+impose substantial direct costs on Tribal governments or preempt Tribal 
+law as specified by Executive Order 13175 (65 FR 67249, November 9, 
+2000).
+
+List of Subjects in 40 CFR Part 52
+
+    Environmental protection, Air pollution control, Incorporation by 
+reference, Intergovernmental relations, Reporting and recordkeeping 
+requirements, Particulate matter, Sulfur dioxide, Volatile organic 
+compounds.
+
+Amy Van Blarcom-Lackey,
+Regional Administrator, Region III.
+[FR Doc. 2025-21557 Filed 11-26-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

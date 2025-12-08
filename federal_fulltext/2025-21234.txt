@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Page 54462]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21234]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Agency Information Collection Activities; Submission for OMB 
+Review; Comment Request; Alcohol and Tobacco Tax and Trade Bureau 
+Information Collection Request
+
+AGENCY: Departmental Offices, U.S. Department of the Treasury.
+
+ACTION: Notice of information collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury will submit the following 
+information collection request to the Office of Management and Budget 
+(OMB) for review and clearance in accordance with the Paperwork 
+Reduction Act of 1995, on or after the date of publication of this 
+notice. The public is invited to submit comments on this request.
+
+DATES: Comments should be received on or before December 26, 2025 to be 
+assured of consideration.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under 30-day Review--
+Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Copies of the submissions may be 
+obtained from Spencer W. Clark by emailing <a href="/cdn-cgi/l/email-protection#5a0a081b1a2e283f3b292f2823743d352c"><span class="__cf_email__" data-cfemail="1545475455616770746660676c3b727a63">[email&#160;protected]</span></a>, calling 
+(202) 927-5331, or viewing the entire information collection request at 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a>.
+
+SUPPLEMENTARY INFORMATION: 
+
+Alcohol and Tobacco Tax and Trade Bureau (TTB)
+
+    Title: Record of Operations--Importer of Tobacco Products or 
+Processed Tobacco.
+    OMB Control Number: 1513-0106.
+    Type of Request: Extension without change of a currently approved 
+collection.
+    Description: The Internal Revenue Code (IRC) at 26 U.S.C. 5741 
+requires all manufacturers and importers of tobacco products, processed 
+tobacco, and cigarette papers and tubes, and all export warehouse 
+proprietors to keep records as the Secretary of the Treasury prescribes 
+by regulation. Under that authority, the Alcohol and Tobacco Tax and 
+Trade Bureau (TTB) regulations in 27 CFR part 41 require importers of 
+tobacco products or processed tobacco to maintain the usual and 
+customary business showing the receipt and disposition of imported 
+tobacco products or processed tobacco. TTB uses the collected 
+information to ensure that importers' activities comply with the IRC 
+and that processed tobacco, which is not taxed, is not diverted to 
+taxable tobacco product manufacturing.
+    Form: None.
+    Affected Public: Businesses or other for-profits.
+    Estimated Number of Respondents: 575.
+    Frequency of Response: Once annually.
+    Estimated Total Number of Annual Responses: 575.
+    Estimated Time per Response: None, as this collection is a usual 
+and customary business practice, which, per the Office of Management 
+and Budget (OMB) regulations at 5 CFR 1320.3(b)(2), imposes no added 
+burden on respondents.
+    Estimated Total Annual Burden Hours: None.
+    Authority: 44 U.S.C. 3501 et seq.
+
+Spencer W. Clark,
+Treasury PRA Clearance Officer.
+[FR Doc. 2025-21234 Filed 11-25-25; 8:45 am]
+BILLING CODE 4810-31-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

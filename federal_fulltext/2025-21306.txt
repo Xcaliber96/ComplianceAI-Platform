@@ -1,0 +1,321 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Rules and Regulations]
+[Pages 54238-54240]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21306]
+
+
+-----------------------------------------------------------------------
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 62
+
+[EPA-R04-OAR-2024-0171, FRL-11883-02-R4]
+
+
+Delegation of Authority to North Carolina and Forsyth County of 
+the Federal Plan for Existing Landfills
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Environmental Protection Agency (EPA) is providing 
+notification that it has approved requests from the state of North 
+Carolina, submitted through the North Carolina Department of 
+Environmental Quality (NCDEQ), and the Forsyth County Office of 
+Environmental Assistance and Protection (FCOEAP or District) for the 
+delegation of authority to implement and enforce the Federal Plan 
+Requirements for Municipal Solid Waste (MSW) landfills that commenced 
+construction on or before July 17, 2014, and have not been modified or 
+reconstructed since July 17, 2014 (Federal Plan). The memorandum of 
+agreement (MOA) between NCDEQ and EPA took effect on September 30, 
+2024, upon the signature of the EPA Region 4 Acting Regional 
+Administrator. Similarly, the MOA between FCOEAP and EPA became 
+effective on July 19, 2024, upon the same signature. The Federal Plan 
+addresses the implementation and enforcement of the emission guidelines 
+(EG) applicable to existing MSW landfills located in areas not covered 
+by an approved and currently effective state plan. The Federal Plan 
+imposes emission limits and other control requirements which will 
+reduce designated pollutants for existing affected MSW landfills. The 
+purpose of these delegations is to transfer primary implementation and 
+enforcement responsibilities from EPA to NCDEQ and FCOEAP for existing 
+affected MSW landfills. This document informs the public of the MOAs 
+and amends regulatory text at 40 CFR subpart 62 to reflect these 
+delegations.
+
+DATES: This final rule is effective on December 26, 2025.
+
+ADDRESSES: EPA has established a docket for this action under Docket ID 
+Number EPA-R04-OAR-2024-0171 at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. Although 
+listed in the index, some information is not publicly available, e.g., 
+Controlled Unclassified Information (CUI) (formally referred to as 
+Confidential Business Information (CBI)) or other information whose 
+disclosure is restricted by statute. Certain other material, such as 
+copyrighted material, is not placed on the internet and will be 
+publicly available only in hard copy form. Publicly available docket 
+materials are available electronically through <a href="https://www.regulations.gov">https://www.regulations.gov</a>. If alternative means of reviewing the documents 
+are required, please contact the person identified in the For Further 
+Information Contact section for additionally available information.
+
+FOR FURTHER INFORMATION CONTACT: Tamara Hayes, Regulatory and Community 
+Air Toxics Section, Air Analysis and Support Branch, Air and Radiation 
+Division, U.S. Environmental Protection Agency, Region 4, 61 Forsyth 
+St. SW, Atlanta, Georgia 30303. The telephone number is (404) 562-9582. 
+Ms. Hayes can also be reached via electronic mail at 
+<a href="/cdn-cgi/l/email-protection#741c150d11075a001519150615341104155a131b02"><span class="__cf_email__" data-cfemail="98f0f9e1fdebb6ecf9f5f9eaf9d8fde8f9b6fff7ee">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    On May 21, 2021, EPA published a final rule in the Federal Register 
+at 86 FR 27756 to promulgate the Federal Plan Requirements for MSW 
+landfills that commenced construction on or before July 17, 2014, and 
+have not been modified or reconstructed since July 17, 2014. This 
+Federal Plan is codified at 40 CFR part 62, subpart OOO. The Federal 
+Plan in subpart OOO implements EG and Compliance Times for Municipal 
+MSW Landfills (2016 MSW Landfills EG). EPA finalized the 2016 MSW 
+Landfills EG on August 29, 2016. 81 FR 59276. The 2016 MSW Landfills EG 
+is codified at 40 CFR part 60, subpart Cf. The Federal Plan 
+applicability criteria in subpart OOO, at 40 CFR 62.16711, reflect 
+those established by the 2016 MSW Landfills EG at 40 CFR 60.31f. See 86 
+FR 27756, 27762. The 2016 MSW Landfills EG and the Federal Plan apply 
+to MSW landfills that have accepted waste at any time since November 8, 
+1987, and commenced construction, reconstruction, or modification on or 
+before July 17, 2014.
+    The Clean Air Act (CAA or Act), 42 U.S.C. 7401, et seq., requires 
+states with existing MSW landfills subject to the 2016 MSW Landfills EG 
+to submit state plans to EPA in order to implement and enforce the EG. 
+For states without an approved plan, CAA section 111 and 40 CFR 
+60.27(c) and (d) direct EPA to develop, implement, and enforce a 
+Federal Plan for existing MSW landfills. The Federal Plan applies in 
+areas without an approved state plan by requiring existing MSW 
+landfills that reach a landfill gas emission threshold of 34 megagrams 
+(Mg) of nonmethane organic compounds (NMOC) or more per year to install 
+a system to collect and control landfill gas. Other requirements 
+include but are not limited to, presumptive emission limits, compliance 
+schedules, testing, monitoring, reporting, and recordkeeping.
+    The final rule promulgating the Federal Plan established how a 
+state can request delegation of the Federal Plan for implementation and 
+enforcement authority on behalf of EPA. See at 86 FR 27756, 27766.
+
+II. Submittal and EPA Approval of Requests for Delegation of the 
+Federal Plan
+
+    EPA evaluates requests for delegation of the MSW Federal Plan 
+pursuant to the provisions of the MSW Federal Plan and the EPA's 
+Delegations Manual. Pursuant to the MSW Federal Plan, a state may meet 
+its CAA section 111(d)/129 obligations by submitting an acceptable 
+written request for delegation of the Federal Plan that includes the 
+following elements: (1) a demonstration of adequate resources and legal 
+authority to administer and enforce the Federal Plan; (2) an inventory 
+of affected MSW units, an inventory of emissions from affected MSW 
+units, and provisions for state progress reports; (3) certification 
+that the state held a hearing on the state delegation request; and (4) 
+a commitment to enter into a MOA with
+
+[[Page 54239]]
+
+the Regional Administrator that sets forth the terms, conditions, and 
+effective date of the delegation and that serves as the mechanism for 
+the transfer of authority. See at 78 FR 28052. Both NCDEQ and FCOEAP 
+documented that they met delegation requirements (1) through (3) in 
+letters to EPA dated November 28, 2023, and April 2, 2024, 
+respectively, which are included in the docket for this action, as well 
+as requirement (4), which is addressed in the following paragraphs of 
+this preamble.
+    Pursuant to EPA's Delegations Manual, item 7-139, Implementation 
+and Enforcement of 111(d)(2) and 111(d)(2)/129(b)(3) Federal plans, a 
+copy of which is included in the docket for this action, the Regional 
+Administrator is authorized to delegate authority to implement and 
+enforce section 111(d)/129 Federal plans to states. The requirements 
+and limitations of a delegation agreement are set forth in item 7-139 
+of the Delegations Manual. Consistent with those requirements, both 
+NCDEQ and FCOEAP entered into separate MOAs with EPA which set forth 
+the terms, conditions, and effective date of the delegation and that 
+serve as the mechanism for the transfer of authority. For the state of 
+North Carolina, the MOA was signed by the NCDEQ Secretary on August 2, 
+2024, and became effective upon signature of EPA Region 4 Acting 
+Regional Administrator on September 30, 2024. FCOEAP's MOA was signed 
+by FCOEAP's Director on June 26, 2024, and became effective upon 
+signature of EPA Region 4 Acting Regional Administrator on July 19, 
+2024. Thus, both entities agree to the terms and conditions of the MOA 
+and accept responsibility for implementation and enforcement of the 
+policies and procedures of the Federal Plan, except for certain 
+authorities that are retained by EPA (authority to approve major 
+alternatives to test methods or monitoring, authority to approve 
+alternative methods to determine the site-specific NMOC concentration 
+or a site-specific methane generation rate constant, etc.). EPA 
+continues to retain concurrent enforcement authority. Both MOAs are 
+included in the docket for this action.
+    EPA evaluates requests for delegation of the MSW Federal Plan for 
+consistency with the CAA, EPA regulations, and EPA policy. The State of 
+North Carolina and FCOEAP met all the requirements for the delegation 
+of authority to implement and enforce the Federal Plan for existing MSW 
+Landfills. Accordingly, EPA is codifying approval of both North 
+Carolina's request dated November 28, 2023, and FCOEAP's request dated 
+April 2, 2024, for the delegation of authority of the Federal Plan.
+
+III. EPA Action
+
+    In this action, EPA is amending the regulatory text at 40 CFR part 
+62, subpart II--North Carolina, to reflect the approved delegations of 
+authority for implementing and enforcing the Federal Plan through MOAs 
+with the NCDEQ and the FCOEAP, respectively.
+
+IV. Good Cause Finding
+
+    Section 553(b) of the Administrative Procedure Act (APA) requires 
+publication of notice of proposed rulemaking and specifies what the 
+notice shall include. See 5 U.S.C. 553(b). However, the APA provides an 
+exception from this requirement ``when the agency for good cause finds 
+(and incorporates the finding and a brief statement of reasons therefor 
+in the rules issued) that notice and public procedure thereon are 
+impracticable, unnecessary, or contrary to the public interest.'' See 5 
+U.S.C. 553(b)(B).
+    EPA finds good cause for making this action final without prior 
+proposal and opportunity for comment because this action merely amends 
+40 CFR part 62 to reflect that EPA previously signed MOAs delegating 
+authority to NCDEQ and FCOEAP. The MOAs delegating authority to 
+implement and enforce the Federal Plan became effective on the dates 
+they were signed by the EPA Region 4 Acting Regional Administrator--on 
+September 30, 2024, for NCDEQ and July 19, 2024, for FCOEAP. This 
+action does not alter the universe of sources regulated under the 
+Federal Plan, nor does it change the regulatory requirements applicable 
+to those sources nor EPA's authority to enforce such requirements. In 
+these circumstances, notice and comment procedures are ``unnecessary'' 
+under 5 U.S.C. 553(b)(B).
+
+V. Statutory and Executive Order Reviews
+
+    Under the CAA, the Administrator is required to approve a 111(d)/
+129 plan submission that complies with the provisions of the CAA and 
+applicable Federal regulations. CAA sections 111(d) and 129(b); 40 CFR 
+part 60, subparts B and Cf; and 40 CFR part 62, subpart A; and 40 CFR 
+62.04. In reviewing 111(d)/129 Federal Plan delegation requests, EPA's 
+role is to approve state choices, provided that they meet the criteria 
+of the CAA and of EPA's implementing regulations. Accordingly, this 
+action merely codifies in the Code of Federal Regulations EPA's 
+delegation of authority to implement the Federal Plan and does not 
+impose additional requirements beyond those imposed by the already-
+applicable Federal Plan. For that reason, this proposed action:
+    <bullet> Is not a ``significant regulatory action'' subject to 
+review by the Office of Management and Budget under Executive Order 
+12866 (58 FR 51735, October 4, 1993).
+    <bullet> Is not subject to Executive Order 14192 (90 FR 9065, 
+February 6, 2025) because approvals of NSPS delegations are exempt from 
+review under Executive Order 12866;
+    <bullet> Does not impose an information collection burden under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501, et seq.);
+    <bullet> Is certified as not having a significant economic impact 
+on a substantial number of small entities under the Regulatory 
+Flexibility Act (5 U.S.C. 601, et seq.);
+    <bullet> Does not contain any unfunded mandate or significantly or 
+uniquely affect small governments, as described in the Unfunded 
+Mandates Reform Act of 1995 (Pub. L. 104-4);
+    <bullet> Does not have Federalism implications as specified in 
+Executive Order 13132 (64 FR 43255, August 10, 1999);
+    <bullet> Is not subject to Executive Order 13045 (62 FR 19885, 
+April 23, 1997) because it approves a state program;
+    <bullet> Is not a significant regulatory action subject to 
+Executive Order 13211 (66 FR 28355, May 22, 2001); and
+    <bullet> Is not subject to requirements of section 12(d) of the 
+National Technology Transfer and Advancement Act of 1995 (15 U.S.C. 272 
+note) because application of those requirements would be inconsistent 
+with the CAA.
+    In addition, this proposed rulemaking action, pertaining to NCDEQ's 
+and FCOEAP's submissions, is not approved to apply on any Indian 
+reservation land or in any other area where EPA or an Indian tribe has 
+demonstrated that a Tribe has jurisdiction. In those areas of Indian 
+country, the rule does not have Tribal implications and will not impose 
+any substantial direct costs on Tribal governments or preempt Tribal 
+law as specified by Executive Order 13175 (65 FR 67249, November 9, 
+2000).
+
+List of Subjects in 40 CFR Part 62
+
+    Environmental protection, Administrative practice and procedure, 
+Air pollution control, Intergovernmental relations, Landfills, 
+Reporting and recordkeeping requirements, Waste treatment and disposal.
+
+    Authority: 42 U.S.C. 7401 et seq.
+
+
+[[Page 54240]]
+
+
+    Dated: November 6, 2025.
+Kevin McOmber,
+Regional Administrator.
+
+    For the reasons stated in the preamble, EPA amends 40 CFR part 62 
+as follows:
+
+PART 62--APPROVAL AND PROMULGATION OF STATE PLANS FOR DESIGNATED 
+FACILITIES AND POLLUTANTS
+
+0
+1. The authority citation for part 62 continues to read as follows:
+
+    Authority:  42 U.S.C. 7401 et seq.
+
+Subpart II--North Carolina
+
+0
+2. Add an undesignated center heading and Sec.  62.8364 and Sec.  
+62.8365 to subpart II to read as follows:
+
+Air Emissions From Municipal Solid Waste Landfills (MSW)--Section 
+111(d)/129 Plan
+
+
+Sec.  62.8364  Identification of plans--North Carolina Department of 
+Environmental Quality (NCDEQ).
+
+    (a) Delegation of authority. On August 2, 2024, NCDEQ signed a 
+Memorandum of Agreement (MOA) with the EPA, defining policies, 
+responsibilities, and procedures pursuant to subpart OOO of this part 
+(the ``Federal Plan'') by which the Federal Plan will be administered 
+by the North Carolina Department of Environmental Quality.
+    (b) Identification of sources. The MOA and related Federal Plan for 
+Municipal Solid Waste (MSW) landfills that commenced construction on or 
+before July 17, 2014, and have not been modified or reconstructed since 
+July 17, 2014.
+    (c) Effective date of delegation. The delegation became fully 
+effective on September 30, 2024, the effective date of the MOA between 
+EPA and the NCDEQ.
+
+
+Sec.  62.8365  Identification of plans--Forsyth County Office of 
+Environmental Assistance and Protection (FCOEAP).
+
+    (a) Delegation of authority. On June 26, 2024, FCOEAP signed a 
+Memorandum of Agreement (MOA) with EPA, defining policies, 
+responsibilities, and procedures pursuant to subpart OOO of this part 
+(the ``Federal Plan'') by which the Federal Plan will be administered 
+by the Forsyth County Office of Environmental Assistance and 
+Protection.
+    (b) Identification of sources. The MOA and related Federal Plan for 
+Municipal Solid Waste (MSW) landfills that commenced construction on or 
+before July 17, 2014, and have not been modified or reconstructed since 
+July 17, 2014.
+    (c) Effective date of delegation. The delegation became fully 
+effective on July 19, 2024, the effective date of the MOA between EPA 
+and the Forsyth County Office of Environmental Assistance and 
+Protection.
+
+[FR Doc. 2025-21306 Filed 11-25-25; 8:45 am]
+BILLING CODE 6560-50-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

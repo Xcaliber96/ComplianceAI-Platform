@@ -1,0 +1,351 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54739-54742]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21500]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE INTERIOR
+
+National Indian Gaming Commission
+
+
+Renewals of Information Collections Under the Paperwork Reduction 
+Act
+
+AGENCY: National Indian Gaming Commission.
+
+ACTION: Notice of renewal of information collections; second request 
+for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In accordance with the Paperwork Reduction Act of 1995 (PRA), 
+the National Indian Gaming Commission (NIGC or Commission) is providing 
+notice to, and seeking comments from, the general public about its 
+submission, concurrently with the publication of this notice or soon 
+thereafter, of the following information collection renewal requests to 
+the Office of Management and Budget (OMB) for OMB review and approval: 
+(i) Indian gaming management contract-related submissions, as 
+authorized by Office of Management and Budget (OMB) Control Number 
+3141-0004 (expires on February 28, 2026); (ii) Indian gaming fee 
+payments-related submissions, as
+
+[[Page 54740]]
+
+authorized by OMB Control Number 3141-0007 (expires on February 28, 
+2026); (iii) minimum internal control standards for class II gaming 
+submission and recordkeeping requirements, as authorized by OMB Control 
+Number 3141-0009 (expires on November 30, 2025); (iv) facility license-
+related submission and recordkeeping requirements, as authorized by OMB 
+Control Number 3141-0012 (expires on December 31, 2025); and (v) 
+minimum technical standards for class II gaming systems and equipment 
+submission and recordkeeping requirements, as authorized by OMB Control 
+Number 3141-0014 (expires on December 31, 2025).
+
+DATES: The OMB has up to 60 days to approve or disapprove the 
+information collection renewal requests but may respond after 30 days. 
+Therefore, public comments should be submitted to OMB by December 29, 
+2025 to be assured of consideration.
+
+ADDRESSES: Submit comments directly to OMB's Office of Information and 
+Regulatory Affairs, Attn: Policy Analyst/Desk Officer for the National 
+Indian Gaming Commission. Comments can also be emailed to 
+<a href="/cdn-cgi/l/email-protection#7b3432293a24280e19161208081214153b141619551e140b551c140d"><span class="__cf_email__" data-cfemail="f2bdbba0b3ada187909f9b81819b9d9cb29d9f90dc979d82dc959d84">[email&#160;protected]</span></a>;, include reference to ``NIGC PRA 
+Renewals'' in the subject line.
+
+FOR FURTHER INFORMATION CONTACT: For further information, including 
+copies of the proposed information collection requests and supporting 
+documentation, contact Tim Osumi at (202) 632-7003; fax (202) 632-7066 
+(not toll-free numbers). You may also review these information 
+collection requests by going to <a href="http://www.reginfo.gov">http://www.reginfo.gov</a> (Information 
+Collection Review, Currently Under Review, Agency: National Indian 
+Gaming Commission).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    The gathering of this information is in keeping with the purposes 
+of the Indian Gaming Regulatory Act of 1988 (IGRA or the Act), Public 
+Law 100-497, 25 U.S.C. 2701, et seq., which include: providing a 
+statutory basis for the operation of gaming by Indian tribes as a means 
+of promoting tribal economic development, self-sufficiency, and strong 
+tribal governments; ensuring that the Indian tribe is the primary 
+beneficiary of the gaming operation; and declaring that the 
+establishment of independent federal regulatory authority for gaming on 
+Indian lands, the establishment of federal standards for gaming on 
+Indian lands, and the establishment of the Commission are necessary to 
+meet congressional concerns regarding gaming and to protect such gaming 
+as a means of generating tribal revenue. 25 U.S.C. 2702. The Act 
+established the Commission and laid out a comprehensive framework for 
+the regulation of gaming on Indian lands.
+
+II. Data
+
+    Title: Management Contract Provisions.
+    OMB Control Number: 3141-0004.
+    Brief Description of Collection: The Indian Gaming Regulatory Act 
+(IGRA or the Act), Public Law 100-497, 25 U.S.C. 2701, et seq., 
+established the National Indian Gaming Commission (NIGC or Commission) 
+and laid out a comprehensive framework for the regulation of gaming on 
+Indian lands. Amongst other actions necessary to carry out the 
+Commission's statutory duties, the Act requires the NIGC Chair to 
+review and approve all management contracts for the operation and 
+management of class II and/or class III gaming activities, and to 
+conduct background investigations of persons with direct or indirect 
+financial interests in, and management responsibility for, management 
+contracts. 25 U.S.C. 2710, 2711. The Commission is authorized to 
+``promulgate such regulations and guidelines as it deems appropriate to 
+implement'' IGRA. 25 U.S.C. 2706(b)(10). The Commission has promulgated 
+parts 533, 535, and 537 of title 25, Code of Federal Regulations, to 
+implement these statutory requirements.
+    Section 533.2 requires a tribe or management contractor to submit a 
+management contract for review within 60 days of execution, and to 
+submit all the items specified in Sec.  533.3. Section 535.1 requires a 
+tribe to submit an amendment to a management contract within 30 days of 
+execution, and to submit all the items specified in Sec.  535.1(c). 
+Section 535.2 requires a tribe or a management contractor, upon 
+execution, to submit the assignment by a management contractor of its 
+rights under a previously approved management contract. Section 537.1 
+requires a management contractor to submit all of the items specified 
+in Sec.  537.1(b),(c) in order for the Commission to conduct background 
+investigations on: each person with management responsibility for a 
+management contract; each person who is a director of a corporation 
+that is a party to a management contract; the ten persons who have the 
+greatest direct or indirect financial interest in a management 
+contract; any entity with a financial interest in a management 
+contract; and any other person with a direct or indirect financial 
+interest in a management contract, as otherwise designated by the 
+Commission. This collection is mandatory, and the benefit to the 
+respondents is the approval of Indian gaming management contracts, and 
+any amendments thereto.
+    Respondents: Tribal governing bodies and management contractors.
+    Estimated Number of Respondents: 33.
+    Estimated Annual Responses: 51 (submissions of contracts, contract 
+amendments, contract assignments, and background investigation 
+material).
+    Estimated Time per Response: Depending on the type of submission, 
+the range of time can vary from 1 burden hours to 16 burden hours for 
+one item.
+    Frequency of Response: Usually no more than once per year.
+    Estimated Total Annual Burden Hours on Respondents: 620.
+    Estimated Total Non-hour Cost Burden: $ 125,271.
+    Title: Fees.
+    OMB Control Number: 3141-0007.
+    Brief Description of Collection: The Indian Gaming Regulatory Act 
+(IGRA or the Act), 25 U.S.C. 2701, et seq., laid out a comprehensive 
+framework for the regulation of gaming on Indian lands. Amongst other 
+actions necessary to carry out the Commission's statutory duties, the 
+Act requires Indian tribes that conduct a class II and/or class III 
+gaming activity to pay annual fees to the Commission based on the 
+assessable gross revenues of each gaming operation using rates 
+established by the Commission. 25 U.S.C. 2717. The Commission is 
+authorized to ``promulgate such regulations and guidelines as it deems 
+appropriate to implement'' IGRA. 25 U.S.C. 2706(b)(10). The Commission 
+has promulgated part 514 of title 25, Code of Federal Regulations, to 
+implement these statutory requirements.
+    Section 514.6 requires a tribe to submit, along with its fee 
+payments, quarterly fee statements (worksheets) showing its assessable 
+gross revenues for the previous fiscal year to support the computation 
+of fees paid by each gaming operation. Section 514.7 requires a tribe 
+to submit a notice within 30 days after a gaming operation changes its 
+fiscal year. Section 514.15 allows a tribe to submit fingerprint cards 
+to the Commission for processing by the Federal Bureau of Investigation 
+(FBI), along with a fee to cover the NIGC's and FBI's cost to process 
+the fingerprint cards on behalf of the tribes. Part of this collection 
+is mandatory, and the other part is voluntary. The required submission 
+of the fee worksheets allows the Commission to both set and adjust
+
+[[Page 54741]]
+
+fee rates, and to support the computation of fees paid by each gaming 
+operation. In addition, the voluntary submission of fingerprint cards 
+allows a tribe to conduct statutorily mandated background 
+investigations on applicants for key employee and primary management 
+official positions.
+    Respondents: Indian gaming operations.
+    Estimated Number of Respondents: 708.
+    Estimated Annual Responses: 52,451.
+    Estimated Time per Response: Depending on the type of submission, 
+the range of time can vary from 0.5 burden hours to 3 burden hours for 
+one item.
+    Frequency of Response: Quarterly (for fee worksheets); varies (for 
+fingerprint cards and fiscal year change notices).
+    Estimated Total Annual Burden on Respondents: 31,098.
+    Estimated Total Non-hour Cost Burden: $ 1,648,255.
+    Title: Minimum Internal Control Standards for Class II Gaming.
+    OMB Control Number: 3141-0009.
+    Brief Description of Collection: The Indian Gaming Regulatory Act 
+(IGRA or the Act), 25 U.S.C. 2701, et seq., laid out a comprehensive 
+framework for the regulation of gaming on Indian lands. Amongst other 
+actions necessary to carry out the Commission's statutory duties, the 
+Act directs the Commission to monitor class II gaming conducted on 
+Indian lands on a continuing basis in order to adequately shield Indian 
+gaming from organized crime and other corrupting influences, to ensure 
+that the Indian tribe is the primary beneficiary of the gaming 
+operation, and to assure that gaming is conducted fairly and honestly 
+by both the operator and players. 25 U.S.C. 2702(2), 2706(b)(1). The 
+Commission is also authorized to ``promulgate such regulations and 
+guidelines as it deems appropriate to implement'' IGRA. 25 U.S.C. 
+2706(b)(10). The Commission has promulgated part 543 of title 25, Code 
+of Federal Regulations, to aid it in monitoring class II gaming on a 
+continuing basis.
+    Section 543.3 requires a tribal gaming regulatory authority (TGRA) 
+to submit to the Commission a notice requesting an extension to the 
+deadline (by an additional six months) to achieve compliance with the 
+requirements of the new tier after a gaming operation has moved from 
+one tier to another. Section 543.5 requires a TGRA to submit a detailed 
+report after the TGRA has approved an alternate standard to any of the 
+NIGC's minimum internal control standards, and the report must contain 
+all the items specified in Sec.  543.5(a)(2). Section 543.23(c) 
+requires a tribe to maintain internal audit reports and to make such 
+reports available to the Commission upon request. Section 543.23(d) 
+requires a tribe to submit two copies of the agreed-upon procedures 
+(AUP) report within 120 days of the gaming operation's fiscal year end. 
+This collection is mandatory and allows the NIGC to confirm tribal 
+compliance with the minimum internal control standards.
+    Respondents: Tribal governing bodies.
+    Estimated Number of Respondents: 412.
+    Estimated Annual Responses: 840.
+    Estimated Time per Response: Depending on the tier level of the 
+gaming facility, the range of time can vary from 1 burden hour to 7 
+burden hours for one AUP audit report.
+    Frequency of Response: Annually.
+    Estimated Total Annual Hourly Burden to Respondents: 252.
+    Estimated Total Non-hour Cost Burden: $ 3,866,060.
+    Title: Facility License Notifications and Submissions.
+    OMB Control Number: 3141-0012.
+    Brief Description of Collection: The Indian Gaming Regulatory Act 
+(IGRA or the Act), 25 U.S.C. 2701, et seq., laid out a comprehensive 
+framework for the regulation of gaming on Indian lands. Amongst other 
+actions necessary to carry out the Commission's statutory duties, the 
+Act requires Indian tribes that conduct class II and/or class III 
+gaming to issue ``a separate license . . . for each place, facility, or 
+location on Indian lands at which class II [and class III] gaming is 
+conducted,'' 25 U.S.C. 2710(b)(1), (d)(1), and to ensure that ``the 
+construction and maintenance of the gaming facilities, and the 
+operation of that gaming is conducted in a manner which adequately 
+protects the environment and public health and safety.'' 25 U.S.C. 
+2710(b)(2)(E). The Commission is authorized to ``promulgate such 
+regulations and guidelines as it deems appropriate to implement'' IGRA. 
+25 U.S.C. 2706(b)(10). The Commission has promulgated part 559 of title 
+25, Code of Federal Regulations, to implement these requirements.
+    Section 559.2 requires a tribe to submit a notice (that a facility 
+license is under consideration for issuance) at least 120 days before 
+opening any new facility on Indian lands where class II and/or class 
+III gaming will occur, with the notice containing all the items 
+specified in Sec.  559.2(b). Section 559.3 requires a tribe to submit a 
+copy of each newly issued or renewed facility license within 30 days of 
+issuance. Section 559.4 requires a tribe to submit an attestation 
+certifying that by issuing the facility license, the tribe has 
+determined that the construction, maintenance, and operation of that 
+gaming facility is conducted in a manner that adequately protects the 
+environment and the public health and safety. Section 559.5 requires a 
+tribe to submit a notice within 30 days if a facility license is 
+terminated or expires or if a gaming operation closes or reopens. 
+Section 559.6 requires a tribe to maintain and provide applicable and 
+available Indian lands or environmental and public health and safety 
+documentation, if requested by the NIGC. This collection is mandatory 
+and enables the Commission to perform its statutory duty by ensuring 
+that tribal gaming facilities on Indian lands are properly licensed by 
+the tribes.
+    Respondents: Indian tribal gaming operations.
+    Estimated Number of Respondents: 336.
+    Estimated Annual Responses: 679.
+    Estimated Time per Response: Depending on the type of submission, 
+the range of time can vary from 1 burden hours to 3 burden hours for 
+one item.
+    Frequency of Response: Varies.
+    Estimated Total Annual Hourly Burden to Respondents: 1,429.
+    Estimated Total Non-hour Cost Burden: $ 0.
+    Title: Minimum Technical Standards for Class II Gaming Systems and 
+Equipment.
+    OMB Control Number: 3141-0014.
+    Brief Description of Collection: The Indian Gaming Regulatory Act 
+(IGRA or the Act), 25 U.S.C. 2701, et seq., laid out a comprehensive 
+framework for the regulation of gaming on Indian lands. Amongst other 
+actions necessary to carry out the Commission's statutory duties, the 
+Act directs the Commission to monitor class II gaming conducted on 
+Indian lands on a continuing basis in order to adequately shield Indian 
+gaming from organized crime and other corrupting influences, to ensure 
+that the Indian tribe is the primary beneficiary of the gaming 
+operation, and to assure that gaming is conducted fairly and honestly 
+by both the operator and players. 25 U.S.C. 2702(2), 2706(b)(1). The 
+Act allows Indian tribes to use ``electronic, computer, or other 
+technologic aids'' to conduct class II gaming activities. 25 U.S.C. 
+2703(7)(A). The Commission is authorized to ``promulgate such 
+regulations and guidelines as it deems appropriate to implement'' IGRA. 
+25 U.S.C. 2706(b)(10). The Commission has promulgated part 547 of title 
+25, Code of Federal Regulations, to aid it in monitoring class II 
+gaming facilities that
+
+[[Page 54742]]
+
+are using electronic, computer, or other technologic aids to conduct 
+class II gaming.
+    Section 547.5(a)(2) requires that, for any grandfathered class II 
+gaming system made available for use at any tribal gaming operation, 
+the tribal gaming regulatory authority (TGRA): must retain copies of 
+the gaming system's testing laboratory report, the TGRA's compliance 
+certificate, and the TGRA's approval of its use; and must maintain 
+records identifying these grandfathered class II gaming systems and 
+their components. Section 547.5(b)(2) requires that, for any class II 
+gaming system generally, the TGRA must retain a copy of the system's 
+testing laboratory report and maintain records identifying the system 
+and its components. As long as a class II gaming system is available to 
+the public for play, section 547.5(c)(3) requires a TGRA to maintain 
+records of any modification to such gaming system and a copy of its 
+testing laboratory report. Section 547.5(d)(3) requires a TGRA to 
+maintain records of approved emergency hardware and software 
+modifications to a class II gaming system (and a copy of the testing 
+laboratory report) so long as the gaming system remains available to 
+the public for play and must make the records available to the 
+Commission upon request. Section 547.5(f) requires a TGRA to maintain 
+records of its following determinations: (i) regarding a testing 
+laboratory's (that is owned or operated or affiliated with a tribe) 
+independence from the manufacturer and gaming operator for whom it is 
+providing the testing, evaluating, and reporting functions; (ii) 
+regarding a testing laboratory's suitability determination based upon 
+standards no less stringent than those set out in 25 CFR 
+533.6(b)(1)(ii) through (v) and based upon no less information than 
+that required by 25 CFR 537.1; and/or (iii) the TGRA's acceptance of a 
+testing laboratory's suitability determination made by any other gaming 
+regulatory authority in the United States. The TGRA must maintain said 
+records for a minimum of three years and must make the records 
+available to the Commission upon request. Section 547.17 requires a 
+TGRA to submit a detailed report for each enumerated standard for which 
+the TGRA approves an alternate standard, and the report must include: 
+(i) an explanation of how the alternate standard achieves a level of 
+security and integrity sufficient to accomplish the purpose of the 
+standard it is to replace; and (ii) the alternate standard as approved 
+and the record on which the approval is based. This collection is 
+mandatory and allows the NIGC to confirm tribal compliance with NIGC 
+regulations on ``electronic, computer, or other technologic aids'' to 
+conduct class II gaming activities.
+    Respondents: Tribal governing bodies.
+    Estimated Number of Respondents: 811.
+    Estimated Annual Responses: 811.
+    Estimated Time per Response: Depending on the type of submission, 
+the range of time can vary from 1 burden hour to 17 burden hours for 
+one item.
+    Frequency of Response: Annually.
+    Estimated Total Annual Hourly Burden to Respondents: 8,897.
+    Estimated Total Non-hour Cost Burden: $0.
+
+    Dated: November 25, 2025.
+Sharon M. Avery,
+Chairwoman (Acting).
+[FR Doc. 2025-21500 Filed 11-26-25; 8:45 am]
+BILLING CODE 7565-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

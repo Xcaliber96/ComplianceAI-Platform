@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54763-54764]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21339]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF JUSTICE
+
+[OMB 1140-0091]
+
+
+Agency Information Collection Activities; Proposed eCollection 
+eComments Requested; Revision of a Previously Approved Collection; 
+Title--National Response Team Customer Satisfaction Survey
+
+AGENCY: Bureau of Alcohol, Tobacco, Firearms, and Explosives; 
+Department of Justice
+
+ACTION: 60-Day notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Justice (DOJ), Bureau of Alcohol, Tobacco, 
+Firearms, and Explosives (ATF), will be submitting the following 
+information collection request (ICR) to the Office of Management and 
+Budget (OMB) for review and approval in accordance with the Paperwork 
+Reduction Act of 1995.
+
+DATES: ATF encourages comments on this information collection. You may 
+submit written comments until midnight on January 27, 2026.
+
+ADDRESSES: Submit written comments and recommendations for this 
+information collection to Jennifer George, Analyst, Fire Investigation 
+and Arson Enforcement Division Program, by email to 
+<a href="/cdn-cgi/l/email-protection#5e343b303037383b2c70393b312c393b1e3f2a3870393128"><span class="__cf_email__" data-cfemail="c8a2ada6a6a1aeadbae6afada7baafad88a9bcaee6afa7be">[email&#160;protected]</span></a>, or by mail to Corporal Road, Building 3750; 
+Redstone Arsenal; Huntsville, AL 35898. Identify comments by the OMB 
+control number 1140-0091 You may view the proposed information 
+collection instrument online at <a href="https://www.atf.gov/rules-and-regulations/federal-register-actions/forms-and-information-collection">https://www.atf.gov/rules-and-regulations/federal-register-actions/forms-and-information-collection</a>.
+
+FOR FURTHER INFORMATION CONTACT: If you have additional comments, 
+especially on the estimated public burden or associated response time, 
+suggestions, or need a copy of the proposed information collection 
+instrument with instructions or additional information, contact: 
+Jennifer George, NCETR, either by mail at Corporal Road, Building 3750; 
+Redstone Arsenal; Huntsville, AL 35898, by email at 
+<a href="/cdn-cgi/l/email-protection#3258575c5c5b5457401c55575d405557725346541c555d44"><span class="__cf_email__" data-cfemail="1c76797272757a796e327b79736e7b795c7d687a327b736a">[email&#160;protected]</span></a>, or by telephone at 256-261-7614.
+
+SUPPLEMENTARY INFORMATION: We encourage written comments and 
+suggestions from the public and affected agencies concerning the 
+proposed information collection. Your comments should address one or 
+more of the following four points:
+
+--Evaluate whether the proposed information collection is necessary to 
+properly perform ATF's functions, including whether the information 
+will have practical utility;
+--Evaluate the agency's estimate of the proposed information 
+collection's burden for accuracy, including validity of the methodology 
+and assumptions used;
+--Evaluate whether, and if so, how, the quality, utility, and clarity 
+of the
+
+[[Page 54764]]
+
+collected information can be enhanced; and
+--Minimize the information collection's burden on those who are to 
+respond, including using appropriate automated, electronic, mechanical, 
+or other technological collection techniques or other forms of 
+information technology, e.g., permitting people to submit electronic 
+responses.
+
+    Abstract: ATF requests feedback on NRT's effectiveness, 
+performance, strengths, weaknesses, etc., from organizations that 
+request the NRT's investigative and crime scene services in responding 
+to arson and explosives events. The information is used for internal 
+audits that support the NRT's national-level forensics accreditation.
+
+Overview of This Information Collection
+
+    1. Type of information collection: revision of a previously 
+approved collection.
+    2. The title of the form/collection: National Response Team 
+Customer Satisfaction Survey.
+    3. The agency form number, if any, and the applicable component of 
+the Department sponsoring the collection: Form number: none.
+    Component: Bureau of Alcohol, Tobacco, Firearms, and Explosives, 
+U.S. Department of Justice.
+    4. Affected public who will be asked or required to respond, as 
+well as the obligation to respond: state, local and tribal governments. 
+The obligation to respond is voluntary.
+    5. An estimate of the total number of respondents and the amount of 
+time estimated for an average respondent to respond: An estimated 18 
+respondents will provide information to complete this survey once 
+annually, and it will take each respondent approximately 0.25 hours to 
+complete their responses.
+    6. An estimate of the total annual burden (in hours) associated 
+with the collection: The estimated annual public burden associated with 
+this collection is 5 total hours, which is equal to 18 (total 
+respondents) * 1 (# of responses per respondent) * 0.25 (15 minutes).
+    7. An estimate of the total annual cost burden associated with the 
+collection, if applicable: $0.
+
+                              Estimated Annualized Respondent Cost and Hour Burden
+                                                    [Rounded]
+----------------------------------------------------------------------------------------------------------------
+                                                                                     Time per      Total annual
+              Activity                  Number of     Frequency    Total annual      response         burden
+                                       respondents                   responses        (hours)         (hours)
+----------------------------------------------------------------------------------------------------------------
+Completing SurveyMonkey survey.....              18            1              18            0.25               5
+                                    ----------------------------------------------------------------------------
+    Unduplicated totals............              18  ...........              18            0.25               5
+----------------------------------------------------------------------------------------------------------------
+
+Revisions to This Information Collection
+
+    ATF is revising this ICR, OMB control number 1140-0091, to reflect 
+a change from surveys by mail through emailed surveys to now online 
+surveys. In addition, ATF has streamlined the invitation process. As a 
+result of these changes, the time burden for individual respondents has 
+decreased from .5 hours to .25 hours. In addition, the number of arson 
+and explosives crime scene events was lower during the past three 
+years, resulting in a decrease in the annual number of respondents, 
+from 32 in 2022 to 18, a decrease of 14 respondents. These combined 
+changes have resulted in a corresponding decrease in total hourly 
+burden from 16 to five, a decrease of 11 hours. In addition, ATF has 
+added a monetized value for the time burden, due to new OMB request, 
+which has not been in previous ICRs.
+    If additional information is required, contact: Darwin Arceo, 
+Department Clearance Officer; United States Department of Justice; 
+Justice Management Division, Enterprise Portfolio Management; Two 
+Constitution Square, 145 N Street NE, 4W-218; Washington, DC.
+
+    Dated: November 24, 2025.
+Darwin Arceo,
+Department Clearance Officer for PRA, U.S. Department of Justice.
+[FR Doc. 2025-21339 Filed 11-26-25; 8:45 am]
+BILLING CODE 4410-CW-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

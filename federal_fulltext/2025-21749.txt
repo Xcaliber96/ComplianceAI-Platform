@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55333-55334]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21749]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Motor Carrier Safety Administration
+
+[Docket No. FMCSA-2025-0125]
+
+
+Hours of Service of Drivers: Application for Exemption; National 
+Propane Gas Association
+
+AGENCY: Federal Motor Carrier Safety Administration (FMCSA), Department 
+of Transportation (DOT).
+
+ACTION: Notice of final disposition; denial of application for 
+exemption.
+
+-----------------------------------------------------------------------
+
+SUMMARY: FMCSA announces its decision to deny the National Propane Gas 
+Association's (NPGA) application for an exemption from various hours-
+of-service (HOS) requirements between December 15 and March 15 each 
+year. FMCSA analyzed the application and public comments and determined 
+that the exemption would not achieve a level of safety that is 
+equivalent to, or greater than, the level that would be achieved absent 
+such exemption.
+
+FOR FURTHER INFORMATION CONTACT: Mr. Richard Clemente, FMCSA Driver and 
+Carrier Operations Division; Office of Carrier, Driver and Vehicle 
+Safety Standards; 771-216-2436 or <a href="/cdn-cgi/l/email-protection#87f5eee4efe6f5e3a9e4ebe2eae2e9f3e2c7e3e8f3a9e0e8f1"><span class="__cf_email__" data-cfemail="17657e747f76657339747b727a727963725773786339707861">[email&#160;protected]</span></a>. If you have 
+questions on viewing or submitting material to the docket, contact 
+Docket Services, telephone (202) 366-9826.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Public Participation
+
+Viewing Comments and Documents
+
+    To view any documents mentioned as being available in the docket, 
+go to <a href="https://www.regulations.gov/docket/FMCSA-2025-0125/document">https://www.regulations.gov/docket/FMCSA-2025-0125/document</a> and 
+choose the document to review. To view comments, click this notice, 
+then click ``Browse Comments.'' If you do not have access to the 
+internet, you may view the docket online by visiting Dockets Operations 
+on the ground floor of the DOT West Building, 1200 New Jersey Avenue 
+SE, Washington, DC 20590-0001, between 9 a.m. and 5 p.m., Monday 
+through Friday, except Federal holidays. To be sure someone is there to 
+help you, please call (202) 366-9317 or (202) 366-9826 before visiting 
+Dockets Operations.
+
+II. Legal Basis
+
+    FMCSA has authority under 49 U.S.C. 31136(e) and 31315(b) to grant 
+exemptions from the Federal Motor Carrier Safety Regulations. FMCSA 
+must publish a notice of each exemption request in the Federal Register 
+(49 CFR 381.315(a)). The Agency must provide the public an opportunity 
+to inspect the information relevant to the application, including the 
+applicant's safety analysis. The Agency must provide an opportunity for 
+public comment on the request.
+    The Agency reviews the application, safety analyses and public 
+comments submitted and determines whether granting the exemption would 
+likely achieve a level of safety equivalent to, or greater than, the 
+level that would be achieved absent such exemption, pursuant to the 
+standard set forth in 49 U.S.C. 31315(b)(1). The Agency must publish 
+its decision in the Federal Register (49 CFR 381.315(b)). If granted, 
+the notice will identify the regulatory
+
+[[Page 55334]]
+
+provision from which the applicant will be exempt, the effective 
+period, and all terms and conditions of the exemption (49 CFR 
+381.315(c)(1)). If the exemption is denied, the notice will explain the 
+reason for the denial (49 CFR 381.315(c)(2)). The exemption may be 
+renewed (49 CFR 381.300(b)).
+
+III. Background
+
+Current Regulatory Requirements
+
+    Under 49 CFR 395.3(a)(2) and (3), a property-carrying commercial 
+motor vehicle (CMV) driver may drive a total of 11 hours during a 
+period of 14 consecutive hours after coming on duty following 10 
+consecutive hours off duty. Under 49 CFR 395.3(b)(1) and (2), no motor 
+carrier shall permit or require a driver of a property-carrying CMV to 
+drive, nor shall any driver drive a property-carrying CMV, regardless 
+of the number of motor carriers using the driver's services, for any 
+period after having been on duty 60 hours in any period of 7 
+consecutive days, or having been on duty 70 hours in any period of 8 
+consecutive days. Additionally, under 49 CFR 395.3(c)(1) or (2), any 
+period of 7 or 8 consecutive days may end with the beginning of an off-
+duty period of 34 or more consecutive hours.
+
+Applicant's Request
+
+    NPGA's application for exemption was described in detail in a 
+Federal Register notice on July 1, 2025, [90 FR 28854] and will not be 
+repeated as the facts have not changed.
+
+IV. Public Comments
+
+    The Agency received 31 unique comments.\1\ Of the 31 comments, 22 
+comments supported granting the exemption and eight opposed the 
+exemption. One commenter requested an extension of the comment filing 
+period, which FMCSA granted by extending the deadline until August 15, 
+2025 [90 FR 35568]. Commenters that opposed the exemption included 
+Advocates for Highway and Auto Safety, the Commercial Vehicle Safety 
+Alliance (CVSA), National Tank Truck Carriers (NTTC), the Owner-
+Operator Independent Driver's Association (OOIDA), the North Carolina 
+Department of Environmental Quality (North Carolina), the Massachusetts 
+Department of Energy Resources (Massachusetts), the Maine Governor's 
+Energy Office (in coordination with the Maine Emergency Management 
+Agency and the Maine Department of Public Safety) (Maine), and AWM 
+Associates. Themes of opposing comments included that the exemption is 
+unnecessary, that the request is overly broad, and that there is an 
+existing process for waivers of HOS requirements during emergency 
+declarations. Advocates for Highway and Auto Safety said, ``Permitting 
+an exemption for any industry or group of drivers that may face 
+inclement weather during the winter months is a needless weakening of 
+the HOS regulations as there is an emergency declaration process in 
+place to consider such waivers when the conditions actually occur.''
+---------------------------------------------------------------------------
+
+    \1\ The regulatory docket reflect 34 comments. However, three 
+comments were duplicate filings submitted by EDP, AWM Associates, 
+and the Massachusetts Department of Energy Resources.
+---------------------------------------------------------------------------
+
+    CVSA commented that the exemption is unnecessary and does not 
+provide an explanation for how an equivalent level of safety will be 
+maintained if implemented. OOIDA recognized NPGA's work as important 
+but said, ``we do not feel overly broad relief from HOS regulations is 
+warranted for these types of operations.'' Maine expressed concern that 
+the exemption would ``usurp [ ] local control over actions to address 
+local energy emergencies. . . .'' North Carolina noted that liquid 
+fuels are hazardous and explosive and commented that the State has seen 
+significant crashes involving liquid fuels. Massachusetts stated 
+concern with giving NPGA members ``carte blanche'' authority for three 
+months every year, the lack of data to support the need for the 
+exemption, and the risks to public safety.
+    NTTC stated that its members are ``unwilling to accept the legal 
+and insurance risks'' of using an HOS exemption and that ``NTTC opposes 
+blanket exemptions of certain fuel commodities over others.'' NTTC 
+concluded that granting HOS exemptions ``potentially undermines our 
+industry's work and message of prioritizing highway safety.''
+    Propane transporters submitted comments supporting the exemption. 
+Jeff Mortenson said, ``Deliveries often surge due to increased demand 
+and unpredictable weather conditions.'' Patrick Temples added, ``As a 
+propane marketer serving rural and weather-dependent communities, 
+flexibility in hours of service is critical. This waiver, which we 
+support, would help us better plan deliveries during peak demand 
+periods, especially in extreme cold, and avoid disruptions that put 
+customer safety at risk.'' C Three Logistics LLC said, ``Due to the 
+crossing of state lines in most cases the single state waivers are not 
+useful and do not give the drivers the ability to deliver needed 
+heating fuel.''
+
+V. FMCSA Decision
+
+    FMCSA has evaluated NPGA's application and the public comments and 
+denies the exemption. As noted by commenters, the Agency has an 
+existing process to issue emergency declarations and HOS waivers in 
+response to, and even in advance of, severe weather scenarios and other 
+emergencies.
+    On April 19, 2023, the Agency denied a similar exemption request 
+from NPGA, finding that NPGA failed to provide both an analysis of the 
+safety impacts of the requested exemption and countermeasures to ensure 
+that the exemption would achieve the requisite level of safety [88 FR 
+24259]. The current application also did not provide an analysis of the 
+safety impacts of the requested exemption. The only safety 
+countermeasures NPGA describes are an online Fatigue and Wellness 
+Awareness Course and a statement that drivers would abide by all other 
+Federal regulations when not responding to an emergency. Given the 
+hazardous nature of the material being transported and breadth of the 
+exemption requested, FMCSA cannot determine that the exemption would 
+likely achieve a level of safety that is equivalent to, or greater 
+than, the level that would be achieved absent such exemption.
+    For the above reasons, NPGA's exemption application is denied.
+
+Derek Barrs,
+Administrator.
+[FR Doc. 2025-21749 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-EX-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

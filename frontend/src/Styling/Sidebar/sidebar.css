@@ -1,0 +1,41 @@
+.sidebar {
+  width: 50px;
+  height: 100vh;
+  background: #294936;
+  color: white;
+  left: 0;
+  top: 40px;
+  right: 50px;
+  padding: 5px;
+  position: fixed;  
+  border-radius: 20px;     
+  border-top-right-radius: 5000px;
+  overflow: visible;
+   z-index: 9999;      
+}
+
+.sidebar .title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  overflow: visible;     
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 20px;
+
+overflow: visible;     
+}
+
+.sidebar ul li {
+  padding: 30px 0;
+  cursor: pointer;
+  opacity: 0.8;
+  overflow: visible;     
+}
+
+.sidebar ul li:hover {
+  opacity: 1;
+  overflow: visible;     
+}

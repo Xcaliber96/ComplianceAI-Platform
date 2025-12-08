@@ -1,0 +1,314 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55237-55240]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21598]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+National Highway Traffic Safety Administration
+
+[Docket No. NHTSA-2025-0017]
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget for Review and Approval; Request for 
+Comment; Assessing the Fit and Comfort of Motorcycle Safety Gear
+
+AGENCY: National Highway Traffic Safety Administration (NHTSA), 
+Department of Transportation (DOT).
+
+ACTION: Notice and request for public comments on a request for 
+approval of a new information collection.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995 (PRA), 
+this notice announces that the Information Collection Request (ICR) 
+abstracted below will be submitted to the Office of Management and 
+Budget (OMB) for review and approval. The ICR describes the nature of 
+the information collection and its expected burden. NHTSA is seeking 
+approval for a new, one-time information collection from a targeted 
+sample of 625 motorcycle riders (from 1,250 screened for potential 
+participations) about their use and preference for motorcycle 
+protective gear including footwear, gloves, helmets, jackets, and 
+pants. The collection will involve recruiting motorcyclists attending 
+motorcycle events to gather information about their perceptions of the 
+gear in terms of comfort, usability, and protective value, and to 
+obtain objective measures of fit. The study will allow NHTSA to assess 
+the relationship between perceived and objectively measured fit and 
+understand rider beliefs about the protective value of gear that 
+influence the selection and use of protective gear. Participation will 
+be voluntary and anonymous. A Federal Register notice with a 60-day 
+comment period soliciting comments on the following information 
+collection was published on January 13, 2025. NHTSA received five 
+comments, which we address below.
+
+DATES: Comments must be received on or before December 31, 2025.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection, including suggestions for reducing burden, 
+should be submitted to the Office of Management and Budget at 
+<a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. To find this particular information 
+collection, select ``Currently under Review--Open for Public Comment'' 
+or use the search function.
+
+FOR FURTHER INFORMATION CONTACT: For additional information or access 
+to background documents, contact Dr. DeReece Smither, Contracting 
+Officer's Representative, Office of Behavioral Safety Research (NPD-
+310), <a href="/cdn-cgi/l/email-protection#afebcafdcacaccca81fcc2c6dbc7caddefcbc0db81c8c0d9"><span class="__cf_email__" data-cfemail="99ddfccbfcfcfafcb7caf4f0edf1fcebd9fdf6edb7fef6ef">[email&#160;protected]</span></a>, (771) 221-0558, National Highway Traffic 
+Safety Administration, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+SUPPLEMENTARY INFORMATION: Under the PRA (44 U.S.C. 3501 et seq.), a 
+Federal agency must receive approval from the Office of Management and 
+Budget (OMB) before it collects certain information from the public and 
+a person is not required to respond to a collection of information by a 
+Federal agency unless the collection displays a valid OMB control 
+number. In compliance with these requirements, this notice announces 
+that the following information collection request will be submitted to 
+OMB.
+    Title: Assessing the Fit and Comfort of Motorcycle Safety Gear.
+
+[[Page 55238]]
+
+    OMB Control Number: New.
+    Form Numbers: NHTSA Forms 2000, 2001, 2002, 2003, 2004, 2005.
+    Type of Request: Request for approval of a new information 
+collection.
+    Type of Review Requested: Regular.
+    Length of Approval Requested: 3 years from date of approval.
+    Summary of the Collection of Information:
+    NHTSA is seeking approval for a new, one-time information 
+collection from a targeted sample of 625 motorcycle riders (from 1,250 
+screened for potential participation) about their use and preference 
+for motorcycle protective gear. The information collection will involve 
+recruiting motorcyclists attending motorcycle events to ask them for 
+their perceptions about the protective gear they are wearing (including 
+footwear, gloves, helmets, jackets, pants) and to obtain objective 
+measures of fit. The study will allow NHTSA to assess the relationship 
+between perceived and objectively measured fit, rider beliefs about the 
+protective value of gear, and factors influencing the selection and use 
+of protective gear.
+    Potential participants will be recruited at locations where riders 
+gather, such as rallies, training events, and other organized social 
+events. The study protocol calls for the recruitment of an equal number 
+of riders of standard, cruiser, sport and adventure/touring 
+motorcycles, and seated motor scooters. Depending on the venue, the 
+study team will either invite riders to participate at a study tent or 
+conduct the survey near the rider's motorcycle. Study staff will 
+observe gear worn by riders, assess the fit of the gear, and ask riders 
+for their opinions about the fit and comfort of the gear. Data 
+collection will involve the use of a portable tablet for the informed 
+consent process, and to record participant responses and staff 
+observations. Participants will self-administer some portions of the 
+survey, while data collectors will verbally ask the participants about 
+their gear during the gear assessments. Anthropometric measurements 
+(e.g., head circumference) will be taken using ribbon tape or an 
+anthropometer as appropriate depending on the gear type being assessed.
+    The study plan is to assess one type of protective gear (e.g., 
+jackets) per participant. Additionally, to obtain information on 
+participants' perspectives of different types of protective gear, study 
+staff will present images on a tablet of the protective gear (one gear 
+type per participant) that ranges in quality. The images will include 
+product descriptions, but no brand names. Participants will be asked to 
+rate the protection afforded by the gear, its quality, and the 
+likelihood of wearing or purchasing it.
+    Participation will be voluntary and anonymous. This information 
+collection only requires participants to report their answers; there 
+are no record-keeping costs to the participants. NHTSA will use the 
+information to produce a technical report that will present summary 
+statistics and tables; a de-identified data set will also be made 
+available to the public. Participants will not report personally 
+identifiable information. The study will allow NHTSA to better 
+understand how the fit and comfort of protective gear influences rider 
+choices to use or not use protective gear and provide the means to 
+assess how well gear is fitting riders. This information will aid NHTSA 
+in its efforts to develop successful programs to improve motorcyclist 
+safety. The technical report will be distributed to a variety of 
+audiences interested in improving highway safety.
+    Description of the Need for the Information and Proposed Use of the 
+Information:
+    NHTSA's statutory mandate is to reduce deaths, injuries, and 
+economic losses resulting from motor vehicle crashes on the Nation's 
+highways. The agency develops, promotes, and implements educational, 
+engineering, and enforcement programs with the goal of ending 
+preventable tragedies and reducing economic costs associated with 
+vehicle use and highway travel. As part of its mandate, NHTSA is 
+authorized to conduct research to develop traffic safety programs. 
+Title 23, United States Code, Chapter 4, Section 403 authorizes the 
+Secretary of Transportation to conduct research and development 
+activities. Pursuant to Section 1.95 of Title 49 of the Code of Federal 
+Regulations (CFR), the Secretary has delegated this authority to NHTSA. 
+Current data is essential to develop appropriate approaches to improve 
+traffic safety. This is especially true for information on 
+motorcyclists, where data is much more limited.
+    NHTSA and other traffic safety stakeholders have sought to learn 
+about motorcycle safety issues through varied methodological 
+approaches. In 2022, there were 6,218 motorcyclists killed in traffic 
+crashes, comprising 15 percent of all traffic fatalities that year and 
+representing a fatality rate per vehicle miles traveled of 26.16, 
+nearly 22 times that of passenger car occupants (1.20).\1\ These 
+findings demonstrate the inherent risk of motorcycle riding and 
+highlight the importance of wearing personal protective gear, 
+especially a helmet, but including footwear, gloves, jacket, and pants. 
+Nonetheless, not all motorcyclists use gear on every ride.
+---------------------------------------------------------------------------
+
+    \1\ National Center for Statistics and Analysis. (2024, July). 
+Motorcycles: 2022 data (Traffic Safety Facts. Report No. DOT HS 813 
+589). National Highway Traffic Safety Administration.
+---------------------------------------------------------------------------
+
+    The proposed study aims to address the pressing need to understand 
+the relationship between the fit and comfort of personal protective 
+gear and the decision to use gear. The results will assist NHTSA in the 
+development of programs aimed at increasing motorcycle safety by 
+providing information on the types of gear being used, how fit and 
+comfortable the gear is, and deterrents to using protective gear.
+    60-Day Notice: A Federal Register notice with a 60-day comment 
+period soliciting public comments on the following information 
+collection was published on January 13, 2025 (90 FR 7, pp. 2779-2781). 
+Five comments were received during the comment period. We address these 
+comments below.
+    One motorcyclist expressed concern over exclusively collecting data 
+at motorcycle rallies, as the attendance tends to be largely uniform 
+and suggested broadening beyond rallies ``to ensure that all riders . . 
+. can be equally protected.'' The current recruitment approach does not 
+focus only on motorcycle rallies. The recruitment plan considers 
+recruiting potential participants from locations other than motorcycle 
+rallies such as training events and other organized events. As such, 
+the project scope already intends on collecting data from motorcyclists 
+at locations other than rallies.
+    An anonymous commenter expressed support for this project and 
+recommended the study explore how motorcycle protective gear has 
+reduced injuries in motorcycle crashes. NHTSA declines to expand its 
+study to explore crashes because it is beyond the scope of the current 
+study.
+    NHTSA received three comments in support of the study. One 
+commenter stated the study will address ``one of the most used 
+excuses'' to not wear protective gear. Another commenter expressed 
+being ``so grateful for this amazing step forward for protecting our 
+motorcyclists.'' A last commenter ``appreciates the initiative of NHTSA 
+in proposing this study to gain greater insight into the decisions of 
+motorcycle riders to use protective equipment.''
+    Affected Public: This study will recruit volunteers who are riders 
+of selected types of motorcycles (standard,
+
+[[Page 55239]]
+
+cruiser, sport, adventure/touring and seated motor scooter) at the data 
+collection locations. Motorcyclists passing by the data collection 
+locations will be recruited to voluntarily participate in an assessment 
+of the fit of their current protective gear (if worn). They will also 
+be asked to review images of selected protective gear and provide their 
+opinions on the protective gears' protective capabilities, usability, 
+and perceived quality.
+    Estimated Number of Respondents: Participation in this study will 
+be voluntary and anonymous. The study expects to contact approximately 
+1,250 motorcyclists at the data collection locations to obtain 
+responses from 625 motorcyclists (125 from each motorcycle type).
+    Frequency: This study will be a one-time data collection. Because 
+data collection may occur at multiple events, there is a remote chance 
+an individual could participate more than once. This is not expected, 
+however, as potential participants will not know data collection 
+locations or times.
+    Estimated Total Annual Burden Hours: The total amount of burden is 
+estimated to be 341 hours. This includes the following estimates: (1) 
+313 hours for 625 motorcyclists to respond fully to the survey, based 
+on an average completion time of 30 minutes per participant; (2) 19 
+hours for the estimated 75 motorcyclists who will partially 
+participate, based on spending 15 minutes on a portion of the survey; 
+and (3) nine hours for the estimated 550 people who are screened by 
+study staff, but decline to participate, based on one minute per 
+interaction (see Table 1).
+
+                         Table 1--Summary of Total Burden Hours by Type of Participation
+----------------------------------------------------------------------------------------------------------------
+                                                                                                       Total
+                      Type of participation                          Number of      Minutes per      estimated
+                                                                    respondents     respondent    burden hours *
+----------------------------------------------------------------------------------------------------------------
+Rider Fully Participates........................................             625              30             313
+    Form 2000--Informed Consent/Screener AND....................             625               1  ..............
+    Form 2001 (Footwear) OR.....................................             125              29  ..............
+    Form 2002 (Gloves) OR.......................................             125              29  ..............
+    Form 2003 (Helmets) OR......................................             125              29  ..............
+    Form 2004 (Jackets) OR......................................             125              29  ..............
+    Form 2005 (Pants)...........................................             125              29  ..............
+Rider Does Not Fully Participate................................              75              15              19
+    Form 2000--Informed Consent/Screener AND....................              75               1  ..............
+    Form 2001 (Footwear) OR.....................................              15              14  ..............
+    Form 2002 (Gloves) OR.......................................              15              14  ..............
+    Form 2003 (Helmets) OR......................................              15              14  ..............
+    Form 2004 (Jackets) OR......................................              15              14  ..............
+    Form 2005 (Pants)...........................................              15              14  ..............
+Rider Screened but Does Not Participate.........................             550               1               9
+    Form 2000--Informed Consent/Screener ONLY...................             550               1  ..............
+                                                                 -----------------------------------------------
+        Grand Total.............................................           1,250  ..............             341
+----------------------------------------------------------------------------------------------------------------
+Note: * Rounded to the nearest hour.
+
+    Estimated Total Annual Burden Cost: The total burden cost to 
+participants is estimated to be $14,460 with an annual burden cost of 
+$4,820 (total divided by 3) (see Table 2). Participation in this study 
+is voluntary and there are no costs to respondents beyond the time 
+spent hearing about the study and participating in data collection, if 
+they decide to participate. Participants will incur no burden related 
+to annual reporting or record keeping due to the collection of this new 
+information.
+
+                                         Table 2--Burden Estimates by NHTSA Form for the Data Collection Surveys
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            Burden per      Burden per    Average hourly                                       Total
+   Information collection-- NHTSA form #      Number of   response * (in   respondent *     opportunity   Labor cost per   Total burden     opportunity
+                                              responses      minutes)      (in minutes)       cost **       submission       hours ***       costs ***
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Form 2000..................................        1,250               1               1          $42.46          $0.708              21            $885
+Form 2001..................................          140           27.39           27.39           42.46          19.392              64           2,715
+Form 2002..................................          140           27.39           27.39           42.46          19.392              64           2,715
+Form 2003..................................          140           27.39           27.39           42.46          19.392              64           2,715
+Form 2004..................................          140           27.39           27.39           42.46          19.392              64           2,715
+Form 2005..................................          140           27.39           27.39           42.46          19.392              64           2,715
+                                            ------------------------------------------------------------------------------------------------------------
+    Total..................................        1,950  ..............  ..............  ..............  ..............             341          14,460
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Notes: * Forms 2001-2005 Burden per Response/Respondent averages both the rider fully and does not fully participate as shown in Table 1.
+** See May 2024 all occupations cross-industry, private, federal, state, and local government average hourly wage from the U.S. Bureau of Labor
+  Statistics at <a href="https://data.bls.gov/oes/#/industry/000000">https://data.bls.gov/oes/#/industry/000000</a>; Average Hourly Opportunity Cost is inclusive of a 30% addition to the base hourly wage to
+  account for fringe benefits ($42.46 = $32.66 hourly wage + $9.80 fringe).
+*** Rounded up based on individual forms.
+
+
+[[Page 55240]]
+
+    Public Comments Invited: You are asked to comment on any aspects of 
+this information collection, including (i) whether the proposed 
+collection of information is necessary for the proper performance of 
+the functions of the Department, including whether the information will 
+have practical utility; (ii) the accuracy of the Department's estimate 
+of the burden of the proposed information collection; (iii) ways to 
+enhance the quality, utility and clarity of the information to be 
+collected; and (iv) ways to minimize the burden of the collection of 
+information on respondents, including the use of automated collection 
+techniques or other forms of information technology.
+
+(Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. Chapter 
+35, as amended; 49 CFR 1.49; and DOT Order 1351.29A.)
+
+Jane Terry,
+Acting Associate Administrator, Research and Program Development.
+[FR Doc. 2025-21598 Filed 11-28-25; 8:45 am]
+BILLING CODE 4910-59-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

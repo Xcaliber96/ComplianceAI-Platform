@@ -1,0 +1,402 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 227 (Friday, November 28, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Notices]
+[Pages 54873-54876]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21491]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Pipeline and Hazardous Materials Safety Administration
+
+[Docket No. PHMSA-2025-0078]
+
+
+Pipeline Safety: Information Collection Activities
+
+AGENCY: Pipeline and Hazardous Materials Safety Administration (PHMSA), 
+DOT.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In compliance with the Paperwork Reduction Act of 1995 (44
+
+[[Page 54874]]
+
+United States Code (U.S.C.) Sec.  3501 et seq.), this notice announces 
+that the information collection requests abstracted below are being 
+forwarded to the Office of Management and Budget (OMB) for review and 
+comment. A Federal Register notice with a 60-day comment period 
+soliciting comments on the information collections was published on 
+July 15, 2025.
+
+DATES: Interested persons are invited to submit comments on or before 
+December 29, 2025.
+
+ADDRESSES: The public is invited to submit comments regarding these 
+information collection requests, including suggestions for reducing the 
+burden, to Office of Management and Budget (OMB), Attention: Desk 
+Officer for the Office of the Secretary of Transportation, 725 17th 
+Street NW, Washington, DC 20503. Comments can also be submitted 
+electronically at <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>.
+
+FOR FURTHER INFORMATION CONTACT: Angela Hill by email at 
+<a href="/cdn-cgi/l/email-protection#2b4a454c4e474a05434247476b4f445f054c445d"><span class="__cf_email__" data-cfemail="6b0a050c0e070a45030207072b0f041f450c041d">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Title 5, Code of Federal Regulations (CFR) Sec.  1320.8(d), 
+requires the Pipeline and Hazardous Materials Safety Administration 
+(PHMSA) to provide interested members of the public and affected 
+agencies the opportunity to comment on information collection and 
+recordkeeping requests before they are submitted to OMB for approval. 
+In accordance with this regulation, on July 15, 2025, PHMSA published a 
+Federal Register notice (90 FR 31748) with a 60-day comment period 
+soliciting comments on its intent to request OMB's renewed approval of 
+the information collection requests that are due to expire in 2026.
+    During the 60-day comment period, PHMSA received comment from an 
+anonymous commenter and a joint comment from the American Gas 
+Association and the American Public Gas Association (AGA Joint Comment) 
+pertaining to the proposed renewal of certain information collections. 
+The AGA Joint Comment addressed: 1. New Customer Notifications for 
+Excess Flow Valves; 2. Notification Requirements for Gas Transmission 
+Pipelines; and 3. Amendments to Annual Report for Gas Distribution 
+Operators. The comment expressed concerns that these information 
+collection activities are unnecessary and do not contribute 
+meaningfully to pipeline safety. The AGA Joint Comment also proposed 
+regulatory changes to eliminate the notification requirements which 
+would need to be addressed through the formal rulemaking process. PHMSA 
+has previously received input on notification requirements through 
+rulemaking and RFIs,\1\ and such feedback will be considered during 
+those proceedings.
+---------------------------------------------------------------------------
+
+    \1\ See AGA and APGA (the Associations), Comments on Request for 
+Information (RFI), Ensuring Lawful Regulation; Reducing Regulation 
+and Controlling Regulatory Costs, FR 2025-05557 (May 5, 2025); 
+Interstate Natural Gas Association of America, Comments on Request 
+for Information, Ensuring Lawful Regulation; Reducing Regulation and 
+Controlling Regulatory Costs, FR 2025-05557 (May 5, 2025); AGA, API, 
+AFPM, APGA, GPA Midstream, INGAA, and NGA (the Associations), 
+Comments on Pipeline Safety: Gas Pipeline Leak Detection and Repair, 
+FR 2023-13900 (Aug. 16, 2023).
+---------------------------------------------------------------------------
+
+II. Summary of Impacted Collections
+
+    Section 1320.8(d), Title 5, Code of Federal Regulations, requires 
+PHMSA to provide interested members of the public and affected agencies 
+an opportunity to comment on information collection and recordkeeping 
+requests. PHMSA will request a three-year term of approval for each of 
+the following information collection activities.
+    The following information is provided for each information 
+collection: (1) Title of the information collection; (2) OMB control 
+number; (3) Current expiration date; (4) Type of request; (5) Abstract 
+of the information collection activity; (6) Description of affected 
+public; (7) Estimate of total annual reporting and recordkeeping 
+burden; and (8) Frequency of collection.
+    PHMSA requests comments on the following:
+    1. Title: Excess Flow Valves--New Customer Notifications.
+    OMB Control Number: 2137-0631.
+    Current Expiration Date: 01/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: This information collection covers the reporting and 
+recordkeeping requirements for gas pipeline operators associated with 
+customer notifications pertaining to the installation of excess flow 
+valves. Gas pipeline operators must notify customers of their right to 
+request the installation of excess flow valves and keep records of 
+those notifications. This information collection request includes 
+examples of language that can be used to notify natural gas customers 
+of their right to request the installation of an excess flow valve. Use 
+of the language is voluntary but would comply with Federal regulatory 
+requirements.
+    Affected Public: Operators of natural gas and hazardous liquid 
+pipeline systems and operators of liquefied natural gas facilities.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 4,448.
+    Estimated annual burden hours: 4,448.
+    Frequency of collection: On occasion.
+    2. Title: Natural Gas Distribution Infrastructure Safety and 
+Modernization Grant Program.
+    OMB Control Number: 2137-0641.
+    Current Expiration Date: 01/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: This information collection request covers the 
+solicitation of applicant data from municipality- and community-owned 
+utilities that are interested in applying to receive funds from the 
+Natural Gas Distribution Infrastructure Safety and Modernization 
+(NGDISM) Grant Program. Solicitation for grants under the NGDISM Grant 
+Program is voluntary. To be eligible, however, municipality- and 
+community-owned utilities must meet all the requirements set forth in 
+the law. Therefore, PHMSA must collect certain information from 
+applicants to determine eligibility and evaluate applications. PHMSA 
+must also verify the accuracy of grant requests from approved 
+applicants, in accordance with Title VI of the Civil Rights Act of 
+1964, Section 504 of the Rehabilitation Act of 1973, and other laws and 
+regulations governing Federal financial assistance programs, including 
+(but not limited to) the Anti-Deficiency Act, the Federal Funding 
+Accountability and Transparency Act (FFATA), the Payment Integrity 
+Information Act of 2019, and 2 CFR part 200, among others. This 
+information collection request also covers the submission of post-award 
+data and environmental assessments of awarded projects.
+    Affected Public: Municipality- and Community-owned Utilities.
+    Annual Burden:
+    Estimated number of responses: 1,540.
+    Estimated annual burden hours: 39,840.
+    Frequency of collection: On occasion.
+    3. Title: Reporting Safety-Related Conditions on Gas, Hazardous 
+Liquid, and Carbon Dioxide Pipelines and Liquefied Natural Gas 
+Facilities.
+    OMB Control Number: 2137-0578.
+    Current Expiration Date: 03/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: This mandatory information collection request covers the 
+collection of data on safety-related conditions occurring on a 
+pipeline. 49 U.S.C. 60102
+
+[[Page 54875]]
+
+requires each operator of a pipeline facility (except master meter 
+operators) to submit to DOT a written report on any safety-related 
+condition that causes or has caused a significant change or restriction 
+in the operation of a pipeline facility or a condition that is 
+hazardous to life, property, or the environment.
+    Affected Public: Operators of natural gas pipeline systems, 
+hazardous liquid pipeline systems, and liquefied natural gas 
+facilities.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 174.
+    Estimated annual burden hours: 1,044.
+    Frequency of Collection: On occasion.
+    4. Title: National Pipeline Mapping Program.
+    OMB Control Number: 2137-0596.
+    Current Expiration Date: 03/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: The Pipeline Safety Improvement Act of 2002 (Pub. L. 107-
+355), 49 U.S.C. 60132, ``National Pipeline Mapping System,'' requires 
+operators of a pipeline facility (except distribution lines and 
+gathering lines) to provide information to the Pipeline and Hazardous 
+Safety Administration. Each operator is required to submit geospatial 
+data appropriate for use in the National Pipeline Mapping System or 
+data in a format that can be readily converted to geospatial data, the 
+name and address of the person with primary operational control (to be 
+known as its operator), and a means for a member of the public to 
+contact the operator for additional information about the pipeline 
+facilities it operates. Operators will submit the requested data 
+elements once and make annual updates to the data if necessary. These 
+data elements strengthen the effectiveness of PHMSA's risk rankings and 
+evaluations, which are used as a factor in determining pipeline 
+inspection priority and frequency; allow for more effective assistance 
+to emergency responders by providing them with a more reliable, 
+complete data set of pipelines and facilities; and provide better 
+support to PHMSA's inspectors by providing more accurate pipeline 
+locations and additional pipeline-related geospatial data that can be 
+linked to tabular data in PHMSA's inspection database.
+    Affected Public: Operators of natural gas and hazardous liquid 
+pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 1,346.
+    Estimated annual burden hours: 162,208.
+    Frequency of Collection: On occasion.
+    5. Title: Hazardous Liquid Pipeline Operator Annual Reports.
+    OMB Control Number: 2137-0614.
+    Current Expiration Date: 03/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: The Federal pipeline safety regulations at 49 CFR 195.58 
+require operators of hazardous liquid pipelines to submit specific data 
+on the safety of their pipelines annually. This mandatory information 
+collection requires operators to submit data on the preceding year 
+electronically by June 15th of each calendar year. This information is 
+used by PHMSA to identify trends in hazardous liquid pipeline accidents 
+and to identify operators who have poor safety records.
+    Affected Public: Operators of hazardous liquid pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 950.
+    Estimated annual burden hours: 18,050.
+    Frequency of collection: Annually.
+    6. Title: Hazardous Liquid Operator Notifications.
+    OMB Control Number: 2137-0630.
+    Current Expiration Date: 03/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: The pipeline safety regulations contained within 49 CFR 
+part 195 require hazardous liquid operators to notify PHMSA in various 
+instances. Section 195.414 requires hazardous liquid operators who are 
+unable to inspect their pipeline facilities within 72 hours of an 
+extreme weather event to notify the appropriate PHMSA Region Director 
+as soon as practicable. Section 195.452 requires operators of pipelines 
+that cannot accommodate an in-line inspection tool to file a petition 
+in compliance with 49 CFR 190.9. These mandatory notifications help 
+PHMSA to stay abreast of issues related to the health and safety of the 
+Nation's pipeline infrastructure.
+    Affected Public: Operators of hazardous liquid pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 110.
+    Estimated annual burden hours: 125.
+    Frequency of Collection: On occasion.
+    7. Title: Notification Requirements for Gas Transmission Pipelines.
+    OMB Control Number: 2137-0636.
+    Current Expiration Date: 03/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: A person owning or operating a natural gas pipeline 
+facility is required to provide information to the Secretary of 
+Transportation at the Secretary's request according to 49 U.S.C. 60117. 
+The pipeline safety regulations contained within 49 CFR part 192 
+require operators to make various notifications upon the occurrence of 
+certain events. The provisions covered under this information 
+collection request involve notification requirements for gas 
+transmission pipeline operators who utilize alternative or expanded 
+technologies and analyses when conducting tests and inspections. These 
+notification requirements are necessary to ensure safe operation of 
+transmission pipelines, ascertain compliance with gas pipeline safety 
+regulations, and to provide a background for incident investigations. 
+These mandatory notifications help PHMSA to stay abreast of issues 
+related to the health and safety of the Nation's pipeline 
+infrastructure.
+    Affected Public: Operators of gas transmission pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 722.
+    Estimated annual burden hours: 1,070.
+    Frequency of Collection: On occasion.
+    8. Title: Transportation of Hazardous Liquids by Pipeline: Record 
+keeping and Accident Reporting.
+    OMB Control Number: 2137-0047.
+    Current Expiration Date: 04/30/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: To ensure adequate public protection from exposure to 
+potential hazardous liquid pipeline failures, PHMSA collects 
+information on reportable hazardous liquid pipeline accidents. This 
+mandatory information collection covers hazardous liquid pipeline 
+accident report requirements in 49 CFR 195.50 and general record 
+keeping burden associated with complying with Federal hazardous liquid 
+pipeline safety regulations in Part 195. The definition of an 
+``accident'' and the reporting criteria for submitting a Hazardous 
+Liquid Accident Report (form PHMSA F7000-1) is detailed in 49 CFR 
+195.54. Section 195.54 requires hazardous liquid operators to file an 
+accident report, as soon as practicable, but not later than 30 days 
+after discovery of the accident, on DOT Form 7000-1, whenever there is 
+a reportable accident.
+    Affected Public: Operators hazardous liquid pipeline systems.
+
+[[Page 54876]]
+
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 1,646.
+    Estimated annual burden hours: 53,777.
+    Frequency of Collection: On occasion.
+    9. Title: Record keeping Requirements for Gas Pipeline Operators.
+    OMB Control Number: 2137-0049.
+    Current Expiration Date: 04/30/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: A person owning or operating a natural gas pipeline 
+facility is required to maintain records, make reports, and provide 
+information to the Secretary of Transportation at the Secretary's 
+request. This mandatory information collection request would require 
+owners and/or operators of gas pipeline systems to make and maintain 
+records in accordance with the requirements prescribed in 49 CFR part 
+192 and to provide information to the Secretary of Transportation at 
+the Secretary's request. Certain records are maintained for a specific 
+length of time while others are required to be maintained for the life 
+of the pipeline. PHMSA uses these records to verify compliance with 
+Federal pipeline safety regulations and to inform the Agency of 
+possible safety risks.
+    Affected Public: Operators natural, and other, gas pipeline 
+systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 3,861,842.
+    Estimated annual burden hours: 1,677,030.
+    Frequency of Collection: On occasion.
+    10. Title: Annual Report for Gas Distribution Operators.
+    OMB Control Number: 2137-0629.
+    Current Expiration Date: 06/30/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: This information collection request requires operators of 
+gas distribution pipeline systems to submit annual report data to PHMSA 
+in accordance with 49 CFR part 191 using PHMSA F 7100.1-1. The form is 
+to be submitted once for each calendar year. The annual report form 
+collects data about the pipe material, size, and age. The form also 
+collects data on leaks from these systems as well as excavation 
+damages. PHMSA uses the information to track the extent of gas 
+distribution systems and normalize incident and leak rates.
+    Affected Public: Operators gas distribution pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 1,446.
+    Estimated annual burden hours: 28,920.
+    Frequency of Collection: Annually.
+    11. Title: Incident Reports for Natural Gas Pipeline Operators.
+    OMB Control Number: 2137-0635.
+    Current Expiration Date: 06/30/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: Operators of natural gas pipelines and liquefied natural 
+gas (LNG) facilities are required to report incidents, on occasion, to 
+PHMSA per the requirements in 49 CFR part 191. This mandatory 
+information collection covers the collection of incident report data 
+from natural gas pipeline operators. This information is an essential 
+part of PHMSA's overall effort to minimize natural gas transmission, 
+gathering, and distribution pipeline failures.
+    Affected Public: Operators gas pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 840.
+    Estimated annual burden hours: 2,927.
+    Frequency of Collection: On occasion.
+    12. Title: Annual and Incident Reports for Gas Pipeline Operators.
+    OMB Control Number: 2137-0522.
+    Current Expiration Date: 08/31/2026.
+    Type of Request: Renewal, without change, of a currently approved 
+information collection.
+    Abstract: This mandatory information collection covers the 
+collection of data from operators of natural gas pipelines, underground 
+natural gas storage facilities, and LNG facilities for annual reports. 
+Section 191.17 requires operators of the affected systems to submit an 
+annual report by March 15, for the preceding calendar year.
+    Affected Public: Operators gas pipeline systems.
+    Annual Reporting and Recordkeeping Burden:
+    Estimated number of responses: 2,445.
+    Estimated annual burden hours: 104,596.
+    Frequency of Collection: On occasion.
+    Comments are invited on:
+    (a) The need for the renewal of these information collections for 
+the proper performance of the functions of the Agency, including 
+whether the information will have practical utility;
+    (b) The accuracy of the Agency's estimate of the burden of the 
+proposed collections of information, including the validity of the 
+methodology and assumptions used;
+    (c) Ways to enhance the quality, utility, and clarity of the 
+information to be collected; and
+    (d) Ways to minimize the burden of the collection of information on 
+those who are to respond, including the use of appropriate automated, 
+electronic, mechanical, or other technological collection techniques.
+    Authority: The Paperwork Reduction Act of 1995; 44 U.S.C. Chapter 
+35, as amended, and 49 CFR 1.48.
+
+    Issued in Washington, DC under authority delegated in 49 CFR 
+1.97.
+John A. Gale,
+Director, Standards and Rulemaking Division.
+[FR Doc. 2025-21491 Filed 11-26-25; 8:45 am]
+BILLING CODE 4910-60-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55113-55114]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21617]
+
+
+
+[[Page 55113]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+[OMB 3060-0017, OMB 3060-0311, OMB 3060-0932; FR ID 319826]
+
+
+Information Collections Being Reviewed by the Federal 
+Communications Commission Under Delegated Authority
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: 
+    As part of its continuing effort to reduce paperwork burdens, and 
+as required by the Paperwork Reduction Act (PRA) of 1995, the Federal 
+Communications Commission (FCC or Commission) invites the general 
+public and other Federal agencies to take this opportunity to comment 
+on the following information collections. Comments are requested 
+concerning: whether the proposed collection of information is necessary 
+for the proper performance of the functions of the Commission, 
+including whether the information shall have practical utility; the 
+accuracy of the Commission's burden estimate; ways to enhance the 
+quality, utility, and clarity of the information collected; ways to 
+minimize the burden of the collection of information on the 
+respondents, including the use of automated collection burden on small 
+business concerns with fewer than 25 employees.
+    The FCC may not conduct or sponsor a collection of information 
+unless it displays a currently valid OMB control number. No person 
+shall be subject to any penalty for failing to comply with a collection 
+of information subject to the PRA that does not display a valid OMB 
+control number.
+
+DATES: Written PRA comments should be submitted on or before January 
+30, 2026. If you anticipate that you will be submitting comments but 
+find it difficult to do so within the period of time allowed by this 
+notice, you should advise the contact listed below as soon as possible.
+
+ADDRESSES: Direct all PRA comments to Cathy Williams, FCC, via email 
+<a href="/cdn-cgi/l/email-protection#abfbf9eaebcdc8c885ccc4dd"><span class="__cf_email__" data-cfemail="74242635341217175a131b02">[email&#160;protected]</span></a> and to <a href="/cdn-cgi/l/email-protection#adeeccd9c5d483fac4c1c1c4ccc0deedcbcece83cac2db"><span class="__cf_email__" data-cfemail="c487a5b0acbdea93ada8a8ada5a9b784a2a7a7eaa3abb2">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: For additional information about the 
+information collection, contact Cathy Williams at (202) 418-2918.
+
+SUPPLEMENTARY INFORMATION: 
+    OMB Control Number: 3060-0017.
+    Title: Application for Media Bureau Audio and Video Service 
+Authorization, FCC 2100, Schedule D.
+    Form Number: FCC Form 2100, Schedule D.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for profit entities; Not for profit 
+institutions; State, local or Tribal government.
+    Number of Respondents/Responses: 805 respondents; 805 responses.
+    Estimated Hours per Response: 1.5 hours per response.
+    Frequency of Response: On occasion reporting requirement.
+    Total Annual Burden: 1,208 hours.
+    Total Annual Cost: $96,600.
+    Obligation to Respond: Required to obtain benefits. The statutory 
+authority for this information collection is contained in sections 
+154(i), 301, 303, 307, 308 and 309 of the Communications Act of 1934, 
+as amended.
+    Needs and Uses: On January 19, 2021, the Commission adopted 
+Amendment of Section 73.3580 of the Commission's Rules Regarding Public 
+Notice of the Filing of Applications; Modernization of Media Regulation 
+Initiative; Revision of the Public Notice Requirements of Section 
+73.3580, Second Report and Order, MB Docket Nos. 17-254, 17-105, & 05-
+6, FCC 20-65 (rel. May 13, 2020). The Commission adopted rules to allow 
+low power television and television translator stations (collectively 
+``low power stations'') to seek authority to construct Distributed 
+Transmission System (DTS) operations. Pursuant to new section 74.720 of 
+the rules, low power stations may now propose DTS operations and when 
+those facilities are constructed, file an application for license--FCC 
+Form 2100, Schedule D. This submission is being made to OMB for 
+approval of the modified FCC Form 2100, Schedule D.
+    OMB Control Number: 3060-0311.
+    Title: 47 CFR 76.54, Significantly Viewed Signals; Method to be 
+followed for Special Showings.
+    Form Number: Not applicable.
+    Type of Review: Extension of a currently approved collection.
+    Respondents: Business or other for-profit entities.
+    Number of Respondents and Responses: 4 respondents, 12 responses.
+    Frequency of Response: On occasion reporting and third-party 
+disclosure requirements.
+    Estimated Time per Response: 1-15 hours (average).
+    Total Annual Burden: 184 hours.
+    Total Annual Cost: $2,400.
+    Obligation to Respond: Required to obtain or retain benefits. The 
+statutory authority for this information collection is contained in 
+Section 4(i) and 340 of the Communications Act of 1934, as amended.
+    Needs and Uses: The information collection requirements contained 
+in 47 CFR 76.54(b) state significant viewing in a cable television or 
+satellite community for signals not shown as significantly viewed under 
+47 CFR 76.54(a) or (d) may be demonstrated by an independent 
+professional audience survey of over-the-air television homes that 
+covers at least two weekly periods separated by at least thirty days 
+but no more than one of which shall be a week between the months of 
+April and September. If two surveys are taken, they shall include 
+samples sufficient to assure that the combined surveys result in an 
+average figure at least one standard error above the required viewing 
+level.
+    The information collection requirements contained in 47 CFR 
+76.54(c) are used to notify interested parties, including licensees or 
+permittees of television broadcast stations, about audience surveys 
+that are being conducted by an organization to demonstrate that a 
+particular broadcast station is eligible for significantly viewed 
+status under the Commission's rules. The notifications provide 
+interested parties with an opportunity to review survey methodologies 
+and file objections.
+    Lastly, 47 CFR 76.54(e) and (f), are used to notify television 
+broadcast stations about the retransmission of significantly viewed 
+signals by a satellite carrier into these stations' local market.
+    OMB Control No.: 3060-0932.
+    Title: FCC Form 2100, Application for Media Bureau Audio and Video 
+Service Authorization, Schedule E (Former FCC Form 301-CA); 47 CFR 
+73.3700(b)(1)(i)-(v) and (vii), (b)(2)(i) and (ii); 47 CFR 73.6028; 47 
+CFR 74.793(d).
+    Form No.: FCC Form 2100, Schedule E (Application for Media Bureau 
+Audio and Video Service Authorization) (Former FCC Form 301-CA).
+    Type of Review: Extension of a currently approved information 
+collection.
+    Respondents: Business or other for-profit entities; Not for profit 
+institutions; State, local or Tribal government.
+    Number of Respondents and Responses: 60 respondents and 60 
+responses.
+    Estimated Time per Response: 8.25 hours-6 hours.
+    Frequency of Response: On occasion reporting requirement; Third 
+party disclosure requirement.
+    Obligation to Respond: Required to obtain or retain benefits. The 
+statutory authority for this collection is contained in 47 U.S.C. 151, 
+154(i), 157 and 309(j) as amended; Middle Class Tax Relief
+
+[[Page 55114]]
+
+and Job Creation Act of 2012, Public Law 112-96, 6402 (codified at 47 
+U.S.C. 309(j)(8)(G)), 6403 (codified at 47 U.S.C. 1452), 126 Stat. 156 
+(2012) (Spectrum Act) and the Community Broadcasters Protection Act of 
+1999.
+    Total Annual Burden: 495 hours.
+    Annual Cost Burden: $258,000.
+    Needs and Uses: On January 19, 2021, the Commission adopted 
+Amendment of section 73.3580 of the Commission's Rules Regarding Public 
+Notice of the Filing of Applications; Modernization of Media Regulation 
+Initiative; Revision of the Public Notice Requirements of Section 
+73.3580, Second Report and Order, MB Docket Nos. 17-254, 17-105, & 05-
+6, FCC 20-65 (rel. May 13, 2020). The Commission adopted rules to allow 
+Class A television stations to seek authority to construct Distributed 
+Transmission System (DTS) operations. Pursuant to new section 73.6023 
+of the rules, Class A stations may now propose DTS operations by filing 
+an application for construction permit for minor modification--FCC Form 
+2100, Schedule E. This submission is also being made to OMB for 
+approval of the modified FCC Form 2100, Schedule E.
+
+Federal Communications Commission.
+Marlene Dortch,
+Secretary.
+[FR Doc. 2025-21617 Filed 11-28-25; 8:45 am]
+BILLING CODE 6712-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

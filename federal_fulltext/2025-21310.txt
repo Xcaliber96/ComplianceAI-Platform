@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 226 (Wednesday, November 26, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 226 (Wednesday, November 26, 2025)]
+[Notices]
+[Pages 54401-54402]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21310]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+NUCLEAR REGULATORY COMMISSION
+
+[NRC-2024-0197]
+
+
+Information Collection: Exemptions and Continued Regulatory 
+Authority in Agreement States and in Offshore Waters Under Section 274
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Notice of submission to the Office of Management and Budget; 
+request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) has recently 
+submitted a request for renewal of an existing collection of 
+information to the Office of Management and Budget (OMB) for review. 
+The information collection is entitled, ``Exemptions and Continued 
+Regulatory Authority in Agreement States and in Offshore Waters Under 
+Section 274.''
+
+DATES: Submit comments by December 26, 2025. Comments received after 
+this date will be considered if it is practical to do so, but the 
+Commission is able to ensure consideration only for comments received 
+on or before this date.
+
+ADDRESSES: Written comments and recommendations for the proposed 
+information collection should be sent within 30 days of publication of 
+this notice to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this 
+particular information collection by selecting ``Currently under 
+Review--Open for Public Comments'' or by using the search function.
+
+FOR FURTHER INFORMATION CONTACT: Heather Dempsey, Acting NRC Clearance 
+Officer, U.S. Nuclear Regulatory Commission, Washington, DC 20555-0001; 
+telephone: 301-415-0856; email: <a href="/cdn-cgi/l/email-protection#abe2c5cdc4c8c4c7c7cec8dfd885f9ced8c4ded9c8ceebc5d9c885ccc4dd"><span class="__cf_email__" data-cfemail="70391e161f131f1c1c151304035e2215031f05021315301e02135e171f06">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+    Please refer to Docket ID NRC-2024-0197 when contacting the NRC 
+about the availability of information for this action. You may obtain 
+publicly available information related to this action by any of the 
+following methods:
+    <bullet> Federal Rulemaking Website: Go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and search for Docket ID NRC-2024-0197.
+    <bullet> NRC's Agencywide Documents Access and Management System 
+(ADAMS): You may obtain publicly available documents online in the 
+ADAMS Public Documents collection at <a href="https://www.nrc.gov/reading-rm/adams.html">https://www.nrc.gov/reading-rm/adams.html</a>. To begin the search, select ``Begin ADAMS Public Search.'' 
+For problems with ADAMS, please contact the NRC's Public Document Room 
+(PDR) reference staff at 1-800-397-4209, at 301-415-4737, or by email 
+to <a href="/cdn-cgi/l/email-protection#e6b6a2b4c8b483958993948583a6889485c8818990"><span class="__cf_email__" data-cfemail="4a1a0e1864182f39253f38292f0a243829642d253c">[email&#160;protected]</span></a>. The supporting statement is available in ADAMS 
+under Accession No. ML25253A370.
+    <bullet> NRC's PDR: The PDR, where you may examine and order copies 
+of publicly available documents, is open by appointment. To make an 
+appointment to visit the PDR, please send an email to 
+<a href="/cdn-cgi/l/email-protection#550511077b0730263a20273630153b27367b323a23"><span class="__cf_email__" data-cfemail="742430265a2611071b01061711341a06175a131b02">[email&#160;protected]</span></a> or call 1-800-397-4209 or 301-415-4737, between 8 
+a.m. and 4 p.m. eastern time (ET), Monday through Friday, except 
+Federal holidays.
+
+[[Page 54402]]
+
+    <bullet> NRC's Clearance Officer: A copy of the collection of 
+information and related instructions may be obtained without charge by 
+contacting the NRC's Acting Clearance Officer, Heather Dempsey, Office 
+of the Chief Information Officer, U.S. Nuclear Regulatory Commission, 
+Washington, DC 20555-0001; telephone: 301-415-0856; email: 
+<a href="/cdn-cgi/l/email-protection#fcb5929a939f939090999f888fd2ae998f93898e9f99bc928e9fd29b938a"><span class="__cf_email__" data-cfemail="92dbfcf4fdf1fdfefef7f1e6e1bcc0f7e1fde7e0f1f7d2fce0f1bcf5fde4">[email&#160;protected]</span></a>.
+
+B. Submitting Comments
+
+    Written comments and recommendations for the proposed information 
+collection should be sent within 30 days of publication of this notice 
+to <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find this particular 
+information collection by selecting ``Currently under Review--Open for 
+Public Comments'' or by using the search function.
+    The NRC cautions you not to include identifying or contact 
+information in comment submissions that you do not want to be publicly 
+disclosed in your comment submission. All comment submissions are 
+posted at <a href="https://www.regulations.gov">https://www.regulations.gov</a> and entered into ADAMS. Comment 
+submissions are not routinely edited to remove identifying or contact 
+information.
+    If you are requesting or aggregating comments from other persons 
+for submission to the OMB, then you should inform those persons not to 
+include identifying or contact information that they do not want to be 
+publicly disclosed in their comment submission. Your request should 
+state that comment submissions are not routinely edited to remove such 
+information before making the comment submissions available to the 
+public or entering the comment into ADAMS.
+
+II. Background
+
+    Under the provisions of the Paperwork Reduction Act of 1995 (44 
+U.S.C. Chapter 35), the NRC recently submitted a request for renewal of 
+an existing collection of information to OMB for review entitled, 
+``Exemptions and Continued Regulatory Authority in Agreement States and 
+in Offshore Waters Under Section 274.'' The NRC hereby informs 
+potential respondents that an agency may not conduct or sponsor, and 
+that a person is not required to respond to, a collection of 
+information unless it displays a currently valid OMB control number.
+    The NRC published a Federal Register notice with a 60-day comment 
+period on this information collection on July 2, 2025, 90 FR 29054.
+    1. The title of the information collection: 10 CFR part 150, 
+``Exemptions and Continued Regulatory Authority in Agreement States and 
+in Offshore Waters Under Section 274.''
+    2. OMB approval number: 3150-0032.
+    3. Type of submission: Extension.
+    4. The form number, if applicable: Not applicable.
+    5. How often the collection is required or requested: One-time or 
+as needed.
+    6. Who will be required or asked to respond: Agreement States who 
+have signed section 274(b) Agreements with the NRC.
+    7. The estimated number of annual responses: 9.
+    8. The estimated number of annual respondents: 9.
+    9. The estimated number of hours needed annually to comply with the 
+information collection requirement or request: 190.5.
+    10. Abstract: The NRC regulations in part 150 of title 10 of the 
+Code of Federal Regulations (10 CFR), ``Exemptions and Continued 
+Regulatory Authority in Agreement States and in Offshore Waters Under 
+Section 274,'' provide certain exemptions to persons in Agreement 
+States from the licensing requirements contained in Chapters 6, 7, and 
+8 of the Atomic Energy Act of 1954, as amended, and certain regulations 
+of the Commission. The regulations in 10 CFR part 150 also define the 
+Commission's continued regulatory authority over Agreement State 
+activities which include byproduct, source, and special nuclear 
+material reporting requirements related to reciprocity and enforcement. 
+10 CFR part 150 requires telephonic notification to the NRC when an 
+Agreement State licensee identifies attempted theft or diversion of 
+special nuclear material, byproduct material, and tritium. This 
+notification must be followed by a written report either 15 or 60 days 
+after the initial report, depending on the materials involved. If 
+additional information is available after submission of the written 
+report, an additional report is submitted. These reports are used to 
+inform the Commission, staff, and other Federal agencies when special 
+nuclear material, byproduct material, or tritium is lost or stolen.
+
+    Dated: November 24, 2025.
+
+    For the Nuclear Regulatory Commission.
+Heather Dempsey,
+Acting NRC Clearance Officer, Office of the Chief Information Officer.
+[FR Doc. 2025-21310 Filed 11-25-25; 8:45 am]
+BILLING CODE 7590-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55130-55131]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21702]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+[Docket No. FDA-2025-D-4678]
+
+
+Q3E Guideline for Extractables and Leachables; International 
+Council for Harmonisation; Draft Guidance for Industry; Availability
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice of availability.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA or Agency) is announcing 
+the availability of a draft guidance for industry entitled ``Q3E 
+Guideline for Extractables and Leachables'' and a draft supporting 
+document entitled ``Supporting Documentation: Class 3 Leachable 
+Monographs.'' The draft guidance and supporting document were prepared 
+under the auspices of the International Council for Harmonisation of 
+Technical Requirements for Pharmaceuticals for Human Use (ICH). The 
+draft guidance presents a holistic framework and process for the 
+assessment and control of extractables and leachables (E&L) for 
+pharmaceutical products. The draft guidance builds upon ICH impurity 
+guidances on new drug substances (ICH Q3A) and new drug products (ICH 
+Q3B), residual solvents (ICH Q3C), and elemental impurities (ICH Q3D), 
+as well as DNA reactive (mutagenic) impurities (ICH M7). In addition to 
+outlining E&L safety assessment principles, the draft guidance includes 
+draft supporting documentation of Class 3 leachable monographs. The 
+draft guidance is intended to provide approaches to risk-based 
+assessment and control of E&L to ensure patient safety and 
+pharmaceutical product quality.
+
+DATES: Submit either electronic or written comments on the draft 
+guidance by January 30, 2026 to ensure that the Agency considers your 
+comment on this draft guidance before it begins work on the final 
+version of the guidance.
+
+ADDRESSES: You may submit comments on any guidance at any time as 
+follows:
+
+Electronic Submissions
+
+    Submit electronic comments in the following way:
+    <bullet> Federal eRulemaking Portal: <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Follow the instructions for submitting comments. Comments submitted 
+electronically, including attachments, to <a href="https://www.regulations.gov">https://www.regulations.gov</a> 
+will be posted to the docket unchanged. Because your comment will be 
+made public, you are solely responsible for ensuring that your comment 
+does not include any confidential information that you or a third party 
+may not wish to be posted, such as medical information, your or anyone 
+else's Social Security number, or confidential business information, 
+such as a manufacturing process. Please note that if you include your 
+name, contact information, or other information that identifies you in 
+the body of your comments, that information will be posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    <bullet> If you want to submit a comment with confidential 
+information that you do not wish to be made available to the public, 
+submit the comment as a written/paper submission and in the manner 
+detailed (see ``Written/Paper Submissions'' and ``Instructions'').
+
+Written/Paper Submissions
+
+    Submit written/paper submissions as follows:
+    <bullet> Mail/Hand Delivery/Courier (for written/paper 
+submissions): Dockets Management Staff (HFA-305), Food and Drug 
+Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852.
+    <bullet> For written/paper comments submitted to the Dockets 
+Management Staff, FDA will post your comment, as well as any 
+attachments, except for information submitted, marked, and identified, 
+as confidential, if submitted as detailed in ``Instructions.''
+    Instructions: All submissions received must include the Docket No. 
+FDA-2025-D-4678 for ``Q3E Guideline for Extractables and Leachables.'' 
+Received comments will be placed in the docket and, except for those 
+submitted as ``Confidential Submissions,'' publicly viewable at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or at the Dockets Management Staff between 9 a.m. 
+and 4 p.m., Monday through Friday, 240-402-7500.
+    <bullet> Confidential Submissions--To submit a comment with 
+confidential information that you do not wish to be made publicly 
+available, submit your comments only as a written/paper submission. You 
+should submit two copies total. One copy will include the information 
+you claim to be confidential with a heading or cover note that states 
+``THIS DOCUMENT CONTAINS CONFIDENTIAL INFORMATION.'' The Agency will 
+review this copy, including the claimed confidential information, in 
+its consideration of comments. The second copy, which will have the 
+claimed confidential information redacted/blacked out, will be 
+available for public viewing and posted on <a href="https://www.regulations.gov">https://www.regulations.gov</a>. 
+Submit both copies to the Dockets Management Staff. If you do not wish 
+your name and contact information to be made publicly available, you 
+can provide this information on the cover sheet and not in the body of 
+your comments and you must identify this information as 
+``confidential.'' Any information marked as ``confidential'' will not 
+be disclosed except in accordance with 21 CFR 10.20 and other 
+applicable disclosure law. For more information about FDA's posting of 
+comments to public dockets, see 80 FR 56469, September 18, 2015, or 
+access the information at: <a href="https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf">https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23389.pdf</a>.
+    Docket: For access to the docket to read background documents or 
+the electronic and written/paper comments received, go to <a href="https://www.regulations.gov">https://www.regulations.gov</a> and insert the docket number, found in brackets in 
+the heading of this document, into the ``Search'' box and follow the 
+prompts and/or go to the Dockets Management Staff, 5630 Fishers Lane, 
+Rm. 1061, Rockville, MD 20852, 240-402-7500.
+    You may submit comments on any guidance at any time (see 21 CFR 
+10.115(g)(5)).
+    Submit written requests for single copies of this guidance to the 
+Division of Drug Information, Center for Drug Evaluation and Research, 
+Food and Drug Administration, 10001 New Hampshire Ave., Hillandale 
+Building, 4th Floor, Silver Spring, MD 20993-0002. Send one self-
+addressed adhesive label to assist that office in processing your 
+requests. See the SUPPLEMENTARY INFORMATION section for electronic 
+access to the guidance document.
+
+[[Page 55131]]
+
+
+FOR FURTHER INFORMATION CONTACT: 
+    Regarding the guidance: Edwin Jao, Center for Drug Evaluation and 
+Research, Food and Drug Administration, 10903 New Hampshire Ave., 
+Silver Spring, MD 20993-0002, 301-796-1684, <a href="/cdn-cgi/l/email-protection#ddb8b9aab4b3f3b7bcb29dbbb9bcf3b5b5aef3bab2ab"><span class="__cf_email__" data-cfemail="036667746a6d2d69626c436567622d6b6b702d646c75">[email&#160;protected]</span></a>; or 
+Phillip Kurs, Center for Biologics Evaluation and Research, Food and 
+Drug Administration, 240-402-7911.
+    Regarding the ICH: Brooke Dal Santo, Center for Drug Evaluation and 
+Research, Food and Drug Administration, 10903 New Hampshire Ave., Bldg. 
+51, Rm. 6304, Silver Spring, MD 20993-0002, 301-348-1967, 
+<a href="/cdn-cgi/l/email-protection#581a2a3737333d761c39340b39362c37183e3c397630302b763f372e"><span class="__cf_email__" data-cfemail="7331011c1c18165d37121f20121d071c331517125d1b1b005d141c05">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    FDA is announcing the availability of a draft guidance for industry 
+entitled ``Q3E Guideline for Extractables and Leachables'' and a draft 
+supporting document entitled ``Supporting Documentation: Class 3 
+Leachable Monographs.'' The draft guidance was prepared under the 
+auspices of ICH. ICH seeks to achieve greater regulatory harmonization 
+worldwide to ensure that safe, effective, high-quality medicines are 
+developed, registered, and maintained in the most resource-efficient 
+manner.
+    By harmonizing the regulatory requirements in regions around the 
+world, ICH guidelines enhance global drug development, improve 
+manufacturing standards, and increase the availability of medications. 
+For example, ICH guidelines have substantially reduced duplicative 
+clinical studies, prevented unnecessary animal studies, standardized 
+the reporting of important safety information, and standardized 
+marketing application submissions.
+    The six Founding Members of the ICH are the FDA; the Pharmaceutical 
+Research and Manufacturers of America; the European Commission; the 
+European Federation of Pharmaceutical Industries Associations; the 
+Japanese Ministry of Health, Labour, and Welfare; and the Japanese 
+Pharmaceutical Manufacturers Association. The Standing Members of the 
+ICH Association include Health Canada and Swissmedic. ICH membership 
+continues to expand to include other regulatory authorities and 
+industry associations from around the world (refer to <a href="https://www.ich.org/">https://www.ich.org/</a>).
+    ICH works by engaging global regulatory and industry experts in a 
+detailed, science-based, and consensus-driven process that results in 
+the development of ICH guidelines. The regulators around the world are 
+committed to consistently adopting these consensus-based guidelines, 
+realizing the benefits for patients and for industry.
+    As a Founding Regulatory Member of ICH, FDA plays a major role in 
+the development of each of the ICH guidelines, which FDA then adopts 
+and issues as guidance for industry. FDA's guidance documents do not 
+establish legally enforceable responsibilities. Instead, they describe 
+the Agency's current thinking on a topic and should be viewed only as 
+recommendations, unless specific regulatory or statutory requirements 
+are cited.
+    In August 2025, the ICH Assembly endorsed the draft guideline 
+entitled ``Q3E Guideline for Extractables and Leachables'' and agreed 
+that the guideline should be made available for public comment. The 
+draft guideline is the product of the Quality Expert Working Group of 
+the ICH. Comments about this draft will be considered by FDA and the 
+Quality Expert Working Group.
+    The draft guidance provides a holistic and risk-based framework for 
+the assessment and control of E&L in pharmaceutical products, expanding 
+upon existing ICH impurity guidelines. The draft guidance discusses 
+thresholds for identifying, quantifying, and reporting E&L. The draft 
+guidance includes draft Class 3 leachable monographs in its supporting 
+documentation.
+    This draft guidance has been left in the original ICH format. The 
+final guidance will be reformatted and edited to conform with FDA's 
+good guidance practices regulation (21 CFR 10.115) and style before 
+publication. The draft guidance, when finalized, will represent the 
+current thinking of FDA on ``Q3E Guideline for Extractables and 
+Leachables.'' It does not establish any rights for any person and is 
+not binding on FDA or the public. You can use an alternative approach 
+if it satisfies the requirements of the applicable statutes and 
+regulations.
+    As we develop final guidance on this topic, FDA will consider 
+comments on costs or cost savings the guidance may generate, relevant 
+for Executive Order 14192.
+
+II. Paperwork Reduction Act of 1995
+
+    While this guidance contains no collection of information, it does 
+refer to previously approved FDA collections of information. The 
+previously approved collections of information are subject to review by 
+the Office of Management and Budget (OMB) under the Paperwork Reduction 
+Act of 1995 (PRA) (44 U.S.C. 3501-3521). The collections of information 
+in 21 CFR part 58 relating to good laboratory practice have been 
+approved under OMB control number 0910-0119. The collections of 
+information in 21 CFR parts 210 and 211 relating to current good 
+manufacturing practice in the manufacture, processing, packing and 
+storage of finished pharmaceuticals have been approved under OMB 
+control number 0910-0139. The collections of information in 21 CFR part 
+314 relating to the submission of new drug applications have been 
+approved under OMB control 0910-0001. The collections of information in 
+21 CFR part 601 relating to the submission of biological license 
+applications have been approved under OMB control number 0910-0338.
+
+III. Electronic Access
+
+    Persons with access to the internet may obtain the draft guidance 
+and supporting documentation at <a href="https://www.regulations.gov">https://www.regulations.gov</a>, <a href="https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs">https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs</a>, <a href="https://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-guidances">https://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-guidances</a>, or 
+<a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents">https://www.fda.gov/regulatory-information/search-fda-guidance-documents</a>.
+
+Lowell M. Zeta,
+Acting, Deputy Commissioner for Policy, Legislation, and International 
+Affairs.
+[FR Doc. 2025-21702 Filed 11-28-25; 8:45 am]
+BILLING CODE 4164-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

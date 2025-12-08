@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 229 (Tuesday, December 2, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 229 (Tuesday, December 2, 2025)]
+[Notices]
+[Pages 55334-55335]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21739]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Transit Administration
+
+
+Safety Advisory 25-1 Reducing Rail Trespassing and Suicide Events
+
+AGENCY: Federal Transit Administration (FTA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of Safety Advisory.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Transit Administration (FTA) is issuing Safety 
+Advisory 25-1 to recommend State Safety Oversight Agencies (SSOAs) 
+direct Rail Transit Agencies (RTAs) within their jurisdiction to use 
+their Safety Management System (SMS) to mitigate risk related to rail 
+trespassing and suicide events.
+
+FOR FURTHER INFORMATION CONTACT: Ethan Novak, Safety Program Analyst, 
+Office of Transit Safety and Oversight, at <a href="/cdn-cgi/l/email-protection#4702332f262969092831262c0723283369202831"><span class="__cf_email__" data-cfemail="1e5b6a767f70305071687f755e7a716a30797168">[email&#160;protected]</span></a>, phone: 
+202-366-1783.
+
+[[Page 55335]]
+
+
+SUPPLEMENTARY INFORMATION: FTA recommends that State Safety Oversight 
+Agencies (SSOAs) direct Rail Transit Agencies (RTAs) within their 
+jurisdiction to identify hazards related to rail trespassing and 
+suicide events, perform safety risk assessments, identify safety risk 
+mitigations as necessary to reduce safety risk associated with 
+trespassing and suicide events, and utilize safety performance 
+monitoring and measurement procedures to assess the effectiveness of 
+mitigations. FTA recommends SSOAs obtain any documentation related to 
+the recommended actions outlined above from their RTAs. FTA recommends 
+that SSOAs that receive such documentation submit it to the State 
+Safety Oversight Reporting (SSOR) system within 180 days from the 
+issuance of this Safety Advisory.
+    The FTA's Safety Advisory 25-1, ``Reducing Rail Trespassing and 
+Suicide Events,'' is available in its entirety on the agency's public 
+website (<a href="https://www.transit.dot.gov/regulations-and-guidance/safety/fta-safety-advisories">https://www.transit.dot.gov/regulations-and-guidance/safety/fta-safety-advisories</a>).
+    Authority: 49 U.S.C. 5329; 49 CFR 1.91 and 670.29.
+
+Marcus J. Molinaro,
+Administrator.
+[FR Doc. 2025-21739 Filed 12-1-25; 8:45 am]
+BILLING CODE 4910-57-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

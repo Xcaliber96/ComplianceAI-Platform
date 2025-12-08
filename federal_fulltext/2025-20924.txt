@@ -1,0 +1,455 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 225 (Tuesday, November 25, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 225 (Tuesday, November 25, 2025)]
+[Rules and Regulations]
+[Pages 53203-53206]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-20924]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2025-3423; Project Identifier MCAI-2025-00811-T; 
+Amendment 39-23162; AD 2025-20-09]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus SAS Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is superseding Airworthiness Directive (AD) 2022-22-
+09, which applied to certain Airbus SAS Model A350-1041 airplanes. AD 
+2022-22-09 required replacing affected hydro-mechanical units (HMUs) 
+with serviceable HMUs before reaching a reduced life limit and limited 
+the installation of affected parts under certain conditions. Since the 
+FAA issued AD 2022-22-09, an improved HMU was developed and embodied in 
+production. This AD continues to require the actions in AD 2022-22-09. 
+This AD also requires replacing affected HMUs with improved HMUs and 
+prohibits the installation of affected parts under certain conditions 
+and on certain airplanes. The FAA is issuing this AD to address the 
+unsafe condition on these products.
+
+DATES: This AD is effective December 10, 2025.
+    The Director of the Federal Register approved the incorporation by 
+reference of a certain publication listed in this AD as of December 10, 
+2025.
+    The FAA must receive comments on this AD by January 9, 2026.
+
+ADDRESSES: You may send comments, using the procedures found in 14 CFR 
+11.43 and 11.45, by any of the following methods:
+    <bullet> Federal eRulemaking Portal: Go to <a href="http://regulations.gov">regulations.gov</a>. Follow 
+the instructions for submitting comments.
+    <bullet> Fax: 202-493-2251.
+    <bullet> Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE, Washington, DC 20590.
+    <bullet> Hand Delivery: Deliver to Mail address above between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    AD Docket: You may examine the AD docket at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-3423; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this final rule, the mandatory continuing airworthiness 
+information (MCAI), any comments received, and other information. The 
+street address for Docket Operations is listed above.
+    Material Incorporated by Reference:
+    <bullet> For European Union Aviation Safety Agency (EASA) material 
+identified in this AD, contact EASA, Konrad-Adenauer-Ufer 3, 50668 
+Cologne, Germany; telephone +49 221 8999 000; email <a href="/cdn-cgi/l/email-protection#0b4a4f784b6e6a786a256e7e79647b6a256e7e"><span class="__cf_email__" data-cfemail="6524211625000416044b0010170a15044b0010">[email&#160;protected]</span></a>. 
+You may find this material on the EASA website at ad.easa.europa.eu.
+    <bullet> You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., Des 
+Moines, WA. For information on the availability of this material at the 
+FAA, call 206-231-3195. It is also available at <a href="http://regulations.gov">regulations.gov</a> under 
+Docket No. FAA-2025-3423.
+
+FOR FURTHER INFORMATION CONTACT: Kathryn Hill, Aviation Safety 
+Engineer, FAA, 2200 South 216th St., Des Moines, WA 98198; phone: 206-
+231-3626; email: <a href="/cdn-cgi/l/email-protection#3853594c504a415616591650515454785e5959165f574e"><span class="__cf_email__" data-cfemail="a6cdc7d2ced4dfc888c788cecfcacae6c0c7c788c1c9d0">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    The FAA invites you to send any written data, views, or arguments 
+about this final rule. Send your comments using a method listed under 
+the ADDRESSES section. Include ``Docket No. FAA-2025-3423; Project 
+Identifier MCAI-2025-00811-T'' at the beginning of your comments. The 
+most helpful comments reference a specific portion of the final rule, 
+explain the reason for any recommended change, and include supporting 
+data. The FAA will consider all comments received by the closing date 
+and may amend this final rule because of those comments.
+    Except for Confidential Business Information (CBI) as described in 
+the following paragraph, and other information as described in 14 CFR 
+11.35, the FAA will post all comments received, without change, to 
+<a href="http://regulations.gov">regulations.gov</a>, including any personal information you provide. The 
+agency will also post a report summarizing each substantive verbal 
+contact received about this final rule.
+
+Confidential Business Information
+
+    CBI is commercial or financial information that is both customarily 
+and actually treated as private by its owner. Under the Freedom of 
+Information Act (FOIA) (5 U.S.C. 552), CBI is exempt from public 
+disclosure. If your comments responsive to this AD contain commercial 
+or financial information that is customarily treated as private, that 
+you actually treat as private, and that is relevant or responsive to 
+this AD, it is important that you clearly designate the submitted 
+comments as CBI. Please mark each page of your submission containing 
+CBI as ``PROPIN.'' The FAA will treat such marked submissions as 
+confidential under the FOIA, and they will not be placed in the public 
+docket of this AD. Submissions containing CBI should be sent to Kathryn 
+Hill, Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, 
+WA 98198; phone: 206-231-3626; email: <a href="/cdn-cgi/l/email-protection#d1bab0a5b9a3a8bfffb0ffb9b8bdbd91b7b0b0ffb6bea7"><span class="__cf_email__" data-cfemail="b4dfd5c0dcc6cdda9ad59adcddd8d8f4d2d5d59ad3dbc2">[email&#160;protected]</span></a>. Any 
+commentary that the FAA receives which is not specifically designated 
+as CBI will be placed in the public docket for this rulemaking.
+
+[[Page 53204]]
+
+Background
+
+    The FAA issued AD 2022-22-09, Amendment 39-22224 (87 FR 72377, 
+November 25, 2022) (AD 2022-22-09), for Airbus SAS Model A350-1041 
+airplanes equipped with Rolls-Royce Trent XWB-97 engines. AD 2022-22-09 
+was prompted by an MCAI originated by EASA, which is the Technical 
+Agent for the Member States of the European Union. EASA issued AD 2022-
+0040, dated March 8, 2022 (EASA AD 2022-0040), to correct an unsafe 
+condition. AD 2022-22-09 was prompted by reports of rejected takeoffs 
+after transient engine N1 shaft speed exceedance, which was found to be 
+the result of piston wear, causing the combining spill valve (CSV) 
+piston of the engine HMU to close slowly. EASA AD 2022-0040 stated 
+investigations revealed that the CSV of the engine HMU was slow to 
+close due to piston wear. A worn CSV piston does not move fully and 
+freely over its operating range, and, when it moves to fully closed 
+position, an excess of fuel is sent to the fuel nozzles which 
+eventually results in an N1 transient shaft overspeed.
+    AD 2022-22-09 required replacing certain HMUs with serviceable HMUs 
+before reaching a reduced life limit. The FAA issued AD 2022-22-09 to 
+address a stuck CSV piston of the engine HMUs, which could 
+significantly reduce engine thrust, and if combined with a loss of the 
+second engine, could possibly result in reduced control of the 
+airplane.
+
+Actions Since AD 2022-22-09 Was Issued
+
+    The preamble to AD 2022-22-09 specifies that the FAA considers that 
+AD ``interim action'' and that the FAA might consider further 
+rulemaking if a final action is identified. Since the FAA issued AD 
+2022-22-09, EASA superseded AD 2022-0040 with EASA AD 2025-0100, dated 
+April 30, 2025 (EASA AD 2025-0100) (also referred to as the MCAI), to 
+correct an unsafe condition for Airbus SAS Model A350-1041 airplanes 
+equipped with Rolls-Royce Trent XWB-97 engines. The MCAI states, since 
+issuance of EASA AD 2022-0040, an improved HMU has been developed and 
+embodied in production through Airbus modification 120423. In addition, 
+Rolls-Royce published Rolls-Royce Modification Service Bulletin TRENT 
+XWB 73-L044 to provide instructions for replacement of an affected HMU 
+with an improved HMU, as a terminating action for replacement of the 
+life-limited affected parts. The FAA has now determined that further 
+rulemaking is necessary, and this AD follows from that determination.
+    The FAA is issuing this AD to address the unsafe condition on these 
+products. You may examine the MCAI in the AD docket at <a href="http://regulations.gov">regulations.gov</a> 
+under Docket No. FAA-2025-3423.
+
+Explanation of Retained Requirements
+
+    Although this AD does not explicitly restate the requirements of AD 
+2022-22-09, this AD retains all of the requirements of AD 2022-22-09. 
+Those requirements are referenced in EASA AD 2025-0100, which, in turn, 
+is referenced in paragraph (g) of this AD.
+
+Material Incorporated by Reference Under 1 CFR Part 51
+
+    The FAA reviewed EASA AD 2025-0100, which specifies procedures for 
+replacing an HMU having part number (P/N) G5020HMU02 with either a 
+serviceable HMU, or an improved HMU having P/N G5020HMU03, or any later 
+approved part number. EASA AD 2025-0100 also prohibits the installation 
+of an affected HMU after it is replaced with an improved HMU.
+    This material is reasonably available because the interested 
+parties have access to it through their normal course of business or by 
+the means identified in the ADDRESSES section.
+
+FAA's Determination
+
+    These products have been approved by the civil aviation authority 
+of another country and are approved for operation in the United States. 
+Pursuant to the FAA's bilateral agreement with this State of Design 
+Authority, that authority has notified the FAA of the unsafe condition 
+described in the MCAI referenced above. The FAA is issuing this AD 
+after determining that the unsafe condition described previously is 
+likely to exist or develop on other products of the same type design.
+
+Requirements of This AD
+
+    This AD retains all requirements of AD 2022-22-09. This AD requires 
+accomplishing the actions specified in EASA AD 2025-0100 described 
+previously, except for any differences identified as exceptions in the 
+regulatory text of this AD. This AD also prohibits the installation of 
+affected parts under certain conditions.
+
+Explanation of Required Compliance Information
+
+    In the FAA's ongoing efforts to improve the efficiency of the AD 
+process, the FAA developed a process to use some civil aviation 
+authority (CAA) ADs as the primary source of information for compliance 
+with requirements for corresponding FAA ADs. The FAA has been 
+coordinating this process with manufacturers and CAAs. As a result, 
+EASA AD 2025-0100 is incorporated by reference in this AD. This AD 
+requires compliance with EASA AD 2025-0100 in its entirety through that 
+incorporation, except for any differences identified as exceptions in 
+the regulatory text of this AD. Using common terms that are the same as 
+the heading of a particular section in EASA AD 2025-0100 does not mean 
+that operators need comply only with that section. For example, where 
+the AD requirement refers to ``all required actions and compliance 
+times,'' compliance with this AD requirement is not limited to the 
+section titled ``Required Action(s) and Compliance Time(s)'' in EASA AD 
+2025-0100. Material required by EASA AD 2025-0100 for compliance will 
+be available at <a href="http://regulations.gov">regulations.gov</a> under Docket No. FAA-2025-3423 after 
+this AD is published.
+
+Justification for Immediate Adoption and Determination of the Effective 
+Date
+
+    Section 553(b) of the Administrative Procedure Act (APA) (5 U.S.C. 
+551 et seq.) authorizes agencies to dispense with notice and comment 
+procedures for rules when the agency, for ``good cause,'' finds that 
+those procedures are ``impracticable, unnecessary, or contrary to the 
+public interest.'' Under this section, an agency, upon finding good 
+cause, may issue a final rule without providing notice and seeking 
+comment prior to issuance. Further, section 553(d) of the APA 
+authorizes agencies to make rules effective in less than thirty days, 
+upon a finding of good cause.
+    There are currently no domestic operators of these products. 
+Accordingly, notice and opportunity for prior public comment are 
+unnecessary, pursuant to 5 U.S.C. 553(b). In addition, for the 
+foregoing reason(s), the FAA finds that good cause exists pursuant to 5 
+U.S.C. 553(d) for making this amendment effective in less than 30 days.
+
+Regulatory Flexibility Act (RFA)
+
+    The requirements of the RFA do not apply when an agency finds good 
+cause pursuant to 5 U.S.C. 553 to adopt a rule without prior notice and 
+comment. Because the FAA has determined that it has good cause to adopt 
+this rule without notice and comment, RFA analysis is not required.
+
+Costs of Compliance
+
+    Currently, there are no affected U.S.-registered airplanes. If an 
+affected airplane is imported and placed on the U.S. Register in the 
+future, the FAA
+
+[[Page 53205]]
+
+provides the following cost estimates to comply with this AD:
+
+                                      Estimated Costs for Required Actions
+----------------------------------------------------------------------------------------------------------------
+                                                                                                     Cost per
+                    Action                                 Labor cost               Parts cost        product
+----------------------------------------------------------------------------------------------------------------
+Retained actions from AD 2022-22-09...........  Up to 7 work-hours x $85 per                * $0            $595
+                                                 hour = $595.
+New actions...................................  Up to 2 work-hours x $85 per                 * 0             170
+                                                 hour = $170.
+----------------------------------------------------------------------------------------------------------------
+* The FAA has received no definitive data on which to base the cost estimates for the parts specified in this
+  AD.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII: Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    The FAA is issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701: General requirements. 
+Under that section, Congress charges the FAA with promoting safe flight 
+of civil aircraft in air commerce by prescribing regulations for 
+practices, methods, and procedures the Administrator finds necessary 
+for safety in air commerce. This regulation is within the scope of that 
+authority because it addresses an unsafe condition that is likely to 
+exist or develop on products identified in this rulemaking action.
+
+Regulatory Findings
+
+    This AD will not have federalism implications under Executive Order 
+13132. This AD will not have a substantial direct effect on the States, 
+on the relationship between the national government and the States, or 
+on the distribution of power and responsibilities among the various 
+levels of government.
+    For the reasons discussed above, I certify that this AD:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866, and
+    (2) Will not affect intrastate aviation in Alaska.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA amends 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by:
+0
+a. Removing Airworthiness Directive (AD) 2022-22-09, Amendment 39-22224 
+(87 FR 72377, November 25, 2022); and
+0
+b. Adding the following new AD:
+
+2025-20-09 Airbus SAS: Amendment 39-23162; Docket No. FAA-2025-3423; 
+Project Identifier MCAI-2025-00811-T.
+
+(a) Effective Date
+
+    This airworthiness directive (AD) is effective December 10, 
+2025.
+
+(b) Affected ADs
+
+    This AD replaces AD 2022-22-09, Amendment 39-22224 (87 FR 72377, 
+November 25, 2022) (AD 2022-22-09).
+
+(c) Applicability
+
+    This AD applies to Airbus SAS Model A350-1041 airplanes, 
+certificated in any category, as identified in European Union 
+Aviation Safety Agency (EASA) AD 2025-0100, dated April 30, 2025 
+(EASA AD 2025-0100).
+
+(d) Subject
+
+    Air Transport Association (ATA) of America Code 73, Engine Fuel 
+and Control.
+
+(e) Unsafe Condition
+
+    This AD was prompted by reports of rejected takeoffs after 
+transient engine N1 shaft speed exceedance. The FAA is issuing this 
+AD to address a stuck combining spill valve piston of the engine 
+hydro-mechanical units, which could significantly reduce engine 
+thrust, and if combined with a loss of the second engine, could 
+possibly result in reduced control of the airplane.
+
+(f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+(g) Requirements
+
+    Except as specified in paragraph (h) of this AD: Comply with all 
+required actions and compliance times specified in, and in 
+accordance with, EASA AD 2025-0100.
+
+(h) Exceptions to EASA AD 2025-0100
+
+    (1) Where EASA AD 2025-0100 refers to its effective date, this 
+AD requires using the effective date of this AD.
+    (2) Where paragraph (3) of EASA AD 2025-0100 refers to March 15, 
+2022 (the effective date of EASA AD 2022-0040, dated March 8, 2022), 
+this AD requires using December 30, 2022 (the effective date of FAA 
+AD 2022-22-09).
+    (3) This AD does not adopt the ``Remarks'' section of EASA AD 
+2025-0100.
+
+(i) Additional AD Provisions
+
+    The following provisions also apply to this AD:
+    (1) Alternative Methods of Compliance (AMOCs): The Manager, AIR-
+520, Continued Operational Safety Branch, FAA, has the authority to 
+approve AMOCs for this AD, if requested using the procedures found 
+in 14 CFR 39.19. In accordance with 14 CFR 39.19, send your request 
+to your principal inspector or responsible Flight Standards Office, 
+as appropriate. If sending information directly to the manager of 
+Continued Operational Safety Branch, send it to the attention of the 
+person identified in paragraph (j) of this AD and email to: 
+<a href="/cdn-cgi/l/email-protection#4f0e02000c0f292e2e61282039"><span class="__cf_email__" data-cfemail="36777b79757650575718515940">[email&#160;protected]</span></a>.
+    (2) Contacting the Manufacturer: For any requirement in this AD 
+to obtain instructions from a manufacturer, the instructions must be 
+accomplished using a method approved by the Manager, AIR-520, 
+Continued Operational Safety, FAA; or EASA; or Airbus SAS's EASA 
+Design Organization Approval (DOA). If approved by the DOA, the 
+approval must include the DOA-authorized signature.
+    (3) Required for Compliance (RC): Except as required by 
+paragraph (i)(2) of this AD, if any material referenced in EASA AD 
+2025-0100 that contains paragraphs that are labeled as RC, the 
+instructions in RC paragraphs, including subparagraphs under an RC 
+paragraph, must be done to comply with this AD; any paragraphs, 
+including subparagraphs under those paragraphs, that are not 
+identified as RC are recommended. The instructions in paragraphs, 
+including subparagraphs under those paragraphs, not identified as RC 
+may be deviated from using accepted methods in accordance with the 
+operator's maintenance or inspection program without obtaining 
+approval of an AMOC, provided the instructions identified as RC can 
+be done and the airplane can be put back in an airworthy condition. 
+Any substitutions or changes to instructions identified as RC 
+require approval of an AMOC.
+
+[[Page 53206]]
+
+(j) Additional Information
+
+    For more information about this AD, contact Kathryn Hill, 
+Aviation Safety Engineer, FAA, 2200 South 216th St., Des Moines, WA 
+98198; phone: 206-231-3626; email: <a href="/cdn-cgi/l/email-protection#96fdf7e2fee4eff8b8f7b8fefffafad6f0f7f7b8f1f9e0"><span class="__cf_email__" data-cfemail="bdd6dcc9d5cfc4d393dc93d5d4d1d1fddbdcdc93dad2cb">[email&#160;protected]</span></a>.
+
+(k) Material Incorporated by Reference
+
+    (1) The Director of the Federal Register approved the 
+incorporation by reference (IBR) of the material listed in this 
+paragraph under 5 U.S.C. 552(a) and 1 CFR part 51.
+    (2) You must use this material as applicable to do the actions 
+required by this AD, unless this AD specifies otherwise.
+    (3) The following material was approved for IBR on December 10, 
+2025.
+    (i) European Union Aviation Safety Agency (EASA) AD 2025-0100, 
+dated April 30, 2025.
+    (ii) [Reserved]
+    (4) For EASA material identified in this AD, contact EASA, 
+Konrad-Adenauer-Ufer 3, 50668 Cologne, Germany; telephone +49 221 
+8999 000; email <a href="/cdn-cgi/l/email-protection#f2b3b681b297938193dc9787809d8293dc9787"><span class="__cf_email__" data-cfemail="c9888dba89aca8baa8e7acbcbba6b9a8e7acbc">[email&#160;protected]</span></a>. You may find this material on 
+the EASA website at ad.easa.europa.eu.
+    (5) You may view this material at the FAA, Airworthiness 
+Products Section, Operational Safety Branch, 2200 South 216th St., 
+Des Moines, WA. For information on the availability of this material 
+at the FAA, call 206-231-3195.
+    (6) You may view this material at the National Archives and 
+Records Administration (NARA). For information on the availability 
+of this material at NARA, visit <a href="http://www.archives.gov/federal-register/cfr/ibr-locations">www.archives.gov/federal-register/cfr/ibr-locations</a> or email <a href="/cdn-cgi/l/email-protection#2a4c58044344595a4f495e4345446a444b584b044d455c"><span class="__cf_email__" data-cfemail="91f7e3bff8ffe2e1f4f2e5f8feffd1fff0e3f0bff6fee7">[email&#160;protected]</span></a>.
+
+    Issued on September 26, 2025.
+Peter A. White,
+Deputy Director, Integrated Certificate Management Division, Aircraft 
+Certification Service.
+[FR Doc. 2025-20924 Filed 11-24-25; 8:45 am]
+BILLING CODE 4910-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

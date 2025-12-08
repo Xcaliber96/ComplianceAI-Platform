@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Rules and Regulations]
+[Page 55045]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21694]
+
+
+-----------------------------------------------------------------------
+
+LIBRARY OF CONGRESS
+
+Copyright Royalty Board
+
+37 CFR Part 386
+
+[Docket No. 25-CRB-0011-SA COLA (2026)]
+
+
+Cost of Living Adjustment to Satellite Carrier Compulsory License 
+Royalty Rates
+
+AGENCY: Copyright Royalty Board (CRB), Library of Congress.
+
+ACTION: Final rule; cost of living adjustment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Copyright Royalty Judges announce a cost of living 
+adjustment (COLA) of 2.9% in the royalty rates satellite carriers pay 
+for a compulsory license under the Copyright Act. The COLA is based on 
+the change in the Consumer Price Index from October 2024 to September 
+2025.
+
+DATES: 
+    Effective date: December 1, 2025.
+    Applicability dates: These rates are applicable to the period 
+January 1, 2026, through December 31, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Anita Brown, CRB Program Specialist, 
+(202) 707-7658, <a href="/cdn-cgi/l/email-protection#d7b4a5b597bbb8b4f9b0b8a1"><span class="__cf_email__" data-cfemail="90f3e2f2d0fcfff3bef7ffe6">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The satellite carrier compulsory license 
+establishes a statutory copyright licensing scheme for the distant 
+retransmission of television programming by satellite carriers. 17 
+U.S.C. 119. Congress created the license in 1988 and reauthorized the 
+license for additional five-year periods until 2019 when it made the 
+license permanent.\1\
+---------------------------------------------------------------------------
+
+    \1\ The most recent five-year reauthorization was pursuant to 
+the STELA Reauthorization Act of 2014, Public Law 113-200. The 
+license was made permanent by the Satellite Television Community 
+Protection and Promotion Act of 2019, Public Law 116-94, div. P, 
+title XI, Sec.  1102(a), (c)(1), 133 Stat. 3201, 3203.
+---------------------------------------------------------------------------
+
+    On August 31, 2010, the Copyright Royalty Judges (Judges) adopted 
+rates for the section 119 compulsory license for the 2010-2014 term. 
+See 75 FR 53198. The rates were proposed by Copyright Owners and 
+Satellite Carriers \2\ and were unopposed. Id. Section 119(c)(2) of the 
+Copyright Act provides that, effective January 1 of each year, the 
+Judges shall adjust the royalty fee payable under section 119(b)(1)(B) 
+``to reflect any changes occurring in the cost of living as determined 
+by the most recent Consumer Price Index (for all consumers and for all 
+items) [CPI-U] published by the Secretary of Labor before December 1 of 
+the preceding year.'' Section 119 also requires that ``[n]otification 
+of the adjusted fees shall be published in the Federal Register at 
+least 25 days before January 1.'' 17 U.S.C. 119(c)(2).
+---------------------------------------------------------------------------
+
+    \2\ Program Suppliers and Joint Sports Claimants comprised the 
+Copyright Owners while DIRECTV, Inc., DISH Network, LLC, and 
+National Programming Service, LLC, comprised the Satellite Carriers.
+---------------------------------------------------------------------------
+
+    The change in the cost of living as determined by the CPI-U during 
+the period from the most recent index published before December 1, 
+2024, to the most recent index published before December 1, 2025, is 
+2.9%.\3\ Application of the 2.9% COLA to the current rate for the 
+secondary transmission of broadcast stations by satellite carriers for 
+private home viewing--36 cents per subscriber per month--results in a 
+rate of 37 cents per subscriber per month (rounded to the nearest 
+cent). See 37 CFR 386.2(b)(1). Application of the 2.9% COLA to the 
+current rate for viewing in commercial establishments--74 cents per 
+subscriber per month--results in a rate of 76 cents per subscriber per 
+month (rounded to the nearest cent). See 37 CFR 386.2(b)(2).
+---------------------------------------------------------------------------
+
+    \3\ The CPI-U announced on October 24, 2025, by the Bureau of 
+Labor Statistics in its Consumer Price Index News Release--Consumer 
+Price Index, is available at <a href="https://www.bls.gov/news.release/pdf/cpi.pdf">https://www.bls.gov/news.release/pdf/cpi.pdf</a> at Table 1 (last viewed Nov. 25, 2025). The Copyright 
+Royalty Judges note that the October 24, 2025, publication is the 
+most recent CPI-U published by the Secretary of Labor before 
+December 1 of the preceding year of this COLA adjustment (i.e. 
+2026). The Bureau of Labor statistics has explained ``BLS could not 
+collect October 2025 reference period survey data due to a lapse in 
+appropriations.'' See <a href="https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm">https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm</a>. The change in the cost of living during the 
+period from the most recent index published prior to the previous 
+notice to the most recent index published prior to December 1 of 
+this year i.e. the change from October 2024 to September 2025 is 
+2.9% ((324.800-315.664)/315.664).
+---------------------------------------------------------------------------
+
+List of Subjects in 37 CFR Part 386
+
+    Copyright, Satellite, Television.
+
+Final Regulations
+
+    In consideration of the foregoing, the Judges amend part 386 of 
+title 37 of the Code of Federal Regulations as follows:
+
+PART 386--ADJUSTMENT OF ROYALTY FEES FOR SECONDARY TRANSMISSIONS BY 
+SATELLITE CARRIERS
+
+0
+1. The authority citation for part 386 continues to read as follows:
+
+    Authority:  17 U.S.C. 119(c), 801(b)(1).
+
+
+0
+2. Section 386.2 is amended by adding paragraphs (b)(1)(xvii) and 
+(b)(2)(xvii) to read as follows:
+
+
+Sec.  386.2  Royalty fee for secondary transmission by satellite 
+carriers.
+
+* * * * *
+    (b) * * *
+    (1) * * *
+    (xvii) 2026: 37 cents per subscriber per month.
+    (2) * * *
+    (xvii) 2026: 76 cents per subscriber per month.
+
+    Dated: November 26, 2025.
+Christina L. Shifton,
+Interim Chief Copyright Royalty Judge.
+[FR Doc. 2025-21694 Filed 11-28-25; 8:45 am]
+BILLING CODE 1410-72-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

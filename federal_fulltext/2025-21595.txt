@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 228 (Monday, December 1, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 228 (Monday, December 1, 2025)]
+[Notices]
+[Pages 55089-55090]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-21595]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+CONSUMER PRODUCT SAFETY COMMISSION
+
+[Docket No. CPSC-2012-0058]
+
+
+Agency Information Collection Activities; Extension of 
+Collection; Safety Standard for Walk-Behind Power Lawn Mowers
+
+AGENCY: Consumer Product Safety Commission.
+
+ACTION: Notice of information collection; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: As required by the Paperwork Reduction Act of 1995 (PRA), the 
+Consumer Product Safety Commission (CPSC or Commission) announces that 
+the Commission has submitted to the Office of Management and Budget 
+(OMB) a request for extension of approval of information collection 
+requirements associated with the Safety Standard for Walk-Behind Power 
+Lawn Mowers. OMB previously approved the collection of information 
+under control number 3041-0091. OMB's most recent extension of approval 
+will expire on November 30, 2025. On September 23, 2025, CPSC published 
+a notice in the Federal Register to announce the agency's intention to 
+seek extension of approval of the collection of information. The 
+Commission received four public comments. Therefore, by publication of 
+this notice, the Commission announces that CPSC has submitted to OMB a 
+request for extension of approval of that collection of information.
+
+DATES: Submit comments on the collection of information by December 29, 
+2025.
+
+ADDRESSES: Submit comments about this request by email: 
+<a href="/cdn-cgi/l/email-protection#f1beb8a3b0ae8284939c988282989e9fb19e9c93df949e81df969e87"><span class="__cf_email__" data-cfemail="90dfd9c2d1cfe3e5f2fdf9e3e3f9fffed0fffdf2bef5ffe0bef7ffe6">[email&#160;protected]</span></a> or fax: 202-395-6881. Comments by mail 
+should be sent to the Office of Information and Regulatory Affairs, 
+Attn: OMB Desk Officer for the CPSC, Office of Management and Budget, 
+Room 10235, 725 17th Street NW, Washington, DC 20503. Written comments 
+that are sent to OMB also should be submitted electronically at <a href="http://www.regulations.gov">http://www.regulations.gov</a>, under Docket No. CPSC-2012-0058.
+
+FOR FURTHER INFORMATION CONTACT: Cynthia Gillham, Consumer Product 
+Safety Commission, 4330 East-West Highway, Bethesda, MD 20814; (301) 
+504-7791, or by email to: <a href="/cdn-cgi/l/email-protection#3e4e4c5f7e5d4e4d5d10595148"><span class="__cf_email__" data-cfemail="bfcfcddeffdccfccdc91d8d0c9">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: CPSC seeks to renew the following currently 
+approved collection of information:
+    Title: Safety Standard for Walk-Behind Lawn Mowers.
+    OMB Number: 3041-0091.
+
+[[Page 55090]]
+
+    Type of Review: Renewal of collection.
+    Frequency of Response: On occasion.
+    Affected Public: Manufacturers and importers of walk-behind power 
+lawn mowers.
+    General Description of Collection: The Safety Standard for Walk-
+Behind Power Lawn Mowers (16 CFR part 1205) addresses blade contact 
+injuries. Subpart B of the standard sets forth regulations prescribing 
+requirements for a reasonable testing program to support certificates 
+of compliance with the standard for walk-behind power lawn mowers. 
+Section 14(a) of the CPSA requires manufacturers, importers, and 
+private labelers of a consumer product subject to a consumer product 
+safety standard to issue a certificate stating that the product 
+complies with all applicable consumer product safety standards. 15 
+U.S.C. 2063(a). Section 14(a) of the CPSA also requires that the 
+certificate of compliance must be based on a test of each product or 
+upon a reasonable testing program. Id. The rule requires manufacturers 
+(including importers) to establish and maintain written records showing 
+that the certificates of compliance issued are based on a test of each 
+mower or on a reasonable testing program. The records are to be 
+maintained for a period of at least three years from the date of 
+certification of each mower or each production lot. The rule also 
+requires that the certificates be in the form of a label on the product 
+stating (1) ``Meets CPSC blade safety requirements''; (2) an 
+identification of the production lot; (3) the name of the person or 
+firm issuing the certificate; (4) the location where the product was 
+principally assembled; and (5) the month and year the product was 
+manufactured. See 16 CFR 1205.35(a)-(b).
+    Estimated Number of Respondents: CPSC estimates approximately 34 
+lawn-mower suppliers will respond to the collection annually.
+    Estimated Time per Response: Based on subject matter knowledge and 
+previous experience during compliance inspections conducted for lawn 
+mowers subject to the standard, CPSC estimates that each respondent 
+expends eight hours daily engaged in compiling and maintaining a 
+testing record to support the certification of a production lot of lawn 
+mowers. This may involve testing approximately five to six lawn mowers 
+per day and recording test results in some form of a retrievable record 
+system. CPSC assumes testing is performed over 130 estimated yearly 
+production days, based on a highly seasonal production period. Thus, 
+total hour burden to respondents for the recordkeeping associated with 
+testing to support certification is estimated to be 1,040 hours per 
+respondent (8 x 130). For the specified labeling requirements, the 
+information should be readily available, and it could take a 
+manufacturer an additional hour per production day to collect the 
+information and place it on the label. Therefore, an additional 130 
+hours per respondent have been added to the total burden, which is 
+1,170 hours (1,040 + 130).
+    Total Estimated Annual Burden: CPSC estimates that the annual 
+burden for compiling and maintaining a testing record to support 
+certification is estimated to be 35,360 hours (34 respondents x 1,040 
+hours). The estimated additional burden related to labeling is 4,420 
+hours. The total annual burden hours related to recordkeeping 
+associated with certification, and labeling are estimated to be 39,780 
+hours for the collection of information annually (35,360 + 4,420).
+    Total Estimated Annual Cost to Respondents: CPSC estimates that the 
+cost of collecting information related to testing is approximately 
+$2,729,438.40 based on 35,360 hours x $77.19 (total compensation for 
+management, professional, and related workers in goods-producing 
+industries) and annual cost burden related to labeling is estimated to 
+be $183,827.80 based on 4,420 hours x $41.59 (total compensation for 
+all sales and office workers in goods-producing industries).\1\ 
+Therefore, total annual burden costs related to the information 
+collection are estimated to be $2,913,266.20 ($2,729,438.40 + 
+$183,827.80).
+---------------------------------------------------------------------------
+
+    \1\ U.S. Bureau of Labor Statistics, ``Employer Costs for 
+Employee Compensation,'' March 2025, Table 4, <a href="https://www.bls.gov/news.release/archives/ecec_06132025.pdf">https://www.bls.gov/news.release/archives/ecec_06132025.pdf</a>.
+---------------------------------------------------------------------------
+
+    Response to Public Comments: Three comments were out of scope. The 
+fourth commenter, Outdoor Power Equipment Institute (OPEI), asserted 
+that CPSC's burden estimates are low because CPSC does not account for 
+manufacturers that may be producing mowers all year-round. CPSC's 
+estimated burden assumes 130 yearly production days, based on a highly 
+seasonal production period. OPEI agrees that this is true for some 
+manufacturers. However, OPEI asserts that there are other 
+manufacturers, without specifying how many, who are in production for 
+an estimated 250 business days all year-round. Some firms may have more 
+than 130 yearly production days, even up to 250 business production 
+days, as suggested by OPEI, and others may have fewer production days. 
+OPEI has not provided any detailed information that will assist in 
+revising the estimated PRA burden. For this reason, CPSC is not 
+revising its current burden estimates based on 130 days of production 
+per year.
+    OPEI also expressed concerns about potential duplicative burdens 
+associated with e-filing requirements under a new rule, Certificates of 
+Compliance. See 16 CFR 1110. The PRA burden associated with the e-
+filing requirements for walk-behind lawn mowers is accounted for in the 
+final e-filing rule. 90 FR 1800, 1839 (Jan. 8, 2025).\2\
+---------------------------------------------------------------------------
+
+    \2\ OMB approved the information collection request associated 
+with the e-filing rule on February, 28, 2025. See OMB Control No. 
+3041-0203.
+
+Alberta E. Mills,
+Secretary, Consumer Product Safety Commission.
+[FR Doc. 2025-21595 Filed 11-28-25; 8:45 am]
+BILLING CODE 6355-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
