@@ -152,7 +152,6 @@ useEffect(() => {
     }
   };
 
-  // Load obligations initially
   useEffect(() => {
     loadObligations();
   }, []);
@@ -200,7 +199,8 @@ const handleRunCompliance = async () => {
     const auditData = await runCompliance(
       user_uid,
       selectedEvidenceFileId,
-      selectedRegulationIds
+      selectedRegulationIds,
+      
     );
     
 await new Promise(res => setTimeout(res, 150));  
