@@ -9,18 +9,15 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "jsx": "react-jsx",
 
-    /* Build for Render */
     "composite": true,
     "noEmit": false,
     "outDir": "dist",
 
-    /* Linting / safety */
     "strict": false,
     "noImplicitAny": false,
     "noUnusedLocals": false,
@@ -29,13 +26,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-
-    /* THE MISSING ALIAS — FIXES YOUR PATH ERRORS */
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "isolatedModules": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
