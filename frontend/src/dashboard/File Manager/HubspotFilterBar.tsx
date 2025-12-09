@@ -66,7 +66,7 @@ export default function HubspotFilterBar({
           onFilterType(e.target.value);
         }}
         sx={{ minWidth: 120 }}
-        displayEmpty
+
       >
         <MenuItem value="all">All</MenuItem>
         <MenuItem value="policy">Policy</MenuItem>
@@ -89,7 +89,7 @@ export default function HubspotFilterBar({
           onSort(e.target.value);
         }}
         sx={{ minWidth: 120 }}
-        displayEmpty
+
       >
         <MenuItem value="newest">Newest</MenuItem>
         <MenuItem value="oldest">Oldest</MenuItem>

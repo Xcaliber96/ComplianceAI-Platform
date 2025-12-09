@@ -49,7 +49,7 @@ export default function NomiFileHub() {
     const usedFor = "general_upload";
 
     try {
-      await uploadToFileHub(previewFile, user_uid!, fileType, usedFor);
+      await uploadToFileHub(previewFile, user_uid!, fileType, usedFor,  "general");
       setPreviewFile(null);
       await fetchFiles();
     } catch (err) {

@@ -1582,7 +1582,7 @@ async def run_compliance_payload(payload: dict):
             from src.api.obligations_ingest import extract_obligations_from_text
             filename = f"{reg.regulation_id}.txt"
             full_text = read_file(filename)
-            
+            print(full_text)
             if not full_text or full_text.startswith("Error"):
                 print(f"⚠️ Could not load text for {reg.regulation_id}")
                 continue
@@ -1594,6 +1594,9 @@ async def run_compliance_payload(payload: dict):
                 raw_text=full_text,
                 meta={}
             )
+            print(f"🔍 Obligations extracted for {reg.regulation_id}:")
+            for i, obl in enumerate(obligations):
+                print(f"  {i+1}. {obl.get('text', '')[:200]}")
             
             # Use obligations text as requirement text (concatenate if multiple)
             if obligations:
