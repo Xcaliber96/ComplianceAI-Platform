@@ -1,7 +1,7 @@
 import "./sidebar.css";
 import { FiHome, FiFolder, FiShield, FiSettings } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import SidebarSupplierMenu from "./SidebarSupplierMenu";
+import SidebarSupplierMenu from "../Menue/SidebarSupplierMenu";
 
 export default function Sidebar() {
   const navigate = useNavigate();
