@@ -145,26 +145,21 @@ def upsert_audit_to_neo4j(
     cypher_gaps = """
     UNWIND $gaps AS gap
     MATCH (a:AuditRun {audit_id: $audit_id})
-    
-    // Find regulation first
+
+    // Find regulation by regulation_id
     OPTIONAL MATCH (reg:Regulation {regulation_id: gap.reg_id})
-    
-    // If regulation exists, find its obligations
+
+    // Create gap relationship directly to regulation (not obligation)
     WITH a, gap, reg
     WHERE reg IS NOT NULL
-    OPTIONAL MATCH (reg)-[:HAS_OBLIGATION]->(o:Obligation)
-    
-    // Create gap relationship if obligation exists
-    WITH a, gap, o
-    WHERE o IS NOT NULL
-    MERGE (a)-[r:FOUND_GAP]->(o)
+    MERGE (a)-[r:FOUND_GAP]->(reg)
     SET r.compliance_score = gap.score,
         r.risk_rating = gap.risk,
         r.narrative = gap.narrative,
         r.evidence_chunk = gap.evidence,
         r.created_at = timestamp()
-    
-    RETURN count(o) AS gap_links
+
+    RETURN count(reg) AS gap_links
     """
     
     cypher_depts = """

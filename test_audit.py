@@ -1,6 +1,7 @@
-from dotenv import load_dotenv
-import os
-load_dotenv()
+"""
+test_audit.py - Test Neo4j audit ingestion
+"""
+
 from src.api.audit_ingest import upsert_audit_to_neo4j
 import json
 
@@ -9,19 +10,19 @@ def test_audit_save():
     
     print("🧪 Testing Neo4j Audit Save...\n")
     
-    # Test data
+    # ✅ Use the EXACT format from Neo4j
     test_results = [
         {
-            "Reg_ID": "45 CFR 164.312",
+            "Reg_ID": "45-164-164.312",  # ✅ Matches Neo4j regulation_id
             "Is_Compliant": False,
             "Compliance_Score": 45.2,
             "Risk_Rating": "High",
-            "Narrative_Gap": "Missing encryption requirements",
+            "Narrative_Gap": "Missing encryption requirements for ePHI",
             "Evidence_Chunk": "Policy lacks encryption requirements",
             "Target_Area": "IT Security"
         },
         {
-            "Reg_ID": "45 CFR 164.308",
+            "Reg_ID": "45-164-164.308",
             "Is_Compliant": True,
             "Compliance_Score": 95.0,
             "Risk_Rating": "Low",
@@ -37,7 +38,6 @@ def test_audit_save():
         "compliance_score": 70.1
     }
     
-    # Call function
     result = upsert_audit_to_neo4j(
         user_uid="test_user",
         file_id="test_file_123",
@@ -47,7 +47,6 @@ def test_audit_save():
         metadata={"test": True}
     )
     
-    # Print results
     print("📊 Result:")
     print(json.dumps(result, indent=2))
     
