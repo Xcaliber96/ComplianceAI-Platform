@@ -63,7 +63,7 @@ import mimetypes
 from typing import List, Optional, Dict, Any
 from uuid import uuid4
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 from src.core.nomi_file_hub import get_direct_file_url
 from src.api.models import User
@@ -597,6 +597,8 @@ async def run_rag_compliance(
         })
     
     # Run compliance check
+    # Run compliance check with error handling
+    error_msg = None
     try:
         checker = RAGComplianceChecker(
             pdf_path=file_path,
@@ -606,7 +608,22 @@ async def run_rag_compliance(
         summary = checker.dashboard_summary(results)
     except Exception as e:
         print("RAG ERROR:", e)
-        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+        traceback.print_exc()
+        error_msg = str(e)
+        results = []
+        # Fallback summary with same keys UI expects
+        summary = {
+            "status": "error",
+            "action": "RAG Compliance Check",
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "industry": None,
+            "regulations_checked": len(regulation_objs),
+            "compliance_score": 0.0,
+            "high_risk_gaps": 0,
+            "gap_details": [],
+            "details": "Compliance engine failed. Please retry or review logs."
+        }
+
 
     try:
         audit_save_result = upsert_audit_to_neo4j(
@@ -632,12 +649,14 @@ async def run_rag_compliance(
         traceback.print_exc()
     
     return {
-        "status": "success",
-        "file": file_entry["original_name"],
-        "results": results,
-        "summary": summary,
-        "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None
-    }
+    "status": "success" if error_msg is None else "error",
+    "file": file_entry["original_name"],
+    "results": results,
+    "summary": summary,
+    "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None,
+    "error": error_msg,  
+}
+
 
 
 
@@ -1535,56 +1554,96 @@ async def run_compliance_payload(payload: dict):
     user_uid = payload.get("user_uid")
     file_id = payload.get("file_id")
     regulation_ids = payload.get("regulation_ids", [])
-
+    
     if not user_uid or not file_id:
         raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
-
+    
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="Evidence file not found")
-
+    
     pdf_path, entry = result
-    print("USING FILE:", pdf_path)
-
+    
     db = next(get_db())
-
     regs = db.query(WorkspaceRegulation).filter(
         WorkspaceRegulation.user_uid == user_uid,
         WorkspaceRegulation.regulation_id.in_(regulation_ids)
     ).all()
-
+    
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
-
+    
+    # NEW: Fetch obligations from regulation text instead of using description
     regulation_objs = []
-    for r in regs:
-        regulation_objs.append({
-            "Reg_ID": r.regulation_id,
-            "Requirement_Text": r.description or r.name or "",
-            "Risk_Rating": r.risk or "",
-            "Target_Area": r.category or "",
-            "Dow_Focus": r.region or ""
-        })
+    for reg in regs:
+        # Use the document number (regulation_id) to fetch full text
+        try:
+            # Fetch regulation text from file system
+            from src.api.obligations_ingest import extract_obligations_from_text
+            filename = f"{reg.regulation_id}.txt"
+            full_text = read_file(filename)
+            
+            if not full_text or full_text.startswith("Error"):
+                print(f"⚠️ Could not load text for {reg.regulation_id}")
+                continue
+            
+            # Extract obligations from the full text
+            from src.api.obligations_ingest import extract_obligations_from_text
+            obligations = extract_obligations_from_text(
+                doc_id=reg.regulation_id,
+                raw_text=full_text,
+                meta={}
+            )
+            
+            # Use obligations text as requirement text (concatenate if multiple)
+            if obligations:
+                requirement_text = " ".join([obl.get("text", "") for obl in obligations[:3]])  # Use first 3 obligations
+            else:
+                requirement_text = full_text[:500]  # Fallback to first 500 chars
+            
+            regulation_objs.append({
+                "Reg_ID": reg.regulation_id,
+                "Requirement_Text": requirement_text,
+                "Risk_Rating": reg.risk or "",
+                "Target_Area": reg.category or "",
+                "Dow_Focus": reg.region or ""
+            })
+        except Exception as e:
+            print(f"❌ Error processing regulation {reg.regulation_id}: {e}")
+            continue
 
+# Run compliance check with error handling
+    error_msg = None
     try:
-        checker = RAGComplianceChecker(
-            pdf_path=pdf_path,
-            regulations=regulation_objs
-        )
+        checker = RAGComplianceChecker(pdf_path=pdf_path, regulations=regulation_objs)
         results = checker.run_check()
         summary = checker.dashboard_summary(results)
-        print("\n================= 🔍 DEBUG: RAW RESULTS =================")
+        
+        print("✅ DEBUG: RAW RESULTS")
         print(results)
-        print("=========================================================\n")
-
-        print("================= 🔍 DEBUG: SUMMARY =====================")
+        print()
+        print("✅ DEBUG: SUMMARY")
         print(summary)
-        print("=========================================================\n")
+        print()
     except Exception as e:
         print("❌ RAG ERROR:", e)
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail=f"RAG failed: {e}")
+        error_msg = str(e)
+        results = []
+        # Fallback summary with same keys UI expects
+        summary = {
+            "status": "error",
+            "action": "RAG Compliance Check",
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "industry": None,
+            "regulations_checked": len(regulation_objs),
+            "compliance_score": 0.0,
+            "high_risk_gaps": 0,
+            "gap_details": [],
+            "details": "Compliance engine failed. Please retry or review logs."
+        }
 
+    # Save audit (even if RAG failed)
     audit_save = upsert_audit_to_neo4j(
         user_uid=user_uid,
         file_id=file_id,
@@ -1600,19 +1659,19 @@ async def run_compliance_payload(payload: dict):
     audit_id = audit_save["audit_id"]
 
     return {
-        "status": "success",
-        "audit_id": audit_id,                 
+        "status": "success" if error_msg is None else "error",
+        "audit_id": audit_id if error_msg is None else None,
         "file": entry["original_name"],
-
         "results": results,
         "summary": summary,
-
         "compliance_score": summary.get("compliance_score"),
-        "total_requirements": summary.get("total_requirements"),
-        "gap_count": summary.get("gap_count"),
+        "total_requirements": summary.get("regulations_checked"),
+        "gap_count": len([r for r in results if not r.get("Is_Compliant")]),
         "high_risk_count": summary.get("high_risk_gaps"),
         "flagged_departments": summary.get("departments_flagged", []),
+        "error": error_msg,
     }
+
 
 # external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)
