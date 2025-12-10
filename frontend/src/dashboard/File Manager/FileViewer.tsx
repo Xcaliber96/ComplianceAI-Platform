@@ -184,9 +184,9 @@ export default function FileViewer() {
               textTransform: "none",
               fontWeight: 600,
             }}
-            onClick={() => navigate(`/dashboard/extract/${file.id}`)}
+            onClick={() => navigate(`/dashboard/upload`)}
           >
-            Extract Data
+             Start Auditing
           </Button>
           <Button
             variant="contained"

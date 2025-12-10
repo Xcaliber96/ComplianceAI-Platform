@@ -140,7 +140,7 @@ const handleAddSelected = async () => {
   try {
     const selectedRegs = results.filter((r) => selectedIds.includes(r.id));
 const user_uid = localStorage.getItem("user_uid");
-alert(user_uid)
+
 if (!user_uid) {
   console.error("❌ No user_uid found in localStorage");
   return;
@@ -171,7 +171,6 @@ if (!user_uid) {
       throw new Error("Failed to add regulations.");
     }
 
-    alert(`Added ${selectedIds.length} regulations with full text.`);
     resetResults();
     setQuery("");
 
