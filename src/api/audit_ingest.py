@@ -1,3 +1,8 @@
+
+
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import json
 import hashlib
@@ -7,6 +12,7 @@ from typing import List, Dict, Any, Optional
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
 from neo4j import GraphDatabase, basic_auth
+from neo4j.exceptions import ServiceUnavailable, TransientError
 
 router = APIRouter()
 
@@ -20,8 +26,12 @@ def get_neo4j_driver():
     if not uri or not user or not pwd:
         raise RuntimeError("NEO4J_URI / NEO4J_USER / NEO4J_PASSWORD must be set")
     
-    return GraphDatabase.driver(uri, auth=basic_auth(user, pwd), max_connection_lifetime=60*60)
-
+    return GraphDatabase.driver(
+        uri, 
+        auth=basic_auth(user, pwd), 
+        max_connection_lifetime=60*60,
+        max_connection_pool_size=50
+    )
 
 
 def generate_audit_id(user_uid: str, file_id: str, timestamp: str) -> str:
@@ -47,20 +57,15 @@ def extract_flagged_departments(results: List[Dict[str, Any]]) -> List[str]:
     departments = set()
     
     for r in results:
-        if not r.get("Is_Compliant", True):  # only non-compliant
+        if not r.get("Is_Compliant", True):
             target_area = r.get("Target_Area", "")
             if target_area:
-                # Split by comma in case multiple areas listed
                 for area in target_area.split(","):
                     clean_area = area.strip()
                     if clean_area:
                         departments.add(clean_area)
     
     return sorted(list(departments))
-
-
-
-# Neo4j Upsert Functions
 
 
 def upsert_audit_to_neo4j(
@@ -74,22 +79,17 @@ def upsert_audit_to_neo4j(
     """
     Save audit run and its findings to Neo4j as a graph.
     
-    Graph structure:
-        (:User)-[:INITIATED_AUDIT]->(:AuditRun)
-        (:Supplier)-[:HAS_AUDIT]->(:AuditRun)
-        (:AuditRun)-[:ANALYZED_FILE]->(:File)
-        (:AuditRun)-[:FOUND_GAP]->(:Obligation)  # for non-compliant only
-        (:AuditRun)-[:FLAGGED_DEPT]->(:Department)
-    
-    Returns:
-        Dict with audit_id, created status, and counts
+    ✅ FIXED:
+    - Uses transactions (all-or-nothing)
+    - Better error handling
+    - Fixed OPTIONAL MATCH logic
+    - Added retries for transient errors
+    - Updated for Neo4j 5.x API (execute_write)
     """
-    
     if not results:
         raise ValueError("Cannot save audit with no results")
     
     metadata = metadata or {}
-    driver = get_neo4j_driver()
     
     # Generate unique audit ID
     timestamp = datetime.utcnow().isoformat()
@@ -113,11 +113,10 @@ def upsert_audit_to_neo4j(
         "gap_count": gap_count,
         "high_risk_count": high_risk_count,
         "status": "completed",
-        "summary_json": json.dumps(summary),  # Store full summary as JSON
+        "summary_json": json.dumps(summary),
         "metadata_json": json.dumps(metadata)
     }
     
-    # Cypher to create AuditRun and connect to User, Supplier, File
     cypher_audit = """
     // Create or merge User
     MERGE (u:User {uid: $user_uid})
@@ -133,18 +132,7 @@ def upsert_audit_to_neo4j(
     
     // Create AuditRun node
     CREATE (a:AuditRun)
-    SET a.audit_id = $audit_id,
-        a.user_uid = $user_uid,
-        a.file_id = $file_id,
-        a.supplier_id = $supplier_id,
-        a.timestamp = $timestamp,
-        a.compliance_score = $compliance_score,
-        a.total_requirements = $total_requirements,
-        a.gap_count = $gap_count,
-        a.high_risk_count = $high_risk_count,
-        a.status = $status,
-        a.summary_json = $summary_json,
-        a.metadata_json = $metadata_json
+    SET a = $audit_props
     
     // Create relationships
     MERGE (u)-[:INITIATED_AUDIT]->(a)
@@ -154,97 +142,128 @@ def upsert_audit_to_neo4j(
     RETURN a.audit_id AS audit_id
     """
     
-    # Cypher to link gaps to obligations
     cypher_gaps = """
     UNWIND $gaps AS gap
-    
     MATCH (a:AuditRun {audit_id: $audit_id})
     
-    // Try to find matching obligation by regulation ID
+    // Find regulation first
     OPTIONAL MATCH (reg:Regulation {regulation_id: gap.reg_id})
+    
+    // If regulation exists, find its obligations
+    WITH a, gap, reg
+    WHERE reg IS NOT NULL
     OPTIONAL MATCH (reg)-[:HAS_OBLIGATION]->(o:Obligation)
     
     // Create gap relationship if obligation exists
-    FOREACH (_ IN CASE WHEN o IS NOT NULL THEN [1] ELSE [] END |
-        MERGE (a)-[r:FOUND_GAP]->(o)
-        SET r.compliance_score = gap.score,
-            r.risk_rating = gap.risk,
-            r.narrative = gap.narrative,
-            r.evidence_chunk = gap.evidence
-    )
+    WITH a, gap, o
+    WHERE o IS NOT NULL
+    MERGE (a)-[r:FOUND_GAP]->(o)
+    SET r.compliance_score = gap.score,
+        r.risk_rating = gap.risk,
+        r.narrative = gap.narrative,
+        r.evidence_chunk = gap.evidence,
+        r.created_at = timestamp()
     
-    RETURN count(*) AS gap_links
+    RETURN count(o) AS gap_links
     """
     
-    # Cypher to flag departments
     cypher_depts = """
     UNWIND $departments AS dept_name
-    
     MATCH (a:AuditRun {audit_id: $audit_id})
-    
     MERGE (d:Department {name: dept_name})
     ON CREATE SET d.created_at = timestamp()
-    
     MERGE (a)-[:FLAGGED_DEPT]->(d)
-    
     RETURN count(d) AS dept_count
     """
     
-    session = driver.session()
-    try:
-        # 1. Create audit node and core relationships
-        result = session.run(cypher_audit, **audit_props)
+    driver = get_neo4j_driver()
+    max_retries = 3
+    
+    for attempt in range(max_retries):
+        try:
+            with driver.session() as session:
+                # ✅ Neo4j 5.x: execute_write (replaces write_transaction)
+                result = session.execute_write(
+                    _create_audit_tx,
+                    cypher_audit,
+                    audit_props,
+                    cypher_gaps,
+                    cypher_depts,
+                    audit_id,
+                    results,
+                    flagged_departments
+                )
+                
+                driver.close()
+                return result
+                
+        except TransientError as e:
+            if attempt < max_retries - 1:
+                print(f"⚠️ Transient error, retrying ({attempt + 1}/{max_retries}): {e}")
+                continue
+            else:
+                traceback.print_exc()
+                driver.close()
+                return {"ok": False, "error": f"Transient error after {max_retries} retries: {str(e)}"}
+                
+        except ServiceUnavailable as e:
+            traceback.print_exc()
+            driver.close()
+            return {"ok": False, "error": f"Neo4j unavailable: {str(e)}"}
+            
+        except Exception as e:
+            traceback.print_exc()
+            driver.close()
+            return {"ok": False, "error": str(e)}
+    
+    driver.close()
+    return {"ok": False, "error": "Max retries exceeded"}
+
+
+def _create_audit_tx(tx, cypher_audit, audit_props, cypher_gaps, cypher_depts, 
+                     audit_id, results, flagged_departments):
+    """
+    Transaction function - all operations succeed or all fail
+    """
+    # 1. Create audit node and core relationships
+    result = tx.run(cypher_audit, audit_props=audit_props, **audit_props)
+    record = result.single()
+    created_audit_id = record["audit_id"] if record else audit_id
+    
+    # 2. Link non-compliant findings to obligations
+    gaps = []
+    for r in results:
+        if not r.get("Is_Compliant", True):
+            gaps.append({
+                "reg_id": r.get("Reg_ID"),
+                "score": r.get("Compliance_Score", 0.0),
+                "risk": r.get("Risk_Rating", ""),
+                "narrative": r.get("Narrative_Gap", ""),
+                "evidence": (r.get("Evidence_Chunk", "") or "")[:500]
+            })
+    
+    gap_count_created = 0
+    if gaps:
+        result = tx.run(cypher_gaps, audit_id=audit_id, gaps=gaps)
         record = result.single()
-        created_audit_id = record["audit_id"] if record else audit_id
-        
-        # 2. Link non-compliant findings to obligations
-        gaps = []
-        for r in results:
-            if not r.get("Is_Compliant", True):
-                gaps.append({
-                    "reg_id": r.get("Reg_ID"),
-                    "score": r.get("Compliance_Score", 0.0),
-                    "risk": r.get("Risk_Rating", ""),
-                    "narrative": r.get("Narrative_Gap", ""),
-                    "evidence": (r.get("Evidence_Chunk", "") or "")[:500]  # Limit length
-                })
-        
-        gap_count_created = 0
-        if gaps:
-            result = session.run(cypher_gaps, audit_id=audit_id, gaps=gaps)
-            record = result.single()
-            gap_count_created = record["gap_links"] if record else 0
-        
-        # 3. Link to flagged departments
-        dept_count = 0
-        if flagged_departments:
-            result = session.run(cypher_depts, audit_id=audit_id, departments=flagged_departments)
-            record = result.single()
-            dept_count = record["dept_count"] if record else 0
-        
-        return {
-            "ok": True,
-            "audit_id": created_audit_id,
-            "compliance_score": compliance_score,
-            "gap_count": gap_count,
-            "high_risk_count": high_risk_count,
-            "gap_links_created": gap_count_created,
-            "departments_flagged": dept_count
-        }
-        
-    except Exception as e:
-        traceback.print_exc()
-        return {
-            "ok": False,
-            "error": str(e)
-        }
-    finally:
-        session.close()
-        driver.close()
-
-
-
-# Retrieval Functions
+        gap_count_created = record["gap_links"] if record else 0
+    
+    # 3. Link to flagged departments
+    dept_count = 0
+    if flagged_departments:
+        result = tx.run(cypher_depts, audit_id=audit_id, departments=flagged_departments)
+        record = result.single()
+        dept_count = record["dept_count"] if record else 0
+    
+    return {
+        "ok": True,
+        "audit_id": created_audit_id,
+        "compliance_score": audit_props["compliance_score"],
+        "gap_count": audit_props["gap_count"],
+        "high_risk_count": audit_props["high_risk_count"],
+        "gap_links_created": gap_count_created,
+        "departments_flagged": dept_count
+    }
 
 
 def get_audits_for_user(user_uid: str, limit: int = 50, skip: int = 0) -> List[Dict[str, Any]]:
@@ -255,7 +274,6 @@ def get_audits_for_user(user_uid: str, limit: int = 50, skip: int = 0) -> List[D
     MATCH (u:User {uid: $user_uid})-[:INITIATED_AUDIT]->(a:AuditRun)
     OPTIONAL MATCH (a)-[:ANALYZED_FILE]->(f:File)
     OPTIONAL MATCH (s:Supplier)-[:HAS_AUDIT]->(a)
-    
     RETURN a AS audit,
            f.file_id AS file_id,
            s.supplier_id AS supplier_id
@@ -263,41 +281,38 @@ def get_audits_for_user(user_uid: str, limit: int = 50, skip: int = 0) -> List[D
     SKIP $skip LIMIT $limit
     """
     
-    session = driver.session()
-    audits = []
-    
     try:
-        result = session.run(cypher, user_uid=user_uid, skip=skip, limit=limit)
-        
-        for record in result:
-            audit_node = record["audit"]
-            props = dict(audit_node)
+        with driver.session() as session:
+            # ✅ Neo4j 5.x: execute_read (replaces read_transaction)
+            result = session.execute_read(
+                lambda tx: list(tx.run(cypher, user_uid=user_uid, skip=skip, limit=limit))
+            )
             
-            # Parse JSON fields
-            try:
-                props["summary"] = json.loads(props.get("summary_json", "{}"))
-            except:
-                props["summary"] = {}
+            audits = []
+            for record in result:
+                audit_node = record["audit"]
+                props = dict(audit_node)
+                
+                try:
+                    props["summary"] = json.loads(props.get("summary_json", "{}"))
+                except:
+                    props["summary"] = {}
+                
+                try:
+                    props["metadata"] = json.loads(props.get("metadata_json", "{}"))
+                except:
+                    props["metadata"] = {}
+                
+                props["file_id"] = record.get("file_id")
+                props["supplier_id"] = record.get("supplier_id")
+                props.pop("summary_json", None)
+                props.pop("metadata_json", None)
+                
+                audits.append(props)
             
-            try:
-                props["metadata"] = json.loads(props.get("metadata_json", "{}"))
-            except:
-                props["metadata"] = {}
+            return audits
             
-            # Add related IDs
-            props["file_id"] = record.get("file_id")
-            props["supplier_id"] = record.get("supplier_id")
-            
-            # Remove raw JSON strings from output
-            props.pop("summary_json", None)
-            props.pop("metadata_json", None)
-            
-            audits.append(props)
-        
-        return audits
-        
     finally:
-        session.close()
         driver.close()
 
 
@@ -308,37 +323,37 @@ def get_audits_for_supplier(supplier_id: str, limit: int = 50) -> List[Dict[str,
     cypher = """
     MATCH (s:Supplier {supplier_id: $supplier_id})-[:HAS_AUDIT]->(a:AuditRun)
     OPTIONAL MATCH (a)-[:ANALYZED_FILE]->(f:File)
-    
     RETURN a AS audit, f.file_id AS file_id
     ORDER BY a.timestamp DESC
     LIMIT $limit
     """
     
-    session = driver.session()
-    audits = []
-    
     try:
-        result = session.run(cypher, supplier_id=supplier_id, limit=limit)
-        
-        for record in result:
-            audit_node = record["audit"]
-            props = dict(audit_node)
+        with driver.session() as session:
+            # ✅ Neo4j 5.x: execute_read
+            result = session.execute_read(
+                lambda tx: list(tx.run(cypher, supplier_id=supplier_id, limit=limit))
+            )
             
-            try:
-                props["summary"] = json.loads(props.get("summary_json", "{}"))
-            except:
-                props["summary"] = {}
+            audits = []
+            for record in result:
+                audit_node = record["audit"]
+                props = dict(audit_node)
+                
+                try:
+                    props["summary"] = json.loads(props.get("summary_json", "{}"))
+                except:
+                    props["summary"] = {}
+                
+                props["file_id"] = record.get("file_id")
+                props.pop("summary_json", None)
+                props.pop("metadata_json", None)
+                
+                audits.append(props)
             
-            props["file_id"] = record.get("file_id")
-            props.pop("summary_json", None)
-            props.pop("metadata_json", None)
+            return audits
             
-            audits.append(props)
-        
-        return audits
-        
     finally:
-        session.close()
         driver.close()
 
 
@@ -369,42 +384,36 @@ def get_audit_detail(audit_id: str) -> Optional[Dict[str, Any]]:
            collect(DISTINCT d.name) AS departments
     """
     
-    session = driver.session()
-    
     try:
-        result = session.run(cypher, audit_id=audit_id)
-        record = result.single()
-        
-        if not record:
-            return None
-        
-        audit_node = record["audit"]
-        props = dict(audit_node)
-        
-        # Parse summary
-        try:
-            props["summary"] = json.loads(props.get("summary_json", "{}"))
-        except:
-            props["summary"] = {}
-        
-        # Add gaps and departments
-        props["gaps"] = [g for g in record["gaps"] if g.get("obligation_id")]
-        props["flagged_departments"] = [d for d in record["departments"] if d]
-        
-        # Clean up
-        props.pop("summary_json", None)
-        props.pop("metadata_json", None)
-        
-        return props
-        
+        with driver.session() as session:
+            # ✅ Neo4j 5.x: execute_read
+            result = session.execute_read(
+                lambda tx: tx.run(cypher, audit_id=audit_id).single()
+            )
+            
+            if not result:
+                return None
+            
+            audit_node = result["audit"]
+            props = dict(audit_node)
+            
+            try:
+                props["summary"] = json.loads(props.get("summary_json", "{}"))
+            except:
+                props["summary"] = {}
+            
+            props["gaps"] = [g for g in result["gaps"] if g.get("obligation_id")]
+            props["flagged_departments"] = [d for d in result["departments"] if d]
+            props.pop("summary_json", None)
+            props.pop("metadata_json", None)
+            
+            return props
+            
     finally:
-        session.close()
         driver.close()
 
 
 # API Routes
-
-
 @router.get("/api/v1/audit/user/{user_uid}")
 async def get_user_audits(
     user_uid: str,
@@ -454,10 +463,8 @@ async def get_audit_details(audit_id: str):
     """Get detailed audit including all gaps and linked obligations."""
     try:
         audit = get_audit_detail(audit_id)
-        
         if not audit:
             raise HTTPException(status_code=404, detail="Audit not found")
-        
         return JSONResponse(content={
             "ok": True,
             "audit": audit
@@ -470,9 +477,6 @@ async def get_audit_details(audit_id: str):
             "ok": False,
             "error": str(e)
         }, status_code=500)
-
-
-# Indexes (run at startup)
 
 
 def ensure_audit_indexes():
@@ -492,14 +496,19 @@ def ensure_audit_indexes():
         "CREATE INDEX IF NOT EXISTS FOR (s:Supplier) ON (s.supplier_id);",
         "CREATE INDEX IF NOT EXISTS FOR (u:User) ON (u.uid);",
         "CREATE INDEX IF NOT EXISTS FOR (d:Department) ON (d.name);",
+        "CREATE INDEX IF NOT EXISTS FOR (r:Regulation) ON (r.regulation_id);",
+        "CREATE INDEX IF NOT EXISTS FOR (o:Obligation) ON (o.obligation_id);",
     ]
     
-    with driver.session() as session:
-        for idx in indexes:
-            try:
-                session.run(idx)
-            except Exception:
-                traceback.print_exc()
-    
-    driver.close()
-    print("✅ Audit Neo4j indexes ensured")
+    try:
+        with driver.session() as session:
+            for idx in indexes:
+                try:
+                    session.run(idx)
+                except Exception as e:
+                    print(f"⚠️ Index creation warning: {e}")
+        
+        print("✅ Audit Neo4j indexes ensured")
+        
+    finally:
+        driver.close()
