@@ -136,10 +136,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
+from src.api.cfr_api import router as cfr_router
 
 from contextlib import asynccontextmanager
 import threading
 import time
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -186,7 +188,7 @@ from src.api.obligations_ingest import router as obligations_router
 app.include_router(obligations_router)
 app.include_router(audit_router)
 
-
+app.include_router(cfr_router)
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
     # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
