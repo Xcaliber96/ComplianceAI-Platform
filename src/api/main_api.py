@@ -280,32 +280,41 @@ class ImportRequest(BaseModel):
     
 @app.post("/api/regulations/import")
 def import_regulations(payload: dict, db: Session = Depends(get_db)):
+    print("\n================ IMPORT REGULATIONS CALLED ================")
+    print("RAW PAYLOAD:", payload)
+
     user_uid = payload.get("user_uid", "test-user")
     regulations = payload.get("regulations", [])
-    # print("🚨 IMPORT PAYLOAD:", payload)
+
+    print(f"User UID: {user_uid}")
+    print(f"Incoming regulations count: {len(regulations)}")
 
     if not regulations:
+        print("NO regulations provided. Aborting.")
         return {"error": "No regulations provided"}
 
     created_ids = []
 
     for reg in regulations:
+        print("\n--- Processing regulation ---")
+        print("Reg ID:", reg.get("id"))
+        print("Reg Name:", reg.get("name"))
 
-        # check if it already exists for that user
         existing = (
             db.query(WorkspaceRegulation)
-              .filter(
-                  WorkspaceRegulation.user_uid == user_uid,
-                  WorkspaceRegulation.regulation_id == reg["id"]
-              )
-              .first()
+            .filter(
+                WorkspaceRegulation.user_uid == user_uid,
+                WorkspaceRegulation.regulation_id == reg["id"]
+            )
+            .first()
         )
 
         if existing:
-            # skip duplicate entry
+            print(f"SKIPPED — Regulation {reg['id']} already exists in workspace.")
             continue
 
-        # create new mapping entry
+        print(f"ADDING new regulation {reg['id']} to workspace...")
+
         entry = WorkspaceRegulation(
             regulation_id = reg["id"],
             user_uid = user_uid,
@@ -318,12 +327,19 @@ def import_regulations(payload: dict, db: Session = Depends(get_db)):
             description = reg.get("description"),
             recommended = reg.get("recommended", False),
             source = reg.get("source"),
+            full_text = reg.get("full_text", "")
         )
 
         db.add(entry)
         created_ids.append(reg["id"])
 
+    print("Committing to DB...")
     db.commit()
+    print("COMMIT COMPLETE.")
+
+    print(f"Successfully added {len(created_ids)} new regulations:")
+    print(created_ids)
+    print("================ END IMPORT ================\n")
 
     return {
         "success": True,
@@ -351,7 +367,7 @@ def get_workspace(user_uid: str, db: Session = Depends(get_db)):
 
     return [
         {
-            "id": r.regulation_id,      # IMPORTANT — frontend expects "id"
+            "id": r.regulation_id,     
             "workspace_status": r.workspace_status,
             "name": r.name,
             "code": r.code,
@@ -1582,8 +1598,7 @@ async def run_compliance_payload(payload: dict):
         try:
             # Fetch regulation text from file system
             from src.api.obligations_ingest import extract_obligations_from_text
-            filename = f"{reg.regulation_id}.txt"
-            full_text = read_file(filename)
+            full_text = reg.full_text
             print(full_text)
             if not full_text or full_text.startswith("Error"):
                 print(f"⚠️ Could not load text for {reg.regulation_id}")

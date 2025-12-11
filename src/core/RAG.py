@@ -155,6 +155,12 @@ class ComplianceChecker:
         self.llm_client = None
         if not USE_CENTRALIZED_LLM:
             openai_key = os.environ.get("OPENAI_API_KEY")
+            print("\n========== LLM DEBUG ==========")
+            print("USE_CENTRALIZED_LLM =", USE_CENTRALIZED_LLM)
+            print("Env key exists?      =", bool(openai_key))
+            print("Env key prefix:      =", openai_key[:12] if openai_key else None)
+            print("Process ID:", os.getpid())
+            print("================================\n")
             if not openai_key:
                 raise ValueError("❌ OPENAI_API_KEY is not set in environment!")
             if OpenAI is None:
@@ -427,7 +433,7 @@ if __name__ == "__main__":
         }
     ]
 
-    checker = ComplianceChecker(pdf_path="test_policy.pdf", regulations=REGULATION_LIBRARY)
+    checker = ComplianceChecker(pdf_path="C:\\ComplianceAI-Platform\\shared_downloads\\test_policy.pdf", regulations=REGULATION_LIBRARY)
     results = checker.run_check()
     summary = checker.dashboard_summary(results, industry="Finance")
     print(summary)

@@ -205,9 +205,14 @@ const handleRunCompliance = async () => {
     
 await new Promise(res => setTimeout(res, 150));  
 
-navigate("/dashboard/results", { state: auditData });
+navigate("/dashboard/results", { 
+  state: {
+    ...auditData,
+    file: selectedEvidenceFile?.original_name || "Unknown File",
+    user_uid: user_uid
+  }
+});
 
-    navigate("/dashboard/results", { state: auditData });
   } catch (err) {
     console.error(err);
     setMessage("RAG compliance check failed.");

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, JSON, Enum as SQLEnum
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text, ForeignKey, JSON, Enum as SQLEnum
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
@@ -47,7 +47,7 @@ class TaskState(str, enum.Enum):
 class ObligationInstance(Base):
     __tablename__ = "obligations"
     id = Column(Integer, primary_key=True)
-    user_uid = Column(String, ForeignKey("users.uid"))  # ✅ link to user
+    user_uid = Column(String, ForeignKey("users.uid")) 
     description = Column(String)
     regulation = Column(String)
     due_date = Column(DateTime)
@@ -162,3 +162,4 @@ class WorkspaceRegulation(Base):
     recommended = Column(Boolean, default=False)
     
     source = Column(String, nullable=True)
+    full_text = Column(Text, nullable=True)
