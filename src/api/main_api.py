@@ -136,10 +136,23 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
-
+from src.api.cfr_api import router as cfr_router
+from src.core.client import analyze_filing_for_departments
 from contextlib import asynccontextmanager
 import threading
 import time
+from src.core.client import analyze_filing_for_departments
+from src.core.client import (
+    safe_chat_completion, 
+    generate_compliance_intelligence,
+    analyze_filing_for_departments,
+)
+from src.core.find_competitors import (
+    find_competitors, 
+    clean_names, 
+    get_company_filings,
+    generate_department_alerts
+)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -186,7 +199,7 @@ from src.api.obligations_ingest import router as obligations_router
 app.include_router(obligations_router)
 app.include_router(audit_router)
 
-
+app.include_router(cfr_router)
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
     # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
@@ -1297,29 +1310,105 @@ def upload_supplier_file(
     return {"supplier_id": supplier_id, "filename": file.filename, "message": "File uploaded"}
 
 
+
+
 @app.post("/api/competitors")
-async def get_competitors(company_name: str = Form(...)):
+async def get_competitors(
+    company_name: str = Form(...),
+    departments: Optional[str] = Form(None)  # Comma-separated
+):
     """
-    Given a company name, return its competitors and their recent filings.
+    Get competitors and their filings with department-specific filtering.
     """
     try:
+        # Find competitors
         competitors = find_competitors(company_name)
         cleaned = clean_names(competitors)
-        filings = get_company_filings(cleaned)
-        return {"company": company_name, "competitors": cleaned, "filings": filings}
+        
+        # Parse departments
+        dept_list = departments.split(",") if departments else None
+        
+        # Get filings with department context
+        filings = get_company_filings(cleaned[:10], departments=dept_list)
+        
+        # Generate department alerts
+        all_filings = [f for filing_list in filings.values() for f in filing_list]
+        alerts = generate_department_alerts(all_filings) if dept_list else {}
+        
+        return {
+            "company": company_name,
+            "competitors": cleaned,
+            "filings": filings,
+            "department_alerts": alerts,
+            "total_competitors": len(cleaned)
+        }
     except Exception as e:
+        logger.error(f"Error in competitors endpoint: {e}")
         return {"error": str(e)}
+
+
+
+@app.post("/api/analyze-filing")
+async def analyze_filing(
+    filing_text: str = Form(...),
+    form_type: str = Form(...),
+    company: str = Form(...),
+    departments: str = Form(...)  # Comma-separated
+):
+    """
+    Analyze a SEC filing for department-specific insights.
+    """
+    dept_list = departments.split(",") if departments else []
+    
+    if not dept_list:
+        raise HTTPException(status_code=400, detail="At least one department required")
+    
+    result = analyze_filing_for_departments(
+        filing_text=filing_text,
+        form_type=form_type,
+        company=company,
+        departments=dept_list
+    )
+    
+    if not result.get("ok"):
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": result.get("error"),
+                "error_type": result.get("error_type")
+            }
+        )
+    
+    return {
+        "status": "success",
+        "analysis": result.get("analysis"),
+        "tokens_used": result.get("tokens"),
+        "model": result.get("model")
+    }
+
 
 @app.post("/api/analyze")
 async def analyze_company(company_name: str = Form(...)):
-    """
-    Generate AI-based insights for a company using GPT-4o.
-    """
+    """Generate AI-based insights for a company."""
     try:
         competitors = clean_names(find_competitors(company_name))
-        filings = get_company_filings(competitors)
-        insight = generate_market_insight(company_name, competitors, filings)
-        return {"company": company_name, "insight": insight}
+        filings = get_company_filings(competitors[:5])
+        
+        # Use new generate_compliance_intelligence instead
+        insight_result = generate_compliance_intelligence(
+            industry=f"{company_name} industry",
+            competitors=competitors[:5]
+        )
+        
+        if not insight_result.get("ok"):
+            return {"error": insight_result.get("error")}
+        
+        return {
+            "company": company_name,
+            "insight": insight_result.get("intelligence"),
+            "competitors": competitors,
+            "model": insight_result.get("model")
+        }
     except Exception as e:
         return {"error": str(e)}
 
@@ -1674,39 +1763,46 @@ async def run_compliance_payload(payload: dict):
 
 
 # external_intelligence endpoint updated to use safe_chat_completion
-@app.get("/api/external_intelligence", response_model=None)
-async def external_intelligence(industry: str):
-    prompt = (
-        f"Generate structured JSON on compliance, risk trends, and new regulations for the {industry} industry. "
-        "Format as: {"
-        '"source": "MarketReport",'
-        '"headline": "...",'
-        '"key_risks": ["...", "..."],'
-        '"regulation_news": ['
-            '{"regulation": "...", "summary": "...", "link": "..."}'
-        ']}'
-    )
-    messages = [
-        {"role": "system", "content": "You are an enterprise compliance assistant."},
-        {"role": "user", "content": prompt}
-    ]
-    # call safe wrapper
-    resp = safe_chat_completion(messages=messages, model="gpt-4o", max_tokens=600, temperature=0.2)
-    # handle wrapper response format (robust)
-    if isinstance(resp, dict):
-        if resp.get("ok"):
-            content = resp.get("text")
-        else:
-            content = resp.get("error") or str(resp)
-    else:
-        content = resp
 
-    import json
-    try:
-        findings = [json.loads(content)]
-    except Exception:
-        findings = [{"headline": "Parsing error", "error": content}]
-    return JSONResponse(content={"status": "success", "details": findings})
+
+@app.get("/api/external_intelligence", response_model=None)
+async def external_intelligence(
+    industry: str,
+    departments: Optional[str] = None,  # Comma-separated departments
+    competitors: Optional[str] = None,  # Comma-separated competitors
+    user_uid: Optional[str] = None
+):
+    """
+    Generate compliance intelligence for external monitoring with cross-departmental support.
+    """
+    # Parse comma-separated strings to lists
+    dept_list = departments.split(",") if departments else None
+    comp_list = competitors.split(",") if competitors else None
+    user_id = user_uid or "default"
+    
+    result = generate_compliance_intelligence(
+        industry=industry,
+        departments=dept_list,
+        competitors=comp_list,
+        user_id=user_id
+    )
+    
+    if not result.get("ok"):
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": result.get("error"),
+                "error_type": result.get("error_type")
+            }
+        )
+    
+    return JSONResponse(content={
+        "status": "success",
+        "intelligence": result.get("intelligence"),
+        "tokens_used": result.get("tokens"),
+        "model": result.get("model")
+    })
+
 
 @app.get("/api/source_graph")
 async def source_graph(platform: str):
@@ -2111,7 +2207,7 @@ async def add_user_to_gcs(request: Request):
         })
 
     except Exception as e:
-        print(f"❌ Error adding user: {e}")
+        print(f" Error adding user: {e}")
         raise HTTPException(status_code=400, detail=f"Failed to add user: {e}")
     
 

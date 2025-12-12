@@ -109,3 +109,8 @@ node_modules
 filehub_uploads/
 .env
 
+
+# CFR Data (too large for git)
+cfr_data/
+ecfr_titles/
+ecfr_titles_json/
