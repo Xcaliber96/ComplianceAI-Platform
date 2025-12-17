@@ -137,7 +137,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
 from src.api.cfr_api import router as cfr_router
-
+from src.api.supplier_routes import router as supplier_router
 from contextlib import asynccontextmanager
 import threading
 import time
@@ -219,6 +219,7 @@ app.add_middleware(
 app.include_router(graph_router)
 # client removed (use safe_chat_completion)
 router = APIRouter()
+app.include_router(supplier_router)
 
 TOKEN_FILE = "token.json"
 G_SCOPES = [
