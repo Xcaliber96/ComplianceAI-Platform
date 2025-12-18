@@ -251,4 +251,177 @@ class TariffRate(Base):
     last_updated = Column(DateTime, default=datetime.utcnow)
     source = Column(String)
 
+# Add these enums after your existing ones
+class OrderStatus(str, enum.Enum):
+    PENDING = "PENDING"
+    IN_TRANSIT = "IN_TRANSIT"
+    DELIVERED = "DELIVERED"
+    CANCELLED = "CANCELLED"
+    DELAYED = "DELAYED"
+
+class QualityIncidentType(str, enum.Enum):
+    DEFECT = "DEFECT"
+    WRONG_ITEM = "WRONG_ITEM"
+    DAMAGED = "DAMAGED"
+    MISSING_PARTS = "MISSING_PARTS"
+    SPECIFICATION_MISMATCH = "SPECIFICATION_MISMATCH"
+
+class QualityIncidentSeverity(str, enum.Enum):
+    LOW = "LOW"
+    MEDIUM = "MEDIUM"
+    HIGH = "HIGH"
+    CRITICAL = "CRITICAL"
+
+
+class SupplierOrder(Base):
+    __tablename__ = "supplier_orders"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    supplier_id = Column(Integer, ForeignKey("suppliers.id"), index=True)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+    
+    # Order identification
+    order_number = Column(String, unique=True, index=True)
+    order_date = Column(DateTime, default=datetime.utcnow)
+    expected_delivery_date = Column(DateTime)
+    actual_delivery_date = Column(DateTime, nullable=True)
+    
+    
+    status = Column(SQLEnum(OrderStatus), default=OrderStatus.PENDING, index=True)
+    is_on_time = Column(Boolean, nullable=True)  # Calculated after delivery
+    days_delayed = Column(Integer, default=0)
+    
+    # Financial details
+    item_count = Column(Integer)
+    total_value = Column(Float)
+    currency = Column(String, default="USD")
+    
+    # Quality metrics
+    quality_check_passed = Column(Boolean, nullable=True)
+    defect_count = Column(Integer, default=0)
+    
+    
+    stock_availability_on_order = Column(Boolean, default=True)
+    lead_time_accuracy_days = Column(Integer, nullable=True) # Difference between promised and actual lead time
+    
+    
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+   
+    supplier = relationship("Supplier", backref="orders")
+    quality_incidents = relationship("QualityIncident", back_populates="order")
+
+
+class QualityIncident(Base):
+    __tablename__ = "quality_incidents"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    supplier_id = Column(Integer, ForeignKey("suppliers.id"), index=True)
+    order_id = Column(Integer, ForeignKey("supplier_orders.id"), nullable=True)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+    
+    
+    incident_type = Column(SQLEnum(QualityIncidentType))
+    severity = Column(SQLEnum(QualityIncidentSeverity))
+    description = Column(Text)
+    
+    
+    resolved = Column(Boolean, default=False)
+    resolution_date = Column(DateTime, nullable=True)
+    resolution_notes = Column(Text, nullable=True)
+    
+   
+    financial_impact = Column(Float, default=0.0)  # Cost of the incident
+    items_affected = Column(Integer, default=0)
+    
+    
+    reported_at = Column(DateTime, default=datetime.utcnow, index=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    
+    supplier = relationship("Supplier", backref="quality_incidents")
+    order = relationship("SupplierOrder", back_populates="quality_incidents")
+
+
+class InventoryEvent(Base):
+    __tablename__ = "inventory_events"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    supplier_id = Column(Integer, ForeignKey("suppliers.id"), index=True)
+    user_uid = Column(String, ForeignKey("users.uid"), index=True)
+    
+   
+    event_type = Column(String)  # "STOCKOUT", "DELAYED_SHIPMENT", "PRODUCTION_HALT", etc.
+    item_description = Column(String)
+    expected_availability_date = Column(DateTime, nullable=True)
+    actual_availability_date = Column(DateTime, nullable=True)
+    
+    
+    quantity_affected = Column(Integer)
+    days_unavailable = Column(Integer, default=0)
+    
+    resolved = Column(Boolean, default=False)
+    
+    
+    event_date = Column(DateTime, default=datetime.utcnow, index=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    
+    supplier = relationship("Supplier", backref="inventory_events")
+
+
+class SupplierFinancialHealth(Base):
+    __tablename__ = "supplier_financial_health"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    supplier_id = Column(Integer, ForeignKey("suppliers.id"), index=True)
+    
+    # Credit information
+    credit_score = Column(Integer, nullable=True)   
+    credit_rating = Column(String, nullable=True)  # e.g., "A+", "B", "C"
+    payment_behavior = Column(String, nullable=True)  # "ON_TIME", "LATE", "VERY_LATE"
+    
+    
+    annual_revenue = Column(Float, nullable=True)
+    employee_count = Column(Integer, nullable=True)
+    years_in_business = Column(Integer, nullable=True)
+    
+    
+    bankruptcy_risk = Column(String, nullable=True)  
+    legal_issues = Column(Boolean, default=False)
+    
+    
+    data_source = Column(String)  
+    last_updated = Column(DateTime, default=datetime.utcnow)
+    
+   
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    supplier = relationship("Supplier", backref="financial_records")
+
+
+class RatingRecalculationLog(Base):
+    __tablename__ = "rating_recalculation_logs"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    
+    
+    job_type = Column(String)  # "FULL_RECALCULATION", "INCREMENTAL_UPDATE", etc.
+    trigger_event = Column(String, nullable=True)  
+    
+   
+    suppliers_processed = Column(Integer, default=0)
+    suppliers_tier_changed = Column(Integer, default=0)
+    execution_time_seconds = Column(Float)
+    
+    
+    started_at = Column(DateTime, default=datetime.utcnow)
+    completed_at = Column(DateTime, nullable=True)
+    
+   
+    status = Column(String, default="IN_PROGRESS")  
+    error_message = Column(Text, nullable=True)
+
+
 print("Loaded models.py (end)")
