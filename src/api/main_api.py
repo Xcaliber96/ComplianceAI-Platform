@@ -137,8 +137,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from src.api.audit_ingest import router as audit_router, upsert_audit_to_neo4j, ensure_audit_indexes
 from src.api.cfr_api import router as cfr_router
-
+from src.api.supplier_routes import router as supplier_router
 from contextlib import asynccontextmanager
+from src.api.order_routes import router as order_router
+from src.api.scheduler import start_scheduler
 import threading
 import time
 
@@ -215,11 +217,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# include routers (do this AFTER app is created)
-app.include_router(graph_router)
-# client removed (use safe_chat_completion)
-router = APIRouter()
 
+app.include_router(graph_router)
+
+router = APIRouter()
+app.include_router(supplier_router)
+app.include_router(order_router)
+@app.on_event("startup")
+def startup_event():
+    start_scheduler()
 TOKEN_FILE = "token.json"
 G_SCOPES = [
     "https://www.googleapis.com/auth/drive.readonly",
