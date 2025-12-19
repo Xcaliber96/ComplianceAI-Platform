@@ -1581,6 +1581,14 @@ async def run_compliance_payload(payload: dict):
         raise HTTPException(status_code=404, detail="Evidence file not found")
     
     pdf_path, entry = result
+
+    # 🔍 DEBUG: Evidence file
+    print("\n========== RAG INPUT DEBUG ==========")
+    print("PDF PATH:", pdf_path)
+    print("PDF EXISTS:", os.path.exists(pdf_path))
+    print("PDF SIZE (bytes):",
+          os.path.getsize(pdf_path) if os.path.exists(pdf_path) else "N/A")
+    print("====================================\n")
     
     db = next(get_db())
     regs = db.query(WorkspaceRegulation).filter(
@@ -1591,36 +1599,40 @@ async def run_compliance_payload(payload: dict):
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
     
-    # NEW: Fetch obligations from regulation text instead of using description
     regulation_objs = []
+
     for reg in regs:
-        # Use the document number (regulation_id) to fetch full text
         try:
-            # Fetch regulation text from file system
             from src.api.obligations_ingest import extract_obligations_from_text
-            full_text = reg.full_text
-            print(full_text)
+
+            full_text = reg.full_text or ""
             if not full_text or full_text.startswith("Error"):
                 print(f"⚠️ Could not load text for {reg.regulation_id}")
                 continue
             
-            # Extract obligations from the full text
-            from src.api.obligations_ingest import extract_obligations_from_text
             obligations = extract_obligations_from_text(
                 doc_id=reg.regulation_id,
                 raw_text=full_text,
                 meta={}
-            )
-            print(f"🔍 Obligations extracted for {reg.regulation_id}:")
-            for i, obl in enumerate(obligations):
-                print(f"  {i+1}. {obl.get('text', '')[:200]}")
-            
-            # Use obligations text as requirement text (concatenate if multiple)
+            ) or []
+
+            # Build requirement text
             if obligations:
-                requirement_text = " ".join([obl.get("text", "") for obl in obligations[:3]])  # Use first 3 obligations
+                requirement_text = " ".join(
+                    [obl.get("text", "") for obl in obligations[:3]]
+                )
             else:
-                requirement_text = full_text[:500]  # Fallback to first 500 chars
-            
+                requirement_text = full_text[:500]
+
+            # 🔍 DEBUG: Regulation input
+            print("\n--- REGULATION DEBUG ---")
+            print("Reg ID:", reg.regulation_id)
+            print("Obligation count:", len(obligations))
+            print("Requirement text length:", len(requirement_text))
+            print("Requirement text preview:")
+            print(requirement_text[:800])
+            print("------------------------\n")
+
             regulation_objs.append({
                 "Reg_ID": reg.regulation_id,
                 "Requirement_Text": requirement_text,
@@ -1628,29 +1640,32 @@ async def run_compliance_payload(payload: dict):
                 "Target_Area": reg.category or "",
                 "Dow_Focus": reg.region or ""
             })
+
         except Exception as e:
             print(f"❌ Error processing regulation {reg.regulation_id}: {e}")
             continue
 
-# Run compliance check with error handling
+    print("TOTAL REGULATIONS PASSED TO RAG:", len(regulation_objs))
+    print("====================================\n")
+
+    # Run compliance check
     error_msg = None
     try:
-        checker = RAGComplianceChecker(pdf_path=pdf_path, regulations=regulation_objs)
+        checker = RAGComplianceChecker(
+            pdf_path=pdf_path,
+            regulations=regulation_objs
+        )
         results = checker.run_check()
         summary = checker.dashboard_summary(results)
-        
-        print("✅ DEBUG: RAW RESULTS")
-        print(results)
-        print()
-        print("✅ DEBUG: SUMMARY")
-        print(summary)
-        print()
+
+        print("✅ DEBUG: RESULT COUNT:", len(results))
+        print("✅ DEBUG: COMPLIANT COUNT:",
+              sum(1 for r in results if r.get("Is_Compliant")))
     except Exception as e:
         print("❌ RAG ERROR:", e)
         traceback.print_exc()
         error_msg = str(e)
         results = []
-        # Fallback summary with same keys UI expects
         summary = {
             "status": "error",
             "action": "RAG Compliance Check",
@@ -1663,7 +1678,6 @@ async def run_compliance_payload(payload: dict):
             "details": "Compliance engine failed. Please retry or review logs."
         }
 
-    # Save audit (even if RAG failed)
     audit_save = upsert_audit_to_neo4j(
         user_uid=user_uid,
         file_id=file_id,
@@ -1676,11 +1690,9 @@ async def run_compliance_payload(payload: dict):
     if not audit_save["ok"]:
         raise HTTPException(status_code=500, detail=audit_save["error"])
 
-    audit_id = audit_save["audit_id"]
-
     return {
         "status": "success" if error_msg is None else "error",
-        "audit_id": audit_id if error_msg is None else None,
+        "audit_id": audit_save["audit_id"] if error_msg is None else None,
         "file": entry["original_name"],
         "results": results,
         "summary": summary,

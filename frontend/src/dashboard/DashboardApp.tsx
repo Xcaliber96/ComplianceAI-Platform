@@ -12,17 +12,17 @@ import SupplierOnboarding from "./SupplierOnboarding";
 import LLM from "./LLM";
 import AuditResultsTab from "./Audit/Results/AuditResultsTab";
 import CompliancePlanner from "./CompliancePlanner";
-import CompetitorsPage from "./CompetitorsPage";
+import AllResults from "./Audit/Results/AllResults";
 import DashboardPage from "./Extraction/Extraction";
 import AuditRunner from "./Audit/RunAudit";
 import AddFile from "./File Manager/AddFile"
 import FileViewer from "./File Manager/FileViewer";
 import Onboarding from "./Onboarding/Onboarding";
-
-import ShowList from "./File Manager/ShowList"
-import FileExtractPage from "./Extraction/FileExtractPage"
+import ShowList from "./File Manager/ShowList";
+import FileExtractPage from "./Extraction/FileExtractPage";
 import AuditResultsPage from "./Audit/Results/AuditResults";
-import AuditLogPage from "./Audit/Results/AuditLogPage"
+import AuditLogPage from "./Audit/Results/AuditLogPage";
+
 export default function DashboardApp() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -74,6 +74,7 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="file/:id" element={<FileViewer />} />
         <Route path="regmanage" element={<AddRegulationsPage />} /> <Route path="Onboarding" element={<Onboarding />} />
         <Route path="extract/:id" element={<FileExtractPage />} />
+        <Route path="allresults" element={<AllResults />} />
         <Route path="ShowList" element={<ShowList />} />
         <Route path="DashboardPage" element={<DashboardPage />} />
         <Route path="regulations" element={<RegulationsLibraryPage />} />

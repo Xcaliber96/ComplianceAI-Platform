@@ -254,8 +254,8 @@ export async function loginWithFirebaseToken(user: any) {
       email: user.email,
     },
     {
-      withCredentials: true,  // ensures session cookie is stored
-      headers: { "Content-Type": "application/json" }, // explicit for clarity
+      withCredentials: true,  
+      headers: { "Content-Type": "application/json" }, 
     }
   );
   console.log("LOGIN DEBUG — FRONTEND SENDING:");
@@ -389,6 +389,19 @@ export async function importRegulations(user_uid: string, regulations: any[]) {
 
   return res.data;
 }
+export const getUserAudits = async (
+  user_uid: string,
+  limit: number = 50,
+  skip: number = 0
+) => {
+  const { data } = await apiClient.get(
+    `/api/v1/audit/user/${user_uid}`,
+    { params: { limit, skip } }
+  );
+
+  return data;
+};
+
 export const runCompliance = async (
   user_uid: string,
   file_id: string,
@@ -583,6 +596,7 @@ export async function getCfrTitle(titleNumber: number) {
   const res = await apiClient.get(`/api/v1/cfr/title/${titleNumber}`);
   return res.data;
 }
+
 
 export async function getCfrSection(title: number, part: string, section: string) {
   const res = await apiClient.get("/api/v1/cfr/section", {
