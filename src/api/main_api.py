@@ -11,6 +11,7 @@ from fastapi import (
     APIRouter,
     Query,
 )
+from cfr_data.normalize import extract_cfr_references, is_definition_section
 from src.api.models import WorkspaceRegulation
 from src.core.regulations.gov_reg.local_search import (
     get_package_ids,
@@ -140,7 +141,6 @@ from src.api.cfr_api import router as cfr_router
 from src.api.supplier_routes import router as supplier_router
 from contextlib import asynccontextmanager
 from src.api.order_routes import router as order_router
-from src.api.scheduler import start_scheduler
 import threading
 import time
 
@@ -1588,7 +1588,7 @@ async def run_compliance_payload(payload: dict):
     
     pdf_path, entry = result
 
-    # 🔍 DEBUG: Evidence file
+    
     print("\n========== RAG INPUT DEBUG ==========")
     print("PDF PATH:", pdf_path)
     print("PDF EXISTS:", os.path.exists(pdf_path))
@@ -1607,50 +1607,93 @@ async def run_compliance_payload(payload: dict):
     
     regulation_objs = []
 
-    for reg in regs:
+    for idx, reg in enumerate(regs, start=1):
+        print("\n===================================================")
+        print(f"🔎 START REGULATION [{idx}/{len(regs)}]")
+        print("Regulation ID:", reg.regulation_id)
+        print("Name:", reg.name)
+        print("===================================================")
+
         try:
             from src.api.obligations_ingest import extract_obligations_from_text
 
+            # --- Load full text ---
             full_text = reg.full_text or ""
+            print("📄 Full text loaded:", bool(full_text))
+            print("📏 Full text length:", len(full_text))
+            print("📏 Full textttttttttttttttttttttttt:", full_text)
+
             if not full_text or full_text.startswith("Error"):
-                print(f"⚠️ Could not load text for {reg.regulation_id}")
+                print(f"⚠️ SKIP — Invalid or empty text for {reg.regulation_id}")
                 continue
-            
+
+            # --- CFR Cross References ---
+            print("🔗 Extracting CFR cross-references...")
+            cfr_refs = extract_cfr_references(
+                text=full_text,
+                source_id=reg.regulation_id
+            )
+            print("🔗 Cross-reference count:", len(cfr_refs))
+            if cfr_refs:
+                print("🔗 Sample reference:", cfr_refs[0])
+
+            # --- Definition Detection ---
+            print("📘 Checking if definition section...")
+            is_definition = is_definition_section({
+                "heading": reg.name or "",
+                "text_paragraphs": full_text.split("\n")
+            })
+            print("📘 Is definition:", is_definition)
+
+            # --- Obligation Extraction ---
+            print("📌 Extracting obligations...")
             obligations = extract_obligations_from_text(
                 doc_id=reg.regulation_id,
                 raw_text=full_text,
                 meta={}
             ) or []
 
-            # Build requirement text
+            print("📌 Obligation count:", len(obligations))
             if obligations:
-                requirement_text = " ".join(
-                    [obl.get("text", "") for obl in obligations[:3]]
-                )
-            else:
-                requirement_text = full_text[:500]
+                print("📌 Sample obligation:", obligations[0])
 
-            # 🔍 DEBUG: Regulation input
-            print("\n--- REGULATION DEBUG ---")
-            print("Reg ID:", reg.regulation_id)
-            print("Obligation count:", len(obligations))
-            print("Requirement text length:", len(requirement_text))
-            print("Requirement text preview:")
-            print(requirement_text[:800])
-            print("------------------------\n")
+            # # --- Requirement Text Construction ---
+            # if obligations:
+            #     requirement_text = " ".join(
+            #         [obl.get("text", "") for obl in obligations[:3]]
+            #     )
+            #     print("🧠 Requirement text built from obligations")
+            # else:
+            #     requirement_text = full_text[:500]
+            #     print("🧠 Requirement text fallback to raw text")
+            requirement_text = full_text
+            print("🧠 Requirement text length:", len(requirement_text))
 
-            regulation_objs.append({
+            # --- Append final regulation object ---
+            regulation_obj = {
                 "Reg_ID": reg.regulation_id,
                 "Requirement_Text": requirement_text,
                 "Risk_Rating": reg.risk or "",
                 "Target_Area": reg.category or "",
-                "Dow_Focus": reg.region or ""
-            })
+                "Dow_Focus": reg.region or "",
+
+                "Has_Cross_References": bool(cfr_refs),
+                "Cross_References": cfr_refs,
+                "Is_Definition": is_definition,
+            }
+
+            regulation_objs.append(regulation_obj)
+
+            print("✅ Regulation appended successfully")
+            print("📦 Payload preview keys:", list(regulation_obj.keys()))
 
         except Exception as e:
-            print(f"❌ Error processing regulation {reg.regulation_id}: {e}")
+            print("❌ EXCEPTION OCCURRED")
+            print("Regulation ID:", reg.regulation_id)
+            print("Error type:", type(e).__name__)
+            print("Error message:", str(e))
+            traceback.print_exc()
             continue
-
     print("TOTAL REGULATIONS PASSED TO RAG:", len(regulation_objs))
     print("====================================\n")
 

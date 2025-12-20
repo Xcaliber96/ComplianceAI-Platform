@@ -145,12 +145,12 @@ const summary: AuditSummary = data.summary ?? {
   ]
 };
 
-if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
-  const compliantCount = results.filter(r => !r.gap_flag).length;
-  summary.compliance_score = results.length
-    ? Math.round((compliantCount / results.length) * 100)
-    : 0;
-}
+summary.compliance_score = results.length
+  ? Math.round(
+      results.reduce((sum, r) => sum + (r.match_score > 1 ? r.match_score : r.match_score * 100), 0) /
+        results.length
+    )
+  : 0;
   const gaps = results.filter((r) => r.gap_flag);
   const heatmap = buildRiskHeatmap(results);
   const scoreColor = getScoreColor(summary.compliance_score);
