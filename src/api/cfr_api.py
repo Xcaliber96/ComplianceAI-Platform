@@ -140,6 +140,35 @@ async def get_cfr_section(
             status_code=500
         )
 
+def split_regulations(
+    regulations: List[Dict[str, Any]],
+    split_cfr: bool = True
+) -> List[Dict[str, Any]]:
+    """
+    Takes raw regulations and returns compliance-ready units.
+    Splits CFR sections into subsections when applicable.
+    """
+    final_regs = []
+
+    for reg in regulations:
+        reg_id = reg.get("Reg_ID", "")
+
+        # CFR section detected
+        if split_cfr and reg_id.startswith("cfr-") and "regulation_text" in reg:
+            section_id = reg_id
+            full_text = reg["regulation_text"]
+
+            split_subs = ComplianceChecker.split_cfr_subsections(
+                section_id=section_id,
+                full_text=full_text
+            )
+
+            final_regs.extend(split_subs)
+        else:
+            final_regs.append(reg)
+
+    return final_regs
+
 
 @router.get("/search")
 async def search_cfr_regulations(

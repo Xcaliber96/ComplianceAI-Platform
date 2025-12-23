@@ -11,6 +11,7 @@ from fastapi import (
     APIRouter,
     Query,
 )
+from cfr_data.normalize import extract_cfr_references, is_definition_section
 from src.api.models import WorkspaceRegulation
 from src.core.regulations.gov_reg.local_search import (
     get_package_ids,
@@ -140,7 +141,6 @@ from src.api.cfr_api import router as cfr_router
 from src.api.supplier_routes import router as supplier_router
 from contextlib import asynccontextmanager
 from src.api.order_routes import router as order_router
-from src.api.scheduler import start_scheduler
 import threading
 import time
 
@@ -629,6 +629,12 @@ async def run_rag_compliance(
             regulations=regulation_objs
         )
         results = checker.run_check()
+        file_department = entry.get("department", "Other")
+
+        for r in results:
+            # Do not overwrite if checker already set it
+            if not r.get("department"):
+                r["department"] = file_department
         summary = checker.dashboard_summary(results)
     except Exception as e:
         print("RAG ERROR:", e)
@@ -1587,6 +1593,14 @@ async def run_compliance_payload(payload: dict):
         raise HTTPException(status_code=404, detail="Evidence file not found")
     
     pdf_path, entry = result
+
+    
+    print("\n========== RAG INPUT DEBUG ==========")
+    print("PDF PATH:", pdf_path)
+    print("PDF EXISTS:", os.path.exists(pdf_path))
+    print("PDF SIZE (bytes):",
+          os.path.getsize(pdf_path) if os.path.exists(pdf_path) else "N/A")
+    print("====================================\n")
     
     db = next(get_db())
     regs = db.query(WorkspaceRegulation).filter(
@@ -1597,66 +1611,113 @@ async def run_compliance_payload(payload: dict):
     if not regs:
         raise HTTPException(status_code=404, detail="No regulations found")
     
-    # NEW: Fetch obligations from regulation text instead of using description
     regulation_objs = []
-    for reg in regs:
-        # Use the document number (regulation_id) to fetch full text
+
+    for idx, reg in enumerate(regs, start=1):
+        print("\n===================================================")
+        print(f"🔎 START REGULATION [{idx}/{len(regs)}]")
+        print("Regulation ID:", reg.regulation_id)
+        print("Name:", reg.name)
+        print("===================================================")
+
         try:
-            # Fetch regulation text from file system
             from src.api.obligations_ingest import extract_obligations_from_text
-            full_text = reg.full_text
-            print(full_text)
+
+            # --- Load full text ---
+            full_text = reg.full_text or ""
+            print("📄 Full text loaded:", bool(full_text))
+            print("📏 Full text length:", len(full_text))
+            print("📏 Full textttttttttttttttttttttttt:", full_text)
+
             if not full_text or full_text.startswith("Error"):
-                print(f"⚠️ Could not load text for {reg.regulation_id}")
+                print(f"⚠️ SKIP — Invalid or empty text for {reg.regulation_id}")
                 continue
-            
-            # Extract obligations from the full text
-            from src.api.obligations_ingest import extract_obligations_from_text
+
+            # --- CFR Cross References ---
+            print("🔗 Extracting CFR cross-references...")
+            cfr_refs = extract_cfr_references(
+                text=full_text,
+                source_id=reg.regulation_id
+            )
+            print("🔗 Cross-reference count:", len(cfr_refs))
+            if cfr_refs:
+                print("🔗 Sample reference:", cfr_refs[0])
+
+            # --- Definition Detection ---
+            print("📘 Checking if definition section...")
+            is_definition = is_definition_section({
+                "heading": reg.name or "",
+                "text_paragraphs": full_text.split("\n")
+            })
+            print("📘 Is definition:", is_definition)
+
+            # --- Obligation Extraction ---
+            print("📌 Extracting obligations...")
             obligations = extract_obligations_from_text(
                 doc_id=reg.regulation_id,
                 raw_text=full_text,
                 meta={}
-            )
-            print(f"🔍 Obligations extracted for {reg.regulation_id}:")
-            for i, obl in enumerate(obligations):
-                print(f"  {i+1}. {obl.get('text', '')[:200]}")
-            
-            # Use obligations text as requirement text (concatenate if multiple)
+            ) or []
+
+            print("📌 Obligation count:", len(obligations))
             if obligations:
-                requirement_text = " ".join([obl.get("text", "") for obl in obligations[:3]])  # Use first 3 obligations
-            else:
-                requirement_text = full_text[:500]  # Fallback to first 500 chars
-            
-            regulation_objs.append({
+                print("📌 Sample obligation:", obligations[0])
+            requirement_text = full_text
+            print("🧠 Requirement text length:", len(requirement_text))
+
+            # --- Append final regulation object ---
+            regulation_obj = {
                 "Reg_ID": reg.regulation_id,
                 "Requirement_Text": requirement_text,
                 "Risk_Rating": reg.risk or "",
                 "Target_Area": reg.category or "",
-                "Dow_Focus": reg.region or ""
-            })
-        except Exception as e:
-            print(f"❌ Error processing regulation {reg.regulation_id}: {e}")
-            continue
+                "Dow_Focus": reg.region or "",
 
-# Run compliance check with error handling
+                "Has_Cross_References": bool(cfr_refs),
+                "Cross_References": cfr_refs,
+                "Is_Definition": is_definition,
+            }
+
+            regulation_objs.append(regulation_obj)
+
+            print("✅ Regulation appended successfully")
+            print("📦 Payload preview keys:", list(regulation_obj.keys()))
+
+        except Exception as e:
+            print("❌ EXCEPTION OCCURRED")
+            print("Regulation ID:", reg.regulation_id)
+            print("Error type:", type(e).__name__)
+            print("Error message:", str(e))
+            traceback.print_exc()
+            continue
+    print("TOTAL REGULATIONS PASSED TO RAG:", len(regulation_objs))
+    print("====================================\n")
+
+    # Run compliance check
     error_msg = None
     try:
-        checker = RAGComplianceChecker(pdf_path=pdf_path, regulations=regulation_objs)
+        checker = RAGComplianceChecker(
+            pdf_path=pdf_path,
+            regulations=regulation_objs
+        )
         results = checker.run_check()
+
+        # 🔽 ADD THIS BLOCK
+        file_department = entry.get("department", "Other")
+        for r in results:
+            if not r.get("department"):
+                r["department"] = file_department
+
         summary = checker.dashboard_summary(results)
-        
-        print("✅ DEBUG: RAW RESULTS")
-        print(results)
-        print()
-        print("✅ DEBUG: SUMMARY")
-        print(summary)
-        print()
+
+        print("✅ DEBUG: RESULT COUNT:", len(results))
+        print("✅ DEBUG: COMPLIANT COUNT:",
+              sum(1 for r in results if r.get("Is_Compliant")))
     except Exception as e:
         print("❌ RAG ERROR:", e)
         traceback.print_exc()
         error_msg = str(e)
         results = []
-        # Fallback summary with same keys UI expects
         summary = {
             "status": "error",
             "action": "RAG Compliance Check",
@@ -1669,7 +1730,6 @@ async def run_compliance_payload(payload: dict):
             "details": "Compliance engine failed. Please retry or review logs."
         }
 
-    # Save audit (even if RAG failed)
     audit_save = upsert_audit_to_neo4j(
         user_uid=user_uid,
         file_id=file_id,
@@ -1681,14 +1741,13 @@ async def run_compliance_payload(payload: dict):
 
     if not audit_save["ok"]:
         raise HTTPException(status_code=500, detail=audit_save["error"])
-
-    audit_id = audit_save["audit_id"]
-
+    print(file_id)
     return {
         "status": "success" if error_msg is None else "error",
-        "audit_id": audit_id if error_msg is None else None,
+        "audit_id": audit_save["audit_id"] if error_msg is None else None,
         "file": entry["original_name"],
         "results": results,
+        "file_id": file_id,                     # ✅ ADD THIS
         "summary": summary,
         "compliance_score": summary.get("compliance_score"),
         "total_requirements": summary.get("regulations_checked"),
@@ -2002,6 +2061,7 @@ async def run_audit_on_file(file_id: str, user_uid: str):
     checker = ComplianceChecker(pdf_path=file_path, regulations=regulations)
 
     results = checker.run_check()
+    
     return {
         "status": "success",
         "file": entry["original_name"],

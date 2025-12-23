@@ -1,9 +1,20 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-
-// ------------------ TYPES ------------------
-
+import{ useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { getUserProfile } from "../../../api/client";
+import {  useNavigate } from "react-router-dom";
 type RiskRating = "Low" | "Medium" | "High" | string;
+
+function getOverallRisk(results: AuditResultItem[]): "LOW" | "MED" | "HIGH" {
+  if (results.some(r => r.gap_flag && r.Risk_Rating.toLowerCase() === "high")) {
+    return "HIGH";
+  }
+  if (results.some(r => r.gap_flag && r.Risk_Rating.toLowerCase() === "medium")) {
+    return "MED";
+  }
+  return "LOW";
+}
 
 interface AuditResultItem {
   Reg_ID: string;
@@ -33,8 +44,6 @@ export interface AuditOutput {
   summary: AuditSummary;
 }
 
-// ------------------ MOCK DATA (fallback only) ------------------
-
 const mockAuditData: AuditOutput = {
   status: "success",
   audit_id: "AID-MOCK",
@@ -49,9 +58,6 @@ const mockAuditData: AuditOutput = {
   },
   results: [],
 };
-
-// ------------------ HELPERS ------------------
-
 function getScoreColor(score: number): string {
   if (score >= 80) return "text-emerald-600 bg-emerald-50 border-emerald-200";
   if (score >= 50) return "text-amber-600 bg-amber-50 border-amber-200";
@@ -85,9 +91,13 @@ function buildRiskHeatmap(results: AuditResultItem[]) {
   return map;
 }
 
+
 // ------------------ COMPONENT ------------------
 
 const AuditResultsTab: React.FC = () => {
+const navigate = useNavigate();
+const { fileId } = useParams<{ fileId: string }>();
+const [userName, setUserName] = useState<string>("Loading...");
   const location = useLocation();
 
   // console.log("🎯 Received navigation state:", location.state);
@@ -110,13 +120,13 @@ const AuditResultsTab: React.FC = () => {
 
 
 const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results : []).map((item: any) => ({
+  
   Reg_ID: item.Reg_ID,
   Requirement_Text: item.Requirement_Text || item.Target_Area || "",
 
   // Risk Rating
   Risk_Rating: item.Risk_Rating || "Low",
 
-  // Score (backend sends 35, not 0.35)
   match_score: item.match_score ??
                item.Compliance_Score ??
                item.Score ??
@@ -129,14 +139,28 @@ const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results :
       : item.Narrative_Gap
       ? true
       : false,
-
-  // Mapped fields
+ 
   evidence: item.evidence || item.Evidence_Chunk || "",
   narrative: item.narrative || item.Narrative_Gap || "",
 
-  // Department fallback
   department: item.department || item.Target_Area || "Other",
 }));
+useEffect(() => {
+  if (!data?.user_uid) return;
+
+  (async () => {
+    try {
+      const profile = await getUserProfile(data.user_uid);
+      setUserName(profile.full_name || profile.display_name || "Unknown User");
+    } catch (err) {
+      console.error("Failed to load user profile", err);
+      setUserName("Unknown User");
+    }
+  })();
+}, [data?.user_uid]);
+const requirement = results[0];
+
+const overallRisk = getOverallRisk(results);
 
 const summary: AuditSummary = data.summary ?? {
   compliance_score: 0,
@@ -147,14 +171,21 @@ const summary: AuditSummary = data.summary ?? {
     ...new Set(results.filter(r => r.gap_flag).map(r => r.department || "Other"))
   ]
 };
+summary.total_requirements = results.length;
+summary.gap_count = results.filter(r => r.gap_flag).length;
+summary.high_risk_gaps = results.filter(
+  r => r.gap_flag && r.Risk_Rating.toLowerCase() === "high"
+).length;
+summary.departments_flagged = [
+  ...new Set(results.filter(r => r.gap_flag).map(r => r.department || "Other"))
+];
 
-// Recalculate score if backend gave 0 or NaN
-if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
-  const compliantCount = results.filter(r => !r.gap_flag).length;
-  summary.compliance_score = results.length
-    ? Math.round((compliantCount / results.length) * 100)
-    : 0;
-}
+summary.compliance_score = results.length
+  ? Math.round(
+      results.reduce((sum, r) => sum + (r.match_score > 1 ? r.match_score : r.match_score * 100), 0) /
+        results.length
+    )
+  : 0;
   const gaps = results.filter((r) => r.gap_flag);
   const heatmap = buildRiskHeatmap(results);
   const scoreColor = getScoreColor(summary.compliance_score);
@@ -162,7 +193,6 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
 
-      {/* ---------------- HEADER ---------------- */}
       <div className="mx-auto max-w-6xl px-4 py-8">
         <header className="border-b pb-4 mb-6">
           <h1 className="text-2xl font-semibold">Compliance Audit Results</h1>
@@ -173,60 +203,110 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
             Audit ID: <span className="font-mono">{data.audit_id}</span>
           </p>
         </header>
+<section className="grid gap-4 md:grid-cols-[2fr,1fr]">
+  {/* LEFT COLUMN */}
+  <div className="rounded-2xl bg-white p-6 shadow border border-slate-200">
+    <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+      Compliance Score
+    </h2>
 
-        {/*  SUMMARY  */}
-        <section className="grid gap-4 md:grid-cols-[2fr,1fr]">
+    <p className="mt-2 text-xs text-slate-400">
+      Snapshot of this document&apos;s overall alignment with the selected regulations.
+    </p>
 
-          {/* Summary Card */}
-          <div className="rounded-xl bg-white p-5 shadow">
-            <h2 className="text-sm font-semibold uppercase text-slate-500">
-              Compliance Score
-            </h2>
+    <div className="mt-4 flex justify-between items-center">
+      <div />
 
-            <div className="flex justify-between items-center mt-4">
-              <div>
-                <p className="text-xs text-slate-400">
-                  Overall performance against selected regulations
-                </p>
-              </div>
+      <div
+        className={`h-20 w-20 rounded-full flex items-center justify-center border-4 text-xl font-bold ${scoreColor}`}
+      >
+        {summary.compliance_score}%
+      </div>
+    </div>
 
-              <div className={`h-20 w-20 rounded-full flex items-center justify-center border-4 text-xl font-bold ${scoreColor}`}>
-                {summary.compliance_score}%
-              </div>
-            </div>
+    <div className="mt-6 grid grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl text-sm">
+      <div>
+        <p className="text-xs uppercase text-slate-500">Total Requirements</p>
+        <p className="font-semibold">{summary.total_requirements ?? 0}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">Gaps Detected</p>
+        <p className="font-semibold text-amber-600">{summary.gap_count ?? 0}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">High-Risk Issues</p>
+        <p className="font-semibold text-rose-600">{summary.high_risk_gaps}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">Departments Flagged</p>
+        <p className="font-semibold">
+          {(summary.departments_flagged || []).length}
+        </p>
+      </div>
+    </div>
+  </div>
 
-            <div className="mt-5 grid grid-cols-2 gap-3 text-sm bg-slate-50 p-4 rounded-lg">
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Requirements</p>
-                <p className="font-semibold">{summary.total_requirements}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Gaps</p>
-                <p className="font-semibold text-amber-600">{summary.gap_count}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">High Risk</p>
-                <p className="font-semibold text-rose-600">{summary.high_risk_gaps}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Departments</p>
-                <p className="font-semibold">{(summary.departments_flagged || []).length}</p>
-              </div>
-            </div>
+  {/* RIGHT COLUMN */}
+  <div className="flex flex-col gap-3">
+    {/* Evidence File */}
+    <div className="rounded-2xl bg-white p-5 shadow border border-slate-200">
+      <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+        Evidence File
+      </h2>
+
+      <div className="mt-4 space-y-2 text-sm">
+        <div className="flex justify-between">
+          <span className="text-slate-500">File Name</span>
+          <span className="font-medium text-slate-900">{data.file}</span>
+        </div>
+
+          <div className="flex justify-between">
+            <span className="text-slate-500">Uploaded By</span>
+            <span className="text-slate-700">{userName}</span>
           </div>
-          
+        <div className="flex justify-between">
+          <span className="text-slate-500">File Type</span>
+          <span className="text-slate-700">PDF</span>
+        </div>
+      </div>
+<button
+  type="button"
+  className="mt-4 w-full rounded-lg bg-slate-900 py-2 text-xs font-semibold text-white hover:bg-slate-800"
+  onClick={() => navigate(`/dashboard/file/${fileId}`)}
+>
+  View PDF Document
+</button>
+    </div>
 
-          {/* File Info */}
-          <div className="rounded-xl bg-white p-5 shadow">
-            <h2 className="text-sm font-semibold uppercase text-slate-500">
-              Evidence File
-            </h2>
-            <p className="mt-3 text-sm">
-              <strong>{data.file}</strong>
-            </p>
-            <p className="text-xs text-slate-500 mt-1">Uploaded by {data.user_uid}</p>
-          </div>
-        </section>
+    {/* Full Audit Graph */}
+    <div className="rounded-xl border border-violet-200 bg-violet-50 p-4 shadow-sm">
+      <div className="flex items-start gap-3">
+        <div className="h-7 w-7 flex items-center justify-center rounded-full bg-violet-600 text-white text-xs font-semibold">
+          ⬢
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-violet-900">
+            Full Audit Graph
+          </h3>
+
+          <p className="mt-1 text-xs text-violet-700 leading-snug">
+            Explore the complete graph of regulations, obligations, controls,
+            and department impact for this audit in Neo4j.
+          </p>
+<button
+  type="button"
+  className="mt-3 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-violet-700"
+  onClick={() => navigate("/dashboard/allresults")}
+>
+  View Full Audit in Dashboard →
+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* ---------------- RESULTS TABLE ---------------- */}
         <section className="mt-8 rounded-xl bg-white p-5 shadow">
@@ -313,10 +393,14 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
           <h2 className="text-sm font-semibold uppercase text-slate-500 mb-3">
             Risk Heatmap
           </h2>
+          <div className="flex items-center gap-2 mb-4 text-xs text-slate-600">
+
+        </div>
 
           <table className="min-w-full text-xs">
             <thead>
               <tr className="bg-slate-100 text-slate-600">
+                    <th className="px-3 py-2">Requirements</th>
                 <th className="px-3 py-2">Department</th>
                 <th className="px-3 py-2 text-center">Low</th>
                 <th className="px-3 py-2 text-center">Medium</th>
@@ -325,16 +409,34 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
             </thead>
 
             <tbody>
-              {Object.entries(heatmap).map(([dept, lvl]) => (
-                <tr key={dept} className="border-b">
-                  <td className="px-3 py-2">{dept}</td>
-                  {(["LOW", "MED", "HIGH"] as const).map((cat) => (
-                    <td key={cat} className="px-3 py-2 text-center">
-                      {lvl[cat] || "—"}
-                    </td>
-                  ))}
-                </tr>
-              ))}
+
+          {Object.entries(heatmap).map(([dept, lvl]) => (
+  <tr key={dept} className="border-b">
+    <td className="px-3 py-2">
+  <strong>{requirement?.Reg_ID}</strong>
+  <p>{requirement?.Requirement_Text}</p>
+</td>
+    <td className="px-3 py-2">{dept}</td>
+
+    {(["LOW", "MED", "HIGH"] as const).map((level) => (
+  <td key={level} className="px-3 py-2 text-center">
+      {overallRisk === level ? (
+        <span
+          className={`inline-block h-3 w-3 rounded-full ${
+            level === "HIGH"
+              ? "bg-rose-500"
+              : level === "MED"
+              ? "bg-amber-500"
+              : "bg-emerald-500"
+          }`}
+        />
+      ) : (
+        "—"
+      )}
+    </td>
+    ))}
+  </tr>
+))}
             </tbody>
           </table>
         </section>
