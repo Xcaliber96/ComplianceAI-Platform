@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Query, Depends
 from fastapi.responses import JSONResponse
 from typing import Optional, List, Dict, Any
@@ -11,14 +10,16 @@ from src.core.regulations.cfr_neo4j_ingest import (
     get_neo4j_driver
 )
 from src.api.db import get_db
+from src.api.auth_backend import get_current_user
+from src.api.models import User
+
 
 router = APIRouter(prefix="/api/v1/cfr", tags=["CFR Regulations"])
 cfr_loader = CFRLoader()
 
 
-
 @router.get("/titles")
-async def list_cfr_titles():
+async def list_cfr_titles(current_user: User = Depends(get_current_user)):
     """
     List all available CFR titles (1-50)
     
@@ -51,7 +52,10 @@ async def list_cfr_titles():
 
 
 @router.get("/title/{title_number}")
-async def get_cfr_title(title_number: int):
+async def get_cfr_title(
+    title_number: int,
+    current_user: User = Depends(get_current_user)
+):
     """
     Get specific CFR title with all parts
     
@@ -102,7 +106,8 @@ async def get_cfr_title(title_number: int):
 async def get_cfr_section(
     title: int = Query(..., ge=1, le=50, description="CFR Title (1-50)"),
     part: str = Query(..., description="Part number (e.g., 164)"),
-    section: str = Query(..., description="Section number (e.g., 164.312)")
+    section: str = Query(..., description="Section number (e.g., 164.312)"),
+    current_user: User = Depends(get_current_user)
 ):
     """
     Get specific CFR section with full regulation text
@@ -140,6 +145,7 @@ async def get_cfr_section(
             status_code=500
         )
 
+
 def split_regulations(
     regulations: List[Dict[str, Any]],
     split_cfr: bool = True
@@ -153,7 +159,6 @@ def split_regulations(
     for reg in regulations:
         reg_id = reg.get("Reg_ID", "")
 
-        # CFR section detected
         if split_cfr and reg_id.startswith("cfr-") and "regulation_text" in reg:
             section_id = reg_id
             full_text = reg["regulation_text"]
@@ -174,7 +179,8 @@ def split_regulations(
 async def search_cfr_regulations(
     query: str = Query(..., min_length=2, description="Search term"),
     title: Optional[int] = Query(None, ge=1, le=50, description="Filter by title"),
-    limit: int = Query(50, ge=1, le=200, description="Max results")
+    limit: int = Query(50, ge=1, le=200, description="Max results"),
+    current_user: User = Depends(get_current_user)
 ):
     """
     Search CFR regulations by text
@@ -214,9 +220,11 @@ async def search_cfr_regulations(
         )
 
 
-
 @router.get("/audit/{audit_id}/gaps")
-async def get_audit_regulation_gaps(audit_id: str):
+async def get_audit_regulation_gaps(
+    audit_id: str,
+    current_user: User = Depends(get_current_user)
+):
     """
     Get all regulation gaps for a specific audit
     
@@ -245,7 +253,7 @@ async def get_audit_regulation_gaps(audit_id: str):
         
         with driver.session() as session:
             result = session.run("""
-                MATCH (a:AuditRun {audit_id: $audit_id})
+                MATCH (a:AuditRun {audit_id: $audit_id, user_uid: $user_uid})
                       -[gap:FOUND_GAP]->
                       (r:Regulation)
                 RETURN 
@@ -258,7 +266,7 @@ async def get_audit_regulation_gaps(audit_id: str):
                   gap.compliance_score as compliance_score,
                   gap.evidence_chunk as evidence_chunk
                 ORDER BY gap.risk_rating DESC
-            """, audit_id=audit_id)
+            """, audit_id=audit_id, user_uid=current_user.uid)
             
             gaps = []
             for record in result:
@@ -290,7 +298,10 @@ async def get_audit_regulation_gaps(audit_id: str):
 
 
 @router.get("/regulation/{regulation_id}/audits")
-async def get_regulation_audit_history(regulation_id: str):
+async def get_regulation_audit_history(
+    regulation_id: str,
+    current_user: User = Depends(get_current_user)
+):
     """
     Get all audits that found gaps in this regulation
     
@@ -316,7 +327,7 @@ async def get_regulation_audit_history(regulation_id: str):
         
         with driver.session() as session:
             result = session.run("""
-                MATCH (a:AuditRun)-[gap:FOUND_GAP]->(r:Regulation {regulation_id: $regulation_id})
+                MATCH (a:AuditRun {user_uid: $user_uid})-[gap:FOUND_GAP]->(r:Regulation {regulation_id: $regulation_id})
                 RETURN 
                   a.audit_id as audit_id,
                   a.compliance_score as compliance_score,
@@ -324,7 +335,7 @@ async def get_regulation_audit_history(regulation_id: str):
                   gap.risk_rating as risk_rating,
                   gap.narrative as narrative
                 ORDER BY a.created_at DESC
-            """, regulation_id=regulation_id)
+            """, regulation_id=regulation_id, user_uid=current_user.uid)
             
             audits = []
             for record in result:
@@ -353,7 +364,10 @@ async def get_regulation_audit_history(regulation_id: str):
 
 
 @router.get("/department/{department_name}/gaps")
-async def get_department_regulation_gaps(department_name: str):
+async def get_department_regulation_gaps(
+    department_name: str,
+    current_user: User = Depends(get_current_user)
+):
     """
     Get all regulation gaps for a specific department
     
@@ -372,7 +386,7 @@ async def get_department_regulation_gaps(department_name: str):
         
         with driver.session() as session:
             result = session.run("""
-                MATCH (d:Department {name: $dept_name})
+                MATCH (d:Department {name: $dept_name, user_uid: $user_uid})
                       <-[:FLAGGED_DEPT]-(a:AuditRun)
                       -[gap:FOUND_GAP]->(r:Regulation)
                 RETURN 
@@ -382,7 +396,7 @@ async def get_department_regulation_gaps(department_name: str):
                   collect(gap.risk_rating) as risk_ratings,
                   collect(a.audit_id) as audit_ids
                 ORDER BY occurrence_count DESC
-            """, dept_name=department_name)
+            """, dept_name=department_name, user_uid=current_user.uid)
             
             regulations = []
             for record in result:
@@ -410,9 +424,11 @@ async def get_department_regulation_gaps(department_name: str):
         )
 
 
-
 @router.post("/admin/ingest/title/{title_number}")
-async def ingest_title_to_neo4j(title_number: int):
+async def ingest_title_to_neo4j(
+    title_number: int,
+    current_user: User = Depends(get_current_user)
+):
     """
     [ADMIN] Ingest a CFR title into Neo4j
     
@@ -441,7 +457,7 @@ async def ingest_title_to_neo4j(title_number: int):
 
 
 @router.post("/admin/ensure-indexes")
-async def ensure_indexes():
+async def ensure_indexes(current_user: User = Depends(get_current_user)):
     """
     [ADMIN] Ensure Neo4j indexes for CFR data
     

@@ -1,3 +1,5 @@
+# Updated main_api.py with security improvements
+
 from fastapi import (
     FastAPI,
     UploadFile,
@@ -130,7 +132,7 @@ from uuid import uuid4
 from fastapi import Request, Response
 from fastapi import Query
 from fastapi import FastAPI
-from .graph_api import router as graph_router   # plain import works when cwd is the folder
+from .graph_api import router as graph_router
 import sys, subprocess, os
 from typing import Dict, Any
 from fastapi import FastAPI
@@ -143,7 +145,9 @@ from contextlib import asynccontextmanager
 from src.api.order_routes import router as order_router
 import threading
 import time
-
+from src.api.auth_backend import router as auth_router, get_current_user
+from src.api.models import Regulation
+from fastapi.responses import StreamingResponse
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -163,38 +167,8 @@ async def lifespan(app: FastAPI):
     print("[Shutdown] Application shutting down...")
 
 app = FastAPI(lifespan=lifespan)
+
 from src.api.obligations_ingest import router as obligations_router
-app.include_router(obligations_router)
-# dev origins — include the exact origin your frontend uses (update if different)
-origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,   # required for cookies
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-@app.options("/{rest_of_path:path}")
-async def cors_preflight_handler(rest_of_path: str):
-    return PlainTextResponse("", status_code=200)
-
-app.include_router(graph_router)
-from src.api.obligations_ingest import router as obligations_router
-app.include_router(obligations_router)
-app.include_router(audit_router)
-
-app.include_router(cfr_router)
-@app.options("/{rest_of_path:path}")
-async def cors_preflight_handler(rest_of_path: str):
-    # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
-    return PlainTextResponse("", status_code=200)
 
 # Check if Render secret file exists, else fallback to local
 if os.path.exists("/etc/secrets/.env"):
@@ -204,33 +178,56 @@ else:
     load_dotenv(".env", override=True)
     print("Loaded environment from local .env")
 
+# SECURITY IMPROVEMENT: Load CORS origins from environment
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "").split(",")
+if not ALLOWED_ORIGINS or ALLOWED_ORIGINS == [""]:
+    # Fallback for development only
+    ALLOWED_ORIGINS = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "http://localhost:8501",
+    ]
+    print("WARNING: Using default CORS origins (development mode)")
+else:
+    print(f"Using CORS origins from environment: {ALLOWED_ORIGINS}")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://nomioc.com",                        
-        "https://www.nomioc.com",                       
-        "http://localhost:8000",
-        "http://localhost:8501",        "http://localhost:5173",       "http://127.0.0.1:5173", 
-    ],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type"],
+    max_age=3600,
 )
 
+@app.options("/{rest_of_path:path}")
+async def cors_preflight_handler(rest_of_path: str):
+    return PlainTextResponse("", status_code=200)
 
+# Include routers
+app.include_router(auth_router)
 app.include_router(graph_router)
-
-router = APIRouter()
+app.include_router(obligations_router)
+app.include_router(audit_router)
+app.include_router(cfr_router)
 app.include_router(supplier_router)
 app.include_router(order_router)
+
+router = APIRouter()
+
 @app.on_event("startup")
 def startup_event():
     start_scheduler()
+
 TOKEN_FILE = "token.json"
 G_SCOPES = [
     "https://www.googleapis.com/auth/drive.readonly",
     "https://www.googleapis.com/auth/drive.metadata.readonly",
 ]
+
 firebase_key_path = (
     "/etc/secrets/firebase-adminsdk.json"
     if os.path.exists("/etc/secrets/firebase-adminsdk.json")
@@ -242,34 +239,14 @@ if not firebase_admin._apps:
     print("\n🔥 BACKEND FIREBASE PROJECT:", cred.project_id)
     print("📄 Using Firebase key file:", firebase_key_path)
 
-    
-SESSIONS = {}
+# SECURITY IMPROVEMENT: Remove in-memory sessions (now handled by auth_backend.py)
+# SESSIONS = {}  # REMOVED
 
 # Folder where files will be stored
 FILEHUB_DIR = os.path.abspath("filehub_storage")
 os.makedirs(FILEHUB_DIR, exist_ok=True)
 
-def store_user_if_new(uid, email):
-    """Store a new Firebase user in the database if not already present."""
-    from src.api.models import User  # local import avoids circular import
-    db = SessionLocal()
-    try:
-        existing = db.query(User).filter(User.uid == uid).first()
-        if not existing:
-            user = User(
-                uid=uid,
-                email=email,
-                created_at=datetime.utcnow()
-            )
-            db.add(user)
-            db.commit()
-            print(f"[DB] Created new user: {email}")
-        else:
-            print(f"[DB] User already exists: {email}")
-    except Exception as e:
-        print(f"[DB ERROR] store_user_if_new failed: {e}")
-    finally:
-        db.close()
+# SECURITY IMPROVEMENT: Remove store_user_if_new (handled by auth_backend.py)
 
 class RegulationImport(BaseModel):
     id: str
@@ -280,16 +257,19 @@ class RegulationImport(BaseModel):
     description: str | None
     source: str | None
 
-
 class ImportRequest(BaseModel):
     regulations: list[RegulationImport]
     
 @app.post("/api/regulations/import")
-def import_regulations(payload: dict, db: Session = Depends(get_db)):
+def import_regulations(
+    payload: dict, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     print("\n================ IMPORT REGULATIONS CALLED ================")
     print("RAW PAYLOAD:", payload)
 
-    user_uid = payload.get("user_uid", "test-user")
+    user_uid = current_user.uid
     regulations = payload.get("regulations", [])
 
     print(f"User UID: {user_uid}")
@@ -363,7 +343,14 @@ async def api_state_search(state: str, query: str):
         return {"error": str(e)}
 
 @app.get("/api/workspace/{user_uid}/regulations")
-def get_workspace(user_uid: str, db: Session = Depends(get_db)):
+def get_workspace(
+    user_uid: str, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # SECURITY IMPROVEMENT: Verify user can only access their own workspace
+    if user_uid != current_user.uid:
+        raise HTTPException(status_code=403, detail="Access denied")
     
     regs = (
         db.query(WorkspaceRegulation)
@@ -430,10 +417,18 @@ def wizard_search(payload: dict):
     return []
 
 @app.get("/api/users/profile/{uid}")
-def get_user_profile(uid: str, db: Session = Depends(get_db)):
+def get_user_profile(
+    uid: str, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     """
     Returns a user's profile for use in the onboarding screen.
     """
+    # SECURITY IMPROVEMENT: Verify user can only access their own profile
+    if uid != current_user.uid:
+        raise HTTPException(status_code=403, detail="Access denied")
+    
     user = db.query(User).filter(User.uid == uid).first()
 
     if not user:
@@ -448,6 +443,7 @@ def get_user_profile(uid: str, db: Session = Depends(get_db)):
         "department": user.department or "",
         "industry": user.industry or "",
     }
+
 @app.get("/api/regulations/local/granules")
 def api_all_granules():
     data = load_all_granules()
@@ -455,6 +451,7 @@ def api_all_granules():
         "count": len(data),
         "granules": data
     } 
+
 @app.get("/api/regulations/local_search")
 def local_regulation_search(q: str = Query(..., description="Search topic across local granules")):
 
@@ -482,7 +479,6 @@ def list_local_packages():
         "packages": ids
     }
 
-
 @app.get("/api/regulations/search")
 def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, or doc number")):
     """
@@ -500,30 +496,6 @@ def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, 
             content={"error": str(e)},
             status_code=500
         )
-
-@app.get("/api/workspace/{user_uid}/regulations")
-def get_workspace(user_uid: str, db: Session = Depends(get_db)):
-    items = (
-        db.query(WorkspaceRegulation)
-        .filter(WorkspaceRegulation.user_uid == user_uid)
-        .all()
-    )
-
-    return [
-        {
-            "id": item.regulation_id,
-            "workspace_status": item.workspace_status,
-            "name": item.name,
-            "code": item.code,
-            "region": item.region,
-            "category": item.category,
-            "risk": item.risk,
-            "description": item.description,
-            "recommended": item.recommended,
-            "source": item.source,
-        }
-        for item in items
-    ]
 
 import threading
 import time
@@ -573,19 +545,21 @@ async def get_regulation_text(granule_id: str):
 @app.post("/api/rag/run_compliance")
 async def run_rag_compliance(
     payload: dict,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """
     Runs RAG compliance check on a user's uploaded file
     against selected workspace regulations.
     """
-    user_uid = payload.get("user_uid")
+    # SECURITY IMPROVEMENT: Use authenticated user UID
+    user_uid = current_user.uid
     file_id = payload.get("file_id")
     regulation_ids = payload.get("regulation_ids", [])
-    supplier_id = payload.get("supplier_id")  # Optional supplier ID
+    supplier_id = payload.get("supplier_id")
     
-    if not user_uid or not file_id:
-        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+    if not file_id:
+        raise HTTPException(status_code=400, detail="Missing file_id")
     
     if not regulation_ids:
         raise HTTPException(status_code=400, detail="No regulations selected")
@@ -620,7 +594,6 @@ async def run_rag_compliance(
             "Dow_Focus": reg.region or ""
         })
     
-    # Run compliance check
     # Run compliance check with error handling
     error_msg = None
     try:
@@ -647,7 +620,6 @@ async def run_rag_compliance(
             "gap_details": [],
             "details": "Compliance engine failed. Please retry or review logs."
         }
-
 
     try:
         audit_save_result = upsert_audit_to_neo4j(
@@ -681,9 +653,6 @@ async def run_rag_compliance(
     "error": error_msg,  
 }
 
-
-
-
 @router.get("/api/v1/obligations/all")
 def get_all_obligations():
     driver = get_neo4j_driver()
@@ -709,7 +678,16 @@ def cache_refresher():
 
 
 @app.post("/api/workspace/{user_uid}/toggle/{regulation_id}")
-def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(get_db)):
+def toggle_regulation(
+    user_uid: str, 
+    regulation_id: str, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # SECURITY IMPROVEMENT: Verify user can only toggle their own workspace
+    if user_uid != current_user.uid:
+        raise HTTPException(status_code=403, detail="Access denied")
+    
     item = (
         db.query(WorkspaceRegulation)
         .filter(
@@ -734,92 +712,32 @@ def toggle_regulation(user_uid: str, regulation_id: str, db: Session = Depends(g
     db.commit()
     db.refresh(item)
 
-    #  ONLY RETURN WHAT FRONTEND NEEDS
     return {"status": item.workspace_status}
 
 @app.get("/api/user/{user_uid}/granules")
-def get_user_granules(user_uid: str, db: Session = Depends(get_db)):
+def get_user_granules(
+    user_uid: str, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # SECURITY IMPROVEMENT: Verify user can only access their own granules
+    if user_uid != current_user.uid:
+        raise HTTPException(status_code=403, detail="Access denied")
+    
     regs = (
-        db.query(Regulation)     # or RegulationModel depending on your name
+        db.query(Regulation)
         .filter(Regulation.user_uid == user_uid)
         .all()
     )
 
     return {
         "user_uid": user_uid,
-        "granule_ids": [r.id for r in regs],  # r.id *is the granule_id*
+        "granule_ids": [r.id for r in regs],
         "count": len(regs),
     }
-    
-@app.post("/session/login")
-async def session_login(request: Request, response: Response):
-    data = await request.json()
-    id_token = data.get("idToken")
-    uid = data.get("uid")
 
-    if not id_token:
-        raise HTTPException(status_code=400, detail="Missing idToken")
-
-    try:
-      decoded = firebase_auth.verify_id_token(id_token, clock_skew_seconds=10)
-    except Exception as e:
-        print("FIREBASE TOKEN ERROR:", repr(e))
-        raise HTTPException(status_code=401, detail=f"Invalid Firebase token: {e}")
-
-
-    email = decoded.get("email")
-
-    print("\n==============================")
-    print(" /session/login CALLED")
-    print("==============================")
-
-    print(" ID Token (first 50 chars):", id_token[:50] + "..." if id_token else None)
-    print(" UID:", uid)
-    print(" Email from token:", email)
-
-    try:
-        store_user_if_new(uid, email)
-    except Exception as e:
-        print(f"[Warning] Could not store user info: {e}")
-
-    session_id = str(uuid4())
-    SESSIONS[session_id] = {"email": email, "timestamp": datetime.utcnow().isoformat()}
-
-    ENV = os.getenv("ENV", "dev").strip().lower()
-    FRONTEND_URL = os.getenv("FRONTEND_URL", "").strip().lower()
-
-    if not FRONTEND_URL:
-        FRONTEND_URL = "http://localhost:8501"
-
-    IS_LOCAL = (
-        ENV == "dev"
-        or "localhost" in FRONTEND_URL
-        or FRONTEND_URL.startswith("http://127.0.0.1")
-    )
-
-    # print(f"ENV={ENV} | FRONTEND_URL={FRONTEND_URL} | IS_LOCAL={IS_LOCAL}")
-    # print("BACKEND FIREBASE PROJECT:", cred.project_id)
-    if IS_LOCAL:
-        response.set_cookie(
-            key="session_id",
-            value=session_id,
-            httponly=True,
-            secure=False,
-            samesite="Lax",
-            path="/"
-        )
-    else:
-        response.set_cookie(
-            key="session_id",
-            value=session_id,
-            httponly=True,
-            secure=True,
-            samesite="None",
-            domain=".nomioc.com",
-            path="/"
-        )
-
-    return {"status": "success", "email": email, "uid": uid}
+# SECURITY IMPROVEMENT: Remove old session login (now handled by auth_backend.py)
+# @app.post("/session/login") - REMOVED
 
 @app.get("/api/regulations/state")
 def api_state_regulations(state: str, q: str):
@@ -831,7 +749,14 @@ def api_state_regulations(state: str, q: str):
         return JSONResponse({"error": str(e)}, status_code=400)
 
 @app.get("/api/users/basic_info/{uid}")
-def get_basic_user_info(uid: str):
+def get_basic_user_info(
+    uid: str,
+    current_user: User = Depends(get_current_user)
+):
+    # SECURITY IMPROVEMENT: Verify user can only access their own info
+    if uid != current_user.uid:
+        raise HTTPException(status_code=403, detail="Access denied")
+    
     db = SessionLocal()
     user = db.query(User).filter(User.uid == uid).first()
 
@@ -859,32 +784,22 @@ async def regulations_query(q: str = ""):
             status_code=500
         )
 
-@app.get("/session/me")
-async def get_current_user(request: Request):
-    session_id = request.cookies.get("session_id")
-    print(" Cookies received:", request.cookies)
-    if not session_id or session_id not in SESSIONS:
-        print(" Missing or invalid session_id:", session_id)
-        raise HTTPException(status_code=401, detail="Not authenticated")
-    print(" Authenticated session:", SESSIONS[session_id])
-    return {"status": "authenticated", "user": SESSIONS[session_id]}
-
-@app.post("/session/logout")
-async def logout(request: Request, response: Response):
-    session_id = request.cookies.get("session_id")
-    if session_id in SESSIONS:
-        del SESSIONS[session_id]
-    response.delete_cookie("session_id")
-    return {"status": "logged_out"}
+# SECURITY IMPROVEMENT: Remove old session endpoints (handled by auth_backend.py)
+# @app.get("/session/me") - REMOVED
+# @app.post("/session/logout") - REMOVED
 
 @app.get("/api/filehub/{file_id}/direct")
-async def filehub_direct(file_id: str, user_uid: str):
+async def filehub_direct(
+    file_id: str, 
+    current_user: User = Depends(get_current_user)
+):
+    user_uid = current_user.uid
     result = get_user_file_path(user_uid, file_id)
 
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
 
-    file_path, entry = result   # <-- HERE is your path and metadata
+    file_path, entry = result
 
     return FileResponse(
         file_path,
@@ -892,6 +807,7 @@ async def filehub_direct(file_id: str, user_uid: str):
         filename=entry["original_name"],
         headers={"Content-Disposition": "inline"}
     )
+
 def extract_text_from_pdf_bytes(pdf_bytes):
     import io
 
@@ -916,7 +832,6 @@ def extract_text_from_pdf_bytes(pdf_bytes):
 
     # 3. Fallback: PyPDF2
     try:
-
         reader = PdfReader(io.BytesIO(pdf_bytes))
         text = ""
         for page in reader.pages:
@@ -928,13 +843,15 @@ def extract_text_from_pdf_bytes(pdf_bytes):
     return ""
 
 @app.get("/api/filehub/{file_id}")
-async def filehub_get(file_id: str, user_uid: str):
+async def filehub_get(
+    file_id: str, 
+    current_user: User = Depends(get_current_user)
+):
     """
     Returns the actual file (PDF, OUT file, etc.)
     Used by the frontend preview system.
     """
-    if not user_uid:
-        raise HTTPException(status_code=400, detail="Missing user_uid")
+    user_uid = current_user.uid
 
     result = get_user_file_path(user_uid, file_id)
     if not result:
@@ -973,19 +890,29 @@ def run_ingest_script(audit_path: str) -> Dict[str, Any]:
         "stdout": proc.stdout,
         "stderr": proc.stderr
     }
+
+# SECURITY IMPROVEMENT: File upload size limit
+MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
+
 @app.post("/api/filehub/upload")
 async def filehub_upload(
     file: UploadFile = File(...),
-    user_uid: str = Form(...),
     file_type: str = Form(...),
     used_for: str = Form(...),
-    department: str = Form(...)
+    department: str = Form(...),
+    current_user: User = Depends(get_current_user)
 ):
+    user_uid = current_user.uid
     print("Saving file for user:", user_uid)
     print("Received filename:", file.filename)
 
-    if not user_uid:
-        raise HTTPException(status_code=400, detail="Missing user_uid")
+    # SECURITY IMPROVEMENT: Check file size
+    file.file.seek(0, 2)
+    size = file.file.tell()
+    await file.seek(0)
+    
+    if size > MAX_FILE_SIZE:
+        raise HTTPException(status_code=413, detail="File too large (max 50MB)")
 
     # Read file
     contents = await file.read()
@@ -1000,7 +927,6 @@ async def filehub_upload(
         department
     )
 
-    # ✅ Correct key name
     file_id = entry["id"]
 
     # Get actual saved file path
@@ -1040,18 +966,20 @@ async def filehub_upload(
         "file": entry,
         "extraction": extracted
     }
-@app.get("/api/filehub")
-async def filehub_list(user_uid: str):
-    if not user_uid:
-        raise HTTPException(status_code=400, detail="Missing user_uid")
 
+@app.get("/api/filehub")
+async def filehub_list(current_user: User = Depends(get_current_user)):
+    user_uid = current_user.uid
     files = list_user_files(user_uid)
     return {"files": files}
-@app.get("/api/filehub/{file_id}/view")
-async def filehub_view(file_id: str, user_uid: str):
-    if not user_uid:
-        raise HTTPException(status_code=400, detail="Missing user_uid")
 
+@app.get("/api/filehub/{file_id}/view")
+async def filehub_view(
+    file_id: str, 
+    current_user: User = Depends(get_current_user)
+):
+    user_uid = current_user.uid
+    
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
@@ -1078,9 +1006,11 @@ async def filehub_view(file_id: str, user_uid: str):
     )
 
 @app.delete("/api/filehub/{file_id}")
-async def filehub_delete(file_id: str, user_uid: str):
-    if not user_uid:
-        raise HTTPException(status_code=400, detail="Missing user_uid")
+async def filehub_delete(
+    file_id: str, 
+    current_user: User = Depends(get_current_user)
+):
+    user_uid = current_user.uid
 
     ok = delete_user_file(user_uid, file_id)
     if not ok:
@@ -1237,53 +1167,21 @@ ROLE_ASSIGNMENTS = {
 
 from src.api.models import Supplier  
 
-@app.post("/api/suppliers")
-def create_supplier(
-    name: str = Form(...),
-    email: str = Form(...),
-    industry: str = Form(...),
-    region: str = Form(...),
-    db: Session = Depends(get_db),
-    user_uid: str = Form(...)
-):
-    supplier = Supplier(
-        name=name,
-        email=email,
-        industry=industry,
-        region=region,
-        user_uid=user_uid 
-    )
-    db.add(supplier)
-    db.commit()
-    db.refresh(supplier)
-    return supplier
-
-from fastapi import Query
-
-@app.get("/api/suppliers")
-def list_suppliers(
-    user_uid: Optional[str] = Query(None),  # Now optional
-    db: Session = Depends(get_db)
-):
-    if user_uid:
-        return db.query(Supplier).filter(Supplier.user_uid == user_uid).all()
-    else:
-        # Defensive: Return empty list if user_uid not provided
-        return []
-
-
+# SECURITY IMPROVEMENT: Supplier routes moved to supplier_routes.py
+# These endpoints are now protected in supplier_routes.py
 
 @app.post("/api/users/setup_profile")
 def setup_profile(
-    uid: str = Form(...),
     display_name: str = Form(None),
     full_name: str = Form(None),
     company_name: str = Form(None),
     job_title: str = Form(None),
     department: str = Form(None),
     industry: str = Form(None),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
+    uid = current_user.uid
     user = db.query(User).filter(User.uid == uid).first()
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
@@ -1311,8 +1209,17 @@ def setup_profile(
 def upload_supplier_file(
     supplier_id: int,
     file: UploadFile = File(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
+    # SECURITY IMPROVEMENT: Verify user owns the supplier
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
 
     file_location = f"uploads/supplier_{supplier_id}_{file.filename}"
     with open(file_location, "wb") as f:
@@ -1320,9 +1227,11 @@ def upload_supplier_file(
    
     return {"supplier_id": supplier_id, "filename": file.filename, "message": "File uploaded"}
 
-
 @app.post("/api/competitors")
-async def get_competitors(company_name: str = Form(...)):
+async def get_competitors(
+    company_name: str = Form(...),
+    current_user: User = Depends(get_current_user)
+):
     """
     Given a company name, return its competitors and their recent filings.
     """
@@ -1335,7 +1244,10 @@ async def get_competitors(company_name: str = Form(...)):
         return {"error": str(e)}
 
 @app.post("/api/analyze")
-async def analyze_company(company_name: str = Form(...)):
+async def analyze_company(
+    company_name: str = Form(...),
+    current_user: User = Depends(get_current_user)
+):
     """
     Generate AI-based insights for a company using GPT-4o.
     """
@@ -1434,7 +1346,10 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(regulatory_monitoring_job, 'interval', hours=12)
 scheduler.start()
 
-async def extract_keywords_api(file: UploadFile = File(...)):
+async def extract_keywords_api(
+    file: UploadFile = File(...),
+    current_user: User = Depends(get_current_user)
+):
     """Automatically extract compliance-related keywords from uploaded file."""
     # Save uploaded file temporarily
     file_path = os.path.join(SHARED_DIR, file.filename)
@@ -1452,7 +1367,8 @@ async def extract_keywords_api(file: UploadFile = File(...)):
 @app.post("/api/fetch_files")
 async def fetch_files(
     source: str = Form(...),
-    folder_id: str = Form(default="root")
+    folder_id: str = Form(default="root"),
+    current_user: User = Depends(get_current_user)
 ):
 
     logging.info(f"Fetching files from source: {source}, folder_id: {folder_id}")
@@ -1493,6 +1409,7 @@ async def fetch_files(
         "analyzed_file": os.path.basename(latest_file),
         "download_path": latest_file
     }
+
 def load_stored_files(response_model=None):
     if os.path.exists(STORED_FILES):
         with open(STORED_FILES, "r", encoding="utf-8") as f:
@@ -1500,7 +1417,10 @@ def load_stored_files(response_model=None):
     return []
 
 @app.post("/api/download_file", response_model=None)
-async def download_gdrive_file(file_id: str = Form(...)):
+async def download_gdrive_file(
+    file_id: str = Form(...),
+    current_user: User = Depends(get_current_user)
+):
     try:
         creds = None
         if os.path.exists("token.json"):
@@ -1528,8 +1448,13 @@ async def download_gdrive_file(file_id: str = Form(...)):
 def save_stored_files(data, response_model=None):
     with open(STORED_FILES, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
+
 @app.post("/api/internal_compliance_audit")
-async def internal_compliance_audit(file: UploadFile = File(...), response_model=None):
+async def internal_compliance_audit(
+    file: UploadFile = File(...), 
+    current_user: User = Depends(get_current_user),
+    response_model=None
+):
     try:
         # Step 1: Save the uploaded file temporarily
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
@@ -1574,13 +1499,25 @@ class ComplianceRequest(BaseModel):
     regulation_ids: list[str]
 
 @app.post("/api/rag/run_compliance_payload")
-async def run_compliance_payload(payload: dict):
-    user_uid = payload.get("user_uid")
+async def run_compliance_payload(
+    payload: dict,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Runs RAG compliance check on a user's uploaded file
+    against selected workspace regulations.
+    """
+    # SECURITY IMPROVEMENT: Use authenticated user UID
+    user_uid = current_user.uid
     file_id = payload.get("file_id")
     regulation_ids = payload.get("regulation_ids", [])
     
-    if not user_uid or not file_id:
-        raise HTTPException(status_code=400, detail="Missing user_uid or file_id")
+    if not file_id:
+        raise HTTPException(status_code=400, detail="Missing file_id")
+    
+    if not regulation_ids:
+        raise HTTPException(status_code=400, detail="No regulations selected")
     
     result = get_user_file_path(user_uid, file_id)
     if not result:
@@ -1596,7 +1533,6 @@ async def run_compliance_payload(payload: dict):
           os.path.getsize(pdf_path) if os.path.exists(pdf_path) else "N/A")
     print("====================================\n")
     
-    db = next(get_db())
     regs = db.query(WorkspaceRegulation).filter(
         WorkspaceRegulation.user_uid == user_uid,
         WorkspaceRegulation.regulation_id.in_(regulation_ids)
@@ -1657,15 +1593,6 @@ async def run_compliance_payload(payload: dict):
             if obligations:
                 print("📌 Sample obligation:", obligations[0])
 
-            # # --- Requirement Text Construction ---
-            # if obligations:
-            #     requirement_text = " ".join(
-            #         [obl.get("text", "") for obl in obligations[:3]]
-            #     )
-            #     print("🧠 Requirement text built from obligations")
-            # else:
-            #     requirement_text = full_text[:500]
-            #     print("🧠 Requirement text fallback to raw text")
             requirement_text = full_text
             print("🧠 Requirement text length:", len(requirement_text))
 
@@ -1694,6 +1621,7 @@ async def run_compliance_payload(payload: dict):
             print("Error message:", str(e))
             traceback.print_exc()
             continue
+
     print("TOTAL REGULATIONS PASSED TO RAG:", len(regulation_objs))
     print("====================================\n")
 
@@ -1753,10 +1681,12 @@ async def run_compliance_payload(payload: dict):
         "error": error_msg,
     }
 
-
 # external_intelligence endpoint updated to use safe_chat_completion
 @app.get("/api/external_intelligence", response_model=None)
-async def external_intelligence(industry: str):
+async def external_intelligence(
+    industry: str,
+    current_user: User = Depends(get_current_user)
+):
     prompt = (
         f"Generate structured JSON on compliance, risk trends, and new regulations for the {industry} industry. "
         "Format as: {"
@@ -1790,7 +1720,10 @@ async def external_intelligence(industry: str):
     return JSONResponse(content={"status": "success", "details": findings})
 
 @app.get("/api/source_graph")
-async def source_graph(platform: str):
+async def source_graph(
+    platform: str,
+    current_user: User = Depends(get_current_user)
+):
     graph_data = {"nodes": ["A", "B"], "edges": [("A", "B")]}
     return JSONResponse(content=graph_data)
 
@@ -1799,7 +1732,8 @@ async def source_graph(platform: str):
 async def create_obligation(
     description: str = Form(...), 
     regulation: str = Form(...), 
-    due_date: str = Form(...), 
+    due_date: str = Form(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     obj = ObligationInstance(
@@ -1810,11 +1744,14 @@ async def create_obligation(
     db.add(obj)
     db.commit()
     db.refresh(obj)
-    log_audit(db, "ObligationInstance", obj.id, "create", "system", f"Created obligation: {description}")
+    log_audit(db, "ObligationInstance", obj.id, "create", current_user.uid, f"Created obligation: {description}")
     return obj
 
 @app.get("/api/obligations")
-async def get_obligations(db: Session = Depends(get_db)):
+async def get_obligations(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     obligations = db.query(ObligationInstance).all()
     return obligations
 
@@ -1825,7 +1762,7 @@ async def create_task(
     sla_due: str = Form(...),
     supplier_id: str = Form(None),
     checklist_template: str = Form("{}"),
-    user_uid: str = Form(...), 
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     template = json.loads(checklist_template) if checklist_template else {}
@@ -1836,7 +1773,7 @@ async def create_task(
         sla_due=datetime.fromisoformat(sla_due),
         supplier_id=supplier_id, 
         checklist_template=template,
-        user_uid=user_uid, 
+        user_uid=current_user.uid,
     )
     
     db.add(task)
@@ -1847,26 +1784,30 @@ async def create_task(
         "RemediationTask",
         task.id,
         "create",
-         user_uid,  
+        current_user.uid,
         f"Created task for obligation {obligation_id} (supplier: {supplier_id})"
     )
     return task
 
 @app.get("/api/tasks")
 async def get_tasks(
-    user_uid: Optional[str] = Query(None),  # Now optional
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    if user_uid:
-        return db.query(RemediationTask).filter(RemediationTask.user_uid == user_uid).all()
-    else:
-        # Defensive: Return empty list if user_uid not provided
-        return []
+    return db.query(RemediationTask).filter(RemediationTask.user_uid == current_user.uid).all()
 
   
 @app.get("/api/task/{task_id}")
-async def get_task(task_id: int, db: Session = Depends(get_db)):
-    task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
+async def get_task(
+    task_id: int, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    task = db.query(RemediationTask).filter(
+        RemediationTask.id == task_id,
+        RemediationTask.user_uid == current_user.uid
+    ).first()
+    
     if not task:
         raise HTTPException(status_code=404, detail="Task not found")
     return task
@@ -1874,11 +1815,15 @@ async def get_task(task_id: int, db: Session = Depends(get_db)):
 @app.post("/api/task/{task_id}/transition")
 async def transition_task(
     task_id: int, 
-    new_state: str = Form(...), 
-    user: str = Form("system"),
+    new_state: str = Form(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
+    task = db.query(RemediationTask).filter(
+        RemediationTask.id == task_id,
+        RemediationTask.user_uid == current_user.uid
+    ).first()
+    
     if not task:
         raise HTTPException(status_code=404, detail="Task not found")
     
@@ -1895,7 +1840,7 @@ async def transition_task(
     old_state = task.state
     task.state = new_state
     db.commit()
-    log_audit(db, "RemediationTask", task.id, "transition", user, f"Transitioned from {old_state} to {new_state}")
+    log_audit(db, "RemediationTask", task.id, "transition", current_user.uid, f"Transitioned from {old_state} to {new_state}")
     return task
 
 # Evidence Management
@@ -1903,11 +1848,14 @@ async def transition_task(
 async def add_evidence(
     task_id: int, 
     evidence_file: UploadFile = File(...),
-    user: str = Form("system"),
-    db: Session = Depends(get_db),
-    user_uid: str = Form(...), 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
 ):
-    task = db.query(RemediationTask).filter(RemediationTask.id == task_id).first()
+    task = db.query(RemediationTask).filter(
+        RemediationTask.id == task_id,
+        RemediationTask.user_uid == current_user.uid
+    ).first()
+    
     if not task:
         raise HTTPException(status_code=404, detail="Task not found")
     
@@ -1920,48 +1868,75 @@ async def add_evidence(
         chromadb_id=chromadb_id,
         valid=True,
         validation_errors=[],
-        user_uid=user_uid
+        user_uid=current_user.uid
     )
     db.add(artifact)
     db.commit()
     db.refresh(artifact)
-    log_audit(db, "EvidenceArtifact", artifact.id, "upload", user, f"Uploaded evidence for task {task_id}")
+    log_audit(db, "EvidenceArtifact", artifact.id, "upload", current_user.uid, f"Uploaded evidence for task {task_id}")
     return artifact
 
 @app.get("/api/task/{task_id}/evidence")
-async def get_evidence(task_id: int, db: Session = Depends(get_db)):
+async def get_evidence(
+    task_id: int, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # SECURITY IMPROVEMENT: Verify user owns the task
+    task = db.query(RemediationTask).filter(
+        RemediationTask.id == task_id,
+        RemediationTask.user_uid == current_user.uid
+    ).first()
+    
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found")
+    
     evidence = db.query(EvidenceArtifact).filter(EvidenceArtifact.task_id == task_id).all()
     return evidence
 
 @app.post("/api/evidence/{evidence_id}/attest")
 async def attest_evidence(
-    evidence_id: int, 
-    user: str = Form(...),
+    evidence_id: int,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    artifact = db.query(EvidenceArtifact).filter(EvidenceArtifact.id == evidence_id).first()
+    artifact = db.query(EvidenceArtifact).filter(
+        EvidenceArtifact.id == evidence_id,
+        EvidenceArtifact.user_uid == current_user.uid
+    ).first()
+    
     if not artifact:
         raise HTTPException(status_code=404, detail="Evidence not found")
     
     if not artifact.valid:
         raise HTTPException(status_code=400, detail="Cannot approve invalid evidence")
     
-    artifact.approved_by = user
+    artifact.approved_by = current_user.email
     artifact.approved_on = datetime.utcnow()
     artifact.attestation_hash = hashlib.sha256(
-        json.dumps({"id": artifact.id, "chromadb_id": artifact.chromadb_id, "user": user}, sort_keys=True).encode()
+        json.dumps({"id": artifact.id, "chromadb_id": artifact.chromadb_id, "user": current_user.email}, sort_keys=True).encode()
     ).hexdigest()
     
     db.commit()
-    log_audit(db, "EvidenceArtifact", artifact.id, "attest", user, "Evidence approved and attested")
+    log_audit(db, "EvidenceArtifact", artifact.id, "attest", current_user.uid, "Evidence approved and attested")
     return artifact
 
 @app.get("/api/dashboard/summary")
-async def get_dashboard_summary(db: Session = Depends(get_db)):
-    total_tasks = db.query(RemediationTask).count()
-    done_tasks = db.query(RemediationTask).filter(RemediationTask.state == TaskState.DONE).count()
-    breached_tasks = db.query(RemediationTask).filter(RemediationTask.breach_flag == True).count()
+async def get_dashboard_summary(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    total_tasks = db.query(RemediationTask).filter(RemediationTask.user_uid == current_user.uid).count()
+    done_tasks = db.query(RemediationTask).filter(
+        RemediationTask.user_uid == current_user.uid,
+        RemediationTask.state == TaskState.DONE
+    ).count()
+    breached_tasks = db.query(RemediationTask).filter(
+        RemediationTask.user_uid == current_user.uid,
+        RemediationTask.breach_flag == True
+    ).count()
     overdue_tasks = db.query(RemediationTask).filter(
+        RemediationTask.user_uid == current_user.uid,
         RemediationTask.sla_due < datetime.utcnow(),
         RemediationTask.state != TaskState.DONE
     ).count()
@@ -1974,8 +1949,14 @@ async def get_dashboard_summary(db: Session = Depends(get_db)):
     }
 
 @app.get("/api/audit_log")
-async def get_audit_log(limit: int = 100, db: Session = Depends(get_db)):
-    logs = db.query(AuditLog).order_by(AuditLog.timestamp.desc()).limit(limit).all()
+async def get_audit_log(
+    limit: int = 100, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    logs = db.query(AuditLog).filter(
+        AuditLog.user == current_user.uid
+    ).order_by(AuditLog.timestamp.desc()).limit(limit).all()
     return logs
 
 # Automation
@@ -1983,6 +1964,7 @@ async def get_audit_log(limit: int = 100, db: Session = Depends(get_db)):
 async def auto_generate_compliance(
     regulation: str = Form(...),
     due_date_offset_days: int = Form(90),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     if regulation not in REGULATION_TEMPLATES:
@@ -2008,7 +1990,7 @@ async def auto_generate_compliance(
         db.commit()
         db.refresh(obligation)
         created_obligations.append(obligation)
-        log_audit(db, "ObligationInstance", obligation.id, "auto_create", "system", f"Auto-generated for {regulation}")
+        log_audit(db, "ObligationInstance", obligation.id, "auto_create", current_user.uid, f"Auto-generated for {regulation}")
         
         for task_idx, task_template in enumerate(obl_template["tasks"]):
             task_due = obl_due - timedelta(days=(len(obl_template["tasks"]) - task_idx) * 3)
@@ -2017,13 +1999,14 @@ async def auto_generate_compliance(
                 obligation_id=obligation.id,
                 assigned_to=assigned_to,
                 sla_due=task_due,
-                checklist_template={"title": task_template["title"]}
+                checklist_template={"title": task_template["title"]},
+                user_uid=current_user.uid
             )
             db.add(task)
             db.commit()
             db.refresh(task)
             created_tasks.append(task)
-            log_audit(db, "RemediationTask", task.id, "auto_create", "system", f"Auto-generated task: {task_template['title']}")
+            log_audit(db, "RemediationTask", task.id, "auto_create", current_user.uid, f"Auto-generated task: {task_template['title']}")
     
     return JSONResponse(content={
         "status": "success",
@@ -2032,11 +2015,16 @@ async def auto_generate_compliance(
         "tasks_created": len(created_tasks),
         "obligations": [{"id": o.id, "description": o.description} for o in created_obligations]
     })
+
 @app.get("/api/audit/run/{file_id}")
-async def run_audit_on_file(file_id: str, user_uid: str):
+async def run_audit_on_file(
+    file_id: str, 
+    current_user: User = Depends(get_current_user)
+):
     """
     Runs full compliance audit on a stored FileHub file.
     """
+    user_uid = current_user.uid
     result = get_user_file_path(user_uid, file_id)
     if not result:
         raise HTTPException(status_code=404, detail="File not found")
@@ -2065,13 +2053,19 @@ async def run_audit_on_file(file_id: str, user_uid: str):
     }
 
 @app.post("/api/trigger_regulatory_scan")
-async def trigger_regulatory_scan(background_tasks: BackgroundTasks):
+async def trigger_regulatory_scan(
+    background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user)
+):
     """Manually trigger regulatory monitoring"""
     background_tasks.add_task(regulatory_monitoring_job)
     return {"status": "success", "message": "Regulatory scan triggered"}
 
 @app.get("/api/detected_regulations")
-async def get_detected_regulations(db: Session = Depends(get_db)):
+async def get_detected_regulations(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     """Get recently auto-detected regulations"""
     recent_detections = db.query(AuditLog).filter(
         AuditLog.action == "auto_detect",
@@ -2092,6 +2086,7 @@ def log_audit(db: Session, entity_type: str, entity_id: int, action: str, user: 
     )
     db.add(entry)
     db.commit()
+
 @app.get("/api/regulations/library")
 def get_regulation_library():
     """
@@ -2141,14 +2136,13 @@ def get_regulation_library():
 
 @app.get("/")
 async def root():
-    # return {"status": "online", "service": "ComplianceAI Platform API", "monitoring": "active"}
-
-
-    findings = {"status": "success", "details": "RAG policy-compliance mock result"}
-    return JSONResponse(content=findings)
+    return {"status": "online", "service": "ComplianceAI Platform API", "version": "1.0.0"}
 
 @app.post("/add_user_to_gcs")
-async def add_user_to_gcs(request: Request):
+async def add_user_to_gcs(
+    request: Request,
+    current_user: User = Depends(get_current_user)
+):
     try:
         data = await request.json()
         email = data.get("email")
@@ -2201,7 +2195,8 @@ async def add_user_to_gcs(request: Request):
 async def rag_analysis(
     file: UploadFile = File(...),
     regulations: str = Form(...),
-    supplierid: str = Form(...)
+    supplierid: str = Form(...),
+    current_user: User = Depends(get_current_user)
 ):
     pdf_bytes = await file.read()
     pdf_text = extract_text_from_pdf_bytes(pdf_bytes)
@@ -2231,60 +2226,182 @@ async def rag_analysis(
     import json
     try:
         findings = json.loads(content)
-        # Normalize output to always be a list of findings
-        if isinstance(findings, dict) and "regulations" in findings:
-            findings = findings["regulations"]
-        elif isinstance(findings, dict):
+        if not isinstance(findings, list):
             findings = [findings]
     except Exception:
-        findings = [{"error": "Parsing error", "output": content}]
+        findings = [{"requirement": "Parsing error", "error": content}]
+
     return JSONResponse(content={
         "status": "success",
-        "supplier": supplierid,
-        "details": findings
+        "supplier_id": supplierid,
+        "file_name": file.filename,
+        "findings": findings
     })
 
-@app.get("/api/filehub/{file_id}/extract")
-async def extract_file(file_id: str, user_uid: str, db: Session = Depends(get_db)):
-    saved = db.query(FileExtraction).filter(
-        FileExtraction.file_id == file_id,
-        FileExtraction.user_uid == user_uid
-    ).first()
+def check_federal_register():
+    """Check Federal Register for new regulations"""
+    try:
+        import requests
+        response = requests.get(REGULATORY_SOURCES["FEDERAL_REGISTER"])
+        data = response.json()
+        
+        new_regulations = []
+        for item in data.get("results", []):
+            reg_id = item.get("document_number")
+            
+            if reg_id and reg_id not in processed_regulations:
+                new_regulations.append({
+                    "source": "Federal Register",
+                    "regulation_type": "Federal",
+                    "title": item.get("title", ""),
+                    "url": item.get("html_url", ""),
+                    "publication_date": item.get("publication_date", ""),
+                    "document_number": reg_id
+                })
+                processed_regulations.add(reg_id)
+        
+        return new_regulations
+    except Exception as e:
+        logging.error(f"Federal Register check failed: {e}")
+        return []
 
-    if saved:
-        return {
-            "status": "success",
-            "file_id": file_id,
-            "file_name": saved.file_name,
-            "extraction": saved.extraction,
-        }
+def start_scheduler():
+    """Start the background scheduler for regulatory monitoring"""
+    if not scheduler.running:
+        try:
+            scheduler.start()
+            logging.info("Background scheduler started successfully")
+        except Exception as e:
+            logging.error(f"Failed to start scheduler: {e}")
 
-    result = get_user_file_path(user_uid, file_id)
-    if not result:
-        raise HTTPException(status_code=404, detail="File not found")
+@app.on_event("shutdown")
+def shutdown_scheduler():
+    """Shutdown the scheduler gracefully"""
+    if scheduler.running:
+        scheduler.shutdown()
+        logging.info("Background scheduler shut down")
 
-    file_path, entry = result
+# SECURITY IMPROVEMENT: Add missing imports and definitions
+ROOT = Path(__file__).resolve().parents[1]
+DOWNLOAD_DIR = os.path.abspath("shared_downloads")
+SHARED_DIR = os.path.abspath("shared_files")
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+os.makedirs(SHARED_DIR, exist_ok=True)
 
-    with open(file_path, "rb") as f:
-        file_bytes = f.read()
+def upload_for_audit(files_data):
+    """Upload files for audit processing"""
+    try:
+        for file_info in files_data:
+            file_id = file_info.get("id")
+            file_name = file_info.get("name")
+            
+            if file_id and file_name:
+                logging.info(f"Processing file for audit: {file_name}")
+    except Exception as e:
+        logging.error(f"Audit upload failed: {e}")
 
-    text = extract_text_from_pdf_bytes(file_bytes)
-    metadata = extract_document_metadata(text)
+def get_neo4j_driver():
+    """Get Neo4j driver instance"""
+    from neo4j import GraphDatabase
+    NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+    NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
+    NEO4J_PW = os.getenv("NEO4J_PW")
+    
+    if not NEO4J_PW:
+        raise RuntimeError("NEO4J_PW not set in .env")
+    
+    return GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PW))
 
-    if not metadata.get("ok"):
-        raise HTTPException(status_code=500, detail="Metadata extraction failed")
 
-    # Save extraction
-    inserted = save_extraction(db, file_id, user_uid, metadata["metadata"])
+try:
+    if os.path.exists(SERVICE_ACCOUNT_FILE):
+        credentials_gcs = service_account.Credentials.from_service_account_file(
+            SERVICE_ACCOUNT_FILE,
+            scopes=["https://www.googleapis.com/auth/cloud-platform"]
+        )
+        from googleapiclient.discovery import build as gcp_build
+        service = gcp_build('cloudresourcemanager', 'v1', credentials=credentials_gcs)
+        logging.info("GCS service account initialized successfully")
+    else:
+        logging.warning(f"Service account file not found: {SERVICE_ACCOUNT_FILE}")
+        service = None
+except Exception as e:
+    logging.error(f"Failed to initialize GCS service account: {e}")
+    service = None
 
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for monitoring"""
     return {
-        "status": "success",
-        "file_id": file_id,
-        "file_name": entry["original_name"],
-        "extraction": inserted.extraction
+        "status": "healthy",
+        "timestamp": datetime.utcnow().isoformat(),
+        "service": "ComplianceAI Platform API"
     }
+
+# Metrics endpoint
+@app.get("/api/metrics")
+async def get_metrics(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get platform metrics for the current user"""
+    total_files = len(list_user_files(current_user.uid))
+    total_suppliers = db.query(Supplier).filter(Supplier.user_uid == current_user.uid).count()
+    total_regulations = db.query(WorkspaceRegulation).filter(
+        WorkspaceRegulation.user_uid == current_user.uid
+    ).count()
+    total_tasks = db.query(RemediationTask).filter(
+        RemediationTask.user_uid == current_user.uid
+    ).count()
+    
+    return {
+        "user_uid": current_user.uid,
+        "total_files": total_files,
+        "total_suppliers": total_suppliers,
+        "total_regulations": total_regulations,
+        "total_tasks": total_tasks,
+        "timestamp": datetime.utcnow().isoformat()
+    }
+
+# Error handlers
+@app.exception_handler(404)
+async def not_found_handler(request: Request, exc: HTTPException):
+    """Handle 404 errors"""
+    return JSONResponse(
+        status_code=404,
+        content={
+            "status": "error",
+            "message": "Resource not found",
+            "path": str(request.url.path)
+        }
+    )
+
+@app.exception_handler(500)
+async def internal_error_handler(request: Request, exc: Exception):
+    """Handle 500 errors"""
+    logging.error(f"Internal error on {request.url.path}: {exc}", exc_info=True)
+    return JSONResponse(
+        status_code=500,
+        content={
+            "status": "error",
+            "message": "Internal server error",
+            "detail": str(exc) if os.getenv("ENV") == "dev" else "An error occurred"
+        }
+    )
+
+# Cleanup on shutdown
+@app.on_event("shutdown")
+def cleanup():
+    """Cleanup resources on shutdown"""
+    try:
+        if 'driver' in globals():
+            driver.close()
+            logging.info("Neo4j driver closed")
+    except Exception as e:
+        logging.error(f"Error during cleanup: {e}")
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("src.api.main_api:app", host="0.0.0.0", port=port)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
