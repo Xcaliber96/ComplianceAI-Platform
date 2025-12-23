@@ -5,6 +5,16 @@ import { useLocation } from "react-router-dom";
 
 type RiskRating = "Low" | "Medium" | "High" | string;
 
+function getOverallRisk(results: AuditResultItem[]): "LOW" | "MED" | "HIGH" {
+  if (results.some(r => r.gap_flag && r.Risk_Rating.toLowerCase() === "high")) {
+    return "HIGH";
+  }
+  if (results.some(r => r.gap_flag && r.Risk_Rating.toLowerCase() === "medium")) {
+    return "MED";
+  }
+  return "LOW";
+}
+
 interface AuditResultItem {
   Reg_ID: string;
   Requirement_Text: string;
@@ -88,6 +98,7 @@ function buildRiskHeatmap(results: AuditResultItem[]) {
 // ------------------ COMPONENT ------------------
 
 const AuditResultsTab: React.FC = () => {
+
   const location = useLocation();
 
   // console.log("🎯 Received navigation state:", location.state);
@@ -110,6 +121,7 @@ const AuditResultsTab: React.FC = () => {
 
 
 const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results : []).map((item: any) => ({
+  
   Reg_ID: item.Reg_ID,
   Requirement_Text: item.Requirement_Text || item.Target_Area || "",
 
@@ -135,6 +147,8 @@ const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results :
   department: item.department || item.Target_Area || "Other",
 }));
 
+const overallRisk = getOverallRisk(results);
+
 const summary: AuditSummary = data.summary ?? {
   compliance_score: 0,
   total_requirements: results.length,
@@ -144,6 +158,14 @@ const summary: AuditSummary = data.summary ?? {
     ...new Set(results.filter(r => r.gap_flag).map(r => r.department || "Other"))
   ]
 };
+summary.total_requirements = results.length;
+summary.gap_count = results.filter(r => r.gap_flag).length;
+summary.high_risk_gaps = results.filter(
+  r => r.gap_flag && r.Risk_Rating.toLowerCase() === "high"
+).length;
+summary.departments_flagged = [
+  ...new Set(results.filter(r => r.gap_flag).map(r => r.department || "Other"))
+];
 
 summary.compliance_score = results.length
   ? Math.round(
@@ -168,57 +190,111 @@ summary.compliance_score = results.length
             Audit ID: <span className="font-mono">{data.audit_id}</span>
           </p>
         </header>
+<section className="grid gap-4 md:grid-cols-[2fr,1fr]">
+  {/* LEFT COLUMN */}
+  <div className="rounded-2xl bg-white p-6 shadow border border-slate-200">
+    <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+      Compliance Score
+    </h2>
 
-        <section className="grid gap-4 md:grid-cols-[2fr,1fr]">
-          <div className="rounded-xl bg-white p-5 shadow">
-            <h2 className="text-sm font-semibold uppercase text-slate-500">
-              Compliance Score
-            </h2>
+    <p className="mt-2 text-xs text-slate-400">
+      Snapshot of this document&apos;s overall alignment with the selected regulations.
+    </p>
 
-            <div className="flex justify-between items-center mt-4">
-              <div>
-                <p className="text-xs text-slate-400">
-                  Overall performance against selected regulations
-                </p>
-              </div>
+    <div className="mt-4 flex justify-between items-center">
+      <div />
 
-              <div className={`h-20 w-20 rounded-full flex items-center justify-center border-4 text-xl font-bold ${scoreColor}`}>
-                {summary.compliance_score}%
-              </div>
-            </div>
+      <div
+        className={`h-20 w-20 rounded-full flex items-center justify-center border-4 text-xl font-bold ${scoreColor}`}
+      >
+        {summary.compliance_score}%
+      </div>
+    </div>
 
-            <div className="mt-5 grid grid-cols-2 gap-3 text-sm bg-slate-50 p-4 rounded-lg">
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Requirements</p>
-                <p className="font-semibold">{summary.total_requirements}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Gaps</p>
-                <p className="font-semibold text-amber-600">{summary.gap_count}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">High Risk</p>
-                <p className="font-semibold text-rose-600">{summary.high_risk_gaps}</p>
-              </div>
-              <div>
-                <p className="text-xs text-slate-500 uppercase">Departments</p>
-                <p className="font-semibold">{(summary.departments_flagged || []).length}</p>
-              </div>
-            </div>
-          </div>
-          
+    <div className="mt-6 grid grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl text-sm">
+      <div>
+        <p className="text-xs uppercase text-slate-500">Total Requirements</p>
+        <p className="font-semibold">{summary.total_requirements ?? 0}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">Gaps Detected</p>
+        <p className="font-semibold text-amber-600">{summary.gap_count ?? 0}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">High-Risk Issues</p>
+        <p className="font-semibold text-rose-600">{summary.high_risk_gaps}</p>
+      </div>
+      <div>
+        <p className="text-xs uppercase text-slate-500">Departments Flagged</p>
+        <p className="font-semibold">
+          {(summary.departments_flagged || []).length}
+        </p>
+      </div>
+    </div>
+  </div>
 
-          {/* File Info */}
-          <div className="rounded-xl bg-white p-5 shadow">
-            <h2 className="text-sm font-semibold uppercase text-slate-500">
-              Evidence File
-            </h2>
-            <p className="mt-3 text-sm">
-              <strong>{data.file}</strong>
-            </p>
-            <p className="text-xs text-slate-500 mt-1">Uploaded by {data.user_uid}</p>
-          </div>
-        </section>
+  {/* RIGHT COLUMN */}
+  <div className="flex flex-col gap-3">
+    {/* Evidence File */}
+    <div className="rounded-2xl bg-white p-5 shadow border border-slate-200">
+      <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+        Evidence File
+      </h2>
+
+      <div className="mt-4 space-y-2 text-sm">
+        <div className="flex justify-between">
+          <span className="text-slate-500">File Name</span>
+          <span className="font-medium text-slate-900">{data.file}</span>
+        </div>
+
+        <div className="flex justify-between">
+          <span className="text-slate-500">Uploaded By</span>
+          <span className="text-slate-700">{data.user_uid}</span>
+        </div>
+
+        <div className="flex justify-between">
+          <span className="text-slate-500">File Type</span>
+          <span className="text-slate-700">PDF</span>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        className="mt-4 w-full rounded-lg bg-slate-900 py-2 text-xs font-semibold text-white hover:bg-slate-800"
+      >
+        View PDF Document
+      </button>
+    </div>
+
+    {/* Full Audit Graph */}
+    <div className="rounded-xl border border-violet-200 bg-violet-50 p-4 shadow-sm">
+      <div className="flex items-start gap-3">
+        <div className="h-7 w-7 flex items-center justify-center rounded-full bg-violet-600 text-white text-xs font-semibold">
+          ⬢
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-violet-900">
+            Full Audit Graph
+          </h3>
+
+          <p className="mt-1 text-xs text-violet-700 leading-snug">
+            Explore the complete graph of regulations, obligations, controls,
+            and department impact for this audit in Neo4j.
+          </p>
+
+          <button
+            type="button"
+            className="mt-3 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-violet-700"
+          >
+            View Full Audit in Dashboard →
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* ---------------- RESULTS TABLE ---------------- */}
         <section className="mt-8 rounded-xl bg-white p-5 shadow">
@@ -305,6 +381,9 @@ summary.compliance_score = results.length
           <h2 className="text-sm font-semibold uppercase text-slate-500 mb-3">
             Risk Heatmap
           </h2>
+          <div className="flex items-center gap-2 mb-4 text-xs text-slate-600">
+
+        </div>
 
           <table className="min-w-full text-xs">
             <thead>
@@ -317,16 +396,30 @@ summary.compliance_score = results.length
             </thead>
 
             <tbody>
-              {Object.entries(heatmap).map(([dept, lvl]) => (
-                <tr key={dept} className="border-b">
-                  <td className="px-3 py-2">{dept}</td>
-                  {(["LOW", "MED", "HIGH"] as const).map((cat) => (
-                    <td key={cat} className="px-3 py-2 text-center">
-                      {lvl[cat] || "—"}
-                    </td>
-                  ))}
-                </tr>
-              ))}
+
+          {Object.entries(heatmap).map(([dept, lvl]) => (
+  <tr key={dept} className="border-b">
+    <td className="px-3 py-2">{dept}</td>
+
+    {(["LOW", "MED", "HIGH"] as const).map((level) => (
+  <td key={level} className="px-3 py-2 text-center">
+      {overallRisk === level ? (
+        <span
+          className={`inline-block h-3 w-3 rounded-full ${
+            level === "HIGH"
+              ? "bg-rose-500"
+              : level === "MED"
+              ? "bg-amber-500"
+              : "bg-emerald-500"
+          }`}
+        />
+      ) : (
+        "—"
+      )}
+    </td>
+    ))}
+  </tr>
+))}
             </tbody>
           </table>
         </section>

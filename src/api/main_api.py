@@ -629,6 +629,12 @@ async def run_rag_compliance(
             regulations=regulation_objs
         )
         results = checker.run_check()
+        file_department = entry.get("department", "Other")
+
+        for r in results:
+            # Do not overwrite if checker already set it
+            if not r.get("department"):
+                r["department"] = file_department
         summary = checker.dashboard_summary(results)
     except Exception as e:
         print("RAG ERROR:", e)
@@ -1656,16 +1662,6 @@ async def run_compliance_payload(payload: dict):
             print("📌 Obligation count:", len(obligations))
             if obligations:
                 print("📌 Sample obligation:", obligations[0])
-
-            # # --- Requirement Text Construction ---
-            # if obligations:
-            #     requirement_text = " ".join(
-            #         [obl.get("text", "") for obl in obligations[:3]]
-            #     )
-            #     print("🧠 Requirement text built from obligations")
-            # else:
-            #     requirement_text = full_text[:500]
-            #     print("🧠 Requirement text fallback to raw text")
             requirement_text = full_text
             print("🧠 Requirement text length:", len(requirement_text))
 
@@ -1705,6 +1701,13 @@ async def run_compliance_payload(payload: dict):
             regulations=regulation_objs
         )
         results = checker.run_check()
+
+        # 🔽 ADD THIS BLOCK
+        file_department = entry.get("department", "Other")
+        for r in results:
+            if not r.get("department"):
+                r["department"] = file_department
+
         summary = checker.dashboard_summary(results)
 
         print("✅ DEBUG: RESULT COUNT:", len(results))
@@ -2057,6 +2060,7 @@ async def run_audit_on_file(file_id: str, user_uid: str):
     checker = ComplianceChecker(pdf_path=file_path, regulations=regulations)
 
     results = checker.run_check()
+    
     return {
         "status": "success",
         "file": entry["original_name"],
