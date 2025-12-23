@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from "react";
 import { v4 as uuidv4 } from "uuid";
-import { wizardSearch, getLocalPackages,BASE_URL  ,getRegulationText } from "../../api/client";
+import { wizardSearch, getLocalPackages,BASE_URL  ,getCfrSection } from "../../api/client";
+import { useNavigate } from "react-router-dom";
 type SourceType = "government" | "state";
 type GovernmentSearchMode = "topic" | "packageId";
 type StateSearchMode = "ruleNumber" | "topic";
@@ -17,6 +18,102 @@ type Regulation = {
 };
 
 const AddRegulationsPage: React.FC = () => {
+  // ===== STATIC FAKE DATA FOR TESTING =====
+const FAKE_GOVERNMENT_REGULATIONS: Regulation[] = [
+  {
+    id: "ecfr-100.1",
+    name: "§100.1 Ethical Conduct Requirements",
+    code: "5 CFR 100.1",
+    region: "Federal",
+    category: "Ethics",
+    risk: "medium",
+    description: "Standards of ethical conduct for federal employees.",
+    source: "ECFR"
+  },
+  {
+    id: "ecfr-200.4",
+    name: "§200.4 Data Protection Standards",
+    code: "5 CFR 200.4",
+    region: "Federal",
+    category: "Data Protection",
+    risk: "high",
+    description: "Minimum data security and privacy requirements.",
+    source: "ECFR"
+  }
+];
+
+const FAKE_STATE_REGULATIONS: Regulation[] = [
+  {
+    id: "mi-r325-1001",
+    name: "R 325.1001 – Michigan Health Rule",
+    code: "R 325.1001",
+    region: "Michigan",
+    category: "Health Safety",
+    risk: "low",
+    description: "Michigan administration rule for public health facilities.",
+    source: "Michigan Admin Code"
+  },
+  {
+    id: "mi-r400-20",
+    name: "R 400.20 – Child Care Safety Requirements",
+    code: "R 400.20",
+    region: "Michigan",
+    category: "Child Safety",
+    risk: "medium",
+    description: "Basic requirements for childcare provider safety.",
+    source: "Michigan Admin Code"
+  }
+];
+
+const STATIC_TITLES = [
+  {
+    number: 12,
+    name: "Food & Drugs",
+    parts: [
+      {
+        part_number: "100",
+        part_heading: "Labeling Requirements",
+        sections: [
+          {
+            section_number: "100.1",
+            heading: "Label definitions",
+            text: [
+              "This is fake regulation text for demonstration.",
+              "Paragraph 1: Lorem ipsum dolor sit amet.",
+              "Paragraph 2: Consectetur adipiscing elit."
+            ]
+          },
+          {
+            section_number: "100.2",
+            heading: "Ingredient labeling",
+            text: ["Fake regulation text for 100.2"]
+          }
+        ]
+      },
+      {
+        part_number: "101",
+        part_heading: "Food Labeling",
+        sections: [
+          {
+            section_number: "101.1",
+            heading: "Food labeling basics",
+            text: ["Example section text 101.1..."]
+          }
+        ]
+      }
+    ]
+  }
+];
+const [step, setStep] = useState(1);
+// CFR structure wizard state (government only)
+const [titleInput, setTitleInput] = useState("");
+const [partInput, setPartInput] = useState("");
+const [sectionInput, setSectionInput] = useState("");
+
+const [structureError, setStructureError] = useState<string | null>(null);
+const [structureLoading, setStructureLoading] = useState(false);
+const navigate = useNavigate();
+
   const [sourceType, setSourceType] = useState<SourceType>("government");
   const [stateValue, setStateValue] = useState("michigan");
   const [govSearchMode, setGovSearchMode] =
@@ -80,41 +177,31 @@ const handleFetch = async () => {
   setSelectedIds([]);
 
   try {
-    let payload: any = {
-      sourceType,
-      query,
-    };
+    // Fake delay to show loading animation
+    await new Promise((resolve) => setTimeout(resolve, 500));
+
+    let fakeResults: Regulation[] = [];
 
     if (sourceType === "government") {
-      payload.mode = govSearchMode;         // "topic" | "packageId"
-    }
-
-    if (sourceType === "state") {
-      payload.mode = stateSearchMode;       // "ruleNumber" | "topic"
-      payload.state = stateValue;           // currently "michigan"
-    }
-
-    console.log("Sending search payload:", payload);
-
-   const data = (await wizardSearch(payload)) || [];
-   if (!Array.isArray(data)) {
-      setError("Invalid response from server.");
-      setIsLoading(false);
-      return;
-    }
-    if (!data || data.length === 0) {
-      setError("No regulations found for this search.");
-      setResults([]);
+      fakeResults = FAKE_GOVERNMENT_REGULATIONS.filter(r =>
+        r.name.toLowerCase().includes(query.toLowerCase())
+      );
     } else {
-      setResults(data);
-
-      if (data.length === 1) {
-        setSelectedIds([data[0].id]); // auto select single result
-      }
+      fakeResults = FAKE_STATE_REGULATIONS.filter(r =>
+        r.name.toLowerCase().includes(query.toLowerCase())
+      );
     }
+
+    setResults(fakeResults);
+
+    if (fakeResults.length === 0) {
+      setError("No regulations found for this search.");
+    } else if (fakeResults.length === 1) {
+      setSelectedIds([fakeResults[0].id]);
+    }
+
   } catch (err: any) {
-    console.error(err);
-    setError(err.message || "Something went wrong while fetching.");
+    setError("Something went wrong.");
   } finally {
     setIsLoading(false);
   }
@@ -129,35 +216,41 @@ useEffect(() => {
 }, []);
 
 const handleAddSelected = async () => {
+  console.log("=== handleAddSelected() CALLED ===");
+
   if (selectedIds.length === 0) {
-    setError("Please select at least one regulation to add.");
+    console.log("No selectedIds — aborting");
+    setError("Please select at least one regulation.");
     return;
   }
+
+  console.log("Selected IDs:", selectedIds);
 
   setIsLoading(true);
   setError(null);
 
   try {
     const selectedRegs = results.filter((r) => selectedIds.includes(r.id));
-const user_uid = localStorage.getItem("user_uid");
-alert(user_uid)
-if (!user_uid) {
-  console.error("❌ No user_uid found in localStorage");
-  return;
-}
+    console.log("Selected regs:", JSON.stringify(selectedRegs, null, 2));
 
-    // 1️⃣ FETCH FULL TEXT BEFORE SENDING TO BACKEND
-    const enriched = await Promise.all(
-      selectedRegs.map(async (reg) => {
-        const full = await getRegulationText(reg.id); // ← retrieves parsed .txt
-        return {
-          ...reg,
-          full_text: full.text, // ← store the full text in dataset
-        };
-      })
-    );
+    const user_uid = localStorage.getItem("user_uid");
+    console.log("User UID:", user_uid);
 
-    // 2️⃣ SEND THE DATA TO BACKEND (using BASE_URL)
+    if (!user_uid) {
+      throw new Error("No user UID found — cannot save.");
+    }
+
+    // Build the enriched payload
+    const enriched = selectedRegs.map((reg) => ({
+      ...reg,
+      full_text: reg.description || "",
+    }));
+
+    console.log("Enriched payload to backend:");
+    console.log(JSON.stringify(enriched, null, 2));
+
+    console.log("POST →", `${BASE_URL}/api/regulations/import`);
+
     const response = await fetch(`${BASE_URL}/api/regulations/import`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -167,29 +260,183 @@ if (!user_uid) {
       }),
     });
 
+    console.log("Raw backend response:", response);
+
     if (!response.ok) {
-      throw new Error("Failed to add regulations.");
+      const errText = await response.text();
+      console.log("Backend non-OK response body:", errText);
+      throw new Error(`Failed to save regulations: ${errText}`);
     }
 
-    alert(`Added ${selectedIds.length} regulations with full text.`);
+    const json = await response.json();
+    console.log("Parsed backend JSON:", json);
+
+    if (!json.ok) {
+      throw new Error(json.error || "Backend reported failure saving.");
+    }
+
     resetResults();
     setQuery("");
-
-  } catch (err: any) {
-    console.error(err);
-    setError(err.message || "Something went wrong.");
+    navigate("/dashboard/regulations");
+  } catch (err) {
+    console.error("🔥 SAVE ERROR:", err);
+    setError(err.message || "Something went wrong while saving.");
   } finally {
+    console.log("=== handleAddSelected() FINISHED ===");
     setIsLoading(false);
   }
 };
 
+async function handleSelectTitle(title: any) {
+  setSelectedTitle(title);
+  setStep(2);
 
-  const showGovTopic = sourceType === "government" && govSearchMode === "topic";
+  const res = await fetch(`${BASE_URL}/api/v1/cfr/title/${title.title_number}`);
+  const json = await res.json();
+
+  if (json.ok) {
+    setParts(json.title.parts);
+  }
+}
+function handleSelectPart(part: any) {
+  setSelectedPart(part);
+
+
+  setStep(3);
+}
+
+function handleSelectSection(section: any) {
+  setSelectedSection(section);
+  setStep(4);
+}
+
+const handleConfirmTitle = async () => {
+  if (!titleInput.trim()) {
+    setStructureError("Please enter a CFR title number (1–50).");
+    return;
+  }
+
+  const num = parseInt(titleInput.trim(), 10);
+  if (Number.isNaN(num) || num < 1 || num > 50) {
+    setStructureError("Title must be a number between 1 and 50.");
+    return;
+  }
+
+  setStructureLoading(true);
+  setStructureError(null);
+
+  try {
+    const res = await fetch(`${BASE_URL}/api/v1/cfr/title/${num}`);
+    if (!res.ok) {
+      throw new Error(`Title ${num} not found.`);
+    }
+    const json = await res.json();
+    if (!json.ok || !json.title) {
+      throw new Error(json.error || "Failed to load title data.");
+    }
+
+    setSelectedTitle(json.title);
+    setParts(json.title.parts || []);
+    setSelectedPart(null);
+    setSelectedSection(null);
+    setPartInput("");
+    setSectionInput("");
+    setStep(2); // move to Part step
+  } catch (e: any) {
+    setStructureError(e.message || "Failed to load title.");
+  } finally {
+    setStructureLoading(false);
+  }
+};
+
+const handleConfirmPart = () => {
+  if (!partInput.trim()) {
+    setStructureError("Please enter a part number.");
+    return;
+  }
+  const part = parts.find(
+    (p: any) => String(p.part_number) === partInput.trim()
+  );
+
+  if (!part) {
+    setStructureError("Part not found in this title.");
+    return;
+  }
+  console.log("MATCHED PART:", part);
+
+setSelectedPart(part);
+setSelectedSection(null);
+setSectionInput("");
+setStructureError(null);
+setStep(3);
+};
+
+const handleConfirmSection = async () => {
+  if (!sectionInput.trim()) {
+    setStructureError("Please enter a section number.");
+    return;
+  }
+
+  try {
+    const res = await getCfrSection(
+      selectedTitle.title_number,
+      selectedPart.part_number,
+      sectionInput.trim()
+    );
+
+    console.log("Backend returned:", res);
+
+    if (!res.ok) {
+      setStructureError("Section not found.");
+      return;
+    }
+
+    // Store selected section
+    setSelectedSection(res.section);
+
+    // ADD THIS — Populate results panel
+    setResults([{
+      id: `cfr-${selectedTitle.title_number}-${selectedPart.part_number}-${res.section.section_number}`,
+      name: `§${res.section.section_number} ${res.section.heading}`,
+      code: `${selectedTitle.title_number} CFR ${selectedPart.part_number}.${res.section.section_number}`,
+      region: "Federal",
+      category: selectedTitle.title_name,
+      description: res.section.regulation_text?.join(" ") || "",
+      source: "ECFR"
+    }]);
+
+    setSelectedIds([]); // reset selections
+    setStructureError(null);
+    setStep(4);
+
+  } catch (err) {
+    console.error(err);
+    setStructureError("Section not found.");
+  }
+};
+
+const showGovTopic = sourceType === "government" && govSearchMode === "topic";
   const showGovPackage =
     sourceType === "government" && govSearchMode === "packageId";
   const showStateRule =
     sourceType === "state" && stateSearchMode === "ruleNumber";
   const showStateTopic = sourceType === "state" && stateSearchMode === "topic";
+const [titles, setTitles] = useState<any[]>([]);
+const [parts, setParts] = useState<any[]>([]);
+
+const [selectedTitle, setSelectedTitle] = useState<any>(null);
+const [selectedPart, setSelectedPart] = useState<any>(null);
+const [selectedSection, setSelectedSection] = useState<any>(null);
+useEffect(() => {
+  async function fetchTitles() {
+    const res = await fetch(`${BASE_URL}/api/v1/cfr/titles`);
+    const json = await res.json();
+    if (json.ok) {
+      setTitles(json.titles);
+    }
+  }
+  fetchTitles();
+}, []);
 
   return (
     <div className="min-h-screen bg-slate-50 py-10">
@@ -336,50 +583,81 @@ if (!user_uid) {
               {/* Search mode toggles */}
               <div className="mt-4 grid gap-4 md:grid-cols-[1.1fr,2fr]">
                 <div className="space-y-4 rounded-xl bg-slate-50 p-4">
-                  {sourceType === "government" && (
-                    <>
-                      <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-                        Government search mode
-                      </p>
-                      <div className="space-y-2 text-sm">
-                        <label className="flex cursor-pointer items-start gap-2">
-                          <input
-                            type="radio"
-                            className="mt-[2px] h-3 w-3 accent-emerald-600"
-                            checked={govSearchMode === "topic"}
-                            onChange={() => handleGovModeChange("topic")}
-                          />
-                          <div>
-                            <p className="text-xs font-medium text-slate-900">
-                              Topic
-                            </p>
-                            <p className="text-[11px] text-slate-500">
-                              Search for frameworks by high-level topic such as
-                              data privacy or financial reporting.
-                            </p>
-                          </div>
-                        </label>
+{sourceType === "government" && (
+  <div className="space-y-4 rounded-xl bg-slate-50 p-4">
+    <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+      Regulation Search Structure
+    </p>
 
-                        <label className="flex cursor-pointer items-start gap-2">
-                          <input
-                            type="radio"
-                            className="mt-[2px] h-3 w-3 accent-emerald-600"
-                            checked={govSearchMode === "packageId"}
-                            onChange={() => handleGovModeChange("packageId")}
-                          />
-                          <div>
-                            <p className="text-xs font-medium text-slate-900">
-                              Package ID
-                            </p>
-                            <p className="text-[11px] text-slate-500">
-                              Use an exact package or framework identifier when
-                              you already know the precise set to import.
-                            </p>
-                          </div>
-                        </label>
-                      </div>
-                    </>
-                  )}
+    <div className="space-y-2 text-sm">
+
+      {/* STEP 1: TITLE */}
+      <label className="flex cursor-default items-start gap-2">
+        <input
+          type="radio"
+          disabled
+          checked={step === 1}
+          className="mt-[2px] h-3 w-3 accent-emerald-600"
+        />
+        <div>
+          <p className="text-xs font-medium text-slate-900">Title</p>
+          <p className="text-[11px] text-slate-500">
+            Select or search the regulation Title.
+          </p>
+        </div>
+      </label>
+
+      {/* STEP 2: PART */}
+      <label className="flex cursor-default items-start gap-2">
+        <input
+          type="radio"
+          disabled
+          checked={step === 2}
+          className="mt-[2px] h-3 w-3 accent-emerald-600"
+        />
+        <div>
+          <p className="text-xs font-medium text-slate-900">Part</p>
+          <p className="text-[11px] text-slate-500">
+            Narrow down into the specific Part within a Title.
+          </p>
+        </div>
+      </label>
+
+      {/* STEP 3: SECTION */}
+      <label className="flex cursor-default items-start gap-2">
+        <input
+          type="radio"
+          disabled
+          checked={step === 3}
+          className="mt-[2px] h-3 w-3 accent-emerald-600"
+        />
+        <div>
+          <p className="text-xs font-medium text-slate-900">Section</p>
+          <p className="text-[11px] text-slate-500">
+            Select the precise Section within a Part.
+          </p>
+        </div>
+      </label>
+
+      {/* STEP 4: REVIEW */}
+      <label className="flex cursor-default items-start gap-2">
+        <input
+          type="radio"
+          disabled
+          checked={step === 4}
+          className="mt-[2px] h-3 w-3 accent-emerald-600"
+        />
+        <div>
+          <p className="text-xs font-medium text-slate-900">Review</p>
+          <p className="text-[11px] text-slate-500">
+            Review the selected Title → Part → Section before importing.
+          </p>
+        </div>
+      </label>
+
+    </div>
+  </div>
+)}
 
                   {sourceType === "state" && (
                     <>
@@ -427,100 +705,146 @@ if (!user_uid) {
                   )}
                 </div>
 
-                {/* Query input */}
-                <div className="flex flex-col justify-between gap-4 rounded-xl border border-slate-100 bg-slate-50 p-4">
-               <div className="space-y-2">
-  {/* LABEL */}
-  <label className="text-xs font-medium text-slate-700">
-    {showGovTopic && "Government topic"}
-    {showGovPackage && "Package ID"}
-    {showStateRule && "Michigan rule number"}
-    {showStateTopic && "State topic"}
-  </label>
+<div className="flex flex-col justify-between gap-4 rounded-xl border border-slate-100 bg-slate-50 p-4">
+  {sourceType === "government" ? (
+    <div className="space-y-4">
 
-  {/* GOVERNMENT TOPIC MODE (normal text input) */}
-  {showGovTopic && (
-    <input
-      type="text"
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="e.g. data privacy, cybersecurity, financial reporting"
-      className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
-    />
-  )}
+      {/* STEP 1: TITLE */}
+      {step === 1 && (
+        <div className="space-y-2">
+          <label className="text-xs font-medium text-slate-700">CFR Title (1–50)</label>
+          <input
+            type="text"
+            value={titleInput}
+            onChange={(e) => setTitleInput(e.target.value)}
+            placeholder="e.g. 12"
+            className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm"
+          />
 
-  {/* GOVERNMENT PACKAGE ID MODE (dropdown + manual override) */}
-  {showGovPackage && (
+          {structureError && <p className="text-[11px] text-rose-500">{structureError}</p>}
+
+          <div className="flex justify-end">
+            <button
+              type="button"
+              onClick={handleConfirmTitle}
+              className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white"
+            >
+              Confirm title
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* STEP 2: PART */}
+      {step === 2 && (
+        <div className="space-y-2">
+          <p className="text-[11px] text-slate-500">
+            Title {selectedTitle?.title_number} — {selectedTitle?.title_name}
+          </p>
+
+          <label className="text-xs font-medium">Part number</label>
+          <input
+            type="text"
+            value={partInput}
+            onChange={(e) => setPartInput(e.target.value)}
+            placeholder="e.g. 100"
+            className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2"
+          />
+
+          {structureError && <p className="text-[11px] text-rose-500">{structureError}</p>}
+
+          <div className="flex justify-between">
+            <button onClick={() => setStep(1)} className="text-[11px] text-slate-500">
+              ← Back
+            </button>
+            <button
+              type="button"
+              onClick={handleConfirmPart}
+              className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white"
+            >
+              Confirm part
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* STEP 3: SECTION */}
+      {step === 3 && (
+        <div className="space-y-2">
+          <p className="text-[11px] text-slate-500">
+            Title {selectedTitle?.title_number} — {selectedTitle?.title_name} · Part{" "}
+            {selectedPart?.part_number}
+          </p>
+
+          <label className="text-xs font-medium">Section number</label>
+          <input
+            type="text"
+            value={sectionInput}
+            onChange={(e) => setSectionInput(e.target.value)}
+            placeholder="e.g. 100.1"
+            className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2"
+          />
+
+          {structureError && <p className="text-[11px] text-rose-500">{structureError}</p>}
+
+          <div className="flex justify-between">
+            <button onClick={() => setStep(2)} className="text-[11px] text-slate-500">
+              ← Back
+            </button>
+            <button
+              type="button"
+              onClick={handleConfirmSection}
+              className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white"
+            >
+              Confirm section & add
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* STEP 4: REVIEW */}
+      {step === 4 && (
+        <div className="space-y-1 text-xs">
+          <p className="font-semibold text-slate-900">Review CFR selection</p>
+          <p>Title {selectedTitle?.title_number} — {selectedTitle?.title_name}</p>
+          <p>Part {selectedPart?.part_number} — {selectedPart?.part_heading}</p>
+          <p>Section {selectedSection?.section_number} — {selectedSection?.heading}</p>
+        </div>
+      )}
+
+    </div>
+  ) : (
+    // STATE SEARCH (unchanged)
     <>
-      <select
-        className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      >
-        <option value="">Select a Package ID</option>
-        {packageList.map((pkg) => (
-          <option key={pkg} value={pkg}>
-            {pkg}
-          </option>
-        ))}
-      </select>
+      <label className="text-xs font-medium text-slate-700">
+        {showStateRule && "Michigan rule number"}
+        {showStateTopic && "State topic"}
+      </label>
 
       <input
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Or type a Package ID (e.g. FR-2025-11-25)"
-        className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
+        className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2"
       />
+
+      {error && <p className="text-[11px] text-rose-500">{error}</p>}
+
+      <div className="flex justify-end">
+        <button
+          type="button"
+          onClick={handleFetch}
+          className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white"
+        >
+          Fetch regulations
+        </button>
+      </div>
     </>
   )}
-
-  {/* STATE RULE MODE */}
-  {showStateRule && (
-    <input
-      type="text"
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="e.g. R 325.1001"
-      className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
-    />
-  )}
-
-  {/* STATE TOPIC MODE */}
-  {showStateTopic && (
-    <input
-      type="text"
-      value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="e.g. food safety, fire protection"
-      className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
-    />
-  )}
-
-  <p className="text-[11px] text-slate-400">
-    Press “Fetch regulations” to preview and select the frameworks you want to import.
-  </p>
 </div>
 
-
-                  <div className="flex items-center justify-between gap-3">
-                    {error && (
-                      <p className="text-[11px] text-rose-500">{error}</p>
-                    )}
-                    <div className="flex flex-1 justify-end">
-                      <button
-                        type="button"
-                        onClick={handleFetch}
-                        disabled={isLoading}
-                        className="inline-flex items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-emerald-700 disabled:cursor-not-allowed disabled:bg-emerald-300"
-                      >
-                        {isLoading ? "Fetching…" : "Fetch regulations"}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+</div>
+</section>
 
             {/* Step 3: Results */}
             <section className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100">

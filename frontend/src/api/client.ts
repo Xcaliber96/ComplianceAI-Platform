@@ -404,7 +404,6 @@ export const runCompliance = async (
   return data;
 };
 
-
 export const runRagCompliance = async (
   file: File,
   regulations: string,
@@ -573,6 +572,57 @@ export const getDashboardSummary = async (): Promise<DashboardSummary> => {
   const response = await apiClient.get('/api/dashboard/summary')
   return response.data
   
+}
+
+export async function getCfrTitles() {
+  const res = await apiClient.get("/api/v1/cfr/titles");
+  return res.data;
+}
+
+export async function getCfrTitle(titleNumber: number) {
+  const res = await apiClient.get(`/api/v1/cfr/title/${titleNumber}`);
+  return res.data;
+}
+
+export async function getCfrSection(title: number, part: string, section: string) {
+  const res = await apiClient.get("/api/v1/cfr/section", {
+    params: { title, part, section }
+  });
+  return res.data;
+}
+
+export async function searchCfr(query: string, title?: number, limit: number = 50) {
+  const res = await apiClient.get("/api/v1/cfr/search", {
+    params: { query, title, limit }
+  });
+  return res.data;
+}
+
+export async function getAuditGaps(auditId: string) {
+  const res = await apiClient.get(`/api/v1/cfr/audit/${auditId}/gaps`);
+  return res.data;
+}
+
+export async function getRegulationAuditHistory(regulationId: string) {
+  const res = await apiClient.get(`/api/v1/cfr/regulation/${regulationId}/audits`);
+  return res.data;
+}
+
+
+export async function getDepartmentGaps(department: string) {
+  const res = await apiClient.get(`/api/v1/cfr/department/${department}/gaps`);
+  return res.data;
+}
+
+
+export async function ingestCfrTitle(titleNumber: number) {
+  const res = await apiClient.post(`/api/v1/cfr/admin/ingest/title/${titleNumber}`);
+  return res.data;
+}
+
+export async function ensureCfrIndexes() {
+  const res = await apiClient.post("/api/v1/cfr/admin/ensure-indexes");
+  return res.data;
 }
 
 export interface AuditLogEntry {

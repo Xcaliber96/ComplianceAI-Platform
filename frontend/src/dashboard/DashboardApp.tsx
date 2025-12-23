@@ -67,16 +67,11 @@ const handleCollapseChange = (value: boolean) => {
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="upload" element={<DocumentAudit />} />
-        <Route path="suppliers" element={<SupplierOnboarding />} />
-        <Route path="llm" element={<LLM />} />
-       
         <Route path="CompliancePlanner" element={<CompliancePlanner />} />
-        <Route path="competitors" element={<CompetitorsPage />} />
-       <Route path="AddFile" element={<AddFile onClose={() => {}} />} />
+        <Route path="AddFile" element={<AddFile onClose={() => {}} />} />
         <Route path="Filelist" element={<Filelist />} />
         <Route path="settings" element={<Typography>Settings coming soon</Typography>} />
         <Route path="file/:id" element={<FileViewer />} />
-        <Route path="FileCard" element={<Typography>FileCard</Typography>} />
         <Route path="regmanage" element={<AddRegulationsPage />} /> <Route path="Onboarding" element={<Onboarding />} />
         <Route path="extract/:id" element={<FileExtractPage />} />
         <Route path="ShowList" element={<ShowList />} />
@@ -86,6 +81,7 @@ const handleCollapseChange = (value: boolean) => {
         <Route path="auditresults" element={<AuditResultsPage />} />
         <Route path="AuditLogPage" element={<AuditLogPage />} />
         <Route path="results" element={<AuditResultsTab />} />
+        
       </Routes>
     </Box>
 

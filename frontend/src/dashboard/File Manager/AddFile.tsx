@@ -20,6 +20,7 @@ import { uploadToFileHub } from "../../api/client";
 import { useNavigate } from "react-router-dom";
 
 export default function AddFile({ onClose }: { onClose: () => void }) {
+  const [uploading, setUploading] = useState(false);
   const navigate = useNavigate();
   const [step, setStep] = useState(1);
   const [fileType, setFileType] = useState("");
@@ -35,7 +36,7 @@ export default function AddFile({ onClose }: { onClose: () => void }) {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         onClose();
-        navigate("/dashboard/FileList");
+        navigate("/dashboard/FileList", { state: { refresh: true } });
       }
     };
     window.addEventListener("keydown", handleEsc);
@@ -48,9 +49,8 @@ const handleUpload = async () => {
     return;
   }
 
-  
-    navigate("/dashboard/FileList");
-    onClose();
+  setUploading(true); // start loading
+
   try {
     const result = await uploadToFileHub(
       file,
@@ -60,15 +60,19 @@ const handleUpload = async () => {
       department
     );
 
-    console.log("📄 Full extraction result:", result.extraction);
-
-    // Optional: Save extraction locally for next page
     localStorage.setItem("latest_extraction", JSON.stringify(result.extraction));
+
+    onClose();
+    navigate("/dashboard/FileList", { state: { refresh: true } });
 
   } catch (err) {
     console.error("Upload failed:", err);
+  } finally {
+    setUploading(false); // stop loading
   }
 };
+
+
 
   const leave = () => {
     onClose();
@@ -338,16 +342,25 @@ const handleUpload = async () => {
                   Cancel
                 </Button>
 
-                <Button
-                  variant="contained"
-                  onClick={handleUpload}
-                  sx={{
-                    bgcolor: GREEN,
-                    "&:hover": { bgcolor: GREEN_HOVER },
-                  }}
-                >
-                  Finish upload
-                </Button>
+              <Button
+                variant="contained"
+                onClick={handleUpload}
+                disabled={uploading}
+                sx={{
+                  bgcolor: GREEN,
+                  "&:hover": { bgcolor: GREEN_HOVER },
+                }}
+              >
+                {uploading ? "Uploading…" : "Finish upload"}
+              </Button>
+              {uploading && (
+  <Box sx={{ mt: 1, display: "flex", alignItems: "center", gap: 1 }}>
+    <div className="h-4 w-4 animate-spin rounded-full border-2 border-gray-400 border-t-transparent"></div>
+    <Typography variant="caption" color="text.secondary">
+      Uploading file…
+    </Typography>
+  </Box>
+)}
               </Box>
             </Box>
           </Box>

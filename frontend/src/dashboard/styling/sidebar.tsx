@@ -26,14 +26,12 @@ export default function Sidebar({ onCollapseChange }) {
   };
 
   const items = [
-    { label: "Dashboard", path: "/dashboard", icon: <FiHome /> },
+    { label: "Dashboard", path: "/dashboard/results", icon: <FiHome /> },
     { label: "File Management", path: "/dashboard/FileList", icon: <FiFilePlus /> },
     { label: "Regulations", path: "/dashboard/regulations", icon: <FiFilePlus /> },
-    { label: "AI Assistant", path: "/dashboard/llm", icon: <FiCpu /> },
-    { label: "File Manager", path: "/dashboard/filemanager", icon: <FiFolder /> },
-    { label: "Competitors", path: "/dashboard/competitors", icon: <FiBriefcase /> },
-    { label: "Audit", path: "/dashboard/audit", icon: <FiBarChart2 /> },
-    { label: "Settings", path: "/dashboard/settings", icon: <FiSettings /> },
+    { label: "Dashboard", path: "/dashboard/results", icon: <FiFilePlus /> },
+    { label: "Audit", path: "/dashboard/upload", icon: <FiBarChart2 /> },
+    { label: "Settings", path: "/dashboard/onboarding", icon: <FiSettings /> },
   ];
 
   return (

@@ -108,19 +108,53 @@ const AuditResultsTab: React.FC = () => {
     return <div className="p-6 text-red-600">No results found for this audit.</div>;
   }
 
-  // console.log("📊 Total results:", data.results.length);
-const summary: AuditSummary = data.summary || {
+
+const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results : []).map((item: any) => ({
+  Reg_ID: item.Reg_ID,
+  Requirement_Text: item.Requirement_Text || item.Target_Area || "",
+
+  // Risk Rating
+  Risk_Rating: item.Risk_Rating || "Low",
+
+  // Score (backend sends 35, not 0.35)
+  match_score: item.match_score ??
+               item.Compliance_Score ??
+               item.Score ??
+               0,
+  gap_flag:
+    item.gap_flag !== undefined
+      ? item.gap_flag
+      : item.Is_Compliant === false
+      ? true
+      : item.Narrative_Gap
+      ? true
+      : false,
+
+  // Mapped fields
+  evidence: item.evidence || item.Evidence_Chunk || "",
+  narrative: item.narrative || item.Narrative_Gap || "",
+
+  // Department fallback
+  department: item.department || item.Target_Area || "Other",
+}));
+
+const summary: AuditSummary = data.summary ?? {
   compliance_score: 0,
-  total_requirements: 0,
-  gap_count: 0,
-  high_risk_gaps: 0,
-  departments_flagged: [],
+  total_requirements: results.length,
+  gap_count: results.filter(r => r.gap_flag).length,
+  high_risk_gaps: results.filter(r => r.gap_flag && r.Risk_Rating.toLowerCase() === "high").length,
+  departments_flagged: [
+    ...new Set(results.filter(r => r.gap_flag).map(r => r.department || "Other"))
+  ]
 };
 
-const results: AuditResultItem[] = Array.isArray(data.results)
-  ? data.results
-  : [];
-
+// Recalculate score if backend gave 0 or NaN
+if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
+  const compliantCount = results.filter(r => !r.gap_flag).length;
+  summary.compliance_score = results.length
+    ? Math.round((compliantCount / results.length) * 100)
+    : 0;
+}
   const gaps = results.filter((r) => r.gap_flag);
   const heatmap = buildRiskHeatmap(results);
   const scoreColor = getScoreColor(summary.compliance_score);
@@ -249,7 +283,8 @@ const results: AuditResultItem[] = Array.isArray(data.results)
                   </td>
 
                   <td className="px-3 py-3">
-                    {(item.match_score * 100).toFixed(0)}%
+                  {(item.match_score > 1 ? item.match_score : item.match_score * 100).toFixed(0)}%
+
                   </td>
 
                   <td className="px-3 py-3 text-xs">

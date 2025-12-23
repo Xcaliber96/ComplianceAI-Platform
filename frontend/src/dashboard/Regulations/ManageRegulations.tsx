@@ -115,7 +115,7 @@ async function reload() {
   }, [search, regionFilter, categoryFilter, regulations]);
 
 const handleToggle = async (regId: string) => {
-  const userId = "test-user";
+  const userId = localStorage.getItem("user_uid");
 
   // backend returns {status: "added" | "removed"}
   const res = await toggleRegulation(userId, regId);
