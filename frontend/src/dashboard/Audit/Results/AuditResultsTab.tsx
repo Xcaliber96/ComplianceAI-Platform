@@ -116,7 +116,6 @@ const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results :
   // Risk Rating
   Risk_Rating: item.Risk_Rating || "Low",
 
-  // Score (backend sends 35, not 0.35)
   match_score: item.match_score ??
                item.Compliance_Score ??
                item.Score ??
@@ -129,12 +128,10 @@ const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results :
       : item.Narrative_Gap
       ? true
       : false,
-
-  // Mapped fields
+ 
   evidence: item.evidence || item.Evidence_Chunk || "",
   narrative: item.narrative || item.Narrative_Gap || "",
 
-  // Department fallback
   department: item.department || item.Target_Area || "Other",
 }));
 
@@ -148,13 +145,12 @@ const summary: AuditSummary = data.summary ?? {
   ]
 };
 
-// Recalculate score if backend gave 0 or NaN
-if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
-  const compliantCount = results.filter(r => !r.gap_flag).length;
-  summary.compliance_score = results.length
-    ? Math.round((compliantCount / results.length) * 100)
-    : 0;
-}
+summary.compliance_score = results.length
+  ? Math.round(
+      results.reduce((sum, r) => sum + (r.match_score > 1 ? r.match_score : r.match_score * 100), 0) /
+        results.length
+    )
+  : 0;
   const gaps = results.filter((r) => r.gap_flag);
   const heatmap = buildRiskHeatmap(results);
   const scoreColor = getScoreColor(summary.compliance_score);
@@ -162,7 +158,6 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
 
-      {/* ---------------- HEADER ---------------- */}
       <div className="mx-auto max-w-6xl px-4 py-8">
         <header className="border-b pb-4 mb-6">
           <h1 className="text-2xl font-semibold">Compliance Audit Results</h1>
@@ -174,10 +169,7 @@ if (!summary.compliance_score || Number.isNaN(summary.compliance_score)) {
           </p>
         </header>
 
-        {/*  SUMMARY  */}
         <section className="grid gap-4 md:grid-cols-[2fr,1fr]">
-
-          {/* Summary Card */}
           <div className="rounded-xl bg-white p-5 shadow">
             <h2 className="text-sm font-semibold uppercase text-slate-500">
               Compliance Score

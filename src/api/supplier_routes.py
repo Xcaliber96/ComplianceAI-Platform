@@ -2,8 +2,9 @@ from fastapi import APIRouter, HTTPException, Depends, Query
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime
-
 from src.api.db import get_db
+from src.api.auth_backend import get_current_user 
+from src.api.models import User 
 from src.api.models import (
     Supplier, SupplierTier, SupplierStatus, SupplierPerformanceLog,
     RestrictedCountry, supplier_backup_association
@@ -13,10 +14,13 @@ from src.api.supplier_logic import (
     get_backup_suppliers, check_restricted_country, promote_backup_supplier
 )
 
+
 router = APIRouter(prefix="/api/suppliers", tags=["suppliers"])
 
-# Pydantic models (inline for now)
+
+
 from pydantic import BaseModel, Field
+
 
 class SupplierCreate(BaseModel):
     name: str
@@ -26,6 +30,7 @@ class SupplierCreate(BaseModel):
     country: str
     tariff_code: Optional[str] = None
 
+
 class SupplierRatingUpdate(BaseModel):
     quality_score: Optional[float] = Field(None, ge=0, le=100)
     delivery_score: Optional[float] = Field(None, ge=0, le=100)
@@ -34,10 +39,12 @@ class SupplierRatingUpdate(BaseModel):
     compliance_score: Optional[float] = Field(None, ge=0, le=100)
     notes: Optional[str] = None
 
+
 class BackupSupplierAssignment(BaseModel):
     primary_supplier_id: int
     backup_supplier_id: int
     backup_priority: int = Field(1, ge=1, le=10)
+
 
 class SupplierResponse(BaseModel):
     id: int
@@ -57,11 +64,17 @@ class SupplierResponse(BaseModel):
     class Config:
         from_attributes = True
 
-# ==================== ENDPOINTS ====================
 
 @router.post("/", response_model=SupplierResponse)
-def create_supplier(supplier: SupplierCreate, user_uid: str = Query(...), db: Session = Depends(get_db)):
+def create_supplier(
+    supplier: SupplierCreate,
+    current_user: User = Depends(get_current_user),  
+    db: Session = Depends(get_db)
+):
     """Create a new supplier with automatic tier assignment"""
+    
+ 
+    user_uid = current_user.uid
     
     # Check if country is restricted
     is_restricted = check_restricted_country(db, supplier.country)
@@ -88,9 +101,10 @@ def create_supplier(supplier: SupplierCreate, user_uid: str = Query(...), db: Se
     
     return db_supplier
 
+
 @router.get("/", response_model=List[SupplierResponse])
 def list_suppliers(
-    user_uid: str = Query(...),
+    current_user: User = Depends(get_current_user), 
     tier: Optional[str] = None,
     status: Optional[str] = None,
     skip: int = 0,
@@ -98,6 +112,9 @@ def list_suppliers(
     db: Session = Depends(get_db)
 ):
     """List all suppliers with optional filtering by tier and status"""
+    
+    user_uid = current_user.uid
+    
     query = db.query(Supplier).filter(Supplier.user_uid == user_uid)
     
     if tier:
@@ -108,22 +125,37 @@ def list_suppliers(
     suppliers = query.order_by(Supplier.tier_score.desc()).offset(skip).limit(limit).all()
     return suppliers
 
+
 @router.get("/{supplier_id}", response_model=SupplierResponse)
-def get_supplier(supplier_id: int, db: Session = Depends(get_db)):
+def get_supplier(
+    supplier_id: int,
+    current_user: User = Depends(get_current_user),  
+    db: Session = Depends(get_db)
+):
     """Get detailed supplier information"""
-    supplier = db.query(Supplier).filter(Supplier.id == supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid  
+    ).first()
+    
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     return supplier
+
 
 @router.put("/{supplier_id}/rating")
 def update_supplier_rating(
     supplier_id: int,
     rating: SupplierRatingUpdate,
+    current_user: User = Depends(get_current_user),  
     db: Session = Depends(get_db)
 ):
     """Update supplier performance ratings and recalculate tier"""
-    supplier = db.query(Supplier).filter(Supplier.id == supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid  
+    ).first()
+    
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
@@ -149,16 +181,25 @@ def update_supplier_rating(
         "new_tier_score": supplier.tier_score
     }
 
+
 @router.post("/recalculate-tier/{supplier_id}")
 def recalculate_tier(
     supplier_id: int,
     reason: str = "Manual tier recalculation",
+    current_user: User = Depends(get_current_user),  
     db: Session = Depends(get_db)
 ):
     """Manually trigger tier recalculation for a supplier"""
-    supplier = recalculate_supplier_tier(db, supplier_id, reason)
-    if not supplier:
+    
+    supplier_check = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    if not supplier_check:
         raise HTTPException(status_code=404, detail="Supplier not found")
+    
+    supplier = recalculate_supplier_tier(db, supplier_id, reason)
     
     return {
         "status": "success",
@@ -168,18 +209,30 @@ def recalculate_tier(
         "updated_at": supplier.tier_last_updated
     }
 
+
 @router.post("/backup-assignment")
-def assign_backup_supplier(assignment: BackupSupplierAssignment, db: Session = Depends(get_db)):
+def assign_backup_supplier(
+    assignment: BackupSupplierAssignment,
+    current_user: User = Depends(get_current_user),  
+    db: Session = Depends(get_db)
+):
     """Assign a backup supplier to a primary supplier"""
     
-    # Validate both suppliers exist
-    primary = db.query(Supplier).filter(Supplier.id == assignment.primary_supplier_id).first()
-    backup = db.query(Supplier).filter(Supplier.id == assignment.backup_supplier_id).first()
+  
+    primary = db.query(Supplier).filter(
+        Supplier.id == assignment.primary_supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    backup = db.query(Supplier).filter(
+        Supplier.id == assignment.backup_supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     
     if not primary or not backup:
         raise HTTPException(status_code=404, detail="Primary or backup supplier not found")
     
-    # Check for existing association
+    
     existing = db.query(supplier_backup_association).filter(
         supplier_backup_association.c.primary_supplier_id == assignment.primary_supplier_id,
         supplier_backup_association.c.backup_supplier_id == assignment.backup_supplier_id
@@ -188,7 +241,7 @@ def assign_backup_supplier(assignment: BackupSupplierAssignment, db: Session = D
     if existing:
         raise HTTPException(status_code=400, detail="Backup relationship already exists")
     
-    # Create association
+    
     stmt = supplier_backup_association.insert().values(
         primary_supplier_id=assignment.primary_supplier_id,
         backup_supplier_id=assignment.backup_supplier_id,
@@ -205,9 +258,23 @@ def assign_backup_supplier(assignment: BackupSupplierAssignment, db: Session = D
         "backup_priority": assignment.backup_priority
     }
 
+
 @router.get("/{supplier_id}/backups")
-def get_supplier_backups(supplier_id: int, db: Session = Depends(get_db)):
+def get_supplier_backups(
+    supplier_id: int,
+    current_user: User = Depends(get_current_user),  
+    db: Session = Depends(get_db)
+):
     """Get all backup suppliers for a primary supplier"""
+    
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
+    
     backups = get_backup_suppliers(db, supplier_id)
     
     return {
@@ -226,13 +293,24 @@ def get_supplier_backups(supplier_id: int, db: Session = Depends(get_db)):
         ]
     }
 
+
 @router.post("/{supplier_id}/promote-backup")
 def promote_backup(
     supplier_id: int,
     task_id: Optional[int] = None,
+    current_user: User = Depends(get_current_user),  
     db: Session = Depends(get_db)
 ):
     """Promote the best backup supplier when primary fails"""
+    
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
+    
     promoted = promote_backup_supplier(db, supplier_id, task_id)
     
     if not promoted:
@@ -253,13 +331,24 @@ def promote_backup(
         "task_reassigned": task_id is not None
     }
 
+
 @router.get("/{supplier_id}/performance-history")
 def get_performance_history(
     supplier_id: int,
     limit: int = 50,
+    current_user: User = Depends(get_current_user),  
     db: Session = Depends(get_db)
 ):
     """Get historical performance logs for a supplier"""
+  
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
+    
     logs = db.query(SupplierPerformanceLog).filter(
         SupplierPerformanceLog.supplier_id == supplier_id
     ).order_by(SupplierPerformanceLog.recorded_at.desc()).limit(limit).all()
@@ -281,10 +370,15 @@ def get_performance_history(
         ]
     }
 
+
 @router.get("/tier-distribution/stats")
-def get_tier_distribution(user_uid: str = Query(...), db: Session = Depends(get_db)):
+def get_tier_distribution(
+    current_user: User = Depends(get_current_user), 
+    db: Session = Depends(get_db)
+):
     """Get distribution of suppliers across tiers"""
-    suppliers = db.query(Supplier).filter(Supplier.user_uid == user_uid).all()
+    
+    suppliers = db.query(Supplier).filter(Supplier.user_uid == current_user.uid).all()
     
     tier_counts = {
         "TIER_1": 0,

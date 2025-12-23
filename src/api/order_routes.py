@@ -5,12 +5,15 @@ from datetime import datetime, timedelta
 from pydantic import BaseModel, Field
 
 from src.api.db import get_db
+from src.api.auth_backend import get_current_user
+from src.api.models import User
 from src.api.models import (
     SupplierOrder, QualityIncident, InventoryEvent, 
     SupplierFinancialHealth, OrderStatus, QualityIncidentType,
     QualityIncidentSeverity, Supplier, RatingRecalculationLog
 )
 from src.api.rating_engine import SupplierRatingEngine
+
 
 router = APIRouter(prefix="/api/orders", tags=["orders"])
 
@@ -24,12 +27,14 @@ class OrderCreate(BaseModel):
     currency: str = "USD"
     stock_availability_on_order: bool = True
 
+
 class OrderUpdate(BaseModel):
     status: Optional[str] = None
     actual_delivery_date: Optional[str] = None
     quality_check_passed: Optional[bool] = None
     defect_count: Optional[int] = None
     lead_time_accuracy_days: Optional[int] = None
+
 
 class QualityIncidentCreate(BaseModel):
     supplier_id: int
@@ -40,6 +45,7 @@ class QualityIncidentCreate(BaseModel):
     financial_impact: float = 0.0
     items_affected: int = 0
 
+
 class InventoryEventCreate(BaseModel):
     supplier_id: int
     event_type: str  
@@ -47,6 +53,7 @@ class InventoryEventCreate(BaseModel):
     quantity_affected: int
     expected_availability_date: Optional[str] = None
     days_unavailable: int = 0
+
 
 class FinancialHealthUpdate(BaseModel):
     supplier_id: int
@@ -59,7 +66,6 @@ class FinancialHealthUpdate(BaseModel):
     bankruptcy_risk: Optional[str] = None
     legal_issues: bool = False
     data_source: str = "MANUAL"
-
 
 
 def trigger_score_update(supplier_id: int):
@@ -86,12 +92,18 @@ def trigger_score_update(supplier_id: int):
         db.close()
 
 
-
 @router.post("/")
-def create_order(order: OrderCreate, user_uid: str = Query(...), db: Session = Depends(get_db)):
+def create_order(
+    order: OrderCreate,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     """Create a new supplier order"""
     
-    supplier = db.query(Supplier).filter(Supplier.id == order.supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == order.supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
@@ -108,7 +120,7 @@ def create_order(order: OrderCreate, user_uid: str = Query(...), db: Session = D
     
     db_order = SupplierOrder(
         supplier_id=order.supplier_id,
-        user_uid=user_uid,
+        user_uid=current_user.uid,
         order_number=order.order_number,
         order_date=datetime.utcnow(),
         expected_delivery_date=expected_date,
@@ -133,26 +145,29 @@ def create_order(order: OrderCreate, user_uid: str = Query(...), db: Session = D
         "expected_delivery": db_order.expected_delivery_date.isoformat()
     }
 
+
 @router.put("/{order_id}")
 def update_order(
     order_id: int,
     update: OrderUpdate,
     background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Update order status and trigger score recalculation on delivery"""
     
-    order = db.query(SupplierOrder).filter(SupplierOrder.id == order_id).first()
+    order = db.query(SupplierOrder).filter(
+        SupplierOrder.id == order_id,
+        SupplierOrder.user_uid == current_user.uid
+    ).first()
     if not order:
         raise HTTPException(status_code=404, detail="Order not found")
     
     if update.status:
         order.status = OrderStatus[update.status]
     
-
     if update.actual_delivery_date:
         try:
-           
             actual_date = datetime.fromisoformat(update.actual_delivery_date.replace('Z', '').replace('+00:00', ''))
             order.actual_delivery_date = actual_date
             
@@ -160,7 +175,6 @@ def update_order(
                 delay = (actual_date - order.expected_delivery_date).days
                 order.is_on_time = delay <= 0
                 order.days_delayed = max(delay, 0)
-
                 
                 if order.is_on_time and order.status == OrderStatus.DELIVERED:
                     supplier = db.query(Supplier).filter(Supplier.id == order.supplier_id).first()
@@ -181,7 +195,6 @@ def update_order(
     db.commit()
     db.refresh(order)
     
-    # Trigger score recalculation if delivered
     if order.status == OrderStatus.DELIVERED:
         background_tasks.add_task(trigger_score_update, order.supplier_id)
     
@@ -194,14 +207,23 @@ def update_order(
         "score_update_triggered": order.status == OrderStatus.DELIVERED
     }
 
+
 @router.get("/supplier/{supplier_id}")
 def get_supplier_orders(
     supplier_id: int,
     status: Optional[str] = None,
     limit: int = 50,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Get all orders for a supplier"""
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
+    
     query = db.query(SupplierOrder).filter(SupplierOrder.supplier_id == supplier_id)
     
     if status:
@@ -230,24 +252,26 @@ def get_supplier_orders(
     }
 
 
-
 @router.post("/quality-incidents")
 def create_quality_incident(
     incident: QualityIncidentCreate,
     background_tasks: BackgroundTasks,
-    user_uid: str = Query(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Report a quality incident"""
     
-    supplier = db.query(Supplier).filter(Supplier.id == incident.supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == incident.supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
     db_incident = QualityIncident(
         supplier_id=incident.supplier_id,
         order_id=incident.order_id,
-        user_uid=user_uid,
+        user_uid=current_user.uid,
         incident_type=QualityIncidentType[incident.incident_type],
         severity=QualityIncidentSeverity[incident.severity],
         description=incident.description,
@@ -270,14 +294,23 @@ def create_quality_incident(
         "score_update_triggered": True
     }
 
+
 @router.get("/quality-incidents/supplier/{supplier_id}")
 def get_supplier_incidents(
     supplier_id: int,
     resolved: Optional[bool] = None,
     limit: int = 50,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Get quality incidents for a supplier"""
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
+    if not supplier:
+        raise HTTPException(status_code=404, detail="Supplier not found")
+    
     query = db.query(QualityIncident).filter(QualityIncident.supplier_id == supplier_id)
     
     if resolved is not None:
@@ -303,14 +336,19 @@ def get_supplier_incidents(
         ]
     }
 
+
 @router.put("/quality-incidents/{incident_id}/resolve")
 def resolve_quality_incident(
     incident_id: int,
     resolution_notes: str,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Mark a quality incident as resolved"""
-    incident = db.query(QualityIncident).filter(QualityIncident.id == incident_id).first()
+    incident = db.query(QualityIncident).filter(
+        QualityIncident.id == incident_id,
+        QualityIncident.user_uid == current_user.uid
+    ).first()
     if not incident:
         raise HTTPException(status_code=404, detail="Incident not found")
     
@@ -327,12 +365,15 @@ def resolve_quality_incident(
 def create_inventory_event(
     event: InventoryEventCreate,
     background_tasks: BackgroundTasks,
-    user_uid: str = Query(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Report an inventory availability event"""
     
-    supplier = db.query(Supplier).filter(Supplier.id == event.supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == event.supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
@@ -345,7 +386,7 @@ def create_inventory_event(
     
     db_event = InventoryEvent(
         supplier_id=event.supplier_id,
-        user_uid=user_uid,
+        user_uid=current_user.uid,
         event_type=event.event_type,
         item_description=event.item_description,
         quantity_affected=event.quantity_affected,
@@ -368,16 +409,19 @@ def create_inventory_event(
     }
 
 
-
 @router.post("/financial-health")
 def update_financial_health(
     health: FinancialHealthUpdate,
     background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Update supplier financial health record"""
     
-    supplier = db.query(Supplier).filter(Supplier.id == health.supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == health.supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
@@ -408,12 +452,18 @@ def update_financial_health(
     }
 
 
-
 @router.post("/recalculate-scores/{supplier_id}")
-def manual_score_recalculation(supplier_id: int, db: Session = Depends(get_db)):
+def manual_score_recalculation(
+    supplier_id: int,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
     """Manually trigger score recalculation for a supplier"""
     
-    supplier = db.query(Supplier).filter(Supplier.id == supplier_id).first()
+    supplier = db.query(Supplier).filter(
+        Supplier.id == supplier_id,
+        Supplier.user_uid == current_user.uid
+    ).first()
     if not supplier:
         raise HTTPException(status_code=404, detail="Supplier not found")
     
@@ -426,13 +476,16 @@ def manual_score_recalculation(supplier_id: int, db: Session = Depends(get_db)):
         "updated_scores": scores
     }
 
+
 @router.post("/recalculate-all-scores")
 def recalculate_all_supplier_scores(
     background_tasks: BackgroundTasks,
-    user_uid: str = Query(...),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Recalculate scores for all suppliers (background job)"""
+    
+    user_uid = current_user.uid
     
     def bulk_recalculation():
         from src.api.db import SessionLocal
@@ -478,7 +531,7 @@ def recalculate_all_supplier_scores(
             log.status = "FAILED"
             log.error_message = str(e)
             db_local.commit()
-            print(f" Bulk recalculation failed: {e}")
+            print(f"Bulk recalculation failed: {e}")
             traceback.print_exc()
         finally:
             db_local.close()

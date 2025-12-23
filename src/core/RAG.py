@@ -20,18 +20,6 @@ except Exception:
     except Exception:
         get_llm = None
 
-
-def split_into_sentences(text: str):
-    """
-    Return list of sentences using the same pattern used in the class.
-    Re-usable by scripts that want to chunk the PDF text.
-    """
-    if not text:
-        return []
-    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
-    return [s.strip() for s in sentences if s and s.strip()]
-
-
 def chunk_sentences(sentences, max_sentences=3):
     """
     Group a list of sentences into ~max_sentences-per-chunk strings.
@@ -146,11 +134,24 @@ class ComplianceChecker:
     def __init__(self, pdf_path, regulations, collection_name="policies",
                  compliance_threshold=0.60, top_k=1):
         self.pdf_path = pdf_path
-        self.regulations = regulations
+
         self.collection_name = collection_name
         self.compliance_threshold = compliance_threshold
         self.top_k = top_k
+        self.regulations = []
 
+        for reg in regulations:
+            reg_id = reg.get("Reg_ID", "")
+            text = reg.get("Requirement_Text", "")
+
+
+            if ComplianceChecker.looks_like_cfr(text):
+                print("kjfhviwhvjkenjkrjgioejivowmogiehjigoreiogjneiughjvioneivniwrtnbktrjb")
+                self.regulations.extend(
+                self.split_cfr_subsections(reg_id, text)
+                )
+            else:
+                self.regulations.append(reg)
         
         self.llm_client = None
         if not USE_CENTRALIZED_LLM:
@@ -166,6 +167,7 @@ class ComplianceChecker:
             if OpenAI is None:
                 raise ImportError("openai package not installed but OPENAI_API_KEY is required for inline LLM fallback.")
             self.llm_client = OpenAI(api_key=openai_key)
+
 
         # ChromaDB setup
         self.chroma_client = chromadb.Client()
@@ -210,7 +212,9 @@ class ComplianceChecker:
         if current_chunk:
             chunks.append(" ".join(current_chunk))
         return chunks
-
+    @staticmethod
+    def looks_like_cfr(text: str) -> bool:
+        return bool(re.search(r"\n\s*\([a-z]\)", text))
     def _extract_content_from_completion(self, completion):
         """
         Robustly extract the text content from various OpenAI SDK response shapes.
@@ -407,33 +411,102 @@ GAP SUMMARY:"""
                 f"High risk gaps: {high_risk_count}."
             )
         }
+    @staticmethod
+    def split_cfr_subsections(section_id: str, full_text: str):
+        """
+        Splits a CFR section into TOP-LEVEL subsections only:
+        (a), (b), (c), ...
+        Ignores nested items like (1), (i), (ii).
+        """
+
+        # Match ONLY top-level subsection headers at line start
+        pattern = re.compile(
+            r"^\s*\((?P<label>[a-e])\)\s*(?P<body>.*?)(?=^\s*\([a-e]\)|\Z)",
+            re.DOTALL | re.MULTILINE
+        )
+
+        results = []
+
+        for match in pattern.finditer(full_text):
+            label = match.group("label")
+            body = match.group("body").strip()
+
+            results.append({
+                "Reg_ID": f"{section_id}({label})",
+                "Requirement_Text": body,
+                "Risk_Rating": "High",
+                "Target_Area": "HIPAA Security Rule",
+                "Dow_Focus": "Federal"
+            })
+
+        return results
 
 if __name__ == "__main__":
+
+    FULL_CFR_164_312 = """
+    A covered entity or business associate must, in accordance with § 164.306:
+
+    (a)(1) Standard: Access control.
+    Implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights as specified in § 164.308(a)(4).
+
+    (2) Implementation specifications:
+    (i) Unique user identification (Required).
+    (ii) Emergency access procedure (Required).
+    (iii) Automatic logoff (Addressable).
+    (iv) Encryption and decryption (Addressable).
+
+    (b) Standard: Audit controls.
+    Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.
+
+    (c) Standard: Integrity.
+    (d) Standard: Person or entity authentication.
+    (e) Standard: Transmission security.
+    """
+
+    # # ---- BASE REGULATIONS (UNCHANGED) ----
+    # REGULATION_LIBRARY = [
+    #     {
+    #         "Reg_ID": "HIPAA-164.312(b)",
+    #         "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
+    #         "Risk_Rating": "High (Data Security)",
+    #         "Target_Area": "Technical Control, Audit/Logging",
+    #         "Dow_Focus": "Eliminating Issues, Avoiding Risk"
+    #     },
+    #     {
+    #         "Reg_ID": "HIPAA-164.306(a)",
+    #         "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
+    #         "Risk_Rating": "High (Data Integrity)",
+    #         "Target_Area": "Administrative Policy, Data Security",
+    #         "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
+    #     },
+    #     {
+    #         "Reg_ID": "SEC-R404.1",
+    #         "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
+    #         "Risk_Rating": "Critical (Financial/Legal)",
+    #         "Target_Area": "Employee Conduct, Conflict of Interest",
+    #         "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
+    #     }
+    # ]
     REGULATION_LIBRARY = [
         {
-            "Reg_ID": "HIPAA-164.312(b)",
-            "Requirement_Text": "The covered entity must implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI). This includes audit controls and logs.",
-            "Risk_Rating": "High (Data Security)",
-            "Target_Area": "Technical Control, Audit/Logging",
-            "Dow_Focus": "Eliminating Issues, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "HIPAA-164.306(a)",
-            "Requirement_Text": "Ensure the confidentiality, integrity, and availability of all electronic protected health information (ePHI) the covered entity creates, receives, maintains, or transmits.",
-            "Risk_Rating": "High (Data Integrity)",
-            "Target_Area": "Administrative Policy, Data Security",
-            "Dow_Focus": "Long-Term Solutions, Avoiding Risk"
-        },
-        {
-            "Reg_ID": "SEC-R404.1",
-            "Requirement_Text": "Policy must establish a code of ethics that provides for the review of personal trading, including procedures for reporting and review of conflicts of interest.",
-            "Risk_RATING": "Critical (Financial/Legal)",
-            "Target_Area": "Employee Conduct, Conflict of Interest",
-            "Dow_Focus": "Avoiding Conflicts of Interest, Proper Usage"
+            "Reg_ID": "45 CFR 164.312",
+            "Requirement_Text": FULL_CFR_164_312,
+            "Risk_Rating": "High",
+            "Target_Area": "HIPAA Security Rule",
+            "Dow_Focus": "Federal"
         }
     ]
 
-    checker = ComplianceChecker(pdf_path="C:\\ComplianceAI-Platform\\shared_downloads\\test_policy.pdf", regulations=REGULATION_LIBRARY)
+    print("\n=== DEBUG: SPLIT CFR SUBSECTIONS ===")
+
+
+    # ---- RUN COMPLIANCE ----
+    checker = ComplianceChecker(
+        pdf_path="C:\\ComplianceAI-Platform\\shared_downloads\\testing.pdf",
+        regulations=REGULATION_LIBRARY,
+        collection_name="policies_split_test"
+    )
+
     results = checker.run_check()
     summary = checker.dashboard_summary(results, industry="Finance")
     print(summary)

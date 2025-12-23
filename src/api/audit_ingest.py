@@ -95,6 +95,10 @@ def upsert_audit_to_neo4j(
     timestamp = datetime.utcnow().isoformat()
     audit_id = generate_audit_id(user_uid, file_id, timestamp)
     
+    print("=== RESULTS SAMPLE ===")
+    print(json.dumps(results[:5], indent=2))
+    print("======================")
+
     # Calculate metrics
     compliance_score = calculate_compliance_score(results)
     flagged_departments = extract_flagged_departments(results)
@@ -113,6 +117,7 @@ def upsert_audit_to_neo4j(
         "gap_count": gap_count,
         "high_risk_count": high_risk_count,
         "status": "completed",
+        "results_json": json.dumps(results),
         "summary_json": json.dumps(summary),
         "metadata_json": json.dumps(metadata)
     }
@@ -287,7 +292,10 @@ def get_audits_for_user(user_uid: str, limit: int = 50, skip: int = 0) -> List[D
             for record in result:
                 audit_node = record["audit"]
                 props = dict(audit_node)
-                
+                try:
+                    props["results"] = json.loads(props.get("results_json", "[]"))
+                except:
+                    props["results"] = []
                 try:
                     props["summary"] = json.loads(props.get("summary_json", "{}"))
                 except:
@@ -302,7 +310,7 @@ def get_audits_for_user(user_uid: str, limit: int = 50, skip: int = 0) -> List[D
                 props["supplier_id"] = record.get("supplier_id")
                 props.pop("summary_json", None)
                 props.pop("metadata_json", None)
-                
+                props.pop("results_json", None)
                 audits.append(props)
             
             return audits
@@ -334,7 +342,10 @@ def get_audits_for_supplier(supplier_id: str, limit: int = 50) -> List[Dict[str,
             for record in result:
                 audit_node = record["audit"]
                 props = dict(audit_node)
-                
+                try:
+                    props["results"] = json.loads(props.get("results_json", "[]"))
+                except:
+                    props["results"] = []
                 try:
                     props["summary"] = json.loads(props.get("summary_json", "{}"))
                 except:
@@ -343,7 +354,8 @@ def get_audits_for_supplier(supplier_id: str, limit: int = 50) -> List[Dict[str,
                 props["file_id"] = record.get("file_id")
                 props.pop("summary_json", None)
                 props.pop("metadata_json", None)
-                
+                # 2. Remove the raw storage field
+                props.pop("results_json", None)
                 audits.append(props)
             
             return audits
@@ -391,12 +403,16 @@ def get_audit_detail(audit_id: str) -> Optional[Dict[str, Any]]:
             
             audit_node = result["audit"]
             props = dict(audit_node)
-            
+            try:
+                props["results"] = json.loads(props.get("results_json", "[]"))
+            except:
+                props["results"] = []
             try:
                 props["summary"] = json.loads(props.get("summary_json", "{}"))
             except:
                 props["summary"] = {}
-            
+            # 2. Remove the raw storage field
+            props.pop("results_json", None)
             props["gaps"] = [g for g in result["gaps"] if g.get("obligation_id")]
             props["flagged_departments"] = [d for d in result["departments"] if d]
             props.pop("summary_json", None)
@@ -407,8 +423,6 @@ def get_audit_detail(audit_id: str) -> Optional[Dict[str, Any]]:
     finally:
         driver.close()
 
-
-# API Routes
 @router.get("/api/v1/audit/user/{user_uid}")
 async def get_user_audits(
     user_uid: str,
