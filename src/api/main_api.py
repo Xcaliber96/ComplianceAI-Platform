@@ -1741,12 +1741,13 @@ async def run_compliance_payload(payload: dict):
 
     if not audit_save["ok"]:
         raise HTTPException(status_code=500, detail=audit_save["error"])
-
+    print(file_id)
     return {
         "status": "success" if error_msg is None else "error",
         "audit_id": audit_save["audit_id"] if error_msg is None else None,
         "file": entry["original_name"],
         "results": results,
+        "file_id": file_id,                     # ✅ ADD THIS
         "summary": summary,
         "compliance_score": summary.get("compliance_score"),
         "total_requirements": summary.get("regulations_checked"),

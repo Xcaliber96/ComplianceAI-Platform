@@ -1,8 +1,9 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-
-// ------------------ TYPES ------------------
-
+import{ useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { getUserProfile } from "../../../api/client";
+import {  useNavigate } from "react-router-dom";
 type RiskRating = "Low" | "Medium" | "High" | string;
 
 function getOverallRisk(results: AuditResultItem[]): "LOW" | "MED" | "HIGH" {
@@ -43,8 +44,6 @@ export interface AuditOutput {
   summary: AuditSummary;
 }
 
-// ------------------ MOCK DATA (fallback only) ------------------
-
 const mockAuditData: AuditOutput = {
   status: "success",
   audit_id: "AID-MOCK",
@@ -59,9 +58,6 @@ const mockAuditData: AuditOutput = {
   },
   results: [],
 };
-
-// ------------------ HELPERS ------------------
-
 function getScoreColor(score: number): string {
   if (score >= 80) return "text-emerald-600 bg-emerald-50 border-emerald-200";
   if (score >= 50) return "text-amber-600 bg-amber-50 border-amber-200";
@@ -95,10 +91,13 @@ function buildRiskHeatmap(results: AuditResultItem[]) {
   return map;
 }
 
+
 // ------------------ COMPONENT ------------------
 
 const AuditResultsTab: React.FC = () => {
-
+const navigate = useNavigate();
+const { fileId } = useParams<{ fileId: string }>();
+const [userName, setUserName] = useState<string>("Loading...");
   const location = useLocation();
 
   // console.log("🎯 Received navigation state:", location.state);
@@ -146,6 +145,20 @@ const results: AuditResultItem[] = (Array.isArray(data.results) ? data.results :
 
   department: item.department || item.Target_Area || "Other",
 }));
+useEffect(() => {
+  if (!data?.user_uid) return;
+
+  (async () => {
+    try {
+      const profile = await getUserProfile(data.user_uid);
+      setUserName(profile.full_name || profile.display_name || "Unknown User");
+    } catch (err) {
+      console.error("Failed to load user profile", err);
+      setUserName("Unknown User");
+    }
+  })();
+}, [data?.user_uid]);
+const requirement = results[0];
 
 const overallRisk = getOverallRisk(results);
 
@@ -247,23 +260,22 @@ summary.compliance_score = results.length
           <span className="font-medium text-slate-900">{data.file}</span>
         </div>
 
-        <div className="flex justify-between">
-          <span className="text-slate-500">Uploaded By</span>
-          <span className="text-slate-700">{data.user_uid}</span>
-        </div>
-
+          <div className="flex justify-between">
+            <span className="text-slate-500">Uploaded By</span>
+            <span className="text-slate-700">{userName}</span>
+          </div>
         <div className="flex justify-between">
           <span className="text-slate-500">File Type</span>
           <span className="text-slate-700">PDF</span>
         </div>
       </div>
-
-      <button
-        type="button"
-        className="mt-4 w-full rounded-lg bg-slate-900 py-2 text-xs font-semibold text-white hover:bg-slate-800"
-      >
-        View PDF Document
-      </button>
+<button
+  type="button"
+  className="mt-4 w-full rounded-lg bg-slate-900 py-2 text-xs font-semibold text-white hover:bg-slate-800"
+  onClick={() => navigate(`/dashboard/file/${fileId}`)}
+>
+  View PDF Document
+</button>
     </div>
 
     {/* Full Audit Graph */}
@@ -282,13 +294,13 @@ summary.compliance_score = results.length
             Explore the complete graph of regulations, obligations, controls,
             and department impact for this audit in Neo4j.
           </p>
-
-          <button
-            type="button"
-            className="mt-3 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-violet-700"
-          >
-            View Full Audit in Dashboard →
-          </button>
+<button
+  type="button"
+  className="mt-3 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-violet-700"
+  onClick={() => navigate("/dashboard/allresults")}
+>
+  View Full Audit in Dashboard →
+</button>
         </div>
       </div>
     </div>
@@ -388,6 +400,7 @@ summary.compliance_score = results.length
           <table className="min-w-full text-xs">
             <thead>
               <tr className="bg-slate-100 text-slate-600">
+                    <th className="px-3 py-2">Requirements</th>
                 <th className="px-3 py-2">Department</th>
                 <th className="px-3 py-2 text-center">Low</th>
                 <th className="px-3 py-2 text-center">Medium</th>
@@ -399,6 +412,10 @@ summary.compliance_score = results.length
 
           {Object.entries(heatmap).map(([dept, lvl]) => (
   <tr key={dept} className="border-b">
+    <td className="px-3 py-2">
+  <strong>{requirement?.Reg_ID}</strong>
+  <p>{requirement?.Requirement_Text}</p>
+</td>
     <td className="px-3 py-2">{dept}</td>
 
     {(["LOW", "MED", "HIGH"] as const).map((level) => (
