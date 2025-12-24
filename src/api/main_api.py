@@ -146,6 +146,16 @@ from src.api.order_routes import router as order_router
 import threading
 import time
 from src.api.auth_backend import router as auth_router, get_current_user
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+from src.core.logger import logger, log_api_call, log_error, log_security_event, log_compliance_check
+from src.api.validators import (
+    FileUploadValidation,
+    ComplianceCheckValidation,
+    validate_file_size,
+    validate_file_extension
+)
 from src.api.models import Regulation
 from fastapi.responses import StreamingResponse
 
@@ -167,7 +177,9 @@ async def lifespan(app: FastAPI):
     print("[Shutdown] Application shutting down...")
 
 app = FastAPI(lifespan=lifespan)
-
+limiter = Limiter(key_func=get_remote_address, default_limits=["200/minute"])
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 from src.api.obligations_ingest import router as obligations_router
 
 # Check if Render secret file exists, else fallback to local
@@ -202,6 +214,55 @@ app.add_middleware(
     allow_headers=["Authorization", "Content-Type"],
     max_age=3600,
 )
+# SECURITY ENHANCEMENT: Global exception handlers
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    """Handle HTTP exceptions"""
+    logger.warning(f"HTTP {exc.status_code} | Path: {request.url.path} | Detail: {exc.detail}")
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "status": "error",
+            "message": exc.detail,
+            "path": str(request.url.path)
+        }
+    )
+
+@app.exception_handler(Exception)
+async def general_exception_handler(request: Request, exc: Exception):
+    """Handle unexpected exceptions"""
+    logger.error(f"Unhandled exception | Path: {request.url.path} | Error: {str(exc)}", exc_info=True)
+    
+    # Don't expose internal errors in production
+    if os.getenv("ENV") == "production":
+        detail = "An internal error occurred"
+    else:
+        detail = str(exc)
+    
+    return JSONResponse(
+        status_code=500,
+        content={
+            "status": "error",
+            "message": "Internal server error",
+            "detail": detail,
+            "path": str(request.url.path)
+        }
+    )
+
+@app.exception_handler(ValueError)
+async def validation_exception_handler(request: Request, exc: ValueError):
+    """Handle validation errors"""
+    logger.warning(f"Validation error | Path: {request.url.path} | Error: {str(exc)}")
+    return JSONResponse(
+        status_code=400,
+        content={
+            "status": "error",
+            "message": "Validation failed",
+            "detail": str(exc)
+        }
+    )
+
+
 
 @app.options("/{rest_of_path:path}")
 async def cors_preflight_handler(rest_of_path: str):
@@ -261,11 +322,14 @@ class ImportRequest(BaseModel):
     regulations: list[RegulationImport]
     
 @app.post("/api/regulations/import")
+@limiter.limit("10/minute")
 def import_regulations(
-    payload: dict, 
+    request: Request,  
+    payload: dict,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
+
     print("\n================ IMPORT REGULATIONS CALLED ================")
     print("RAW PAYLOAD:", payload)
 
@@ -326,6 +390,8 @@ def import_regulations(
     print(f"Successfully added {len(created_ids)} new regulations:")
     print(created_ids)
     print("================ END IMPORT ================\n")
+    log_api_call(user_uid, "/api/regulations/import", "POST", "success")
+
 
     return {
         "success": True,
@@ -340,6 +406,8 @@ async def api_state_search(state: str, query: str):
         normalized = [normalize_regulation(r) for r in raw]
         return {"results": normalized}
     except Exception as e:
+        log_error(current_user.uid, "/api/regulations/import", e)
+        raise HTTPException(status_code=500, detail="Failed to import regulations")
         return {"error": str(e)}
 
 @app.get("/api/workspace/{user_uid}/regulations")
@@ -350,7 +418,9 @@ def get_workspace(
 ):
     # SECURITY IMPROVEMENT: Verify user can only access their own workspace
     if user_uid != current_user.uid:
+        log_security_event("unauthorized_access", current_user.uid, f"Attempted to access workspace: {user_uid}")
         raise HTTPException(status_code=403, detail="Access denied")
+
     
     regs = (
         db.query(WorkspaceRegulation)
@@ -375,7 +445,8 @@ def get_workspace(
     ]
 
 @app.post("/api/regulations/wizard_search")
-def wizard_search(payload: dict):
+@limiter.limit("30/minute")
+def wizard_search(request: Request, payload: dict):
     source_type = payload.get("sourceType")
     query = payload.get("query", "")
     mode = payload.get("mode", "")
@@ -427,7 +498,9 @@ def get_user_profile(
     """
     # SECURITY IMPROVEMENT: Verify user can only access their own profile
     if uid != current_user.uid:
+        log_security_event("unauthorized_access", current_user.uid, f"Attempted to access profile: {uid}")
         raise HTTPException(status_code=403, detail="Access denied")
+
     
     user = db.query(User).filter(User.uid == uid).first()
 
@@ -453,8 +526,11 @@ def api_all_granules():
     } 
 
 @app.get("/api/regulations/local_search")
-def local_regulation_search(q: str = Query(..., description="Search topic across local granules")):
-
+@limiter.limit("30/minute")
+def local_regulation_search(
+    request: Request,
+    q: str = Query(..., description="Search topic across local granules")
+):
     try:
         results = search_local_granules(q)
         return {"query": q,"results_count": len(results), "results": results,}
@@ -480,7 +556,11 @@ def list_local_packages():
     }
 
 @app.get("/api/regulations/search")
-def search_regulations(q: str = Query(..., description="Topic, package ID, CFR, or doc number")):
+@limiter.limit("30/minute")
+def search_regulations(
+    request: Request,
+    q: str = Query(..., description="Topic, package ID, CFR, or doc number")
+):
     """
     Unified regulation search across:
     - Federal Register topics
@@ -543,7 +623,9 @@ async def get_regulation_text(granule_id: str):
     }
 
 @app.post("/api/rag/run_compliance")
+@limiter.limit("5/hour")
 async def run_rag_compliance(
+    request: Request,
     payload: dict,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
@@ -552,106 +634,118 @@ async def run_rag_compliance(
     Runs RAG compliance check on a user's uploaded file
     against selected workspace regulations.
     """
-    # SECURITY IMPROVEMENT: Use authenticated user UID
-    user_uid = current_user.uid
-    file_id = payload.get("file_id")
-    regulation_ids = payload.get("regulation_ids", [])
-    supplier_id = payload.get("supplier_id")
-    
-    if not file_id:
-        raise HTTPException(status_code=400, detail="Missing file_id")
-    
-    if not regulation_ids:
-        raise HTTPException(status_code=400, detail="No regulations selected")
-    
-    result = get_user_file_path(user_uid, file_id)
-    if not result:
-        raise HTTPException(status_code=404, detail="File not found")
-    
-    file_path, file_entry = result
-    
-    # Load workspace regulations
-    regs = (
-        db.query(WorkspaceRegulation)
-        .filter(
-            WorkspaceRegulation.user_uid == user_uid,
-            WorkspaceRegulation.regulation_id.in_(regulation_ids)
-        )
-        .all()
-    )
-    
-    if not regs:
-        raise HTTPException(status_code=404, detail="No matching regulations found")
-    
-    # Build compliance regulation objects
-    regulation_objs = []
-    for reg in regs:
-        regulation_objs.append({
-            "Reg_ID": reg.regulation_id,
-            "Requirement_Text": reg.description or reg.name or "",
-            "Risk_Rating": reg.risk or "",
-            "Target_Area": reg.category or "",
-            "Dow_Focus": reg.region or ""
-        })
-    
-    # Run compliance check with error handling
-    error_msg = None
     try:
-        checker = RAGComplianceChecker(
-            pdf_path=file_path,
-            regulations=regulation_objs
-        )
-        results = checker.run_check()
-        summary = checker.dashboard_summary(results)
-    except Exception as e:
-        print("RAG ERROR:", e)
-        traceback.print_exc()
-        error_msg = str(e)
-        results = []
-        # Fallback summary with same keys UI expects
-        summary = {
-            "status": "error",
-            "action": "RAG Compliance Check",
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "industry": None,
-            "regulations_checked": len(regulation_objs),
-            "compliance_score": 0.0,
-            "high_risk_gaps": 0,
-            "gap_details": [],
-            "details": "Compliance engine failed. Please retry or review logs."
-        }
+        
+        validation_data = ComplianceCheckValidation(**payload)
+        
+        user_uid = current_user.uid
+        file_id = validation_data.file_id
+        regulation_ids = validation_data.regulation_ids
+        supplier_id = validation_data.supplier_id
+        
+        logger.info(f"Compliance check started | User: {user_uid} | File: {file_id} | Regulations: {len(regulation_ids)}")
 
-    try:
-        audit_save_result = upsert_audit_to_neo4j(
-            user_uid=user_uid,
-            file_id=file_id,
-            supplier_id=supplier_id,
-            results=results,
-            summary=summary,
-            metadata={
-                "file_name": file_entry.get("original_name"),
-                "regulation_count": len(regulation_objs)
-            }
+        result = get_user_file_path(user_uid, file_id)
+        if not result:
+            raise HTTPException(status_code=404, detail="File not found")
+
+        file_path, file_entry = result
+
+       
+        regs = (
+            db.query(WorkspaceRegulation)
+            .filter(
+                WorkspaceRegulation.user_uid == user_uid,
+                WorkspaceRegulation.regulation_id.in_(regulation_ids)
+            )
+            .all()
         )
+
+        if not regs:
+            raise HTTPException(status_code=404, detail="No matching regulations found")
+
         
-        if not audit_save_result.get("ok"):
-            print(f"⚠️ Failed to save audit to Neo4j: {audit_save_result.get('error')}")
-        else:
-            print(f"✅ Audit saved to Neo4j: {audit_save_result.get('audit_id')}")
+        regulation_objs = []
+        for reg in regs:
+            regulation_objs.append({
+                "Reg_ID": reg.regulation_id,
+                "Requirement_Text": reg.description or reg.name or "",
+                "Risk_Rating": reg.risk or "",
+                "Target_Area": reg.category or "",
+                "Dow_Focus": reg.region or ""
+            })
+
+       
+        error_msg = None
+        try:
+            checker = RAGComplianceChecker(
+                pdf_path=file_path,
+                regulations=regulation_objs
+            )
+
+            results = checker.run_check()
+            summary = checker.dashboard_summary(results)
+
+        except Exception as e:
+            print("RAG ERROR:", e)
+            traceback.print_exc()
+            error_msg = str(e)
+            results = []
+
+            
+            summary = {
+                "status": "error",
+                "action": "RAG Compliance Check",
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "industry": None,
+                "regulations_checked": len(regulation_objs),
+                "compliance_score": 0.0,
+                "high_risk_gaps": 0,
+                "gap_details": [],
+                "details": "Compliance engine failed. Please retry or review logs."
+            }
+
+        try:
+            audit_save_result = upsert_audit_to_neo4j(
+                user_uid=user_uid,
+                file_id=file_id,
+                supplier_id=supplier_id,
+                results=results,
+                summary=summary,
+                metadata={
+                    "file_name": file_entry.get("original_name"),
+                    "regulation_count": len(regulation_objs)
+                }
+            )
+            if not audit_save_result.get("ok"):
+                print(f"Failed to save audit to Neo4j: {audit_save_result.get('error')}")
+            else:
+                print(f" Audit saved to Neo4j: {audit_save_result.get('audit_id')}")
+        except Exception as e:
+           
+            print(f" Neo4j save error (non-fatal): {e}")
+            traceback.print_exc()
+            audit_save_result = {"ok": False}
+
         
+        score = summary.get("compliance_score", 0)
+        log_compliance_check(user_uid, file_id, len(regulation_objs), score)
+
+        return {
+            "status": "success" if error_msg is None else "error",
+            "file": file_entry["original_name"],
+            "results": results,
+            "summary": summary,
+            "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None,
+            "error": error_msg,
+        }
+        
+    except ValueError as ve:
+        logger.warning(f"Validation error | User: {current_user.uid} | Error: {str(ve)}")
+        raise HTTPException(status_code=400, detail=str(ve))
     except Exception as e:
-        # Don't fail the whole request if Neo4j save fails
-        print(f" Neo4j save error (non-fatal): {e}")
-        traceback.print_exc()
-    
-    return {
-    "status": "success" if error_msg is None else "error",
-    "file": file_entry["original_name"],
-    "results": results,
-    "summary": summary,
-    "audit_id": audit_save_result.get("audit_id") if audit_save_result.get("ok") else None,
-    "error": error_msg,  
-}
+        log_error(current_user.uid, "/api/rag/run_compliance", e)
+        raise HTTPException(status_code=500, detail="Compliance check failed")
 
 @router.get("/api/v1/obligations/all")
 def get_all_obligations():
@@ -684,9 +778,11 @@ def toggle_regulation(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    # SECURITY IMPROVEMENT: Verify user can only toggle their own workspace
+ 
     if user_uid != current_user.uid:
+        log_security_event("unauthorized_access", current_user.uid, f"Attempted to toggle regulation for: {user_uid}")
         raise HTTPException(status_code=403, detail="Access denied")
+
     
     item = (
         db.query(WorkspaceRegulation)
@@ -722,7 +818,9 @@ def get_user_granules(
 ):
     # SECURITY IMPROVEMENT: Verify user can only access their own granules
     if user_uid != current_user.uid:
+        log_security_event("unauthorized_access", current_user.uid, f"Attempted to access granules for: {user_uid}")
         raise HTTPException(status_code=403, detail="Access denied")
+
     
     regs = (
         db.query(Regulation)
@@ -755,7 +853,9 @@ def get_basic_user_info(
 ):
     # SECURITY IMPROVEMENT: Verify user can only access their own info
     if uid != current_user.uid:
+        log_security_event("unauthorized_access", current_user.uid, f"Attempted to access basic info for: {uid}")
         raise HTTPException(status_code=403, detail="Access denied")
+
     
     db = SessionLocal()
     user = db.query(User).filter(User.uid == uid).first()
@@ -895,115 +995,99 @@ def run_ingest_script(audit_path: str) -> Dict[str, Any]:
 MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
 
 @app.post("/api/filehub/upload")
+@limiter.limit("10/minute")
 async def filehub_upload(
+    request: Request,
     file: UploadFile = File(...),
     file_type: str = Form(...),
     used_for: str = Form(...),
     department: str = Form(...),
     current_user: User = Depends(get_current_user)
 ):
-    user_uid = current_user.uid
-    print("Saving file for user:", user_uid)
-    print("Received filename:", file.filename)
-
-    # SECURITY IMPROVEMENT: Check file size
-    file.file.seek(0, 2)
-    size = file.file.tell()
-    await file.seek(0)
-    
-    if size > MAX_FILE_SIZE:
-        raise HTTPException(status_code=413, detail="File too large (max 50MB)")
-
-    # Read file
-    contents = await file.read()
-
-    # Save metadata + file
-    entry = save_user_file(
-        contents,
-        file.filename,
-        user_uid,
-        file_type,
-        used_for,
-        department
-    )
-
-    file_id = entry["id"]
-
-    # Get actual saved file path
-    file_path, _ = get_user_file_path(user_uid, file_id)
-    pdf_path = file_path
-
-    # Extract text
     try:
-        reader = PdfReader(pdf_path)
-        text = "\n".join([(p.extract_text() or "") for p in reader.pages])
-    except Exception as e:
-        print(" PDF extraction failed:", e)
-        text = ""
+        user_uid = current_user.uid
+        
+        # SECURITY ENHANCEMENT: Validate input
+        validation_data = FileUploadValidation(
+            file_type=file_type,
+            department=department,
+            used_for=used_for
+        )
+        
+        logger.info(f"File upload | User: {user_uid} | File: {file.filename} | Type: {file_type}")
+        
+        # SECURITY ENHANCEMENT: Validate file extension
+        validate_file_extension(file.filename)
+        
+        # SECURITY IMPROVEMENT: Check file size
+        file.file.seek(0, 2)
+        size = file.file.tell()
+        await file.seek(0)
+        
+        # SECURITY ENHANCEMENT: Validate file size
+        validate_file_size(size)
 
-    # LLM extraction
-    from src.core.metadata_extractor import run_full_extraction
-    extracted = run_full_extraction(text)
+        # Read file
+        contents = await file.read()
 
-    # Save to DB
-    db = SessionLocal()
-    row = db.query(FileExtraction).filter_by(file_id=file_id).first()
+        # Save metadata + file
+        entry = save_user_file(
+            contents,
+            file.filename,
+            user_uid,
+            file_type,
+            used_for,
+            department
+        )
 
-    if row:
-        row.extraction = extracted
-    else:
-        db.add(FileExtraction(
-            file_id=file_id,
-            user_uid=user_uid,
-            extraction=extracted
-        ))
+        file_id = entry["id"]
 
-    db.commit()
-    db.close()
+        # Get actual saved file path
+        file_path, _ = get_user_file_path(user_uid, file_id)
+        pdf_path = file_path
 
-    return {
-        "status": "success",
-        "file": entry,
-        "extraction": extracted
-    }
+        # Extract text
+        try:
+            reader = PdfReader(pdf_path)
+            text = "\n".join([(p.extract_text() or "") for p in reader.pages])
+        except Exception as e:
+            print("⚠️ PDF extraction failed:", e)
+            text = ""
 
-@app.get("/api/filehub")
-async def filehub_list(current_user: User = Depends(get_current_user)):
-    user_uid = current_user.uid
-    files = list_user_files(user_uid)
-    return {"files": files}
+        # LLM extraction
+        from src.core.metadata_extractor import run_full_extraction
+        extracted = run_full_extraction(text)
 
-@app.get("/api/filehub/{file_id}/view")
-async def filehub_view(
-    file_id: str, 
-    current_user: User = Depends(get_current_user)
-):
-    user_uid = current_user.uid
-    
-    result = get_user_file_path(user_uid, file_id)
-    if not result:
-        raise HTTPException(status_code=404, detail="File not found")
+        # Save to DB
+        db = SessionLocal()
+        row = db.query(FileExtraction).filter_by(file_id=file_id).first()
+        if row:
+            row.extraction = extracted
+        else:
+            db.add(FileExtraction(
+                file_id=file_id,
+                user_uid=user_uid,
+                extraction=extracted
+            ))
+        db.commit()
+        db.close()
+        
+        # SECURITY ENHANCEMENT: Log successful upload
+        log_api_call(user_uid, "/api/filehub/upload", "POST", "success")
 
-    file_path, entry = result
-
-    # Detect MIME type
-    import mimetypes
-    mime_type, _ = mimetypes.guess_type(entry["original_name"])
-    if not mime_type:
-        mime_type = "application/octet-stream"
-
-    def iterfile():
-        with open(file_path, "rb") as f:
-            yield from f
-
-    return StreamingResponse(
-        iterfile(),
-        media_type=mime_type,
-        headers={
-            "Content-Disposition": f'inline; filename="{entry["original_name"]}"',
-            "X-Content-Type-Options": "nosniff"
+        return {
+            "status": "success",
+            "file": entry,
+            "extraction": extracted
         }
-    )
+        
+    except ValueError as ve:
+        logger.warning(f"Validation error | User: {current_user.uid} | Error: {str(ve)}")
+        raise HTTPException(status_code=400, detail=str(ve))
+    except Exception as e:
+        log_error(current_user.uid, "/api/filehub/upload", e)
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.delete("/api/filehub/{file_id}")
 async def filehub_delete(
@@ -1016,7 +1100,9 @@ async def filehub_delete(
     if not ok:
         raise HTTPException(status_code=404, detail="File not found")
 
+    log_api_call(user_uid, f"/api/filehub/{file_id}", "DELETE", "success")
     return {"status": "deleted", "file_id": file_id}
+
 
 def get_gdrive_credentials():
     """Safely load Google Drive credentials, auto-delete invalid token.json"""
@@ -1202,6 +1288,7 @@ def setup_profile(
 
     db.commit()
 
+    log_api_call(uid, "/api/users/setup_profile", "POST", "success")
     return {"status": "success", "user_uid": uid}
 
 
@@ -2404,4 +2491,3 @@ def cleanup():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-

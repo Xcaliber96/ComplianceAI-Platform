@@ -423,5 +423,25 @@ class RatingRecalculationLog(Base):
     status = Column(String, default="IN_PROGRESS")  
     error_message = Column(Text, nullable=True)
 
+class Regulation(Base):
+    __tablename__ = "regulations"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, nullable=False)
+    agency = Column(String, nullable=True)
+    cfr_title = Column(String, nullable=True)
+    cfr_part = Column(String, nullable=True)
+    document_number = Column(String, unique=True, nullable=True, index=True)
+    publication_date = Column(String, nullable=True)
+    effective_date = Column(String, nullable=True)
+    regulation_type = Column(String, nullable=True)  # "final_rule", "proposed_rule", "notice"
+    summary = Column(Text, nullable=True)
+    full_text = Column(Text, nullable=True)
+    pdf_url = Column(String, nullable=True)
+    html_url = Column(String, nullable=True)
+    created_at = Column(String, default=lambda: datetime.utcnow().isoformat())
+    updated_at = Column(String, default=lambda: datetime.utcnow().isoformat(), onupdate=lambda: datetime.utcnow().isoformat())
+
+
 
 print("Loaded models.py (end)")
