@@ -1,3 +1,12 @@
+import os
+from dotenv import load_dotenv
+
+if os.path.exists("/etc/secrets/.env"):
+    load_dotenv("/etc/secrets/.env", override=True)
+else:
+    load_dotenv(".env", override=True)
+
+print("Environment loaded early")
 from fastapi import (
     FastAPI,
     UploadFile,
@@ -144,6 +153,24 @@ from src.api.order_routes import router as order_router
 import threading
 import time
 
+# import os
+# from dotenv import load_dotenv
+
+# if os.path.exists("/etc/secrets/.env"):
+#     load_dotenv("/etc/secrets/.env", override=True)
+# else:
+#     load_dotenv(".env", override=True)
+
+# print("Environment loaded early")
+
+# # Check if Render secret file exists, else fallback to local
+# if os.path.exists("/etc/secrets/.env"):
+#     load_dotenv("/etc/secrets/.env", override=True)
+#     print("Loaded environment from /etc/secrets/.env (Render)")
+# else:
+#     load_dotenv(".env", override=True)
+#     print("Loaded environment from local .env")
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -195,14 +222,6 @@ app.include_router(cfr_router)
 async def cors_preflight_handler(rest_of_path: str):
     # Return an empty 200/204 — CfileORSMiddleware will attach required CORS headers.
     return PlainTextResponse("", status_code=200)
-
-# Check if Render secret file exists, else fallback to local
-if os.path.exists("/etc/secrets/.env"):
-    load_dotenv("/etc/secrets/.env", override=True)
-    print("Loaded environment from /etc/secrets/.env (Render)")
-else:
-    load_dotenv(".env", override=True)
-    print("Loaded environment from local .env")
 
 app.add_middleware(
     CORSMiddleware,

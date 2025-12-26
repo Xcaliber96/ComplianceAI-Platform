@@ -71,20 +71,13 @@ __pycache__/
 *.tmp
 *.log
 
-# ===============================
-# 🧰 Backup / copies / generated files
-# ===============================
 src/core/backend - Copy.py
 * - Copy.py
 *.bak
 *.old
 
-# ===============================
-# ⚙️ Environment & virtual envs
-# ===============================
 .venv/
 venv/
-lib/
 .idea/
 .vscode/
 
