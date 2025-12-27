@@ -101,6 +101,5 @@ node_modules
 *.db
 filehub_uploads/
 .env
-cfr_data/ecfr_titles_json/
+cfr_data/**/*.xml
 cfr_data/ecfr_titles_2025-12-01/
-*.xml
