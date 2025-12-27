@@ -16,7 +16,6 @@ client_secret.json
 files_metadata.json
 compliance-473813-77510ba23840.json
 
-# 🔐 Environment & credentials
 .env
 token.json
 client_secret.json
@@ -30,7 +29,6 @@ compliance-*.json
 complianceai.db
 dow_regulatory_intelligence_*.json
 
-# 🧠 Internal API data
 *.db
 *.sqlite
 *.json
@@ -45,7 +43,6 @@ files_metadata.json
 compliance*.json
 *.backup
 
-# 🧰 Local system / log artifacts
 __pycache__/
 *.pyc
 *.log
@@ -53,17 +50,11 @@ __pycache__/
 __pycache__/
 *.pyc
 
-
-# ⚙️ Local tools
 uvicorn
 .git/
 .vscode/
 .idea/
 
-
-# ===============================
-# 🧠 Local data / cache directories
-# ===============================
 src/core/chroma_data/
 downloads/
 temp/
@@ -81,16 +72,10 @@ venv/
 .idea/
 .vscode/
 
-# ===============================
-# 🗃️ OS junk
-# ===============================
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ===============================
-# 📄 Example / sample data (optional)
-# ===============================
 sample_regulations.json
 admin-key.json
 src/core/files_metadata.json
