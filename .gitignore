@@ -101,9 +101,3 @@ node_modules
 *.db
 filehub_uploads/
 .env
-
-
-# CFR Data (too large for git)
-cfr_data/
-ecfr_titles/
-ecfr_titles_json/
